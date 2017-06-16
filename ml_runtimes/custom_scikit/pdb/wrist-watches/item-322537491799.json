@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Lewisville, Texas",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:18:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:18:14.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537491799",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE TIMEX WOMEN BLACK FACE QUARTZ WATCH T66",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-TIMEX-WOMEN-BLACK-FACE-QUARTZ-WATCH-T66-/322537491799",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225374917998080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "75067",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H5M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/R40AAOSw44BYSxbw/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "I don't know if this watch is working or not. I am offering it very reasonable, therefore it will be ok to repair it or just use it for parts. This watch looks so much better then the picture shows, my camera would just not cooperate. You pay s/h $3.00, I accept pay pal.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3253",
+    "UserID": "gerd914",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

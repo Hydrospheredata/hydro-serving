@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT17H50M17S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Amazing without defects!",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "498.35",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535377232",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/7-sweet-alhambra-turquoise-van-cleef-arpels-white-gold-18kt-bracelet-5-motifs-/222535377232",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "498.35",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:00:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:00:57.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Van Cleef & Arpels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm Bracelet Only",
+        "Name": "Type"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "7\" sweet alhambra turquoise van cleef arpels white gold 18kt bracelet 5 motifs",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "7\" sweet alhambra turquoise van cleef arpels white gold 18kt bracelet 5 motifssize:7\" Lcondition;amazing-new -no damage!coming with dust bag ,box and paper.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225353772328080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "leonfernande0",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Green Bay, Wisconsin",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/u2UAAOSwcgNZIlwJ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/3r4AAOSw0hlZIlwQ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/GeMAAOSwGJlZIlwL/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/Q44AAOSww5hZIlwK/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/8RgAAOSws5pZIlwZ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/G-4AAOSwcB5ZIlwL/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/iY8AAOSw-K9ZIlwR/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/xc8AAOSwR29ZIlwR/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDk3Ng==/z/P78AAOSwYlRZIlwR/$_32.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "PostalCode": "54313"
+}

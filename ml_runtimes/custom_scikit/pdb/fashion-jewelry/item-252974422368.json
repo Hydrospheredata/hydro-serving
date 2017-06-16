@@ -1,0 +1,1218 @@
+{
+  "ReturnPolicy": {
+    "Description": "Please use the ebay managed returns process as refunds cannot be issued outside of ebay",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "252974422368",
+  "TimeLeft": "P29DT9H15M17S",
+  "ListingStatus": "Active",
+  "Title": "v2f Handmade Pearl & Diamante Backdrop Necklace Bracelet & Hook Earrings Set",
+  "ConditionDescription": "New - Handmade to order",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "US",
+    "EuropeanUnion",
+    "CA",
+    "AU"
+  ],
+  "PaymentAllowedSite": [
+    "Netherlands",
+    "Belgium_French",
+    "Poland",
+    "Belgium_Dutch"
+  ],
+  "CurrentPrice": {
+    "value": "30.99",
+    "_currencyID": "GBP"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "39.92",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-04T21:06:32.000Z",
+  "Storefront": {
+    "StoreName": "Jessies Handmade Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=896225966"
+  },
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "50692",
+  "EndTime": "2017-07-04T21:06:32.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Colour",
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Ivory Cream",
+        "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/emcAAOSwFV9X0~AI/$_57.JPG?set_id=8800005007"
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "Ivory Cream",
+            "White"
+          ],
+          "Name": "Colour"
+        },
+        {
+          "Value": [
+            "16\"",
+            "17\"",
+            "18\"",
+            "19\""
+          ],
+          "Name": "Necklace Length"
+        },
+        {
+          "Value": [
+            "4\"",
+            "6\"",
+            "8\"",
+            "10\"",
+            "12\""
+          ],
+          "Name": "Backdrop Length"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Ivory Cream",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "16\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "17\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "18\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "4\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "6\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "8\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "10\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White",
+              "Name": "Colour"
+            },
+            {
+              "Value": "19\"",
+              "Name": "Necklace Length"
+            },
+            {
+              "Value": "12\"",
+              "Name": "Backdrop Length"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "30.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "20"
+      }
+    ]
+  },
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alloy",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pearl (imitation)",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/v2f-Handmade-Pearl-Diamante-Backdrop-Necklace-Bracelet-Hook-Earrings-Set-/252974422368?var=",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Berkshire",
+  "Description": "Stunning handmade to order backdrop necklace, bracelet and earrings jewellery set Made using 10mm teardrop & 6mm round quality glass Faux Pearls with crystal diamantes and tiny silver plated spacers The necklace has a backdrop suitable for backless or low backed dresses The bracelet is the standard size of 7.5\" (19cm)please drop me a note if you would prefer a different size Earrings are on silver plated hooks(I have this design listed with the earrings on studs and also with a gold plated finish) Pretty organza gift bag included Please contact me if you have any queries and I will do my very best to help Shipping informationI always aim to make and post within 3-5 working daysIn a rush? Please contact me and I will do my best to prioritise your orderContactjessiesjewelsuk@gmail.comI handmake everything to order and am happy to customise my designs where possible, so please don't hesitate to contact me with your requirementsReturns PolicyReturns can only be accepted via ebays Managed Returns ProcessEverything is handmade to order so please double check sizes before orderingThank youjjx",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jessies.jewellery",
+    "FeedbackScore": "8544",
+    "FeedbackRatingStar": "Green"
+  },
+  "QuantityThreshold": "10",
+  "PaymentMethods": "PayPal",
+  "GlobalShipping": "false",
+  "Quantity": "800",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XMcAAOSwdIFX0--w/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QvgAAOSwOdpX0-~W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/EiAAAOSwlndZNCDu/$_57.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/Z10AAOSwn-tZNCD1/$_57.GIF?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Sets"
+}

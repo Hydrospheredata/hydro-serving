@@ -1,0 +1,84 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "30041",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Majesti Watch Company Christmas-Santa Claus open face Pocket Watch This is a great gold toned pocket watch from majesti-singapore It features a glitter santa on the face and faux gems that move freely along the outside rim under glass Great collectible pieceapprox 1 1/2 inches across",
+  "StartTime": "2017-05-15T22:33:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ACIAAOSwIWVY8myg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IIUAAOSw5UZY8mye/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QZkAAOSwHHFY8mya/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IwMAAOSwSypY8myc/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Majesti",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "td62620",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "869",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "25",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3719516285008080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-14T22:33:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Majesti-Watch-Company-Christmas-Santa-Claus-open-face-Pocket-Watch-/371951628500",
+  "Location": "Cumming, Georgia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Majesti Watch Company Christmas-Santa Claus open face Pocket Watch",
+  "Storefront": {
+    "StoreName": "Antonys Collectible Treasures",
+    "StoreURL": "http://stores.ebay.com/id=243990432"
+  },
+  "ItemID": "371951628500",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT3H52M51S"
+}

@@ -1,0 +1,114 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "659.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Milford, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:51:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1342755504",
+    "StoreName": "lena-treas"
+  },
+  "CurrentPrice": {
+    "value": "659.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:51:23.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "282502276175",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Solid Gold",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "29mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Omega 14k Gold Mens Manual wind vintage watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-14k-Gold-Mens-Manual-wind-vintage-watch-/282502276175",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825022761758080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "06461",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H33M27S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/iHYAAOSwSlBYtiXl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/FYcAAOSw~AVYtiXq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/j7cAAOSwCU1YtiXu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/kCAAAOSwCU1YtiXy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/w7sAAOSwTuJYtiX4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/6jgAAOSw4CFYtiX~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/3L8AAOSwB-1YtiYJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/BfUAAOSwTM5YtiYt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/7voAAOSwhlZYtiYz/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Omega 14k Gold Mens Dress watch , Luxury , 29mm case - 6mm thick - A real gentlemens watch , show your Success on your wrist ! Some patina exists on the dial ,which is expected , the crystal is free of scratches , as well as the case absent of any major scratches - functions just fine as it should being a Omega BUY HERE......BUY WITH CONFIDENCE!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "186",
+    "UserID": "lena-treas",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

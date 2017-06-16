@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "1985.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922052140898080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/AL8AAOSwPh5ZMUPQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/-QkAAOSwlMFZMUPQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/PboAAOSwYlRZMUPP/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Balenciaga-Giant-12-Gold-City-Medium-Leather-Shoulder-Bag-Purple-/192205214089",
+  "ConvertedCurrentPrice": {
+    "value": "1399.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store About Us Contact Us Balenciaga Giant 12 Gold City Medium Leather Shoulder Bag Made in ItalyColor/material: prune leatherExterior design details: gold-tone hardware and stud detailing exterior pocket leather framed mirrorInterior design details: fabric lining interior pocketsMeasures 15in wide x 10in high x 5.75in deepTop handles drop 4inRemovable shoulder strap drops 9inZippered topPlease note: All measurements were taken by hand and are approximate; slight variations may occur.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1399.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Shepherdsville, Kentucky",
+  "Seller": {
+    "FeedbackScore": "511",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "la_via"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40165",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:54:05.000Z",
+  "Title": "Balenciaga Giant 12 Gold City Medium Leather Shoulder Bag, Purple",
+  "TimeLeft": "P29DT20H30M12S",
+  "EndTime": "2017-07-02T10:54:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Balenciaga"
+      },
+      {
+        "Name": "Style",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Size",
+        "Value": "NoSize"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205214089",
+  "Storefront": {
+    "StoreName": "La Via Store",
+    "StoreURL": "http://stores.ebay.com/id=1595839561"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "SKU": "11111059990000",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

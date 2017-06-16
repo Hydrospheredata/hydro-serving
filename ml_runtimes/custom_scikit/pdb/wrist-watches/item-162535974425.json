@@ -1,0 +1,65 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Orlando, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:02:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:02:36.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535974425",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Emporio Armani",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Emporio Armani AR5978 Watch",
+  "ConditionDescription": "No major damage. Works perfectly, may need a new battery",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Emporio-Armani-AR5978-Watch-/162535974425",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625359744258080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "32835",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H47M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wVEAAOSwmfhX5qjN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rUYAAOSw8w1X5qjP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g54AAOSwLF1X5qjS/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Emporio Armani AR5978",
+  "Seller": {
+    "PositiveFeedbackPercent": "80.0",
+    "FeedbackScore": "12",
+    "UserID": "copedro",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Murfreesboro, Tennessee",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:33:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1350982416",
+    "StoreName": "First Cash Super Pawn"
+  },
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:33:31.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203408531",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "KC4958",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "020571103962",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Kenneth Cole Watch KC4958 *4100",
+  "ConditionDescription": "Pre-owned, works great and looks great! Includes box, original UPC tag, extra links and pins. *4100",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Cole-Watch-KC4958-4100-/192203408531",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922034085318080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "37129",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H25M46S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/LVYAAOSwvg9XYsQ6/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/9CgAAOSwepJXYsRB/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/QjMAAOSwc1FXYsRF/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/ONEAAOSwM4xXYsRZ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/icoAAOSwNuxXYsRc/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "Pre-owned, works great and looks great! Includes box, original UPC tag, extra links and pins. *4100",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "330",
+    "UserID": "first_cash",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

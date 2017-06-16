@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT4H43M14S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "290.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322542532372",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LOUIS-VUITTON-Original-Hair-Accessory-Barrette-Sweet-Monogram-Couple-/322542532372",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "290.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T15:58:40.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "RU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T15:58:40.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Louis Vuitton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Barrette",
+        "Name": "Style"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "France",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "LOUIS VUITTON Original  Hair Accessory \"Barrette Sweet Monogram\" Couple",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "AL",
+    "KH",
+    "LA",
+    "IQ",
+    "JO",
+    "LB",
+    "OM",
+    "YE",
+    "AF"
+  ],
+  "BidCount": "0",
+  "Description": "Louis Vuitton Barrette Sweet Monogram, Gold and Multi-Color, Length: 1.9\". New, never worn. With box & dust bag.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225425323728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "horland88",
+    "FeedbackScore": "875",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Moscow",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rK8AAOSw4CFYzQp4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rTkAAOSw4CFYzQp8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/W40AAOSwTM5YzQqC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MkwAAOSwCU1YzQqL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qh0AAOSwOgdYzQqQ/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

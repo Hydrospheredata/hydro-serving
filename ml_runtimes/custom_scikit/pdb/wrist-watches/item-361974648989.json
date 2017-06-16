@@ -1,0 +1,181 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "58.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SvkAAOSwCQZZB5At/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HAoAAOSwhvFZB5BB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Q3AAAOSwtGlZB5BQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Storefront": {
+    "StoreName": "Lewisburg Diamond and Gold",
+    "StoreURL": "http://stores.ebay.com/id=182869238"
+  },
+  "Country": "US",
+  "Seller": {
+    "UserID": "lewisburggold",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3041",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "StartTime": "2017-05-08T20:25:29.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "Watch is working great.",
+  "Title": "Vintage Avon Quartz Heart Shape Watch - 5850",
+  "Quantity": "1",
+  "ItemID": "361974648989",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Avon-Quartz-Heart-Shape-Watch-5850-/361974648989",
+  "QuantitySold": "0",
+  "PostalCode": "24901",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This auction is for a avon heart shape quartz wristwatch. Watch is working well. Face measures 15mm. Case measures 28mm. If you have any questions please feel free to ask. Thanks for looking and have a good day.",
+  "HitCount": "13",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "5850",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "heart",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Black",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "28mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "15mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "na",
+        "Name": "Model"
+      },
+      {
+        "Value": "1980-1989",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "0",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "NA",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "no",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619746489898080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-07T20:25:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Lewisburg, West Virginia",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "58.99"
+  },
+  "TimeLeft": "P7DT2M38S"
+}

@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/jtMAAOSwMgdXyG~n/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/Ct8AAOSwFV9XyG~Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/hKgAAOSwknJXyG~b/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/compela-black-gray-patchwork-mink-fur-shoulder-handbag-purse-/371938614369",
+  "ConvertedCurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "no defects noted",
+  "Title": "compela black gray patchwork mink fur shoulder handbag purse",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Memphis, Tennessee",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "9738",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "deliciousvintage13"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "38117",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-03T17:45:05.000Z",
+  "HitCount": "10",
+  "TimeLeft": "PT1H32M16S",
+  "EndTime": "2017-06-02T17:45:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "fur"
+      },
+      {
+        "Name": "Brand",
+        "Value": "compela"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "check"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371938614369",
+  "Storefront": {
+    "StoreName": "deliciousvintage&amp;more",
+    "StoreURL": "http://stores.ebay.com/id=107809868"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719386143698080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

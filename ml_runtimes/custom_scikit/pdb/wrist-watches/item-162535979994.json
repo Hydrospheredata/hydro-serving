@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AR",
+  "TimeLeft": "P29DT21H51M43S",
+  "Location": "Capital Federal, Buenos Aires",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:06:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090425867",
+    "StoreName": "BSASCLOCK"
+  },
+  "SecondaryCategoryID": "57720",
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:24.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "AUREOLE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ItemID": "162535979994",
+  "HandlingTime": "5",
+  "Description": "- AUREOLE WRISTWATCH AUTOMATIC - CALENDER - CENTRAL SECONDS - WORKING - 25 JEWELS INCABLOC - MOVEMENT AUTOMATIC - 42MM DIAMETER - \u00a0 RELOJ DE PULSERA AUREOLE AUTOMATICO - CALENDARIO \u00a0- SEGUNDERO CENTRAL - FUNCIONANDO - 25 JEWELS INCABLOC - MAQUINA AUTOMATICA - 42MM DIAMETRO -\u00a0 L437 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUREOLE-WRISTWATCH-AUTOMATIC-CALENDER-CENTRAL-SECONDS-WORKING-/162535979994",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625359799948080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk0WDkyNg==/z/hwkAAOSwxYxUzM4x/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA1WDk5Nw==/z/pZwAAOSw2s1UzM42/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEyWDgyNQ==/z/wLAAAOSw1vlUvYdc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU1WDk3MQ==/z/WcoAAOSwm8VUzM4z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjU0WDc1NA==/z/54MAAOSw-W5UvYdN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzExWDk0MA==/z/yRUAAOSw2s1UvYdS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU0WDk3MQ==/z/ycIAAOSw2s1UvYdX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEwNTE=/z/6KgAAOSw-W5UvYda/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU4WDkyNg==/z/AqUAAOSwm8VUvYdU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA5WDEwNDY=/z/A5kAAOSwm8VUvYdf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgzWDk3MQ==/z/A9QAAOSwm8VUvYdi/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "AUREOLE WRISTWATCH AUTOMATIC - CALENDER - CENTRAL SECONDS - WORKING -",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "620",
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

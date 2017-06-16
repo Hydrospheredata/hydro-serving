@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921372736788080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDIy/z/o14AAOSwWxNY0sJu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDc0/z/nhMAAOSwTM5Y0sJv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5NzE=/z/rFEAAOSwSlBY0sJw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNTAw/z/q~gAAOSwSlBY0sJu/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Carhartt-Mens-Shoulder-Bag-Camo-Laurel-Shipping-Included-/192137273678",
+  "ConvertedCurrentPrice": {
+    "value": "171.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Carhartt Men's Shoulder Bag Camo Laurel by Carhartt Ships from UK Supplier Other information: I02159364000 Related Searches: Carhartt, Carhartt Bags Weight: 1 kg",
+  "Title": "Carhartt Men's Shoulder Bag Camo Laurel. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "171.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-22T18:28:42.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P18DT2H4M44S",
+  "EndTime": "2017-06-20T18:28:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Carhartt"
+      },
+      {
+        "Name": "MPN",
+        "Value": "119275977"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137273678",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:127429366:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

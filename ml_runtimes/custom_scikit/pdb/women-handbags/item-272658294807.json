@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726582948078080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUxNVgxNjAw/z/dpMAAOSwBadTo2x3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/Wk0AAOSwhh5To2x8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzM1gxNjAw/z/~aMAAOSwFTRTo2yB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/Z7AAAOSw-ndTo2yG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIxN1gxNjAw/z/aR0AAOSwo8hTo2yL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzcx/z/VVwAAOSw8lBTo2yQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Va4AAOSw8lBTo2yV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/aHkAAOSw-ndTo2yb/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-PINK-Duffle-Zebra-travel-luggage-bag-gray-black-white-/272658294807",
+  "ConvertedCurrentPrice": {
+    "value": "84.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "~ Pink ~ Duffle Bag by Victoria's Secret Super cute full-size duffle bag, featuring: Reinforced canvas construction Platform bottom Zip closure Interior hanging slip pocket, 9\" x 6\" Double carry handles, 11\" drop Adjustable, removable shoulder strap Approx measurements: 19\" (L) x 10\" x 10\" Get a great deal on this highly-sought duffle bag! About Us Here at Penania's Secret Closet, we love to shop! We get great deals on hard-to-find products you will love, and pass the savings on to you! Note, on some of our items, the tags have been marked to prevent returns to the retail store. Payment We prefer Paypal. Payments due within 4 days of close of auction. Serious bidders only, please. Shipping and Handling We will ship your items by the next business day. Items ordered before our cutoff time will ship the same day. We typically offer USPS Priority Mail shipping, with a First-class option for economical shipping of smaller items. INTERNATIONAL BIDDERS: At this time, we ship to the US, proudly including APO/FPO- with tracking.Due to a package lost in Customs, we no longer ship internationally- sorry. If you are interested in more than one of our offerings, we will combine shipping! If we haven't activated a combined shipping rule, just contact us for a quote.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "84.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Union Lake, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "8316",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "penania"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48387",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-05-05T05:00:41.000Z",
+  "Title": "Victoria's Secret PINK ~Duffle~ Zebra, travel luggage bag, gray black white",
+  "TimeLeft": "P1DT12H9M17S",
+  "EndTime": "2017-06-04T05:00:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Animal Print"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272658294807",
+  "Storefront": {
+    "StoreName": "Penania&#39;s Secret Closet",
+    "StoreURL": "http://stores.ebay.com/id=1005471777"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "this cool Victoria's Secret Pink bag",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

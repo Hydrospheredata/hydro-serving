@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921430342738080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/5VkAAOSwax5Y222P/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Caterina-Lucchi-Ostro-Shoulder-Bag-rose-Brand-New-/192143034273",
+  "ConvertedCurrentPrice": {
+    "value": "353.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Ostro Shoulder Bag softly grained cowhide rose",
+  "Title": "Caterina Lucchi Ostro Shoulder Bag rose. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "353.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-29T08:17:15.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P24DT15H58M36S",
+  "EndTime": "2017-06-27T08:17:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Caterina Lucchi"
+      },
+      {
+        "Name": "MPN",
+        "Value": "915489061"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143034273",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:131205711:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

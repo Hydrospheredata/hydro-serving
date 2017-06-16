@@ -1,0 +1,175 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P7DT10H34M48S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Wire Wrapped Design",
+    "StoreURL": "http://stores.ebay.com/id=26875513"
+  },
+  "ConditionDescription": "Usually ships in 1-5 business days, but some items (especially some solid gold items) may take longer, as noting in shipping time below. Item is brand new, handmade, and gorgeous!",
+  "QuantitySold": "7",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "UA",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "172069446532",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2016-01-20T02:55:35.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nose-Ring-DIAMOND-Cut-24-ga-14k-SOLID-Y-Gold-Hoop-Cartilage-SPARKLE-Tragus-Helix-/172069446532",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-13T02:55:35.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": [
+          "Bridge/Earl",
+          "Ear",
+          "Eyebrow",
+          "Genital (Female)",
+          "Genital (Male)",
+          "Labret",
+          "Lip",
+          "Navel",
+          "Nipple",
+          "Nose",
+          "Tongue",
+          "Universal"
+        ],
+        "Name": "Body Area"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Nose Ring DIAMOND Cut 24 ga 14k SOLID Y Gold Hoop Cartilage SPARKLE Tragus Helix",
+  "ExcludeShipToLocation": [
+    "IQ",
+    "JO",
+    "OM",
+    "LB",
+    "TR",
+    "YE",
+    "AF",
+    "BD",
+    "PK"
+  ],
+  "Location": "Atlanta, Georgia",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1720694465328080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "wirewrappeddesign",
+    "FeedbackScore": "622",
+    "FeedbackRatingStar": "Purple"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "28",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1837",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/oi0AAOSwqrtWnvYL/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "PostalCode": "30308"
+}

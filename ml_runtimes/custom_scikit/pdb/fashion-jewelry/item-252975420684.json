@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "Description": "Item must be in unused condition with all tags attached, and everything returned in the condition as sent.  Buyer pays shipping and 10% restocking fee.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT23H57M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252975420684",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-KATE-SPADE-TAKE-BOW-DUSTY-EMERALD-GREEN-BOW-NECKLACE-/252975420684",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:08:12.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T12:08:12.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "KATE SDPADE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "TAKE A BOW",
+        "Name": "Theme"
+      },
+      {
+        "Value": "GOLD PLATED",
+        "Name": "Metal"
+      },
+      {
+        "Value": "DUSTY EMERALD GREEN",
+        "Name": "Color"
+      },
+      {
+        "Value": "32\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "098686567405",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT~KATE SPADE \"TAKE A BOW\" DUSTY EMERALD GREEN BOW NECKLACE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "IT'S ALWAYS A GOOD TIME TO ADD A LITTLE SHINE! GORGEOUS KATE SPADE NEW YORK \"TAKE A BOW\" NECKLACE COLOR: DUSTY EMERALD GREEN and GOLD 12k PLATED WITH ENAMEL COATING BRAND NEW AND GUARANTEED 100% AUTHENTIC FYI: This listing is for the necklace only. The 3rd picture shows the earrings and necklace. COMES WITH HANDY DRAWSTRING STORAGE BAG AND BEAUTIFUL KATE SPADE BOX PERFECT FOR GIFT-GIVING! MEASUREMENT: APPROX. 32\" IN LENGTH BOWS 3/4\" LONG HAS LOBSTER CLAW CLOSURE AND HANGING KATE SPADE LOGO CHARM WITH SPADE ~Sooooo CUTE!!! DON'T MISS OUT ON THIS BEAUTIFUL NECKLACE! Thank you for shopping with us. Check out our other items at: http://stores.ebay.com/siestakeyhandbagsandmore (Siesta Key Handbags and More)INTERNATIONAL BUYERS: We enjoy your business! We partner with eBay's Global Shipping Program, so that we may easily, with reasonable costs, ship to you overseas. Please note there may be additional shipping and duties/customs associated with your country. Thank you for looking! Returns only accepted if the item does not match the description. Please review the listing carefully and ask questions. In certain circumstances, if returns are accepted, the buyer pays all shipping and a 10% handling fee. THANK YOU and ENJOY SHOPPING!",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529754206848080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "roadster_blacklabs",
+    "FeedbackScore": "915",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Siesta Key Handbags and More",
+    "StoreURL": "http://stores.ebay.com/id=167907587"
+  },
+  "Quantity": "1",
+  "Location": "Sarasota, Florida",
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzAwWDU1OA==/z/p1oAAOSwB09YRyts/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NzIwWDcyMA==/z/sqwAAOSwB09YRyu5/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NjIxWDU3Ng==/z/bvwAAOSwHQ9WU4Px/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjA3WDUxMA==/z/j1kAAOSwo4pYRytq/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NzIwWDY5Nw==/z/wrEAAOSw-0xYRytt/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NzIwWDcyMA==/z/Ff0AAOSw6DtYRytv/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NzIwWDcyMA==/z/pKcAAOSwcUBYRyuq/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "34242"
+}

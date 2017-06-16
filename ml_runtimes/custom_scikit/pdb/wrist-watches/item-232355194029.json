@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Kingston, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:00:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:00:52.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355194029",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sottomarino",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Sottomarino Women's Watch",
+  "ConditionDescription": "Shows signs of wear and has scratches BUT has new battery",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sottomarino-Womens-Watch-/232355194029",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323551940298080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "12401",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H43M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/FLIAAOSw3v5YqfDX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/XOMAAOSw~AVYqfDZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/SBQAAOSwr~lYqfDa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/SUMAAOSwdGFYqfDb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/P2cAAOSwCU1YqfDd/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Sottomarino watch women's Pearl color on face Has scratches New battery Have original receipt It was $229 Real diamonds",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "349",
+    "UserID": "bblovesfashion",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

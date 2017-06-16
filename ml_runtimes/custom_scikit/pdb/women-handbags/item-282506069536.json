@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/p-IAAOSwn-tZMV8S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g7YAAOSwaeRZMV8S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sKUAAOSwcgNZMV8S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ctIAAOSwDiBZMV8U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vo0AAOSw-K9ZMV8V/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4MlgxNjAw/z/voMAAOSw-K9ZMV8U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/h-4AAOSwBt5ZMV8W/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TKQAAOSwIQdZMV8X/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XqEAAOSw~y9ZMV8X/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TcQAAOSwlndZMV8X/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hFgAAOSwaeRZMV8Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EcMAAOSwq1JZMV8Z/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Louis-Vuitton-Noe-Handbag-Purse-Damier-Azur-Canvas-/282506069536",
+  "ConvertedCurrentPrice": {
+    "value": "599.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic LV Noe in Damier Azur. Great used condition. Bag has some water stains on bottom and stains inside bag. Stored in dust bag with draw string. See pics for details. Please ask questions. Smoke and pet free home.",
+  "Title": "Authentic Louis Vuitton Noe Handbag Purse Damier Azur Canvas",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "599.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Westbury, New York",
+  "Seller": {
+    "FeedbackScore": "20",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "fortyfive2016"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11590",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:10:49.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P6DT23H2M35S",
+  "EndTime": "2017-06-09T13:10:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Coated canvas/leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Louis Vuitton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Damier Azur/Ivory"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Drawstring"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "13.5"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "8"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "26-29"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282506069536",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825060695368080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

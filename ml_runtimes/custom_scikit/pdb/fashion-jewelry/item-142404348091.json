@@ -1,0 +1,118 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P1DT20H54M56S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "PRISTINE CONDITION...INCLUDES ST JOHN POUCH",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142404348091",
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T09:50:55.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-PIN-HANDBAG-RED-GOLD-TONE-/142404348091",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T09:50:55.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Rhinestones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Whimsical",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY...PIN...HANDBAG...RED/GOLD TONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "ST JOHN red & gold tone pin/brooch... handbag design... detailed in a quilted pattern with 12 fiery rhinestones on the body of the bag, 16 rhinestones around the lid and 12 additional around the handle (all in place)...St John hallmark logo charm on a chain hanging from the handle... flap opens with a hinged closure....very whimsical realistic design...secure pin on rear...size is over 1\" wide and over 1 1/4\" tall...mailing via USPS first class mail with tracking number for secure delivery.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424043480918080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/u0AAAOSwhQhY7bh-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/nHAAAOSwc-tY7bh5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/7e0AAOSwpkFY7biH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/NpgAAOSwB-1Y7biC/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "33154"
+}

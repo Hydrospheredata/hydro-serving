@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LNQAAOSwdGFYulBe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nbYAAOSw4CFYulBs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oyQAAOSwCU1YulB5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1A8AAOSwTM5YulCK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NuIAAOSwTuJYulCZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0hQAAOSwhlZYulCq/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Aimee-Kestenberg-Pebble-leather-Drawstring-Bucket-Bag-Sasha-NWOT-/292138000256",
+  "ConvertedCurrentPrice": {
+    "value": "141.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fierce Sasha. Say hello to a hipper hobo with the Sasha bag from Aimee Kestenberg. Crafted of supple, pebble leather, it has a handy drawstring top with magnetic closure, eye-catching hardware details, and a single, sturdy rolled handle. Lots of pockets, inside and out, give this edgy beauty a place-for-everything practicality. From Aimee Kestenberg.Style: SashaPebble leather, single rolled handle, drawstring with magnetic closure, back slip pocket, two front zip pocketsLined interior, back-wall zip pocket, two front-wall slip pocketsGray snake/charcoal. Snake area has shimmer to it.Measures approximately 15\"W x 11\"H x 6\"D with an 11\" strap drop; weighs approximately 1 lb, 9 ozBody/trim 100% leather; lining 100% polyesterBeautiful, soft, well made leather bag.QVC sell outImportedSmoke/pet free.No returns/refunds.",
+  "Title": "Aimee Kestenberg Pebble leather Drawstring Bucket Bag - Sasha-NWOT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "141.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Saint Joseph, Missouri",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "395",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "tweet_4"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "64506",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:10:25.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT23H2M7S",
+  "EndTime": "2017-07-02T13:10:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Aimee Kestenberg"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bucket Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Pebble Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray snake/Charcoal"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Drawstring"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "6"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "11"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292138000256",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921380002568080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

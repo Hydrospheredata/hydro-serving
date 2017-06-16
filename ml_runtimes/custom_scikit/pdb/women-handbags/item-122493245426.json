@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224932454268080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YAEAAOSwn-tZFgwd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/dJEAAOSw-3FZFgwd/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCKC-96639-McKleinUSA-OAK-GROVE-96639-Pink-Leather-Fly-Through-Checkpoint-Frien-/122493245426",
+  "ConvertedCurrentPrice": {
+    "value": "128.16",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKleinUSA OAK GROVE 96639 Pink Leather Fly-Through Checkpoint-Friendly Ladies Briefcase Front zipper pocket. Front pocket for files. Back pocket for accessories.*Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices.*Secure, detachable patent pending Fly-Through Checkpoint-Friendly laptop sleeve design.*Detachable laptop sleeve can be used as a separate case.*Laptop sleeve padded with high-density foam fits most laptops 15.4 inches in screen size.*Leather shoulder straps. Oak Grove 96639 (Pink) Italian Leather ladies' Fly-Through Checkpoint Friendly Briefcase Color : Pink Size : One Size Features :Front zipper pocket. Front pocket for files. Back pocket for accessories.Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices.Secure, detachable patent pending Fly-Through Checkpoint-Friendly laptop sleeve design.Detachable laptop sleeve can be used as a separate case.Laptop sleeve padded with high-density foam fits most laptops 15.4 inches in screen size.Leather shoulder straps.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "128.16",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "1533",
+    "PositiveFeedbackPercent": "96.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "virventurein"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCKC-96639-McKleinUSA OAK GROVE 96639 Pink Leather Fly-Through Checkpoint-Frien",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-05-12T19:25:15.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P9DT4H21M19S",
+  "EndTime": "2017-06-11T19:25:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "642154966391"
+      },
+      {
+        "Name": "Model",
+        "Value": "96639"
+      },
+      {
+        "Name": "MPN",
+        "Value": "96639"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein Company"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122493245426",
+  "Storefront": {
+    "StoreName": "virventurein",
+    "StoreURL": "http://stores.ebay.com/id=1409776454"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "MCKC-96639",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "true"
+}

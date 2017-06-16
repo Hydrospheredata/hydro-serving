@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1090.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "1090.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694667044",
+  "HandlingTime": "1",
+  "Description": "Description: Up for sale is military style Omega in good condition.this watch is working and it has been fully serviced. Manufacturer: Omega Movement: Cal. 260 Case Metal: SS Size:with the crown: 37.5mmwithout the crown: 36.5mmlug to lug: 44.5mm Bracelet: Black rubber strap with the original Omega buckle Shipping WorldWide.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Omega Manual Wind Cal. 260 Mens Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Manual-Wind-Cal-260-Mens-Wrist-Watch-/272694667044",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726946670448080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M7S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg4WDcxNg==/z/V0cAAOSwawpXqwkY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ZNoAAOSwvg9Xa7Ll/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5UAAAOSwnNBXa7Lq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5c4AAOSwnNBXa7Lu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xJMAAOSw3YNXa7MK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/sBoAAOSw-YVXnb~s/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "1090.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

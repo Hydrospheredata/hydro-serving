@@ -1,0 +1,141 @@
+{
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "South America",
+    "MX",
+    "RU",
+    "GR",
+    "IT"
+  ],
+  "QuantitySold": "0",
+  "Title": "OBAN, Scotland - Scottish Pewter POCKET WATCH - the perfect Scottish gift",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.6"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New without tags",
+  "Description": "OBAN, Scotland - Scottish Pewter POCKET WATCH - the perfect Scottish gift Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-03-22T11:33:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM4OA==/z/v3kAAOSwCU1Y0mDz/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "7",
+  "Country": "IE",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Scotland",
+        "Name": "Country"
+      },
+      {
+        "Value": "Oban",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Mullingar Pewter",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Product"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Roman Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Ireland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Lever",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "emerald-isle-gifts-usa",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "19057",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1321346690968080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T11:33:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.6"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Americas",
+    "Asia",
+    "AU"
+  ],
+  "ConditionDescription": "NEW",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Dublin 24, Ireland",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OBAN-Scotland-Scottish-Pewter-POCKET-WATCH-perfect-Scottish-gift-/132134669096",
+  "Storefront": {
+    "StoreName": "Emerald Isle Gifts",
+    "StoreURL": "http://stores.ebay.com/id=209969071"
+  },
+  "ItemID": "132134669096",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT16H43M8S"
+}

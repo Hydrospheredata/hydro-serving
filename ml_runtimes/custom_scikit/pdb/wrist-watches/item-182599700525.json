@@ -1,0 +1,68 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Fussa-shi",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:12:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090920315",
+    "StoreName": "smilefamily_2011"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:12:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599700525",
+  "HandlingTime": "10",
+  "Description": "CITIZEN T4-G02646 Men's Watch Quartz Battery replaced 100%AUTHENTIC. Hy0014 Wrist size: free Condition: Looks somewhat Used. Guaranteed 100% Authentic \u3000 \u30fbPaypal only. All items are shipping from Japan. \u2605International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer\u2019s responsibility. Please check with your country\u2019s customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \u201cgifts\u201d - US and International government regulations prohibit such behavior.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CITIZEN T4-G02646 Men's Watch Quartz Battery replaced 100%AUTHENTIC. Hy0014",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CITIZEN-T4-G02646-Mens-Watch-Quartz-Battery-replaced-100-AUTHENTIC-Hy0014-/182599700525",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825997005258080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT15H39M13S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/o74AAOSwA29Y41wY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/pBAAAOSwA29Y41wa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/xmwAAOSwU8hY41wa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/KCoAAOSw03lY41we/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/LTcAAOSwUp1Y41wg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/TkMAAOSwzgBY41wi/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "45",
+    "UserID": "smilefamily_2011",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

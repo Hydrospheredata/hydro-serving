@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQ0MFgxMDE4/z/BiUAAOSw8lpZLWua/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTU5N1gxMzU0/z/hTAAAOSwuMZZLWum/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTU5N1gxNTY2/z/zpAAAOSwY3BZLWut/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTU5N1gxMzU0/z/sfcAAOSwIaFZLWu9/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDQy/z/CNEAAOSw8lpZLWvC/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwN1gxNTk1/z/9C4AAOSwX9FZLWvR/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTQ0MFgxMTY5/z/3hcAAOSwYlRZLWvN/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTU5NVg5NDc=/z/GWcAAOSwhvFZLWvP/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTU5N1g1NDg=/z/968AAOSwX61ZLWvV/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BETSEY-JOHNSON-Home-Sweet-Xmas-Home-GINGERBREAD-HOUSE-CROSS-BODY-PURSE-NEW-/222532619163",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BETSEY JOHNSON GINGERBREAD HOUSE HANDBAG CROSS BODY PURSE NEW WITH TAGS FeaturesCrossbody shaped in a gingerbread house crafted in synthetic leather.Features a candy motif and glitter embellishmentsSide logo plaque. Custom golden hardware.Chain & faux leather strap, 23\" drop Zip closure with wrapped candy zip pull. Lined interior. 6\"W x 8\"H x 4\"DFREE SHIPPING. US SHIPPING ONLY. PLEASE EMAIL ANY QUESTIONS.",
+  "Title": "BETSEY JOHNSON Home Sweet Xmas Home GINGERBREAD HOUSE  CROSS BODY PURSE NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Pittston, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "366",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bmbboutique"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "18643",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:45:26.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P4DT22H35M10S",
+  "EndTime": "2017-06-07T12:45:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Style",
+        "Value": "Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "6"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "22"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Shade",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532619163",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225326191638080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

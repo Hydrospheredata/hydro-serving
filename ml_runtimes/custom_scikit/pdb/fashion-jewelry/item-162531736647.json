@@ -1,0 +1,157 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT15H43M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "78.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162531736647",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAMPLE-SALE-BESS-HEITNER-MULTI-GRAY-SHARD-JASPER-BIB-/162531736647",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "78.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T06:43:35.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-27T06:43:35.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bess Heitner Jewelry Designs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Jasper",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color, Gray",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SAMPLE SALE - BESS HEITNER MULTI GRAY SHARD JASPER BIB",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "WAS $298.........CLEARANCE SALE $78I am a NY-based jewelry designer specializing in one-of-a-kind and limited edition pieces for women who want to make a unique statement at work and in their personal life. Every design contains precious and unusual stones collected over many years. Each piece is handmade in my New York City studio. This unique necklace with a strong global vibe goes with everything and features multi tones of matte gray and pale apricot toned apricot shards. Only ONE. 20\"",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625317366478080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bestom742",
+    "FeedbackScore": "649",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Bess Heitner Handmade Jewelry Salon",
+    "StoreURL": "http://stores.ebay.com/id=159728212"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg4NTg=/z/mTcAAOSwvzRXzA-6/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10010"
+}

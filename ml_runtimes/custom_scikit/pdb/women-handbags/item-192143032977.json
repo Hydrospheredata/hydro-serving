@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921430329778080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMlgxNTAw/z/hg4AAOSwWxNY222Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxNlgxNTAw/z/hi4AAOSwWxNY222R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU3WDE1MDA=/z/qDsAAOSwhQhY222Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2OFgxNTAw/z/XQ8AAOSw2gxY222R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDg3/z/5g0AAOSwax5Y222S/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUxWDUwMA==/z/5ecAAOSwax5Y222R/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BREE-Womens-Nola-3-Cross-body-Bag-Brand-New-/192143032977",
+  "ConvertedCurrentPrice": {
+    "value": "352.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BREE Women's Nola 3 Cross-body Bag Ships from UK Supplier Other information: 206_35x28x10 cm (B x H x T) Related Searches: Cross-Body Bag Bags, Cross-Body Bag Weight: 0.9 kg",
+  "Title": "BREE Women's Nola 3 Cross-body Bag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "352.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-29T08:17:06.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P24DT15H58M37S",
+  "EndTime": "2017-06-27T08:17:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "915891465"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143032977",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:134946915:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,186 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with defects",
+  "ConditionDescription": "Missing Luggage tag",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "348.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Jacobs-Preppy-Nylon-Eliz-a-baby-Diaper-bag-New-348-Carob-brown-tote-/172691217597",
+  "QuantitySold": "0",
+  "TimeLeft": "P20DT2H15M59S",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "MR",
+    "MU",
+    "YT",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "AF"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "269.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Sixes, Oregon",
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "PostalCode": "97476",
+  "StartTime": "2017-05-23T17:39:24.000Z",
+  "HitCount": "24",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Bag Depth",
+        "Value": "6"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14.5"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Size",
+        "Value": "Extra Large"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "ListingType": "FixedPriceItem",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "SecondaryCategoryID": "169295",
+  "EndTime": "2017-06-22T17:39:24.000Z",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726912175978080_1.jpg",
+  "Site": "US",
+  "BestOfferEnabled": "true",
+  "ConditionID": "1750",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFg5NTE=/z/GugAAOSwvgdW4dhd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3OTg=/z/4h0AAOSwu1VW7K5~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3OTg=/z/GucAAOSwpIdW7K6A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/KaMAAOSwAuNW7K6A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3OTg=/z/GuQAAOSwpIdW7K5~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/cEIAAOSws4JW7K6B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/H~sAAOSwwpdW7K6A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/KloAAOSwMORW7K5~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3OTg=/z/22wAAOSw2ENW7K5~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/KngAAOSwMORW7K6B/$_1.JPG?set_id=880000500F"
+  ],
+  "Storefront": {
+    "StoreName": "AnAuthentic",
+    "StoreURL": "http://stores.ebay.com/id=35125981"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "269.99",
+    "_currencyID": "USD"
+  },
+  "AutoPay": "false",
+  "NewBestOffer": "false",
+  "Description": "Quick Item Details MSRP: 348.00 Brand: Marc Jacobs Conditions Specifics: Missing Shoulder strap and ID tag Style Name: Elizababy preppy Nylon Manufacturer Color Name: carob brown Size US: 0.0 Size On Shoe: 0.0 Why Buy from AnAuthentic 30 Day ANY Reason Return Policy Every Item Is Guaranteed Authentic Purchased From An Authorized Retail Store 13+ Years of Experience Authenticating & Selling Designer Items Over 20,000 Happy Customers Every Item is Inspected 5 Times to Ensure Accuracy We Show Photos of the Actual Item You Will Get* No Restocking Fee Authentic Marc Jacobs Carob Brown Preppy Elizababy diaper bag.A signature style gets upsized for toting everything both you and baby could need, designed with an abundance of exterior pockets to easily store bottles and other essentials, as well as plenty of space inside. MISSING the wide, adjustable strap makes for comfortable carrying while a coordinating changing pad ensures easy on-the-go clothing and diaper changes. Top zip closure. Optional, adjustable strap is MISSING Exterior slip pockets; removable ID tag. is MISSING Interior zip, wall and cell-phone pockets; changing pad. Logo-jacquard lining. Nylon with PVC trim. By MARC BY MARC JACOBS; imported14.5\" L x 12.25\" H x 6.5\" DNew with tag from department store only and while new is MISSING both the Shouler Strap and the hanging ID tag. Please look at the photos as normally all but the first and last are of the actual bag and the 2 stock photos are given to show accurate color and size representation.Retail is $348.00 You will love them and get so many compliments! Condition: I bought this with out original tags at a major department store. It may have been a customer return or display item and either has no tag or only a retail store tag attatched. It also may have a secreted number or marked inner label to prevent store return at full price. Specifically we found the following issues: Missing Shoulder strap and ID tag. They may also have signs of being handled and tried on in store so please review the photos as the are of the actual item you will get. ( *But I do often add one or two obvious professional stock photos of the shoe, from other authorized retailers, for your comparison and authentication.) All the items I sell are purchased by me from a brand authorized department store and stored in a smoke free, pet free enviroment. Always 100% guaranteed authentic Please check out the other Authentic Designer items that I am \"selling at An Authentic\". Payment must be made within 3 days. Good luck! Return Policy You may return this item for any reason! All customers wishing to return an item must return it with in 30 days of receipt, in the same condition sent. We try very hard in the listing to give you the best information we have on fit and sizing but if in doubt, please feel free to ask for additional measurements before purchase. If there is an undocumented issue with the item please contact us immediately so that we may rectify the situation. We want all of our customers to be happy with their purchases. Shipping Information If this item is not being offered through the ebay global shipping program then please contact me - prior to bidding - for international shipping rates and to see if I ship to your country. The shipping rates are typically $40 for USPS priority mail international and $50 for USPS express mail but can be higher or lower based on country and weight. I put the actual value on customs forms (sorry, not gift) Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyers responsibility. Please check with your countrys customs office to determine what these additional costs will be prior to bidding or buying. All international sales are final. ( no returns on international sales) About AnAuthentic Normal 0 false false false MicrosoftInternetExplorer4 AnAuthentic offers a wide selection of some of the most desired and hard to find designer fashions. We hand pick our items from designer brands authorized retailers. We will only list an item after at least 5 thorough examinations of the item. We check all items for both authenticity and cosmetic issues. Only items we approve of, are ever listed so you are only getting authentic cream of the crop items. Once we purchase the items they are stored in a smoke free - pet free environment. We have been buying and selling authentic designer fashions for almost 15 years and we have studied and know how to spot fakes. Our goal is to make our customers happy so please buy from us with confidence. If you feel you cannot leave us great feedback then please let us know first, especially if there is anything we can do to change your experience for the better. We value you as a customer and want to help you look great at affordable prices. If you see something we can do to better- or that could help our customers (like you) have a better experience - please let us know. We welcome all advice and suggestions.",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "10002",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "anauthentic"
+  },
+  "Title": "Marc Jacobs Preppy Nylon Eliz-a-baby Diaper bag New $348 Carob brown tote",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "ItemID": "172691217597",
+  "SKU": "SB-15683-",
+  "SecondaryCategoryIDPath": "11450:169291:169295",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "HandlingTime": "1"
+}

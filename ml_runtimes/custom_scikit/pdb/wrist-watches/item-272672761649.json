@@ -1,0 +1,178 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QHsAAOSwc49Y8PY3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sCMAAOSww3tY8PZG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Xl0AAOSwCWFY8PZW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kB8AAOSw7XBY8PZn/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Storefront": {
+    "StoreName": "Lewisburg Diamond and Gold",
+    "StoreURL": "http://stores.ebay.com/id=182869238"
+  },
+  "Country": "US",
+  "Seller": {
+    "UserID": "lewisburggold",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3041",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "StartTime": "2017-05-15T18:21:39.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "Watch is not working.",
+  "Title": "Vintage Bulova 21j Watch 10BM Wristwatch",
+  "Quantity": "1",
+  "ItemID": "272672761649",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Bulova-21j-Watch-10BM-Wristwatch-/272672761649",
+  "QuantitySold": "0",
+  "PostalCode": "24901",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is for a vintage Bulova 10Bm wristwatch. Watch is not working. Face measures 11mm. Case measures 26mm. Total weight is 48.9 grams. If you have any questions please feel free to ask. Thanks for looking and have a good day.",
+  "HitCount": "84",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "5667",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "White",
+          "Yellow"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "28mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "0",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "6346326",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "1950-1959",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "10bm",
+        "Name": "Model"
+      },
+      {
+        "Value": "Stretch Bracelet",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726727616498080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-14T18:21:39.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Lewisburg, West Virginia",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "TimeLeft": "P13DT22H1M14S"
+}

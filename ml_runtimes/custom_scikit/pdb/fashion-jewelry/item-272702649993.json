@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT16H31M51S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272702649993",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DRAG-QUEEN-EXOTIC-CZ-SIAM-RED-NECKLACE-EARRINGS-PAGEANT-STAGE-SET-COSTUME-BRIDAL-/272702649993",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:14:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:14:29.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "DRAG QUEEN EXOTIC CZ SIAM RED NECKLACE EARRINGS PAGEANT STAGE SET COSTUME BRIDAL",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~ Siam Red Cubic Zirconia Crystal Necklace Set ~ Handmade Necklace Adjustable Cord To Fit All Neck Sizes(Simple To Replace Cord With Gold Chain) Earrings Post Backs With Rubber Backs Glamorous Spotlight Radiant ~CZ'S That Look Like Diamonds Are A Girl's Best Friend~",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2727026499938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dragqueenjewelry_0",
+    "FeedbackScore": "25",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "Iced Out Fashion Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1562152849"
+  },
+  "Quantity": "1",
+  "Location": "San Antonio, Texas",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTUw/z/YbsAAOSwdjNZC25t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTU3/z/vVkAAOSwjqVZC239/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4ODk=/z/cc0AAOSw-3FZC24O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/wrkAAOSwjqVZC24x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/kwUAAOSwX61ZC25X/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "78217"
+}

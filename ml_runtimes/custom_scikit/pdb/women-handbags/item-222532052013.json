@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjEy/z/OcMAAOSwhQhY5Amr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjEy/z/C5oAAOSwU8hY5Am2/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjEz/z/-owAAOSwAANY5AnF/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAINT-LAURENT-STUDDED-BLACK-BETTY-BAG-/222532052013",
+  "ConvertedCurrentPrice": {
+    "value": "660.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "SAINT LAURENT BETTY STUDDED CROSSBODY BAG CAN ALSO BE USED AS CLUTCH PREOWNED ORIGINALLY $1,980 COMES WITH DUSTBAG AND AUTHENTICITY CARD",
+  "Title": "SAINT LAURENT STUDDED BLACK BETTY BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "660.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "naomnegas_2"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90016",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T00:22:46.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT10H10M59S",
+  "EndTime": "2017-06-09T00:22:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "YSL, Yves Saint Laurent"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "STUDS"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532052013",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225320520138080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

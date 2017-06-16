@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921414576428080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/diMAAOSwCU1Y2VAf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/PF4AAOSwuLZY2VAf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/NEwAAOSwax5Y2VAf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/DwEAAOSw4A5Y2VAg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/mQQAAOSwWxNY2VAf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/U~AAAOSwuxFY2VAf/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Zip-pouch-purse-womens-Genuine-leather-Credit-card-Money-holder-DUDU-Woods-/192141457642",
+  "ConvertedCurrentPrice": {
+    "value": "71.15",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Leather zip pouch made in soft multicolor Nappa calfskin. A colourful card holder, ideal to keep in your purse and instantly find the most important things. A perfect accessory to always have at hand everything you need.",
+  "Title": "Zip pouch purse for womens Genuine leather Credit card Money holder DUDU Woods.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "71.15",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-27T17:47:06.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P23DT1H27M5S",
+  "EndTime": "2017-06-25T17:47:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DuDu"
+      },
+      {
+        "Name": "MPN",
+        "Value": "700289643"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141457642",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:108314381:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

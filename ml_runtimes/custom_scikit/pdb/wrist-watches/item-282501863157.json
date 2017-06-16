@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Woodhaven, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:35:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:35:53.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501863157",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swatch Irony",
+        "Name": "Model"
+      },
+      {
+        "Value": "Swatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Swatch Irony Watch Steel",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swatch-Irony-Watch-Steel-/282501863157",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825018631578080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "11421",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H3M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Q~AAAOSwdGFYyZlR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/EaUAAOSwSlBYyZlS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/hA8AAOSwB-1YyZlV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MdkAAOSwWxNYyZlc/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Used in great condition swatch irony rare design 2003",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "9",
+    "UserID": "goldrus16",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

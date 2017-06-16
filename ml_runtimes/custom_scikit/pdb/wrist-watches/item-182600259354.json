@@ -1,0 +1,137 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.99",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Birmingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T15:00:38.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "13.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T15:00:38.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600259354",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Emporio Armani",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Emporio Armani Black Stainless Steel Mens Watch **NO STRAP SPARES OR REPAIRS**",
+  "ConditionDescription": "SOLD AS SPARES OR REPAIRS",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Emporio-Armani-Black-Stainless-Steel-Mens-Watch-NO-STRAP-SPARES-REPAIRS-/182600259354",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826002593548080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "b368dt",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H55M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4Nlg5MDA=/z/8NgAAOSwBt5ZJEAG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM1WDgxMA==/z/Ne8AAOSwaEhZJEAa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzkwWDEwMjc=/z/Jc0AAOSwX9FZJEAy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg1WDc3OQ==/z/Bh0AAOSwi7RZJEBO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDg2Ng==/z/98UAAOSwBt5ZJEBd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk1WDExODY=/z/iqoAAOSwAPVZJEB4/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Emporio Armani Black Stainless Steel Mens Watch New battery required Tested working with new battery not included Requires a watch strap 22mm Sold as spares or repairs Model number not known Was found sitting in a draw has had very little use in great condition no marks I have two of these watches available Please see pics Sent as photographs NO TRADERS/RESELLERS THANK YOU ...",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "268",
+    "UserID": "studentseller2014",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

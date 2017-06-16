@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Maple Valley, Washington",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:35:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:35:45.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537563764",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Relic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Green",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Relic Mens or Womens Watch Style ZR90600 New With Tags",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Relic-Mens-Womens-Watch-Style-ZR90600-New-Tags-/322537563764",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225375637648080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "98038",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H28M27S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/usQAAOSwls5Y6u67/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sWgAAOSwc49Y6u6j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Gn0AAOSwTM5Y6u6n/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zOsAAOSwpkFY6u6t/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OuQAAOSwAANY6u6q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H6IAAOSwnF9Y6u6z/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wiEAAOSww3tY6u6w/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6PUAAOSw3utY6u6g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/msgAAOSwc-tY6u6i/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IBwAAOSwnF9Y6u62/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P44AAOSwpP9Y6u63/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N6MAAOSwuLZY6u6-/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "This Relic watch is brand new and never worn. The stainless steel case and crystal have no scratches. The green velcro strap is adjustable and has no wear marks. The original protective covers are covering the face and back. The original case and tags come with it. This watch is great for Women & Men. When it comes to watches, you want something that complements your wrist as much as your wallet. Achieve the attention to detail of boutique brands at a fraction of the price with an attractive selection of Relic watch.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "35",
+    "UserID": "greekbluesky",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT13H19M52S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201946460121",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PANDORA-SILVER-S925-ALE-BRACELET-HEART-CLASP-CHARM-18-7-1-W-BOX-/201946460121",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T23:44:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-11T23:44:16.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Love & Hearts",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "ALE 925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "PANDORA SILVER S925 ALE  BRACELET HEART  CLASP CHARM (18) 7.1\" W/BOX",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "GORGEOUS AUTHENTIC PANDORA 'HEART CLASP' BRACELET.. Pandora logo ..This is .925 SS size (18) 7.1\".. perfect gift for any occasion..",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019464601218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "673481so",
+    "FeedbackScore": "8339",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Quantity": "1",
+  "Location": "Mayfield, New York",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wTYAAOSwKtlWnjju/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "12117"
+}

@@ -1,0 +1,79 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "32708",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New in box. Needs a battery. Retails for 49.95. Will ship in a bubble mailer.",
+  "StartTime": "2017-05-21T21:55:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LMkAAOSwdGFYocbg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LQgAAOSwdGFYocbj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/m5gAAOSwB-1Yocbm/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Colibri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "grahammoth",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "251",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "21",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225086740578080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T21:55:54.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Colibri-London-Silver-Leather-PGA-Tour-Pocket-Clip-Watch-/122508674057",
+  "Location": "Winter Springs, Florida",
+  "Title": "Colibri of London Silver Leather PGA Tour Pocket/Clip Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "122508674057",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT3H17M15S"
+}

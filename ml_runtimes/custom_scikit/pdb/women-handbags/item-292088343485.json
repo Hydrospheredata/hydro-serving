@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTU2WDE1MDA=/z/ASoAAOSwSypY9Lmi/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Small-Duffel-Solid-Color-Interior-One-size-Katalina-pink-/292088343485",
+  "ConvertedCurrentPrice": {
+    "value": "131.65",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Vera Bradley Small Duffel with Solid Color Interior (One size, Katalina pink) - Zip-top closure - Folds flat for easy storing - 18 ?\" w x 9 ?\" h x 9 ?\" d; 15\" strap drop - Machine wash cold, gentle cycle, use only non-chlorine bleach as needed Vera Bradley Small Duffel with Solid Color Interior One size, Katalina pink",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "131.65",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Small Duffel with Solid Color Interior One size, Katalina pink",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T12:48:30.000Z",
+  "HitCount": "95",
+  "TimeLeft": "P13DT19H53M45S",
+  "EndTime": "2017-06-16T12:48:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003394274"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003394274"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Color",
+        "Value": "Katalina pink"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.85 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 13 x W 8.2 x H 4.5 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "15827"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088343485",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920883434858080_1.jpg",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,210 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT11H59M30S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "42.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292138721918",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pink-Silver-Steel-Watch-Small-Cubic-Zirconia-Face-/292138721918?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T01:57:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-10T01:57:45.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Watch Colors",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://hamptongems.com/wp-content/uploads/2009/10/product_d_s_dsc_2315.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://hamptongems.com/wp-content/uploads/2016/07/DSC_2310.jpg"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Silver",
+          "Pink"
+        ],
+        "Name": "Watch Colors"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "SKU-94-1",
+        "StartPrice": {
+          "value": "42.5",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Watch Colors"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "SKU-94-2",
+        "StartPrice": {
+          "value": "42.5",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Watch Colors"
+          }
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HAMPTON GEMS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "PINK OR SILVER",
+        "Name": "Color"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "Pink or Silver Steel Watch With Small Cubic Zirconia Face",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Phone: 646.660.5551 \u00a0 Pink or Silver Steel Watch With Small Cubic Zirconia Face Pink or Silver Steel Watch With Small Cubic Zirconia Face Watch-Pink or Silver Steel Link With Small Cubic Zirconia Face. Face Size: 1 inch Available: Silver and Black Battery Included. Retail: $100.00 Shipping Shipping cost: replace this text with your shipping information Delivery time: replace this text with your shipping information Payment We accept the following payment methods: first payment option second payment option third payment option Please contact us if you have any questions. Service replace this text with your service information",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hamptongems-ringsandpins",
+    "FeedbackScore": "1991",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "HAMPTON GEMS",
+    "StoreURL": "http://stores.ebay.com/id=338080239"
+  },
+  "Location": "New York, New York",
+  "Quantity": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4M1gxNjAw/z/8DcAAOSwNRdX-VJ~/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10021"
+}

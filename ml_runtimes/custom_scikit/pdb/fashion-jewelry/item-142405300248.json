@@ -1,0 +1,119 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT19H20M24S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "CN",
+    "SE",
+    "FR",
+    "HK",
+    "ES",
+    "IT",
+    "DE",
+    "RU",
+    "IL",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "MY",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142405300248",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/7-60ctw-Bella-Luce-Fancy-Yellow-and-White-Diamond-Simulant-Ring-SIZE-7-NWT-/142405300248",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:41:30.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T08:41:30.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bella Luce",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cocktail",
+        "Name": "Style"
+      },
+      {
+        "Value": "Platinum Plated Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Pave Diamond Simulant",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "7",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Yellow and White",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "7.60ctw Bella Luce Fancy Yellow and White Diamond Simulant Ring SIZE 7. NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "7.60ctw Bella Luce Yellow and White Diamond Simulant Ring. NWT. SIZE 7. Sterling Silver. 925 Rhodium Plated for Tarnish Resistance.. Width of Ring- 11/16\". ESTIMATED RETAIL VALUE- $91.00... SEE MY OTHER ITEMS...",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424053002488080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jennautumn",
+    "FeedbackScore": "1142",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Mesa, Arizona",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzI0WDgxMA==/z/PLgAAOSw4CFYqXWg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA1WDU4MA==/z/K-QAAOSwfVpYqXha/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAzNFg2Njc=/z/PukAAOSwTglYm2Ck/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDI3WDU4Mg==/z/dKgAAOSwdGFYqXlj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3N1g1Njc=/z/ErUAAOSwImRYm2CA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDU3Nw==/z/7nYAAOSwUKxYm2EX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA4WDc0Nw==/z/0ocAAOSwTglYkX2q/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "85207"
+}

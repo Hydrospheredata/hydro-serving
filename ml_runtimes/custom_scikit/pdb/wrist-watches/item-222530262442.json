@@ -1,0 +1,132 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "260.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jersey City, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:10:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "260.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:10:06.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530262442",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Tissot",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Light Blue",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Tissot T-Race",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Light Blue",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "TISSOT  T-Race Women Light Blue",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TISSOT-T-Race-Women-Light-Blue-/222530262442",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225302624428080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "07306",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H59M55S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/gksAAOSwZQRYer~V/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/4EYAAOSw9GhYer~T/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/hkYAAOSwo4pYer~X/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/hpwAAOSwo4pYer~a/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5O0AAOSw2xRYer~c/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/yigAAOSwopRYer~e/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/e2QAAOSwImRYer~g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/h1MAAOSwo4pYer~i/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/RgEAAOSwEzxYer~j/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Genuine Swiss made Tissot T Race light blue, only owner, works perfectly fine.\u00a0 The diameter in total is 7 inches. For thin wrist.\u00a0 Please look at the photos, no box and NOT returns please.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "196",
+    "UserID": "juliana_phelps",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

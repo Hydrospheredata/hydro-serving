@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/jFUAAOSwjL5ZCOa4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU5N1g4NTQ=/z/gI8AAOSwT-FZCOW8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU4MFg4OTE=/z/eS8AAOSw-3FZCOXa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dGAAAOSwhvFZCOWt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eMoAAOSwONBZCOWv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/f0IAAOSwT-FZCOWy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jx0AAOSw42JZCOWz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K5IAAOSwX61ZCOW1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Qe4AAOSwcgNZCOW2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LPEAAOSwX61ZCOW6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~ccAAOSw~y9ZCOW7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/gMYAAOSw-3FZCOYh/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Tory-Burch-Black-Ella-Nylon-Backpack-/192205231553",
+  "ConvertedCurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new with tag. Black lightweight water-repellent nylon with textured leather trim on logo emblem, handle, zipper pulls and shoulder straps. Adjustable shoulder straps. Main double zipper closure on top including 2 slip pockets inside. Exterior zip pocket on front. Signature fabric lining. It was purchased at Nordstrom Rack and the tag marks as refinished(even though it's brand new) because it's directly from the vendors, not from the Nordstrom store. Please review and ask any questions before bidding. No returns. Also checkout my other listings for more great deals and combined shipping. Thanks for looking.",
+  "Title": "NWT Tory Burch Black Ella Nylon Backpack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Alpharetta, Georgia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "348",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "alohadreamgirl"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30022",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:22:13.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT21H17S",
+  "EndTime": "2017-07-02T11:22:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack Style"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "13.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon & Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205231553",
+  "Storefront": {
+    "StoreName": "alohadreamgirl",
+    "StoreURL": "http://stores.ebay.com/id=1381694806"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922052315538080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

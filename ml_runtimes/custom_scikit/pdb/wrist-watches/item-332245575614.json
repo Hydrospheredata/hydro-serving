@@ -1,0 +1,119 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "\u0422\u043e\u043b\u044c\u044f\u0442\u0442\u0438",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:56:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T09:56:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vostok",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "PVD Coated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "26.5mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "pearly",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "15mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245575614",
+  "HandlingTime": "3",
+  "Description": "Watch is new in the package. Back cover has scratches from opening. In the kit box. You buy what see on the picture. Please ask before buying.Movement EPSON AL 35E.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VOSTOK-quartz-ladies-/332245575614",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322455756148080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT18H31M45S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dwMAAOSwIaFZIUKZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/WnYAAOSwIQdZIUJ~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LGkAAOSw9OFZIUKN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4BkAAOSwaeRZIUKk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LYEAAOSw9OFZIUKx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XOgAAOSw3gJZIUK-/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "VOSTOK quartz ladies",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "55",
+    "UserID": "dmitriiugrymov",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

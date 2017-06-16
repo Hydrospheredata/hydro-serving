@@ -1,0 +1,60 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "37066",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Bombay Melody Medal Pocket Watch New in box with no tags. Please message with any questions before purchasing. No International Shipping. No Returns. Thanks!",
+  "StartTime": "2017-05-27T01:32:05.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dpMAAOSw4DJYmQF-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/R4oAAOSwLEtYmQGA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sXwAAOSwTglYmQGD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/TpkAAOSwLEtYmQG8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SBEAAOSwLEtYmQGF/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "45.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "firebrand_sales",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "54",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225255100428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T01:32:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "45.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bombay-Melody-Medal-Pocket-Watch-/222525510042",
+  "Location": "Gallatin, Tennessee",
+  "Title": "Bombay Melody Medal Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222525510042",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT6H56M11S"
+}

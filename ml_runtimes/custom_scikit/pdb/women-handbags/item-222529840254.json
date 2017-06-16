@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDU4Nw==/z/D6cAAOSwhQhYyeTu/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-TAGS-VERA-BRADLEY-KATALINA-BLUE-LARGE-DUFFEL-/222529840254",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW WITH TAGS VERA BRADLEY KATALINA BLUE LARGE DUFFEL 22X11.5X11.5 FAST FREE SHIPPINGSMOKE FREE PET FREESTOCK PHOTO",
+  "Title": "NEW WITH TAGS VERA BRADLEY KATALINA BLUE** LARGE DUFFEL",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Greenfield, Indiana",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "164",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "twosisternlaws"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46140",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T03:34:09.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P27DT12H45M15S",
+  "EndTime": "2017-06-30T03:34:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Microfiber"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222529840254",
+  "Storefront": {
+    "StoreName": "twosisternlaws",
+    "StoreURL": "http://stores.ebay.com/id=1589557438"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225298402548080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

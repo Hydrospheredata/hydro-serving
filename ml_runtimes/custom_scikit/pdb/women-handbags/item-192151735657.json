@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921517356578080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5N1gxNTAw/z/Z7cAAOSwnF9Y6DtO/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Harolds-Antik-Casual-Messenger-Leather-33-cm-nature-Brand-New-/192151735657",
+  "ConvertedCurrentPrice": {
+    "value": "307.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Harold's Antik Casual Messenger Leather 33 cm nature by Harolds Ships from UK Supplier Other information: 262403-05 Related Searches: Harolds Bags, Shoulder Bag Bags, Harolds Shoulder Bag Dimensions: 33.0 x 9.0 x 27.0 centimetres Weight: 1.1 kg",
+  "Title": "Harold's Antik Casual Messenger Leather 33 cm nature. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "307.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-08T01:22:09.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P4DT9H6M53S",
+  "EndTime": "2017-06-07T01:22:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Harolds"
+      },
+      {
+        "Name": "MPN",
+        "Value": "972363750"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151735657",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:110596441:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,93 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.95"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "NOS Harley Davidson Franklin Mint pocket watch with pouch, display stand, COA and box",
+  "StartTime": "2017-05-10T06:40:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/e7wAAOSwo4pYTBq3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ycoAAOSwnHZYTBq-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wtMAAOSw6DtYTBrG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/zgcAAOSw2xRYTBrP/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "RU",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Franklin Mint",
+        "Name": "Brand"
+      },
+      {
+        "Value": "spring",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "HARLEY DAVISON",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kosmik321",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1397",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "55",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825681259018080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-09T06:40:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.95"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Yubileyny, Moscow region",
+  "Title": "Franklin Mint Harley Davidson Collectors Pocket Watch with COA,box and stand",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Franklin-Mint-Harley-Davidson-Collectors-Pocket-Watch-COA-box-and-stand-/182568125901",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182568125901",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT11H57M49S"
+}

@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P7DT38M20S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/uJkAAOSwls5Y65LR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/CkoAAOSwB-1Y65KX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ck8AAOSww3tY65KZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/UxcAAOSw3utY65Lh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/sGAAAOSwAANY65KV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/EvsAAOSwB-1Y65LZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gorgeous-Banana-Republic-Monogram-Cognac-Leather-Purse-/282470912593",
+  "ConvertedCurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gorgeous Banana Republic Monogram PurseColor: Cognac BrownLeather Dimensions: 12 inch X 12 inchStrap drop: ~ 8 inches Inside:1 zip enclosure + 2 pouchesFeels silky & satiny on the inside Originally $500 from the Monogram lineGorgeous Buckle detailing with BR stamped on itGreat leather",
+  "Title": "Gorgeous Banana Republic Monogram Cognac Leather Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "6",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "lapetiteodeon"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11249",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T15:43:12.000Z",
+  "HitCount": "58",
+  "SecondaryCategoryIDPath": "11450:169291:169293",
+  "EndTime": "2017-06-09T15:43:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Banana Republic"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Closure",
+        "Value": [
+          "Flap",
+          "Zip"
+        ]
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "12 inches"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8 inches"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282470912593",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "SecondaryCategoryID": "169293",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824709125938080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

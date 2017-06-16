@@ -1,0 +1,165 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "38.58",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Shipley",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:14:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T13:14:00.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530216411",
+  "HandlingTime": "4",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Multi Blues And Whites",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Fabric/Canvas",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Pop Swatch Watch. Rare Watch. 80s Trend Fashion Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Pop-Swatch-Watch-Rare-Watch-80s-Trend-Fashion-Watch-/222530216411",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225302164118080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "BD18 4EH",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT22H17S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ndMAAOSw5UZY-w-S/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/H3gAAOSwSypY-w-E/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/mkAAAOSw5UZY-w-F/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/nLQAAOSw3ZRY-w-H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/2c8AAOSwuspY-w-I/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/7JIAAOSwBOtY-w-K/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/IR4AAOSwSypY-w-L/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/SoEAAOSwN6JY-w-M/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/zcAAAOSwWiBY-w-N/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/nYoAAOSw3ZRY-w-O/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/D-EAAOSw7U5Y-w-Q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/nWwAAOSw5UZY-w-R/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Great working order new battery Pendleton style / compass Codes on back of Watch: 754 S 047",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "233",
+    "UserID": "textilequeen77",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

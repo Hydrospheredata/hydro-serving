@@ -1,0 +1,124 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Miami, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:49:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T13:49:50.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537524277",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Edward East",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Stainless Steel",
+          "Black"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Black",
+          "Silver"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "45mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Edward East EDW5340G3 Mens Classic Black Leather Strap Automatic Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Edward-East-EDW5340G3-Mens-Classic-Black-Leather-Strap-Automatic-Watch-/322537524277",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225375242778080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33133",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT22H38M56S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjMz/z/Qj4AAOSwtfhYrbYG/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTU0/z/P0UAAOSwtfhYrbX2/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzE4/z/WssAAOSw4CFYrbX~/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Edward East was an early adopter of the pendulum after its introduction in 1657 and pioneered its use at his renowned workshop in Fleet Street in London. One of East\u2019s clocks was famously presented by King Charles I to his loyal servant, Sir Thomas Herbert, as he made his way to his own execution in 1649.Others were frequently given as prizes by King Charles II to victorious tennis players at the courts in Pall Mall. By the time of his death in 1696, Edward East was firmly established as one of the most influential watch and clockmakers in the country. Today, his original timepieces remain amongst the most sought after by collectors around the world. The manufacturers suggested retail price for this watch is GBP 525.00. The watch is new and unused in its original box with manual and warranty card. International shipping can be quoted depending upon the buyer's location.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "48",
+    "UserID": "glen4205",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "QuantitySold": "0",
+  "Title": "Classic Smooth Surface Black Pocket Watch with Chain",
+  "PostalCode": "30605",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "classic_wears",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "45524",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "$10 Retail CONDITION: New. Vintage pocket watch with a black tone metal chainJapanese quartz movementSkeleton Dial with golden roman numerals scaleMetal Chain Length 36.5cm (14 inches),Can be worn like a Belt decorative pendant or put in the pocket SHIPPING & HANDLING",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQxNVgxNjAw/z/Wa8AAOSwJ4hY~jx~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM1OVgxMDQz/z/DIoAAOSwVm5Y~jyB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU0MVgxNjAw/z/7psAAOSwRUhY~jyE/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.01"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "{AL7 H9-22",
+  "StartTime": "2017-05-02T10:52:05.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423697774538080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-01T10:52:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.01"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Classic-Smooth-Surface-Black-Pocket-Watch-Chain-/142369777453",
+  "ConditionDescription": "Return to Online Retailer. Product has open/damaged packaging, but looks new & unused.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Athens, Georgia",
+  "Storefront": {
+    "StoreName": "Classic Shoes and Stuff",
+    "StoreURL": "http://stores.ebay.com/id=36891441"
+  },
+  "ItemID": "142369777453",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT16H6M45S"
+}

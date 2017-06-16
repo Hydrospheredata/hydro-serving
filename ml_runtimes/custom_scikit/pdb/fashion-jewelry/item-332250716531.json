@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P28DT16H7M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "332250716531",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Zibellini-Baroque-Vivid-Hand-Painted-Cherubs-Flower-Neclace-Set-/332250716531",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T04:15:04.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T04:15:04.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "zibellini",
+        "Name": "Brand"
+      },
+      {
+        "Value": "birth of venus",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "red gold blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "metal, swarovski, resin, cameo, brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Zibellini Baroque Vivid Hand Painted Cherubs Flower Neclace Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Earrings ARE INCLUDED! Feeling like Royalty!",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322507165318080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "zibellini",
+    "FeedbackScore": "1348",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Paradise Valley, Arizona",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDUzNA==/z/d9IAAOSwY3BZM4ki/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDUzNA==/z/~a8AAOSwCQZZM4kl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDUzNA==/z/7gAAAOSwrhBZM4ko/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDUzNA==/z/~g0AAOSwCQZZM4kw/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDUzNA==/z/wz0AAOSw7GRZM4kz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTM0WDgwMA==/z/xUIAAOSww9xZM4k1/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDUzNA==/z/x4sAAOSwBt5ZM4k4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDY5OA==/z/TigAAOSwX9FZM4k6/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "85253"
+}

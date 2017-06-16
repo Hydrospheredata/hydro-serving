@@ -1,0 +1,95 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Charles Hubert 3861-G Gold-Plated Mechanical Pocket Watch",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "96.54"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles Hubert 3861-G Gold-Plated Mechanical Pocket Watch Features: 17 jewel Mechanical movementSkeleton dial with roman numerals14k gold-plated brass 50 mm hunter case with a matching curb chainDeluxe gift box Product Details: Product Dimensions: 4.9 x 4.3 x 1.5 inchesShipping Weight: 7.2 ouncesItem model number: 3861-GDomestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Description Color/Finish: Gold. Watch Case: Brass. Mechanical Movement. Matching Chain. Lifetime Movement Warranty. Deluxe Gift Box. This Charles-Hubert Paris pocket watch comes with a lifetime movement warranty against manufacturing defects. Features include a 17 jewel mechanical movement, 50mm 14kt gold-plated hunter case, matching chain, skeleton dial with roman numerals, and a deluxe gift box. See all Product description Handling We will ship all orders within 2 business days of payment. Delivery We DO NOT SHIP TO PO Boxes or Mail Forwarding Addresses. We only ship to Paypal Verified addresses. Return Policy All items that qualify for returns must be within 14 days of receipt. Buyer is responsible for return shipping on any item that is not damaged, as well as a 15% restocking fee. No exchanges permitted. All returns must be done through EBAY and processed with an RMA number to be issued refund. Upon receiving RMA, buyer has 7 days to have item shipped back. Item must be in original condition and packaging. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAzWDE2MDA=/z/9UsAAOSwB-1Y4-TN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDQ0/z/RnAAAOSwTM5Y4-TP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDcx/z/MnQAAOSwU8hY4-TQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/YXkAAOSwmgJY4-TT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NTM=/z/QLwAAOSw4CFY4-TU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NFgxNjAw/z/9pEAAOSwB-1Y4-TV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/mFgAAOSww3tY4-TW/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "3861-G",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "848870002881",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0848870002881",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ccs-craigw",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9274",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "StartTime": "2017-04-04T18:20:43.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3224737324438080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T18:20:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "96.54"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.  All returns will be charged a 15% restocking fee.",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B0033CFJEO",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-3861-G-Gold-Plated-Mechanical-Pocket-Watch-/322473732443",
+  "Storefront": {
+    "StoreName": "RivalTech",
+    "StoreURL": "http://stores.ebay.com/id=776355051"
+  },
+  "ItemID": "322473732443",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT23H32M26S"
+}

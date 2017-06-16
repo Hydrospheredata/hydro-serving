@@ -1,0 +1,158 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P1DT7H32M25S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272690004099",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Sterling-Silver-Elongated-Elegance-Earrings-W3279-/272690004099",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-27T22:32:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-06T22:32:52.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "see description",
+        "Name": "Material"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": ".925, Sterling",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Silpada Sterling  Silver  \"Elongated Elegance\" Earrings W3279",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726900040998080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "whatchaallwant-us",
+    "FeedbackScore": "2298",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "whatchaallwant33",
+    "StoreURL": "http://stores.ebay.com/id=1177176725"
+  },
+  "Quantity": "1",
+  "Location": "Port Orange, Florida",
+  "HitCount": "11",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjI5WDY3Mw==/z/LQAAAOSwSypY841v/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzcwWDYxNw==/z/TwkAAOSwzqFY8410/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Nzg5WDYyMg==/z/ghgAAOSw7U5Y841~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Nzg4WDYyMg==/z/-jMAAOSwJ4hY842E/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjUzWDYyMg==/z/MpUAAOSwcdRY842K/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjYxWDYyMg==/z/aS8AAOSwkShY842Q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/accAAOSwkShY842U/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/VUMAAOSwIWVY841j/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "32127"
+}

@@ -1,0 +1,75 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "14787",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "this is a nice railroad style watch as one worn by those in the 1880 era it is new in package never opened but is clean and usable.",
+  "StartTime": "2017-04-24T02:45:01.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM3Nw==/z/P~oAAOSwWiBY~MxG/$_32.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "As Seen on TV ( Tele Brands)",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Butterfly Hinge",
+        "Name": "Closure"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "7035jay",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "449",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2528909200858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T02:45:01.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KANSAS-CITY-RAILROAD-POCKET-WATCH-SEEN-TV-BRAND-NEW-/252890920085",
+  "Location": "Westfield, New York",
+  "Title": "KANSAS CITY RAILROAD POCKET WATCH   AS SEEN ON TV! BRAND NEW!!!!",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252890920085",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT7H58M47S"
+}

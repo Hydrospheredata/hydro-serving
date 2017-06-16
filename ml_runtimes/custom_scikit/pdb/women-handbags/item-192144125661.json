@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921441256618080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk4WDE1MDA=/z/~z8AAOSwdGFY3S9s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDE1MDA=/z/KNkAAOSwsW9Y3S9s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDE1MDA=/z/daYAAOSwhQhY3S9s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDE1MDA=/z/wdoAAOSw4CFY3S9s/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chestnut-Brown-Polished-Leather-Tote-Bag-Shopper-Classic-Style-Ashwood-Brand-/192144125661",
+  "ConvertedCurrentPrice": {
+    "value": "286.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Beautiful large leather tote bag in top quality polished leather that will age beautifully. An ideal size for carrying documents or small laptops, or for any situation where you need more capacity than the standard handbag. The bag closes with a full zip across the top, inside the bag is lined in red cheque with 2 slip pockets and 1 zip up pocket, otherwise the interior is large and uncluttered. There is a clip on shoulder strap to give added flexibility. Dimensions: 35 cm wide x 32 cm high x 8 cm deep",
+  "Title": "Chestnut Brown Polished Leather Tote Bag Shopper Classic Style by Ashwood. Brand",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "286.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-30T16:16:36.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P25DT23H58M41S",
+  "EndTime": "2017-06-28T16:16:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ashwood Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "003273199"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144125661",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:75186116:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

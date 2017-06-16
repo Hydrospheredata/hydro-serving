@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0101/660/556/239438949/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0101/660/556/239438950/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0101/660/556/239438951/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Disney-Frozen-Elsa-Bag-Handbag-Kid-Mini-Bowling-Bag-Pink-Huge-Saving-/192138058216",
+  "ConvertedCurrentPrice": {
+    "value": "60.32",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Exclusive Model by Okami Bags*** Closed with zipper- Adjustable Shoulder strap*** Length: 20cm Height: 12cm Width: 8.9cm *** Material Type:Synthetic",
+  "Title": "Disney Frozen Elsa Bag Handbag Kid Mini Bowling Bag Pink. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.32",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-23T14:55:31.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P18DT22H32M57S",
+  "EndTime": "2017-06-21T14:55:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Disney"
+      },
+      {
+        "Name": "MPN",
+        "Value": "228023224"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138058216",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:101660556:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

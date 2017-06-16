@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/WwQAAOSw4GVYUsg2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/vpwAAOSwux5YUsi3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/KyMAAOSwImRYUsgt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/RNcAAOSwEzxYUsgw/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Mancini-Black-Italian-Leather-Briefcase-Laptop-loop-handles-shoulder-strap-/122510118500",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags A gift I will not use Size 16.5\" x 11.5\" x 4\" Leather/Italian Leather/Luxurious Italian top grain leatherAccommodates laptopsInterior organizerDetachable shoulder strapLock key Retails for $199 - 250",
+  "Title": "NEW Mancini Black Italian Leather Briefcase Laptop loop handles & shoulder strap",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Sacramento, California",
+  "Seller": {
+    "FeedbackScore": "909",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "bay-state"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "95831",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-22T15:41:23.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P19DT40M24S",
+  "EndTime": "2017-06-21T15:41:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Mancini Italy"
+      },
+      {
+        "Name": "Style",
+        "Value": "BRIEFCASE LAPTOP"
+      },
+      {
+        "Name": "Color",
+        "Value": "BLACK"
+      },
+      {
+        "Name": "Material",
+        "Value": "iTALIAN GENUINE LEATHER"
+      },
+      {
+        "Name": "Shade",
+        "Value": "BLACK"
+      },
+      {
+        "Name": "Main Color",
+        "Value": "BLACK"
+      },
+      {
+        "Name": "UPC",
+        "Value": "774325036661"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122510118500",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225101185008080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

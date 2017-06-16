@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.72",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Orpington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:43:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T13:43:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536018268",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Model"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "20.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rolex-Tudor-Royal-Swiss-Ladies-Watch-Face-Hands-/162536018268",
+  "Title": "Rolex Tudor Royal Swiss Ladies Watch Face & Hands",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625360182688080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "BR6 8EU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H32M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODYxWDEwODY=/z/DT4AAOSwAPVZLsgK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMDMy/z/1pUAAOSwlndZLsgj/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "This item is taken from my father\u2019s collection of original Rolex parts, where he worked as a watchmaker through the 60's & 70's This face & hands are a true example of beautiful and original craftsmanship from Rolex Diameter of face is 6mm Happy bidding",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "194",
+    "UserID": "cliffois100",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

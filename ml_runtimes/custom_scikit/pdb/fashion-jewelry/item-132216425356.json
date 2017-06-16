@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT23H18M1S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "DOOR KNOCKER STYLE...FABULOUS EARRINGS IN PRISTINE CONDITION...SPOTS ARE FROM FLASH",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132216425356",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:51:01.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-GOLD-TONE-BROWN-/132216425356",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:51:01.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "GoldTone",
+        "Name": "Color"
+      },
+      {
+        "Value": "No Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "DoorKnocker",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY..EARRINGS..CLIP-ON..GOLD TONE/BROWN",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "DOORKNOCKER STYLE ST JOHN EARRINGS THAT DROP 1 3/4\"... WIDEST POINT IS OVER 1\"...SHINY GOLD TONE TOP AND THE BOTTOM SECTION IS A REPTILE DESIGN IN BROWN AND GOLD TONE...SIGNED...COMFORT PADS...THESE CLIP-ON EARRINGS ARE BEAUTIFUL AND WILL BE NOTICED ON YOUR EARS...THEY WILL BE MAILED USPS FIRST CLASS MAIL WITH A TRACKING NUMBER FOR SECURE DELIVERY.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322164253568080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/XOEAAOSwr~lYrfom/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/mooAAOSwdGFYrfos/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/80gAAOSw4A5Yrfo1/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

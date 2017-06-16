@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Mission, Texas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:53:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:53:59.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122525002284",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silver & Gold",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Citizen Women's Light Gray Face Long Rectangular Watch Model 5421 K17489CK",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Womens-Light-Gray-Face-Long-Rectangular-Watch-Model-5421-K17489CK-/122525002284",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225250022848080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "78573",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H35M57S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/t~MAAOSwq1JZLquV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/mvUAAOSwKytZLque/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/KqUAAOSwAPVZLqu5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/1~UAAOSwZKBZLqvY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/NJgAAOSwR29ZLqvo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/tJgAAOSwY3BZLqxB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/068AAOSwPh5ZLqwh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/O1IAAOSwDiBZLqxQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Dial color: Light Gray Case color: SilverCase material: Stainless steelStrap type: Stainless steel Strap color: Gold, silverClasp type: Jewelery clasp Movement: Quartz Japan (new battery) Please view all the pictures, as they are part of the item's description.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "8",
+    "UserID": "lajoya634",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

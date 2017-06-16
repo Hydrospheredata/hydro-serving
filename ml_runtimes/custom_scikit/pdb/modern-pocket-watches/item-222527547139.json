@@ -1,0 +1,67 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "54982",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "I'm selling my pocket watch, The Conductor by Westclox, model 40047, in nickel finish, with the original box, label and instructions. It is in fantastic condition, and I wound it up and it does in fact keep time well. My camera doesn't zoom in well for close ups, so I tried a magnifying glass to show you the excellent condition it is in. The box has a few minor scratches on the exterior, but is otherwise sound. Thanks for looking, if you have any questions, I'll be happy to answer them if I can.",
+  "StartTime": "2017-05-29T01:06:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DSEAAOSw0hlZK3KY/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KU0AAOSwlY1ZK3Kg/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ldkAAOSw3gJZK3Kp/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Qd0AAOSwDiBZK3Kx/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MAgAAOSwCQZZK3LE/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/e80AAOSwcB5ZK3LL/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "75.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Westclox",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "vanstom135",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "32",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225275471398080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T01:06:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "75.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Westclox-Conductor-Nickel-Finish-40047-Xlnt-Cond-/222527547139",
+  "Location": "Wautoma, Wisconsin",
+  "Title": "Westclox Conductor Nickel Finish, 40047, Xlnt Cond.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222527547139",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT6H31M44S"
+}

@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT11H59M30S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Mint Condition ~ Vintage Never Worn",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122528526700",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KIRKS-FOLLY-Victorian-Hair-Bow-Maroon-w-Gold-Brocade-Cameo-Vintage-FRANCE-USA-/122528526700",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T23:20:26.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "CashOnPickup",
+    "AmEx"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T23:20:26.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Maroon w/ Gold Accents",
+        "Name": "Color"
+      },
+      {
+        "Value": "Kirks Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Large Hair Box with Barrett/Clasp",
+        "Name": "Style"
+      },
+      {
+        "Value": "Victorian",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Velvet w/ Rose Brocade",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "KIRKS FOLLY Victorian Hair Bow Maroon w Gold Brocade & Cameo Vintage \"FRANCE USA",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "BidCount": "0",
+  "Description": "Beautifully Ornate, Victorian \"Kirks Folly\" Vintage Hair Bow: Maroon Velvet with Gold & Rose Brocade, and Pearl Accents.Ex. Large Hair Bow/Barrett ~ Reminiscence of the beautiful and ornate Victorian Era. Center of hair bow has a lovely oval-shaped Gold \"Cameo\" with embossed roses. (Oval size including ribbon - 2\") The heavily adorned hair bow is attached to a gold barrette; Stamped: \"France USA Kirks Folly\". Also, has White \"Kirks Folly\" Label sewn into bow. Size (Approx.) : 8\" (l) x 5\" (w) x 1\" (d) Thank you for looking!",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225285267008080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "genesisny",
+    "FeedbackScore": "86",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Storefront": {
+    "StoreName": "Art Expo NWA",
+    "StoreURL": "http://stores.ebay.com/id=14716360"
+  },
+  "Quantity": "2",
+  "Location": "Fayetteville, Arkansas",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NFgxNTYw/z/LPoAAOSw9GhYkk~a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xGoAAOSw9GhYkk0z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MzY=/z/KsgAAOSwA3dYkky3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5FYAAOSw44BYkkzm/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "PostalCode": "72704"
+}

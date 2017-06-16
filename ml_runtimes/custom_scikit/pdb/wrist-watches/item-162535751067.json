@@ -1,0 +1,289 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:15:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1119580425",
+    "StoreName": "intershop26"
+  },
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:15:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Analogwatch001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Fashion Watch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Asymmetrical",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "PO Box"
+  ],
+  "ItemID": "162535751067",
+  "HandlingTime": "2",
+  "Description": "Irregular Shaped Fashion Watch Item Type:Quartz WristwatchesBand Width:18mmBand Material Type:LeatherBoxes & Cases Material:PaperGender:WomenStyle:Fashion & CasualCase Thickness:8.8mmDial Diameter:18mmClasp Type:BuckleCase Material:AlloyMovement:QuartzCase Shape:Irregular ShapeBand Length:13inchFeature:NoneWater Resistance Depth:No waterproofDial Window Material Type:HardlexModel Number:wristwatchesBand With:10mm to 19mmBand Width:1.8mmClasp Type:as picItem Type:WristwatchesDial Material Type:AlloyCondition:New without tagsDial Display:Analog",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Irregular-Shape-Jewel-Like-Fashion-Casual-Quartz-Leather-Band-Analog-Wristwatch-/162535751067?var=",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Purple",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Red",
+          "White",
+          "Blue",
+          "Black",
+          "Purple"
+        ],
+        "Name": "Face Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/voAAAOSwaEhZLofi/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VFEAAOSwq1JZLofl/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Wx4AAOSwuMZZLofn/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/EUUAAOSwfRdZLofq/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/NlAAAOSw7GRZLofs/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Face Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H48M11S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/NaIAAOSw7GRZLofa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/SogAAOSwfpVZLofe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ry8AAOSw8lpZLofi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/cicAAOSw9OFZLofl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/KAsAAOSwlY1ZLofn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/esYAAOSwYlRZLofq/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Irregular Shape Jewel Like Fashion Casual Quartz Leather Band Analog Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "73",
+    "UserID": "intershop26",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

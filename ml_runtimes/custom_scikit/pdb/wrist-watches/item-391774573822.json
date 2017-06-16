@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Men's Citizen Quartz Wristwatch Bi-Lingual Day / Date Window ~ 5-F5086 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-04T10:54:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg2WDEyODA=/z/ve8AAOSwt0FZA2RS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4ODY=/z/veoAAOSwt0FZA2RS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM2WDEyODA=/z/U2wAAOSwrhBZA2RT/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date Window",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60400",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "21",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917745738228080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-03T10:54:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Citizen-Quartz-Wristwatch-Bi-Lingual-Day-Date-Window-5-F5086-/391774573822",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Men's Citizen Quartz Wristwatch Bi-Lingual Day / Date Window ~ 5-F5086",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391774573822",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P2DT17H5M36S"
+}

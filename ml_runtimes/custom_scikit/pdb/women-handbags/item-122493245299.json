@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1224932452998080_1.jpg",
+  "PictureURL": [
+    "https://images-na.ssl-images-amazon.com/images/I/41CR3uZE7ML.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/419tII12HmL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/31S9JRsYklL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/31ao6Xj0CAL"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCKC-96565-McKleinUSA-WILLOW-SPRINGS-96565-Black-Leather-Ladies-Briefcase-/122493245299",
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKleinUSA WILLOW SPRINGS 96565 Black Leather Ladies Briefcase Leather shoulder straps.*Two side pockets for small miscellaneous items.*Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices .*Built-in high-density compartment protects laptops up to 15.4\" in screen size. Leather shoulder straps. Two side pockets for small miscellaneous items. Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices. Built-in high-density compartment protects laptops up to 15. 4\" in screen size. Leather shoulder straps. Color : Black Size : One Size Features :Leather shoulder straps.Two side pockets for small miscellaneous items.Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices .Built-in high-density compartment protects laptops up to 15.4\" in screen size.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "1533",
+    "PositiveFeedbackPercent": "96.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "virventurein"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCKC-96565-McKleinUSA WILLOW SPRINGS 96565 Black Leather Ladies Briefcase",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-05-12T19:25:03.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P9DT4H21M1S",
+  "EndTime": "2017-06-11T19:25:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "642154965653"
+      },
+      {
+        "Name": "Model",
+        "Value": "96565"
+      },
+      {
+        "Name": "MPN",
+        "Value": "96565"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein Company"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122493245299",
+  "Storefront": {
+    "StoreName": "virventurein",
+    "StoreURL": "http://stores.ebay.com/id=1409776454"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "MCKC-96565",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "true"
+}

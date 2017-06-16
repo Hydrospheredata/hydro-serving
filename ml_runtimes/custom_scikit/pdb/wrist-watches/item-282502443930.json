@@ -1,0 +1,133 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "84.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AL",
+  "Location": "Tirane",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:34:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "84.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:34:16.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Skagen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "skw2090",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Skagen Freja",
+        "Name": "Model"
+      },
+      {
+        "Value": "gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "32mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "32mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "silver and gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502443930",
+  "HandlingTime": "1",
+  "Description": "in very good condition, bought last year 155 dollar new",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skagen-Denmark-Womens-Freja-Two-Tone-Stainless-Steel-Bracelet-Watch-32mm-SKW2090-/282502443930",
+  "ConditionDescription": "excelent condition like new",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825024439308080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H26M29S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/oTAAAOSw9OFZLtLA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/p1AAAOSwxu5ZLtLD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/y~0AAOSw3gJZLtLG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/SB0AAOSwn-tZLtLJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/bXIAAOSwaeRZLtLL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/QQQAAOSwlY1ZLtLO/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Skagen Denmark Womens Freja Two-Tone Stainless Steel Bracelet Watch 32mm SKW2090",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "31",
+    "UserID": "goldenr",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

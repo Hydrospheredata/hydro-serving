@@ -1,0 +1,236 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P7DT10H17M33S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IHQAAOSwNnRYm3XH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/id8AAOSwopRYm3We/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qg4AAOSw241Ym3Xd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zeMAAOSwLEtYm3Wl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/jBUAAOSw4DJYm3Wp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Zn8AAOSwA3dYm3XU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQwMFgxNjAw/z/ZHAAAOSw44BYm3W5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIyMlgxNjAw/z/pIIAAOSw241Ym3W9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W9UAAOSw6-hYm3XA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~zIAAOSw5cNYm3XN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/RxoAAOSwqM1Ym3XR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CrcAAOSw5cNYm3YO/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Black-Signature-Canvas-LARGE-Baby-Diaper-Bag-Work-Tote-Travel-Cary-NWT-/361976564949",
+  "ConvertedCurrentPrice": {
+    "value": "259.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Signature coated canvas with leather trimPerfect for a baby bag or a work bag.Comes with changing padZip-top closure Retail tag attached $495 Fabric liningOutside open pocketsHandles with 9 1/2\" drop Adjustable strap for shoulder or crossbody wear 17\" (L) x 11 3/4\" (H) x 7\" (W)",
+  "Title": "Coach Black Signature Canvas LARGE Baby Diaper Bag Work Tote Travel Cary On NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "259.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Johnston, Rhode Island",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "4194",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "2miracles"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02919",
+  "GlobalShipping": "true",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "StartTime": "2017-05-11T01:43:42.000Z",
+  "HitCount": "41",
+  "SecondaryCategoryIDPath": "11450:169291:169295",
+  "EndTime": "2017-06-10T01:43:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Diaper Bag Tote"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi color"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11 3/4\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "17"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "9 1/2\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "888067764659"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "361976564949",
+  "Storefront": {
+    "StoreName": "2miracles",
+    "StoreURL": "http://stores.ebay.com/id=16904413"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "Quantity": "3",
+  "SecondaryCategoryID": "169295",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619765649498080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

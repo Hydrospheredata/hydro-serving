@@ -1,0 +1,133 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "101.6",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:05:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:05:11.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08330548",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "KZ",
+    "BY",
+    "MX"
+  ],
+  "ItemID": "272694852710",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "GR-8900A-1ER",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date",
+          "Alarm",
+          "Day",
+          "Light",
+          "Stopwatch.",
+          "Shock Resistant",
+          "Calendar",
+          "Multi Alarm",
+          "World Timer"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Solar Powered",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Black Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "4971850946915",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Casio G-Shock Tough Solar all black digital watch GR-8900A-1ER",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Casio-G-Shock-Tough-Solar-all-black-digital-watch-GR-8900A-1ER-/272694852710",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726948527108080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H40M43S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RnwAAOSw5cRZLpVZ/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Mens Casio G-Shock Tough Solar all black digital watch GR-8900A-1ER RRP \u00a3130.00 Now \u00a379.00 Description The all black design to this Casio G-Shock GR-8900A-1ER watch gives it a rugged look. With a chunky resin casing and hard wearing buckle fastened strap for a comfortable fit. This digital chronograph watch has a split screen design for easily reading the time and functions and features. With a super LED light to illuminate the display in dull lighting that is actioned at the press of the \u2018G\u2019 button to the centre of the dial. The stop watch and timer are easily accessed by the buttons to the side of the watch along with the other features including world time and 5 daily alarms with snooze function. Suitable for everyday wear, this Casio G-Shock watch has shock resistant technology to resist impacts, tough mineral glass and is 200M water resistant. This Tough Solar watch is powered by light so will never need a battery. Practical and functional this Casio G-Shock all black watch never need leave your wrist. Chapelle reference: 08330548 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

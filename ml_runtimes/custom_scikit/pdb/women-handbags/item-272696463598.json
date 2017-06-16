@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P8DT14H22M14S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUzNlgxNjAw/z/NUEAAOSwiDFYL7S7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxNTc1/z/MAYAAOSwHMJYL7S~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDY3/z/AX8AAOSwImRYL7TD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3NlgxNjAw/z/MRIAAOSwHMJYL7TG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3MVgxNjAw/z/Xu4AAOSw5cNYL7TJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-New-Michael-KorsSelma-Medium-Studded-Leather-Messenger-/272696463598",
+  "ConvertedCurrentPrice": {
+    "value": "215.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand NEW - MICHAEL MICHAEL KORS- Selma Medium Studded Leather Messenger -Saffiano Leather -Gunmetal Hardware -10.5\" X 6.5\" X 3\" -Adjustable Strap: 20\"-22\" -Interior: 1 Zip Pocket / Key Clip -Exterior: Detachable, Adjustable Shoulder Strap -Lining: 100% Polyester - Always Ship with Signature confirmation",
+  "Title": "Brand New Michael KorsSelma Medium Studded Leather Messenger",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "215.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Oakland, California",
+  "Seller": {
+    "FeedbackScore": "108",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "kc.trading"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94607",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T07:56:44.000Z",
+  "HitCount": "2",
+  "SecondaryCategoryIDPath": "11450:169291:80600:42526",
+  "EndTime": "2017-06-11T07:56:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272696463598",
+  "Storefront": {
+    "StoreName": "ShopC.L",
+    "StoreURL": "http://stores.ebay.com/id=1148045251"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "SecondaryCategoryID": "42526",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726964635988080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

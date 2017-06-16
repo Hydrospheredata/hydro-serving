@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921411855338080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/riYAAOSwmgJY2Pc2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~4IAAOSwWxNY2Pc2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/oacAAOSw4A5Y2Pc2/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Santoro-Kori-Kumi-Crossbody-bag-Handbag-Necessaire-Travel-Best-Price-/192141185533",
+  "ConvertedCurrentPrice": {
+    "value": "78.85",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Exclusive Model Okami Bags Closed with zipper Adjustable shoulder strap Two top handles One external pocket closed with zipper One Internal Pocket closed with zipper Lenght: 23cm Height: 19cm Width: 8.9cm External Material: Synthetic Inner Material: Synthetic",
+  "Title": "Santoro Kori Kumi Crossbody bag Handbag Necessaire for Travel. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.85",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-27T11:27:43.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P22DT19H7M40S",
+  "EndTime": "2017-06-25T11:27:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Santoro"
+      },
+      {
+        "Name": "MPN",
+        "Value": "670330103"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141185533",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:120500522:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

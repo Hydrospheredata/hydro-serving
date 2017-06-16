@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921441282758080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/AScAAOSwdGFY3S93/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Floral-Lady-Antoinette-Satchel-Shipping-Free-/192144128275",
+  "ConvertedCurrentPrice": {
+    "value": "62.28",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This Satchel in the Lady Antoinette print is super on-trend. Just the right size to transport your day-to-day essentials, it is ideal for work, school or uni. With multiple internal pockets to keep everything organised and zipper fastenings to keep all the valuables secured, this saddle bag is simply perfect.",
+  "Title": "Floral Lady Antoinette Satchel. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "62.28",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T16:16:49.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P25DT23H58M57S",
+  "EndTime": "2017-06-28T16:16:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "RJB Stone"
+      },
+      {
+        "Name": "MPN",
+        "Value": "013365553"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144128275",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:70181977:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

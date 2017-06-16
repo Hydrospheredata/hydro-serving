@@ -1,0 +1,143 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "KR"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1126.7"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/UTMAAOSwR29ZCi~3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/1GwAAOSwtGlZCi~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/8Y0AAOSw-3FZCi~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/VYAAAOSwcgNZCi~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/p6MAAOSwT-FZCi~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/t2MAAOSww9xZCi~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/75UAAOSwdjNZCi~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/UTYAAOSwR29ZCi~3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "3",
+  "Country": "US",
+  "Seller": {
+    "UserID": "vividlily",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "11225",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-03T19:31:00.000Z",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Seller",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "This 37mm Orient Vintage Japanese Automatic Watch is verified 100% Authentic. Has Been Restored and Timed, and Confirmed Working Precisely and In Excellent\u00a0Condition. Comes on an original stainless steel bracelet and will fit a 19.5cm wrist",
+  "Title": "Orient Crystal Mens 1970 Made in Japan Auto Stainless Steel Vintage Watch YY27",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "272656472306",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Orient-Crystal-Mens-1970-Made-Japan-Auto-Stainless-Steel-Vintage-Watch-YY27-/272656472306",
+  "Storefront": {
+    "StoreName": "ViViDLiLY",
+    "StoreURL": "http://stores.ebay.com/id=1014410423"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "90014",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This 37mm Orient Vintage Japanese Automatic Watch is verified 100% Authentic. Has Been Restored and Timed, and Confirmed Working Precisely and In Excellent\u00a0Condition. Comes on an original stainless steel bracelet and will fit a 19.5cm wrist Track Page Views With Auctiva's FREE Counter",
+  "HitCount": "151",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "YY27",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Orient",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Date Indicator",
+          "Day Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "37mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Orient Crystal",
+        "Name": "Model"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726564723068080_1.jpg",
+  "BestOfferEnabled": "true",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-02T19:31:00.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Los Angeles, California",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1126.7"
+  },
+  "TimeLeft": "P2DT1H42M4S"
+}

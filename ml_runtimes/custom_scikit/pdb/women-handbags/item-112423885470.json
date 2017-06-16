@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTQ4WDE1NTQ=/z/iyoAAOSwPh5ZLHOE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODg4WDE2MDA=/z/AvMAAOSwaEhZLHOS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ4NVgxMDYy/z/qgkAAOSwX9FZLHOd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTgyWDg4Mg==/z/TiEAAOSwblZZLHOm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTM0WDg4OA==/z/DIgAAOSwq1JZLHOz/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lesportsac-Yoga-Mat-Bag-NWOT-/112423885470",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This genuine lesportsac yoga Mat Bag is perfect for toting your Mat and has vented sides to let the Mat air out. It has 3 zip pockets on one side for keys, phone, etc and a large zip pocket on one side big enough for a yoga Mat towel. Will fit a standard yoga mat (my thicker manduka May would not fit which is why I am selling it). Bag is sturdy and NWOT. I am amenable to Best Offers if they are reasonable, so feel free to make an offer!",
+  "Title": "Lesportsac Yoga Mat Bag NWOT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Titusville, New Jersey",
+  "Seller": {
+    "FeedbackScore": "17",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "aspetti0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08560",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T19:24:48.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P6DT2H52M33S",
+  "EndTime": "2017-06-08T19:24:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lesportsac"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Yoga Mat Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112423885470",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124238854708080_2.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

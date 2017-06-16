@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "PL",
+  "Location": "Dobieszowice",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:22:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:22:24.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599860107",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Glashutte",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "CHROM PLATED",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "GLASHUTTE GUB MILITARY VERY OLD GERMAN WATCH HAND WINDING",
+  "ConditionDescription": "ORIGINAL CONDITION",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GLASHUTTE-GUB-MILITARY-VERY-OLD-GERMAN-WATCH-HAND-WINDING-/182599860107",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825998601078080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "42584",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H55M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzMyWDg1MA==/z/s9YAAOSwsW9YzWGy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY3WDg1MA==/z/HAMAAOSwuLZYzWG4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk0WDg1MA==/z/nwcAAOSwWxNYzWHB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzAwWDg1MA==/z/-oIAAOSwOgdYzWHM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY4WDg1MA==/z/Bi8AAOSw2gxYzWHY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTcyWDg1MA==/z/unoAAOSwsW9YzWHa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjI1WDg1MA==/z/pAIAAOSwWxNYzWHc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzAyWDg1MA==/z/k80AAOSw4CFYzWHf/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "German GUB Glashutte MILITARY wristwatch CONDITION GOOD look at the pictures below movement HAND WINDING ( after SERVICE - cleaning and oiling by watchmaker) Case Width: 33 mm without crown Case Height: 41 mm with lugs case CHROM PLATED - GOOD CONDITION dial GOOD condition watch good working and keeping time glass VERY GOOD condition free shipping worldwide",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.2",
+    "FeedbackScore": "133",
+    "UserID": "hrabiamontechristo",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

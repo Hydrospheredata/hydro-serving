@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4MA==/z/8rgAAOSw1WJZLbJ-/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3NFgxMjAw/z/K4kAAOSwEHpZLbVL/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDI4/z/x70AAOSww9xZLbVZ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NOgAAOSwuMZZLbUu/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDg0/z/9F4AAOSwY3BZLbV-/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9NgAAOSwY3BZLbWG/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-15-Black-Nylon-Quilted-Laptop-Travel-Case-Bag-/252965663902",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Hardly used, in perfect condition. Black nylon quilted laptop bag.Back slide pocket to stow any charger. Description:Tote your laptop in style with this chic laptop case from MARC BY MARC JACOBS.Double handles, longer adjustable shoulder strap, front logo plaque, zip-around closure Fits 15\" laptop Faux Fur Lined. Nylon. Imported Exterior Velcro(R) pocket 15\"W x 10.5\"H x 1\"D 4.25\" drop and 21\" drop Retail price was $198, purchased at Nordstrom.",
+  "Title": "Marc By Marc Jacobs 15\" Black Nylon Quilted Laptop Travel Case Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "West Linn, Oregon",
+  "Seller": {
+    "FeedbackScore": "92",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "nordstromshopaddict"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "97068",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T18:11:54.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P27DT3H15M35S",
+  "EndTime": "2017-06-29T18:11:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc By Marc Jacobs"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252965663902",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529656639028080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

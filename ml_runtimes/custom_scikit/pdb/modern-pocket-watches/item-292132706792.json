@@ -1,0 +1,168 @@
+{
+  "QuantitySold": "0",
+  "Title": "Homer antimagnetic pocket watch",
+  "PostalCode": "95350",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Homer antimagnetic pocket watch looks and works good missing crystal",
+  "StartTime": "2017-05-28T20:15:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDc0Ng==/z/IZoAAOSwK6RZENGx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg2WDczMg==/z/bWsAAOSwxu5ZENGY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ5WDc1MA==/z/RKIAAOSwi7RZENGZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDY4NA==/z/o3IAAOSwjL5ZENGa/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.77"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Homer",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Roman Numerals",
+          "Spring Cover"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "48mm",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jermachinist",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "905",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921327067928080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-07T20:15:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.77"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "30 day return buyer pays return shipping",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Homer-antimagnetic-pocket-watch-/292132706792",
+  "ConditionDescription": "Homer antimagnetic pocket watch looks and works good missing crystal",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Modesto, California",
+  "Storefront": {
+    "StoreName": "jermachinist",
+    "StoreURL": "http://stores.ebay.com/id=51544309"
+  },
+  "ItemID": "292132706792",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT1H41M4S"
+}

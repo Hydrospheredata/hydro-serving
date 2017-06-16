@@ -1,0 +1,197 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "80925",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "1:13956:66527:66530",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "new condition in original case never even removed. see all pictures provided.",
+  "StartTime": "2017-04-05T23:33:47.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/pVEAAOSww3tY5X5X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/k3cAAOSwDmBY5X5Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/~icAAOSw03lY5X5b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/7ewAAOSwU8hY5X5d/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "SecondaryCategoryID": "66530",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Aluminum",
+          "Silver"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Red",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Red",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Anchor",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "AVON",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "COAST GUARD",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "uniquetreasurefreak",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "21555",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "40",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118409229928080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T23:33:47.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.95"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNITED-STATES-COAST-GUARD-POCKET-WATCH-1790-SILVER-RED-MILITARY-CASE-NAVY-USA-US-/311840922992",
+  "Location": "Colorado Springs, Colorado",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "UNITED STATES COAST GUARD POCKET WATCH 1790 SILVER RED MILITARY CASE NAVY USA US",
+  "Storefront": {
+    "StoreName": "UNIQUE TREASURE FREAK",
+    "StoreURL": "http://stores.ebay.com/id=148101033"
+  },
+  "ItemID": "311840922992",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Collectibles:Militaria:Militaria (Date Unknown):Coast Guard",
+  "TimeLeft": "P4DT4H45M53S"
+}

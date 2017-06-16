@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT1H22S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272701856023",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PARROT-PIN-BROOCH-4-1-2-CLEAR-CRYSTALS-AND-PURPLE-GREEN-GOLD-BLUE-ENAMELING-/272701856023",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T13:55:00.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T13:55:00.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silvertone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "PARROT PIN BROOCH 4-1/2\" CLEAR CRYSTALS AND PURPLE/GREEN/GOLD/BLUE ENAMELING",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "Beautiful and large parrot set in silvertone metal. Decorated in clear crystals and enameled in green, purple, gold and blue with a green crystal eye. She almost has an attitude of self-confidence and status! Beautiful worn on a winter coat, a handbag, or a hat. She is 4-1/4\" long x 3/4\" wide and the back is closed in. The pin and clasp are in good working order. Purchased about 15 years ago, but little to no signs of wear or age. Very noticeable, but quietly sophisticated piece -",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2727018560238080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "magnoliamam.713",
+    "FeedbackScore": "139",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Conroe, Texas",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CfoAAOSwU9xUTAV0/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KeMAAOSw6EhUTAWR/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9VsAAOSwQJ5UTAXH/$_1.JPG?set_id=8800005007F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "77301"
+}

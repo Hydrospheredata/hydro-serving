@@ -1,0 +1,70 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.95"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "28645",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "GENEVA POCKET WATCH HUNTER CASE WITH BELT CHAIN, THIS WATCH CASE HAS A DEER ON THE FRONT AND LEAVES ON THE BACK. IT IS SILVER IN COLOR. IT COMES WITH A GRAY VELVET CARRYINGCASE. PLEASE LOOK AT PICTURES FOR BETTER DESCRIPTION.",
+  "StartTime": "2017-05-26T18:34:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/teIAAOSwopRYfkw1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/Z3QAAOSw-0xYfkw6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/6gcAAOSw44BYfkw-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/aTAAAOSw-0xYfkxI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/WQIAAOSw2xRYfkxR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/kFgAAOSwNnRYfkxW/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "henry90kirby",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "964",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529595410248080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T18:34:16.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "8.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GENEVA-POCKET-WATCH-HUNTER-CASE-BELT-CHAIN-/252959541024",
+  "Location": "Lenoir, North Carolina",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "GENEVA POCKET WATCH HUNTER CASE WITH BELT CHAIN",
+  "Storefront": {
+    "StoreName": "hudson surplus and salvage",
+    "StoreURL": "http://stores.ebay.com/id=140837687"
+  },
+  "ItemID": "252959541024",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT23H58M25S"
+}

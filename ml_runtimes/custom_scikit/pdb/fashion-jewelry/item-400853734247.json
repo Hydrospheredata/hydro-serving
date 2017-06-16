@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P13DT6M48S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.95",
+    "_currencyID": "USD"
+  },
+  "SKU": "18585",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "400853734247",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14G-3-8-Playboy-Bunny-Bunny-Dangles-Red-/400853734247",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2015-01-30T16:28:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T16:28:52.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Playboy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Tongue",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Surgical Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bars & Barbells",
+        "Name": "Type"
+      },
+      {
+        "Value": "Red",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Surgical Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "806905293178",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14G 3/8 Playboy Bunny With Bunny Dangles Red",
+  "ExcludeShipToLocation": [
+    "RU",
+    "GR",
+    "ID",
+    "MY",
+    "BR",
+    "PE"
+  ],
+  "BidCount": "0",
+  "Description": "This 14 gauge, 3/8\" navel barbell features the iconic Playboy Bunny in a series of dangling silver charms with red jewel eyes, with quality stainless steel construction. A cute, stylish accessory from Playboy!",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/4008537342478080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "UserID": "oldglory_merchandise",
+    "FeedbackScore": "72883",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "Old Glory Music Entertainment Merch",
+    "StoreURL": "http://stores.ebay.com/id=196565834"
+  },
+  "Quantity": "5",
+  "Location": "Westbrook, Connecticut",
+  "HitCount": "439",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/OTcAAMXQ-3NRlq2x/$T2eC16Z,!ygE9s7HJ-1oBRlq2)F6NQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "06498"
+}

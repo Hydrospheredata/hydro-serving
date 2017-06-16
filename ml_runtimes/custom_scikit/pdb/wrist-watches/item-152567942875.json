@@ -1,0 +1,97 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "7800.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "5000.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525679428758080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T14:42:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "5000.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:42:29.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Preowned Panerai Luminor Submersible 1950 2500M 3 Days- PAM 364, Excellent Condition, Watch without box. 1-Year Warranty (Modern Watch). We guarantee the authenticity of all of our timepieces.",
+  "BuyItNowPrice": {
+    "value": "7800.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567942875",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Panerai",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Panerai Luminor Submersible 1950 2500M 3 Days - PAM 364",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Panerai-Luminor-Submersible-1950-2500M-3-Days-PAM-364-/152567942875",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "PostalCode": "02134",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Allston, Massachusetts",
+  "TimeLeft": "P6DT23H35M43S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODU0WDEyODA=/z/Hd4AAOSwIaFZHT2h/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "5000.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "20",
+    "UserID": "lizedong521",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "ExcludeShipToLocation": [
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "PR",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "SG",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "MX",
+    "PM",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "KW",
+    "LB",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "SB",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "BA",
+    "HR",
+    "CZ",
+    "MD",
+    "MC",
+    "ME",
+    "SK",
+    "SJ",
+    "VA"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "kikohouse",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13218",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-21T04:10:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/yoAAAOSwaEhZIRMs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/fqYAAOSw-3FZIRMv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-00AAOSwxu5ZIRMx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ISQAAOSwlY1ZIRMy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/xFgAAOSwrhBZIRM1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ODgAAOSw0hlZIRM4/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.97"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "10",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Green",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "SKU": "EBKIKOH[P1009C]EBKIKOH",
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629961714648080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T04:10:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.97"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Metal-Train-Pattern-Women-Men-Quartz-Pocket-Watch-30cm-Pendant-Chain-Fob-/262996171464",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Metal Train Pattern Women Men Quartz Pocket Watch 30cm Pendant Chain Fob",
+  "Storefront": {
+    "StoreName": "kikohouse",
+    "StoreURL": "http://stores.ebay.com/id=1237031647"
+  },
+  "ItemID": "262996171464",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT9H31M52S"
+}

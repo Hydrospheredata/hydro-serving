@@ -1,0 +1,157 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P20DT3H44M49S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "WITH GIFT BOX",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "263004872151",
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-26T13:17:45.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anklet-925-Sterling-Silver-Cubic-Zirconia-Stones-Enamel-/263004872151",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-25T13:17:45.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "10\" INCHES",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Anklet 925 Sterling Silver Cubic Zirconia Stones Enamel",
+  "ExcludeShipToLocation": "CN",
+  "Location": "Bayside, New York",
+  "Description": "&amp;lt;img src=\"http://ti2.auctiva.com/web/aswCredit.gif\" border=\"0\"&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=\"http://www.auctiva.com/?how=scLnk0\" target=\"_blank\"&amp;gt;&amp;lt;img src=\"http://ti2.auctiva.com/images/sc1line0.gif\" border=\"0\"&amp;gt;&amp;lt;/a&amp;gt; 925 STERLING SILVER ANKLET ANKLET IS 10\" INCHES Track Page Views WithAuctiva's FREE Counter On May-26-17 at 00:09:02 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630048721518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "elegantjewelery",
+    "FeedbackScore": "1101",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "ELEGANT JEWELERY",
+    "StoreURL": "http://stores.ebay.com/id=288022079"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CtEAAOxy14VRU5li/$T2eC16h,!)kE9s4,BuQWBRU5livr-g~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fmwAAMXQBwlRU5lp/$T2eC16h,!yUE9s6NGYHtBRU5lpeKIg~~60_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "PostalCode": "11361"
+}

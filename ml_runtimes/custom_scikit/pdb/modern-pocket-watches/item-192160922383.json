@@ -1,0 +1,205 @@
+{
+  "ExcludeShipToLocation": [
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "LB",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "SB",
+    "WF",
+    "BE",
+    "BA",
+    "HR",
+    "CZ",
+    "MD",
+    "MC",
+    "ME",
+    "SK",
+    "SJ",
+    "VA",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.22"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-04-17T05:28:36.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Zu8AAOSwvKtY9FJw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Uy4AAOSwIWVY9FJz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/QqcAAOSwE0JY9FJ4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/aJoAAOSwmCVY9FKA/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "P1125",
+  "HitCount": "32",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921609223838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T05:28:36.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "192160922383",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.22"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pokemon Games Cosplay Play Alloy Boy Girl Quartz Pocket Watches Necklace Pandant",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pokemon-Games-Cosplay-Play-Alloy-Boy-Girl-Quartz-Pocket-Watches-Necklace-Pandant-/192160922383",
+  "Storefront": {
+    "StoreName": "xijinh3",
+    "StoreURL": "http://stores.ebay.com/id=1286992401"
+  },
+  "Seller": {
+    "UserID": "xijinh3",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6131",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT10H41M30S"
+}

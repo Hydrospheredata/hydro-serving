@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Elmhurst, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:11:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=760499948",
+    "StoreName": "ocean872"
+  },
+  "CurrentPrice": {
+    "value": "11.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:11:27.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012860431",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charles Raymond",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Iced Out Bling Bling Big Case Rubber Band Men's Watch Black Item 2339",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Iced-Out-Bling-Bling-Big-Case-Rubber-Band-Mens-Watch-Black-Item-2339-/263012860431",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630128604318080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "11373",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H54M8S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ4WDEwMDA=/z/5V8AAOSwd4tUF5SW/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "Condition: New. Diameter of case: 2.1\". Length of band: 10\". Fits wrist size from 7\" to 9\". Quartz movement. Black metal case. Black rubber band. $2 off shipping on each additional watch. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "15092",
+    "UserID": "ocean872",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Get a full refund if you are not satisfied with the purchase."
+  }
+}

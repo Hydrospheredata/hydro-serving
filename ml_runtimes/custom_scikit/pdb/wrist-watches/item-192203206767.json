@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "PT",
+  "Location": "Vila Nova de Gaia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:08:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=447993794",
+    "StoreName": "tempusantigus"
+  },
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:08:53.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Maurice Lacroix",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": [
+          "Genuine Leather",
+          "Gold Plated"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203206767",
+  "HandlingTime": "1",
+  "Description": "Mens Watch Maurice Lacroix Swiss made new old Stock Mens Watch Maurice Lacroix diamonds Swiss made new old Stock Track Page Views WithAuctiva's FREE Counter",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Watch-Maurice-Lacroix-diamonds-Swiss-made-new-old-Stock-/192203206767",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922032067678080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H44M13S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/vVUAAOSwrhBZGLtC/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Mens Watch Maurice Lacroix diamonds Swiss made new old Stock",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "2429",
+    "UserID": "tempusantigus",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

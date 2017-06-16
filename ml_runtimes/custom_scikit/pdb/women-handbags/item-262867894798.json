@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/XvsAAOSw4CFYr9YU/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ocMAAOSwB-1Yr9Yf/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8ZMAAOSw2gxYr9Ys/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Doctor-Painting-TV-Show-Theme-Durable-Canvas-Travel-Duffel-Bag-Outdoor-/262867894798",
+  "ConvertedCurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU"
+  ],
+  "Location": "FJ",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2694",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "fancyluckyjane"
+  },
+  "PrimaryCategoryID": "42526",
+  "Country": "CN",
+  "ListingType": "FixedPriceItem",
+  "Title": "Doctor Who Painting TV Show Theme Durable Canvas Travel Duffel Bag Outdoor",
+  "GlobalShipping": "false",
+  "Quantity": "8",
+  "StartTime": "2017-02-24T06:44:32.000Z",
+  "HitCount": "105",
+  "TimeLeft": "P21DT12H47M52S",
+  "EndTime": "2017-06-24T06:44:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Unbranded"
+      },
+      {
+        "Name": "Style",
+        "Value": "Modern"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "574518803526"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262867894798",
+  "Storefront": {
+    "StoreName": "fancyluckyjane",
+    "StoreURL": "http://stores.ebay.com/id=1255800385"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2628678947988080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

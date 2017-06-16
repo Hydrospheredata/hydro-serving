@@ -1,0 +1,243 @@
+{
+  "ReturnPolicy": {
+    "Description": "Get the item you ordered or get your money back.\nCovers your purchase price and original shipping",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P28DT16H13M23S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "lucyjewelry_9",
+    "StoreURL": "http://stores.ebay.com/id=1501350852"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302306200257",
+  "ConvertedCurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-05T07:40:18.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Hollow-Sexy-Style-Metal-Bra-Hollow-Statement-Collar-Choker-Body-chain-/302306200257?var=",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T07:40:18.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTU3WDU2Nw==/z/6gcAAOSwdjNZDCoT/$_57.PNG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTczWDU3NQ==/z/C4wAAOSwjqVZDCof/$_57.PNG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTcyWDU1OA==/z/lD4AAOSw~y9ZDCor/$_57.PNG?set_id=8800005007"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold",
+          "Silver",
+          "Black"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "5"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "5"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "5"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Body chain",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Women Hollow Sexy Style Metal Bra Hollow Statement Collar Choker Body chain",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "BD",
+    "BT",
+    "CN",
+    "KG",
+    "NP",
+    "PK",
+    "LK",
+    "UZ",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "PM",
+    "BH",
+    "IQ",
+    "KW",
+    "LB",
+    "OM",
+    "AE",
+    "YE"
+  ],
+  "Location": "jiangsu",
+  "Description": "Women Hollow Sexy Style Metal Bra Hollow Statement Collar Choker Body chain DescriptionConditionNewMaterialalloy.metalQuantity1 pcsSize Perimeter:46cm,JQ2709ColorSilver/gold /black please pick colorPackageopp bag and pretty Ring BoxCoversion1mm=0.039inch,1inch=25.4mm Note:the photo does not show actual size, please refer to Description for size details. Color may very slightly due to the color calibration of each individual monitor PaymentWe only accept paypal. Please pay us within 3 days after you won all.ShippingWe ship all items within 2 days upon receipt of payment(except weekend and holidays),and we offer free shipping to worldwide!to USA,shipped by China Post-Epacket,with tracking number (only takes approx 7-12days!);to other countries,shipped by China Post/Singapore Post/HongKong Post Airmail,normally,takes approx 2-4weeks,some parcels may be a little longer,need 3-5weeks; more than $150,EMS,DHL,or FedEx offered (approx 5-8days) (please note:Sometimes shipping may be delayed a little due to the Customs or weather,sincerely hope you could understand,please wait for some more days in patience,or contact us for some other solutions,thank you!)ReturnsWe offer 100% Satisfaction Guarantee,any question,please contact us,we will send you a replacement item or refund.Feedbackplease leave me a positive feedback with an overall Detailed Selling Rating(DSR) of 5 star,if you are not satisfied with our items or service, please contact us before leaving neutral or negative feedback.we will do my best to solve the problem. Happy shopping From lucy store!",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "UserID": "lucyjewelry_9",
+    "FeedbackScore": "93",
+    "FeedbackRatingStar": "Blue"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "15",
+  "PaymentMethods": "PayPal",
+  "HitCount": "36",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTcyWDU1OA==/z/Go4AAOSwjqVZDCqY/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcwWDU1Mw==/z/oDgAAOSw~y9ZDCpa/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTU5WDU3Ng==/z/mcUAAOSw-3FZDCpg/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcxWDUzOA==/z/f~IAAOSwt0FZDCpr/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTY2WDU1Mw==/z/BeUAAOSww9xZDCpv/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcxWDUzOQ==/z/9SQAAOSwdjNZDCpy/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTY4WDU2Mg==/z/otcAAOSwONBZDCsN/$_57.PNG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

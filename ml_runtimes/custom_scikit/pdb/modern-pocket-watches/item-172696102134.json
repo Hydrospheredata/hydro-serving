@@ -1,0 +1,80 @@
+{
+  "QuantitySold": "0",
+  "Title": "majestron quartz pocket watch, Hunting Dog",
+  "PostalCode": "85301",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "13.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "majestron quartz pocket watch, Hunting Dog, with chain.",
+  "StartTime": "2017-05-26T13:25:40.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/NjAAAOSw1WJZFU20/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/1qcAAOSwYlRZFU23/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/gK8AAOSwjqVZFU26/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/bOUAAOSw~y9ZFU29/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Majestron",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "daorio",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "99",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726961021348080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "7.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemID": "172696102134",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "13.0"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-02T13:25:40.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/majestron-quartz-pocket-watch-Hunting-Dog-/172696102134",
+  "ConditionDescription": "No battery",
+  "BuyItNowAvailable": "true",
+  "Location": "Glendale, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.0"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT18H49M16S"
+}

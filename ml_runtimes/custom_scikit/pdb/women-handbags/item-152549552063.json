@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDQzNA==/z/d1AAAOSwCU1YysTr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDQzNA==/z/Af0AAOSwWxNYysUc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDQzNA==/z/zyAAAOSwB-1YysUi/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDQzNA==/z/l0QAAOSwsW9YysUn/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Nylon-Eliza-Baby-Bag-Quartz-Grey-Tote-New-Tags-199-99-/152549552063",
+  "ConvertedCurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "With an included changing pad, 4 handy exterior pockets, and easy-to-clean, logo-quilted fabric, this Marc by Marc Jacobs baby bag is a chic parent's dream. Detachable shoulder strap and sturdy double handles. Zip closure opens to a logo-lined interior with a zip pocket and 4 patch pockets.",
+  "Title": "Marc by Marc Jacobs Nylon  Eliza Baby Bag Quartz Grey Tote New With Tags $199.99",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "sabatinogroup01"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11204",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-15T17:05:17.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P12DT1H40M19S",
+  "EndTime": "2017-06-14T17:05:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Quartz grey"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152549552063",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525495520638080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

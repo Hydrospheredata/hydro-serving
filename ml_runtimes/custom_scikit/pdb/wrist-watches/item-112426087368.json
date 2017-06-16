@@ -1,0 +1,104 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Las Vegas, Nevada",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:17:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1048565340",
+    "StoreName": "VegasSecondhandtime"
+  },
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:17:45.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426087368",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BG-142",
+        "Name": "Model"
+      },
+      {
+        "Value": "1564",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio Baby-G BG-142 Watch new battery",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-Baby-G-BG-142-Watch-new-battery-/112426087368",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124260873688080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "89131",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H4M52S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjgw/z/QT8AAOSwT-FZBs4m/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9EMAAOSwjL5ZBs4g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ1OFgxNjAw/z/z84AAOSwrhBZBs4i/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQyNFgxNjAw/z/51UAAOSwt0FZBs4j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5NzI=/z/HwEAAOSwnONZBs4k/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ5OFgxNjAw/z/9J0AAOSwjL5ZBs4o/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MjY=/z/KMwAAOSwtGlZBs4p/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzMw/z/8-8AAOSw-3FZBs4q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDQy/z/9AIAAOSw-3FZBs4s/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Casio Baby-G BG-142 Watch new battery. Amazing Shape...(see pics)",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "283",
+    "UserID": "lasvegassecondhandtime",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

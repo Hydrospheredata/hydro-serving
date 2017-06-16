@@ -1,0 +1,165 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Italian-Leather-Canvas-Satchel-Messenger-Cross-Body-Briefcase-College-bag-D-/192144389582?var=",
+  "ConvertedCurrentPrice": {
+    "value": "77.15",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: 1)Canvas and genuine leather messenger bag with antique finish hardware 2)Fully lined inside with 2 open pockets and another zipped pocket 3)Adjustable shoulder strap up to 120cm 4)Large zipped compartment on the back for easy accessing your tablet 5)Back pocket opening:10 13cm The bag fits notebooks up to 38cm Can fit A4 document folders and a leaver arch file at the same time",
+  "Title": "New Italian Leather Canvas Satchel Messenger Cross Body Briefcase College bag. D",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "77.15",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Dark Grey",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0131/205/928/310946489/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Khaki",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0131/205/929/291863113/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "77.15",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:131205927:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "133.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:131205928:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "77.15",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:131205929:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Khaki"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Blue",
+          "Dark Grey",
+          "Khaki"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-30T22:47:30.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P26DT6H29M57S",
+  "EndTime": "2017-06-28T22:47:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Craze London"
+      },
+      {
+        "Name": "MPN",
+        "Value": "578331141"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144389582",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:131205926:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,92 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825020512858080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T09:32:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:32:09.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Seiko Men's Quartz Chronograph Watch Two-tone bracelet Foldover bucket safety clasp Water resistant Very good condition",
+  "BuyItNowPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502051285",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko Men's Quartz Chronograph Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-Mens-Quartz-Chronograph-Watch-/282502051285",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "3",
+  "PostalCode": "02806",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Barrington, Rhode Island",
+  "TimeLeft": "P6DT18H5M45S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/bu0AAOSwB-1YrMqy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/rFcAAOSwOgdYrMqz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ZUEAAOSwWxNYrMq1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/b1sAAOSwB-1YrMq2/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "63",
+    "UserID": "nmarcello-us",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

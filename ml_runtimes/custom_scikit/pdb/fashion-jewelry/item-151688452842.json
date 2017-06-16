@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P3DT18H9M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "131.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "151688452842",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Blue-Violet-Shape-Glasses-Holder-Pin-Brooch-Handmade-Nickel-Free-jb-gh-14pb-/151688452842",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "131.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2015-05-21T05:20:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T05:20:33.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tamarusan Ginza",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper and Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "blue",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jb-gh-14pb",
+        "Name": "Product number"
+      }
+    ]
+  },
+  "Title": "Blue Violet Shape Glasses Holder Pin Brooch Handmade Nickel Free jb-gh-14pb",
+  "ExcludeShipToLocation": "JP",
+  "BidCount": "0",
+  "Description": "International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying. It usually takes around 10-15 days for arrival Handmade. made in Japan.Because it is cut into random part of the picture, it will be a shade different point by point. The actual pictures may differ slightly from the photo shown. Our concepts are to offer something beyond the bounds of accessories which attract everyone regardless of age or sex. The jewel stone parts are made with acrylic resin. We trap various materials in clear resin such as hand-drawing, embroidery and beads. It is a hand-made glasses holder. The jewel stone parts are made with acrylic resin. Please hang glasses on a ring part and use it as glasses holder. It will help you express your individuality brilliantly. length 4cmand width 3cm[charm] width of glasses temple until 1.6cm material ---- the main parts\uff1aepoxy resin metal: gold plating copper and brass",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1516884528428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tamarusan",
+    "FeedbackScore": "7",
+    "FeedbackRatingStar": "None"
+  },
+  "Storefront": {
+    "StoreName": "tamarusan",
+    "StoreURL": "http://stores.ebay.com/id=1206526448"
+  },
+  "Quantity": "2",
+  "Location": "Tokyo",
+  "HitCount": "645",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/uA8AAOSwBahVXWq1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/2l0AAOSwv0tVXWrA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/gG0AAOSw3xJVXWq7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/n88AAOSwNSxVXWq-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTIw/z/oDEAAOSwNSxVXWrF/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

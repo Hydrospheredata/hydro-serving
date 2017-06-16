@@ -1,0 +1,164 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "109.31",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Yorkshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:33:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "84.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:33:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705612598",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Seksy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Scratch-Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "21mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "5051322024101",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SEKSY LADIES KRYSTAL BRACELET WATCH MODEL NUMBER 2375, 2410.37 - RRP \u00a399.99",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEKSY-LADIES-KRYSTAL-BRACELET-WATCH-MODEL-NUMBER-2375-2410-37-RRP-99-99-/172705612598",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727056125988080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "LE53NE",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H10M45S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzkwWDc4OA==/z/am4AAOSw3ZRY~yi3/$_57.PNG?set_id=8800005007"
+  ],
+  "Description": "This fashionable watch is brought to you by Seksy wrist-wear by Sekonda. It features a rhodium plated case with a silver colour dial with batons. The rhodium plated bracelet with mesh stone setting made with Swarovski\u00ae crystals adds a sparkle to any outfit. Guaranteed for two years.Scratch resistant glass, analogue display, rhodium plated case and bracelet, silver colour dial with batons, 330 swarovski\u00ae crystals, 2 year guarantee. Watch features:Scratch resistant glass.Silver dial.Face width 21mm.Base metal case.Stone set silver base metal bracelet.Jewellery clasp.Quartz movement.Analogue display.Manufacturer's 2 year guarantee.EAN: 5051322024101THIS WATCH CAN BE YOURS FOR THE UNBEATABLE PRICE OF \u00a384.99 WITH FREE POSTAGE!!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1101",
+    "UserID": "sportz111",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "No Returns Accepted",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

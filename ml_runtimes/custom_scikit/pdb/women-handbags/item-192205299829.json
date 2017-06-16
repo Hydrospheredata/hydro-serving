@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "625.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922052998298080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/L8wAAOSwfpVZMWIJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/b8MAAOSw~FJZMWIJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/XXMAAOSw-3FZMWIJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Burberry-Peyton-House-Check-Leather-Clutch-Bag-/192205299829",
+  "ConvertedCurrentPrice": {
+    "value": "399.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store About Us Contact Us Burberry Peyton House Check & Leather Clutch Bag Made in ItalyColor/material: leather with house check canvas trimExterior design details: gold-tone hardwareInterior design details: fabric lining interior pocketsMeasures 10.25in wide x 6.5in high x 1in deepAdjustable and removable shoulder strap drops 21inZippered topPlease note: All measurements were taken by hand and are approximate; slight variations may occur.Choose from the following:BlueGreenMahoganyTanTaupe",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "399.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Shepherdsville, Kentucky",
+  "Seller": {
+    "FeedbackScore": "511",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "la_via"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40165",
+  "GlobalShipping": "false",
+  "Quantity": "10",
+  "StartTime": "2017-06-02T13:03:01.000Z",
+  "Title": "Burberry Peyton House Check & Leather Clutch Bag",
+  "TimeLeft": "P29DT22H53M57S",
+  "EndTime": "2017-07-02T13:03:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Burberry"
+      },
+      {
+        "Name": "Style",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Tan"
+      },
+      {
+        "Name": "Size",
+        "Value": "NoSize"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205299829",
+  "Storefront": {
+    "StoreName": "La Via Store",
+    "StoreURL": "http://stores.ebay.com/id=1595839561"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "SKU": "11112143200002",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

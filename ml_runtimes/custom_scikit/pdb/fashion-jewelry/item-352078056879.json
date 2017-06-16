@@ -1,0 +1,122 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "43.38",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "352078056879",
+  "TimeLeft": "P5DT9H3M4S",
+  "ListingStatus": "Active",
+  "Title": "10K Yellow Gold Snake Cubic Zirconia Adjustable Ring or Toe Ring",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Asia",
+    "DE",
+    "FR",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "43.38",
+    "_currencyID": "USD"
+  },
+  "SKU": "10k -ck17-snaketr",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "43.38",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-03T22:36:06.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T22:36:06.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ritastephens",
+        "Name": "Brand"
+      },
+      {
+        "Value": "10k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/10K-Yellow-Gold-Snake-Cubic-Zirconia-Adjustable-Ring-Toe-Ring-/352078056879",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "GB",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "PH",
+    "TH",
+    "VN",
+    "MX",
+    "PM",
+    "IN",
+    "NP",
+    "PK"
+  ],
+  "Location": "New York, New York",
+  "Description": "10K Yellow Gold Snake Cubic Zirconia Adjustable Ring or Toe Ring SquareTrade \u00a9 AP6.0 DETAILS- 10K Yellow Gold CZ Slightly Adjustable Ring. Stunning look!!! These are appropriate for women of all ages. Add some sparkle to your toes with this Toe Ring. All items comes with a gift box. 30 day money back guarantee. CONDITION - Brand New PROPERLY STAMPED & MARKED Picture enlarged for details STORE HOME ABOUT US CONTACT US ALL ITEMS We offer Free Shipping for US orders. Orders are shipped within 1-3 business days of receiving payment We accept all major credit cards processed through PayPal. International buyers are responsible for customs duty. 100% satisfaction guarantee \u2013 Return for any reason within 30 days to receive a full refund. Monday to Friday 9AM \u2013 4PM ET Design by Sally Milo - MiloDesign Powered by SixBit's eCommerce Solution",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520780568798080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "ritastephensjewelry",
+    "FeedbackScore": "30226",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "RitaStephens Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=165600885"
+  },
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyMFgxMDQ0/z/-nAAAOSwHnFV1drM/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU5WDE2MDA=/z/MbsAAOSwaB5Xmh9a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/G9YAAOSwENxXmh9g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ujsAAOSwZVlXmh9L/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10036"
+}

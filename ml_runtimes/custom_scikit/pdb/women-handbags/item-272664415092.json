@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3kMAAOSwYlRZEeJx/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GkcAAOSwfRdZEeJR/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/w0sAAOSwPh5ZEeJz/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rEsAAOSwcB5ZEeJx/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/k30AAOSwn-tZEeJx/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/u14AAOSwblZZEeJy/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G-gAAOSwtGlZEeJz/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Classic-Kate-Spade-NY-Blue-and-Navy-Stripe-Stevie-Diaper-Baby-Bag-/272664415092",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Used, one non-smoking owner. In very good condition but not brand new and has very slight wear. Has convenient stroller handle straps for attaching it or they can tuck into the outer bottle pockets at each end. Includes a matching navy fold-up changing pad. Plentiful pockets which are very nice to use as a large purse as the baby grows to toddler. DETAILS: Size: 10.9\"h x 17.2\"w x 7\"d - drop length 8\". Made from durable blue and navy stripe canvas fabric with light brown leather trim. Interior is solid navy blue nylon. 14 karat gold plated hardware. Zipper closure, double side pockets, zipper pocket, changing pad slide pocket and exterior bottle pockets. Great bag for baby bag and beyond and looks perfect as a summer accessory!",
+  "Title": "Classic Kate Spade NY Blue and Navy Stripe Stevie Diaper Baby Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Milford, Michigan",
+  "Seller": {
+    "FeedbackScore": "5",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "2013cooper614"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48380",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T19:00:01.000Z",
+  "HitCount": "171",
+  "TimeLeft": "P6DT3H33M43S",
+  "EndTime": "2017-06-08T19:00:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272664415092",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726644150928080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

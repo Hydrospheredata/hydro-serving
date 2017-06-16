@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "222.93",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Melbourne, Victoria",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:25:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-10T08:25:28.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942225677",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "38mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Maurice Lacroix",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Yellow",
+          "Yellow Gold"
+        ],
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Maurice Lacroix Diamonds Pearl Dial Watch Swiss Made",
+  "ConditionDescription": "Used and in very good working order.Has diamond indicators and mother of pearl dial. There maybe signs of cosmetic wear like light scratches. Please see photos for more information.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Maurice-Lacroix-Diamonds-Pearl-Dial-Watch-Swiss-Made-/201942225677",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019422256778080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "3171",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT16H55M26S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CKEAAOSwmLlX1~gV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gXkAAOSwAuZX1~gP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wWEAAOSw-kdX1~gm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jO0AAOSwvzRX1~gb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/19YAAOSwOyJX1~gh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jx0AAOSwvzRX1~gs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JMUAAOSwknJX1~gx/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Authentic Maurice Lacroix Swiss made Diamond indicators Mother of pearl dial Case: 38mm including crown Band: approx. inner circumference of 18-20cm Gold plating is in good condition Inspections welcome Cash only on pick up, thanks.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "79",
+    "UserID": "auspercentoff",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

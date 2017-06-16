@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT9H19M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "41.09",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "172708465802",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Caravan-Not-Norm-Headband-Clear-Two-Colored-Flowers-Hand-Made-/172708465802",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "41.09",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T20:40:30.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T20:40:30.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "076116049660",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0076116049660",
+        "Name": "EAN"
+      },
+      {
+        "Value": "CARAVAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4966",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Health and Beauty",
+        "Name": "Binding"
+      },
+      {
+        "Value": "0.05 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5 x W 4.9 x H 0.3 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Caravan",
+        "Name": "Label"
+      },
+      {
+        "Value": "1",
+        "Name": "NumberOfItems"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "2011-05-20",
+        "Name": "ReleaseDate"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Caravan Not The Norm This Headband is Clear with Two Colored Flowers Hand Made",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Caravan hair accessories are produced with celluloid acetate, a durable material with an everlasting luxurious finish, something to cherish for a lifetime. each of our caravan hair accessories is a true piece of art. - Produced with celluloid acetate - Everlasting luxurious finish - Long lasting material Caravan Not The Norm This Headband is Clear with Two Colored Flowers Hand Made",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727084658028080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "abood.av",
+    "FeedbackScore": "19716",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "abood.avSTORE",
+    "StoreURL": "http://stores.ebay.com/id=1400291383"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg3NDA=/z/lMcAAOSwZKBZMHvB/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

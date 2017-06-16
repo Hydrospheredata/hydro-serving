@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KIQAAOSwaEhZGj9i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JA8AAOSw0hlZGj82/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iCwAAOSwn-tZGj8e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g-YAAOSw8lpZGj8h/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2SgAAOSwlMFZGj8q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/o~YAAOSwPh5ZGj8w/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ss4AAOSwcgNZGj8~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/f7YAAOSw7GRZGj9F/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzYwWDY4MQ==/z/bWIAAOSwYvFZGj-G/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KOgAAOSwaEhZGj9t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nVoAAOSwn-tZGkFN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1XYAAOSwcaFZGkFa/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Oversize-Tote-Purse-Big-Shopping-India-Pink-Pattern-Cotton-Beach-Bag-Casual-Huge-/112408668836",
+  "ConvertedCurrentPrice": {
+    "value": "76.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Oversize beach or shopping canvas tote bag by Roberta Roller Rabbit, imported from India. Pink, white and brown impressionistic pattern, measures about 20\" tall, 25\" across and 10\" wide, with shoulder straps that are about 9\" in diameter. 100% cotton. Zippered pouch inside and two cute little \"tails\" to tie the top closed. (One of them shows in photo #1, but they're both the same length and on opposite sides of the lining.)",
+  "Title": "Oversize Tote Purse Big Shopping India Pink Pattern Cotton Beach Bag Casual Huge",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "76.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "FeedbackScore": "243",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "fabfinds42"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90048",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-16T00:03:59.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P12DT6H17M49S",
+  "EndTime": "2017-06-15T00:03:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Roberta Roller Rabbit"
+      },
+      {
+        "Name": "Features",
+        "Value": "Lightweight"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Abstract Impressionist"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "India"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112408668836",
+  "Storefront": {
+    "StoreName": "fabfinds42",
+    "StoreURL": "http://stores.ebay.com/id=334022480"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124086688368080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

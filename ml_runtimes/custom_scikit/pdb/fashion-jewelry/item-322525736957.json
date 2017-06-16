@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "60.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "322525736957",
+  "TimeLeft": "P3DT9H9M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-KJL-CLEAR-CRYSTAL-SNOWFLAKE-BRACELET-/322525736957",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T00:05:29.000Z",
+  "PaymentMethods": "PayPal",
+  "HighBidder": {
+    "UserID": "o***d",
+    "FeedbackScore": "561",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Purple"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T00:05:29.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE KJL CLEAR CRYSTAL SNOWFLAKE BRACELET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "1",
+  "Description": "SIGNED LANE BRACELET IS GOLD WITH RHINESTONE SNOWFLAKE",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225257369578080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "paper00",
+    "FeedbackScore": "11268",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "paper00",
+    "StoreURL": "http://stores.ebay.com/id=55701735"
+  },
+  "Quantity": "1",
+  "HandlingTime": "2",
+  "Location": "Waterbury, Connecticut",
+  "HitCount": "26",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~0kAAOSwYGFUvXXT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Uh4AAOSw8d9UvXXq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4cQAAOSw2s1UvXX4/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06708"
+}

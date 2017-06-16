@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT20H30M28S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322543213942",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BLACK-STINGRAY-LEATHER-BRACELET-MAGNETIC-LOCK-AND-EARRINGS-/322543213942",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T06:14:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T06:14:24.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stingray Leather",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "BLACK STINGRAY LEATHER BRACELET MAGNETIC LOCK AND EARRINGS",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "Genuine Stingray Leather Bracelet Magnetic Lock\u00b7 Material: Genuine Stingray Leather\u00b7 Color: Black\u00b7 Bracelet Length (Approx.): 21cm\u00b7 Width (Approx.): 5mm\u00b7 Clasp Type: Magnetic ClaspGenuine Stingray Earrings\u00b7 Material: Genuine Stingray Leather Earrings Crafted in Zinc Alloy\u00b7 Color: Black/Antique Bronze\u00b7 Diameter: 2cm Shipping Policy\u00b7 Items will be shipped within 24-48 hours after received payment excluding weekends and holidays. Refund Policy\u00b7 Items must be returned within 14 days of receipt date for a full purchase price. Items received for refund must be in an unused, altered or undamaged condition. You are responsible for return shipping cost.\u00b7 Refunds are processed upon receipt of return and refund is processed in the same manner as payment was made.\u00b7 Please contact us via eBay message before returning any item.\u00b7 Refund by PayPal only.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225432139428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "chevas68",
+    "FeedbackScore": "117",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "chevas68 store",
+    "StoreURL": "http://stores.ebay.com/id=1356800117"
+  },
+  "Quantity": "1",
+  "Location": "Glendora, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYyWDk0OQ==/z/U2IAAOSw-3FZDWjv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExMlgxMTQy/z/8psAAOSwAPVZDWkF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUzWDk3NQ==/z/XqoAAOSwt0FZDWkW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTg5WDEwOTQ=/z/WT8AAOSwhvFZDWkq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTg4WDEzMDQ=/z/ZscAAOSwX61ZDWk7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODU2WDExNDQ=/z/i1AAAOSwONBZDWlL/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "91740"
+}

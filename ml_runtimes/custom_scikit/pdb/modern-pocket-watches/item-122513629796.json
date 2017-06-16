@@ -1,0 +1,113 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.57"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SG12UUBA3623616",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "GTIN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-24T11:35:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/GREAAOSw-K9ZJXAU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/WjoAAOSwIaFZJXAV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/h9kAAOSw-3FZJXAW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/-icAAOSwZKBZJXAW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/lPkAAOSw1WJZJXAX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/I6AAAOSwDiBZJXAY/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_FX793",
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225136297968080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T11:35:54.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122513629796",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.57"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Unique Collection Bronze Alloy Bicycle Quartz Pocket Watch Pendant Necklace BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Unique-Collection-Bronze-Alloy-Bicycle-Quartz-Pocket-Watch-Pendant-Necklace-BA-/122513629796",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130025",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT16H58M27S"
+}

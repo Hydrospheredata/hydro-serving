@@ -1,0 +1,147 @@
+{
+  "ReturnPolicy": {
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. Created automatically by EaSync.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P27DT15H29M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "69.4",
+    "_currencyID": "USD"
+  },
+  "SKU": "B008REXMNS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322504331171",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Yellow-gold-Toe-Ring-10K-Gold-/322504331171",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "69.4",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-04T05:15:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-03T05:15:27.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "More Toe Rings",
+        "Name": "Brand"
+      },
+      {
+        "Value": "TRE1056",
+        "Name": "MPN"
+      },
+      {
+        "Value": "N/A",
+        "Name": "UPC"
+      },
+      {
+        "Value": "N/A",
+        "Name": "EAN"
+      },
+      {
+        "Value": "N/A",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Yellow gold Toe Ring 10K Gold",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "Yellow gold Toe Ring 10K Gold This stunning yellow gold toe ring will make a great addition. Made with 10KT or 14KT solid gold. (also available in white gold) Prouldy crafted in the USA. This toe ring is fully adjustable. Product Features Gold Toe Ring Made in The USA Adjustable Ring 10kt Gold Shipping: Shipping is complimentary within the lower 48 US States. We Do Not Ship to PO/APO Boxes, HI or Alaska We Do Not Ship Outside of the Continental US All items ship within 24-72 hours of Payment For large items that require Freight shipping a valid phone number is required to call and schedule your delivery Terms of Sale and Feedback: Feedback is extremely important to us and eBay If you are satisfied with our transaction, please take a moment to leave Positive Feedback. YOUR Satisfaction is our #1 Priority! If there are any issues, PLEASE contact us BEFORE leaving a neutral or negative rating so that we may resolve any concerns. We PROMISE we can make you happy if you give us a fair chance. Returns / Concerns: All items qualify for returns within 14 - 30 days of receipt. Buyer is responsible for return shipping on any item that is not damaged Please be sure this is an item you want before making your purchase. Customer Satisfaction is our TOP priority! All items are IN STOCK at time of listing. Inventory on eBay changes constantly and it is impossible to maintain a perfectly accurate count of all items. Please do not penalize us if we have to issue you a refund! Thank You For Your Business!",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225043311718080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "mydealspro",
+    "FeedbackScore": "678",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "mydealspro",
+    "StoreURL": "http://stores.ebay.com/id=505200435"
+  },
+  "Location": "US",
+  "Quantity": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM1OFgxNTAw/z/HF0AAOSwrhBZCrjs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTQ2/z/S~IAAOSw7GRZCrjt/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

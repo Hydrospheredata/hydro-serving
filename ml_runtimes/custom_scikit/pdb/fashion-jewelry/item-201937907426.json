@@ -1,0 +1,85 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P21DT4H48M20S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "VINTAGE",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201937907426",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-STERLING-SILVER-GARNET-KABANA-GARNET-RING-STAMPED-/201937907426",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-27T19:49:10.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T19:49:10.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Garnet",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Kabana",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "VINTAGE STERLING SILVER GARNET \"KABANA\" GARNET RING STAMPED",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nadine Krakov Collection Fine Jewelry, Arts & Antiques Purveyors and Purchasers of Antique and Estate Pieces 191 South Beverly Drive Beverly Hills, CA 90212 310.860.9991, 310.860.0119N-TO VINTAGE STERLING SILVER GARNET STAMPED RING SIZE: 6.25WEIGHT 3.8 GHEIGTH 3/4''STAMPED: KABANA STERLING The Nadine Krakov Collection proudly offers it for much less than the retail value! The item is in VINTAGE condition! Click here to see all of our eBay auctions! Payment Info: We happily accept PayPal, credit card payments, bank wires, and cashier\u2019s checks. We only accept PayPal payments and bank wires from international buyers. About us: The Nadine Krakov Collection is a mature business that has been serving Beverly Hills and Los Angeles antique and estate jewelry needs for over 10 years. Our first store opened in October 1997 and we were fortunate enough to open a second in 2005. Our policy: We are offering FREE Domestic shipping with full insurance coverage. Free shipping does not apply to any discounted sales. If you are unsatisfied with the piece, you may return it within 3 days for merchandise credit for the sale price; a 10% restocking fee will be assessed. We do not refund any shipping and handling charges. All returned items must be in the same condition in which they were received by the buyer. Buyer pays return shipping charge. International buyers are responsible for all customs duties, brokerage fees, and taxes, which are NOT included in the shipping costs. Packages shipped to addresses in California will be charged 9% sales tax. We guarantee the authenticity of our pieces, as well as the stated condition and functionality of all items. However, all items are sold in \u201cAS-IS\u201d condition without warranties, unless otherwise stated. We will certainly leave positive feedback for smooth transactions and hope you will do the same. We want to assure our customers with the best customer service and satisfaction. If you have any questions or concerns PLEASE CONTACT US! If you feel that we have not met some of your needs, PLEASE CONTACT US BEFORE leaving negative feedback or opening a case and we will resolve any issue IMMEDIATELY! THANK YOU! Disclaimer: We are not in any way affiliated with this designer. We do not use text or images from said company. N-TO",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019379074268080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "nadinekrakov",
+    "FeedbackScore": "2254",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Nadine Krakov Estate Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=362032934"
+  },
+  "Quantity": "1",
+  "Location": "Beverly Hills, California",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzMxWDc4Mw==/z/4yYAAOSwT6pVsBum/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY4WDkxNQ==/z/9Y4AAOSwHnFVsBs6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzU1WDcyNg==/z/9q0AAOSwHnFVsBtI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1RAAAOSwT6pVsBsV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3lkAAOSwMmBVsBsZ/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "90212"
+}

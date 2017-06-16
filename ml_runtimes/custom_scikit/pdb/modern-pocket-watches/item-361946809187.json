@@ -1,0 +1,71 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "40241",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "2 1/2 inches. Runs",
+  "StartTime": "2017-04-05T19:17:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5MVgxMTc1/z/aSQAAOSwAANY5UK6/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Beacon",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "allcolls",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "21782",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "92",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619468091878080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-04T19:17:42.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-BEACON-VICEROY-Pocket-Watch-/361946809187",
+  "Location": "Louisville, Kentucky",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage BEACON VICEROY Pocket Watch",
+  "Storefront": {
+    "StoreName": "K Lynn&#39;s Jools and Treasures",
+    "StoreURL": "http://stores.ebay.com/id=2396205"
+  },
+  "ItemID": "361946809187",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT29M41S"
+}

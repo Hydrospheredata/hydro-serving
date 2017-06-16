@@ -1,0 +1,166 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/acoAAOSw-3FZFPj8/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Multi-Pocket-Shopping-Tote-574-Black-One-Size-/182570594395",
+  "ConvertedCurrentPrice": {
+    "value": "81.24",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "David King Co. Multi Pocket Shopping Tote 574 Black One Size Product Details Product Dimensions: 16 x 6 x 12.5 inches Shipping Weight: 1.2 pounds Origin: Colombia Item model number: 574B 100% Leather Imported zipper closure 10\" shoulder drop 16\" high 12.5\" wide Top zip Pockets Fully lined Drop straps 16x6x12.5 Top zip^Pockets^Fully lined^Drop straps^16x6x12.5 Top zippered closure and a zippered pocket on the top collar provide security. Fully lined interior. Our soft, rich vacquetta leather displays all the character provided by nature, making each piece unique. Our tanning process locks in natural oils, producing a soft, durable hand that won't crack or become brittle with normal use. Occasional maintenance with a high-quality conditioner is recommended for lasting performance. Return All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), item must be in original condition with original packaging. Return shipping to be paid by buyer. 15% Restocking fee may apply. Shipping Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses. All orders are usually shipped within one business day. Your order will be shipped out via one of our participating partners, which include UPS, USPS, FedEx, DHL, among others. We also ship globally through eBay's GSP program. Please ensure the item meets your countries standards!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "81.24",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14874",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "shoemaven26"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King Co. Multi Pocket Shopping Tote 574 Black One Size",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-05-11T23:51:29.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825705943958080_1.jpg",
+  "TimeLeft": "P8DT8H47M11S",
+  "EndTime": "2017-06-10T23:51:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "574B"
+      },
+      {
+        "Name": "UPC",
+        "Value": "610074794134"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0610074794134"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182570594395",
+  "Storefront": {
+    "StoreName": "affordable_auctionz",
+    "StoreURL": "http://stores.ebay.com/id=235320973"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%",
+    "RestockingFeeValueOption": "Percent_15",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B002AP4J9G",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

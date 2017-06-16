@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.74",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Marrickville",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:47:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-07T08:47:39.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501987334",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "AUD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2-Vintage-Oversize-Mens-Watches-Parts-Repair-one-Marked-IMPERIOS-/282501987334",
+  "Title": "2 Vintage Oversize Men's Watches for Parts Or Repair one Marked IMPERIOS",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825019873348080_1.jpg",
+  "HitCount": "36",
+  "PostalCode": "2204",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H19M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTMxWDE0OTM=/z/Ff0AAOSwcB5ZLn9F/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU0WDEzNDI=/z/1UcAAOSwcgNZLn9S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODcwWDExNTc=/z/SZwAAOSwlndZLn9i/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc2WDEyOTU=/z/Pk8AAOSwxu5ZLn94/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0N1gxMDM4/z/Az4AAOSw1WJZLn-D/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc3WDkxMw==/z/zRQAAOSwR29ZLn-N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc3WDkxMw==/z/2OoAAOSwcgNZLn-V/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-yEAAOSwYlRZLn-e/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/S-MAAOSwDiBZLn-k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3-MAAOSwaeRZLn-t/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "2 Vintage Oversize Men's watches for parts or repair, one signed IMPERIOS on the dial and movement, other not signed, Neither working. As the photos show both watches have quite good dials and hands, The IMPERIOS has a broken balance The other watch's balance is ok, The IMPERIOUS has a little corrosion around the lugs but could clean up ok, The gold plating on the other is quite worn, Getting both of these replated would yield a pair of very attractive pair of timepieces! Both have a new plexi fitted, IMPERIOS measures 42 mm long lug tip to lug tip and 34 mm wide. Other measures 42.3 mm long lug tip to lug Tip and 34.6mm wide.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "715",
+    "UserID": "phoenixtime",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

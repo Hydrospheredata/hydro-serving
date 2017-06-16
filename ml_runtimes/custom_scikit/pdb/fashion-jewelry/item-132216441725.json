@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT23H35M46S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "GREAT LOGO EARRINGS IN WONDERFUL CONDITION...VINTAGE",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132216441725",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:07:40.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-GOLD-TONE-SMALL-/132216441725",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T10:07:40.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "GoldTone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Logo",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY..EARRINGS..CLIP-ON...GOLD TONE..SMALL",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "LOVELY SMALLER ST JOHN EARRINGS...1 1/4\" DROP... RAISED GOLD TONE ST JOHN HALLMARK LOGO IN THE CENTER TOP SECTION...THE EARRINGS ARE IN THE BASKET WEAVE DESIGN...SIGNED CLIPS... COMFORT PADS...LIGHT IN WEIGHT...GREAT FOR THE GAL WITH SMALLER EAR LOBES...THESE SPECIAL LOGO EARRINGS WILL BE MAILED USPS MAIL WITH A TRACKING NUMBER FOR SECURE DELIVERY.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322164417258080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/pDwAAOSwq1JZJ6Pv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/pJUAAOSwq1JZJ6P3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/imQAAOSw7GRZJ6P8/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

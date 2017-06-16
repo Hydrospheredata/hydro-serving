@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Oakland Gardens, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:44:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1593914052",
+    "StoreName": "sarasboutique"
+  },
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:44:56.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400267741",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Jewelry Timex Accessories Watch Black And Silver",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Jewelry-Timex-Accessories-Watch-Black-And-Silver-/142400267741",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424002677418080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "11364",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H38M30S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/zzMAAOSwOgdY0tKm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/12wAAOSwB-1Y0tKq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/D8YAAOSwCU1Y0tKs/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Like new",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "10",
+    "UserID": "sarasboutique",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

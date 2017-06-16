@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "Description": "60 day - no quibble - returns policy",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 days",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182571602221",
+  "Quantity": "6",
+  "TimeLeft": "P6DT4H54M22S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Toe Rings",
+  "QuantitySold": "2",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Hallmarked-Solid-9ct-Yellow-Gold-Plain-D-Shape-Band-Toe-Ring-Adjustable-/182571602221",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.08",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-12T18:38:15.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-11T18:38:15.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Redcar Jewellers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "JTR003",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2.5mm",
+        "Name": "Approx. Width"
+      },
+      {
+        "Value": "0.7g",
+        "Name": "Approx. Weight"
+      },
+      {
+        "Value": "9ct Gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "United Kingdom",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "New Hallmarked Solid 9ct Yellow Gold Plain D-Shape Band Toe Ring Adjustable",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Hallmarked Solid 9ct Yellow Gold D-Shape Band Toe Ring Measuring 2.5mm Wide Adjustable size Brand new - free p&p Track Page Views With Auctiva's FREE Counter",
+  "GlobalShipping": "false",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825716022218080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ratpackcat",
+    "FeedbackScore": "4084",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Redcar Jewellers",
+    "StoreURL": "http://stores.ebay.com/id=164909433"
+  },
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "Location": "Redcar, Cleveland",
+  "HitCount": "104",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTcwWDU2Mw==/z/25MAAOSwc49Y7nFm/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "TS10 1RJ"
+}

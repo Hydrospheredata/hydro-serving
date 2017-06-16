@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "16500.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "West Palm Beach, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:17:38.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "AmEx",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "16500.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:17:38.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530267877",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hublot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Solid Gold",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Case Size"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rose Gold 44mm Hublot Big Bang Model 301.PB.131.RX",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rose-Gold-44mm-Hublot-Big-Bang-Model-301-PB-131-RX-/222530267877",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302678778080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "33411",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H8M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTYwWDk2MA==/z/LGUAAOSw5VFWOoMi/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YK8AAOSw5ZBWOpsM/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/FdYAAOSwCU1YpfDn/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jQEAAOSwT5tWOps1/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BRQAAOSw7hRWOpuS/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/p8UAAOSwax5YpfEB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/8~YAAOSwo6lWOoMo/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rU0AAOSwu-BWOoM4/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rHkAAOSwu-BWOoMw/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/l6cAAOSw7hRWOoNB/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/z3MAAOSwhcJWOoNK/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "I'm selling my 44mm Hublot Big Bang in 18k Rose Gold model number 301.PB.131.RX I purchased this watch from the authorized Hublot dealer Govberg Jewelers who have been in business since 1916. This watch is 100% authentic. First $16,500 takes it. I'm not interested in any lower offers. I will just keep it until it sells. Retail Price: $33,200.00 Pre-Owned Hublot Big Bang (301.PB.131.RX) self-winding automatic watch, features a 44mm 18k rose gold case surrounding a black carbon fiber dial on a black rubber strap with folding buckle. Functions include hours, minutes, small-seconds, chronograph and date. \u2022 Condition: Pre-Owned \u2022 Reference Number: 301.PB.131.RX \u2022 Case Size: 44mm \u2022 Dial Color: Black Carbon Fiber \u2022 Hour Markers: Arabic Numerals \u2022 Material: Rose Gold \u2022 Movement: Automatic \u2022 Band Material: Rubber \u2022 Buckle Type: Folding Buckle \u2022 Water Resistance: 100m \u2022 Gender: Men's \u2022 Style: Luxury",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "13",
+    "UserID": "futurestarmusic",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

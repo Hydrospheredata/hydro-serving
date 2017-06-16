@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "14047",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is an assortment of wristwatch balance staffsEverything shown is includedNew Old Stock - all in original sealed packetsVariety of makes and models",
+  "StartTime": "2017-02-25T01:11:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQzWDg5MQ==/z/vJkAAOSwB-1YnmTZ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.75"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "Seller": {
+    "UserID": "ann-tique-watches",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2029",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "61",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1624085287258080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T01:11:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.75"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Old-Stock-Wristwatch-Balance-Staff-Assortment-/162408528725",
+  "Location": "Derby, New York",
+  "Title": "New Old Stock Wristwatch Balance Staff Assortment",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "162408528725",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P24DT2H30M15S"
+}

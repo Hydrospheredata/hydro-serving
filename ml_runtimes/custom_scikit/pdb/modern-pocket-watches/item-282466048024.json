@@ -1,0 +1,73 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "68137",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Like new Franklin Mint Dale Earnhardt precision pocket watch with Nascar belt holder. Money back guarantee if still in original package and condition.",
+  "StartTime": "2017-05-07T17:46:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/B6MAAOSwZjJU-eD0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MVEAAOSwe-FU-eEB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tiIAAOSwPhdU-eEL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/apgAAOSwqu9U-eET/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9awAAOSwBLlU-eEh/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Franklin Mint",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "*c-n-esluckyfinds*",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1468",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824660480248080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T17:46:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Franklin-Mint-Dale-Earnhardt-Precision-Pocket-Watch-Holder-/282466048024",
+  "Location": "Omaha, Nebraska",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Franklin Mint Dale Earnhardt Precision Pocket Watch with Holder",
+  "Storefront": {
+    "StoreName": "Camille and Emmaleigh&#39;s Lucky Finds",
+    "StoreURL": "http://stores.ebay.com/id=1127002935"
+  },
+  "ItemID": "282466048024",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT23H3M3S"
+}

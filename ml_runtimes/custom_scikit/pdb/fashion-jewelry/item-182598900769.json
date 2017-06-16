@@ -1,0 +1,105 @@
+{
+  "HandlingTime": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "950.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182598900769",
+  "TimeLeft": "P4DT2H51M14S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PostalCode": "50401",
+  "ConvertedCurrentPrice": {
+    "value": "950.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T17:46:22.000Z",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Huge 165# Lot Jewelry Making Supplies New Used Beads Sterling Silver 24 Pictures",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T17:46:22.000Z",
+  "BuyItNowPrice": {
+    "value": "1300.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Supplies",
+        "Name": "Type"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Huge-165-Lot-Jewelry-Making-Supplies-New-Used-Beads-Sterling-Silver-24-Pictures-/182598900769",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Mason City, Iowa",
+  "Description": "Huge 165# Lot Jewelry Making Supplies New Used Beads Sterling Silver 24 Pictures Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825989007698080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "qukoo",
+    "FeedbackScore": "679",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "1300.0",
+    "_currencyID": "USD"
+  },
+  "Subtitle": "Beads Pendants Sterling Silver Findings Wire see Below",
+  "HitCount": "19",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzA2WDEyODA=/z/MZ8AAOSwxu5ZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5OTc=/z/1uUAAOSwZ4dZLa~2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/VMQAAOSwX9FZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTMz/z/7M0AAOSwCQZZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg0NDI=/z/i9oAAOSwY3BZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjM1/z/faYAAOSw0hlZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgwWDEyODA=/z/8iEAAOSwjqVZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg1WDEyODA=/z/5XsAAOSwEHpZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU2WDEyODA=/z/EOAAAOSwPh5ZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg4WDEyODA=/z/FjUAAOSwK6RZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg3NTQ=/z/pksAAOSwJH1ZLa~1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg3NjE=/z/yCQAAOSw8HBZLa~1/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "CurrentPrice": {
+    "value": "950.0",
+    "_currencyID": "USD"
+  }
+}

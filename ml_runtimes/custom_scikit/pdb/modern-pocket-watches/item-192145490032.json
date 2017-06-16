@@ -1,0 +1,212 @@
+{
+  "ExcludeShipToLocation": [
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "LB",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "SB",
+    "WF",
+    "BE",
+    "BA",
+    "HR",
+    "CZ",
+    "MD",
+    "MC",
+    "ME",
+    "SK",
+    "SJ",
+    "VA"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-04-01T04:17:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Wk4AAOSwCU1Y3ymX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/SaUAAOSwTM5Y3ymq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/S~UAAOSwhQhY3ymw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/g0wAAOSwdGFY3ynK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/cHcAAOSwsW9Y3ynh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/5F8AAOSwmgJY3ynk/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.53"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "EBXIJIN[P1080]EBXIJIN",
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921454900328080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-30T04:17:42.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "192145490032",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.53"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Trendy-Open-Face-Hand-Winding-Mechanical-Women-Men-Analog-Pocket-Watch-Chain-/192145490032",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Trendy Open Face Hand-Winding Mechanical Women Men Analog Pocket Watch Chain",
+  "Storefront": {
+    "StoreName": "xijinh3",
+    "StoreURL": "http://stores.ebay.com/id=1286992401"
+  },
+  "Seller": {
+    "UserID": "xijinh3",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6131",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT9H28M46S"
+}

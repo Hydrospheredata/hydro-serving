@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwNFgxMjQy/z/Rv0AAOSwJH1ZMWeS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI5WDEyNDI=/z/Nt8AAOSwlMFZMWeU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAzMFgxMjQy/z/hOUAAOSwtGlZMWeW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc4WDEyNDI=/z/HNEAAOSwZ4dZMWeX/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Betsey-Johnson-Sumo-Wrestler-Kitsch-Backpack-/272698671909",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Betsey Johnson Sumo-Wrestler Kitsch BackpackRetails for $98.00 Embrace this lovable Hoku Canvas Kitch Backpack.Made of 100% canvas.Dual shoulder straps with top carry handle.Zip closure.Interior back wall zip pocket with additional slip pockets.Imported.Bottom Width: 15 inMiddle Width: 15 inTop Width: 15 inDepth: 4 1\u20442 inHeight: 16 inStrap Length: 36 inStrap Drop: 16 inHandle Length: 6 1\u20442 inHandle Drop: 2 in All items listed by All_Things_Betsey are personally purchased by me from reputable sources. They are 100% authentic Betsey Johnson designs. All items are stored in a smoke-free, pet free-environment. I have listed all items to the best of my ability. If you have any questions, please contact me with at least 24 hours prior to an auction ending so I may reply to them! Payment is expected immediately and PayPal is the preferred method. All items will be shipped within one business day after payment has been received. Please leave positive feedback for me when the item arrives. I will do the same for after you have left feedback for me. If for some reason there is an issue with the item when it arrives, please contact me ASAP to address it. Thank you for shopping with All_Things_Betsey!",
+  "Title": "New Betsey Johnson Sumo-Wrestler Kitsch Backpack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Redford, Michigan",
+  "Seller": {
+    "FeedbackScore": "137",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "all_things_betsey"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48240",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:26:58.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT22H54M59S",
+  "EndTime": "2017-07-02T13:26:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272698671909",
+  "Storefront": {
+    "StoreName": "All Things Betsey",
+    "StoreURL": "http://stores.ebay.com/id=52366918"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726986719098080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

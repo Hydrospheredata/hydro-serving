@@ -1,0 +1,159 @@
+{
+  "ReturnPolicy": {
+    "Description": "15% restocking fee",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "Quantity": "1",
+  "TimeLeft": "P6DT9H28M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "41.25",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132212317448",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GORJANA-Gold-DEV-Anklet-One-Size-Diamond-Double-Chain-Detail-65-/132212317448",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "41.25",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T18:50:47.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-11T18:50:47.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gorjana",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "11",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "847267033941",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "GORJANA Gold 'DEV' Anklet One Size Diamond Double Chain Detail $65",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Product Details: Equally beach casual and city chic, Gorjana is a socially conscious lifestyle brand that makes fashionable, high quality accessories for women. Their signature dainty stackable pieces are both understated and eye catching all in one. Layer them up and you'll never want to take them off again. \u2022 Gold plated anklet.\u00a0 \u2022 Measures approx 11\" in length.\u00a0 \u2022 Double chain detail.\u00a0 \u2022 Lobster clasp closure.\u00a0 GORJ-WL552.\u00a0 155 602 G.",
+  "Charity": {
+    "CharityName": "Make-A-Wish International",
+    "CharityID": "88740",
+    "Mission": "Make-A-Wish grants the wishes of children with life-threatening medical conditions to enrich the human experience with hope, strength and joy. Make-A-Wish is the world's largest wish-granting organization, serving children in nearly 50 countries on five continents. With the help of generous donors and more than 40,000 volunteers worldwide, Make-A-Wish grants a wish somewhere in the world every 17 minutes on average. Since 1980, it has granted more than 415,000 wishes to children around the world.",
+    "Status": "Valid",
+    "CharityNumber": "105725",
+    "DonationPercent": "10.0",
+    "LogoURL": "http://i.ebayimg.com/00/s/MjIxWDQ5NA==/z/I5cAAOSwB-1Yx7FL/$_1.JPG?set_id=8800005007"
+  },
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322123174488080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dimkac",
+    "FeedbackScore": "502",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Shop Jolly",
+    "StoreURL": "http://stores.ebay.com/id=1075670704"
+  },
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "Location": "Charlotte, North Carolina",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxNlg4OTg=/z/8usAAOSwYvFZIdVx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTE4WDg5OA==/z/IokAAOSwBt5ZIdV2/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "28210"
+}

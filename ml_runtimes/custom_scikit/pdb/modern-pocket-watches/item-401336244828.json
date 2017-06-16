@@ -1,0 +1,127 @@
+{
+  "ExcludeShipToLocation": [
+    "HK",
+    "AM",
+    "CN",
+    "AT",
+    "DE",
+    "IE",
+    "MD",
+    "GB"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "love_castle",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "113788",
+    "PositiveFeedbackPercent": "97.9"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "SOKI Magnifier Skeleton Black Face Mens Copper Mechanical Pocket Watch Main Features: 1. Brand new with mechanical movement 2. Magnifier front case 3.Classical antique skeleton back case design 4. Skeleton Dial 5. Arabic Numerals with gold number and white hands 6. It is opened with a push button located at the top of the watch Specification: Type: mechanical Display: analog Case material: bronze Case Diameter(cm): 4.5 Case thickness(cm): 1.5 Band material: bronze Band color: bronze Band length(cm): 31 Components : 1x pocket watch 1x Chain Paypal is the only method of payment. No other payment methods will be accepted. If you don't have Paypal account, please sign up and learn more about paypal. Payment must be fulfilled within 7 days since auction's ending. We will ship your order within 48 hours after receiving your verified payment (Excluding Weekends and Public Holidays) This product will be shipped from Hong Kong. Returns for exchange are permitted and must be initiated by the buyer within the following periods: 1.Defective/ Wrong Items 2.If you would like to return your product(s) for repair / replacement / refund, please kindly contact our customer service representatives via email. 3.Buyers are responsible for the returning shipping costs under any circumstances All contacts should be made via ebay message service or email .",
+  "StartTime": "2017-05-28T17:51:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwN1gxMDAy/z/XXQAAOSwax5Y0oMZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwN1gxMDAy/z/tHsAAOSwhQhY0oMI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwN1gxMDAy/z/Y0UAAOSwol5Y0oLx/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "HK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "SOKI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Skeleton",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "714973029271",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "W204",
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/4013362448288080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:51:42.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro Model Skeleton Black Face Mens Copper Mechanical Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Model-Skeleton-Black-Face-Mens-Copper-Mechanical-Pocket-Watch-/401336244828",
+  "Storefront": {
+    "StoreName": "love_in_castle",
+    "StoreURL": "http://stores.ebay.com/id=721931594"
+  },
+  "ItemID": "401336244828",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT23H16M43S"
+}

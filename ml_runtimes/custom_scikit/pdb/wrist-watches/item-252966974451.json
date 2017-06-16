@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pompano Beach, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:09:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:09:25.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966974451",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Kenneth Cole New York Men's Digital Connect Black Leather and Silicone Strap",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Cole-New-York-Mens-Digital-Connect-Black-Leather-and-Silicone-Strap-/252966974451",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529669744518080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "33063",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H59M21S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTAwWDgzNg==/z/UBUAAOSw4CFYs1NV/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/obIAAOSwx6pYs1KJ/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ZS0AAOSwfVpYs1KW/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/2MAAAOSwtfhYs1K8/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDMyNw==/z/jRUAAOSwfVpYs1T0/$_32.JPG?set_id=8800005007"
+  ],
+  "Description": "Kenneth Cole New York Men's Digital Connect. Retails for $135.00 Smart watch featuring Bluetooth Smart Technology. Compatible with iOS 8 and Android 4.4 Black Leather and Silicone Strap Item is 100% Original FAST SHIPPING",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "88",
+    "UserID": "marianitacaicedo25",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921417306148080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI3NlgxNTAw/z/lQkAAOSwsW9Y2amv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyN1gxNTAw/z/hfcAAOSwTM5Y2amv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4ODA=/z/jJoAAOSwzgBY2amv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkwWDE1MDA=/z/LsgAAOSw2gxY2amw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE5WDE1MDA=/z/CW0AAOSwDKtY2amv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE4NFgxNTAw/z/cMYAAOSw4A5Y2amv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/2-EAAOSwuxFY2amv/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Real-Leather-Messenger-Satchel-Organiser-Laptop-Bag-Briefcase-HALL-Oil-Brow-/192141730614",
+  "ConvertedCurrentPrice": {
+    "value": "279.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This messenger bag is made to the highest standard, the leather is a well suited oiled cow leather which gets better with age and contrast stitching around the bag gives it strength and durability. This organiser bag style features a long detachable shoulder strap with a leather shoulder pad for added comfortability, top grab handle, back zip pocket, front flap opening which is secured by two press stud buckles, underneath the flap you will find further three pockets two of which have a flap closure and one with a zip, the main inner compartment consists of a middle zip compartment, two inner side zip pockets, mobile phone and wallet holders. With its large size and amount of pockets you will never leave home without it.",
+  "Title": "Mens Real Leather Messenger Satchel Organiser Laptop Bag Briefcase HALL Oil Brow",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "279.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-28T00:09:11.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P23DT7H49M36S",
+  "EndTime": "2017-06-26T00:09:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "House Of Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "737568146"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141730614",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:100610489:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

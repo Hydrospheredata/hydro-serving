@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/S6AAAOSwr~lYqLkp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/Lk0AAOSw4A5YqLkt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/0vAAAOSw3v5YqLkw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/xZoAAOSw4CFYqLkz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/Ly8AAOSw4A5YqLk2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/TTMAAOSwr~lYqLk5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/G6MAAOSwOgdYqLk8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/NrUAAOSwdGFYqLk~/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Quilted-Mia-Wristlet-Forest-Green-Great-Clutch-/162536578707",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Quilted Mia Wristlet in Forest GreenRetailed for $128.00Leather. Front zip pocket. Inside, a bill compartment, four card slips and a large slip pocket. Fits iPhone 6+. Signature print lining. Dust bag for storage. Zip closure.Dimensions 10\" W x 6\" H with 6\" wrist strapPayments will gladly be accepted via Paypal. I ask that payments be made within 24 hours of final bids. You can contact me through the eBay ask seller link. I will do my best to answer any questions that you may have in regards to condition of my auctions. I do try to disclose any faults upfront. Thank you so much for checking out my auctions. Shipping charges have gone up. I have created some shipping profiles that I hope will help with purchases.In the case of an error or problem with your order please contact me with a message, prior to opening a case on eBay. I will address the issue. This item comes from a Smoke-free and Pet-free environment.Check out some of the items that I have posted in ourshophttp://stores.ebay.com/anastaciasfinds",
+  "Title": "Vera Bradley Quilted Mia Wristlet Forest Green, Great Clutch",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Scranton, Pennsylvania",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "549",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "anas_beav"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "18512",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T22:17:56.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P8DT6H29M30S",
+  "EndTime": "2017-06-10T22:17:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Wristlet"
+      },
+      {
+        "Name": "Type",
+        "Value": "Clutch"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003407776"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162536578707",
+  "PrimaryCategoryID": "163570",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Anastacia s Finds",
+    "StoreURL": "http://stores.ebay.com/id=1320850679"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Restocking fee is in place if the return happens outside of normal return policy.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625365787078080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,88 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "18030",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brass effect pocket watch with embossed Jack Skellington motif. Hinged opening with authentic face.\u00a0 Light weight chain and top winder gives a classic look.\u00a0 Case Diameter : Approx 50*37mm/1.96\u201c*1.45\u201d\u00a0 Case Dial : Approx 40*26mm/1.57\u201d*1.02\u201d",
+  "StartTime": "2017-05-16T07:32:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg5WDg0MA==/z/BkoAAOSwAPVZDWt6/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jessb419",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "325",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023185304158080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-15T07:32:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Returns will only be accepted if item is received broken or in unusable condition.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jack-Skellington-Vintage-Look-Brass-Pocket-Watch-Nightmare-before-Christmas-/302318530415",
+  "Location": "Bowmanstown, Pennsylvania",
+  "Title": "Jack Skellington Vintage Look Brass Pocket Watch Nightmare before Christmas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302318530415",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT12H52M44S"
+}

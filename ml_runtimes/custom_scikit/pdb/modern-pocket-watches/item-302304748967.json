@@ -1,0 +1,139 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "64064",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is a dot.zero Quartz pocket watch with Japanese movement. It is running (note the second hand) and keeping perfect time with a new and included battery. Fantastic condition. Roadster scene on front, flowers on back.",
+  "StartTime": "2017-05-03T22:59:48.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/7tMAAOSwzaJX2jEU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kBMAAOSwmfhX2jEX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WPIAAOSwNRdX2jEc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sRQAAOSw4shX2jEf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/59cAAOSw8gVX2jEi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vUUAAOSwLF1X2jER/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dablr",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "652",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023047489678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T22:59:48.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/dot-zero-Pocket-Watch-Japanese-Quartz-Movement-/302304748967",
+  "Location": "Lee's Summit, Missouri",
+  "Title": "dot.zero Pocket Watch Japanese Quartz Movement",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302304748967",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT4H15M7S"
+}

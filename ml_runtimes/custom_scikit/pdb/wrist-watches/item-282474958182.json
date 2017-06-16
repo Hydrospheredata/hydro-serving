@@ -1,0 +1,76 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "48336",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173695",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "New with tags",
+  "Description": "YOU ARE ONLY BIDDING ON ONE MODEL, THE LARGEST ONE SHOWN IN PHOTOS. THE SMALLER MODELS HAVE BEEN SOLD. Brand New in Box, Impossible to find. Hamilton Khaki X-Wind Dealer Display Plane. Largest one made for dealer promotion has 36\" wingspan. The large plane has mounting strings attached to body to enable to hang from ceiling. The model is in perfect condition, no chips or damage. The model will be shipped in its original box with all packaging materials. US shipping only. I will use UPS for delivery. Do not use auto check out to calculate shipping price. I estimate shipping will cost approximately $45.00 and I will send you invoice. You are only buying the big model, the two smaller models are for display only and have been sold. Please ask questions before you buy as I do not give refunds or price adjustments after the sale.",
+  "StartTime": "2017-05-15T00:40:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/IaAAAOSwnHZYfVKN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/U5wAAOSw2xRYfVKO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/tEkAAOSwUKxYfVKO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/K6EAAOSwZQRYfVKP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/EywAAOSwImRYfVKP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/jmkAAOSw44BYfVKP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/Ic4AAOSwnHZYfVKP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/Q8AAAOSwA3dYfVKP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/nHgAAOSw5cNYfVKP/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1400.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "173695",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Hamilton",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "adamtime",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "721",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "160",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824749581828080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-14T00:40:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1400.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Huge-Hamilton-Khaki-X-Wind-Dealer-Display-Model-Racing-Plane-Hard-find-/282474958182",
+  "Location": "Farmington, Michigan",
+  "Title": "Huge Hamilton Khaki X Wind Dealer Display Model Racing Plane Hard to find!",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "282474958182",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Boxes, Cases & Watch Winders",
+  "TimeLeft": "P13DT7H14M26S"
+}

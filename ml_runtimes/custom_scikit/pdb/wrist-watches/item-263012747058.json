@@ -1,0 +1,310 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "28.46",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:20:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "9",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "28.46",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:20:42.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "263012747058",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dual-Movement-Calendar-Analog-Quartz-Wrist-Watch-Sport-Business-Watches-Her-Gift-/263012747058?var=",
+  "ConditionDescription": "Note:It is water resistant,can't be used in diving swimming shower etc.",
+  "NewBestOffer": "false",
+  "SKU": "082-YW01790",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "28.46",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01790L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "28.46",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01790B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "28.46",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01790Y",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Blue",
+          "Black",
+          "Yellow"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/069cb91d-8577-4abd-ae12-7b60506ef3cb.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/f8b61ca2-4634-43af-9876-4502eca941fa.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2e6210a0-a343-42d9-8677-20af0be50352.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/7a2ae722-18e0-4845-8cd8-87b5d0453f07.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/c245a207-a9ea-4c45-9f73-c367cfd3b25d.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/6899179d-a340-4303-a2c9-e467b1128e58.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/9bccb3ef-7bd4-4437-99e1-67d41fde1d9b.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/c77db0d4-8361-49ad-90dc-d7e5fb2ecdf2.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/69ba9164-844a-449d-bd0a-dcdd3d1bfaa4.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/4cc755c8-3a71-46c4-bfa0-df71cdbc4e8c.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/10f06b43-920e-451c-a3ca-e65ae7653152.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2a08245a-ce60-483d-86ef-fb0c5cbedebf.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/9bd3969a-ca33-4acd-b6a9-9cdd3926d288.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/ffc39df9-d8b3-46b4-9a13-a3729bf527df.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/e2678288-8cab-4e42-b4d0-7b5e681938d7.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/581cc69f-1880-4c5d-8d0e-1383a0ff563b.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/c7b8d056-72c7-4cd2-a678-05fac28c4804.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/0416df57-903b-4280-8f5c-dfddb84fe866.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/b6caffbe-d772-4c1c-b693-d0a048ba3200.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/1f4957fd-b832-41c1-8832-c4ada8ec3db9.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/4e3652b9-30f9-4038-90dd-8f5f2dc8d06b.JPG"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H57M16S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/2dwAAOSw3gJZLpj9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/e4cAAOSws5pZLpj9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/c3oAAOSwfpVZLpj-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/PpEAAOSwcgNZLpj-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/RcoAAOSww5hZLpj9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/LIEAAOSwrhBZLpj-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dQoAAOSwZ4dZLpj9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/oAcAAOSwYlRZLpj9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Kc8AAOSwR29ZLpj-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/RGAAAOSwK6RZLpj-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/r5QAAOSw1WJZLpj-/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Dual Movement Calendar Analog Quartz Wrist Watch Sport Business Watches Her Gift",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

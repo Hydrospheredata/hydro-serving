@@ -1,0 +1,177 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.97"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Pack List A Stand-UP Quartz Pocket Wach A Black Color Cowboy(short) Chain A gift Box Specification (approximate) - Case diameter: 47mm. - Case thickness: 13mm. - Case Material: alloy. - Chain Length: 340mm (hook included). - Chain Material: alloy. Take Attention: Once you receive the quartz watch: How to set time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. Pocket watches under our private make superb birthday or Christmas gifts, in addition to great wedding and groomsmen gifts. They are also ideal for corporate gifts or for the retirement of a long time employee. Here is an example of a pocket watch in a vintage design for anyone that wants the classic look and practicality of a quality quartz movement pocket watch Product Dimensions: 14.8 x 1.8 x 0.5 inches - 100% Brand New with excellent workmanship - High quality gives you a new classic definition. - Best gift to your lover,Partner, family, friends, classmates, colleagues - Japanes quartz movement,100% new - Comes with black gift box,Vintage Black Color Watch Case&Roman Number Design Brand Mall Classic Vintage Roman Numerals Display Design Case for Quartz Pocket",
+  "StartTime": "2017-04-13T02:12:23.000Z",
+  "PictureURL": [
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.1.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.2.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.3.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.4.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.5.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.6.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423031454f4c3536574d.7.jpg"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "712243491339",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0712243491339",
+        "Name": "EAN"
+      },
+      {
+        "Value": "New Brand Mall",
+        "Name": "Brand"
+      },
+      {
+        "Value": "w51",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4 x W 3.1 x H 1.8 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "a027",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rareearth-83",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "519",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "42",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1224446485528080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T02:12:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.97"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Brand Mall Classic Vintage Roman Numerals Display Design Case for Quartz Pocket",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-Mall-Classic-Vintage-Roman-Numerals-Display-Design-Case-Quartz-Pocket-/122444648552",
+  "Storefront": {
+    "StoreName": "rareearth-83",
+    "StoreURL": "http://stores.ebay.com/id=1579234679"
+  },
+  "ItemID": "122444648552",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT7H25M4S"
+}

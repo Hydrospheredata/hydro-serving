@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODU3WDY4Mg==/z/NHYAAOSwvzRX0Ee0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk1WDUyMg==/z/~-oAAOSwgmJX0EfE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODc5WDcwOA==/z/6fwAAOSw8oFX0Efa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/AJ0AAOSwMgdX0Een/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODM5WDc0OQ==/z/ZCQAAOSw-kdX0Efw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzI1WDY5Nw==/z/Dm8AAOSwMgdX0Ef7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/LXwAAOSwFdtX0Eer/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODQzWDc0OQ==/z/57MAAOSwxg5X0EgL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTcwWDc0NQ==/z/QvEAAOSwvzRX0EgW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTE5WDc0Mw==/z/UcoAAOSwFe5X0Egu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/cZ8AAOSwOdpX0Ehp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/AysAAOSw8oFX0Ehr/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Drawstring-Backpack-Paisley-Paradise-Good-School-And-College-/152567936279",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Drawstring Backpack Paisley In Paradise Good For Schools And Colleges, with lower price from 79.99 went down to 77.99",
+  "Title": "Vera Bradley Drawstring Backpack Paisley In Paradise Good For School And College",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Topeka, Kansas",
+  "Seller": {
+    "FeedbackScore": "11",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "sahadee0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "66610",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T14:35:53.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P27DT23H48M31S",
+  "EndTime": "2017-06-30T14:35:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152567936279",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525679362798080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

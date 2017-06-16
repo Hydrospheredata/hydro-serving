@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921417412968080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTkxWDE1MDA=/z/KUEAAOSw32lY2azR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4MTM=/z/dp0AAOSwuLZY2azR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzU2WDUwMA==/z/7DYAAOSwTM5Y2azQ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk1WDE1MDA=/z/qxEAAOSwhQhY2azS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2MFgxNTAw/z/dqoAAOSwuLZY2azR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3MjQ=/z/lT8AAOSwol5Y2azS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzNlgxNTAw/z/drEAAOSwuLZY2azR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNlgxNTAw/z/QTcAAOSwuxFY2azR/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Spirit-Saturn-Casual-Womens-Handbag-Brand-New-/192141741296",
+  "ConvertedCurrentPrice": {
+    "value": "68.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: The Spirit Saturn is a stylish casual bag with plenty of room within for keeping important items close at hand. This bag has an adjustable strap meaning it can be worn at a variety of different heights. A removable wallet is also included with the Spirit Saturn that is ideal for keeping spare change. The bag features three outer pockets and two inner pockets as well as pen and card holders. The bag is available in blue, beige or black.",
+  "Title": "Spirit Saturn Casual Womens Handbag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "68.49",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T00:12:02.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P23DT7H52M40S",
+  "EndTime": "2017-06-26T00:12:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Spirit"
+      },
+      {
+        "Name": "MPN",
+        "Value": "775015155"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141741296",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:99530597:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

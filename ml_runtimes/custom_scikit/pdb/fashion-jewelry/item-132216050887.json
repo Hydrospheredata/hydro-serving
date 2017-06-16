@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT14H8M22S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Pictures are of actual charm you will receive.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132216050887",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pandora-Disney-Tinker-Bells-Shoe-792139EN93-/132216050887",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T00:30:48.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T00:30:48.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "European",
+        "Name": "Style"
+      },
+      {
+        "Value": "Disney tinker bell shoe",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Dangle",
+        "Name": "Charm Type"
+      },
+      {
+        "Value": "green enamel",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Pandora Disney Tinker Bell's Shoe #792139EN93",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Pandora Disney Tinker Bell's Shoe #792139EN93 Free Shipping with Tracking Number Charm is pre-owned FREE PANDORA BOX",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322160508878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mik_cisu5zhk",
+    "FeedbackScore": "722",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Swannanoa, North Carolina",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/e8QAAOSwhvFZNKYs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/V6MAAOSw9OFZNKYi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/ujkAAOSww9xZNKYS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/zPkAAOSwlY1ZNKYE/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "PostalCode": "28778"
+}

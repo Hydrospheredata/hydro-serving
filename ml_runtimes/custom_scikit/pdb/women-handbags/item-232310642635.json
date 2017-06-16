@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTQ1WDUwMA==/z/fO8AAOSw5UZY-~PV/$_12.JPG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PVC-Motorcycle-Saddlebag-Studs-SD4070-PV-/232310642635",
+  "ConvertedCurrentPrice": {
+    "value": "66.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "PVC Motorcycle Saddlebag With Studs All of our pvc motorcycle saddlebags include a hard sheet inside. The hard sheet inside the saddlebags makes the bags bottom stronger for heavier loads. 0: Dimensions - 11.5 x 5.25 x 11.75 1: Zip Off bag with Heavy Duty Velcro Cover and Lock 2: Universal Fitting 3: Includes a Hard Sheet Inside the box with 4 Pockets 4: Heavy Duty Quick Release 5: 100% Waterproof 6: 4 Tie-Down ribbons on each side for Extra Security Fit 7: UV Protected and will Not Turn white in Extreme Heat 8: Bag Holds its Shape 9: Not a cooler bag. Not intended to use with water & ice 10: Shipping weight 13.2 pds",
+  "Title": "PVC Motorcycle Saddlebag With Studs SD4070 PV",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "66.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "Independence, Kentucky",
+  "Seller": {
+    "FeedbackScore": "374",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "rcw60"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "41051",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-23T00:22:48.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P19DT7H21M37S",
+  "EndTime": "2017-06-22T00:22:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "PVC Motorcycle"
+      },
+      {
+        "Name": "MPN",
+        "Value": "SD4070-PV"
+      },
+      {
+        "Name": "Model",
+        "Value": "SD4070-PV"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232310642635",
+  "Storefront": {
+    "StoreName": "Worleybird+Sales",
+    "StoreURL": "http://stores.ebay.com/id=59192886"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323106426358080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921378191058080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/pDkAAOSwCU1Y04Pb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDE1MDA=/z/hzcAAOSw32lY04Pb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/-jsAAOSwuLZY04Pb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/DlMAAOSwXYtY04Pc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/DiwAAOSwXYtY04Pb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/DiQAAOSwXYtY04Pb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/qk4AAOSwzgBY04Pb/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BARON-MALTZAHN-Citybag-Briefcase-Laptop-Bag-JAGOS-Brown-Rugged-Hide-Leather-/192137819105",
+  "ConvertedCurrentPrice": {
+    "value": "417.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: BARON of MALTZAHN Citybag Briefcase / Laptop Bag JAGOS Brown Rugged Hide Leather with Leather Care - Jagos briefcase, made of brown rugged hide leather - Dimensions: 39 x 34 x 10 cm",
+  "Title": "BARON of MALTZAHN Citybag Briefcase / Laptop Bag JAGOS Brown Rugged Hide Leather",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "417.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-23T08:14:09.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P18DT15H51M27S",
+  "EndTime": "2017-06-21T08:14:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Freiherr von Maltzahn"
+      },
+      {
+        "Name": "MPN",
+        "Value": "210299319"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137819105",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:60075360:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

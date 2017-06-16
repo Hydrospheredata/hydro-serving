@@ -1,0 +1,140 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wooster, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:16:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=626447",
+    "StoreName": "wesaveyou$wholesale"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T14:16:20.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "A-37-4WATCH5",
+  "Description": "A-37-4WATCH5 You are bidding on Citizen Men's BW007207P Goldtone Stainless Steel Brown Leather Watch Item is new in an open box. PAYMENT:We accept payment by PAYPAL ONLY! We utilize EBAY\u2019s UPI which files unpaid item claims. You have up to 10 days to send payment before EBAY takes action.SHIPPING:We CANNOT ship to PO BOXES, APO or FPO. CURRENTLY WE DO NOT SELL OR SHIP OUTSIDE THE 48 CONTINENTAL STATESRETURNS/ SHIPPING DAMAGES: If your item is damaged, you must contact us by EBAY messages or our customer service line 330-262-8063. Please allow adequate time for us to file an insurance claim with the shipper.Our items are sold AS-IS, and we only allow returns if one of the following has happened: The item was damaged in shipping, you were shipped the wrong item, or the item was described as working and it is not on arrival. Please TEST YOUR ITEM when you get it. We will not honor any claim of DOA or PROBLEMS if not reported to us within 3 business days (weekends are not business days) WE DO RECORD THE SERIAL NUMBER OF ALL ITEMS BEFORE SHIPPING, AND WILL VERIFY UPON RETURN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "371968067633",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Strap Color"
+      },
+      {
+        "Value": "8",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BW0072-07P",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Solar Powered",
+        "Name": "Movement"
+      },
+      {
+        "Value": "25",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Citizen",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Champagne",
+        "Name": "Dial Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Citizen Men's BW007207P Goldtone Stainless Steel Brown Leather Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Mens-BW007207P-Goldtone-Stainless-Steel-Brown-Leather-Watch-/371968067633",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719680676338080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "44691",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H6M54S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mvAAAOSwjL5ZLs~r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YnsAAOSwYlRZLs~v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VnsAAOSwcgNZLs~z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IrkAAOSwKytZLs~3/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackScore": "141727",
+    "UserID": "wesaveyou$",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

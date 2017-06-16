@@ -1,0 +1,131 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT2H16M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152572901854",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Bracelet-Earring-and-Necklace-Set-/152572901854",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T14:17:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T14:17:27.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "polished",
+        "Name": "Finish"
+      },
+      {
+        "Value": "925 sterling",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "lobster claw",
+        "Name": "Clasp Type"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Bracelet Earring and Necklace Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Sterling Silver Bracelet, Earrings and Necklace Set. Necklace is 21 inches long with dangle pierced earrings and bracelet is 7 1/2 inches.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525729018548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "3507marknascar",
+    "FeedbackScore": "457",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Venice, Florida",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/iMkAAOSw42JZNBWU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/aB4AAOSwlY1ZNBWg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/iC0AAOSwIQdZNBWp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NDc=/z/7h4AAOSwfRdZNBW4/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "34293"
+}

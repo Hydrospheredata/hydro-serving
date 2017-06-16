@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.43",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Dartmouth, Devon",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:34:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T09:34:22.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694812626",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Sekonda",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "5.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sexsy-Watch-Sekonda-/272694812626",
+  "Title": "Sexsy Watch By Sekonda",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726948126268080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "Tq69hn",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H7M58S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/PUIAAOSwNnRYkdoG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/1TsAAOSwo4pYkdoJ/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Needs a clean and a be battery",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "1210",
+    "UserID": "hsouthern1972",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

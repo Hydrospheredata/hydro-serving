@@ -1,0 +1,208 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "53.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IT",
+  "Location": "Calnova Fiorentina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:20:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1347210741",
+    "StoreName": "Kechiq Fashion Brands"
+  },
+  "CurrentPrice": {
+    "value": "53.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:20:10.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "ST_HC0003-55_4036",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "AL",
+    "AT",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "HK",
+    "TW",
+    "BR",
+    "CA",
+    "PM",
+    "YE",
+    "CN",
+    "KG",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "ItemID": "282502365037",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mark Maddox",
+        "Name": "Brand"
+      },
+      {
+        "Value": "HC0003-55",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "10mm",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Mixed",
+        "Name": "Type of Index"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Index Color"
+      },
+      {
+        "Value": "Mineral",
+        "Name": "Type of Glass"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "30mt",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "7427505297231",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mark Maddox HC0003-55 men's quartz wristwatch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mark-Maddox-HC0003-55-mens-quartz-wristwatch-/282502365037",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825023650378080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "30027",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H7M47S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/IA0AAOSwSlBY3NwG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nE8AAOSwuxFY3NwH/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Mark Maddox HC0003-55 men's quartz wristwatchUS $53.00PRODUCT CODE: HC0003-55Gender: Men's Style: Casual Case Material: Stainless Steel Case Size: 44mm Case Thickness: 10mm Case Color: Silver Watch Shape: Round Face Color: Black Type of Index: Mixed Index Color: Yellow Type of Glass: Mineral Movement: Quartz Display: Analogue Water Resistance Rating: 30mt Band Material: Leather Band Color: Black COPYRIGHT\u00a9 KECHIQ FASHION BRANDS",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "587",
+    "UserID": "kechiq_fashion_brands",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Kechiq accept returns or replacement within 30 days from delivery of the product.\nIn case you want to replace or return products purchased you simply contact our customer service and will receive all the information to continue with the return of the object.\nIn case of withdrawal we will be withheld from the reimbursement of the cost of packaging and shipping.\n*During Christmas Time (November and December) it is possible to request the return until 10th January."
+  }
+}

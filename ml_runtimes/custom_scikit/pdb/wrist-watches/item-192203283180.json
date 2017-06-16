@@ -1,0 +1,165 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8650.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "219488905",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Mount Pleasant, South Carolina",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:12:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=52446254",
+    "StoreName": "Southeastern Watch and Coin"
+  },
+  "CurrentPrice": {
+    "value": "8650.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:12:32.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "192203283180",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GMT-Master",
+        "Name": "Model"
+      },
+      {
+        "Value": "116710BLNR",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "GMT",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Prestige",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "0845960048538",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rolex GMT-Master II  116710BLNR  Batman",
+  "ConditionDescription": "the watch shows some wear, there is a chip/defect on the crystal which shows up in the pictures",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rolex-GMT-Master-II-116710BLNR-Batman-/192203283180",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922032831808080_1.jpg",
+  "HitCount": "31",
+  "PostalCode": "29466",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H55M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMwM1gxNjAw/z/H-wAAOSw-K9ZLrKA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMFg5NDk=/z/VycAAOSwPh5ZLrKL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTkxWDk4MQ==/z/MSgAAOSwY3BZLrKO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTgyWDk3MA==/z/c8UAAOSwEHpZLrKQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzMFgxMDUx/z/0zEAAOSwn-tZLrKM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTM1WDE2MDA=/z/yA8AAOSwsXFZLrKG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxNVg5OTE=/z/h~UAAOSw3gJZLrKC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ1NFg5MDc=/z/~nIAAOSwlY1ZLrKH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/SPgAAOSwZKBZLrKJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTA4/z/iHkAAOSw8lpZLrKE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzM0/z/0fgAAOSwn-tZLrJ9/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "FS: Rolex GMT Master 2 Batman Ref: 116710BLNR Series: Random Serial Number Condition: Very Good Price: $8600 Up for sale is a Rolex GMT Master 2 Batman in excellent condition. The set comes with the Rolex boxes, card, booklets, and the original sales receipt dated 3/2015 There is a chip/defect on the crystal as seen in the pictures. Everything functions properly and as it should. The watch is guaranteed to be authentic. The watch is also listed on the Rolex furums and Watchuseek, will end listing if sells there. If interested please contact me. Thanks",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "714",
+    "UserID": "watchthecoins",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P11DT2H27M33S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New, gift boxed",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "112410611113",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-17T17:49:28.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-95-Nadri-Salome-Cubic-Zirconia-Sexy-Body-Chain-/112410611113?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-16T17:49:28.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold",
+          "Silver"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.95",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.95",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nadri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Metal, Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Necklace to Belly chain",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Yellow Gold Plated or Rhodium Plated Choice",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      }
+    ]
+  },
+  "Title": "NEW $95 Nadri Salome Cubic Zirconia Sexy Body Chain",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "RU",
+    "IT",
+    "UA",
+    "BR"
+  ],
+  "Location": "New York, New York",
+  "Description": "Add unexpected glamour to your going-out look with a slender body chain plated in precious metal and centered with four sparkling cubic zirconias.32\" length; 9 1/2\" drop.Lobster clasp closure.18k-gold or rhodium plate/cubic zirconia.By Nadri; imported. New, retails $95 each, take your choice of color from the dropdown. Discounted here for final sale.",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "UserID": "cleannyc",
+    "FeedbackScore": "17389",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "NYC House of Style",
+    "StoreURL": "http://stores.ebay.com/id=26389554"
+  },
+  "Quantity": "2",
+  "PaymentMethods": "PayPal",
+  "HitCount": "87",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTE3WDY0MA==/z/gI4AAOSwB-1YpcqO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2AUAAOSwtfhYpcqQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/S9gAAOSw3v5Ypccj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTgzWDM4MA==/z/WEYAAOSw2gxYpcck/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/WJMAAOSw2gxYpccm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDY3WDcwMA==/z/cN4AAOSwx6pYpccn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI1WDU1MA==/z/-kQAAOSw~AVYpcco/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "PostalCode": "10014"
+}

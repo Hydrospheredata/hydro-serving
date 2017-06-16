@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-RgAAOSwcgNZCXB4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODAwWDYwMA==/z/WVcAAOSw42JZCXF2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODAyWDQ4MA==/z/gtAAAOSww9xZCXF3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDc1MQ==/z/wnwAAOSwt0FZCXF4/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Knightsbridge-Quinn-Handbag-/172709535143",
+  "ConvertedCurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade \u2660\ufe0f Knightsbridge Quinn Purse Bag embossed croc print patent leather Dark Teal Blue with taupe satin lining 14k gold plated hardware dual rolled leather straps structured bottom with protective feet open top with 3 separate compartments middle zips close 3 additional interior pockets for accessory storage 5 d/ 9.5 h/ 7 strap drop medium size no flaws or scratches only 2 ink marks in lining (see photos) Retails for $328 Non smoking home",
+  "Title": "Kate Spade Knightsbridge Quinn Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Beaverton, Oregon",
+  "Seller": {
+    "FeedbackScore": "268",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mandygirlpdx"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "97006",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:36:26.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P29DT22H25M43S",
+  "EndTime": "2017-07-02T12:36:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172709535143",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727095351438080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

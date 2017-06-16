@@ -1,0 +1,177 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "64.29",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Yorkshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:33:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:33:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705612589",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Seksy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Scratch-Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Seksy 2124G.37",
+        "Name": "Model"
+      },
+      {
+        "Value": "5051322212416",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SEKSY LADIES' ROSE GOLD BRACELET WATCH MODEL  2124.37 \u00a354.99 RRP \u00a359.99",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEKSY-LADIES-ROSE-GOLD-BRACELET-WATCH-MODEL-2124-37-54-99-RRP-59-99-/172705612589",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727056125898080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "LE53NE",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H10M42S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU2NFgxMDI0/z/feUAAOSw9GhYlHrG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU4MlgxMDE5/z/IfMAAOSwImRYlHw9/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Ladies' Seksy 2124.37 Wow! Introducing this popular watch to our range of stunning watches. Get yours now from a trusted seller on Ebay with 100% Feedback and Look The Cheapest Price on Ebay and the Internet Guaranteed. Only \u00a354.99. This two tone stone set case and bracelet watch from Seksy featuring stunning SWAROVSKI\u00ae ELEMENTS' perfect for daytime and evening wear. Watch features:Model number 2124.37Analogue displayScratch-resistant glassStone set stainless steel caseStone set stainless steel adjustable braceletQuartz movementFold-over claspWater resistant to 30mManufacturer's 2-year guaranteeEAN: 5051322212416",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1101",
+    "UserID": "sportz111",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "No Returns Accepted",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

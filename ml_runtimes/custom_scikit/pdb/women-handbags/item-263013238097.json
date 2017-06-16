@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/ugEAAOSwtGlZCNMH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/v7MAAOSw42dZCNMI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/2Q0AAOSw7GRZCNMJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/yVYAAOSwuMZZCNMK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/2V8AAOSw7GRZCNML/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Nomadic-Floral-Campus-Backpack-NWT-/263013238097",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "For school or work or weekends, this backpack has all the function you could want or need. It's pretty serious about being the best backpack ever. Don't tell it, but we sort of agree. Exterior features two zip pockets (one with interior organizational pockets). Two side pockets. Main compartment features two slip pockets, two pen slips and an ID window. Includes a specially designed grommet for headphones. Back panel and straps are padded. Zip closure. Dimensions 12\" w x 16\" h x 6 \u00bd\" d with 2 \u00be\" handle drop; 29 \u00be\" adjustable straps",
+  "Title": "Vera Bradley Nomadic Floral Campus Backpack (NWT)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Tampa, Florida",
+  "Seller": {
+    "FeedbackScore": "137",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "exclusivesales813"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33617",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T17:36:34.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P8DT2H49M44S",
+  "EndTime": "2017-06-10T17:36:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Nomadic Floral"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003370728"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013238097",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630132380978080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

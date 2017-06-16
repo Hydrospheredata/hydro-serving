@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT12H19M55S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Brand new",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "332251604071",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-Red-St-Michel-Round-Bead-Set-/332251604071",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T22:47:22.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T22:47:22.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm Bead",
+        "Name": "Type"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "Round",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "Round",
+        "Name": "Shape"
+      }
+    ]
+  },
+  "Title": "Brighton Red St. Michel Round Bead Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Gorgeous shades of reds and oranges.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322516040718080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michelel4328",
+    "FeedbackScore": "1009",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Monroe, Michigan",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDY0NA==/z/99UAAOSwcB5ZNI1z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDY0NQ==/z/hgwAAOSw0hlZNI2D/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDI3WDUzMA==/z/0D4AAOSw42dZNI2n/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "PostalCode": "48162"
+}

@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "99.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "201946598908",
+  "TimeLeft": "P6DT17H37S",
+  "ListingStatus": "Active",
+  "Title": "ALEXIS BITTAR Clear Black Crystal Detail Hinge Bracelet - 3\"",
+  "ConditionDescription": "GOOD TO VERY GOOD CONDITION FROM A SMOKE-FREE HOME! SEE PHOTOS.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "99.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "99.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T02:58:19.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T02:58:19.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alexis Bittar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Clear/Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "3",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Magnetic",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ALEXIS-BITTAR-Clear-Black-Crystal-Detail-Hinge-Bracelet-3-/201946598908",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Beaverton, Oregon",
+  "Description": "Check Out This Gorgeous ALEXIS BITTAR Clear Black Crystal Detail Hinge Bracelet!GOOD TO VERY GOOD CONDITION FROM A SMOKE-FREE HOME! SEE PHOTOS. ***Visit our Store! Over 13,000 items available! Combine shipping at a discounted rate - Only $1.95 shipping for each additional item here in the US, and no limit on quantity!***",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019465989088080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "anistu52oh",
+    "FeedbackScore": "14341",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "RockItResell",
+    "StoreURL": "http://stores.ebay.com/id=15704774"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDk1/z/BHwAAOSwls5Y6WTc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwOVgxNjAw/z/1poAAOSwpkFY6WTe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDU5/z/gcYAAOSwc49Y6WTh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzg2/z/14IAAOSwpkFY6WTj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTE2/z/jbUAAOSwAANY6WTo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjIz/z/BuoAAOSwls5Y6WTp/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "PostalCode": "97006"
+}

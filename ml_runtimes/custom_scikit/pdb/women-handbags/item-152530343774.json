@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE2NFgxMTg0/z/O2wAAOSwX61ZBU91/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/n~QAAOSww9xZBU8v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzMlgxNTM2/z/G0YAAOSwlndZBU-G/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTc2WDE1MjQ=/z/UpYAAOSwCQZZBU-g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTQ4WDE1MDA=/z/740AAOSw-3FZBU-t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA4WDE1Njg=/z/zykAAOSw~y9ZBU-4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yywAAOSwONBZBU8-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/O6QAAOSwtGlZBU9B/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/E8AAAOSw7GRZBU9D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PBAAAOSwtGlZBU9G/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FyUAAOSwlndZBU9J/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-JACOBS-BIKER-NYLON-BABY-BAG-BLACK-295-/152530343774",
+  "ConvertedCurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "MARC JACOBS BIKER NYLON BABY BAGCOLOR: BLACKIn excellent condition. Original box and dust bag not included. Please see pictures carefully.Maintain your downtown-chic style while easily all of baby's essentials in a sturdy, spacious nylon bag featuring plenty of pockets, a fold-up changing pad and an optional shoulder strap for hands-free carry.Top zip closure. To carry handles; optional, adjustable shoulder strap. Exterior zip and slip pockets. Interior zip and wall pockets; removable changing pad. Nylon.15 1/4\"W x 13 3/4\"H x 7\"D. (Interior capacity: extra-large.) 8\" strap drop; 13\" - 20\" shoulder strap drop. Pouch: 12\"W x 8\"H x 1\"D.RETURNS: I do accept returns but buyer is responsible for return shipping. Original shipping cost is non-refundable when returned (if any). Item must be returned in the same condition you receive it.",
+  "Title": "MARC JACOBS BIKER NYLON BABY BAG BLACK $295+",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Peoria, Arizona",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "890",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "waterfall2012-77"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85381",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-30T02:59:54.000Z",
+  "HitCount": "81",
+  "TimeLeft": "P26DT11H31M53S",
+  "EndTime": "2017-06-29T02:59:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152530343774",
+  "Storefront": {
+    "StoreName": "nmogen2012",
+    "StoreURL": "http://stores.ebay.com/id=1110178951"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525303437748080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

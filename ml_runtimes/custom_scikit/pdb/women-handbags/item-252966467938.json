@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjI1WDUwMA==/z/QDIAAOSwblZZKaGY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI1WDUwMA==/z/v5EAAOSwaeRZKaHH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI1WDUwMA==/z/8wcAAOSwPh5ZKaH0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI1WDUwMA==/z/WDwAAOSwfRdZKaIf/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GUCCI-Made-Italy-Blooms-Supreme-Canvas-Floral-Sketch-Backpack-/252966467938",
+  "ConvertedCurrentPrice": {
+    "value": "1799.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Adjustable backpack straps Flap front Blooms motifTop carry handleLeather trimMicrofiber lining with suede like finishSignature brand logo patternBoxed12in W x 14in HDrawstring closure3 interior pockets1 exterior zip pocketSupreme canvas, a material with low environment impactMade in Italy100% Authentic GuaranteedRequires signature for deliveryThis was a gift for my sister and I am helping her with the sale. As she has also advertised this item privately, the listing might have to end earlier than expected. Thank you!Returns allowed only if item has been misrepresented. In this case, full refund will be credited less return shipping.",
+  "Title": "GUCCI Made In Italy Blooms Supreme Canvas Floral Sketch Backpack",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1799.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Montrose, California",
+  "Seller": {
+    "FeedbackScore": "410",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "darlene40"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91020",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T05:24:17.000Z",
+  "HitCount": "13",
+  "TimeLeft": "PT14H35M29S",
+  "EndTime": "2017-06-03T05:24:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Sketch blue floral"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gucci"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Floral"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252966467938",
+  "Storefront": {
+    "StoreName": "Fashion Deal Rack",
+    "StoreURL": "http://stores.ebay.com/id=14413447"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529664679388080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

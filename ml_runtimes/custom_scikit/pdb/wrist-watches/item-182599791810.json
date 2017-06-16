@@ -1,0 +1,173 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.39",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Sacramento, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:17:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1058854859",
+    "StoreName": "thewholesalemall"
+  },
+  "CurrentPrice": {
+    "value": "5.39",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:17:39.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mens,Womens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "38mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "460123097040",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ItemID": "182599791810",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Fashion Long Play Style No Markers Dial Women Round Quartz Analog Wrist Watches",
+  "NewBestOffer": "false",
+  "SKU": "jwq012001-us",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Long-Play-Style-No-Markers-Dial-Women-Round-Quartz-Analog-Wrist-Watches-/182599791810",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825997918108080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT16H47M17S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/ioYAAOSwnLdWqHXz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/if0AAOSwnLdWqHXs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/rzAAAOSw--1WqHXm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/l0EAAOSwXshWqHXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/-uoAAOSwpzdWqHX0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/-lEAAOSwpzdWqHXu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDcwMA==/z/y0AAAOSwJb9WqHXo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/V1AAAOSwFMZWqHXq/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "5.39",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "19105",
+    "UserID": "thewholesalemall",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

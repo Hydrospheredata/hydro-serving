@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/r7sAAOSwSypY9Lyp/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lug-Womens-Puddle-Jumper-Overnight-Victory-Gym-Bag-Aqua-Teal-One-Size-/292088351270",
+  "ConvertedCurrentPrice": {
+    "value": "159.11",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Top choice for the true traveler. Get uber organized on the go with the Lug quilted Puddle Jumper overnight bag. Fashion meets real function thanks to convenient carrying options and plenty of pockets--both inside and out. Thought-of-everything touches include a handy removable pouch, hidden magnetic pocket, and detachable mirror. Dimensions: 14.5\"W x 15.5\"H x 6\"D Strap: 12\" handle drop and a 10\" to 24\" strap drop Features: Tote handles Removable cross-body strap Three zip storage pockets Hidden magnetic pocket Front pocket with detachable mirror and clear pouch (9\"W x 5-1/2\"H x 1/4\"D) Soft-lined cargo pockets Luggage strap Ventilated shoe compartment ID window Back slim zip pocket Bottom feet Interior with two pen holders D-ring, and pocket - Tote handles - Removable cross-body strap - Three zip storage pockets - Hidden magnetic pocket - 9x14.5x15.5 Lug Women's Puddle Jumper Overnight Victory Gym Bag, Aqua Teal, One Size",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.11",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Lug Women's Puddle Jumper Overnight Victory Gym Bag, Aqua Teal, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T12:59:25.000Z",
+  "HitCount": "27",
+  "TimeLeft": "P13DT20H4M33S",
+  "EndTime": "2017-06-16T12:59:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "880479216634"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0880479216634"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Lug"
+      },
+      {
+        "Name": "MPN",
+        "Value": "V-PUD JUMP-AQUA TEAL"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Aqua Teal"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.3 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 15 x W 14.3 x H 3.2 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Lug Parent Code"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088351270",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920883512708080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/B24AAOSwzgBY3wgs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/PM8AAOSwmgJY3wgs/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mercado-Global-Rosa-Tote-Beach-Bag-Black-Natural-One-/292073039677",
+  "ConvertedCurrentPrice": {
+    "value": "131.77",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Rosa oversize tote with tassel ties and leather detail. - Name: Tote - Style: SS1749 Mercado Global Rosa Tote Beach Bag Black/Natural One",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "131.77",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "11616",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "thetoptens"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Mercado Global Rosa Tote Beach Bag Black/Natural One",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-01T01:53:44.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P27DT7H59M35S",
+  "EndTime": "2017-06-30T01:53:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "853949002761"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0853949002761"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Mercado Global"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/Natural"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Model",
+        "Value": "SS1749"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292073039677",
+  "Storefront": {
+    "StoreName": "thetoptens",
+    "StoreURL": "http://stores.ebay.com/id=1345108464"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920730396778080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

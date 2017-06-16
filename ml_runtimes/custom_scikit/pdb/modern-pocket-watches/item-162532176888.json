@@ -1,0 +1,63 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.95"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "48081",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Like New condition. Kept in tin case and never carried or used it. Beautiful battery powered pocket watch with largemouth bass. Pre owned by only me and never carried it. I just put in a new battery. Comes with very nice looking tin case. Priority Shipping.",
+  "StartTime": "2017-05-28T16:00:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~50AAOSwuxFY3q3q/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pF8AAOSwmgJY3q4O/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EAUAAOSwuxFY3q48/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OzMAAOSwB-1Y3q5O/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "garry0219",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "190",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625321768888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T16:00:57.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Majestic-Waters-Al-Agnew-Bass-/162532176888",
+  "Location": "Saint Clair Shores, Michigan",
+  "Title": "Pocket Watch Majestic Waters Al Agnew Bass",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "162532176888",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT21H26M4S"
+}

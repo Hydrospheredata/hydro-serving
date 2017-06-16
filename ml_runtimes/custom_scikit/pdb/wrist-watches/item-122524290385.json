@@ -1,0 +1,148 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Waianae, Hawaii",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T02:58:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T02:58:23.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524290385",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "U0380G6",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Guess",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "U0380G6",
+        "Name": "Model"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Chronograph",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "45mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "U0380G6 Guess Mens Brown Leather Blue Dial Multifunction Watch New in Box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/U0380G6-Guess-Mens-Brown-Leather-Blue-Dial-Multifunction-Watch-New-Box-/122524290385",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225242903858080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "96792",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT11H53M13S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cA4AAOSw42dZLjDk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PhoAAOSw-3FZLjDm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ADcAAOSw8HBZLjDo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9ZEAAOSw3gJZLjDq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/l9oAAOSwjL5ZLjDt/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand new Guess leather strap watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3",
+    "UserID": "jaatanak_0",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

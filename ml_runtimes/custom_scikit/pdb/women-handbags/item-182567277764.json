@@ -1,0 +1,108 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA0NFgxMzMy/z/tlsAAOSwX9FZEe~v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzMlgxMDQ4/z/aXEAAOSw3gJZEe~M/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Triple-Zip-Hipster-Santiago-Exact-Photo-/182567277764",
+  "ConvertedCurrentPrice": {
+    "value": "55.57",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Triple Zip Hipster Santiago Exact Photo!",
+  "Title": "Vera Bradley Triple Zip Hipster Santiago Exact Photo!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.57",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "West Bloomfield, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2002",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "ponytailjj"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48324",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T16:36:52.000Z",
+  "HitCount": "66",
+  "TimeLeft": "P6DT24M52S",
+  "EndTime": "2017-06-08T16:36:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15711-G01"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003425350"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182567277764",
+  "PrimaryCategoryID": "169303",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "ponytailjj",
+    "StoreURL": "http://stores.ebay.com/id=141835503"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825672777648080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,125 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "NEW Invicta Pro-Diver Chronograph Stainless Steel Men's Wristwatch w Box SS-5389 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-30T11:46:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyM1g4NzI=/z/Qr0AAOSwYvFZJbwY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4NTA=/z/siIAAOSw1WJZJbwY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA4WDEyODA=/z/TmYAAOSw9OFZJbwY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcxWDEyODA=/z/X9UAAOSwIQdZJbwY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAyWDEyODA=/z/Ql8AAOSwaEhZJbwY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTYx/z/syUAAOSwsXFZJbwY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTE2/z/O4gAAOSw42JZJbwZ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "69.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta Prodiver",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60400",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520729926798080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-29T11:46:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "69.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Invicta-Pro-Diver-Chronograph-Stainless-Steel-Mens-Wristwatch-w-Box-SS-5389-/352072992679",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "NEW Invicta Pro-Diver Chronograph Stainless Steel Men's Wristwatch w Box SS-5389",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "352072992679",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P28DT18H10M10S"
+}

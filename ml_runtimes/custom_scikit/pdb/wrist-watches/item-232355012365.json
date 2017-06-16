@@ -1,0 +1,169 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "51.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "Moscow, default",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:04:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1152581163",
+    "StoreName": "apisRU Store"
+  },
+  "CurrentPrice": {
+    "value": "51.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:04:53.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vostok",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Date Indicator",
+          "Luminous Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Diver's 200 m (ISO 6425)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "22mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Diver",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "710615",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "RU",
+    "DE"
+  ],
+  "ItemID": "232355012365",
+  "HandlingTime": "2",
+  "Description": "The Vostok Amphibia is a Russian diver watch created in 1967 for the USSR navy. Specifications: - Automatic Vostok self-winding movement 2416b with 31 ruby jewels - Water resistant up to 200 meters - Central second hand - Anti-shock balance - Screw-down winding head and back cover- Case diameter (without the crown): 40 mm - Case thickness: 12 mm - Stainless steel bracelet - Width of bracelet: 22 mm - Graduated rotated bezel - Totally wound watches runs not less than 31 hrs- Stainless steel rear cap- Luminous hands and markings- Average term of service 10 years All watches are listed in our store all are tested fefore listing for sale and test before sending . Standard international shipping take 5 to 18 business days.*FedEx shipping will take 1-4 business days.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Mens-Russian-VOSTOK-Amphibian-Amphibia-710526-DIVER-WATCH-/232355012365",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323550123658080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H31M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3N1gxMTkw/z/uDoAAOSwtnpXiWxe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/jywAAOSwIgNXiWxf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kSsAAOSwZVlXiWxn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kDUAAOSwIgNXiWxv/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "NEW Men's Russian VOSTOK Amphibian ( Amphibia ) # 710526 DIVER WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "352",
+    "UserID": "apisru",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

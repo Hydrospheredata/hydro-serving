@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQ2N1gxMjAw/z/ZycAAOSwZ4dZJNQy/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDQwOA==/z/B4kAAOSwfpVZJNTT/$_32.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-New-York-Harding-Street-Oranges-Renee-Mini-Crossbody-Shoulder-Bag-NEW-/132213108652",
+  "ConvertedCurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags, crossbody bag. Item is Clean and comes from smoke/pet free household. The bag is still in its plastic wrapping.",
+  "Title": "Kate Spade New York Harding Street Oranges Renee Mini Crossbody Shoulder Bag NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "207",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "wobblybear1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11218",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:51:36.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT22H41M52S",
+  "EndTime": "2017-06-09T12:51:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5-1/10\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "1-9/10\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "7-3/5\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "22\" Adjustable"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Multi-Colored"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132213108652",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322131086528080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

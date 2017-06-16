@@ -1,0 +1,177 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert Mechanical Pocket Watch Model # 3873-WRoman/ Arabic Numerals MarkersShape: Roundwhite dial Case Finish: PolishedFinishCase Size: 47 mmCase Thickness: 15 mmCase Color: ChromeEngravable: No Chain IncludedLifetime Movement WarrantyShips with Charles Hubert Gift BoxFree Standard ShippingIn Stock, Ready to Ship Today!",
+  "StartTime": "2017-05-10T21:32:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODc0WDc1MA==/z/FQAAAOSwuMZZE4ZA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc0WDc1MA==/z/Bx4AAOSwaeRZE4ZF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzgwWDc1MA==/z/1IoAAMXQDXRRGb-G/$(KGrHqRHJE8FESjb10eWBRGb-G(l2Q~~60_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "170.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "10",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Charles-Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "3873-W",
+        "Name": "Model"
+      },
+      {
+        "Value": "Lifetime Movement",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shopgifties",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "379",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "20",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726692980948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-09T21:32:18.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "170.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "We guarantee items to be free from defects in material & workmanship. If you're not satisfied with any purchase from us, contact us within 30 days of purchase & we'll exchange it, replace it or refund your money at our option. Returns must be shipped insured in original packaging w/all paperwork. Refunds exclude shipping fees unless item not as described.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Charles-Hubert-Polished-Finish-Open-Face-Mechanical-Pocket-Watch-3873-W-/172669298094",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Charles Hubert Polished Finish Open Face Mechanical Pocket Watch 3873-W",
+  "Storefront": {
+    "StoreName": "Shop Gifties",
+    "StoreURL": "http://stores.ebay.com/id=1041085656"
+  },
+  "ItemID": "172669298094",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT2H49M48S"
+}

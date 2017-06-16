@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921514501728080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ULQAAOSwnF9Y5~hN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/I~MAAOSw3utY5~hN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sq4AAOSwpkFY5~hN/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Exclusive-Italian-Leather-Briefcase-Business-bag-Valento-Red-Free-Shipping-/192151450172",
+  "ConvertedCurrentPrice": {
+    "value": "179.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Beautiful chic red briefcase hand crafted from 100% Italian calf leather. The exclusive briefcase is made from stunning Italian leather and has lots of compartments. It has 3 big inner compartments for your laptop (up to 42cm ) and papers or folders. There are two additional pockets on the outside of the bag, one front pocket and one back pocket with a zipper. The briefcase has an attachable adjustable shoulder strap, to wear the bag cross-body. The briefcase is available in the colours black, dark red, cognac, orange and brown. Outer Material",
+  "Title": "Exclusive Italian Leather Briefcase / Business bag Valento Red. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-07T19:02:28.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P4DT2H46M51S",
+  "EndTime": "2017-06-06T19:02:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Carelli Italia"
+      },
+      {
+        "Name": "MPN",
+        "Value": "932220506"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151450172",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:124751044:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

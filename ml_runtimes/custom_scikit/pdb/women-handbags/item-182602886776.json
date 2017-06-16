@@ -1,0 +1,135 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA3WDE1MDA=/z/FmcAAOSwR29ZMRem/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyN1gxNTAw/z/U5wAAOSwlMFZMRem/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTgw/z/mCIAAOSwZKBZMRem/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzYxWDE1MDA=/z/AiEAAOSwX9FZMRem/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDE1MDA=/z/QK0AAOSwY3BZMRem/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMzWDE1MDA=/z/5VkAAOSwIQdZMRem/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MjI=/z/6oAAAOSw8lpZMRem/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Merryl-Waist-bag-Black-One-Size-/182602886776",
+  "ConvertedCurrentPrice": {
+    "value": "70.79",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Carry it as a waistbag or attach the strap and wear it over your shoulder. So many options in one great bag Get the Kipling Merryl Multi-pocket Waistbag Shoulder Bag with the trademark matching furry monkey. - Pockets: 1 exterior, 4 ID windows Kipling Merryl Waist bag, Black, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "70.79",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "500",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "m_bargain_store"
+  },
+  "PrimaryCategoryID": "163570",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kipling Merryl Waist bag, Black, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T07:45:38.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT16H5M28S",
+  "EndTime": "2017-07-02T07:45:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "882256002782"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0882256002782"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "MPN",
+        "Value": "AC2491-001"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.7 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 7.3 x W 6.5 x H 2 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Kipling Bags"
+      },
+      {
+        "Name": "Model",
+        "Value": "AC2491-Black-One Size"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182602886776",
+  "Storefront": {
+    "StoreName": "Zenostore",
+    "StoreURL": "http://stores.ebay.com/id=1071112098"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826028867768080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,165 @@
+{
+  "QuantitySold": "0",
+  "Title": "Jacques Du Manoir Pocket Watch, Men's Watch, Swiss Made",
+  "PostalCode": "46203",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Gorgeous Swiss made Jacques Du Manoir pocket watch. Needs new battery. Casing shows light wear along the edge, otherwise pristine condition.",
+  "StartTime": "2017-05-14T22:50:51.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/60AAAOSwdI9Y8VCV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/kDUAAOSwls5Y8VAa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/CboAAOSw4CFY8VBi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/DwUAAOSwc49Y8VDz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/NTsAAOSwU8hY8VEa/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "200.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jacques du Manoir",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Date Indicator",
+          "Includes Chain",
+          "Roman Numerals",
+          "Swiss Made"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "tehnothing",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "129",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "49",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013274308578080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-13T22:50:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "200.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jacques-Du-Manoir-Pocket-Watch-Mens-Watch-Swiss-Made-/401327430857",
+  "ConditionDescription": "needs new battery",
+  "Location": "Indianapolis, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "401327430857",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT4H10M13S"
+}

@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzIy/z/~DgAAOSwZQRYfJIr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDAz/z/QVUAAOSwopRYfJIr/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Oversize-Laptop-Backpack-Plus-Black-One-Size-/262809900155",
+  "ConvertedCurrentPrice": {
+    "value": "136.59",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Vacquetta leather construction - Padded computer section - Zippered pockets - Organizer - Cell phone holder on strap David King & Co. Oversize Laptop Backpack Plus, Black, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "136.59",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "5535",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "**barssa**"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Oversize Laptop Backpack Plus, Black, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-01-16T09:28:07.000Z",
+  "HitCount": "55",
+  "TimeLeft": "P12DT18H16M16S",
+  "EndTime": "2017-06-15T09:28:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "UPC",
+        "Value": "844739017584"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844739017584"
+      },
+      {
+        "Name": "MPN",
+        "Value": "349-B"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262809900155",
+  "Storefront": {
+    "StoreName": "barssa1999",
+    "StoreURL": "http://stores.ebay.com/id=1334568490"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2628099001558080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,188 @@
+{
+  "HandlingTime": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "162541881319",
+  "TimeLeft": "P6DT14H13M2S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-05T00:35:25.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "PostalCode": "90211",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Authentic PANDORA Gifts of Love Charm, Magenta Enamel & Clear CZ 792047CZ",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-12T00:35:25.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "792047CZ",
+        "Name": "MPN"
+      },
+      {
+        "Value": "5700302511222",
+        "Name": "UPC"
+      },
+      {
+        "Value": "63.75",
+        "Name": "Site Price"
+      },
+      {
+        "Value": "63.75",
+        "Name": "List Price"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-PANDORA-Gifts-Love-Charm-Magenta-Enamel-Clear-CZ-792047CZ-/162541881319",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Beverly Hills, California",
+  "Description": "Brand new retails for 75.00",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625418813198080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.4",
+    "UserID": "innovations984",
+    "FeedbackScore": "459",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/Nzk2WDU3Ng==/z/KR8AAOSwDmBY5oNS/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  }
+}

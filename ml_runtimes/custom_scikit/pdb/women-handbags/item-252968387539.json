@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529683875398080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM0MA==/z/A5UAAOSw-K9ZL9Qv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMwNw==/z/GnAAAOSwsXFZL9Qv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDE1OQ==/z/d8EAAOSwfpVZL9Qv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjQ2WDUwMA==/z/554AAOSwtGlZL9Qv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjY4WDUwMA==/z/7PIAAOSwn-tZL9Qv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDIzMA==/z/5DkAAOSwq1JZL9Qv/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Claire-Chase-Valentina-Handbag-Red-One-Size-/252968387539",
+  "ConvertedCurrentPrice": {
+    "value": "217.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Handcrafted Colombian top-grain cowhide leather Zippered closure *Fully lined *Multiple interior pockets. Pocket for cellphone, business cards, loop for pens/pencils, removable leather clip for keys *Decorative drawstring *Nickel hardware SKU:EDIB00852GDCE Features Model:CC-47 Item Weight:2.5 poundsSize:One SizeItem Dimensions:11x5x14 inches UPC:608729125655</p",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "217.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "67",
+    "PositiveFeedbackPercent": "94.7",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "ergode2016"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Claire Chase Valentina Handbag, Red, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T08:45:34.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT17H51M58S",
+  "EndTime": "2017-07-01T08:45:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "ClaireChase"
+      },
+      {
+        "Name": "SKU",
+        "Value": "EDIB00852GDCE"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "608729125655"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252968387539",
+  "Storefront": {
+    "StoreName": "ergode2016",
+    "StoreURL": "http://stores.ebay.com/id=1488101724"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Any item returned to us without RMA will be refused and returned to sender. Be sure to properly package your return (double box) to avoid damage. We DO NOT accept any product that is returned incomplete or in a less than brand new condition as described above. Customers are responsible for shipping and insuring their package, at full value. Shipping must be with a reputable carrier with an on-line tracking system. Packages lost, stolen or damaged during a return to us are the responsibility of the customer. All items returned for repair will be returned to the customer at the customer's expense. Shipping charges will apply. - Please do not request an RMA# for defective merchandise, if you have not 'bench tested' the unit and are sure the defect is associated with the unit itself. Upon receipt, our technical staff will attempt to duplicate the defect you are describing**. In addition, when exchanging an item, the return shipping must be prepaid by the customer. If the item is being returned for reasons such as Buyer\u2019s Remorse, Accidental Order, Cancellation after ship out (and/or after processed), no longer needed/wanted, etc. Outbound shipping which may have been free originally will be deducted as we pay for shipment while shipping the products to our customers. Please note that there is a restocking fee of 20% Refunds: All returns for refund are subject to a minimum 20% restocking fee. Shipping and handling charges are NOT refundable. Please allow up to 2 weeks for your refund to be processed. All refunds will be issued in the same manner that payment was received.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "EDIB00852GDCE",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

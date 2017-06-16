@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njg1WDcyMA==/z/0MsAAOSwax5YwgQ~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDcyMA==/z/Z9YAAOSwTM5YwgQ9/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lululemon-Fast-Flight-Black-White-Plaid-Ombre-Gym-Tote-Bag-/182566590648",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Lululemon Fast in Flight gym tote bag. Black and white plaid ombre. Measures approximately 18\" x 17\" x 6\" Made of wool/viscose blend with polyester lining. In excellent, clean condition. No flaws! Thanks for looking, please take a look at my other items as I will gladly combine shipments. I ship to the United States only. Returns are not accepted unless my item has been misrepresented. Please remember that I am human and sometimes I will make a mistake. So if you receive an item and there was something I missed, PLEASE contact me immediately to resolve the situation maturely. I am an honest and understanding seller... thank you!",
+  "Title": "Lululemon Fast in Flight Black White Plaid Ombre Gym Tote Bag",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Yukon, Oklahoma",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2935",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "myamazinggrace"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "73099",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T05:32:41.000Z",
+  "HitCount": "108",
+  "TimeLeft": "P5DT12H43M52S",
+  "EndTime": "2017-06-08T05:32:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Gym bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Wool blend"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182566590648",
+  "Storefront": {
+    "StoreName": "My Amazing Grace&#39;s Boutique",
+    "StoreURL": "http://stores.ebay.com/id=894527006"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825665906488080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

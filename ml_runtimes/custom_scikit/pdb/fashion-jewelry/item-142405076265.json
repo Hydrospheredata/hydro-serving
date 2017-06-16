@@ -1,0 +1,118 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P2DT14H12M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Accessories:Scarves & Wraps",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142405076265",
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T01:57:39.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-KNITS-100-SILK-SCARF-/142405076265",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T01:57:39.000Z",
+  "PrimaryCategoryID": "45238",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St John Knits",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Scarf",
+        "Name": "Style"
+      },
+      {
+        "Value": "100% Silk",
+        "Name": "Material"
+      },
+      {
+        "Value": "Korea, Republic of",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black & White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Floral",
+        "Name": "Pattern"
+      },
+      {
+        "Value": "Flowers",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN KNITS...100% SILK...SCARF",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "Beautiful 100% silk scarf...24\" X 78\"...Original boutique price was $195, outlet price was $115...your price is $85...description on my invoice when I purchased the scarf is Flowers...colors are Black and White...condition is mint...never worn or tried on...arrives in a St John logo cardboard sleeve via USPS mail with tracking number for secure delivery. Please see my EBay site for a large collection of St John earrings, pins, neck pieces, bracelets, belts, etc.",
+  "PrimaryCategoryIDPath": "11450:4251:45238",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424050762658080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "3",
+  "PaymentMethods": "PayPal",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/NjgAAOSwT-FZCLt1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/790AAOSwcgNZCLt9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/PhAAAOSww9xZCLuR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/ZZsAAOSwX61ZCLuF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/ifgAAOSwjqVZCLuK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/7BQAAOSw7GRZCLuW/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33154"
+}

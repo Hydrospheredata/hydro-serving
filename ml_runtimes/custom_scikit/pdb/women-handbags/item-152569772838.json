@@ -1,0 +1,119 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/fwcAAOSw42JZCNTe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/9XIAAOSwnONZCNUB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/AqkAAOSwuMZZCNUz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/BtIAAOSwuMZZCNVY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/Y2sAAOSw-3FZCNV-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/ZCUAAOSwONBZCNWb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/drkAAOSwdjNZCNW9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/PBoAAOSwcgNZCNXX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/aGwAAOSww9xZCNX8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/KNoAAOSw~y9ZCNYv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/eHEAAOSwONBZCNZH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/TmsAAOSwX61ZCNaC/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gucci-Sukey-Medium-Boston-Handbag-Satchel-/152569772838",
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gently used, classic, Gucci Sukey Medium Boston Handbag/Satchel with pleated light beige GG canvas with brown leather trim and double rolled brown leather handles. Double zip top closure. Light gold hardware featuring o-ring with removable GG charm. The detachable leather strap is missing. Minor signs of normal wear on leather piping and faint stain on exterior bottom. No tears on exterior fabric. Interior is clean with very large main compartment with zippered side pocket featuring leather tag with serial number and country of origin. The interior has faint normal marks but no major stains. The exterior canvas is sort of a light sandstone beige so it looks light or dark in different lighting. Aside from the missing detachable shoulder strap, I took good care of this purse and enjoyed how it fit on my shoulder. I will be happy to share more photos if requested.",
+  "Title": "Gucci Sukey Medium Boston Handbag, Satchel",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Saint Louis, Missouri",
+  "Seller": {
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "toby2328"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "63144",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T22:09:58.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT7H43M25S",
+  "EndTime": "2017-07-01T22:09:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Gucci"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.5 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13.5 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "6.5 inch"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Signature GG"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152569772838",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525697728388080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

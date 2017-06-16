@@ -1,0 +1,136 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "32.65",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Los Angeles, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T04:44:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "32.65",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T04:44:23.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245319946",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Seiko 5",
+        "Name": "Model"
+      },
+      {
+        "Value": "780264",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "7009-5831",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE SEIKO 5 AUTOMATIC 17 Jewels Stainless Steel 1960-69 Japan",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-SEIKO-5-AUTOMATIC-17-Jewels-Stainless-Steel-1960-69-Japan-/332245319946",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322453199468080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "90005",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT13H37M45S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mFMAAOSwR29ZLkY-/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5Nlg3MzY=/z/f-4AAOSwEHpZLkZs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxMlg2Mjg=/z/tlgAAOSwfRdZLka-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M6MAAOSwn-tZLkdG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2AwAAOSwKytZLkem/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EugAAOSwq1JZLkXq/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Selling my small collection. a 1960-69 Stainless Steel Seiko Automatic 5. Copper color face, Silver and White hands. the bracelet band is 8\" round. (I'm an 8.5 which is considered a bit larger)A great watch, very sturdy, heavy but yet sleek. I cannot vouch for the authenticity of every moving part but my watch maker was impressed and I sincerely like it. At this bargain price it's a great deal.Except for weekends and holidays, I ship immediately.ps. don't be put off with the setting of time and date etc. it's not hard once you get used to it.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "982",
+    "UserID": "vincenriq",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT22H49M29S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "THE EARRINGS ARE IN PRISTINE CONDITION",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142405331033",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:23:44.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-GOLD-TONE-HEART-SHAPE-/142405331033",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:23:44.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Heart",
+        "Name": "Style"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "GoldTone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY..EARRINGS..CLIP-ON..GOLD TONE..HEART SHAPE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "Heart shaped St John earrings...1 1/4\" at widest part...signed and hallmarked...St John engraved on both sides on the thick gold tone border... raised in the center are various shapes over the textured base...will be mailed USPS first class mail with tracking number for secure delivery.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424053310338080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/~9QAAOSwax5Y0JMY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/LO4AAOSwXYtY0JMe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/jw8AAOSw32lY0JMl/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

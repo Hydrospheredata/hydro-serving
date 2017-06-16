@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921432587858080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/bjIAAOSw4CFY28lz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDI1MA==/z/VfcAAOSwCU1Y28lz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMzMw==/z/4M8AAOSwZLhY28lz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/biwAAOSw4CFY28lz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/GKcAAOSwol5Y28lz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/vhIAAOSwuxFY28l0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/7joAAOSwWxNY28l0/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Visconti-Vintage-Leather-Briefcase-Strap-VT6-Bennett-Free-Delivery-/192143258785",
+  "ConvertedCurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Style: Bennett. Vintage vegetable tanned leather has that dark and sultry look about it. This Visconti product is made from the finest leather and has that wonderful new leather aroma. Leather items may have wrinkles, scars, scratches that are inherent characteristics and natural beauty of the hide. This is strong, high quality leather and with its smooth polished surface and distressed antique finish, there's no doubt that this briefcase has plenty of attitude. If you covet the look of old, comfortably worn-in leather you won't have to wait the years it takes for the look to develop naturally as the leather has been specially prepared so that it takes on that much coveted, vintage effect much more quickly. The surface is designed to scratch easily but these marks will gently blend in over time adding to the character of the bag. Please remember that as leather is a natural product, the intensity of the colour will vary slightly from hide to hide during the dyeing process, making each bag totally unique. This is a big bag with good capacity and there are plenty of pockets for A4 sized note books, files and document wallets. The long adjustable strap is made from leather topped hardwearing polyester and has a sliding rubber shoulder grip for comfort when carrying heavy loads. Wear either on the shoulder or hands-free, across-body. The main flap is luxuriously lined with suede.",
+  "Title": "Visconti Vintage Leather Briefcase & Strap - VT6 - Bennett. Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-29T14:49:15.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P24DT22H31M2S",
+  "EndTime": "2017-06-27T14:49:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5060167688751"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5060167688751"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Visconti"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143258785",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57726714:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

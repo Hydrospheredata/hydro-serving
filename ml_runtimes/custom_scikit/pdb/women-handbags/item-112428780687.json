@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P29DT22H7M11S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "gently used",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/j1sAAOSwDiBZMVCd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/98YAAOSwCQZZMVGf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/sUoAAOSw1WJZMVCr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/K4MAAOSwYlRZMVGG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/j4IAAOSwlY1ZMVDE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JM4AAOSwfpVZMVDX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/yvwAAOSwX9FZMVDf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/3JgAAOSwGJlZMVDt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZsoAAOSw~FJZMVEE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rjEAAOSwaeRZMVEh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XGEAAOSwhvFZMVFB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EWQAAOSwR29ZMVFh/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Zadig-Voltaire-Rock-Leather-Clutch-/112428780687",
+  "ConvertedCurrentPrice": {
+    "value": "450.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gently used Bought in Paris in the gallery of Lafayette Zadig et Voltaire iconic clutch, zipper with double slider, rectangular format that folds, two removable chains of different lengths composed by metal interlaced with leather, interior patch pocket and welt pocket in the lining, large wings skull rivet on the front, depth 2cm, height 15cm, length 27cm, shoulder strap length 78cm and 124cm, 100% leather, twill cotton lining.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "450.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Moscow, default",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "anyapavlova"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Zadig & Voltaire Rock Leather Clutch",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:19:16.000Z",
+  "HitCount": "3",
+  "ConditionID": "3000",
+  "EndTime": "2017-07-02T12:19:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Zadig & Voltaire"
+      },
+      {
+        "Name": "Style",
+        "Value": "Clutch"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "Closure",
+        "Value": [
+          "Drawstring",
+          "Flap",
+          "Magnetic Snap",
+          "Zip"
+        ]
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428780687",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "RU",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124287806878080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

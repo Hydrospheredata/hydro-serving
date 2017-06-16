@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.72",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Birmingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:27:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T07:27:20.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995069717",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Men's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Deco Style Chateau Gold Plated Two Tone Gent's Quartz Watch.",
+  "ConditionDescription": "see main listing.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Deco-Style-Chateau-Gold-Plated-Two-Tone-Gents-Quartz-Watch-/361995069717",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619950697178080_1.jpg",
+  "HitCount": "17",
+  "PostalCode": "B461QD",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT15H54M55S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MKgAAOSw8lpZLm2I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sEoAAOSwBt5ZLm2X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/82AAAOSwn-tZLm2i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VpIAAOSwAPVZLm2w/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r7wAAOSwYvFZLm29/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "A classic elegant deco style Chateau gold plated two tone quartz gent's watch in excellent used condition and full working order keeping good time. Unworn ex display item.Features:Cushion shape vintage style gold plated case with fancy engraved steel decoration.White dial with black enamelled roman numeral markers and blued steel hands.Subsidiary dial for seconds.Flawless mineral glass crystal.Quality Japanese quartz movement in working order keeping good time.Fitted with new/old stock black leather calf grain watch strap.Size: 32 mm. wide. An unusual & elegant gents watch that offers vintage deco styling with quartz accuracy. Full refund if not happy with item, buyer to pay return postage.Payment by paypal only.All items to be paid for within 48 hours.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5110",
+    "UserID": "fohar181",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "Full money back on all returns.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

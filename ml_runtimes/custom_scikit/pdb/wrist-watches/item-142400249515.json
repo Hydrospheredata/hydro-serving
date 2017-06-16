@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "55.69",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "Montreal, Quebec",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:22:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-30T14:22:42.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400249515",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DYERBERG / KERN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "UNISEX",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VERY NICE DYERBERG/KERN WATCH SILVER WITH BEIGE COLOUR GENUINE LEATHER",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERY-NICE-DYERBERG-KERN-WATCH-SILVER-BEIGE-COLOUR-GENUINE-LEATHER-/142400249515",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424002495158080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "H3H1V2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H13M50S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8RIAAOSwA3dYC6Xp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6rsAAOSw44BYC6XR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/67gAAOSw44BYC6XX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7RsAAOSwnbZYC6Xe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DscAAOSwHsRYC6Xj/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "BEAUTIFUL GERMAN WATCH NICE MODERN DESIGN BY DYERBERG / KERN THE WATCH CASE IS SILVER WITH A ROUND DIAL , ROMAN NUMERALS ON THE FACE 6 & 12 O'CLOCK THE CASE WIDTH IS 1.1/4 \" APPROXIMATELY.THE WRIST BAND INCLUDING THE CASE IS APPROXIMATELY 9\" SIGNATURE GENUINE LEATHER WATCH BAND WITH SILVER TONE BUCKLE, CRYSTAL IS CLEAR.CASING SHINY, THE FACE IS MOTHER OF PEARL; ALL IN VERY GOOD CONDITION THE WATCH IS IN WORKING ORDER I WILL REPLACE BATTERY WHEN SOLD",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "71",
+    "UserID": "worldcards-4u",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDYzOA==/z/LG0AAOSwXeJYK3yI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTUwWDU0OA==/z/RaEAAOSw44BYK3yJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk0/z/cxkAAOSwB09YK31c/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk0/z/3-4AAOSwcUBYK31e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk0/z/c9oAAOSwB09YK31g/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Micah-Laptop-Backpack-/252920123656",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This backpack features a streamlined shape and enough room to carry your textbooks, notebooks or everyday essentials. It's also great for travel, thanks to a sleeve on the back that slides easily over your luggage handle for easy toting. Dimensions: 12\" x 15.5\" x 6\" Weight: 1.46 lbs- Nylon- Two shoulder straps; top carry handle- Outside: two zip pockets at front, one side pocket (perfect for your water bottle!); sleeve at back that slides over luggage trolley handle- Inside: spacious main compartment, mesh slip pockets, laptop compartment",
+  "Title": "Kipling Micah Laptop Backpack",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Chino Hills, California",
+  "Seller": {
+    "FeedbackScore": "855",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "247fashionshoeforless"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91709",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-04T21:16:52.000Z",
+  "HitCount": "109",
+  "TimeLeft": "P1DT6H10M29S",
+  "EndTime": "2017-06-03T21:16:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue Jay"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252920123656",
+  "Storefront": {
+    "StoreName": "fashionshoeforless",
+    "StoreURL": "http://stores.ebay.com/id=19604567"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Your satisfaction is important to us. If you are not COMPLETELY SATISFIED with your order, simply return your purchase within 7 days of the original shipping date to receive a full refund LESS shipping fees",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529201236568080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

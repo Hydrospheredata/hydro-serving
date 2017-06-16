@@ -1,0 +1,138 @@
+{
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "South America",
+    "RU",
+    "GR",
+    "IT",
+    "MX"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.6"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "MAGUIRE Family Heraldic Coat of Arms Crest Pocket Watch Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-03-25T10:56:07.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjgwWDEwMjQ=/z/ld4AAOSw4CFY1kzK/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "IE",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mullingar Pewter",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Product"
+      },
+      {
+        "Value": "Maguire",
+        "Name": "Subject"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Ireland",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "QUARTZ",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Coat of Arms",
+        "Name": "Theme"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Roman Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "Lever",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Ireland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "emerald-isle-gifts-usa",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "19057",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321377209308080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T10:56:07.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.6"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Dublin 24, Ireland",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MAGUIRE Family Heraldic Coat of Arms Crest Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MAGUIRE-Family-Heraldic-Coat-Arms-Crest-Pocket-Watch-/132137720930",
+  "Storefront": {
+    "StoreName": "Emerald Isle Gifts",
+    "StoreURL": "http://stores.ebay.com/id=209969071"
+  },
+  "ItemID": "132137720930",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT16H6M31S"
+}

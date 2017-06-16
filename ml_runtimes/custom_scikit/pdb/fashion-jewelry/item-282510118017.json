@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT19H7M38S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Great conditions",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282510118017",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Noes-Ark-animal-sterling-silver-bracelet-/282510118017",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:57:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:57:13.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925 sterling silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "Noe's Ark animal sterling silver bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful vintage New 925 sterling silver Noa's Ark animal bracelet. It is about 7 inches long. all sales are finals. free organza gift bag.at a great reduced price.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825101180178080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.4",
+    "UserID": "karyjewel94",
+    "FeedbackScore": "233",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Riverside, California",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/l-4AAOSwVupTo0et/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/InkAAOSwBvNTo0ey/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/mQ4AAOSwVupTo0e6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/mYkAAOSwVupTo0fA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/j84AAOSwBadTo0fH/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "PostalCode": "92508"
+}

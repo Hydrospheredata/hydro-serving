@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.18",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:54:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=207281134",
+    "StoreName": "T-TOUCH GROUP"
+  },
+  "CurrentPrice": {
+    "value": "13.18",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:54:06.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B015WE0VN4",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "192203382381",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "PawPatrol",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PAW4016",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "PAW4016",
+        "Name": "MPN"
+      },
+      {
+        "Value": "030506388524",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Wrist Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0030506388524",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Nickelodeon Kids' PAW4016 Paw Patrol Digital Display Quartz Multi-Color Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nickelodeon-Kids-PAW4016-Paw-Patrol-Digital-Display-Quartz-Multi-Color-Watch-/192203382381",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922033823818080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H43M12S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/IbIAAOSwopRYf5xH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/45oAAOSw5cNYf5xJ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8poAAOSwnHZYf5xL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dugAAOSw2xRYf5xN/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Wrist Watches Nickelodeon Kids' PAW4016 Paw Patrol Digital Display Quartz Multi-Color Watch DESCRIPTION : UPC : 030506388524 EAN : 0030506388524 BRAND : PawPatrol MPN : PAW4016 MODEL : PAW4016 MANUFACTURER : Accutime Watch Corp. COLOR : ITEM WIDTH : 3.1 inch. ITEM WEIGHT : 0.05 lbs. ITEM LENGTH : 3.2 inch. ITEM HEIGH : 3.1 inch. PACKAGE WIDTH : 3.1 inch. PACKAGE WEIGHT : 0.25 lbs. PACKAGE LENGTH : 3.2 inch. PACKAGE HEIGHT : 3.1 inch. Terms of Sale Payment Details Return Policy Payment details : Payment method Preferred / Accepted Accepted Enjoy more time to pay Pay for your purchases when its right for you. Choose PayPal Credit to pay all at once or enjoy the flexibility of paying over time with special financing offers. For example, if your purchase qualifies, you could enjoy No Payments + No Interest if paid in full in 6 months on $99+. Interest will be charged on your account from the posting date (which is usually within a few days after the purchase date) if the purchase balance is not paid in full within the promotional period. Subject to credit approval.See terms- opens in a new window or tab Other offers may be available from time to time. The lender for PayPal Credit accounts is Comenity Capital Bank. Sellers payment instructions You must complete eBays secure checkout to pay for your purchase. If you are purchasing multiple items, you MUST pay for all your items at ONCE to receive the combined shipping discounts. Items not paid for within 7 days of purchase will be restocked resold. See the item description for complete payment details instructions. RETURN POLICY : All returns must have RMA number. Returns with no RMA number will be avoided! Changed your mind and dont want the item anymore? No Problem! You have 2 business days from receipt to inform us of the return and 5 days to ship it back to us. No restocking fee! Defective/Dead items will be fully refunded or replaced after matching the serial number with the one in our records. Non Defective items: must be new never used and unopened for a refund. Order/bid cancellation: We can cancel your order only if you contact us within 15 min after your purchase. No exceptions. Refunds for returns of non-defective items with FREE SHIPPING, will be LESS the sellers shipping expense. Customer Service Have an issue? Please contact us for assistance through eBays My Messages",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "820",
+    "UserID": "t-touch-store",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Not Description"
+  }
+}

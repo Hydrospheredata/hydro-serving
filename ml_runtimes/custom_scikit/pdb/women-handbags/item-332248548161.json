@@ -1,0 +1,108 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/hBYAAOSwImRYU-94/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/sD8AAOSwOtdYU--K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/YCUAAOSw-0xYU--Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/o2gAAOSwA3dYU--o/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/6fUAAOSw6DtYU--3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/pjgAAOSwA3dYU-~F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/XFAAAOSwux5YU-~P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MTI=/z/PcgAAOSw2xRYU-~i/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Dooney-Bourke-Black-Pebble-Leather-Crossbag-/332248548161",
+  "ConvertedCurrentPrice": {
+    "value": "188.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Pebble finish adjustable cross body strap, top zip closure, front zip metal logo plate. Lined interior two front wall slip pocket, back wall zip pocket, key keeper. Measures approximately 10-1/4\" x10-1/2\"H x 4\" D with a 23\" to 26\" strap drop; weighs approximately 1lb. 6oz. Body/trim 100% leather; lining 100% cotton Imported. Please check all information ask any questions \"make offers\" & Check my other Dooney Bags. ~Buyers are responsible for all RETURN SHIPPING FEES. ***Payment is expected within 48 hours of the end of the auction. I process fast usually 24-48 hrs. after received payment.***",
+  "Title": "New Dooney & Bourke Black Pebble Leather Crossbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "188.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Birmingham, Alabama",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "209",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "alicimoor10"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "35207",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:31:17.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H9M53S",
+  "EndTime": "2017-07-02T11:31:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Dooney & Bourke"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10-1/2\" H"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4\" D"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "10-1/4\" W"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "23\" to 26\" strap drop"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332248548161",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322485481618080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921383509208080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/xoUAAOSwax5Y1ELI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/JlgAAOSwdGFY1ELI/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Womens-Large-Cream-Floral-Print-Canvas-Beach-Bag-Set-Delivery-Free-/192138350920",
+  "ConvertedCurrentPrice": {
+    "value": "56.12",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Large fully lined cream canvas beach bag and a zip around purse in a multi colour floral print. The large canvas bag is fully lined and has an open and zipped wall pocket. Twin rope handles Solid base Size 43 x 32 x 13cm Perfect for carrying everything you need to the beach. The purse is a zip around style with space for at least 8 cards and 4 compartments Size 9 x 10 x 2cm What a bargain!",
+  "Title": "Ladies Women's Large Cream Floral Print Canvas Beach Bag Set. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "56.12",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-23T21:48:49.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P19DT5H26M38S",
+  "EndTime": "2017-06-21T21:48:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "F J Collection"
+      },
+      {
+        "Name": "MPN",
+        "Value": "267181610"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138350920",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139792437:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

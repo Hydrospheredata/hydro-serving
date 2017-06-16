@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "100.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Gorgeous USSR Molnija functional,RUNNING diameter without crown:49,62mm beautiful condition See Photo Details",
+  "StartTime": "2017-05-07T08:16:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY1WDEwMjQ=/z/D0EAAOSwll1W0gKl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/3OcAAOSwKtVW0gKw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDkzMw==/z/K0IAAOSwB4NW0gK-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY2WDEwMjQ=/z/LGgAAOSwB4NW0gLM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg3WDEwMjQ=/z/A5YAAOSwQYZW0gLZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk3WDEwMjQ=/z/FNsAAOSwll1W0gLm/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "SK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "RUSSIAN",
+        "Name": "Country Made"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "order-1939",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "305",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629717423638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T08:16:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "100.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Slovakia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gorgeous USSR Molnija",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gorgeous-USSR-Molnija-/262971742363",
+  "Storefront": {
+    "StoreName": "Collector11150",
+    "StoreURL": "http://stores.ebay.com/id=1219148338"
+  },
+  "ItemID": "262971742363",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT13H32M54S"
+}

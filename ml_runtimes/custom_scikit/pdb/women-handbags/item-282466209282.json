@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMyMFg5MjU=/z/-PcAAOSww9xZD3MJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/hcUAAOSwcgNZD3Mc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/2PoAAOSwjL5ZD3LI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/tloAAOSwuMZZD3LG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/GhYAAOSwR29ZD3Lf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/718AAOSww9xZD3Lc/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beach-dress-bag-/282466209282",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "A very nice beach standard dress accompanied with a beautiful handmade bag Track Page Views WithAuctiva's FREE Counter",
+  "Title": "Beach dress & bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "443",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "desertrosecraft"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10011",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T19:36:42.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P4DT1H46M57S",
+  "EndTime": "2017-06-06T19:36:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "\"Handmade\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Linen"
+      },
+      {
+        "Name": "Style",
+        "Value": "Summer/Beach Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Tunisia"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282466209282",
+  "Storefront": {
+    "StoreName": "desertrosecraft",
+    "StoreURL": "http://stores.ebay.com/id=1285994908"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824662092828080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

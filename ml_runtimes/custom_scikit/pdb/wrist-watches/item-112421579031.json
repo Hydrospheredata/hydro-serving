@@ -1,0 +1,127 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.5"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "HandlingTime": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nlIAAOSwZ4dZKY01/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fDQAAOSwxu5ZKY1B/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EPsAAOSw~FJZKY1K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zMwAAOSwPh5ZKY1S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3jIAAOSwAPVZKY1Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3nUAAOSwAPVZKY1g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6JoAAOSwYvFZKY1o/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "antiquerjim",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2540",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-27T14:39:34.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "h***c",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "88",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "Chinese",
+  "ConditionDescription": "Vintage used Tissot watch automatic running. Time set stem needs repair or service, pulls out.",
+  "Title": "Tissot  Seastar wristwatch PR516 GL automatic running, time set repair / service",
+  "ItemID": "112421579031",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tissot-Seastar-wristwatch-PR516-GL-automatic-running-time-set-repair-service-/112421579031",
+  "QuantitySold": "0",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Tissot Seastar PR 516 GL Automatic wrist watch. Automatic wind up works running while listing. Time set and stem needs service/ repair work, stem pulls out. Crystal is scratched. Vintage used Tissot watch as found. No wrist band, no original packaging. No reserve.",
+  "HitCount": "92",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "16.0"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mans",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Tissot  Seastar",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Automatic wrist watch",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Automatic movement",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "No band",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124215790318080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "3",
+  "EndTime": "2017-06-03T14:39:34.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.5"
+  },
+  "TimeLeft": "P2DT16H18M53S"
+}

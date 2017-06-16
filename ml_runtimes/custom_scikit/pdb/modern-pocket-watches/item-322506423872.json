@@ -1,0 +1,64 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "64157",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Two watches, one auction. Both are MajestiGold finish watch has date and dayBoth have Japan Quartz MovementBoth watches need batteries",
+  "StartTime": "2017-05-05T21:59:21.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/QzsAAOSwB-1Y4wfI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/R34AAOSwB-1Y4wfk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/E3gAAOSwTM5Y4wgq/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Majesti",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "craiga-743",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "38",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "42",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225064238728080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-04T21:59:21.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Majesti-Pocket-watch-2-watch-lot-/322506423872",
+  "Location": "Kansas City, Missouri",
+  "Title": "Majesti Pocket watch (2 watch lot)",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322506423872",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT3H15M28S"
+}

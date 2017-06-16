@@ -1,0 +1,275 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Los Angeles, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:50:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1321607683",
+    "StoreName": "ShoeWatch"
+  },
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:50:33.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "DZ",
+    "AO",
+    "CF",
+    "TD",
+    "LR",
+    "NG",
+    "RW",
+    "SL",
+    "SO",
+    "ZW",
+    "IQ",
+    "LB",
+    "YE"
+  ],
+  "ItemID": "172705632169",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "5M63-0AK0",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Seiko Kinetic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Quartz (Automatic) 5M63",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "41mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "20mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "2009388",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap Rubber",
+        "Name": "Band Type"
+      },
+      {
+        "Value": [
+          "Day Indicator (Spanish/ English)",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko Kinetic 10bar  5M63-0AK0  41mm Black  Divers strap Very Good",
+  "ConditionDescription": "Excellent Running  condition., beautiful  shiny silver-tone markers on jet-black backround. Large power reserve,  1 week or more, has a few scratches on its shiny mineral glass. Large looking 41mm watch w/ 20mm lugs  that are wearing a generic divers watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-Kinetic-10bar-5M63-0AK0-41mm-Black-Divers-strap-Very-Good-/172705632169",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727056321698080_2.jpg",
+  "HitCount": "13",
+  "PostalCode": "90065",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H28M43S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/V~kAAOSw-K9ZLqiU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/22YAAOSwxu5ZLqif/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/WOcAAOSwlY1ZLqio/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/LEMAAOSwH09ZLqiy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/gnkAAOSww5hZLp5O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lycAAOSw5cRZLqi8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/xF4AAOSw-3FZLp5U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/wNoAAOSw1WJZLqjJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/YJUAAOSwX9FZLqjV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/XbUAAOSw-K9ZLqjh/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "A Shiny Black beauty, this kinetic watch is very powerful , in that stays powered even after being laid down w/o any motion for a week or so. Very accurate technology that only Seiko has now, as it has not abandoned though costing it a lot to keep up. An amazing quartz automatic.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1541",
+    "UserID": "shoewatch",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Send back at  your expense, will refund purchase price. Only reasonable returns accepted such as don't like. Will not accept not as described, defective, damaged or dirty."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pearl City, Hawaii",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:53:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T07:53:26.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425691818",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Marc Ecko",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "normal wear but still in very great condition",
+  "NewBestOffer": "false",
+  "ReserveMet": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/marc-ecko-watch-/112425691818",
+  "Title": "marc ecko watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124256918188080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "96782",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT16H21M58S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg3MjU=/z/~IcAAOSwIQdZKm7g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5MVg4OTM=/z/CKMAAOSw-K9ZKm7y/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Marc ecko watch, in very great condition",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "14",
+    "UserID": "elsworth8081372",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

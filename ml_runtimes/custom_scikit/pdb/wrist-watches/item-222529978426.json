@@ -1,0 +1,86 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "92.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bonita, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:26:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "92.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:26:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222529978426",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Polyurethane",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Freestyle",
+        "Name": "Brand"
+      },
+      {
+        "Value": "10022920",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Freestyle Mariner Tide Watch - Navy / Yellow - New",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Freestyle-Mariner-Tide-Watch-Navy-Yellow-New-/222529978426",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225299784268080_5.jpg",
+  "HitCount": "7",
+  "PostalCode": "91908",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H53M54S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/Njg5WDY4Nw==/z/7eMAAOSw0hlZLuCd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI4NFg5NDA=/z/JAEAAOSwGJlZLm9m/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQxOFgxMDU2/z/Cd0AAOSwcB5ZLm-H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU4OFgxMDUz/z/6xsAAOSwEHpZLm9x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTExNFg4NDU=/z/kaoAAOSwsXFZLm97/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE4OVg4MjI=/z/odgAAOSws5pZLm-R/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM5MVg5NTI=/z/JyIAAOSwGJlZLm-i/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Description Product description Time / Dual Time Tide features for 150 beaches worldwide: \u00e2\u20ac\u00a2 Tide direction. \u00e2\u20ac\u00a2 Sunrise and sunset times. \u00e2\u20ac\u00a2 Tide time and height. Countdown Timer with Unique Beep Signals. Repeat and Count-Up Timer. Alarm Nightvision Backlight Durable Silicone Strap Hydro Pushers 100 Meters Water Resistant. The Freestyle Story Twenty-eight years ago, a couple of surfers turned a simple observation into a cultural icon. Nowhere could they find a watch that would withstand the abusive conditions of their lifestyle, and the damaging effect of salt water and sand. Necessity being the mother of invention, Freestyle was born. Freestyle has since evolved into a diverse collection of watches ranging from the iconic Shark watch to athlete-designed signature time pieces. History Freestyle was the first surf watch brand in the US. Since 1981, Freestyle has been making durable, dependable, stylish watches all built to withstand the abuses of the high-intensity, rider lifestyle, both in and out of the water. It is an authentic, credible action sports brand with roots in surf and founded on performance, providing stylish performance timepieces with enduring quality and durability, while maintaining competitive, affordable pricing. Freestyle Watches Feature: A minimum of 100 Meters Water-Resistance Durable, water-resistant polyurethane or nylon straps, or solid stainless-steel bracelets NightVision Display on all Digital-models Luminous hands and/or markers on all Analog-models Smart design features A wide range of technologies, ranging from analogs to more advanced, such as digitals, with lap-memory, Tide, Compass, and Altimeter modules From the Manufacturer This custom freestyle tide trainer watch features: a Japanese quartz digital tide movement, providing a valuable asset to the boating/sailing/fishing/diving communicates worldwide with: customizable alarms, sunrise / sunset and tide information for 150 beaches worldwide, dual time, countdown timer/stopwatch, standard digital functions and backlight, polycarbonate case with hyrdro-pushers (able to be pushed under-water), comfortable and durable canvas synthetic strap, durable hardened mineral crystal protects watch from scratches, water-resistant to 330 feet (100 m), and all with a limited lifetime warranty.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "pact_2716",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

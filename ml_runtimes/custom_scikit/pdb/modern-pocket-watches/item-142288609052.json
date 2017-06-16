@@ -1,0 +1,300 @@
+{
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "AF",
+    "AZ",
+    "BD",
+    "CN",
+    "GE",
+    "KZ",
+    "MV",
+    "MN",
+    "NP",
+    "TM",
+    "AS",
+    "CK",
+    "FJ",
+    "GU",
+    "KI",
+    "MH",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "IS",
+    "IE",
+    "LI",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "CH",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "ZA",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "SA",
+    "YE",
+    "PO Box"
+  ],
+  "QuantitySold": "5",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.45"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "access-market",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "191138",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-02-22T17:16:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/AZUAAOSwWxNYrceS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/SBEAAOSwtfhYrceP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/SDgAAOSw~AVYrceQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/R90AAOSw~AVYrceO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/ypIAAOSw4CFYrceP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/YTkAAOSwTuJYrceQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/nP8AAOSw4A5YrceQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/nmcAAOSwCU1YrceT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/nY0AAOSw4A5YrceU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/LqgAAOSwdGFYrceb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/pDUAAOSw3v5YrceU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/IZwAAOSwr~lYrceX/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "HighBidder": {
+    "UserID": "e***d",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "384",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "25",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "SKU": "P0017505",
+  "HitCount": "171",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.45"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "AU"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept return for the damaged/faulty products for refund/replacing if there is no man-made damage after the buyers received the items. Buyer must contact us for the problem via eBay message or email us and follow our working steps to provide all the information we need in 7 working days after receiving. We will provide corresponding resolution once we confirm the item problems. If buyers merely feel unhappy, the product is not what they expected, or buyers have simply changed their minds. Customers must contact us and let us know the reason for returning in 7 working days after the parcel arrived. Please make sure the item is in new condition and in the original package before returning, also, all the accessories and instruction must be included in the parcel. We will provide the correct returning address after that. Thank you.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-22T17:16:12.000Z",
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Arabic numerals",
+          "Roman numerals"
+        ],
+        "Name": "Style"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Style",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Roman numerals",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/a8/8f/f1/a88ff12d-4e16-41d2-b305-b6f06571b216/heads/072f614b-8604-4a51-9de0-d7190023a540.jpg"
+        },
+        {
+          "VariationSpecificValue": "Arabic numerals",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/87/a8/57/87a85769-7d8b-4413-96af-158e6dedb620/heads/527335e6-b759-4274-9fc6-55ba5b4b12ef.jpg"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.45"
+        },
+        "SKU": "0186543",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Arabic numerals",
+            "Name": "Style"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.45"
+        },
+        "SKU": "0186544",
+        "SellingStatus": {
+          "QuantitySold": "5",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Roman numerals",
+            "Name": "Style"
+          }
+        },
+        "Quantity": "15"
+      }
+    ]
+  },
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Arabic Numerals Glass Ball Quartz Pocket Watch Necklace Pendant Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Arabic-Numerals-Glass-Ball-Quartz-Pocket-Watch-Necklace-Pendant-Chain-/142288609052?var=",
+  "Storefront": {
+    "StoreName": "Access-Market-USA",
+    "StoreURL": "http://stores.ebay.com/id=1007934276"
+  },
+  "ItemID": "142288609052",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT22H22M6S"
+}

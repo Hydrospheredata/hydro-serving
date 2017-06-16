@@ -1,0 +1,99 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "9***a",
+    "FeedbackScore": "10"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/kHsAAOSwXeJYCrpB/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nicole-Lee-Fanny-Pack-SUN-Sunny-One-Size-/222289453322",
+  "ConvertedCurrentPrice": {
+    "value": "51.43",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Nicole lee wanda denim sunny print fanny pack is perfect for every season. Exterior features: made of denim, nicole lee prints at front, front zipper pocket, faux leather detail, gold-tone hardware, metal zipper pull with nl logo monogrammed, faux leather belt strap, and nicole lee signature nameplate on front. Interior features: zip wall pocket with nl nameplate at back, middle center divider, double open wall pockets at front and polka dots print with nl logo satin lining. Adjustable 28 - 40 inch belt strap. Color available is sunny. For cleaning, wipe with damp cloth - Adjustable 28 - 40 inch belt strap - Middle center divider - Double open wall pockets - Zipper closure Nicole Lee Fanny Pack SUN, Sunny, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.43",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "17714",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "avalonteam"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Nicole Lee Fanny Pack SUN, Sunny, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2016-10-22T01:00:46.000Z",
+  "HitCount": "167",
+  "TimeLeft": "P16DT7H55M9S",
+  "EndTime": "2017-06-19T01:00:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "847161068902"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Nicole Lee"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0847161068902"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222289453322",
+  "Storefront": {
+    "StoreName": "avalonteam",
+    "StoreURL": "http://stores.ebay.com/id=1343696448"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2222894533228080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

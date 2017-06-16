@@ -1,0 +1,111 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT23H32M14S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535708397",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pure-925-Sterling-Silver-Emerald-Quartz-Gemstone-Ring-All-Sizes-15-ri1986-/222535708397",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:40:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T12:40:58.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Emerald",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "10",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Solid Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Pure 925 Sterling Silver Emerald Quartz Gemstone Ring All Sizes 15-ri1986",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225357083978080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "ravishingimpression",
+    "FeedbackScore": "2692",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "ravishingimpression",
+    "StoreURL": "http://stores.ebay.com/id=1135639467"
+  },
+  "Quantity": "1",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/F1cAAOSwMmBVsNf5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/p3UAAOSw~gRVsNgA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MfEAAOSwHnFVsNgF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc3WDU3MA==/z/MmUAAOSwHnFVsNgI/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "302015"
+}

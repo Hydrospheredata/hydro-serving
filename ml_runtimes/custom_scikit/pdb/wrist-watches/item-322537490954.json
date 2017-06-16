@@ -1,0 +1,98 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225374909548080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T13:17:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:17:07.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "\u2022Imported\u2022Rose gold-tone watch in stainless steel with coin-edge bezel and round dial featuring Roman numeral hour markers\u2022Japanese quartz movement with analog display\u2022Eco-drive is fueled by light and never needs a battery\u2022Features protective mineral crystal dial window, fold-over clasp closure, date window, luminous dial features, and chronograph subdials\u2022Water resistant to 99 feet (30 M): withstands rain and splashes of water, but not showering or submersion Selling for $249 on Amazon.com",
+  "BuyItNowPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537490954",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen Eco-Drive",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Citizen Eco-Drive",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Citizen Eco-Drive AML 4.0 Chronograph Ladies Watch FB1363-56Q",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Eco-Drive-AML-4-0-Chronograph-Ladies-Watch-FB1363-56Q-/322537490954",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "1",
+  "PostalCode": "08048",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Lumberton, New Jersey",
+  "TimeLeft": "P6DT22H4M10S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk1WDM4Ng==/z/a5UAAOSwjL5ZHDmX/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg5WDUwMA==/z/-scAAOSwZ4dZHDmb/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "358",
+    "UserID": "etrading",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

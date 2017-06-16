@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-1.fishpond.co.nz/0131/205/661/290402408/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0131/205/661/290402409/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0131/205/661/290402410/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0131/205/661/290402411/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0131/205/661/290402412/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0131/205/661/290402413/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/George-Gina-Lucy-Womens-Shoulder-Bag-Huge-Saving-/192137809090",
+  "ConvertedCurrentPrice": {
+    "value": "128.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "George Gina & Lucy Women's Shoulder Bag by George Gina & Lucy Ships from UK Supplier Other information: gw1620car-99 Related Searches: George Gina And Lucy Hobo, Shoulder Bag Bags, George Gina And Lucy Bags Dimensions: 15.0 x 11.5 x 2.5 centimetres Weight: 0.18 kg",
+  "Title": "George Gina & Lucy Women's Shoulder Bag. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "128.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-23T08:11:22.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P18DT15H48M40S",
+  "EndTime": "2017-06-21T08:11:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "George Gina & Lucy"
+      },
+      {
+        "Name": "MPN",
+        "Value": "182043605"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137809090",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:131205661:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

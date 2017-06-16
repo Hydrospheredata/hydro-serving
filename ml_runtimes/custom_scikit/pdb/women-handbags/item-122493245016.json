@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1224932450168080_1.jpg",
+  "PictureURL": [
+    "https://images-na.ssl-images-amazon.com/images/I/416pm7wuDCL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51NNqKRQzrL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/410IITERURL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51cbCvJmvJL"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCKC-96305C-McKleinUSA-MAYFAIR-96305C-Black-Ladies-Laptop-Case-/122493245016",
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKleinUSA MAYFAIR 96305C Black Ladies Laptop Case Padded laptop compartment with high-density foam that fits most laptops up to 15.4-Inch in screen size.*Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices.*Additional front and back pocket for files.*Front zipper pocket.*Leather shoulder straps. Front zipper pocket. Front pocket for files. Back pocket for accessories. Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices. Padded laptop compartment with high-density foam that fits most laptops up to 15.4-Inch in screen size. Leather shoulder straps. Color : Black Size : 17\"x5\"x12.75\" Features :Padded laptop compartment with high-density foam that fits most laptops up to 15.4-Inch in screen size.Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices.Additional front and back pocket for files.Front zipper pocket.Leather shoulder straps.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "1533",
+    "PositiveFeedbackPercent": "96.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "virventurein"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCKC-96305C-McKleinUSA MAYFAIR  96305C Black Ladies Laptop Case",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-05-12T19:24:42.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P9DT4H20M33S",
+  "EndTime": "2017-06-11T19:24:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Model",
+        "Value": "96305"
+      },
+      {
+        "Name": "MPN",
+        "Value": "96305"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKleinUSA"
+      },
+      {
+        "Name": "Weight",
+        "Value": "4"
+      },
+      {
+        "Name": "UPC",
+        "Value": "642154963055"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122493245016",
+  "Storefront": {
+    "StoreName": "virventurein",
+    "StoreURL": "http://stores.ebay.com/id=1409776454"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "MCKC-96305C",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "true"
+}

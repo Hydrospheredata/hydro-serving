@@ -1,0 +1,167 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "107.85"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Tourbillon / Moon Phase / 24H Copper Case with Cover Double solid cover Watch Face Diameter: About 48mm Case Thickness: About 16 mm Case Material: Copper Chain Material: Alloy Chain Length(choose one): Mens necklace 360mm Women necklace 640mm OGLE provide Ladys necklace, if you Need Ladys necklace, please remark when payment?default send mens necklace. Package Content: 1 X Pocket Watch 1 X Original Gift Box 1 X User Book 1 X Free Chain Reminder: Specification (1 cm=10 mm=0.394 inch) (approximate) - Copper Case with Cover - Double cover - Tourbillon/Moon Phase/24H - 3D Digital Dial - Lady necklace optional OGLE Vintage Copper Double Cover Tourbillon Phases Moon Pendant Necklace Chain",
+  "StartTime": "2017-05-25T14:20:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3koAAOSw1WJZJuhB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MM8AAOSwDiBZJuhB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gGwAAOSwlMFZJuhB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5EgAAOSws5pZJuhB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/io8AAOSwfRdZJuhB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "OGLE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "OQZD-032-5930SKXC-SX-GW",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.55 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.89 x W 4.61 x H 2.72 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625286501688080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:20:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "107.85"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "OGLE Vintage Copper Double Cover Tourbillon Phases Moon Pendant Necklace Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OGLE-Vintage-Copper-Double-Cover-Tourbillon-Phases-Moon-Pendant-Necklace-Chain-/162528650168",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528650168",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT19H44M1S"
+}

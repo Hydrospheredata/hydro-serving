@@ -1,0 +1,78 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "5.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "SE",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630130523898080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:52:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "BuyItNowAvailable": "true",
+  "EndTime": "2017-06-10T14:52:28.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "Poljot de luxe 29 Jewels automatic watch dial sparepart made in USSRVintage condition, signs uf use, missing dial feet, needs service. For restoration or for use in a project, 29,30 mm wide Happy bidding!",
+  "BuyItNowPrice": {
+    "value": "5.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263013052389",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Poljot de luxe 29 Jewels automatic watch dial",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Poljot de luxe 29 Jewels automatic watch dial sparepart made in USSR vintage",
+  "ConditionDescription": "Vintage watch dial with signs of use, missing dial feet, needs service",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Poljot-luxe-29-Jewels-automatic-watch-dial-sparepart-made-USSR-vintage-/263013052389",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "Location": "Solna, Stockholm",
+  "TimeLeft": "P9DT23H47M4S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/qj8AAOSwWxNYpw61/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/pgoAAOSw4CFYpw6v/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/LO0AAOSwCU1Ypw69/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/9F4AAOSwx6pYpw6-/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "165",
+    "UserID": "excelllenttraderandbuyer",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

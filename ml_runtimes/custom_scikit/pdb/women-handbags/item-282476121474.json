@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P9DT21H53M26S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "used once",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMTU2/z/VmoAAOSwjL5ZFwdJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/Hz4AAOSwKytZF7Bn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDM5/z/ouIAAOSw8HBZF7B0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/0JgAAOSwY3BZF7CC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N2AAAOSww9xZF7CQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/bc0AAOSwR29ZF7Cs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQx/z/ZiYAAOSwrhBZF7C5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/57wAAOSw9OFZF7DB/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BETSEY-JOHNSON-DIAPER-BAG-/282476121474",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "It's practically brand new. I used it once. It comes with changing pad.",
+  "Title": "BETSEY JOHNSON DIAPER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Roma, Texas",
+  "Seller": {
+    "FeedbackScore": "116",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bety0927"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78584",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T13:18:53.000Z",
+  "HitCount": "119",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-12T13:18:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Type",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282476121474",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824761214748080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

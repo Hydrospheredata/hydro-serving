@@ -1,0 +1,124 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922025546958080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-30T19:47:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-06T19:47:49.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Ladies Bulova Quartz Gold Watch Bracelet style band with invisible clasp closure. Comes with extra links to be sized, Comes in original hard shell box seen in photos.",
+  "BuyItNowPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192202554695",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Bulova Quartz Watch (Style Number 92H39-OY)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Bulova-Quartz-Watch-Style-Number-92H39-OY-/192202554695",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "6",
+  "PostalCode": "89117",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Las Vegas, Nevada",
+  "TimeLeft": "P6DT4H16M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/o7YAAOSwn-tZLcwL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5OAAAOSwJH1ZLcsy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jq8AAOSwi7RZLcsx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IPgAAOSwPh5ZLcsw/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "makithapn5_1",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

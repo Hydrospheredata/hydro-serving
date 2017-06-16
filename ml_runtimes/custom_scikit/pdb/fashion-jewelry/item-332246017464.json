@@ -1,0 +1,151 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT4H32M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "42.67",
+    "_currencyID": "USD"
+  },
+  "ItemID": "332246017464",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14k-Solid-Yellow-Gold-3mm-Toe-Ring-Plain-Adjustable-Band-0-54-grams-/332246017464",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.67",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T18:09:41.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-30T18:09:41.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Toe",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14k Solid Yellow Gold 3mm Toe Ring Plain Adjustable Band  0.54 grams",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Average Weight: 0.54 GMCountry of Origin: UNITED STATESMetal: 14k Yellow GoldProduct Type:JewelryJewelry Type:RingsRing Type:ToeMaterial: Primary:GoldMaterial: Primary - Color:YellowMaterial: Primary - Purity:14KWidth of Item:3 mmFeature:SolidManufacturing Process:Casted",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322460174648080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "thompsons1924",
+    "FeedbackScore": "394",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "thompsons1924",
+    "StoreURL": "http://stores.ebay.com/id=433202706"
+  },
+  "Quantity": "10",
+  "Location": "Arkansas",
+  "HitCount": "21",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjU0WDY1NA==/z/TlkAAOSwPh5ZLwOQ/$_57.PNG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

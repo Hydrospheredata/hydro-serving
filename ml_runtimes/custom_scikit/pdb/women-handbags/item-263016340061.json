@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjM5WDczMA==/z/QzsAAOSwBt5ZMTPC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzAxWDc1MA==/z/GlgAAOSwZKBZMTKJ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE1WDUyNA==/z/a8kAAOSwYvFZMTKJ/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-KORS-claire-suede-sandal-red-size-10-/263016340061",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "GORGEOUS red Michael Kors heels. Brand new/mint condition without box. Size 10 Retail $150 4.5\" heel",
+  "ConvertedBuyItNowPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Dublin, California",
+  "Seller": {
+    "FeedbackScore": "31",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "califashionistagirl"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "94568",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:00:01.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P6DT21H46M50S",
+  "EndTime": "2017-06-09T12:00:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Suede"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "heels"
+      },
+      {
+        "Name": "Size",
+        "Value": "10"
+      },
+      {
+        "Name": "Closure",
+        "Value": "strap"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263016340061",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Title": "MICHAEL KORS claire suede sandal in red size 10",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630163400618080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

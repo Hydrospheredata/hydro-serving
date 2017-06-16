@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Abbottstown, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:34:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1681128",
+    "StoreName": "bratsbears"
+  },
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:34:49.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502444317",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Coach",
+        "Name": "Brand"
+      },
+      {
+        "Value": "124502625",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "16mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "99 feet",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "885997200509",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "COACH Scout Gold-Tone Bangle Bracelet Watch 14502625 NWT $295",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Scout-Gold-Tone-Bangle-Bracelet-Watch-14502625-NWT-295-/282502444317",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825024443178080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "17301",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H27M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/xQgAAOSwhQhY3Urd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/KykAAOSww3tY3Urh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/TrIAAOSwCU1Y3Url/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/HnoAAOSwuLZY3Urp/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Scout Gold-Tone Bangle Bracelet WatchStyle # 14502625 Product DetailsA bangle etched with the iconic Coach signature pattern complements the clean, modern dial of the new Scout watch: a textured cuff that wears like jewelry and keeps flawless time. Stack it with an armful of bracelets for a luxe look.Round. Gold tone case. 16mmEtched signature C hinge bangleGold sunray dialSnap closureQuartz movementMineral CrystalWater resistant to 99 feet",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "15955",
+    "UserID": "brat3",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

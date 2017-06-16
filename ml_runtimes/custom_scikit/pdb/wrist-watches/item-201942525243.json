@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2380.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Meguro, Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:22:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2380.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:22:25.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BALL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942525243",
+  "HandlingTime": "3",
+  "Description": "\u201cEngineer Master II Skindiver II\u201d is the second redesigned model that takes its inspiration from the retro divers in the 60\u2019s. The outstanding difference between the first and the second model is the diameter of the case. While the first model was 40.3 mm, this model maintains the original size \u2013 43 mm. The designs of the index and anti-reverse turn bezel also have been upgraded. [Specifications] Face: Sapphire Glass Display Type: Analog Case Material: Stainless Case Diameter/Length: 43 mm Case Width: 14 mm Band Material: Stainless/Bracelet Band Color: Silver Index Color: Black Calendar: Date Display Other function: Night-time illumination. Weight: 200g Movement: Swiss Automatic Winding Water Resistance: Up to 500 m 1 year warranty by Time Japan. Ship from Japan by japan Post EMS, and it will take 4-7 days for you to receive it.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ball-Engineer-Master-II-Skindiver-II-Watch-COSC-Date-Black-Dial-DM3108A-SCJ-BK-/201942525243",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019425252438080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H9M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/eNcAAOSw~FJZJVkf/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/lW4AAOSwDiBZJVkg/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ougAAOSwlY1ZJVki/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ih0AAOSwhvFZJVkk/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/yLEAAOSwIQdZJVkm/$_1.GIF?set_id=8800005007"
+  ],
+  "Title": "Ball Engineer Master II Skindiver II Watch COSC Date Black Dial DM3108A-SCJ-BK",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "time_japan",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We receive returns if items are in the same condition as received and include all documentation, packaging and any other addition originally shipped."
+  }
+}

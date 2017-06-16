@@ -1,0 +1,189 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT5H25M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "JP",
+    "BE",
+    "FR",
+    "NZ",
+    "BR"
+  ],
+  "CurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "152570979625",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-SALE-AMY-KAHN-RUSSELL-PALE-YELLOW-BEIGE-JASPER-STERLING-CLIP-POST-EARRINGS-/152570979625",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T20:13:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-02T20:13:51.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Amy Kahn Russell",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "pale yellow, multi",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Jasper",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NEW SALE- AMY KAHN RUSSELL PALE YELLOW BEIGE JASPER STERLING CLIP/POST EARRINGS",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "RU",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "UA",
+    "VA",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525709796258080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bestom742",
+    "FeedbackScore": "649",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Bess Heitner Handmade Jewelry Salon",
+    "StoreURL": "http://stores.ebay.com/id=159728212"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxNFgxNjAw/z/nvkAAOSw241YX95s/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10010"
+}

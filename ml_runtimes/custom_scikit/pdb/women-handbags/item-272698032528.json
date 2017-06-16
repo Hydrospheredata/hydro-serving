@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgzWDQzOA==/z/LywAAOSwhQhY6-xV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTc4WDQzMQ==/z/zRgAAOSwmgJY6-xg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTc0WDQzMg==/z/ttkAAOSw~CFY6-xq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTY0WDQzMg==/z/ZPcAAOSwpkFY6-x3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTc5WDQzMQ==/z/TmcAAOSwTM5Y6-yB/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-TORY-BURCH-Medium-Amanda-Backpack-New-Carnival-/272698032528",
+  "ConvertedCurrentPrice": {
+    "value": "329.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "*100% Authentic guaranteed *color: new carnival *size:Approx. 12\" x 14\" x 5\" *Approx 3 1/2\" handle drop, adjustable straps 33\" straps *leather medium amanda backpack *a fold-over flap with a magnetic snap and drawstring closure *top handle *adjustable shoulder straps *two exterior zipped pockets *an interior zip pocket and two open pockets *reg $475",
+  "Title": "NWT! TORY BURCH Medium Amanda Backpack, New Carnival",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "329.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "FeedbackScore": "273",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "otegoro"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60605",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T04:42:52.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT14H9M36S",
+  "EndTime": "2017-07-02T04:42:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Color",
+        "Value": "New carnival"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "887712650354"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272698032528",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726980325288080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

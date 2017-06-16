@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P7DT18H27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.3",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162539809616",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SWAROVSKI-Black-Silver-Crystal-Shambhala-Bracelet-NEW-160-Retail-/162539809616",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.3",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T08:48:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-13T08:48:05.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swarovski",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "semi-precious",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "mixed metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Various",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SWAROVSKI Black & Silver Crystal Shambhala Bracelet NEW! $160 Retail",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Up for Auction: This trendy bracelet features a black waxed cotton cord twisted gray crystal pearls and silver-plated metal elements. Adorned with crystal pav\u00e9, the central motif is inspired by a frog button. A special knotting mechanism allows you to adjust the bracelet for a perfect fit. Fully Adjustable will fit most wrists. Authentic and NEW with Tags 160.00 Retail Fast & Free USA Shipping International Buyers are Welcome. We Ship Priority with Tracking.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625398096168080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "watchguyz",
+    "FeedbackScore": "6585",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Watchguyz",
+    "StoreURL": "http://stores.ebay.com/id=98617112"
+  },
+  "Quantity": "3",
+  "Location": "Saint Joseph, Minnesota",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDU5Mg==/z/dp8AAOSwEetV8vli/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQyWDYwNQ==/z/MKQAAOSw4SlV8vlh/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUyMQ==/z/gWUAAOSw9r1V8vlj/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "56374"
+}

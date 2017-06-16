@@ -1,0 +1,73 @@
+{
+  "QuantitySold": "0",
+  "Title": "Doraemon Watch NWOT",
+  "PostalCode": "48104",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "I bought it and removed all the packaging. I've tried it on a few times but never wore it for more than 10 minutes. It needs a new battery. Otherwise, it's in excellent condition. I'm going to move, therefore I'm selling this cheap. Serious buyers only and no low ballers please! Please let me know if you have any questions before buying. Thanks and have a wonderful day.",
+  "StartTime": "2017-05-26T17:55:43.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/et0AAOSwmCVZAN2A/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "microbiome2014",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "31",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525621326778080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-25T17:55:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Doraemon-Watch-NWOT-/152562132677",
+  "ConditionDescription": "Only tried it on for a few times. Never wore for more than 10 minutes. Like new.",
+  "Location": "Ann Arbor, Michigan",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152562132677",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT23H19M46S"
+}

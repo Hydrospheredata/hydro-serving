@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT6H53M5S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent Condition",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "499.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232359228356",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTH-CHANEL-VINTAGE-COLOR-STONE-WOMEN-PIN-BROOCH-GOLD-BLUE-RED-GREEN-PEARL-WHITE-/232359228356",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "499.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T19:55:34.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-03T19:55:34.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chanel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Green, Red, Blue, Orange",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "AUTH CHANEL VINTAGE COLOR STONE WOMEN PIN BROOCH GOLD BLUE RED GREEN PEARL WHITE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Authentic Vintage Chanel Brooch 23, Made in France. Pearl center, Green, Blue, Orange, and Red Stones 2 each, 8 stones total not including Pearl center.Please ask question, or email me for additional pictures.No Returns accepted. Please check out my other items.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323592283568080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mauibaby0707",
+    "FeedbackScore": "309",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Hackettstown, New Jersey",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/CYYAAOSwPgxVPOTn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/DscAAOSwcwhVPORU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/syQAAOSwqu9VPOQi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/IzoAAOSwPhdVPOSD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/KzsAAOSwpDdVPOSp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/VbQAAOSwv0tVPOTH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/KWsAAOSwcwhVPOUI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/DcAAAOSweW5VPOUn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/PywAAOSwpDdVPOVQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/bH0AAOSwv0tVPOV7/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "07840"
+}

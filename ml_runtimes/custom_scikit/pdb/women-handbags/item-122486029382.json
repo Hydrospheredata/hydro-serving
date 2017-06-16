@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/S5UAAOSwImRYWVe3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/HYgAAOSwo4pYWVey/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/wvcAAOSwUsJYWVex/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/QysAAOSwEzxYWVe0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/UVkAAOSwa~BYWVe1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/YgkAAOSw5cNYWVe4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/9qkAAOSw6DtYWVe6/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Saffiano-Leather-Tablet-Case-Sleeve-NWT-Gift-Box-MSRP-148-/122486029382",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "100% Authentic MRSP: 148 + tax Michael Kors Tablet Sleeve Brand NEW wrapped in gift box! Color: Brown/Orange Material: Saffiano Leather Dimensions: 10\" X 8\" Doesn't come with the box, but includes a little torn dust bag.",
+  "Title": "Michael Kors Saffiano Leather Tablet Case Sleeve NWT Gift Box MSRP $148",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Roseville, California",
+  "Seller": {
+    "FeedbackScore": "121",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "pjruan"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "95661",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-08T22:39:01.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P5DT7H33M43S",
+  "EndTime": "2017-06-07T22:39:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tablet Case Sleeve"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown/Orange  (See photo)"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122486029382",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224860293828080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

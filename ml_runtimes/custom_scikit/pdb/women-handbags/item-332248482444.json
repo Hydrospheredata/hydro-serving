@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P29DT20H4M59S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "As new, only worn acouple of times",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/juIAAOSw~y9ZCaXp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4IoAAOSwjL5ZCaXe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sE0AAOSw-3FZCaXT/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bag-animal-print-genuine-patent-leather-/332248482444",
+  "ConvertedCurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Genuine leather bag Animal print, excellent condition",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, default",
+  "Seller": {
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "mister197019"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Bag animal print genuine patent leather",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:30:18.000Z",
+  "HitCount": "3",
+  "ConditionID": "3000",
+  "EndTime": "2017-07-02T10:30:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Unbranded"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bucket Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Genuine leather"
+      },
+      {
+        "Name": "Closure",
+        "Value": [
+          "Magnetic Snap",
+          "Zip"
+        ]
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332248482444",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "RU",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322484824448080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

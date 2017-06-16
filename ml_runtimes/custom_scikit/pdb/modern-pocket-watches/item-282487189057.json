@@ -1,0 +1,77 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "l1t4h2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "juniorbar04",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "273",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Eaglestar Skeleton pocket watch case fit Swiss made Skeleton Unitas 6497-98 movement or far east made copie,Roman engraved number on front bezel, 5 Micron18Kt gold plate,Swiss made in very good condition This case is made to be used without dial to show the movement front and back,Dial numbers are engraved on front bezels,case made from 3 parts ,center,front and back,",
+  "StartTime": "2017-05-21T00:20:11.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk2WDc2OA==/z/xJEAAOSw-K9ZINzv/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "Canada",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "92.82"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Eaglestar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "watch parts",
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824871890578080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T00:20:11.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "125.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Eaglestar-Skeleton-pocket-watch-case-UT-6497-6498-/282487189057",
+  "Location": "Ajax, Ontario",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Eaglestar Skeleton pocket watch case for UT-6497-6498",
+  "Storefront": {
+    "StoreName": "juniorbar04",
+    "StoreURL": "http://stores.ebay.com/id=1175926335"
+  },
+  "ItemID": "282487189057",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT5H41M29S"
+}

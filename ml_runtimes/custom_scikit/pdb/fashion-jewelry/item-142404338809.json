@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P1DT20H40M13S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "PRISTINE CONDITION",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142404338809",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T09:36:17.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-PIN-BLACK-GOLD-TONE-/142404338809",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T09:36:17.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "GoldTone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Cabochons",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY..PIN..BLACK/GOLD TONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "GORGEOUS ST JOHN PIN....PIN IS 1 3/4\" ROUND...SHINY GOLD TONE...THE BROACH IS ENGRAVED ST JOHN TOP AND BOTTOM...THERE ARE BLACK CABOCHONS AT EACH SIDE OF THE FRONT BAR WITH THREE ROWS OF FINE ROPE DETAIL ...SECURE PIN CLOSURE... WILL BE MAILED VIA USPS PRIORITY MAIL WITH REQUIRED SIGNATURE AND TRACKING NUMBER FOR SECURE DELIVERY.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424043388098080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/BZQAAOSwU-pXvRCT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/kIAAAOSwawpXvRCX/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "33154"
+}

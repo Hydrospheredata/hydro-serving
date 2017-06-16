@@ -1,0 +1,98 @@
+{
+  "ExcludeShipToLocation": [
+    "Middle East",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "TH",
+    "VN"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "32968",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": ". Free shipping to all U. S. Buyers and all APO's and FPO's International buyers shipping will be $15. Items valued over $50 will require Priority Mail at a charge of $25.00. Refunds for Authenticity ONLY - View Photos closely as this is exactly what you will receive!!!",
+  "StartTime": "2017-05-30T23:51:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/LQwAAOSwrhBZBmq~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/eEoAAOSwCQZZBmrF/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "forvm",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6760",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423996449008080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T23:51:13.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Any returns, must be in their original holder and must match the photos which I keep on file.  NO RETURNS WITHOUT PRIOR APPROVAL.  SHIPPING AND INSURANCE FEES WILL NOT BE RETURNED.  VIEW PHOTOS CAREFULLY AS WHAT YOU SEE IS EXACTLY WHAT YOU WILL RECEIVE.  IF YOU  ARE 'NO LONGER A REGISTERED USER ON EBAY' I WILL NOT ACCEPT A RETURN FOR ANY REASON.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Roemer-Pocket-Watch-Runs-great-Keep-Good-Time-/142399644900",
+  "Location": "Vero Beach, Florida",
+  "Title": "Roemer Pocket Watch - Runs great - Keep Good Time",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142399644900",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT5H17M40S"
+}

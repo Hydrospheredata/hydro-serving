@@ -1,0 +1,286 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "70.5",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "141069547",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Denton, Texas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:31:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=80404725",
+    "StoreName": "JDC Auctions"
+  },
+  "CurrentPrice": {
+    "value": "70.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:31:49.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "MK",
+    "MD",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "IQ",
+    "LB",
+    "TR",
+    "SA",
+    "YE"
+  ],
+  "ItemID": "302334450406",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "200 Metres / 20 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Invicta Speedway",
+        "Name": "Model"
+      },
+      {
+        "Value": "9211",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Japanese Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "39.5mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "843836092111",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Invicta  Speedway 9211 Wrist Watch for Men BNIB",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Invicta-Speedway-9211-Wrist-Watch-Men-BNIB-/302334450406",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023344504068080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "76208",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H23M46S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/YAsAAOSwnHZYj1vK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDE2/z/6bAAAOSwLEtYj1vf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/KYoAAOSwA3dYj1vi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDcx/z/oTQAAOSwjDZYj1vn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTg=/z/QBsAAOSwo4pYj1vq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/QpgAAOSw7U5ZAKwo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/assAAOSw4DJYj1xz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/lIUAAOSw5UZZAKxP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/9CUAAOSwVm5ZAKxR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/WEsAAOSwRUhZAKxT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/DswAAOSwWWxZAKxV/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "10355",
+    "UserID": "jdcauctions",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

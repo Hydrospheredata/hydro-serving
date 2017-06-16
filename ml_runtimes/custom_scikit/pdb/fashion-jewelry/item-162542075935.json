@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT19H33M41S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162542075935",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/398-New-Diane-Von-Furstenburg-Gold-Bangle-Bracelet-dv00011-B02-Womens-Size-OS-/162542075935",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T05:21:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T05:21:33.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Diane Von Furstenburg",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "$398 New Diane Von Furstenburg Gold Bangle Bracelet dv00011-B02 Womens Size OS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625420759358080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "finer_designer_deals",
+    "FeedbackScore": "805",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "finer_designer_deals",
+    "StoreURL": "http://stores.ebay.com/id=1409549215"
+  },
+  "Quantity": "1",
+  "Location": "05824",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODU0WDEyODA=/z/o80AAOSwTM5YvM0M/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

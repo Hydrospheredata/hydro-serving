@@ -1,0 +1,233 @@
+{
+  "ReturnPolicy": {
+    "Description": "Due to the fact that custom engraved medical IDs carry your personal information they cannot be resold.  We will replace and exchange product for no extra charge if we made any engraving mistakes.  We cannot be responsible for any spelling and content errors as they are provided by customers.  We do produce good quality products, conduct business in the highest business integrity, are committed to excellent customer service while adhere to fair policy, which reflected in our excellent customer feedback.  Within 30 days of the purchase, in the case that you do need to return the product, we will have to retain 65% of the cost plus original shipping cost (approximately USD$5.5) if you received any FREE SHIPPIING.  Customer is responsible for return shipping fees except on defective items or fulfillment errors.  For generic items, we charge no restocking fees.  We recommend using a tracked delivery service as proof delivery, please retain proof of delivery.  Proof of posting is not proof of delivery and all goods remain the responsibility of customer until they are returned and received Divoti Inc.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT20H4M52S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "divoti",
+    "StoreURL": "http://stores.ebay.com/id=1308949057"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.9",
+    "_currencyID": "USD"
+  },
+  "SKU": "6162DBU",
+  "ItemID": "252975027652",
+  "ConvertedCurrentPrice": {
+    "value": "31.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-05T05:50:40.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Divoti-Custom-Engraved-316L-Max-Contempo-Medical-ID-Bracelet-Byzantine-6162DBU-/252975027652?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T05:50:40.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "6.5 Inches",
+          "7.0 Inches",
+          "7.5 Inches",
+          "8.0 Inches",
+          "8.5 Inches",
+          "6.0 Inches"
+        ],
+        "Name": "Inches"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "6162DBU-65",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6.5 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162DBU-70",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7.0 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162DBU-75",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7.5 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162DBU-80.",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8.0 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162DBU-85",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8.5 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162DBU-60",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6.0 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Divoti",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "316L Stainless Steel",
+        "Name": "Metal Type"
+      },
+      {
+        "Value": "No Metal Stamp",
+        "Name": "Metal Stamp"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "6162DBU",
+        "Name": "Item#"
+      },
+      {
+        "Value": "Awareness",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "Divoti Custom Engraved 316L Max Contempo Medical ID Bracelet Byzantine -6162DBU",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "San Diego, California",
+  "Description": "we accept payment through PayPal. Please pay as soon as possible right after you checked out, as that will allow us to post your item to you sooner! 100% QualityBest PricesFast Shipping",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "divotimedicalalert",
+    "FeedbackScore": "439",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "12",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/N5wAAOSwH09ZNPCn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/H2oAAOSw1WJZNPCs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1-8AAOSwo4pYU6Mp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6ycAAOSwEzxYZIZw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gGcAAOSw6DtYU6OE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/q6sAAOSwA3dYU6Nw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/EwQAAOSw8w1YBBz7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Q-8AAOSwKytZNPCh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/dL4AAOSw~y9ZNPCo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8ckAAOSwmmxW2Isx/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92126"
+}

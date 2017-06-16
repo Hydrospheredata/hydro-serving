@@ -1,0 +1,83 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33936",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "looks in good condition but no tested needs a new battery the chain is 14.5' long the watch case is 1 7/8\"",
+  "StartTime": "2017-05-06T18:40:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/y80AAOSwjDZYhDcu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/snMAAOSwLEtYhDcf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GNcAAOSw-0xYhDda/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aBwAAOSwA3dYhDdq/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "brochesking2015",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "66",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "23",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529235250378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T18:40:50.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/pocket-watch-silver-tone-american-flag-bold-eagle-chain-quartz-/252923525037",
+  "Location": "Lehigh Acres, Florida",
+  "Title": "pocket watch  silver tone american flag  bold eagle with chain quartz",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252923525037",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT23H57M4S"
+}

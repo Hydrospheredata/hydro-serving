@@ -1,0 +1,111 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "32766",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Preowned, still has Franklin Mint tag attached.The front of this pocket watch is \"UNITED WE STAND\" \"SEPTEMBER 11, 2001\" with USA flag in center.The back of the case is gold. Inside on the face of the watch is the twin towers and background.Inside the front cover is gold with the inscription \"We will not waver; we will not tire; we will not falter; and we will not fail.Peace and freedom will prevail. I cannot authenticate the metal. 21",
+  "StartTime": "2017-05-28T03:38:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE3MFgxNjAw/z/pQIAAOSw9GhYkibY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk5WDE2MDA=/z/W2wAAOSw-0xYkibb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/chAAAOSw5cNYkibe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI5M1gxNjAw/z/rOoAAOSw2xRYkibh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ2NVgxNjAw/z/jXwAAOSwLEtYkibl/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Franklin Mint",
+        "Name": "Brand"
+      },
+      {
+        "Value": "unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Red White Blue",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "2\"",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Twin Towers",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shashedfinds",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "83",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529615474228080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T03:38:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/September-11-2001-United-we-Stand-pocket-watch-Franklin-Mint-Never-Forget-/252961547422",
+  "Location": "Oviedo, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "September 11, 2001 United we Stand pocket watch Franklin Mint  Never Forget",
+  "Storefront": {
+    "StoreName": "shashedfinds",
+    "StoreURL": "http://stores.ebay.com/id=1322583645"
+  },
+  "ItemID": "252961547422",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT9H3M16S"
+}

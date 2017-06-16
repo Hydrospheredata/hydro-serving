@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/h9oAAOSwRgJXlS0B/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/2WkAAOSw0fhXlS0B/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/bVoAAOSw0RpXlS0B/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/bbIAAOSw0RpXlS0E/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-BOW-TERRACE-JUSTINE-LEATHER-SHOULDER-BAG-NWT-/391801150558",
+  "ConvertedCurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "OCT13 KS BOW TERRACE JUSTINE LEATHER SHOULDER BAG NWT KATE SPADE BOW TERRACE JUSTINE LEATHER SHOULDER BAG NWT Up for sale is this brand new with tag attached and guaranteed authentic Kate Spade shoulder bag from the Bow Terrace collection, STYLE: JUSTINE. Made of smooth thick leather (COLOR: BAJA ROSE) with light gold tone hardware. Front flap closure with bow accent with pyramidal detail on the front center and logo plate on exterior back bottom. Fully-lined with one zip and two open internal pockets. Measures approx. : 10.3\"L x 7.4\"H x 2\" base and 10-20\" chain link and leather strap. Comes with logo dust bag and authenticity/care card. See actual pictures of the shoulder bag. Shipping and handling vary depending on buyer's location. Payment must be received within 5 days of the end of the sale. I only accept payment thru Paypal. All sales final. Will ship international but please email me first for shipping and handling charges. Please note that taxes, duties or other misc. charges or delay at customs at country of destination will be the sole responsibility of buyer. Your purchase is a legally binding contract. You are agreeing to the terms and conditions shown here if you decide to purchase this item.",
+  "Title": "KATE SPADE BOW TERRACE JUSTINE LEATHER SHOULDER BAG NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Staten Island, New York",
+  "Seller": {
+    "FeedbackScore": "5551",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "bulana"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10304",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:25:56.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P8DT10H6M3S",
+  "EndTime": "2017-06-11T01:25:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Baja Rose"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689 506487"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391801150558",
+  "Storefront": {
+    "StoreName": "bulana",
+    "StoreURL": "http://stores.ebay.com/id=42062442"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3918011505588080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

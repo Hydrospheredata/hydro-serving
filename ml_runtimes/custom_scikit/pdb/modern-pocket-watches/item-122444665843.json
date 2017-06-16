@@ -1,0 +1,175 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "95.45"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This classic and elegant silver-tone pocket watch from Gotham is the perfect addition to anyone's timepiece collection. Features include a regal oval shaped case with intricately designed front and back etchings, precision Swiss date movement, white dial with silver-tone Arabic numerals, silver-tone classic hands, scratch resistant mineral crystal and a matching 15\" curb chain with spring ring attachment. In addition, the back cover of this timepiece opens into a stand so that you can display you watch on your desk or nightstand. We also include a bonus solid brass desktop stand that will showcase your pocket watch for all to see. As always, your watch will arrive beautifully gift packaged with operating instructions, lifetime limited warranty and a Selvyt polishing cloth to keep your timepiece clean. Enjoy - Antique reproduction style oval silver-tone covered pocket watch with intricate detailing and built in stand - Rich textured white dial with silvertone Arabic numbers - Precision Swiss quartz date movement plus scratch resistant mineral crystal - Includes matching 15\" curb pocket watch chain with spring ring attachment plus solid brass desk top stand - Arrives in beautiful presentation box with Selvyt polishing cloth, lifetime limited warranty and operating instructions Gotham Mens Silver-Tone Swiss Quartz Pocket Watch with Desktop Stand # GWC14044S",
+  "StartTime": "2017-04-13T02:42:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM4Ng==/z/kskAAOSw4CFY7uXf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM2NA==/z/fP8AAOSwhQhY7uXf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/HdEAAOSwAANY7uXg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/kxcAAOSw4CFY7uXh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ccwAAOSwnF9Y7uXg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNVgxNTAw/z/fUIAAOSwhQhY7uXi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDMyOQ==/z/M0wAAOSw3utY7uXh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE2MVgxNTAw/z/VyYAAOSwB-1Y7uXh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjg0/z/HhgAAOSwAANY7uXi/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "050014240442",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0050014240442",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Gotham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GWC14044S-ST",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "1.1 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.6 x W 5.1 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "B005QBMLG4",
+        "Name": "SKU"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rareearth-83",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "519",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "46",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1224446658438080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T02:42:46.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "95.45"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gotham Mens Silver-Tone Swiss Quartz Pocket Watch with Desktop Stand # GWC14044S",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gotham-Mens-Silver-Tone-Swiss-Quartz-Pocket-Watch-Desktop-Stand-GWC14044S-/122444665843",
+  "Storefront": {
+    "StoreName": "rareearth-83",
+    "StoreURL": "http://stores.ebay.com/id=1579234679"
+  },
+  "ItemID": "122444665843",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT7H55M27S"
+}

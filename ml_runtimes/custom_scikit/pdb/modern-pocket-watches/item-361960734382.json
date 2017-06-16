@@ -1,0 +1,139 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "08527",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "LIMITED EDITION BIG BIRD WATCH BY FANTASMA NEW IN TIN REAL COLLECTOR WATCH FOR KIDS AT HEART",
+  "PictureURL": [
+    "http://i.ebayimg.com/11/!BNZz9jgB2k~$(KGrHgoOKiMEjlLmVOYOBJpbmhvt8!~~_1.JPG?set_id=800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sesame street",
+        "Name": "Brand"
+      },
+      {
+        "Value": "223",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "harry6973",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1556",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-04-22T22:10:34.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619607343828080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-21T22:10:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BIG-BIRD-SESAME-STREET-WATCH-FANTASMA-LTD-EDITION-/361960734382",
+  "Location": "Jackson, New Jersey",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "BIG BIRD SESAME STREET WATCH BY FANTASMA LTD EDITION",
+  "Storefront": {
+    "StoreName": "harry697334",
+    "StoreURL": "http://stores.ebay.com/id=41482459"
+  },
+  "ItemID": "361960734382",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT3H23M45S"
+}

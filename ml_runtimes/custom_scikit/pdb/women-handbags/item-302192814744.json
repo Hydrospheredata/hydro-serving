@@ -1,0 +1,115 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI0WDcwMw==/z/xH0AAOSwa~BYdUcI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk0WDg2MA==/z/eqQAAOSwEzxYdUcJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU3WDg2MA==/z/JIsAAOSw2xRYdUcK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg3WDg2MA==/z/TvcAAOSwjDZYdUcL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg2NTg=/z/T0AAAOSwjDZYdUcN/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/STORKSAK-JULIETTE-CANVAS-BABY-DIAPER-BAG-BLACK-SK6389-NWT-195-/302192814744",
+  "ConvertedCurrentPrice": {
+    "value": "159.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT $195STORKSAK JULIETTE CANVAS BABY DIAPER BAG BLACK STYLE: SK6389 Track Page Views With Auctiva's FREE Counter",
+  "Title": "STORKSAK JULIETTE CANVAS BABY DIAPER BAG BLACK SK6389 NWT $195",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "GL",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fresh Meadows, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "14896",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "socher36"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11365",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-01-10T20:41:50.000Z",
+  "HitCount": "80",
+  "TimeLeft": "P7DT5H9M21S",
+  "EndTime": "2017-06-09T20:41:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "STORKSAK JULIETTE BABY BAG",
+        "Value": "NWT $195"
+      },
+      {
+        "Name": "Main Color",
+        "Value": "BLACK"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "STORKSAK"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "CANVAS"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5060219256389"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302192814744",
+  "Storefront": {
+    "StoreName": "LOVE TO SHOP WITH US",
+    "StoreURL": "http://stores.ebay.com/id=126780486"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3021928147448080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

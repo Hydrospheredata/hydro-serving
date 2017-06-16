@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT17H24M",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535388975",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-NEW-170-BHLDN-GOLD-14K-BAR-CHAIN-PEACH-CRYSTAL-EARRINGS-ANTHROPOLOGIE-/222535388975",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:22:37.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:22:37.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jewelry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Peach",
+        "Name": "Stone Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "*RARE* NEW $170 BHLDN GOLD 14K BAR CHAIN PEACH CRYSTAL EARRINGS ANTHROPOLOGIE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "(1) BRAND NEW GORGEOUS $170 BHLDN Anthropologie Gold Bar & Chain Earrings w/ Peach Swarovski Crystals Gorgeously simplistic earrings! Beautiful in person! Very Rare! Perfect for bridal events and even everyday wear! At this price, we don't expect these to last long. We have a limited amount, and once they are all sold they are gone. The PERFECT mix of minimal and sleek, these earrings feature 14k gold-fill hook wires and micro chain that slide through the earhole and a simple bar design that move with you! Simplistic, comfortably lightweight, and sophisticated. - Details: 14k gold-fill - Peach Swarovski crystals - Approx. 2\" L Drop - Bars will not bend - very well designed. Please note: Box and bags not included. New without tags. Will be very carefully packaged for shipment. Other Information + All items are brand new with no tags, no bags, no boxes unless otherwise noted. All items ship in weather-safe packaging. Items may or may not have hallmarks and/or metal tags. All items are very carefully packaged for safe shipment. Thank you. BHLDN is an Anthropologie brand. Payment + Payments accepted: We accept PayPal + All sales final regardless of fit. + Please contact me via ebay messages if you have any questions about your purchase before leaving feedback. Thank you! Shipping Domestic (United States): + USPS Shipping with Delivery Confirmation: FREE + Handling Time: Items ship within 1-2 business days from cleared date of payment. + Shipping Time: Your item will arrive within 2-7 business days once shipped. + Combined Shipping: Combined shipping is at no extra cost. International: + USPS Shipping to Canada: $9.95 + USPS International Flat Rate Shipping (outside of US and Canada): $16.95 + Handling Time: Items ship within 1-2 business days from cleared date of payment. + Shipping Time: Approximately 6-29 business days from shipping date. + Combined Shipping: We offer combined shipping upon request. This request may change the shipping price as a larger box may be necessary which, in turn, could increase the necessary overall shipping price. + Customs: Buyer is responsible for fees (if any) incurred at customs. Please do not abandon your items at customs. If an item is returned, we will ship it back a second time at the buyers expense.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225353889758080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sequins*n*sparkles",
+    "FeedbackScore": "1263",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Sequins*n*Sparkles Shop",
+    "StoreURL": "http://stores.ebay.com/id=791637194"
+  },
+  "Quantity": "1",
+  "Location": "Sequins Sparkles Shop",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YjwAAOSwFdtX0If2/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

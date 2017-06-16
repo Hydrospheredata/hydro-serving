@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H17M59S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "42.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192208045561",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CAROLEE-Rhinestone-Earrings-Costume-Clip-Ons-Made-England-/192208045561",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:16:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T04:16:52.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Carolee",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Clip",
+        "Name": "Style"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "United Kingdom",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "CAROLEE Rhinestone Earrings Costume Clip Ons Made in England",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Up for Sale: A beautiful pair of CAROLEE Rhinestone Drop Style Earrings. They are clip-ons and measure 2' long. Has only one clip on pad as shown. Very light wear on back of clips. Made in England. Original price $100.00 as shown.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922080455618080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "deansgirlpatti",
+    "FeedbackScore": "513",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Itasca, Illinois",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ULIAAOSwSlBYvwrh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G7MAAOSw~AVYvwr3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IT0AAOSw~AVYvwsY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CywAAOSwWxNYvwsw/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "60143"
+}

@@ -1,0 +1,79 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2800.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:47:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "2800.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T14:47:10.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135748449",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Breitling Navitimer",
+        "Name": "Model"
+      },
+      {
+        "Value": "Breitling",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "2800.0",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "Excellent condition with minimal wear",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Breitling-Navitimer-Limited-edition-/292135748449",
+  "Title": "Breitling Navitimer Limited edition",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921357484498080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "10003",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H40M48S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9QYAAOSwGJlZLtZX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fQsAAOSwlY1ZLtZY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/34UAAOSw9OFZLtZV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LyEAAOSwIQdZLtZb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/07oAAOSwYlRZLtZd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/u3AAAOSw5cRZLtZe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VDAAAOSwhvFZLtZh/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "For sale is a mint condition Breitling Navitimer 93 1991 World Cup Limited edition watch. Comes with original box and papers and is in immaculate condition with no scratches to the face, some light wear on the casing, and the band is in like new condition. This watch is truly amazing.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "31",
+    "UserID": "guitarcraze88",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

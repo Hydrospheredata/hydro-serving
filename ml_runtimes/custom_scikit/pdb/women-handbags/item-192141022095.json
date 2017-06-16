@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921410220958080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0121/546/838/258187351/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0121/546/838/258187352/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0121/546/838/258187353/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0121/546/838/258187354/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0121/546/838/258187355/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PAUL-MARIUS-Vintage-leather-backpack-LE-BAROUDEUR-rucksack-Olive-green-vintage-s-/192141022095",
+  "ConvertedCurrentPrice": {
+    "value": "134.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: LeBaroudeur is a small backpack, entirely made ..of soft full grain leather buffalo. Featuring a draw cord closure and clasp, a front pocket, grab handle and adjustable straps and a zippered interior pocket, LeBaroudeur is practical and will be essential for you during your excursions through the city or in the heart of nature!",
+  "Title": "PAUL MARIUS Vintage leather backpack LE BAROUDEUR rucksack Olive-green vintage s",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "134.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-27T05:12:00.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P22DT12H51M41S",
+  "EndTime": "2017-06-25T05:12:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "PAUL MARIUS"
+      },
+      {
+        "Name": "MPN",
+        "Value": "637271244"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141022095",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:121546838:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

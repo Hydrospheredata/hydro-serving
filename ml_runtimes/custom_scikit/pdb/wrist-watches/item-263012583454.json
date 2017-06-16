@@ -1,0 +1,71 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "68.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "SG",
+  "Location": "default, default",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:13:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=590568977",
+    "StoreName": "box n watch"
+  },
+  "CurrentPrice": {
+    "value": "68.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:13:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "singapore money banknotes",
+      "Name": "Brand"
+    }
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012583454",
+  "HandlingTime": "3",
+  "Description": "- see picture for detail overall condition good , picture refer to item on auction , sold as is , sale is final . please agree shipping with tracking number More rare box , watch parts be listed , please note my future listing shipping is $8 to all location, payment ; paypal only worldwide we ship thanks for all u interest ,",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/singapore-money-and-banknotes-nice-very-rare-/263012583454",
+  "ConditionDescription": "singapore money and banknotes nice and very rare",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630125834548080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H41M",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/6P4AAOSwax5Yp8p8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/mtYAAOSw3v5Yp8qf/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "singapore money and banknotes nice very rare",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.0",
+    "FeedbackScore": "363",
+    "UserID": "boxdewatch",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "The buyer has 7 days to return the item (the buyer pays shipping fees). The item will be refunded."
+  }
+}

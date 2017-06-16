@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921588280368080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/cD4AAOSwU8hY8UiY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/pdAAAOSwdI9Y8UiY/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Modalu-Womens-Pippa-Top-Handle-Bag-Black-Free-Shipping-/192158828036",
+  "ConvertedCurrentPrice": {
+    "value": "432.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: The modalu england pippa collection continues to make an iconic addition to any wardrobe. Available in three classic shapes and perfectly crafted from the highest quality leather, the pippa is a staple style for every occasion. The collection is back this season with warm autumnal tones, finished with embossed branding and sleek branded zip pulls",
+  "Title": "Modalu Womens Pippa Top-Handle Bag Black. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "432.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-14T22:09:25.000Z",
+  "HitCount": "44",
+  "TimeLeft": "P11DT5H55M31S",
+  "EndTime": "2017-06-13T22:09:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5050545638195"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5050545638195"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Modalu"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192158828036",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:117431630:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

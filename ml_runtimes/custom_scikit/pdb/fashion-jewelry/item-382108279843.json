@@ -1,0 +1,173 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P24DT5H19M51S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Pre Owned In Excellent Condition No Chips Cracks Or Damage",
+  "DiscountPriceInfo": {
+    "SoldOneBay": "false",
+    "SoldOffeBay": "false",
+    "OriginalRetailPrice": {
+      "value": "126.32",
+      "_currencyID": "USD"
+    },
+    "PricingTreatment": "STP"
+  },
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "63.16",
+    "_currencyID": "USD"
+  },
+  "SKU": "203-729088-0-FixedPriceItem",
+  "ItemID": "382108279843",
+  "QuantitySold": "0",
+  "TopRatedListing": "true",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "63.16",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T19:55:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BOUTIQUE-925-Sterling-Square-Pink-Jewel-Dangle-Earring-Pedant-Necklace-Set-B3944-/382108279843",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-29T19:55:13.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Boutique",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Set",
+        "Name": "Type"
+      },
+      {
+        "Value": "N/A",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "BOUTIQUE 925 Sterling Square Pink Jewel Dangle Earring Pedant Necklace Set B3944",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "BOUTIQUE 925 Sterling Square Pink Jewel Dangle Earring Pedant Necklace Set B3944 Details Designer: Boutique Condition: Pre Owned In Excellent Condition No Chips Cracks Or Damage Material: 925 Sterling Silver Size: 16 In 1 Inch Charm 1 In Dangle Earrings Description: This Darling Necklace Earring Set Is Great For Anytime cs9098 Payment Payment is expected within 24 hours of close of purchasing the item. Please note that Illinois residents are subject to Illinois state sales tax and will be included on the invoice. Shipping We ship via USPS and Fedex with delivery confirmation. If the item is over $250.00 we will ship via signature confirmation and the package will be insured. Our items are sent out through a third party company named ShipBob, a company based out of Chicago. Return Policies We gladly except returns within 30 days from receipt of your ShopMelee purchase(s). No item can be returned without our return tag still attached in its original position. Since ShopMelee customers are responsible for returns, we kindly ask that you to insure your package for the items value or provide tracking information. We also charge a 20% restocking fee for any purchase(s) returned. Thank you! Sell With Shop Melee Shop Melee strives for five stars across the board. If for any reason you are not satisfied please contact us. We take consignments from people all over the United States. If you are interested in selling with Shop Melee, please go to our Contact page and send us an E-mail. We will contact you back and send you a FedEx label so that you can send us your items to be sold. Powered by iVendere.com. All rights reserved.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3821082798438080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "shopmeleeinc",
+    "FeedbackScore": "42682",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "Shop Melee",
+    "StoreURL": "http://stores.ebay.com/id=19967903"
+  },
+  "Location": "Willowbrook, Illinois",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg2ODA=/z/D0YAAOSww9xZLc4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxOVgxMTAy/z/~3UAAOSwaEhZLc4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg3WDEwNzM=/z/RSoAAOSwjL5ZLc4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5Mjk=/z/oioAAOSwBt5ZLc4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAzMlgxMDQ0/z/uoIAAOSwZ4dZLc4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI2WDkzMg==/z/xCMAAOSwIaFZLc4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5MjU=/z/HwUAAOSwhvFZLc4j/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "60527"
+}

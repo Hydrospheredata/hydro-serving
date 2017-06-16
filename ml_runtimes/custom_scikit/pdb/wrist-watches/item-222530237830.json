@@ -1,0 +1,135 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1099.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Winston-Salem, North Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:35:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1099.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:35:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530237830",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Glycine",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "46mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "24mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "3867.19SL-LB9",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "100m",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "tang buckle",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Glycine Incursore Chronograph Day/Date 99% LNIB $3750 Retail, Huge discount",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Glycine-Incursore-Chronograph-Day-Date-99-LNIB-3750-Retail-Huge-discount-/222530237830",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225302378308080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "27106",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H23M59S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/vY0AAOSwfVpYoY0D/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VJsAAOSwr~lYoY0U/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wMsAAOSwfVpYoY0a/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/7BcAAOSwB-1YoY0d/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wZEAAOSwfVpYoY0g/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/lxUAAOSw2gxYoY0j/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/bw4AAOSwax5YoY0o/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/7u4AAOSwB-1YoY0u/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WHAAAOSwr~lYoY0y/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Presenting the Glycine Incursore Day Date Chronograph. This is an amazing value for a well made Swiss Watch with two sapphire crystals and lots of complication for the money. This 46mm watch is from a US AD with all boxes and papers. The current retail is $3750 and is being offered for over 60% off that price. There are not too many US AD's for this brand so we are able to get these at a great prices. The strap is brand new, unworn, no creases. Case is mint, watch doesn't seem to have been worn. Rare model with full lume sub-seconds dial.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "308",
+    "UserID": "gracecosales",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

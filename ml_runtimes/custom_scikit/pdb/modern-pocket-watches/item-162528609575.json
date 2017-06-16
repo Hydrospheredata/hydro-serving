@@ -1,0 +1,174 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "134.38"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This classic, elegant and sophisticated gold-tone exhibition pocket watch from Gotham is the perfect addition to anyone's timepiece collection. Features include a precision 17 jewel mechanical movement showcased when the front and back covers are opened, highly polished engravable gold-tone case plus scratch resistant mineral crystals to protect your timepiece. Other features include bold blue cobalt hands, a 15 inch curb chain that can attach to your belt loop and a bonus solid brass desktop stand to display your timepiece proudly when not worn. As always, your watch will arrive beautifully gift packaged and include operating instructions, lifetime limited warranty and a Selvyt polishing cloth to keep your watch clean. This is truly a beautiful watch at a great price. Enjoy. - Classic and elegant gold-tone 17 jewel mechanical polished finish double cover exhibition pocket watch perfect for engraving - Both front and back covers open to expose elegant 17 jewel mechanical movement and it's moving parts - Antique style black hour, minute and seconds hands plus scratch resistant mineral crystal - Includes matching 15\" curb pocket watch chain with spring ring attachment plus solid brass desk top stand - Arrives in beautiful presentation box with Selvyt polishing cloth, lifetime limited warranty and operating instructions Gotham Mens Gold-Tone Mechanical Pocket Watch with Desktop Stand # GWC14050G-ST",
+  "StartTime": "2017-05-25T13:27:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTQz/z/AMoAAOSwPh5ZJtuq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/AMYAAOSwPh5ZJtup/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/aiMAAOSwX9FZJtuq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/-ZEAAOSw-K9ZJtuq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZlAAAOSwrhBZJtuq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNVgxNTAw/z/xaIAAOSwKytZJtuq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDMzNw==/z/1EwAAOSwK6RZJtup/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjg0/z/BLsAAOSwX61ZJtup/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "050014240503",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0050014240503",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Gotham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GWC14050G-ST",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "1.05 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.7 x W 5.1 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "25",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625286095758080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T13:27:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "134.38"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gotham Mens Gold-Tone Mechanical Pocket Watch with Desktop Stand # GWC14050G-ST",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gotham-Mens-Gold-Tone-Mechanical-Pocket-Watch-Desktop-Stand-GWC14050G-ST-/162528609575",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528609575",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT18H50M13S"
+}

@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.57",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Staten Island, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:53:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=534293038",
+    "StoreName": "aDozenBucks"
+  },
+  "CurrentPrice": {
+    "value": "12.57",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:53:50.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Power Rangers SUPER MegaForce Fast Wrap LCD Watch Age 3 PlusOfficially Licensed Product Please check our Ebay Store eBay Store for other great items ... We Only Sell Authentic Name Brand Jerseys & Designer Merchandise The Same Merchandise Found In Upscale Stores. Our First Quality Merchandise Comes From Major Manufacturers, Distributors And Retailers. So You Ask ... What Does This Mean? It Means You Pay A Fraction Of What They Are Worth. \"aDozenBucks Pledge : To Offer Only The Best Values Available. \u201c On Products That You Want \u201c To Keep Our Prices Low All Sales Are Final With Our Low Prices & Todays Shipping Rates ...... Just Give It As A Gift Free Shipping Lower 48 ONLY We Are Striving To Be Among The Leaders and Fastest Shippers On The Internet .... Once Your Payment Cleared, Orders Are Processed And Shipped The Same Business Day. Depending On Payment Time ... Almost All Orders Are Completed & Shipped By The Business Day! Don't Take Our Word On It ..... Please .... Read Our feedback & See For Yourself How Our Previous Customers Boast About Our High Quality Products & Our Fast Shipping ......\u2028 *** Pay Pal Only *** FEEDBACK : Note: Remember to take the time to leave feedback, realize any feedback you leave is public and Permanent, so think carefully before leaving feedback. Make sure that your comments are fair and factual. If there is a problem or a dispute, try to resolve the differences before leaving feedback. Since I am a store feedback is an important part of my business, I will only leave feedback to those that understand & take the time to use it.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252967026347",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Saban",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Child",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Wrap-Around Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "POWER RANGERS - SUPER MEGAFORCE - FAST WRAP DIGITAL LCD WRISTWATCH - NIB",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/POWER-RANGERS-SUPER-MEGAFORCE-FAST-WRAP-DIGITAL-LCD-WRISTWATCH-NIB-/252967026347",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529670263478080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "10306",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H48M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/4wAAAOSwnHZYkBbN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/ndIAAOSwImRYkBbI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/VZYAAOSwo4pYkBbK/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "12.57",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "738",
+    "UserID": "adozenbucks",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

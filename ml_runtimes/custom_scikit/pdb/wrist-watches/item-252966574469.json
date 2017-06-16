@@ -1,0 +1,94 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529665744698080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T07:28:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:28:48.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Pre-Owned white G Shock Watch US only.",
+  "BuyItNowPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966574469",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "G-SHOCK",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio G Shock Watch White",
+  "ConditionDescription": "Great Condition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-G-Shock-Watch-White-/252966574469",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "6",
+  "PostalCode": "76131",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Fort Worth, Texas",
+  "TimeLeft": "P4DT15H56M26S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwNlgxNjAw/z/MX8AAOSwH09ZFzhy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE3NlgxNjAw/z/OJwAAOSwKytZFzh9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Pv8AAOSwX61ZFzh~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTU2/z/vAYAAOSwYvFZFziC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMyMFgxNjAw/z/T6QAAOSwBt5ZFziF/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "91.7",
+    "FeedbackScore": "208",
+    "UserID": "glory1920",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "32.15",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Stanmore",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:38:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:38:28.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524748072",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "DKNY",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "DKNY Women Watch Brown",
+  "ConditionDescription": "Used in good condition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DKNY-Women-Watch-Brown-/122524748072",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225247480728080_1.jpg",
+  "HitCount": "14",
+  "PostalCode": "HA7 4EN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H12M35S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XloAAOSwH09ZLo64/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gQYAAOSwY3BZLo6-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NB0AAOSwaEhZLo7D/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Used watch in good condition",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "148",
+    "UserID": "ana_asdas",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

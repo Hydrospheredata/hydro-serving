@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT10M14S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "201945945031",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Buckley-London-Gold-Cascade-Earring-Necklace-Bracelet-Set-rrp-77-LF075-LL-02-/201945945031",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.08",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T12:13:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T12:13:51.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Gold Plate",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Buckley London",
+        "Name": "Brand"
+      },
+      {
+        "Value": "5030202199399",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "Buckley London Gold Cascade Earring Necklace & Bracelet Set rrp \u00a377 LF075 LL 02",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Buckley London Gold Cascade Earring Necklace and Bracelet SetBrand New With Tags Add a touch of glamour and sparkle to your outfit with this elegant necklace, bracelet and earrings set. Delicate strands in a beautiful gold plated finish are punctuated with sparkling clear crystals to emulate the fluid movement of water, capturing light from every angle. This elegant set is a must have in any collection. Necklace length: 42cm. Bracelet length: 18cm. Comes packaged in a Buckley London gift box.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019459450318080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "buy.it.now.u.k",
+    "FeedbackScore": "3568",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "buyitnowUKlimited",
+    "StoreURL": "http://stores.ebay.com/id=1257847338"
+  },
+  "Quantity": "1",
+  "Location": "Sutton Coldfield, West Midlands",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAzM1gxMDAw/z/ZJ8AAOSwt0FZDFxT/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "B73 5TE"
+}

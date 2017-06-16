@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "UA",
+  "Location": "Kryvoy Rog",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:58:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:58:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Poljot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "1950-1959",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694655684",
+  "HandlingTime": "3",
+  "Description": "In good working condition. Appearance is much better than in photo. Suitable for collection and for everyday use. If you have questions \u2013ask! See my other items.Shipping $10",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-Soviet-watch-Poljot-Sportivnie-SPORTS-Stop-second-17jewels-3-1957s-/272694655684",
+  "ConditionDescription": "100 %Original.very good condition!",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726946556848080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H24M54S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kyYAAOSwuLZY3l6I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HCgAAOSwuxFY3l6N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8DEAAOSwTM5Y3l6T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SwQAAOSwSlBY3l6a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8pYAAOSwTM5Y3l6f/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8ncAAOSwA29Y3l6k/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "RARE Soviet watch Poljot Sportivnie SPORTS Stop second 17jewels 3-1957s",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "43",
+    "UserID": "mukus.nicho",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

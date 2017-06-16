@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263020906181",
+  "TimeLeft": "P6DT19H56M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Arabic-Custom-Hand-Made-Name-Necklace-18K-gold-plated-over-sterling-silver-/263020906181",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:28:33.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IL",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T08:28:33.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Name Necklace",
+        "Name": "Style"
+      },
+      {
+        "Value": "18K gold plated over Sterling Silver 925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Personalized Name",
+        "Name": "Pendant Shape, Theme"
+      },
+      {
+        "Value": "18\"",
+        "Name": "Chain Length"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "18\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Arabic Custom Hand Made Name Necklace 18K gold plated over sterling silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful 18K gold plated on Sterling 925 Silver Necklace with Custom Arabic name (up to 8 letter - for larger names additional payment applies ) The name necklace is hand made with highest quality Specifications: Material - 925 Sterling SilverCondition - NewThickness - 0.7 mmFirst Letter Height - 0.7 - 1 cmLanguage - Any language Under name lacing styles (for additional payment of 3$) End of name lacing ( for additional price of 2$ ): CZ Birthstone can be installed in the name ( additional 2$ for single stone): Please send us a message with the desired font and enhancements (if any) prior the payment and we will send you the updated invoice. We know there are many name necklaces manufacturers around. Why choose us ? We are professional sellers with many years of experience on eBay.We have excellent customers service - any inquiry will be answered within 24 hours.We have excellent seller reputation - see our feedbackWe are reliable merchants which will provide you high quality item , low price and professional customer service",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630209061818080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "israeldepot",
+    "FeedbackScore": "7656",
+    "FeedbackRatingStar": "Green"
+  },
+  "Quantity": "1",
+  "Location": "Jerusalem",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTkwWDcyMA==/z/Yo0AAOSw~gRVv7o4/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

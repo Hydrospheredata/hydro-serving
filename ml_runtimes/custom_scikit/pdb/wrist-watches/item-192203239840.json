@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:04:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "12.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:04:14.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2070073-box",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      },
+      {
+        "Value": "box",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Duoya 2016 Vintage Watch Women Fabric Cloth Ladies Bracelet Watches Floral $12.77 Item Type: Quartz Wristwatches Case Thickness: 6 mm Case Shape: Round Dial Diameter: 28 mm Model Number: CLOCK Gender: Women Style: Fashion & Casual Clasp Type: Buckle Case Material: Stainless Steel Band Width: 20 mm Boxes & Cases Material: No package Movement: Quartz Brand Name: Duoya Band Length: 58 cm Feature: None Water Resistance Depth: No waterproof Band Material Type: Fabric Dial Window Material Type: Glass \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Duoya-2016-Vintage-Watch-Women-Fabric-Cloth-Ladies-Bracelet-Watches-Floral-/192203239840",
+  "NewBestOffer": "false",
+  "SKU": "2070073-box",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922032398408080_1.jpg",
+  "ItemID": "192203239840",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H43M16S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/KIMAAOSwq1JZLqMx/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Duoya 2016 Vintage Watch Women Fabric Cloth Ladies Bracelet Watches Floral",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

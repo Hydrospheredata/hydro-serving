@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "95.13",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "US",
+  "Location": "USA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:31:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=94280173",
+    "StoreName": "Kingdom Moda"
+  },
+  "CurrentPrice": {
+    "value": "128.11",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-10T08:31:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Guess",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "U95138G2",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535706856",
+  "HandlingTime": "1",
+  "Description": "Style # U95138G2 Strap Material Rubber Color White FacePlate 4,25 X 4,25 CM STRAP 18 - 23,5 CM Description: - NEW COLLECTION - Silver -Tone mens Watch with multifunction dial: date, day, & 24-Hr. Stainless Steel Case plate. 3 hand analogs pointer. White color inside the faceplate. Silver Stainless Steel strap. Classic Oldschool Style with Best Designer. Japanese Movement; 10-years limited warranty. Authentic Guess USA Collection Watch Authentique Guess USA La collection de montres - NOUVEAU COLLECTION - Silver-Tone Mens Watch avec cadran multifonctions: date, jour, & 24-hr. Plaque Bo\u00eetier en acier inoxydable. 3 mains analogues pointeur. La couleur blanche \u00e0 l'int\u00e9rieur de la fa\u00e7ade. Argent bracelet en acier inoxydable. Classic Style Oldschool avec Best Designer. Mouvement japonais; 10 ans de garantie limit\u00e9e. ** FAST SHIPPING FROM USA** if paid by EXPRESS Mail ONLY Custom Information Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. On Aug-20-11 at 07:59:25 PDT, seller added the following information:",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brand New! Watch GUESS White Rubber Men U95138G2",
+  "NewBestOffer": "false",
+  "SKU": "U95138G2",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-New-Watch-GUESS-White-Rubber-Men-U95138G2-/162535706856",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625357068568080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT17H1M58S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDU3Ng==/z/fyQAAOSw4CFY7Hnx/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "128.11",
+    "_currencyID": "CAD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackScore": "15143",
+    "UserID": "guessmoda",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_10",
+    "RestockingFeeValue": "10%",
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Exchange"
+  }
+}

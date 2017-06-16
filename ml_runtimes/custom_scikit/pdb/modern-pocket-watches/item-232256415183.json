@@ -1,0 +1,74 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "17963",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "-Mechanical Pocket Watch with Simple Celtic Knot Design-This Mechanical Pocket Watch is a 17 Jewel Full Hunter where both sides open.-Supplied with Chain and lined Presentation Box-Wind Up Watch with 12 inch Fob Chain-Designed and made in Scotland",
+  "StartTime": "2017-03-01T02:34:19.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQ5NA==/z/nLkAAOSwSlBYtjLB/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDk4WDUwMA==/z/kMQAAOSw32lYtjLC/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTM4WDc2Mg==/z/nL4AAOSwSlBYtjLC/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "The Sgian Dubh Co",
+        "Name": "Brand"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bittysnack109",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "22",
+    "PositiveFeedbackPercent": "95.0"
+  },
+  "HitCount": "66",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2322564151838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T02:34:19.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sgian-Dubh-Co-Celtic-Knot-17-Jewel-Full-Hunter-Pocket-Watch-PW06-/232256415183",
+  "Location": "Pine Grove, Pennsylvania",
+  "Title": "Sgian Dubh Co. Celtic Knot 17 Jewel Full Hunter Pocket Watch PW06",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232256415183",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT7H40M55S"
+}

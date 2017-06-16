@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA4WDEyMDA=/z/TD0AAOSw8lpZMW7w/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFg4NTU=/z/gh4AAOSw42JZMW6j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI5WDEyMDA=/z/kcIAAOSwsXFZMW62/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Carryall-Crossbody-Nomadic-Floral-72-Value-/282506117476",
+  "ConvertedCurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "Vera Bradley Carryall Crossbody in Nomadic Floral $72 Value",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "RU",
+    "BY",
+    "MD",
+    "UA",
+    "BO",
+    "BR",
+    "PY",
+    "VE",
+    "AO",
+    "CD",
+    "CG",
+    "LR",
+    "LY",
+    "NG",
+    "SL",
+    "SO",
+    "IQ",
+    "AF",
+    "AM",
+    "AZ",
+    "GE",
+    "KZ",
+    "KG",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Youngstown, Ohio",
+  "Seller": {
+    "FeedbackScore": "2685",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "durk1914"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "44515",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:58:20.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT23H53M50S",
+  "EndTime": "2017-07-02T13:58:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "crossbody"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003373170"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282506117476",
+  "Storefront": {
+    "StoreName": "Durk s Dugout",
+    "StoreURL": "http://stores.ebay.com/id=1116682793"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Any returned items must be unused and in their original condition. Upon inspection of the item money will be refunded within 4 days of the item's return in it's original condition (buyer pays return shipping). If the item is significantly different than described, 100% of money back within 4 days after the arrival of the item (seller pays shipping costs). For exchanges, the customer is responsible for the shipping of the new item. Makeup cannot be returned due to sanitary and health reasons. We cannot be responsible for bidder's remorse. Remember to bid responsibly, and most of all...have fun!",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825061174768080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

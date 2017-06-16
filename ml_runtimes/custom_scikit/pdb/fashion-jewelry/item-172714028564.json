@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172714028564",
+  "PrimaryCategoryID": "50677",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "PostalCode": "94041",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedBuyItNowPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "Subtitle": "A pin from the MMA gift shop",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727140285648080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vessna565",
+    "FeedbackScore": "50",
+    "FeedbackRatingStar": "Blue"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDY4/z/dM4AAOSwsXFZNNVO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J2MAAOSwn-tZNNVR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1OVg5OTg=/z/yFUAAOSwfpVZNNVb/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "TimeLeft": "P6DT15H25M5S",
+  "StartTime": "2017-06-05T04:07:28.000Z",
+  "ConditionDescription": "Pristine condition, never worn",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "10",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "HandlingTime": "1",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Metropolitan-Museum-Art-Russian-Dragonfly-pin-/172714028564",
+  "EndTime": "2017-06-12T04:07:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MMA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Mixed Materials",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Metropolitan Museum of Art Russian Dragonfly pin",
+  "Location": "Mountain View, California",
+  "Description": "This MMA pin is crafted of 22k gold overlay and silver overlay, Swarovski crystals, a cultured freshwater pearl, and hand enamaling. The size is 2 and a quarter inches.",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1"
+}

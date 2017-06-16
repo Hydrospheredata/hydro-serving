@@ -1,0 +1,76 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Made in Russia USSR Vintage Molnija Molniya Molnia USSR Russian SOVIET Pocket WATCH Movement is in a fully working condition. Keeps good time. Watch is original.Mechanical movement 3602Diameter without crown : 44 mm Diameter with crown : 48 mm Thickness : 10 mm I will ship worldwide by registered Airmail from Ukraine with tracking number.Watch will be carefully packed in strong box.If you have any questions write to me.Usual time for delivery 10 - 14 business days. Please, see other my items :-) Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "StartTime": "2017-05-17T16:44:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjcyWDEwMDU=/z/2zkAAOSwUKxYhwdY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjcwWDEwMzE=/z/fdoAAOSw9GhYhwdZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjI5WDEwMzI=/z/LbQAAOSwnHZYhwda/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Molnija",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "suf5inat",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1770",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "51",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629903622858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T16:44:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "default, default",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Molnija Molniya Molnia USSR Russian SOVIET Pocket WATCH",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Molnija-Molniya-Molnia-USSR-Russian-SOVIET-Pocket-WATCH-/262990362285",
+  "Storefront": {
+    "StoreName": "sufinat",
+    "StoreURL": "http://stores.ebay.com/id=858051369"
+  },
+  "ItemID": "262990362285",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT22H4M49S"
+}

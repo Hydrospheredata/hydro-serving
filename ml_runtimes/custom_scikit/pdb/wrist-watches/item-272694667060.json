@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:52.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tissot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694667060",
+  "HandlingTime": "1",
+  "Description": "You are bidding on Vintage Tissot 14K Gold Manual Wind Mens Wrist Watch This watch comes out of my Private collection Description: A magnificant Tissot 315T made out of 14K solid gold, this is a true collectors watch in great price.This watch is working perfectly. Manufacturer: Tissot Movement: Manual wind Case Metal: 14K Solid gold Size: With the crown:34.8mm Without the crown:33.5mm Lug to lug:38.2mm Band:Real leather Feel free to ask questions or more pictures Bookmark me,I am selling my entire watch collection. Check out my other items! Shipping: Shipping WorldWide. Items above 300$ will be shipped through EMS Express (3-5 days to arrive). Items below 300$ will be shipped through registered mail with tracking number or through EMS Express for an addition of 19.90$. Payment options: Paypal Wire Transfer",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Tissot 315T 14K Gold Manual Wind Mens Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Tissot-315T-14K-Gold-Manual-Wind-Mens-Wrist-Watch-/272694667060",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726946670608080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI0WDcyNA==/z/hzIAAOSw-itXqwIa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg0WDcwMA==/z/H4cAAOSwU-pXqwIt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODMyWDc3Mg==/z/CtsAAOSwMtxXqwJE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI0WDgzNg==/z/XvcAAOSwZVlXqwJU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/oMkAAOSw65FXqwKM/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

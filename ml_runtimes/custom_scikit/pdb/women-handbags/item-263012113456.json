@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTI0MFg3NTA=/z/LFYAAOSwaEhZHi7j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIyOVg3NTA=/z/yOIAAOSwhvFZHi7l/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIyOFg3NTA=/z/yPAAAOSwhvFZHi7m/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mKkAAOSwdjNZFOZ0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VhQAAOSwaEhZFOZ1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3EUAAOSwIaFZFOZ3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/o74AAOSwIQdZFOZ5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xigAAOSwR29ZFOZ-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DroAAOSwYlRZFOaA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MVMAAOSwrhBZFOaC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIyOVg3NTA=/z/UqoAAOSw~FJZHi65/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIyOFg3NTA=/z/UbgAAOSwZKBZHi66/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-michael-kors-Backpack-black-/263012113456",
+  "ConvertedCurrentPrice": {
+    "value": "249.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW MICHAEL KORS BACKPACK",
+  "Title": "Authentic !!! michael kors Backpack black",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "249.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "90.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "anetrknowle_0"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77095",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T00:56:03.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P27DT10H6M17S",
+  "EndTime": "2017-06-30T00:56:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263012113456",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630121134568080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

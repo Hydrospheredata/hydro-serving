@@ -1,0 +1,276 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.23",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:17:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "14.23",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:17:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "382109066955",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coffee-Face-Three-Pointers-Business-Dress-Watches-Wedding-Party-Jewelry-Her-Gift-/382109066955?var=",
+  "ConditionDescription": "Note:It is water resistant,can't be used in diving swimming shower etc.",
+  "NewBestOffer": "false",
+  "SKU": "082-YW01773",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "14.23",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01773X",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "14.23",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01773L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Brown",
+          "Blue"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/f71ea81a-4ecc-41af-a713-3948ebf45114.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/1e003f06-11a3-48ee-8d5f-03a974cb252b.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2dbf165f-5a4d-4c82-931c-ae501867bce8.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2dbf165f-5a4d-4c82-931c-ae501867bce8.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/934003e4-6719-4e75-b564-cdf742f68f08.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/079030a0-10d4-4ae5-9791-61bfeecac92e.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2f7bbc86-7ed9-4462-9b33-ddd471d4f6dd.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/202f59d6-c5bf-42e5-9f1c-2d0899b6af2c.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/8417cfa7-660e-4619-9b5a-f8a9aeb72140.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/9a260887-8bb1-453b-aff2-5006608df649.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/521ec62e-8655-4956-8c68-d51dd0781915.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/98070654-de42-49dd-8c8e-a6b5703fed44.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/b0af0247-e273-4920-a14b-904069b44fe2.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/03e055bc-c5d9-41c0-804d-5518e16c0048.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/4ab49a5f-233b-4a51-9666-6712c9ddb334.JPG"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H54M10S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/n78AAOSwblZZLphV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ctYAAOSws5pZLphT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/gyQAAOSw42JZLphU/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Coffee Face Three Pointers Business Dress Watches Wedding Party Jewelry Her Gift",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

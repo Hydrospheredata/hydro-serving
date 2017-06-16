@@ -1,0 +1,324 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.89",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Guangzhou",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:03:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1442140868",
+    "StoreName": "uu-832"
+  },
+  "CurrentPrice": {
+    "value": "17.89",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:03:08.000Z",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "SKU": "P0018482",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "IS",
+    "IE",
+    "LI",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "CH",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "ZA",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "SA",
+    "YE",
+    "AF",
+    "AZ",
+    "BD",
+    "CN",
+    "GE",
+    "KZ",
+    "MV",
+    "MN",
+    "NP",
+    "TM",
+    "AS",
+    "CK",
+    "FJ",
+    "GU",
+    "KI",
+    "MH",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "PO Box"
+  ],
+  "ItemID": "252966902311",
+  "HandlingTime": "10",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-Sport-Oversize-Dial-Chronograph-Silicone-Band-Date-Analog-Quartz-Wrist-Watch-/252966902311?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "daily life's water resistant",
+          "but not for bathing",
+          "swimming",
+          "diving",
+          "etc"
+        ],
+        "Name": "Waterproof"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "24-Hour Dial"
+        ],
+        "Name": "Features"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "17.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "0196882",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black+White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "17.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "0196883",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black & Red",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black & Red",
+          "Black+White"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black & Red",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/9e/44/a1/9e44a1f6-0ddc-4cac-96f9-b4c2f057dc06/heads/3b257af0-c90c-4a57-b8a8-ff820cf11451.jpg"
+        },
+        {
+          "VariationSpecificValue": "Black+White",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/6e/07/9b/6e079b34-a6e2-4cab-aead-bc29e283e8cf/heads/ed6c874f-70c8-40af-bf6b-88854c8e4b8b.jpg"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H48M22S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/wzMAAOSwtGlZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/A9sAAOSwhvFZLr8R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/RssAAOSwrhBZLr8R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/yq0AAOSw8HBZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/nNgAAOSwaEhZLr8R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/PxgAAOSw1WJZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/vd4AAOSwH09ZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/azUAAOSw42JZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/I7QAAOSw~y9ZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/nz0AAOSw0hlZLr8R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/QD8AAOSwblZZLr8Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/GEcAAOSw-K9ZLr8R/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Men Sport Oversize Dial Chronograph Silicone Band Date Analog Quartz Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "4709",
+    "UserID": "24hours-am-pm",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We accept return for the damaged/faulty products for refund/replacing if there is no man-made damage after the buyers received the items. Buyer must contact us for the problem via eBay message or email us and follow our working steps to provide all the information we need in 7 working days after receiving. We will provide corresponding resolution once we confirm the item problems. If buyers merely feel unhappy, the product is not what they expected, or buyers have simply changed their minds. Customers must contact us and let us know the reason for returning in 7 working days after the parcel arrived. Please make sure the item is in new condition and in the original package before returning, also, all the accessories and instruction must be included in the parcel. We will provide the correct returning address after that. Thank you."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.74",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Marrickville",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:45:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-07T06:45:00.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694643091",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "AUD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Unusual-BULOVA-17J-CYMA-15J-Mens-Watches-Parts-Repair-/272694643091",
+  "Title": "Vintage Unusual BULOVA 17J & CYMA 15J Men's Watches for Parts Or Repair",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726946430918080_2.jpg",
+  "HitCount": "17",
+  "PostalCode": "2204",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H10M56S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTEzM1gxNDUx/z/3bwAAOSw~y9ZLmM2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjU0WDc2NA==/z/SpsAAOSwCQZZLmNg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTYyWDE0MzI=/z/kAwAAOSwcgNZLmNH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTkzWDg4Ng==/z/tp8AAOSwi7RZLmNy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAxWDEwMTM=/z/4F4AAOSw~y9ZLmN-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTE5WDkxNw==/z/LMYAAOSwBt5ZLmOM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzI3WDEyMDY=/z/txsAAOSw~FJZLmOW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUxWDExMzY=/z/nQ4AAOSwaEhZLmOj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzU2WDEwNTI=/z/9kgAAOSwfRdZLmOs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODg2WDE0OTg=/z/ODwAAOSwYvFZLmO8/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage BULOVA 17jewel Manual wind Swiss Watch, Unusual in the way the case presses over the plexi, case bit rusty underneath, But still seals tight over plexi, 11 AF adjusted movement looks quite good, Balance ok, ticks and stops. Signed BULOVA on the case, dial and movement. CYMA 15J balance ok, ticks and stops too Signed CYMA on dial and movement, But Case signed CYPRUS. Case worn, no plexi. BULOVA measures 41 mm long lug tip to lug tip CYMA measures 38 mm long lug tip to lug tip",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "715",
+    "UserID": "phoenixtime",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

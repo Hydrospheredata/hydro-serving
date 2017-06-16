@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg5NjA=/z/cJ4AAOSwh-1W6m0v/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-NWT-Vera-Bradley-Laptop-Travel-Tote-Purse-Paisley-Meets-Plaid-12138-128-/361992101661",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New NWT Vera Bradley Laptop Travel Tote Purse Paisley Meets Plaid #12138-128 Track Page Views With Auctiva's FREE Counter",
+  "Title": "New NWT Vera Bradley Laptop Travel Tote Purse  Paisley Meets Plaid #12138-128",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Liverpool, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "12058",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "cbsyr"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "13090",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-27T16:13:53.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P1DT1H15M11S",
+  "EndTime": "2017-06-03T16:13:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "361992101661",
+  "Storefront": {
+    "StoreName": "Cee and Bee&#39;s China Store and More",
+    "StoreURL": "http://stores.ebay.com/id=3834557"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619921016618080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

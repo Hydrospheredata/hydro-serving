@@ -1,0 +1,101 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "95125",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "yonishterling2503",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1187",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "ManChda Steampunk Mechanical Black Skeleton Big Size Hand Winding Pocket Watch Open Face Fob for Men Product Features Clear front and back allowing a view of the gears.Easy setting, rotating, twisting the top button on the spin, tightening a walk for 24 hours (not too tight, avoid damaging the movement)Pulling out the button on the watch a little to adjust time, and no need to use batteryFashion open face pocket watch fob comes with a new gift boxFor safety, the front and back are made of Acrylic plastic instead of Glass. Description: - High-end full alloy case with metal movement. - Retro royal crown. - Classic skeleton hands. - Removable chain with hook. Specification (approximate): - Case diameter: 5cm (2 inch) approx. - Case thickness: 1.6cm approx (0. 64inch). - Case Material: Alloy. - Chain Length: 39.5cm approx. (hook included). - Chain Material: Alloy. Package Includes: - 1 x Mechanical Pocket Watch - 1 x Gift Box Product Details Brand: ManChDaEAN: 0750810762130UPC: 750810762130Shipping Weight: 0.35 pounds Color: Black Roman",
+  "StartTime": "2017-05-05T19:29:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GaAAAOSwtGlZDNKP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9iQAAOSw42dZDNKP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Rn4AAOSwX9FZDNKO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/CnYAAOSwhvFZDNKO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/cjIAAOSw-3FZDNKP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Rn8AAOSwX9FZDNKO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GZsAAOSwtGlZDNKP/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.07"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ManChDa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "750810762130",
+        "Name": "UPC"
+      },
+      {
+        "Value": "USHBH061",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0750810762130",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "SKU": "B01EC7945I",
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629689180688080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T19:29:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.07"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "All Returns accepted within 30 days after receiving the item, refund given as money back (no exchanges), return shipping to be paid by buyer.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ManChda-Steampunk-Mechanical-Black-Skeleton-Big-Size-Hand-Winding-Pocket-Watch-/262968918068",
+  "Location": "San Jose, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ManChda Steampunk Mechanical Black Skeleton Big Size Hand Winding Pocket Watch",
+  "Storefront": {
+    "StoreName": "BESTSTOREYONI",
+    "StoreURL": "http://stores.ebay.com/id=1078971301"
+  },
+  "ItemID": "262968918068",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT45M14S"
+}

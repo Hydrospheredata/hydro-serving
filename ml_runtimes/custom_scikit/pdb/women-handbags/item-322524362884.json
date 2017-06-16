@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/J3QAAOSwYlRZIeRV/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/6x4AAOSwurZZIeRV/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/BfUAAOSwKytZIeRW/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/jF8AAOSw8lpZIeRW/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/f7QAAOSww5hZIeRX/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FRANKLIN-COVEY-JULIA-MORGENSTERN-COLLECTION-RED-LEATHER-COMPUTER-BAG-/322524362884",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "FRANKLIN COVEY - JULIA MORGENSTERN COLLECTION...RED LEATHER COMPUTER BAG WITH SEPARATE FABRIC LAPTOP BAG AND RED LEATHER CLUTCH INCLUDED...VERY NICE",
+  "Title": "FRANKLIN COVEY - JULIA MORGENSTERN COLLECTION RED LEATHER COMPUTER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Trinidad, Colorado",
+  "Seller": {
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "13rocknrobin"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "81082",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-21T19:08:45.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P18DT4H7M28S",
+  "EndTime": "2017-06-20T19:08:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "FRANKLIN COVEY"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322524362884",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225243628848080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

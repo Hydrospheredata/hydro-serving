@@ -1,0 +1,127 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Fussa-shi",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:12:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090920315",
+    "StoreName": "smilefamily_2011"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:12:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ALBA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "22\uff5835mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "20mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599700520",
+  "HandlingTime": "10",
+  "Description": "ALBA V801-5100 MENS WATCH QUARTZ BATTERY REPLACED 100% AUTHENTIC Hy0020 PRE-OWNED BRAND : ALBA SERIES : REF : V801-5100 SERIAL NUMBER : CASE MATERIAL : Stainless Steel BELT MATERIAL : Stainless Steel BUCKLE MATERIAL : Stainless Steel DIAL COLOR : \u3000SILVER\u3000 GENDER : MENS MOVEMENT : Quartz FUNCTIONS : Case size : 22x35mm without crown LINKS : Wrist Size wearable length : FREE Total Weight : 49.1 g Daily rate : Condition : USED B PARTS CONDITION GLASS : There is a little scratch DIAL : Good condition CASE : Looks somewhat used BEZEL : Looks somewhat used BELT: Looks somewhat used BUCKLE : Looks somewhat used ACCESSORY : Only watch \u3000 \u30fbPaypal only. All items are shipping from Japan. \u2605International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer\u2019s responsibility. Please check with your country\u2019s customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \u201cgifts\u201d - US and International government regulations prohibit such behavior.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ALBA V801-5100 MENS WATCH QUARTZ BATTERY REPLACED 100% AUTHENTIC Hy0020",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ALBA-V801-5100-MENS-WATCH-QUARTZ-BATTERY-REPLACED-100-AUTHENTIC-Hy0020-/182599700520",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825997005208080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT15H39M21S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/uAgAAOSwzqFY9Fuf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/tVAAAOSwVm5Y9Fuh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/6cQAAOSwtZJY9Fui/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/9EQAAOSwRUhY9Fuk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/9HYAAOSwRUhY9Fum/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ekAAAOSwIWVY9Fuz/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "45",
+    "UserID": "smilefamily_2011",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

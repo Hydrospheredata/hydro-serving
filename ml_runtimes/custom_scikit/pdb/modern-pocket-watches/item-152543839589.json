@@ -1,0 +1,59 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "17404",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Avon Al Agnew Wolf Pocket Watch Quartz Watch In Original Tin, Includes Certificate of Authenticity",
+  "StartTime": "2017-05-10T12:41:38.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUyN1gxNjAw/z/LnAAAOSw241Yj3Le/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2MVgxNjAw/z/zp4AAOSw2xRYj3LV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzU2/z/q~wAAOSwUKxYj3Lo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUyN1gxNjAw/z/ehQAAOSwo4pYj3L3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "donnaandrich62",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525438395898080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-09T12:41:38.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Avon-Al-Agnew-Wolf-Pocket-Watch-/152543839589",
+  "Location": "York, Pennsylvania",
+  "Title": "Avon Al Agnew Wolf Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152543839589",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT17H59M2S"
+}

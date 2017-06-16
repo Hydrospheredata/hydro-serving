@@ -1,0 +1,297 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.95"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "CHOICE BRONZE COLOR COMBINATION POCKET/KEYRING WATCH. COMES WITH AN ATTACHED SWIVEL LOBSTER CLASP CONNECTED TO WATCH WITH A DOUBLE SPLIT RING, A 14\" POCKET WATCH CHAIN AND AN EXTRA BATTERY (IN CASE WATCH ARRIVES DEAD).",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIxM1gxNjAw/z/Vm8AAOSwLs5XKnfu/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDc2/z/BPAAAOSw3mpXKnf4/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMz/z/Wn4AAOSw2GlXKngB/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxM1gxMDg5/z/TSUAAOSwhRxXKngG/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "14",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "fatfinggers",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2424",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-30T13:44:52.000Z",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T13:44:52.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "5 day return on watches not working properly. This gives plenty of time to make sure that the watch is working correctly. If there is a problem that arises after 5 days, then the watch was mishandled and you broke it. No returns after the fifth day. Watches are delicate and they will break or stop working if not properly taken care of.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "death",
+          "eyeballs",
+          "chair death",
+          "dragon",
+          "red dragon",
+          "blue dragon",
+          "gold eyeballls",
+          "gold 4 skulls"
+        ],
+        "Name": "Material"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Material",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "death",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxMjU2/z/dxoAAOSwYmZXKngq/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "eyeballs",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxMjM3/z/hsYAAOSw~oFXKng-/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "chair death",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxMTU5/z/9QgAAOSw9ZdXKnhW/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "dragon",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxMzc1/z/YAsAAOSwLs5XKnhu/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "red dragon",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxMTgy/z/jTsAAOSwiYFXKniQ/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "blue dragon",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxMjA4/z/LysAAOSwImRYJRT0/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "gold eyeballls",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTg0/z/~W0AAOSw-0xYl7kf/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjM3/z/BFoAAOSw-0xYl7lr/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "gold 4 skulls",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMzY3/z/Fa0AAOSw9GhYl7l6/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjM3/z/Aa8AAOSwImRYl7mA/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "death",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "eyeballs",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "5",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "chair death",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "0",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "dragon",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "red dragon",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "blue dragon",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "2",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "gold eyeballls",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "gold 4 skulls",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "OH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CHOICE BIG BRONZE GOLD DEATH-DRAGON-SKULL 2-IN-1 POCKET/KEYRING WATCH USA SELLER",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHOICE-BIG-BRONZE-GOLD-DEATH-DRAGON-SKULL-2-IN-1-POCKET-KEYRING-WATCH-USA-SELLER-/172703850074?var=",
+  "Storefront": {
+    "StoreName": "coins&amp;watches",
+    "StoreURL": "http://stores.ebay.com/id=1057570148"
+  },
+  "ItemID": "172703850074",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT19H10M58S"
+}

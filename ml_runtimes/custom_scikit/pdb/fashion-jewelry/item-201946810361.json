@@ -1,0 +1,163 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT21H34M8S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Factory Outlet Direct Supply A brand-new, unused, and unworn item (including handmade items) in the original packaging",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.96",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "201946810361",
+  "ConvertedCurrentPrice": {
+    "value": "31.96",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:58:48.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EASTER-SALES-75-OFF-925-Sterling-Silver-Quartz-Necklace-19-Green-AZ994-/201946810361",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:58:48.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermosa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "2017 Easter Sale",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gemstone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "19\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "EASTER SALES. 75% OFF 925 Sterling Silver Quartz Necklace 19\" Green# AZ994",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "DE",
+    "GI",
+    "GG",
+    "IS",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "CH",
+    "VA",
+    "AM",
+    "IN"
+  ],
+  "Location": "sz",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019468103618080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "UserID": "hermosa216",
+    "FeedbackScore": "39700",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "Hermosa No.4",
+    "StoreURL": "http://stores.ebay.com/id=1048444971"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/faAAAOSwSlBY2h70/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Yx4AAOSwmgJY2h70/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mDsAAOSwB-1Y2h70/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/m0oAAOSwDKtY2h70/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants"
+}

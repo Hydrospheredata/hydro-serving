@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "44.74",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "MATRAVILLE, New South Wales",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:36:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=292726048",
+    "StoreName": "Australian Collectibles"
+  },
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T11:36:13.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694965226",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Armitron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Casing"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Armitron Now Ladies Designer Excellent Condition Working Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Armitron-Now-Ladies-Designer-Excellent-Condition-Working-Quartz-Watch-/272694965226",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726949652268080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "2036",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H17M23S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/x1YAAOSwMgdXynRo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6WYAAOSwvzRXynRm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI4Nlg5NjQ=/z/XqEAAOSwOdpXynR0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/okoAAOSwFe5XynRs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Bs4AAOSw8oFXynRu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/ldkAAOSwgmJXynRx/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "SPECIFICATIONS:\u00a0 Brand Name: Armitron Now\u00a0 Type: Quartz Wrist Band Size: Approx 19.7 cm Case Diameter: Approx 1.8 cm Dial Colour: Blue Band Material: Silver Tone\u00a0 Battery: New Working: Keeping time well Glass Condition: Excellent\u00a0 Case Condition: Excellent\u00a0 Band Condition: Excellent \u00a0 Please see photos and other items for sale.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "1155",
+    "UserID": "autospares888",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

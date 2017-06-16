@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "322525736958",
+  "TimeLeft": "P3DT9H10M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-LARGE-CHUNKY-SILVER-GRAY-STONES-BRACELET-/322525736958",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T00:06:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T00:06:52.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BANGLE",
+        "Name": "Type of Jewelry"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Product"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE LARGE CHUNKY SILVER GRAY STONES BRACELET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SIGNED LANE BRACELET IS SILVER WITH LARGE GRAY SILVER FAUX TYPE PEARLS",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225257369588080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "paper00",
+    "FeedbackScore": "11268",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "paper00",
+    "StoreURL": "http://stores.ebay.com/id=55701735"
+  },
+  "Quantity": "1",
+  "Location": "Waterbury, Connecticut",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQwOVgxNjAw/z/3kcAAOSwxN5WYL0N/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06708"
+}

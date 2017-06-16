@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P4DT16H14M15S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Only used once.  Excellent condition.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152567419823",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hand-Made-Hair-Jewelry-swarovski-crystal-Frosted-Flowers-Hair-Comb-Purple-/152567419823",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T03:38:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T03:38:20.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Good",
+        "Name": "Cut"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Color"
+      },
+      {
+        "Value": "4\"",
+        "Name": "Width"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Hair Comb",
+        "Name": "Type"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Hand Made Hair Jewelry swarovski crystal Frosted Flowers Hair Comb, Purple",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful decorative hair comb with purple and lavender Swarovski crystal flowers.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525674198238080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "janicemcmillan",
+    "FeedbackScore": "334",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Crofton, Maryland",
+  "HitCount": "6",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ieUAAOSw0hlZLjlw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ebkAAOSwsXFZLjlx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Q1oAAOSwjqVZLjlz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ed0AAOSwsXFZLjl1/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "PostalCode": "21114"
+}

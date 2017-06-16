@@ -1,0 +1,165 @@
+{
+  "ExcludeShipToLocation": [
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "GL",
+    "GH",
+    "NE",
+    "NG",
+    "IQ",
+    "LB",
+    "AF",
+    "AM",
+    "CN",
+    "BA"
+  ],
+  "QuantitySold": "1",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.8"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Pocket Watch Chain Hello Kitty Women's Girl's Necklace Heart Watch Bowknot Gold DESCRIPTIONCondition: 100% new with battery inside .Length of necklace: 60cm (30cm*2) adjustable .Pendant size : 3cm .2 Colors can chooseGood as gift for friends, children or yourself .",
+  "StartTime": "2017-05-24T09:20:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/uFsAAOSw-3FZJU73/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/npMAAOSw-K9ZJU8Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTE2WDI5MQ==/z/NoUAAOSw8lpZJU8z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/D14AAOSwcB5ZJU8U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/YocAAOSwR29ZJU8c/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "HighBidder": {
+    "UserID": "a***l",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "153",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MZN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "00000",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "avis2006",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "759",
+    "PositiveFeedbackPercent": "97.2"
+  },
+  "HitCount": "17",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.8"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 7 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-23T09:20:26.000Z",
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "silver",
+          "gold"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/ptsAAOSwxu5ZJU9W/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/sKQAAOSww9xZJU9f/$_57.JPG?set_id=8800005007"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "6.8"
+        },
+        "Quantity": "2",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "silver",
+            "Name": "color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "6.8"
+        },
+        "Quantity": "2",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "gold",
+            "Name": "color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "beijing",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket Watch Chain Hello Kitty Women's Girl's Necklace Heart Watch Bowknot Gold",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Chain-Hello-Kitty-Womens-Girls-Necklace-Heart-Watch-Bowknot-Gold-/282491573042?var=",
+  "Storefront": {
+    "StoreName": "GreatDeals2903",
+    "StoreURL": "http://stores.ebay.com/id=1136285961"
+  },
+  "ItemID": "282491573042",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT14H42M59S"
+}

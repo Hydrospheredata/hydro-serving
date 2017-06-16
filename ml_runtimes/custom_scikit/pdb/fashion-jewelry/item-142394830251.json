@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns within 30 days ~ 10% restocking fee, return shipping paid by buyer, no refund on original shipping fees, customs fees, or taxes.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P19DT20H6M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142394830251",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Faux-Jade-Statement-Ring-Hutton-Wilkinson-Designer-Carved-Flowers-/142394830251",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T11:08:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T11:08:44.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Hutton Wilkinson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "glass",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Faux Jade Statement Ring - Hutton Wilkinson, Designer, Carved Flowers",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "A fabulous faux jade statement ring, featuring a carved glass stone in gold tone metal. Hallmarked for Hutton Wilkinson. About a US size 5. Top of ring is just a touch over 1\" wide. Please view all photos. Any questions, please message me. Thanks for looking!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423948302518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vintageinbloom",
+    "FeedbackScore": "1097",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "VintageinBloom",
+    "StoreURL": "http://stores.ebay.com/id=148533591"
+  },
+  "Quantity": "1",
+  "Location": "Fairfield, Connecticut",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iQUAAOSwmLlYBqjG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9A0AAOSw8w1YBqiu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CZEAAOSw8gVYBqix/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9KsAAOSw8w1YBqiz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pv8AAOSwYIxYBqi2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/h7AAAOSw4shYBqi5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ffgAAOSwzaJYBqi7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iWMAAOSwpLNYBqjE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iFIAAOSw4shYBqi-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/C5gAAOSw8gVYBqjB/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "06824"
+}

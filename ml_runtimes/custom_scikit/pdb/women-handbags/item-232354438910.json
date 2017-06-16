@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTU2NVgxNTYw/z/464AAOSwhlZYsiwh/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDY1/z/-JkAAOSwr~lYsiw0/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/YCQAAOSwx6pYsixh/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/~u0AAOSwr~lYsiyS/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/RuUAAOSwTuJYsizY/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE4NlgxNjAw/z/REsAAOSwtfhYsiz1/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/J30AAOSwfVpYsi0c/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Tablet-Hipster-Plum-Crazy-/232354438910",
+  "ConvertedCurrentPrice": {
+    "value": "67.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "You can shop a wide variety of Vera Bradley Handbags and Accessories in our store.All of our items are stored in a smoke free environment.Vera Bradley Tablet Hipster in Plum Crazy. A colorful way to tote your tablet :)",
+  "Title": "Vera Bradley Tablet Hipster in Plum Crazy",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "North Fort Myers, Florida",
+  "Seller": {
+    "FeedbackScore": "278",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "lane0216"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33903",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T19:51:48.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P27DT4H55M36S",
+  "EndTime": "2017-06-29T19:51:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Crossbody"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232354438910",
+  "Storefront": {
+    "StoreName": "Handbags and More by Savannah Lane",
+    "StoreURL": "http://stores.ebay.com/id=1459287828"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323544389108080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

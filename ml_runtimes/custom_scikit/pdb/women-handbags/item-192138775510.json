@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921387755108080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/4uAAAOSwmgJY1QLy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/QFIAAOSwXYtY1QLy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/j7wAAOSwuxFY1QLz/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betty-Boop-Town-Woman-Bag-Bowling-Bag-Handbag-Shoulderbag-Tr-Free-Delivery-/192138775510",
+  "ConvertedCurrentPrice": {
+    "value": "94.86",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Lenght: 10.2 Height: 9.5 Depth: 12cm - Closed with zipper - Removable and adjustable shoulder strap. Two handles - One Inner Pocket Closed With Zipper - External Material: Synthetic; Inner Material: Synthetic",
+  "Title": "Betty Boop Town Woman Bag Bowling Bag Handbag Shoulderbag Tr. Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.86",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-24T11:28:23.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P19DT19H6M47S",
+  "EndTime": "2017-06-22T11:28:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betty Boop"
+      },
+      {
+        "Name": "MPN",
+        "Value": "315956662"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138775510",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:127113359:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

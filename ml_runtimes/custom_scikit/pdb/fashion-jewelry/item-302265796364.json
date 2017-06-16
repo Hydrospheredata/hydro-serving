@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P20DT15H27M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "189.0",
+    "_currencyID": "AUD"
+  },
+  "SKU": "44890",
+  "ItemID": "302265796364",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Concave-9ct-9k-Solid-Yellow-Gold-Toe-Ring-ADJUSTABLE-44890-/302265796364",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "140.57",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-28T05:15:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T05:15:27.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bee Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9ct Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "44890",
+        "Name": "MPN"
+      },
+      {
+        "Value": "606280788203",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Concave 9ct 9k Solid Yellow Gold Toe Ring ADJUSTABLE 44890",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "RUGS BOOTS EARINGS NECKLACE Note: This item is on pre-sale.All orders after 1st Apr will be dispatched on: 40th June. --> Concave 9ct 9k Solid Yellow Gold Toe Ring ADJUSTABLE 44890",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3022657963648080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "fab-living",
+    "FeedbackScore": "13020",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Fab-living",
+    "StoreURL": "http://stores.ebay.com/id=653894059"
+  },
+  "Location": "Sydney",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/IikAAOSwCU1Y2fFy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/Y-oAAOSw2gxY2fFx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/7pwAAOSwuxFY2fFx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/JL4AAOSwSlBY2fFx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/MfsAAOSw4CFY2fFy/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

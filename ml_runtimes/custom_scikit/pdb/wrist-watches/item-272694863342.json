@@ -1,0 +1,147 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "249.95",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "177779411",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fresh Meadows, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:12:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "249.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:12:30.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "50 Metres / 5 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Burberry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BU9357",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "822138034876",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "0",
+  "Description": "Item up for sale Brand Name:Burberry Model #:9357 Condition:Brand NewGender:UnisexBrand New 100% Authentic Burberry Watch 9357 Comes in original presentation box Ships From USA Flaunt your Burberry with the famous check pattern adorning this chic timepiece.Haymarket check fabric strapRound stainless steel case, 42mm, sapphire crystalSilver-tone chronograph dial with hydraulic-stamped check pattern, tonal stick indices, three hands, date window and three subdialsSwiss quartz movementWater resistant to 50 meters Terms of SaleCustomer Satisfaction is our Top PriorityIf you are not entirely satisfied with your purchase, please don't hesitate to contact us! Returns: - You have 14 days to contact us to return an item. - To be eligible for refund, item must be unused and in the same condition as received in. - Buyer is responsible for payment of return shipping. - Once we receive the item and inspect it, we will contact you with the status of your refund.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-New-Burberry-Mens-Swiss-Leather-Strap-Nova-Check-Chronograph-Watch-BU9357-/272694863342",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726948633428080_1.jpg",
+  "ItemID": "272694863342",
+  "PostalCode": "11366",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H48M11S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg2MzY=/z/a0oAAOSw4CFYuLEa/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDEyODA=/z/a3wAAOSwdGFYuLEu/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Brand New Burberry Men's Swiss Leather Strap Nova Check Chronograph Watch BU9357",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1340",
+    "UserID": "greenstone66",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_10",
+    "RestockingFeeValue": "10%",
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

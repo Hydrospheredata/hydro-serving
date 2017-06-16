@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wichita, Kansas",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T01:34:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T01:34:14.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501526624",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gucci",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Authentic Gucci Men's Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Gucci-Mens-Watch-/282501526624",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825015266248080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "67226",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT10H2M1S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/muQAAOSwB-1YtGf8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/mgYAAOSwB-1YtGf2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/q~IAAOSwWxNYtGf~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/tJ4AAOSwCU1YtGf-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/5-IAAOSw~AVYtGf6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/IM0AAOSwhlZYtGf4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/rvAAAOSwWxNYtGge/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Authentic Gucci men's watch. Comes with box manual and all. Retailed for $750. Has normal use scratches on band. No scratches on face. All sales final",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "180",
+    "UserID": "slimscts",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

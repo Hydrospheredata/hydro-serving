@@ -1,0 +1,152 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "81.68",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "Welland, ON",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:50:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-07T14:50:32.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530290597",
+  "HandlingTime": "10",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Silver",
+          "Yellow Gold"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Date Indicator",
+          "Day Indicator",
+          "12-Hour Dial",
+          "Non-Numeric Hour Marks"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Taiwan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stretch Bracelet",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": [
+          "Silver",
+          "Yellow"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "110.0",
+    "_currencyID": "CAD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bulova-N6-Selfwinding-Mens-Watch-17-Jewel-Automatic-/222530290597",
+  "Title": "Bulova N6 Selfwinding Men's Watch 17 Jewel Automatic",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302905978080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "L3b4c8",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H44M41S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTQy/z/JmMAAOSwdjNZBadO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2OFgxNjAw/z/-DgAAOSwT-FZBadX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTky/z/5ZEAAOSw~y9ZBadd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzU4/z/rogAAOSww5NZBadS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTcy/z/EGEAAOSwrhBZBadV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TcgAAOSwhvFZBadP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDc4/z/ZwMAAOSww9xZBadZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ2MFgxNjAw/z/EU8AAOSwrhBZBadb/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Beautiful Men's Bulova N6 (1976) 17 jewel automatic selfwinding watch Very nice condition , looks like was never worn , working and runs when you give a shake , not been timed , but could use a cleaning and service,",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "106",
+    "UserID": "ca_bo49",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

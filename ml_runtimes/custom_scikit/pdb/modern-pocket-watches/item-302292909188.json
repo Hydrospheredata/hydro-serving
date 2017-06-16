@@ -1,0 +1,94 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Charles-Hubert Paris 3864-G Classic Collection Gold-Plated Antiqued Finish Hu...",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "114.37"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert, Paris 3864-G Classic Collection Gold-Plated Antiqued Finish Hunter Case Quartz Pocket Watch FEATURES Antique Finish Hunter Case White Dial with Date Display Quartz Movement Lifetime Movement Warranty Deluxe Gift Box DESCRIPTION Color/Finish: Antique Gold. Watch Case: Brass. Quartz Movement. Matching Chain. Lifetime Movement Warranty. Deluxe Gift Box. Since 1990, Charles-Hubert Pans has been a major influence in the United States watch industry. By including both retro and contemporary designs in its line, Charles-Hubert Paris has established a large and loyal following. With its unprecedented Lifetime Warranties, exceptional quality standards and affordable pricing, the future looks very bright for Charles-Hubert Paris. BRAND NEW As sent by the manufacturer FAST & FREE SHIPPING We automatically choose the shipping carrier that will get your order to you ASAP, many times before the date guaranteed by eBay. BUY FROM US Your complete satisfaction is our #1 priority. If you're not happy about anything, contact us so we can make it right! Top Rated Plus eBay Rating. Consistently meeting eBay's highest standards for shipping and customer satisfaction. FAST Shipping. Your order is automatically printed in our warehouse. Cancellation requests cannot be guaranteed, but we do have a great return policy. 30 day money back return policy. Because your complete satisfaction is important to us! Secure. We automatically ship to the address eBay and PayPal give us when you place your order. If you need a different address, make sure it's on your account before ordering. eBay and PayPal do not allow us to ship anywhere else. PO Box/Hawaii/Alaska/US Protectorates/APO/FPO. We are sorry, but we cannot always ship to these types of addresses, so this listing doesn't accept these addresses, because we don't want your money tied up if we can't ship to you.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTM5/z/9CgAAOSwvihY~DYd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTMx/z/AxIAAOSw5UZY~DYh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTU2/z/OpAAAOSwSypY~DYm/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc5/z/vY0AAOSwRUhY~DYq/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/5X0AAOSwWiBY~DYt/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "3864-G",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "848870002850",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0848870002850",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "michigancolor",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7378",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-04-23T05:05:51.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3022929091888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T05:05:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "114.37"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "30 day money back policy",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B0049IT0CI",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-3864-G-Classic-Collection-Gold-Plated-Antiqued-Finish-Hu-/302292909188",
+  "Storefront": {
+    "StoreName": "michigancolor",
+    "StoreURL": "http://stores.ebay.com/id=279184979"
+  },
+  "ItemID": "302292909188",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT10H19M20S"
+}

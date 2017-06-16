@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921407693698080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/OAoAAOSwhQhY2EM-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/uo8AAOSwdGFY2EM-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/YaQAAOSw4CFY2EM9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/D5gAAOSwc-tY2EM-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/PSwAAOSwCU1Y2EM9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/x4oAAOSw2gxY2EM-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/81stgeneration-Genuine-Vintage-Leather-Rucksack-Daypack-Backpack-College-Campus-/192140769369",
+  "ConvertedCurrentPrice": {
+    "value": "137.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Vintage rucksack brown goat leather bag with flapover and thin strap buckle closure. It has an external pocket at the front with buckle closure. Height 33cm. Width 32cm. Depth 13cm. 2 back straps length 75cm each. Weight 500g. The leather is naturally tanned without using chemicals so the bags feature variations in the tone and texture in the leather, making each bag unique. This bag can be used as an ipad carry, festival day out or nature walk.",
+  "Title": "81stgeneration Genuine Vintage Leather Rucksack Daypack Backpack College Campus",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "137.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-26T22:39:52.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P22DT6H19M29S",
+  "EndTime": "2017-06-24T22:39:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "81stgeneration"
+      },
+      {
+        "Name": "MPN",
+        "Value": "617955279"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140769369",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57682590:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

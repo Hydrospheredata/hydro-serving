@@ -1,0 +1,224 @@
+{
+  "ExcludeShipToLocation": [
+    "BO",
+    "BR",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "PM",
+    "AO",
+    "BJ",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "KW",
+    "LB",
+    "SA",
+    "TR",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "NC",
+    "PG",
+    "WF",
+    "AL",
+    "AT",
+    "BA",
+    "HR",
+    "CY",
+    "CZ",
+    "DE",
+    "IT",
+    "MD",
+    "SJ",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "SG",
+    "TW"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-03-03T02:26:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ZkMAAOSwTuJYuNRJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nOIAAOSwfVpYuNRE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/7SkAAOSwax5YuNRA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nv4AAOSwXYtYuNRG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/AjMAAOSwOgdYuNQ8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6AsAAOSw~AVYuNRC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Ct0AAOSwdGFYu474/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6WwAAOSwTM5Yu48K/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0SYAAOSwfVpYu48A/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/MD8AAOSw~AVYu478/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.58"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "EBXIJIN[P400C]EBXIJIN",
+  "HitCount": "60",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921183940848080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T02:26:20.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "192118394084",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.58"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cool-Full-Hunter-Gold-Smooth-Analog-Men-Women-Quartz-Pocket-Watch-FOB-Chain-Gift-/192118394084",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Cool Full Hunter Gold Smooth Analog Men Women Quartz Pocket Watch FOB Chain Gift",
+  "Storefront": {
+    "StoreName": "xijinh3",
+    "StoreURL": "http://stores.ebay.com/id=1286992401"
+  },
+  "Seller": {
+    "UserID": "xijinh3",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6131",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT7H33M4S"
+}

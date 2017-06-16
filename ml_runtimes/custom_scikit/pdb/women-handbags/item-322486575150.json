@@ -1,0 +1,126 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3NlgxNTAw/z/YVMAAOSwtZJY9T1q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwOFgxNTAw/z/5bMAAOSw3ZRY9T1r/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjIx/z/IbcAAOSwkShY9T1t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI5WDE1MDA=/z/YcwAAOSwtZJY9T1u/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI2WDE1MDA=/z/YlwAAOSwtZJY9T1z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3MjI=/z/IhEAAOSwcdRY9T1u/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Womens-Lighten-up-Ultimate-Sport-Bag-Java-Floral-/322486575150",
+  "ConvertedCurrentPrice": {
+    "value": "131.77",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Zip closure; two interior slip pockets inside of front zip compartment; three zip pockets on outside; two elastic mesh slip pockets on exterior - New fall 2016; back to school Vera Bradley Women's Lighten up Ultimate Sport Bag, Java Floral",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "131.77",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "17714",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "avalonteam"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Women's Lighten up Ultimate Sport Bag, Java Floral",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T22:10:38.000Z",
+  "HitCount": "34",
+  "TimeLeft": "P14DT5H15M43S",
+  "EndTime": "2017-06-16T22:10:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003388600"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003388600"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Java Floral"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.45 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 22.5 x W 11 x H 2.5 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "15453"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322486575150",
+  "Storefront": {
+    "StoreName": "avalonteam",
+    "StoreURL": "http://stores.ebay.com/id=1343696448"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224865751508080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

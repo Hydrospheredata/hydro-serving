@@ -1,0 +1,69 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jamaica, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-30T19:14:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-29T19:14:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501124468",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "GUESS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Guess Gold-Colored (Steel) Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Guess-Gold-Colored-Steel-Wrist-Watch-/282501124468",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825011244688080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "11432",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT3H41M48S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/q5MAAOSwsXFZLcQI/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TRIAAOSw42JZLcP7/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Guess Gold-Colored (Steel) Wrist Watch. Condition is Pre-owned. Shipped with USPS First Class Package.",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "eelnitsua97_4",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

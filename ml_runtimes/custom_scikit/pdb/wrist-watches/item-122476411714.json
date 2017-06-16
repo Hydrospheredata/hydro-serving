@@ -1,0 +1,86 @@
+{
+  "QuantitySold": "0",
+  "Title": "LONGINES MOVEMENT CAL 23 Z  WITH DIAL AND HANDS WORKS",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "85.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "15",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "LONGINES CAL 23 Z completado la ejecuci\u00f3n, CON esfera y las agujas",
+  "StartTime": "2017-05-02T22:06:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/eagAAOSwmtJXYNTt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7sgAAOSwc1FXYNUB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JpIAAOSwnNBXYNUU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/8dEAAOSwc1FXYNUj/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "LONGINES",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MENS",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mec\u00e1nica (Mano-bobina)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sudclock01",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "70",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "36",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224764117148080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-01T22:06:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "85.0"
+  },
+  "BidCount": "0",
+  "Country": "AR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ConditionDescription": "COMPLETED WITH DIAL AND HANDS WORKING",
+  "Location": "Capital Federal, default",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LONGINES-MOVEMENT-CAL-23-Z-DIAL-AND-HANDS-WORKS-/122476411714",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "122476411714",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "PT23H31M19S"
+}

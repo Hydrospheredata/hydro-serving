@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P23DT22H44M54S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "91.16",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525630596588080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/XsMAAOSwX61ZCkw9/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rhine-26-Wkndr-Duffel-BlkRd-Long-Lat-Inc-Swiss-Rhine-26-Weekender-Duff-/152563059658",
+  "ConvertedCurrentPrice": {
+    "value": "70.67",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Rhine 26\" Wkndr Duffel BlkRd, by Long Lat Inc., (Swiss Rhine 26\" Weekender Duff) Long Lat Inc. SC10626DBLR Satisfaction GuaranteedGreat ValueRhine 26\" Wkndr Duffel BlkRdLong Lat Inc. Swiss Rhine 26\" Weekender Duffel Black & Red Item Length: 12 ItemWidth: 12 ItemHeight: 12 ItemWeight: 3.55 PackageLength: N/A PackageWidth: N/A PackageHeight: N/A PackageWeight:",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "70.67",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "4 Locations nationwide",
+  "Seller": {
+    "FeedbackScore": "114776",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "RedShooting",
+    "UserID": "promax_supply"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Rhine 26\" Wkndr Duffel BlkRd, by Long Lat Inc., (Swiss Rhine 26\" Weekender Duff)",
+  "GlobalShipping": "false",
+  "Quantity": "6",
+  "StartTime": "2017-05-27T15:20:15.000Z",
+  "HitCount": "7",
+  "Subtitle": "New in Package, Satisfaction Guaranteed",
+  "EndTime": "2017-06-26T15:20:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Manufacturer Part Number",
+        "Value": "SC10626DBLR"
+      },
+      {
+        "Name": "MPN",
+        "Value": "SC10626DBLR"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Long Lat Inc."
+      },
+      {
+        "Name": "Brand",
+        "Value": "Long Lat Inc."
+      },
+      {
+        "Name": "UPC",
+        "Value": "040413019114"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152563059658",
+  "Storefront": {
+    "StoreName": "ProMax Supply",
+    "StoreURL": "http://stores.ebay.com/id=1130314362"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "DH-SWISS027",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

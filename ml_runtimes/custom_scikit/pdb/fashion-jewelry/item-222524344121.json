@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT11H15M43S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "30.01",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222524344121",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EVER-FAITH-Womens-Austrian-Crystal-White-Simulated-Pearl-Flower-Leaf-Hair-Comb-/222524344121",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "30.01",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T22:43:53.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T22:43:53.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EVER FAITH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "A13537-1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.17 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.94 x W 3.82 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "EVER FAITH Women's Austrian Crystal White Simulated Pearl Flower Leaf Hair Comb",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Classic, glamorous and spectacular design will make you an instant centre of attraction. - [!]EVER FAITH\u00c2\u00ae is a US registered trademark and Ever Faith Jewelry is its only owner. - Looks elegant set in vintage hair style, like side chignon and French pleat. Can also be positioned at the side of the head. - Length: 4cm(1.6\"), Width: 9cm(3.5\"), Weight: 34g. - Intended Use: Wedding/Anniversary/Mothers-day/Valentines-day/Birthday/Party/Prom/Casual Wear. - Wrapping: Come with some spare crystals, and a gift box or favor bag (depend on product size). If you need assistance please contact us. EVER FAITH Women's Austrian Crystal White Simulated Pearl Flower Leaf Hair Comb",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225243441218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "2.tzvishai2",
+    "FeedbackScore": "607",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/s6kAAOSwGJlZJ14r/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/X1AAAOSwAPVZJ14r/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/jUcAAOSw42dZJ14s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JCIAAOSwblZZJ14s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/X1oAAOSwAPVZJ14s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3bQAAOSwlY1ZJ14r/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

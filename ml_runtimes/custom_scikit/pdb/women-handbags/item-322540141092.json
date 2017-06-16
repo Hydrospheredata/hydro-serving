@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/y~0AAOSwdjNZCc07/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Eu0AAOSww9xZCc0-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CRYAAOSwX61ZCc1A/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pYUAAOSw42JZCc1B/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/GtUAAOSwtGlZCc1D/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zRcAAOSwdjNZCc1F/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Too-Hot-Handle-Large-Leather-Satchel-/322540141092",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Please find attached pics for more details",
+  "Title": "Marc by Marc Jacobs Too Hot To Handle Large Leather Satchel",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Elmhurst, New York",
+  "Seller": {
+    "FeedbackScore": "43",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "nbakathy"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11373",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:31:50.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT22H20M37S",
+  "EndTime": "2017-07-02T12:31:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322540141092",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225401410928080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

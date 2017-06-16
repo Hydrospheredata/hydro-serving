@@ -1,0 +1,217 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:33:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "4",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "14.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:33:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "2223659",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Fantastic D0N26 silver case Pearl elastic band Women Watch with Leather Band $14.77 Item Type: Quartz Wristwatches Dial Diameter: 00 mm Case Shape: Round Band Length: 00 cm Model Number: mil 025010307 Band Material Type: Leather Band Width: 00 mm Feature: Shock Resistant Gender: Women Style: Fashion & Casual Case Thickness: 00 mm Brand Name: Hcandice Case Material: Alloy Boxes & Cases Material: No package Movement: Quartz Clasp Type: None Water Resistance Depth: No waterproof Dial Window Material Type: Glass Dial Material Type: Alloy Dial Display: Analog Condition: New without tags Item Type: Wristwatches Dial Diameter: 00 mm Band Width: 00 mm Band Length: 00 mm DIAL Thickness: 00 MM band: elastic \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fantastic-D0N26-silver-case-Pearl-elastic-band-Women-Watch-Leather-Band-/192203293901?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2223659-d",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2223659-d",
+              "Name": "MPN"
+            },
+            {
+              "Value": "D",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2223659-a",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2223659-a",
+              "Name": "MPN"
+            },
+            {
+              "Value": "A",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2223659-c",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2223659-c",
+              "Name": "MPN"
+            },
+            {
+              "Value": "C",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2223659-b",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2223659-b",
+              "Name": "MPN"
+            },
+            {
+              "Value": "B",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "2223659-a",
+            "2223659-b",
+            "2223659-c",
+            "2223659-d"
+          ],
+          "Name": "MPN"
+        },
+        {
+          "Value": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "Name": "Color"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "D",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-113890450.jpg?v=1487794210"
+        },
+        {
+          "VariationSpecificValue": "A",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-113890441.jpg?v=1487794210"
+        },
+        {
+          "VariationSpecificValue": "C",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-113890448.jpg?v=1487794210"
+        },
+        {
+          "VariationSpecificValue": "B",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-113890444.jpg?v=1487794210"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "ItemID": "192203293901",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H17M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6bUAAOSwIaFZLrge/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Fantastic D0N26 silver case Pearl elastic band Women Watch with Leather Band",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

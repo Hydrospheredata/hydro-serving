@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT1H22S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU",
+    "NZ"
+  ],
+  "CurrentPrice": {
+    "value": "31.05",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172706146473",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FAUX-BLACK-PEARL-BODY-CHAIN-HARNESS-HEMATITE-TONE-BODY-JEWELRY-NEW-US-SELLER-/172706146473",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.05",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T16:14:53.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-30T16:14:53.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BASE METAL",
+        "Name": "Metal"
+      },
+      {
+        "Value": "METAL",
+        "Name": "Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "BASE METALS",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "FAUX BLACK PEARL BODY CHAIN HARNESS HEMATITE TONE BODY JEWELRY NEW US SELLER",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Brand New Faux Pearl Harness Body Chain Fashion Jewelry Hematite Tine Body Chain Harness with Faux Black Pearl Chain Link Lobster Clasp Base Metals Authentic & purchased from retail. Take a peek at my other items...I do combine shipping but most ship FREE!! Smoke free home International customers welcome, but please contact me for correct shipping charge before bidding. Please make payment within 3 days to ensure speedy transactions-- I will ship items within 2 business days of cleared payment Feel free to contact me with any questions you may have-- I only accept returns if items are not as described or listed Thanks for bidding & GOOD LUCK!!! cgi2ws",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727061464738080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "har1027",
+    "FeedbackScore": "6267",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Har1027",
+    "StoreURL": "http://stores.ebay.com/id=821775191"
+  },
+  "Quantity": "1",
+  "Location": "Peoria, Arizona",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTg1/z/6p4AAOSwzvlW9LmU/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "85381"
+}

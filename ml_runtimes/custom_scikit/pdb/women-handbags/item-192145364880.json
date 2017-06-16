@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921453648808080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/DGwAAOSwdGFY3vLQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/1-cAAOSww3tY3vLQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/dbAAAOSwzgBY3vLP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/1zgAAOSwuxFY3vLP/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Picard-Snow-5-8495-Kalbsaffiano-Leather-Ladies-Handbag-26X21X15-CM-Red-Shipp-/192145364880",
+  "ConvertedCurrentPrice": {
+    "value": "241.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Made from calf saf Fiano leather, this case fashion-conscious women especially with its trapezium shape and the short handles that are already make for a Ladyhaften appearance when worn. With a removable strap design makes it can also be used over your shoulder. The perfect accessory for any party.",
+  "Title": "Picard Snow 5 8495 Kalbsaffiano - Leather Ladies 'Handbag 26X21X15 CM Red. Shipp",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "241.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-01T00:22:32.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P27DT8H5M10S",
+  "EndTime": "2017-06-30T00:22:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Picard"
+      },
+      {
+        "Name": "MPN",
+        "Value": "239156325"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192145364880",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:75186512:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

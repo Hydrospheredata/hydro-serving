@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT37M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "88.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292136981252",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KIRKS-FOLLY-WHIMSICAL-DRAGONFLY-BEADED-BAG-NEW-/292136981252",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "88.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T15:27:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T15:27:38.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kirks Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BEADED BAG",
+        "Name": "Type"
+      },
+      {
+        "Value": "Opalescent beads",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "KIRKS FOLLY  WHIMSICAL DRAGONFLY BEADED BAG NEW",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "KIRKS FOLLY WHIMSICAL DRAGONFLY BEADED BAG Keep your treasured fairy friends close at hand. The clutch-style design of this bag is covered with sewn-on bugle and seed beads for a whimsical look. From Kirks Folly. *Zip closure *Fully lined interior with open pocket *Dragonfly: white background with clear opalescent beads; white lining; dragonfly in yellow, lime green, and shades of brown and purple *Bag measures approx. 8\" Long x 4-1/2\" High. *100% polyester, exclusive of decoration *Hand-beaded - No two exactly alike. *PayPal accepted for payment, please pay within 3 days of auction close. Items ship via the US Postal Service once payment has been received. Please note that I do not accept returns, so email me with any questions prior to bidding. Item comes from a smoke free and pet free environment. I will do combined shipping; just notify me by email so I can adjust the invoice. Items are shipped within 24 hours of confirmed payment. Once an item has shipped, I will email the delivery confirmation number to the buyer. Sorry, United States shipping only",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921369812528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "chicandcheerful4u",
+    "FeedbackScore": "424",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "NJ",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDg4WDg5MQ==/z/PRsAAMXQBwlRRDIW/$T2eC16N,!)EE9s2ufhUEBRRDIW,hhg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAxWDgzNg==/z/x80AAMXQhuVRRDIV/$T2eC16Z,!ysE9sy0i2wQBRRDIUo),w~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMwWDg4Nw==/z/tuIAAMXQfFJRRDIW/$T2eC16d,!yUE9s6NFmq+BRRDIWBpG!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMzWDkwMQ==/z/alEAAMXQTghRRDIW/$T2eC16JHJIQE9qUHrWnMBRRDIWQe2g~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDEwODc=/z/TBsAAOxyA4ZRRDIW/$T2eC16d,!y8E9s2fk3wEBRRDIWSTFg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,192 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/80Store-Womens-Lady-2017-Trench-Fashion-Scrub-Faux-PU-Leather-Tote-Shoulder-Han-/192151457531?var=",
+  "ConvertedCurrentPrice": {
+    "value": "57.69",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size: Please See The Dimension On Pictures (28CM*23CM) Interior: 2 open pockets, 2 zip pocket and 2 cards pockets. Nice bag that stands up due to its flat bottom It is also ideal for use as a shopping bag or for every day use and it stands out with its classic yet unusual design. Outer Material: Scrub Faux Leather Exterior: zip closure, adjustable and removeable shoulder strap, top handles. Package include: 1* Tote Handbag; 1*Rabbit Pendant(Colour Random) Material Composition: Interior: Fabric Crafted from the best faux leather with custom hardware and detail stitching, it's the perfect work-to-weekend companion Classic with a fashionable twist, this bag is crafted in scrub faux leather and finished with extra strong and detailed stitching",
+  "Title": "80Store Women's Lady 2017 Trench Fashion Scrub Faux PU Leather Tote Shoulder Han",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.69",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/854/338/312192363/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/854/339/311609771/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark Grey",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/854/340/312180583/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/854/341/311720021/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "57.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854338:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "56.1",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854339:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "57.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854340:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "57.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854341:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grey"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Black",
+          "Pink",
+          "Dark Grey",
+          "Grey"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-07T19:03:07.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P4DT2H47M42S",
+  "EndTime": "2017-06-06T19:03:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "80Store"
+      },
+      {
+        "Name": "MPN",
+        "Value": "152724019"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151457531",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139854337:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

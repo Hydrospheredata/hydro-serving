@@ -1,0 +1,158 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT13H42M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "38.58",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122531934021",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Boucher-Signed-Numbered-Gold-Tone-Rhinestone-Accented-Flower-Brooch-/122531934021",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.58",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T02:41:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T02:41:44.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Boucher",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Boucher Signed Numbered Gold Tone Rhinestone Accented Flower Brooch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Boucher Signed Numbered Gold Tone Rhinestone Accented Flower Brooch Item is signed and numbered on the back. The condition is lightly used. The size is approximately 2 1/4\" across.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225319340218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "caking1960",
+    "FeedbackScore": "11931",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "caking1960",
+    "StoreURL": "http://stores.ebay.com/id=157554"
+  },
+  "Quantity": "1",
+  "Location": "Albuquerque, New Mexico",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ2MlgxNjAw/z/SuAAAOSwXYtYvKAA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM3OFgxNDcx/z/S~sAAOSwXYtYvKAL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxMlgxNjAw/z/Hx0AAOSwWxNYvKAV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/HfsAAOSwCU1YvKAe/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "87114"
+}

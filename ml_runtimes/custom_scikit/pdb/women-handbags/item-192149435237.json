@@ -1,0 +1,215 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/S-ZONE-Mens-Canvas-Leather-Holdall-Travel-Duffle-Overnight-Weekend-Satchel-Totes-/192149435237?var=",
+  "ConvertedCurrentPrice": {
+    "value": "72.94",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Department: Men Style: Handbag, Shoulder Bag, Crossbody Bag Material: Genuine cowhide leather; Thick canvas fabric Structure: 1x main department\u00a0 2x front small pockets\u00a0 1x inner zipped divider\u00a0 1x inner wall zipped pocket\u00a0 2x open slots",
+  "Title": "S-ZONE Mens Canvas Leather Holdall Travel Duffle Overnight Weekend Satchel Totes",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "72.94",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Rice White (Big Size: 54 x 23 x 42CM)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/648/316420131/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark gray",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/792/649/316565947/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Khaki",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/650/316479629/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey (Big Size: 54 x 23 x 42CM)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/651/316534736/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Army Green (Big Size: 54 x 23 x 42CM)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0140/792/652/316608908/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "72.94",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792648:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Rice White (Big Size: 54 x 23 x 42CM)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "179.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792649:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark gray"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "223.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792650:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Khaki"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "174.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792651:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grey (Big Size: 54 x 23 x 42CM)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792652:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Army Green (Big Size: 54 x 23 x 42CM)"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Rice White (Big Size: 54 x 23 x 42CM)",
+          "Dark gray",
+          "Khaki",
+          "Grey (Big Size: 54 x 23 x 42CM)",
+          "Army Green (Big Size: 54 x 23 x 42CM)"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-05T16:51:32.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P2DT35M10S",
+  "EndTime": "2017-06-04T16:51:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "S-ZONE"
+      },
+      {
+        "Name": "MPN",
+        "Value": "030743029"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192149435237",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:140792647:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

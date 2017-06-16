@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Y2kAAOSwX9FZGNw8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Y5MAAOSwX9FZGNw~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/rCoAAOSwR29ZGNxC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/O0EAAOSw1WJZGNxF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/9cQAAOSw8lpZGNxI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/eUMAAOSwONBZGNxK/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-VINTAGE-BLACK-LEATHER-MESSENGER-BRIEFCASE-LAPTOP-CASE-BAG-/172674825617",
+  "ConvertedCurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Minor cosmetic wear. Everything works and looks great",
+  "Title": "COACH VINTAGE BLACK LEATHER MESSENGER BRIEFCASE LAPTOP CASE BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Fountain Hills, Arizona",
+  "Seller": {
+    "FeedbackScore": "86",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "tblunt88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85268",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-14T22:39:07.000Z",
+  "HitCount": "24",
+  "TimeLeft": "P11DT7H35M48S",
+  "EndTime": "2017-06-13T22:39:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "MESSENGER BAG"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172674825617",
+  "Storefront": {
+    "StoreName": "Tyselectronicsnmore",
+    "StoreURL": "http://stores.ebay.com/id=895564303"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726748256178080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

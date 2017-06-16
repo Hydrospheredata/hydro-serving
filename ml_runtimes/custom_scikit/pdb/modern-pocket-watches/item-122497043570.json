@@ -1,0 +1,159 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "CA",
+    "IL",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.86"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4894462167472",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462167472",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462167472",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-15T02:00:40.000Z",
+  "PictureURL": [
+    "http://luckyretail.com/Uploadfile/201703035/019884/019884.jpg",
+    "http://luckyretail.com/Uploadfile/201703035/019884/019884-1.jpg",
+    "http://luckyretail.com/Uploadfile/201703035/019884/019884-2.jpg"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKZH-I019884",
+  "HitCount": "8",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T02:00:40.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122497043570",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you received the item, please return it within 30 days for a replacement or money back. Please contact me before you return it. 2.All  returned items must be in the original packaging with all  components  and  accessories included, and you must provide us the return  shipping  information  (The shipment or the tracking number) 3.Return  shipping fee is to be paid by the buyers. We will not be responsible for any  custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.86"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "White Quartz Movement Nurse Brooch Fob Tunic Pocket Pendant Watch L8W8",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/White-Quartz-Movement-Nurse-Brooch-Fob-Tunic-Pocket-Pendant-Watch-L8W8-/122497043570",
+  "Storefront": {
+    "StoreName": "zhuangjian6",
+    "StoreURL": "http://stores.ebay.com/id=1401573918"
+  },
+  "Seller": {
+    "UserID": "zhuangjian6",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14668",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT7H20M15S"
+}

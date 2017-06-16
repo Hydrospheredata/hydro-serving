@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Toledo, Ohio",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:21:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T10:21:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355123155",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Alarm",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MEN'S INVICTA  DIPLOMAT WATCH  #3421",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MENS-INVICTA-DIPLOMAT-WATCH-3421-/232355123155",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323551231558080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "43604",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H57M59S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/s24AAOSwls5Y561D/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/T6wAAOSwDmBY56x9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/S~QAAOSwpkFY56yf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/lngAAOSwU8hY56z6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/4HIAAOSw3utY56zK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/5fsAAOSwB-1Y5603/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/PGsAAOSwmgJY560L/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/13kAAOSw4CFY56xO/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "SWISS MADE DEPLOYMENT CLASP ON STRAP ROSE TONE MARKERS CREAM COLOR DIAL NEW BATTERY VERY GOOD CONDITION INCLUDES MANUAL LIKE NEW EXCEPT PAY-PAL ONLY SHIPS IN USA ONLY THANKS",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "211",
+    "UserID": "dzf33242012",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

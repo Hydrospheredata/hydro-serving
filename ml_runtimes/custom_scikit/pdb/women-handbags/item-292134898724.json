@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bF4AAOSwlndZKbfH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xsIAAOSwhvFZKbex/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LsoAAOSwBt5ZKbe1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/o3gAAOSwsXFZKbe4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/p04AAOSwZ4dZKbe6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VtwAAOSw7GRZKbe9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/x2QAAOSwH09ZKbe~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bToAAOSwxu5ZKbfB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/a9UAAOSw8lpZKbfD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~MgAAOSwYvFZKbfF/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-Amy-Quilted-Leather-Backpack-Shoulder-Bag-Purse-Magenta-PINK-NWT-/292134898724",
+  "ConvertedCurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Sooo soft! Brand new with tags.",
+  "Title": "VERA BRADLEY Amy Quilted Leather Backpack Shoulder Bag Purse Magenta PINK NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Saint Albans, West Virginia",
+  "Seller": {
+    "FeedbackScore": "275",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "natize"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "25177",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T20:17:08.000Z",
+  "HitCount": "13",
+  "TimeLeft": "PT5H26M13S",
+  "EndTime": "2017-06-02T20:17:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Magenta (Pink)"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292134898724",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921348987248080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

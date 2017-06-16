@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT12H1M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "31.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112415191211",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Designer-Inspired-Cream-Gold-Draped-Long-Pearl-Strand-Bib-Body-Chain-Necklace-/112415191211",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T03:22:07.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T03:22:07.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ginga's Galleria",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Body Chain",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Cream",
+        "Name": "Color"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Cream",
+        "Name": "Main Stone Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Designer Inspired Cream & Gold Draped Long Pearl Strand Bib Body Chain Necklace",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Designer Inspired Cream & Gold Draped Long Pearl Strand Bib Body Chain NecklaceUSA SELLER Details:\u2022 Style No : 335263\u2022 Color : Cream, Gold\u2022 Theme : Pearl \u2022 Necklace Size : 16\" + 3\" L\u2022 Decor Size : 20\" L \u2022 Earrings Size : 1.75\" L\u2022 Draped long pearl strand bib body chain necklace",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124151912118080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "UserID": "gingasgalleria662",
+    "FeedbackScore": "3940",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "gingasgalleria662",
+    "StoreURL": "http://stores.ebay.com/id=1129462373"
+  },
+  "Quantity": "2",
+  "Location": "Flowood, Mississippi",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/0NMAAOSw4CFYtwDP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/R5UAAOSwOgdYtwDR/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "39232"
+}

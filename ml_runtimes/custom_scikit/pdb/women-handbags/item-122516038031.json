@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225160380318080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzAwWDMwMA==/z/9DMAAOSwDiBZJ3Qd/$_1.JPG?set_id=8800004005"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCKC-96615-McKleinUSA-LAKEWOOD-96615-Black-Leather-Fly-Through-Checkpoint-Frien-/122516038031",
+  "ConvertedCurrentPrice": {
+    "value": "270.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKleinUSA LAKEWOOD 96615 Black Leather Fly-Through Checkpoint-Friendly Detachable-Wheeled Ladies Briefcase Patented 2-In-1 Removable Wheel and Handle System.*Flap over front pocket with key lock for added security.*Main compartment divided by secure zipper pocket.*Interior organizer section for business cards, pens, keys, cell phones and notepads.*Interior zipper pocket.*Interior zipper pocket.*Leather shoulder strap.*Orange, green, blue, and pink cases are trimmed in sand. Fly-Through Checkpoint-Friendly 2-In-1 Removable-Wheeled Ladies' Laptop Case (Black) Color : Black Size : One Size Features :Patented 2-In-1 Removable Wheel and Handle System.Flap over front pocket with key lock for added security.Main compartment divided by secure zipper pocket.Interior organizer section for business cards, pens, keys, cell phones and notepads.Interior zipper pocket.Interior zipper pocket.Leather shoulder strap.Orange, green, blue, and pink cases are trimmed in sand.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "270.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "1533",
+    "PositiveFeedbackPercent": "96.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "virventurein"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCKC-96615-McKleinUSA LAKEWOOD 96615 Black Leather Fly-Through Checkpoint-Frien",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-05-26T00:17:31.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P22DT9H17M50S",
+  "EndTime": "2017-06-25T00:17:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "642154966155"
+      },
+      {
+        "Name": "Model",
+        "Value": "96615"
+      },
+      {
+        "Name": "MPN",
+        "Value": "96615"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein Company"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122516038031",
+  "Storefront": {
+    "StoreName": "virventurein",
+    "StoreURL": "http://stores.ebay.com/id=1409776454"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "MCKC-96615",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDkxNg==/z/tbwAAOSw7GRZBmGY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDEwNjI=/z/yK8AAOSw~y9ZBmHM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDE=/z/yYAAAOSw-3FZBmH4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/8DkAAOSw42dZBmI5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/3XAAAOSw~y9ZBmJO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/~OEAAOSwt0FZBmJq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/9SEAAOSwhvFZBmKc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/-7oAAOSwhvFZBmLJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/NrkAAOSwcgNZBmLl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQ1WDg1Mw==/z/eFcAAOSwuMZZBmOC/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Claire-Chase-Small-Laptop-Briefcase-Bag-NWT-Saddle-Color-w-Shoulder-Strap-/252912728176",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Claire Chase Small Lap Top Leather Briefcase/Slim business Bag. New with tags and original bag. Style Features According to Manufacturer:-Features one main zippered compartment with dividers for three files-Has room for blackberry/phone, pens, removable key holder-Includes one interior zippered pocket-Perfect for small computer as long as it does not require special padding-Exterior pocket (without zipper) on each side of bag for easy access-Bag features a beautiful light-weight leather shoulder strap for easy carry Additional Features According to Manufacturer: Exterior Dimensions: 15.5\" x 11.5\" x 3.5\" Linear Inches: 30.5\" Material: Cowhide Leather/100% Top-Grain Leather",
+  "Title": "Claire Chase Small Laptop/Briefcase Bag NWT Saddle Color w/ Shoulder Strap",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Normal, Illinois",
+  "Seller": {
+    "FeedbackScore": "27",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "eccentrics1am5"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "61761",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-01T19:29:16.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P28DT4H22M3S",
+  "EndTime": "2017-06-30T19:29:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Claire Chase"
+      },
+      {
+        "Name": "Material",
+        "Value": "100% Top Grain Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Saddle"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252912728176",
+  "Storefront": {
+    "StoreName": "Eccentrics1am",
+    "StoreURL": "http://stores.ebay.com/id=1588319083"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529127281768080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

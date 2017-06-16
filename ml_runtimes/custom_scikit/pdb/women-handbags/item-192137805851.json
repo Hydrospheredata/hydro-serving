@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921378058518080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/BYoAAOSwax5Y04MO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/jiIAAOSw4CFY04MP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZAYAAOSw32lY04MO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/BYwAAOSwax5Y04MO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/-v0AAOSwsW9Y04MO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WL4AAOSwol5Y04MO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/a4QAAOSwYXVY04MP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5Q8AAOSwXYtY04MO/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fafada-Mens-Small-Casual-Canvas-Military-Messenger-Shoulder-Travel-Hiking-Bag-B-/192137805851",
+  "ConvertedCurrentPrice": {
+    "value": "59.32",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fafada Men's Small Casual Canvas Military Messenger Shoulder Travel Hiking Bag Backpack Cross Body Side Gym Pack Bag Typ B by Fafada Ships from UK Supplier Other information: 44020558 Related Searches: Shoulder Bag Bags, Fafada Bags, Fafada Shoulder Bag Weight: 0.54 kg",
+  "Title": "Fafada Men's Small Casual Canvas Military Messenger Shoulder Travel Hiking Bag B",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.32",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-23T08:10:41.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P18DT15H47M59S",
+  "EndTime": "2017-06-21T08:10:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Fafada"
+      },
+      {
+        "Name": "MPN",
+        "Value": "44020558"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137805851",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:108312764:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

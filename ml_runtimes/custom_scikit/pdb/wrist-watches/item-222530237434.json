@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bayville, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:35:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=103289785",
+    "StoreName": "Irma&#39;s Antique Garage"
+  },
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:35:16.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530237434",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage LaMarque 17 Jewels Incabloc Ladies Wrist Watch",
+  "ConditionDescription": "Pre-owned",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-LaMarque-17-Jewels-Incabloc-Ladies-Wrist-Watch-/222530237434",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225302374348080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "08721",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H23M32S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/hMgAAOSwo4pYi8v1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/pTwAAOSw241Yi8v3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/pYEAAOSw241Yi8v5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/-psAAOSw44BYi8v8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/62QAAOSwA3dYi8v~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/fccAAOSw4DJYi8wB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/lHgAAOSwjDZYi8wD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/cfwAAOSwLEtYi8wG/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage LaMarque 17 Jewels Incabloc Ladies Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "1494",
+    "UserID": "mory89",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

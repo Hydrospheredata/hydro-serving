@@ -1,0 +1,137 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H47M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "41.22",
+    "_currencyID": "USD"
+  },
+  "SKU": "A000036-shoul-A4-189",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322543292978",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/natural-Pink-crystal-Accessories-Pearl-Aquamarine-925-Silver-love-Key-Bracelet-/322543292978",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "41.22",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:25:03.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:25:03.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stretchable",
+        "Name": "Features"
+      },
+      {
+        "Value": "7",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "925 Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Aquamarine",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "natural Pink crystal Accessories Pearl Aquamarine 925 Silver love Key Bracelet",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225432929788080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "2014bestbird",
+    "FeedbackScore": "8672",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Beauty_User",
+    "StoreURL": "http://stores.ebay.com/id=1271974606"
+  },
+  "Quantity": "3",
+  "Location": "Lianyungang",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/WYUAAOSwYvFZNRVi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MJwAAOSwcgNZNRVi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/otkAAOSwxu5ZNRVi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/C1cAAOSwlY1ZNRVi/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

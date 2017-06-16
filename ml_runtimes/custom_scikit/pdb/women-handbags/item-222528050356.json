@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225280503568080_1.jpg",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQ3MlgxNjAw/z/ZBIAAOSwx6pYqgey/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTk2WDU5Ng==/z/QHUAAOSwdGFYskQJ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/Nzg0WDEzOTY=/z/tRoAAOSwTuJYskQm/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ewkAAOSwax5Yqge6/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDkw/z/~mcAAOSw~AVYqge8/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE2MFgxNDg4/z/~j4AAOSw-RFYskQ7/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lululemon-Free-Bag-Red-Grape-Capoeria-NWOT-Gym-Duffle-Yoga-Overnight-/222528050356",
+  "ConvertedCurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Due to the differences in lighting, your computer monitor may depict the colors differently than the actual product. It is our goal to make sure all of our customers have a great shopping experience and atre staisfied with their order. If you have any questions please feel free to contact us. Shop our entire collection of Lululemon and designer apparelIt is our goal to make sure all of our customers have a great shopping experience and are pleased with their order. If you have any questions please feel free to contact us.",
+  "Title": "Lululemon Free to Be Bag Red Grape Capoeria NWOT Gym Duffle Yoga Overnight",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2041",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "laedge35"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90066",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T12:20:13.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P25DT19H47M39S",
+  "EndTime": "2017-06-28T12:20:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffle Bags"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222528050356",
+  "PrimaryCategoryID": "169296",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "LA Edge",
+    "StoreURL": "http://stores.ebay.com/id=1181537285"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "6185",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

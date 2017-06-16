@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "Quantity": "1",
+  "TimeLeft": "P29DT6H16M52S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "VERY BEAUTIFUL ~ VINTAGE ~ SEE ACTUAL PICTURES FOR EXACT CONDITION",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "JP",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282509586573",
+  "ConvertedCurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T19:07:59.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-GIRAFFE-PIN-BROOCH-SILVER-TONE-CRYSTALS-3-1-2-x-1-1-2-/282509586573",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T19:07:59.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SILVER",
+        "Name": "Color"
+      },
+      {
+        "Value": "SILVER TONE",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "VINTAGE ~ GIRAFFE ~ PIN BROOCH ~ SILVER TONE & CRYSTALS ~ 3 1/2\" x 1 1/2\"",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Avoca, Michigan",
+  "Description": "VINTAGE ~ ANTIQUEGIRAFFE ~ PIN BROOCHSILVER TONE & CRYSTALS3 1/2\" x 1 1/2\" DESIGNSEE PICTURES AND DESCRIPTION FOR EXACT CONDITION*** PERFECTION ***INTERNATIONAL BUYERS MUST PAY EXTRA HANDLING AND SHIPPING FEES. PLEASE WAIT FOR INVOICE TO COMPLETE ORDER, THANK YOU.** Help support Wounded Warriors with this purchase ** Please email me with any questions before purchasing. We accept PayPal payments only. Checkout my other auctions for more; Collectible ~ Vintage ~ and Rare items coming soon...",
+  "Charity": {
+    "CharityName": "Wounded Warrior Project",
+    "CharityID": "21220",
+    "Mission": "The mission of Wounded Warrior Project is to honor and empower wounded warriors by raising awareness, helping injured service members aid and assist each other and providing programs and services to meet the needs of injured service members. **Please note eBay sellers who list items for sale are not directly associated with WWP; they have chosen to donate a percentage of their sales to this organization. These funds directly support WWP's mission. For more information, visit www.woundedwarriorproject.org.",
+    "Status": "Valid",
+    "CharityNumber": "17075",
+    "DonationPercent": "10.0",
+    "LogoURL": "http://i.ebayimg.com/00/s/MTkxWDIxOA==/z/2EYAAOSwB-1YpK9H/$_1.PNG?set_id=8800004005"
+  },
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825095865738080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "fopos",
+    "FeedbackScore": "116",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Lush and Lavish",
+    "StoreURL": "http://stores.ebay.com/id=24697338"
+  },
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/E6oAAOSwGJlZNFks/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/fzgAAOSwYlRZNFlT/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "48006"
+}

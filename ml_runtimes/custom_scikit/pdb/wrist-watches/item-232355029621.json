@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "309.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:38:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1245109177",
+    "StoreName": "toyoemsn"
+  },
+  "CurrentPrice": {
+    "value": "309.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:38:07.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BGA-1250C-7B1JF",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4549526157196",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "CN"
+  ],
+  "ItemID": "232355029621",
+  "HandlingTime": "5",
+  "Description": "DescriptionAuthentic 100% NewProduct Japan CASIO Watch BABY-G Babysie radio solar BGA-1250C-7B1JF Women's F/S NewPaymentPayment : Via Paypal OnlyShipping FREE Standard international shipping About UsI am station in Tokyo,JapanVery happy to introduce Japan unique interesting productsthrough all over the world. Any question questions regarding Japan items welcome. International Buyers - Please Note:\u30fbImport duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer\u2019s responsibility. \u30fbPlease check with your country\u2019s customs office to determine what these additional costs will be prior to bidding/buying. \u30fbThese charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges. \u30fbWe do not mark merchandise values below value or mark items as \u201cgifts\u201d - US and International government regulations prohibit such behavior.Copyright \u00a9 2009 toyoemsn. All rights reserved.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Japan-CASIO-Watch-BABY-G-Babysie-radio-solar-BGA-1250C-7B1JF-Womens-F-S-New-/232355029621",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323550296218080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H5M55S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDYz/z/MAkAAOSwR29ZLnIy/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Japan CASIO Watch BABY-G Babysie radio solar BGA-1250C-7B1JF Women's F/S New",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "224",
+    "UserID": "toyoemsn",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back"
+  }
+}

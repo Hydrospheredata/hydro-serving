@@ -1,0 +1,62 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.38",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Berwick, VIC",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:02:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "COD"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "17.95",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T10:02:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245579619",
+  "HandlingTime": "2",
+  "Description": "LADIES' FASHION WATCHWatchface measures 4cm acrossNew in boxBe the envy of all your friends(May need replacement battery) PICK UP AVAILABLEWILL COMBINE POSTAGECHECK OUT MY OTHER ITEMS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Fashion-watch-lovely-design-wow-your-friends-/332245579619",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322455796198080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "3806",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H37M56S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI2M1gxNjAw/z/6JgAAOSw4CFYr329/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/wpsAAOSwax5Yr328/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/4jkAAOSwXYtY4ZMD/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Ladies Fashion watch, lovely design, wow your friends",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "713",
+    "UserID": "upfromdownunder",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

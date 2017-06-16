@@ -1,0 +1,59 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "48820",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Flip Top Train Pocket watch. Doesn't work. Only markings are at the bottom Japan and MOVT.</span. Needs new battery.",
+  "StartTime": "2017-05-18T03:31:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFg4OTk=/z/5VkAAOSwUKxYhfMX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MVg4OTk=/z/R-QAAOSwo4pYhfM3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1N1g5MDA=/z/rz8AAOSw5cNYhfNX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDE=/z/CQYAAOSw44BYhfOu/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "kbul5142",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "172",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423864343318080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-17T03:31:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Flip-Top-Train-Pocket-watch-/142386434331",
+  "Location": "Dewitt, Michigan",
+  "Title": "Flip Top Train Pocket watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142386434331",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT8H52M8S"
+}

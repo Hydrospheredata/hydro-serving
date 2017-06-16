@@ -1,0 +1,79 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.51",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "wirral, Merseyside",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:38:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1.95",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T14:38:10.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995301369",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "MIXED",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "1.95",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "GREAT VINTAGE CONDITION ALL NOT WORKING",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLLECTION-VINTAGE-WATCHES-RESTORER-/361995301369",
+  "Title": "A COLLECTION OF VINTAGE WATCHES FOR THE RESTORER",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619953013698080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "ch630hz",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H31M5S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pfMAAOSwIaFZIX~O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5CYAAOSwn-tZIX~V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/c9sAAOSwIQdZIX~d/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8G4AAOSw~FJZIX~j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uYYAAOSwPh5ZIX~r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jG4AAOSwGJlZIX~y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ELcAAOSwhvFZIX~5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dcUAAOSwsXFZIX~~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~CEAAOSwcaFZIYAG/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "A COLLECTION OF VINTAGE WATCHES FOR PARTS FOR THE RESTORER, what a great little lot this is, some old vintage watches for the parts and spares , a great lot for a watch restorer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "8001",
+    "UserID": "schlurper",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

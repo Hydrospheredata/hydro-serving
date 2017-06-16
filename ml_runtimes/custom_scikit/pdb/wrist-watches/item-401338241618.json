@@ -1,0 +1,109 @@
+{
+  "Country": "US",
+  "Location": "Burnsville, Minnesota",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:03:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "48.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:03:01.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantityAvailableHint": "MoreThan",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "HitCount": "2",
+  "TimeLeft": "P29DT20H45M27S",
+  "Description": "[ENV] For sale is a brand new mens wrist watch done by Stuhrling. The model number is GP14488. Watch is thoroughly inspected and guaranteed to be 100% authentic. Watch comes to you brand new in the box! You will receive the following: (if its not listed here its not included!) Watch Hang Tag Polish Cloth Product Documentation Display Box Outer Retail Sleeve Product Description Features: Stainless Steel Case on Black Alligator Embossed Genuine Leather Strap, Black Dial, with Silver Accents Display Type: Analog Clasp Type: Stainless Steel Foldover Clasp Case Material: Stainless Steel Case Dimensions: 3H-9H: 40mm; 6H-12H: 40mm Band Material: Alligator Embossed Genuine Leather Strap (20mm wide) Band Color: Black Dial Color: black Hands Details: Alpha-Style Hands Bezel Material: Stainless Steel Bezel Color: Silvertone Movement Type: Swiss Quartz Water Resistant Depth: 3 ATM Water Resistant (30 meters/100 feet) Adjustable Strap: YES Additional Features: Slim Case, Watch Comes in Gift Box Weight: 1 lb. Manufacturer Warranty: 2 Year Limited Warranty from Stuhrling Original Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PostalCode": "55306",
+  "ConvertedCurrentPrice": {
+    "value": "48.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4013382416188080_1.jpg",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=392458",
+    "StoreName": "ZKARLO"
+  },
+  "Quantity": "11",
+  "PaymentMethods": "PayPal",
+  "SKU": "ENV NEW Stuhrling free s/h [GP14488]~",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "RU",
+    "Africa"
+  ],
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Stuhrling Original",
+        "Name": "Brand"
+      },
+      {
+        "Value": "553.33151",
+        "Name": "MPN"
+      },
+      {
+        "Value": "847988041805",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Stuhrling-Original-553-33151-Classic-Cuvette-SD-Mens-Watch-GP14488-slim-deco-/401338241618",
+  "BidCount": "0",
+  "ItemID": "401338241618",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/3Y0AAOSwlY1ZLrDI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/vbIAAOSwH09ZLrDR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6AEAAOSwd0BVrVJt/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "NEW Stuhrling Original 553.33151 Classic Cuvette SD Mens Watch GP14488 slim deco",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "333429",
+    "UserID": "zkarlo",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

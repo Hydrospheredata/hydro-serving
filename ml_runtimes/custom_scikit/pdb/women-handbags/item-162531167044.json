@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg5OTk=/z/otgAAOSwIQdZKbBZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5OTk=/z/eqMAAOSwhvFZKbBZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDE1MDA=/z/-A0AAOSw42dZKbBZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDE1MDA=/z/-AgAAOSw42dZKbBZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDE1MDA=/z/-BUAAOSw42dZKbBa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDE1MDA=/z/EVEAAOSwn-tZKbBY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5OTk=/z/EVAAAOSwn-tZKbBY/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Signature-Travel-Trolley-Rolling-Carry-Suitcase-Vanilla-/162531167044",
+  "ConvertedCurrentPrice": {
+    "value": "601.52",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors Signature Travel Trolley Rolling Carry On Suitcase Vanilla Product Details Product Dimensions: 22.6 x 17.2 x 8.6 inches Shipping Weight: 9 pounds A telescope bar with push button backup, ID tag hangs from top ,Front outside pocket Inside, lined with three zip compartments; belted panels keep items in place , Swivel wheels Telescope measurement height: 21\u201d , Measurements: 13 (L) x 19 (H) x 8 (D) (Height with wheels is 21\u201d)",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "601.52",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1214",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mr.alston"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Michael Kors Signature Travel Trolley Rolling Carry On Suitcase Vanilla",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-27T16:59:09.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625311670448080_1.jpg",
+  "TimeLeft": "P24DT24M6S",
+  "EndTime": "2017-06-26T16:59:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Vanilla"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049409145"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0190049409145"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162531167044",
+  "Storefront": {
+    "StoreName": "Mr Instant Films",
+    "StoreURL": "http://stores.ebay.com/id=555901352"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B01M9IE7QE",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

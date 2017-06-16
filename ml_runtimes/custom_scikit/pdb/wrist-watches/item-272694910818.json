@@ -1,0 +1,68 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Kentucky",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:49:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:49:36.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694910818",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "timex mens watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/timex-mens-watch-/272694910818",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726949108188080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "40475",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H27M37S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/te8AAOSw~AVYoQ6i/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "1974 timex day/date watch works",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "jeffey08",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

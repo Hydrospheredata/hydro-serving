@@ -1,0 +1,66 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "cherven bryag, Pleven",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:31:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:31:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535878395",
+  "HandlingTime": "1",
+  "Description": "ANTIQUE VINTAGE RUSSIAN WRISTWATCH CCCP USSR WATCH 75 LET",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ANTIQUE-VINTAGE-RUSSIAN-WRISTWATCH-CCCP-USSR-WATCH-75-LET-/162535878395",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625358783958080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H12M15S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIzWDcxNA==/z/Q24AAOSwzgRWvCXy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFg3Njg=/z/5AgAAOSwe7BWvCXb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE3WDU5Ng==/z/RAsAAOSwzgRWvCX~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM1WDY4Mw==/z/5jkAAOSwll1WvCYN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFg3Njg=/z/5GAAAOSwe7BWvCXh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3Njg=/z/538AAOSwe7BWvCYj/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "ANTIQUE VINTAGE RUSSIAN WRISTWATCH CCCP USSR WATCH 75 LET",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "20",
+    "UserID": "steberrjgngggor",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/R4oAAOSwcB5ZIenV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/BesAAOSw5cRZIemz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/aa4AAOSwYlRZIenv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/voYAAOSwxu5ZIeoF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/OQsAAOSwIaFZIeoZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/TIwAAOSwcB5ZIeov/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-59882-DISNEY-X-2017-MICKEY-MOUSE-HANGTAG-SET-LIMITED-EDITION-GIFT-BOX-FOB-/112426655273",
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Title": "COACH 59882 DISNEY X 2017 MICKEY MOUSE HANGTAG SET LIMITED EDITION GIFT BOX FOB",
+  "ExcludeShipToLocation": "BR",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Cranberry Township, Pennsylvania",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "4456",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "alliebubba0"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "16066",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T21:00:53.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P3DT5H11M49S",
+  "EndTime": "2017-06-05T21:00:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Handbag Handtag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Mickey Mouse"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889532884568"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112426655273",
+  "PrimaryCategoryID": "163570",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Aly&#39;s Bazaar",
+    "StoreURL": "http://stores.ebay.com/id=180106430"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124266552738080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

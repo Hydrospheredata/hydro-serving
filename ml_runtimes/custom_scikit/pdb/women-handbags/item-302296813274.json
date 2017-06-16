@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/vlkAAOSw-JdZARfD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/nmwAAOSwtZJZARfK/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/X2EAAOSwIWVZARfM/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/LhMAAOSwvihZARfO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wC0AAOSw-JdZARfQ/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KNOMO-London-World-Travel-Adaptor-Black-/302296813274",
+  "ConvertedCurrentPrice": {
+    "value": "62.34",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "KNOMO London World Travel Adaptor (Black) Product Details Product Dimensions: 3.5 x 0.9 x 2.2 inches Shipping Weight: 8 ounces Item model number: 99-064-BLK Compatible in 210 Countries Does not include charging cable",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "62.34",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "91",
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "rugged4x4"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "KNOMO London World Travel Adaptor (Black)",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-26T21:57:38.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3022968132748080_1.jpg",
+  "TimeLeft": "P23DT6H50M22S",
+  "EndTime": "2017-06-25T21:57:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "99-064-BLK"
+      },
+      {
+        "Name": "Brand",
+        "Value": "KNOMO London"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "EAN",
+        "Value": "5055385417290"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302296813274",
+  "Storefront": {
+    "StoreName": "dreibruder3",
+    "StoreURL": "http://stores.ebay.com/id=952696158"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer, and all orders are subject to a restocking fee of 15%",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B01KUV0OQ8",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

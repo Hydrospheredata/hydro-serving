@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Please return in any protective packaging to keep from crushing, example:  Cotton filled box, and small plastic zip bag.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT12H30M52S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New jewelry set.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "371972351551",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T00:17:56.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/3PC-NECKLACE-EARRING-BRACELET-GOLD-PLATED-FAUX-PEARL-SET-NEW-CARDED-PIERCED-EARS-/371972351551",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T00:17:56.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "3PC NECKLACE EARRING BRACELET GOLD PLATED FAUX PEARL SET NEW CARDED PIERCED EARS",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Florissant, Missouri",
+  "Description": "Gold plated, faux pearl jewelry setThree pieces, Necklace, Earrings, and BraceletEarrings, 1 3/4\" long, 8mm wideBracelet, 7\" longNecklace, 16\" longNew carded jewelry See all enlarged photos for detailsPretty set Please see picture and thank you for looking!*Check out my store and huge variety of listings to save on shipping!Check out my other items! **We only ship within the United States. ***Shipping costs are higher for Hawaii, Alaska please request total for correct shipping costs. **",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719723515518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tjsthrift",
+    "FeedbackScore": "10618",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "TJ&#39;s Gifts n Thrifts",
+    "StoreURL": "http://stores.ebay.com/id=89591590"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZAwAAOSwrklVGbfk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2MsAAOSw-7RVGbf2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/n1sAAOSwBahVGbf8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZwAAAOSwqu9VGbgT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3ZEAAOSwpDdVGbgZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/at0AAOSwrklVGbga/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SOoAAOSwv0tVGbgf/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "63031"
+}

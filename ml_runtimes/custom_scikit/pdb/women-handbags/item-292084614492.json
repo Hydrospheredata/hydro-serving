@@ -1,0 +1,122 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.1.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.2.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.3.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.4.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.5.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.6.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.4230314c58583453374e.7.jpg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Womens-Baby-Weekender-Animal-Camo-B-/292084614492",
+  "ConvertedCurrentPrice": {
+    "value": "85.92",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Baby weekender/carry on bag - Everything for baby made easy for mom - One front zip and one front slide pocket and one back zip pocket - Two side pockets with shoulder straps - Interior front/back double mesh slide pockets - Baby changing mat included LeSportsac Womens Baby Weekender, Animal Camo B",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.92",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "148",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Womens Baby Weekender, Animal Camo B",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T07:22:54.000Z",
+  "HitCount": "37",
+  "TimeLeft": "P9DT15H54M3S",
+  "EndTime": "2017-06-12T07:22:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "883681977669"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0883681977669"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4261"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Animal Camo B"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.2 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17.3 x W 11.7 x H 2.4 inches"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084614492",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

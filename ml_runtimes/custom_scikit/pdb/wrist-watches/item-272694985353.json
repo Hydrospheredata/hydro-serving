@@ -1,0 +1,116 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Avon Lake, Ohio",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:54:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=22401778",
+    "StoreName": "P and B Eclectic Collectibles"
+  },
+  "CurrentPrice": {
+    "value": "12.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:54:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694985353",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "WESTCLOX",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Shock-resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VTG LADIES WRISTWATCH WESTCLOX 21 JEWELS WORKS GOLD TONE STAINLESS STEEL BACK",
+  "ConditionDescription": "USED\nVERY NICE LOOKING \nWORKS",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VTG-LADIES-WRISTWATCH-WESTCLOX-21-JEWELS-WORKS-GOLD-TONE-STAINLESS-STEEL-BACK-/272694985353",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726949853538080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "44012",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H36M32S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/kf8AAOSwpzdWrAje/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/LlAAAOSw5dNWrAjg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/LnUAAOSw5dNWrAjh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/BisAAOSwJb9WrAjj/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1083",
+    "UserID": "bdaw314442v",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

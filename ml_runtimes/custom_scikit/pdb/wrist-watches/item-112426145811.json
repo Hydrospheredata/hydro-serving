@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "UA",
+  "Location": "Cherkasi region",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:49:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1361415551",
+    "StoreName": "Welcome to USSR"
+  },
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:49:30.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "RAKETA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426145811",
+  "HandlingTime": "4",
+  "Description": "RARE! Vintage Soviet RAKETAWatch in good working condition. ShippingEurope: 7-14 business days Canada: 10-20 business days USA: 10-20 business days Australia and everywhere else: 15-30 business days",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-USSR-Soviet-Watch-RAKETA-/112426145811",
+  "ConditionDescription": "Watch in good working",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124261458118080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H38M44S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rvoAAOSww3tY3nC0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EfsAAOSwc-tY3nC3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cgoAAOSwsW9Y3nC8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cwQAAOSwsW9Y3nDA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FQkAAOSwc-tY3nDF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fqgAAOSwhQhY3nDK/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Vintage USSR Soviet Watch RAKETA",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "189",
+    "UserID": "shop-back-in-the-ussr",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

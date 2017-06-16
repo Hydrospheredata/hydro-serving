@@ -1,0 +1,119 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Roselle Park, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:07:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:07:17.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530167750",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "7101",
+        "Name": "Model"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Rusia Drive Model 7107 Watch",
+  "ConditionDescription": "Great Conditions. No case",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Rusia-Drive-Model-7107-Watch-/222530167750",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225301677508080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "07204",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H49M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/qpUAAOSwKytZI44Q/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/eyEAAOSwIQdZI44S/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/hcwAAOSwZ4dZI44U/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/1lYAAOSwxu5ZI44W/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/oo4AAOSwcB5ZI44X/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/ItkAAOSw-K9ZI44Y/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/oqkAAOSwcB5ZI44a/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/1oUAAOSwxu5ZI44c/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/QPUAAOSwDiBZI44e/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/YIcAAOSwH09ZI44f/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNDE3/z/J7AAAOSw~FJZI44h/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Pre - Owned excellent condition No Case",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "10",
+    "UserID": "verdugop718-7",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

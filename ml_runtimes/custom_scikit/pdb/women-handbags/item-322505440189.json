@@ -1,0 +1,158 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzEw/z/SPQAAOSw~y9ZC97m/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ogio-Adult-Melrose-Purses-Sunset-11-5-H-x-12-W-3-D-/322505440189",
+  "ConvertedCurrentPrice": {
+    "value": "64.18",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Ogio Adult Melrose Purses Sunset 11.5\"H x 12\"W 3\"D Ogio Melrose purse is made from high quality materials. Features include fully padded zippered iPad\u2122/tablet/e-reader pocket, integrated cross body shoulder strap, hidden zippered pocket under front flap and soft touch polka dot lining. Product Features TC 900D Poly Soft touch polka dot lining Hidden zippered pocket under front flap Capacity: 550 Cubic Inches Laptop Pocket: 9.5\" H x 8\" W x 0.5\" D Shipping: Shipping is complimentary within the lower 48 US States. We Do Not Ship to PO/APO Boxes, HI or Alaska We Do Not Ship Outside of the Continental US All items ship within 24-72 hours of Payment For large items that require Freight shipping a valid phone number is required to call and schedule your delivery Terms of Sale and Feedback: Feedback is extremely important to us and eBay If you are satisfied with our transaction, please take a moment to leave Positive Feedback. YOUR Satisfaction is our #1 Priority! If there are any issues, PLEASE contact us BEFORE leaving a neutral or negative rating so that we may resolve any concerns. We PROMISE we can make you happy if you give us a fair chance. Returns / Concerns: All items qualify for returns within 14 - 30 days of receipt. Buyer is responsible for return shipping on any item that is not damaged Please be sure this is an item you want before making your purchase. Customer Satisfaction is our TOP priority! All items are IN STOCK at time of listing. Inventory on eBay changes constantly and it is impossible to maintain a perfectly accurate count of all items. Please do not penalize us if we have to issue you a refund! Thank You For Your Business!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.18",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "IL",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "669",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "mydealspro"
+  },
+  "PrimaryCategoryID": "169293",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Ogio Adult Melrose Purses Sunset 11.5\"H x 12\"W 3\"D",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-05-05T02:09:44.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225054401898080_1.jpg",
+  "TimeLeft": "P1DT11H3M16S",
+  "EndTime": "2017-06-04T02:09:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "11.5\"H x 12\"W x 3\"D"
+      },
+      {
+        "Name": "Color",
+        "Value": "Sunset"
+      },
+      {
+        "Name": "Brand",
+        "Value": "OGIO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "414008.193"
+      },
+      {
+        "Name": "UPC",
+        "Value": "031652226128"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0031652226128"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322505440189",
+  "Storefront": {
+    "StoreName": "mydealspro",
+    "StoreURL": "http://stores.ebay.com/id=505200435"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. Created automatically by EaSync.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "B01DCEVX7O",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

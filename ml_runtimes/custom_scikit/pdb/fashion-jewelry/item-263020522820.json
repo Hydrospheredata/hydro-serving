@@ -1,0 +1,172 @@
+{
+  "HandlingTime": "1",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "67.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263020522820",
+  "TimeLeft": "P6DT17H18S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-05T02:58:08.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "PostalCode": "90605",
+  "ConvertedCurrentPrice": {
+    "value": "67.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Heidi Daus Crystal floral statement Crystal Bangle Bracelet NWOT Free shipping",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-12T02:58:08.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "CRYSTALS",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Statement",
+        "Name": "Style"
+      },
+      {
+        "Value": "Flowers & Plants",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "7",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Heidi-Daus-Crystal-floral-statement-Crystal-Bangle-Bracelet-NWOT-Free-shipping-/263020522820",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Whittier, California",
+  "Description": "Beautiful Heidi Daus bangle bracelet adorned with hundreds of pave and bevel set multi colored crystals in a floral designed center. Light green crystal filled leaves all the way around the bracelet made a bold statement Measurements: S/M approx. 7\"L Multi Colored Swarovski CrystalsSnap closureNew no box included Please check my other auctions for more precious Heidi Daus pieces. Shipping is for USPS Priority mail insured with bubble wrap protection.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630205228208080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "davidbot",
+    "FeedbackScore": "935",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pwcAAOSwnHZYQyER/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IFgAAOSwMstYQyUu/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "CurrentPrice": {
+    "value": "67.0",
+    "_currencyID": "USD"
+  }
+}

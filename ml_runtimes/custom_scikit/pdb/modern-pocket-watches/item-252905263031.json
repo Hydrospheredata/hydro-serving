@@ -1,0 +1,97 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "21.75"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Dad's Pocket Watch Prefect Gift for Loved Ones Comes in a attractive gift box - Dad's Pocket Watch - Prefect Gift for Loved Ones - Comes in a attractive gift box - Get 2 Day Priority Mail shipping on purchase of 2 or more pocket watches. Dad Pocket Watch Fathers Day Gift Item 266",
+  "StartTime": "2017-04-29T05:10:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjU4/z/2bgAAOSwtGlZBCBM/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Not Applicable",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "SplendidGifts",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "6.berta5",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "175",
+    "PositiveFeedbackPercent": "98.3"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529052630318080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T05:10:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "21.75"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Dad Pocket Watch Fathers Day Gift Item 266",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dad-Pocket-Watch-Fathers-Day-Gift-Item-266-/252905263031",
+  "Storefront": {
+    "StoreName": "6.berta5",
+    "StoreURL": "http://stores.ebay.com/id=1519550129"
+  },
+  "ItemID": "252905263031",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT10H24M46S"
+}

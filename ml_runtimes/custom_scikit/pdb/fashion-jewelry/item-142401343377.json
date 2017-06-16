@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P25DT23H48M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Other Fashion Jewellery",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "CAD"
+  },
+  "ItemID": "142401343377",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LOVELY-CHANEL-LOCK-PARIS-FRANCE-/142401343377",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "107.29",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T14:38:26.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T14:38:26.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chanel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Metal"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "LOVELY CHANEL LOCK FROM PARIS FRANCE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "BEAUTIFUL CHANEL LOCKThe Chrome Chanel Lock you are looking at measure approximately 1\u00bd\"X\u00be\", this is an authentic item you can recognize the Chanel logo easily it was obtained in Paris France. normally attached to a hand bags or an appropriate chain and worn as a necklace. DON'T FORGET TO VISIT MY eBAY SITE THERE ARE MANY GREAT ITEMS I COMBINE SHIPPING COST TO SAVE YOU MONEY 1",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424013433778080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "worldcards-4u",
+    "FeedbackScore": "71",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "Montreal, Quebec",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PI4AAOSw53NY~jib/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oY8AAOSwN6JY~jig/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-VYAAOSw5UZY~jim/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NLcAAOSwuspY~jir/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/l6MAAOSwVm5Y~jiw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OF8AAOSwmCVY~ji3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A48AAOSwtZJY~ji8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AUQAAOSw5UZY~jjB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xUYAAOSwvihY~jjH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4HsAAOSwE0JY~jjN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/X68AAOSwvKtY~jjS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uqMAAOSwJ4hY~jjX/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "H3H1V2"
+}

@@ -1,0 +1,104 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "680.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "KW",
+  "Location": "47707",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:15:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=591055951",
+    "StoreName": "engineer_q80"
+  },
+  "CurrentPrice": {
+    "value": "680.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T10:15:46.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tudor",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210870192",
+  "HandlingTime": "2",
+  "Description": "VINTAGE TUDOR\u00a0PRINCE\u00a0OYSTERDATE\u00a0SWISS MADE STAINLESS STEEL DATE Winding movement MENS WATCH\u00a0Movement: Original winding\u00a0movement in excellent condition\u2028Case: Original stainless steel\u00a0case in good condition Size: like boy size of rolex\u2028Dial: Original and redone, very good condition\u2028Band: Not original,wempe company\u2028Crystal: Original\u00a0plastic top\u2028Crown: Original\u00a0(SCREW DOWN CROWN)\u2028Size: 34mm\u00a0excluding the crown\u2028Condition: Overall in good condition, movement running excellently",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-TUDOR-PRINCE-OYSTERDATE-Winding-SWISS-SS-MENS-WATCH-/132210870192",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322108701928080_1.jpg",
+  "HitCount": "20",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H52M1S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzI1WDEzODk=/z/NKgAAOSwnHZYT7-4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUyWDEyNTE=/z/b8UAAOSwOtdYT7-8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/pHwAAOSwImRYT7-0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/zbYAAOSwJ7RYT7~B/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/VTgAAOSw2xRYT7~H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/z~4AAOSwJ7RYT7~N/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/Q9cAAOSwcUBYT7~U/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "VINTAGE TUDOR PRINCE OYSTERDATE Winding SWISS SS MENS WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.5",
+    "FeedbackScore": "337",
+    "UserID": "engineer_q80",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

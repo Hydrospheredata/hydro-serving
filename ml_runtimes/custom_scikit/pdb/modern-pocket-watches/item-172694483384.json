@@ -1,0 +1,167 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "56.51"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! 14k gold-plated brass pocket watch stand. Deluxe presentation box - 14k gold-plated brass pocket watch stand - Deluxe presentation box Charles-Hubert, Paris 3578 Gold-Plated Pocket Watch Stand",
+  "StartTime": "2017-05-25T13:48:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTg3/z/QLgAAOSwsXFZJuC7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc0WDE1MDA=/z/PK0AAOSwIaFZJuC7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDE1MDA=/z/x38AAOSwJH1ZJuC7/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "811233010717",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0811233010717",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3578",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.95 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.8 x W 5.5 x H 2.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "greysharky",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16122",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1726944833848080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T13:48:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "56.51"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles-Hubert, Paris 3578 Gold-Plated Pocket Watch Stand",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-3578-Gold-Plated-Pocket-Watch-Stand-/172694483384",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "ItemID": "172694483384",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT19H11M48S"
+}

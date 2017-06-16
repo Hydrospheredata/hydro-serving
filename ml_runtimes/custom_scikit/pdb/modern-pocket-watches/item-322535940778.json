@@ -1,0 +1,72 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "fabulous watches, Mens watch, Travel jewelry, harry potter watch, potter necklace, Hufflepuff crest WatchMaterial Type window of the dial: GlassDial Material Type: Stainless steelDial Diameter: 3.8 cmType of material strap: LeatherClockwork: QuartzFeatures: Waterproof, NoBelt width: 2cmBand Length: 24cmBand Width: 20 to 29 mmCase Material: Stainless SteelProduct type: Watches",
+  "StartTime": "2017-05-30T07:15:59.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEzWDU3MA==/z/2dsAAOSw44BYFJqY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/QhkAAOSwcLxYFJq9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/8RMAAOSwHMJYFJrI/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "natalii6",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225359407788080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-29T07:15:59.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Zhitomir, default",
+  "Title": "Hufflepuff crest Watch, Mens watch, Travel watch, harry potter watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hufflepuff-crest-Watch-Mens-watch-Travel-watch-harry-potter-watch-/322535940778",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322535940778",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT12H42M3S"
+}

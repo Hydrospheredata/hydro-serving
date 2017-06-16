@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "Description": "If I misrepresented the item, please contact me within 48 hours of receiving the item and a refund can be arranged. I try my best to describe the condition of my E-Bay items as thoroughly as possible, but I do realize that unintentional errors or omissions may arise.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P17DT16H25M52S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "handmade",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322462768596",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14k-dainty-gold-toe-ring-half-round-/322462768596",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-25T06:13:58.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T06:13:58.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "14k yellow gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14k dainty gold toe ring - half round",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "BidCount": "0",
+  "Description": "Adorning your toes with dainty elegance and the beautiful simplicity of an uninterrupted yellow golden glow, this half round toe ring measures 2 mm wide, 1 mm thick, and has an adjustable fit, however you can order your toe ring with a personalized fit by simply entering a ring size or physical description such as \u201cpetite\u201d in the check out notes. To enhance the comfortable fit, we have rounded and filed the end tabs along with the edges before polishing to a mirror finish.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3224627685968080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "rjnicinm",
+    "FeedbackScore": "861",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Metalopia",
+    "StoreURL": "http://stores.ebay.com/id=171782275"
+  },
+  "Quantity": "1",
+  "Location": "Las Cruces, New Mexico",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjkxWDk4NQ==/z/fq8AAOSwsW9Y1gmQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk2WDgyNg==/z/xr0AAOSwuLZY1gmW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUzWDEwNTM=/z/i3EAAOSwc-tY1gmf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMyWDEwNTA=/z/KFAAAOSwXYtY1gmn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI1WDEyMTA=/z/AEoAAOSwTM5Y1gmx/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "88011"
+}

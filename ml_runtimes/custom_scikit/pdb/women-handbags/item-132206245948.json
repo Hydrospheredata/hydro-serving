@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322062459488080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/n0UAAOSwxu5ZKSkH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/1gMAAOSwfRdZKSkH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/6YcAAOSwZKBZKSkH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/abkAAOSw0hlZKSkH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/CakAAOSwGJlZKSkH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GIkAAOSw-K9ZKSkH/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Olympia-Hopkins-18-Inch-Backpack-OV-Olive-One-Size-/132206245948",
+  "ConvertedCurrentPrice": {
+    "value": "80.93",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store!Sternum strap for extra security and comfort Deluxe internal organizer Interior mesh zippered pocket on top opening 5 exterior zippered pocketsOlympia Hopkins 18-Inch Backpack OV, Olive, One Size",
+  "ExcludeShipToLocation": [
+    "PR",
+    "VI"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "80.93",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "25547",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "paley.88"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Olympia Hopkins 18-Inch Backpack OV, Olive, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-27T07:21:40.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P23DT16H23M4S",
+  "EndTime": "2017-06-26T07:21:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Olympia"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "034828500619"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0034828500619"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132206245948",
+  "Storefront": {
+    "StoreName": "paley88",
+    "StoreURL": "http://stores.ebay.com/id=596262381"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "STT_B00M2578VU",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

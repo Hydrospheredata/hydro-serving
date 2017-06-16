@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1730.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "1730.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:52.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "IWC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Solid Gold",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "1950-1959",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501837505",
+  "HandlingTime": "1",
+  "Description": "Description: A fantastic 18k solid gold gentleman's wrist watch, made at the 1950s.bubble back style case with shark fin lugs. This timepiece is working and had been serviced July 2014. Manufacturer: IWC Schaffhausen Movement: Cal. 89 (Manual wind) Case Metal: SS Size: Without the crown: 35.5mm Lug to lug: 44mm Band: Miller genuine brown leather (Not IWC) Feel free to ask questions.Shipping WorldWide.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "IWC Schaffhausen 18Kt Solid Gold Cal. 89 Manual Wind Mens Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/IWC-Schaffhausen-18Kt-Solid-Gold-Cal-89-Manual-Wind-Mens-Wrist-Watch-/282501837505",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825018375058080_1.jpg",
+  "HitCount": "5",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M13S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI0WDczMg==/z/RNoAAOSw6n5Xqwc2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODQ0WDEwMDg=/z/pM8AAOSwIgNXqwdN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTQwWDEwMjQ=/z/3l8AAOSwMtxXqwdm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI0WDEwNTY=/z/ZK0AAOSw-itXqweF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/FmgAAOSwWTRWzFjw/$_57.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "1730.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/tZoAAOSwN6JY-Htn/$_12.PNG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/tokidoki-Passport-Travel-Set-Quantity-1-/252881782530",
+  "ConvertedCurrentPrice": {
+    "value": "57.69",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Sephora Tokidoki Passport Travel Set brand new - Sephora Tokidoki Passport Travel Set brand new - 3 Refillable bottles 4x 1.5 x 1.25 - 2 refillable jars 1.25 x 2 x2 - cosmetic bag tokidoki Passport Travel Set Quantity of 1",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.69",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14088",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "easybuying2005"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "tokidoki Passport Travel Set Quantity of 1",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-20T09:12:02.000Z",
+  "HitCount": "22",
+  "TimeLeft": "P16DT15H19M37S",
+  "EndTime": "2017-06-19T09:12:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tokidoki"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Misc."
+      },
+      {
+        "Name": "Color",
+        "Value": "Sephora Tokidoki Passport Travel Set brand new"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 9 x W 7 x H 3 inches"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Beauty"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252881782530",
+  "Storefront": {
+    "StoreName": "easybuying2005",
+    "StoreURL": "http://stores.ebay.com/id=1186614849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2528817825308080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

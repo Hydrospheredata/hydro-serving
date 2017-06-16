@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1221.8",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Portsmouth",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:02:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=73276198",
+    "StoreName": "Antiques Storehouse"
+  },
+  "CurrentPrice": {
+    "value": "950.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:02:02.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135697777",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Frederique Constant",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Steel",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Quartz: Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "FC235X1T5/6",
+        "Name": "Model"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Frederique Constant Diamond Ladies Art Deco Style Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Frederique-Constant-Diamond-Ladies-Art-Deco-Style-Watch-/292135697777",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921356977778080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "PO1 3PX",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H51M35S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/$(KGrHqEOKiME5Z3TGY(3BOW5RSMZg!~~60_1.JPG?set_id=8800005007"
+  ],
+  "Description": "~ Frederique Constant Diamond Ladies Art Deco Stlye Watch ~ The dial is made from mother of pearl. Ten of the hours are marked with diamond studs, the other two with roman numerals. The bezel is also set with around 40 diamonds. The model number is FC235X1T5/6 and the serial number is 1289194. The watch has a stainless steel strap. It was purchased in 2006. Please see EBay listing 300593581064 for the original joint purchase Certificate of Authenticity. ~ Dimensions ~ The strap has an internal diameter of approxiamtely 17cm.The bezel measures 2.9cm by 2.1cm. ~ Condition ~ This watch is in excellent condition and good working order. Please see images below for further details & condition...",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5646",
+    "UserID": "theantiquesstorehouse",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "If for any reason you are not satisfied with your purchase, we offer a full refund (excluding postage)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

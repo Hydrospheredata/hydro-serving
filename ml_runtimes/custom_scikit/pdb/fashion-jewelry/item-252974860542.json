@@ -1,0 +1,229 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H53M16S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "divoti",
+    "StoreURL": "http://stores.ebay.com/id=1308949057"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.9",
+    "_currencyID": "USD"
+  },
+  "SKU": "6162TRRE",
+  "ItemID": "252974860542",
+  "ConvertedCurrentPrice": {
+    "value": "31.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-05T03:46:53.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Divoti-Custom-Engraved-316L-Max-Contempo-Medical-ID-Bracelet-Byzantine-6162TRRE-/252974860542?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T03:46:53.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "6.5 Inches",
+          "7.0 Inches",
+          "7.5 Inches",
+          "8.0 Inches",
+          "8.5 Inches",
+          "6.0 Inches"
+        ],
+        "Name": "Inches"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "6162TRRE-65",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6.5 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162TRRE-70",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7.0 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162TRRE-75",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7.5 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162TRRE-80.",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8.0 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162TRRE-85",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8.5 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "6162TRRE-60",
+        "StartPrice": {
+          "value": "31.9",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6.0 Inches",
+            "Name": "Inches"
+          }
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Divoti",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "316L Stainless Steel",
+        "Name": "Metal Type"
+      },
+      {
+        "Value": "No Metal Stamp",
+        "Name": "Metal Stamp"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "6162TRRE",
+        "Name": "Item#"
+      },
+      {
+        "Value": "Awareness",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "Divoti Custom Engraved 316L Max Contempo Medical ID Bracelet Byzantine -6162TRRE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "San Diego, California",
+  "Description": "we accept payment through PayPal. Please pay as soon as possible right after you checked out, as that will allow us to post your item to you sooner! 100% QualityBest PricesFast Shipping",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "divotimedicalalert",
+    "FeedbackScore": "439",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "12",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/MVYAAOSwi7RZNNLY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/dL8AAOSwjqVZNNLd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1-8AAOSwo4pYU6Mp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XeYAAOSw5cNYZKKx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gGcAAOSw6DtYU6OE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/q6sAAOSwA3dYU6Nw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/EwQAAOSw8w1YBBz7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hNcAAOSwlY1ZNNLk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/SOkAAOSw8HBZNNLq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8ckAAOSwmmxW2Isx/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92126"
+}

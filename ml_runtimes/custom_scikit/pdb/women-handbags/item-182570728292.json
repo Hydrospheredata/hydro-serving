@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMwMFgxNjAw/z/IuQAAOSww9xZI69C/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5MFgxNjAw/z/sD8AAOSw0hlZI69H/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg3Njg=/z/ZYMAAOSwjL5ZI69L/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzM1WDE2MDA=/z/GtoAAOSwcB5ZI69R/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODYzWDE2MDA=/z/IAgAAOSwjqVZI69W/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg0OTk=/z/Gy8AAOSwcB5ZI69Z/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timbuk2-Strada-Laptop-Briefcase-/182570728292",
+  "ConvertedCurrentPrice": {
+    "value": "246.67",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Timbuk2 Strada Laptop Briefcase Product Overview Color: Indigo Business on the outside, party on the inside: the primo briefcase for carry from the subway to the boardroom. Details: Product Dimensions: 7.9 x 12.2 x 17.7 inches ; 4.3 pounds Shipping Weight: 5 pounds Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Item model number: LYSB012559IPU-OFFSUPPLIES Features: Internal neoprene pockets for smartphone, hard drive or charger Padded, tricot-lined laptop compartment (fits up to 15\" MacBook) Genuine leather binding and trim Quality Products Have peace of mind knowing that your order will arrive original factory sealed packaging. That means that you'll have the full force of the manufacturer's warranty to protect your purchase. Fast and Free Shipping You're already purchasing the item. Why pay additional for shipping, especially slow shipping? We get your order shipped out and delivered to your doorstep as quickly as possible. Commitment We are committed to making sure that you leave this transaction satisfied. That means having access to real people that get your questions and concerns answered quickly. Give us a shot and we will make sure that you will look to us again!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "246.67",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "queenbeeshive"
+  },
+  "PrimaryCategoryID": "169293",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Timbuk2 Strada Laptop Briefcase",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-12T03:17:48.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825707282928080_2.jpg",
+  "TimeLeft": "P8DT12H13M37S",
+  "EndTime": "2017-06-11T03:17:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Indigo"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Timbuk2"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB012559IPU-OFFSUPPLIES"
+      },
+      {
+        "Name": "UPC",
+        "Value": "631364530492"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0631364530492"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182570728292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Returns accepted within 30 days after receiving the item, refund given as money back (no exchanges), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "0L-T6KQ-A3CF",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4Nzc=/z/2NoAAOSwA3dYVCi7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SYgAAOSw44BYVCiX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/05IAAOSwA3dYVCie/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4JAAAOSw5cNYVCip/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PggAAOSwOtdYVCiu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzN1gxNjAw/z/Po4AAOSwux5YVCjC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NzE=/z/Py8AAOSwux5YVCjH/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Vera-Bradley-Lighten-Up-Rolling-Backpack-Wheels-Pop-Art-14964-660-XA05-/232355922118",
+  "ConvertedCurrentPrice": {
+    "value": "149.98",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Vera Bradley Lighten Up Rolling Backpack Wheels in Pop ArtSIZE:12 \u00bc\" w x 17\" h x 7 \u00bd\" d; 2 \u00be\" strap drop, 32\" adjustable straps This traditional backpack style is offered with wheels! The straps tuck away, and a telescoping handle pops up to make this backpack into a bag on wheels. It features two roomy main compartments, each with its own double-zip closure and plenty of additional organization.32\" adjustable, padded strapsWheels and a telescoping handle so that the bag can be used as a rolling bagShoulder straps tuck away when backpack is used as a wheeled bagLightweight, water-repellent polyesterTwo large compartments and a smaller accessories compartmentLarge main compartment contains an interior zip pocket and two exterior pockets perfect for water bottlesFront zip pocket has a slip pocket perfect for a phone plus two pen pocketsPadded back",
+  "Title": "NWT Vera Bradley Lighten Up Rolling Backpack Wheels in Pop Art 14964 660 XA05",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "149.98",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "College Point, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "952",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "xia11356"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "149.98",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "11356",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:07:04.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P3DT10H22M28S",
+  "EndTime": "2017-06-06T01:07:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "POP ART"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232355922118",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Fancy Collection Express",
+    "StoreURL": "http://stores.ebay.com/id=1004608809"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323559221188080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

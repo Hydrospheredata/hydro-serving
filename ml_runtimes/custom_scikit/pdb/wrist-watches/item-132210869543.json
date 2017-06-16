@@ -1,0 +1,101 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1750.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "KW",
+  "Location": "Alsalam",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:13:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=591055951",
+    "StoreName": "engineer_q80"
+  },
+  "CurrentPrice": {
+    "value": "1750.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T10:13:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BB38SSCH",
+        "Name": "Model"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Bvlgari",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BB38SSCH",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210869543",
+  "HandlingTime": "2",
+  "Description": "Bvlgari BB38SSCH Men's 38mm GENUINE Bvlgari By Steel Case with box no paper. automatic movement. Watch with Black Dial. This GENUINE Bvlgari has been fitted with a GENUINE Bvlgari Steel Clasp.case : Original Bvlgari and Steel case in very good condition There are scratches case size : 38mm , with crown 40mm, thickness 11mm",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Bvlgari Bulgari BB38 SS CH Chronograph Date Automatic Black Dial Watch Men's",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bvlgari-Bulgari-BB38-SS-CH-Chronograph-Date-Automatic-Black-Dial-Watch-Mens-/132210869543",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322108695438080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H50M",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/65sAAOSwuLZY4LRF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6w4AAOSwuLZY4LRB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4U0AAOSwdGFY4LRJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ePUAAOSwol5Y4LRN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eqsAAOSwc-tY4LRR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4ywAAOSwdGFY4LRV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/74EAAOSwuLZY4LRZ/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "1750.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "95.5",
+    "FeedbackScore": "337",
+    "UserID": "engineer_q80",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

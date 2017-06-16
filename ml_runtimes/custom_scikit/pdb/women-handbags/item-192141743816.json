@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921417438168080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/jC0AAOSwdGFY2a3O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/MEoAAOSwCU1Y2a3O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/wewAAOSwhQhY2a3O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzMyWDUwMA==/z/jygAAOSwuLZY2a3N/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMyNA==/z/rYYAAOSwol5Y2a3N/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjczWDUwMA==/z/zmUAAOSwSlBY2a3N/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HiveBag-Womens-Shoulder-Bag-Schwarz-Gold-28x15x4-Shipping-Included-/192141743816",
+  "ConvertedCurrentPrice": {
+    "value": "247.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "HiveBag Women's Shoulder Bag Schwarz-Gold 28x15x4 by HiveBag Ships from UK Supplier Other information: 4251002901017 Related Searches: HiveBag Shoulder Bag, HiveBag Bags, Shoulder Bag Bags Dimensions: 28 x 4 x 15 centimeters Weight: 0.52 kg",
+  "Title": "HiveBag Women's Shoulder Bag Schwarz-Gold 28x15x4. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "247.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T00:12:17.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P23DT7H52M55S",
+  "EndTime": "2017-06-26T00:12:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "HiveBag"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4251002901017"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141743816",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57134938:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

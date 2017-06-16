@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "UA",
+  "Location": "Kryvoy Rog",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:55:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:55:10.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Poljot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694653306",
+  "HandlingTime": "3",
+  "Description": "In good working condition. Appearance is much better than in photo. Suitable for collection and for everyday use. If you have questions \u2013ask! See my other items.Shipping $10",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-USSR-watch-POLJOT-2614-2H-17jewels-white-dial-/272694653306",
+  "ConditionDescription": "excellent external and working condition,100% original!",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726946533068080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H21M27S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jboAAOSwSlBY3mBp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZDEAAOSwuxFY3mBw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uBAAAOSwDmBY3mB1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nd8AAOSwmgJY3mB7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kMsAAOSwSlBY3mCA/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "VINTAGE USSR watch POLJOT 2614.2H, 17jewels white dial",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "43",
+    "UserID": "mukus.nicho",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

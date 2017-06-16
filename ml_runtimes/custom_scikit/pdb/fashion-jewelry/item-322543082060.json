@@ -1,0 +1,171 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT16H26M30S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent condition - Never worn!",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543082060",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rose-Gold-Plated-multi-color-Flower-design-Luxury-3-AAA-Italian-Zircon-braclet-/322543082060",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:26:49.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-15T02:26:49.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Rose Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Italian AAA Zircon",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Tennis",
+        "Name": "Style"
+      },
+      {
+        "Value": "7\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Rose Gold Plated multi-color/Flower design Luxury 3 AAA Italian Zircon braclet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Wonderful Breath Taking Rose Gold Plated BraceletThe Bracelet contains Luxury 3 AAA Italian Zircons in beautiful multi-Flower design. Bracelet length 7\".",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225430820608080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "2hot4foxy",
+    "FeedbackScore": "1300",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "2hot4foxy",
+    "StoreURL": "http://stores.ebay.com/id=39255965"
+  },
+  "Quantity": "1",
+  "Location": "Sarasota, Florida",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjU0WDE2MDA=/z/UV8AAOSwH09ZNL5D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TzkAAOSwhvFZNL5N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-tQAAOSwZ4dZNL5V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc0WDE2MDA=/z/KEkAAOSwaEhZNL5Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDE2MDA=/z/sKkAAOSw-3FZNL5e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTY0WDE2MDA=/z/FekAAOSw1WJZNL5k/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "PostalCode": "34233"
+}

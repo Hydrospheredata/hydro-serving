@@ -1,0 +1,82 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "Irkutsk",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T15:01:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T15:01:22.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Does not apply",
+      "Name": "UPC"
+    }
+  },
+  "ExcludeShipToLocation": [
+    "CA",
+    "RU",
+    "AL",
+    "UA"
+  ],
+  "ItemID": "302334474631",
+  "HandlingTime": "3",
+  "Description": "NO BATTERY. 100% Working. Need a new battery! The watch needs a special battery. The watch is in excellent condition. There are only scratches on the back cover. Watch without a strap. Comes in the box Citizen! FREE SHIPPING",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-BU2016-0-NO-BATTERY-/302334474631",
+  "ConditionDescription": "WITHOUT BATTERY. 100% Worker. Need a new battery! The clock needs a special battery,",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023344746318080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H56M32S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/oWoAAOSw42JZBx4x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/0j8AAOSwdjNZBx4y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDcxOQ==/z/UzAAAOSww5NZBx40/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/ZUUAAOSwrhBZBx42/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/U4oAAOSww5NZBx44/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/S6AAAOSw7GRZBx47/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/-ocAAOSwlndZBx4~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/otwAAOSw42JZBx5C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/Z54AAOSwrhBZBx5G/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/d1kAAOSww9xZBx5J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/VaUAAOSww5NZBx5O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE5WDk2MA==/z/8CgAAOSwcgNZBx5T/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Citizen BU2016-0. NO BATTERY",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "297",
+    "UserID": "domienfreeman2010",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

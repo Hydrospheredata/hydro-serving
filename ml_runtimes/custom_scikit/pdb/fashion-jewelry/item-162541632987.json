@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P2DT7H58M3S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "139.0",
+    "_currencyID": "AUD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "96.6",
+    "UserID": "powersell2008",
+    "FeedbackScore": "8907",
+    "FeedbackRatingStar": "Green"
+  },
+  "ItemID": "162541632987",
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "103.38",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T19:51:01.000Z",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/No-13-7-8MM-Shiny-Fashion-Silver-Purple-Circle-Natural-Freshwater-Pearl-Ring-/162541632987",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T19:51:01.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Natural Freshwater Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "No. 13 7-8MM Shiny Fashion Silver+Purple Circle Natural Freshwater Pearl Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Sydney, NSW",
+  "Description": "powersell2008 Store Pearl Dimension\uff1a7-8MM Material: Natural Freshwater Pearl+silver Color\uff1apurple Pearl Shape: Circle Pearl Luster\uff1aBright Light Some of the item needs to be custom made and will take few days, we will be contacting you if this happened Normal 0 7.8 \u78c5 0 2 false false false MicrosoftInternetExplorer4 Track Page Views WithAuctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625416329878080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "Storefront": {
+    "StoreName": "OutdoorAddiction2008",
+    "StoreURL": "http://stores.ebay.com/id=527583602"
+  },
+  "Quantity": "5",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk0WDY3Ng==/z/Hu8AAOxy06hSDtZX/$(KGrHqIOKpMFIJv(N8KvBSDtZW4)rw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc2WDY3Nw==/z/b7sAAMXQaZxSDtZS/$T2eC16dHJHwFG2QFNwEpBSDtZSJoig~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc0WDY5Ng==/z/Ht4AAOxy06hSDtZT/$(KGrHqRHJBYFHyi8(c0eBSDtZTOJqw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc2WDY5OA==/z/lE8AAOxy1NxSDtZU/$T2eC16VHJFoFH449-2kOBSDtZUECY!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc2WDcwMw==/z/06kAAOxymspSDtZf/$T2eC16JHJH8FHRhKRLh0BSDtZef2Tg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

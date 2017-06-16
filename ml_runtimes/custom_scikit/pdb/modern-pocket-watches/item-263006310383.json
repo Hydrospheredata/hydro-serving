@@ -1,0 +1,203 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Pocket Watch Vintage Stainless Steel steampunk, pocket watch steampunk watch, nurse watch, pocket watches, woman watch, man watch Product Features:Diameter: About 4.7cmThickness: About 1.5cm Package Content:1 x Pocket Watch1 x Chain",
+  "StartTime": "2017-05-27T11:15:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/QmYAAOSwjqVZAbwe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/L7UAAOSw42JZAbwv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/fswAAOSw-3FZAbw4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/s2YAAOSwhvFZAbw~/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Aluminum",
+          "Stainless Steel"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PocketWatch001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "uktradeint",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "60",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T11:15:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Golden",
+          "Red",
+          "Colorful",
+          "Necklace Chain"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Golden",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/zNUAAOSwX61ZAbwy/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/phEAAOSwuZJZAbw2/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Colorful",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/RkAAAOSwjqVZAbw6/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Necklace Chain",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/g8MAAOSw42dZAbw8/$_57.JPG?set_id=8800005007"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "9.99"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Golden",
+            "Name": "Color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "9.99"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "9.99"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Colorful",
+            "Name": "Color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "9.99"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Necklace Chain",
+            "Name": "Color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "Beijing",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket Watch Vintage Stainless Steel Soviet Sickle Hammer Style Quartz Bronze",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Vintage-Stainless-Steel-Soviet-Sickle-Hammer-Style-Quartz-Bronze-/263006310383?var=",
+  "Storefront": {
+    "StoreName": "uktradeint",
+    "StoreURL": "http://stores.ebay.com/id=1019948606"
+  },
+  "ItemID": "263006310383",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT16H40M13S"
+}

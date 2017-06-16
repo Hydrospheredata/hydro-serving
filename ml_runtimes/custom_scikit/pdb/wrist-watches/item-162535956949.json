@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.49",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Renton, Washington",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:41:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "6.49",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:41:09.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535956949",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "GOLD",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage WORKING BULOVA 10K GOLD Filled LADIES WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-WORKING-BULOVA-10K-GOLD-Filled-LADIES-WATCH-/162535956949",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625359569498080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "98056",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H25M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/AWYAAOSwq1JZFf4e/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/wV8AAOSwlndZFf4g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/rW4AAOSwYvFZFf4h/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/a1oAAOSwaeRZFf4i/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/2FYAAOSwjL5ZFf4j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MmMAAOSwuMZZFf4k/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/mekAAOSwn-tZFf4l/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/C64AAOSww9xZFf4m/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Working woman's BULOVA 10RGP yellow gold watch without band.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "132",
+    "UserID": "casperscollectables2012",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

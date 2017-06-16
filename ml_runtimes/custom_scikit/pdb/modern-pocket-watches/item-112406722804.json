@@ -1,0 +1,91 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates"
+  ],
+  "QuantitySold": "0",
+  "Title": "Pocket Watch Quartz Steampunk Vintage Horse Design Full Hunter White Dial...",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "26.08"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Pocket Watch Quartz Steampunk Vintage Horse Design Full Hunter White Dial Arabic Numeral with Chain PW-46 Product Details Package dimensions: 4.1 x 4.1 x 1 inches Embossed Horses Vintage Design Full Hunter Pocket Watch with a Bronze Tone Metal Case ShoppeWatch Brand with Gift Box Metal Chain Length 365mm (14 inches) White Dial with Arabic Numerals Pocket watches make superb birthday or Christmas gifts, in addition to great wedding and groomsmen gifts. They are also ideal for corporate gifts or for the retirement of a long time employee. Here is an example of a pocket watch in an antique reproduction style depicting horses for equestrians that wants the classic look and practicality of a quality quartz movement pocket watch",
+  "StartTime": "2017-05-14T07:39:58.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YakAAOSwi7RZGAnF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/IJ0AAOSwcB5ZGAnG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3XAAAOSwK6RZGAnG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/seQAAOSwaeRZGAnH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/OOwAAOSwlMFZGAnI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/UaUAAOSw-3FZGAnI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9zkAAOSwblZZGAnJ/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ShoppeWatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PWQWH46",
+        "Name": "MPN"
+      },
+      {
+        "Value": "608819525570",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "isipreal_9",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "102",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124067228048080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-13T07:39:58.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "26.08"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B0075VMF3W",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Quartz-Steampunk-Vintage-Horse-Design-Full-Hunter-White-Dial-/112406722804",
+  "Storefront": {
+    "StoreName": "isipreal_9",
+    "StoreURL": "http://stores.ebay.com/id=1585328380"
+  },
+  "ItemID": "112406722804",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT12H59M17S"
+}

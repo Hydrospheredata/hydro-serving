@@ -1,0 +1,118 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "75253",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New in box",
+  "StartTime": "2017-05-16T06:03:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A1gAAOSw~gRV5PIe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5tcAAOSwLVZV5PIz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZSUAAOSwd0BV5PJH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yGgAAOSwTapV5PJZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~uEAAOSwu4BV5PJu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AN8AAOSwu4BV5PKC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JywAAOSwgQ9V5PKZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hKcAAOSwHnFV5PKp/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.49"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Other",
+        "Name": "Closure"
+      },
+      {
+        "Value": "025678910",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "34528967",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "unkn own",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "random_me",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "191",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529409795738080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T06:03:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.49"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/The-Proper-Pocket-Watch-Gold-Chain-Gift-Box-MSRP-49-99-/252940979573",
+  "Location": "Dallas, Texas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "\"The Proper Pocket Watch\" With Gold Chain & Gift Box  MSRP $49.99",
+  "Storefront": {
+    "StoreName": "Random Me 3",
+    "StoreURL": "http://stores.ebay.com/id=1326895236"
+  },
+  "ItemID": "252940979573",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT11H23M16S"
+}

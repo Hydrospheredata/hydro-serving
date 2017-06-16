@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/FtUAAOSw5UZY9H4t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ROYAAOSwIWVY9H4t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/w9UAAOSwzqFY9H4u/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sikAAOSwVm5Y9H4s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/c1gAAOSwWkJY9H4t/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cenzo-Trunk-Duffle-Vecchio-Brown-Italian-Leather-Weekender-Travel-Bag-/292088182265",
+  "ConvertedCurrentPrice": {
+    "value": "227.51",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The Cenzo Trunk Duffle Bag is the perfect 1-3 night weekender. It is made in Italy using Italian calfskin leather, matching YKK zipper, smart contrast stitching, durable 8 oz cotton duck canvas lining, and brass hardware. The vegetable tanned leather looks better as it ages. One characteristic of our vegetable leather is that it has large pores and absorbs smell - so you might detect a sweet nail polish scent when you remove it from the plastic for the first time. Please take note of this characteristic. This new leather smell is the result of the leather edge paint and clear stain coating - it fades after 24 hours in fresh air. Weight is 4.5 pounds - 12\" h x 9\" w x 20\" l - Made with beautiful full grain calfskin leather that has deep color tones and looks better as it ages. The vegetable tanned base creates the rich brown and red colors while the semi gloss finish helps prevent stains. Over time this leather will soften and develop a beautiful patina. Our 8 oz cotton duck canvas lining is made in South Carolina and very durable. The combination of Italian vegetable tanned leather and strong U.S. made canvas lining makes this bag a popular choice. - Matching YKK Zipper / Brass Hardware - Detachable Shoulder Strap - adjustable 40/46\" - Contrast Stitching Cenzo Trunk Duffle Vecchio Brown Italian Leather Weekender Travel Bag",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "227.51",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Cenzo Trunk Duffle Vecchio Brown Italian Leather Weekender Travel Bag",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T08:34:50.000Z",
+  "HitCount": "172",
+  "TimeLeft": "P13DT15H39M58S",
+  "EndTime": "2017-06-16T08:34:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "638142644709"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0638142644709"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Cenzo"
+      },
+      {
+        "Name": "MPN",
+        "Value": "6784495"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3.6 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 19.5 x W 18 x H 3 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "8816"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088182265",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920881822658080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

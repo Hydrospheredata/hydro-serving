@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cortland, Ohio",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:41:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T13:41:54.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530242146",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "citizen diver type watch",
+  "ConditionDescription": "excellent",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/citizen-diver-type-watch-/222530242146",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225302421468080_1.jpg",
+  "HitCount": "12",
+  "PostalCode": "44410",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT22H30M37S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/ZqYAAOSwn-tZLsee/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/FT0AAOSw-3FZLset/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/h0oAAOSwX9FZLse6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/TF0AAOSw42dZLsfJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/wcAAAOSwZKBZLsfW/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Up for auction is a mint condition citizen diver type watch...needs battery, but runs perfect. Worn only a dozen times. Please email me with questions. Thank you., matt",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "347",
+    "UserID": "seaking9673",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

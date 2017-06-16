@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pittsburg, Kansas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:22:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=30732450",
+    "StoreName": "dollys-treasures"
+  },
+  "CurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:22:53.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074168752",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "GENEVA LADIES 2 TONE QUARTZ WATCH WITH LAVENDER FACE",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GENEVA-LADIES-2-TONE-QUARTZ-WATCH-LAVENDER-FACE-/352074168752",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520741687528080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "66762",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H10M19S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JxUAAOSwZKBZJUOB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU0WDY1NA==/z/3JEAAOSwR29ZJUOQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4MVg3NjA=/z/0EkAAOSwsXFZJUOm/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Geneva Ladies 2 Tone Quartz Watch Lavender Face Water Resistant Stainless Steel Back Item 317 Please Add us to your Favorites List Please Look at our other items",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "23393",
+    "UserID": "dollys-treasures",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

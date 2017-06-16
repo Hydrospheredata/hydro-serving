@@ -1,0 +1,76 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzc2/z/kz8AAOSwpDdVCRif/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VICTORIA-SECRET-PINK-DOG-CANVAS-TRAVEL-BEACH-Sequin-Bling-Zipper-BAG-Blue-/191895517337",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "17\" x 21\" BRAND NEW VICTORIA'S SECRET PINK CANVAS BAG.STRAP DROP APPRX. 10 INCHESMaterial: Dual CanvasTop zip closureInside bag has a zip pouch to store money, keys, misc small itemsGraphic on the front (only) of bag:\"LOVE PINK\"Letters are black sequins",
+  "Title": "VICTORIA SECRET PINK DOG CANVAS TRAVEL BEACH Sequin Bling Zipper BAG Blue",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "982",
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "fashionistar2011"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33173",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2016-06-13T11:13:32.000Z",
+  "HitCount": "108",
+  "TimeLeft": "P5DT19H57M57S",
+  "EndTime": "2017-06-08T11:13:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "VICTORIA'S SECRET"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "191895517337",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1918955173378080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

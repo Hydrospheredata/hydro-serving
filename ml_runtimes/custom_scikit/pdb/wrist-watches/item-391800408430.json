@@ -1,0 +1,145 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.13",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "chesterfield, Derbyshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:42:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "3.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T10:42:43.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "391800408430",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "bnwob mens quartz wristwatch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/bnwob-mens-quartz-wristwatch-/391800408430",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3918004084308080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "s410bl",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT19H20M37S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tvkAAOSw-YVXlOmR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/joIAAOSwSv1XlOmN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BF8AAOSwqfNXlOmK/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "brand new without tagsmens unbranded quartz wristwatchbevelled face with faux white leather strap",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4371",
+    "UserID": "chilli.0124",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

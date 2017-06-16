@@ -1,0 +1,157 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P25DT8H2M18S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Great condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132211424949",
+  "ConvertedCurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-31T21:39:03.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14k-White-Gold-Dangling-Cubic-Zirconia-Toe-Ring-/132211424949",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-30T21:39:03.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HLY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": ".585",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "14K",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14k White Gold Dangling Cubic Zirconia Toe Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Englishtown, New Jersey",
+  "Description": "14k White Gold toe ringSquare cubic zirconia dangles from centerNew never wornsigned 14k Hly1.0 gram",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322114249498080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "goldandmore",
+    "FeedbackScore": "368",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "goldandmore",
+    "StoreURL": "http://stores.ebay.com/id=1153300129"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUyWDczMg==/z/3z0AAOSwzaJX3pnZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODM2WDEwNDQ=/z/I8oAAOSwNRdX3pnm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQ3NA==/z/JkoAAOSwNRdX3pn4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/A64AAOSwgQ9VnyOx/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "07726"
+}

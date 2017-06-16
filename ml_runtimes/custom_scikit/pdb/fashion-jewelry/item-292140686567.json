@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT15H25M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "1758",
+  "ItemID": "292140686567",
+  "ConvertedCurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T03:08:59.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Freshwater-Peach-Pearl-Black-Jet-Crystals-Necklace-Bracelet-Earrings-/292140686567",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T03:08:59.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Peach",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Freshwater Peach Pearl with Black Jet Crystals Necklace, Bracelet & Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "New York, New York",
+  "Description": "Sku # = 1758 Freshwater Peach Pearl With Black Crystal Necklace, Bracelet and Earrings Set Pearl MM Size = Rondel 7.5 mm - 8.0 mm And Heart 9.7 mm - 11.0 mm Shape of Pearl = Rondel & HeartColor of Pearl = PeachColor of Crystals = BlackSize of Crystals = 4.0 mm Total Necklace Length in Inches Including Clasp = 35\"Total Bracelet Length in Inches Including Clasp = 7 \"Total Length of Earrings in Inches Including Lever Backs = 2 \"Silver = Sterling SilverClasp = Fish Lock Retail Value = $125.00Necklace can be worn in different ways as shown in the pictures.White freshwater pearls are natural color other colors are color enhance.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921406865678080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vicsfinejewelryinc",
+    "FeedbackScore": "1686",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Vic&#39;s Fine Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=96431699"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwNVgxNjAw/z/dtcAAOSw3ydVkY2T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMw/z/0i8AAOSwLVZVkY2r/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzUy/z/zecAAOSwu4BVkY20/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4NlgxNjAw/z/84gAAOSwHnFVkY27/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3MlgxNjAw/z/phYAAOSwPcVVkY2Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MjU3WDE2MDA=/z/QZcAAOSwMmBVkY2a/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NDA=/z/puIAAOSwPcVVkY2e/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU0NFg3MDU=/z/7-cAAOSwHnFVkY2h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVg5NzY=/z/y8cAAOSwu4BVkY2k/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10036"
+}

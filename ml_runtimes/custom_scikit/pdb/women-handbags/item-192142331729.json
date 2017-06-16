@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kadell-Women-Leather-Vintage-Shoulder-Handbags-Totes-Top-Handle-Bags-Satchel-Pur-/192142331729?var=",
+  "ConvertedCurrentPrice": {
+    "value": "77.07",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kadell Women Leather Vintage Shoulder Handbags Totes Top Handle Bags Satchel Purses Hobos Black by Kadell Ships from Local Supplier Other information: KADELLIGIRI2378 Related Searches: Kadell Hobo, Kadell Bags, Shoulder Bag Bags Dimensions: 40.0 x 25.0 x 5.0 centimetres Weight: 0.37 kg",
+  "Title": "Kadell Women Leather Vintage Shoulder Handbags Totes Top Handle Bags Satchel Pur",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "77.07",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/851/011/311562752/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark Blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/851/012/312141848/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/851/013/311946721/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "93.67",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851011:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "94.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851012:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851013:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Red",
+          "Dark Blue",
+          "Black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-28T12:47:35.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P23DT20H28M34S",
+  "EndTime": "2017-06-26T12:47:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kadell"
+      },
+      {
+        "Name": "MPN",
+        "Value": "692559335"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142331729",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "8",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139851010:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

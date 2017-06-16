@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "Orekhovo-Zuevo, Moscow region",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:51:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:51:11.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Orient",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "===",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334409131",
+  "HandlingTime": "30",
+  "Description": "I will bring to your attention watch of Orient STI Subaru of limited release, in perfect tune, of the mechanic, the carbonic dial, date, protection against water of 100 m, a complete set, documents, labels, a box and additional links from a bracelet, were worn watch very little.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ORIENT-STI-LIMITED-EDITION-/302334409131",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023344091318080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H40M1S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eKkAAOSwOVpXTxTQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sGMAAOSwepJXTxTl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mqoAAOSw4q9XTxT3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8J4AAOSw6n5XsbiY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TF4AAOSwHoFXsbih/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "ORIENT STI LIMITED EDITION",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "264",
+    "UserID": "lucky_boy.lesha",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

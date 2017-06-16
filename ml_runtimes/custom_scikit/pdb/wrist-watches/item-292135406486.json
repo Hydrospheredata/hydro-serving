@@ -1,0 +1,132 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "144456345",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:52:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=98147286",
+    "StoreName": "Genuine Watches"
+  },
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:52:09.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135406486",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ES3199",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "$85.00",
+        "Name": "Retail"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "ES3199",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "691464949174",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "*BRAND NEW* Fossil Women's Analog Silver-Tone Black Slim Leather Watch ES3199",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-Fossil-Womens-Analog-Silver-Tone-Black-Slim-Leather-Watch-ES3199-/292135406486",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921354064868080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "11209",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H23M54S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/dPUAAOSw-0xYhCvE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIwWDYyMA==/z/6zEAAOSwo4pYhCvH/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Product Features:Silver-tone case Analog dialBlack leather strap material50 meters water resistanceLuminiscent hands and markers32mm case diameterTHIS BRAND NEW Fossil WATCH COMES WITH THE Fossil FACTORY WARRANTY AND THE ORIGINAL Fossil WATCH BOX. \"WE ARE AN AUTHORIZED FOSSIL DEALER. ALL OUR FOSSIL WATCHES ARE 100% AUTHENTIC WITH THEIR TAGS AND SEALING ON THEM.\" ***30 Days Return Policy w/ No Restocking Fee*** ***FREE SHIPPING to all the states*** Important Points To Know About GENUINE_WATCHES:All our brand name watches are brand new, 100% authentic.We are an authorized dealer for all the brands we are marketing. Therefore, all the stamped warranty cards by our company are valid in USA and all over the world.Sold items come with their original boxes, original factory warranty cards, original tags and sealing on them.Sold items ship the latest within 3 business days after the payment gets cleared. We offer free USPS Parcel Post which takes about 5-7 business days after shipment. We also offer USPS Priority Mailing (2-3 business days) and USPS Express Mailing (1 business day) for a small additional charge.Do not hesitate to contact us with any inquiries. We answer all the emails within 24 hours.Returns can be made within 30 days after receiving the item. After inspecting the item, 100% full payment will be refunded to buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4175",
+    "UserID": "genuine_watches",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

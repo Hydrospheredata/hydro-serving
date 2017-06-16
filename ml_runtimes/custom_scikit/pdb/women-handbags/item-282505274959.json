@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P29DT11H11S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Excellent condition.",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/hagAAOSww9xZCTBL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/zZ0AAOSwX61ZCTBJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/T6gAAOSwtGlZCTBK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/2C0AAOSwjL5ZCTBM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ElQAAOSwnONZCTBB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/TPcAAOSw~y9ZCTBD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/CyoAAOSw-3FZCTBE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjgxWDYwNQ==/z/0MAAAOSwX61ZCTBc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ePYAAOSwhvFZCTBH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTMzWDc0Ng==/z/UtQAAOSw~y9ZCTBo/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Black-Thea-Nylon-Leather-Messenger-Baby-Diaper-Bag-Tote-/282505274959",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Tory Burch Diaper Bag The measurements are as follow: 15\" L 11\" H 6\" W Adjustable cross body strap with about 20\" drop.",
+  "Title": "Tory Burch Black Thea Nylon Leather Messenger Baby Diaper Bag Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "55",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "inka014"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60634",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T02:19:12.000Z",
+  "HitCount": "6",
+  "ConditionID": "3000",
+  "EndTime": "2017-07-02T02:19:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282505274959",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825052749598080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P19DT9H50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "361979913474",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OSCAR-RENTA-RED-GUNMETAL-BRACELET-USA-/361979913474",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T00:03:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T00:03:24.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "oscar de la renta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "OSCAR  DE LA RENTA RED GUNMETAL BRACELET USA",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SIGNED AUTHENTIC OSCAR BRACELET MEASURES 7 INCH. GUNMETAL WITH RED STONES AND TOGGLE CLOSURE.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619799134748080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "almongillo",
+    "FeedbackScore": "32841",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "almongillo",
+    "StoreURL": "http://stores.ebay.com/id=342251"
+  },
+  "Quantity": "1",
+  "Location": "Danbury, Connecticut",
+  "HitCount": "32",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjI5WDgwOQ==/z/X2oAAOSwcUBYFWQM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjM3WDc1Ng==/z/Y~oAAOSwcUBYFWQ8/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06813"
+}

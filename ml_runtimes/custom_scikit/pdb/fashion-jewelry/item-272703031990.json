@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P9DT21H49M20S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Pre-owned used jewelry by Chrome Hearts.Body Condition.\n[Scratches]Unnoticeable scratches\n[Stains]Unnoticeable stains\nPendant / Charm Condition.\n[Scratches]\n[Stains]\n[Remarks]minor scratches on surface.\nPlease always check the detailed condition of the product as in the photos above.",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "318.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272703031990",
+  "ConvertedCurrentPrice": {
+    "value": "318.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T11:03:53.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Auth-Chrome-Hearts-CH-Cross-Band-Ring-6-US-Silver-Free-ship-/272703031990",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T11:03:53.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chrome Hearts",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "SV925",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Auth Chrome Hearts CH Cross Band Ring #6(US)  Silver Free ship",
+  "ExcludeShipToLocation": [
+    "IL",
+    "KR",
+    "RU",
+    "FR",
+    "IT",
+    "PT",
+    "BR",
+    "PO Box"
+  ],
+  "Location": "Tokyo",
+  "Description": "not found",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727030319908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "UserID": "brandkauzo",
+    "FeedbackScore": "1477",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "brandkauzo",
+    "StoreURL": "http://stores.ebay.com/id=1197192021"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/aDkAAOSwZKBZJlPC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/k~oAAOSwlndZJlO6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/kb4AAOSw~y9ZJlO1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/itgAAOSwZ4dZJlO4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/MHQAAOSw7GRZJlPE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ROIAAOSw-3FZJlO8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/S1YAAOSwX9FZJlO-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/dq4AAOSwlY1ZJlPA/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings"
+}

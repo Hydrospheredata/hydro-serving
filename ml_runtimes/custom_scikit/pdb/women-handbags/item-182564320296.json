@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTY0/z/oIsAAOSw42dZD03-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTU3/z/Zf8AAOSwrhBZD04B/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTY0/z/L9cAAOSwBt5ZD04F/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Core-Pretty-Elizababy-Shoulder-Bag-Quartz-Grey-New-/182564320296",
+  "ConvertedCurrentPrice": {
+    "value": "263.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Marc By Marc Jacobs Core Pretty Elizababy Shoulder Bag Product Details Color: Quartz Grey Brand: Marc by Marc Jacobs MPN: CORE PRETTY ELIZABABY Product Dimensions: 19.8 x 16 x 3.5 inches Shipping Weight: 1.6 pounds Origin: Hong Kong Item model number: CORE PRETTY ELIZABABY Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More 100% Nylon Imported 100% Nylon lining Zipper closure 20\" shoulder drop 14\" high 15.5\" wide Oversized shoulder bag featuring metallic logo plaque and allover tonal letter stitching Dual top handles and removable/adjustable cross-body strap With an included changing pad, 4 handy exterior pockets, and easy-to-clean, logo-quilted fabric, this Marc by Marc Jacobs baby bag is a chic parent's dream. Detachable shoulder strap and sturdy double handles. Zip closure opens to a logo-lined interior with a zip pocket and 4 patch pockets. Marc Jacobs was born in New York City in 1963. A graduate of the Parsons School of Design, Marc Jacobs' original collections were based on simple concepts: a love for fashion and a commitment to quality. Those same principles remain the cornerstones of Marc Jacobs products today. Marc Jacobs' collections now include women's and men's clothing, shoes, fragrance, eyewear, watches, and home accessories.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "263.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "12244",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "ssb-direct"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Marc By Marc Jacobs Core Pretty Elizababy Shoulder Bag Quartz Grey New",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T16:40:41.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825643202968080_1.jpg",
+  "TimeLeft": "P4DT1H13M45S",
+  "EndTime": "2017-06-06T16:40:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "CORE PRETTY ELIZABABY"
+      },
+      {
+        "Name": "Color",
+        "Value": "Quartz Grey"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182564320296",
+  "Storefront": {
+    "StoreName": "ssb-direct",
+    "StoreURL": "http://stores.ebay.com/id=1080118404"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B005FZZS02",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

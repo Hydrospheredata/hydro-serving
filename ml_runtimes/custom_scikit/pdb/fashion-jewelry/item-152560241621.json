@@ -1,0 +1,127 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P18DT10H45M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152560241621",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Sterling-Earrings-/152560241621",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T01:48:42.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-24T01:48:42.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "earrings",
+        "Name": "Jewelry Type"
+      }
+    ]
+  },
+  "Title": "Silpada Sterling Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Up for auction are Silpada earrings. The earrings are sterling silver. The earrings are circles with dangle in the center. They are featured in the 2008-09 catalog where it was listed on page 92 as item P1663. This is listed as used, but is in perfect condition and shows no sign of wear. I have too much Silpada and need to thin the jewelry box. It will ship in a Silpada box if requested. It will not be the original box, as I did not mark the boxes. I am cleaning my closets and will be listing a lot more items. Please check my other listings over the next few weeks for great women's and children's clothes, toys and jewelry. Please email with questions, I won't be able to accept returns. I will combine shipping to the best of my ability. I only charge actual shipping charges. Shipping is expensive. Please consider this when bidding and don't leave negative feedback for something beyond my control.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525602416218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "lynda64",
+    "FeedbackScore": "3273",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Sunny Florida",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/L48AAOSwZQxW5ho3/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000"
+}

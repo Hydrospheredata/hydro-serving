@@ -1,0 +1,119 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT13H45M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "302340336858",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/White-House-Black-Market-Bead-Adjustable-Slide-Gold-Tone-Necklace-Bracelet-Set-/302340336858",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T01:31:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T01:31:05.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "White House Black Market",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Picture Jasper",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold Tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Base",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Gold and Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "N: 451006648367  B: 451006649241",
+        "Name": "UPC Numbers"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "White House Black Market Bead Adjustable Slide Gold Tone Necklace & Bracelet Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "White House Black Market Bead Adjustable Slide Gold Tone Necklace & Bracelet Set - MSRP $80 This fabulous set features a long beaded and gold tone chain adjustable slide necklace and a matching double strand beaded and gold tone chain adjustable slide bracelet. Measures approximately: Necklace - 41.5\" long (at longest length); Bracelet - 10\" (at longest length)...slide to adjust the fit.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023403368588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "teakotiger",
+    "FeedbackScore": "360",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Fabulous by Angela",
+    "StoreURL": "http://stores.ebay.com/id=138062439"
+  },
+  "Quantity": "2",
+  "Location": "Fletcher, North Carolina",
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/ut4AAOSw03lY5V61/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTEzN1gxNjAw/z/tegAAOSwA29Y5V67/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTE2/z/ZUAAAOSwc-tY5V6~/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTI1/z/b2MAAOSwU8hY5V7E/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTI3MVgxNjAw/z/X4gAAOSwuLZY5V7I/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA5OFgxNjAw/z/~yUAAOSwVctY5V7N/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTI0NFgxNjAw/z/GOgAAOSwmgJY5V7S/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTMz/z/PS4AAOSww3tY5V7V/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjA4/z/aWoAAOSwc-tY5V7Z/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTQ1MlgxNjAw/z/7CYAAOSwB-1Y5V7g/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIyMVgxNjAw/z/G-QAAOSwmgJY5V7k/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Y7EAAOSwuLZY5V7o/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "28732"
+}

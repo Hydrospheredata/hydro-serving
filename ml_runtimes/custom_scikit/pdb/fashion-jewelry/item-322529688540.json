@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT9H11M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322529688540",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-KJL-STUNNING-acrylic-WIDE-BRANCH-BRACELET-/322529688540",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T00:00:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T00:00:55.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Acrylic",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE KJL STUNNING acrylic  WIDE BRANCH  BRACELET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SIGNED LANE BRACELET IS CREAM ACRYLIC WITH GOLD CORAL BRANCH",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225296885408080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "paper00",
+    "FeedbackScore": "11268",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "paper00",
+    "StoreURL": "http://stores.ebay.com/id=55701735"
+  },
+  "Quantity": "1",
+  "Location": "Waterbury, Connecticut",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExN1gxMzU3/z/HzcAAOSw7I5TtE4T/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06708"
+}

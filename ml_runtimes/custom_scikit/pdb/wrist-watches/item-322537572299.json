@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.14",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Llandeilo",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:45:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:45:52.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537572299",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel Back",
+        "Name": "Model"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "LADIES WATCH. AVON. WHITE LEATHER STRAP. STAINLESS STEEL BACK NEEDS BATTERY",
+  "ConditionDescription": "Needs battery",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LADIES-WATCH-AVON-WHITE-LEATHER-STRAP-STAINLESS-STEEL-BACK-NEEDS-BATTERY-/322537572299",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225375722998080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "SA19 6LU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H39M26S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/f3wAAOSwMmBV3Fy7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/LokAAOSwu4BV3Fy9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/14AAAOSwT6pV3FzA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/ohEAAOSwyQtV3FzC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/g6kAAOSwHnFV3Fy3/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "LADIES WATCH.\u00a0 STAINLESS STEEL BACK AVON NEW WHITE LEATHER STRAP ANALOGUE NEEDS A NEW BATTERY",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "325",
+    "UserID": "velcro123125",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

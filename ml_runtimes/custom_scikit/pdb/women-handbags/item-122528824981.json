@@ -1,0 +1,203 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fioAAOSw3utY7pC7/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Cosmetic-Case-22-F53387-Crossgrain-Leather-Black-Burgandy-Nwt-/122528824981?var=",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Coach Cosmetic Case 22All Cosmetic Cases Shown are the Coach Larger Size Cases (22)Approx. 8.5\" x 5.75\" x 3\"Please choose:Cosmetic Case 22 in Black with Gold Tone Logoor Cosmetic Case 22 in Burgandy with Silver Tone LogoEither one, both very pretty!New with Tags Thanks for looking!",
+  "Title": "Coach Cosmetic Case 22 F53387 Crossgrain Leather Black or Burgandy Nwt",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Tyrone, Georgia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "138",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "jackie375"
+  },
+  "PrimaryCategoryID": "163570",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30290",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black ~ Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTM1M1gxMTkx/z/P8wAAOSww3tY7pEY/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Burgandy ~ Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTMyN1gxMTkx/z/rL4AAOSwB-1Y7pFc/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "63.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black ~ Gold"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "59.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Burgandy ~ Silver"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black ~ Gold",
+          "Burgandy ~ Silver"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-06-02T03:54:24.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT12H13M35S",
+  "EndTime": "2017-07-02T03:54:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Type",
+        "Value": "Cosmetic Case 22"
+      },
+      {
+        "Name": "Material",
+        "Value": "Crossgrain Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "#22"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122528824981",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

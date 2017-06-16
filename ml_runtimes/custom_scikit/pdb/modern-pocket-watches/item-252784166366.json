@@ -1,0 +1,310 @@
+{
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "ZA",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "SA",
+    "YE",
+    "AF",
+    "AZ",
+    "BD",
+    "CN",
+    "GE",
+    "KZ",
+    "MV",
+    "MN",
+    "NP",
+    "TM",
+    "AS",
+    "CK",
+    "FJ",
+    "GU",
+    "KI",
+    "MH",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "IS",
+    "IE",
+    "LI",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "CH",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "QuantitySold": "13",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-02-23T17:00:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/HuoAAOSw4A5YrxVq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/goEAAOSw32lYrxVp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/xlAAAOSwfVpYrxVk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/4mUAAOSwTuJYrxVk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/TRkAAOSwOgdYrxVk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/mHEAAOSwx6pYrxVm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/tj0AAOSw2gxYrxVl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/neEAAOSwax5YrxVn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/mSwAAOSwx6pYrxVr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/HsgAAOSw4A5YrxVo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/x4wAAOSwfVpYrxVt/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "37",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "P0017563",
+  "HitCount": "181",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T17:00:48.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "252784166366",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "AU"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept return for the damaged/faulty products for refund/replacing if there is no man-made damage after the buyers received the items. Buyer must contact us for the problem via eBay message or email us and follow our working steps to provide all the information we need in 7 working days after receiving. We will provide corresponding resolution once we confirm the item problems. If buyers merely feel unhappy, the product is not what they expected, or buyers have simply changed their minds. Customers must contact us and let us know the reason for returning in 7 working days after the parcel arrived. Please make sure the item is in new condition and in the original package before returning, also, all the accessories and instruction must be included in the parcel. We will provide the correct returning address after that. Thank you.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Bronze",
+          "Silver"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/44/1e/97/441e9762-45b4-4e86-8615-2e1645af67b5/heads/86a014e7-f780-4eb8-8000-74d87aaef6b7.jpg"
+        },
+        {
+          "VariationSpecificValue": "Bronze",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/5f/7c/17/5f7c17f6-46b5-4a8d-8c18-3cc619b8998a/heads/15f466e9-5b3c-47c8-94ee-11d073f6ca4e.jpg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "https://erpimgs.idealhere.com/ImageFormal/9d/5e/69/9d5e698b-dec2-460a-827f-4ca1e5b023e0/heads/6a9cdda6-694f-4554-ae27-4ccaf32d7f0b.jpg"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.99"
+        },
+        "SKU": "0187173",
+        "SellingStatus": {
+          "QuantitySold": "8",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "16"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.99"
+        },
+        "SKU": "0187174",
+        "SellingStatus": {
+          "QuantitySold": "4",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Bronze",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "12"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.99"
+        },
+        "SKU": "0187175",
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "9"
+      }
+    ]
+  },
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro The Nightmare Before Christmas Jack Skull Skellington Quartz Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Nightmare-Before-Christmas-Jack-Skull-Skellington-Quartz-Pocket-Watch-/252784166366?var=",
+  "Storefront": {
+    "StoreName": "uu-832",
+    "StoreURL": "http://stores.ebay.com/id=1442140868"
+  },
+  "Seller": {
+    "UserID": "24hours-am-pm",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4711",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT22H6M55S"
+}

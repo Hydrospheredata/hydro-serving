@@ -1,0 +1,204 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "HongKong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:06:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=772031225",
+    "StoreName": "onfine2008"
+  },
+  "CurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:06:52.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "TPT4122705K_1629",
+  "Description": null,
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "CN",
+    "AT",
+    "HR",
+    "GG",
+    "JE",
+    "LI",
+    "LT",
+    "MC",
+    "ME",
+    "PL",
+    "SJ",
+    "CH",
+    "UA",
+    "VA",
+    "HK",
+    "ID",
+    "MO",
+    "TW",
+    "BO",
+    "FK",
+    "GY",
+    "PE",
+    "SR",
+    "DZ",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MZ",
+    "NA",
+    "NE",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "EH",
+    "ZM",
+    "ZW",
+    "PO Box"
+  ],
+  "ItemID": "201942293053",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "9298",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "HighBidder": {
+    "FeedbackScore": "1096",
+    "UserID": "t***0",
+    "FeedbackRatingStar": "Red",
+    "FeedbackPrivate": "false"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladys-Geneva-Roman-Numerals-Faux-Leather-Analog-Quartz-Wrist-Watch-US-Gift-Hot-/201942293053",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "1",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019422930538080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H42M20S",
+  "Title": "Lady's Geneva Roman Numerals Faux Leather Analog Quartz Wrist Watch US Gift Hot",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/7XsAAOSwhQhY0BP8/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.06",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackScore": "222214",
+    "UserID": "onfine2008",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please contact us if you are not satisfied with the item after received it, should be return the item back to us for replace/refund. The return shipping is paid by the Buyer. Thanks for your business and understanding.\nHave a nice day.\n\nBest regards,\nCustomer Support"
+  }
+}

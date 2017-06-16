@@ -1,0 +1,89 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5770.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Japan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:23:18.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1164248126",
+    "StoreName": "kyoto-japan_shop"
+  },
+  "CurrentPrice": {
+    "value": "5770.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T08:23:18.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SEIKO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GBBD998",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Europe",
+    "JP"
+  ],
+  "ItemID": "172705473136",
+  "HandlingTime": "5",
+  "Description": "Description Seiko cradle model number GBBD998 / 6899-00A0 Movement hand-rolled material K18YG / Leather Case Width (mm) 33 Around the arm (cm) 15-18.5 about accessories repair specification and booklet A + Studio reference price \\ comment 2017 March makers OH already ! Genuine new leather belt Finished! > N ... unused goods. So unredeemed goods, there are times when there is no guarantee box manual, etc. or Payment We only accept PayPal payments. Please pay within 5 days after auction is finished. Shipping Free Shipping Worldwide!! Shipping Duration Shipping Method Asia North America Central America Middle East AU, NZ Europe Russia South America Africa EMS 3 - 6 days 4 - 6 days 3 - 5 days 4 - 6 days Traceable & Insurance by Japan Post Terms of Sale Money back guarantee within 14 days if returned by customer. About Us Ordering More than 1 item?? We can Combine your Shipping, and Save your Money!! If you can't find the items you're looking for in our store, please feel free to contact us!! We will confirm if the item is in stock and we will let you know as soon as possible. I am looking forward to do business with you!! Thank you for your visiting our store!! International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEIKO-Credor-Skeleton-GBBD998-6899-00A0-K18YG-Gold-Hand-Wound-Watch-Used-Rare-/172705473136",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727054731368080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT16H53M8S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ZRgAAOSw3utY5dup/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/wD0AAOSwpkFY5dup/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/BWUAAOSw~CFY5duq/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "SEIKO Credor Skeleton GBBD998 6899-00A0 K18YG Gold Hand-Wound Watch Used Rare",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "318",
+    "UserID": "kyoto-japan_shop",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

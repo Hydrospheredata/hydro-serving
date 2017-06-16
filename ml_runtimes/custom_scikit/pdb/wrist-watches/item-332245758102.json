@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:49:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:49:36.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245758102",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Color"
+      },
+      {
+        "Value": "12 mm",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Push Button Hidden",
+        "Name": "Clasp Type"
+      },
+      {
+        "Value": "Armani",
+        "Name": "Brand"
+      },
+      {
+        "Value": "723763165549",
+        "Name": "UPC"
+      },
+      {
+        "Value": "No",
+        "Name": "Chronograph"
+      },
+      {
+        "Value": "AR5909",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "43 mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Armani",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Dial Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Emporio Armani Mens Watch   AR5909 New",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Emporio-Armani-Mens-Watch-AR5909-New-/332245758102",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322457581028080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H38M33S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTMyNVg4ODg=/z/mroAAOSwsW9Y2BqZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTg5WDg1OQ==/z/J7AAAOSwDKtY2Bqo/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand Name: Emporio Armani Model number: AR5909 Item Shape: round Box not included Dial window material type: Mineral Display Type: analog Clasp: deployment-clasp-with-push-button Case material: s.s Case diameter: 43 millimeters Case Thickness: 12 millimeters Band material: plated stainless Band length: men's Band width: 22 millimeters Band Color: Dial color: Silver Calendar: Date Movement: Japanese-Quartz Water resistant depth: 165 Feet Case color: Silver Hand colors: Silver Type Band: Stainless Steel Bracelet Clasp Type: Push Button ClaspBuckle : Stainless steel clasp with embossed Armani logo Crown : stainless steel crown with embossed Armani logo Case Back: Stainless steel Case Back with embossed Armani logo",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

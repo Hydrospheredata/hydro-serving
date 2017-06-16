@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT16H31M52S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "Silver Crystal Necklace Clip Earrings Set Bridal",
+  "ItemID": "272702649990",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DRAG-QUEEN-SILVER-RHINESTONE-SILVER-NECKLACE-CLIP-EARRINGS-BRIDAL-STAGE-SET-/272702649990",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:14:30.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:14:30.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Material"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "DRAG QUEEN SILVER RHINESTONE SILVER NECKLACE CLIP EARRINGS BRIDAL STAGE SET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Silver Crystal Rhinestone Necklace Set Necklace 24 \"Long Drop 2.75\" Lobster Clasp Clip On Earrings 2.5\" Long Radiant Glamorous Well Designed",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727026499908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dragqueenjewelry_0",
+    "FeedbackScore": "25",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "Iced Out Fashion Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1562152849"
+  },
+  "Quantity": "1",
+  "Location": "San Antonio, Texas",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4N1gxNjAw/z/v7IAAOSwCQZZCVVX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/yqYAAOSwnONZCVVp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/GjcAAOSwONBZCVV2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/djYAAOSww9xZCVWG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/f-IAAOSwhvFZCVWV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE2MlgxNjAw/z/3c8AAOSw~y9ZCVWf/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "78217"
+}

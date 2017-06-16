@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT9H2M42S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132214886202",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925A-Silver-Smiling-Half-Moon-Pendant-Pin-Brooch-black-Cubic-Zirconia-Marcasites-/132214886202",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T22:03:54.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T22:03:54.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Tanzania, United Republic of",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "925A Silver Smiling Half Moon Pendant/Pin/Brooch black Cubic Zirconia Marcasites",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "925 Sterling Silver Pendant and Pin/Brooch with cubic zirconia and marcasites. Design of a black and white half moon with a smiling face. Stamped \"925 A Thailand\". Free shipping to U.S. addresses.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322148862028080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "acostajewelers",
+    "FeedbackScore": "169",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Acosta Jewelers",
+    "StoreURL": "http://stores.ebay.com/id=163010711"
+  },
+  "Quantity": "1",
+  "Location": "Denver, Colorado",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/o2AAAOxySoJTTKh2/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EK0AAOxy4YdTTKh6/$_1.JPG?set_id=8800005007F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "80214"
+}

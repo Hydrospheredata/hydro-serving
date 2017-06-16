@@ -1,0 +1,70 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "77515",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Embassy By Gruen men's pocket watch. Gold tone and black enamel on the front, along with the depiction of a motorcycle. Watch measures 1.75\" in diameter, chain measures a total length of 15\". New battery and is in working order.",
+  "StartTime": "2017-05-15T19:59:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/GkkAAOSwuMZZDRbQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/BkkAAOSwjqVZDRbO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/aVcAAOSw-3FZDRbO/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gruen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jeremiajone-72",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "11",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "38",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726728932528080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T19:59:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gruen-EMBASSY-Pocket-Watch-MENS-Pocket-Watch-/272672893252",
+  "Location": "Angleton, Texas",
+  "Title": "Gruen by EMBASSY Pocket Watch - MEN'S Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "272672893252",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT1H19M15S"
+}

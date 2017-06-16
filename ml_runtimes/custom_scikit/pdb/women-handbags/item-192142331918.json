@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Pauline-Travel-tote-Warm-Grey-Grey-Brand-New-/192142331918?var=",
+  "ConvertedCurrentPrice": {
+    "value": "212.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kipling - Pauline - Travel tote - Warm Grey - ( Grey) by Kipling Ships from Local Supplier Other information: K14880828 Related Searches: Kipling Bags, Kipling Backpack Handbag, Backpack Handbag Bags Dimensions: 19.5 x 40.5 x 32.0 centimetres Weight: 0.58 kg",
+  "Title": "Kipling - Pauline - Travel tote - Warm Grey - ( Grey). Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "212.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Warm Grey",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/793/756/316608784/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0140/793/757/316637201/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "212.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793756:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Warm Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "125.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793757:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Warm Grey",
+          "black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-28T12:47:38.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P23DT20H28M37S",
+  "EndTime": "2017-06-26T12:47:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "MPN",
+        "Value": "401271161"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142331918",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:140793755:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "96.46",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "northfleet, Kent",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:17:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T13:17:20.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537491085",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "75.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Marc-Jacobs-Amy-Dinky-Leather-Strap-Turquoise-Watch-/322537491085",
+  "Title": "Ladies Marc Jacobs Amy Dinky Leather Strap Turquoise Watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225374910858080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "DA118su",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H4M26S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTMwN1g2NjQ=/z/7T8AAOSwrhBZDMM6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMwN1g2NjQ=/z/Yr8AAOSwX61ZDMMf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/I4EAAOSwX61ZDMHW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yZcAAOSw~y9ZDMHZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/u1gAAOSwONBZDMHc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JMIAAOSwX61ZDMHe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/s7IAAOSwrhBZDMHg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3ykAAOSwR29ZDMHi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lj0AAOSwuMZZDMHk/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Ladies Marc Jacobs Amy Dinky Leather Strap Watch Turquoise Adjustable lengthA supple, vivid leather band puts a cheerful spin on a petite Marc by Marc Jacobs watch. Adjustable length and buckle closure. Water resistant to 50 meters.MEASUREMENTSDial: 0.75in / 2cmBand: 0.5in / 1.5cmLength: 6-8in / 15-20cm Great condition, has not been used at all. Purchased for my mum as a present unfortunately it did not fit. Please do feel free to ask any questions regarding the item and I will be happy to help. No returns. U.K. Only.",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.7",
+    "FeedbackScore": "92",
+    "UserID": "fatfacediving",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

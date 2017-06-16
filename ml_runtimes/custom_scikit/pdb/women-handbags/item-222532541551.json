@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2OVgxNjAw/z/wvgAAOSwTM5YurMX/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/SAMAAOSwTuJYurMR/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~4QAAOSwOyJX-mFr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aLMAAOSwZJBX-mFw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2D0AAOSwzaJX-mFP/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLE-HAAN-leather-bag-satchel-cross-shoulder-golden-silver-marbleized-/222532541551",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new from non-smoke and pet-free environmentAmazing bagRemovable strap: can wear it cross-shoulder Genuine leather with golden-silver shimmer coverageFuchsia pink lining Please ask for more pictures - I will send you the detailed pictures Measurements: 12 X 10 X 4.5 Please check my other listings for GREAT DEALS",
+  "Title": "COLE HAAN leather bag satchel cross-shoulder golden silver marbleized",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "377",
+    "PositiveFeedbackPercent": "97.7",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mangoru"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11235",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:59:48.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT20H36M16S",
+  "EndTime": "2017-07-02T10:59:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Gold"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Cole Haan"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532541551",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225325415518080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

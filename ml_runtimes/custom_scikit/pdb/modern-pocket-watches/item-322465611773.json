@@ -1,0 +1,386 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "CK",
+    "MH",
+    "SB",
+    "AT",
+    "DE",
+    "CH",
+    "AW",
+    "MQ",
+    "AN",
+    "KN",
+    "HK",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "ZA",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "YE",
+    "CN"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "518000",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "bluelansdealus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "Hearts Pendant",
+          "Nurse Fob",
+          "Brooch Pocket Watch",
+          "Bright Color"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Nurse Watch",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-03-28T06:13:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AlkAAOSwmgJY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0v8AAOSwsW9Y2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/rTYAAOSwax5Y2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/odcAAOSwWxNY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/OtQAAOSwB-1Y2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jIkAAOSwDKtY2f78/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AlsAAOSwmgJY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/U6gAAOSwhQhY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AlAAAOSwmgJY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/TSsAAOSwuLZY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/zrkAAOSwuxFY2f77/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/oc4AAOSwWxNY2f77/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.82"
+  },
+  "HighBidder": {
+    "UserID": "b***r",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "6",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "71",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "bluelansdeal",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "45352",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "HitCount": "120",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.82"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-26T06:13:12.000Z",
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "White",
+          "Red",
+          "Yellow",
+          "Purple",
+          "Green",
+          "Pink",
+          "Sky Blue"
+        ],
+        "Name": "Colour"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Colour",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/9.jpg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/11.jpg"
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/10.jpg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/12.jpg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/15.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/14.jpg"
+        },
+        {
+          "VariationSpecificValue": "Sky Blue",
+          "PictureURL": "http://www.bluelanshome.com/images/16/07/v/15620/13.jpg"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.83"
+        },
+        "SKU": "U789763_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Sky Blue",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.83"
+        },
+        "SKU": "U789760_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.83"
+        },
+        "SKU": "U789759_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.83"
+        },
+        "SKU": "U789761_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Purple",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.83"
+        },
+        "SKU": "U789764_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.82"
+        },
+        "SKU": "U789762_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "11"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.83"
+        },
+        "SKU": "U789765_bluelansdealus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      }
+    ]
+  },
+  "Location": "ShenZhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Women Lady Cute Love Heart Quartz Clip-on Fob Brooch Nurse Pocket Watch Sassy",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Lady-Cute-Love-Heart-Quartz-Clip-on-Fob-Brooch-Nurse-Pocket-Watch-Sassy-/322465611773?var=",
+  "Storefront": {
+    "StoreName": "bluelansdeal",
+    "StoreURL": "http://stores.ebay.com/id=1257821146"
+  },
+  "ItemID": "322465611773",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT11H24M3S"
+}

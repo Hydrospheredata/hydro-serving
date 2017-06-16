@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDMy/z/-fkAAOSwiONYL2h3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDI4/z/jrwAAOSwXeJYL2iy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4OVgxNjAw/z/kj0AAOSwXeJYL2jN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ3MlgxNjAw/z/H6UAAOSwo4pYL2kR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzg2/z/zycAAOSwcLxYL2ko/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2NFgxNjAw/z/GVIAAOSwiONYL2lF/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-LARGE-BACKPACK-BOOK-BAG-PIROUETTE-PINK-NWT-AUTHENTIC-/332246547747",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "AUTHENTIC VERA BRADLEY LARGE BACK PACK / BOOK BAG WITH LAPTOP SLEEVE IN PIROUETTE PINK PATTERN, NEW WITH TAGS, MEASUREMENTS ARE 12W X 16H X 7D, 1.5 IN. DROP HANDLE, 28.5 IN. ADJUSTABLE STRAPS, SHIPS ANYWHERE IN THE LOWER CONTIGUOUS 48 STATES",
+  "Title": "VERA BRADLEY LARGE BACKPACK / BOOK BAG  IN PIROUETTE PINK  NWT  AUTHENTIC",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Pikeville, Kentucky",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "525",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "1364troy"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "41501",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T04:49:43.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P28DT14H6M25S",
+  "EndTime": "2017-07-01T04:49:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "VERA BRADLEY"
+      },
+      {
+        "Name": "Style",
+        "Value": "LARGE BACKPACK / BOOKBAG"
+      },
+      {
+        "Name": "Color",
+        "Value": "PIROUETTE PINK"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332246547747",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322465477478080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

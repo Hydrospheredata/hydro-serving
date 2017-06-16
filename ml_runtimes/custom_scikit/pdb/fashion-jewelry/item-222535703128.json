@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT23H25M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535703128",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Designer-Rhodochrosite-925-Sterling-Silver-Ring-All-Sizes-15-ri3053-/222535703128",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:35:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T12:35:13.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Rhodochrosite",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Solid Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Designer Rhodochrosite 925 Sterling Silver Ring All Sizes 15-ri3053",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225357031288080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "ravishingimpression",
+    "FeedbackScore": "2692",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "ravishingimpression",
+    "StoreURL": "http://stores.ebay.com/id=1135639467"
+  },
+  "Quantity": "1",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/89QAAOSw9r1WCNar/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/-tAAAOSwKIpWCNax/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzgwWDU3MA==/z/CbkAAOSw4HVWCNa1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AOsAAOSwQTVWCNa8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AUQAAOSwQTVWCNbD/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "302015"
+}

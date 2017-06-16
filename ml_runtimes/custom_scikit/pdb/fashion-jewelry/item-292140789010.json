@@ -1,0 +1,127 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT20H30M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292140789010",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:14:14.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Leather-Wrap-Bracelet-GOLD-Plaque-BLACK-PYTHON-LEATHER-MKJ3817710-/292140789010",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:14:14.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Wrap Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black/Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Python Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "15 1/2\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Gold/Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "796483116535",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Michael Kors Leather Wrap Bracelet GOLD Plaque BLACK PYTHON LEATHER MKJ3817710",
+  "ExcludeShipToLocation": [
+    "CN",
+    "HK",
+    "ID",
+    "MY",
+    "PH"
+  ],
+  "Location": "Warren, New Jersey",
+  "Description": "Normal 0 false false false EN-US X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921407890108080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sillhouette2006",
+    "FeedbackScore": "1348",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Fashion Accessories-24_7",
+    "StoreURL": "http://stores.ebay.com/id=422062779"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/j0oAAOSwLEtYhlHO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U94AAOSwopRYhlG-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mb0AAOSwNnRYhlHC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iEsAAOSwo4pYhlHG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ebsAAOSw9GhYhlHK/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "07059"
+}

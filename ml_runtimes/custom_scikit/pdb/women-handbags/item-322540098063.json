@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vbgAAOSwr~lYp6g3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BC4AAOSw3v5Yp6g6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pyUAAOSwOgdYp6g9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/g-sAAOSwdGFYp6hB/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-53032-SWAGGER-PEBBLE-LEATHER-WRISTLET-CROSSBODY-WATERMELON-NEW-TAG-/322540098063",
+  "ConvertedCurrentPrice": {
+    "value": "139.35",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "AUTHENTIC NEW COACH SWAGGER WRISTLET/CROSSBODY 53032 Features:APPROX. L 8\" X H 5.75\" X 2.5\" PEBBLE LEATHER WITH GOLD TONE HARDWAREZIP TOP CLOSUREINSIDE OPEN POCKETFABRIC LINING REDADJUSTABLE/DETACHABLE STRAP FOR CROSS BODY WEAR APPROX. 23\" DROPDETACHABLE WRISTLET STRAPHANGING TAG CARE CARDFROM SMOKE AND PET FREE ENVIRONMENTOriginal Owner Purchased at Macy's (RV $275) Happy Shopping!",
+  "Title": "COACH 53032 SWAGGER PEBBLE LEATHER WRISTLET/CROSSBODY  WATERMELON NEW WITH TAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "139.35",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Geneva, Illinois",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2386",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jlj5366"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60134",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:41:13.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H21M7S",
+  "EndTime": "2017-07-02T11:41:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Watermelon"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "8"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5.5"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "23"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322540098063",
+  "Storefront": {
+    "StoreName": "jlj5366",
+    "StoreURL": "http://stores.ebay.com/id=62751065"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225400980638080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

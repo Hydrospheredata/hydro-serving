@@ -1,0 +1,91 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Elgin Steel Men's Stainless Steel Wristwatch 165ft Water Resistant ~ 1-H6034 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-04-17T16:18:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzM2WDEyODA=/z/NA8AAOSw2gxYniEQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1g3ODE=/z/iVQAAOSw4CFYniER/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODgwWDEyODA=/z/FMwAAOSw32lYniES/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTUz/z/uYcAAOSwB-1YniEU/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Elgin Steel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "66",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917567227628080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-16T16:18:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-Steel-Mens-Stainless-Steel-Wristwatch-165ft-Water-Resistant-1-H6034-/391756722762",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Elgin Steel Men's Stainless Steel Wristwatch 165ft Water Resistant ~ 1-H6034",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391756722762",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P15DT22H26M50S"
+}

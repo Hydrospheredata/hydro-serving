@@ -1,0 +1,245 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:27:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1119580425",
+    "StoreName": "intershop26"
+  },
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:27:16.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog Watch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "AnalogWatch001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "8.8mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "000",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "More than 23 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "PO Box"
+  ],
+  "ItemID": "162535761394",
+  "HandlingTime": "2",
+  "Description": "Rhinestones Filled Wristwatch Item Type:Quartz WristwatchesCase Shape:RoundBand Width:18mmDial Diameter:40mmGender:WomenStyle:Fashion & CasualCase Thickness:8.8mmClasp Type:BuckleCase Material:Stainless SteelBand Material Type:Stainless SteelBoxes & Cases Material:No packageMovement:QuartzFeature:NoneWater Resistance Depth:No waterproofDial Window Material Type:GlassBand Length:24cmModel Number:1900Gender:Women Ladies Girls Teenager FemaleStyle:Stainless Steel Wristwatch",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Stainless-Steel-Gold-Silver-Band-Quartz-Wtach-Luxury-Women-Rhinestone-/162535761394?var=",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "gold",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Rose Gold",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "gold",
+          "Rose Gold",
+          "Silver"
+        ],
+        "Name": "Face Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/J8IAAOSwi7RZLorM/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Rose Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YT8AAOSwrhBZLorO/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/fPoAAOSwZ4dZLorQ/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Face Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H17S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/03UAAOSw~FJZLorF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YQEAAOSwrhBZLorJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/uIAAAOSwblZZLorM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/72EAAOSww9xZLorQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/NQkAAOSwtGlZLorU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GtQAAOSwH09ZLorY/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Fashion Stainless Steel Gold & Silver Band Quartz Wtach Luxury Women Rhinestone",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "73",
+    "UserID": "intershop26",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

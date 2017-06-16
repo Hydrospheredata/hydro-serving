@@ -1,0 +1,251 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Monrovia, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:18:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1142324366",
+    "StoreName": "pees*real*deals"
+  },
+  "CurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:18:37.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567858424",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tommy Hilfiger",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Date",
+          "Easy To Read",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Silver",
+          "Yellow Gold"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Gray",
+          "Yellow Gold"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "45 millimeters",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual, Sport /Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Dress/Casual",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW! Tommy Hilfiger Sam Black Leather Strap Sports Stainless Steel Men's watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Tommy-Hilfiger-Sam-Black-Leather-Strap-Sports-Stainless-Steel-Mens-watch-/152567858424",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525678584248080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "91016",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H5M54S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDYwMA==/z/cLYAAOSw7hRWPT-l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDUzMg==/z/vZoAAOSw5ZBWPT-k/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Item ShapeRoundDial window material type\ufeffMineralDisplay TypeAnalogClaspBuckleCase materialStainless steelCase diameter45 millimetersBand MaterialCalfskinBand lengthMen's StandardBand width20 millimetersBand ColorBlackDial colorGreyBezel materialStainless steelCalendarDateSpecial featuresAnalogItem weight1.1 PoundsMovementJapanese quartzWater resistant depth50Retails @$115.00Dress watch, Japanese quartz movement, Brushed gold-tone sword hands with white tips and sweep seconds, Applied brushed gold-tone Arabic numbers, White Arabic numbers and indices form surrounding tachymeter scale, Analog date aperture above six o'clock, Two-tiered grey dial with polished red/white/navy flag logo applique below twelve o'clock, Thick black distressed genuine leather strap with contrast stitching and polished silver-tone stainless steel buckle, Polished silver-tone stainless steel bezel, Hinged chunky brushed silver-tone stainless steel round case with polished accents, Large steel crown with engraved logo, Stainless steel screw-down caseback, Mineral crystal, 5 ATM (50 meters/165 feet water resistant)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "982",
+    "UserID": "pees*real*deals",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_20",
+    "RestockingFeeValue": "20%",
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "31.54",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Inver Grove Heights, Minnesota",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:54:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "31.54",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:54:49.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012785422",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jaz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mickey Mouse Jaz Quartz Ladies Watch 4 Gold-Tone Mickey Faces Works",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mickey-Mouse-Jaz-Quartz-Ladies-Watch-4-Gold-Tone-Mickey-Faces-Works-/263012785422",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630127854228080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "55076",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H33M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/2QEAAOSwal5YJPBo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/MiEAAOSwo4pYJPC-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/i7YAAOSwnbZYJPDl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/vlwAAOSwcLxYJPEp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/S0cAAOSwo4pYJPFa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/dMYAAOSwXyVYJPF1/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "For sale is a Jaz Mickey Mouse watch. This watch features the original Jaz leather band, a silver-tone case, a stainless steel watch back, 4 gold-tone Mickey faces. The Mickey faces are in the 12, 3, 6, and 9 clock positions. Two faces are on red backgrounds and 2 are on black backgrounds. The Disney name and the name Jaz name are both on the face of the watch. The watch has a second hand. The watch is in working condition and keeps time. There is a new battery in the watch. The watch is in very good pre-owned condition.The watch with the band measures approximately 8\" long. Please refer to the pictures for details.If I have missed anything in the pictures or description that is of interest to you, please contact me.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "164",
+    "UserID": "katyskloset54",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

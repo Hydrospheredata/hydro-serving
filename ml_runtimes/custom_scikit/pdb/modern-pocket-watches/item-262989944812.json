@@ -1,0 +1,76 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Made in Russia, USSRVintage Stopwatch Zlatoust AGAT Chronometer Mechanical USSR Soviet Russian Pocket Movement is in a fully working condition. Mechanical movement Diameter without crown : 52 mm Diameter with crown : 65 mm Thickness : 17 mm I will ship worldwide by registered Airmail from Ukraine with tracking number.Watch will be carefully packed in strong box.If you have any questions write to me.Usual time for delivery 10 - 14 business days. Please, see other my items :-) Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "StartTime": "2017-05-17T10:45:29.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjYzWDEwMTI=/z/j-MAAOSwjDZYe4S0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/QfsAAOSwZQRYe4S2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgzWDExMzM=/z/40IAAOSw241Ye4S3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Agat",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "suf5inat",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1770",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "32",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629899448128080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T10:45:29.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "default, default",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Stopwatch Zlatoust AGAT Chronometer Mechanical USSR Soviet Russian Pocket",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stopwatch-Zlatoust-AGAT-Chronometer-Mechanical-USSR-Soviet-Russian-Pocket-/262989944812",
+  "Storefront": {
+    "StoreName": "sufinat",
+    "StoreURL": "http://stores.ebay.com/id=858051369"
+  },
+  "ItemID": "262989944812",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT16H5M59S"
+}

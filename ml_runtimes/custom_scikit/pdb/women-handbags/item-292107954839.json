@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/bBUAAOSw4CFYoTkK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/SKsAAOSwWxNYoTkQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/bDkAAOSwdGFYoTkU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/8T8AAOSwx6pYoTkb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/a4wAAOSw32lYoTkp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/-bcAAOSw2gxYoTnK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/e3UAAOSw32lYoToA/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1980s-GIORGIO-BEVERLY-HILLS-Logo-Yellow-White-Stripe-Canvas-Travel-Gym-Bag-/292107954839",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "1980's Vintage GIORGIO BEVERLY HILLS Logo Yellow & White Stripe Canvas Travel Tote Gym Bag Measures 16 1/2\" long by 12\" tall by 8 1/2\" deep The strap is adjustable The bag has been well taken care of I only saw One mark on the bag As you can see in all of the pictures the bag is nice & clean These Look Better in Person Than in the Pictures The Pictures are part of my Description. Please ask any Questions you need to before Making a Purchase. If My listing is Wrong Please Contact me before Opening a Case up so I can Make your Purchase Right.",
+  "Title": "1980's GIORGIO BEVERLY HILLS Logo Yellow & White Stripe Canvas Travel Gym Bag",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Vista, California",
+  "Seller": {
+    "FeedbackScore": "934",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "luckystar.760"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92084",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-06T04:10:44.000Z",
+  "HitCount": "43",
+  "TimeLeft": "P2DT11H20M3S",
+  "EndTime": "2017-06-05T04:10:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "duffle bag",
+        "Value": "vintage"
+      },
+      {
+        "Name": "Style",
+        "Value": "Summer/Beach Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffel Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Yellow"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292107954839",
+  "Storefront": {
+    "StoreName": "Your 1 Lucky Shooting Star",
+    "StoreURL": "http://stores.ebay.com/id=649803189"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921079548398080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

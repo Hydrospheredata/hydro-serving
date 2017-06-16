@@ -1,0 +1,173 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "174046582",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Rochester, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:46:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=4280232",
+    "StoreName": "N.R.G-Shocks"
+  },
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:46:28.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "MX",
+    "BR",
+    "JP",
+    "HK",
+    "KN"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "Europe",
+  "ItemID": "322537572763",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "G-Shock",
+        "Name": "Model"
+      },
+      {
+        "Value": "DW6900-1V",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Plastic",
+          "Stainless Steel",
+          "Resin"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Alarm",
+          "Water Resistant",
+          "Multiple Time Zones",
+          "Memories Data Storage",
+          "Digital Schedule / Calender",
+          "Stopwatch",
+          "Date",
+          "Shock Resistant",
+          "Backlight or Electro Luminescent"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Solar Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Casual, Sport / Outdoor",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NIB - G-Shock Casio Watch DW-6900-1",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-G-Shock-Casio-Watch-DW-6900-1-/322537572763",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225375727638080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "14607",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H40M7S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/7~UAAOSw0hlZKFGa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/YnMAAOSwY3BZKFGc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/tIoAAOSwurZZKFGh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/KuQAAOSwH09ZKFGk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/kpQAAOSwAPVZKFGm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/aUAAAOSwK6RZKFGq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMDA4/z/8R0AAOSw-3FZLtcp/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "[CASIO G-Shock Watch Model: DW-6900] About this watch: Module: 3230Water and Shock proof Description of the overall condition: NEWIncludes box, stand, manual Note to international buyers: You will be provided with a tracking number. Shipping time is usually about 2-3 weeks (However, some countries may even take up to 2 month). Contact me with any questions, I gladly give help and advice and try to accommodate requests.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1500",
+    "UserID": "nadinex",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

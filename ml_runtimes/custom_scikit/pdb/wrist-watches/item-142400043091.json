@@ -1,0 +1,98 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "550.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "EG",
+  "Location": "cairo",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:51:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "550.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:51:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Cartier",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "IL",
+  "ItemID": "142400043091",
+  "HandlingTime": "4",
+  "Description": "A very nice vintage cartier argent 925 with ivory dial and roman numerals with mechanical manual movement in very good working condition with blue sapphire on the crown the watch has some little signs of age which is normal for a watch with that age also it has very small scratche above the 1 numeral on the surface glass also please take a good look at the pictures for more details about its very good condition. Note that the strap is not the original one but the buckle is the original buckle. The watch comes with its original box. Best regards.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nice-vintage-cartier-argent-925-manual-movement-wrist-watch-/142400043091",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424000430918080_1.jpg",
+  "HitCount": "9",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H29M42S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1HQAAOSwIQdZKxkN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FLoAAOSwZKBZKxlX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fH0AAOSwCQZZKxlc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A7cAAOSwfRdZKxli/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-eAAAOSwPh5ZKxln/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~I8AAOSw7GRZKxls/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CA8AAOSwKytZKxly/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lr8AAOSwaeRZKxl3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fYMAAOSwCQZZKxl8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/st4AAOSw1WJZKxmB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/b0AAAOSws5pZKxmH/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Nice vintage cartier argent 925 manual movement wrist watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.4",
+    "FeedbackScore": "55",
+    "UserID": "amrmonir",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.13",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Torquay",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:18:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "3.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:18:16.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535694094",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Men's Navy Blue Leather Band Analog Quartz Business Watch In Velvet Bag",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Navy-Blue-Leather-Band-Analog-Quartz-Business-Watch-Velvet-Bag-/162535694094",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625356940948080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "TQ2 8DN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H47M50S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/xpEAAOSwHptY-L7A/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Feature:100% brand new and high quality.Sent In A Velvet Gift BagPrecise movement.Solid stainless steel back cover.Precise time and keep good time.Battery included in the watch.Specification:Movement: QuartzMaterials: PU LeatherDial Diameter:40mmCase Thickness: 7mmBand Width:20mmBand Length:240mm",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "1648",
+    "UserID": "terewalk",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

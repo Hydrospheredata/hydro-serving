@@ -1,0 +1,131 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Daytona Beach, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:00:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:00:29.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567841453",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "japan",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "heart",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Black",
+          "Gold"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Black",
+          "Yellow Gold"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Geneva quartz black/ gold ladies watch new battery.works great free ship",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Geneva-quartz-black-gold-ladies-watch-new-battery-works-great-free-ship-/152567841453",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525678414538080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "32119",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H45M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/3qUAAOSw2xRYkwTD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3MDc=/z/iegAAOSwA3dYkwTX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg1MzY=/z/eJ0AAOSw5cNYkwT2/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Watch face in great condition with brand new battery behind watch face in worn out shape.band very nice and face nice",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "399",
+    "UserID": "rob5744",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

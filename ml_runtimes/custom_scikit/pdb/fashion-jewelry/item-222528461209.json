@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P23DT4H33M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222528461209",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-W3071-Cayman-Turquoise-Patina-Brass-Statement-Earrings-/222528461209",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T19:31:43.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T19:31:43.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "Title": "Silpada W3071 Cayman Turquoise Patina Brass Statement Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful artistic statement earrings from Silpada. Brass with weathered turquoise patina. Lightweight. Must see to appreciate! Earring are 2 1/4 inches long in excellent preowned condition! Will come very carefully packaged from a smoke free environment. See my other listings for more Silpada jewelry! If you are not happy with your jewerly purchase I do accept refunds. Buyer pays return shipping. Thanks for looking!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225284612098080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dstark4444",
+    "FeedbackScore": "3638",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Plano, Texas",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZcAAAOSwblZZLHWj/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "75093"
+}

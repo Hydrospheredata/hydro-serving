@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "57.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:59:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "57.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:59:20.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245577398",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Fossil Decker",
+        "Name": "Model"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "FOSSIL Decker Men's Watch AM4359",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FOSSIL-Decker-Mens-Watch-AM4359-/332245577398",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322455773988080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H34M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTM2N1g4NzU=/z/4sQAAOSwx6pYpwIY/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Details Stainless steel case with a stainless steel bracelet. Fixed bezel. Black dial with luminous orange hands and stick hour markers. Oversized orange Arabic numerals mark the 6, 9, and 12 o'clock positions. Minute markers around the outer rim. Luminescent hands and markers. Date displays at the 3 o'clock position. Quartz movement. Scratch resistant mineral crystal. Solid case back. Case diameter: 44 mm. Deployment clasp. Water resistant at 100 meters/ 300 feet. Functions: hours, minutes, seconds, date. Fossil Decker Men's Watch AM4359. BRAND:Fossil SERIES:Decker MODEL:AM4359 GENDER:Men's MOVEMENT:Quartz CASE SIZE:44 mm CASE MATERIAL:Stainless Steel CASE SHAPE:Round CASE BACK:Solid DIAL TYPE:Analog DIAL COLOR:Black CRYSTAL:MIneral HANDS:Luminous Orange SECOND MARKERS:Oversized Orange Arabic Numerals mark the 6, 9, and 12 o'clock positions. Minute Markers around the outer rim LUMINISCENCE:Hands and Markers BEZEL:Fixed CLASP:Deployment WATER RESISTANCE:100 meters / 330 feet CALENDAR:Date displays at the 3 o'clock position FUNCTIONS:Hours, Minutes, Seconds, Date FEATURES:Stainless Steel STYLE:Casual Watches WARRANTY:2 Year Jomashop Warranty UPC CODE:0691464629205 INTERNAL ID:FSAM4359 PRODUCT CATEGORY:Watches",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.95"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TM8AAOSwqWNZAMPP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XTIAAOSwuspZAMP3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IIsAAOSwSypZAMQN/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Storefront": {
+    "StoreName": "Lewisburg Diamond and Gold",
+    "StoreURL": "http://stores.ebay.com/id=182869238"
+  },
+  "Country": "US",
+  "Seller": {
+    "UserID": "lewisburggold",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3041",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "StartTime": "2017-04-26T16:03:33.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "Watch is not working",
+  "Title": "Vintage Gruen 17j Precision 225 Watch 10k White Gold Filled - 5761",
+  "Quantity": "1",
+  "ItemID": "361963570646",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Gruen-17j-Precision-225-Watch-10k-White-Gold-Filled-5761-/361963570646",
+  "QuantitySold": "0",
+  "PostalCode": "24901",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This auction is for a gruen 17j gold filled precision model 225 wristwatch. Watch is not working. Face measures 13mm. Case measures 18mm. If you have any questions please feel free to ask. Thanks for looking and have a good day.",
+  "HitCount": "99",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "5761",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gruen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Gold Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Gray",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "Gold Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "18mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "9mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "225",
+        "Name": "Model"
+      },
+      {
+        "Value": "na",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "No",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "0",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619635706468080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-25T16:03:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Lewisburg, West Virginia",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.95"
+  },
+  "TimeLeft": "P24DT19H37M50S"
+}

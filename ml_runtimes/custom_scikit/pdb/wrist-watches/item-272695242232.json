@@ -1,0 +1,98 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "114.46",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Manchester, Greater Manchester",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:33:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:33:22.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "AL",
+    "BA",
+    "BG",
+    "GR",
+    "IT",
+    "RO"
+  ],
+  "ItemID": "272695242232",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "tissot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies 9ct Gold Tissot watch. Swiss. Quartz. Hallmarked. Box. Paperwork.",
+  "ConditionDescription": "Good",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-9ct-Gold-Tissot-watch-Swiss-Quartz-Hallmarked-Box-Paperwork-/272695242232",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726952422328080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "BL5 3QN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H25M37S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/yDAAAOSwuMZZBZ~8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/N9AAAOSwlndZBZ~4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/e-8AAOSwX61ZBaAB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/4IEAAOSwcgNZBaAF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/H9YAAOSwCQZZBaAK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/OfUAAOSwlndZBaAP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/hboAAOSwdjNZBaAU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ujoAAOSw42dZBaAY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Df8AAOSww5NZBaAe/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Ladies 9ct Tissot watch Up for sale is a 1990's ladies Tissot Swiss watch in 9ct yellow gold. This is a pretty thing, an oval case gold watch on leather strap.Fully boxed with the original paperwork. Case measures 17mm in diameter and 19mm including the crown.Depth is super slim at just 5mm.Mineral glass (flat) The lugs measure 8mm wide.Brown leather strap with gold buckle fitted. Champagne dial with gold hands and batons. Swiss quartz movement (ETA).New battery fitted, running perfectly. Condition is good, some slight surface wear (age related) but no damage to speak of.The dial is a little untidy towards the edges.Glass is in good condition. This is a rarity in that it comes fully boxed with original paperwork.24 years old, quite the classic! Thanks for looking.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "494",
+    "UserID": "courtyardwatches",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

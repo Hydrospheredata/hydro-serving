@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182606770043",
+  "TimeLeft": "P4DT11H30M45S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Authentic-PANDORA-Bead-Concept-Earrings-791115NCK-Leading-Lady-Black-w-Box-/182606770043",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T21:59:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T21:59:51.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bead",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Dangle",
+        "Name": "Charm Type"
+      },
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Authentic PANDORA Bead Concept Earrings - 791115NCK Leading Lady Black w/Box",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Pandora Bead Concept Earrings - 791115NCK, Leading lady, Black Crystal Listing Contains 2 - Black Crystal leading lady - 791115NCK 2 - Earring Charm Barrel - 291002 2 - Post Earrings, Clear CZ - 290677CZ Sterling silver New and never used % 100 authentic S925/ale hallmark stamps on it Official Pandora fold able cartoon box tissue and sticker included with purchase If you interested in another item on my list please ask me, I do combine Priority Shipping available +$6 Enjoy shopping",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826067700438080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jamesona1",
+    "FeedbackScore": "213",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Elizabethtown, Kentucky",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEyWDUxMg==/z/y8kAAOSwY3BZJjIX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTEyWDUxMg==/z/qFcAAOSwxu5ZJjIW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAxWDY5OQ==/z/ousAAOSwKytZJNuD/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ubUAAOSwIaFZJjJb/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/YicAAOSwBt5ZJjJp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExOVgxMTIx/z/cJIAAOSw9OFZI3-y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/o8gAAOSwhvFZJjJr/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "42701"
+}

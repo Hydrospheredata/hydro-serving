@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTY1/z/4u0AAOSw9OFZMOaH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQyNFgxNjAw/z/HUUAAOSwq1JZMOaK/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BEABA-Stockholm-Diaper-Bag-Gray-/172709016012",
+  "ConvertedCurrentPrice": {
+    "value": "94.69",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BEABA Stockholm Diaper Bag - Gray Description BEABA Stockholm Bag - GrayFeatures:Opens 180 degrees, no digging at the bottom of the bag!waterproof exterior and steel hardware, it's easy to wipe down and keep cleandjustable front pockets and 5 external and 4 internal pocketsIncludes changing mat, pacifier case, insulated cooler and a dirty laundry bagDimensions: 20 x 13 x 8.5 inchesWeight: 2.8 pounds Product Details & Features Canvas, PolyesterOpens 180 degrees, no digging at the bottom of the bag!Waterproof exterior and steel hardware, it's easy to wipe down and keep cleanAdjustable front pockets and 5 external and 4 internal pocketsIncludes changing mat, anti-bacterial pacifier case, insulated cooler and a dirty laundry bagPerfect gift for the new mom! Item Weight: 2.7 poundsProduct Dimensions: 18.5 x 13 x 8.5 inchesUPC: 620013145378Target gender: FemaleBatteries required: NoShipping Weight: 2.7 poundsDomestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues. Shipping & Handling Your order leaves our fulfillment centers within one day and tracking information will be provided shortly after. Please verify your address at checkout as we cannot change the address after purchase are not responsible for wrong or undeliverable addresses. AK, HI, PO boxes, or APO addresses is not available. Sales Tax Having Nationwide fulfillment centers require us to charge tax in the following states. AlabamaArkansasArizonaCaliforniaColoradoConnecticutDist. of ColumbiaFloridaGeorgiaIowaIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMichiganMinnesotaMissouriMississippiNorth CarolinaNorth DakotaNebraskaNew JerseyNevadaNew YorkOhioOklahomaPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVermontWashingtonWisconsinWest VirginiaWyoming Return Policy A 15% restocking fee will be charged on all returns within our acceptable 14 day return window.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.69",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "2678",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "prettypotato"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "BEABA Stockholm Diaper Bag - Gray",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T04:16:13.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727090160128080_1.jpg",
+  "TimeLeft": "P29DT12H57M12S",
+  "EndTime": "2017-07-02T04:16:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "NA"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Beaba"
+      },
+      {
+        "Name": "UPC",
+        "Value": "620013145378"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0620013145378"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172709016012",
+  "Storefront": {
+    "StoreName": "PrettyPotato",
+    "StoreURL": "http://stores.ebay.com/id=1165816927"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), 15% restock will be changed for all returns.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00BUU0GSU",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

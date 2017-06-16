@@ -1,0 +1,88 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Men's Citizen Stainless Steel Wristwatch with Date Window ~ 10-B447 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-03-14T13:27:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODE4WDEyODA=/z/XtMAAOSwdGFYwD7D/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "109",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917282276738080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-12T13:27:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Citizen-Stainless-Steel-Wristwatch-Date-Window-10-B447-/391728227673",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Men's Citizen Stainless Steel Wristwatch with Date Window ~ 10-B447",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391728227673",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P11DT19H32M26S"
+}

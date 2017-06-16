@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns accepted for any reason within 14 days. Postage paid by the buyer unless the fault is in my description or the item arrives damaged.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Used",
+  "TimeLeft": "P29DT23H25M33S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent, pre-owned, very minimal tarnish.",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "311889173922",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-SIGNED-MALCOLM-GREY-Ortak-CELTIC-PENDANT-Black-Onyx-c-1980s-90s-/311889173922",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "48.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T11:39:11.000Z",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Site": "UK",
+  "AutoPay": "false",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T11:39:11.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Style"
+      },
+      {
+        "Value": "46",
+        "Name": "Length (cm)"
+      },
+      {
+        "Value": "Celtic Knot",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver Black",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Malcolm Grey",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black Onyx",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Oval Cabochon",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "United Kingdom",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Sterling Silver SIGNED MALCOLM GREY Ortak CELTIC PENDANT Black Onyx c.1980s-90s",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "A stylish vintage sterling silver and black onyx pendant on chain by Malcolm Grey, c.1980s-90s in date. The pendant is marked 'Silver' with a round mark which overlaps the edge. The mark looks to me like the 'MG' mark of Malcolm Grey, and this is a recognised Malcolm Grey design produced from the early 1980s onwards. I would date this one more to the 1990s as the earlier pieces tend to have the full hallmark. The pendant is a Celtic openwork teardrop set with a smooth, glossy oval of black onyx. Approx. 45mm drop by 17mm at the widest point, on a curb link chain which is approx. 46cm long- the chain is stamped '925' for sterling silver. In excellent vintage condition throughout, very minimal tarnish and no box. Please see all photos.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3118891739228080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tiggydean",
+    "FeedbackScore": "10578",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Ragtime Bazaar",
+    "StoreURL": "http://stores.ebay.com/id=117591663"
+  },
+  "Quantity": "1",
+  "Location": "Chester",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQ0WDcxNg==/z/EVUAAOSwrhBZNUC4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzMyWDgxMg==/z/r9AAAOSwZKBZNUCr/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQwWDgzMg==/z/yK4AAOSwn-tZNUEv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzMyWDgwOA==/z/pLkAAOSwJH1ZNUFC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODQwWDkyNA==/z/orkAAOSwK6RZNUFc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODU2WDk2NA==/z/qVUAAOSwaEhZNUFw/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODU2WDk2OA==/z/V5QAAOSwcgNZNUGG/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Necklaces & Pendants"
+}

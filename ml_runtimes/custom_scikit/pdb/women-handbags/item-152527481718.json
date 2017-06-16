@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Dn0AAOSwdjNZAnIv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/57EAAOSwtGlZAnI2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/D9kAAOSwdjNZAnI6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BwcAAOSww5NZAnI-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RIsAAOSwX61ZAnJB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6WoAAOSwtGlZAnJF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PkwAAOSwCQZZAnJJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/00gAAOSwcgNZAnK0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1b8AAOSwuMZZAnJP/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Madison-West-LA-Large-Taupe-Braded-Carry-Duffel-Bag-Adj-Shoulder-Strap-NEW-/152527481718",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a brand new Madison West, Los Angeles, carry on Duffel Bag. The bag is a beautifully styled braded taupe 18.5\" large duffel. The bag has an adjustable, removable shoulder strap that drops to 28\" and double hand handles that drop to 7\". The duffel has gold chains on the shoulder strap and full zipper with double pulls on the top. The interior of the bag is fully lined with a zippered pocket and two open slip pockets for your phone and accessories. This carry on duffel is from the Travel Collection at Madison West.",
+  "Title": "Madison West, LA. Large Taupe Braded Carry On Duffel Bag, Adj Shoulder Strap NEW",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Bloomfield Hills, Michigan",
+  "Seller": {
+    "FeedbackScore": "517",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "mike.hagg"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48304",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-27T22:46:16.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P24DT5H52M50S",
+  "EndTime": "2017-06-26T22:46:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Madison West, LosAngeles, Ca"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "Style",
+        "Value": "Carry On Duffel"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152527481718",
+  "Storefront": {
+    "StoreName": "Mike and Co.Bags and Things",
+    "StoreURL": "http://stores.ebay.com/id=1305272672"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525274817188080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

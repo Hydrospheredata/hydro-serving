@@ -1,0 +1,165 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Mission Viejo, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:46:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:46:49.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ItemID": "252966537271",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EIGER",
+        "Name": "Brand"
+      },
+      {
+        "Value": "UNISEX",
+        "Name": "Gender"
+      },
+      {
+        "Value": "4044",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stai",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver tone",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Contemporary Design",
+        "Name": "Style"
+      },
+      {
+        "Value": "A232",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "EIGER WRISTWATCH Brown Band with Battery Type A232 White Face Black Numbers NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EIGER-WRISTWATCH-Brown-Band-Battery-Type-A232-White-Face-Black-Numbers-NEW-/252966537271",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529665372718080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "92691",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H12M53S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0NFgxNjAw/z/10EAAOSw2xRYVJTf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg2NDQ=/z/wJEAAOSw44BYVJTa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/cfAAAOSwImRYVJTk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjIw/z/e-QAAOSwA3dYVJTo/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "New in package. Eiger Watch with 9\" Brown faux leather band. Large black easy to read numbers on a white face. Sweeping second hand, silvertone hands. Quartz. Great basic watch. Please pay within e days.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1039",
+    "UserID": "mercibearsdolls",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please email before returning item. Thank you."
+  }
+}

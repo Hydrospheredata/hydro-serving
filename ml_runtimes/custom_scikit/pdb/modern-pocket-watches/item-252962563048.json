@@ -1,0 +1,134 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "SG",
+    "TW",
+    "TH",
+    "VN",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "83835",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Watch running on new battery and is 1 7/8\" wide and chain is about 14 1/2\" wide. MB",
+  "StartTime": "2017-05-28T20:06:24.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/UCEAAOSw9GhYbr5z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/sRoAAOSwUKxYbr6B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/ykgAAOSwA3dYbr6P/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Toledo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "Silver",
+          "Yellow Gold"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mfbutler98",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "151",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529625630488080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T20:06:24.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "3.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.5"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Toledo-Quartz-Pocket-Watch-Chain-Two-Tone-Analog-/252962563048",
+  "Location": "Hayden, Idaho",
+  "Title": "Toledo Quartz Pocket Watch With Chain Two Tone Analog",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252962563048",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT1H31M28S"
+}

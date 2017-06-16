@@ -1,0 +1,78 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P20DT13H41M32S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Never Worn",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282495608501",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Free-People-Brass-Vintage-Style-Hair-Comb-/282495608501",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-27T01:09:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T01:09:01.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Hair Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Free People",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Free People Brass Vintage Style Hair Comb",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Brass Leaf Design Hair Comb",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824956085018080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "mayon_598",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Los Angeles, California",
+  "HitCount": "6",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-CUAAOSwn-tZKNF8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/q-QAAOSw9OFZKNF~/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "PostalCode": "90013"
+}

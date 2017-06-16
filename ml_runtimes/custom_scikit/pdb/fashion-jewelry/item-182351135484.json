@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT7H8M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "3350.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "182351135484",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invisible-set-Princess-Cut-Diamons-Grillz-GoldTeeth-ChiGrillz-Com-/182351135484",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "3350.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-11-11T23:11:28.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T23:11:28.000Z",
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ChiGrillz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Invisible set Princess Cut Diamons Grillz GoldTeeth by ChiGrillz.Com",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "Custom Invisible Set Princess Cut Diamond Grillz Enhance Your Shine with this Custom Set of Icy Diamond Grillz by ChiGrillz.com Real GoldTeeth Grillz That Fit You Only 6 Caps Princess Cut Diamond Gold Grillz Si1-Si2 quality square diamonds. This 6 piece Grillz is a Custom Fit DIAMOND ICED OUT Mouth Grill that can be made in MULTI-COLORED as well as All WHITE DIAMONDS made for your top or bottom teeth. 3 Easy Steps. 1. Place the Order 2. Receive and Return your Mold Kit in the Shipping Material We Provide. 3. Receive Your New Diamond Drip Grillz upto 10 Business Days Later and leave positive feedback thanks from ChiGrillz.com P'SMold Kit is Shipped within 48 hours USPS priority mail and grillz will be shipped within 10 business days after the mold has been processed by us via USPS priority mail with insurance. Holidays may prolong shiping dates check your tracking info for changes. .",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1823511354848080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "chigrillz",
+    "FeedbackScore": "16",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Chicago, Illinois",
+  "HitCount": "871",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI3M1g4ODY=/z/5jYAAOSwA3dYJk92/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/I5MAAOSwKOJYHADl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/9SUAAOSwMVdYHAEE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTAx/z/tNIAAOSw5cNYHAOU/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "60649"
+}

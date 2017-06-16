@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "449.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Milford, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:51:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1342755504",
+    "StoreName": "lena-treas"
+  },
+  "CurrentPrice": {
+    "value": "449.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:51:23.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "282502276181",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Wakmann",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "38mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "333 ft",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Wakmann Incabloc automatic Swiss watch  333ft with Date",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wakmann-Incabloc-automatic-Swiss-watch-333ft-Date-/282502276181",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825022761818080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "06461",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H33M21S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/NcoAAOSw3v5YtgsW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/WBUAAOSw4A5Ytgsh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/h8YAAOSw2gxYtgsk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/ZigAAOSwWxNYtgsp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/cpYAAOSwax5Ytgst/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/KPYAAOSwuxFYtgs9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/dPkAAOSwax5YtgtI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/9yAAAOSw32lYtgtO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/GzsAAOSwr~lYtgtZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/drEAAOSwax5Ytgtf/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Hard to find Wakmann Swiss Self Winding Mens watch , Has a date window at the 6 o'clock marker , 17 jewels showing quality , screw-down back for water resistance to 333ft - some patina on the dial - just gives it more character - certainly a well made Incabloc swiss watch BUY HERE.....BUY WITH CONFIDENCE !",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "186",
+    "UserID": "lena-treas",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

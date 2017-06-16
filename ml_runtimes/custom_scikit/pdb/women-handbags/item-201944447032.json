@@ -1,0 +1,125 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyN1gxMDA3/z/44gAAOSw3v5YtyKZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4NlgxMDAy/z/hCAAAOSw4A5YtyLA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwM1g4OTI=/z/t4QAAOSwfVpYtyMp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MFgxNjAw/z/KXcAAOSwB-1YtyJn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYw/z/swUAAOSwax5YtyKp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MFgxNjAw/z/nDUAAOSwhlZYtyJt/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-NEW-Vera-Bradley-Purse-Sagebrush-Satchel-Mesa-Brown-Leather-Purse-/201944447032",
+  "ConvertedCurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags, price sticker has been removed from tag From smoke and pet free home Gallatin Veg Tanned Cowhide Top Grain Leather Style 18076-897791 Imported Textile lining Zipper closure 20.5\" shoulder drop 11\" high 11\" wide New gallatin leather collection Product Dimensions: 14 x 12.7 x 3.8 inches Dust bag included SR $248",
+  "Title": "NWT NEW Vera Bradley Purse Sagebrush Satchel Mesa Brown Leather Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Montgomery, Alabama",
+  "Seller": {
+    "FeedbackScore": "427",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "sons0608"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "36117",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:01:42.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT22H52M34S",
+  "EndTime": "2017-07-02T13:01:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003396827"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown, Mesa"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "20.5"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4.5"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003377963"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944447032",
+  "Storefront": {
+    "StoreName": "sons0608",
+    "StoreURL": "http://stores.ebay.com/id=283179664"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Buyer pays return shipping and restocking fee. Item must be in exact condition as received.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019444470328080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,71 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Pazardjik, Pazardjik",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:04:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1241554935",
+    "StoreName": "\u0422op korekt"
+  },
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T13:04:01.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600132987",
+  "HandlingTime": "3",
+  "Description": "Used!The clock does not work",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-ONSA-WATCH-/182600132987",
+  "ConditionDescription": "Used!The clock does not work",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826001329878080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT21H49M17S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7HkAAOSwt5hYa5uB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/5SQAAOSw44BYa5uO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7yUAAOSwt5hYa5uZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/B-8AAOSwnHZYa5uj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/qA8AAOSw241Ya5ut/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/730AAOSw9GhYa5u1/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "VINTAGE ONSA WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "50",
+    "UserID": "gerga_cheri",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P6DT23H29M55S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Wearing on the handles",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LVgAAOSwlMFZMWb0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vYgAAOSw~y9ZMWb2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nL8AAOSw-3FZMWb4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jaEAAOSwq1JZMWb6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DooAAOSw42dZMWb8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-lMAAOSwaeRZMWb-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/44EAAOSwlY1ZMWb~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EjkAAOSwEHpZMWcB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/um4AAOSwblZZMWcE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5zIAAOSwCQZZMWcH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UfsAAOSw-K9ZMWcK/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Handbag-/152570611011",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brown leather shoulder bag with fringe on the front and back. Great bag. It's in beautiful condition with some wearing on the handles. Nothing major. One mark on the inside.",
+  "Title": "Tory Burch Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "46",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "meredithmeredith422"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "10027",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:36:00.000Z",
+  "HitCount": "4",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-09T13:36:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Style",
+        "Value": "Hobo"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "18\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "12\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152570611011",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525706110118080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

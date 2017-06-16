@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODM0WDY5NA==/z/dQ0AAOSw9OFZJ3Yf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDQ2/z/UkEAAOSwcB5ZJ3YO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTYy/z/3xYAAOSwKytZJ3YM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/k2EAAOSwYlRZJ3YQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzI0/z/a1oAAOSwYvFZJ3YT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTU2/z/h-cAAOSwsXFZJ3YV/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victoria-Secret-PINK-Campus-Backpack-Book-bag-Tote-Deep-Ruby-Bling-Brand-New-/112427482487",
+  "ConvertedCurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new Victoria's Secret PINK Campus Backpack Bookbag in Deep Ruby bling. \u2028The one and only Campus Backpack! Durable and super cute, it's got plenty of pockets and tons of room to fit all your campus essentials. Comfy padded straps with mesh overlay for breathability Zippered laptop sleeve Exterior zip pocket Internal mesh pocket Velcro side pockets 18\" H x 12\"L x 8\" D \u2028 From smoke-free, pet-free home. Check out my other items. Thanks for looking and happy shopping.",
+  "Title": "Victoria Secret PINK Campus Backpack Book-bag Tote Deep Ruby Bling Brand New!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "MX",
+    "BM"
+  ],
+  "Location": "Greenville, South Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1942",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "iheartshop007"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "29605",
+  "GlobalShipping": "true",
+  "Quantity": "3",
+  "StartTime": "2017-06-01T13:28:03.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P5DT22H50M11S",
+  "EndTime": "2017-06-08T13:28:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Maroon"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "UPC",
+        "Value": "0667541431634"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112427482487",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "iheartshop007",
+    "StoreURL": "http://stores.ebay.com/id=1072606054"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124274824878080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

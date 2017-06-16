@@ -1,0 +1,157 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.43",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Thornton, Cleveleys, Lancashire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:46:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T13:46:22.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537521416",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rotary",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Yellow Metal",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "1980-1989",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Rotary",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rotary Yellow Metal Bracelet Watch Ladies Vintage 30 Years Plus Quirky",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rotary-Yellow-Metal-Bracelet-Watch-Ladies-Vintage-30-Years-Plus-Quirky-/322537521416",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225375214168080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "Fy5 5NP",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H34M58S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAxWDEyMDA=/z/M7QAAOSwIQdZKBWr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU5OFg4Mjc=/z/yicAAOSw9OFZKBXB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pUUAAOSwY3BZKBW4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/h7IAAOSwlndZKBW8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AY0AAOSwZKBZKBW~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9asAAOSwZ4dZKBXH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wF8AAOSw-K9ZKBXJ/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "This house been sitting in a drawer for at least 25 years I can't remember where it came from. It is a rotary watch, genuine",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackScore": "768",
+    "UserID": "mylittlepeggy2013",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

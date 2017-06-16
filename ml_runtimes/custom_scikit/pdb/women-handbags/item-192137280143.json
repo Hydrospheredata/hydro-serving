@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921372801438080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WfsAAOSwsW9Y0saI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/e2IAAOSwOgdY0saI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/U5UAAOSwXYtY0saI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Y8UAAOSwTM5Y0saI/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Trussardi-Jeans-Man-Travel-Bag-Handbag-Shoulder-Strap-Portland-Shopper-Line-/192137280143",
+  "ConvertedCurrentPrice": {
+    "value": "255.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Trussardi Jeans Man Travel Bag Handbag with Shoulder Strap Portland Shopper Line - 40x30x17 Cm by TRUSSARDI JEANS by Trussardi Ships from UK Supplier Other information: Portland Shopper Related Searches: Shoulder Bag Bags, Shoulder Bag Dimensions: 40.0 x 17.0 x 30.0 centimetres Weight: 1 kg",
+  "Title": "Trussardi Jeans Man Travel Bag Handbag with Shoulder Strap Portland Shopper Line",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "255.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-22T18:29:34.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P18DT2H5M39S",
+  "EndTime": "2017-06-20T18:29:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "TRUSSARDI JEANS by Trussardi"
+      },
+      {
+        "Name": "MPN",
+        "Value": "133799138"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137280143",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:127745817:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

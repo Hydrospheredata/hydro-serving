@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P6DT12H53M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "VKK1-1U7-7IW",
+  "ItemID": "201946556194",
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T01:38:33.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Estate-Jewelry-Cubic-Zirconia-Butterfly-Pin-Sterling-Silver-1-1-2-Across-/201946556194",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T01:38:33.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Estate Jewelry Cubic Zirconia Butterfly Pin Sterling Silver 1 1/2\" Across",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "North Palm Beach, Florida",
+  "Description": "SHOWN HERE FOR YOUR CONSIDERATION IS THIS CUBIC ZIRCONIA BUTTERFLY PIN FROM A RECENT PALM BEACH ESTATE PURCHASE. PIN IS SET WITH A ROUND BLUE AND CLEAR CUBIC ZIRCONIA. MADE FROM STERLING SILVER. GREAT PRE-OWNED CONDITION. WIDTH: 1 1/2\" TOTAL WEIGHT: 7.0 GRAMS HALLMARKS: WE HAVE THOUSANDS OF PIECES OF ESTATE JEWELRY FOR SALE, LOOK OUT FOR FUTURE LISTINGS. Please Review All Photos Before Bidding We at South Florida Coins do our best to grade fairly and accurately. However, we realize that this is subjective and we therefore include pictures large enough and clear enough that you may use your own judgment. The item pictured is the item you will receive. If you have any questions please email before you bid SHIPPING We ship promptly and are happy to combine purchases. For first class items we will charge you our cost for shipping all your items in a single package according to their total weight. For priority items there is no extra charge for additional items provided they fit in the type of box specified in the listing for the largest item. Where it is more economical to do so, we will send combined items priority rather than first class. Your package is not insured Please contact us before payment if you wish to add insurance or direct signature. These will not be included automatically. We ship internationally only through the Global Shipping Program. We do not accept accept international orders or international Paypal otherwise. Payment We accept PayPal only We try to add to our store on a weekly basis so please check back regularly.Thank You!Happy bidding & good luck! Payment is due within 5 days of last item and No more than 40 items to one invoice. Our Refund Policy is as follows: We will refund in full any item that you are not satisfied with that was not described properly in the auction and the item must be postmarked no later than 14 days. Buyer to pay for return postage We do not ship internationally and we do not accept Non-US Pay Pals",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019465561948080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "southfloridacoinscollectibles",
+    "FeedbackScore": "11422",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "South Florida Coins and Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=704285650"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjI0WDgwMA==/z/IbwAAOSwSlBYr4ku/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY2WDgwMA==/z/OI4AAOSwWxNYr4kv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk5WDcxMQ==/z/TXAAAOSwtfhYr4kx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE4WDgwMA==/z/TYUAAOSwtfhYr4ky/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "33408"
+}

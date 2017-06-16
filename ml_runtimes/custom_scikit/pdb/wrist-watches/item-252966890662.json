@@ -1,0 +1,151 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "51.44",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Colliers Wood London",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:50:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1065724006",
+    "StoreName": "Antonia&#39;s Accessories"
+  },
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:50:31.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966890662",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "6295",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Indiglo Light",
+          "Alarm",
+          "Chronograph",
+          "Day-Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Camo",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "45mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "T49976",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "753048526796",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex Expedition T49976 Digital Chronograph Watch & Camo Strap No 6295",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Expedition-T49976-Digital-Chronograph-Watch-Camo-Strap-No-6295-/252966890662",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529668906628080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "SW19 2AZ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT21H35M4S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzM5/z/sJQAAOSwpP9Y65nB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTgz/z/LHUAAOSw4CFY65nV/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "UK SELLERThank you for looking at my ItemThis is a Timex Expedition T49950 men's watch, which features :- resin case & s/steel back plate, water resistance to 100 meters, digital, indiglo night light, alarm, chronograph & day-date display. This is new and has it's original box but I do not have any paperwork. Please make sure you are happy with everything that you see and read, if not please contact me and I will be happy to try and help out. But please if you do have any question's don't leave it until the last minute or after you have bid on it.Postage* I only use Royal Mail postage and this will be sent 1st class F.O.C. Or you can have special delivery by 1pm but you would be charged for this at \u00a37.25, which gives you insurance cover from Royal Mail. * International postage can be done but you would have to pay for this at \u00a310 tracked.RefundsWill be done with E-Bay's guide lines of 30 Day Money Back Guarantee.FeedbackFeedback is very important to me and E-Bay, so please leave it. But if you are not totally happy please contact me so I can try and sort things out for you.If you like this item then please visit my webb sitewww.antoniasaccessories.co.uk",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "1792",
+    "UserID": "antonia-020",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "If you have given me feedback which is good then I will not except returns, but if there is anything wrong with my Item then don't hesitate to contact me and I will except returns.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

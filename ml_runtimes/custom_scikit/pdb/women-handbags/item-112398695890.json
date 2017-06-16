@@ -1,0 +1,78 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nuMAAOSwSlBYsGPr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nWIAAOSw32lYsGP5/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P8QAAOSwCU1YxfzO/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Signature-Stripe-Diaper-Baby-Bag-Multifunction-Tote-F77156-Black-VERY-NICE-/112398695890",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This was used as a lap top bag, not a diaper bag. So, it's clean and ready for a new home.",
+  "Title": "Coach Signature Stripe Diaper Baby Bag Multifunction Tote F77156 Black VERY NICE",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Mission Viejo, California",
+  "Seller": {
+    "FeedbackScore": "16",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "jala5147"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92691",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T03:28:27.000Z",
+  "HitCount": "308",
+  "TimeLeft": "P3DT12H1M38S",
+  "EndTime": "2017-06-06T03:28:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote/BABY BAG"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas/LEATHER"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112398695890",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1123986958908080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

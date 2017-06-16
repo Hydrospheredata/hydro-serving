@@ -1,0 +1,92 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Tradition Men's Vintage Gold Filled Wristwatch; 17-Jewels ~ 1-A7019 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2016-09-21T02:10:21.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzE2WDEyODA=/z/SV0AAOSwM4xXX~LN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDQz/z/w7MAAOSwvg9XX~LO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDAy/z/gHoAAOSwmtJXX~LQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU2WDEyODA=/z/ZrIAAOSwjXRXX~LU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg1NjM=/z/WZMAAOSwOVpXX~LV/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tradition",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "774",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3518476329518080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-18T02:10:21.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tradition-Mens-Vintage-Gold-Filled-Wristwatch-17-Jewels-1-A7019-/351847632951",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Tradition Men's Vintage Gold Filled Wristwatch; 17-Jewels ~ 1-A7019",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "351847632951",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P17DT8H8M34S"
+}

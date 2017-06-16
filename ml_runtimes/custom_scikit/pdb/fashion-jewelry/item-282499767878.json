@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P23DT10H11M38S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "\"~NEW IN BOX~\"",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "159.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282499767878",
+  "ConvertedCurrentPrice": {
+    "value": "159.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-29T21:36:41.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TITANIC-GORGEOUS-BUTTERFLY-HAIR-COMB-NEW-GIFT-BAG-BOX-/282499767878",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T21:36:41.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jill Bailey",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hair Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Butterfly",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Blue/Green/Turquoise/Golden",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "~TITANIC~GORGEOUS BUTTERFLY HAIR COMB~NEW IN GIFT BAG & BOX~",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "Location": "White House, Tennessee",
+  "Description": "~ NEW ~ IN BLUE VELVET GIFT BAG ~ AND TITANIC RED GIFT BOX TIED UP WITH A BLUE TITANIC RIBBON ~ GORGEOUS TITANIC BUTTERFLY HAIR COMB ~ REMEMBER THE 1997 TITANIC MOVIE FOREVER ~ MAKES A WONDERFUL BIRTHDAY OR CHRISTMAS GIFT ~ OR ANY OTHER SPECIAL EVENT ~ 4 X 4 WITH PLIQUE A JOUR ENAMEL WINGS AND BRASS VEINING ~TREASURE FOREVER~ FREE PRIORITY MAIL SHIPPING INCLUDES INSURANCE ~ ~~~SMOKE AND PET FREE HOME~~~~",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824997678788080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "wanda152944",
+    "FeedbackScore": "462",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "24",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tQsAAOSwj85YM1gs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dKMAAOSw5cNYM1N3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vwwAAOSwj85YM1Na/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/694AAOSwiONYM1OT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R1cAAOSwo4pYM1Pc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ntAAAOSwiDFYM1P4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/17sAAOSw4GVYM1SV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GloAAOSwux5YM1QW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k4gAAOSwHMJYM1R4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wcQAAOSw5cNYM1UB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HywAAOSwj85YM1Ug/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "PostalCode": "37188"
+}

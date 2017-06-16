@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P12DT18H5M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "64.21",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "172584372787",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ReadeREST-Shark-Tank-Product-6-Pack-Stainless-Steel-Eyeglass-Holders-/172584372787",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "64.21",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-20T05:10:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T05:10:29.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "818833010451",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0818833010451",
+        "Name": "EAN"
+      },
+      {
+        "Value": "ReadeREST",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Z-BV-6PAK",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.7 x W 4.5 x H 1.3 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Kitchen",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "ReadeREST Shark Tank Product, 6-Pack Stainless Steel Eyeglass Holders",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! ReadeREST is the high tech magnetic eyeglass holder featured as a Shark Tank product that keeps eyewear safe when it is not in use. No more dropping or losing glasses. The powerful magnet-to-magnet contact doesn't poke holes in your clothing and is the perfect solution to always having your readers handy. No more croakies, lanyards or other eyeglass holders needed with the power of ReadeREST. - A set of six ReadeREST eyeglass holders, as seen on Shark Tank - Unlimited Lifetime Guarantee - MADE IN THE USA - Made in America, ReadeREST Eyeglass holders are designed to conveniently store your glasses, making it easy to keep up with them - ReadeREST eyeglass holders are a great accessory for readers and their glasses, runners and their headpones and more - ReadeREST eliminates the need for lanyars, croakies and other eyeglass holders ReadeREST Shark Tank Product, 6-Pack Stainless Steel Eyeglass Holders",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1725843727878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "abood.av",
+    "FeedbackScore": "19714",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "abood.avSTORE",
+    "StoreURL": "http://stores.ebay.com/id=1400291383"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "26",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1MlgxNDQw/z/fS0AAOSwuxFYz2RI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDExMDI=/z/StgAAOSwSlBYz2RI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDExMDI=/z/nuUAAOSwol5Yz2RI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDExMDI=/z/RR4AAOSw4YdYz2RI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDExMDI=/z/IaUAAOSwhQhYz2RI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDExMDI=/z/LC8AAOSw4A5Yz2RH/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

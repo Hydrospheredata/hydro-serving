@@ -1,0 +1,66 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Tyler, Texas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:00:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "99.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:00:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426070175",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Brighton",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brand new! Brighton Dana Point Women's Fashion watch Collectible Gold",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-new-Brighton-Dana-Point-Womens-Fashion-watch-Collectible-Gold-/112426070175",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124260701758080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "75704",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H45M32S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/FgwAAOSwYlRZLr4B/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Me8AAOSwPh5ZLr4b/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Brand New Brighton Dana Point Watch with Gold Band with swarovski crystals....Great Gift, and great to wear. You will get many compliments with this lovely watch...Sells for 130 Comes with Brighton tin, brand new....",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1092",
+    "UserID": "trncak01",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

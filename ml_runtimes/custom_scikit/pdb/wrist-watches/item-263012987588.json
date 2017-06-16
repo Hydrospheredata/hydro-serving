@@ -1,0 +1,134 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Shelton, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:20:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=51242427",
+    "StoreName": "Lisa&#39;sDiscountFashion"
+  },
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:20:24.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012987588",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Case Shape"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "UNLISTED by Kenneth Cole Quad Dial Rubber Silicon Tread Watch NIB Blue Black",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNLISTED-Kenneth-Cole-Quad-Dial-Rubber-Silicon-Tread-Watch-NIB-Blue-Black-/263012987588",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630129875888080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "06484",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H11M14S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI1MFgxMDAw/z/xcMAAOSw5cNYR2QL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wSwAAOSw4GVYSFIl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FDAAAOSw5cNYSFIe/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Watch collectors reach for this sharp two-tone time piece which has numerals around the bezel, three interior incremental dials for the hour, half-hour and pace of day and is finished with a rubber tire tread buckle. Import.Face width 45mmFace depth 12mmBand width 21mmStainless steel backJapanese quartz movementBuckle closureSharp display case",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "3431",
+    "UserID": "emptyemmascloset",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_10",
+    "RestockingFeeValue": "10%",
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

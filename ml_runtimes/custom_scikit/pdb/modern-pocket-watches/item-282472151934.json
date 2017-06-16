@@ -1,0 +1,99 @@
+{
+  "ExcludeShipToLocation": "Europe",
+  "QuantitySold": "0",
+  "PostalCode": "91773",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Relic Men's ZR85071 Pocket Watch Silvertone Watch $75Durable mineral crystal protects watch from scratchesAnalog-quartz MovementCase Diameter: 47mmWater resistant To 99 Feet",
+  "StartTime": "2017-05-11T04:14:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AdcAAOSwZ1BXgBoT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hb8AAOSwvg9XgBoe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cMcAAOSwgY9XgBop/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3c0AAOSweWVXgBpE/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Relic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "smartcollection",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1358",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824721519348080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T04:14:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU",
+    "ZA",
+    "NZ"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Relic-Mens-ZR85071-Pocket-Watch-Silvertone-Watch-75-/282472151934",
+  "Location": "San Dimas, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Relic Men's ZR85071 Pocket Watch Silvertone Watch $75",
+  "Storefront": {
+    "StoreName": "Smart Collection",
+    "StoreURL": "http://stores.ebay.com/id=24332438"
+  },
+  "ItemID": "282472151934",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT9H32M24S"
+}

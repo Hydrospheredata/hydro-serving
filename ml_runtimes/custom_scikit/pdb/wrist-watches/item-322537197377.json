@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "QuantityThreshold": "10",
+  "Location": "San Francisco, CA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:05:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "27",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=126391015",
+    "StoreName": "HIGHEND-JEWELS"
+  },
+  "CurrentPrice": {
+    "value": "29.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:05:30.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/K~AAAOSw-3FZLms5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/~bsAAOSwaEhZLms5/$_12.JPG?set_id=880000500F"
+  ],
+  "HandlingTime": "1",
+  "Description": "Genuine 8 Diamond All Black Techno Trend Mens Sport Watch This luxurious techno trend watch has a sporty look with a nice classy leather band. It has 8 small genuine diamonds on the bezel. All real, nothing fake at amazing price! MSRP on this watch is $199. Order now and rock this in just a few days. This watch is made out of alloy metal with a stainless steel back. The leather band can fit most wrists. It's powered by a Japanese quartz movement. Sub-dials for looks only. Genuine Diamond Alloy Metal (Black Plated) 47mm Wide Face. 15mm Thick 90g Weight Japanese Quartz Movement\u00a0 Top Quality Hip Hop Jewelry High End Jewels is an Authorized reseller of authentic JewelryFresh brand products. We have been selling on eBay for over 15 years with thousands of happy customers. Jewelry Fresh manufactures the highest quality hip hop jewelry at affordable prices. These items look and feel exactly like real diamond jewelry at affordable prices.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Genuine-8-Diamond-All-Black-Techno-Trend-Mens-Sport-Watch-/322537197377",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Genuine Diamonds",
+        "Name": "Stone"
+      },
+      {
+        "Value": "Not specified",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "WAET1163BBB",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225371973778080_1.jpg",
+  "ItemID": "322537197377",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H32M1S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Genuine 8 Diamond All Black Techno Trend Mens Sport Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "7267",
+    "UserID": "highend-jewels",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Items may be returned within 14 days of the item's initial arrival date. Items must be in new and unworn condition."
+  }
+}

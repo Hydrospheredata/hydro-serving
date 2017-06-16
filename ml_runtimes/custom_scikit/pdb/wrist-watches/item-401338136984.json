@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "21.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:46:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=34564252",
+    "StoreName": "Watch PDF Books"
+  },
+  "CurrentPrice": {
+    "value": "21.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T06:46:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "oceanprises Books",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "IN",
+    "IT"
+  ],
+  "ItemID": "401338136984",
+  "HandlingTime": "2",
+  "Description": "This is the brand new Third Edition ALL-COLOR perfect bound version of the popular Rolex guide. This upgraded edition has 70 pages (60 pages on the Second Edition) and all-color photos (the Second Edition was mostly in Black & white). This book is an excellent read and a great gift for collectors. This 70-page book is specifically designed to help watch collectors and investors make informed decisions before purchasing expensive Rolex watches. Simply put, this is the smartest investment you will ever make before purchasing Rolex watches that cost thousands of dollars each. Protect and educate yourself about many watch models and trends before jumping in and spending lots of money. Learn about which Rolex models are highly collectible and make great investments, and more importantly, which ones do not make the best investment! Please refer to the Table of Content below to find out more about this amazing book. We have sold thousands of copies of this incredible book (1st and 2nd editions) and received the highest rating on eBay and other sites as you can see from our incredible feedback. This attractive perfect bound edition has more information, more photos (all in color) and an extra glossary of horological terms for the watch enthusiast. Book Contents: I - Introduction II - Rolex - A True Investor's Brand III - A List of Popular Models for Investors IV - Rolex Models with the Least Investing Potential V - Bonus Review: The Rolex Submariner 5513 Series VI - Price Appendix VII- Serial Number Appendix VIII- Common Collector Questions IX- Glossary of Horological Terms Size: 8.5 x 5.5 inches. If you are serious about collecting or investing in watches, or even about buying a single nice Rolex, then this manual is an absolute MUST HAVE! Spend a little money and save yourself hundreds of research hours and lots of money. Thank you!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "The Rolex Watch Collector Book Submariner Daytona Oyster GMT ALL COLOR Guide!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rolex-Watch-Collector-Book-Submariner-Daytona-Oyster-GMT-ALL-COLOR-Guide-/401338136984",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/4013381369848080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H12M36S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ4Mlg5NjE=/z/mc4AAOSwAvJW9cdU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/AO4AAOSwWBJXAzwb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/MU0AAOSwdU1W9cdr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/ySoAAOSwtUtXAzwl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MjQ2WDY0MA==/z/KEsAAOSwxp9W9cct/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/uFcAAOSwLpdW9cd8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/7HwAAOSwbwlXAzwg/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "21.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "12378",
+    "UserID": "watchpdf",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

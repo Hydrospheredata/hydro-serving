@@ -1,0 +1,215 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Small-LEATHER-CrossBody-Bag-Hansson-Nordic-Blue-Collection-Handbag-Re-/192137538474?var=",
+  "ConvertedCurrentPrice": {
+    "value": "71.53",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: From Hansson; apart of the Nordic Blue Collection! We present this Classic Ladies Cross Body/Shoulder Bag, perfect to fit all your essentials and more. As with all Hansson Leather Products the detailing and finish are simply superb, they have been producing beautiful Leather Products since 1949. Dimensions: Approx: 17cm x 13cm x 5cm (6.75\" x 5\" x 2\") Its Features in more Detail: Adjustable Shoulder Strap; Long enough to fit Across Body Secured with a Magnetic Snap Closure Inside the bag Includes Additional Zipped Section & Slip-in Sections Zipped Section on Reverse Packaged in Gift/Dust Bag Available in 5 Stylish Colours; Green, Purple, Red, Fuchsia & Storm Grey.",
+  "Title": "Ladies Small LEATHER CrossBody Bag by Hansson Nordic Blue Collection Handbag (Re",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "71.53",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0066/546/927/190265772/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Storm Grey",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0066/546/928/190270641/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0066/546/929/190276290/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Fuchsia",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0066/546/930/190265615/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0066/546/931/190267218/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "71.53",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:66546927:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "71.53",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:66546928:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Storm Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "71.53",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:66546929:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Purple"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "89.26",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:66546930:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Fuchsia"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "71.53",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:66546931:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Green"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Red",
+          "Storm Grey",
+          "Purple",
+          "Fuchsia",
+          "Green"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-23T01:25:40.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P18DT9H2M23S",
+  "EndTime": "2017-06-21T01:25:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Hansson"
+      },
+      {
+        "Name": "MPN",
+        "Value": "592833694"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137538474",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:66546926:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

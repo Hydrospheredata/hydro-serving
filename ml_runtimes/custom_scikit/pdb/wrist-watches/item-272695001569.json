@@ -1,0 +1,129 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "429.88",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Baltimore, Maryland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:14:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "429.88",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:14:53.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "PO Box"
+  ],
+  "ItemID": "272695001569",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BRERA OROLOGI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "BRSS2C4613 BRSS2C4606",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Swiss",
+        "Name": "Movement"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "44mm x 46mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "816747010413",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brera Orologi Supersportivo Square 46mm Men's Sport Chronograph Watch BRSS2C4613",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brera-Orologi-Supersportivo-Square-46mm-Mens-Sport-Chronograph-Watch-BRSS2C4613-/272695001569",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726950015698080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "21209",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H58M7S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/2ewAAOSwN6JY8-5J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/w28AAOSwJ4hY8-5O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/7nsAAOSwHHFY8-5U/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/myYAAOSwSypY8-5Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/F9QAAOSwVm5Y8-5f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/76gAAOSwHHFY8-5j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/tsMAAOSw5UZY8-5o/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/3~4AAOSwcdRY8-5t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/YQYAAOSwtZJY8-5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/VJYAAOSw7U5Y8-51/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Brera Orologi Supersportivo Square 46mm Men's Sport Chronograph Watch BRSS2C4613. Retail $995. Brand new. Never worn nor used. Includes protective plastic rounds for face and back of watch case. Black, wooden box (original) with grey interior included. Bright, light blue band is great for the summer. Great Father's Day gift. Please ask questions, as I've described this item to the best of my ability. I'm sorry, I do not ship outside of the United States. Thank you.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "578",
+    "UserID": "leefamily2306",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

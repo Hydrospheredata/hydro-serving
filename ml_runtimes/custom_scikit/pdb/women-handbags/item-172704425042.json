@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/~hUAAOSwZKBZI4nx/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/N6sAAOSw42dZI4qO/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/bngAAOSwIQdZI4yD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/HwcAAOSw~FJZI4z8/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/g1oAAOSw0hlZI49J/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/91cAAOSw9OFZI4-f/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/K1EAAOSwlMFZI4~0/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/p6QAAOSwq1JZI5BB/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Hand-Made-1-Kind-Original-Aluminum-Briefcase-Tomato-Paste-Cans-/172704425042",
+  "ConvertedCurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "One of a kind hand made aluminum attache case made from aluminum tomato paste cans. The outside of the case is all aluminum...the handle is made from black leather with 4 wooden spokes/ braces ( 2 on each side of the case ) and 2 gold locks at the top of the attache. The case is made entirely from tomato paste cans from a private company in Dakar, Senegal, Africa called Societe De Conserves Alimentaires Au Senegal. The company is a large organization founded in 1970 in South Africa in the canned fruit and specialties producers industry. The inside of the attache case has been lined in a very colorful french cartoon newspaper..... its very playful, colorful , brite, vintage, fun and artsy all in one dimensions are 14.5 inch length / 11 inch width / 3 inch deep",
+  "Title": "Womens Hand Made 1 Of A Kind  Original Aluminum Briefcase From Tomato Paste Cans",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "edwarzakrzewsk-0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11215",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T19:39:31.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P27DT4H44M53S",
+  "EndTime": "2017-06-29T19:39:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "\"Handmade\""
+      },
+      {
+        "Name": "Material",
+        "Value": "aluminum"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Style",
+        "Value": "Attache Case"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Senegal"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172704425042",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727044250428080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

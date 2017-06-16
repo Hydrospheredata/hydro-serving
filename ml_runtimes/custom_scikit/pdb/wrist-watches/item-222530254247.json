@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "257.16",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Romford",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:00:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.95",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T14:00:00.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530254247",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "TUDOR BY ROLEX",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Solid Gold 9CT",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Solid Gold 9CT",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "199.95",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-9ct-gold-case-and-strap-ladies-made-TUDOR-ROLEX-26-30GRAMS-/222530254247",
+  "Title": "Vintage 9ct gold case and strap ladies  made by TUDOR BY ROLEX-26.30GRAMS",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225302542478080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "RM3 7JB",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H49M27S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ym4AAOSww9xZLsn0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/S14AAOSwIQdZLsnR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R50AAOSwjL5ZLsnU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/H-oAAOSw~FJZLsnX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/w7YAAOSwEHpZLsna/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SC4AAOSwjL5ZLsne/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IJoAAOSw~FJZLsnh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yEMAAOSwfpVZLsnk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6iYAAOSwZKBZLsnn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YfYAAOSww9xZLsnr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/umAAAOSwK6RZLsnv/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Vintage 9ct gold case and strap ladies no Movement made by TUDOR BY ROLEX . The case measures 20mm dial ,strap measures aprox 180mm. Gold weight is 26.30grams",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "110",
+    "UserID": "roberto.gold",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

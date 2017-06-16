@@ -1,0 +1,78 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTUyWDU1Mg==/z/AM0AAOSwYlRZMGD0/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTcwWDQ1Ng==/z/Hd8AAOSwYvFZMGD1/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg4WDU1MA==/z/fLgAAOSwGJlZMGEU/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/kate-spade-new-york-striped-Stevie-Diaper-Bag-black-white-/182602035921",
+  "ConvertedCurrentPrice": {
+    "value": "275.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "A fabulous diaper bag in signature Kate Spade style, this nylon tote has crinkled design, patent leather handles and inner straps so it's easy to carry or secure to stroller. Barely used in PRISTINE condition. Purchased for $448 at Nordstrom. Features include a zip top, two outer side bottle pockets, a back zip pocket, inner changing pad pocket, diaper storage pockets, two inner bottle pockets and four inner side pocketsIt includes a removable changing padMeasures 14\" W x 11 3/4\" H X 5\" DImported",
+  "Title": "kate spade new york striped Stevie Diaper Bag - black & white",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "275.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Sammamish, Washington",
+  "Seller": {
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "kerrricker-0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98074",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T18:49:13.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT3H29M55S",
+  "EndTime": "2017-07-01T18:49:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black & White"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182602035921",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826020359218080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

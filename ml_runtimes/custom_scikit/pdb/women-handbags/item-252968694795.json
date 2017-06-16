@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExMFg4NzA=/z/ABsAAOSw9r1WAYSA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM3WDc2OA==/z/0R4AAOSwKIpWAYR8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/~-gAAOSw9r1WAYR-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ADIDAS-ORIGINALS-Airliner-CROSS-BODY-Zip-SHOULDER-Bag-KHAKI-Leopard-S20119-Sport-/252968694795",
+  "ConvertedCurrentPrice": {
+    "value": "109.97",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "sport bag zip. Adjustable shoulder strap. Attractive leopard design.Dimensions: 38x28x12 cm",
+  "Title": "ADIDAS ORIGINALS Airliner CROSS BODY Zip SHOULDER Bag KHAKI Leopard S20119 Sport",
+  "ExcludeShipToLocation": "DE",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.97",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Montreal, Quebec",
+  "Seller": {
+    "FeedbackScore": "3362",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "fashionalacarte_com"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "H3N2T6",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T12:52:14.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P28DT22H14M34S",
+  "EndTime": "2017-07-01T12:52:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "adidas"
+      },
+      {
+        "Name": "Style",
+        "Value": "CrossBody Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "UPC",
+        "Value": "888169269861"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252968694795",
+  "Storefront": {
+    "StoreName": "fashionalacarte:com",
+    "StoreURL": "http://stores.ebay.com/id=56682857"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529686947958080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gNMAAOSwDmBY3Jwv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TowAAOSwuLZY3Jwx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/I5YAAOSwol5Y3Jwz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mKoAAOSwsW9Y3Jw0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iuMAAOSwmgJY3Jw2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iUYAAOSwCU1Y3Jw9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-9QAAOSwc-tY3Jw-/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Ivy-Leopard-Leather-Crossbody-New-tags-/292137947749",
+  "ConvertedCurrentPrice": {
+    "value": "329.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Super cute new with tags Tory Burch Leopard\u00a0 calf hair crossbody. Never been used and is in brand new condition.",
+  "Title": "Tory Burch Ivy Leopard Leather Crossbody - New with tags",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "329.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Santa Clara, California",
+  "Seller": {
+    "FeedbackScore": "62",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "juliasilvestre"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "95050",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:11:09.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P6DT21H58M34S",
+  "EndTime": "2017-06-09T12:11:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Exterior Pockets Are Magnetic With A Zipper Closur"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9 1/2 In"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Small",
+          "Medium"
+        ]
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "6 1/2 In"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "23 1/2 In"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2 1/2 In"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Animal Print"
+      },
+      {
+        "Name": "Material",
+        "Value": "Calf Hair/ Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137947749",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921379477498080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

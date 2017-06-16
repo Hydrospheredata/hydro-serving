@@ -1,0 +1,114 @@
+{
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIEDAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "1",
+  "ConditionDisplayName": "New without tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-15T14:28:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/70YAAOSwHptY-b68/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-gkAAOSw3ZRY-b6~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YEUAAOSw5UZY-b7D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/KE8AAOSwRUhY-b7I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/i20AAOSwzqFY-b7L/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dHoAAOSwVm5Y-b7Q/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1500",
+  "HighBidder": {
+    "UserID": "y***i",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "415",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "lerosentha-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "484",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "90",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Make sure it is in the original packaging please",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-13T14:28:37.000Z",
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "Bronze",
+        "Name": "Colour"
+      }
+    },
+    "Variation": {
+      "StartPrice": {
+        "_currencyID": "AUD",
+        "value": "14.99"
+      },
+      "SKU": "sku-auc-0",
+      "SellingStatus": {
+        "QuantitySold": "1",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "Bronze",
+          "Name": "Colour"
+        }
+      },
+      "Quantity": "15"
+    }
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "TIEDAN NOTEBOOK PEN CAMERA CLEAR Quartz Pocket Watch/FOB Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TIEDAN-NOTEBOOK-PEN-CAMERA-CLEAR-Quartz-Pocket-Watch-FOB-Watch-/152473247075?var=",
+  "Storefront": {
+    "StoreName": "leostoreaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1477142763"
+  },
+  "ItemID": "152473247075",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT19H37M53S"
+}

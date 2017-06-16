@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjI2WDcxMA==/z/RasAAOSwxKtYBNxk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjI2WDcxMA==/z/onkAAOSwzaJYBN8Z/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Pottery-Barn-Kids-Natural-Black-Stripe-FILLMORE-Diaper-Bag-Tote-S-initial-/262678768387",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "*** THIS BAG IS PERSONALIZED WITH S INITIAL INSIDE CIRCLE (AS SHOWN)*** This chic diaper bag is designed for the on-the-go parent. Sturdy, fashionable and outfitted with numerous pockets and straps, it's prepared for whatever awaits. 15.50\" wide x 5.75\" deep x 15\" high Exterior made of a cotton and jute blend; interior is lined with nylon. Removable and adjustable leather shoulder strap and durable canvas handles. Features exterior front and back pockets the full width of the bag, magnetic closures, exterior side bottle pockets and bottom feet to keep the bag clean. Two double, elastic interior pockets keep the bag nicely organized Details Overall: 15.50\" wide x 5.75\" deep x 15\" high Interior: 15.25\" wide x 5.50\" deep x 14.75\" high Interior zip pocket: 8\" wide x 6\" high Interior elastic Pockets(2): 8\" long x 8.50\" high Care Spot clean with a damp, white cloth. Blot to remove excess water. Air dry.",
+  "Title": "NWT Pottery Barn Kids Natural/Black Stripe FILLMORE Diaper Bag Tote \"S\" initial",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Saint Louis, Missouri",
+  "Seller": {
+    "FeedbackScore": "620",
+    "PositiveFeedbackPercent": "97.8",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "shektbg"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "63119",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-10-17T14:24:38.000Z",
+  "HitCount": "119",
+  "TimeLeft": "P11DT22H49M32S",
+  "EndTime": "2017-06-14T14:24:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton Blend"
+      },
+      {
+        "Name": "Color",
+        "Value": "Natural/Black"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Pottery Barn Kids"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262678768387",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2626787683878080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

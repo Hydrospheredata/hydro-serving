@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Apache Junction, Arizona",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:13:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=85686036",
+    "StoreName": "Linda s Treasurers of the Past"
+  },
+  "CurrentPrice": {
+    "value": "3.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T14:13:15.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Lot 7 LADIES WATCHES Prestige Quartz Timex Eikon ExpLrAess Rhinestones Not working - did not try batteries Timex does not have back",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "332245776128",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "variety",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Lot 7 LADIES WATCHES Prestige Quartz Timex Eikon ExpLrAess RhinestoneNot working",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lot-7-LADIES-WATCHES-Prestige-Quartz-Timex-Eikon-ExpLrAess-RhinestoneNot-working-/332245776128",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322457761288080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "85119",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H3M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/-8AAAOSwWxNYvFC6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/kUoAAOSw32lYvFDA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/EMoAAOSw4CFYvFDF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/-iMAAOSwOgdYvFDJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/G68AAOSw4A5YvFDN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/7FYAAOSwhlZYvFDQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/wRcAAOSw~AVYvFDT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/YFgAAOSwdGFYvFDW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/lYkAAOSw32lYvFDd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/YcYAAOSwdGFYvFDi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/A2cAAOSwWxNYvFDm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/2MgAAOSwax5YvFDr/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "3.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "2977",
+    "UserID": "lindahaase",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

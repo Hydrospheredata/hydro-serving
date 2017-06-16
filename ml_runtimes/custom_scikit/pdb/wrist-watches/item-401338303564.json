@@ -1,0 +1,188 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "321.53",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Preston",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:33:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PaymentSeeDescription"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1226221604",
+    "StoreName": "retrowatchshop"
+  },
+  "CurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T14:33:03.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "BM",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "KW",
+    "OM",
+    "QA",
+    "SA",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "BA",
+    "EE",
+    "MK",
+    "ME",
+    "NO",
+    "SJ",
+    "UA",
+    "BN",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN"
+  ],
+  "ItemID": "401338303564",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Ingersoll",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "IN1004CH",
+        "Name": "Model"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "IN1004CH",
+        "Name": "MPN"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Vintage Retro Champagne Ingersoll Clay Automatic Sapphire Watch IN1004CH",
+  "ConditionDescription": "New ex-display without tags, working perfectly and in excellent condition.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Vintage-Retro-Champagne-Ingersoll-Clay-Automatic-Sapphire-Watch-IN1004CH-/401338303564",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/4013383035648080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "pr5 6tp",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H25M24S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTIxWDYwMA==/z/PNsAAOSw4CFYtwy0/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "3744",
+    "UserID": "retrowatchshop",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

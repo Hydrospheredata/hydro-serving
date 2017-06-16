@@ -1,0 +1,124 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "262501861077",
+  "PrimaryCategoryID": "110399",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2625018610778080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "advert-display-products",
+    "FeedbackScore": "18737",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Advert Display Products",
+    "StoreURL": "http://stores.ebay.com/id=1055364812"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzIz/z/hQsAAOSwqu9U96Fm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjMy/z/h9QAAOSwBahU96F1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iHkAAOSwBahU96F9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wDIAAOSwrklU96GK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2OVgxNjAw/z/6NkAAOSwPhdU96GR/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "TimeLeft": "P17DT23H36M41S",
+  "StartTime": "2016-06-28T15:55:07.000Z",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "k***e",
+    "FeedbackScore": "74",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "574",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Double-Sided-Locking-Body-Jewelry-Rotating-display-128-pcs-64-per-side-/262501861077",
+  "EndTime": "2017-06-23T15:55:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Body Jewelry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Acrylic",
+        "Name": "Material"
+      },
+      {
+        "Value": [
+          "Bridge/Earl",
+          "Ear",
+          "Eyebrow",
+          "Genital (Female)",
+          "Genital (Male)",
+          "Labret",
+          "Lip",
+          "Navel",
+          "Nipple",
+          "Nose",
+          "Tongue",
+          "Universal"
+        ],
+        "Name": "Body Area"
+      },
+      {
+        "Value": "685248568217",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Double Sided Locking Body Jewelry Rotating display for 128 pcs - 64 per side",
+  "Location": "Morris, Illinois",
+  "Description": "Holds 128 Pieces / 64 per side Locks on both sides & Rotates 360* Angled for better viewingApproximate Dimensions: 8-3/8\"W x 15\"H x 8\"D at base, 4\"D at topClip Type Inserts Hold Other Small JewelryBlack Velvet Pads with clipsShips within 24 hours of purchase",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "15",
+  "PostalCode": "60450"
+}

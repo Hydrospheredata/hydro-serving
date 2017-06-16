@@ -1,0 +1,135 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P2DT21H50M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252968682236",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Heidi-Daus-Shimmering-Snowflake-Swarovski-Crystal-Dragonfly-Pin-New-MINT-/252968682236",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T12:41:03.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-08T12:41:03.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bronzetone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystal Elements",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Classy Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Heidi Daus",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "~Heidi Daus Shimmering Snowflake Swarovski Crystal  Dragonfly Pin~ New MINT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Heidi Daus \"Trembling Brilliance\" Crystal-Accented Dragonfly Pin Critter craze! This jeweled interpretation of your favorite flying creature will set your heart aflutter. Wings set on springs add movement and dimension to your favorite looks. Pinned to your lapel, a feminine scarf or even your handbag, the whimsical design is sure to sparkle day or night.Design Information Dragonfly designProng-set, oval crystal body and eyes\"Fluttering\" wings on springs have a cutout pattern lined with pav\u00e9-set round crystalsRound crystals bezel-set at extended antenna endsSectioned tail is covered in pav\u00e9-set round crystals Textured metalwork extremitiesPin Measurements:Approx. 2-15/16\"L x 3-1/2\"W x 3/8\"HMetal Color:BronzetoneFindings:Joint-and-catch closureFinish:Oxidized, polishedCountry of Origin:ChinaPackaging:NNo original boxWarranty:Manufacturer's lifetime limited",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529686822368080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "honeyiwonthebid123",
+    "FeedbackScore": "1236",
+    "FeedbackRatingStar": "Red"
+  },
+  "Location": "Heidi's Girls",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P1cAAOSwq7dXFUX6/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

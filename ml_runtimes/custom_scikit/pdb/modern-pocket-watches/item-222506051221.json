@@ -1,0 +1,97 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "21.71"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "VIGOROSO Mens Classic Steampunk Gold Skeleton Hand Wind Mechanical Pocket Watch Product Features Imported All Silver Mens Pocket Watch in Black VIGOROSO Gift Boxes Mechanial hand-winding movement, provide precise and accurate time keeping. The adjustable time knob is connected to the chain, just pull out the clock knob to adjust time Case thickness: Approx 1.3cm With Free Necklace Chain. Best gift for your family. Product Description Description: Movement: A high-level hand winding mechanical movement Gender: Unisex Chain length: Approx 30.0 cm Chain material: Silver Steel Case diameter: Approx 4.5 cm Case thickness: Approx 1.3cm Case material: Silver Steel Color: Silver, as the Picture show Normal 0 false false false EN-US X-NONE X-NONE Shipping Policies Free 2-4 business day shipping with 1 business day processing eBay's arrival estimate is based on average ship times & not a guarantee Please make sure you want the item, we are unable to support cancellations Buyer is responsible for address entered, we do not support address changes. Buyer is responsible for all applicable local & state laws regarding purchase Return Policy Returns must be NEW & UNUSED condition with all parts & original packaging Please message us for the required RMA to return an item Return shipment for defective items is paid for by us! We do not stock parts. All returns require returning the entire item Perishable items are guaranteed to be in date or full refund Customer Service Please allow us to resolve any issues before leaving feedback. We will resolve any issue! Please allow up to 24 hours for a response!",
+  "StartTime": "2017-05-10T04:23:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDUzWDUwMA==/z/k74AAOSwH09ZEpW7/$_12.PNG",
+    "http://i.ebayimg.com/00/s/Nzc5WDEwMDA=/z/dLUAAOSwcgNZEpW~/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzY2WDEwMDA=/z/DRIAAOSwlMFZEpXE/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzkxWDEwMDA=/z/DTUAAOSwlMFZEpXI/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/d9AAAOSwfpVZEpXL/$_3.PNG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "VIGOROSO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "VIGOROSO",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "WA271.B",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0712069675500",
+        "Name": "EAN"
+      },
+      {
+        "Value": "712069675500",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ainuasiqi_0",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225060512218080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-09T04:23:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "21.71"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "VIGOROSO Mens Classic Steampunk Gold Skeleton Hand Wind Mechanical Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VIGOROSO-Mens-Classic-Steampunk-Gold-Skeleton-Hand-Wind-Mechanical-Pocket-Watch-/222506051221",
+  "SKU": "B00TDN31J2",
+  "ItemID": "222506051221",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT9H41M1S"
+}

@@ -1,0 +1,149 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "38237",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand new leather pocket watch cases by Charles Hubert of Paris. Black and a brown case hold 48mm watches. The large brown holds a 56mm watch.",
+  "StartTime": "2017-05-31T03:42:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDE0ODk=/z/SRUAAOSwlMFZLjsG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgyWDE0OTM=/z/d0gAAOSwBt5ZLjsf/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "37.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brown",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Chain Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Charles-Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bishop4980",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "827",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423997844908080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T03:42:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "37.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lot-Three-3-Charles-Hubert-Leather-Pocket-Watch-Cases-Pouches-Brown-Black-/142399784490",
+  "Location": "Martin, Tennessee",
+  "Title": "Lot of Three 3 Charles Hubert Leather Pocket Watch Cases Pouches Brown & Black",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142399784490",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT9H9M15S"
+}

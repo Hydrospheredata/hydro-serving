@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921398933588080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/mD8AAOSw4CFY1tZa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/8SwAAOSwax5Y1tZa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/mDkAAOSw4CFY1tZa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Ob0AAOSwB-1Y1tZb/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DC-Comics-Official-Wonder-Woman-Built-Up-Backpack-Laptop-School-Multipocket-Bag-/192139893358",
+  "ConvertedCurrentPrice": {
+    "value": "94.44",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: DC Comics - Clothing Featuring Your Favourite Super Heroes And Villains. This Wonder Woman Backpack Is An Awesome Way To Strut Around And Carry Stuff At The Same Time With The Fantastic Power Of DC Comics' Warrior Princess!",
+  "Title": "DC Comics Official Wonder Woman Built Up Backpack Laptop School Multipocket Bag.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.44",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-25T20:42:59.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P21DT4H21M54S",
+  "EndTime": "2017-06-23T20:42:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DC Comics"
+      },
+      {
+        "Name": "MPN",
+        "Value": "457964883"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139893358",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:116358568:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

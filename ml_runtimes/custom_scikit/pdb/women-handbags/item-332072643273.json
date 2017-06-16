@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODIxWDcxNA==/z/cbYAAOSwImRYYBod/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzU4WDc5NA==/z/Oo4AAOSw241YYBoe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgzWDc0Mw==/z/lBcAAOSwJ7RYYBof/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzkzWDcyNA==/z/Qs0AAOSwEzxYYBog/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg4WDc5MA==/z/L50AAOSw6DtYYBoi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk5WDc1Ng==/z/Ov0AAOSw241YYBoj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA2WDc4Nw==/z/LRYAAOSwUKxYYBok/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/STORKSAK-CHARLIE-NYLON-BABY-DIAPER-BAG-BACKPACK-W-PAD-FAB-BAG-ORANGE-NWT-150-/332072643273",
+  "ConvertedCurrentPrice": {
+    "value": "122.22",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT $150STORKSAK CHARLIE NYLON BABY DIAPER BAG BACKPACK W/PAD & FAB BAG ORANGE Track Page Views With Auctiva's FREE Counter",
+  "Title": "STORKSAK CHARLIE NYLON BABY DIAPER BAG BACKPACK W/PAD & FAB BAG ORANGE NWT $150",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "GL",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "122.22",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fresh Meadows, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "14896",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "socher36"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11365",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-12-25T19:12:39.000Z",
+  "HitCount": "71",
+  "TimeLeft": "P21DT3H39M35S",
+  "EndTime": "2017-06-23T19:12:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "STORKSAK CHARLIE BABY DIAPER BAG",
+        "Value": "NWT $150"
+      },
+      {
+        "Name": "Main Color",
+        "Value": "ORANGE"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "STORKSAK"
+      },
+      {
+        "Name": "Color",
+        "Value": "BURNT ORANGE"
+      },
+      {
+        "Name": "Material",
+        "Value": "NYLON"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5060219257058"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332072643273",
+  "Storefront": {
+    "StoreName": "LOVE TO SHOP WITH US",
+    "StoreURL": "http://stores.ebay.com/id=126780486"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3320726432738080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,323 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P8DT16H17M54S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "40.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322541322799",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Diamond-18k-Gold-Over-Hoop-Pendant-Necklace-Matching-Earrings-Jewelry-Set-/322541322799?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "40.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T04:25:54.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T04:25:54.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Product Style Nomber",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "1",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YsoAAOSw241Ygx9-/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "2",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTM0WDUwMQ==/z/Ul0AAOSwZQRYgx-Q/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "3",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTUxWDUwMw==/z/hY4AAOSw2xRYgx-i/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "4",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/h7gAAOSw2xRYgx-3/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "5",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTE0WDUwMA==/z/NCAAAOSw44BYgx~H/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "6",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTUzWDUyMQ==/z/PTcAAOSw5cNYgx~X/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "7",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/u0YAAOSwUKxYgx~u/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "8",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTQwWDUwMA==/z/NxUAAOSwopRYgx~~/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "9",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTIzWDUwNQ==/z/OEgAAOSwopRYgyAM/$_1.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "Name": "Product Style Nomber"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "1",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "80.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "2",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "49.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "3",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "4",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "80.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "5",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "49.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "80.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "49.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9",
+            "Name": "Product Style Nomber"
+          }
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "tvs-jewelery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 Per Parts 1000",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Lab-Created",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Pendant & Earring, Jewelry Set",
+        "Name": "Type"
+      },
+      {
+        "Value": "D(Clear)",
+        "Name": "Main Stone Color"
+      },
+      {
+        "Value": "Hoop Style",
+        "Name": "Style"
+      },
+      {
+        "Value": "Women's Ring ,Female Ring ,Ladies Ring",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Wedding, Engagement, Anniversary",
+        "Name": "Occasion"
+      },
+      {
+        "Value": "Round",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "18k White / Yellow / Rose Gold Finish",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "Diamond 18k Gold Over Hoop Pendant Necklace With Matching Earrings Jewelry Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Buyer is responsible for all return shipping costs.100% OriginalGood PricingFast Shipping",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.4",
+    "UserID": "tvs-jewelery",
+    "FeedbackScore": "321",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "9",
+  "Location": "Mumbai",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA4WDExMjQ=/z/eicAAOSwnHZYgx8Z/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

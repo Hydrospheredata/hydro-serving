@@ -1,0 +1,79 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "Prestige pocket watch by Waltham Running",
+  "PostalCode": "23322",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Here is a beautiful Prestige (by Waltham) Pocket Watch has some scratching. Good quartz running watch, has fresh battery installed. Japan Movement. #737",
+  "StartTime": "2017-05-28T17:29:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ROUAAOSwA3dYepku/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/S0IAAOSw-0xYepky/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nbkAAOSwImRYepk2/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "019816",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "950",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225271572578080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:29:54.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Prestige-pocket-watch-Waltham-Running-/222527157257",
+  "ConditionDescription": "Nice Pocket Watch, has some scratching.",
+  "Location": "Chesapeake, Virginia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222527157257",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H55M1S"
+}

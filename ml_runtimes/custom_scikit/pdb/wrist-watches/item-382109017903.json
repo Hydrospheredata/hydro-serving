@@ -1,0 +1,320 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "16.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vAoAAOSwYlRZLowE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-FcAAOSwxu5ZLowE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/tHoAAOSw9OFZLowE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/DLEAAOSwDiBZLowG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YpAAAOSwX9FZLowG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6loAAOSwJH1ZLowI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/VHMAAOSwfRdZLowG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/31cAAOSwIaFZLowH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/DLMAAOSwDiBZLowG/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:25:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "12",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "16.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:25:20.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ItemID": "382109017903",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Luxury-Men-Stainless-Steel-Two-movement-Black-Metal-Band-Calendar-Wrist-Watch-/382109017903?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "6.11",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Two",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "082-YW01850",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "16.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01850B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01850L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01850R",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01850W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Blue",
+          "Red",
+          "White"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/e4eaa7da-acdb-4283-82f8-6075609d5bcc.JPG"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/cb5287ea-8437-4797-a58b-fc604322952b.JPG"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/3733ba14-e1b3-4d6b-8864-3843bc34c0f8.JPG"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/ce43522a-a3de-4bea-a0cb-f5342a6042ac.JPG"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H58M8S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Luxury Men Stainless Steel Two-movement Black Metal Band Calendar Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDE5/z/ZTwAAOSwcUBYF31N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTg5/z/g6UAAOSwx2dYF31W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MTI=/z/vgQAAOSwMVdYF31X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg2WDE1MDA=/z/NwgAAOSw5cNYF31i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MjU=/z/a1gAAOSwcUBYF31r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MVgxNTAw/z/7ZMAAOSwnbZYF32b/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Oilily-Tropical-Diaper-Bag-Blue-/262699454604",
+  "ConvertedCurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Oilily Tropical Baby Bag, Blue Description: -Fabric/Polyester - Adjustable shoulder strap with snaps for easy attachment to stroller - Shoulder pad - Inside zipper closed main compartment: zipper mesh pocket, diaper mattress, 2 open pockets with elastic on top - Zipper closed front pocket - Side pockets with elastic on top Care Tips -Spot Clean",
+  "Title": "New Oilily Tropical Diaper Bag, Blue",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Corona, California",
+  "Seller": {
+    "FeedbackScore": "660",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkydarky"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92881",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2016-10-31T17:28:40.000Z",
+  "HitCount": "246",
+  "TimeLeft": "P26DT1H54M5S",
+  "EndTime": "2017-06-28T17:28:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote and Crossobody"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Oilily"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Netherlands"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262699454604",
+  "Storefront": {
+    "StoreName": "pinkydarky",
+    "StoreURL": "http://stores.ebay.com/id=1056231547"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2626994546048080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

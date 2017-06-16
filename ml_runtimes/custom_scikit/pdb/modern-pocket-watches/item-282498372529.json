@@ -1,0 +1,165 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "05401",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand New MOLNIJA Pocket Watch 18 Jewels - Made in Russia Train/ Locomotive on Reverse Includes instructions/ paperwork and original black plastic box.",
+  "StartTime": "2017-05-29T00:25:17.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gN8AAOSwcaFZIhd8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xSQAAOSwlY1ZIheC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eskAAOSwY3BZIhd6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tmwAAOSw3gJZIhd3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0zUAAOSwZ4dZIhd4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zVkAAOSw5cRZIhd0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J9YAAOSw-3FZIhd1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YpEAAOSwjqVZIhd-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/q6gAAOSwjL5ZIheA/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "18 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "3602",
+        "Name": "Model"
+      },
+      {
+        "Value": "Molnija",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3602",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "vermontvintage1",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6529",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824983725298080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T00:25:17.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MOLNIJA-Pocket-Watch-3602-Train-Locomotive-18-Jewels-NEW-Russia-/282498372529",
+  "Location": "Burlington, Vermont",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MOLNIJA Pocket Watch 3602 Train/ Locomotive 18 Jewels NEW Russia",
+  "Storefront": {
+    "StoreName": "Vermont Vintage And Video Games",
+    "StoreURL": "http://stores.ebay.com/id=1011557231"
+  },
+  "ItemID": "282498372529",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT5H50M32S"
+}

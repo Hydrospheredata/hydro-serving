@@ -1,0 +1,71 @@
+{
+  "QuantitySold": "0",
+  "Title": "Largemouth Bass Goldtone Pocket Watch by Carole",
+  "PostalCode": "43081",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Pre-owned Carole pocket watch. Great condition. Fully functioning. Largemouth bass. Goldtone. Requires daily winding.",
+  "StartTime": "2017-05-31T02:12:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwNlg3MTk=/z/5bQAAOSwTM5YuVHX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM0WDcxOQ==/z/RPsAAOSw2gxYuVIh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQxWDcxNg==/z/IHQAAOSwB-1YuVJg/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Carole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jessiescorner",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "14",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525673559428080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-07T02:12:56.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Largemouth-Bass-Goldtone-Pocket-Watch-Carole-/152567355942",
+  "ConditionDescription": "Great condition, fully functioning",
+  "Location": "Westerville, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152567355942",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT7H39M30S"
+}

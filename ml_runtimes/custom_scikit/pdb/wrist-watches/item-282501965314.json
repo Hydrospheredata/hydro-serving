@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.99",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:39:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "13.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:39:22.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08160092",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "BY",
+    "MX",
+    "KZ"
+  ],
+  "ItemID": "282501965314",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Disney",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Childrens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "SWM3077-BLACK",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Date",
+          "24 hour",
+          "Light"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Orange Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Black Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "35mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "5018479079439",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Children's Star Wars BB8 black and orange flashing watch SWM3077",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Childrens-Star-Wars-BB8-black-and-orange-flashing-watch-SWM3077-/282501965314",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825019653148080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H10M26S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/kIoAAOSw0hlZLoE-/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Children's Star Wars BB8 black and orange flashing watch SWM3077 RRP \u00a319.99 Now \u00a313.99 Description This children\u2019s flashing Star Wars watch is a bright addition to the Disney Star Wars watch collection. It features a dynamic print of the character BB8 on the watch face, set within the bright orange casing. With the orange bezel featuring a number of notches and numbers around the outside in black, and illuminating with flashing lights at the touch of a button, this watch really is great for techy kids who want their watch to look the part. A black rubber strap makes this a comfortable choice, easily fastened by the matching vibrant orange buckle. The digital display also makes telling the time easier, with three buttons upon the side of the casing to show the date, time and to change the settings. The width of the watch is approximately 35mm. We are authorised stockists of Disney Star Wars watches, and this product will be sent brand new. Every purchase also comes with a one year manufacturer\u2019s warranty. Chapelle ref 08160092 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzNFgxMTM0/z/heMAAOSw0hlZGkoF/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LP4AAOSwX9FZGkr9/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/l0cAAOSwurZZGksy/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Watson-Lane-Stevie-Baby-Diaper-Bag-BRAND-NEW-AUTHENTIC-/263010440429",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Never used, perfect condition Kate Spade baby bag in original packaging with tags. Retails for USD $398.00.",
+  "ConvertedBuyItNowPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "jimaso_9"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "90019",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T00:07:32.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P3DT8H47M",
+  "EndTime": "2017-06-06T00:07:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263010440429",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Title": "Kate Spade Watson Lane Stevie Baby Diaper Bag **BRAND NEW**AUTHENTIC**",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630104404298080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,162 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "158.25",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272700900395",
+  "TimeLeft": "P8DT8H36M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "158.25",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JOAN-RIVERS-SILVER-GOLD-GLASS-RHINESTONE-BEE-ORNAMENT-/272700900395",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "158.25",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T21:38:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-13T21:38:14.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Joan Rivers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold Feet",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "JOAN RIVERS SILVER, GOLD, GLASS, RHINESTONE BEE ORNAMENT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "JOAN RIVERS SILVER, GOLD, GLASS, RHINESTONE BEE ORNAMENT A very collectible glass blown bee ornament with gold feet & covered with rhinestones and green rhinestone eyes and a gold string hanger. Comes in a red satin box with white satin lining and a bone closure. This is a \"one-of-a-kind\" rare collectors item.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2727009003958080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "snydeaudre",
+    "FeedbackScore": "15",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Bradenton, Florida",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1MIAAOSwLF1X8mcJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc2/z/I6AAAOSwLnBX8mdG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/visAAOSw8gVX8meA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTc1/z/hYYAAOSwYIxX8me2/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "34203"
+}

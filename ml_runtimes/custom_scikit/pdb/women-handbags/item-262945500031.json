@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAzN1gxNTAw/z/iggAAOSwE0JY-ONM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2M1gxNTAw/z/gj0AAOSwHptY-ONM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NzI=/z/6zIAAOSwuspY-ONN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDE1MDA=/z/51kAAOSw53NY-ONN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMwWDE1MDA=/z/FUoAAOSwHHFY-ONM/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Luggage-Womens-Medium-Zip-Cosmetic-Nomadic-Blossoms-Luggage-/262945500031",
+  "ConvertedCurrentPrice": {
+    "value": "56.17",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Vera Bradley Luggage Women's Medium Zip Cosmetic Nomadic Blossoms Luggage Accessory - Zip-top closure opens wide for easy access - Printed cotton lining - Clear PVC liner overlay is easy to wipe clean Vera Bradley Luggage Women's Medium Zip Cosmetic Nomadic Blossoms Luggage",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "56.17",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14088",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "easybuying2005"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Luggage Women's Medium Zip Cosmetic Nomadic Blossoms Luggage",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-20T16:33:23.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P16DT22H41M1S",
+  "EndTime": "2017-06-19T16:33:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003371282"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003371282"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15724586"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Accessory"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.2 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 9 x W 5.5 x H 1.5 inches"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262945500031",
+  "Storefront": {
+    "StoreName": "easybuying2005",
+    "StoreURL": "http://stores.ebay.com/id=1186614849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629455000318080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

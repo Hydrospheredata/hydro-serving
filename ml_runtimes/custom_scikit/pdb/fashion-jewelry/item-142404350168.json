@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P1DT20H57M59S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "ABSOLUTELY A WOW PIECE OF ST JOHN JEWELRY...MANUFACTURED IN TWO SIZES...THIS PIN IS THE LARGE SIZE",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142404350168",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T09:53:58.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-PIN-SUN-BONNET-WOW-/142404350168",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T09:53:58.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "GoldTone",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "No Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION...DESIGNER JEWELRY..PIN...SUN BONNET...WOW!!!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "THIS ST JOHN PIN IS MAGNIFICENT...THIS IS THE LARGE SIZE SUN BONNET PIN MADE BY ST JOHN...ALMOST 4\" WIDE AND 4\" TO THE BOTTOM OF THE CHAIN TIE...ST JOHN ENGRAVED IN BLACK ENAMEL ACROSS THE RIBBON DESIGN....THE GOLD TONE HAT PIN IS TEXTURED IN ITS DESIGN TO REPRESENT STRAW... HALLMARK LOGO ON BACK...MAILED VIA USPS PRIORITY MAIL WITH A TRACKING NUMBER FOR SECURE DELIVERY.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424043501688080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/tw0AAOSw-kdX1Tx8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/VRgAAOSw9IpX1Tx0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/BYMAAOSwxg5X1TyD/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "33154"
+}

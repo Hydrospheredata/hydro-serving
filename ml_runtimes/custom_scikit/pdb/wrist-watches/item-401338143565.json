@@ -1,0 +1,352 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3.41",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "SZ",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:11:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "10",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1115879377",
+    "StoreName": "shoppingfreely"
+  },
+  "CurrentPrice": {
+    "value": "3.41",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:11:56.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "FW0409",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "ZA",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "SA",
+    "YE",
+    "AF",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "MV",
+    "MN",
+    "NP",
+    "TJ",
+    "TM"
+  ],
+  "ItemID": "401338143565",
+  "HandlingTime": "10",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LED-Digital-Wrist-Watch-Sports-Casual-Girl-Ladies-Women-Electronic-Silicone-Band-/401338143565?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silicone",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "3.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW040906",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "3.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW040913",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Grey",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "3.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW040923",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Hot Pink",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "3.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW040952",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Dark Blue",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "3.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0409101",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#1",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "2"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "White",
+          "Grey",
+          "Hot Pink",
+          "Dark Blue",
+          "#1"
+        ],
+        "Name": "\u3010Color\u3011"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "https://m1.image009.com/productimage/F/FW/FW0409/FW040906.jpg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "https://m1.image009.com/productimage/F/FW/FW0409/FW040913.jpg"
+        },
+        {
+          "VariationSpecificValue": "Hot Pink",
+          "PictureURL": "https://m1.image009.com/productimage/F/FW/FW0409/FW040923.jpg"
+        },
+        {
+          "VariationSpecificValue": "Dark Blue",
+          "PictureURL": "https://m1.image009.com/productimage/F/FW/FW0409/FW040952.jpg"
+        },
+        {
+          "VariationSpecificValue": "#1",
+          "PictureURL": "https://m1.image009.com/productimage/F/FW/FW0409/FW0409101.jpg"
+        }
+      ],
+      "VariationSpecificName": "\u3010Color\u3011"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H39M1S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDUw/z/3T0AAOSwcB5ZLmzA/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "LED Digital Wrist Watch Sports Casual Girl Ladies Women Electronic Silicone Band",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "FeedbackScore": "94710",
+    "UserID": "shoppingfreely",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

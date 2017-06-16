@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT21H49M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122533557861",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Jay-Lane-KJL-Vintage-Gold-Tone-Charm-Bracelet-/122533557861",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:29:50.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T07:29:50.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "7''",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kenneth Jay Lane KJL Vintage Gold Tone Charm  Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "You are bidding on KENNETH JAY LANE vintage gold-tone charms bracelet, signed (see photo # 3).The measurements are as follows: length of bracelet - 7\". The bracelet has been worn, so it is in good vintage condition ( see close-up photos ). Please, if you have further questions do not hesitate to ask before bidding. Thank you for looking. NOTE: ALL SALES ARE FINAL. NO RETURN, REFUND OR EXCHANGE. THE PAYMENT MUST BE RECEIVED WITHIN 2 DAYS OF AUCTION CLOSE. OTHERWISE, THE ITEM WILL BE REPORTED AS UNPAID AND THE DISPUTE WILL BE FILED. PLEASE, ALL INTERNATIONAL BUYERS CONTACT ME FOR POSTAGE RATES BEFORE BIDDING. OTHERWISE, I RESERVE THE RIGHT TO CANCEL YOUR BID. THANK YOU.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225335578618080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "semars2",
+    "FeedbackScore": "3112",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "semars2",
+    "StoreURL": "http://stores.ebay.com/id=581040710"
+  },
+  "Quantity": "1",
+  "Location": "San Francisco, California",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExNFgxNjAw/z/QQAAAOSwRJ9XgZu1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTMwWDE2MDA=/z/LOQAAOSwv9FXgZu-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA0MFgxNjAw/z/5aAAAOSwGXtXgZvE/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "94122"
+}

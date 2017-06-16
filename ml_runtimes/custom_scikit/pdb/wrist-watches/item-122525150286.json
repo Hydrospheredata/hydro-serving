@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "43.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Stuart, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:12:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=2018341",
+    "StoreName": "andreasattic53"
+  },
+  "CurrentPrice": {
+    "value": "43.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:12:06.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "122525150286",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gruen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Orange",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Gruen Curvex Made in Japan Unisex Watch  NONWORKING with  LIZARD  Band",
+  "ConditionDescription": "This watch is not working!  I had a new battery in it and it still does not work.  The band was for a lady and is Genuine Lizard.  The small part is the battery cover. There is also a small chip in the crystal by the number 1. See Photos!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Gruen-Curvex-Made-Japan-Unisex-Watch-NONWORKING-LIZARD-Band-/122525150286",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225251502868080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "34997",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H58M34S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LekAAOSwB-1Y3owV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M-0AAOSwuLZY3owa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/t-UAAOSwA29Y3owg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wo8AAOSwol5Y3owl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N18AAOSwuLZY3owr/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage Gruen Curvex Made in Japan Unisex Watch NONWORKING for parts or repair. The watch without the band measures 1 5/8 by 3/4 inches. The inside back of the watch reads 6L40 MYOTACO JAPAN No Jewel. Please view all photos and contact me with any questions! Thanks!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "15196",
+    "UserID": "andreasattic53",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

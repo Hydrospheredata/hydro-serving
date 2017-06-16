@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT19H55M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292139993856",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Signed-Robert-Lee-Morris-Brass-Sail-Necklace-Belt-One-Size-Adjustable-/292139993856",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T10:42:22.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T10:42:22.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklace/Belt",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gold Plated Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "Signed Robert Lee Morris Brass Sail Necklace/Belt One Size/Adjustable",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a \"Sail\" necklace /belt Robert Lee Morris designed and hand made. It is a made from slightly hammered brass and has leather cords with pinched brass tips that cane be tied at any length. The piece can be worn as either as a necklace or belt. It measures 46\" long and the center \"sail\" measure 4-3/4\" long x 2-1/4\" wide. It can be worn as a belt centered or off center. The leather slides through the brass and is adjustable. The back is hand signed Robert Lee Morris. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921399938568080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NP4AAOSw241Yl3aW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FK8AAOSwo4pYl3aY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/srIAAOSwA3dYl3aa/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "10012"
+}

@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Nt8AAOSwlMFZLbCZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ub8AAOSwlY1ZLbCx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4ZoAAOSwZ4dZLbCl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~UwAAOSwR29ZLbC4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM3NQ==/z/5DgAAOSwxu5ZMEJP/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Kate-Spade-Kennedy-Park-Calista-15-Computer-Laptop-Bag-Case-Black-NEW-328-/201943697604",
+  "ConvertedCurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new (with tags) Kate Spade Kennedy Park Calista 15\" Computer Laptop Bag Case Black (Retails at $328)",
+  "Title": "NWT Kate Spade Kennedy Park Calista 15\" Computer Laptop Bag Case Black NEW $328",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Bellevue, Washington",
+  "Seller": {
+    "FeedbackScore": "3",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "hipsiworld"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98004",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T16:37:41.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P29DT1H44M35S",
+  "EndTime": "2017-07-01T16:37:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689868356"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201943697604",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019436976048080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

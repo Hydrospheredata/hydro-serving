@@ -1,0 +1,198 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hayesville, North Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:53:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:53:14.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530199245",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Calvin Klein",
+        "Name": "Brand"
+      },
+      {
+        "Value": "women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz: Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "30 mm.",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "K1N22120",
+        "Name": "Model"
+      },
+      {
+        "Value": "K1N22120",
+        "Name": "MPN"
+      },
+      {
+        "Value": "613352051141",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Calvin-Klein-CK-Air-Bangle-Steel-Watch-K1N22120-/222530199245",
+  "Title": "Women's Calvin Klein CK Air Bangle Steel Watch K1N22120",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225301992458080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "28904",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H37M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDIzMg==/z/QmgAAOSwTuJYncU8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDkxWDUwMA==/z/jKcAAOSw2gxYncVU/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "ck Calvin Klein WatchWomen's Model #: K1N22120Retail Price: $290.00 Calvin Klein ck Air Watch Collection.Stainless steel case and strap.Bangle size: Medium 58.4 mm x 42.15 mm.Silver dial.Scratch resistant mineral crystal.Case diameter: 30 mm. Case thickness: 7 mm.Case width: 12 mm. Band length: 6.5 inches Swiss Quartz movement.UPC: 613352051141Water Resistant up to 30 meters. Warranty: 1 Year from manufacturer. Thanks for looking!! No International Shipping",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "253",
+    "UserID": "business1828",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

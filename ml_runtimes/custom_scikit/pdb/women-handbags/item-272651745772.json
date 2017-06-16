@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5MUAAOSwCQZZBefq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/HWAAAOSwrhBZBefq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/4IgAAOSw42JZBefq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/arUAAOSw~y9ZBefq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7x8AAOSwnONZBefq/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Lighten-Up-NoSo-Tote-Pink-Tonal-Stripe-/272651745772",
+  "ConvertedCurrentPrice": {
+    "value": "76.91",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! This tote transitions flawlessly from work to gym without missing a beat. A large zip pocket carries shoes and there's a padded compartment for your laptop. Additional pockets keep everything else neatly organized. Care Tips Spot clean - Dimensions 13 \u00c2\u00bd\" w x 15 \u00c2\u00bd\" h x 6\" d with 12\" strap drop - Front zip compartment extends to back seam to carry larger items like shoes - Exterior features two side mesh slip pockets, a front slip pocket and a large zip pocket - Inside features two mesh slips and a zip pocket in addition to a padded laptop compartment - Tapered straps for additional comfort Vera Bradley Lighten Up NoSo Tote Pink Tonal Stripe",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "76.91",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "117",
+    "PositiveFeedbackPercent": "96.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "turbopm"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Lighten Up NoSo Tote Pink Tonal Stripe",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-30T13:34:31.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P26DT20H41M17S",
+  "EndTime": "2017-06-29T13:34:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003348031"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003348031"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15579-566"
+      },
+      {
+        "Name": "Color",
+        "Value": "pink, white, multi"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.1 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 19.6 x W 17 x H 1.2 inches"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272651745772",
+  "Storefront": {
+    "StoreName": "FutureTechsales",
+    "StoreURL": "http://stores.ebay.com/id=1258436416"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726517457728080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/7jQAAOSwCU1YsLJz/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Vera-Bradley-Stroll-Around-Baby-Bag-Java-Floral-Diaper-Bag-/332137704167",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This brand new, with tags Vera Bradley Stroll Around Baby Bag in Java Floral features: CottonImportedFabric liningzipper closure14.5\" shoulder drop14.5\" high19\" widePockets: 7 interior slip, 2 exterior;Includes Changing pad and removable stroller strapsIt retails for $128.00.",
+  "Title": "NWT Vera Bradley Stroll Around Baby Bag in Java Floral Diaper Bag",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Springfield, Illinois",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "621",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "ulive4ever"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "62703",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-02-24T22:25:42.000Z",
+  "HitCount": "140",
+  "TimeLeft": "P22DT6H54M36S",
+  "EndTime": "2017-06-24T22:25:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Java Floral"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332137704167",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "ulive4ever",
+    "StoreURL": "http://stores.ebay.com/id=122891436"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3321377041678080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

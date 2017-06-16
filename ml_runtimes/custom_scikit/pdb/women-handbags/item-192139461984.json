@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-2.fishpond.co.nz/0064/177/798/183982032/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0064/177/798/183982033/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0064/177/798/183982034/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0064/177/798/183982035/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0064/177/798/183982036/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0064/177/798/183982037/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0064/177/798/183982038/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LE-MARIOL-Indus-vintage-leather-backpack-school-bag-PAUL-MARIUS-Shipping-Includ-/192139461984",
+  "ConvertedCurrentPrice": {
+    "value": "223.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: LeMariol is an ideal work bag for school or office. This vintage backpack was specially created to carry A4 documents. It consists of a large compartment with zipper and two pockets, all in our famous green cotton fabric. 38cm computer will easily find its place in it. PAUL MARIUS does not neglect the comfort of his LeMariol by proposing straps and back of the bag with foam. The leather chosen by PAUL MARIUS may have markings or slight variations of colours, these nuances inherent in the skin and tanning effects are sought to provide a bag of character. Keep in mind that several pieces of leather are selected to make one bag PAUL MARIUS, and this in order to offer you a unique bag. For maintenance, we recommand the universal cream SAPHIR.",
+  "Title": "LE MARIOL Indus vintage leather backpack school bag PAUL MARIUS. Shipping Includ",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "223.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-25T07:37:04.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P20DT15H15M54S",
+  "EndTime": "2017-06-23T07:37:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Paul Marius"
+      },
+      {
+        "Name": "MPN",
+        "Value": "414698912"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139461984",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:64177798:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

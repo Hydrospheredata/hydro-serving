@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jeannette, Pennsylvania",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:57:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1111005947",
+    "StoreName": "Tasteful Totes and More"
+  },
+  "CurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:57:42.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355145583",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Michael Kors Jetmaster",
+        "Name": "Model"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "43mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors Jetmaster Chronograph  Watch!! Nwt!! Msrp $295.00",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Jetmaster-Chronograph-Watch-Nwt-Msrp-295-00-/232355145583",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323551455838080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "15644",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H36M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTUwMFg5MTA=/z/o6YAAOSwqBJXUJi~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTAwWDkwMA==/z/MhUAAOSwLnBXUJjB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTAwWDkwMA==/z/IlsAAOSwOVpXUJjA/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "A timeless, dynamic design, the high-powered JetMaster watch has it all: from a three-hand movement and chronograph sub dials to a bold, oversized case. The marked bezel and chronograph sub dials give it the lead in timekeeping. Take this travel essential on the next great escape\u2014it will complete a sporty, sophisticated look in any time zone. -Oversized\u00a0 -43mm Case\u00a0 -Chronograph Movement\u00a0 -Push Clasp Fastening\u00a0 -Water Resistant Up To 5 ATM -Imported Comes from a smoke free home. Please message me with any questions. Serious bidders only please!\u00a0 All our product is guaranteed 100% authentic! Payment must be made within 2 days of auction end! An unpaid item case will open if payment is not made within 2 days.\u00a0 Shipment will be made with 1 business day of receiving payment. International buyers!! Please be aware that I am not responsible for any customs fees that may occur, also please do not follow eBays estimated delivery time as I cannot foresee possible delays.\u00a0 Returns accepted within 14 days of receiving the item. Return accepted if item is different from listing or defective. Buyer is responsible for return shipping fees. There will also be a 20% restocking fee. Thank you and happy bidding! Visit our store Tasteful Totes and More for more great product!",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "2797",
+    "UserID": "tastefultotesandmore2014",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_20",
+    "RestockingFeeValue": "20%",
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

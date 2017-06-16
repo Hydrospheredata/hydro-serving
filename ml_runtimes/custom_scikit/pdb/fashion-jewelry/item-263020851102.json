@@ -1,0 +1,122 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263020851102",
+  "PrimaryCategoryID": "50637",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "QuantitySoldByPickupInStore": "0",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedBuyItNowPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630208511028080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ezerkinegdo",
+    "FeedbackScore": "883",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/$(KGrHqN,!g8FCNvtlkVZBQuq7Z6ogg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/$T2eC16h,!w0E9szN,-B+BQuq7,BtKQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/$(KGrHqR,!i4FCsmhpe!4BQuq7,jpyg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ng4AAOSwD0lUkGJd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PjIAAOSwaNBUkGJN/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "TimeLeft": "P6DT21H39M15S",
+  "StartTime": "2017-06-05T07:19:51.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "TopRatedListing": "true",
+  "BuyItNowPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "HandlingTime": "1",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-New-21-Carat-Genuine-Sapphire-Diamond-Bracelet-14K-Gold-Plated-Gift-Box-/263020851102",
+  "EndTime": "2017-06-12T07:19:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sapphire",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Statement",
+        "Name": "Style"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "7.25",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brand New 21 Carat Genuine Sapphire & Diamond Bracelet 14K Gold Plated Gift Box",
+  "Location": "South Bend, Indiana",
+  "Description": "A checkered row of oval-cut midnight blue sapphires adorns the center of this bracelet from Angelina D'Andrea, accompanied by pave pattern borders and a single glittering white diamond accent. This jewelry is crafted of 14-karat yellow gold overlay.... FREE SHIPPING IN THE USStyle: Bangle Gemstone colors: Blue Gemstone shapes: Oval 59 bezel-set oval-cut sapphires each measure 3 mm wide x 5 mm long Total gemstone weight: 20 5/8 carats Diamonds: One Diamond cut: Round Diamond measurements: 1 mm Diamond weight: 0.005 carat Color: I-J Clarity: I2-I3 Setting: Prong Metal: Gold overlay Finish: High polish Metal weight: 21 grams Bracelet dimensions: 10 mm wide x 7.25 inches longgold karat: 14KGift box included payment is expected within 3 days of auction endI ship within 1 day of paymentplease email me with questions or problemsCheck out my other items!",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1",
+  "PostalCode": "46614"
+}

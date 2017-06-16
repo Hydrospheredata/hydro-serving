@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTA4WDY1NA==/z/r2IAAOSw32lYpP2I/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/fWYAAOSwImRYLMir/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/o8MAAOSw44BYLMis/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/o~IAAOSw44BYLMit/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/SHoAAOSwHMJYLMiv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/fmIAAOSwImRYLMix/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/ipgAAOSw4GVYLMiy/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-New-York-Cedar-Street-Mandy-Crossbody-Bag-Indigo-Black-228-/272698578026",
+  "ConvertedCurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "With a clean-lined silhouette crafted from colorblock saffiano leather, this kate spade new york crossbody makes the case for a classic look. Saffiano leather. Imported. Adjustable crossbody strap. Zip closure; lined. Interior slip pocket. 9\"L x 3\"W x 7\"H; 22\" strap drop.",
+  "Title": "Kate Spade New York Cedar Street Mandy Crossbody Bag-Indigo/Black- $228",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Scottsdale, Arizona",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1007",
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mandi5196"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85260",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:31:01.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT22H19M50S",
+  "EndTime": "2017-07-02T12:31:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Indigo Blk"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272698578026",
+  "Storefront": {
+    "StoreName": "mandi5196",
+    "StoreURL": "http://stores.ebay.com/id=292731708"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726985780268080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

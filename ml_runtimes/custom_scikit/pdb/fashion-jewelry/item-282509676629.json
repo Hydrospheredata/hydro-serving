@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT7H46M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282509676629",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T20:36:39.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hand-Made-Large-Parrot-Brooch-Clay-Signed-Alicia-Merrit-Green-Bird-3D-Tiki-Pin-/282509676629",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T20:36:39.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Polymer clay",
+        "Name": "Material"
+      },
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Hand Made Large Parrot Brooch Clay Signed Alicia Merrit Green Bird 3D Tiki Pin",
+  "ExcludeShipToLocation": "Africa",
+  "Location": "Saint Paul, Minnesota",
+  "Description": "Hand sculpted parrot in colorful lightweight polymer clay Created and signed by American artist Alicia Clay Each creation is unique Brooch measures 2.25\" long",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825096766298080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sathandra",
+    "FeedbackScore": "1158",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "sathandra",
+    "StoreURL": "http://stores.ebay.com/id=829064640"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTA3/z/IlsAAOSwGJlZNG2-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzYz/z/85cAAOSw7GRZNG25/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDk4/z/cdUAAOSwxu5ZNG3A/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE1M1gxNjAw/z/m0EAAOSw3gJZNG3D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg3WDE2MDA=/z/XxAAAOSwcB5ZNG4O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODU1WDE2MDA=/z/BAMAAOSw~FJZNG4V/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "55119"
+}

@@ -1,0 +1,99 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "31.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "31.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Certina",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Retro (1984-1999)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694667037",
+  "HandlingTime": "1",
+  "Description": "Ladies Certina Quartz Two Tone Wrist Watch Vintage Description: this is a beautiful ladies two tone Certina in good condition.Watch is working and just had its battery replaced. Manufacturer: Certina Movement: Quartz Case Metal: SS Size:With the crown: 34.1mmWithout the crown: 33mmLug to lug: 36mm Band: Certina two tone SS bracelet, will fit up to 19.5 CM wrist. About me:Lifelong watch collector with a passion for vintage watches. Collects, repairs and restores classic watches.This watch comes out of my Private collection.Shipping WorldWide.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Certina Quartz Two Tone Wrist Watch Vintage",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Certina-Quartz-Two-Tone-Wrist-Watch-Vintage-/272694667037",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726946670378080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/plIAAOxyVLNSyUOc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/P2oAAOxyUrZSyUOk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P8sAAOxyUrZSyUOp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/l5wAAOxyOlhSyUOx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/QNwAAOxyUrZSyUO3/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "31.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

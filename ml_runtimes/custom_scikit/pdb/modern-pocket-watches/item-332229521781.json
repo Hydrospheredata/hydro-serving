@@ -1,0 +1,80 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "53027",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "For Sale; A VINTAGE HONDA GL GOLDWING Pocket Watches with GL motorcycle Winged LOGO on obverse. Hunting Case. The watch is gold tone finished. Etched back & 3D front cover.GORGEOUS Condition!! ----NOT RUNNING---- QUARTZ MOVEMENTS NEEDS REPAIR BATTERY OR BOTH. This watch has a push button opening front cover. A beautiful easy to read white dial. VERY NEAT ACCESSORY. Seldom seen. Part of a huge watchmaker's estate. Sold as shown.",
+  "StartTime": "2017-05-21T00:36:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/hTgAAOSwIQdZIOCI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/0v4AAOSwY3BZIOCV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/WTsAAOSwrhBZIOCc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/pSAAAOSwX61ZIOCl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/hXEAAOSwxu5ZIOCw/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "23.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Honda",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "strange_findings",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1615",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322295217818080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T00:36:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "23.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CLEAN-Vintage-Honda-Goldwing-Hunting-Case-Pocket-Watch-Gold-Tone-GL-Motorcycl-/332229521781",
+  "Location": "Hartford, Wisconsin",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CLEAN Vintage Honda Goldwing Hunting Case Pocket Watch, Gold Tone \"GL\" Motorcycl",
+  "Storefront": {
+    "StoreName": "strange_findings",
+    "StoreURL": "http://stores.ebay.com/id=1187772799"
+  },
+  "ItemID": "332229521781",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT5H57M27S"
+}

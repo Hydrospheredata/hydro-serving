@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "18.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Graham, Washington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:45:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1208570175",
+    "StoreName": "epluribuszerum"
+  },
+  "CurrentPrice": {
+    "value": "18.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:45:10.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535593747",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Alarm",
+          "Backlight"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Solar",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "S8",
+        "Name": "Model"
+      },
+      {
+        "Value": [
+          "Black",
+          "White"
+        ],
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio Tough Solar Illuminator Black ~men's watch~ Analog 12 hr face, 5 alarms",
+  "ConditionDescription": "Good condition,  face has some scratches and the word Tough Solar is rubbing off as seen in pic.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-Tough-Solar-Illuminator-Black-mens-watch-Analog-12-hr-face-5-alarms-/162535593747",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625355937478080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "98338",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H11M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE3OVg5MjY=/z/oREAAOSwrhBZLmW3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI0MFg3MzQ=/z/o~AAAOSwYlRZLmXY/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Casio Black men's watch Tough Solar it's solar powered it has 5 daily alarms available power saving display goes blank to save power in the watches left in the dark.10 \" wrist span, Satisfaction guaranteed, no problem returns, thank you for looking if you like what you see please follow our store.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "542",
+    "UserID": "epluribuszerum",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

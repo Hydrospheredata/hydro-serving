@@ -1,0 +1,126 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "37.11",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Clarence, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:18:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "37.11",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:18:09.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535990492",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "strada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "stainless steel back",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Large Face BOYFRIEND unisex watch BROWN Rose Gold Stainless Steel Silicone Band",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Large-Face-BOYFRIEND-unisex-watch-BROWN-Rose-Gold-Stainless-Steel-Silicone-Band-/162535990492",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359904928080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "14031",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H5M4S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5OFgxNjAw/z/l8sAAOSwBahVBSXI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nAsAAOSwNSxVBSlT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVg4OTY=/z/WxUAAOSwNSxVBSRZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/pAIAAOSw7aBVBTAC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc1WDE2MDA=/z/Y4UAAOSw091VBTFP/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Large Face BOYFRIEND unisex watch retail $69.99 Rose Gold plated Stainless Steel BROWN Silicone Band great fashion watch...chronographs are just for show Japanese movement technology with stainless steel back. can fit 7-1/4\"-9\" wrist comfortably please note, I am cleaning my jewelery box and although these pieces have not been worn, they have been stored with other jewelry. So they may have bumped up against other items and have minor surface scratches. Just like at a jewelery store. Fashion jewelery touches other pieces. I'm trying my best to check every inch. But I'm listing ALOT of items and time is not on my side. please ask all questions before bidding. All sales final. Trying to pay for daughters education. Ebay has a wonderful photo enlarge tool. see pics. Paypal only. Seller ONLY ships once a week / email me BEFORE bidding if you have a time limit set shipping and handling fees Please ask all question before bidding ALL SALES FINAL",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5208",
+    "UserID": "ingwell",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

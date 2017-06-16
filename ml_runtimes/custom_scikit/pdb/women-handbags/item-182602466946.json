@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjY4WDEwMjQ=/z/prsAAOSwIQdZJhuy/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA4N1gxMDc3/z/jRcAAOSwDiBZJhvH/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODYwWDEwMjQ=/z/huMAAOSwK6RZJhut/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODI4WDExNTI=/z/DT8AAOSwX61ZJhuu/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDAz/z/xm0AAOSwjL5ZJhuv/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI4MFgxMDA2/z/b7QAAOSw~FJZJhuy/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI4MFgxMDUw/z/yDgAAOSwY3BZJhux/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI4MFg5OTQ=/z/Z80AAOSwq1JZJhux/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjEw/z/cbAAAOSw-3FZJhuy/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTgz/z/b24AAOSwcB5ZJhuy/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Yves-Saint-Laurent-YSL-Black-Pebbled-Leather-Monogram-Clutch-500-Best-Deal-/182602466946",
+  "ConvertedCurrentPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Seller to EBAY - High End Consignment Selling my Beautiful, sleek, chic YSL clutch. Pre-owned never worn. Still has box and dust bag. Price and Serial number provided for authenticity. Serious Inquiries Only!! -Magnetic-flap closure.-Interior wall pocket.-Pebbled Leather.-By Saint Laurent; made in Italy.-Designer Handbags.",
+  "Title": "New Yves Saint Laurent YSL Black Pebbled Leather Monogram Clutch-$500 Best Deal!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Washington, District Of Columbia",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "renjohren"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "20020",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T01:21:35.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT11H14M24S",
+  "EndTime": "2017-07-02T01:21:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Clutch"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Yves Saint Laurent"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182602466946",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826024669468080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

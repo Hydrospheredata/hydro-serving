@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P19DT9H7M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "67.97",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292129906224",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWOT-DeCORTE-STERLING-SILVER-TRIANGULAR-MULTI-STONE-PEARL-PENDANT-/292129906224",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "67.97",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T00:10:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T00:10:29.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gems & Stones",
+        "Name": "Material"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "DeCorte",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "NWOT - DeCORTE - STERLING SILVER TRIANGULAR MULTI-STONE PEARL PENDANT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWOT - DeCORTE - STERLING SILVER TRIANGULAR MULTI-STONE PEARL PENDANT One (1) authentic DeCorte Sterling Silver Triangular Multi-Stone Pendant from my personal collection is up for consideration Featured material appears to be Pearl of an unknown variety --- green / blue / purple in color --- my light source has slightly glared the Pearl This item was purchased NWOT then never worn but may show faint signs of mild patina due to storage only Please consult the photograph(s) for the approximate size of this item --- any coins shown are for display purposes only THIS ITEM WILL BE SHIPPED WITHIN ONE (1) BUSINESS DAY OF RECEIVING PAYMENT THANK YOU SO MUCH AND ENJOY !!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921299062248080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "boazian",
+    "FeedbackScore": "14",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Bel Air, Maryland",
+  "HitCount": "7",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDU0MQ==/z/od8AAOSwB-1Y1-V3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDUzMg==/z/mCYAAOSw2gxY1-XL/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "21014"
+}

@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQ4WDU0NQ==/z/DWQAAOSw44BYL3Ck/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk4WDU1Ng==/z/0M4AAOSwA3dYL3CY/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-Shore-Street-Margareta-Baby-Bag-DiaperTote-Black-White-NWT-/132117854164",
+  "ConvertedCurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "\u00b7 11.4\" h x 13\" w x 6.3\" d\u00b7 drop length: 9.4\"vVMATERIAL\u00b7 leather grainy vinyl with matching trim\u00b7 capital kate jacquard lining\u00b7 14-karat light gold plated hardware\u00b7 style # wkru4047DETAILS\u00b7 tote with zipper closure\u00b7 strap adjusts to fit on back of stroller",
+  "Title": "KATE SPADE Shore Street Margareta Baby Bag DiaperTote Black/White NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Greensboro, North Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "359",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "wendyseyboth"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27408",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-06T22:17:32.000Z",
+  "HitCount": "152",
+  "TimeLeft": "P2DT6H47M8S",
+  "EndTime": "2017-06-04T22:17:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Vinyl"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/White"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689979175"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132117854164",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Must be in same NWT condition.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1321178541648080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

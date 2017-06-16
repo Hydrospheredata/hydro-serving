@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "Description": "I try to describe my items as accurately as possible and to the best of my knowledge.  However, I am not infallable and will happily refund the full item price if I have made a mistake.\r\nPlease ask questions before you bid and I will aim to reply to you within 24 hours.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182576124185",
+  "Quantity": "3",
+  "TimeLeft": "P9DT7H30M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Hallmarked-Ladies-Solid-9ct-Yellow-Gold-Foot-Prints-Flat-4-5mm-Band-Toe-Ring-/182576124185",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "57.96",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-15T21:13:23.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-14T21:13:23.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Redcar Jewellers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "JTR006",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4.5mm",
+        "Name": "Approx. Width"
+      },
+      {
+        "Value": "1.1g",
+        "Name": "Approx. Weight"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "New Hallmarked Ladies Solid 9ct Yellow Gold Foot Prints Flat 4.5mm Band Toe Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Hallmarked Ladies Solid 9ct Yellow Gold Foot Prints Flat 4.5mm Band Toe Ring Adjustable Torque Design Gift Boxed - Free P&P Track Page Views With Auctiva's FREE Counter",
+  "GlobalShipping": "false",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825761241858080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ratpackcat",
+    "FeedbackScore": "4084",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Redcar Jewellers",
+    "StoreURL": "http://stores.ebay.com/id=164909433"
+  },
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "Location": "Redcar, Cleveland",
+  "HitCount": "19",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GWEAAOSwmCVY8n9Y/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "TS10 1RJ"
+}

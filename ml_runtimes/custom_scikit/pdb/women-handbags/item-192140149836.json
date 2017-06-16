@@ -1,0 +1,307 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Womens-City-Pack-S-Backpack-Handbag-27x33-5x19-cm-B-x-H-x-T-Best-Pr-/192140149836?var=",
+  "ConvertedCurrentPrice": {
+    "value": "89.77",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kipling Women's City Pack S Backpack Handbag, 27x33.5x19 cm (B x H x T) Ships from Local Supplier Related Searches: Kipling Back Pack Bags, Kipling Backpack Bags, Kipling Pack Bags Dimensions: 17.0 x 25.0 x 33.5 centimetres Weight: 0.6 kg",
+  "Title": "Kipling Women's City Pack S Backpack Handbag, 27x33.5x19 cm (B x H x T). Best Pr",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.77",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Multicolor (80C Festive Geo)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0126/499/830/264860913/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Multicolor (L47 Nocturnal Bl)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0126/499/831/264861828/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple (79W Dazz Purple)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0127/111/985/266316070/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple (L37 Craft Purple)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0127/111/986/266319291/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Yellow (L43 Craft Ochre)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0127/111/987/266315586/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Yellow (78E Ochre)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/563/316589639/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Multicolor (78B City Night)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/792/564/316566861/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red (78G Red Rust)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/792/565/316589959/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue (42W Alaskan Blue)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/566/316534677/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "89.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:126499830:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (80C Festive Geo)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "88.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:126499831:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (L47 Nocturnal Bl)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "75.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:127111985:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Purple (79W Dazz Purple)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "151.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:127111986:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Purple (L37 Craft Purple)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "88.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:127111987:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Yellow (L43 Craft Ochre)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792563:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Yellow (78E Ochre)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "105.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792564:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (78B City Night)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "92.55",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792565:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Red (78G Red Rust)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "80.03",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792566:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Blue (42W Alaskan Blue)"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Multicolor (80C Festive Geo)",
+          "Multicolor (L47 Nocturnal Bl)",
+          "Purple (79W Dazz Purple)",
+          "Purple (L37 Craft Purple)",
+          "Yellow (L43 Craft Ochre)",
+          "Yellow (78E Ochre)",
+          "Multicolor (78B City Night)",
+          "Red (78G Red Rust)",
+          "Blue (42W Alaskan Blue)"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-26T03:09:30.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P21DT10H48M37S",
+  "EndTime": "2017-06-24T03:09:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "685031134"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140149836",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:126499829:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

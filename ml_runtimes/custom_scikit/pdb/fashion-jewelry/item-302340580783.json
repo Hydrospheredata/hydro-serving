@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "34.33",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "302340580783",
+  "TimeLeft": "P9DT20H55M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.33",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PURPLE-GREEN-CZ-GOLDEN-TONE-BOLLYWOOD-LONG-BRIDAL-NECKLACE-JEWELRY-SET-4-PCS-/302340580783",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.33",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:35:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T08:35:09.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Purple Green",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Real Sparkle",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "PURPLE GREEN CZ GOLDEN TONE BOLLYWOOD LONG BRIDAL NECKLACE JEWELRY SET 4 PCS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Normal 0 false false false MicrosoftInternetExplorer4",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023405807838080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "real-sparkle",
+    "FeedbackScore": "4875",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Jannat Collection",
+    "StoreURL": "http://stores.ebay.com/id=881651537"
+  },
+  "Quantity": "1",
+  "Location": "DELHI, DELHI",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzk1WDY2OQ==/z/zaoAAOSwuMFUh~cz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk1WDUxNg==/z/ZP8AAOSwkNZUh~c8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk1WDYxOQ==/z/OJwAAOSwD0lUh~dK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk1WDE3OQ==/z/0RsAAOSwg3FUh~dB/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "110062"
+}

@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Monterey Park, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:41:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:41:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536015289",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bulova-Quartz-Watch-Japan-Women-Gold-Vintage-Antique-Classy-Stylish-Rare-/162536015289",
+  "Title": "Bulova Quartz Watch Japan, Women, Gold, Vintage, Antique, Classy, Stylish, Rare",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625360152898080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "91754",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H30M8S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/oOUAAOSwaEhZErC0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/2a8AAOSw8lpZErC1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/inIAAOSwYlRZErC3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/G5UAAOSw3gJZErC4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/OSEAAOSw0hlZErC5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/HaUAAOSwIQdZErC7/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Great looking Bulova watch. It doesn't tick. I believe it's just a battery because it did work but haven't changed battery. I'm not sure if it's gold but sure looks like it. Please see pictures. I tried taking as many pictures as possible so you can see detail. Has Normal wear on it for a 20 year old watch. Needs wrist band as you can see. Would make a great gift. Great collection/collectors watch. Please ask questions before bidding. Retail for $199+ if it was new. All sales final. No returns. Sold as is. Thanks",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "190",
+    "UserID": "ravilaangel",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

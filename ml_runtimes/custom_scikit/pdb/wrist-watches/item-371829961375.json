@@ -1,0 +1,247 @@
+{
+  "ExcludeShipToLocation": [
+    "GG",
+    "JE",
+    "DO",
+    "MQ",
+    "VC",
+    "HK",
+    "MO",
+    "TW",
+    "BO",
+    "GL",
+    "GH",
+    "LY",
+    "MU",
+    "RE",
+    "SO",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "TR",
+    "YE",
+    "CN",
+    "GU"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.9"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173698",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/yzcAAOSw~OdVbRM3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/l3MAAOSwpdpVXpte/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/ZSwAAOSwl8NVXptm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/E1IAAOSwNSxVXpts/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Storefront": {
+    "StoreName": "Wholesale-Retail-Online",
+    "StoreURL": "http://stores.ebay.com/id=1121805229"
+  },
+  "QuantitySold": "1",
+  "Seller": {
+    "UserID": "wonderful-shop88",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "35093",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "StartTime": "2017-01-03T00:35:15.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "i***e",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "559",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "FixedPriceItem",
+  "PrimaryCategoryID": "31387",
+  "Title": "Men PU Leather Band Round Dial Quartz Analog Numerals Fashionable Wrist Watch",
+  "Quantity": "201",
+  "ItemID": "371829961375",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Ring Watches",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "No",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "HitCount": "312",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Blue",
+          "Black",
+          "Brown"
+        ],
+        "Name": "Colors"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Colors",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/L-sAAOSwrklVbZkJ/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/2n0AAOSweW5VbZki/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/vg8AAOSwKrhVbZlF/$_57.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "4.9"
+        },
+        "SKU": "DY0043-1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "4.9"
+        },
+        "SKU": "DY0043-2",
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "100"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "4.9"
+        },
+        "SKU": "DY0043-3",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "100"
+      }
+    ]
+  },
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "173698",
+  "QuantityAvailableHint": "MoreThan",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-02T00:35:15.000Z",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-PU-Leather-Band-Round-Dial-Quartz-Analog-Numerals-Fashionable-Wrist-Watch-/371829961375?var=",
+  "Location": "China",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.9"
+  },
+  "TimeLeft": "P1DT8H16M41S"
+}

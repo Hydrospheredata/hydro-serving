@@ -1,0 +1,113 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bedford",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:06:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T14:06:09.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132211044653",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Women's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "excellent condition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hot-diamonds-strap-watch-/132211044653",
+  "Title": "Hot diamonds strap watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322110446538080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "MK45 2tu",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H56M9S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI3OFg4MTA=/z/a~8AAOSwuLZY6h-H/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4OTk=/z/nVEAAOSwB-1Y6h-x/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "In excellent condition. Brand new straps except black and 1 white that have been worn",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "943",
+    "UserID": "morgie66",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

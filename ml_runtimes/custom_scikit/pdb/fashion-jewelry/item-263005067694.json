@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P20DT1H18M55S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263005067694",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tiffany-Keys-/263005067694",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T16:20:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T16:20:45.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tiffany&Co",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Tiffany Keys",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New pendant! Great for cute gift",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630050676948080_3.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "elizabethorden",
+    "FeedbackScore": "2",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "19",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/uOAAAOSw42dZHxai/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/RO4AAOSw5cRZHxah/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/NFAAAOSw~FJZHxah/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/-KkAAOSwIQdZHxak/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/a4cAAOSwY3BZHxak/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10028"
+}

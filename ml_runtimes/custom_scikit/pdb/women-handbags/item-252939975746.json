@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTU0WDYwMA==/z/JbkAAOSwal5YH00U/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Njg2WDYwNA==/z/koAAAOSwKOJYH00X/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ1WDU4NQ==/z/OxAAAOSwnbZYH00b/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzAxWDYwMw==/z/3qEAAOSwcUBYH00Z/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Classic-Stevie-Diaper-BABY-Bag-GORGEOUS-Pink-Black-Floral-NWT-448-/252939975746",
+  "ConvertedCurrentPrice": {
+    "value": "294.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic Kate Spade Classic Nylon STEVIE Baby Bag. Most GORGEOUS Baby bag I've ever seen! Pics don't do justice. the watercolor nylon stevie boasts plenty of baby-friendly features (starting with the durable, wipeable material). but it's the colorful print, chic details, and stylish shape that make this bag a mom must-have, almost as cute as your little one! DETAILS SIZE 10.9\"h x 17.2\"w x 7\"d drop length: 8\" MATERIAL durable woven nylon with crosshatched leather trim 14-karat gold plated hardware wipeable, durable nylon lining style # pxru6451 DETAILS baby bag with zip top closure and stroller straps double slide pockets, zipper pocket, changing pad slide pocket and exterior bottle pockets engraved kate spade new york signature imported",
+  "Title": "Kate Spade Classic Stevie Diaper BABY Bag GORGEOUS Pink /Black Floral ,NWT $448",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "294.95",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Location": "Suffolk, Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "740",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "liz_n_lin"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "23434",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-15T16:05:32.000Z",
+  "HitCount": "34",
+  "TimeLeft": "P12DT40M26S",
+  "EndTime": "2017-06-14T16:05:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252939975746",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "liz_n_lin",
+    "StoreURL": "http://stores.ebay.com/id=871659393"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Must be in original unused condition with tags intact. Restocking fee",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529399757468080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

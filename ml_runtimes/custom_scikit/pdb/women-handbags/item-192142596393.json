@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921425963938080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTkw/z/N4YAAOSwdGFY2rbh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTE1WDE1MDA=/z/5ccAAOSwc-tY2rbg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTA4/z/XsIAAOSwTM5Y2rbg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg2MTA=/z/ZBEAAOSwuxFY2rbg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzE2/z/XrQAAOSwTM5Y2rbg/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ruby-Rocks-Nightingale-Genuine-Leather-Black-Across-Body-Bag-Shipping-Included-/192142596393",
+  "ConvertedCurrentPrice": {
+    "value": "92.3",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: PERFECTLY SIZED TO HOLD ALL OF YOUR ESSENTIALS, THE RUBY ROCKS NIGHTINGALE SADDLE BAG MAKES A SMART COMPANION. THE TRADITIONAL STYLE AND SHAPE HAVE HAD A BOHO MAKEOVER, MAKING IT MORE EDGY AND FASHIONABLE THAN EVER BEFORE. BEAUTIFUL, INTRICATE WHIPSTITCH SURROUNDS THE OUTER EDGE OF THE BAG AND THERE IS A TASSEL CHARM ATTACHED TO A SIDE RING. THE BAG IS KEPT SECURE BY THE MAG DOT UNDER THE FRONT TAB, ALSO FEATURING A DUMMY BUCKLE. THE FRONT TAB OF THE BAG FEATURES A SMALL BRANDED DEBOSS. UNDERNEATH THE FLAP IS A SMALL POCKET SECURED WITH A MAG DOT. INNER LINING COLOUR MATCHES THE OUTER MATERIAL COLOUR. THERE IS AN INNER ZIP COMPARTMENT AND A MOBILE PHONE POCKET, BOTH TRIMMED WITH THE OUTER FABRIC.",
+  "Title": "Ruby Rocks Nightingale Genuine Leather Black Across Body Bag. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "92.3",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-28T19:17:44.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P24DT2H58M53S",
+  "EndTime": "2017-06-26T19:17:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ruby Rocks"
+      },
+      {
+        "Name": "MPN",
+        "Value": "869488433"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142596393",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:65710002:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

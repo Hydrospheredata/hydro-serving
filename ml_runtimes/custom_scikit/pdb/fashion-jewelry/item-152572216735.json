@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT9H6M34S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152572216735",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Heidi-Daus-Diamond-shaped-Deco-pin-brooch-enhancer-peridot-br-Sw-crystals-/152572216735",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T22:07:50.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T22:07:50.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Heidi Daus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Art Deco Style",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Peridot",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Peridot",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "Heidi Daus Diamond shaped Deco pin brooch,enhancer peridot/br Sw- crystals",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful Heidi Daus creation. Her pieces are timeless, never go out of style.Enhance a jacket dress neckline. This is reminiscent of Art Deco style. Her svorski crystals are too numerous to count and the chocolate looks like choc diamonds, and the green is a peridot color. Simple and tasteful! One stone has been replaced,but not noticeable if you are to look really hard on the last picture I zoomed in. Would take a magnifier to see it, so I have discounted the piece for only that reason, since I have enjoyed it and it never bothered me. 3 x 3 Enjoy.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525722167358080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "suzieqs2013",
+    "FeedbackScore": "133",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "West Hartford, Connecticut",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/uJkAAOSwTM5Y2Xq8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/FYsAAOSwDKtY2XrW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/LrgAAOSwhQhY2Xrp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/J5UAAOSw2gxY2Xr0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/5KMAAOSwSlBY2XsH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/4wAAAOSwCU1Y2Xsk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/MPcAAOSw2gxY2Xs1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/lM8AAOSwax5Y2X01/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "06119"
+}

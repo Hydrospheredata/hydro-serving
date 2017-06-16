@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ItemID": "252974450713",
+  "TimeLeft": "P6DT9H39M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Vintage & Antique Jewelry:New, Vintage Reproductions:Costume:Sets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "uniquicandi",
+    "FeedbackScore": "4510",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T21:29:53.000Z",
+  "HandlingTime": "1",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Key-My-Heart-OOAK-Artisan-Charm-Bracelet-Earrings-VTG-Beads-Charms-/252974450713",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T21:29:53.000Z",
+  "PrimaryCategoryID": "168174",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "bronze tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone on beads",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NA",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Vintage Glass & Lucite Beads",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "OOAK Artisan Charm Bracelet & Matching Earrings",
+        "Name": "Type"
+      }
+    ]
+  },
+  "Title": "~ Key to My Heart ~ OOAK Artisan Charm Bracelet & Earrings VTG Beads & Charms",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Osseo, Minnesota",
+  "Description": "For your consideration is my ~ Keys to My Heart ~ artisan made charm bracelet with matching earrings. I used all new metal findings that are bronze tone to lend the vintage feel to the piece. My beads and charms are all from vintage necklaces that I have collected and decided to repurpose into new designs. This ~ Keys to My Heart ~ charm bracelet measures 7-1/2\" long by 1-3/4\" at the center longest dangling beads. The largest key charms are 1-1/4\" long and the heart lock is 1\" long. The pieced earrings measure 3-1/2\" by 3/4\" with the lever-back findings are gold-plated.",
+  "PrimaryCategoryIDPath": "281:48579:48581:52592:168174",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529744507138080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "Storefront": {
+    "StoreName": "uniquicandi",
+    "StoreURL": "http://stores.ebay.com/id=123786507"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTcx/z/vUUAAOSw-K9ZKwpA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc4/z/zE4AAOSws5pZKwoz/$_57.JPG?set_id=8800005007"
+  ],
+  "PostalCode": "55369"
+}

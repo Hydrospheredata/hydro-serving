@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921369830168080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/Sk0AAOSwhQhY0l0j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/WPAAAOSw4CFY0l0j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/gCUAAOSw4A5Y0l0i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDMyNA==/z/GuAAAOSw4YdY0l0h/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMyWDUwMA==/z/qkwAAOSw2gxY0l0j/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjczWDUwMA==/z/qiUAAOSw2gxY0l0h/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HiveBag-Womens-Shoulder-Bag-ORANGE-28x15x4-Shipping-Free-/192136983016",
+  "ConvertedCurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "HiveBag Women's Shoulder Bag ORANGE 28x15x4 by HiveBag Ships from UK Supplier Other information: 4251002901048 Related Searches: HiveBag Hobo, HiveBag Bags, Hobo Bags Dimensions: 28 x 4 x 15 centimeters Weight: 0.3 kg",
+  "Title": "HiveBag Women's Shoulder Bag ORANGE 28x15x4. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-22T11:14:46.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P17DT18H50M32S",
+  "EndTime": "2017-06-20T11:14:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "HiveBag"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4251002901048"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192136983016",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57134921:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

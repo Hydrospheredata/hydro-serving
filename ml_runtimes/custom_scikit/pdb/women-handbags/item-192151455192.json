@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921514551928080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/I9gAAOSwTM5Y5~ft/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MoQAAOSwhQhY5~fs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~WEAAOSw~CFY5~fs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/m1MAAOSwpkFY5~ft/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/6-0AAOSwAANY5~ft/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gBUAAOSwuLZY5~ft/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uPgAAOSww3tY5~fs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/mxcAAOSwpkFY5~fs/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-LEATHER-Maroon-Cross-Body-Bag-Handbag-Rowallan-Razzano-Shoulder-Best-/192151455192",
+  "ConvertedCurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: From Rowallan of Scotland; we present this Stunning Ladies Cross Body/Shoulder Bag from their NEW Razzano Collection, made from a Gorgeous Red/Maroon Buffalo Leather giving an almost traditional Antique & Classic Look & Feel, and it's ideal for those busy days on the go, and is just so practical. Dimensions: Approx 19cm x 18cm x 8cm (7.5\" x 7\" x 3.25\") Its Features in more Detail: Long Adjustable Shoulder Strap - Apex Drop: 70cm (27.5\"), 1 Zipped Side Compartment, 1 Slip-in Section & 1 Large Main Compartment, 1 Slip in Pocket inside Main Compartment - Suitable for Mobile Phones & 1 Zipped Section to the Rear of the Bag, Zipped Pocket on Reverse of Bag, Lined throughout, Stunning Buffalo Leather.",
+  "Title": "Ladies LEATHER Maroon Cross Body Bag Handbag by Rowallan; Razzano Shoulder. Best",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-07T19:02:46.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P4DT2H47M13S",
+  "EndTime": "2017-06-06T19:02:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Rowallan of Scotland"
+      },
+      {
+        "Name": "MPN",
+        "Value": "942277834"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151455192",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:99530024:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

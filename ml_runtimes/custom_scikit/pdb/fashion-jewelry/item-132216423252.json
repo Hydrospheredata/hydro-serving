@@ -1,0 +1,115 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT23H16M",
+  "ListingStatus": "Active",
+  "ConditionDescription": "EXCELLENT...MINT...CONDITION...WORN TWICE...LARGE",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132216423252",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:49:06.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-OFF-WHITE-GOLD-TONE-/132216423252",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:49:06.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ST JOHN COLLECTION",
+        "Name": "Brand"
+      },
+      {
+        "Value": "IVORY/GOLD TONE",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Large",
+        "Name": "Style"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION ..DESIGNER JEWELRY..EARRINGS...CLIP-ON...OFF WHITE/GOLD TONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "THESE BEAUTIFUL, IMPRESSIVE, COUTURE GOLD TONE & IVORY CLIP-ON ST JOHN EARRINGS ARE IN MINT, EXCELLENT CONDITION..... THEY HAVE THE ST JOHN INSIGNIA ON THE INSIDE OF THE EARRING AND \"ST JOHN\" ON THE CLIP.... THE EARRINGS MEASURE 1/2\" AT TOP AND OVER 1\" AT BOTTOM.... SEE ALL PICTURES....... THESE ARE NOT SMALL EARRINGS..... WILL BE SENT VIA USPS PRIORITY MAIL, SMALL FLAT RATE BOX WITH TRACKING.... IF YOU HAVE ANY QUESTIONS, PLEASE MESSAGE ME.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322164232528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/EbEAAOxyTjNSm4pn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/fXAAAMXQfvlSm4pp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/EK0AAOxyTjNSm4pf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/EXkAAOxyTjNSm4pl/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

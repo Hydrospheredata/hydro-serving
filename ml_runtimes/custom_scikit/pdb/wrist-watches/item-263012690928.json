@@ -1,0 +1,86 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1690.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Chuoku Kobeshi, Hyogo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:15:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1082920074",
+    "StoreName": "reference-shop"
+  },
+  "CurrentPrice": {
+    "value": "1690.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:15:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gianni Versace",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "GP",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012690928",
+  "HandlingTime": "3",
+  "Description": "All our items are also available for purchase on other various shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. \u00a0 Item No. 104024-8044-1 Item Name GIANNI VERSACE Medusa Ladies Wristwatch\u00a0 Model No. - Movement Quartz Glass Mineral Glass Material GP Clasp Type - \u00a0 Size (Approx) Case: W30mm (excluding crown) Wrist Circumference: 18cm / 7.1in Additional Items Case \u00a0 Item Rank Used AB Rank \u00a0 Notes Functional Item \u00a0 Condition Descriptions -Some scratches, hit marks, blackening and small peeling on the GP -Slight stains on the inside of the glass\u00a0 This item has a feel of previous usage but without any severe damage. Please feel free to contact us concerning this item. We welcome all questions and look forward to hearing from you.\u00a0 \u00a0 REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-60084 TEL:+81-78-242-1248 \u00a0FAX:+81-78-242-0628",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-GIANNI-VERSACE-Medusa-Ladies-Wristwatch-GP-Quartz-/263012690928",
+  "NewBestOffer": "false",
+  "SKU": "104024-8044-1",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630126909288080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H48M3S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzg1WDU0Nw==/z/bVkAAOSwv0tVdokn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/bYYAAOSwv0tVdokp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/aXoAAOSwpDdVdoks/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "AUTHENTIC GIANNI VERSACE Medusa Ladies Wristwatch GP Quartz",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "1830",
+    "UserID": "reference-shop",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

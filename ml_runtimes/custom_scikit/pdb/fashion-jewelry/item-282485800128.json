@@ -1,0 +1,135 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P13DT10H27M51S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "ZA",
+    "BE",
+    "FR",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "MX",
+    "NZ",
+    "NO",
+    "HR",
+    "BM",
+    "EG",
+    "GG",
+    "GI",
+    "IS",
+    "JE",
+    "LI",
+    "LU",
+    "MC",
+    "RE"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282485800128",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FREE-PEOPLE-corey-headpiece-copper-NWT-/282485800128",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T22:01:07.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-18T22:01:07.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "free people",
+        "Name": "Brand"
+      },
+      {
+        "Value": "head piece",
+        "Name": "Style"
+      },
+      {
+        "Value": "mixed metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "copper",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "FREE PEOPLE  corey headpiece in copper NWT",
+  "ExcludeShipToLocation": [
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "UA"
+  ],
+  "BidCount": "0",
+  "Description": "Cory headpiece Adjustable mixed metal chain lobster clasp closure Any questions, please message.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824858001288080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "moet2",
+    "FeedbackScore": "1435",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "moet&#39;s sales",
+    "StoreURL": "http://stores.ebay.com/id=1052899724"
+  },
+  "Quantity": "2",
+  "Location": "Seattle WA",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDcxMg==/z/r90AAOSwdV1XN3sC/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDcxMg==/z/9-kAAOSwve5XN3sE/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

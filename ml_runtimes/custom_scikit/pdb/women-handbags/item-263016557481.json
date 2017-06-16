@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4MFgxNjAw/z/Ox4AAOSwGJlZMWc8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTcy/z/5RAAAOSwCQZZMWba/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DjMAAOSwxu5ZMWbd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JbQAAOSw42JZMWbo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/llIAAOSwAPVZMWbo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5dsAAOSwCQZZMWbr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eMwAAOSw0hlZMWbt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM3OVgxNjAw/z/XA4AAOSwurZZMWby/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anya-Hindmarch-London-Blue-Patent-Raffia-Straw-Tote-Shoulder-Bag-Purse-Handbag-/263016557481",
+  "ConvertedCurrentPrice": {
+    "value": "124.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gentle Wear and Use",
+  "Title": "Anya Hindmarch London Blue Patent Raffia Straw Tote Shoulder Bag Purse Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "124.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "South Egremont, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "674",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "delacroisette"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "01258",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:27:33.000Z",
+  "HitCount": "27",
+  "TimeLeft": "P29DT23H20M46S",
+  "EndTime": "2017-07-02T13:27:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Material",
+        "Value": "Straw"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Anya Hindmarch"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "19"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "8"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "18"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263016557481",
+  "Storefront": {
+    "StoreName": "lacroisetteextras",
+    "StoreURL": "http://stores.ebay.com/id=1116280628"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630165574818080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

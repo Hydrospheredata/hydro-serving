@@ -1,0 +1,90 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Charles-Hubert Paris 3548-G Stainless Steel Gold-Plated Pocket Watch Chain",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.77"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert, Paris 3548-G Stainless Steel Gold-Plated Pocket Watch Chain Description Brand New. Charles-Hubert, Paris 3548-G Stainless Steel Gold-Plated Pocket Watch Chain 14k gold-plated stainless steel pocket watch chain 14 inches in length Deluxe presentation box 14k gold-plated stainless steel pocket watch chain. 14 inches in length,\\. Deluxe presentation box Measuring approximately 14 inches in length, the Charles-Hubert, Paris Stainless Steel Gold-Plated Pocket Watch Chain 3548-G is the perfect accessory for your pocket watch. Made of 14K gold-plated stainless steel for beauty and durability, this chain lets you keep your watch with you as you move through your day. Perfect for clipping on a pocket or belt loop, this chain arrives in a deluxe blue giftbox. See all Product description Payment Payment accepted through Paypal. Shipping FREE SHIPPING to the continental United States.Please make sure shipping address is correct when checking out as the address cannot be changed after order is placed. Return We want you to be happy with your purchase. You may return items in its original condition within 30 days. Please contact us to process a return.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ1NlgxNjAw/z/krEAAOSwBt5ZGair/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjI4/z/ak0AAOSwKytZGaiv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3M1gxNjAw/z/B9AAAOSwX9FZGaiy/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "12",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "3548-G",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NA",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shop*zing",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "189356",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "StartTime": "2017-05-15T13:10:13.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023176923158080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T13:10:13.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.77"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B002NSME1A",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-3548-G-Stainless-Steel-Gold-Plated-Pocket-Watch-Chain-/302317692315",
+  "Storefront": {
+    "StoreName": "shopzings",
+    "StoreURL": "http://stores.ebay.com/id=317993499"
+  },
+  "ItemID": "302317692315",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT18H29M54S"
+}

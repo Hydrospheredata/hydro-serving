@@ -1,0 +1,72 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "33445",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Needs repair",
+  "StartTime": "2017-05-25T03:04:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/yV4AAOSw44BYfYQw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/AEEAAOSw4DJYfYQx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ya8AAOSw44BYfYQ1/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Quartz : Battery",
+      "Name": "Movement"
+    }
+  },
+  "Seller": {
+    "UserID": "lexi_alexakos",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "726",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423934784638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T03:04:22.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cariole-Fishing-Motif-Gold-Toned-Pocket-Watch-Repair-Parts-/142393478463",
+  "Location": "Delray Beach, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Cariole Fishing Motif Gold Toned Pocket Watch Repair\\Parts",
+  "Storefront": {
+    "StoreName": "Lexi s Found Treasures",
+    "StoreURL": "http://stores.ebay.com/id=169546211"
+  },
+  "ItemID": "142393478463",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT8H27M20S"
+}

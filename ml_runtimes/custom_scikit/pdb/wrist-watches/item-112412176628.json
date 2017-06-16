@@ -1,0 +1,245 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "South America",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PF",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CZ",
+    "EE",
+    "FR",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "PL",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "TH",
+    "VN",
+    "MX"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "385.0"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "HandlingTime": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTQ5/z/5DIAAOSwK6RZHl1j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5NlgxNjAw/z/XjMAAOSw7GRZHl1u/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODcwWDE2MDA=/z/bTMAAOSwcaFZHl1l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTM5/z/-ZAAAOSw~y9ZHl1p/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4MVgxNjAw/z/dcMAAOSwKytZHl1x/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "timepieceandstuff",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1835",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-19T02:54:03.000Z",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "true",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "used",
+  "Title": "Selling a Used Vintage Stainless Steel Bulova Valjoux 7733 Chronograph WW.......",
+  "Storefront": {
+    "StoreName": "timepieceandstuff",
+    "StoreURL": "http://stores.ebay.com/id=989321"
+  },
+  "ItemID": "112412176628",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Selling-Used-Vintage-Stainless-Steel-Bulova-Valjoux-7733-Chronograph-WW-/112412176628",
+  "QuantitySold": "0",
+  "PostalCode": "84075",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Normal 0 false false false EN-US X-NONE X-NONE",
+  "HitCount": "371",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Tonneau/Barrel",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Blue",
+          "Gray"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124121766288080_1.jpg",
+  "BestOfferEnabled": "true",
+  "BidCount": "0",
+  "EndTime": "2017-06-18T02:54:03.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "FI",
+    "AU",
+    "PT",
+    "CY",
+    "JP",
+    "SE",
+    "TW",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "ES",
+    "DE",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "AG",
+    "AW",
+    "BM",
+    "IS",
+    "MC"
+  ],
+  "Location": "Syracuse, Utah",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "385.0"
+  },
+  "TimeLeft": "P17DT9H11M19S"
+}

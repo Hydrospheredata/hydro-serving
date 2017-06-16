@@ -1,0 +1,84 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.9"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "\"Sekonda\"- mechanical stop watch - 16 jewels. Condition - good, all is working, there is some scratches on a body. With original case and manual (russian) Thank you for bidding ! Good luck !",
+  "StartTime": "2017-05-23T12:47:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY0WDY1MA==/z/pPUAAOSwIWVY-ff0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDY1MA==/z/F-wAAOSwkShY-ffw/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1980-1989",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Agat",
+        "Name": "Brand"
+      },
+      {
+        "Value": "16",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "alfanomad",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "359",
+    "PositiveFeedbackPercent": "98.7"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525585396148080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T12:47:13.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.9"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Europe",
+  "Title": "Sekonda Vintage Stop Watch Soviet USSR 16 jewels + case + manual Agat Low price",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sekonda-Vintage-Stop-Watch-Soviet-USSR-16-jewels-case-manual-Agat-Low-price-/152558539614",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152558539614",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT18H9M14S"
+}

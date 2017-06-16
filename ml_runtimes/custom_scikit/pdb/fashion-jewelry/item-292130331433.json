@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P19DT19H43M44S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Beautiful, mint condition.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "GBP"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292130331433",
+  "ConvertedCurrentPrice": {
+    "value": "270.53",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-26T10:45:57.000Z",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Louis-Vuitton-women-s-leather-belt-golden-cubes-Mint-100-auth-/292130331433",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T10:45:57.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Louis Vuitton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "belt",
+        "Name": "Type"
+      },
+      {
+        "Value": "beige",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "genuine leather with metal embelishments",
+        "Name": "Material"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Louis Vuitton women\u2019s leather belt with golden cubes. Mint. 100% auth.",
+  "ExcludeShipToLocation": "CN",
+  "Location": "London",
+  "Description": "Beautifully made leather belt by the most luxurious couture house of Louis Vuitton of France. Hand woven from genuine fine quality leather in light tan colour. Ends decorated with gold coloured shiny cubical embellishments imprinted with LV. Long, versatile and elegant design which can be tied up in many different ways. One size. Suitable for any waist size. Length: 213cm (83,86 inches). Condition: Mint, never used. 100% authentic Louis Vuitton. No fakes sold here. Made in France. Gorgeous, superb quality and stylish item from the famous designer company. Normal 0 false false false EN-GB X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921303314338080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.0",
+    "UserID": "thevadster",
+    "FeedbackScore": "503",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "HitCount": "43",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/paEAAOSwMNxXbVCJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XzcAAOSwvg9XbVC8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PiQAAOSwzJ5XbVDk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F-4AAOSwOVpXbVGE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yTEAAOSwMNxXbVGi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTM3/z/tXYAAOSwepJXbVG2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zqQAAOSwepJXbVJc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/D3cAAOSw3YNXbVJ1/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Other Costume Jewellery",
+  "PostalCode": "SW14 8BE"
+}

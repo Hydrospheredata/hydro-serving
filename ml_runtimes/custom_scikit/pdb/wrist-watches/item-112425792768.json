@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "UA",
+  "Location": "Cherkasi region",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:28:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1361415551",
+    "StoreName": "Welcome to USSR"
+  },
+  "CurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:28:41.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wostok",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Komandirskie",
+        "Name": "Model"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425792768",
+  "HandlingTime": "4",
+  "Description": "Classic men's watch in perfect working condition! The mechanical movement has been serviced by a watchsmith in December 2016. Runs great and keeps very good time. Mechanical movement, manual winding SPECIFICATIONS:BRAND: Vostok GENDER: Men`s MOVEMENT: Mechanical FUNCTION: Hours, Minutes,SecondsCONDITION: checked and serviced, pre-owned, very good vintage condition. ShippingEurope: 7-14 business days Canada: 10-20 business days USA: 10-20 business days Australia and everywhere else: 15-30 business days",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Russian Military Soviet watch CCCP USSR Komandirskie Wostok Vostok Army",
+  "ConditionDescription": "Watch is in great condition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Russian-Military-Soviet-watch-CCCP-USSR-Komandirskie-Wostok-Vostok-Army-/112425792768",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124257927688080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H1M50S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RywAAOSw4DJYlhMd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N-MAAOSw9GhYlhMh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/z1QAAOSw241YlhMm/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DiAAAOSw5cNYlhMr/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ahkAAOSwUKxYlhMv/$_1.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "189",
+    "UserID": "shop-back-in-the-ussr",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

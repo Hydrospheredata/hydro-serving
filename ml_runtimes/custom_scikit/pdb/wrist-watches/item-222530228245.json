@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wheelersburg, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:28:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=3817055",
+    "StoreName": "bigwheelerdealer"
+  },
+  "CurrentPrice": {
+    "value": "8.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:28:14.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "SKU": "w43",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530228245",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Benrus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "1950-1959",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "47305",
+        "Name": "MPN"
+      },
+      {
+        "Value": "47305",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "6",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "BENRUS 6 jewels Swiss watch movement, Runs , for parts or restore",
+  "ConditionDescription": "Runs but needs serviced,  read description please",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BENRUS-6-jewels-Swiss-watch-movement-Runs-parts-restore-/222530228245",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302282458080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "45694",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H16M21S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/7EQAAOSwImRYXXlB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/CfcAAOSwa~BYXXlb/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "BENRUS 6 jewels Swiss watch movement, Runs , for parts or restore This winds and runs , i have not checked it for accuracy, the second hand is missing, It measures 23mm wide ''''SOLD AS IS FOR PARTS'''",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "6238",
+    "UserID": "bigwheelerdealer",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

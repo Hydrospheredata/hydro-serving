@@ -1,0 +1,92 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "12804",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Handsome Cimeqa Men's Mechanical Wrist Watch-WorkingSwiss Made-Circa 1950-1960's! For Your Consideration We Have this Very Handsome Vintage CimeqaMen's Mechanical Wrist Watch With it's Original Gold Tone Band.The Watch is Working Well & Swiss Made.The Watch is in Very Nice Condition With Minimal Scratching to the Glass Bezel and Case. The Gold Face is Beautiful.Total Length of the Watch and Band is 8 3/4\" Long.The Watch is 1 6/16th Wide and 1 1/2\" Long.What a Beautiful Vintage Working Cimeqa Swiss Made MechanicalMen's Wrist Watch to Wear and Enjoy and add to Your Collection! As REPRESENTED by the pictures Currently only shipping to the United States Of America, no exceptions at this time.PayPal payments only with the payment expected within 4 days after the auction ends. Please stop by and view our other items for sale!We are always happy to combine your multiple itemsand if you have any questions or wish more photo\u2019s,please feel free to email me. Thank you for taking the time to visit us . . . Come again soon! Wishing you Health & Happiness, Your Friends @ Your Corner Shoppe",
+  "StartTime": "2017-05-26T21:04:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RCkAAOSwIWVY~oII/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/l00AAOSwE0JY~oIW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aGsAAOSw7U5Y~oIk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzU2WDE1NzI=/z/LQEAAOSwtZJY~oI9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIwWDE1ODg=/z/5hQAAOSwHptY~oJZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/a5EAAOSwSypY~oG7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gAgAAOSwSypY~oJi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3SQAAOSw5UZY~oJv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0T4AAOSw53NY~oJ5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iTgAAOSwWWxY~oKH/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Men's",
+      "Name": "Gender"
+    }
+  },
+  "Seller": {
+    "UserID": "yourcornershoppe",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1099",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "23",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825937067958080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T21:04:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Handsome-Cimeqa-Mens-Mechanical-Wrist-Watch-Working-Swiss-Made-Circa-1950-1960-/182593706795",
+  "Location": "Queensbury, New York",
+  "Title": "Handsome Cimeqa Men's Mechanical Wrist Watch-Working-Swiss Made-Circa 1950-1960!",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "182593706795",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P25DT3H25M50S"
+}

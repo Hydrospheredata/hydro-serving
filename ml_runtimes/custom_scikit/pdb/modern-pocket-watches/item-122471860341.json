@@ -1,0 +1,161 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "CA",
+    "IL",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.77"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4894462137260",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462137260",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462137260",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-04-30T17:29:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/x~cAAOSwrhBZBh7t/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/yBkAAOSwrhBZBh7t/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0iYAAOSww5NZBh7u/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2KoAAOSwjqVZBh7u/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKZH-I016824",
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1224718603418080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T17:29:20.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122471860341",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you received the item, please return it within 30 days for a replacement or money back. Please contact me before you return it. 2.All  returned items must be in the original packaging with all  components  and  accessories included, and you must provide us the return  shipping  information  (The shipment or the tracking number) 3.Return  shipping fee is to be paid by the buyers. We will not be responsible for any  custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.77"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Blue Bowknot Quartz Movement C Brooch Tunic Pendant Watch X8L9",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Blue-Bowknot-Quartz-Movement-C-Brooch-Tunic-Pendant-Watch-X8L9-/122471860341",
+  "Storefront": {
+    "StoreName": "zhuangjian6",
+    "StoreURL": "http://stores.ebay.com/id=1401573918"
+  },
+  "Seller": {
+    "UserID": "zhuangjian6",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14668",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT22H44M"
+}

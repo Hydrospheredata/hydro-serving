@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Horicon, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:29:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173392934",
+    "StoreName": "A-2-Z Limitless"
+  },
+  "CurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:29:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203190404",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "0030506305934",
+        "Name": "UPC"
+      },
+      {
+        "Value": "U.S. Polo Assn.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "US9239",
+        "Name": "Model"
+      },
+      {
+        "Value": "US9239",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Causal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Regular",
+        "Name": "Size Type"
+      },
+      {
+        "Value": "metal",
+        "Name": "Material Type"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW U.S. Polo Assn. Sport Analog / Digital - US9239 Mens Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-U-S-Polo-Assn-Sport-Analog-Digital-US9239-Mens-Watch-/192203190404",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922031904048080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "53032",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H2M43S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/SXQAAOSwAuZX4J27/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/N3EAAOSwLF1X4J3A/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/N9MAAOSwLF1X4J3E/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/TB0AAOSwCGVX4J3J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/i~gAAOSw4shX4J3O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/scgAAOSwNRdX4J3u/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "U.S. Polo Assn. Sport - US9239 Mens WatchSpecifications : Stainless steel case Precise Quartz movement Scratch resistant mineral crystal Water resistance Two years limited manufacturer warranty Come with the original US Polo Assn. Box. Product Features:Round sport watch with flag logo and blue accents on dial and tire-tread pattern on rubber bandQuartz movement with analog and digital displaysProtective glass crystal dial windowFeatures buckle closure, EL backlight, chronograph subdials, and alarm/timer functionsWe only ship to north America!!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2858",
+    "UserID": "taczann",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Item is new and unused. Item is made in Japan in the year 1995 and suitable for collection. What you see will be what you get. Feel free to contact me if you have any quires. Note: The watch is working properly with old battery.",
+  "StartTime": "2017-05-17T15:54:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YTUAAOSwcdRY9Nak/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "MY",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bossbernard",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "71",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225199318908080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-16T15:54:53.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Butterworth, Penang",
+  "Title": "Lion design antique pocket watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lion-design-antique-pocket-watch-/322519931890",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322519931890",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT21H15M14S"
+}

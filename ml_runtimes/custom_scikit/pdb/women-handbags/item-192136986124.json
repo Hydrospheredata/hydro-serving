@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Darama-Womens-Wedding-Bridesmaid-Flowers-Decorative-Clutch-Bag-Shipping-Fre-/192136986124?var=",
+  "ConvertedCurrentPrice": {
+    "value": "54.27",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: A gorgeous clutch bag perfect for many occasions.Whether it be weddings, parties, proms or the blushing occasions.Whewers embellished with beads on the occasions.Wheide has 1 main pocket can easily fit cell phone ,compact mirror, lipstick and other small occasions.Wheside with top snap closure,safty for your occasions.Wheveniently, you can spend the night hands free with the detachable chain that is occasions.Wheg chain size:118cm(46.45inch).Measurement is app 25.5x5x12cm(10.03x1.96x4.72inch).",
+  "Title": "Darama Women's Wedding Bridesmaid Flowers Decorative Clutch Bag. Shipping is Fre",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.27",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/850/054/311972112/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/850/055/312904982/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/850/056/311589185/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "54.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850054:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Gold"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "48.5",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850055:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Silver"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "43.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850056:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Gold",
+          "Silver",
+          "Black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-22T11:15:13.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P17DT18H51M9S",
+  "EndTime": "2017-06-20T11:15:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Damara"
+      },
+      {
+        "Name": "MPN",
+        "Value": "432109243"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192136986124",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139850053:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

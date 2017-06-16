@@ -1,0 +1,122 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "07045",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Fairy Tail Natsu Dragneel Anime Steampunk Quartz Bronze Pocket Watch US Seller. Made in China. Might not be official. Will combine shipping on multiple items.",
+  "StartTime": "2017-04-27T19:11:32.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzM2WDYzNA==/z/NXQAAOSwfVpYqpdD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzM0WDU2Ng==/z/59kAAOSw2gxYqpdU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzEwWDcwNA==/z/6JUAAOSw2gxYqpdd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDYzMA==/z/QjkAAOSwtfhYqpdL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzMzWDYxOA==/z/IzgAAOSw4CFYqpdm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/6HcAAOSw4A5Yqpc0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjU4WDExNzA=/z/320AAOSwax5Yqpc1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NDg4WDY1MA==/z/NHcAAOSwfVpYqpc2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MjkyWDUyMA==/z/354AAOSwax5Yqpc3/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "toysbytom1",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "5199",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "91",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525272307678080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-26T19:11:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fairy-Tail-Natsu-Dragneel-Anime-Steampunk-Quartz-Bronze-Pocket-Watch-US-Seller-/152527230767",
+  "Location": "Montville, New Jersey",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fairy Tail Natsu Dragneel Anime Steampunk Quartz Bronze Pocket Watch US Seller",
+  "Storefront": {
+    "StoreName": "Toys By Tom",
+    "StoreURL": "http://stores.ebay.com/id=1294057417"
+  },
+  "ItemID": "152527230767",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT25M28S"
+}

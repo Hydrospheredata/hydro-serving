@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Datejust II 116333 Flat Black Roman & Marker @9 2/T #A25 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T06:41:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/m-gAAOSwOgdYx5CM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/QYkAAOSwdGFYx5CM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTgzWDEyODA=/z/QYEAAOSwdGFYx5CL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjcyWDEyODA=/z/9kYAAOSwCU1Yx5CM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjcyWDEyODA=/z/b7wAAOSwzgBYx5CM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjcyWDEyODA=/z/95cAAOSwSlBYx5CL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/cHEAAOSwsW9Yx5CM/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Datejust II",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "89",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3321541130678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T06:41:13.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Datejust-II-116333-Flat-Black-Roman-Marker-9-2-T-A25-/332154113067",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Datejust II 116333 Flat Black Roman & Marker @9 2/T #A25",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "332154113067",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT10H12M7S"
+}

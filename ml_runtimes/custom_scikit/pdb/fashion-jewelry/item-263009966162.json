@@ -1,0 +1,137 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263009966162",
+  "TimeLeft": "PT2H36M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Mixed Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "BR",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "CH",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Job-lot-jewellery-plus-box-40-items-/263009966162",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.08",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T17:15:34.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Used",
+  "Country": "GB",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-05T17:15:34.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multi-Coloured",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Job lot of jewellery plus box. 40 items.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "A lovely job lot of jewellery in good condition. Box needs a clean and the clasp seeing to. 23 necklaces 2 brooches 1 scarf clip 2 bangles 4 bracelets 1 mother of pearl leaf 1 string man 5 rings 1 box All stones are intact and all clasps are in working order. Thanks for your interest in this item and please see my other items.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630099661628080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kejan28",
+    "FeedbackScore": "450",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Ormskirk",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTQ5/z/zPcAAOSwTglYkf6J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTQ5/z/2eMAAOSw44BYkf8f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk3/z/CdwAAOSwLEtYkf9h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/gBwAAOSw2xRYkf-t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc4/z/h4oAAOSw2xRYkf~k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTY3/z/JrUAAOSwLEtYkgAl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTkx/z/1TEAAOSwjDZYkgCQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk3/z/HBYAAOSwA3dYkgC6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VGsAAOSwNnRYkgDX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WRIAAOSwNnRYkgD8/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "L40 4BU"
+}

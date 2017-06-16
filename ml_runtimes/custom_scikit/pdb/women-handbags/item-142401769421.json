@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FVQAAOSwzqFY-W2t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~j8AAOSwIWVY-W2x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZEMAAOSwRUhY-W21/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6wcAAOSwN6JY-W26/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XTUAAOSwWWxY-W2~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Gj8AAOSwHHFY-W3D/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-North-Face-Womens-Recon-backpack-/142401769421",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new with tag, The North Face Women's Recon backpack in black color. - Laptop and tablet sleeves- 2 mesh water bottle sleeves (one on each side of the backpack)",
+  "Title": "NWT The North Face Women's Recon backpack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Blaine, Washington",
+  "Seller": {
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "twin_ducklingss"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98230",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T23:32:16.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT8H57M26S",
+  "EndTime": "2017-07-01T23:32:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "The North Face"
+      },
+      {
+        "Name": "Gender",
+        "Value": "Women"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142401769421",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Item must be returned in its original condition with its tag in the original packaging.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424017694218080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

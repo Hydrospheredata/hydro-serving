@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2599.04",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "Montreal, Quebec",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:07:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "3500.0",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-30T14:07:14.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012971036",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Girard-Perregaux",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Superb Classic Girard-Perregaux 18K Pink-Gold Filled Mens Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Superb-Classic-Girard-Perregaux-18K-Pink-Gold-Filled-Mens-Watch-/263012971036",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630129710368080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "H1W 3V8",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H57M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg5WDE1MDA=/z/ON0AAOSw9N1Vprcy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/z14AAOSwMmBVprdD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/L9wAAOSwHnFVprdN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/ZakAAOSwyQtVprdb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/3ZkAAOSwLVZVprdp/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Type: Manual WindingDiameter: 34mmDial: Pearl White DialCase: 18K Pink-Gold Watch It has signs of use difficult to see at naked eyes.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "200",
+    "UserID": "jpmartel.com",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

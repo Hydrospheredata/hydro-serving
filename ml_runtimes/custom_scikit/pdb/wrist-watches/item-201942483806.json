@@ -1,0 +1,157 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "HONG KONG",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:52:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=659724323",
+    "StoreName": "dailyetrade"
+  },
+  "CurrentPrice": {
+    "value": "13.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:52:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CURREN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Synthetic Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "KW",
+    "TR",
+    "YE",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AU",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "VE"
+  ],
+  "ItemID": "201942483806",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CURREN Fashion Sports Military Leather Date Analog Quartz Men's Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "CUR111",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CURREN-Fashion-Sports-Military-Leather-Date-Analog-Quartz-Mens-Wrist-Watch-/201942483806",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019424838068080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H37M14S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lHsAAOSwnONZDbkt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/BbMAAOSwONBZDbkt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JiEAAOSww9xZDbkt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/tzcAAOSwPh5ZDbku/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDEwMDA=/z/cmoAAOSw7GRZDbkt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDEwMDA=/z/ShIAAOSwtGlZDbku/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkxWDEwMDA=/z/YecAAOSwhvFZDbku/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "13.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "84789",
+    "UserID": "dailyetrade",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault.\nWe will replace the defective item at no extra cost. \nPlease return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim\nAny items returned to us in working order will be sent back at the buyers cost."
+  }
+}

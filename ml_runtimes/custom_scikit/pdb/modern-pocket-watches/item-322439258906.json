@@ -1,0 +1,76 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "90212",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand new Charles Hubert 3816 Pocket Watch",
+  "StartTime": "2017-03-02T02:49:58.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/eFwAAOSw2gxYt4gE/$_32.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "229.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charles Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Skeleton",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "valuepartsoutlet",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "108",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "24",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224392589068080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T02:49:58.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "229.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Stainless-Steel-Open-Face-Skeleton-Dual-Time-Pocket-Watch-3816-/322439258906",
+  "Location": "Beverly Hills, California",
+  "Title": "Charles Hubert Stainless Steel Open Face Skeleton Dual Time Pocket Watch 3816",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322439258906",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT7H56M42S"
+}

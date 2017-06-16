@@ -1,0 +1,152 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cape Coral, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:22:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:22:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705680771",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Breil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "2519774197",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Exhibition Case Back",
+          "Luxury Designer Watch",
+          "Sapphire Crystal",
+          "Automatic"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Aluminum",
+          "Brass"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Band Color"
+      },
+      {
+        "Value": [
+          "Genuine Crocodile",
+          "Stainless Clasp"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "45mm w/o Crown",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Large Dressy Watch",
+        "Name": "Style"
+      },
+      {
+        "Value": "Breitling Chronomat",
+        "Name": "Model"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Two-Piece Crocodile Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Huge-Breil-Milano-Automatic-Mens-Wrist-Watch-Crocodile-Band-Swiss-SUPER-/172705680771",
+  "Title": "Huge Breil Milano Automatic Mens Wrist Watch,Crocodile Band,Swiss,SUPER!",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727056807718080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "33909",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H2M56S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mdMAAOSwlndZGSX3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fVAAAOSwZ4dZGSYA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/a3UAAOSw~y9ZGSYB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~t8AAOSwaeRZGSYD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NNAAAOSww5hZGSYF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jtcAAOSw-3FZGSYH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tS4AAOSwq1JZGSYJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SGUAAOSwcaFZGSYL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SpwAAOSwBt5ZGSYN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PMMAAOSwcB5ZGSYQ/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Like new",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "jairalgarr0",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

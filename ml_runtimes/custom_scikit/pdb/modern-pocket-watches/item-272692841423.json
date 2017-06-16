@@ -1,0 +1,107 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Elgin Pocket Watch 7 Jewel 16 Size Gold Fill S/N 29510198 Ca. 1926",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-30T00:35:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUyNFgxNjAw/z/zb0AAOSwjL5ZBS83/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NlgxNjAw/z/eSAAAOSwX61ZBS9H/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTU1/z/jREAAOSww9xZBS9Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwNFgxNjAw/z/O94AAOSwONBZBS9X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUxN1gxNjAw/z/J48AAOSw~y9ZBS9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2NlgxNjAw/z/AuUAAOSwT-FZBS9l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4NFgxNjAw/z/X4MAAOSw42JZBS9s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2MFgxNjAw/z/fyUAAOSww5NZBS91/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4NFgxNjAw/z/0qQAAOSwjL5ZBS-A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XGoAAOSwt0FZBS-J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3MVgxNjAw/z/BbUAAOSwT-FZBS-T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTI1/z/EnoAAOSwjqVZBS-c/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "154.45"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1920-1929",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "29510198",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "SKU": "F109 $110",
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726928414238080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T00:35:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "207.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-Pocket-Watch-7-Jewel-16-Size-Gold-Fill-S-N-29510198-Ca-1926-/272692841423",
+  "ConditionDescription": "See Photos. Watch in great working order .",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "272692841423",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT6H1M7S"
+}

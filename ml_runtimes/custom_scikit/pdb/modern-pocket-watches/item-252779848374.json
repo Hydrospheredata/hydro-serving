@@ -1,0 +1,153 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "12058",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "BRAND NEW NEVER USED ,ENGRAVED ON WATCH AND MEDALLION WAS WEDDING GIFT",
+  "StartTime": "2017-02-20T19:23:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3kIAAOSw2gxYqz~~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/s2cAAOSw~AVYq0AM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yY8AAOSwTuJYq0Ab/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RtcAAOSwWxNYq0Ak/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R0wAAOSwWxNYq0An/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dmUAAOSw32lYq0Ay/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "125.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "46834",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "partsrus2121",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3781",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "137",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2527798483748080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T19:23:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "125.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLIBRI-LONDON-QUARTZ-POCKET-WATCH-/252779848374",
+  "Location": "Earlton, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "COLIBRI OF LONDON QUARTZ POCKET WATCH",
+  "Storefront": {
+    "StoreName": "Earlton Garage",
+    "StoreURL": "http://stores.ebay.com/id=126820266"
+  },
+  "ItemID": "252779848374",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT29M27S"
+}

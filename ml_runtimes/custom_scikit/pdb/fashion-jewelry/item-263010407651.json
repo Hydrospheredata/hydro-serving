@@ -1,0 +1,81 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263010407651",
+  "TimeLeft": "P3DT8H30M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-HEIDI-DAUS-SWAROVSKI-CRYSTAL-HEART-SHAPED-COMFORT-CLIP-ON-EARRINGS-/263010407651",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T23:25:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T23:25:59.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SWAROVSKI CRYSTALS",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "CLIP-ON EARRINGS",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "NEW HEIDI DAUS SWAROVSKI CRYSTAL HEART SHAPED COMFORT CLIP-ON EARRINGS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NEW HEIDI DAUS SWAROVSKI CRYSTAL HEART SHAPED COMFORT CLIP-ON EARRINGS THESE EARRINGS ARE MARKED HEIDI DAUS AND WILL COME TO YOU IN THEIR ORIGINAL BOX INSIDE A GOLD SLEEVE WITH A MANUFACTURER'S LIMITED LIFETIME WARRANTY CARD AND ARE NEW!! Please feel free to contact me with any questions prior to bidding. All sales are final. Item will be carefully packed and shipped via USPS for $7.95 with insurance & tracking. I accept paypal and payment is due within 5 days after auction ends. Item comes from a smoke free and pet free home. Thanks for looking and happy bidding!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630104076518080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dakotajay",
+    "FeedbackScore": "1059",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "NEW YORK STATE",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/h-MAAOSwMgdX1EoM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hhwAAOSwdIFX1Ep2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iiUAAOSwdIFX1EqP/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT18H33M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "279.2",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263020682482",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-Yurman-7MM-X-Crossover-Bracelet-18K-Yellow-Gold-925-Silver-/263020682482",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "279.2",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:24:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:24:36.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "David Yurman",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "X Cuff Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "David Yurman 7MM X Crossover Bracelet 18K Yellow Gold & 925 Silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "David Yurman 7MM X Crossover Bracelet 18K Yellow Gold & 925 Silver Style No : David-X-Crossover-Bracelet Brand : David Yurman Condition : Pre-owned (Excellent Condition) Metal Type : 925 Sterling Silver Diameter : 5 1/2\" Cable : 7 MM Wide Wrist : 5 5/8\" - 6\" Hallmark :\u00a9 DY 925 750 Powered by SixBit's eCommerce Solution",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630206824828080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "neminy",
+    "FeedbackScore": "1619",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Nemi NY",
+    "StoreURL": "http://stores.ebay.com/id=109829217"
+  },
+  "Quantity": "1",
+  "Location": "East Rutherford, New Jersey",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTc5WDk3OQ==/z/TuUAAOSwXYtYt-RC/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxMDY2/z/U9oAAOSwTM5Yt-Q9/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxMDY2/z/HgIAAOSw~AVYt-Q~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI3WDkyNw==/z/KQIAAOSw4A5Yt-RF/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "07073"
+}

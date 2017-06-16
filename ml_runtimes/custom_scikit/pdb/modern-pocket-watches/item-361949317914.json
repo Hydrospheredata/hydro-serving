@@ -1,0 +1,78 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "40245",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Running. Not a precious metal - 1 1/4th inch",
+  "StartTime": "2017-04-08T17:28:55.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDc0/z/HOUAAOSwpP9Y6Ru2/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjEy/z/~C4AAOSwnF9Y6Ru0/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "100.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Binder",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "allcolls",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "21782",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "56",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619493179148080_2.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-07T17:28:55.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "100.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-Vintage-17-Jewels-Incabloc-BINDER-Small-ROSE-ENAMEL-Pocket-Watch-/361949317914",
+  "Location": "Louisville, Kentucky",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Beautiful Vintage 17 Jewels Incabloc BINDER Small ROSE ENAMEL Pocket Watch",
+  "Storefront": {
+    "StoreName": "K Lynn&#39;s Jools and Treasures",
+    "StoreURL": "http://stores.ebay.com/id=2396205"
+  },
+  "ItemID": "361949317914",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT22H41M20S"
+}

@@ -1,0 +1,142 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263009966143",
+  "TimeLeft": "PT2H36M17S",
+  "ListingStatus": "Active",
+  "Title": "job lot of good jewellery.  50 items.",
+  "ConditionDescription": "good condition",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "BR",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "CH",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "45.08",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-29T17:15:34.000Z",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Used",
+  "Country": "GB",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-05T17:15:34.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multi-Coloured",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/job-lot-good-jewellery-50-items-/263009966143",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Ormskirk",
+  "Description": "A job lot of jewellery. All good condition. 50 items as follows 9 bangles 9 earrings for pierced ears 3 pendants one with jade chips 18 necklaces 1 homemade jewellery box Thanks for your interest in this item and please see my other items.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630099661438080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kejan28",
+    "FeedbackScore": "450",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "18",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/EZMAAOSw2gxYt~I1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTU5/z/u84AAOSwWxNYt~J7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTkz/z/ZwYAAOSwCU1Yt~MK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc3/z/NEkAAOSw2gxYt~N0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTUx/z/sPcAAOSw4A5Yt~QP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CWUAAOSw~AVYt~SS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTgx/z/RicAAOSwWxNYt~Vo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTYx/z/5IUAAOSw4CFYt~WH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Jv0AAOSwTuJYt~Wn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/9P8AAOSwfVpYt~W8/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Mixed Lots",
+  "PostalCode": "L40 4BU"
+}

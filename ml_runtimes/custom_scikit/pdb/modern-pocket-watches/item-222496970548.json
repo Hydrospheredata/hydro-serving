@@ -1,0 +1,118 @@
+{
+  "ExcludeShipToLocation": "Europe",
+  "QuantitySold": "0",
+  "PostalCode": "19114",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Item specifics : New Mini Mosaic Symbol Art Quartz Pocket Watch- Stainless Steel Back - Stainless Steel Bezel -Quartz Movement-Hand Wind-Fashion Style - Bronze Color Removable Chain - In New Condition - Never Used-{ Bronze Color} Currently Working!!! Size/Measurements:* Case diameter(cm): approx 4.7* Chain length(cm): approx 78* Watch weight(g): approx 50 Package included:1* pocket watch Condition: .Brand New, Never Used, High Quality Shipping Charges:__________________ THIS ITEM IS PROVIDED AND SOLD BY DIRECTAUCTIONSALL ITEMS WON MUST BE PAID FOR WITHIN 3 DAYS RETURN POLICYThis Item is sold as-is (NO RETURNS)",
+  "StartTime": "2017-05-02T20:30:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jTUAAOSwT5tWQVMc/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9I8AAOSwu-BWQVM1/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/kiwAAOSwT5tWQVNS/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8jMAAOSw5ZBWQVNn/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/iUEAAOSwI-BWQVN8/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mechanical (Manual)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "87839",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "directmerchants0kfq",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "742",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "22",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2224969705488080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T20:30:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU",
+    "JP",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "HK",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Mini-Mosaic-Symbol-Art-Quartz-Pocket-Watch-/222496970548",
+  "Location": "Philadelphia, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Mini Mosaic Symbol Art Quartz Pocket Watch",
+  "Storefront": {
+    "StoreName": "directmerchants0kfq",
+    "StoreURL": "http://stores.ebay.com/id=22405695"
+  },
+  "ItemID": "222496970548",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT1H44M56S"
+}

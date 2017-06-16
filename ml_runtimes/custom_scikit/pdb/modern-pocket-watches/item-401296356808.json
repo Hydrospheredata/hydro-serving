@@ -1,0 +1,115 @@
+{
+  "ExcludeShipToLocation": [
+    "CN",
+    "AU",
+    "FR",
+    "DE",
+    "GB",
+    "HK"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "02171",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bestseller2046",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "67420",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-03-23T23:06:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/jfgAAOSwuLZY1FTg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc3WDEyMDA=/z/PWAAAOSwc-tY1FTj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODcxWDEyMDA=/z/YgcAAOSwDKtY1FTm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTE4WDEyMDA=/z/U8gAAOSwmgJY1FTo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YzgAAOSwDKtY1FTq/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Roman Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "SKU": "a50098",
+  "HitCount": "66",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/4012963568088080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-21T23:06:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Men-Women-Roman-Mechanical-Wide-Up-Skeleton-Steampunk-Pocket-Watch-/401296356808",
+  "Location": "Quincy, Massachusetts",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Men Women Roman Mechanical Wide Up Skeleton Steampunk Pocket Watch",
+  "Storefront": {
+    "StoreName": "Bestseller2046 Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1101311632"
+  },
+  "ItemID": "401296356808",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT4H16M48S"
+}

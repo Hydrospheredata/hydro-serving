@@ -1,0 +1,92 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33314",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "gvroman9",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14294",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Products for retail stores, boutiques, spa, restaurants, ebay resellers, to export or sell in the US.We buy. We sell all deals. Thompson Cigar Co. Clip Watch 003928170 4x2\" 2 tone Pocket Watch Description: Brand: Thompson Cigar Model: 003928170 Size: 4x2\" Material: Metal Color: 2 tone Item Condition: Comments: Other details: MSRP: $0.00 UPC: [[UPC\\EAN\\ISBN]] Most of our items are available for inspection in our warehouse 4153 SW 47 Ave Unit 147 Davie, FL 33314 Please call us to make an appointment 305.924.1788 We combine shipping!! Check out our other eBay listings. Some information about our ebay store:We are a family operated business that strive for 100% customer satisfaction. We do our best to describe items accurately, but we are not experts in all areas. If for any reason you feel we deserve less than 5 star rating, please send us a message to let us know what the problem is and we will do our best to accommodate your request. Payments: Please pay within 3 days. We have an ebay automated system that opens a case after 4 days of non-payment. Combined Shipping: We combine shipping. If ebay does not combine shipping automatically, please request an invoice BEFORE paying. Not all items can be shipped together especially large or heavy items and international orders. So please keep in mind, if an item is oversize there might be an additional shipping charge; we will inform you to give you the option to pay the difference or cancel the order. Returns: We have a 30 day return policy. Item must be in the original condition received. Please send us an ebay message before opening a return request. International Orders: \u2022 Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer\u2019s responsibility.\u2022 Transit times vary greatly by country, but generally is around 6 - 10 for Priority Mail International and 7 - 21 days for First Class Mail International. Transit time is affected by many factors including your country's customs. We can only guarantee to ship on time, from there it is out of our hands. 147-R45-4-TBD021-0002-TBD021-0002 Powered by SixBit's eCommerce Solution",
+  "StartTime": "2017-04-23T19:10:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg2Njc=/z/IBkAAOSwRUhY~PuB/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "6",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Thompson Cigar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "003928170",
+        "Name": "MPN"
+      },
+      {
+        "Value": "003928170",
+        "Name": "Model"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "TBD021-0002",
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1321685370688080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T19:10:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Thompson-Cigar-Co-Clip-Watch-003928170-4x2-2-tone-Pocket-Watch-/132168537068",
+  "Location": "Fort Lauderdale, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Thompson Cigar Co. Clip Watch  003928170 4x2\" 2 tone Pocket Watch",
+  "Storefront": {
+    "StoreName": "OnlineWarehouse",
+    "StoreURL": "http://stores.ebay.com/id=41508971"
+  },
+  "ItemID": "132168537068",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT24M23S"
+}

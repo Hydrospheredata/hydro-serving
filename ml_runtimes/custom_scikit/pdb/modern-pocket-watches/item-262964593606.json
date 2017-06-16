@@ -1,0 +1,225 @@
+{
+  "ExcludeShipToLocation": [
+    "HK",
+    "LA",
+    "MO",
+    "SG",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "PM",
+    "AO",
+    "BJ",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "KW",
+    "LB",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "SB",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "BA",
+    "HR",
+    "CZ",
+    "MD",
+    "MC",
+    "ME",
+    "SK",
+    "SJ",
+    "VA",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC"
+  ],
+  "QuantitySold": "3",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "kikohouse",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13218",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-03T02:36:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ewIAAOSwONBZCUIi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-B0AAOSw~y9ZCUIp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Z9kAAOSw42dZCUIv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/hjsAAOSwX61ZCUI0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/yFMAAOSwtGlZCUI6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/IdgAAOSwcgNZCUJC/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "HighBidder": {
+    "UserID": "0***l",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1265",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "13",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "SKU": "EBKIKOH[P339]EBKIKOH",
+  "HitCount": "52",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629645936068080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-02T02:36:52.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lovely-Drink-Me-Bottle-Dark-Brown-Glass-Copper-Quartz-Pocket-Watch-Necklace-Gift-/262964593606",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Lovely Drink Me Bottle Dark Brown Glass Copper Quartz Pocket Watch Necklace Gift",
+  "Storefront": {
+    "StoreName": "kikohouse",
+    "StoreURL": "http://stores.ebay.com/id=1237031647"
+  },
+  "ItemID": "262964593606",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT7H52M7S"
+}

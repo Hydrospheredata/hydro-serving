@@ -1,0 +1,115 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT11H8M24S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "37.89",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "252969506389",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hair-Comb-Hair-Accessory-Celtic-Handmade-USA-Oberon-Design-/252969506389",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.89",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T22:29:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T22:29:20.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "819686012357",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0819686012357",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Oberon Design",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PB54",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Misc.",
+        "Name": "Binding"
+      },
+      {
+        "Value": "0.05 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.5 x W 3.5 x H 0.8 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "1",
+        "Name": "NumberOfItems"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Hair Comb | Hair Accessory | Celtic | Handmade in the USA by Oberon Design",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Our hair combs are for those with thicker hair or upswept hairstyles. Both offer a very secure fit and will stay in your hair for hours without any adjustment. For those who love beautiful, classic hair ornaments our variety of hair clips and barrettes and combs provide style and quality. About The Image In Pre-Medieval Ireland, Celts were known for cleanliness and hairstyles. Both sexes wore their hair elaborately braided and decorated with gold balls, bells, sticks, metal hair ribbons and discs, flexible gold or bronze headbands and combs carved from bone. - Britannia Metal Hand cast at Oberon Design in Santa Rosa CA. - Lead free, food grade Britannia metal - Lightweight and Durable - Dimensions: 5.75\" x 1.75\" Weright: 2 Oz. - Comb Prongs are 4.5\" long Hair Comb | Hair Accessory | Celtic | Handmade in the USA by Oberon Design",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529695063898080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "UserID": "patcha777",
+    "FeedbackScore": "6648",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "patcha777STORE",
+    "StoreURL": "http://stores.ebay.com/id=1402700962"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg1MjM=/z/MQwAAOSwi7RZMJVC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5MlgxNTAw/z/KqEAAOSwrhBZMJVD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3OTQ=/z/saAAAOSwlMFZMJVD/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

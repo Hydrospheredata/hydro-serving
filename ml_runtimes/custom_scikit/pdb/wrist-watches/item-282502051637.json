@@ -1,0 +1,96 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825020516378080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T09:32:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:32:34.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Men's Seiko Gold-Tone Quartz Watch Day/Date Dress Watch Excellent condition Includes Instruction Manual Original Case and Box",
+  "BuyItNowPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502051637",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Men's Seiko Gold-Tone Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Seiko-Gold-Tone-Quartz-Watch-/282502051637",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "3",
+  "PostalCode": "02806",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Barrington, Rhode Island",
+  "TimeLeft": "P6DT18H6M18S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/GwYAAOSw4CFYrhv7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/JdAAAOSwdGFYrhv-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/B2kAAOSwWxNYrhv9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/0IQAAOSw3v5Yrhv~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDY1MQ==/z/UwEAAOSwTuJYrhwB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc1MQ==/z/AIUAAOSwx6pYrhwC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/JlUAAOSwdGFYrhwD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/wJsAAOSwr~lYrhwE/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "63",
+    "UserID": "nmarcello-us",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

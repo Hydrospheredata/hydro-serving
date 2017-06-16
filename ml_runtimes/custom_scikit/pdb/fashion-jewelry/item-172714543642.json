@@ -1,0 +1,500 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172714543642",
+  "PrimaryCategoryName": "Jewelry & Watches:Handcrafted, Artisan Jewelry:Necklaces & Pendants",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "PostalCode": "27312",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "ConvertedCurrentPrice": {
+    "value": "38.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:155101",
+  "BidCount": "0",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "110655",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:110633:110655",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "cas_sell",
+    "FeedbackScore": "100",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzE5/z/CwUAAOSwJ7RYUZ3K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/mC8AAOSwal5YIGLz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTY0WDE2MDA=/z/4qIAAOSwo4pYUZ3V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5MVgxNjAw/z/ryUAAOSw5cNYUZ3q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI1WDE2MDA=/z/vtkAAOSwux5YUZ83/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "SKU": "g3",
+  "StartTime": "2017-06-05T11:55:58.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "155101",
+  "HitCount": "0",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Infinity-Name-Necklace-Date-Necklace-Couple-Necklace-Wedding-Gift-Custom-Nam-/172714543642?var=",
+  "EndTime": "2017-07-05T11:55:58.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Theme",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "rose gold",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTU5MVgxNjAw/z/JMIAAOSw44BYUZ6W/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/6jEAAOSw4GVYUZ6V/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNDY1/z/Cy8AAOSwo4pYUZ6b/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFg5OTI=/z/dRgAAOSw241YUZ8d/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/OTY0WDE2MDA=/z/qXoAAOSwux5YUZ7E/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/NzUxWDE2MDA=/z/E5UAAOSwo4pYUZ7H/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTUwMFgxNjAw/z/CagAAOSwOtdYUZ7M/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNTAx/z/5P8AAOSw5cNYUZ7V/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFg5OTI=/z/504AAOSwcUBYUZ77/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "SILVER",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/eQ8AAOSw241YUZ8v/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTEwNlgxNjAw/z/Ct4AAOSw4GVYUZ8z/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wOMAAOSwA3dYUZ8k/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTAxNFgxNjAw/z/d-gAAOSw241YUZ8q/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/OTI1WDE2MDA=/z/KcQAAOSwo4pYUZ81/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFg5OTI=/z/YZsAAOSwJ7RYUZ9J/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "rose gold",
+            "Gold",
+            "SILVER"
+          ],
+          "Name": "Theme"
+        },
+        {
+          "Value": [
+            "16",
+            "18",
+            "20",
+            "22",
+            "24"
+          ],
+          "Name": "Length (inches)"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "rose gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "16",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "6"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "16",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "8"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "SILVER",
+              "Name": "Theme"
+            },
+            {
+              "Value": "16",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "38.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "3"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "18",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "7"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "20",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "7"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "SILVER",
+              "Name": "Theme"
+            },
+            {
+              "Value": "18",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "38.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "7"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "SILVER",
+              "Name": "Theme"
+            },
+            {
+              "Value": "20",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "38.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "7"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "rose gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "18",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "5"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "rose gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "20",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "6"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "rose gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "22",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "7"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "22",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "8"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "SILVER",
+              "Name": "Theme"
+            },
+            {
+              "Value": "22",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "38.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "5"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "rose gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "24",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "8"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Theme"
+            },
+            {
+              "Value": "24",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "40.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "7"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "SILVER",
+              "Name": "Theme"
+            },
+            {
+              "Value": "24",
+              "Name": "Length (inches)"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "38.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "6"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Infinity Design",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver, Gold Plated, Rose Gold Plated",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "Infinity Name Necklace, Date Necklace, Couple Necklace, Wedding Gift, Custom Nam",
+  "TimeLeft": "P29DT23H44M9S",
+  "Location": "Pittsboro, North Carolina",
+  "Description": "Personalized Infinity Name Necklace!! Perfect For Wedding or Any Occasion!! Handmade Infinity Necklace is made by our highly skilled masters by hands. Material: Sterling Silver 0.925 Your necklace comes with 0.925 Sterling Silver chain. Style: Personalized Name Date Infinity Necklace Chain length: 14\",16\",18\",20\",22\", 24\" Thickness: 0.8mm / 0.04\" Measurements: 10 mm High We can make any name you want. Please send us message. Standard size is 35mm but we can adjust the size that you request. You can order with any names till 10 letters for one side. DELIVERY USUALLY TAKES 6 BUSINESS DAYS at most after we receive the payment. It is changeable size for your need. It comes with small gift box. For International shipping, there will be NO import fee or custom duty. All of our products are produced as a handmade by using 0,11 cm (0.044\") 0.925 sterling silver layer. Our products are NOT produced by using Laser so none of them will be bended, twisted or broken.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "97"
+}

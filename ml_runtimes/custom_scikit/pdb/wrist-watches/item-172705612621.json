@@ -1,0 +1,160 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "109.31",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Yorkshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:33:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "84.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:33:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705612621",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Seksy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Scratch-Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "27mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "5051322024125",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SEKSY LADIES ROSE TONENUDE STRAP WATCH MODEL 2412.37 / 2412 RRP \u00a379.99",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEKSY-LADIES-ROSE-TONENUDE-STRAP-WATCH-MODEL-2412-37-2412-RRP-79-99-/172705612621",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727056126218080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "LE53NE",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H10M35S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExNlgxMjQw/z/H4kAAOSwrhBZBwxX/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "This elegant timepiece is brought to you by Seksy wrist-wear by Sekonda. It features a chrome finished stone set case and bracelet made with Swarovski\u00aecrystals. A white mother-of-pearl dial completes the look making this the perfect accessory for those special occasions.Scratch resistant glass, analogue display, stone set case, mother of pearl dial, stone set bracelet, 420\u00aeswarovski crystals, 2 year guarantee. Watch features:Scratch resistant glass.White dial.Face width 27mm.Mother of pearl dial .Stone set base metal case.Stone set silver base metal bracelet.Jewellery clasp.Quartz movement.Analogue display.Manufacturer's 2 year guarantee. GET THIS WATCH FOR THE CHEAPEST PRICE ON THE 'NET - \u00a349.99NOW SHIPPING WORLDWIDE!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1101",
+    "UserID": "sportz111",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "No Returns Accepted",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

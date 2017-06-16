@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "14047",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New old stockF36-7198065-WCM-26131DA-36-038-ORD-9064Hairspring assembly/ still sealed in original packageSeptember, 1952",
+  "StartTime": "2017-05-03T23:08:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg2WDg5MQ==/z/J-AAAOSwt5hYeYsV/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.75"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "Seller": {
+    "UserID": "ann-tique-watches",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2029",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "46",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625023788688080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T23:08:46.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.75"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Military-Antique-Waltham-Wristwatch-Hairspring-Assembly-Circa-1952-/162502378868",
+  "Location": "Derby, New York",
+  "Title": "Military Antique Waltham Wristwatch Hairspring Assembly Circa 1952",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "162502378868",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P2DT34M22S"
+}

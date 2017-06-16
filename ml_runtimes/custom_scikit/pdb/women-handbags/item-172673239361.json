@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTI5WDcyMA==/z/75UAAOSwfVpYndrI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMQ==/z/UqQAAOSw~AVYndrI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMQ==/z/5LQAAOSwTuJYndrI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMQ==/z/AywAAOSw3v5YndrI/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-SERENA-DAYCATION-TROPIC-STRIPE-DIAPER-BAG-/172673239361",
+  "ConvertedCurrentPrice": {
+    "value": "174.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Detail Track Page Views WithAuctiva's FREE Counter",
+  "Title": "KATE SPADE SERENA DAYCATION TROPIC STRIPE DIAPER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "174.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Ferndale, Michigan",
+  "Seller": {
+    "FeedbackScore": "1557",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "etrend.inc"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48220",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T17:11:53.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P10DT1H46M37S",
+  "EndTime": "2017-06-12T17:11:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "PRINTED COATED POPLIN"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "TROPIC STRIPE"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172673239361",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726732393618080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

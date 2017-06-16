@@ -1,0 +1,105 @@
+{
+  "QuantitySold": "0",
+  "Title": "New Royal Flush Quartz Pocket Watch",
+  "PostalCode": "62417",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Royal Flush Quartz Pocket Watch Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-12T11:27:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDE4WDUwMA==/z/Z7EAAOSwR5dXTewJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQxNQ==/z/bFUAAOSw3R1XTexO/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jamestrading",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "15050",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921850660428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-11T11:27:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "We refund purchase price only. No postage. We will refund Your money oe sens another item.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Royal-Flush-Quartz-Pocket-Watch-/192185066042",
+  "ConditionDescription": "This watch is new",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Bridgeport, Illinois",
+  "Storefront": {
+    "StoreName": "JamesTrading",
+    "StoreURL": "http://stores.ebay.com/id=1586142"
+  },
+  "ItemID": "192185066042",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT16H45M26S"
+}

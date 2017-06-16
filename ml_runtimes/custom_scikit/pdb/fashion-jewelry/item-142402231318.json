@@ -1,0 +1,138 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "142402231318",
+  "Quantity": "1",
+  "TimeLeft": "P26DT20H43M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Mixed Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "BR",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "CH",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "CurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fifth-Avenue-Collection-Hand-made-Necklace-Earrings-Set-Swarovski-Crystals-/142402231318",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T11:08:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "10970",
+  "EndTime": "2017-07-02T11:08:11.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swarovski",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Necklace & Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Fifth Avenue Collection",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Fifth Avenue Collection Hand made Necklace & Earrings Set Swarovski Crystals",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Stunning Fifth Avenue Collection Necklace and Earrings set NWT in box. Earrings have sterling silver hooks, hand made with Swarovski crystals. Lovely set RRP $98 Necklace measures 17in extending to 18in pendant measures 5cm x 3cm. Earrings measure 2.5cm x 1.5cm drops to 4cm. Beautiful gift.",
+  "GlobalShipping": "true",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424022313188080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "nadlor72",
+    "FeedbackScore": "1233",
+    "FeedbackRatingStar": "Red"
+  },
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "Location": "Chelmsford",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/LHUAAOSwCGVX-jhS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3N1g4MTA=/z/RbMAAOSwLF1X-jh-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxMVg4MTA=/z/IaYAAOSwYIxX-jiS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE0WDkwMA==/z/RQsAAOSwOyJX-jjG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg2WDEyODU=/z/Td0AAOSwOyJX-jke/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/SmgAAOSwCGVX-jk6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUyWDgxOQ==/z/LuQAAOSw8gVX-jlj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwN1g1MjA=/z/gGwAAOSwzaJX-jop/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQxWDgxMA==/z/J8AAAOSw4shX-jpH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU4WDgxMA==/z/jLsAAOSwpLNX-jpe/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "CM1 3HQ"
+}

@@ -1,0 +1,249 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.08",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:41:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "17.08",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:41:04.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men, Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "263012773830",
+  "HandlingTime": "0",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stylish-Leather-Dual-Movement-Single-Calendar-Business-Watches-Date-Jewelry-/263012773830?var=",
+  "ConditionDescription": "Note:It is water resistant,can't be used in diving swimming shower etc.",
+  "NewBestOffer": "false",
+  "SKU": "082-YW01782",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "17.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01782X",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "17.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01782B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Brown",
+          "Black"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": null
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H18M35S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/NyYAAOSw7GRZLp29/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/I2oAAOSwhvFZLp3K/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6rAAAOSw9OFZLp3M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/o8wAAOSwY3BZLp3N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ZiwAAOSw0hlZLp3P/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IP4AAOSwtGlZLp3R/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/mrYAAOSwaeRZKJbC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/QicAAOSwAPVZLp3T/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/1roAAOSw5cRZLp3U/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "Stylish Leather Dual Movement Single Calendar Business Watches Date Jewelry",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

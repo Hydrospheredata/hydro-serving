@@ -1,0 +1,146 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT4H11M27S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "excellent",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152572995095",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-retired-Celestial-pendant-necklace-post-earrings-set-tin-B37-/152572995095",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T16:09:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T16:09:13.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "silver, gold, blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton retired Celestial pendant necklace & post earrings set + tin  B37",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Brighton retired \"Celestial\" necklace and pierced post earrings set. Silver plated, silver and gold, reversible necklace, Swarovski crystal. Necklace: J4420, 1/2 in pendant, 16 in + 2 in extender, lobster claw clasp. Earrings: J8820, pierced, button. Excellent condition, with tin. Other Brighton items listed separately. I combine shipping.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525729950958080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "lxfain",
+    "FeedbackScore": "2040",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "bejeweledvintage",
+    "StoreURL": "http://stores.ebay.com/id=26550722"
+  },
+  "Quantity": "1",
+  "Location": "North Hollywood, California",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxMVgxNTY1/z/DXEAAOSwEHpZNCGx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMVgxNjAw/z/tpwAAOSwKytZNCHa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI0OVgxNTMz/z/DlsAAOSwfpVZNCH4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1NlgxNTk3/z/wAYAAOSwsXFZNCJR/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "91606"
+}

@@ -1,0 +1,181 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.71",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "retford, Nottinghamshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:52:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:52:31.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502476194",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Day & Date",
+          "Day Counter",
+          "Telememo",
+          "Stopwatch",
+          "12-Hour Dial",
+          "24-Hour Dial",
+          "Alarm",
+          "Backlight",
+          "Dual Time"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Resin",
+          "Canvas"
+        ],
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Baby-G",
+        "Name": "Model"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "200 Metres / 20 ATM",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CASIO DIGITAL BABY-G WATCH MODEL 2288 WORKS GREAT NEW BATTERY",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CASIO-DIGITAL-BABY-G-WATCH-MODEL-2288-WORKS-GREAT-NEW-BATTERY-/282502476194",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825024761948080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "DN226NJ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H47M3S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/eWQAAOSwn-tZLtUl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/hbIAAOSw42JZLtUq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/VOMAAOSwH09ZLtUs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/-5QAAOSwPh5ZLtUv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/1G8AAOSw1WJZLtUy/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Womens baby-g Casio watch. Fully functional. 200m water resistant. Light. 12hr / 24hr options. Day and date. Alarms. Loads more functions. Any questions please ask",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "2187",
+    "UserID": "eddieboyvans",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

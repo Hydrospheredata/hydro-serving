@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P17DT1H41M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222521646342",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-68-REBECCA-MINKOFF-Cone-Body-Chain-Silver-Swimwear-Accessory-Trend-/222521646342",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-23T17:00:37.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-22T17:00:37.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rebecca Minkoff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "NWT $68 REBECCA MINKOFF Cone Body Chain Silver Swimwear Accessory Trend",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Details - Multi strand cone stud body chain - Slips on over head - Approx. 29\" length - Imported Materials, Brass metal NWT! Color: Silver",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225216463428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "pinkironbling-8",
+    "FeedbackScore": "16",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Tucson, Arizona",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk2WDMzNg==/z/BXQAAOSwX61ZBPLv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDI=/z/5u0AAOSw~y9ZBPL7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyMFg5NTM=/z/aGUAAOSww9xZBPMb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIwWDEwMjQ=/z/VNMAAOSw-3FZBPMp/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "85712"
+}

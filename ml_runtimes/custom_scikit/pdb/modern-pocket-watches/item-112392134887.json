@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "84043",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Brand New Q Collection Silver Men's Pocket WatchNew Watch - Old Stock15\" ChainApproximately 1-1/2\" x 1-1/2\" squareOld Stock - May Need New BatteryHingedQ Collection BrandQuartzChina MovementBlack Watch Face Numeric Numbers DisplayComes in Gold Jewelry Box",
+  "StartTime": "2017-05-01T21:25:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFg5NTI=/z/2csAAOSwnHZYR2JS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMDQz/z/icYAAOSw5cNYR2JK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMDE2/z/rLYAAOSwImRYR2JQ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Q Collection",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "a_plus_stuff-4-sale",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "65",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "42",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1123921348878080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-05-31T21:25:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Q-Collection-Square-Shaped-Silver-Hinged-Pocket-Watch-China-Movement-NIB-/112392134887",
+  "Location": "Lehi, Utah",
+  "Title": "Q Collection Square-Shaped Silver Hinged Pocket Watch China Movement **NIB**",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "112392134887",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT2H39M48S"
+}

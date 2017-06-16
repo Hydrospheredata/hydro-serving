@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "DE",
+  "Location": "Aalen",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:04:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:04:58.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "371968062210",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "morphic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "m 52",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MORPHIC M 52 orig watch silver steel black leather wrist band unworn unused",
+  "ConditionDescription": "its basically new..but i have purchased it a month ago and tried it on...very nice watch, it is just a bit to big for my wrist",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MORPHIC-M-52-orig-watch-silver-steel-black-leather-wrist-band-unworn-unused-/371968062210",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3719680622108080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "73433",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H54M51S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oEAAAOSwT-FZBk-I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YXcAAOSwcgNZBk-Y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GkYAAOSw42dZBk-N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BVQAAOSwCQZZBk9-/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "its basically new..but i have purchased it a month ago and tried it on...very nice watch, it is just a bit to big for my wrist all tags and original packaging and warranty included Japanese Quartz and Non-Glare Scratch Resistant Mineral Crystal Stainless Steel Case and Bezel 43 millimeters 11mm Case Thickness Genuine Leather Strap 20mm Band Thickness up to 8.5 inches in band length Date Display5 ATM private sale...no returns please",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2431",
+    "UserID": "multimove",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

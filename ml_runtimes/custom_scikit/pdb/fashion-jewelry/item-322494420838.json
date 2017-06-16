@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "322494420838",
+  "Quantity": "2",
+  "TimeLeft": "P19DT44M40S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Toe Rings",
+  "QuantitySold": "1",
+  "Site": "UK",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/9ct-Yellow-Gold-Wavy-Band-Toe-Ring-Made-England-Hand-Finished-RRP-50-99-/322494420838",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.36",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-04-25T14:31:14.000Z",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "HighBidder": {
+    "UserID": "4***e",
+    "FeedbackScore": "140",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-24T14:31:14.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "UK Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Body Jewellery",
+        "Name": "Type"
+      },
+      {
+        "Value": "Toe Rings",
+        "Name": "Subtype"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Material/ Metal"
+      },
+      {
+        "Value": "Wavy Band",
+        "Name": "Style/ Period"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal Type"
+      },
+      {
+        "Value": "England",
+        "Name": "Origin"
+      },
+      {
+        "Value": "United Kingdom",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "9ct Yellow Gold Wavy Band Toe Ring - Made in England Hand Finished *RRP \u00a350.99*",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Solid 9ct Yellow Gold Wavy Band Toe Ring Metal - 9ct Yellow Gold Size - 17mm adjustable Weight - 0.93 gram Made in England, this toe ring is hand finished and hand polished. Arrives to you brand new in a presentation box. 100% Quality Guaranteed This item is delivered safe and secure with Recorded Delivery! Delivery All orders placed and payment cleared by 2pm GMT are dispatched the same day. If ordered after this then your parcel will be sent the next day. Please note we do not dispatch on Saturdays unless requested to do so. More information regarding delivery and returns About us We are based in the Midlands and we specialize in Gold and Silver fine jewellery. With over 30 years experience we are dedicated to producing the finest in British jewellery. Our jewellery is made with pride and attention which fine jewellery requires and is finished to a high standard. More about us",
+  "GlobalShipping": "false",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224944208388080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "theukjewellerystore",
+    "FeedbackScore": "6369",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "UK Jewellery Store",
+    "StoreURL": "http://stores.ebay.com/id=778891538"
+  },
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "HandlingTime": "1",
+  "Location": "Staffordshire",
+  "HitCount": "131",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzcyWDEwNDA=/z/L-UAAOSwstxVPgQS/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "ST15 8NA"
+}

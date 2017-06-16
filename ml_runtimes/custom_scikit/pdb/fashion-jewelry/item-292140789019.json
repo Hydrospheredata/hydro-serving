@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT19H26M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292140789019",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Jay-Lane-Lapis-Black-Gold-Beaded-White-Thread-Tassel-Earrings-New-/292140789019",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T06:14:15.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:14:15.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Tassel",
+        "Name": "Style"
+      },
+      {
+        "Value": "Lapis/White",
+        "Name": "Color"
+      },
+      {
+        "Value": "French Wire Backs",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kenneth Jay Lane Lapis Black Gold Beaded White Thread Tassel Earrings New",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Normal 0 false false false EN-US X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921407890198080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sillhouette2006",
+    "FeedbackScore": "1349",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Fashion Accessories-24_7",
+    "StoreURL": "http://stores.ebay.com/id=422062779"
+  },
+  "Quantity": "3",
+  "Location": "Warren, New Jersey",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BWEAAOSwIQdZGlC9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VCcAAOSwPh5ZGlDC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BakAAOSwIQdZGlDG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9L4AAOSwdjNZGlDM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zsgAAOSwDiBZGlDQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PycAAOSwxu5ZGlDV/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "07059"
+}

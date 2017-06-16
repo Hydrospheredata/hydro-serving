@@ -1,0 +1,106 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-03-27T09:26:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/87gAAOSwsW9Y2Nq9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/JJgAAOSwdGFY2NrB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~SoAAOSwuxFY2NrF/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "5",
+  "Country": "HK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIEDAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "lerosentha-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "484",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "8",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T09:26:48.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Make sure it is in the original packaging please",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "Bronze",
+        "Name": "Colour"
+      }
+    },
+    "Variation": {
+      "StartPrice": {
+        "_currencyID": "AUD",
+        "value": "14.99"
+      },
+      "SKU": "sku-auc-0",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "Bronze",
+          "Name": "Colour"
+        }
+      },
+      "Quantity": "5"
+    }
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "COBWEB Quartz Pocket Watch/FOB Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COBWEB-Quartz-Pocket-Watch-FOB-Watch-/152487374101?var=",
+  "Storefront": {
+    "StoreName": "leostoreaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1477142763"
+  },
+  "ItemID": "152487374101",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "TimeLeft": "P24DT14H37M27S"
+}

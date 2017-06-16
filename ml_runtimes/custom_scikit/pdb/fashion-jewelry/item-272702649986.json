@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT16H31M51S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272702649986",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FIERCE-DRAG-QUEEN-CZ-BLUE-NECKLACE-EARRINGS-COSTUME-STAGE-PAGEANT-75-/272702649986",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:14:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:14:29.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "High Grade Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "CZ",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "CZ",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "CZ",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "FIERCE DRAG QUEEN CZ BLUE NECKLACE EARRINGS COSTUME STAGE PAGEANT WAS $75",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~ Fierce Blue Silver CZ Necklace Set ~~Sale~20% Off Ends April 09So Many Cz's ...Such Little PriceNecklace 18\" Drop 4\" Lobster Clasp Post Earrings 3.5\" Long x 1\"Wide Rubber Backs Handset Top Cut Cz'sAbsolutely Blinding Under The Spotlight Ultra Ultra Posh Glamorous Flaming GorgeousAvailable In Silver, Pink, Aqua, Black/Silver, Green, Orange, Blue",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727026499868080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dragqueenjewelry_0",
+    "FeedbackScore": "25",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "Iced Out Fashion Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1562152849"
+  },
+  "Quantity": "1",
+  "Location": "San Antonio, Texas",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTg3/z/31AAAOSwWxNY1xMu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/gScAAOSwuxFY1xNI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/eRIAAOSwuLZY1xNW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/ZLMAAOSw2gxY1xNd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzc1/z/d-sAAOSwsW9Y1xNu/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "78217"
+}

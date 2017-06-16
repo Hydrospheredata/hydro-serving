@@ -1,0 +1,169 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "119.48"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Stunning gold-plated mechanical pocket watch is a stylish and functional fashion accessory. It features intriguing skeleton style movement with Roman numerals and comes complete with matching curb chain and beautifully gift boxed for a lovely presentation. Matching curb chain. Hunter case. Skeleton dial. Roman numerals. 17 jewel mechanical movement. Comes with deluxe gift box. 14k gold plated. 1.89 in. Dia. - 14k rose gold-plated brass 48mm demy hunter case with a matching curb chain - Skeleton dial with roman numerals - 17 jewel mechanical movement - Deluxe gift box Charles-Hubert, Paris Rose Gold-Plated Mechanical Pocket Watch",
+  "StartTime": "2017-04-13T02:46:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxNVgxNTAw/z/jIUAAOSwnF9Y7uai/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5ODQ=/z/JWUAAOSww3tY7uah/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5ODE=/z/~dIAAOSwTM5Y7uaj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4OTQ=/z/q4wAAOSw4CFY7uai/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3OVgxNTAw/z/X-4AAOSw~CFY7uah/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDE1MDA=/z/jHsAAOSwnF9Y7uah/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "848870003451",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0848870003451",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3806",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.35 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.9 x W 4.3 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rareearth-83",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "519",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "60",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224446677548080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T02:46:52.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "119.48"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles-Hubert, Paris Rose Gold-Plated Mechanical Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-Rose-Gold-Plated-Mechanical-Pocket-Watch-/122444667754",
+  "Storefront": {
+    "StoreName": "rareearth-83",
+    "StoreURL": "http://stores.ebay.com/id=1579234679"
+  },
+  "ItemID": "122444667754",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT7H59M37S"
+}

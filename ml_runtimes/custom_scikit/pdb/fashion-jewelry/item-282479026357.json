@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P8DT20H55M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282479026357",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Plated-Bridal-Wedding-Crystal-Waist-Belly-Chain-Sari-belt-Body-jewelry-/282479026357",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-15T12:18:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T12:18:13.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Belly",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Glam Jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper",
+        "Name": "Metal"
+      },
+      {
+        "Value": "gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Gold Plated Bridal Wedding Crystal Waist Belly Chain Sari belt Body jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~~ This Listing is for ~~~** Beautifully designed gold crystal embedded belly waist chain as shown in the pic.** Would look sexy with belly dance costumes.** Adjustable from 20 to 36 inches.",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824790263578080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "glamjewels",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "SUNAM, PUNJAB",
+  "HitCount": "37",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgxWDgwMA==/z/elkAAOSwcgNZGZnL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE3WDgwMA==/z/j6oAAOSwAPVZGZnO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgxWDgwMA==/z/slUAAOSw~FJZGZnS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ1WDgwMA==/z/i7EAAOSwlMFZGZnY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDgwMA==/z/vVsAAOSwuMZZGZna/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "148028"
+}

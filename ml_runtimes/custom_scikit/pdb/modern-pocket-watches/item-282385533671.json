@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.89"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Description: 1.Mechanical Unisex Pocket Watch. 2.Mechanical Movement, Power by winding spring manually or self-winding. 3.Black steel watch case &watch chain. 4.See through movement golden skeleton & black watch dial. Item Size(Approx): Case Material: Black Steel Case Diameter: Approx 4.6cm Case Thickness: Approx 1.4cm Chain Length: Approx 36.0cm Chai Material: Black Steel - Mechanial hand-winding movement, provide precise and accurate time keeping. - Retro Bronze Phoenix Painting, All Black Face Design. - Roman numerals dial analog display, very easy to read time. - The adjustable time knob is connected to the chain, just pull out the clock knob to adjust time - A Great Collection; The Best Birthday Gift, Valentine's Day Gift, Wedding Gift, Anniversary Gift, Christmas Gift, New Year Gift. VIGOROSO Men's Hand Winding Steampunk Chain Cool Black Steel Wing Mechanical",
+  "StartTime": "2017-03-06T15:04:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQ5MA==/z/YgoAAOSwSlBYvXqY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI5M1gxNTAw/z/ZGMAAOSwax5YvXqZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxM1gxNTAw/z/ZE0AAOSwax5YvXqZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQyMFgxNTAw/z/H4AAAOSw32lYvXqa/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "712069675609",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0712069675609",
+        "Name": "EAN"
+      },
+      {
+        "Value": "VIGOROSO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "WA225.H",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5.4 x W 2.8 x H 1.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "28",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2823855336718080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T15:04:53.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.89"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "VIGOROSO Men's Hand Winding Steampunk Chain Cool Black Steel Wing Mechanical",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VIGOROSO-Mens-Hand-Winding-Steampunk-Chain-Cool-Black-Steel-Wing-Mechanical-/282385533671",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385533671",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT20H12M58S"
+}

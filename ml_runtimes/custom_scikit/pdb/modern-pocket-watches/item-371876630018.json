@@ -1,0 +1,127 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "South America",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "SA",
+    "AE",
+    "CN",
+    "MV",
+    "NP",
+    "CZ",
+    "GG",
+    "IE",
+    "JE",
+    "BN",
+    "KH",
+    "HK",
+    "MO",
+    "TW",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "518000",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "easyshopping678",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130253",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "96.2"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Store Categories Store home Health & Beauty Clothing,Shoes & Accessories Baby Business & Industrial Computers & Networking Home & Garden RC Helicopter & Accessories Sporting Goods Toy & Video Games Cameras & Photo Jewellery & Watches Cell Phones Accessories Musical Instruments Gear Pet Supplies eBay Motors Other Retro Vintage Style Bronze Steampunk Quartz Necklace Pendant Chain Clock Pocket Watch Eiffel Tower Hollow 100% Brand New. Chain Material: Bronze copper steel Case Material: Bronze copper tone metal Case Diameter: app 2.5cm Case Thickness: app 8mm Chain Length: 39.5cm Style: Eiffel Tower Hollow Pull and Rotating the button on the top to adjust time Press the button on the top to open the cover Note: Due to the difference between different monitors, the picture may not reflect the actual color of the item. We guarantee the style is the same as shown in the pictures. Thank you! Package Content: 1 x Pocket Watch Visit Our eBay Store!",
+  "StartTime": "2017-02-25T06:12:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIwWDcyMA==/z/~ZMAAOSwSlBYsSBa/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcyWDU4NQ==/z/xLsAAOSw2gxYsSBc/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTUzWDU4NQ==/z/~egAAOSwSlBYsSBd/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/2NoAAOSwdGFYsSBe/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTQyWDU4NQ==/z/KAgAAOSwB-1YsSBf/$_12.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.45"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "712319365205",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "SKU": "CN01+18825:ES9P",
+  "HitCount": "237",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3718766300188080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T06:12:50.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.45"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "30 days money back! Refund will be given as:Money Back or exchange(buyer's choice).Please write the order number\uff08Contact Seller)on the package in order to get your refund quickly.Buy with confidence!",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Vintage-Bronze-Steampunk-Quartz-Necklace-Pendant-Chain-Pocket-Watch-ES9P-/371876630018",
+  "Location": "Shenzhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro Vintage Bronze Steampunk Quartz Necklace Pendant Chain Pocket Watch ES9P",
+  "Storefront": {
+    "StoreName": "easyshopping678",
+    "StoreURL": "http://stores.ebay.com/id=1122341378"
+  },
+  "ItemID": "371876630018",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT11H19M1S"
+}

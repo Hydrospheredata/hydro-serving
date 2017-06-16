@@ -1,0 +1,103 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Doxa Swiss Pocket Watch 15 Rubies .800 Silver S/N 2040095 50 mm Diameter",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-29T22:43:07.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/incAAOSw7GRZBRNY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUzNVgxNjAw/z/3rYAAOSwnONZBRNn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4OVgxNjAw/z/5EUAAOSwT-FZBRNy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1OFgxNjAw/z/X4IAAOSww5NZBRN~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3N1gxNjAw/z/xnIAAOSwhvFZBROI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2MlgxNjAw/z/x~EAAOSwhvFZBROQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2OFgxNjAw/z/kA4AAOSw7GRZBROb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NVgxNjAw/z/zBMAAOSwhvFZBROl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2MlgxNjAw/z/6hsAAOSwT-FZBROu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTIw/z/z98AAOSwhvFZBRO4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTkz/z/qdoAAOSw42dZBRPB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3NFgxNjAw/z/ieMAAOSwX61ZBRPP/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "163.36"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Doxa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2040095",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "SKU": "F109 $135",
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3619938824088080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T22:43:07.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "219.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Doxa-Swiss-Pocket-Watch-15-Rubies-800-Silver-S-N-2040095-50-mm-Diameter-/361993882408",
+  "ConditionDescription": "See Photos. Watch in great working order",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "361993882408",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT4H8M55S"
+}

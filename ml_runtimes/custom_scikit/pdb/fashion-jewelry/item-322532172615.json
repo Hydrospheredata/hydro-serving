@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P21DT4H47M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322532172615",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PURE-SILVER-HANDMADE-SOLID-925-SILVER-INDIAN-PAYAL-ANKLET-10-5-57-grams-/322532172615",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-27T14:18:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T14:18:59.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "10.5",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "PURE SILVER HANDMADE SOLID 925 SILVER  INDIAN PAYAL/ ANKLET 10.5\"  57 grams",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "10.5\" silver anklets 57grams",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225321726158080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "char_sale100",
+    "FeedbackScore": "55",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "4",
+  "Location": "Alpharetta, Georgia",
+  "HitCount": "31",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/IkMAAOSwfZ1WZKiA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/j1MAAOSwcBhWZKiK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/rc0AAOSw7FRWZKiW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/BIIAAOSw8-tWZKii/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/ysIAAOSwnipWZKiw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/eREAAOSwf-VWZKi-/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "30022"
+}

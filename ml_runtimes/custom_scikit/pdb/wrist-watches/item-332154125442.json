@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Datejust QS 116200 116220 116234 Silver floral Dial SS #A35 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T07:13:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMy/z/aTkAAOSwuxFYx5gz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMy/z/K~IAAOSw4CFYx5gz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgwWDEyODA=/z/8DUAAOSwax5Yx5gz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/EtIAAOSwzgBYx5gz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/wZQAAOSwTM5Yx5gz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/VpIAAOSwXYtYx5gz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMy/z/N0kAAOSwYXVYx5gz/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "660.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Datejust",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "103",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3321541254428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T07:13:52.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "660.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Datejust-QS-116200-116220-116234-Silver-floral-Dial-SS-A35-/332154125442",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Datejust QS 116200 116220 116234 Silver floral Dial SS #A35",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "332154125442",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT10H44M43S"
+}

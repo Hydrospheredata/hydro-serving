@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P14DT9H45M28S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192193010001",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rachel-Rhodium-Plated-Pendant-Swarovski-Crystals-16-18-Adjustable-Length-/192193010001",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-21T00:52:35.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-20T00:52:35.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rachel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "Rachel Rhodium Plated Pendant & Swarovski Crystals - 16\"-18\" Adjustable Length",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Rachel Rhodium Plated Pendant & Swarovski Crystals - 16\"-18\" Adjustable LengthManufacturing Standards: -Made in Canada. -Lead & Nickel Free. -All crystals are Swarovski crystals. Each crystal is hand set. Rachel Plating Standards:-Gold Plated items are 22kt gold. -Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. To maintain your jewellery always avoid spraying perfumes or working with chemical products while wearing your jewellery. Multiple Purchases: For buyers wishing to make multiple purchases I will charge an additional $1.00 in shipping for every item after the 1st purchase. Shipping Details: -All items are carefully packaged to ensure safe delivery of items. -Shipping times may vary according to location and method of shipment selected. -Buyers outside of Canada may select International Air (45 day delay tracking) OR Xpresspost (immediate tracking + signature). -Seller is not responsible for shipping delays once package has transferred to postal carriers. Add me to your Favorites list!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921930100018080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "Quantity": "1",
+  "Location": "Toronto, Ontario",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~IoAAOSwLVZVkfxk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5rQAAOSwDNdVkfxl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wKMAAOSwMmBVkfxm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/714AAOSwjVVVkfxm/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4R1C8"
+}

@@ -1,0 +1,134 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "T4N 0L9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Hamilton GCT 4992B Vintage Military Marked Navigational Pocket Watch. In excellent + condition. Runs strong keeps good time. Dial and hands are excellent. Case is in very good condition. This watch has full US government markings. Ser# dates to 1944. Sorry NO ZERO FEEDBACK BUYERS * We do not give any price adjustments, our guarantee policy is to return the item for repair or refund (no refund for shipping charges). As per E-Bay's policy, The buyer is responsible for return postage * Canadians Pay GST or HST Tax",
+  "StartTime": "2017-05-15T19:10:59.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxNTEw/z/jS0AAOSwBt5ZGfwN/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU1OVgxNjAw/z/tSkAAOSw1WJZGfwI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDc1/z/pbwAAOSwX9FZGfwT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI1WDE2MDA=/z/VFMAAOSwIaFZGfwZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg3WDE2MDA=/z/YPcAAOSwK6RZGfwc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQwNFgxNjAw/z/JrsAAOSwurZZGfwj/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM3NlgxNjAw/z/cPkAAOSwX61ZGfwp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIyNlgxNDMw/z/xnsAAOSwCQZZGfwu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU3OFgxNjAw/z/NH4AAOSwYvFZGfw2/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "550.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hamilton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "1940-1949",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "22 jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "4992B",
+        "Name": "Model"
+      },
+      {
+        "Value": "12",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "iwc",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1996",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "56",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019249385168080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T19:10:59.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "550.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hamilton-GCT-4992B-Vintage-Military-Markings-Navigational-Pocket-Watch-/201924938516",
+  "Location": "Red Deer, Alberta",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Hamilton GCT 4992B Vintage Military Markings Navigational Pocket Watch",
+  "Storefront": {
+    "StoreName": "iwc",
+    "StoreURL": "http://stores.ebay.com/id=168714"
+  },
+  "ItemID": "201924938516",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT30M46S"
+}

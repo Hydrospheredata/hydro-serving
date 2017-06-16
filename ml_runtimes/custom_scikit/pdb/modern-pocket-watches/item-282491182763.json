@@ -1,0 +1,140 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "72653",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "CHARLES HUBERT POCKET WATCH NEW",
+  "StartTime": "2017-05-24T01:45:45.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/GWgAAOSwGJlZHNW-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/P7kAAOSwIaFZHNW~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/68MAAOSwPh5ZHNXB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/N6AAAOSwuMZZHNXC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/aj8AAOSwDiBZHNXE/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charles-Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mhguy6877",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3878",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "21",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824911827638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T01:45:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHARLES-HUBERT-POCKET-WATCH-NEW-/282491182763",
+  "Location": "Mountain Home, Arkansas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CHARLES HUBERT POCKET WATCH NEW",
+  "Storefront": {
+    "StoreName": "Volksetymologie",
+    "StoreURL": "http://stores.ebay.com/id=596194588"
+  },
+  "ItemID": "282491182763",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT7H7M57S"
+}

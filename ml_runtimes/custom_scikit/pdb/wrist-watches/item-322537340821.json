@@ -1,0 +1,160 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "138.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jacksonville, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:05:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1315306337",
+    "StoreName": "Bixme"
+  },
+  "CurrentPrice": {
+    "value": "138.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:05:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "11513",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "Africa",
+  "ItemID": "322537340821",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Scratch resistant sapphire",
+        "Name": "Dial window material type"
+      },
+      {
+        "Value": "Fold-Over Clasp with Safety",
+        "Name": "Clasp"
+      },
+      {
+        "Value": "Stainless steel",
+        "Name": "Case material"
+      },
+      {
+        "Value": "45 millimeters",
+        "Name": "Case diameter"
+      },
+      {
+        "Value": "13 millimeters",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Stainless steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's Standard",
+        "Name": "Band length"
+      },
+      {
+        "Value": "22 millimeters",
+        "Name": "Band width"
+      },
+      {
+        "Value": "Grey",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Dial color"
+      },
+      {
+        "Value": "Stainless steel",
+        "Name": "Bezel material"
+      },
+      {
+        "Value": "Stationary",
+        "Name": "Bezel function"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Date",
+        "Name": "Calendar"
+      },
+      {
+        "Value": "165 Feet",
+        "Name": "Water resistant depth"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Swiss",
+        "Name": "Manufacturer of Machinery"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Men's 17502 Specialty Analog Display Swiss Quartz Silver Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-17502-Specialty-Analog-Display-Swiss-Quartz-Silver-Watch-/322537340821",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225373408218080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "32225",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H40M49S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/1QoAAOSwEHpZLpVs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/hTEAAOSwjL5ZLpVs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/dRYAAOSwGJlZLpVs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/rcUAAOSwhvFZLpVs/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "We represent you authentic watch from Invicta. Interesting design and great quality. Case diameter 45 millimeters, Case Thickness 13 millimeters. Dial window material type is scratch resistant sapphire. The grey watch strap length men's standard, strap width - 22 millimeters. The watch strap material is stainless steel. The clasp is fold-over clasp with safety. The model installed quartz movement with analog display. This watch will delight you every day!",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.1",
+    "FeedbackScore": "72",
+    "UserID": "bixmellc",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

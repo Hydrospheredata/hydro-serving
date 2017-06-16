@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P25DT11H54M5S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Great Condition on front Scratches on the back that could be buffed out",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "245.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222530877281",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JAMES-AVERY-RARE-Retired-Version-18-KT-GOLD-925-Cross-EUC-/222530877281",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "245.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T02:44:40.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T02:44:40.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "James Avery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pendant, Religious",
+        "Name": "Type"
+      },
+      {
+        "Value": "Yellow Gold and Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "18kt and .925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Jewelry Type"
+      }
+    ]
+  },
+  "Title": "JAMES AVERY RARE Retired Version 18 KT GOLD & 925 Cross EUC!",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "JAMES AVERY Cross Pendant, Unisex18kt/Sterling Silver Approx 1.25 x 3/4\"~ 3.20 Grams Great Condition Professionally cleaned~ Scratches on the back, could be buffed out FAST SHIPPING! Check out my other items! Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225308772818080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "silver_dove_2011",
+    "FeedbackScore": "707",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Silver Dove Gifts Galore",
+    "StoreURL": "http://stores.ebay.com/id=1082384685"
+  },
+  "Location": "Fort Worth, Texas",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzkx/z/YDcAAMXQxU9R8FuS/$T2eC16JHJHMFH!!BZepOBR8FuRwchw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N2UAAOxyPc5R-R0X/$(KGrHqUOKooFHnhQVE98BR-R0(ckf!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzgw/z/KtUAAOxys4RR8FuR/$(KGrHqUOKooFHnhQVE98BR8FuQqqtw~~60_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "76132"
+}

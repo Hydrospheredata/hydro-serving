@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "42.0",
+    "_currencyID": "GBP"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "232360781178",
+  "TimeLeft": "P9DT22H46M30S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "42.0",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-J-CREW-Poppy-drop-earrings-deep-copper-item-G3318-/232360781178",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "54.11",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:20:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T09:20:57.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "J.CREW",
+        "Name": "Brand"
+      },
+      {
+        "Value": "gold plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "post",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "teardrop",
+        "Name": "Main Stone Shape"
+      }
+    ]
+  },
+  "Title": "Authentic J.CREW Poppy drop earrings (deep copper) item G3318",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "J.CREWPoppy drop earrings (deep copper) item G3318 0 0 1 38 236 Glyn Peter Machin 1 1 273 14.0 Normal 0 21 false false false EN-US ZH-CN X-NONE Colour: Deep copper SIZE & FIT Length: 2 1/2\". PRODUCT DETAILS These bold earrings with clusters of beaded flowers add just enough color (and pretty movement) to any outfit. Brass casting, epoxy stone, acrylic beads, glass beads. Light gold ox plating. Import. Item G3318. PLEASE NOTE : - Earrings are in brand new condition without tag.- The first 5 pictures were taken by the seller myself. The last 2 pictures are official images. - Earrings will come with the branded black pouch.- I use \u00a3GBP in my system, not $USD. AUTHENTICITY:- All items in my shop are under eBay MONEY BACK GUARANTEE protection.- Earrings are 100% guaranteed authentic J.CREW products or your money back. SHIPPING & POSTAGE:- \u00a33.50 - Standard post service, which does NOT have a tracking number. - \u00a310 GBP - Tracked mail service, which has tracking number. Please contact me if you need a tracked mail service.- Dispatch time, 1 working day after payment is cleared. - Shipping to outside EU area may take longer than 2-3 weeks time. - Seller moved from UK to Denmark, so product will be shipped from Denmark instead of UK. More J.CREW products are available in my shop. Thank you for visiting.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323607811788080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "kaki2480",
+    "FeedbackScore": "315",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "kaki2480",
+    "StoreURL": "http://stores.ebay.com/id=1042633964"
+  },
+  "Quantity": "1",
+  "Location": "Birmingham",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QycAAOSwdGFY2jqe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ShEAAOSwuLZY2jqa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0h0AAOSwsW9Y2jqX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JVQAAOSwB-1Y2jqU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WfoAAOSwCU1Y2jqQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~C8AAOSwmgJY2jq~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/QHQAAOSwhQhY2jq7/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "B5 4DY"
+}

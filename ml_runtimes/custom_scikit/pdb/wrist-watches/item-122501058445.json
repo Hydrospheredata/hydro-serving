@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "Title": "LONGINES MOVEMENT CAL 27.0 FOR PARTS",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "75.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "15",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "NO WORK TO REPAIR OR PARTS",
+  "StartTime": "2017-05-17T12:55:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/XdYAAOSw~bFWJEoi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Yi8AAOSwI-BWJEpW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/RckAAOSwhcJWJEqE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/rgMAAOSw5ZBWJEq3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/DgsAAOSwAYtWJEr5/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "LONGINES",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "A CUERDA",
+        "Name": "Movement"
+      },
+      {
+        "Value": "CALIBRE 27.0",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sudclock01",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "70",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225010584458080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-16T12:55:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "75.0"
+  },
+  "BidCount": "0",
+  "Country": "AR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ConditionDescription": "DIAL brands . IT DOES NOT WORK",
+  "Location": "Capital Federal, default",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LONGINES-MOVEMENT-CAL-27-0-PARTS-/122501058445",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "122501058445",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P15DT14H28M12S"
+}

@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT4H6M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "42.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302336065992",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KIRKS-FOLLY-15th-ANNIVERSARY-ROMANCE-CRYSTAL-TIARA-Silvertone-Collector-Item-NEW-/302336065992",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T15:27:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T15:27:38.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kirks Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Tiara",
+        "Name": "Style"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silvertone",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "KIRKS FOLLY 15th ANNIVERSARY ROMANCE CRYSTAL TIARA Silvertone Collector Item NEW",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "KIRKS FOLLY 15th ANNIVERSARY ROMANCE CRYSTAL TIARA - Silvertone Perfect for a 15th birthday or anniversary! The fairies want to treat you like a princess when you wear the \"15th Anniversary Romance Crystal Tiara\". An openwork design with glistening icy clear crystal rhinestones features a large crystal #15 in the center. Two sturdy metal combs securely keep your twinkling tiara in perfect place while you head off to the ball!*Collector\u2019s Item commemorating KIRKS FOLLY 15th ANNIVERSARY *Silvertone *PayPal accepted for payment, please pay within 3 days of auction close. Items ship via the US Postal Service once payment has been received. Please note that I do not accept returns, so email me with any questions prior to bidding. Item comes from a smoke free and pet free environment. I will do combined shipping, just notify me by email so I can adjust the invoice. Items are shipped within 24 hours of confirmed payment. Once an item has shipped, I will email the delivery confirmation number to the buyer. Sorry, United States shipping only",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023360659928080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "chicandcheerful4u",
+    "FeedbackScore": "424",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "NJ",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjEzWDk2Mg==/z/2SYAAOSwgQ9VkFPM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM4WDEwNzY=/z/JtoAAOSwHnFVkFPO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjIxWDk1NA==/z/1xAAAOSwu4BVkFPO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkyWDEzNTg=/z/vmoAAOSw~gRVkFPR/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

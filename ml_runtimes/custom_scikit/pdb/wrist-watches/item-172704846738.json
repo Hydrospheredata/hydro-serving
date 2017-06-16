@@ -1,0 +1,72 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727048467388080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T00:29:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T00:29:54.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "BuyItNowPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172704846738",
+  "HandlingTime": "3",
+  "Description": "Gold tone bracelet wrist watch. Model GENWM1311L Stainless steel back. Quartz round face. Crystal details around face and chain (see photos). Please contact to ask questions regarding photos or bracelet style watch. Thank you for looking and good luck!",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Gold Crystal-accented Round Bracelet Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Crystal-accented-Round-Bracelet-Wrist-Watch-/172704846738",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "PostalCode": "91739",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Rancho Cucamonga, California",
+  "TimeLeft": "P6DT9H13M36S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iiEAAOSwcB5ZLg0d/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/f9QAAOSwGJlZLg0k/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/av8AAOSww9xZLg0t/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/j5YAAOSwIaFZLg00/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "newnothings4u",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

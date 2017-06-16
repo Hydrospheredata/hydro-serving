@@ -1,0 +1,389 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "RU",
+    "UZ",
+    "AS",
+    "AU",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "CY",
+    "DE",
+    "GG",
+    "IE",
+    "IT",
+    "MK",
+    "SJ",
+    "CH",
+    "GB",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "BN",
+    "KH",
+    "HK",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product Description 100% New and high quality Gender : Mens Fashion Lovely And High Quality Sports Watch! Movement:Quartz Specification: Diameter: About 4.5cm Thickness: About 1.2cm Total Length of Chain: About 80 cm Package: 1 x pocket watch 1 x necklace chain Note: The Real Item's Color which you receive may varies from the listing picture because of different Camera lens, and different light environment. If there is any problem, please contact us through eBay message firstly, we will resolve the problem. Shipping & Delivery Time inkFrog Analytics",
+  "StartTime": "2017-03-09T15:20:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/8jcAAOSw2xRYQOA4/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "2",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "23",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "ebuy*pulse",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "78410",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "HitCount": "211",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T15:20:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "60 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "#1",
+          "#2",
+          "#3",
+          "#4",
+          "#5",
+          "#6",
+          "#7"
+        ],
+        "Name": "Pattern"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Pattern",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "#1",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/YqUAAOSw-0xYQN7M/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "#2",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/Y1wAAOSw-0xYQN7T/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "#3",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/sxIAAOSwux5YQN7Z/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "#4",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/3QEAAOSwnHZYQN7f/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "#5",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/vY0AAOSwEzxYQN7m/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "#6",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/wZsAAOSwcUBYQN7t/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "#7",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/bhwAAOSw-0xYQN83/$_12.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087532",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#1",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087533",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#2",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087534",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#3",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087535",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#4",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087536",
+        "SellingStatus": {
+          "QuantitySold": "2",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#5",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087537",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#6",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.99"
+        },
+        "SKU": "087538",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#7",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      }
+    ]
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Steampunk Antique Mens Skeleton Owl Stainless Steel Quartz Necklace Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Steampunk-Antique-Mens-Skeleton-Owl-Stainless-Steel-Quartz-Necklace-Pocket-Watch-/311819469483?var=",
+  "Storefront": {
+    "StoreName": "ebuypulse_shop",
+    "StoreURL": "http://stores.ebay.com/id=1060493811"
+  },
+  "ItemID": "311819469483",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT20H28M42S"
+}

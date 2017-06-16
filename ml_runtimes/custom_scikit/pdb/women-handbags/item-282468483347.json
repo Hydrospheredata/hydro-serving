@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824684833478080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/71oAAOSwblZZEVzg/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/cZUAAOSw8HBZEVzj/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/W3cAAOSwONBZEVzm/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/k-IAAOSwcB5ZEVzr/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/bNAAAOSwIQdZEVzu/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8DEAAOSwblZZEVzz/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/itwAAOSwcaFZEVz4/$_3.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CalPak-Champ-21-inch-Carry-Rolling-Upright-Duffel-Bag-/282468483347",
+  "ConvertedCurrentPrice": {
+    "value": "106.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "CalPak Champ 21-inch Carry On Rolling Upright Duffel Bag Product Features 100% Polyester Imported 13\" high 21\" wide Large Main Compartment Inline Skate Ball-Bearing Wheels Detachable Non-Slip Shoulder Strap Self-Locking Retractable Handle System FrontandSide Accessory Pockets The dimensions are 20x12x12 when measuring from the base and 21x13x13 when stuffed. Product Description Shipping Policies Free 2-4 business day shipping with 1 business day processing eBay's arrival estimate is based on average ship times & not a guarantee Please make sure you want the item, we are unable to support cancellations Buyer is responsible for address entered, we do not support address changes. Buyer is responsible for all applicable local & state laws regarding purchase Return Policy Returns must be NEW & UNUSED condition with all parts & original packaging Please message us for the required RMA to return an item Return shipment for defective items is paid for by us! We do not stock parts. All returns require returning the entire item Perishable items are guaranteed to be in date or full refund Customer Service Please allow us to resolve any issues before leaving feedback. We will resolve any issue! Please allow up to 24 hours for a response!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "106.5",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "30",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "usa-fastrusted"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "CalPak Champ 21-inch Carry On Rolling Upright Duffel Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T06:08:59.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P5DT13H20M13S",
+  "EndTime": "2017-06-08T06:08:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "CalPak"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "CalPak"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0602409325090"
+      },
+      {
+        "Name": "UPC",
+        "Value": "602409325090"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282468483347",
+  "Storefront": {
+    "StoreName": "usa-fastrusted",
+    "StoreURL": "http://stores.ebay.com/id=1296340435"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B002YMNTXC",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

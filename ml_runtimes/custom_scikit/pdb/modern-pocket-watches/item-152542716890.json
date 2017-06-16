@@ -1,0 +1,57 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "120.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "30",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "in good working condition",
+  "StartTime": "2017-05-09T15:26:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9lwAAOSwi0RX1t-t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MjsAAOSwgmJX1t~X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QngAAOSwvzRX1t~t/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "RU",
+  "Seller": {
+    "UserID": "olgader",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1284",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "26",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525427168908080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T15:26:50.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "120.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Surovikino, Volgograd",
+  "Title": "MOLNIJA Soviet Russian pocket watch TRACTOR",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MOLNIJA-Soviet-Russian-pocket-watch-TRACTOR-/152542716890",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152542716890",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT20H44M2S"
+}

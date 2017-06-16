@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921405007888080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjEy/z/-zgAAOSwzgBY1-Xo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5OTI=/z/4YIAAOSw32lY1-Xn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1Mjk=/z/kvwAAOSwax5Y1-Xn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMxWDE1MDA=/z/6A8AAOSwhQhY1-Xn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE1MDA=/z/JkMAAOSwDKtY1-Xn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3MTk=/z/u0gAAOSw4CFY1-Xn/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tommy-Hilfiger-American-Icon-Mini-Tote-Net-Womens-Tote-Weis-Net-Print-12-/192140500788",
+  "ConvertedCurrentPrice": {
+    "value": "275.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: no description",
+  "Title": "Tommy Hilfiger American Icon Mini Tote Net, Women's Tote, Wei\u00df (Net Print), 12",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "275.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-26T16:01:37.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P21DT23H41M6S",
+  "EndTime": "2017-06-24T16:01:37.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "567807486"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140500788",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139854091:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

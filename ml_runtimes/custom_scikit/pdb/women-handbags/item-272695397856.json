@@ -1,0 +1,127 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726953978568080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDM5/z/BKcAAOSwnHZYjrZN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/3Y8AAOSwopRYjrZP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg2MTY=/z/CcAAAOSwA3dYjrZR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzcxWDE2MDA=/z/CekAAOSwA3dYjrZU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcwWDE2MDA=/z/NIUAAOSwo4pYjrZX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTY1/z/QkoAAOSw9GhYjrZa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NzM=/z/35gAAOSwNnRYjrZc/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Core-Pretty-Elizababy-Shoulder-Bag-Black-One-Size-/272695397856",
+  "ConvertedCurrentPrice": {
+    "value": "268.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Oversized shoulder bag featuring metallic logo plaque and allover tonal letter stitching Dual top handles and removable/adjustable cross-body strap Additional Details ------------------------------ Department: womens Package quantity: 1 Part number: M3PE045 MPN: M3PE045 This item is posted and managed courtesy of Bonanza.com",
+  "Title": "Marc By Marc Jacobs Core Pretty Elizababy Shoulder Bag,Black,One Size",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "268.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Wayne, New Jersey",
+  "Seller": {
+    "FeedbackScore": "239",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "naboolou"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07470",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T16:29:46.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P28DT1H10M4S",
+  "EndTime": "2017-06-30T16:29:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "ASIN",
+        "Value": "B00591VZ6I"
+      },
+      {
+        "Name": "binding",
+        "Value": "Baby Product"
+      },
+      {
+        "Name": "format",
+        "Value": "Baby Product"
+      },
+      {
+        "Name": "manufacturer",
+        "Value": "Marc by Marc Jacobs Handbags"
+      },
+      {
+        "Name": "material_type",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "model",
+        "Value": "CORE PRETTY ELIZABABY"
+      },
+      {
+        "Name": "mpn",
+        "Value": "CORE PRETTY ELIZABABY"
+      },
+      {
+        "Name": "size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "ean",
+        "Value": "0883936647941"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272695397856",
+  "Storefront": {
+    "StoreName": "The Digital Cantina",
+    "StoreURL": "http://stores.ebay.com/id=34905868"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Partial refund available within 30 days Buyer pays return shipping.\nInitial shipping costs and 15% restocking fee apply.\nRestocking fees up to 50% will be deducted on items that are not returned new, unused with original packaging and tags attached.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "OQ-DNGU-XEOQ",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

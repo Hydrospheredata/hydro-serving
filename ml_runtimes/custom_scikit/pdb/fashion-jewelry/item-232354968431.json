@@ -1,0 +1,155 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "232354968431",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "43205",
+  "ExcludeShipToLocation": [
+    "MX",
+    "NG",
+    "SO",
+    "YE",
+    "IT"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "findingking",
+    "FeedbackScore": "578739",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "GreenShooting"
+  },
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/NhcAAOSw1WJZLlmL/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "QU-QG286-10",
+  "StartTime": "2017-05-31T05:49:59.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Fancy-Ringed-Anklet-Jewelry-/232354968431?var=",
+  "EndTime": "2017-06-30T05:49:59.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "9\"",
+          "10\""
+        ],
+        "Name": "Chain Length"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "76286",
+        "StartPrice": {
+          "value": "34.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "0"
+      },
+      {
+        "SKU": "76285",
+        "StartPrice": {
+          "value": "34.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "30"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "925 sterling",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "spring ring",
+        "Name": "Clasp Type"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "FindingKing",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Fancy Ringed Anklet Jewelry",
+  "TimeLeft": "P24DT20H23M45S",
+  "Location": "Mesa, Arizona",
+  "Description": "--> FindingKing Sterling Silver Fancy Ringed Anklet Jewelry Chain LengthApproximate LengthApproximate Weight10\"254mm4.999 grams 9\"228.6mm4.59 grams All weights and measurements are approximate.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "30",
+  "PostalCode": "85215"
+}

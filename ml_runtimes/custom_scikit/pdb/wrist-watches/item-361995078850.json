@@ -1,0 +1,86 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Stara Zagora, Stara Zagora",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:49:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:49:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "BG",
+  "ItemID": "361995078850",
+  "HandlingTime": "2",
+  "Description": "Check out my other items! VERY RARE MODEL Works WWII ERA VERY RARE MODEL Clock is an antique. clock works This is an old mechanical watch Buy what you see. pictures speak ASK will respond shipment travels with priority and recommendation shipment travels in Europe 14-22 working days USA 22-35 WORKING DAYS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-swiss-WATCH-HENEX-ancre-15-rubus-WWII-ERA-COLLECTORS-MODEL-1930-RETRO-/361995078850",
+  "ConditionDescription": "VERY RARE COLLECTORS MODEL d",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619950788508080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H17M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uVoAAOSwq19XC5IJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/19wAAOSwy5ZXC5ID/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xbcAAOSw8RJXC5IO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FM8AAOSwGYVXC5IU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uZ8AAOSwiylXC5Ia/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yAkAAOSw8RJXC5Ig/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yOEAAOSw8RJXC5In/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TUIAAOSw-RRXC5Is/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/91MAAOSwsN9XC5Iz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zGMAAOSwgApXC5I5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/350AAOSwy5ZXC5I~/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "VINTAGE swiss WATCH HENEX ancre 15 rubus WWII ERA COLLECTORS MODEL 1930 RETRO",
+  "Seller": {
+    "PositiveFeedbackPercent": "93.3",
+    "FeedbackScore": "560",
+    "UserID": "ddok75",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

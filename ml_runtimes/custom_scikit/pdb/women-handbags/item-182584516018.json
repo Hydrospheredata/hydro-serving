@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "LotSize": "2",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTgwWDEyMjg=/z/seQAAOSwa~BYbSrC/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Elderberry-Grand-Traveler-Medium-Cosmetic-NIP-NWT-/182584516018",
+  "ConvertedCurrentPrice": {
+    "value": "128.25",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Microfiber Grand Traveler Elderberry & Medium Cosmetic NIP NWT",
+  "Title": "Vera Bradley Elderberry  Grand Traveler  & Medium Cosmetic NIP NWT",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "128.25",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "West Bloomfield, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2002",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "ponytailjj"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48324",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "US"
+  ],
+  "StartTime": "2017-05-20T14:32:39.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P16DT21H50M46S",
+  "EndTime": "2017-06-19T14:32:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Microfiber"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182584516018",
+  "Storefront": {
+    "StoreName": "ponytailjj",
+    "StoreURL": "http://stores.ebay.com/id=141835503"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825845160188080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

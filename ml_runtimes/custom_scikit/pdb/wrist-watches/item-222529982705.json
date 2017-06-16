@@ -1,0 +1,115 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.72",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Ashby-de-la-Zouch",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:34:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T07:34:58.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "PO Box"
+  ],
+  "ItemID": "222529982705",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Newmark",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Swiss Ladies Stainless Steel Newmark Mechanical Bracelet Watch for Sale",
+  "ConditionDescription": "Lovely Vintage Ladies Stainless Steel Swiss Newmark Mechanical Bracelet Watch for Sale. Silver bracelet with adjustable clasp White dial with black Newmark name gold hands and silver markers Slight scratches only to case  This watch tested over 24 hours and runs to time within 5 minutes Case and bracelet ultrasonically cleaned and sparkly",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Swiss-Ladies-Stainless-Steel-Newmark-Mechanical-Bracelet-Watch-Sale-/222529982705",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225299827058080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "LE65 2JR",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H2M52S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUyNlgxNjAw/z/pbkAAOSwFe5Xw1bt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAx/z/qUwAAOSw5ClXw1b5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NjU=/z/WcwAAOSwxg5Xw1cL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTQz/z/rTQAAOSw5ClXw1cd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDE2MDA=/z/IUgAAOSwGtRXw1ch/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mjc5WDE2MDA=/z/JNUAAOSwknJXw1co/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcxWDE2MDA=/z/XOQAAOSwxg5Xw1cw/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage Swiss Ladies Stainless Steel Newmark Mechanical Bracelet Watch for Sale Silver bracelet with adjustable clasp White dial with black Newmark name gold hands and silver markers Slight scratches only to case and bracelet only This watch tested over 24 hours and runs to time within 5 minutes Case and bracelet ultrasonically cleaned and sparkly Please study High Resolution photos what you see is what you will receive some marks and scratches but nothing bad All paypal transactions must be payed for within 24 hours of auction end The photos form part of the offer so please study carefully before bidding as i will not accept returns unless not as described All non payers will be reported no excuses Buyers with less than 10 positive feedback scores and any negative feedback contact me before bidding as your bid may be cancelled I ship to western europe north america japan and australia, any other destinations please ask International bidders welcome, postage applies to listed destinations, if you live in a non listed postal destination contact me to ask for costs Any questions contact by email on ebay or o7977495941 phone or text Gill",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "627",
+    "UserID": "bygonesparkleandtime",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

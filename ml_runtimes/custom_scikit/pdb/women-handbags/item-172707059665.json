@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JfQAAOSwZ4dZL4Yf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/x78AAOSwDiBZL4Yg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xkYAAOSwIaFZL4Yi/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERY-RARE-Estherlovesyou-1st-Edition-Pink-Backpack-Large-Wego-Lazy-Oaf-Japan-/172707059665",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new condition! 1st edition estherlovesyou you backpack. By Esther Kim the backpack is about 30inches tall and is super big and soft bought from Japan",
+  "Title": "VERY RARE Estherlovesyou 1st Edition Pink Backpack Large Wego Lazy Oaf Japan",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Santa Cruz, California",
+  "Seller": {
+    "FeedbackScore": "137",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "kitte-corru"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "95060",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T03:16:27.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P28DT12H32M30S",
+  "EndTime": "2017-07-01T03:16:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Fur"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Estherlovesyou"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172707059665",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727070596658080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

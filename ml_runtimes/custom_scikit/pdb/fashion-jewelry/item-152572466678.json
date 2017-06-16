@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "152572466678",
+  "PrimaryCategoryID": "50647",
+  "ListingStatus": "Active",
+  "Site": "Australia",
+  "PostalCode": "2000",
+  "SecondaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "ConvertedCurrentPrice": {
+    "value": "51.32",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "ConditionDisplayName": "New with tags",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525724666788080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "96.6",
+    "UserID": "powersell2008",
+    "FeedbackScore": "8907",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "OutdoorAddiction2008",
+    "StoreURL": "http://stores.ebay.com/id=527583602"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjgwWDY3OA==/z/ooAAAMXQ83xSHDz6/$T2eC16JHJF8FFqHZW,97BSHDz4850!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc5WDY3Nw==/z/KqYAAOxytQxSHDz6/$(KGrHqJHJCIFH8um(S1YBSHDz51eV!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDczOA==/z/NxsAAMXQ4uJSHDz5/$(KGrHqUOKpYFIKf1iJs-BSHDz4yUdQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "TimeLeft": "P1DT16H49M20S",
+  "StartTime": "2017-06-04T04:56:43.000Z",
+  "AvailableForPickupDropOff": "true",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "AUD"
+  },
+  "SecondaryCategoryID": "50692",
+  "HitCount": "-1",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/8-8-5MM-Fashion-Noble-Silver-White-Oblateness-Natural-Freshwater-Pearl-Earrings-/152572466678",
+  "EndTime": "2017-06-07T04:56:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Natural Freshwater Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "8-8.5MM Fashion Noble Silver+White Oblateness Natural Freshwater Pearl Earrings",
+  "Location": "Sydney, NSW",
+  "Description": "powersell2008 Store Pearl Dimension\uff1a8-8.5MM Material: Natural Freshwater Pearl+Silver Color\uff1aWhite Pearl Shape: oblateness Pearl Luster\uff1aBright Light Some of the item needs to be custom made and will take few days, we will be contacting you if this happened Normal 0 7.8 \u78c5 0 2 false false false MicrosoftInternetExplorer4 Track Page Views WithAuctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "EligibleForPickupDropOff": "true",
+  "Quantity": "5"
+}

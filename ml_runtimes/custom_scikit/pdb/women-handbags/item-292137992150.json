@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDg3/z/VjIAAOSw0hlZG45k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5OTg=/z/gLQAAOSwq1JZG46z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDcz/z/ehoAAOSws5pZG42a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2M1g5NjY=/z/fdoAAOSw1WJZG41-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA4WDE0MDY=/z/WnoAAOSwjqVZG4zc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM5WDE1MDY=/z/e3MAAOSwrhBZG40Q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUxN1g5NDk=/z/16IAAOSw8lpZG41I/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1M1g5ODA=/z/zQ4AAOSwX61ZG42x/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzOVgxMDgw/z/YdQAAOSwjqVZG43f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/0vcAAOSwlndZG45F/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eeEAAOSw7GRZG4zJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UIMAAOSwi7RZG4y7/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PRUNE-Argentina-Croc-Leather-Purse-/292137992150",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "PRUNE from Argentina Croc Leather Purse has wear as shown in pictures such as marks and fading happy bidding everyone and good luck.",
+  "Title": "PRUNE from Argentina Croc Leather Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Jacksonville, Florida",
+  "Seller": {
+    "FeedbackScore": "32",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "longsilver1913"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32277",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:02:16.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT22H53M8S",
+  "EndTime": "2017-07-02T13:02:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Prune"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Color",
+        "Value": "Green"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "16"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "6"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137992150",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921379921508080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

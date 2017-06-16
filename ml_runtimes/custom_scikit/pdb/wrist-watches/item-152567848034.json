@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "43.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AR",
+  "TimeLeft": "P29DT21H51M27S",
+  "Location": "Capital Federal, Buenos Aires",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:06:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090425867",
+    "StoreName": "BSASCLOCK"
+  },
+  "SecondaryCategoryID": "57720",
+  "CurrentPrice": {
+    "value": "43.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:21.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "CRONOMETRE ESCASANY",
+      "Name": "Brand"
+    }
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ItemID": "152567848034",
+  "HandlingTime": "5",
+  "Description": "CRONOMETRE ESCASANY MOVEMENT \u00a0POCEKT WATCH TAVANES WATCH & CO - 39MM DIAMETER \u00a0- FOR REPAIR OR \u00a0PARTS \u00a0- ENAMELD DIAL - ARABIG NUMBERS - N\u00b0 13637376 - SWISS \u00a0 MAQUINA DE RELOJ DE BOLSILLO CRONOMETRE ESCASANY - TAVANNES WATCH & CO - 39MM DIAMETRO - PARA REPUESTOS O PARTES - CUADRANTE ESMALTE - NUMEROS ARABIGOS - N\u00b0 13637376 - SWISS\u00a0 P37\u00a0 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CRONOMETRE-ESCASANY-MOVEMENT-TAVANES-WATCH-CO-39MM-REPAIR-PARTS-/152567848034",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525678480348080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/wIIAAOSw14xXE590/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/hA0AAOSwiYFXE59-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/maEAAOSw~oFXE5-H/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/d2sAAOSwKfVXE5-j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/i0wAAOSwiYFXE5-r/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "CRONOMETRE ESCASANY MOVEMENT  TAVANES WATCH & CO - 39MM - FOR REPAIR OR  PARTS",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "620",
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

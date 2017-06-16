@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "North Liberty, Iowa",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:36:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=74913398",
+    "StoreName": "bwpsalesllc"
+  },
+  "CurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:36:01.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "A1C2-603679159439",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "282502382253",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wrist Armor",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "37WA021501A",
+        "Name": "MPN"
+      },
+      {
+        "Value": "603679159439",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Wrist Armor Men's WA215 C1 Stainless Steel Analog Display Swiss Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wrist-Armor-Mens-WA215-C1-Stainless-Steel-Analog-Display-Swiss-Quartz-Watch-/282502382253",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825023822538080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "52317",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H24M29S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/h50AAOSwEzxYPudj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/03EAAOSwj85YPub2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/0xwAAOSwj85YPub0/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "A percentage of every officially licensed Wrist Armor watch purchase is donated to the United States Armed ForcesSwiss Analog Quartz movement43.5 mm 316L stainless steel case with screw-down crownK1 shatterproof crystalWater resistant to 660 feet (200 M): suitable for recreational scuba diving Brand, Seller, or Collection NameWrist ArmorModel number37WA021501APart Number37WA021501AItem ShapeRoundDial window material type\ufeffMineralDisplay TypeAnalogClaspBuckleCase materialStainless steelCase diameter43.5 millimetersCase Thickness13 millimetersBand Materialleather calfskinBand lengthMen's StandardBand width24 millimetersBand ColorBrownDial colorGreyBezel materialStainless steelBezel function\ufeffStationaryCalendar\ufeffDateMovement\ufeffSwiss quartzWater resistant depth660 Feet",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "2326",
+    "UserID": "bwpsalesllc",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

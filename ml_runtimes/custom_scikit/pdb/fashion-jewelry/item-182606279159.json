@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT1H53M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "JP",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "147.9",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182606279159",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-240-HEIDI-DAUS-Shore-Thing-Flamingo-Party-Pin-SWAROVSKI-Crystals-/182606279159",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "147.9",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T14:47:21.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T14:47:21.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Heidi Daus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "MULTI COLOR",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NIB $240 HEIDI DAUS \"Shore Thing\" Flamingo Party Pin SWAROVSKI Crystals",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HEIDI DAUS Fabulous coveted \u201cShore Thing\u201d Flamingo Party Brooch Pin Not of the plastic lawn art variety, this beautifully elegant flamingo design brings a tropical essence to your look no matter what the season. The colors and design of this whimsical pin makes this a must have for your jewelry collection. Measurements: Approx. 3 \u00bd L x 2 W Crystals: Light rose, rose, fuchsia, padparadscha and light topaz-color crystals Metal Color: Bronze tone Findings: Joint-and-catch closure Finish: Oxidized, polished Country of Origin: China Packaging: Gift Boxed in HEIDI DAUS box with Black Jewelry Pouch MADE WITH SWAROVSKI\u00ae ELEMENTS. Timeless beauty, this will become an heirloom piece. Fun and whimsy is the look, lovely decorated Brooch Pin. About the Designer: Heidi Daus. Timeless elegance and heirloom charm imbue these high-end, vintage-style jewelry pieces that offer distinct design and signature color. Each Heidi Daus creation is handcrafted for exceptional beauty, using such treasures as semi-precious stones, crystals and antique gold finishes. Cutting-edge technology combines metals, finishes and textures into antique reproductions and art-deco inspired pieces that are in a class by themselves. Email questions prior to bidding. Shipping via Priority Mail, includes full insurance and tracking, $6.95. Returns accepted within 14 days, must be returned with tag intact, as shipped, and buyer pays return shipping. There is a 10% restocking fee. Please bid carefully. Thank you. Comes from a non-smoking home.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826062791598080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "hollygolitly",
+    "FeedbackScore": "3293",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Hollygolitly",
+    "StoreURL": "http://stores.ebay.com/id=14218723"
+  },
+  "Quantity": "4",
+  "Location": "North Palm Beach, Florida",
+  "HitCount": "16",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE1OFgxNTE0/z/HB8AAOSwRQlXfCq4/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTE2WDEzNzc=/z/ZoQAAOSwzJ5XfCq8/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/ODI4WDEwMzQ=/z/q0IAAOSweWVXfCq~/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/ODQxWDEwMjk=/z/SMkAAOSwhOVXfCsS/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33408"
+}

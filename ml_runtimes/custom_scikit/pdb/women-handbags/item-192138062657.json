@@ -1,0 +1,215 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Darama-Womens-Party-Minaudiere-Beads-Clasp-Evening-Bag-Delivery-Free-/192138062657?var=",
+  "ConvertedCurrentPrice": {
+    "value": "53.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Every lady needed to own your beautiful clutch.This clutch bag is hardcase stylish,made from fabric material .Inside can easily fit a cell phone, compact mirror, lip gloss, and other small things. Top beads&rhinestone snap detail ,safty for you clutch.Thiveniently, you can spend the night hands free with the detachable long chain that is included. Measurement is app 20.5x5x12cm(8.07x1.96x4.72inch).The long chain size:118cm (46.45inch)",
+  "Title": "Darama Women's Party Minaudiere Beads Clasp Evening Bag. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Coffee",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/850/048/311692442/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/850/049/312018522/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/850/050/311656904/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/850/051/311991290/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Champagne",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/850/052/312178394/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "54.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850048:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Coffee"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "54.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850049:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Silver"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "54.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850050:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "54.16",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850051:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Gold"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "53.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850052:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Champagne"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Coffee",
+          "Silver",
+          "Black",
+          "Gold",
+          "Champagne"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-23T14:56:19.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P18DT22H33M59S",
+  "EndTime": "2017-06-21T14:56:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Damara"
+      },
+      {
+        "Name": "MPN",
+        "Value": "759853272"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138062657",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "8",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139850047:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P24DT12H33M57S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Condition of this is a very good to excellent....nothing worn out, broken, damaged or missing. Everything is pretty, polished and ready to go!",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182599455001",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/100-Piece-Resale-Lot-Pre-Owned-Polished-Colorful-Contemporary-Jewelry-Pieces-/182599455001",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T03:08:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T03:08:08.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Various marks, most unmarked",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces, earrings, bracelets, pins",
+        "Name": "Type"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Various Non-Precious",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Various",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "100+ Piece Resale Lot Pre-Owned Polished, Colorful Contemporary Jewelry Pieces!",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This is a colorful, pretty lot of 100+ pieces of contemporary jewelry, chosen for this lot for their condition, which is excellent. Please see the pictures for more details 100+ Piece Resale Lot Pre-Owned Polished, Colorful Contemporary Jewelry Pieces! Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825994550018080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "msgracie11",
+    "FeedbackScore": "2523",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Chessie Cat Vintage",
+    "StoreURL": "http://stores.ebay.com/id=551306610"
+  },
+  "Quantity": "1",
+  "Location": "Lolo, Montana",
+  "HitCount": "16",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk0WDc2Ng==/z/zS8AAOSwhvFZA4wn/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "59847"
+}

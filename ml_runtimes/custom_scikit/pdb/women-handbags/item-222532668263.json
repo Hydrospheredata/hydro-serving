@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDQ2WDUwMA==/z/MRYAAOSwAuZX5tMx/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/H3kAAOSwLnBX5tSP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzM5WDY3OQ==/z/nbkAAOSwLF1X5tYX/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Loeffler-Randall-Lavender-Saddle-Bag-/222532668263",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Adjustable crossbody strapSnap flap closure; linedExterior snap pocket, interior zip pocketLeatherHeight: 8.75in Length: 10.25in Depth: 3.25in Strap drop: 23.5in",
+  "Title": "Loeffler Randall Lavender Saddle Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Woodside, New York",
+  "Seller": {
+    "FeedbackScore": "29",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "fashionseller79"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11377",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:49:03.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT23H43M59S",
+  "EndTime": "2017-06-09T13:49:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Loeffler Randall"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8.75\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3.25\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "10.25\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "23.5\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532668263",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225326682638080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

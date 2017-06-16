@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTY1WDQyNQ==/z/GmQAAMXQgPFRHE~m/$(KGrHqV,!pMFENLj7BZyBRHE+m(t(!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY1WDU3Mw==/z/pTwAAOxy5P9RHE~-/$T2eC16J,!)EE9s2ufV-wBRHE+9j8f!~~60_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Large-Hobo-Blue-Lagoon-New-Tags-Free-Shipping-/371969909578",
+  "ConvertedCurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic New with tag Vera Bradley Large Hobo in Blue Lagoon Photos are from manufacturer - exact placement of pattern may be different from the posted picture. Silver Ring strap attachments. Thick Roped Straps.Zippered exterior pocket and two interior pockets, one zippered also.Magnetic closure.Measurements: 15\" x 10.5\" x 4\" with a 11\" strap dropReturns are accepted - Item must be in new and unused condition - Shipping fees are not refundable",
+  "Title": "Vera Bradley Large Hobo Blue Lagoon New With Tags Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "McAlpin, Florida",
+  "Seller": {
+    "FeedbackScore": "6607",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "jann50"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32062",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:30:52.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P29DT23H24M24S",
+  "EndTime": "2017-07-02T13:30:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Hobo"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blues"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "11\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371969909578",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3719699095788080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

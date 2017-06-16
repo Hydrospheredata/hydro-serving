@@ -1,0 +1,125 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:34:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:34:39.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245745337",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MBM1184",
+        "Name": "MPN"
+      },
+      {
+        "Value": "MBM1184",
+        "Name": "Model"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Marc by Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Marc Jacobs Quartz Gray Mirror Dial Women's Watch MBM1184  Free Shipping New",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Jacobs-Quartz-Gray-Mirror-Dial-Womens-Watch-MBM1184-Free-Shipping-New-/332245745337",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322457453378080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H22M52S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzYwWDY1NA==/z/eKUAAOSwuLZY2BRy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTY2WDcyMA==/z/2s8AAOSwB-1Y2BRo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE3Nlg2NTQ=/z/g~4AAOSwmgJY2BRf/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Back About this item Product information Product Dimensions3.8 x 3.6 x 3.6 inches Item Weight14.4 ounces Shipping Weight14.4 ounces ManufacturerMarc Jacobs ASINB005972I7W Manufacturer referenceMBM1184 Batteries1 Nonstandard Battery batteries required. (included) Customer Reviews4.5 out of 5 stars 2Reviews Best Sellers Rank4203973 Date first available at Amazon.comJanuary 31, 2012 Product specifications Watch Information Model numberMBM1184 Part NumberMBM1184 Case diameter7 millimeters Case Thickness33 millimeters Band width18 millimeters",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

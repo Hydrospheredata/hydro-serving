@@ -1,0 +1,104 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "27565",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "VINTAGE 1940'S SWITZERLAND GREUN ULTRA VERI THIN 17 JEWEL POCKET WATCH SWITZERLAND PRECISION SERIAL# 557157 ENGRAVED ON THE BACK AS SHOWN IT WILL WIND BUT DOES NOT TICK GLASS IS PRETTY NICE WILL BE SHIPPED WITH CARE FROM USA",
+  "StartTime": "2017-03-14T00:29:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/m3MAAOSwSlBYxzeG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM0MlgxNjAw/z/nQkAAOSwSlBYxzeb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzNFgxNjAw/z/LlQAAOSwzgBYxzeo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HfYAAOSwol5Yxzes/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMwNlgxNjAw/z/mWMAAOSwWxNYxze4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cEUAAOSwOddYxzey/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HyQAAOSwol5Yxze9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hD0AAOSwOddYxziH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-cIAAOSwTM5Yxzef/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/m34AAOSwOgdYxzfB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mssAAOSwWxNYxzfF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P6YAAOSw2gxYxzfJ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1940-1949",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Gruen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nickelsndiamonds1013",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4879",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "410",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2224390993288080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-12T00:29:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gruen-Ultra-VeriThin-Precision-17-Jewels-Gold-Filled-Pocket-Watch-Not-Ticking-/222439099328",
+  "Location": "Oxford, North Carolina",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gruen Ultra VeriThin Precision 17 Jewels Gold Filled Pocket Watch Not Ticking",
+  "Storefront": {
+    "StoreName": "Nickels-n-Diamonds",
+    "StoreURL": "http://stores.ebay.com/id=1102628475"
+  },
+  "ItemID": "222439099328",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT5H38M34S"
+}

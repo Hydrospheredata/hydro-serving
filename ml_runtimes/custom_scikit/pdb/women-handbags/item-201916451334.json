@@ -1,0 +1,114 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P1DT15H27M43S",
+  "ConditionDisplayName": "New with defects",
+  "ConditionDescription": "100% authentic guaranteed. In good condition except missing inner bag.",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "118.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019164513348080_2.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVg2Njc=/z/9PwAAOSwX61ZDPCh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVg2Njc=/z/hk0AAOSwuMZZDDV~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVg2Njc=/z/xEgAAOSwcgNZDDWA/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tommy-Hilfiger-Black-Bag-In-Bag-Sport-Training-Bag-OSFA-118-/201916451334",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "About Us Contact us Payment Returns FAQs Tommy Hilfiger Black Bag-In-Bag Sport Training Bag OSFA $118 Our Price: $59.99 Retail Price: $118.00 Item Details Size: OSFA Size Type: Color: Black Material: Gender: Female Condition: New with Defects Shop DesignerBrandsForLess1! Ladies Men Plus Size Juniors Handbags",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "10948",
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "designerbrandsforless1"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90015",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "StartTime": "2017-05-05T08:19:02.000Z",
+  "Title": "Tommy Hilfiger  Black Bag-In-Bag Sport Training Bag OSFA $118",
+  "ConditionID": "1750",
+  "EndTime": "2017-06-04T08:19:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "TommyHIlfiger"
+      },
+      {
+        "Name": "Style",
+        "Value": "Regular"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Size",
+        "Value": "OSFA"
+      },
+      {
+        "Name": "Gender",
+        "Value": "Female"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      },
+      {
+        "Name": "ebaycondition",
+        "Value": "New with Defects"
+      },
+      {
+        "Name": "UPC",
+        "Value": "646130931397"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201916451334",
+  "Storefront": {
+    "StoreName": "designerbrandsforless1",
+    "StoreURL": "http://stores.ebay.com/id=1088590782"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "We want you to be completely happy! If for any reason you are not happy with your purchase we will gladly accept returns (excluding swimwear and intimate bottoms, health, beauty and fragrance items, and perishables). You will receive a full refund for the cost of the merchandise less all shipping costs.\n\nPrint a \"Returns Authorization Form\" from this page for each item you are returning. This form must be completely filled out and included with the returned package.\nItem(s) must be returned in original, unused condition within 30 days with original tags/packaging. If there are any signs of wear, heavy perfumes or smoke the item will be mailed back to you. If applicable, any protective inner lining must be intact. Intimate apparel bottoms including panties and swimwear bottoms are non-returnable.\nWhen we receive your package we will process the return within 30 business days. You will receive a refund for the purchase price less all shipping costs. The Returns Authorization Form must be completed and included in the box.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "TommyHIlfiger-6934821-Black-OSFA-210",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

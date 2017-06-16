@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P24DT1H55M24S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQ5OA==/z/-r8AAOSw0hlZGepT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDY5WDUwMA==/z/bwEAAOSwBt5ZGeqE/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Hamilton-Large-Logo-tote-/272689793955",
+  "ConvertedCurrentPrice": {
+    "value": "74.16",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our Hamilton satchel is a sophisticated alternative to the everyday tote bag. The logo lock and key provide distinctive Michael Kors style, while the polished top handles and adjustable strap lend this must-have easy versatility. \u2022 100% Leather \u2022 Gold-Tone Hardware \u2022 14.25\"W X 10.5\"H X 6\"D \u2022 Handle Drop: 4.25\" \u2022 Adjustable Strap: 18.5\"-21.25\" \u2022 Interior Details: Back Zip Pocket, Back Slit Pocket, 4 Front Slit Pockets \u2022 Lining: 100% Polyester \u2022 Importe",
+  "Title": "Michael Kors Hamilton Large Logo tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "CAD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "montreal",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "alisyxxx_7"
+  },
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "h3w3c9",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-27T18:30:04.000Z",
+  "HitCount": "22",
+  "Subtitle": "micheal kors handbags",
+  "EndTime": "2017-06-26T18:30:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "micheal kors"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "Canada",
+  "ItemID": "272689793955",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726897939558080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT20H30M21S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302340506602",
+  "ConvertedCurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:14:15.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Barse-Leather-Bronze-Turquoise-Cuff-Bracelet-new-/302340506602",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:14:15.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Barse",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Fits wrist 6.5 to7.5\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Barse Leather Bronze Turquoise Cuff Bracelet  new",
+  "ExcludeShipToLocation": [
+    "HK",
+    "ID",
+    "MY",
+    "PH",
+    "CN"
+  ],
+  "Location": "Warren, New Jersey",
+  "Description": "\u00b7 Part of the Leather & Stone Collection designed by Barse \u00b7 Brown floral-embossed leather \u00b7 Bronze \u00b7 Oval bezel-set turquoise measures 26mm \u00b7 Approximately 1.5in wide \u00b7 Cuff bracelet comfortably fits a size 6.5-7.5in wrist",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023405066028080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sillhouette2006",
+    "FeedbackScore": "1348",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Fashion Accessories-24_7",
+    "StoreURL": "http://stores.ebay.com/id=422062779"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI5NlgxMDM2/z/-s4AAOSw-jhUIuMX/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI5NlgxMDM2/z/ayUAAOSwRLZUIuMZ/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "PostalCode": "07059"
+}

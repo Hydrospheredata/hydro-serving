@@ -1,0 +1,67 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "19543",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Excellent Condition New battery, Super cool,,",
+  "StartTime": "2017-05-03T02:48:25.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/jMgAAOSwImRYisQf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/yosAAOSwUKxYisQo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/OfkAAOSw241YisQy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/IFMAAOSw4DJYisQ7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/PFYAAOSw241YisRE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/uZkAAOSw44BYisRN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/ltIAAOSwnHZYisRq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/T2UAAOSw9GhYisRz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/mIoAAOSwnHZYisR7/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "jernoto",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "479",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "63",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529165743938080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-02T02:48:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Eagle-Watch-/252916574393",
+  "Location": "Morgantown, Pennsylvania",
+  "Title": "Pocket Watch ( Eagle) Watch It",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252916574393",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT8H3M37S"
+}

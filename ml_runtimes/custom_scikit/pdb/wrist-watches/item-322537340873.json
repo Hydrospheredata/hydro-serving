@@ -1,0 +1,164 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "78.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jacksonville, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:05:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1315306337",
+    "StoreName": "Bixme"
+  },
+  "CurrentPrice": {
+    "value": "78.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:05:32.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "12880",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "Africa",
+  "ItemID": "322537340873",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2011",
+        "Name": "Model Year"
+      },
+      {
+        "Value": "Scratch resistant sapphire",
+        "Name": "Dial window material type"
+      },
+      {
+        "Value": "Deployment clasp with push-button",
+        "Name": "Clasp"
+      },
+      {
+        "Value": "Stainless steel",
+        "Name": "Case material"
+      },
+      {
+        "Value": "38 millimeters",
+        "Name": "Case diameter"
+      },
+      {
+        "Value": "11 millimeters",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Stainless steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Women's Standard",
+        "Name": "Band length"
+      },
+      {
+        "Value": "16 millimeters",
+        "Name": "Band width"
+      },
+      {
+        "Value": "Grey",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Dial color"
+      },
+      {
+        "Value": "Stainless steel",
+        "Name": "Bezel material"
+      },
+      {
+        "Value": "Stationary",
+        "Name": "Bezel function"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Date",
+        "Name": "Calendar"
+      },
+      {
+        "Value": "330 Feet",
+        "Name": "Water resistant depth"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Japanese",
+        "Name": "Manufacturer of Machinery"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Women's Pro Diver Analog Display Japanese Quartz Silver Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Womens-Pro-Diver-Analog-Display-Japanese-Quartz-Silver-Watch-/322537340873",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225373408738080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "32225",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H41M8S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/iFoAAOSwlMFZLpVv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/WgcAAOSw9OFZLpVu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/RQIAAOSwjqVZLpVv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/tcQAAOSwtGlZLpVu/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "We represent you authentic watch from Invicta. Interesting design and great quality. Case diameter 38 millimeters, Case Thickness 11 millimeters. Dial window material type is scratch resistant sapphire. The grey watch strap length women's standard, strap width - 16 millimeters. The watch strap material is stainless steel. The clasp is deployment clasp with push-button. The model installed quartz movement with analog display. This watch will delight you every day!",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.1",
+    "FeedbackScore": "72",
+    "UserID": "bixmellc",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

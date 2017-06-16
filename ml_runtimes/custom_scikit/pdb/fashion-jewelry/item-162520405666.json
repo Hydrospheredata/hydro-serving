@@ -1,0 +1,112 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P11DT23H47M28S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162520405666",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Colorful-Multi-Stone-Polki-Carved-Gold-Polished-Handmade-Head-Party-Maang-Tikka-/162520405666",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-18T11:21:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-17T11:21:55.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Forehead Jewelry",
+        "Name": "Style"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Colored kundan, corundum",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Bridal/Wedding",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver&alloy with 22kt gold plating",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "uncut polki, golden pearl",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Party",
+        "Name": "Occasion"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Colorful Multi Stone Polki Carved Gold Polished Handmade Head Party Maang Tikka",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625204056668080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kumarjewelsamit",
+    "FeedbackScore": "120",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "kumarjewelsamit",
+    "StoreURL": "http://stores.ebay.com/id=1005047448"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDczMA==/z/dUkAAOSwfVpYpX8H/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "144001"
+}

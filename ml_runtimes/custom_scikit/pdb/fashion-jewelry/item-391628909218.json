@@ -1,0 +1,147 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be unworn and in original condition unless for manufactures defect.  Buyer will be responsible for return shipping.  In the case of a return due to manufactures defects or any such error on our part, we will cover return shipping. Please contact us to obtain an RA# and return instructions.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT12H6M8S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Item is in new condition.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "NSD1294/NSD1185",
+  "ItemID": "391628909218",
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2016-11-21T01:58:05.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Toe-Ring-14KT-Solid-White-Gold-Yellow-Gold-Adjustable-Triple-Band-/391628909218?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T01:58:05.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Choose Your Gold",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "14K Yellow Gold",
+          "PictureURL": "http://img.auctiva.com/imgdata/7/2/4/1/5/2/webimg/925323454_o.jpg"
+        },
+        {
+          "VariationSpecificValue": "14K White Gold",
+          "PictureURL": "http://img.auctiva.com/imgdata/7/2/4/1/5/2/webimg/925323454_o.jpg"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "14K White Gold",
+          "14K Yellow Gold"
+        ],
+        "Name": "Choose Your Gold"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "NSD1294",
+        "StartPrice": {
+          "value": "95.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "14K White Gold",
+            "Name": "Choose Your Gold"
+          }
+        },
+        "Quantity": "4"
+      },
+      {
+        "SKU": "NSD1185",
+        "StartPrice": {
+          "value": "95.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "14K Yellow Gold",
+            "Name": "Choose Your Gold"
+          }
+        },
+        "Quantity": "4"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1",
+        "Name": "Number of Items"
+      },
+      {
+        "Value": "Adjustable",
+        "Name": "Size"
+      },
+      {
+        "Value": "nosejewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White or Yellow Gold",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "Toe Ring 14KT Solid White Gold or Yellow Gold Adjustable Triple Band",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Blaine, Washington",
+  "Description": "Toe Ring 14KT Solid White Gold or Yellow Gold Adjustable Triple Band Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "nosejewels",
+    "FeedbackScore": "40382",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "GlimmerOfGlitter",
+    "StoreURL": "http://stores.ebay.com/id=89001082"
+  },
+  "Quantity": "8",
+  "PaymentMethods": "PayPal",
+  "HitCount": "107",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/NjgAAOSwo4pYMlSw/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "98230"
+}

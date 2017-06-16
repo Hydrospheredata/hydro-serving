@@ -1,0 +1,139 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.28",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Warrington, Cheshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:00:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:00:30.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535904647",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "UNKNOWN",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "JEAN - LOUIS SCHERRER - PARIS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "GOLD HANDS",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Contemporary Design",
+        "Name": "Style"
+      },
+      {
+        "Value": "6mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "GOLD",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "MOVITEX",
+        "Name": "Model"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "GOLD PLATED",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "15mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "GOLD COLOURED  WATCH AND BRACELET. JEAN LOUIS SCHERRER",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GOLD-COLOURED-WATCH-AND-BRACELET-JEAN-LOUIS-SCHERRER-/162535904647",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625359046478080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "Wa3 3ex",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H42M37S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjcwWDU4Ng==/z/syYAAOSwAuNW7FSR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/NmIAAOSw2ENW7FDC/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "GOLD COLOURED WATCH AND BRACELET. JEAN LOUIS SCHERRER PRESENTED IN A RED BOX",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "322",
+    "UserID": "hoot_greg",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

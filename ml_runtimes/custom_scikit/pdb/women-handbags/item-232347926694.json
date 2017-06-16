@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/06UAAOSwEHpZJcWO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KukAAOSwxu5ZJcWU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/srwAAOSwn-tZJcWa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/B-UAAOSwIaFZJcWg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3CkAAOSwtGlZJcWl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-YYAAOSw8HBZJcWr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OC4AAOSwBt5ZJcWx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/f0UAAOSwhvFZJcW3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ySoAAOSwZ4dZJcW9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eHEAAOSwcgNZJcXD/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Miller-Bag-Katalina-Pink-Weekend-Overnight-Travel-88-Authentic-NWT-/232347926694",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Miller Bag Color - Katalina Pink Material - Cotton Size - 24\" top/16\"bottom L x 13.5\"h x 8\"d & 13\" Double Strap drop (approx.) Details - Exterior - Top zipper closure with front slip pocket and back trolly strap to place bag over luggage. Interior - Solid lining with six slot pockets, three on each side. Removable board for washing. Retail - $88.00 New With Tags Buy it Now - Please ask questions before purchasing. Comes from smoke/pet free home. Fast ship same or next business day. Payment expected within 24 hours. Returns accepted unused and with all original tags/packaging - buyer pays return shipping Please shop and purchase with confidence, all the items are 100% authentic from authorized retail stores.",
+  "Title": "Vera Bradley Miller Bag Katalina Pink Weekend Overnight Travel $88 Authentic NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Clifton, New Jersey",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1606",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Red",
+    "UserID": "gophernj1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07011",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-24T17:41:25.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P21DT1H2M59S",
+  "EndTime": "2017-06-23T17:41:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Katalina Pink"
+      },
+      {
+        "Name": "Size",
+        "Value": "24/16\"w x 13.5\"h x *\"d"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "13\""
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003396179"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232347926694",
+  "Storefront": {
+    "StoreName": "Designer Blowout Deals",
+    "StoreURL": "http://stores.ebay.com/id=13094586"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323479266948080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

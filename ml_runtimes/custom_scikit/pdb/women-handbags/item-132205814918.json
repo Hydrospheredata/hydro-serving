@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P23DT4H47M52S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "In Good Used Condition.",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/99UAAOSw9OFZKIrk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjcwWDk2MA==/z/6HoAAOSw42dZKIrl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/O~cAAOSwIQdZKIrm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA0WDk2MA==/z/HVkAAOSwZKBZKIrp/$_57.JPG?set_id=8800005007"
+  ],
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "12x3x13 retails for $395.. good used condition.. no stains, or signs of wear",
+  "Title": "Tory Burch Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Metairie, Louisiana",
+  "Seller": {
+    "FeedbackScore": "65",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "jessroneill"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "70001",
+  "GlobalShipping": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Diaper-Bag-/132205814918",
+  "StartTime": "2017-05-26T20:10:01.000Z",
+  "HitCount": "25",
+  "Subtitle": "Tory Burch Diaper Bag",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Large Tote/messenger"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132205814918",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "EndTime": "2017-06-25T20:10:01.000Z",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322058149188080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "true"
+}

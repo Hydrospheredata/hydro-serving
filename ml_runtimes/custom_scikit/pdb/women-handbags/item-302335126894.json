@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/dv4AAOSwzaJX8Bpl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/RLcAAOSw8gVX8Bpo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/RRkAAOSw8gVX8Bpr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ZPIAAOSw4shX8Bpu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ZYEAAOSw4shX8Bpy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/rpIAAOSwmLlX8Bp1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/rvQAAOSwmLlX8Bp4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/evkAAOSwzaJX8Bp9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/QUwAAOSwCGVX8BqA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/booAAOSwpLNX8BqD/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Calvin-Klein-Ballistic-Nylon-Small-Backpack-Calico-Blue-Black-158-/302335126894",
+  "ConvertedCurrentPrice": {
+    "value": "85.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "An updated classic, this sleek Calvin Klein nylon backpack lets you carry contemporary style to the gym and beyond. \u00b7 Brand-new with tag \u00b7 100% guaranteed authentic \u00b7 Style: H6DKY5HZ \u00b7 Interior features lining and 2 slip pockets \u00b7 2\"L top handle; 15\"L adjsutable double backpack straps \u00b7 Drawstring and hook closure \u00b7 Exterior features silver-tone hardware, 1 side zip pocket at back and 2 zip pockets at side \u00b7 Nylon; trim: faux leather \u00b7 9\" W x 10\"H x 5\"D \u00b7 Color: Calico Black \u00b7 Original price: $158.00 \u00b7 From major department store with receipt and well taken care of in a smoke-free & pet-free environment",
+  "Title": "NWT Calvin Klein Ballistic Nylon Small Backpack Calico Blue / Black $158",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "CN",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU"
+  ],
+  "Location": "Syosset, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "205",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "long-island-wonder"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11791",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:55:20.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P28DT11H11M2S",
+  "EndTime": "2017-07-01T01:55:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Calvin Klein"
+      },
+      {
+        "Name": "Color",
+        "Value": "Calico  Blue / Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889609181606"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302335126894",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "long-island-wonder",
+    "StoreURL": "http://stores.ebay.com/id=104473339"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023351268948080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

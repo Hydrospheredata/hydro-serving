@@ -1,0 +1,127 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjUx/z/Wo4AAOSw7U5Y9WaL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDY1/z/KaEAAOSwE0JY9WaL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3ODI=/z/XTMAAOSwHHFY9WaK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNVgxNTAw/z/j5MAAOSwzqFY9WaR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI2MVgxNTAw/z/hLIAAOSwVm5Y9WaP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDky/z/jw4AAOSwzqFY9WaL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NDk=/z/SJcAAOSwSypY9WaL/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Jacobs-Womens-Nylon-Biker-Babybag-Dolphin-Blue-/322486667478",
+  "ConvertedCurrentPrice": {
+    "value": "390.61",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Marc Jacobs nylon biker baby bag in dolphin blue with zipper closure - Marc jacobs nylon biker baby bag in dolphin blue with zipper closure Marc Jacobs Women's Nylon Biker Babybag, Dolphin Blue",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "390.61",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "17708",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "avalonteam"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Marc Jacobs Women's Nylon Biker Babybag, Dolphin Blue",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-18T01:05:54.000Z",
+  "HitCount": "44",
+  "TimeLeft": "P14DT9H37M19S",
+  "EndTime": "2017-06-17T01:05:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "889732792953"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0889732792953"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "MPN",
+        "Value": "M0008297-453"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Dolphin Blue"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 20.7 x W 19.7 x H 3.3 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "M0008297"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322486667478",
+  "Storefront": {
+    "StoreName": "avalonteam",
+    "StoreURL": "http://stores.ebay.com/id=1343696448"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224866674788080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

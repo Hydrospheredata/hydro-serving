@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921438962928080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/zfAAAOSwc-tY3NXq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc3WDUwMA==/z/9VIAAOSwuLZY3NXq/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/ODwAAOSwsW9Y3NXr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/JI4AAOSwXYtY3NXr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/DDQAAOSw2gxY3NXq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/EicAAOSwmgJY3NXq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/w0gAAOSwA29Y3NXq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/bu8AAOSwhQhY3NXq/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Belli-Classic-Genuine-Leather-Red-Croc-Patent-Handbag-36-x-25-x-18-CM-B-x-H-/192143896292",
+  "ConvertedCurrentPrice": {
+    "value": "132.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Belli \u00ae Classic Genuine Leather Red Croc Patent Handbag 36 x 25 x 18 CM (B x H x T) by Belli Ships from UK Supplier Other information: 35.12 Related Searches: Belli Top-Handle Bag, Top-Handle Bag Bags, Belli Bags Dimensions: 37.4 x 35.2 x 1.8 centimetres Weight: 1.1 kg",
+  "Title": "Belli \u00ae Classic Genuine Leather Red Croc Patent Handbag 36 x 25 x 18 CM (B x H",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "132.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T09:54:47.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P25DT17H36M57S",
+  "EndTime": "2017-06-28T09:54:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "4250615320161"
+      },
+      {
+        "Name": "UPC",
+        "Value": "4250615320161"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Belli"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143896292",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:121550267:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

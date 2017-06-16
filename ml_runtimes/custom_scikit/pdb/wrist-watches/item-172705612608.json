@@ -1,0 +1,129 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "64.29",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Leeds",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:33:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:33:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705612608",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Seksy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SEKSY BLING PINK FACE LADIES WATCH MODEL 4754.37",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEKSY-BLING-PINK-FACE-LADIES-WATCH-MODEL-4754-37-/172705612608",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727056126088080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "LS175BJ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H10M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzU3WDQ5Mw==/z/rcAAAOSwcUBYPJ43/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDUwWDYwMA==/z/tAEAAOSwEzxYPJ5M/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "'SEKSY' BLING PINK FACE WATCH MODEL 4754 RRP \u00a369.99 GET THIS EYE-CATCHING POPULAR WATCH FROM SEKONDA THE TIMEPIECE HAS THE FOLLOWING:- Chrome Colour Case Pink Sparkle Dial with Swarovski elements placed at 12, 3, 6 and 9 Stainless Steel Case back White Leather Strap made with Swarovski Crystal with Self-Adjustable Clasps 2-year Guarantee CHEAPEST ON THE NET AND EBAY!! COMES IN A PRESENTATION BOX!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1101",
+    "UserID": "sportz111",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "No Returns Accepted",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

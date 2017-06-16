@@ -1,0 +1,231 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "GE",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "BA",
+    "GI",
+    "GG",
+    "JE",
+    "MC",
+    "ME",
+    "SM",
+    "SJ",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "TW",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "PM",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "AE",
+    "YE"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.33"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "ehome_collection",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "20439",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Details Item Shape: Bicycle Bike shape Dial Window Material Glass Display Analogue Movement Quartz Case Material Metal Case Diameter 20*20*7 millimeters(L*W*H) Full Size 65 millimeters Band Material Metal Chain Length 400 millimeters Dial Color White Case Color Bronze Special Features Arabic numerals 12hrs display Watch Weight 29g Gift Box No Package One Pocket Watch/Neclace Watch with free chain On Mar-08-17 at 01:58:12 PST, seller added the following information:On Mar-18-17 at 03:04:14 PDT, seller added the following information:On Mar-28-17 at 03:10:37 PDT, seller added the following information:",
+  "StartTime": "2017-05-27T11:42:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/j9IAAOSwCU1Yv9Kz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/zPYAAOSw2gxYv9LD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/O4EAAOSwB-1Yv9KZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/DJ4AAOSw4A5Yv9Kj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nBcAAOSwWxNYv9Kp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/y5EAAOSw2gxYv9K6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/c2gAAOSwol5Yv9LJ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "HighBidder": {
+    "UserID": "k***s",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "395",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "HK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Easy To Read"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "W008",
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917966193948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "0.38"
+  },
+  "BidCount": "4",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.33"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-06T11:42:56.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Bike-Shape-Quartz-Pocket-Watch-Chains-Necklaces-Pendant-Steampunk-/391796619394",
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fashion Bike Shape Quartz Pocket Watch Chains Necklaces Pendant Steampunk",
+  "Storefront": {
+    "StoreName": "ebuy.collection",
+    "StoreURL": "http://stores.ebay.com/id=1012275117"
+  },
+  "ItemID": "391796619394",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT17H7M27S"
+}

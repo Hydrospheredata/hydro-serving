@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921394486138080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/XO8AAOSwc-tY1h1e/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/ZfYAAOSwol5Y1h1f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/kzQAAOSwSlBY1h1e/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/k1AAAOSwSlBY1h1f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk1WDE1MDA=/z/5PAAAOSw32lY1h1f/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Brands-Handbag-Aretha-genuine-leather-colour-red-Shipping-Included-/192139448613",
+  "ConvertedCurrentPrice": {
+    "value": "83.91",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Whole bag, handle, and zipper head are made of leather, mainly from Italian cow leather. Advantages: soft, durable, fashionable and comfortable touching. Hardware button, buckle, rings and zipper are made of gold plated metal, therefore uneasy to get rusted. It has cotton liner and litchi pattern, making it soft to touch. Brand: Aretha, Material: Genuine leather from Italy, Dimension: 32cmX17cmX13cm, Handle drop down: 18,5cm, Structure: 2 interior zip pocket, 2 cell phone pocket.",
+  "Title": "Women Brands Handbag by Aretha genuine leather colour red. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "83.91",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-25T07:33:47.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P20DT15H12M24S",
+  "EndTime": "2017-06-23T07:33:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Aretha"
+      },
+      {
+        "Name": "MPN",
+        "Value": "393449282"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139448613",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:72074417:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

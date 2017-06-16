@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "Description": "We accept returns within 14 days of purchase, and the tag has not been removed from the item (must be attached just like how it came).",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT11H52M58S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162531603085",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Betsey-Johnson-PET-SHOP-MULTI-KITTY-ILLUSION-Necklace-Retail-45-224-2-/162531603085",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T02:53:25.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T02:53:25.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "NWT Betsey Johnson PET SHOP MULTI KITTY ILLUSION Necklace  Retail $45 #224 (2)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This item is brand new, with its original tags and 100% authentic. Please feel free to message us with any questions. Our return policy: We accept returns within 14 days of purchase, and the tag has not been removed from the item (must be attached just like how it came).",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625316030858080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.1",
+    "UserID": "flexkick",
+    "FeedbackScore": "62",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Storefront": {
+    "StoreName": "flexkick",
+    "StoreURL": "http://stores.ebay.com/id=1147446395"
+  },
+  "Quantity": "1",
+  "Location": "Oradell, New Jersey",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/JgcAAOSw32lYzreg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/FhgAAOSwYXVYzreh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/FlkAAOSwYXVYzrek/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/G3cAAOSwWxNYzrel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/t-oAAOSwTM5Yzrem/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "07649"
+}

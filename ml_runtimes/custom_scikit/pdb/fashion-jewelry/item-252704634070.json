@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns are accepted within 30 days with the buyer being responsible for all return shipping cost. The original cost of the item will be refunded less the shipping cost. Item must have all tags attached, be in original or unworn condition, and all package contents must be returned. A 15% restocking fee applies to items returned that are as described.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT8H21M54S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252704634070",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-95-MICHAEL-KORS-Aqua-Silver-Leather-Bracelet-/252704634070",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-12-31T22:32:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T22:32:14.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT $95 MICHAEL KORS Aqua Silver Leather Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWT $95 MICHAEL KORS Aqua Silver Leather Bracelet Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2527046340708080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "klsluvstoshop",
+    "FeedbackScore": "1002",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "KLS&#39;S BLING",
+    "StoreURL": "http://stores.ebay.com/id=93439487"
+  },
+  "Quantity": "1",
+  "Location": "Cordova, Tennessee",
+  "HitCount": "91",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTEzWDEyODA=/z/LuMAAOSwZQRYaDHp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIwWDEyODA=/z/SrIAAOSwEzxYaDHq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc1WDEyODA=/z/MeIAAOSwA3dYaDHr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMTIy/z/oAsAAOSw44BYaDHt/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "38016"
+}

@@ -1,0 +1,58 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "20005",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New! Unused and unopened. In original packaging. \"Bar Section\"\u009d Pocket watch, a design by Gene Meyer, comes from ACME Studio's line of Designer Watches. The designer's signature and ACME logo are engraved on the back of the watch. It is packaged in a black ACME box with a black sleeve. Design - Gene MeyerComes with chain",
+  "StartTime": "2017-05-11T17:33:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzMVgxMTMx/z/FHgAAOSww3tY694j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzMVgxMTMx/z/jm0AAOSwB-1Y694h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg0WDEyMDA=/z/FAAAAOSww3tY694g/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "w.dder.tzcl5azhy",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "116",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423801229358080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-10T17:33:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Acme-Bar-Section-Pocket-Watch-/142380122935",
+  "Location": "Washington, District Of Columbia",
+  "Title": "Acme Bar Section Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142380122935",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT22H51M19S"
+}

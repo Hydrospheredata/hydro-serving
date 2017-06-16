@@ -1,0 +1,155 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "61615",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Montreux pocket watch17 jewel Swiss mechanical movementWhite dial with roman numeralsNew stock, excellent conditionETA 6497-1",
+  "StartTime": "2017-04-28T13:15:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIwWDY0MA==/z/DToAAOSw4q9XT07W/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "225.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "10",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "17",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Montreux",
+        "Name": "Brand"
+      },
+      {
+        "Value": "ETA 6497-1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "parsecenterprises",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "234",
+    "PositiveFeedbackPercent": "97.9"
+  },
+  "HitCount": "157",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118584750698080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-27T13:15:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "225.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Montreux-Pocket-Watch-ETA-6497-1-Movement-/311858475069",
+  "Location": "Peoria, Illinois",
+  "Title": "Montreux Pocket Watch with ETA 6497-1 Movement",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "311858475069",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT18H29M20S"
+}

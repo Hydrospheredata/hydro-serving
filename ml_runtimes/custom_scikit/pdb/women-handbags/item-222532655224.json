@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDc0Mw==/z/b50AAOSwY3BZGCdI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDc4Nw==/z/nIkAAOSw7GRZGCdZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Longchamp-Neo-Small-Tote-Bag-/222532655224",
+  "ConvertedCurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "-Longchamp Neo Small Tote Bag.-Excellent condition, no marks/stains. -Nylon/polyamide material. -Length 9.75 inches -Height 9 inches -Depth 6.25 inches -Please note the strap drop is 20 inches.",
+  "Title": "Longchamp Neo Small Tote Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Las Vegas, Nevada",
+  "Seller": {
+    "FeedbackScore": "72",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "dolly_and_aiko"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "89120",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:34:26.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P29DT23H28M21S",
+  "EndTime": "2017-07-02T13:34:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Longchamp"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyamide"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "6.25"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9.75"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Floral"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532655224",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225326552248080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

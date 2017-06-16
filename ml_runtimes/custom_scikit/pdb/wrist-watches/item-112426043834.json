@@ -1,0 +1,133 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.93",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Ruislip",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:35:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T12:35:54.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426043834",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Strap Colour"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "1.5",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cute-pink-watch-/112426043834",
+  "Title": "Cute pink watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124260438348080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "HA4 0PN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H19M45S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQwWDE0MA==/z/3XwAAOSwLF1X~Rbk/$_1.JPG?set_id=8800004005"
+  ],
+  "Description": "A cute pink watch.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "723",
+    "UserID": "freddyl0708",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

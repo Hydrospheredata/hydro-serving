@@ -1,0 +1,71 @@
+{
+  "QuantitySold": "0",
+  "Title": "Motorcycle Watch & Lighter Set",
+  "PostalCode": "62417",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Motorcycle Watch & Lighter Set Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-26T20:30:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDA0WDUwMA==/z/Z~UAAOSw8gVYB4EH/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Does not apply",
+      "Name": "UPC"
+    }
+  },
+  "Seller": {
+    "UserID": "jamestrading",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "15050",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921984171228080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T20:30:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "We refund purchase price only. No postage. We will refund Your money or send another item.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Motorcycle-Watch-Lighter-Set-/192198417122",
+  "ConditionDescription": "These Items are older but have never been used",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Bridgeport, Illinois",
+  "Storefront": {
+    "StoreName": "JamesTrading",
+    "StoreURL": "http://stores.ebay.com/id=1586142"
+  },
+  "ItemID": "192198417122",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT1H54M35S"
+}

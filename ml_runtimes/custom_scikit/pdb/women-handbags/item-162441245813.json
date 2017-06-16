@@ -1,0 +1,143 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wVwAAOSwWxNY0uNt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/sDwAAOSw2gxY0uOm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/63oAAOSwYXVY0uOa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Wx8AAOSwsW9Y0uOe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/r6YAAOSw2gxY0uOh/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Puma-Ferrari-Shopper-/162441245813",
+  "ConvertedCurrentPrice": {
+    "value": "84.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "*Shop with confidence knowing that you're purchasing from an authorized Ferrari dealer",
+  "Title": "Puma Ferrari Shopper",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "84.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Palm Harbor, Florida",
+  "Seller": {
+    "FeedbackScore": "973",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "ferrari_tampa_bay"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34683",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-03-22T20:52:03.000Z",
+  "HitCount": "29",
+  "TimeLeft": "P18DT2H57M4S",
+  "EndTime": "2017-06-20T20:52:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Puma"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "Part",
+        "Value": "FR4958b"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162441245813",
+  "Storefront": {
+    "StoreName": "Ferrari of Tampa Bay Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1064160977"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1624412458138080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

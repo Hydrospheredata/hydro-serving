@@ -1,0 +1,116 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Doylestown, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:55:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:55:37.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600022135",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Boum",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Fashon",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gateau",
+        "Name": "Model"
+      },
+      {
+        "Value": "BM1102",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "638761701678",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Boum BM1102 Women's Gateau Watch Fun Striped Yellow Dial Cute Unique Leather",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Boum-BM1102-Womens-Gateau-Watch-Fun-Striped-Yellow-Dial-Cute-Unique-Leather-/182600022135",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826000221358080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "18901",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H37M40S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/9nUAAOSw9NdXvYwy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-IIAAOSw9NdXvYw~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/IvsAAOSwgZ1XvY31/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Meaning party in French; Boum styles help you do just that! Real fashionistas know that accessories are the key to take any outfit from drab to fab. With fun glitter dials; feisty animal prints; and chic colors; there is a Boum watch for any scene. Whether you are going out; or having a girls night in grab some friends and Boum! Rubber-Coated Metal Case Quality Japanese Quartz Movement Non-Glare Scratch-Resistant Mineral Crystal Stripe Pattern Dial Logo-Engraved Stainless Steel Caseback Hinged Genuine Leather Strap Logo-Engraved Stainless Steel Clasp 38mm Diameter 3 ATM Water Resistance Band Color: Yellow Leather; Band Width: 20mm near case; 18mm near clasp/buckle; Bezel Color: Yellow; Case: Yellow + Circle-shaped; Case Finish: Flat + Metal; Case Thickness: 10mm; Case Width: 38mm; 41mm with crown; Clasp / Buckle: Strap Buckle; Dial: Multicolor + analog; Hand Color: Gold; Movement: Japanese + quartz; Time Zones: Single; Water Resistance: 3 atm;",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "27",
+    "UserID": "amabargain14",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_20",
+    "RestockingFeeValue": "20%",
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

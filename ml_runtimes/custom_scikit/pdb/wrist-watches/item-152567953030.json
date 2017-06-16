@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:51:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1008762708",
+    "StoreName": "memorialwatch"
+  },
+  "CurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:51:27.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "816XSDXC1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Skagen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "768680136791",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4051432764721",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": "Skagen Women's 816XSDXC1 Ceramic Brown Ceramic Watch Product Details Product Dimensions: 3.9 x 3.1 x 3 inches Shipping Weight: 7.2 ounces Item model number: 816XSDXC1 Batteries: 1 Nonstandard Battery batteries required. (included) Domestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues. International Shipping: This item is not eligible for international shipping. Learn More Brand, Seller, or Collection Name: Skagen Model number: 816XSDXC1 Part Number: 816XSDXC1 Item Shape: Round Dial window material type\ufeff: Mineral Display Type: Analog Clasp: Deployment clasp with push-button\ufeff Case material: Ceramic Case diameter: 22 millimeters Case Thickness: 8 millimeters Band Material: Ceramic Band length: Women's Standard Band width: 12 millimeters Band Color: Brown Dial color: Brown Bezel material: Ceramic Bezel function\ufeff: Stationary Special features: Luminous, Second hand Movement\ufeff: Quartz Water resistant depth: 99 Feet Quartz movement Ceramic case Brown dial Ceramic bracelet Water resistant to 99 feet (30 M): withstands rain and splashes of water, but not showering or submersion On the pulse of current fashions, this Skagen timepiece has amazing curves that hug the wrist in signature Skagen style. Sporting a smart blend of design and master craftsmanship, this watch is the definition of affordable luxury. The Skagen brand takes its name from the fishing village of Skagen, Denmark. In keeping with a European design aesthetic, Skagen watches for men and women are sleek, elegant, and modest timepieces boasting quiet precision. Skagen\u2019s signature watch style includes a smooth mesh band and simple dial with subtle indices. While keeping true to its minimalist heritage, Skagen continually remains on the forefront, using modern watch materials and movements. Skagen watch collections today may feature carbon fiber textured dials and titanium or ceramic bands. With a modern or classic Skagen watch, you can be sure your look will withstand the test of time.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skagen-Womens-816XSDXC1-Ceramic-Brown-Ceramic-Watch-SHIPSFREE-/152567953030",
+  "NewBestOffer": "false",
+  "SKU": "816XSDXC1",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525679530308080_1.jpg",
+  "ItemID": "152567953030",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H45M47S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xl4AAOSwurZZLthl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/y-sAAOSwaeRZLthp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/3qgAAOSwcB5ZLths/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Skagen Women's 816XSDXC1 Ceramic Brown Ceramic Watch SHIPSFREE",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "5774",
+    "UserID": "finejewelryandwatches",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

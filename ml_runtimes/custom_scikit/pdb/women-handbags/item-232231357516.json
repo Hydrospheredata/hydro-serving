@@ -1,0 +1,114 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Men's Accessories:Backpacks, Bags & Briefcases",
+  "TimeLeft": "P4DT1H50M21S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:4250:52357",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODE0WDg3MA==/z/SkkAAOSw5cNYmKvf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIyWDg4Mw==/z/XycAAOSwopRYmKvh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzkxWDg1Ng==/z/X9IAAOSw241YmKvi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIyWDUwNw==/z/XAMAAOSw2xRYmKvj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk2WDc1Nw==/z/XbMAAOSwUKxYmKvk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDMyWDEwNDU=/z/qnsAAOSwTglYmKvl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA5WDEwMzc=/z/XOoAAOSw2xRYmKvn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQxWDc4Mw==/z/WTgAAOSw9GhYmKvo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDEwOTg=/z/zY0AAOSw4DJYmKvp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI2WDg5Mg==/z/YbQAAOSwopRYmKvr/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-BURBERRY-NEWBURG-LEATHER-TECHNO-NYLON-LAPTOP-BUSINESS-BRIEFCASE-SHOULDER-BAG-/232231357516",
+  "ConvertedCurrentPrice": {
+    "value": "728.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NEW BURBERRY BLACK LEATHER TECHNO NYLON LAPTOP BUSINESS BRIEFCASE SHOULDER BAG Track Page Views With Auctiva's FREE Counter",
+  "Title": "NEW BURBERRY NEWBURG LEATHER TECHNO NYLON LAPTOP BUSINESS BRIEFCASE SHOULDER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "728.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "4619",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "current-styles"
+  },
+  "PrimaryCategoryID": "52357",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11235",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "StartTime": "2017-02-06T17:01:32.000Z",
+  "HitCount": "889",
+  "SecondaryCategoryIDPath": "11450:169291:169293",
+  "EndTime": "2017-06-06T17:01:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "BURBERRY"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase/Attache"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "TECHNO/LEATHER"
+      },
+      {
+        "Name": "Features",
+        "Value": [
+          "Adjustable Straps",
+          "Insulated",
+          "Laptop Sleeve/Protection",
+          "Water Resistant"
+        ]
+      },
+      {
+        "Name": "Hard/Soft",
+        "Value": "Soft"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232231357516",
+  "Storefront": {
+    "StoreName": "Current Styles",
+    "StoreURL": "http://stores.ebay.com/id=756491874"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "Quantity": "1",
+  "SecondaryCategoryID": "169293",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2322313575168080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

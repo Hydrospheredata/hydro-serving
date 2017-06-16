@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Datejust II 116300 116334 Black Luminous Stick Dial SS #A22 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T06:29:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/XpMAAOSw2gxYx422/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/ec4AAOSwXYtYx423/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/aZAAAOSwOgdYx422/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/RYcAAOSw4CFYx423/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/HVgAAOSwhQhYx422/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/u7UAAOSwSlBYx423/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/JA0AAOSwWxNYx422/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Datejust II",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "122",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2224393117888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T06:29:08.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Datejust-II-116300-116334-Black-Luminous-Stick-Dial-SS-A22-/222439311788",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Datejust II 116300 116334 Black Luminous Stick Dial SS #A22",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "222439311788",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT9H59M48S"
+}

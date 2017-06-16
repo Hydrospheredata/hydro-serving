@@ -1,0 +1,149 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "46507",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Untested Sold as is No returns Probably needs new battery Contact us with any questions",
+  "StartTime": "2017-03-17T16:22:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/gMQAAOSw32lYzAzK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/uVsAAOSwsW9YzAza/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/ZxcAAOSw4YdYzAzq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/tKMAAOSwOgdYzAz5/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "LEVI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "POCKETWATCH CLIP",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "POCKET / BELT WATCH",
+        "Name": "Model"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dklovetrain17",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "138",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "198",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3820060417818080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T16:22:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LEVIS-POCKET-WATCH-and-Compass-LEVI-STRAUSS-CO-JAPAN-STAINLESS-STEEL-/382006041781",
+  "Location": "Bristol, Indiana",
+  "Title": "LEVI'S POCKET  WATCH and Compass LEVI STRAUSS & CO JAPAN STAINLESS STEEL",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "382006041781",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT21H32M1S"
+}

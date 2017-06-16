@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/x~QAAOSwzJ5XeY-F/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCM-grey-Python-Gold-Stud-Armour-Medium-backpack-2013-Limited-Edition-/232354507099",
+  "ConvertedCurrentPrice": {
+    "value": "1112.43",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "MCM grey Python Gold Stud Armour Medium backpack 2013 Limited Edition Track Page Views With Auctiva's FREE Counter",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1500.0",
+    "_currencyID": "CAD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "v7c5s8",
+  "Seller": {
+    "FeedbackScore": "1159",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "aj_luv_styles"
+  },
+  "PrimaryCategoryID": "169292",
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCM grey Python Gold Stud Armour Medium backpack 2013 Limited Edition",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T21:11:56.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P4DT6H21M16S",
+  "EndTime": "2017-06-06T21:11:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "MCM"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "Canada",
+  "ItemID": "232354507099",
+  "Storefront": {
+    "StoreName": "AJ Luv Style",
+    "StoreURL": "http://stores.ebay.com/id=56367066"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "If your item appears defective upon receipt please email us within three days of receiving your order and provide us with the details. Please send it back to us in the original packaging with a note that includes your name, email address, the auction item number, and briefly explain your reason for returning the item.\n\n\nIf you are not fully satisfied with the products, please return it within 14 days for a full refund. Please noted that the Shipping/Handling fee and insurance are not refundable and that a 10% restocking fee will be charged in case of excessive returns on a single transaction. Refund will be sent to buyer's paypal account once we receive the returned product.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323545070998080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

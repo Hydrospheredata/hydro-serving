@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT12H8M58S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "46.8",
+    "_currencyID": "USD"
+  },
+  "ItemID": "262997541323",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Jewelry-MARIE-ANTOINETTE-PINK-BOW-FRONTAL-NECKLACE-NWT-/262997541323",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.8",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T03:14:49.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T03:14:49.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hobo",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "889295179277",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Betsey Johnson Jewelry MARIE ANTOINETTE PINK BOW FRONTAL NECKLACE NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Betsey Johnson Jewelry MARIE ANTOINETTE PINK BOW FRONTAL NECKLACE When in doubt but a big bow on it! This decadent chain necklace features an oversized bow decorated with pave crystals. Gold tone necklace chain and bow frontal with pink tonal colored pave crystal accents Lobster claw closure Antique gold tone Metal/glass Length: 16\" + 3\" Ext Frontal Width: 3.5\" Frontal Drop: 2.5\" Limited Edition Thank you for looking at our listing Your product is guaranteed new and authentic! We Ship SAME DAY with US Postal Service Guaranteed Delivery! Contact us with any questions! Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629975413238080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellabacciaccessories",
+    "FeedbackScore": "3395",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Bellabacciaccessories",
+    "StoreURL": "http://stores.ebay.com/id=598323925"
+  },
+  "Quantity": "2",
+  "Location": "Costa Mesa, California",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA1WDEwMDA=/z/uS4AAOSw0hlZIler/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92627"
+}

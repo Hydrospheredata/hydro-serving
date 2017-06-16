@@ -1,0 +1,124 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "35802",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This Pocket Watch will Bring out the Pirate in us all with a Bronze Skull with a Red Eye Patch and Two Crossed Cutlass' on a Glossy Black Background The Back has an Intricate Engraved Design. The Push Button Open shows a 24 Hour Bright White Dial with Arabic Numbers and Fancy Hands. Its Movement is a Quartz Battery Operation for Better Accuracy. It comes with a Spare Battery. Has a Matching Chain and Clip.",
+  "StartTime": "2017-05-28T06:10:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ3NFgxNjAw/z/818AAOSwa-dWs~32/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYxWDE2MDA=/z/8M0AAOSwpzdWs~6S/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDU5/z/sdYAAOSw--1Ws~3X/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/fRIAAOSwGotWs~5w/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2MlgxNjAw/z/j8YAAOSwvUlWs~5I/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjY0/z/jhgAAOSwnLdWs~4e/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "EV",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Sweep Second Hand",
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Pirate",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "westhunt.256",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "882",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225331361038080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T06:10:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PIRATE-SKULL-CROSSED-CUTLASS-POCKET-WATCH-CHAIN-ENAMELED-FRONT-/322533136103",
+  "Location": "Huntsville, Alabama",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "PIRATE SKULL & CROSSED CUTLASS'  POCKET WATCH WITH CHAIN. ENAMELED FRONT",
+  "Storefront": {
+    "StoreName": "westhunt.256",
+    "StoreURL": "http://stores.ebay.com/id=804416801"
+  },
+  "ItemID": "322533136103",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT11H35M1S"
+}

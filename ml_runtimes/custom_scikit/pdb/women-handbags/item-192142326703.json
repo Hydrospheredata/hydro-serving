@@ -1,0 +1,215 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UTAKE-Women-Handbags-Leather-Handbags-Shoulder-Bag-PU-Leather-Bag-Large-Tote-Bag-/192142326703?var=",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Beschreibung: Die Utake Damen Handtaschen folgt Mode-Trend, entworfen, um verschiedene stilvolle, modische, bequeme und erschwingliche Handtaschen f\u00fcr unsere Kunden bieten. Au\u00dfenmaterial: PU-Leder. Hohe Qualit\u00e4t Ma\u00dfe: 34 L * 30 H * 14 W cm Interne Struktur: 2 gro\u00dfe Innenf\u00e4cher getrennt durch eine Rei\u00dfverschlusstasche. One interior zipper pocket. one with a cell phone pocket and the other with a small zipper pocket. Rei\u00dfverschluss. Abnehmbare und verstellbare Schulterriemen Kapazit\u00e4t: Mappe, Handy, Schl\u00fcssel, faltender Regenschirm, Ipad Luft, Textbuch usw Waschanleitung: Handw\u00e4sche ohne Hei\u00dfwasser Zum Trocknen aufh\u00e4ngen. Halten Sie es an einem trockenen, k\u00fchlen und bel\u00fcfteten Ort. Bitte beachten Sie: 1. Pls erlauben etwas Geruch des neuen Beutels, pls h\u00e4ngen es f\u00fcr einige Tage, um weg den Geruch weg zu blasen. 2. Pls erlauben etwas Farbenunterschied wegen des Beleuchtungsproblems. 3. Pls erlauben etwas Ma\u00dfst\u00f6rung.",
+  "Title": "UTAKE Women Handbags Leather Handbags Shoulder Bag PU Leather Bag Large Tote Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0140/792/658/316452214/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/792/659/316625657/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Apricot",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/660/316386752/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/792/661/316480609/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/662/316514609/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "68.31",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792658:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "60.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792659:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "87.31",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792660:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Apricot"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "68.31",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792661:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "68.31",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792662:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Blue"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Black",
+          "Brown",
+          "Apricot",
+          "Red",
+          "Blue"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-28T12:46:40.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P23DT20H27M27S",
+  "EndTime": "2017-06-26T12:46:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "UTAKE"
+      },
+      {
+        "Name": "MPN",
+        "Value": "727289195"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142326703",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:140792657:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

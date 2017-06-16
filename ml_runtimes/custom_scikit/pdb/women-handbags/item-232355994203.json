@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTg3/z/f2EAAOSwlMFZLbVb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgx/z/cfsAAOSwK6RZLbTw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/UxwAAOSwcB5ZLbUF/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Black-Microfiber-Attache-Briefcase-Messenger-Style-Bag-Excellent-/232355994203",
+  "ConvertedCurrentPrice": {
+    "value": "64.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley laptop messenger bag. Used only a few times snd in very good preowned condition. Some light scratches on the metel push button. Thank you for looking.",
+  "Title": "Vera Bradley Black Microfiber Attache Briefcase Messenger Style Bag, Excellent",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "San Bruno, California",
+  "Seller": {
+    "FeedbackScore": "882",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "fashionfanatic24-7"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94066",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T02:40:14.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT11H46M19S",
+  "EndTime": "2017-07-01T02:40:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Attache Case / Crossbody"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Microfiber"
+      },
+      {
+        "Name": "16\" x 12\" x 4 3/4\u00a0\"",
+        "Value": "2\" handle drop, 49\" adj strap"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232355994203",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323559942038080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

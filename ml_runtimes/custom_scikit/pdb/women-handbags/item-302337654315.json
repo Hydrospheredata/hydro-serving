@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTM4WDc0OQ==/z/rCkAAOSwRgJXj8hI/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODg5WDc1MA==/z/NLEAAOSw0fhXj8hE/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTg5WDc1MA==/z/7iUAAOSwsTxXj8hH/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODk1WDc1MA==/z/-FMAAOSwSv1Xj8hJ/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODY1WDY0OA==/z/q8oAAOSwRgJXj8hD/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JIMMY-CHOO-NEW-BEIGE-SUEDE-BAG-W-CRYSTALS-/302337654315",
+  "ConvertedCurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "JIMMY CHOO BEIGE SUEDE HANDLE BAG FEATURING RHINESTONE DESIGN THROUGHOUT. THIS BAG HAS SILVER TONE HARDWARE, A SINGLE ROLLED TOP HANDLE, RHINESTONES THROUGHOUT, TAN SUEDE INTERIOR, A SINGLE SLIT POCKET AT INTERIOR WALL AND ZIP CLOSURE AT TOP. MEASUREMENTS ARE: HEIGHT 6\" WIDTH 9\" HANDLE DROP 4\" DEPTH 5.5\" BUY THIS FABULOUS BAG FOR A FRACTION OF THE RETAIL PRICE",
+  "Title": "JIMMY CHOO NEW BEIGE SUEDE BAG W/ CRYSTALS",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "North Miami Beach, Florida",
+  "Seller": {
+    "FeedbackScore": "378",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "heartache1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33160",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:39:34.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT23H33M42S",
+  "EndTime": "2017-06-07T13:39:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Material",
+        "Value": "Suede"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Jimmy Choo"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9\" WIDE"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "4\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "6\""
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.5\""
+      },
+      {
+        "Name": "Style",
+        "Value": "HANDLE"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337654315",
+  "Storefront": {
+    "StoreName": "DIVAS DESIGNER DISCOUNT",
+    "StoreURL": "http://stores.ebay.com/id=1139411113"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023376543158080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

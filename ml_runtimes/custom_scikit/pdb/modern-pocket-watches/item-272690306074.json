@@ -1,0 +1,231 @@
+{
+  "ExcludeShipToLocation": [
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "SB",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "BA",
+    "HR",
+    "CZ",
+    "MD",
+    "MC",
+    "ME",
+    "SK",
+    "SJ",
+    "VA",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "PR",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "SG",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "MX",
+    "PM",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "KW",
+    "LB",
+    "YE"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "mastation913",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8854",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-28T04:34:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/obQAAOSwjqVZKlMf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ABMAAOSwuMZZKlMl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/25sAAOSw42dZKlMr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/5L8AAOSwY3BZKlMx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/WrkAAOSw9OFZKlM4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/xukAAOSwaeRZKlM-/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.25"
+  },
+  "HighBidder": {
+    "UserID": "s***s",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3273",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "SKU": "[P38CKWB]EB913A",
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726903060748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "2.5"
+  },
+  "BidCount": "4",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.25"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-02T04:34:10.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vitnage-DAD-Bronze-Quartz-Necklace-Pocket-Watch-Mens-Pappy-Fathers-Day-Gift-Set-/272690306074",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vitnage DAD Bronze Quartz Necklace Pocket Watch Mens Pappy Father's Day Gift Set",
+  "Storefront": {
+    "StoreName": "mastation913",
+    "StoreURL": "http://stores.ebay.com/id=1241281255"
+  },
+  "ItemID": "272690306074",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT9H59M9S"
+}

@@ -1,0 +1,75 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "60060",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New AVON US Air Force pocket watch in gift case.",
+  "StartTime": "2017-03-10T22:20:38.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/m9MAAOSwax5YwyVD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzExWDQwMA==/z/oDUAAOSwCU1YwyUT/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzExWDQwMA==/z/2u4AAOSw32lYwyUZ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/se0AAOSwdGFYwyY2/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "AVON",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kramo78",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "58",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "82",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321222990068080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T22:20:38.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AVON-US-AIR-FORCE-Military-EMBLEM-POCKET-WATCH-/132122299006",
+  "Location": "Mundelein, Illinois",
+  "Title": "AVON US AIR FORCE  Military EMBLEM POCKET WATCH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "132122299006",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT3H29M16S"
+}

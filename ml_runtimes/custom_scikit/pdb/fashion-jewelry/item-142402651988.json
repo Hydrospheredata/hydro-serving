@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P4DT3H41M3S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Minty",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "37.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142402651988",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Heidi-Daus-Hinged-Cuff-Swarovski-Crystals-Like-Med-Large-/142402651988",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "37.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T18:29:22.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T18:29:22.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Heidi Daus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Bronzetone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      }
+    ]
+  },
+  "Title": "Heidi Daus Hinged Cuff Swarovski Crystals Like Med-Large",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nice Heidi hinged Bangle. Measures 2 1/2\" Inner diameter, 7 1/2\" Inner Circumference, 1/2\" wide. Finished in champagne and opalescent Crystals. NO RETURNS PLEASE NOTE: I am helping a parent with Alzheimer's. I try to ship the same day payment is received, but occasionally there may be a day delay, with notice, if an \"emergency\" arises. I ask for your understanding when this happens. I have retired and am selling most of my personal jewelry and accessories. Please check back often as I have a lot, and I am slow. Thanks I Combine Shipping. Consider photos part of description. Colors may show differently on different monitors. All Measurements Are As Close As I Can Get. All items marked with invisible ink. Signature required on $125.00 items. Please forgive my wrinkled, age spotted hands...hahahaha Please, all questions thru the items on EBay, as I don't check the email account. I am sorry to say, that because so many people have purchased my items, and not paid, that I now require immediate payment.\u00a0 If you need more time, please\u00a0let me know.\u00a0\u00a0I promise that I'm not hard to deal with.\u00a0\u00a0I am sorry for the inconvenience, especially to all my regulars.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424026519888080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mcneals",
+    "FeedbackScore": "7916",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Mcneals",
+    "StoreURL": "http://stores.ebay.com/id=24589787"
+  },
+  "Quantity": "1",
+  "Location": "Wabash, Indiana",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/IeoAAOSwRUhY~5lg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjkxWDkzNQ==/z/PJ0AAOSw5UZY~5lk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjkxWDkzNQ==/z/q6IAAOSwSypY~5lq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/-toAAOSwHptY~5le/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/91sAAOSwJ4hY~5lj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/QLkAAOSwkShY~5lm/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "46992"
+}

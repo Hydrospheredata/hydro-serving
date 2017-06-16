@@ -1,0 +1,121 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "312.93"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This classic and elegant two-tone exhibition pocket watch from Gotham is the perfect addition to anyone's timepiece collection. Features include a precision 17 jewel mechanical movement showcased in full view when the front and back case covers are opened showing all moving parts, highly polished intricately designed two-tone case and scratch resistant mineral crystals to protect your timepiece. In addition, this watch includes a 14 inch steel curb chain that can attach to your belt loop plus a bonus solid brass desktop stand to display your timepiece when not worn. As always, your watch will arrive beautifully gift packaged and include operating instructions, lifetime limited warranty and a Selvyt polishing cloth to keep your watch clean. This is truly a beautiful watch at a great price. Enjoy. - Classic round silver-tone 17 jewel mechanical double cover pocket watch suitable for engraving - Intricately designed front and back covers that both open to expose movement - Scratch resistant front and back mineral crystals - Includes 14\" steel curb pocket watch chain plus bonus solid brass desktop stand - Arrives in beautiful presentation box with Selvyt polishing cloth, lifetime limited warranty and operating instructions Gotham Men's Two-Tone Mechanical Pocket Watch with Desktop Stand # GWC18802TB-ST",
+  "StartTime": "2017-03-06T13:59:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzEz/z/9boAAOSwB-1YvWs5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzc5/z/YT0AAOSwTuJYvWs5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjg2/z/~q8AAOSwXYtYvWs5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDQ2MA==/z/froAAOSwol5YvWs4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Qx4AAOSw4A5YvWs5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDM5Mg==/z/i2oAAOSwOgdYvWs4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTU0WDE1MDA=/z/T20AAOSwWxNYvWs4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDQ3Mw==/z/frUAAOSwol5YvWs4/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "050014222479",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0050014222479",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Gotham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GWC18802TB-ST",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "2.4 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 8 x W 6.9 x H 1.6 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "GWC18802SB-ST",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "22",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2725794722948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T13:59:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "312.93"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gotham Men's Two-Tone Mechanical Pocket Watch with Desktop Stand # GWC18802TB-ST",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gotham-Mens-Two-Tone-Mechanical-Pocket-Watch-Desktop-Stand-GWC18802TB-ST-/272579472294",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579472294",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H7M18S"
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921401520338080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-3.fishpond.co.nz/0100/613/557/239072975/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0100/613/557/239072977/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0100/613/557/239072978/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0100/613/557/239072979/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cool-Stuff-Womens-Leather-Purse-Gypsy-Bag-Crossbody-Women-Handbag-16x12x5-Ship-/192140152033",
+  "ConvertedCurrentPrice": {
+    "value": "624.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Unisex leather purse bag, women handbag, women travel bag, women satchel in dark brown. This original handmade leather purse or leather satchel is created by finest indian artisans with all the attention to detailing.the purse is made of genuine leather. you will receive exactly same bag as shown no foul smell as it comes in other goat leather bag",
+  "Title": "Cool Stuff Women's Leather Purse Gypsy Bag Crossbody Women Handbag 16x12x5. Ship",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "624.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-26T03:09:40.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P21DT10H48M47S",
+  "EndTime": "2017-06-24T03:09:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "FeatherTouch"
+      },
+      {
+        "Name": "MPN",
+        "Value": "493897575"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140152033",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:100613557:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

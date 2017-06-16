@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921417451528080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/KwkAAOSwuLZY2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/pHYAAOSwzgBY2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JlYAAOSwDKtY2ap4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UTsAAOSwol5Y2ap4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/tJoAAOSw4CFY2ap4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9vUAAOSwuxFY2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9vwAAOSwuxFY2ap4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JkMAAOSwDKtY2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UTgAAOSwol5Y2ap4/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Italian-Vintage-Brown-LEATHER-Grab-Bag-Handbag-Visconti-Tote-Strap-Fr-/192141745152",
+  "ConvertedCurrentPrice": {
+    "value": "239.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: From Visconti; we present this Stunning Ladies Grab/Shoulder Bag from their Italian Vintage Collection, made from a Gorgeous Veg Tan Leather giving an almost traditional Vintage Antique Look & Feel, It's ideal for those busy days on the go, and is just so practical. As with all Visconti Leather Products the detailing and finish are simply superb. Visconti are committed to delivering unmatchable quality with each and every product manufactured to the highest possible standard. Dimensions: Approx 34.5cm x 27.5cm x 13cm (13.5\" x 10.75\" x 5\") Its Features in more Detail: Beautiful Grab Handles & a Detachable/Adjustable Shoulder Strap - Apex Drop: 12cm (4.75\"), 1 Large Main Zipped Compartment (Zips fully open for ease of access) sub-divided, 1 Central Zipped Section inside Main Compartment - Handy for a Tablet/iPad, Various Slip in Pockets inside Main Compartment - Suitable for Mobile Phones/Purse etc, Zipped Pocket on Reverse of Bag, Lined throughout, Stunning Veg Tan Leather, Packaged in Gift/Dust Bag.",
+  "Title": "Ladies Italian Vintage Brown LEATHER Grab Bag Handbag by Visconti Tote Strap. Fr",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "239.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T00:12:30.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P23DT7H53M6S",
+  "EndTime": "2017-06-26T00:12:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Visconti"
+      },
+      {
+        "Name": "MPN",
+        "Value": "769904642"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141745152",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:99531780:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

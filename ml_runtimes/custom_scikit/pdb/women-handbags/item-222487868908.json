@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjgyWDQ1MA==/z/Ip0AAOSwIWVY~0b4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgyWDQ1MA==/z/myQAAOSwvKtY~0cA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgyWDQ1MA==/z/ee8AAOSw5UZY~0cJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/oJwAAOSwN6JY~0dG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/qDkAAOSwvKtY~0da/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stella-Dot-Cay-Tote-Summer-Release-2017-/222487868908",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "STELLA & DOTCAY TOTEBRAND NEW SUMMER RELEASE IN ORIGINAL PACKAGINGThe unique raffia fringe and neutral stripes make this tote your new Summer carry-all.Grab brunch with the girls or run errands in styleMeasurements: 12 3/4\" Height x 19 1/4 Length x 5\" Width x 9 3/8\" Strap DropExterior: Woven raffia, rope handlesInterior: Grey/cream diamond pattern. 3 slip pocketsThanks for viewing!SMOKE FREE HOME",
+  "Title": "Stella & Dot Cay Tote Summer Release 2017",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Slidell, Louisiana",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "424",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "chris-504"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "70461",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-25T13:02:13.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P21DT19H9M56S",
+  "EndTime": "2017-06-24T13:02:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Stella & Dot"
+      },
+      {
+        "Name": "Material",
+        "Value": "Raffia"
+      },
+      {
+        "Name": "Style",
+        "Value": "Summer Tote/Beach Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222487868908",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2224878689088080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

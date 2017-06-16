@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P29DT23H18M47S",
+  "ConditionDisplayName": "New without tags",
+  "ConditionDescription": "Perfect condition",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5AIAAOSw4A5Y2lFy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vAwAAOSwDKtY2lF0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kTwAAOSwB-1Y2lF3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pIAAAOSwhQhY2lF6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WREAAOSwc-tY2lF9/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Large-Tan-Leather-Shoulder-Bag-/192205314887",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Perfect condition",
+  "Title": "Michael Kors Large Tan Leather Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Winter Springs, Florida",
+  "Seller": {
+    "FeedbackScore": "90",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "una677"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32708",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:25:43.000Z",
+  "HitCount": "1",
+  "ConditionID": "1500",
+  "EndTime": "2017-07-02T13:25:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205314887",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922053148878080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

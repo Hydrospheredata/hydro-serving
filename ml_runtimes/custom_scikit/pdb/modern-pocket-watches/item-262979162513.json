@@ -1,0 +1,265 @@
+{
+  "ExcludeShipToLocation": [
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "SB",
+    "WF",
+    "BE",
+    "BA",
+    "HR",
+    "CZ",
+    "MD",
+    "MC",
+    "ME",
+    "SK",
+    "SJ",
+    "VA",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "LB",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-11T03:51:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/uNUAAOSwZd1VYCNA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/AQQAAOSw~OdVYCNC/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "P341-2",
+  "HitCount": "28",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T03:51:37.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "262979162513",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Bronze"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Bronze",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/TU0AAOSweW5VYCNK/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/UogAAOSwrklVYCNH/$_12.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "4.99"
+        },
+        "SKU": "P341",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "4.99"
+        },
+        "SKU": "P342",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Bronze",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      }
+    ]
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fashion DEADPOOL Black/Bronze Marvel Comics Quartz Pocket Watch Chain Unisex",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-DEADPOOL-Black-Bronze-Marvel-Comics-Quartz-Pocket-Watch-Chain-Unisex-/262979162513?var=",
+  "Storefront": {
+    "StoreName": "kikoonline",
+    "StoreURL": "http://stores.ebay.com/id=1237028809"
+  },
+  "Seller": {
+    "UserID": "kikoonline",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9263",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT9H9M23S"
+}

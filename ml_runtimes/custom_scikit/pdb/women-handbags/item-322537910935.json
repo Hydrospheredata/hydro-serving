@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjk0/z/JTAAAOSwrhBZLxtN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/uvUAAOSwsXFZLxtO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1MlgxNjAw/z/Xi4AAOSw9OFZLxtR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjQ2/z/n1YAAOSwi7RZLxtT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTYy/z/u4YAAOSwsXFZLxtV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~GAAAOSwH09ZLxtY/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/88-LUV-BETSEY-JOHNSON-Flap-Over-BLACK-EMOJIS-Backpack-Weekender-School-Carry-/322537910935",
+  "ConvertedCurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LUV BETSEY by BETSEY JOHNSON FLAP OVER\u00a0BACKPACK BLACK w/ EMOJISMeasures\u00a011\" (L) x 13.5\" (H) x 8\" (D)NEW WITH TAGS",
+  "Title": "$88 LUV BETSEY JOHNSON Flap Over BLACK EMOJIS Backpack Weekender School Carry On",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "5876",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "betseysbargains"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77070",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T19:37:44.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P28DT4H51M27S",
+  "EndTime": "2017-06-30T19:37:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black Multi"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Height",
+        "Value": "13.5\""
+      },
+      {
+        "Name": "Lrngth",
+        "Value": "11\""
+      },
+      {
+        "Name": "Depth",
+        "Value": "8\""
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Emojis"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322537910935",
+  "Storefront": {
+    "StoreName": "betsys_bargains_03",
+    "StoreURL": "http://stores.ebay.com/id=91215825"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225379109358080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

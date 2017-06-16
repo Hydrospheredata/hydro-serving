@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124272559918080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/5csAAOSww3tY3bsD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/smQAAOSwuxFY3bsE/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/x2sAAOSwhQhY3bsF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/uooAAOSwmgJY3bsG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/QNsAAOSwsW9Y3bsH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/kZAAAOSw4CFY3bsI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/E3UAAOSwdGFY3bsJ/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2017SS-NEW-CHANEL-Deauville-Backpack-Navy-A93787-Brand-New-Auth-17032405-/112427255991",
+  "ConvertedCurrentPrice": {
+    "value": "4600.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "4600.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Kyoto,JAPAN",
+  "Seller": {
+    "FeedbackScore": "45",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "yochika-japan"
+  },
+  "PrimaryCategoryID": "169295",
+  "Country": "JP",
+  "ListingType": "FixedPriceItem",
+  "Title": "2017SS NEW CHANEL Deauville Backpack Navy A93787 [Brand New][Auth]17032405",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T09:37:36.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P8DT18H18M8S",
+  "EndTime": "2017-06-11T09:37:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Denim/Calf"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "CHANEL"
+      },
+      {
+        "Name": "Color",
+        "Value": "Navy/Orange"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112427255991",
+  "Storefront": {
+    "StoreName": "YOCHIKA",
+    "StoreURL": "http://stores.ebay.com/id=1288227838"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "We will accept item return within 2 weeks of delivery depending on circumstances. \nPlease contact us through eBay within this time frame. \nIn order to avoid unnecessary returns, please read the description and view the photos carefully. \nFor all return cases, the item must be in the original condition as it is shipped to you. \nWe do not refund original shipping charge.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "17032405",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

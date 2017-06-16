@@ -1,0 +1,143 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "359.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Voorhees, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:37:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=168506305",
+    "StoreName": "TimelessWatchStore"
+  },
+  "CurrentPrice": {
+    "value": "359.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:37:53.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530281713",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hamilton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "H70455553",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "38mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "7640113834906",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Hamilton H70455553 Khaki Field Silver Dial Brown Leather Strap Automatic Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hamilton-H70455553-Khaki-Field-Silver-Dial-Brown-Leather-Strap-Automatic-Watch-/222530281713",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302817138080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "08043",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H30M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDMwNw==/z/GecAAOSwaEhZIIGY/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Timeless Watch Store Item Details Brand: HamiltonModel number: H70455553Item Shape: RoundDisplay Type: AnalogCase diameter: 38 millimetersLug Width: 20mmBand Material: LeatherDial color: SilverBezel material: Fixed Stainless SteelMovement: AutomaticWater resistant depth: 100 Meters Retail Price: $575.00Our Price: $359.00 Terms Of SaleAll products are returnable within 14 days of purchase as long as watch is still brand new, in box, with tags and warranty. We inspect all watches before leaving, but in any rare cases please contact our customer service staff. All our product are 100% Authentic Guaranteed! Shipping InformationAll domestic orders are shipped USPS Priority; in addition we also offer Fedex 2nd Day and Fedex Overnight. All international shipments are shipped via USPS. We are known for our excellent shipping service, and will stride to get your package delivered in the soonest way possible.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2488",
+    "UserID": "timelesswatchstore",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

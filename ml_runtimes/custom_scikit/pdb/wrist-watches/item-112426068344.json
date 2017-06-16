@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Las Vegas, Nevada",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:57:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1048565340",
+    "StoreName": "VegasSecondhandtime"
+  },
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:57:43.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426068344",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "G-Shock",
+        "Name": "Brand"
+      },
+      {
+        "Value": "6900cc",
+        "Name": "MPN"
+      },
+      {
+        "Value": "6900CC",
+        "Name": "Model"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio G-Shock 1289 Black and Green",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-G-Shock-1289-Black-and-Green-/112426068344",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124260683448080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "89131",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H42M26S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjc4/z/nikAAOSw-3FZBubU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMwNFgxNjAw/z/aFYAAOSwhvFZBubM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5NjY=/z/aQsAAOSwhvFZBubS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTM0/z/kLYAAOSwt0FZBubO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NlgxNjAw/z/MBQAAOSww5NZBubP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU5NlgxNjAw/z/aO8AAOSwhvFZBubR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjEy/z/yCkAAOSwjqVZBubV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTQy/z/6DYAAOSw42dZBubW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM4NFgxNjAw/z/uGQAAOSwlndZBubY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjIy/z/MO0AAOSww5NZBubZ/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Casio G-Shock 1289 Black and Green , great watch (see pics) (2) band strap is broken, including another but keeping original on.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "283",
+    "UserID": "lasvegassecondhandtime",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921417336978080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/f4UAAOSwWxNY2anc/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Large-Print-Beach-Tote-Shopper-Weekender-School-Gym-Travel-Bag-Free-Ship-/192141733697",
+  "ConvertedCurrentPrice": {
+    "value": "53.54",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This Beach Tote Bag from Silverhooks is the perfect bag to match your busy lifestyle. Its durable lined interior allows you to quickly clean the large main compartment in the event of a spill. A side slip pocket, side mesh pocket, and a zippered pocket all are placed on the exterior of this shopping bag for quick access. Make this the perfect bag for a day at the beach, mall, gym, school, or while travelling. Measures 47cm x 35cm x 17cm .",
+  "Title": "Womens Large Print Beach Tote Shopper Weekender School Gym Travel Bag. Free Ship",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.54",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-28T00:09:33.000Z",
+  "HitCount": "22",
+  "TimeLeft": "P23DT7H49M56S",
+  "EndTime": "2017-06-26T00:09:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "SilverHooks"
+      },
+      {
+        "Name": "MPN",
+        "Value": "750539614"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141733697",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:106049362:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

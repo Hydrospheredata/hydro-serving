@@ -1,0 +1,118 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Woodland, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:51:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "29.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:51:00.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966598878",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ed Hardy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Silicon",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "LV-PK",
+        "Name": "Model"
+      },
+      {
+        "Value": "lv-pk",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW ED HARDY FLORAL PINK SWAROVSKI CRYSTAL DESIGNER WATCH PLASTIC SEALED",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-ED-HARDY-FLORAL-PINK-SWAROVSKI-CRYSTAL-DESIGNER-WATCH-PLASTIC-SEALED-/252966598878",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529665988788080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "95695",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H19M23S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/~IwAAOSwiONYLNpf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/XawAAOSwcUBYLNpj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KV8AAOSwo4pYLNpn/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/2aoAAOSw5cNYLNpt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/ircAAOSwuwRYLNpx/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand new Ed Hardy FLORAL pink watch\u00a0 PLASTIC on face of watch tags still on with sealed instruction booklet\u00a0 Tab for watch hasn't been pulled BRAND new!!! Super cute fabulous holiday gift!!!\u00a0 Any lady would love ! Will ship super fast with tracking !!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "174",
+    "UserID": "jdwholesale",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

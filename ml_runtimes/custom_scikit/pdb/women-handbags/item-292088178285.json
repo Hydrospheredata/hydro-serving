@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/xOUAAOSwHHFY9Hzg/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-PINK-Sport-Duffle-Bag-Berry-Gelato-/292088178285",
+  "ConvertedCurrentPrice": {
+    "value": "91.25",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! An essential duffle with plenty of pockets! Featuring an adjustable shoulder strap with front zipper pocket and shoe pocket. Adjustable shoulder strap Two-handle straps Shoe pocket Front zipper pocket 20\"L x 10\"W x 10\" Imported polyester - Top zipper - Long adjsutable shoulder strap - Dual handle straps - Front zipper pocket & shoe pocket - Measures apporx: 20\"L x 10\"W x 10\"H Victoria's Secret PINK Sport Duffle Bag Berry Gelato",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "91.25",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Victoria's Secret PINK Sport Duffle Bag Berry Gelato",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T08:29:17.000Z",
+  "HitCount": "161",
+  "TimeLeft": "P13DT15H34M22S",
+  "EndTime": "2017-06-16T08:29:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "667544039202"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0667544039202"
+      },
+      {
+        "Name": "Brand",
+        "Value": "VS Pink"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB01N5QGPHJ-OFFSUPPLIES"
+      },
+      {
+        "Name": "Color",
+        "Value": "Berry Gelato"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.94 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 14 x W 12 x H 2 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "23412557"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088178285",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920881782858080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

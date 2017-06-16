@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/1eEAAOSwciVXQbOY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/2GUAAOSwxj5XQbJt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/F38AAOSwU1FXQbJw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/lL4AAOSwd2xXQbJx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/L3AAAOSw1h5XQbJ3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/tvgAAOSwciVXQbJ5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/zwwAAOSwfY9XQbJ~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/LXQAAOSwEOxXQbKB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/kMoAAOSwq5pXQbKD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MtUAAOSwEOxXQbK6/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Banana-Republic-Leather-Clutch-Evening-Bag-/302337440259",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "14\" x 8\" x 1\"Chain length 20\"can store in the front pocket",
+  "Title": "NWT Banana Republic Leather Clutch Evening Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Montvale, New Jersey",
+  "Seller": {
+    "FeedbackScore": "47",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "olga4yk"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07645",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:06:11.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT20H43M4S",
+  "EndTime": "2017-07-02T11:06:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Banana Republic"
+      },
+      {
+        "Name": "Style",
+        "Value": "Evening Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Orange"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "10"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "Adjustable"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337440259",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Money refunded if the item returned in the same condition - new",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023374402598080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

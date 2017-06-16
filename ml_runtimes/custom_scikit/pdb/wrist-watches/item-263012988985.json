@@ -1,0 +1,124 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "32.15",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Hillsborough",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:21:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=286889017",
+    "StoreName": "Northern Watch and Clock Supplies"
+  },
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:21:04.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012988985",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Omega Watch Glass/Crystal PX5123 Gilt Ring",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Watch-Glass-Crystal-PX5123-Gilt-Ring-/263012988985",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630129889858080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "BT266QB",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H12M5S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDc2MQ==/z/3CEAAOSwo4pYKySy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDY3Mw==/z/A6YAAOSwA3dYKyTC/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "New Old Stock Genuine Swiss Made",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "3638",
+    "UserID": "nwcs84",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

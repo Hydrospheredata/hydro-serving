@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "Description": "In order to return an item, you must contact me first with the reason..item must not be used..it must be in the same condition I sent it to you with tags..if not, I will not accept returm",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT19H58M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.49",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182595630261",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-bracelet-ANAHITA-rope-bracelet-NWT-/182595630261",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.49",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T10:59:04.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-27T10:59:04.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "bracelet",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Brighton",
+        "Name": "Designer"
+      },
+      {
+        "Value": "brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton bracelet ANAHITA rope bracelet NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Brighton bracelet ANAHITA rope bracelet NWTlarge center round disc 1.75 round..black and silver on black rope bracelet..end to end measures 8 inches",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825956302618080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "longgoneshaggy",
+    "FeedbackScore": "14773",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "A better place to shop",
+    "StoreURL": "http://stores.ebay.com/id=808410022"
+  },
+  "Quantity": "1",
+  "Location": "Monroe, New York",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/D1IAAMXQj9xRkpa2/$(KGrHqV,!rEFF9iYQQzLBRkp,2CIUw~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10950"
+}

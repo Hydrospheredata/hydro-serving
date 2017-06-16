@@ -1,0 +1,307 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shen Zhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:55:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=975373107",
+    "StoreName": "tomtop_au auction"
+  },
+  "CurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T08:55:02.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "SKU": "Y9480J1111496220798030013",
+  "Description": null,
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "BM",
+    "GL",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "AU",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "CY",
+    "EE",
+    "FR",
+    "DE",
+    "GI",
+    "GG",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "NO",
+    "RO",
+    "SM",
+    "RS",
+    "SI",
+    "ES",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "ItemID": "142399960857",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Dial Display"
+      },
+      {
+        "Value": "Pin buckle",
+        "Name": "Close Type"
+      },
+      {
+        "Value": "BBC3282456990658XU",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Wristwatch",
+        "Name": "Item Type"
+      },
+      {
+        "Value": "Men",
+        "Name": "Gender"
+      },
+      {
+        "Value": "JARAGAR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Watch Case Material"
+      },
+      {
+        "Value": "Auto Self-Winding",
+        "Name": "Movement Type"
+      },
+      {
+        "Value": "Triangle",
+        "Name": "Dial Shape"
+      },
+      {
+        "Value": "Real leather strap",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion & Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Surface Material"
+      },
+      {
+        "Value": [
+          "Date & Week Dispaly",
+          "Daily Waterproof"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Dial Material"
+      },
+      {
+        "Value": "713893266292",
+        "Name": "UPC"
+      },
+      {
+        "Value": "B01HTHHMB6",
+        "Name": "ASIN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "JARAGAR Mens Self-winding Mechanical Automatic Triangle Leather Wrist Watch F3R4",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JARAGAR-Mens-Self-winding-Mechanical-Automatic-Triangle-Leather-Wrist-Watch-F3R4-/142399960857",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423999608578080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "518000",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT17H26M41S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/J0IAAOSw3mpXEOJV/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/jKkAAOSwL0NXEOJN/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/jQAAAOSwL0NXEOJP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/OoEAAOSwYmZXEOJS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/1BcAAOSw4CFYqm1L/$_1.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackScore": "266103",
+    "UserID": "tomtop_au",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "NWT Men's Michael Kors Stainless Steel Chronograph Wristwatch MK2633 ~ 4-K6123 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-02-22T15:00:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA4WDEyODA=/z/cKwAAOSw2gxYpg~Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5MzE=/z/EdcAAOSw3v5Ypg~b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTk4/z/o6QAAOSw4A5Ypg~d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5ODk=/z/6J4AAOSwfVpYpg~e/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc5WDEyODA=/z/pj8AAOSwOgdYpg~g/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "318",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3917121552798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T15:00:18.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Mens-Michael-Kors-Stainless-Steel-Chronograph-Wristwatch-MK2633-4-K6123-/391712155279",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "NWT Men's Michael Kors Stainless Steel Chronograph Wristwatch MK2633 ~ 4-K6123",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391712155279",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P21DT21H4M28S"
+}

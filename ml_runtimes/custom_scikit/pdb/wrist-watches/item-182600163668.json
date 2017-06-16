@@ -1,0 +1,91 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "FR",
+  "Location": "Charquemont",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:32:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:32:46.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600163668",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "breitlng",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "watch breitling women , quartz , (old stock)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/watch-breitling-women-quartz-old-stock-/182600163668",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826001636688080_1.jpg",
+  "HitCount": "10",
+  "PostalCode": "25140",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H21M7S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OwMAAOSwuspY9IgZ/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "watch breitling women , swiss quartz , diam\u00e8ter 30mm (old stock)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "598",
+    "UserID": "fresardwatch",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

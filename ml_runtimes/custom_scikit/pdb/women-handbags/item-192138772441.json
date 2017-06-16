@@ -1,0 +1,999 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hype-Backpack-Bags-Rucksack-NEW-HYPE-ROADMAN-BAG-BLACK-LEATHER-School-Trav-/192138772441?var=",
+  "ConvertedCurrentPrice": {
+    "value": "59.59",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Hype Bags are the brand of choice at the moment and this convenient shoulder bag makes the perfect utility for individuals on the go. Made from 100% polyester the bag is light weight, water repellent, strong and wipe clean. It has 2 metal zipped pockets and a back Hook and loop compartment. Total capacity is 2.1L and dimensions when full are: 22 x 16 x 6cm. The bag fits easily your wallet, purse, mobile phone and additional daily essentials. Adjustable padded shoulder strap allows for a great fit and it's unisex design is perfect for all. Hype bags sell out very fast so get yours now, they make perfect gifts and are an excellent Christmas and Birthday choice. For more choices click on the NINE YARDS store name below the title and then select the long description bag images to be directed to the many other listings we have. Please let us know what you thought of your purchase once you receive your bag.",
+  "Title": "Hype Backpack Bags Rucksack | NEW | HYPE ROADMAN BAG BLACK LEATHER | School Trav",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.59",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Holographic Polka White",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0129/334/412/304880327/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "BOTTLE GREEN",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0129/334/418/309529997/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Speckle Fade",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0129/334/425/299900642/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "GREY",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0129/334/429/299159670/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Link Blue",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0129/334/430/300199035/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Garrick Wallet",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0129/334/437/284547355/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Holographic Polka Black",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0129/334/438/302799871/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "OLIVE GREEN",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0129/334/439/292304366/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Link Bronze",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0129/334/444/311138562/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Paradise Seas",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0129/334/449/300627458/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "ROYAL BLUE",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0129/334/451/300010276/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "59.75",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334412:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Holographic Polka White"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "53.3",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334413:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Traveller Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334414:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "OXBLOOD"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334415:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Floro Ferns"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "26.64",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334416:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Roadman Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "35.06",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334417:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Roadman Leather Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334418:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "BOTTLE GREEN"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334419:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "WHITE"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "23.84",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334420:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Quinton Wallet"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334421:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "EMERALD GREEN"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334422:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "AIRFORCE BLUE"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "35.06",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334423:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Navy Utility"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334424:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "PURPLE"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334425:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Speckle Fade"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334426:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Beetroot"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334427:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Space Plants"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334428:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "CORAL"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334429:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "GREY"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334430:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Link Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334431:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Iceland"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334432:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "BABY PINK"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334433:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "RED"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334434:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Garden Mist"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "35.06",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334435:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Roadman Leather Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334436:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Holographic Polka Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "23.84",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334437:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Garrick Wallet"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334438:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Holographic Polka Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334439:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "OLIVE GREEN"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334440:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Pink Rose"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334441:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "SURF BLUE"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "26.64",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334442:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Roadman Navy"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "26.64",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334443:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Enfield Premium Tote"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "59.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334444:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Link Bronze"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334445:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Glitch Flowers"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "23.84",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334446:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Enfield Wallet"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334447:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Pomme"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334448:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "NAVY"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334449:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Paradise Seas"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334450:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Warp Blob"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334451:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "ROYAL BLUE"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334452:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Slinkey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334453:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "BLACK"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334454:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "BURGUNDY"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334455:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "FUSCIA"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "44.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129334456:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "LIGHT GREY"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Holographic Polka White",
+          "Traveller Black",
+          "OXBLOOD",
+          "Floro Ferns",
+          "Roadman Black",
+          "Roadman Leather Blue",
+          "BOTTLE GREEN",
+          "WHITE",
+          "Quinton Wallet",
+          "EMERALD GREEN",
+          "AIRFORCE BLUE",
+          "Navy Utility",
+          "PURPLE",
+          "Speckle Fade",
+          "Beetroot",
+          "Space Plants",
+          "CORAL",
+          "GREY",
+          "Link Blue",
+          "Iceland",
+          "BABY PINK",
+          "RED",
+          "Garden Mist",
+          "Roadman Leather Black",
+          "Holographic Polka Pink",
+          "Garrick Wallet",
+          "Holographic Polka Black",
+          "OLIVE GREEN",
+          "Pink Rose",
+          "SURF BLUE",
+          "Roadman Navy",
+          "Enfield Premium Tote",
+          "Link Bronze",
+          "Glitch Flowers",
+          "Enfield Wallet",
+          "Pomme",
+          "NAVY",
+          "Paradise Seas",
+          "Warp Blob",
+          "ROYAL BLUE",
+          "Slinkey",
+          "BLACK",
+          "BURGUNDY",
+          "FUSCIA",
+          "LIGHT GREY"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-24T11:27:01.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P19DT19H5M19S",
+  "EndTime": "2017-06-22T11:27:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Hype"
+      },
+      {
+        "Name": "MPN",
+        "Value": "435142056"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138772441",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "8",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:129334411:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,241 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "Storefront": {
+    "StoreName": "Worlds Sexiest Wholesale.com&#39;s Shop",
+    "StoreURL": "http://stores.ebay.com/id=70254652"
+  },
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/w4gAAOSwH09ZK1nq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg3NTE=/z/w4sAAOSwH09ZK1nr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4MTQ=/z/Z7QAAOSwK6RZK1nr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1g4NDU=/z/K6MAAOSwX9FZK1nr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4MTg=/z/aL4AAOSw-3FZK1nr/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-PINK-Clear-PVC-Plastic-Canvas-NWT-RARE-You-Choose-Color-/162532600523?var=",
+  "ConvertedCurrentPrice": {
+    "value": "79.05",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victoria's Secret PINK PVC Plastic and Canvas Tote Bag New With Tags. Clear PVC Plastic Tote with Canvas Handles and trim around the bag with the bottom corners reinforced with the Canvas, on one side it has the PINK Crest in Green with a \"P\" in the middle. Measures approximately 13 inches high, 20 inches wide and a depth of 4 1/2 inches with a strap drop of 10 inches. HARD TO FIND BAG !! Track Page Views With Auctiva's FREE Counter",
+  "Title": "Victoria's Secret PINK Clear PVC Plastic Canvas NWT RARE You Choose Color",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "AL",
+    "AD",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "CY",
+    "EE",
+    "FI",
+    "FR",
+    "GI",
+    "GG",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "AI",
+    "AG",
+    "BB",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "VC",
+    "TC",
+    "BM",
+    "GL",
+    "PM",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.05",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Cypress, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "4917",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "worldssexiestwholesale"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77429",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "PVC",
+        "PictureURL": "http://img.auctiva.com/imgdata/1/6/3/5/6/4/1/webimg/950626649_o.jpg"
+      },
+      "VariationSpecificName": "Material"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "79.05",
+          "_currencyID": "USD"
+        },
+        "SKU": "254424684_636315819464059320-002",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Material",
+              "Value": "PVC"
+            },
+            {
+              "Name": "Style",
+              "Value": "Clear With Green Tote"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "79.05",
+          "_currencyID": "USD"
+        },
+        "SKU": "254424684_636315819464059320-003",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Material",
+              "Value": "PVC"
+            },
+            {
+              "Name": "Style",
+              "Value": "Clear With Pink Tote"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "Material",
+          "Value": "PVC"
+        },
+        {
+          "Name": "Style",
+          "Value": [
+            "Clear With Green Tote",
+            "Clear With Pink Tote"
+          ]
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-05-28T23:14:42.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P25DT5H35M53S",
+  "EndTime": "2017-06-27T23:14:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Strap Drop",
+        "Value": "10 inches"
+      },
+      {
+        "Name": "Depth",
+        "Value": "4 1/2 inches"
+      },
+      {
+        "Name": "Width",
+        "Value": "20 inches"
+      },
+      {
+        "Name": "Height",
+        "Value": "13 inches"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162532600523",
+  "PrimaryCategoryID": "42526",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Description": "Due to the nature of many of our items, you must contact us before returning any purchase. Returns of items with manufacturing defects or incorrect items are accepted within sixty (60) days of delivery.\n\nWe can accept NO returns of lingerie, swimsuit bottoms, lotions or cosmetics if worn or opened.\n\nRefunds will NOT be given for items that have been misused or abused or used for any purpose that they are not intended.\n\nAll returned items must be in original packaging.\n\nAny clothing items returned must have ALL ORIGINAL tags intact and must be in UNWORN condition.\nIf tags are removed or item has been worn or laundered, NO refund will be given.\n\nRefunds will be given for original purchase prices only EXCLUDING shipping.\nBuyer is responsible for any return shipping costs.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,528 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.19",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDUw/z/YPQAAOSwAPVZLoCD/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "SZ",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:36:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "15",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1115879377",
+    "StoreName": "shoppingfreely"
+  },
+  "CurrentPrice": {
+    "value": "1.19",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:36:16.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LI",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "SA",
+    "YE",
+    "AF",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KR",
+    "MV",
+    "NP",
+    "TJ",
+    "TM",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "ItemID": "391800335820",
+  "HandlingTime": "10",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Analog-Dial-Dress-Bracelet-Wrist-Watch-Alloy-Band-Quartz-Fashion-/391800335820?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alloy",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "FW0921",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "1.19",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021601",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#216Black",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW033401",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#334Black",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034301",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#343Black",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.33",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034401",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#344Black",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.33",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034447",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#344Blue",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034306",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#343White",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW033406",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#334White",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW033421",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#334Pink",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034321",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#343Pink",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.33",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0344066",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#344Apricot",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034337",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#343Yellow",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW033452",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#334Dark Blue",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.07",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW033453",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#334Light Blue",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034352",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#343Dark Blue",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "4.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW034353",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#343Light Blue",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "#216Black",
+          "#334Black",
+          "#343Black",
+          "#344Black",
+          "#344Blue",
+          "#343White",
+          "#334White",
+          "#334Pink",
+          "#343Pink",
+          "#344Apricot",
+          "#343Yellow",
+          "#334Dark Blue",
+          "#334Light Blue",
+          "#343Dark Blue",
+          "#343Light Blue"
+        ],
+        "Name": "Pattern"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "#216Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0216/FW021601.jpg"
+        },
+        {
+          "VariationSpecificValue": "#334Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0334/FW033401.jpg"
+        },
+        {
+          "VariationSpecificValue": "#343Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0343/FW034301.jpg"
+        },
+        {
+          "VariationSpecificValue": "#344Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0344/FW034401.jpg"
+        },
+        {
+          "VariationSpecificValue": "#344Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0344/FW034447.jpg"
+        },
+        {
+          "VariationSpecificValue": "#343White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0343/FW034306.jpg"
+        },
+        {
+          "VariationSpecificValue": "#334White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0334/FW033406.jpg"
+        },
+        {
+          "VariationSpecificValue": "#334Pink",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0334/FW033421.jpg"
+        },
+        {
+          "VariationSpecificValue": "#343Pink",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0343/FW034321.jpg"
+        },
+        {
+          "VariationSpecificValue": "#344Apricot",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0344/FW0344066.jpg"
+        },
+        {
+          "VariationSpecificValue": "#343Yellow",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0343/FW034337.jpg"
+        },
+        {
+          "VariationSpecificValue": "#334Dark Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0334/FW033452.jpg"
+        },
+        {
+          "VariationSpecificValue": "#334Light Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0334/FW033453.jpg"
+        },
+        {
+          "VariationSpecificValue": "#343Dark Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0343/FW034352.jpg"
+        },
+        {
+          "VariationSpecificValue": "#343Light Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0343/FW034353.jpg"
+        }
+      ],
+      "VariationSpecificName": "Pattern"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H7M1S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Women's Analog Dial Dress Bracelet Wrist Watch Alloy Band Quartz Fashion",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "FeedbackScore": "94710",
+    "UserID": "shoppingfreely",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Restocking fees: No"
+  }
+}

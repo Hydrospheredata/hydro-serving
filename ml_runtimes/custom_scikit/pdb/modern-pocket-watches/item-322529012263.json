@@ -1,0 +1,79 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "23454",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "ES+ POcket Watch Fisherman,Swiss made 17 Jewels with chain Click Photos to Enlarge Description Vintage ES+ Fisherman Pocket Watch and Chain, 17 Jewels Swiss made.It measures 1 7/8\" diameter and chain is 12\" long. It is in good condition and runs well. it is mechanical wind and is pre owned. Payment and Shipping Pay Pal. buyer pays shipping via USPS inkfrog terapeak inkFrog Analytics",
+  "StartTime": "2017-05-25T15:17:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODE0WDY3Ng==/z/5Y0AAOSwcB5ZJvQx/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM5WDU2Mw==/z/QDEAAOSwGJlZJvQ-/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUxOA==/z/8HYAAOSwlndZJvRN/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY3WDU1Ng==/z/IosAAOSw9OFZJvRY/$_10.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kll3925austria",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "474",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "29",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225290122638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T15:17:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ES-POcket-Watch-Fisherman-Swiss-made-17-Jewels-chain-/322529012263",
+  "Location": "Virginia Beach, Virginia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ES+  POcket Watch Fisherman,Swiss made 17 Jewels with chain",
+  "SKU": "inkfrog-562331",
+  "ItemID": "322529012263",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT20H40M47S"
+}

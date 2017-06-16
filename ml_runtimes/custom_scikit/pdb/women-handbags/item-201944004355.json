@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/zE0AAOSwB09YCmJv/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/aUUAAOSwImRYCmJ0/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/1AYAAOSwo4pYCmJ3/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/1I4AAOSwo4pYCmJ6/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/3UoAAOSw44BYCmJ8/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/AEMAAOSw4f5YCmKF/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Bleeker-Platinum-Metallic-Leather-Handbag-Tote-14384-/201944004355",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Pretty Coach silver Bleeker large handbag in pre-owned good condition. We offer 14 day returns. Please view our other items.",
+  "Title": "COACH Bleeker Platinum Metallic Leather Handbag Tote 14384",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Greenville, Texas",
+  "Seller": {
+    "FeedbackScore": "461",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "house-of-david"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75402",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T23:59:21.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT8H17M",
+  "EndTime": "2017-06-08T23:59:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote/Shopper"
+      },
+      {
+        "Name": "Color",
+        "Value": "Silver"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944004355",
+  "Storefront": {
+    "StoreName": "House-of-David",
+    "StoreURL": "http://stores.ebay.com/id=517046624"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019440043558080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

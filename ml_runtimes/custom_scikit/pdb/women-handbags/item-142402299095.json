@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/uPAAAOSwB09YFPls/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/s6cAAOSwImRYFPl2/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/XLcAAOSwcUBYFPmA/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/xk8AAOSwkd5YFPmL/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/oN4AAOSwHMJYFPme/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/Re4AAOSwx2dYFPmt/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/wPMAAOSwn7JYFPm4/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/quQAAOSwcLxYFPnd/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-NWT-Poppy-Purse-Price-298-/142402299095",
+  "ConvertedCurrentPrice": {
+    "value": "179.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a NWT Coach Poppy Purse that comes with Tags and Comes in its original Coach Cloth coverup. It has never been used and was purchased at Original Coach store in CT for $298. It's 9 1/2\" L and 14\"W and is very elegant. It's a Medium-Large size purse.",
+  "Title": "COACH NWT Poppy Purse  Price $298",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "West Springfield, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "1156",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "dr.jessicalynn"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "01089",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:33:15.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT22H22M19S",
+  "EndTime": "2017-07-02T12:33:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9 1/2\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "9\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142402299095",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424022990958080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

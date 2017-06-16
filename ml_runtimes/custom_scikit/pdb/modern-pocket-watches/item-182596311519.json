@@ -1,0 +1,158 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.5"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "81007",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is a Milan Quartz Pocket Watch. The watch has a raised golfer on the front cover, flower decoration on the back cover the watch is in good condition and does come with the chain and clip. Gold tone with Ivory face.",
+  "StartTime": "2017-05-28T22:14:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDEyOTM=/z/OiEAAOSwnF9Y6wSS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/sKQAAOSww3tY6wTQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/YVAAAOSwB-1Y6wT1/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "MILAN",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sh00tingtime",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1068",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825963115198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T22:14:56.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MILAN-QUARTZ-POCKET-WATCH-RAISED-GOLFER-FRONT-GOLD-TONE-CHAIN-/182596311519",
+  "Location": "Pueblo, Colorado",
+  "Title": "MILAN QUARTZ POCKET WATCH WITH RAISED GOLFER ON FRONT, GOLD TONE WITH CHAIN",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182596311519",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT3H40M19S"
+}

@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Las Vegas, Nevada",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:41:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1048565340",
+    "StoreName": "VegasSecondhandtime"
+  },
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:41:56.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426051783",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Shark",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Freestyle Shark Watch 101078",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Freestyle-Shark-Watch-101078-/112426051783",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124260517838080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "89131",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H26M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzQ0/z/4cAAAOSw42dZBtid/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDgy/z/0GcAAOSwjqVZBtiW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzQ2/z/zhAAAOSww9xZBtiY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI5NlgxNjAw/z/WCkAAOSwdjNZBtiZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU5NlgxNjAw/z/hLsAAOSw~y9ZBtib/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ5OFgxNjAw/z/u9MAAOSwlndZBtif/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTc0/z/hSoAAOSw~y9ZBtig/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ3NlgxNjAw/z/uu0AAOSwcgNZBtii/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Mens Freestyle Shark Watch 101078. Amazing shape (see pics) 2",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "283",
+    "UserID": "lasvegassecondhandtime",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

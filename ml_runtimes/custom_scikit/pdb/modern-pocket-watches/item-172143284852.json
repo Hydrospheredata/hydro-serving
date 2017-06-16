@@ -1,0 +1,213 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "GR",
+    "ME",
+    "SJ",
+    "CH",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KR",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "QuantitySold": "5",
+  "PostalCode": "00852",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "qualitystore4u",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "39396",
+    "PositiveFeedbackPercent": "98.1"
+  },
+  "SecondaryCategoryIDPath": "281:14324:3937:398",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/K8AAAOSwyjBW8ZzE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6-0AAOSwvFZW8ZzF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/E68AAOSwu1VW8ZzF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ChcAAOSws4JW8ZzF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/K8YAAOSwyjBW8ZzF/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.41"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "SecondaryCategoryID": "398",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Other",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz Pocket Watch",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "wedding/party/causual/daily wearing",
+        "Name": "occasion"
+      },
+      {
+        "Value": "Alloy Quartz Movement",
+        "Name": "Material"
+      },
+      {
+        "Value": "Valentine's gift/birthday gift/Anniversary gift",
+        "Name": "a good choice for"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "1.89inch/4.8cm",
+        "Name": "Pocket Diameter"
+      },
+      {
+        "Value": "31.10inch/79cm",
+        "Name": "Chain Length"
+      },
+      {
+        "Value": "yourself and your friends",
+        "Name": "A good gift for"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0.59inch/1.5cm",
+        "Name": "Pocket Thickness"
+      },
+      {
+        "Value": "Unbrand/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "SKU": "IG_7RPZ_Z3EI",
+  "StartTime": "2016-03-22T19:28:02.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1721432848528080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T19:28:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.41"
+  },
+  "BidCount": "0",
+  "Country": "HK",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Men-Vintage-Antique-Black-Quartz-Pocket-Watch-Pendant-Necklace-Chain-Gift-/172143284852",
+  "Location": "HK",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Women Men Vintage Antique Black Quartz Pocket Watch Pendant Necklace Chain Gift",
+  "Storefront": {
+    "StoreName": "qualitystore4u",
+    "StoreURL": "http://stores.ebay.com/id=1111136381"
+  },
+  "ItemID": "172143284852",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Other Pocket Watches",
+  "TimeLeft": "P14DT23H53M36S"
+}

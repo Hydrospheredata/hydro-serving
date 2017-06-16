@@ -1,0 +1,95 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.95"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "91307",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "New American Historic Society gold tone battery pocket watch with chain and folding pen knife. Open Face closure. Face is Ben Franklin 1962 Half Dollar coin.Timepiece is approximately 1 5/8\u201d wide Chain is approximately 14\u201d long Pen Knife is approximately 2 \u00be\u201d long",
+  "StartTime": "2017-05-25T19:51:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ChwAAOSwdGFYp4x4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2ScAAOSwOgdYp4x5/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2QwAAOSwOgdYp4x4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hv0AAOSwx6pYp4x6/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UhIAAOSwtfhYp4x6/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "American Historic Society",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "golden*door",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "38",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921297093558080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T19:51:23.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "89.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-POCKET-WATCH-American-Historic-FRANKLIN-SILVER-HALF-DOLLAR-Chain-Pen-Knife-/292129709355",
+  "Location": "West Hills, California",
+  "Title": "NEW POCKET WATCH American Historic FRANKLIN SILVER HALF DOLLAR Chain Pen Knife",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "292129709355",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT1H14M56S"
+}

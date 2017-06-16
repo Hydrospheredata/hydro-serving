@@ -1,0 +1,79 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "17325",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "STONEWALL JACKSON 1824-1863 CIVIL WAR POCKET WATCH NEW",
+  "StartTime": "2017-02-21T01:32:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/xcQAAOSwYmZXNJkc/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DAI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jdggettysburg",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "12025",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "103",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2224164676868080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T01:32:14.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/STONEWALL-JACKSON-1824-1863-CIVIL-WAR-POCKET-WATCH-NEW-/222416467686",
+  "Location": "Gettysburg, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "STONEWALL JACKSON 1824-1863 CIVIL WAR POCKET WATCH NEW",
+  "Storefront": {
+    "StoreName": "Gettysburg Civil War Store",
+    "StoreURL": "http://stores.ebay.com/id=716590136"
+  },
+  "ItemID": "222416467686",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT6H38M7S"
+}

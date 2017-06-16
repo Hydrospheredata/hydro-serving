@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.55",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pompano Beach, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:11:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1321040078",
+    "StoreName": "kingcarver"
+  },
+  "CurrentPrice": {
+    "value": "6.55",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:11:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "PO Box"
+  ],
+  "ItemID": "252966559745",
+  "HandlingTime": "3",
+  "Description": "Specification: Item Type : Pocket Watch Dial Window Material Type : Glass Water Resistance Depth : 0m Movement : Quartz Watch Style : Fashion & Casual Gender : Unisex Dial Display : Analog Case Shape : Round Dial Diameter : About 3cm Chain Length : About 44cm Package include: 1 X Pocket Watch",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Bronze-Dial-Roman-Number-Chain-Pocket-Watch-FAST-SHIPPING-US-/252966559745",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529665597458080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H38M22S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/fEgAAOSww5hZLmrj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/3NwAAOSwYlRZLmrR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/wnoAAOSwcB5ZLmsL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/qa4AAOSwfpVZLmq7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/6RsAAOSwGJlZLmr8/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Vintage Bronze Dial Roman Number Chain Pocket Watch FAST SHIPPING US",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "271",
+    "UserID": "riff_inc",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT23H18M5S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "PRISTINE CONDITION...GREAT SIZE...GORGEOUS!!!",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142405351760",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:51:01.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-EARRINGS-CLIP-ON-BLACK-OFF-WHITE-GOLD-TONE-/142405351760",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:51:01.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GoldTone Base Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Black/Off White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION...EARRINGS...CLIP-ON..BLACK/OFF WHITE/GOLD TONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Hermitage, Tennessee",
+  "Description": "ST JOHN BLACK, OFF WHITE AND GOLD TONE CLIP-ON EARRINGS...OVER 1\"...THE CENTER STRIPE IS OFF WHITE ENAMEL WITH BOTH SIDES IN BLACK WITH OPEN SECTIONS BETWEEN...EACH SECTION IS OUTLINED IN RAISED GOLD TONE GIVING THESE EARRINGS A DRAMATIC LOOK...GREAT EARRINGS THAT CAN BE WORN FOR BUSINESS...THEY ARE OUTSTANDING AND IN PRISTINE CONDITION...SIGNED ON THE CLIPS AND ON THE INSIDE...COMFORT PADS...THESE EARRINGS WILL BE MAILED USPS FIRST CLASS MAIL WITH A TRACKING NUMBER FOR SECURE DELIVERY.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424053517608080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/GMEAAOSwal5YKNAl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/fw0AAOSwA3dYKNAS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/nMUAAOSw0OBYKNAY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/WeIAAOSwcLxYKNAf/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "37076"
+}

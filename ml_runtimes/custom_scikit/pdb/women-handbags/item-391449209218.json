@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3914492092188080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTc2WDU3Ng==/z/iEwAAOSw1DtXKt3D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/kEwAAOSwn9lXKtiW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Ba4AAOSw2x1XKtid/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Stroll-Around-Baby-Bag-Beautiful-Pixie-Confetti-Pattern-NWT-/391449209218",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "4",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Stroll Around Baby Bag. This wonderful baby bag is what you need to keep all baby's necessities neatly organized. Details15\" strap drop 12\" removable stroller straps to attach bag to stroller handlesExterior pocket include two slip pockets, and a front compartment containing the changing pad and two mesh pocketsChanging pad unsnaps from front compartment for launderingInterior features laminated fabric for cleaning, and five mesh pocketsZip-top closure Care Tips Machine wash cold gentle cycle. Use only non-chlorine bleach as needed, line dry. Dimensions 16 \u00bd\" W x 12\" H x 5 \u00bd\" D with 15\" strap drop, 12\" removable stroller straps Disclaimer:We are not an authorized Vera Bradley representative, distributor or retailer, and are not in anyway affiliated with Vera Bradley, or its products. \"BUT WE DO GUARANTEE the quality of all our products.",
+  "Title": "Vera Bradley Stroll Around Baby Bag Beautiful *Pixie Confetti* Pattern NWT!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "FeedbackScore": "1267",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pearljade_29"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77044",
+  "GlobalShipping": "false",
+  "Quantity": "9",
+  "StartTime": "2016-05-05T05:46:14.000Z",
+  "HitCount": "3574",
+  "TimeLeft": "P26DT14H8M42S",
+  "EndTime": "2017-06-29T05:46:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Stroll Around Baby Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Orange"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003317051"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391449209218",
+  "Storefront": {
+    "StoreName": "Kenyalang_871",
+    "StoreURL": "http://stores.ebay.com/id=123482802"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "14871-208",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

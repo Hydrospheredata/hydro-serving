@@ -1,0 +1,220 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mjc2WDUwMQ==/z/5fsAAOSwuLZY7Hxl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDY4WDUwMQ==/z/ZwMAAOSwpP9Y7Hxm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQ4WDUwMQ==/z/mgwAAOSw~CFY7Hxm/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bag-Duffle-bag-Gym-Man-Woman-K-Way-bag-K-Foldable-Crossover-Sac-K2m03-/401306501854?var=",
+  "ConvertedCurrentPrice": {
+    "value": "83.82",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "WOMENSWEAR MEN'S CLOTHING Women's accessories Men's Accessories Bag Gym Bag Man Female K-Way Crossover K2m03 Sac K-Foldable Bag Click on the images below to enlarge Price: 59,99\u00a0\u20ac Description: Bag Gym Bag Man Female K-Way Crossover K2m03 Sac K-Foldable Bag 1 Main full zip opening internally: AMPLE SPACE FOR MISCELLANY; HANDLES FOR CARRYING BY HAND REMOVABLE, ADJUSTABLE STRAP FOR SHOULDER Made in China MATERIAL: 100% nylon DIMENSIONS: 56X25X37 CM INFORMAZIONI Chi siamo Terms of sale SHIPPING AND PAYMENT CONTACTS CUSTOMER SERVICE Feedback Sizes Add to Favorites Gift box",
+  "ExcludeShipToLocation": [
+    "CA",
+    "AU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "83.82",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "AU"
+  ],
+  "Location": "Pocapaglia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "37318",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "e-bestsale"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Bag Duffle bag Gym Man Woman K-Way bag K-Foldable Crossover Sac K2m03",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "black",
+          "PictureURL": [
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0027_1_8.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0026_1_7.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0025_51.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0023_1_36.jpeg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0028_1_12.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0031_36.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0032_39.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0029_42.jpeg",
+            "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/76/42/61/162467268321_media_catalog_product_d_s_dsc_0030_59.jpeg"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Exact colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "5",
+        "StartPrice": {
+          "value": "83.82",
+          "_currencyID": "USD"
+        },
+        "SKU": "Sac K2m03-Nero",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "MPN",
+              "Value": "Without Applicable"
+            },
+            {
+              "Name": "Exact colour",
+              "Value": "black"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "5",
+        "StartPrice": {
+          "value": "83.82",
+          "_currencyID": "USD"
+        },
+        "SKU": "Sac K2m03-Blu",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "MPN",
+              "Value": "Without Applicable"
+            },
+            {
+              "Name": "Exact colour",
+              "Value": "Blue"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "MPN",
+          "Value": "Without Applicable"
+        },
+        {
+          "Name": "Exact colour",
+          "Value": [
+            "Blue",
+            "black"
+          ]
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-04-11T06:48:54.000Z",
+  "TimeLeft": "P7DT14H34M24S",
+  "EndTime": "2017-06-10T06:48:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "K-Way"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Country of origin",
+        "Value": "Cinema"
+      },
+      {
+        "Name": "body material",
+        "Value": "NYLON"
+      },
+      {
+        "Name": "bag dimensions",
+        "Value": "21 11/16x10 5/8x13 13/16in"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401306501854",
+  "Storefront": {
+    "StoreName": "Looev",
+    "StoreURL": "http://stores.ebay.com/id=438311782"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "10",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Is there a purchase return guarantee?\r\n\r\nIf, for some reason, you are not satisfied with the product you ordered, you can send it back to us. Of course we would undertake the shipping cost in the case that it is the consequence of a mistake on our side. \t\r\n\r\nIs it possible to swap the product? \r\nWe will send you another product as soon as we receive the returned package.\r\nWe cover the postage cost of the second product in the case that it is due to a mistake on our side. If you change your mind about the product and return it to us, you will be asked to contribute to the product shipping costs. \t\t\t\t\t\t\t\t\r\n\r\nConditions of the returned product:\r\nPlease note that in order to receive a full refund of the product price, or an exchange of equal value, we will ask you to return the product in the same conditions as when we sent it to you.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "IT",
+  "SKU": "Sac K2m03",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

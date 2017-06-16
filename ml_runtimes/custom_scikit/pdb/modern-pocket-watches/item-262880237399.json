@@ -1,0 +1,218 @@
+{
+  "ExcludeShipToLocation": [
+    "PM",
+    "AO",
+    "BJ",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "KW",
+    "LB",
+    "SA",
+    "TR",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK",
+    "FJ",
+    "NC",
+    "PG",
+    "WF",
+    "AL",
+    "AT",
+    "BA",
+    "HR",
+    "CY",
+    "CZ",
+    "DE",
+    "IT",
+    "MD",
+    "SJ",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "SG",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "kikohouse",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13218",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product Description Product Features: Movement: Quartz Diameter: About 4.7cm Thickness: About 1.5cm Total Length of Chain: About 80cm Package Content: 1 x Pocket Watch 1 x ChainPayment We accept payment via PayPal only. Payment must be made within 7 days, Non-payment may result in an UPI (Unpaid Item).Shipping Items will be shipped within 1 business days after payment. Items are shipped by postal shipping.Returns All items are 100% money back guarantee. All items have been checked and packaged in good condition. You can return the items for any reason (except man-made damage)in 14 days.About Us Please feel free to contact us, we are here for you! We answer all emails within 24 hours. If you email questions after business hours or on holidays,we will usually answer them the next business day. We strive for positive Feedback on all transactions.Feedback Positive Feedback (5 Stars) is very important to us, if you are satisfied with our items and service kindly leave 5 stars feedback. Please do not open dispute or leave negative feedback before to contact us, we will take responsibility to solve any problem. Please contact us by E-mail or Letter before leaving neutral (3 stars) or negative (1-2 stars) feedback. We will try our best to solve the problems. The negative feedback doesnt solve anything. Best Regards. powered by tongtool",
+  "StartTime": "2017-03-04T04:35:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/tjwAAOSw4A5YukP9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/QxkAAOSwax5YukQE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/svIAAOSw32lYukQK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/sl0AAOSw32lYukQA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/KAkAAOSw~AVYukP1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/sfAAAOSw32lYukP5/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.28"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "SKU": "EBKIKOH[P1078]EBKIKOH",
+  "HitCount": "45",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2628802373998080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T04:35:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.28"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Trendy-Hollow-Spider-Bronze-Roman-Numbers-Analog-Men-Quartz-Pocket-Watch-Pendant-/262880237399",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Trendy Hollow Spider Bronze Roman Numbers Analog Men Quartz Pocket Watch Pendant",
+  "Storefront": {
+    "StoreName": "kikohouse",
+    "StoreURL": "http://stores.ebay.com/id=1237031647"
+  },
+  "ItemID": "262880237399",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT9H42M11S"
+}

@@ -1,0 +1,66 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1929.15",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Dingwall, Highland",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:38:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "CCAccepted",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1500.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T12:38:08.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135623371",
+  "HandlingTime": "1",
+  "Description": "I have a ladies diamond set Jahan watch for sale. I don't know much about this brand other than that it is extremely high end but does not have a store located in the UK. I have found two other watches of this make on ebay in the USA and one is $8999 and the other over $12000. I have added an item number so you can look. 131063964665 The watch has diamond hour markers set in a mother of pearl dial and has diamonds round the face. It is stainless steel and is really, really pretty. I have worn it myself and have had lots of compliments about it. I have added a photo of a ring but will add photos of the watch tomorrow (24 November) so please wait to see the correct photos before buying.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ladies-diamond-set-Jahan-watch-/292135623371",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921356233718080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "IV15 9PB",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H22M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/69QAAOSwAKxWVFpu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KhgAAOSwv-NWVFqB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/T80AAOSwnipWVFp4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kPIAAOSw7FRWVFqM/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "ladies diamond set Jahan watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "282",
+    "UserID": "meemed",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

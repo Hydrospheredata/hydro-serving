@@ -1,0 +1,116 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "69.99",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "true"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Knomo-15-6-Hugh-Messenger-Bag-Black-/201734086795",
+  "QuantitySold": "0",
+  "TimeLeft": "P26DT7H17M10S",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Nolensville, Tennessee",
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "PostalCode": "37135",
+  "StartTime": "2016-11-30T22:29:56.000Z",
+  "HitCount": "117",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Knomo"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does Not Apply"
+      }
+    ]
+  },
+  "ListingType": "FixedPriceItem",
+  "BidCount": "0",
+  "EndTime": "2017-06-28T22:29:56.000Z",
+  "Title": "Knomo 15.6\" Hugh Messenger Bag in Black",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2017340867958080_1.jpg",
+  "Site": "US",
+  "BestOfferEnabled": "false",
+  "ConditionID": "1000",
+  "Country": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/72oAAOSwHMJYP1Ln/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/5xkAAOSwiDFYP1Ln/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/72UAAOSwHMJYP1Ln/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/kCQAAOSwo4pYP1Ln/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/JKUAAOSwux5YP1Ln/$_1.JPG?set_id=880000500F"
+  ],
+  "Storefront": {
+    "StoreName": "Wholesale Connection Store",
+    "StoreURL": "http://stores.ebay.com/id=1039522158"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "AutoPay": "true",
+  "NewBestOffer": "false",
+  "Description": "Knomo 15.6\" Hugh Messenger Bag in Black BRAND NEW ITEM FREE SHIPPING WITHIN USA 30 DAY RETURN POLICY Key Features Padded 14\" laptop section Interior and exterior organization pockets Ultra lightweight construction Made from water repellant nylon twill, backed with polyurethane Whats in the Box? Knomo 15.6\" Messenger Bag Docuemntation Overview This KNOMO messenger bag is the ultimate companion for navigating the city. Made from an ultra lightweight nylon and backed with polyurethane, the Hugh safely carries laptops up to 14&rdquo; and is packed full of organisational pockets for all of your daily belongings. Technical Specs Feature Value Brand: Knomo Item Weight: 1.7 lbs Dimensions: 3.9\" x 16.5\" x 11\" Manufacturer: Knomo Item Model Number: 40091BLK",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "45111",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "wholesale_connection"
+  },
+  "GlobalShipping": "false",
+  "Quantity": "8",
+  "ItemID": "201734086795",
+  "SKU": "40091BLK",
+  "Subtitle": "Brand New. Free Shipping.",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%",
+    "RestockingFeeValueOption": "Percent_15",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "HandlingTime": "1"
+}

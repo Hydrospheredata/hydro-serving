@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/nAoAAOSwONBZFMIm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/q5IAAOSwX9FZFMJb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/oS8AAOSwONBZFMKZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/B3oAAOSw~y9ZFMK-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/rSUAAOSwi7RZFMLh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/kRIAAOSwZ4dZFMMC/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-VERA-BRADLEY-BACKPACK-PIROUETTE-PINK-/112404125360",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley - Double Zip Backpack- Pirouette Pink. New with tags. Never used.Measures approx : 13\"W x 15 1/2\"H x 6\"D with 29 1/2\" adjustable shoulder straps.The main compartment is spacious.In front there are 1 more zipper/pocket. Side pockets are large enough for water bottles. This is an authentic Vera Bradley item, but I am not an authorized Vera Bradley representative, retailer, distributor or affiliate with Vera Bradley or its representatives in any way, not is this auction endorsed or authorized by Vera Bradley.",
+  "Title": "NEW VERA BRADLEY BACKPACK - PIROUETTE PINK",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "31",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "carlosale13"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33129",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T20:01:46.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P8DT2H14M2S",
+  "EndTime": "2017-06-10T20:01:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Double Zip Backpack - Pirouette Pink"
+      },
+      {
+        "Name": "Material",
+        "Value": "Quilted Cotton"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112404125360",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124041253608080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

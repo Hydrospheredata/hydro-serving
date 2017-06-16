@@ -1,0 +1,120 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "87.75",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "144214527",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:26:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1008762708",
+    "StoreName": "memorialwatch"
+  },
+  "CurrentPrice": {
+    "value": "87.75",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:26:58.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Skagen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "804SSS",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Japanese Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "768680161007",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": "Skagen Women's 804SSS Japan Quartz Movement Analog Watch Product Details Product Dimensions: 3.5 x 3.4 x 2.3 inches Shipping Weight: 5.6 ounces Item model number: 804SSS Batteries: 1 Nonstandard Battery batteries required. (included) Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Brand, Seller, or Collection Name: Skagen Model number: 804SSS Part Number: 804SSS Item Shape: Round Dial window material type\ufeff: Mineral Display Type: Analog Clasp: Hook Buckle Case material: Stainless steel Case diameter: 28 millimeters Case Thickness: 7 millimeters Band Material: Stainless steel Band length: Women's Standard Band width: 13 millimeters Band Color: Silver Dial color: Mother of pearl Bezel material: Stainless steel Bezel function\ufeff: Stationary Special features: Mother of Pearl Dial Item weight: 5.44 Ounces Movement\ufeff: Japanese quartz Water resistant depth: 99 Feet Japanese quartz Case diameter: 28 mm Stainless steel japanese quartz Mineral crystal Water resistant to 99 feet (30 M): withstands rain and splashes of water, but not showering or submersion Skagen, Mesh, Women's Watch, Stainless Steel Case, Stainless Steel Bracelet Mesh Style, Japanese Quartz (Battery-Powered), 804SSS The Skagen brand takes its name from the fishing village of Skagen, Denmark. In keeping with a European design aesthetic, Skagen watches for men and women are sleek, elegant, and modest timepieces boasting quiet precision. Skagen\u2019s signature watch style includes a smooth mesh band and simple dial with subtle indices. While keeping true to its minimalist heritage, Skagen continually remains on the forefront, using modern watch materials and movements. Skagen watch collections today may feature carbon fiber textured dials and titanium or ceramic bands. With a modern or classic Skagen watch, you can be sure your look will withstand the test of time. See all Product description",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skagen-Womens-804SSS-Japan-Quartz-Movement-Analog-Watch-SHIPSFREE-/162536063931",
+  "NewBestOffer": "false",
+  "SKU": "804SSS",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625360639318080_1.jpg",
+  "ItemID": "162536063931",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H18M41S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/so4AAOSw-3FZLtKu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/Y3sAAOSwq1JZLtKw/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Skagen Women's 804SSS Japan Quartz Movement Analog Watch SHIPSFREE",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "5774",
+    "UserID": "finejewelryandwatches",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

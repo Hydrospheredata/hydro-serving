@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1350.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bronx, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T02:24:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1350.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T02:24:40.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192202895830",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "GPS",
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Seiko Astron",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Stainless Steel Seiko Astron Solar GPS Dual Time indicator SSE077 brand new",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stainless-Steel-Seiko-Astron-Solar-GPS-Dual-Time-indicator-SSE077-brand-new-/192202895830",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1922028958308080_1.jpg",
+  "HitCount": "14",
+  "PostalCode": "10461",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT11H16M6S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WJgAAOSwjL5ZLihF/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bZIAAOSwYlRZLifr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Sy8AAOSwZ4dZLifr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8TIAAOSwn-tZLifq/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/p1UAAOSwcgNZLifu/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lx0AAOSwKytZLifu/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Vj0AAOSwX61ZLifr/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Stainless Steel Seiko Astron Solar GPS Dual Time indicator SSE077 brand new . Condition is New with tags. Shipped with USPS Priority Mail.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3",
+    "UserID": "bacint",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

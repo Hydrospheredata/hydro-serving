@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1156.2",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Hailsham",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:56:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "899.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:56:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425912419",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "mexa cortina",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "chrome",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "18",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "36mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Moon Phase",
+        "Name": "Features"
+      },
+      {
+        "Value": "1950s",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "RARE c 1950 MEN's MEXA CORTINA MOONPHASE TRIPLE DATE CALENDAR WATCH VALJOUX 90",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-c-1950-MENs-MEXA-CORTINA-MOONPHASE-TRIPLE-DATE-CALENDAR-WATCH-VALJOUX-90-/112425912419",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124259124198080_1.jpg",
+  "HitCount": "23",
+  "PostalCode": "BN272DL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H35M23S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cHIAAOSwAPVZLqEB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODQwWDk5Ng==/z/jTYAAOSwcB5ZLqEe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODA4WDkwNA==/z/d-UAAOSwEHpZLqE6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F-IAAOSwblZZLp8x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjgwWDY5Ng==/z/AtAAAOSwaeRZLqFV/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "RARE EXAMPLECirca 1950'sGentsMEXA CORTINAMOONPHASE TRIPLE DATE WATCH by RELIDESigned Dial - Case & Movement VALJOUX 90 Winds, sets and runs well - Date functions operating as they should - Month & Day are in EnglishCase: Excellent stainless steel screw back BIG case, - Outer back signed Swiss Waterproof (no longer guaranteed) Non-Magnetic Incabloc Stainless Steel - Measures approx 43.5mm lug tip to lug tip and 35.5mm across not including the crown - Please see photos Dial: The pale silver dial is in very good vintage order with a couple of small marks - Signed MEXA Cortina - Incabloc above the Moonphase window which is in very good order - Around the perimeter of the dial is the date chapter scale in black clear and crisp - Raised silver Arabic numerals at 3, 6, 9 & 12 are likewise in very good condition as are the silver markers - the hour, minute and centre seconds hands are silver and excellent and the date pointer is red tipped - The month window is situated at the '1' position and the day at the '11' both again in very good order - Button at 10 advances the Day/Month (for day push deeper) - Button at 8.30 the Date pointer and the button at 4 the Moonphase - Day & Month are in English - SWISS MADE at bottom - Please see photos of this beautiful vintage dial Crystal is in good condition Movement: Is the renowned VALJOUX 90 (signed beneath the balance) - Signed Relide Swiss Made 17 jewels - Winds, sets and runs well The watch comes on a brown leather Buffalo grain hirsch band This is a beautiful vintage Mexa Cortina MOONPHASE TRIPLE CALENDAR Rare watch to find in this conditioni will send this watch with instructions reguarding settings the condition is amazing considering the age!and this is all original!! any questions please ask thanks",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "544",
+    "UserID": "wogleeye1",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "On the rare occasion any watches need repair after delivery i will need said watch to be returned for seller to complete the repairs. i will not pay for you to get someone else to work on one of my sold watches.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

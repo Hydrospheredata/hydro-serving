@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTkyWDQyMw==/z/w08AAOSwi7RZHI-b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTU5WDQ4Mw==/z/0CgAAOSw42JZHJAM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc5WDQ2MA==/z/VmoAAOSwlMFZHJDg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE5WDE5MQ==/z/x6sAAOSw42dZHJEB/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-STROLL-AROUND-BABY-BAG-CAMOCAT-NWT-/382080869443",
+  "ConvertedCurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY STROLL AROUND BABY DIAPER BAG CAMOCAT NWT Removable stroller straps attach bag to stroller handles. Exterior pockets include two slip pockets, a zip pocket. Front compartment contains changing pad & two mesh pockets. Changing pad unsnaps from front compartment. Interior features laminated fabric & five mesh pockets. Zip closure. Dimensions: 16 \u00bd\"W x 12\"H x 5 \u00bd\"D Changing pad 23 \u00be\" x 15 \u00be\" 15\" strap drop 12\" stroller straps Machine wash cold, gentle cycle, line dry",
+  "Title": "VERA BRADLEY / STROLL AROUND BABY BAG / CAMOCAT / NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Mary Esther, Florida",
+  "Seller": {
+    "FeedbackScore": "1796",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jay.88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32569",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T05:11:44.000Z",
+  "HitCount": "56",
+  "TimeLeft": "P9DT13H46M16S",
+  "EndTime": "2017-06-12T05:11:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black, White"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382080869443",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3820808694438080_3.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

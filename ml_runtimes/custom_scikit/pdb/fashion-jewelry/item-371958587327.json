@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P16DT3H2M39S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371958587327",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-WIDE-COLOR-BRANCH-BRACELET-/371958587327",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T18:08:02.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T18:08:02.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BANGLE",
+        "Name": "Type of Jewelry"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Product"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE WIDE COLOR BRANCH  BRACELET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "UP FOR AUCTION THIS VERY AWESOME SIGNED KENNETH LANE STUNNING WIDE CORAL COLOR BRANCH BRACELET IT MEASURES 3 INCHES ACROSS IT IS SET IN SILVERTONE BUYER TO PAY 3 .00 SHIPPING On Mar-15-09 at 08:41:32 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719585873278080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "paper00",
+    "FeedbackScore": "11268",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "paper00",
+    "StoreURL": "http://stores.ebay.com/id=55701735"
+  },
+  "Quantity": "1",
+  "Location": "Waterbury, Connecticut",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1OFgxMDc2/z/dcUAAOSwYlRZIyic/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2N1gxMDg0/z/lc0AAOSwblZZIyiz/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06708"
+}

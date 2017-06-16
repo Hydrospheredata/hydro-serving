@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P14DT20H20M41S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252950300005",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Signed-Robert-Lee-Morris-Gunmetal-Caterpillar-Earrings-Pierced-/252950300005",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-21T11:27:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-20T11:27:11.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gunmetal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Plated Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "Vintage Signed Robert Lee Morris Gunmetal Caterpillar Earrings Pierced",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a rare signed vintage pair of classic Robert Lee Morris \"Caterpillar\" Drop\" earrings that he designed in the 1980's. They are made from gunmetal and have a post back for pierced ears. The clutched are stamped Robert Lee Morris and the sides are signed Morris. They have been sitting in an archive collection unworn and are in mint condition with no fading or scratches. They measure 2 1/4\" in length. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529503000058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "15",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oawAAOxyLN9SgA77/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/oh0AAOxyLN9SgA8B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jpkAAMXQUmFSgA7y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NzwAAOxyRNJSgA73/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zmcAAMXQfvlSgBAp/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "10012"
+}

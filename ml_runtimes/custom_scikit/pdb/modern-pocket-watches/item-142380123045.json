@@ -1,0 +1,56 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "20005",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New! Unused and unopened. In original packaging. Water resistant/brass case/stainless steel back/quartz movement/leather strap/mineral crystal.",
+  "StartTime": "2017-05-11T17:33:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RZ0AAOSwU8hY69~x/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "w.dder.tzcl5azhy",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "116",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423801230458080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-10T17:33:42.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Acme-Pixelated-Cross-Watch-Watch-/142380123045",
+  "Location": "Washington, District Of Columbia",
+  "Title": "Acme Pixelated Cross Watch Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142380123045",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT22H51M18S"
+}

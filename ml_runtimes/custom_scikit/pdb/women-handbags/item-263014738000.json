@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/RrAAAOSw4DJYj7kM/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/BlQAAOSwNnRYj7lC/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-GRAND-TOTE-MIDNIGHT-BLUES-NWT-/263014738000",
+  "ConvertedCurrentPrice": {
+    "value": "69.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY GRAND TOTE NWT \"MIDNIGHT BLUES\" PATTERN MEASURES: 24\" WIDE 14\" HIGH 7 11/2\" DEPTH 12\" STRAP DROP(1 \" WIDE) HAS REMOVABLE STURDY BOTTOM ONE ZIPPERED INTERIOR POCKET WITH ATTACHED KEY HOLDER BEAUTIFUL BRIGHT AND VIVID COLORS SMOKE FREE FAST SHIP PLEASE CHECK OUT MY OTHER AUCTIONS FOR MORE VERA BRADLEY ITEMSA THANKS FOR LOOKING",
+  "Title": "VERA BRADLEY GRAND TOTE   \"MIDNIGHT BLUES\"   NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169302",
+  "Location": "Fort Wayne, Indiana",
+  "Seller": {
+    "FeedbackScore": "2355",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pickard1940yahoo"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46805",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T13:50:32.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT20H35M5S",
+  "EndTime": "2017-07-01T13:50:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "COTTON"
+      },
+      {
+        "Name": "Style",
+        "Value": "tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "vera bradley"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263014738000",
+  "Storefront": {
+    "StoreName": "pattys picks",
+    "StoreURL": "http://stores.ebay.com/id=96370368"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630147380008080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

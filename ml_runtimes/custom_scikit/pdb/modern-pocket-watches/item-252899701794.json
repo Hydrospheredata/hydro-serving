@@ -1,0 +1,156 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "92693",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Bronze Motorcycle Pocket Watch with chain New In Box May need battery not included",
+  "StartTime": "2017-04-27T02:00:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/Cx0AAOSwzOxUW8-C/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/ThMAAOSwdpxUW89x/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/qmkAAOSwcF9UW891/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/qxEAAOSwcF9UW896/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/wzwAAOSwGWNUW89-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/zlcAAOSwcF9UW9Bh/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz: Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "EV",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "docompass",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1528",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2528997017948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T02:00:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bronze-Motorcycles-Quartz-Pocket-Watch-/252899701794",
+  "Location": "San Juan Capistrano, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Bronze Motorcycles Quartz Pocket Watch",
+  "Storefront": {
+    "StoreName": "docompass",
+    "StoreURL": "http://stores.ebay.com/id=35612487"
+  },
+  "ItemID": "252899701794",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT7H14M11S"
+}

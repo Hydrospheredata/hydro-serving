@@ -1,0 +1,131 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA0M1g5MDA=/z/NMwAAOSwfRdZKy3m/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwNVg5MDA=/z/6U8AAOSwi7RZKy3~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/5LcAAOSwjL5ZKy4R/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0M1g4MTA=/z/qwQAAOSw42JZKy4o/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/UPEAAOSwEHpZKy5B/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/zesAAOSwX61ZMNB0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/yBEAAOSwDiBZMNCD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk3WDgxMA==/z/8fQAAOSwjL5ZMNCX/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-vintage-1985-Louis-Vuitton-Speedy-25-bag-purse-/112428326955",
+  "ConvertedCurrentPrice": {
+    "value": "289.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Authentic Louis vuitton bag. I have had it for years, but it has little wear. The leather has darkened some, and I lost the keys to the lock. The code is 851, and I have shown pictures of the handles, pattern of the purse, and code to help show authentication. There is a small amount of oxidation on the interior hardware, not unusual for the age of the purse. All else is in good shape, inside of the bag is pretty clean, hardware all intact, etc",
+  "ConvertedBuyItNowPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "289.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "San Antonio, Texas",
+  "Seller": {
+    "FeedbackScore": "618",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "greatfunstuff"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "289.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "78266",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T02:47:56.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P6DT12H37M52S",
+  "EndTime": "2017-06-09T02:47:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Louis Vuitton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas + leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown tan"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "10"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "3"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Small",
+          "Medium"
+        ]
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Monogrammed"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428326955",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Title": "Authentic vintage 1985 Louis Vuitton Speedy 25 bag purse",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124283269558080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

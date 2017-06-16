@@ -1,0 +1,150 @@
+{
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIEDAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New without tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Lerosentha TECH. FROZEN PINK Quartz Pocket Watch/FOB Watch Made in China Specifications Product Features: Watch Movement: QuartzWatch Chain & Case Material: Stainless steel alloyWatch Diameter: About 3.5 cmWatch Thickness: About 1.5 cmTotal Length of Chain: About 80 cm Package Content: 1 x Watch1 x Chain Photos Contact and Supportemail: rosenthalleo@gmail.com phone: 0405050173 11am-8pm or send us an eBay message TERMS OF SALE - Please Read If there is an issue you MUST contact us and work with us to resolve it. At first, we will troubleshoot the issue, if that does not work we will ask you to send it back for a refund. We usually reply within 24 hours and would appreciate if you could do the same. We will not tolerate Abuse, Swearing or insults when trying to help you. We have the same standard of customer service as would be expected in most shops in Australia. Once you are satisfied with your item we require you to leave feedback. Leaving negative feedback won't resolve the issue, contacting us will BULK DEALS: Yes we do BULK items/deals please call/email",
+  "StartTime": "2017-02-24T11:49:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/AIkAAOSwCU1Yqreu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rAcAAOSw~AVYqre1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/W6gAAOSwx6pYqre6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/NcUAAOSwWxNYqrfA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vTwAAOSw32lYqrfG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/BKEAAOSwCU1YqrfL/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "lerosentha-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "484",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "55",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T11:49:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Make sure it is in the original packaging please",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Bronze",
+          "Silver"
+        ],
+        "Name": "Colour"
+      }
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "14.99"
+        },
+        "SKU": "sku-auc-0",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "14.99"
+        },
+        "SKU": "sku-auc-1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Bronze",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "14.99"
+        },
+        "SKU": "sku-auc-2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      }
+    ]
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "FROZEN PINK Quartz Pocket Watch/FOB Watch. Teach them Analog time",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FROZEN-PINK-Quartz-Pocket-Watch-FOB-Watch-Teach-them-Analog-time-/152448460251?var=",
+  "Storefront": {
+    "StoreName": "leostoreaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1477142763"
+  },
+  "ItemID": "152448460251",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT16H56M8S"
+}

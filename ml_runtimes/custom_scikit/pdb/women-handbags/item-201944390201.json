@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PhIAAOSw-K9ZMUsx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/u3cAAOSws5pZMUs9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3uAAAOSwcB5ZMUtF/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Victorias-Secret-Supermodel-Large-LEOPARD-Tote-Bag-Purse-/201944390201",
+  "ConvertedCurrentPrice": {
+    "value": "54.98",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victoria's Secret collection NEW WITH TAGS Tote and coin purse included",
+  "Title": "NWT Victorias Secret Supermodel Large LEOPARD Tote Bag Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.98",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "thepolkadotshop2017"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33179",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:38:20.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H17M59S",
+  "EndTime": "2017-07-02T11:38:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black Leopard Print"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.25\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15.5\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944390201",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019443902018080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

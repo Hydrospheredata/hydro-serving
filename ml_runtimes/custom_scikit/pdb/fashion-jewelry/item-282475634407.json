@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT16H8M45S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "pcRUSH-Outlet",
+    "StoreURL": "http://stores.ebay.com/id=999883422"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "31.03",
+    "_currencyID": "USD"
+  },
+  "SKU": "1263501",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282475634407",
+  "ConvertedCurrentPrice": {
+    "value": "31.03",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-13T06:12:08.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Garmin-Replacement-Watch-Bands-Midnight-Blue-010-11251-75-/282475634407",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T06:12:08.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "753759143008",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Garmin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "010-11251-75",
+        "Name": "MPN"
+      },
+      {
+        "Value": "010-11251-75",
+        "Name": "Description1"
+      },
+      {
+        "Value": "Wearable Replacement Bands & Straps",
+        "Name": "Product Type"
+      }
+    ]
+  },
+  "Title": "Garmin Replacement Watch Bands - Midnight Blue 010-11251-75",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "Location": "US",
+  "Description": "Garmin Garmin Replacement Watch Bands - Midnight Blue Condition: New Mfg Part No. 010-11251-75 Product Information Highlights Product Description Stay stylish by swapping out your Forerunner band for a new color on compatible models. Simply remove your current watch band and screw on the new band for a comfortable and enhanced fit. Band, pins and pin removal tools included. Shipping We do not ship on Saturdays, Sundays and Holidays. Orders placed after 10 a.m. PST Friday will ship the following Monday. Although we ship to most areas served by our carriers, FedEx, UPS and DHL are unable to deliver to PO Boxes, FPO and APO addresses. We are also unable to ship to international locations and outside the 50 United States. Payment We only accept PayPal payments from Verified Buyers with Confirmed Addresses Credit Cards used for payment through PayPal must be issued by a US Bank with a US billing address Sales Tax: applicable sales tax will be charged to orders shipped to the state of California. Returns We accept returns within 30 days from the original invoice date on your order. Returns cannot be accepted without prior authorization and an RMA number. RMA numbers are valid for 15 days and pcRUSH must receive the returned products within this timeframe. RMA numbers will not be extended or reissued. For our complete Return Policy and FAQ, please click here. Contact Us 1-888-205-7777 1-310-356-5100 1-310-356-5160 M-F 7am-5pm PST - Customer Support Send us a Message",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824756344078080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "pcrush-outlet",
+    "FeedbackScore": "38742",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "18",
+  "PaymentMethods": "PayPal",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/6v0AAOSw~y9ZFqO6/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

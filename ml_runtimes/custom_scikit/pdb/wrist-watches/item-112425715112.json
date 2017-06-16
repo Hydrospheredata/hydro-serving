@@ -1,0 +1,101 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brocton, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:30:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=115505880",
+    "StoreName": "Jewels and Other"
+  },
+  "CurrentPrice": {
+    "value": "8.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T08:30:09.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ItemID": "112425715112",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Elgin Star Lite, 17 Jewels, Wind-up Watch, Runs good. Quite worn Finish!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Elgin-Star-Lite-17-Jewels-Wind-up-Watch-Runs-good-Quite-worn-Finish-/112425715112",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124257151128080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "14716",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT17H17S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RN4AAOSwhvFZBkcJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MJgAAOSw42JZBkcU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/x7oAAOSwuMZZBkca/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/es0AAOSwlndZBkcg/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "This ladies Elgin Starlite wrist watch appears to have been from around 1940/50's. It winds easily, runs good--the band appears to be the original along with everything else but of course as you can see in the pictures most of the gold tone finish is worn off--it looks silvertone. I got this in a lot of other items from an estate sale and I really don't deal with buying old watches so please look at the pics so you can see the wear to the finish--just selling for parts, repurpose, whatever. Please keep in mind that while I allow the zoom feature to be used with my pictures, it does show far more detail than one would see at normal viewing distance! Please do look my pictures over carefully though as I do present them to be part of my description! If you have any questions about this item, please message me and I will be more than happy to respond to you. I will ship within one business day of receiving cleared payment! I will combine items at the lowest possible shipping cost. Any item not paid for within 3 days after winning auction, will be turned over automatically to Ebay as an Unpaid Item and a case will be opened. I purchase my jewelry at antique shops, flea markets, estate sales, etc, so many of them will have aged wear and tear. I do try and look everything over carefully and when I notice a flaw such as missing rhinestones or clasps etc. I will announce it as such. I never sell anything broken unless I announce it, and you might come across some tarnish or plating loss but if a large amount, I will announce that as well. Sometimes, though, I might unintentionally miss something and if so, I would appreciate a message to me and I will make it right with you. I am only human, so, occasionally, it's bound to happen! I will try very hard to be fair and honest with you but I would appreciate the same in return! GUARANTEES~~I WILL GUARANTEE MY ITEMS AGAINST GROSS ERRORS IN MY LISTINGS ONLY, and will not under any circumstances give a refund for \"buyers remorse\".Any questions as to size, condition, color, era, etc. MUST be asked beforehand--If it ends up being the wrong color to match your outfit, not wide enough, not small enough, etc. I will not accept in return at all! As I have previously stated, I do my best to announce any and all flaws but if you do have a dispute~~I would appreciate you contacting me first. If an items is marked \"AS IS\" or \"AS FOUND\" then that is exactly what it means and there will be no returns on those items whatsoever!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "929",
+    "UserID": "cars188",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "I WILL GUARANTEE MY ITEMS AGAINST GROSS MISREPRESENTATION OR ERRORS IN MY LISTINGS ONLY!"
+  }
+}

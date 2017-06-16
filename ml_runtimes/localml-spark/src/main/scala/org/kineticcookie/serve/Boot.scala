@@ -92,7 +92,9 @@ object Boot extends App {
                 val inputLDF = LocalData(columns)
                 val result = pipelineModel.transform(inputLDF)
                 complete {
-                  result.toMapList.asInstanceOf[List[Any]]
+                  val res = result.toMapList.asInstanceOf[List[Any]]
+                  println(s"Results: $res")
+                  res
                 }
               }
             }

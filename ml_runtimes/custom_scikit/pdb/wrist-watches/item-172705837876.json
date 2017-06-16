@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "384.54",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Waterlooville, Hampshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:02:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1264638848",
+    "StoreName": "StuffMine"
+  },
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T13:02:08.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705837876",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Does not apply",
+      "Name": "EAN"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE 1984 SEIKO 6309-7040 GENTS 150M TURTLE CASE DIVERS WRISTWATCH VGC",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-1984-SEIKO-6309-7040-GENTS-150M-TURTLE-CASE-DIVERS-WRISTWATCH-VGC-/172705837876",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727058378768080_1.jpg",
+  "HitCount": "34",
+  "PostalCode": "PO9 5EZ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H47M9S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lNQAAOSwsXFZLr5S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XkoAAOSwBt5ZLr5V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4nkAAOSwYvFZLr5Y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U1UAAOSw8lpZLr5b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/B0gAAOSw5cRZLr5e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NvcAAOSwPh5ZLr5h/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI2WDE2MDA=/z/kPAAAOSwaEhZLr5v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk2WDE2MDA=/z/G8kAAOSwEHpZLr5x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTMyWDE2MDA=/z/lQoAAOSw0hlZLr50/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxNjAw/z/-r4AAOSwhvFZLr53/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NVgxNjAw/z/JEwAAOSwCQZZLr56/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HgQAAOSwYlRZLr59/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "ITEM DETAILS\u2026 VINTAGE DECEMBER 1984 SEIKO 6309-7040 TURTLE CASE GENTS AUTOMATIC 150M DIVERS WRISTWATCH CASE TOP : STAINLES STEELCASE BACK : STAINLESS STEEL SCREW TYPE PLEXI-GLASS : MINERAL JUST VERY LIGHT MARKS DIAL : MATT BLACK ORIGINAL VERY GOODDIAL SCRIPT : SEIKO AUTOMATIC WATER 150M RESISTJAPAN 6309 -704L T DAY DATE : AT 3 WORKING FINE MOVEMENT : SEIKO AUTOMATIC RUNS WELL VERY CLEAN TIMING : KEEPS GOOD TIME CASE DIAMETER ACROSS EX CROWN : 43mm LUG WIDTH : 22mm WITH SPRING BARS STRAP : ORIGINAL 10 HOLE SEIKO RUBBER VGC SUMMARY\u2026 A VERY NICE LOOKING VINTAGE DIVER SEIKODATED TO DECEMBER 1984GENERALLY VERY GOOD ORIGINAL CONDITION FOR AGEWITH JUST SOME VERY LIGHT AGE RELATED MARKS Please review photos for more details Combined shipping is available for multiple purchases VERY SORRY BUT NO BUY IT NOW ON AUCTION ITEMS Thank you for viewing our listing from all of us at StuffMine The everything auction",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1910",
+    "UserID": "stuffmine",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

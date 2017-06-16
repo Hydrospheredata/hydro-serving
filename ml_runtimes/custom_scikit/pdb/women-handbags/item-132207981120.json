@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322079811208080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM1NVgxNjAw/z/ezgAAOSwJH1ZKzWY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/nJ0AAOSwKytZKzWU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM4MlgxNjAw/z/tlMAAOSw~FJZKzWl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzA1/z/gNgAAOSwfpVZKzWp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEyOVgxNjAw/z/~UIAAOSwcgNZKzWs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxMVgxNjAw/z/posAAOSwR29ZKzWd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUyMFgxNjAw/z/0XMAAOSwDiBZKzWQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI3WDE2MDA=/z/m90AAOSwcB5ZKzWG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMlgxNTk5/z/pTwAAOSwX9FZKzWM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4NVgxNjAw/z/jawAAOSwZKBZKzWi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzOVgxNjAw/z/Tc8AAOSw~y9ZKzWK/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Large-Stroll-Around-Baby-Bag-Paisley-Paradise-Pattern-/132207981120",
+  "ConvertedCurrentPrice": {
+    "value": "128.89",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Vera Bradley Large Stroll Around Baby Diaper Bag Paisley in Paradise Pattern Removable Stroller StrapsOutside has 2 Slip Pockets and a Zip PocketFront Pocket With Changing Pad and 2 Mesh PocketsChanging Pad 23.75\" x 15.75\"Laminated Fabric Lining5 Inner Mesh PocketsFlat BaseZipper Closure 18.25\" wide14\" high7.25\" deep 13.5\" strap drop12\" removal stroller straps Machine Wash Cold",
+  "Title": "Vera Bradley Large Stroll Around Baby Bag Paisley in Paradise Pattern",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "128.89",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Pound Ridge, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2308",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "sparynda"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10576",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "US"
+  ],
+  "StartTime": "2017-05-28T21:14:03.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P25DT5H52M39S",
+  "EndTime": "2017-06-27T21:14:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Fabric"
+      },
+      {
+        "Name": "Pattern Number",
+        "Value": "379"
+      },
+      {
+        "Name": "Style Number",
+        "Value": "15665"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003369487"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132207981120",
+  "Storefront": {
+    "StoreName": "Sparynda",
+    "StoreURL": "http://stores.ebay.com/id=14864481"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "72.50",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

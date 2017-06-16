@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "14047",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Swiss wristwatch movement - New ConditionMeasures approximately 12 lignes in width17 JewelsCopper colorSold as a parts resource",
+  "StartTime": "2017-04-23T07:40:59.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTY1WDg5MQ==/z/J9IAAOSwpP9Y8WdQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc0WDg5MQ==/z/kH4AAOSwCWFY8WdW/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.05"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "Seller": {
+    "UserID": "ann-tique-watches",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2029",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1624870178558080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T07:40:59.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.05"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Damas-Swiss-Wristwatch-Movement-New-Old-Stock-/162487017855",
+  "Location": "Derby, New York",
+  "Title": "Damas Swiss Wristwatch Movement - New Old Stock",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "162487017855",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P21DT9H4M32S"
+}

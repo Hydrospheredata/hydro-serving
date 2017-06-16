@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "443.69",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:55:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1313328804",
+    "StoreName": "tempusfugit6"
+  },
+  "CurrentPrice": {
+    "value": "344.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T14:55:32.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355372393",
+  "HandlingTime": "2",
+  "Description": "Vintage new old stock (never worn) GLOBA SPORT gents telemeter sports wristwatch. This item is new old stock never worn in full working order. Case- chrome over steel stainless steel snap on backplate- 40mm diameter excluding crown. Superb calculator bi directional aluminium bezel. Crystal-original plexi no marks. Dial- superb naturally aged lume. Panda offset up down dials. Movement- 1 jewel manual wind GK. Strap-new,quality black textured leather featuring white contrast stitching. ....a chance to add a new old stock item to your collection...",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Old-Stock-GLOBA-SPORT-gents-Chronograph-Calculator-Watch-70s-/232355372393",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323553723938080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H50M17S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5OVgxNDgy/z/N9EAAOSwDiBZLtcp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4OFgxMzEy/z/PaEAAOSwIQdZLtcz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NlgxMTYy/z/CQEAAOSww5hZLtc4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwN1gxMTc2/z/RL8AAOSwBt5ZLtdD/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "New Old Stock. GLOBA SPORT gents Chronograph Calculator Watch 70's",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "907",
+    "UserID": "tempusfugit6",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

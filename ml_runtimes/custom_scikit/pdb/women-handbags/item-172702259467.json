@@ -1,0 +1,180 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/NeoAAOSw~FJZLGot/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/0pEAAOSwIaFZLGot/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gund-Steggy-Stegosaurus-/172702259467",
+  "ConvertedCurrentPrice": {
+    "value": "84.76",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Steggy-Stegosaurus: Soft corduroy plush, 14\" long, Perfect for play or d?cor, Great gift for young dinosaur fan.Features include: \u00e2?\u00a2Soft corduroy plush\u00e2?\u00a214\" long\u00e2?\u00a2Perfect for play or d?cor\u00e2?\u00a2Great gift for young dinosaur fan Recommended Ages:1 \u00e2?\" 5 - Soft corduroy plush - 14 inches long - Perfect for play or dcor - Great gift for young dinosaur fan Gund Steggy-Stegosaurus",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "84.76",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "16175",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "greysharky"
+  },
+  "PrimaryCategoryID": "163570",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Gund Steggy-Stegosaurus",
+  "GlobalShipping": "true",
+  "Quantity": "3",
+  "StartTime": "2017-05-29T18:36:25.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P26DT2H31M11S",
+  "EndTime": "2017-06-28T18:36:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "028399002610"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0028399002610"
+      },
+      {
+        "Name": "Brand",
+        "Value": "GUND"
+      },
+      {
+        "Name": "MPN",
+        "Value": "319603"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Toy"
+      },
+      {
+        "Name": "Color",
+        "Value": "multi-colored"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.57 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 14.65 x W 9.53 x H 3.54 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Gund"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ReleaseDate",
+        "Value": "2010-03-15"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172702259467",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727022594678080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

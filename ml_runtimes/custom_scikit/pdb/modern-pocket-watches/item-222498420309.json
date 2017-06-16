@@ -1,0 +1,96 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "14712",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "HONOR YOUR AIR FORCE MEMBER OR VET. UNIQUE GIFT FOR SURE.MEASURES 2 INCHES ACROSS. STRADA JAPANESE MOVEMENT. 32 INCH CHAIN. ALL IN BRASSTONE. THIS IS A RETIREMENT CLOSEOUT FROM \"WHAT A GEM\" JEWELRY. TAKE ADVANTAGE OF OUR FREE SHIPPING. THANK YOU FOR LOOKING!",
+  "StartTime": "2017-05-03T22:33:43.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fHEAAOSw241YmO9g/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FnAAAOSwjDZYmO-J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VnMAAOSwTglYmO-k/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9TgAAOSwNnRYmO~a/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W~cAAOSw-0xYmO~0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/NZMAAOSwjDZYmPAz/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "STRADA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kling.larr",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "72",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2224984203098080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T22:33:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/US-AIR-FORCE-POCKET-WATCH-NEW-32-INCH-CHAIN-/222498420309",
+  "Location": "Bemus Point, New York",
+  "Title": "US AIR FORCE POCKET WATCH - NEW - 32 INCH CHAIN",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222498420309",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT3H49M12S"
+}

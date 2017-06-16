@@ -1,0 +1,146 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "King's Lynn",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:56:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T14:56:33.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252967029654",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Swatch",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Style"
+      },
+      {
+        "Value": "Round",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Model"
+      },
+      {
+        "Value": "Black",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Fabric/Canvas",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/POP-SWATCH-WATCH-1991-Black-Spotted-Pop-Watch-/252967029654",
+  "Title": "POP SWATCH WATCH 1991 Black Spotted Pop Watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529670296548080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "PE30 4XD",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H51M18S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r4MAAOSwYvFZLtd6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wloAAOSwaeRZLtfi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/htgAAOSwH09ZLtfs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-~UAAOSw-3FZLtf2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A-AAAOSwtGlZLtgH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uIkAAOSwX9FZLtgS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KyIAAOSw8lpZLtgd/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Swatch POP Watch SWATCH AG 1991 SWISS QUARTZ stamped on dial In good working condition Has new battery Original Band In used vintage condition with light scratches on face as can be seen in Pictures Collector Item",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "220",
+    "UserID": "vty003",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

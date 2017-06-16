@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyM1gxNTQ4/z/8zcAAOSws4JW7aDH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/42wAAOSwHxVW7aDS/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Dv8AAOSw2ENW7aDq/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTUyWDgwNw==/z/UjMAAOSwHgVW7aEU/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/86QAAOSwu1VW7aEc/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PIQUADRO-Red-Fabric-Shoulder-Tablet-Messenger-Bag-/291919398968",
+  "ConvertedCurrentPrice": {
+    "value": "57.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "8.5\" by 10\" by 1\" water resistant and tear proof technical fabric in red. Adjustable shoulder strap, removable key strap, single outside zipper pocket, single and 2 slip pockets inside and close with 1/2 zipper around.",
+  "Title": "PIQUADRO Red Fabric Shoulder Tablet Messenger Bag",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Kingston, Massachusetts",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "654",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "forevergoods10"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02364",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-10-22T15:00:27.000Z",
+  "HitCount": "84",
+  "TimeLeft": "P16DT23H47M6S",
+  "EndTime": "2017-06-19T15:00:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Piquadro"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tablet Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Material",
+        "Value": "Technical Fabric"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "291919398968",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2919193989688080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

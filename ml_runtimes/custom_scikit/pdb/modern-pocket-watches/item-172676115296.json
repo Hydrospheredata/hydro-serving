@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "CA",
+    "IL",
+    "LB",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.31"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4894462162446",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462162446",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462162446",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Designer/Brand"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-15T17:07:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/0L0AAOSw0hlZGqVL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/HpUAAOSwBt5ZGqVO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/xEoAAOSwn-tZGqVR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/PesAAOSw8lpZGqVT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/hy0AAOSwlMFZGqVV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/k8oAAOSw5cRZGqVZ/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "400",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKTS-I019395",
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1726761152968080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T17:07:25.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "172676115296",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you reviced the item, please return it within 30 days for a replacement or money back. Please contact me before you return it.2.All returned items MUST BE in the original packaging with all components and accessories included,And you MUST provide us the return shipping information\uff08The shipment or the tracking number\uff09.3.Return shipping fee is to be paid by the buyers.We will not responsible for any custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.31"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket watch quartz men women silver mirror ball black box c chain L4H5",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-watch-quartz-men-women-silver-mirror-ball-black-box-c-chain-L4H5-/172676115296",
+  "Storefront": {
+    "StoreName": "tianxinshops",
+    "StoreURL": "http://stores.ebay.com/id=1401577662"
+  },
+  "Seller": {
+    "UserID": "tianxinshops",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "30288",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT22H27M6S"
+}

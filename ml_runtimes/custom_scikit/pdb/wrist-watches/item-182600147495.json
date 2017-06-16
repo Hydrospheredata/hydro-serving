@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "569.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Boynton Beach, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:15:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1187214304",
+    "StoreName": "D and E A to Z"
+  },
+  "CurrentPrice": {
+    "value": "569.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:15:54.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600147495",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Longines",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Longines Diamond Dial Men's Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Longines-Diamond-Dial-Mens-Watch-/182600147495",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826001474958080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33472",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H2M45S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU2M1g5NjA=/z/97gAAOSw~oFXJAmy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/OoUAAOSw9~RXJAnG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NjQ=/z/-usAAOSw~oFXJAnV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NjQ=/z/sxsAAOSwY3RXJAnj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4NVg5NjA=/z/nykAAOSwE6VXJAn5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NjQ=/z/oDEAAOSwE6VXJAoF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4NVg4MjM=/z/QU8AAOSw2GlXJAoY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NjQ=/z/-YwAAOSw1DtXJAoo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/wpEAAOSwZAtXJAo3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/A-UAAOSw~oFXJApE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3Mjk=/z/uZwAAOSwIjNXJApS/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Decent condition. Took watch to the watch shop for a new battery and winder. Watch man said diamonds are real. Watch band has some wear.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "643",
+    "UserID": "mustangford2008",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

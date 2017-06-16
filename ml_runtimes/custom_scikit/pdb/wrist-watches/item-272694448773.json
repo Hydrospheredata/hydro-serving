@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bethlehem, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T01:59:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T01:59:48.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694448773",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "Worn a few times. Brand new battery. Still had the price tag.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Fossil-ES-3090-Stella-series-watch-/272694448773",
+  "Title": "Ladies Fossil ES 3090 Stella series watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726944487738080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "18018",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT10H42M4S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/ZLMAAOSw42JZLiBL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/HHUAAOSwjL5ZLiBh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/aCUAAOSwlMFZLiBy/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Lovely Fossil Stella series watch. Brown face with double crystals accenting the hour numbers. Date at the 3 hour. Band is a brown faux Alpine horn resin. Has rose gold accents. Still has the $105 price tag and comes with the Fossil tin. Please note, I only leave feedback after it has been left for me. Seller ships within the US, no exceptions.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "683",
+    "UserID": "auntieshell00",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

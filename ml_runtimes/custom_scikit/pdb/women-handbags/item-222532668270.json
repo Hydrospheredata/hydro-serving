@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDk1WDY3OQ==/z/1OcAAOSwi7RZHh8J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTQ1WDY3OQ==/z/zfoAAOSw-K9ZHh8R/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTIzWDY3OQ==/z/2B0AAOSwurZZHh8a/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Loeffler-Randall-Red-Crossbody-Pouch-/222532668270",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "100% LeatherImportedTextile liningZipper closure23\" shoulder drop5.5\" high7\" wideCrossbody pouch with leather tassel detail",
+  "Title": "Loeffler Randall Red Crossbody Pouch",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "East Elmhurst, New York",
+  "Seller": {
+    "FeedbackScore": "29",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "fashionseller79"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11370",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:49:03.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT23H43M56S",
+  "EndTime": "2017-06-09T13:49:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Loeffler Randall"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5.5\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "23\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532668270",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225326682708080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

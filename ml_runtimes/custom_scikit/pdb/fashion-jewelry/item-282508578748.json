@@ -1,0 +1,149 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P28DT14H46M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "77.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282508578748",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Blue-Shell-Royal-Bali-Necklace-21-24-in-Bracelet-8-9-5-in-Set-/282508578748",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "77.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T02:56:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T02:56:08.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Royal Bali",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Shell",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Shell",
+        "Name": "Material"
+      },
+      {
+        "Value": "Indonesia",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Blue Shell Royal Bali Necklace (21-24 in.) & Bracelet (8-9.5 in.) Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Blue Shell Necklace (21-24 in.) and Bracelet (8-9.5 in.) Set by Royal Bali hits home runs time after time!! This pretty blue shell set goes with your favorite, crisp white shirt and jeans with boots or your office suit! Comes with its own gift box, too!! Made in Indonesia.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825085787488080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "818bjbratton",
+    "FeedbackScore": "946",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Indianapolis, Indiana",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/fwQAAOSwv0tVHs~y/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "46219"
+}

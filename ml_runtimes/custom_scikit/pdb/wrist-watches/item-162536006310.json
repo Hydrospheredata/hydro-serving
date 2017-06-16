@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Gary, Indiana",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:34:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:34:26.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536006310",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Pulsar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stain",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "PULSAR LADY SILVER/GOLD QUARTZ WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PULSAR-LADY-SILVER-GOLD-QUARTZ-WATCH-/162536006310",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625360063108080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "46407",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H22M47S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/-JsAAOSwv9FXgqH2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/LnAAAOSw7XZXgqH~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/JM4AAOSwRJ9XgqIR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/dA4AAOSwRgJXgqIe/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "The standout styling of this women's watch begins with the distinctive circular face that's nestled within a textured, silver-tone bracelet band. A sunray finish adds interest to the dial, which features an easy-read face. Brand: Pulsar Color: Silver-tone Strap: Silver-tone stainless steel Clasp: Quartz Water Resistance: 30m Case: Silver-tone bracelet band",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.3",
+    "FeedbackScore": "58",
+    "UserID": "asantiplatform-7",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

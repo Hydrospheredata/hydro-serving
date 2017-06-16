@@ -1,0 +1,70 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4250.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Haddonfield, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:41:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=473045",
+    "StoreName": "thebarefootjeweler"
+  },
+  "CurrentPrice": {
+    "value": "4250.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:41:57.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074219176",
+  "HandlingTime": "1",
+  "Description": "Gruen 14K GF duo dial doctor\u2019s watch 23 X 41 mm rectangular case with decorative engraved sides circa 1930\u2019s. Gorgeous two tone silver satin dial with black printed arabic figures and spade hands. Calibre 877S 15 jewel Gruen Guild manual wind movement. This watch has gone through a thorough restoration and comes with a 90 day warranty. 15 mm lug width Track Page Views WithAuctiva's FREE Counter",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-GF-Case-Gruen-877-8-Duo-Dial-Doctors-Watch-Recent-Service-Works-Great-/352074219176",
+  "ConditionDescription": "This watch has gone through a thorough restoration and comes with a 90 day warranty. New band.",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520742191768080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "08033",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H35M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyMlg3ODk=/z/CdgAAOSwlY1ZFzy2/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "14K GF Case Gruen 877/8 Duo Dial Doctor's Watch - Recent Service - Works Great!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6062",
+    "UserID": "thebarefootjeweler",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We believe you will be thrilled with this item when you receive it.   If you are not absolutely thrilled you may return it for a Refund (-20% for restocking fees - s/h/i not included)    Just email us for an RMA#.   Thanx"
+  }
+}

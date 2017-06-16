@@ -1,0 +1,198 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "OM",
+    "IQ",
+    "JO",
+    "LB",
+    "TR",
+    "YE",
+    "BT",
+    "CN",
+    "KZ",
+    "KG",
+    "IN",
+    "TM",
+    "AZ",
+    "PK",
+    "GE",
+    "MN",
+    "UZ",
+    "AM",
+    "LK",
+    "TJ",
+    "BD",
+    "NP",
+    "MV",
+    "AF",
+    "AL",
+    "BA",
+    "MO",
+    "KH",
+    "VN",
+    "LA",
+    "BN"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "48127",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Nice Condition",
+  "StartTime": "2017-05-09T23:16:03.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0N8AAOSwal5YH0sL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PqkAAOSwcLxYH0sW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MM4AAOSwHMJYH0sf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OgIAAOSwImRYH0sZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wPgAAOSwXeJYH0se/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/B74AAOSwMVdYH0sc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nSQAAOSwo4pYH0sg/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.97"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Pierre Nicol",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery-Precision quartz with new battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Train",
+        "Name": "Model"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "michiganmcanulty",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "483",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423783307618080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T23:16:03.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.97"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pierre-Nicol-Railroad-Train-pocket-watch-w-chain-great-FATHERS-DAY-gift-/142378330761",
+  "Location": "Dearborn Heights, Michigan",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pierre Nicol Railroad Train  pocket watch w/chain great FATHERS DAY gift",
+  "Storefront": {
+    "StoreName": "michiganmcanulty",
+    "StoreURL": "http://stores.ebay.com/id=262282121"
+  },
+  "ItemID": "142378330761",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT4H33M7S"
+}

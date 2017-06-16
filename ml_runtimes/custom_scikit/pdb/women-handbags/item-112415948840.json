@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/32UAAOSwPh5ZIxks/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ju8AAOSwZ4dZIxgo/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JWwAAOSwZ4dZIxgX/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IIgAAOSw0hlZIxgY/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gNIAAOSw9OFZIxgZ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WegAAOSw7GRZIxgX/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lm4AAOSwfpVZIxg1/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JUICY-COUTURE-BLK-Velour-Crest-Baby-Diaper-Bag-/112415948840",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "DESCRIPTION:STYLE: Velour Baby Diaper Bag COLOR: Black SIZE: 12\" high21\" wide6\" deep9\" shoulder dropCONDITION: In Great Condition, ONLY the BAG no accesories includedGuarantee Authentic JUICY COUTURE BRAND DETAILS: Soft velour quilted baby diaper Tote Bag, made out of polyester/cotton from China Baby Crest embroidery with gold hardware",
+  "Title": "JUICY COUTURE BLK Velour Crest Baby Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Hialeah, Florida",
+  "Seller": {
+    "FeedbackScore": "221",
+    "PositiveFeedbackPercent": "97.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "gueta26475"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33014",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-22T17:08:34.000Z",
+  "HitCount": "52",
+  "TimeLeft": "P19DT1H44M54S",
+  "EndTime": "2017-06-21T17:08:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Juicy Couture"
+      },
+      {
+        "Name": "Material",
+        "Value": "Velour"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112415948840",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124159488408080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

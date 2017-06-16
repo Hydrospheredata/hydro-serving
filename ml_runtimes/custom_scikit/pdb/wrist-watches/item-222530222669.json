@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "26.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Arden, North Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:23:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "26.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:23:41.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530222669",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "t5k16",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "753048310722",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex Mens INDIGLO T5K196 Ironman Shock Black Watch MINT",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Mens-INDIGLO-T5K196-Ironman-Shock-Black-Watch-MINT-/222530222669",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302226698080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "28704",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H11M15S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDMw/z/q~YAAOSw42JZG7Kx/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDMw/z/OOkAAOSwfRdZG7K0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4NVgxNjAw/z/gM8AAOSw5cRZG7K4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4NVgxNjAw/z/~68AAOSwX61ZG7K8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM5MlgxNTAw/z/FXUAAOSwK6RZG7K~/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Timex Mens INDIGLO T5K196 Ironman Shock Black Watch MINT Auctions from Teacups4u Up for auction is a pre-owned Timex Mens INDIGLO T5K196 Ironman Shock Black Watch in MINT Condition. I purchased this watch for my husband and I don't believe it has ever been worn though he may have tried it on. It has been in a drawer for a few years and there is no box. Brand New Battery. Downsizing so cleaning out the closets. Non-smoking home. Please see our other auctions now. We gladly combine shipping! Please email with any questions. 100% positive feedback, bid with confidence. Thank you. From the Manufacturer: Product FeaturesImportedSports Stopwatch with 30 Lap MemoryCountdown Timer & AlarmShock Resistant to I.S.O. StandardsDurable Resin Strap with Buckle ClosureIndiglo Light-Up Watch DialWater resistant to 200m (660 ft): In general, suitable for professional marine activity and serious surface water sports, but not scuba diving Payment by PayPal. Flat rate of $5.49 for contiguous 48 states only. Alaska, Hawaii, and Canadian bidders please email for shipping cost. Good Luck on Your Bidding !!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1347",
+    "UserID": "teacups4u",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Shipping not refundable"
+  }
+}

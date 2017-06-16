@@ -1,0 +1,177 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "GR",
+    "LT",
+    "MC",
+    "ME",
+    "ES",
+    "SJ",
+    "CH",
+    "AR",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "00852",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Nurse watch Quartz",
+        "Name": "Model"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Unbrand/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/NhUAAOSwol5Y2O~8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/QWEAAOSwCU1Y2O~7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/jgcAAOSwc-tY2O~8/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "QuantitySold": "1",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.75"
+  },
+  "HighBidder": {
+    "UserID": "g***o",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "29",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "14",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UB_9NQL_D5GW",
+  "StartTime": "2017-03-27T10:56:57.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920684711508080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ItemID": "292068471150",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "2.35"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-25T10:56:57.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nurse-Doctor-Style-Brooch-Pendant-Pocket-Quartz-Watch-/292068471150",
+  "Location": "HK",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Nurse Doctor Style Brooch Pendant Pocket Quartz Watch",
+  "Storefront": {
+    "StoreName": "foreverhighquality",
+    "StoreURL": "http://stores.ebay.com/id=1162452825"
+  },
+  "Seller": {
+    "UserID": "foreverhighquality",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "76716",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT16H7M52S"
+}

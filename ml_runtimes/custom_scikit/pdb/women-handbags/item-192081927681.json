@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lQAAAOSwo4pYf9tu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ1OVg5ODU=/z/vhUAAOSwLEtYf9t-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pUIAAOSwopRYf9tw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Nm4AAOSwnHZYf9ty/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oBwAAOSwjDZYf9t1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HcoAAOSw44BYf9t3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RssAAOSwNnRYf9t5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N6oAAOSwnHZYf9t7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ly4AAOSwo4pYf9t9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hC4AAOSw-0xYf9uA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H2YAAOSw241Yf9uC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vscAAOSwLEtYf9uE/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Arrival-NWT-KATE-SPADE-Kaylie-Tote-Diaper-BAby-Bag-WKRU4305-/192081927681",
+  "ConvertedCurrentPrice": {
+    "value": "185.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "It is new authentic with tag. 9\" handles 9\"-18\" adjustable, detachable strapLots of spaceMeasurements: approx. : 19\" - 14\" tapered (L) x 14\" (H) x 8\" (W) Changing padChanging pad holderCare card included",
+  "Title": "** New Arrival** NWT KATE SPADE  Kaylie Tote Diaper BAby Bag WKRU4305",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "185.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Tracy, California",
+  "Seller": {
+    "FeedbackScore": "496",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "michele-katespade"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "95377",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-01-18T21:21:51.000Z",
+  "HitCount": "558",
+  "TimeLeft": "P15DT5H49M21S",
+  "EndTime": "2017-06-17T21:21:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "LAUREL WAY PRINTED CHECK"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098687018760"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192081927681",
+  "Storefront": {
+    "StoreName": "Michele-KateSpade",
+    "StoreURL": "http://stores.ebay.com/id=1257211462"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1920819276818080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

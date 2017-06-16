@@ -1,0 +1,128 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg4ODA=/z/f7kAAOSwol5Y3kGG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2ODM=/z/ZV4AAOSw4CFY3kGF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDYxWDE1MDA=/z/ZSkAAOSw4CFY3kGE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzMlgxNTAw/z/US8AAOSwzgBY3kGE/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jack-Georges-3-Way-Tote-Black-Cream-One-Size-/292072372128",
+  "ConvertedCurrentPrice": {
+    "value": "262.3",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! 6913 Blk/Crm Color: Black/Cream Features: -Trimmed with durable, scratch and stain resistant Italian leather. -Padded compartment for laptops with up to a 15.6\" screen. -Easy access organizer. -Zippered inside pocket. -Zippered front and back pockets for your papers or travel documents. -Piggy-back strap to securely hold the case to your luggage or wheeler. Product Type: -Shoulder Bag/Tote Bag. Dimensions: -11.5\" H x 15.5\" W x 3\" D. Overall Height - Top to Bottom: -11.5\". Overall Width - Side to Side: -15.5\". Overall Depth - Front to Back: -3\". - Balistic Nylon - 3way zip tote - Leather trimmed Jack Georges 3 Way Tote,Black/Cream,One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "262.3",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "11616",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "thetoptens"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Jack Georges 3 Way Tote,Black/Cream,One Size",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-31T11:46:04.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P26DT20H37M46S",
+  "EndTime": "2017-06-29T11:46:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "745930691309"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0745930691309"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Jack Georges"
+      },
+      {
+        "Name": "MPN",
+        "Value": "6913 Blk/Crm"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/Cream"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.9 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 18.5 x W 13.5 x H 3.5 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "6913 BLK/CRM"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292072372128",
+  "Storefront": {
+    "StoreName": "thetoptens",
+    "StoreURL": "http://stores.ebay.com/id=1345108464"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2920723721288080_1.jpg",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

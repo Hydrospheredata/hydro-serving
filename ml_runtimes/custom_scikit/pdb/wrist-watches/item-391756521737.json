@@ -1,0 +1,96 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Orvin Women's Manual 17 Jewels Wristwatch ~ 5-E4210 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-04-17T11:12:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDEyODA=/z/BfQAAOSw~CFY66yW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg1WDEyODA=/z/Tn8AAOSw4CFY66yV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUyWDEyODA=/z/rXQAAOSwU8hY66yW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc5WDEyODA=/z/Bp0AAOSwls5Y66yV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIyWDEyODA=/z/2xQAAOSw3utY66yV/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Orvin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "49",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917565217378080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-16T11:12:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Orvin-Womens-Manual-17-Jewels-Wristwatch-5-E4210-/391756521737",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Vintage Orvin Women's Manual 17 Jewels Wristwatch ~ 5-E4210",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391756521737",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P15DT17H20M51S"
+}

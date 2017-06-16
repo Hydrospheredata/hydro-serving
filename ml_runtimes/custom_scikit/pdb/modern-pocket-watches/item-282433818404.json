@@ -1,0 +1,150 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "15208",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Haven't replaced battery to see if it works Some marks but still in decent shape",
+  "StartTime": "2017-04-15T02:16:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/n-UAAOSwTM5Y8YI3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/BIAAAOSwGy5Y8YI4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/BZMAAOSwCWFY8YI4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/5NUAAOSw~CFY8YI6/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "USA",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Retro (1983-2000)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Nike",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "swooshlife587",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "683",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "112",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824338184048080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T02:16:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nike-Vintage-Pocket-Watch-/282433818404",
+  "Location": "Pittsburgh, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Nike Vintage Pocket Watch",
+  "Storefront": {
+    "StoreName": "swooshlife587",
+    "StoreURL": "http://stores.ebay.com/id=812845588"
+  },
+  "ItemID": "282433818404",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT7H29M34S"
+}

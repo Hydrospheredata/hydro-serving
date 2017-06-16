@@ -1,0 +1,145 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "22026",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Collezio vintage pocket watch with clip. Needs a battery.",
+  "StartTime": "2017-05-08T17:22:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/crIAAOSw3gJZEKjv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNFgxMDgw/z/VFIAAOSwYvFZEKkB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/ca8AAOSwlMFZEKkW/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Collezio",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "picklehead2",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1312",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "44",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019194727028080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T17:22:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Collizio-Pocket-Watch-Clip-/201919472702",
+  "Location": "Dumfries, Virginia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Collizio Pocket Watch With Clip",
+  "Storefront": {
+    "StoreName": "UStoYouPicks",
+    "StoreURL": "http://stores.ebay.com/id=13331534"
+  },
+  "ItemID": "201919472702",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT22H39M54S"
+}

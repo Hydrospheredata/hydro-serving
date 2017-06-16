@@ -1,0 +1,70 @@
+{
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.08"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:117039",
+  "HandlingTime": "1",
+  "EligibleForPickupDropOff": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/GuQAAOSwe7BWzdFd/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "UK",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "18",
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "sombral",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14747",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "StartTime": "2017-05-11T12:01:05.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Title": "watch chain pin remover",
+  "ItemID": "222507675060",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Tools & Repair Kits",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/watch-chain-pin-remover-/222507675060",
+  "Country": "GB",
+  "PostalCode": "tn254pf",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Women's",
+      "Name": "Gender"
+    }
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "Description": "watch pin link remover all metal coated body. rubber back non slip base. comes with three pins size; 0.6mm...0.8mm...1.mm will fit most bracelets,for safe and easy removal of link pins. box is not included.... postage U.K. free...........worldwide \u00a34.00",
+  "HitCount": "12",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "117039",
+  "QuantityAvailableHint": "MoreThan",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225076750608080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-10T12:01:05.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ashford, Kent",
+  "CurrentPrice": {
+    "_currencyID": "GBP",
+    "value": "3.95"
+  },
+  "TimeLeft": "P9DT16H9M49S"
+}

@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "32.23"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Pocket watches under our private brand \"ShoppeWatch\" make superb birthday or Christmas gifts, in addition to great wedding and groomsmen gifts. They are also ideal for corporate gifts or for the retirement of a long time employee. Here is an example of a pocket watch in a vintage design for anyone that wants the classic look and practicality of a quality mechanical wind up pocket watch. - Hand Wind Mechanical Movement - Skeleton Dial with Roman Numerals - ShoppeWatch Brand with Gift Box - Cord Length 365mm (14 inches) - Bronze Tone Metal Case Mens Skeleton Pocket Watch Quality Mechanical Movement Hand Wind Roman Numerals",
+  "StartTime": "2017-03-06T13:54:03.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/B5MAAOSwfVpYvWoA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JLUAAOSwWxNYvWoA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/bbsAAOSwOgdYvWoA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/LVUAAOSwax5YvWoA/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "608819525112",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0608819525112",
+        "Name": "EAN"
+      },
+      {
+        "Value": "ShoppeWatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PWMSK17",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.3 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.8 x W 3.7 x H 2.1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "36",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2725794687458080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T13:54:03.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "32.23"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Mens Skeleton Pocket Watch Quality Mechanical Movement Hand Wind Roman Numerals",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Skeleton-Pocket-Watch-Quality-Mechanical-Movement-Hand-Wind-Roman-Numerals-/272579468745",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579468745",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H2M12S"
+}

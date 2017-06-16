@@ -1,0 +1,119 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "97123",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Gleaming pocket watch recalls dashing tales of Wild West adventure, with heavy chain and elaborately engraved stagecoach scene. A gift to impress even the most discerning modern-day gentleman! Pocket chain included. Weight 0.5 lb. Alloy metal. Quartz. 1\u00be\" diameter. Battery not included. New old stock. Will be shipped in original box in padded envelope. Originally sold for $24.95. ***********************************************************************************************************************************************A Word about ShippingWe would love to offer you free shipping, but please understand that this is a small family-owned business and we cannot absorb shipping costs. We do promise however, that you will always get the best shipping rates offered for the weight of your product and the destination. The post office and shipping companies set these rates, and we have no choice but to comply. By the end of January all shippers, including the USPS, will have raised their rates leaving us with no alternative but to raise our shipping rates.",
+  "StartTime": "2017-04-03T20:06:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwOQ==/z/nlMAAOSwjDZYf-FQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTA1WDUwNQ==/z/0ZcAAOSwImRYf-FO/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Acrylic Crystal",
+          "Arabic Numerals",
+          "Spring Cover"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "12313",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "libersales",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "96",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "37",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2322919522508080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T20:06:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stagecoach-Pocket-Watch-Quartz-Movement-/232291952250",
+  "Location": "Hillsboro, Oregon",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Stagecoach Pocket Watch - Quartz Movement",
+  "Storefront": {
+    "StoreName": "Accents of the West",
+    "StoreURL": "http://stores.ebay.com/id=42275286"
+  },
+  "ItemID": "232291952250",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT1H18M29S"
+}

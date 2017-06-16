@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tpAAAOSwXYtYvxNp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjgz/z/cE0AAOSwWxNYvxN5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTg2WDE2MDA=/z/dDgAAOSwWxNYvxOF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eLYAAOSw2gxYvxOQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wb0AAOSwXYtYvxOX/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Jet-Set-Pale-Gold-Leather-Large-Carryall-Tote-Purse-/222532663566",
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors Jet Set Pale Gold Leather Large Carryall Tote Purse Manufacturer: Michael Kors Model: 35F6GTVT3M Description: Jet Set Pale Gold Leather Large Carryall Tote Purse Packaging Condition Details: Retail Packaging Included. Tag Only Original Price: $298.00 Type: Jet Set Color: Pale Gold Material: Leather Handle Drop Length: 10.5\" adjustable Type of Closure: Clasp Pockets: 4 interior slip pockets, 1 zip pocket Dimensions: 12\" x 15\" x 6\" Inside Color and Material: Tan fabric Features: Gold tone hardware Box Contents: 1 tote Item Condition: New with tags",
+  "Title": "Michael Kors Jet Set Pale Gold Leather Large Carryall Tote Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "93",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "etolentino09"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10034",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:43:21.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT23H37M37S",
+  "EndTime": "2017-06-09T13:43:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gold"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532663566",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225326635668080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

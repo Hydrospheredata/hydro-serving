@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/fhcAAOSwYvFZHjSt/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/I88AAOSwq1JZHjTC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/Bx0AAOSw1WJZHjTC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/I-MAAOSwq1JZHjTD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/ph4AAOSwcB5ZHjTC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/4uAAAOSw0hlZHjTE/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/qAwAAOSwcB5ZHjTs/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/~EgAAOSwY3BZHjTr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/uk8AAOSwcaFZHjTs/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/MdIAAOSww5hZHjTs/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/q-gAAOSwH09ZHjU-/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/ZrwAAOSwYvFZLvFF/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Used-Coach-OP-Art-Patent-Leather-Baby-Diaper-Multifunction-Tote-Bag-F26030-Pink-/222516188876",
+  "ConvertedCurrentPrice": {
+    "value": "97.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "I have a used pink, in color, Coach OP Art Patent Leather Baby Diaper Multi-function Tote Bag for sale. The tote bag is in good condition with no rips or tears and comes with the cross body strap. It dose have a few stains inside of the bag. Overall it is a nice tote bag. The Coach tag inside of the tote has the following number A1420-F26020. The is a one owner tote that was purchased band new by me several years ago. Thanks for looking.",
+  "Title": "Used Coach OP Art Patent Leather Baby Diaper Multifunction Tote Bag F26030 Pink",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "97.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Albuquerque, New Mexico",
+  "Seller": {
+    "FeedbackScore": "58",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "yvett.campo"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "87104",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-19T00:13:19.000Z",
+  "HitCount": "90",
+  "TimeLeft": "P15DT8H49M6S",
+  "EndTime": "2017-06-18T00:13:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Patent Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222516188876",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225161888768080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

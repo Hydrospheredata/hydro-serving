@@ -1,0 +1,169 @@
+{
+  "ExcludeShipToLocation": [
+    "BR",
+    "CL",
+    "GY",
+    "PY",
+    "SR",
+    "UY"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "34231",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "&amp;lt;div style=\"text-align:center\"&amp;gt;&amp;lt;img src=\"http://ti2.auctiva.com/sw/java.gif\" border=\"0\"&amp;gt;&amp;lt;br&amp;gt;&amp;lt;table align=\"center\"&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a style=\"text-decoration:none\" href=\"http://emporium.auctiva.com/pequot\" target=\"_blank\"&amp;gt;&amp;lt;img src=\"http://ti2.auctiva.com/sw/browse2.gif\" border=\"0\"&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td height=\"21px\" valign=\"middle\" align=\"center\"&amp;gt;&amp;lt;font face=\"arial\" size=\"2\"&amp;gt;&amp;lt;b&amp;gt;&amp;lt;a href=\"http://emporium.auctiva.com/pequot\" target=\"_blank\"&amp;gt;pequot&amp;lt;/a&amp;gt; Store&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;img src=\"http://ti2.auctiva.com/web/aswCredit.gif\" border=\"0\"&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=\"http://www.auctiva.com/?how=scLnk0\" target=\"_blank\"&amp;gt;&amp;lt;img src=\"http://ti2.auctiva.com/images/sc1line0.gif\" border=\"0\"&amp;gt;&amp;lt;/a&amp;gt; Citizen Eco Drive JY8030-83E Black Dial Ana/Digi Chronograph Steel Men's Watch &amp;lt;div style=\"text-align:center\"&amp;gt;&amp;lt;a style=\"text-decoration:none\" href=\"http://mostpopular.sellathon.com/?id=AC1315405\"&amp;gt;&amp;lt;img src=\"http://www.sellathon.com/Resources/Images/countercredit.gif\" border=\"0\"&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;",
+  "StartTime": "2016-12-24T17:28:11.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODYxWDc3OQ==/z/kaYAAOSwXrhXm39C/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "486.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Alarm",
+          "Chronograph",
+          "Compass"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Solar Powered)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mesh Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Steel",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Steel",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "46mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sarasotawatchcompany",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3187",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "493",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1320438404108080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T17:28:11.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "486.5"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Eco-Drive-JY8030-83E-Black-Dial-Ana-Digi-Chronograph-Steel-Mens-Watch-/132043840410",
+  "Location": "Sarasota, Florida",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Citizen Eco Drive JY8030-83E Black Dial Ana/Digi Chronograph Steel Men's Watch",
+  "Storefront": {
+    "StoreName": "sarasotawatchcompany",
+    "StoreURL": "http://stores.ebay.com/id=626046060"
+  },
+  "ItemID": "132043840410",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P21DT23H30M7S"
+}

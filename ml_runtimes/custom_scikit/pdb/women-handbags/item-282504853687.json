@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PAYAAOSwNnRYgUvb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XmQAAOSwjDZYgUvh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NRAAAOSwLEtYgUvk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NW0AAOSwLEtYgUvn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BFcAAOSw-0xYgUvq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ns0AAOSwnHZYgUvt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/y-oAAOSwImRYgUvz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zGUAAOSwImRYgUv4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4S4AAOSwt5hYgUv7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PNUAAOSw5cNYgUwB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PTIAAOSw5cNYgUwE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZK4AAOSw9GhYgUwH/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wilsons-Black-Leather-Briefcase-Business-Laptop-Case-NEW-/282504853687",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "12.5\" X 4.25 X 15.5\"",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "466",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "ichida2010"
+  },
+  "PrimaryCategoryID": "169293",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Wilsons Black Leather Briefcase Business Laptop Case  NEW",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T20:28:09.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P29DT5H35M15S",
+  "EndTime": "2017-07-01T20:28:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Wilsons"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282504853687",
+  "Storefront": {
+    "StoreName": "ichida2010",
+    "StoreURL": "http://stores.ebay.com/id=1033148449"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825048536878080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

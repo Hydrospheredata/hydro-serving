@@ -1,0 +1,307 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Work-Bag-Box-Italian-and-Document-Organiser-100-Genuine-Leather-Made-/192137812538?var=",
+  "ConvertedCurrentPrice": {
+    "value": "101.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Made in Italy unisex bag organiser & carry all Measurements: width 38 cm, height 29 cm, depth 11 cm. Bag Briefcase made with high quality italian genuine leather. Handle and removable shoulder strap inside, double compartment with zip closure and twin front pockets with magnetic buttons. Bag new with tag and delivered in a special box to prevent damage during transport ships, including anti dust soft sack.",
+  "Title": "Men's Work Bag, Box Italian, and Document Organiser, 100% Genuine Leather Made i",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "101.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/715/730/311497887/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Celeste",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/715/731/311470429/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/715/732/311979944/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/715/733/312179567/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Leather",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/715/734/311509035/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark brown",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/715/735/311561839/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/715/736/311501457/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/715/737/311554464/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Violet",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/715/738/311551291/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "101.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715730:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715731:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Celeste"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "97.8",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715732:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Green"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715733:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "97.8",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715734:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Leather"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715735:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "97.8",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715736:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "97.8",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715737:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Orange"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "97.8",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139715738:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Violet"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Brown",
+          "Celeste",
+          "Green",
+          "Black",
+          "Leather",
+          "Dark brown",
+          "Red",
+          "Orange",
+          "Violet"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-23T08:12:00.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P18DT15H49M13S",
+  "EndTime": "2017-06-21T08:12:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Chicca Tutto Moda"
+      },
+      {
+        "Name": "MPN",
+        "Value": "662728034"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137812538",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "9",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139715729:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

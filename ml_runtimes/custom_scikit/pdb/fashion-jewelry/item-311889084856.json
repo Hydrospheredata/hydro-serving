@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "38.13",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "311889084856",
+  "TimeLeft": "P9DT20H55M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.13",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TURQUOISE-CZ-GOLD-TONE-BOLLYWOOD-INDIAN-BRIDAL-LONG-NECKLACE-JEWELRY-SET-4-PCS-/311889084856",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.13",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:35:10.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T08:35:10.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Turquoise",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lifetime",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Real Sparkle",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "TURQUOISE CZ GOLD TONE BOLLYWOOD INDIAN BRIDAL LONG NECKLACE JEWELRY SET 4 PCS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Normal 0 false false false MicrosoftInternetExplorer4",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118890848568080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "real-sparkle",
+    "FeedbackScore": "4875",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Jannat Collection",
+    "StoreURL": "http://stores.ebay.com/id=881651537"
+  },
+  "Quantity": "1",
+  "Location": "DELHI, DELHI",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzc1WDY3MA==/z/4cgAAOSwj0NUjClz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc1WDUwNg==/z/BnwAAOSwg3FUjCl8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc1WDY5Mw==/z/eEEAAOSw7ThUjCmO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc1WDE5OA==/z/AWkAAOSwnDxUjCmA/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "110062"
+}

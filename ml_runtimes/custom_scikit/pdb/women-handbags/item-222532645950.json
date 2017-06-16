@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/qGEAAOSwx-9W1FtH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/LPsAAOSw~OVW1Fs5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/ajgAAOSwuAVW1Fs9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/LgUAAOSw~OVW1FtB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LA4AAOSw~OVW1Fsx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UA8AAOSwQYZW1Fs3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/an4AAOSwuAVW1Fs~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/LlsAAOSw~OVW1FtE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/UmUAAOSwQYZW1FtJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/s5AAAOSwKtVW1FtR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/t7YAAOSwll1W1FtV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzNFg3NTA=/z/G5gAAOSwzgRW1Fuw/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Louis-Vuitton-Limited-Edition-Monogram-Eclipse-Sequin-Bag-EUC-Worn-Only-Once-/222532645950",
+  "ConvertedCurrentPrice": {
+    "value": "1500.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a gorgeous authentic limited edition louis vuitton monogram eclipse sequin pochette bag.\u00a0 It is like new, worn only once .\u00a0 Looks perfect! The gold sequins overlay the classic monogram LV .\u00a0 The date code is embossed inside the interior pocket( see photo).\u00a0 It comes with dust bag and original box , and pamphlet.\u00a0 The\u00a0 hardware is polished gold brass.\u00a0 The strap is detatchable with an 8\" drop.\u00a0 The trim is calfskin leather.\u00a0 I guarantee it's authentic, and Its just gorgeous!! Please ask me any questions, and thanks!",
+  "Title": "Louis Vuitton Limited Edition Monogram Eclipse Sequin Bag. EUC. Worn Only Once!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1500.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Gladwyne, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "227",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "beatryce3"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "19035",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:20:10.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P9DT23H12M56S",
+  "EndTime": "2017-06-12T13:20:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Louis Vuitton"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "8 1/2\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8\""
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Style",
+        "Value": "Pochette"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas And Calfskin"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532645950",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225326459508080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

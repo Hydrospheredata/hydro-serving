@@ -1,0 +1,85 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P3DT11H15M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201940664802",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-RETIRED-SORRELLI-SAND-DUNE-CUFF-Bracelet-BEAUTIFUL-/201940664802",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T02:10:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T02:10:45.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sorrelli",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Swarovski and Austrian crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Color"
+      },
+      {
+        "Value": "not applicable",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "*NEW* & *RETIRED* ~ SORRELLI ~ \"SAND DUNE - CUFF\" ~ Bracelet ~  BEAUTIFUL !",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "*NEW* & *RETIRED* SORRELLI CUFF BRACELET \"SAND DUNE\" BEAUTIFUL !",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019406648028080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sonoco123",
+    "FeedbackScore": "1172",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Lynn Haven, Florida",
+  "HitCount": "25",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lOQAAOSwImRYT3yu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-5kAAOSwcUBYT31d/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rasAAOSw-0xYT3z3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yrIAAOSw5cNYT30X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/trYAAOSw-0xYT307/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/518AAOSwcUBYT3zT/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "32444"
+}

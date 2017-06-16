@@ -1,0 +1,400 @@
+{
+  "ReturnPolicy": {
+    "Description": "You have 3 days to return the item and you must contact me via ebay and get my approval to return this item.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT21H31M14S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Alma fashion jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1005604202"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.75",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282510489507",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nail-Women-Ring-Silver-925-Gold-Rose-Cubic-Zirconia-Size-6-7-8-9-/282510489507?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.75",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-05T10:46:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T10:46:36.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "Silver",
+            "Gold",
+            "Rose Gold"
+          ],
+          "Name": "Color"
+        },
+        {
+          "Value": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "Name": "Size"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Silver",
+              "Name": "Color"
+            },
+            {
+              "Value": "6",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Silver",
+              "Name": "Color"
+            },
+            {
+              "Value": "7",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Silver",
+              "Name": "Color"
+            },
+            {
+              "Value": "8",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Silver",
+              "Name": "Color"
+            },
+            {
+              "Value": "9",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "6",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "7",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "8",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "9",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Rose Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "6",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Rose Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "7",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Rose Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "8",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Rose Gold",
+              "Name": "Color"
+            },
+            {
+              "Value": "9",
+              "Name": "Size"
+            }
+          ]
+        },
+        "StartPrice": {
+          "value": "49.75",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "6 7 8 9",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "mocai",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Nail Women Ring Silver 925 / Gold / Rose with Cubic Zirconia - Size 6 7 8 9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nail Women Ring Silver 925 Plated / Gold Plated / Rose Gold Plated with Cubic Zirconia - Size 6 7 8 9 - apm",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "92.2",
+    "UserID": "natibago1987",
+    "FeedbackScore": "216",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "12",
+  "Location": "guangzhou",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA5OVgxMDgw/z/AkIAAOSw-K9ZNTSr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAxN1g5NzA=/z/ThYAAOSwi7RZNTSl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAxNFg5Njg=/z/GrwAAOSws5pZNTSo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ioQAAOSwfRdZNTSv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6icAAOSw42dZNTSz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/fxkAAOSwEHpZNTS3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/YUMAAOSw8lpZNTS7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA5OVgxMDgw/z/kycAAOSwGJlZNTTp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/93kAAOSwn-tZNTS~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0fsAAOSwlY1ZNTTF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/8s0AAOSwaeRZNTTI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~1cAAOSwuMZZNTTM/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

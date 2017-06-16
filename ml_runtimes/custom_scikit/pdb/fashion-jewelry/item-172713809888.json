@@ -1,0 +1,133 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT12H16M26S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "SET HAS NEVER BEEN WORN",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172713809888",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Natural-Brazilian-EMERALD-Nugget-Bracelet-Matching-Ring-Sz-6-Sterling-Silver-/172713809888",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T00:03:40.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T00:03:40.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Brazilian Emerald",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Natural Brazilian EMERALD Nugget Bracelet & Matching Ring  Sz 6  Sterling Silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Gorgeous Brazilian Emerald natural nugget, sterling silver bracelet and matching size 6 ring. These pieces both have a large natural emerald nugget centerpiece. The bracelet has a spring hinge opening to allow for fit with a 1\" x 5/8\" gorgeous nugget setting, will fit 7\"-8\" wrist. The nugget setting on the size 6 ring is 3/4\" x 1/2\". Both pieces are new/never worn, outstanding, unusual pieces.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727138098888080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kkhammer2",
+    "FeedbackScore": "778",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Littleton, Colorado",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FNQAAOSwIgNXkAwl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G8wAAOSwdzVXkAwr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eCkAAOSwj2dXkAwz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IogAAOSwqfNXkAw7/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "80123"
+}

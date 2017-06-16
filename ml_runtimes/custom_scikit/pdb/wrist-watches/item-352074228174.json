@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "289.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Palm Springs, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:59:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=2850867",
+    "StoreName": "Shopped 4 U"
+  },
+  "CurrentPrice": {
+    "value": "289.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:59:28.000Z",
+  "ShipToLocations": [
+    "US",
+    "Asia",
+    "CA",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East"
+  ],
+  "ItemID": "352074228174",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Movado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3600272",
+        "Name": "MPN"
+      },
+      {
+        "Value": "885997150668",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Men's Movado Bold Chrono Black/Red Dial Gray Stainless Steel Watch 3600272 NIB",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Movado-Bold-Chrono-Black-Red-Dial-Gray-Stainless-Steel-Watch-3600272-NIB-/352074228174",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520742281748080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "92263",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H54M21S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDkx/z/GEgAAOSwmfhX6F3P/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUzMFgxNjAw/z/ttsAAOSwzaJX6F3S/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDU5/z/92kAAOSwPCVX6F3U/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "Stand out in the crowd with this trendy, dark timepiece by Movado, accented by an eye-catching red on the dial. From the Bold collection. Dark gray stainless steel & polyurethane bracelet Round case, 43mm Black chronograph dial with stick indices, dark gray dot at 12hr mark and three hands, three red encircled subdials and date window Swiss quartz movement Water resistant to 30 meters Style 3600272 Movado Bold Box and warranty card included Payment Options: Paypal preferred. Please submit payment within 2 days of auction ending. Payment must be made within that time frame, other arrangements made, or the item will be relisted. If payment cannot be made with the specified time frame, please MAKE SURE to contact me for payment arrangement. Any non-paying bidders will be reported to eBay. Shipping: I normally ship the next business day after receiving payment. Feedback: All items are from a smoke free home. New watch purchased from a Movado store in SOCAL. PLEASE serious bidders ONLY. I leave feedback after I ship the item. I appreciate any positive feedback left in return. International Buyers \u2013 Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up \u2013 do not confuse them for additional shipping charges. I do not mark merchandise values below value or mark items as \"gifts\" - US and International government regulations prohibit such behavior. Thanks for looking!! And, don't forget to check out my other auctions! All of my items are described to the best of my ability. All sales are final (unless the item is grossly misrepresented), so please read the listing carefully and ask any questions in advance of the close of the auction. If a return is arranged, the buyer pays return postage and any shipping fees incurred by me will not be refunded. Serious bidders only. Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5917",
+    "UserID": "rachsmith",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

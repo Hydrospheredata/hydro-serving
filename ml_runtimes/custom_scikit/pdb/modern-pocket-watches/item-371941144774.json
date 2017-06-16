@@ -1,0 +1,138 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "CZ"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "FIRST FLIGHT \" Wright Brothers \" POCKET WATCH with metal chain - new in gift box White face with gold finish numbers. Silver and gold finish embossed cast metal case with image of the first flight on front with commemoration to The Wright Brothers on the back. Gold finish metal chain. Pocket watch features: second hand, Japanese quartz movement, and gift box. As pictured.",
+  "StartTime": "2017-05-06T02:07:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xDcAAOSw9IpX1gFo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KvMAAOSwGtRX1gFu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0msAAOSwi0RX1gF5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RDkAAOSwdIFX1gGB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sFEAAOSwFe5X1gGJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RuAAAOSwdIFX1gGW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uaEAAOSwFdtX1gGe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/12AAAOSwi0RX1gGm/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "RELIANCE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "I1701",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "DOES NOT APPLY",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "morgan1955",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "17871",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3719411447748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T02:07:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "BE",
+    "FR",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "MX",
+    "NZ",
+    "NO",
+    "UA",
+    "HR",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Owingsville, KY",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "FIRST FLIGHT \" Wright Brothers \" POCKET WATCH with metal chain - new in gift box",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FIRST-FLIGHT-Wright-Brothers-POCKET-WATCH-metal-chain-new-gift-box-/371941144774",
+  "Storefront": {
+    "StoreName": "morgan1955",
+    "StoreURL": "http://stores.ebay.com/id=39804115"
+  },
+  "ItemID": "371941144774",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT7H23M32S"
+}

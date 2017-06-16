@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "302000471128",
+  "TimeLeft": "P19DT13H57M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Toe Rings",
+  "QuantitySold": "1",
+  "Site": "Australia",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "189.0",
+    "_currencyID": "AUD"
+  },
+  "SKU": "44891",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Heart-Plain-9ct-9k-Solid-Yellow-Gold-Toe-Ring-44891-/302000471128",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "140.57",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-06-30T03:54:37.000Z",
+  "PaymentMethods": "PayPal",
+  "HighBidder": {
+    "UserID": "u***a",
+    "FeedbackScore": "25",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "AU",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-25T03:54:37.000Z",
+  "Location": "Sydney",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bee Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9ct Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "44891",
+        "Name": "MPN"
+      },
+      {
+        "Value": "606280788210",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Heart Plain 9ct 9k Solid Yellow Gold Toe Ring 44891",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "RUGS BOOTS EARINGS NECKLACE Note: This item is on pre-sale.All orders after 1st Apr will be dispatched on: 40th June. --> New Heart Plain 9ct 9k Solid Yellow Gold Toe Ring 44891",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3020004711288080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "fab-living",
+    "FeedbackScore": "13020",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Fab-living",
+    "StoreURL": "http://stores.ebay.com/id=653894059"
+  },
+  "HandlingTime": "5",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/-pgAAOSwwo1XdJf~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/iQ4AAOSwbYZXdJf~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/F1YAAOSwzJ5XdJf~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/-pUAAOSwwo1XdJf~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/-KEAAOSwgY9XdJgA/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

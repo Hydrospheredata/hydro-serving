@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "Description": "20% restocking fee may apply",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT57M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "51.25",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "262986835852",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/6-pack-Inspirational-Medical-Wristbands-W-Hippocratic-Quotes-Gifts-/262986835852",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "51.25",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-15T15:00:25.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T15:00:25.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Inkstone",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Medical Jewelry Apparel Accessories 2A",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Medical Jewelry Apparel Accessories 2A",
+        "Name": "Model"
+      },
+      {
+        "Value": "025093055218",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0025093055218",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "(6-pack) Inspirational Medical Wristbands W/ Hippocratic Quotes - Gifts For",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "(6-pack) Inspirational Medical Wristbands W/ Hippocratic Quotes - Gifts For Nurses Medical Professionals Pack of 6 silicone wristbands for medical professionals, engraved with medical symbols & inspirational quotes by HippocratesStandard adult unisex size of 8' around is suitable for both men and womenIncludes 2 each of: 'Cure sometimes, treat often, comfort always' - HippocratesIncludes 2 each of: 'Wherever the art of medicine is loved, there is also a love of humanity.' - HippocratesIncludes 2 each of: Medical symbols wristband with ECG heart, stethoscope, medical suitcase, and Star of Life / Rod of Asclepius emergency medical symbols",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629868358528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "loyalty6331",
+    "FeedbackScore": "6378",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "Quantity": "2",
+  "Location": "Multiple locations",
+  "HitCount": "53",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTUxWDUwMA==/z/mDUAAOSwYlRZGcJ7/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDc3OQ==/z/lxkAAOSwONBZGcKB/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTY2WDUwMA==/z/RlwAAOSwH09ZGcKE/$_12.JPG"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,95 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product Features:Automatic mechanical wrist watch for men and womenFeatures hollow dial with see through interiorThree watch hands for displaying timeNormal water resistant, not for showering or swimmingNet Weight: 62 g / 2.17 ozChain Length: 280 mm / 10.92 inchCase Size: 45 x 45 x 13 mm / 1.755 x 1.755 x 0.507 inchProduct Specifications:Gender:UnisexMovement:Automatic MechanicalDisplay:AnalogStyle:RetroType:Pocket WatchesFeature:Normally Water ResistantCase Material:AlloyCase Shape:RoundPackage Content:1 x WatchBattery:No BatteryCustomer Images",
+  "StartTime": "2017-05-14T00:15:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/Vo8AAOSwurZZF6GR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/RgMAAOSw42dZF6GU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/mXYAAOSwK6RZF6GW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/TKcAAOSw~y9ZF6GX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/fkwAAOSwhvFZF6GZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/KB0AAOSwIQdZF6Ga/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kaci_ayou",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "11",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "28",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629841187428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-13T00:15:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "HK",
+  "Title": "Bronze Automatic Mechanical Round Case Pocket Watch Automatic Watch with Chain f",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bronze-Automatic-Mechanical-Round-Case-Pocket-Watch-Automatic-Watch-Chain-f-/262984118742",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "262984118742",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT5H34M49S"
+}

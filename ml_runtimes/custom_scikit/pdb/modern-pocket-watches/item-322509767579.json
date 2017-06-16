@@ -1,0 +1,83 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "72450",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Sutton Quartz Ladies Pocket Watch \u2022 Gold case with engraved floral pattern \u2022 Roman numerals \u2022 Functional, but needs a new battery \u2022 Inside of case engraved: 400.101, Gluck Trading Co, Swiss Made \u2022 1 1/4\" case diameter \u2022 Customer satisfaction is my TOP priority!\u00a0 Returns are gladly accepted if you aren't completely satisfied with your purchase for any reason. \u00a0 Thanks so much for taking a look at my listing. Please don't hesitate to contact me if you would like additional photos or information.\u00a0 #J5",
+  "StartTime": "2017-05-08T17:42:51.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjM0WDU0MA==/z/qhUAAOSwlMFZEK1I/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjIxWDU1Nw==/z/6roAAOSw7GRZEK36/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQ3WDUxOA==/z/rUIAAOSw5cRZEK1G/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY0WDYxOQ==/z/fssAAOSwlY1ZEK1o/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.46"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sutton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jujubeanw",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1020",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "52",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225097675798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T17:42:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.46"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Seller will pay return shipping if item\nIs inadvertently misrepresented in listing",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sutton-Quartz-Ladies-Pocket-Watch-Gold-Gluck-Trading-Co-Swiss-Made-400-101-/322509767579",
+  "Location": "Paragould, Arkansas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Sutton Quartz Ladies Pocket Watch Gold Gluck Trading Co Swiss Made 400.101",
+  "Storefront": {
+    "StoreName": "Jujubean s Place",
+    "StoreURL": "http://stores.ebay.com/id=798733978"
+  },
+  "ItemID": "322509767579",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT22H59M48S"
+}

@@ -1,0 +1,138 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P8DT9H1M41S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "67.5",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "262851712790",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Yellow-gold-Toe-Ring-10K-Gold-/262851712790",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "67.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-02-13T22:51:39.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-13T22:51:39.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "More Toe Rings",
+        "Name": "Brand"
+      },
+      {
+        "Value": "TRE1056",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Yellow gold Toe Ring 10K Gold",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! This stunning yellow gold toe ring will make a great addition. Made with 10KT or 14KT solid gold. (also available in white gold) Prouldy crafted in the USA. This toe ring is fully adjustable. - Gold Toe Ring - Made in The USA - Adjustable Ring - 10kt Gold Yellow gold Toe Ring 10K Gold",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2628517127908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "2015ilbruc",
+    "FeedbackScore": "13137",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "OnLineShoppp",
+    "StoreURL": "http://stores.ebay.com/id=1335258583"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "166",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM1OFgxNTAw/z/FicAAOSwCU1Yojh-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTQ2/z/RpIAAOSwfVpYojh-/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

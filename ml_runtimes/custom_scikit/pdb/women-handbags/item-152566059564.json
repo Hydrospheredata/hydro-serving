@@ -1,0 +1,109 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/hxgAAOSwr~lYrUwq/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Drilleys-Eco-Cross-Bag-Navy-Stripe-shoulder-bag-tote-bag-canvas-bag-eco-bag-/152566059564?var=",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Drilleys Eco Cross Bag Navy Stripe / Women's bag, shoulder bag, tote bag, canvas bag, eco bag \u25cf Size : 27 x 36 x 40 x 14 cm (BottomW x TopW x H x D) This extra-deep, heavy-duty eco cross bag is great for errands, beach days, picnics, and more. That's due to the extra carrying space from the bag's wide bottom and a full 16 inches of depth. The industrial-grade canvas is more than strong enough to deal with heavy loads and the carrying handles are thick and sturdy. For extra ease in carrying, this eco cross bag comes with an adjustable shoulder carrying strap. The bag also features a small pocket near the top, which is great for stashing small valuables such as phones, wallets, and etc. The bag comes in a lovely natural cream or funky stripes in navy or black. Navy Stripe",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Seoul, Seoul",
+  "Seller": {
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "wksglobal"
+  },
+  "PrimaryCategoryID": "169302",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Drilleys Eco Cross Bag Navy Stripe / shoulder bag, tote bag, canvas bag, eco bag",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Navy Stripe",
+        "PictureURL": "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/i00AAOSw32lYrUxT/$_1.JPG?set_id=880000500F"
+      },
+      "VariationSpecificName": "color"
+    },
+    "Variation": {
+      "Quantity": "1",
+      "StartPrice": {
+        "value": "65.0",
+        "_currencyID": "USD"
+      },
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "color",
+          "Value": "Navy Stripe"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "color",
+        "Value": "Navy Stripe"
+      }
+    }
+  },
+  "StartTime": "2017-05-30T01:57:12.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P26DT8H36M38S",
+  "EndTime": "2017-06-29T01:57:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Drilleys"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Eco Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Korea, Republic of"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152566059564",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "KR",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,76 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzNlg2NDA=/z/Mb8AAOSwMtxXuiug/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-Pink-Logo-Large-Campus-Backpack-Bookbag-Carry-Pure-Black-/322537658607",
+  "ConvertedCurrentPrice": {
+    "value": "124.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victorias Secret Pink Logo Campus Backpack Bookbag Brand New With Tags Large Backpack Solid Pure Black with PINK Trim and PINK Logo on BottomCampus Backpack: -More Durable Fabric -Interior Pocket-Top Stash Pocket -Padded For Laptop -Water Bottle Pocket -Comfy Shoulder Straps -Imported Polyester-18\" H x 12\" W x 8\" DThe ultimate back to campus essential! Stylish and sturdy with comfy shoulder straps and tons of pockets for your laptop, water bottle and all your other essentials. Only from Victoria\u2019s Secret PINK.",
+  "Title": "Victorias Secret Pink Logo Large Campus Backpack Bookbag Carry On Pure Black",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "124.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Clarksville, Tennessee",
+  "Seller": {
+    "FeedbackScore": "127",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "lilbetts11"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37042",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T16:02:16.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT1H15M10S",
+  "EndTime": "2017-06-30T16:02:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322537658607",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225376586078080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

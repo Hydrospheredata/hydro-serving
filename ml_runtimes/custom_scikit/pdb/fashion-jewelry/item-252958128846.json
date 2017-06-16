@@ -1,0 +1,193 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT9H27M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Other Fashion Jewellery",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "CurrentPrice": {
+    "value": "34.89",
+    "_currencyID": "CAD"
+  },
+  "SKU": "242461",
+  "ItemID": "252958128846",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TEVISE-Men-Popular-Brand-Stainless-Steel-Mechanical-Automatic-Wristwatches-DRCA-/252958128846?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "25.82",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T00:30:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "true",
+  "Country": "HK",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T00:30:05.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold&White",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/-hYAAOSwH09ZJolG/$_12.JPG"
+        },
+        {
+          "VariationSpecificValue": "Gold&&Gold",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Zs8AAOSwsXFZJolF/$_12.JPG"
+        },
+        {
+          "VariationSpecificValue": "Gold&Black",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/hOoAAOSwX61ZJolG/$_12.JPG"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold&White",
+          "Gold&&Gold",
+          "Gold&Black"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "242461|01|01||-DH",
+        "StartPrice": {
+          "value": "34.89",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold&White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "242461|02|01||-DH",
+        "StartPrice": {
+          "value": "34.89",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold&&Gold",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "242461|03|01||-DH",
+        "StartPrice": {
+          "value": "34.89",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold&Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Array",
+        "Name": "Features"
+      },
+      {
+        "Value": "Array",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Array",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Array",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Array",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Array",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Title": "TEVISE Men Popular Brand Stainless Steel Mechanical Automatic Wristwatches DRCA",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.6",
+    "UserID": "dressinghere",
+    "FeedbackScore": "58450",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "dressinghere",
+    "StoreURL": "http://stores.ebay.com/id=1108904016"
+  },
+  "Quantity": "9",
+  "Location": "HongKong",
+  "HitCount": "7",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/mjoAAOSwX9FZJomS/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/ucgAAOSwPh5ZJomR/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/u1wAAOSwZKBZJomS/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/8oMAAOSwK6RZJomS/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YWYAAOSwBt5ZJomR/$_12.JPG"
+  ],
+  "ConditionID": "1000"
+}

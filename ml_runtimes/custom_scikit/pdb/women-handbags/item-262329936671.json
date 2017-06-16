@@ -1,0 +1,179 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P1DT15H44M45S",
+  "ConditionDisplayName": "New without tags",
+  "ConditionDescription": "New without tags: A brand-new, unused, and unworn item.",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE0NlgxMjAw/z/l~gAAOSwZ8ZW4pe~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFg4NDQ=/z/n3cAAOSwxp9W4qVU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExMVgxMjAw/z/0fgAAOSwyjBW4qVZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE1N1gxMjAw/z/w5wAAOSwwpdW4qVe/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Siamod-Womens-Ignoto-17-Leather-Accessible-Pocket-Large-Laptop-Briefcase-3551-/262329936671?var=",
+  "ConvertedCurrentPrice": {
+    "value": "180.01",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Check Special Offers / Discounted Items / Event Sale & Other Promotions from GotApparel: Offers & Promotions \u00a0 If you have any queries regarding anything feel free to contact us. Toll Free Phone: 1-866-847-8678 Phone: (562) 404-4571 More Items!View more great items Powered by Frooition.com Frooition www.frooition.com | No-js Template | eBay design, eBay store design, eBay shop design, eBay template design, eBay listing design (ver:froo_no_js) This listing is currently undergoing maintenance, we apologise for any inconvenience caused.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "180.01",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "90670",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "66365",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "global_apparel"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Siamod Women's Ignoto 17\" Leather Accessible Pocket Large Laptop Briefcase. 3551",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTE0NlgxMjAw/z/5mwAAOSwvgdW4pe5/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Cherry Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMTY4/z/6EMAAOSwmmxW4pfF/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "197",
+        "StartPrice": {
+          "value": "180.05",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939853-3551",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "91",
+        "StartPrice": {
+          "value": "180.01",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939854-3551",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Cherry Red"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Cherry Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2016-03-11T07:01:31.000Z",
+  "HitCount": "375",
+  "ConditionID": "1500",
+  "EndTime": "2017-06-04T07:01:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "16.75\" x 3\" x 12.75\""
+      },
+      {
+        "Name": "Gender",
+        "Value": "Women"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Laptop Compartment Size",
+        "Value": "16\" x 2\" x 12.25\""
+      },
+      {
+        "Name": "Pocket",
+        "Value": "yes"
+      },
+      {
+        "Name": "Occasion",
+        "Value": "Casual"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Siamod"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3.96 (lbs)"
+      },
+      {
+        "Name": "MPN",
+        "Value": "3551"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262329936671",
+  "Storefront": {
+    "StoreName": "GotApparel",
+    "StoreURL": "http://stores.ebay.com/id=563445466"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "288",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Customer satisfaction is our foremost priority, for which we try our level best to deliver satisfactory products. In case of returns, we offer hassle free returns. We will exchange or refund products within 14 days after purchasing. We do not charge any fee on returns, we simply ask you to place another order and return the unwanted one separately. Get in touch with us and we will be happy to return or exchange your items within 14 days.",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "Siamod-3551-eByprnt",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

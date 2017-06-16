@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/8~oAAOSw3utY4h-T/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ilMAAOSwhQhY4h7-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/oHsAAOSwdGFY4h8B/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/4KIAAOSw3utY4h8J/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTU5WDk1NQ==/z/J3QAAOSwCU1Y4h8j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/96wAAOSwuLZY4h8H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODA0WDUwMA==/z/NxUAAOSwmgJY4h9H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/zDMAAOSwSlBY4h-R/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/nbwAAOSwhQhY4h-S/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Burberry-Small-Salisbury-Bridle-House-Check-Black-Tote-Bag-/162538579772",
+  "ConvertedCurrentPrice": {
+    "value": "329.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This authentic Burberry Salisbury Small tote styled in Versatile House Check twill with black leather trim. The tote features a zip-top closure, an interior zip pocket and 2 interior wall pockets. It has 2 adjustable leather handles. Made of canvas and leather. Pre/owned/excellent condition Measures: 9.8 inches H x 16 inches W at top x 6 inches D Strap drop 9 1/2\" Please ask all ?'s prior to bidding as all sales are final Will ship to Us only PayPal only",
+  "Title": "Authentic Burberry Small Salisbury Bridle House Check Black Tote Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "329.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Phoenix, Arizona",
+  "Seller": {
+    "FeedbackScore": "790",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "hockeyman*david"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85028",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:14:55.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P6DT18H45M19S",
+  "EndTime": "2017-06-09T09:14:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Burberry"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas and leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162538579772",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625385797728080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

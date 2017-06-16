@@ -1,0 +1,219 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P23DT29M45S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "i***e",
+    "FeedbackScore": "32",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "351670401906",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nipple-body-adormnets-pierecd-non-pierced-body-chains-USA-hand-designer-/351670401906?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-03-05T16:50:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T16:50:16.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Metal Purity",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "gold electroplate"
+        },
+        {
+          "VariationSpecificValue": "sterling electroplate"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "gold electroplate",
+            "sterling electroplate"
+          ],
+          "Name": "Metal Purity"
+        },
+        {
+          "Value": [
+            "NO pierce",
+            "Pierced"
+          ],
+          "Name": "pierced or   no pierce"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "SKU": "sku-auc-0",
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "gold electroplate",
+              "Name": "Metal Purity"
+            },
+            {
+              "Value": "NO pierce",
+              "Name": "pierced or   no pierce"
+            }
+          ]
+        },
+        "Quantity": "11"
+      },
+      {
+        "SKU": "sku-auc-1",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "gold electroplate",
+              "Name": "Metal Purity"
+            },
+            {
+              "Value": "Pierced",
+              "Name": "pierced or   no pierce"
+            }
+          ]
+        },
+        "Quantity": "12"
+      },
+      {
+        "SKU": "sku-auc-2",
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "sterling electroplate",
+              "Name": "Metal Purity"
+            },
+            {
+              "Value": "NO pierce",
+              "Name": "pierced or   no pierce"
+            }
+          ]
+        },
+        "Quantity": "11"
+      },
+      {
+        "SKU": "sku-auc-3",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "sterling electroplate",
+              "Name": "Metal Purity"
+            },
+            {
+              "Value": "Pierced",
+              "Name": "pierced or   no pierce"
+            }
+          ]
+        },
+        "Quantity": "12"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "beautiful Stuff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "electroplated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Nipple",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Nipple body adormnets  for pierecd  non pierced  body chains USA hand designer",
+  "ExcludeShipToLocation": [
+    "CN",
+    "HK"
+  ],
+  "BidCount": "0",
+  "Description": "Always in top of the look .I designed this to have a beautiful effect under your blouse or top . Please choose your choice of no pierce or if you have a piercing simply choose the pierced option and we will either design it with the appropriate fit, the gauges are 16 standard size hoops that i will include in purchase , If you pick no pierce you will recieve as pictured the no pierce style just squeeze to fit, hand designed with usa quality , expect the best at beautiful stuff Check out my other items! Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "beautiflstuff",
+    "FeedbackScore": "21868",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "BEAUTIFLSTUFF Sexy Hot Body Chains",
+    "StoreURL": "http://stores.ebay.com/id=87170296"
+  },
+  "Quantity": "46",
+  "HandlingTime": "5",
+  "Location": "Boynton Beach, Florida",
+  "HitCount": "2003",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODkwWDkxMA==/z/3RAAAOSw9mFWGv~f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1MVg5MTA=/z/KTgAAOSwT5tWGv~7/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33435"
+}

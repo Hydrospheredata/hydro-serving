@@ -1,0 +1,190 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg5Nzk=/z/Fj8AAOSwol5Y3D~W/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5NTI=/z/rNsAAOSwB-1Y3D~V/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg0MjQ=/z/sX0AAOSwuLZY3D~W/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDE1MDA=/z/37oAAOSwA29Y3D~W/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTEzWDE1MDA=/z/rQAAAOSwB-1Y3D~X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2Nzc=/z/37wAAOSwA29Y3D~W/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lodis-Audrey-Jana-Work-Tote-Toffee-/172600816264",
+  "ConvertedCurrentPrice": {
+    "value": "352.67",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Jana is a structured medium sized work tote that is perfect for everyday use and can hold up to a 15 inch - Pockets: 4 interior slip, 2 interior zip, 1 exterior Lodis Audrey Jana Work Tote, Toffee",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "352.67",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "16175",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "greysharky"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Lodis Audrey Jana Work Tote, Toffee",
+  "GlobalShipping": "true",
+  "Quantity": "3",
+  "StartTime": "2017-03-29T23:14:22.000Z",
+  "HitCount": "162",
+  "TimeLeft": "P25DT8H5M41S",
+  "EndTime": "2017-06-27T23:14:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "736301384852"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0736301384852"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Lodis"
+      },
+      {
+        "Name": "MPN",
+        "Value": "870AU-TOF"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Accessory"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Toffee"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.75 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 16.2 x W 13.1 x H 5.7 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "870AU"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172600816264",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1726008162648080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P19DT3H19M1S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Pre-owned with some wear",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "382100587172",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-25T18:03:05.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Costume-Jewelry-Lot-Necklaces-earrings-/382100587172",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T18:03:05.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Necklaces and non pierced earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Costume Jewelry Lot Necklaces earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Maple Shade, New Jersey",
+  "Description": "Custume Jewelry Lot has 6 necklaces and 2 sets of non-pierced earrings. Pre-owned with normal wear. Free Shipping. Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821005871728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "stusurplus",
+    "FeedbackScore": "1365",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Stusurplus Furniture",
+    "StoreURL": "http://stores.ebay.com/id=7979110"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~~gAAOSwEzxYWVwA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NmMAAOSw5cNYWVwd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/70YAAOSwA3dYWVwh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YE0AAOSw-0xYWVwl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/I7oAAOSw2xRYWVwp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YcoAAOSw-0xYWVwt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OqMAAOSw5cNYWVwz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RgsAAOSwnHZYWVw4/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "08052"
+}

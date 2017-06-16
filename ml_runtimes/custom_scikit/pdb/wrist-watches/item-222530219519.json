@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Conchas Dam, New Mexico",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:19:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=58799739",
+    "StoreName": "cloudyheavens"
+  },
+  "CurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:19:04.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530219519",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "ladies",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Spectacular mens watch face with silver plated eagle pattern",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Spectacular-mens-watch-face-silver-plated-eagle-pattern-/222530219519",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225302195198080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "88416",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H6M10S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/S0kAAOSw-0xYQZIY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/ci0AAOSwj85YQZIh/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Silver plated watch face mens style eagle pattern and it will fit any mens watch band in my listings,, we will install before mailing and this will make a great gift for that special man in your life, 1 3/8\" from pin to pin with a 3/4\" standard pin gap, and you may combine your shipping and handling fees when you purchase more than one item from cloudy heavens, to see more of his work click on (view sellers other items) pay only one fee no mater how many items are sent in the same box",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "27451",
+    "UserID": "cloudyheavens",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

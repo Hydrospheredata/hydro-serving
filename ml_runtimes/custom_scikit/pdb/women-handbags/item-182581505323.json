@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcwMw==/z/UMUAAOSw4A5YpHH-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDk1WDcyMA==/z/VQcAAOSwCU1YpHH~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDg3Mw==/z/kfAAAOSwax5YpHH~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk0MQ==/z/7XgAAOSw2gxYpHH~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU5WDkwNQ==/z/ARYAAOSw~AVYpHH-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk0Mg==/z/agUAAOSwWxNYpHH-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk2WDcyMA==/z/6DgAAOSwtfhYpHH-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDcyMA==/z/EMYAAOSwx6pYpHH-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk0WDcyMA==/z/WhQAAOSw4CFYpHH~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDcyMA==/z/aggAAOSwWxNYpHH-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDcyMA==/z/VS0AAOSwCU1YpHIA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQ5WDcyMA==/z/ahwAAOSwWxNYpHH~/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-BLAKE-AVENUE-TADEN-BLUE-WHITE-STRIPE-DIAPER-BAG-/182581505323",
+  "ConvertedCurrentPrice": {
+    "value": "198.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Detail Track Page Views WithAuctiva's FREE Counter",
+  "Title": "KATE SPADE BLAKE AVENUE TADEN  BLUE/WHITE STRIPE DIAPER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "198.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Ferndale, Michigan",
+  "Seller": {
+    "FeedbackScore": "1557",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "etrend.inc"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48220",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-18T17:07:56.000Z",
+  "HitCount": "22",
+  "TimeLeft": "P15DT1H43M30S",
+  "EndTime": "2017-06-17T17:07:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue/White Stripe"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182581505323",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825815053238080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

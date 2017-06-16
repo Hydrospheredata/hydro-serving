@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Toledo, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T15:02:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1271910426",
+    "StoreName": "Lees+Sportcards-n-More"
+  },
+  "CurrentPrice": {
+    "value": "3.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T15:02:07.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "222530301485",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "BLACK PUPPY DOG FACE WATCH (NEW/NEVER WORN)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BLACK-PUPPY-DOG-FACE-WATCH-NEW-NEVER-WORN-/222530301485",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225303014858080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "43613",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H57M12S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/IpkAAOSwaB5Xr37a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/DfgAAOSwU-pXr3z1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/zyIAAOSw0UdXr3xg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/bUEAAOSwHoFXr3z8/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Description:BLACK PUPPY DOG FACE WATCH Condition:Brand New Never Worn but does have scuff on black portion near the 9 from storage.Please see high-res scan for accurate details. Shipping:USA: $3.14 I usually ship 1 to 3 days after the auction ends and hours of operation of the post office. Total sales over $50 must be sent insured or registered at additional costs. Payment: Payment is expected within 3 days auctions end by PayPal only. If you expect to take longer please contact me. I don't mind giving extensions as long as I'm notified, otherwise a non-payment claim will be filed. Although new to E-bay, I fully understand the importance of 100% positive feedback.Please look at my other listings for great deals.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "995",
+    "UserID": "leem7529",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

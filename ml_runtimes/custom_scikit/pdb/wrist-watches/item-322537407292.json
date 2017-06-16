@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "799.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fort Lauderdale, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:27:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "799.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T11:27:17.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537407292",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Cartier Tank",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Cartier Tank Vermeil - Manual Wind (Check \"Item Description\" for video)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Cartier-Tank-Vermeil-Manual-Wind-Check-Item-Description-video-/322537407292",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225374072928080_1.jpg",
+  "HitCount": "12",
+  "PostalCode": "33326",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT20H7M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kioAAOSw5UZY8-16/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qpoAAOSwJ4hY8-2D/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ligAAOSw5UZY8-2P/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RYkAAOSwvihY8-2c/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mJEAAOSw5UZY8-2e/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FxcAAOSwIWVY8-2o/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r2YAAOSwRUhY8-2q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fQEAAOSwuspY8-27/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pz4AAOSwE0JY8-3L/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTcy/z/aHUAAOSw5UZY~q2y/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage Cartier Tank Vermeil Manual Watch. 18k gold electroplating over sterling silver. Classic 30mm x 24mm size. Champagne dial with classic Roman numerals. Authentic. Excellent condition. I had the watch fully serviced by Cartier in October 2015. I have all the paperwork and red velvet box provided by Cartier after service. I have owned the watch for about 3 years. Looks great with a suit. YouTube video description available at https://youtu.be/RTSZ5YeZH4U. I WILL NOT ACCEPT ANY OFFERS LESS THAN $799. I will only accept PayPal through eBay for payment.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "47",
+    "UserID": "kakotati",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

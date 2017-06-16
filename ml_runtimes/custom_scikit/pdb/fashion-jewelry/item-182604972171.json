@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT52M53S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent condition",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "2800.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182604972171",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Russian-solid-14K-rose-gold-chain-585-/182604972171",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "2800.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T15:40:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "RU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T15:40:14.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rose Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Russian solid 14K rose gold chain 585",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Russian solid 14K rose gold chainlength 70 cmTotal weight: 56,7 gr.very beautiful, and a lot of shineAll photos are actual, you`ll receive what you see. I accepted PayPal only. Please to contact us for more details! Thank you!SEE MY OTHER ITEMS FROM SOLID RUSSIAN 14 (585) GOLD",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826049721718080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "markoff2010",
+    "FeedbackScore": "106",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Samara",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zDwAAOSwdjNZCjdY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yP8AAOSwCQZZCjdg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ruoAAOSwhvFZCjdk/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wZgAAOSwjqVZCjdo/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PpAAAOSwONBZCjds/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VXoAAOSw~y9ZCjdw/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LTgAAOSwR29ZCjdz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LcwAAOSww9xZCjd5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gBcAAOSwT-FZCjd-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xH4AAOSwjqVZCjeD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/L6IAAOSwR29ZCjeI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0oUAAOSwdjNZCjeN/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry"
+}

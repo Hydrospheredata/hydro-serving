@@ -1,0 +1,65 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "23.79",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "newington, Kent",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:49:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=143669965",
+    "StoreName": "Cosmoanddibs"
+  },
+  "CurrentPrice": {
+    "value": "18.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:49:16.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "401338256605",
+  "HandlingTime": "1",
+  "Description": "Ladies swatch metal Yellow and black strap watch Has one coloured disk missing see photos Has been tested and has a new battery Stock 278",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Yellow-And-Black-Metal-Strap-Swatch-New-Battery-/401338256605",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013382566058080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "ME9 7sj",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H33M46S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDk=/z/iDIAAOSwjL5ZLrtt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDEwMDA=/z/ZhoAAOSw-3FZLrt~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDEwMDA=/z/nLEAAOSwlY1ZLruF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDEwMDA=/z/ocoAAOSwfRdZLruL/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "Ladies Yellow And Black Metal Strap Swatch  New Battery",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "16531",
+    "UserID": "cosmoanddibs",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

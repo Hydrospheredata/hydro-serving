@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "Description": "Please see item description for detailed return policy",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT8H23M18S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Please see supersize images in description as part of item's condition.",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112430412114",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-90s-Jane-Silver-Tone-and-White-Faceted-Rhinestone-Brooch-Pin-Jewelry-/112430412114",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T21:25:00.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T21:25:00.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Vintage 90s Jane Silver Tone and White Faceted Rhinestone Brooch Pin Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Vintage 90s Jane Silver Tone and White Faceted Rhinestone Brooch Pin Jewelry Click to see supersized image Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124304121148080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "recyclewithstyle",
+    "FeedbackScore": "1067",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "House of Vintage Online",
+    "StoreURL": "http://stores.ebay.com/id=59434120"
+  },
+  "Quantity": "1",
+  "Location": "Vancouver, Washington",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyM1gxMTc4/z/guoAAOSwmgJY4XV6/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "98660"
+}

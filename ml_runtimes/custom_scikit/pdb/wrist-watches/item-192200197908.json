@@ -1,0 +1,121 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1499.99"
+  },
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "1950.0"
+  },
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/b58AAOSw7aBVBelC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/H1oAAOSwv0tVBelP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/P2kAAOSweW5VBela/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/tywAAOSwqu9VBelj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/n-gAAOSwEeFVBels/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/uYoAAOSwqu9VBel3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ongAAOSwEeFVBemC/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "penoriss",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16952",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-28T19:21:24.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "1950.0"
+  },
+  "AutoPay": "true",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "ConditionDescription": "Broken Crown",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "Title": "Victor Loly  Men's watch 14k Gold Mechanical  \"winder Broken\"  with Diamonds",
+  "Storefront": {
+    "StoreName": "PENORISS FAMILY JEWELS",
+    "StoreURL": "http://stores.ebay.com/id=7065763"
+  },
+  "ItemID": "192200197908",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victor-Loly-Mens-watch-14k-Gold-Mechanical-winder-Broken-Diamonds-/192200197908",
+  "QuantitySold": "0",
+  "PostalCode": "92234",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Check out my other items! USA SHIPPING ONLY AUTHENTIC Victor Loly Men's watch 14k Gold Mechanical \"winder Broken\" with Diamonds, Needs minor repair, 100% 14k gold head and case, Watch runs when i shake it, Stretch band will fit up to 7.5 inch wrist, Clean white diamond bezel good quality! Apx. 51 grams 14k gold, Appraised at $2,949.99 -FREE USA SHIPPING PLEASE CLICK ON OUR STORES ICON BANNER BY MY NAME TO SEE THOUSANDS OF OTHER ITEMS THAT ARE NOT IN AUCTION. I AM A GRADUATE GEMOLOGIST SCHOOLED AT THE G.I.A. AS WELL AS A CURRENT MEMBER OF THE A.N.A. & N.A.J.A. SO BE ASSURED YOU ARE GETTING AN ACCURATE EVALUATION. PLEASE UNDERSTAND, IF YOU ARE THE HIGH BIDDER WHEN THIS AUCTION ENDS YOU NEED TO RESPOND WITHIN 2 DAYS. VISIT ALL OUR OTHER AUCTIONS BELOW. Click Here!! Created by eBay Blackthorne ver. 3.2.169.0",
+  "HitCount": "5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "1499.99"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Victor Loly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922001979088080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-04T19:21:24.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Cathedral City, California",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1499.99"
+  },
+  "TimeLeft": "P3DT23H9M51S"
+}

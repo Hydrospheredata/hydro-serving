@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "90717",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand MICHAEL KORS Model MK-MK8384 Gender Male Movement Quartz CaseDiameter 42 Case Thickness 12 Case Color SILVER Case Shape ROUND Case BackMaterial STAINLESS STEEL Bezel Color SILVER Band Type TANG Band Material Leather Band Width 22 Clasp TANG Water Resistance 100 Calendar false WARRANTY Manufacturer UPC 796483142558",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/yw4AAOSw241YUM8g/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "260.98"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "10",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Undisclosed",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "2014ushyth",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "132",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "StartTime": "2016-12-14T04:48:34.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2017492684268080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T04:48:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "260.98"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Accelerator-Chronograph-Black-Dial-Black-Leather-Mens-Watch-/201749268426",
+  "Location": "Lomita, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Accelerator Chronograph Black Dial Black Leather Men's Watch",
+  "SKU": "V605-MK8384",
+  "ItemID": "201749268426",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P11DT10H50M10S"
+}

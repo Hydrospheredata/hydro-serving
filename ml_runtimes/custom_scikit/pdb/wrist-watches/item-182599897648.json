@@ -1,0 +1,264 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fair Lawn, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:10:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=9352413",
+    "StoreName": "Upscale Antiques and Collectables"
+  },
+  "CurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:10:59.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599897648",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Oris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Automatic/Kinetic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "2000's",
+        "Name": "Age"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "oris BIG CROWN",
+        "Name": "Model"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Oris Big Crown Pointer Date Stainless Steel Automatic Cal. 754 7472 Swiss Watch",
+  "ConditionDescription": "Excellent Condition.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Oris-Big-Crown-Pointer-Date-Stainless-Steel-Automatic-Cal-754-7472-Swiss-Watch-/182599897648",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825998976488080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "07410",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H46M59S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTIxWDExMDA=/z/whcAAOSwX61ZBwVd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMDQw/z/B3sAAOSww9xZBwVf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMxMVg2ODQ=/z/h1oAAOSwtGlZBwWI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTYwWDEzOTI=/z/iHQAAOSwtGlZBwWU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4NVg2ODQ=/z/vhsAAOSwCQZZBwWx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTYwWDE0ODQ=/z/HN4AAOSwONBZBwW9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTY4WDEzNDg=/z/eBgAAOSwcgNZBwXJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg0WDE0OTY=/z/hBoAAOSwlndZBwXW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc2WDExODg=/z/vRkAAOSwCQZZBwWj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUyWDExODQ=/z/pD8AAOSwjqVZBwX7/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "YOU ARE BIDDING ON A COLLECTIBLE ORIS BIG CROWN POINTER DATE AUTOMATIC MIDSIZE WATCH IN STAINLESS STEEL CASE.. BLACK DIAL WITH ARABIC MARKERS.... COIN-RIMMED BEZEL.. SEE-THRU EXHIBITION BACKCASE. COMES WITH THE ORIS STAINLESS STEEL BRACELET, READY TO WEAR! ACTUAL PHOTOS OF THE WATCH ARE PROVIDED. PRE-OWNED ORIS BIG CROWN POINTER DATE AUTOMATIC MIDSIZE WATCH STAINLESS STEEL CASE MEASURING APPROXIMATELY 32MMX40MM, WITHOUT CROWN AND FROM LUG TO LUG BLACK DIAL WITH WHITE ARABIC MARKERS, PATINA IVORY HANDS WITH SWEEP SECONDS, PATINA STAINLESS STEEL BIG CROWN MARKED 'ORIS' SAPPHIRE CRYSTAL QUICKSET RED POINTER DATE STAINLESS STEEL COIN-RIMMED BEZEL ORIS 17 JEWELS AUTOMATIC MOVEMENT, WORKS AND KEEPS TIME SEE-THRU EXHIBITION BACKCASE, SHOWING THE MOVEMENT ORIS STAINLESS STEEL, WILL FIT A 7 INCH WRIST APPROX. NO BOX OR PAPERS BUT GUARANTEED AUTHENTIC OR MONEY BACK! PLEASE LOOK CLOSELY AT HE HIGH RESOLUTION PICTURES AS THEY ARE MOST OF MY DESCRIPTION. PLEASE EMAIL WITH ANY QUESTIONS THAT YOU MAY HAVE. I PURCHASE MOST OF MY ITEMS AT ESTATE SALES AND DESCRIBE THEM TO THE BEST OF MY ABILITY. ALL OF MY ITEMS ARE USED UNLESS OTHERWISE NOTED. THEY ARE SOLD IN THE CONDITION THAT I FOUND THEM IN. I AM NOT AN EXPERT ON ANYTHING AND CAN ONLY DESCRIBE WHAT I KNOW. PAYMENT IS DUE WITHIN 24 HOURS OF PURCHASE THANK YOU FOR LOOKING AND HAPPY BIDDING",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "393",
+    "UserID": "lizardking26",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Buyer pays return shipping cost.\nAll returns are charged a 20% restocking fee."
+  }
+}

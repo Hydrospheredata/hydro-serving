@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT23H15M26S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "llady_love",
+    "FeedbackScore": "3056",
+    "FeedbackRatingStar": "Red"
+  },
+  "ItemID": "122527245997",
+  "SecondaryCategoryID": "112603",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:112603",
+  "BidCount": "0",
+  "StartTime": "2017-06-01T13:14:21.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-French-AKTEO-JC-Mareschal-PHOTO-Watch-130-/122527245997",
+  "Country": "LT",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T13:14:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Akteo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "PHOTO",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New French AKTEO JC Mareschal PHOTO Watch ($130)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Vilnius, default",
+  "Description": "800x600 800x600 New French AKTEO JC Mareschal PHOTO Watch ($130) New price 130 USD For Men's / Women's ......... Unisex RUNS , NEW , no box Material : Achille plastic , Calf , Stainless steel Size : Face width * case thickness x length x belt width (mm) SIZE: 34 mm \u00d7 8 mm \u00d7 230 mm \u00d7 18 mm flat Normal 0 19 false false false LT X-NONE X-NONE MicrosoftInternetExplorer4 ************** ShippingFREE SHIPPING WORLDWIDE, Registered Priority Air Mail BUSY PERIODS : Easter, Christmas, New Year If you would like to receive package on time please buy it a little bit earlier Usually to USA it takes 8-14 working days************** Payment Payment must be made within 4 days If You Have Any Problem With A Payment , Let Me Know",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225272459978080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "Storefront": {
+    "StoreName": "Scandinavian Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1023118142"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "14",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/rAMAAOSw7s5XhLef/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDEyMDA=/z/mcMAAOSw7XZXhLeh/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

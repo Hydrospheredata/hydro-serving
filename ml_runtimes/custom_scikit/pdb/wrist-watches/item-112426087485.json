@@ -1,0 +1,86 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124260874858080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T13:17:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:17:57.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "this is a sale for ONE Sector Men's R3251102225 Urban Oversize Analog Stainless Steel usedwatch. there are no nics or stains to the metal. glass is unscratchedfor more please ask. General infoNameOversizeSubcategoryTime 3 handsYear2011 Spring Summer CollectionDisplay TypeAnalogWater resistant10 Bar (Swim)Color of the dialBlackHand colors (h,m,s)Yellow, yellow, grey Watch case infoDiameter48.00 mmCase Thickness13.00 mmCase MaterialColour Coated Stainless SteelCase ShapeRoundCase colorBlackBack Case MaterialStainless SteelCrystalMineralBezel material Bezel FunctionBi-directional Movement infoMovement typeQuartzMovement BrandMiyotaCalendar TypeDateStrap infoStrap MaterialSiliconeBand length170 - 230 mmClasp TypeBuckleBand Width24 mmStrap ColorBlack",
+  "BuyItNowPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426087485",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Sector Men's R3251102225 Urban Oversize Analog Stainless Steel Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sector-Mens-R3251102225-Urban-Oversize-Analog-Stainless-Steel-Watch-/112426087485",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "PostalCode": "78727",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Austin, Texas",
+  "TimeLeft": "P4DT22H5M4S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM0MVg2ODM=/z/Z48AAOSwAPVZEkp3/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3MDU=/z/clYAAOSwjL5ZEkqB/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "40",
+    "UserID": "lt3637",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "96.2"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Round shaped case with step design bezel Protective Krysterna crystal on front and back Silver outer dial with center skeleton cut out and black printed Roman numerals 12 chain with belt clip Mechanical hand-wind movement - Stainless steel pocket watch featuring skeleton dual-sided dial, Roman numeral hour markers, and 12\" link chain with belt clip - Mechanical hand-wind movement with analog display - Dual-sided protective Krysterna crystal dial window - Mechanical Movement - the crown needs to be wound 25 -30 winds or until you feel resistance, every twenty four to thirty six hours. Stuhrling Original Mens Vintage Mechanical Pocket Watch - Stainless Steel Analog",
+  "StartTime": "2017-03-06T14:10:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3OVgxNTAw/z/pyYAAOSwax5YvW3B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxOFgxNTAw/z/kjMAAOSw4A5YvW3B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4OTQ=/z/Z4oAAOSwfVpYvW3A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDE1MDA=/z/VK0AAOSwXYtYvW3A/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "847988023269",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0847988023269",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Stuhrling Original",
+        "Name": "Brand"
+      },
+      {
+        "Value": "6053.33113",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.9 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 12.4 x W 3.7 x H 1.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "1",
+        "Name": "NumberOfItems"
+      },
+      {
+        "Value": "2012-11-23",
+        "Name": "ReleaseDate"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2823854824148080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T14:10:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "96.2"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Stuhrling Original Mens Vintage Mechanical Pocket Watch - Stainless Steel Analog",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stuhrling-Original-Mens-Vintage-Mechanical-Pocket-Watch-Stainless-Steel-Analog-/282385482414",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385482414",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H18M18S"
+}

@@ -1,0 +1,126 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "T4N 0L9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "RARE WWII Longines Wittnauer US Army Navigation Type A8 Timer. Watch is in excellent shape including original dial and hands. Could use a cleaning has been sitting for last 40 years. Has a very high beat balance, sub dial works and resets. Each rotation of the hand equals 10 seconds. Has US import code AXA for Wittnauer. Bridge is marked Swiss Wittnauer Watch Co. 15 Jewels. Unlike the other one listed on Ebay this still has the original dial. This watch is 100% original. Sorry NO ZERO FEEDBACK BUYERS * We do not give any price adjustments, our guarantee policy is to return the item for repair or refund (no refund for shipping charges). As per E-Bay's policy, The buyer is responsible for return postage * Canadians Pay GST or HST Tax",
+  "StartTime": "2017-05-15T18:41:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDg5/z/tGUAAOSwaeRZGfNt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4MFgxNjAw/z/cRoAAOSwcB5ZGfN0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwM1gxNjAw/z/cdUAAOSwcB5ZGfOC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIyN1gxNjAw/z/eZkAAOSwDiBZGfOH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3N1gxNjAw/z/CyMAAOSwjqVZGfOR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI5NlgxNjAw/z/qR0AAOSwPh5ZGfOX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzNFgxNjAw/z/y54AAOSwq1JZGfOd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/LcoAAOSwlndZGfOi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTEzWDE2MDA=/z/z2MAAOSwK6RZGfOl/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "650.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "15 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "57mm",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Wittnauer",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1940-1949",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "iwc",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1996",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "64",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019249110398080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T18:41:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "650.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-WWII-Longines-Wittnauer-US-ARMY-Navigation-Type-A8-Timer-/201924911039",
+  "Location": "Red Deer, Alberta",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "RARE WWII Longines Wittnauer US ARMY Navigation Type A8 Timer",
+  "Storefront": {
+    "StoreName": "iwc",
+    "StoreURL": "http://stores.ebay.com/id=168714"
+  },
+  "ItemID": "201924911039",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT58S"
+}

@@ -1,0 +1,167 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.55"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Features: Fashionable,unique design and watch movement is working well to keep accurate time The precise surface decent watch is very charming for all occasions Can be used as a nice gift for your family and friends Specifications: Diameter: 2.7cm(1.06 inch) Thickness: 1.1cm(0.43 inch) Length of chain: 80cm(31.5 inch) Package Bag:Yes Package Contents:1x Wrist Watch Reminder: Please peel all films off before wearing please don't wear it when you take shower or swimming! - 100% Brand new + One velvet gift bag - Quartz movement + Fashion butterfly pendant - Analog display + Scratch resistant case cover - Withstands rain and splashes of water, but not showering or submersion - Great gift for family and friends Lancardo Womens Girls Beautiful Butterfly Silver Alloy Quartz Chain Pocket Watch",
+  "StartTime": "2017-05-25T14:59:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/tOYAAOSwY3BZJvFD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExM1gxNTAw/z/7JUAAOSw8lpZJvFE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5OFgxNTAw/z/GsMAAOSwi7RZJvFE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WlYAAOSw1WJZJvFF/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "6970007153761",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Lancardo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "LCD100374",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "women",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 2.8 x W 2.5 x H 1.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "greysharky",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16122",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726945705028080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:59:13.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.55"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Lancardo Womens Girls Beautiful Butterfly Silver Alloy Quartz Chain Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lancardo-Womens-Girls-Beautiful-Butterfly-Silver-Alloy-Quartz-Chain-Pocket-Watch-/172694570502",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "ItemID": "172694570502",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H22M23S"
+}

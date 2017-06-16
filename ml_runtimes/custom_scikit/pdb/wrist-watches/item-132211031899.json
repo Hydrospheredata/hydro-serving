@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Vicksburg, Mississippi",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:50:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:50:13.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "132211031899",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ecclissi",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "925 Sterling Silver WORKING Ecclissi Panther Link Watch #SW01",
+  "ConditionDescription": "Works.  Shows usual signs of wear.  Minor surface scratches",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925-Sterling-Silver-WORKING-Ecclissi-Panther-Link-Watch-SW01-/132211031899",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322110318998080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "39180",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H39M19S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTcwWDU3MA==/z/hWMAAOSwE0JY--rS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA1WDU3MA==/z/n9MAAOSwIWVY--rT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTcwWDU3MA==/z/tSQAAOSwVm5Y--rU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTcwWDU3MA==/z/n~kAAOSwIWVY--rV/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Item DescriptionWorks well. Face is approx. 1.25\" long 7\" long Clasp closes securely Hallmarked PLEASE NOTE: I am not a professional jeweler. I list all items as accurately as possible. The item you receive is the exact item shown in the photograph, not a representation of it. I do not clean or alter Estate pieces. Silver may have slight signs of wear or mild tarnish. I always list any major flaws in my description. All vintage jewelry is in good to excellent condition unless otherwise stated. If there is an issue with an item you receive, please contact me before leaving negative or neutral feedback. PaymentPayment is expected within 24 hours of auction end.I accept all payments through PayPal. ShippingFREE Shipping on this item.Sorry. We do not ship outside of the U.S.I generally ship within 2 business days after receipt of cleared payment. ReturnsAll sales final. No returns accepted unless not as described.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "162",
+    "UserID": "itsjustjewelry",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

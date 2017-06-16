@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "37.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "292140603267",
+  "TimeLeft": "P6DT14H40M7S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "37.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Sterling-Silver-7-1-2-Rolo-Heart-Charm-Bracelet-Retail-145-00-/292140603267",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T01:00:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T01:00:36.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "Kohl's",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "19 cm / 7.5 in",
+        "Name": "Bracelet Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Women's Sterling Silver 7-1/2\" Rolo - \"Heart Charm Bracelet\"  - Retail $145.00",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This Sterling Silver Heart Charm Link Bracelet is \"NEW!\" in the original box with the original tags. (The Retail Price of $145.00 has a pen mark through it so the price wouldn't be seen). It is made in ITALY. It is 7-1/2\" (and that is why I am selling it. It was given to me as a gift and my wrist is large.) The heart measures 7/8\" long (from the top to the bottom) and 6-8\" across. Each rolo link measures 2/8\". It has a Lobster clasp for enclosure. If returned, the bracelet has to be in the Original Box and the Tag must still be on it. Shipping to the buyer is \"FREE!\", but if returned, return shipping will be paid by the buyer and credit will be given for purchase price only. Please email with any questions and \"Thanks for looking!\"",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921406032678080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "antekaytee",
+    "FeedbackScore": "597",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Hudson, New Hampshire",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZR0AAOSw4A5YuyoO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dhkAAOSwhlZYuyoc/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "03051"
+}

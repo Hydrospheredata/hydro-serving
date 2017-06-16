@@ -1,0 +1,82 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "540.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Highland Park, Illinois",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:26:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=18800629",
+    "StoreName": "Chicago Techie"
+  },
+  "CurrentPrice": {
+    "value": "540.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:26:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334297649",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Suunto",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SS014521000",
+        "Name": "MPN"
+      },
+      {
+        "Value": "045235900992",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Suunto Elementum Premium Sports Watch, Terra Steel, SS014521000",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Suunto-Elementum-Premium-Sports-Watch-Terra-Steel-SS014521000-/302334297649",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023342976498080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "60035",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H6M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3ysAAOSwHptY-CgG/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ENoAAOSwN6JY-CgF/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjgwWDEyNzI=/z/IcEAAOSwTiZY-ChQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Suunto Elementum Premium Sports Watch, Terra Steel, SS014521000Premium sports watch for urban and mountain life Manufactured in Finland, Suunto Elementum Terra is a superbly crafted timepiece. This urban inspired premium watch combines a heritage in craftsmanship with precision digital technology. While the Terra is perfect for urban use, it also measures altitude and weather trends and includes a unique 3D compass for adventures in the great outdoors. Designed with stainless steel casing and a sapphire crystal glass to withstand the elements. AltimeterBarometric pressure & trend3D compassLog: last 8 ascent / descent, max. altitudeMeasurements 44.7 x 51.5 x 14.3 mmWeight 200 g Bezel Material: SteelLens material: Sapphire crystalCase material: Stainless steelStrap material: Steel",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "430",
+    "UserID": "chicagotechie",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

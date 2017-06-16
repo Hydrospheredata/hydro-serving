@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921514560298080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/FfIAAOSwNp1Y5-Lz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uz8AAOSwTM5Y5-L1/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Exclusive-Italian-Leather-Briefcase-Business-bag-Firenze-Black-Brand-New-/192151456029",
+  "ConvertedCurrentPrice": {
+    "value": "204.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Beautiful chic black briefcase is hand crafted from 100% Italian calf leather. The exclusive briefcase is made from stunning Italian leather and has lots of compartments. It has 3 big inner compartments for your laptop (up to 42cm ) and papers or folders. Furthermore it has additional smaller pockets for your mobile phone and pens. The briefcase has an attachable and adjustable shoulder strap, to wear the bag cross-body. The briefcase is available in the colours black or brown. Outer Material",
+  "Title": "Exclusive Italian Leather Briefcase / Business bag Firenze Black. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "204.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-07T19:02:51.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P4DT2H47M26S",
+  "EndTime": "2017-06-06T19:02:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Carelli Italia"
+      },
+      {
+        "Name": "MPN",
+        "Value": "931956883"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151456029",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:124751047:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

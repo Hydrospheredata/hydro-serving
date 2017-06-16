@@ -1,0 +1,87 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "91.49"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "overstock",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "447766",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "GlobalShipping": "false",
+  "Subtitle": "Free Ground shipping for a limited time",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Overstock Everyday Free Shipping for Orders $45 and Over* *Shipping excludes PO Boxes and international orders. Home & Garden Jewelry & Watches Sporting Goods Health & Beauty Clothing, Shoes & Accessories Crafts Selected Home & Garden Jewelry & Watches Sporting Goods Health & Beauty Clothing, Shoes & Accessories Crafts Charles Hubert Gold Finish Brass Open Face Pocket Watch Product Description: Attractively crafted from brass, this dignified watch features a classic gold finish and an open face design. Using accurate Chinese mechanical movement, The classic watch displays an off-white dial and roman numeral face with three hands that perfectly mark The time. Complete with a 14.5-inch long chain, this pocket watch will exquisitely accent your trendy apparel. Features:Off-White Dial Crafted from BrassChinese mechanical movementAcrylic Dial Window14.5-inch long chainMechanical MovementPocket Watch, Skeleton42 mm diameterRoman Numeral Face, Three Hand All measurements are approximate and may vary slightly from The listed dimensions. Most men's watch bands can be sized to fit 7.5-inch to 8.5-inch wrists. Click here to view our Watch Sizing Guide. Try These Other Categories Bedding Furniture Crafts Rugs & Carpets Health & Beauty Camping & Hiking About Us... Overstock has a simple mission: To save people money. We serve customers world-wide by offering high-quality goods at unbeatable prices, all while maintaining a focus on superior customer service. Need Our Help? Our award-winning customer service agents are available 7 days a week. Click here to contact us. Overstock Standard Shipping Information Combined shipping lets you get free shipping on Overstock orders totaling $50 or more. Put all the items you intend to purchase in your cart and check out; it's that easy. Please note that items purchased from other eBay stores will void the combined shipping rate. Standard orders ship within 1-3 business days, depending on the time the order is received, and arrive within 5-10 business days. Custom Art: Up to 10 business days to ship and 1-4 weeks for delivery. Oversized Items: Up to 10 business days to ship and 1-4 weeks for delivery. We use all major mail carriers, including UPS, FedEx, and the United States Postal Service. Customers cannot specify the carrier of their choice. Overstock Returns Standard Return Policy: Items must be returned in new or unused condition and contain all original materials included with the shipment. Frequently Asked Questions Frequently Asked Questions",
+  "StartTime": "2017-02-28T00:22:58.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTc1WDk3NQ==/z/Sb0AAOSwTuJYtMLe/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTc1WDk3NQ==/z/RVIAAOSwCU1YtMLg/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "XWA2767",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Charles Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "811233016504",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "20580272-000-000",
+  "HitCount": "37",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3022372558378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T00:22:58.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "91.49"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Salt Lake City, UT",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles Hubert Gold Finish Brass Open Face Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Gold-Finish-Brass-Open-Face-Pocket-Watch-/302237255837",
+  "Storefront": {
+    "StoreName": "Overstock",
+    "StoreURL": "http://stores.ebay.com/id=1112463734"
+  },
+  "ItemID": "302237255837",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT5H29M21S"
+}

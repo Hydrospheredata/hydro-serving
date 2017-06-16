@@ -1,0 +1,64 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "35022",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Up for auction is a very nice Al Agnew pocket watch. Comes in its original box and with a brand new battery installed. Case is in like new condition with very small scratches just from handling. Thanks for looking ans her are the dimensions\u00a0 Case Width - \u00a047mm US Shipping Only, PayPal Only & NO Returns",
+  "StartTime": "2017-05-30T00:00:51.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE0OFgxMDE2/z/DjUAAOSwnHZYi1m3/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA0OFgxMDMy/z/wSMAAOSw241Yi1nF/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEwMFgxMDUy/z/PdYAAOSwA3dYi1nU/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwM1gxMjAw/z/zsoAAOSwUKxYi1ni/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI0NFg5NzI=/z/K1MAAOSw-0xYi1ny/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "flipty55",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "644",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225274490688080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T00:00:51.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Al-Agnew-Majestic-Morning-Pocket-Watch-Box-New-Battery-/222527449068",
+  "Location": "Bessemer, Alabama",
+  "Title": "Al Agnew Majestic Morning Pocket Watch With Box New Battery",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222527449068",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT5H26M48S"
+}

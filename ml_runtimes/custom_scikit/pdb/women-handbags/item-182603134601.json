@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDQ4MQ==/z/OUMAAOSwuMZZHDX3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTgzWDM4MA==/z/9hMAAOSwJH1ZKUYQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjI0WDU2NA==/z/xU4AAOSw8HBZKUYT/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tan-Ladies-Leather-Hand-Bag-/182603134601",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Ladies Hand Bag come in Genuine Leather with great strength & durability.",
+  "Title": "Tan Ladies Leather Hand Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "MUMBAI, MAHARASHTRA",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "azzubaba2017"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "IN",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "400017",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:56:34.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT21H42M49S",
+  "EndTime": "2017-07-02T11:56:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Own"
+      },
+      {
+        "Name": "Style",
+        "Value": "Evening Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Genuine Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Tan"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "India"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182603134601",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826031346018080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

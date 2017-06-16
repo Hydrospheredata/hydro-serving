@@ -1,0 +1,138 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT12H1M52S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "applegold153",
+    "StoreURL": "http://stores.ebay.com/id=1174783024"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252969873700",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sexy-Women-Full-Body-Metal-Chain-JEWELRY-Necklace-Bikini-Belly-Harness-Hip-Waist-/252969873700?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-02T03:14:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T03:14:57.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold",
+          "Silver"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.95",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "9"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.95",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "9"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "leaf",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "Sexy Women Full Body Metal Chain JEWELRY Necklace Bikini Belly Harness Hip Waist",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Best Quality!!! Best Design!!! Clasp on the back allows customization; (clip string short for a more covering accessory, clip string long for more draping effect, etc.) WELCOME TO OUR STORE \"APPLEGOLD\" IN OUR STORE WE OFFER A GREAT SELECTION OF FASHION JEWELRY & ACCESSORIESWE LOVE OUR COSTUMERS AND KEEP OUR PRICES AFFORDABLE FOR THEM SO RELAX AND ENJOY YOUR SHOPPINGDesigner Luxury Fashion Body Chain Condition: New Picture is enlarged to show detail - see description for actual size. 100% Satisfaction Guarantee APPLEGOLD",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "UserID": "applegold153",
+    "FeedbackScore": "11834",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "18",
+  "Location": "Los Angeles, California",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RHoAAOSwPhdU-oCe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3ODg=/z/lnEAAOSwstxU-oCi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NzA=/z/lQYAAOSwpDdU-oCl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3ODY=/z/lS8AAOSwpDdU-oCp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NDE=/z/598AAOSwZjJU-oCt/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "90021"
+}

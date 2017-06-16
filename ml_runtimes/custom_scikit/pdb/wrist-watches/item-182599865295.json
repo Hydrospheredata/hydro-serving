@@ -1,0 +1,85 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3640.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Japan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:28:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1164248126",
+    "StoreName": "kyoto-japan_shop"
+  },
+  "CurrentPrice": {
+    "value": "3640.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:28:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "424.13.33.20.53.001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "424.13.33.20.53.001",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "JP",
+  "ItemID": "182599865295",
+  "HandlingTime": "5",
+  "Description": "Description Omega OMEGA De Ville Prestige diamond seems alligator leather Ladies 424.13.33.20.53.001 Bourke Item Number 424-13-33-20-53-001 women in urban Devil small size to pull out the charm of the adult women in the 33 mm silver case, 8 tablets ( 0.04ct) is a self-winding model diamond sparkling dial and alligator belt deep blue matches of. High-precision chronometer KOA comb Payment We only accept PayPal payments. Please pay within 5 days after auction is finished. Shipping Free Shipping Worldwide!! Shipping Duration Shipping Method Asia North America Central America Middle East AU, NZ Europe Russia South America Africa EMS 3 - 6 days 4 - 6 days 3 - 5 days 4 - 6 days Traceable & Insurance by Japan Post Terms of Sale Money back guarantee within 14 days if returned by customer. About Us Ordering More than 1 item?? We can Combine your Shipping, and Save your Money!! If you can't find the items you're looking for in our store, please feel free to contact us!! We will confirm if the item is in stock and we will let you know as soon as possible. I am looking forward to do business with you!! Thank you for your visiting our store!! International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Deville-Prestige-Watch-Diamonds-424-13-33-20-53-001-Alligator-Leather-/182599865295",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825998652958080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H1M24S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODMxWDYwMQ==/z/8TIAAOSwfVpYpAfj/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQwWDg0MA==/z/ZS8AAOSwOgdYpAZ4/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Omega Deville Prestige Watch Diamonds 424.13.33.20.53.001 Alligator Leather",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "318",
+    "UserID": "kyoto-japan_shop",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-shoulder-Pack-original-header-layer-leather-handbags-leather-/192146624102?var=",
+  "ConvertedCurrentPrice": {
+    "value": "349.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size:Style name: otherApplication object: suitable for youthStyle: shoulder bagBackpack: shoulder-held portableTexture: cowhideLeather material: first layer leatherCarrying part type: softClosure: zipperInternal structure: zipper pouchLuggage bag type: dig kitsPopular elements: colourPattern: solid colourColour: Brown Rainbow blue purple colour LadyThere is no sandwich:Bags of hardness: softFoldable: noCondition: brand newApplication scenario: leisureStyle: retroShapes: rounded box shapeShoulder strap styles: singleLining material: polyester",
+  "Title": "Retro shoulder Pack about the original header layer of leather handbags leather",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "349.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/254/311624572/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/852/255/312169409/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Rainbow blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/852/256/311678965/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color Caf\u00e9",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/852/257/311810436/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "349.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852254:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "349.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852255:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Purple"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "349.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852256:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Rainbow blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "349.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852257:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Color Caf\u00e9"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Brown",
+          "Purple",
+          "Rainbow blue",
+          "Color Caf\u00e9"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-02T10:25:25.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P28DT18H8M18S",
+  "EndTime": "2017-07-01T10:25:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DADAO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "083705686"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192146624102",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139852253:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/H~cAAOSwJ4hY-tfp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wKsAAOSwtZJY-tgg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MfIAAOSwJ4hY-thO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/bAcAAOSwvKtY-thi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/Q34AAOSwJ4hY-til/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Moroccan-Brown-Travel-bag-Handmade-Leather-Colored-Carpet-Design-Material-/152555708195",
+  "ConvertedCurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "You are about to buy a Moroccan piece of art 100% handmade Travel bag, handcrafted with the out most precision and dedication by our talented artisans. Rub it with a bit of incense oil to make it shiny and long lasting.Thank you for browsing!Bag Size: 22 x 10",
+  "Title": "Moroccan Brown Travel bag Handmade With Leather Colored Carpet Design Material",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "moroccahandicraf_0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33125",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-20T21:44:39.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P17DT5H3M3S",
+  "EndTime": "2017-06-19T21:44:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Handmade"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Morocco"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Canvas",
+        "Value": "Material"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152555708195",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525557081958080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "61.6"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "SIBOSUN Antique Full Hunter Doctor Who Bronze Case Quartz White Dial Chain Men Pocket Watch Dr. Who Features: 1.Vintage bronze pocket watch is the best gift for your father, seniority or yourself 2.100% brand new with excellent workmanship 3.Elegant design with precise quartz movement 4.Dial color in white with arabic numerals in black 5.Removable key chain with a clip at the end 6.Nice addition to a formal or casual dressing or collecting ? A Colletion Pocket Watch - Especially For 'Doctor Who' Fans - Inspired Looking, Beautiful Packing Gift Box & Matching Chain? DIY Traditional CHINESES Knots - Extra Gift Leather Cord For Different Styles Or Different Meaning Gifts? Ingenuity LIGHT-WEIGHT Design - Good Quality But Not Be Burthen For Wearing With You To Anywhere? Must-be Choice - Wanna Stand Out? This Is Your Pocket Watch - A Conversation Piece, A Compliments Receiver - It Really Hits The Spot? It Even Can Be A Perfect 'Just Because' Gift",
+  "StartTime": "2017-04-26T10:28:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjcyWDUwMA==/z/e94AAOSw5UZZAHY3/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/4uQAAOSwRUhZAHY4/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/mB8AAOSwvihZAHY~/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDY3Mw==/z/8sAAAOSwHHFZAHZF/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/4TMAAOSwtZJZAHZH/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NzEwWDUwMA==/z/hVEAAOSw5UZZAHZQ/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDU1Mg==/z/cRQAAOSwE0JZAHZW/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjcyWDUwMA==/z/5BkAAOSwtZJZAHZX/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SIBOSUN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "FA-HBQ030",
+        "Name": "MPN"
+      },
+      {
+        "Value": "FA-HBQ030",
+        "Name": "Model"
+      },
+      {
+        "Value": "703290407978",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0703290407978",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "56",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2528983667428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:28:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "61.6"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Antique Full Hunter Doctor Who Bronze Case Quartz White Dial Chain Men",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Full-Hunter-Doctor-Bronze-Case-Quartz-White-Dial-Chain-Men-/252898366742",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "252898366742",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT15H42M35S"
+}

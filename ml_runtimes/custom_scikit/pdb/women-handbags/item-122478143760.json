@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI0OVgxMDM2/z/UYoAAOSw4A5Ysa6Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI0NlgxMDM4/z/F84AAOSwtfhYsa6b/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIzWDEyMjE=/z/9YUAAOSwSlBYsa6f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2N1g5NzU=/z/1pAAAOSwfVpYsa6i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5OFg5MTI=/z/eiYAAOSwOgdYsa6l/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-LULULEMON-Go-Lightly-Belt-Bag-travel-waist-punch-dark-olive-green-o-s-/122478143760",
+  "ConvertedCurrentPrice": {
+    "value": "63.04",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LULULEMON go lightly belt bagNEW with tagCOLOUR: dark oliveSIZE: one size why LULU made thisThis small bag packs a serious storage punch- stash it with your essentials when you're on the go.fabric + featuresfabric is water-repellent, durable, and easy to wipe cleana quick-access phone pocket helps keep you connected adjustable strap lets you wear it multiple waysinterior pocket to store your essentials imported fit + functiondesigned for: To + fromfabric(s): Durable fabricvolume: 3Ldimensions: 10\" x 7\" (25cm x 18cm)",
+  "Title": "NWT LULULEMON Go Lightly Belt Bag travel waist punch ~ dark olive green o/s",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "CAD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Halifax, Nova Scotia",
+  "Seller": {
+    "FeedbackScore": "32",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "vanillavalley"
+  },
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "B3S 1H3",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-03T20:04:57.000Z",
+  "HitCount": "177",
+  "TimeLeft": "PT3H12M21S",
+  "EndTime": "2017-06-02T20:04:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bags"
+      },
+      {
+        "Name": "Color",
+        "Value": "dark olive"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "Canada",
+  "ItemID": "122478143760",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "7 Days",
+    "Description": "1. I will gladly refund all unwashed, unused and unworn with the hangtag attached items in their original condition within 21 days of your order date. 2. Please note: swimwear, underwear, earrings, headbands + hats, socks and all other accessories (including all bags) are \"final sale\" and cannot be returned or exchanged. 3. It's recommend that all returns be sent via a traceable carrier, as I am not responsible for packages not received if sent via a non-traceable carrier. 4. Buyers are responsible for return postage. Return packages require shipping fees collected on delivery will not be accepted. 5. I do not offer price adjustments. When I receive your return package I'll refund you within five businesses days if the item is in its original condition. Refund cannot be issued if the returned item does not meet inspection standard. Please note: there will be a 20% restocking fee deducted from refund. Shipping charges are not refundable.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1224781437608080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

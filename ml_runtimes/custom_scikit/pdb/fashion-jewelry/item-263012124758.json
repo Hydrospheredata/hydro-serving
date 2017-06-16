@@ -1,0 +1,173 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT10H19M12S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263012124758",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Authentic-Betsey-Johnson-Gold-tone-Flowery-SKULL-COCKTAIL-RING-/263012124758",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T01:12:31.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-30T01:12:31.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hobo",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "889295179550",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT - Authentic Betsey Johnson Gold-tone Flowery SKULL COCKTAIL RING",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Adorable Betsy Johnson ring. It's adjustable.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630121247588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "randt1987",
+    "FeedbackScore": "250",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "randtdesigner",
+    "StoreURL": "http://stores.ebay.com/id=972368071"
+  },
+  "Quantity": "2",
+  "Location": "Cumming, Georgia",
+  "HitCount": "3",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODk3WDczNg==/z/hC8AAOSwUKxYgpPg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/0P4AAOSwt5hYgpN1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/XkcAAOSwopRYgpN4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KJAAAOSw9GhYgpN6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/ZTYAAOSwA3dYgpN8/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "30040"
+}

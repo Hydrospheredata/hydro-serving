@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FDEAAOSwXYtY0N8F/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/K4cAAOSwXYtY0N~n/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RLMAAOSw2gxY0N~x/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hot-Game-Five-Nights-Freddys-Durable-Canvas-Travel-Duffel-Bag-Ourdoor-/252823269940",
+  "ConvertedCurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU"
+  ],
+  "Location": "FJ",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2694",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "fancyluckyjane"
+  },
+  "PrimaryCategoryID": "42526",
+  "Country": "CN",
+  "ListingType": "FixedPriceItem",
+  "Title": "Hot Game Five Nights at Freddy's Durable Canvas Travel Duffel Bag Ourdoor",
+  "GlobalShipping": "false",
+  "Quantity": "10",
+  "StartTime": "2017-03-21T08:11:32.000Z",
+  "HitCount": "33",
+  "TimeLeft": "P16DT14H16M41S",
+  "EndTime": "2017-06-19T08:11:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "fancyluckyjane"
+      },
+      {
+        "Name": "Style",
+        "Value": "Modern"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "574518803809"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252823269940",
+  "Storefront": {
+    "StoreName": "fancyluckyjane",
+    "StoreURL": "http://stores.ebay.com/id=1255800385"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2528232699408080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Las Vegas, Nevada",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:05:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1048565340",
+    "StoreName": "VegasSecondhandtime"
+  },
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:05:13.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426073875",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SKAGEN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "DARK PLUM",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "PLUM",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "PLUM",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SKAGEN WOMANS CRYSTAL ACCENT LEATHER BAND WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SKAGEN-WOMANS-CRYSTAL-ACCENT-LEATHER-BAND-WATCH-/112426073875",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124260738758080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "89131",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H50M27S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDcy/z/7joAAOSwjqVZBsoM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDQ4/z/z1YAAOSwuMZZBsoJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/90oAAOSw42dZBsoL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjk4/z/jlUAAOSwhvFZBsoO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTU0/z/qAgAAOSwt0FZBsoP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzIw/z/96UAAOSw42dZBsoR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTg4/z/Wx4AAOSwONBZBsoT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5NDY=/z/UkgAAOSw7GRZBsoU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjE0/z/F9gAAOSwX61ZBsoV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MlgxNjAw/z/UnUAAOSw7GRZBsoX/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "SKAGEN WOMANS CRYSTAL ACCENT LEATHER BAND WATCH. Great Watch... Band lightly worn(see pics) (2)",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "283",
+    "UserID": "lasvegassecondhandtime",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

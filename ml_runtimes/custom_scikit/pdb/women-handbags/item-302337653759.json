@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTExNFgxMDI0/z/b2UAAOSw-RRXCz2V/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/5FIAAOSwbwlXCz2d/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/u8MAAOSwJQdXCz2l/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODA3WDEwMjQ=/z/6LUAAOSwAvJXCz2s/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/6RoAAOSwAvJXCz2y/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/n08AAOSw8RJXCz25/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1495-NWT-VALENTINO-BLACK-PATENT-LEATHER-BAG-W-CRYSTAL-LOGO-/302337653759",
+  "ConvertedCurrentPrice": {
+    "value": "549.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VALENTINO NEW WITH TAGS - BLACK PATENT LEATHER SHOULDER BAG WITH GUNMETAL HARDWARE, SATIN AND SUEDE LINING, SNAP CLOSURE AT FRONT WITH JEWELED EMBELLISHMENT. BAG FEATURES A SINGLE FLAT SHOULDER STRAP AND ZIP POCKET AT INTERIOR WALL. COMES WITH DUSTBAG! BUY IT FOR A FRACTION OF THE RETAIL PRICE. 100% AUTHENTIC!",
+  "Title": "$1495 NWT VALENTINO BLACK PATENT LEATHER BAG W/ CRYSTAL LOGO",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "549.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "North Miami Beach, Florida",
+  "Seller": {
+    "FeedbackScore": "378",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "heartache1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33160",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:39:03.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT23H33M13S",
+  "EndTime": "2017-06-07T13:39:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Valentino"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Patent Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "6.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12\" WIDE"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337653759",
+  "Storefront": {
+    "StoreName": "DIVAS DESIGNER DISCOUNT",
+    "StoreURL": "http://stores.ebay.com/id=1139411113"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023376537598080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

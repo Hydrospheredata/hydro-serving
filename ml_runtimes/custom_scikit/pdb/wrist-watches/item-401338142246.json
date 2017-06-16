@@ -1,0 +1,803 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.22",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDUw/z/GvYAAOSwlMFZLmut/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "SZ",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:07:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "26",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1115879377",
+    "StoreName": "shoppingfreely"
+  },
+  "CurrentPrice": {
+    "value": "2.22",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:07:22.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "HR",
+    "GI",
+    "GR",
+    "GG",
+    "IS",
+    "JE",
+    "LI",
+    "LT",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "PL",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "KW",
+    "LB",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "NP",
+    "TJ",
+    "TM"
+  ],
+  "ItemID": "401338142246",
+  "HandlingTime": "10",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Date-Analog-Quartz-Sport-Stainless-Steel-Band-Wrist-Watch-Hot-Chic-/401338142246?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "FW0903",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW00011700",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver-Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW00011701",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Sliver-White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW00011702",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Sliver-Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW00011703",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Golden-Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW00011704",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Golden-White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW00011705",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#1 Golden",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.39",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW000501",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#5 Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.39",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW000506",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#5 White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW005874",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#58 Golden",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.49",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW005875",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#58 Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.22",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW014001",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#140Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "7.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW018806",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#188 White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "10.29",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021401",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#214 Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "5.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021901",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#219 Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW022701",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#227 Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0233101",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#1 Black-Red Light",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0286009",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#286Golden",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0233102",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#2 Black-Blue Light",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW022706",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#227 White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021906",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#219 White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "9.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021475",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#214 Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021947",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#219 Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW022747",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#227 Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW022786",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#227 Beige",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW021980",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#219 Coffee",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "3.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0233104",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#4 Silver-Blue Light",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Silver-Black",
+          "Sliver-White",
+          "Sliver-Blue",
+          "Golden-Black",
+          "Golden-White",
+          "#1 Golden",
+          "#5 Black",
+          "#5 White",
+          "#58 Golden",
+          "#58 Silver",
+          "#140Black",
+          "#188 White",
+          "#214 Black",
+          "#219 Black",
+          "#227 Black",
+          "#1 Black-Red Light",
+          "#286Golden",
+          "#2 Black-Blue Light",
+          "#227 White",
+          "#219 White",
+          "#214 Silver",
+          "#219 Blue",
+          "#227 Blue",
+          "#227 Beige",
+          "#219 Coffee",
+          "#4 Silver-Blue Light"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Silver-Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0001/FW00011700.jpg"
+        },
+        {
+          "VariationSpecificValue": "Sliver-White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0001/FW00011701.jpg"
+        },
+        {
+          "VariationSpecificValue": "Sliver-Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0001/FW00011702.jpg"
+        },
+        {
+          "VariationSpecificValue": "Golden-Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0001/FW00011703.jpg"
+        },
+        {
+          "VariationSpecificValue": "Golden-White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0001/FW00011704.jpg"
+        },
+        {
+          "VariationSpecificValue": "#1 Golden",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0001/FW00011705.jpg"
+        },
+        {
+          "VariationSpecificValue": "#5 Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0005/FW000501.jpg"
+        },
+        {
+          "VariationSpecificValue": "#5 White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0005/FW000506.jpg"
+        },
+        {
+          "VariationSpecificValue": "#58 Golden",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0058/FW005874.jpg"
+        },
+        {
+          "VariationSpecificValue": "#58 Silver",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0058/FW005875.jpg"
+        },
+        {
+          "VariationSpecificValue": "#140Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0140/FW014001.jpg"
+        },
+        {
+          "VariationSpecificValue": "#188 White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0188/FW018806.jpg"
+        },
+        {
+          "VariationSpecificValue": "#214 Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0214/FW021401.jpg"
+        },
+        {
+          "VariationSpecificValue": "#219 Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0219/FW021901.jpg"
+        },
+        {
+          "VariationSpecificValue": "#227 Black",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0227/FW022701.jpg"
+        },
+        {
+          "VariationSpecificValue": "#1 Black-Red Light",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0233/FW0233101.jpg"
+        },
+        {
+          "VariationSpecificValue": "#286Golden",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0286/FW0286009.jpg"
+        },
+        {
+          "VariationSpecificValue": "#2 Black-Blue Light",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0233/FW0233102.jpg"
+        },
+        {
+          "VariationSpecificValue": "#227 White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0227/FW022706.jpg"
+        },
+        {
+          "VariationSpecificValue": "#219 White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0219/FW021906.jpg"
+        },
+        {
+          "VariationSpecificValue": "#214 Silver",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0214/FW021475.jpg"
+        },
+        {
+          "VariationSpecificValue": "#219 Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0219/FW021947.jpg"
+        },
+        {
+          "VariationSpecificValue": "#227 Blue",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0227/FW022747.jpg"
+        },
+        {
+          "VariationSpecificValue": "#227 Beige",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0227/FW022786.jpg"
+        },
+        {
+          "VariationSpecificValue": "#219 Coffee",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0219/FW021980.jpg"
+        },
+        {
+          "VariationSpecificValue": "#4 Silver-Blue Light",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0233/FW0233104.jpg"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H34M11S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Mens Date Analog Quartz Sport Stainless Steel Band Wrist Watch Hot Chic",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "FeedbackScore": "94710",
+    "UserID": "shoppingfreely",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P3DT11H13M28S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "82.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263010550948",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HEIDI-DAUS-PETAL-PROFUSION-CRYSTAL-FLOWER-RING-SIZE-10-new-/263010550948",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "82.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T02:09:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T02:09:11.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ring",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Designer"
+      },
+      {
+        "Value": "10",
+        "Name": "Size"
+      }
+    ]
+  },
+  "Title": "HEIDI DAUS PETAL PROFUSION CRYSTAL FLOWER RING, SIZE 10, new",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "LOVELY HEIDI DAUS PETAL PROFUSION SWAROVSKI CRYSTAL RING, SIZE 10 RING IS MARKED HEIDI DAUS AND WILL COME TO YOU IN ITS ORIGINAL BOX WITH A MANUFACTURER'S LIMITED LIFETIME WARRANTY CARD, IS A SIZE 10AND IS NEW!! Please feel free to contact me with any questions prior to bidding. All sales are final. Item will be carefully packed and shipped via USPS for $7.95 which includes tracking upon receipt of payment. I accept paypal and payment is due within 5 days after auction ends. Item comes from a smoke free and pet free home. Thanks for looking and have a great day!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630105509488080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dakotajay",
+    "FeedbackScore": "1059",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "NEW YORK STATE",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$T2eC16F,!zQE9s3sqI+MBQS!ykziFw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDIyWDUwMA==/z/VKgAAOxydB1SmmWL/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

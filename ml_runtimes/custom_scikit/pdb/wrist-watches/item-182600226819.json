@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Harrisburg, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:31:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1115523211",
+    "StoreName": "capitolcitybuyandsell"
+  },
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:31:04.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Here is a previously owned in good condition Bulova Men's marine star gunmetal stainless steel watch. The watch has a 43mm case with analog Chronograph white and cream dial. It has a 100m water resistance. The watch has some wear scuffs on bezel and strap. Please refer to the pictures for better detail. if you have any questions please feel free to ask. thank you Please Read: This eBay ID is operated by (1) person. I have a business in which I buy and sell new and used items, whether they are jewelry, coins, tools, electronics or antiques. Therefore I am not the original owner of these items. They are tested and described to the best of my knowledge. Please look at pictures and read the description carefully before bidding. I attempt to answer all questions in a timely manner. If you have an important question please wait for a response prior to placing your bid. All Pennsylvania residents are subject to a 6% sales tax on all items, except coins. If you have a Tax ID number please let me know. I do combine shipping on similar items. Not all the time when items are combined will shipping be cheaper, depends on items and size of the box. Please wait for a combined invoice before paying for multiples I only accept PayPal. I ship within 24 hours of payment on 99% of the items. There will be a delay since I am not always able to ship on Thursdays. I have automatic feedback on. It leaves positive feedback for the buyer after payment and positive feedback is received. Please contact me before leaving any negative or neutral feedback if you have any issues. We charge a 15% restocking fee on returns. If you purchase an item and want to cancel the order you are obligated to pay a 15% restocking fee no matter the circumstances. Please under we are a business we take all of our listings seriously. All NEW items returned MUST be in same condition when shipped back even sealed. Thank You",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600226819",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Bulova Marine Star",
+        "Name": "Model"
+      },
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Bulova 98B205 Men's Marine Star Gunmetal Stainless Steel Watch (6411-1AJ)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bulova-98B205-Mens-Marine-Star-Gunmetal-Stainless-Steel-Watch-6411-1AJ-/182600226819",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826002268198080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "17109",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H23M1S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ci0AAOSwurZZGmID/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PyoAAOSw1WJZGmIE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HN4AAOSwlMFZGmIK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZvkAAOSw0hlZGmIM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fqUAAOSwZKBZGmIN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4rQAAOSwIaFZGmIP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IEEAAOSw~y9ZGmIR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZzgAAOSw0hlZGmIS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lpsAAOSwrhBZGmIZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lqoAAOSwrhBZGmIa/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "4590",
+    "UserID": "capitolcash4you",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

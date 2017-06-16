@@ -1,0 +1,66 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Dayton, Ohio",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:30:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:30:20.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942529293",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Military",
+      "Name": "Style"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage military watch Crawford rare dial only 5",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-military-watch-Crawford-rare-dial-only-5-/201942529293",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019425292938080_1.jpg",
+  "HitCount": "14",
+  "PostalCode": "45414",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H18M1S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/4koAAOSwfRdZLr8s/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/KJUAAOSwZKBZLr9n/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/qk4AAOSwaEhZLr~U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/kx0AAOSwIQdZLr~3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/GzUAAOSwurZZLsAb/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage Crawford military watch rare 5 o'clock dial 17 jewel movement running and keeping decent time stainless steel case please email any further qusting and refer to pics . It's always 5 o ock with this watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "388",
+    "UserID": "timedog",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

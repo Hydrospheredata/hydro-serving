@@ -1,0 +1,114 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pToAAOSwa~BYcoR2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gfoAAOSwnHZYcoR5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2kQAAOSw5cNYcoR9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTUxWDE2MDA=/z/pswAAOSwa~BYcoSB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zxwAAOSw-0xYcoSE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5NTU=/z/C4kAAOSwopRYcoSG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MjY=/z/0AgAAOSw-0xYcoSK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTUw/z/ZPcAAOSwEzxYcoSO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WsoAAOSwImRYcoSR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQxNlgxNjAw/z/lcAAAOSw241YcoSU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE4MFgxNjAw/z/ANkAAOSwjDZYcoSX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEzOVgxNjAw/z/hs0AAOSwnHZYcoSa/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gerry-Weber-Leather-Crossbody-Messenger-Shoulder-Bag-/263016295817",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Really smashing Saddle Tan VERY supple leather bag from Gerry Weber \u00a0Bag measures 9\u201d high by 8.5\u201d wide by 4\u201d deep Smooth, very supple leather accented with Braided detail on the belted buckle and on the hand strap. \u00a0Antiqued brass hardware, shoulder or cross body strap. \u00a0Toal stitching throughout. \u00a0Interior features Gerry Weber signature lining, three roomy compartments, a zippered compartment, and Weber label. Bag is secured under the buckle with a hidden magnetic snap. \u00a0This bag is in excellent condition, integrity of the leather is excellent, clean inside and outside. \u00a0Very pretty Saddle Tan color. \u00a0Artfully crafted, versatile bag from Gerry Weber!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Moscow",
+  "Seller": {
+    "FeedbackScore": "187",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "rebbeka"
+  },
+  "PrimaryCategoryID": "63852",
+  "Country": "RU",
+  "MinimumToBid": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "Title": "Gerry Weber Leather Crossbody Messenger Shoulder Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T08:53:06.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT18H21M28S",
+  "EndTime": "2017-06-09T08:53:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11 inches"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "Cross Body Strap"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3 inches"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gerry Weber"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263016295817",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630162958178080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

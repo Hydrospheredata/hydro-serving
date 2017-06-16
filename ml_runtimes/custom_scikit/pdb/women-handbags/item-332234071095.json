@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OX4AAOSwKytZJYJT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RO0AAOSw~FJZJYJb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YAcAAOSwYvFZJYJg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-~YAAOSwlMFZJYJj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQwWDE1NDA=/z/7S4AAOSw42dZJYJw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk3WDE1ODA=/z/X88AAOSwDiBZJYJ7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jUYAAOSw-3FZJYJt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ld0AAOSwfpVZJYJ0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hwAAAOSw3gJZJYJ5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EO8AAOSw7GRZJYJ~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-cgAAOSwX9FZJYKD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/cfMAAOSwDiBZJYOR/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FOSSIL-LAPTOP-Executive-Bag-Red-Leather-Computer-Organizer-Large-Tote-/332234071095",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fossil Executive laptop work tote Can be worn as shoulder bag Red leather Padded interior for laptop (easily fits a 14\" wide laptop) 16\"w x 11\"h x 4.5\"d Wonderful clean and smoke free condition (see close up of smudge on front) Interior has wonderful organization pockets. Perfect work or conference bag!",
+  "Title": "FOSSIL LAPTOP Executive Bag Red Leather Computer Organizer Large Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Hendersonville, North Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1720",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "erkwood"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "28739",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T13:01:26.000Z",
+  "HitCount": "43",
+  "TimeLeft": "P20DT22H1M17S",
+  "EndTime": "2017-06-23T13:01:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Fossil"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332234071095",
+  "PrimaryCategoryID": "169293",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "erkwood",
+    "StoreURL": "http://stores.ebay.com/id=1150722420"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322340710958080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

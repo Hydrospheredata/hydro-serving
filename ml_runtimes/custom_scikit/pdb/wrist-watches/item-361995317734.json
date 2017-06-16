@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Merrill, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T15:00:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=12080428",
+    "StoreName": "Zantows Jewelry and More Store"
+  },
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T15:00:54.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "mens watch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995317734",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Hotstar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MENS ICED OUT BIG FACE SILVER HIP HOP WATCH BULLET BAND BY HOTSTAR *Sale*",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MENS-ICED-OUT-BIG-FACE-SILVER-HIP-HOP-WATCH-BULLET-BAND-HOTSTAR-Sale-/361995317734",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619953177348080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "54452",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H56M2S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMyMVg5MjE=/z/jTAAAOSwfVpYtb-Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUyWDE2MDA=/z/Y~EAAOSw32lYtb-N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NzQ=/z/aa0AAOSw~AVYtb-K/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "MENS ICED OUT BIG FACE SILVER HIP HOP WATCH WITH BULLET BAND BY HOTSTAR * Rubber/Silicon Band * Case size is approximately 2-3/8\" in diameter * High quality movement made in Japan * It will fit up 9\" Wrist * Stainless steel back * Made by HOTSTAR Excellent - like New condition. New batteryFree Shipping",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "5641",
+    "UserID": "sell*it*cheap",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

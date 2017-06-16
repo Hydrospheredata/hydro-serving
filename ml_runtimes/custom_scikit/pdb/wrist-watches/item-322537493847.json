@@ -1,0 +1,104 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Philadelphia, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:20:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=171890905",
+    "StoreName": "Phylber&#39;s Phabulous Phinds"
+  },
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:20:29.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Gorgeous watch ... measures 8\" in length.\u00a0 In very good pre-loved condition with minor scratching from normal use.\u00a0 Has removable links to make watch smaller.\u00a0 New battery just installed. ----- My combined shipping policy is first item at advertised shipping rate then each additional item will be half the advertised shipping rate. \u00a0 Items are shipped within 1 business day of receiving payment.\u00a0 Payment is expected via Paypal within 3 days of auction ending.\u00a0 If payment is not received within that timeframe, an unpaid item case will be opened. Clothing measurements, if applicable, are approximate and taken with the item lying flat and unstretched.\u00a0 Items are stored and shipped from my home which is smoke-free and pet-friendly. RETURN POLICY - please see main page of listing for specifics on\u00a0 return policy.\u00a0 Please feel free to check my awesome feedback rating. THANKS FOR LOOKING AND HAPPY SHOPPING!",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "322537493847",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Fossil Silvertone Adjustable Link Watch with Goldtone Accents, VGUC",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Silvertone-Adjustable-Link-Watch-Goldtone-Accents-VGUC-/322537493847",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225374938478080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "19154",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H7M58S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTkyWDY2OQ==/z/T~QAAOSwFNZWt6Qv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTUxWDUwMA==/z/bF0AAOSwPc9Wt6Qq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTY0WDUwMA==/z/bQwAAOSwzgRWt6Qs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/twEAAOSwG-1Wt6Qu/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "992",
+    "UserID": "phylber907",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

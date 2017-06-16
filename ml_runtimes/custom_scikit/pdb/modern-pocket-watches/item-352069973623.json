@@ -1,0 +1,104 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "93277",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "I've owned this pocket watch for 5+ years, It has stayed in my jewelry box for most of that time and hasn't been used except when I bring it out to wind every year or so. It still works perfectly.",
+  "StartTime": "2017-05-26T19:01:31.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE0NFgxMTky/z/HVcAAOSwUKxYf7Uu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~moAAOSwnHZYf7UW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vh8AAOSw2xRYf7Ua/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Brass",
+          "Gold Plated"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Roman Numeral Markers",
+        "Name": "Display"
+      },
+      {
+        "Value": "14",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "brancoclan*2009",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "147",
+    "PositiveFeedbackPercent": "95.3"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520699736238080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-25T19:01:31.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-Mechanical-Pocket-Watch-Gold-Plated-Demi-Hunter-Case-/352069973623",
+  "Location": "Visalia, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles Hubert Paris Mechanical Pocket Watch Gold-Plated Demi Hunter Case",
+  "Storefront": {
+    "StoreName": "Litlle Bit of Everything",
+    "StoreURL": "http://stores.ebay.com/id=904195391"
+  },
+  "ItemID": "352069973623",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT25M46S"
+}

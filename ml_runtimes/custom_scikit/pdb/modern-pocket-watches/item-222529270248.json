@@ -1,0 +1,63 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "77406",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Doesn't run but can be fixed with new battery. Bought by my grandfather in 1996, $125 at the time. Best offer, contact me for more details.",
+  "StartTime": "2017-05-30T15:32:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IDEAAOSwR29ZJln5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VYUAAOSw7GRZJln5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/v7EAAOSw~y9ZJln7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Co8AAOSwi7RZJln8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lsAAAOSwtGlZJln8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XYQAAOSwPh5ZJln9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/s3QAAOSw~FJZJln~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CrIAAOSwi7RZJln~/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "austinlsw",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225292702488080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-02T15:32:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Brut-Watch-/222529270248",
+  "Location": "Richmond, Texas",
+  "Title": "Vintage Brut Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222529270248",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT20H58M53S"
+}

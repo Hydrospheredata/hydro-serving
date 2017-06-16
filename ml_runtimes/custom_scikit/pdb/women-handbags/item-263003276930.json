@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzE5WDcyMA==/z/oJQAAOSwXYtY3nP3/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hNQAAOSwA29Y3nM~/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3p8AAOSwsW9Y3nM8/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HpsAAOSwuLZY3nM-/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XKsAAOSw4CFY3nM8/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rUoAAOSwSlBY3nM8/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J0kAAOSwDmBY3nM7/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LhMAAOSwzgBY3nM9/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hAgAAOSwA29Y3nM7/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HeMAAOSwuLZY3nM7/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q4IAAOSwol5Y3nM-/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Travel-black-nylon-leather-logo-shoulder-tote-baby-diaper-bag-/263003276930",
+  "ConvertedCurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "It's in excellent condition inside out just some some marks on gold hardware of the shoulder strap! It comes with dust bag and Baby changing pad.",
+  "Title": "Tory Burch Travel black nylon leather logo shoulder tote baby diaper bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Austin, Texas",
+  "Seller": {
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "lillysgiftery"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78729",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T15:42:54.000Z",
+  "HitCount": "43",
+  "TimeLeft": "P22DT20M3S",
+  "EndTime": "2017-06-24T15:42:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263003276930",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630032769308080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

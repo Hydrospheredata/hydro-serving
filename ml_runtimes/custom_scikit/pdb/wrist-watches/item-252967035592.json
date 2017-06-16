@@ -1,0 +1,144 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529670355928080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T15:01:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T15:01:56.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "An Auction you say? Yes an Auction! Starting at only $10.00! Here's your chance, if you are nimble, to win, or steal if you wish, this unusual Ladies Invicta special edition Lupah Model Number 5168 wrist watch. It starts with an attractive silver polished case and brushed bezel. Followed by a flame fusion crystal magnifying a mother of pearl face showing Tritnite (trade mark) numerals and night glow so you can read it at night. Think of this! You are water skiing and you want to know how long you have been up.\u00a0 This is the watch for you.",
+  "BuyItNowPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252967035592",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Swiss",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel Polished and Brushed Bezel",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Mother of Perl, Tritnite Numbers, Night Glow",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Invicta Lupah",
+        "Name": "Model"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Genuine Leather Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brand New! Ladies Invicta Lupah Watch - Stainless Steel Case - 100 feet water re",
+  "ConditionDescription": "Brand New! Ladies Invicta Lupah Watch - Stainless Steel Case - 100 feet water resistant.New, one owner, Invicta Ladies wrist watch, battery guaranteed for five years.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-New-Ladies-Invicta-Lupah-Watch-Stainless-Steel-Case-100-feet-water-re-/252967035592",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "HitCount": "0",
+  "PostalCode": "29803",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Aiken, South Carolina",
+  "TimeLeft": "P6DT23H57M6S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/lo8AAOSwaeRZLfNI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/6mQAAOSwxu5ZLfNM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/qMQAAOSwYlRZLfNP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/lTQAAOSwCQZZLfNS/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "115",
+    "UserID": "parks7873",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Insurance Required"
+  }
+}

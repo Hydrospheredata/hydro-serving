@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT19H57M30S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "58.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263009556202",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Juicy-Couture-Jewelry-COOKIE-JAR-CHARM-Limited-Edition-YJRU7917-NWT-/263009556202",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "58.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T10:56:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T10:56:29.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Juicy Couture",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Juicy Couture Jewelry COOKIE JAR CHARM Limited Edition YJRU7917 NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWT Juicy Couture Cookie Jar Charm. Cookie-nistas, here is the charm that you've been waiting for! Cookie jar that opens to reveal a cookie.Its gold and rhinestone details will pop when layered with other Juicy charms and bracelets.Brass/Glass/EnamelLobster clasp w Branded Logo Gift Box Included Please visit my store for more items!!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630095562028080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "juicybaby77",
+    "FeedbackScore": "374",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Marietta, Georgia",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQ3WDUwMA==/z/Mz4AAOSwq7JT-2OD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9ZAAAOSwxCxT-2OM/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "30062"
+}

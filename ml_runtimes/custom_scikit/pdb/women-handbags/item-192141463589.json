@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921414635898080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/1YYAAOSwc-tY2VBy/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ed-Hardy-All-Over-City-Skull-Blue-Crossbody-Bag-Free-Shipping-/192141463589",
+  "ConvertedCurrentPrice": {
+    "value": "57.83",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Ed HardyAll over citybagDesign: SkullColour: BlueDivision:- Large main compartment with zip closure- Small Compartment with Inside Zip- Small Compartment with Zip Fastening On FrontAdjustable shoulder strapFlock printDimensions: Approx. 16\u00c3\u0082\u00c2\u00a0x 20\u00c3\u0082\u00c2\u00a0x 5\u00c3\u0082\u00c2\u00a0cm (W x H x D)",
+  "Title": "Ed Hardy All Over City Skull Blue Crossbody Bag. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.83",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-27T17:48:27.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P23DT1H28M43S",
+  "EndTime": "2017-06-25T17:48:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ed Hardy"
+      },
+      {
+        "Name": "MPN",
+        "Value": "000177"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141463589",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:75185822:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,368 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "16.11",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/G4wAAOSwsXFZLpkC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/UmsAAOSwKytZLpkT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~pAAAOSw7GRZLpkW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/mVkAAOSwBt5ZLpkZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nrYAAOSw9OFZLpkb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HXkAAOSwsXFZLpke/$_12.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:20:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "15",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "16.11",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:20:53.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "282502148814",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dual-Movement-Multifunction-Three-Pointers-Week-Calendar-Watches-Gifts-Jewelry-/282502148814?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "082-YW01775",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "16.11",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01775L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.11",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01775S",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.11",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01775R",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.11",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01775Y",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Golden",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "16.11",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01775G",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Blue",
+          "Silver",
+          "Red",
+          "Golden",
+          "Green"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/SQsAAOSwY3BZLpkh/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/SqEAAOSwX9FZLpkk/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/fucAAOSwurZZLpkm/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/u1wAAOSww9xZLpko/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/5mIAAOSwn-tZLpkp/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/eUcAAOSwq1JZLpkr/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/gEIAAOSw-3FZLpkv/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Golden",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/cpYAAOSwjqVZLpkx/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-N4AAOSwcB5ZLpkz/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/XeIAAOSwYvFZLpk1/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/fo4AAOSws5pZLpk2/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/UPMAAOSwlY1ZLpk4/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/QfIAAOSwcgNZLpk7/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/yzwAAOSwIaFZLpk9/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/gbIAAOSwlndZLplA/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/gVAAAOSw-3FZLplD/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nTgAAOSwBt5ZLplF/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/c5EAAOSwjqVZLplH/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/gisAAOSwlndZLplJ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/eTMAAOSwfpVZLplT/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Q4cAAOSwcgNZLplX/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/3Y8AAOSw8lpZLplb/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IP0AAOSw0hlZLpld/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/3fcAAOSw8lpZLplg/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/WJ8AAOSwKytZLplj/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/StkAAOSww5hZLpln/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-sgAAOSwDiBZLplr/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/bVUAAOSwq1JZLpic/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/3bwAAOSwhvFZLpig/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/P0QAAOSwY3BZLpit/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/M8UAAOSwfRdZLpiq/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/24AAAOSwn-tZLpip/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/97kAAOSwIQdZLpin/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/x3YAAOSw~FJZLpij/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H57M24S",
+  "ConditionDescription": "Note:It is water resistant,can't be used in diving swimming shower etc.",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Dual Movement Multifunction Three Pointers Week Calendar Watches Gifts Jewelry",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

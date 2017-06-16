@@ -1,0 +1,85 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:15:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:15:24.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245592621",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brand New Men's Fossil Watch Stainless Steel 2017",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-New-Mens-Fossil-Watch-Stainless-Steel-2017-/332245592621",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322455926218080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H51M43S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA3MFg5MDc=/z/-GIAAOSwTM5Y1mka/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzIyWDExMTE=/z/2z4AAOSwCU1Y1mkN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODQ0WDEwMTc=/z/RX4AAOSw4CFY1mkO/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand new 100% authentic Mens watch Stainless steel Satisfaction guarantee",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

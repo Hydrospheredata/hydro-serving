@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P14DT57M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "37.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112413867217",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REBECCA-MINKOFF-Half-Sphere-Belly-Chain-Rhodium-Ret-88-New-Packaged-/112413867217",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-20T16:18:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T16:18:16.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rebecca Minkoff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Belly",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "REBECCA MINKOFF Half Sphere Belly Chain in Rhodium Ret:$88 New/Packaged",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "REBECCA MINKOFF HALF SPHERE BELLY CHAIN Silver color belly chain accented with small half sphere beadsLobster claw claspAdjustable length approx. 29.5\" to 41\" BRAND NEW IN ORIGINAL PACKAGE RETAIL VALUE: $88 FREE SHIPPING IN US NO RETURNS/ALL SALES ARE FINAL!",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124138672178080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dancingfairies",
+    "FeedbackScore": "1236",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "dancingfairies",
+    "StoreURL": "http://stores.ebay.com/id=1078148312"
+  },
+  "Quantity": "3",
+  "Location": "Forest Hills, New York",
+  "HitCount": "16",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTY3WDE2MDA=/z/3jwAAOSwi7RZIGVj/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/DFcAAOSwrhBZIGVc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/0L8AAOSwIQdZIGVg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDI=/z/WpsAAOSw9OFZIGVr/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YGkAAOSwYvFZIGVn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N0MAAOSwK6RZIGVp/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "11375"
+}

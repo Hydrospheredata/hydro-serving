@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/mM0AAOSwrhBZMTJu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/w48AAOSwGJlZMTJm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/vPoAAOSwi7RZMTJz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/y-cAAOSww9xZMTJ3/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WOMEN-YSL-SAINT-LAURENT-CLASSIC-MONOGRAM-WALLET-CHAIN-SHOULDER-BAG-/263016338500",
+  "ConvertedCurrentPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "WOMEN YSL SAINT LAURENT CLASSIC MONOGRAM WALLET CHAIN SHOULDER BAG Features: It will come with original dust bag and certiificate Payment: Only PayPal Size: 9 x 5.5 x 2 inches Condition: 100% Newest Style: shoulder bag Any questions, please kindly send your message to me, thanks",
+  "Title": "WOMEN YSL SAINT LAURENT CLASSIC MONOGRAM WALLET CHAIN SHOULDER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Pella, Iowa",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "neqkefcmsb_5"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "50219",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:42:29.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P2DT19H14M6S",
+  "EndTime": "2017-06-05T09:42:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Yves Saint Laurent"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5.5\""
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263016338500",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630163385008080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

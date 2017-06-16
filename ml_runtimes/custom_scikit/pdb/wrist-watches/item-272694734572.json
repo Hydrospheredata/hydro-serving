@@ -1,0 +1,127 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "18.01",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:25:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "14.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:25:48.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08320151",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "MX",
+    "KZ",
+    "BY"
+  ],
+  "ItemID": "272694734572",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex,Ladies,Mens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "F-91WC-2AEF",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Date",
+          "Day",
+          "Light",
+          "Stopwatch."
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "37mm",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Grey/Silver Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Blue Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "4971850475361",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Unisex classic Casio resin strap watch F-91WC-2AEF",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Unisex-classic-Casio-resin-strap-watch-F-91WC-2AEF-/272694734572",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726947345728080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H55M40S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/tuAAAOSwZ4dZLn4Q/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Unisex classic Casio resin strap watch F-91WC-2AEF RRP \u00a322.00 Now \u00a314.00 Description A striking blue resin strap watch and casing ensures a summery twist to a timeless classic from designer Casio. Featuring a minimalist plastic case with white detailing that surrounds the dial and a blue resin strap that is topped with a simple plastic buckle ensures the watch is fastened to the wrist without compromise. The casing of this Casio watch is water resistant to minor water exposure. This classic timepiece from Casio features a stopwatch function alongside an alarm function to remind you of any recurring events. Other features of this Casio watch consist of a date display and a back light illuminator. The casing of the watch measures approximately 37mm in width this is including the buttons on either side of the casing and is approximately 11mm in depth. This watch is perfect for everyday styling and is the perfect gift for any occasion. All Casio watches are supplied from the manufacturer in the official Casio packaging; inside the packaging a 2 year manufacturer\u2019s warranty and instruction manuals will be found. Chapelle Reference: - 08320151 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

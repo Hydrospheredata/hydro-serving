@@ -1,0 +1,124 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns/Exchanges only if item is not as described in the listing or is damaged in transit. NO returns if tag has been removed or if you simply don't like the item.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P23DT7H18M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "103.45",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "311884087740",
+  "ConvertedCurrentPrice": {
+    "value": "103.45",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-05-29T18:44:12.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Heidi-Daus-Legend-Love-Crystal-Accented-Hair-Comb-New-Tag-150-Retail-/311884087740",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-28T18:44:12.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Heidi Daus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hair Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Flower",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Heidi Daus \"Legend of Love\" Crystal-Accented Hair Comb New With Tag $150 Retail",
+  "ExcludeShipToLocation": [
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CZ",
+    "EE",
+    "DE",
+    "HU",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MD",
+    "ME",
+    "NO",
+    "PL",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA"
+  ],
+  "Location": "Clearwater, Florida",
+  "Description": "Heidi Daus \"Legend of Love\" Crystal-Accented Hair Comb New With Tag $150 Retail Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118840877408080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "southernexposuresales",
+    "FeedbackScore": "29295",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "Basic Necessities 4 U",
+    "StoreURL": "http://stores.ebay.com/id=226132"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "22",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ueQAAOSwjqVZKIBZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/cvYAAOSw5cRZKIBZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33760"
+}

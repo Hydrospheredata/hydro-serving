@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cykAAOSwHHFY-7Q1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aggAAOSwtZJY-7Qv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/chYAAOSwBOtY-7Qx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N34AAOSw5UZY-7Qq/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nwt-Victorias-Secret-black-pink-striped-Weekender-Tote-Bag-/282500647325",
+  "ConvertedCurrentPrice": {
+    "value": "55.98",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Free shipping!!!",
+  "Title": "Nwt Victorias Secret black/pink striped Weekender Tote Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.98",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "119",
+    "PositiveFeedbackPercent": "95.9",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "ivannym6"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33179",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T12:47:59.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P26DT20H17M13S",
+  "EndTime": "2017-06-29T12:47:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Pattern",
+        "Value": "Striped"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Type",
+        "Value": "Overnight Bags"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282500647325",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825006473258080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

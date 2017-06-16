@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.79",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "MUMBAI, MAHARASHTRA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:41:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "8.79",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:41:58.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502181786",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HMT",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Original Hands And Dail",
+        "Name": "ADDITIONAL DETAILS"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "8.79",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-HMT-GAUTAM-PARASHOCK-17-JEWELS-HAND-WINDING-MENS-RARE-WRIST-WATCH-/282502181786",
+  "Title": "VINTAGE HMT GAUTAM PARASHOCK 17 JEWELS HAND WINDING MENS RARE WRIST WATCH",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825021817868080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "400004",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT19H19M56S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CV4AAOSw4CFY8QCI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VmQAAOSwTM5Y8QCN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iFAAAOSwCWFY8QCT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R3EAAOSwGy5Y8QCY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SPEAAOSwGy5Y8QCd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i34AAOSwCWFY8QCj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BJUAAOSwls5Y8QCt/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": null,
+  "Seller": {
+    "PositiveFeedbackPercent": "95.5",
+    "FeedbackScore": "40",
+    "UserID": "kirtparek-0",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

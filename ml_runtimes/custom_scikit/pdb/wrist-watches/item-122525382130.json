@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Monroe, North Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:41:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=988695310",
+    "StoreName": "agf906"
+  },
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:41:27.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "122525382130",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "50mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Reserve 50mm 0515 mens watch black chrome",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Reserve-50mm-0515-mens-watch-black-chrome-/122525382130",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225253821308080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "28110",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H34M46S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAzMFg4MTY=/z/dTgAAOSwrhBZA2Fd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/iGsAAOSwlndZA2F0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MVg4MTM=/z/lPgAAOSwlndZA2HG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2OFgxMDgw/z/Aj4AAOSwT-FZA2Ho/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/ks0AAOSw-3FZA2Ib/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Small scratch on crystal hardly noticeable Has box and manual No extra links Will fit 7.5\" wrists or smaller Scratches on bottom of band",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "3628",
+    "UserID": "agf906",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

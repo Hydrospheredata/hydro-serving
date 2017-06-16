@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ypYAAOSwR29ZDHlx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/adoAAOSwT-FZDHmT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zlgAAOSwR29ZDHmW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM4WDc1MA==/z/THYAAOSw~y9ZDHty/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Burberry-Abbey-Quilted-Diaper-Bag-/252921295069",
+  "ConvertedCurrentPrice": {
+    "value": "450.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "A great diaper bag! I purchased this bag for $850 and took excellent care of it but I've outgrown it and no longer have a use for it. Gently used, the bag practically looks new with no visible signs of wear, except for a small mark on the bottom of the bag (see picture). The additional shoulder strap is missing, probably because I never had a use for it. The bag handles are a perfect fit. The bag comes with the diaper changing pad and the Burberry storage bag as well.",
+  "Title": "Burberry Abbey Quilted Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "450.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "North Hills, California",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "mommyinlosangeles0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91343",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T13:23:23.000Z",
+  "HitCount": "196",
+  "TimeLeft": "P1DT21H56M3S",
+  "EndTime": "2017-06-04T13:23:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather/Polyester"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Burberry"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252921295069",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529212950698080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

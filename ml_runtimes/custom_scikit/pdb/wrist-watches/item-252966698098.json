@@ -1,0 +1,118 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.43",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "London",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:25:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:25:42.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966698098",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": [
+          "Black",
+          "Pink",
+          "Red",
+          "White"
+        ],
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Geneva Retro Design Faux Leather Wristwatch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Geneva-Retro-Design-Faux-Leather-Wristwatch-/252966698098",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529666980988080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "SW15 6XG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H58M40S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8dIAAOSwKOJYGPeJ/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Movement: QuartzMaterials: PU Leather + AlloyCase Size: 35.5mm x 35.5mmCase Thickness: 7mmBand Width: 19mmBand Length: 22cmDoes not include a gift box",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "313",
+    "UserID": "michaelmaddog1975",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

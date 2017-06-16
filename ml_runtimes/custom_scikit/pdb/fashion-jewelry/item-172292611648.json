@@ -1,0 +1,190 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172292611648",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "47.95",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "110399",
+  "ExcludeShipToLocation": [
+    "LB",
+    "IQ",
+    "JO",
+    "TR",
+    "YE",
+    "OM",
+    "AF",
+    "BD",
+    "PK"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1722926116488080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "wirewrappeddesign",
+    "FeedbackScore": "622",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Wire Wrapped Design",
+    "StoreURL": "http://stores.ebay.com/id=26875513"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/DuoAAOxy3NBSjX0N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/13gAAMXQWzNSjX0O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/iiEAAOxy3zNSjX0S/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/xu0AAOxygj5SjX0T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/sOsAAOxypNtSjX0U/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/PjEAAOxy4t1SjX0Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDgxNg==/z/o-cAAOxyRNJSjX0Z/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "SKU": "Yellow Fill 26",
+  "StartTime": "2016-08-02T16:49:31.000Z",
+  "ConditionDescription": "Usually ships in 1-5 business days, but some items (especially some solid gold items) may take longer, as noting in shipping time below. Item is brand new, handmade, and gorgeous!",
+  "QuantitySold": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "47.95",
+    "_currencyID": "USD"
+  },
+  "HitCount": "468",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "3",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nose-Ring-PURE-22k-SOLID-Gold-8mm-Small-28g-Hoop-Ear-Cartilage-Helix-Tragus-/172292611648",
+  "EndTime": "2017-06-28T16:49:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "22k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Rings",
+        "Name": "Type"
+      },
+      {
+        "Value": [
+          "Ear",
+          "Eyebrow",
+          "Lip",
+          "Nose"
+        ],
+        "Name": "Body Area"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Nose Ring PURE * 22k SOLID Gold !* 8mm Small 28g Hoop Ear Cartilage Helix Tragus",
+  "TimeLeft": "P23DT31M14S",
+  "Location": "Atlanta, Georgia",
+  "Description": "AMAZING PRICE!!! Nose Ring /Cuff -TINY Small *** 22K SOLID Yellow GOLD *** Hoop Earrings Pierced or None Pierced. This nose ring is made from beautiful shiny 22k SOLID gold - Rich Gold Color! The most luxurious nose ring on eBay!!! 22k SOLID Gold!! 22k is the purest solid gold you can buy, and is very unique! Adjustable, comfortable, and lightweight, this beautiful luxurious nose ring is made from 28 gauge 22k Solid gold, and approximately 8 mm in diameter across. If you love your gold to be a very rich yellow color, a 22k gold ring is the perfect nose ring for you! Please let us know if you need an adjustment of 0.5mm more or less in diameter (from one side to the other). Any size change greater than adding 0.5mm may cause a slight price change of the nose ring due to the high cost of 22k gold. If a different size is indeed desired, to streamline the process please send us a message with your size request and we will set up a separate listing for you, which reflects the price change. Thanks! Please note that because 22k gold is very soft and 28 gauge is very thin, this item is very fragile and will bend out of shape easily. If you'd like the same bright yellow color of 22k gold but would like it to be a little more sturdy, please consider purchasing 18k gold (more sturdy) ...OR...increasing the thickness of the hoop...OR...both. Please contact us if you need help looking for a different item, or search our ebay store page. Thanks! NEED A DIFFERENT GAUGE / METAL / HOOP DIAMETER? Check out our other listings & our store for: Gauge: 14, 16, 18, 20, 22, 24, 26, 28, 30 Yellow Gold Filled Rose Gold Filled White Gold Filled (also available in 19 & 21 ga) Sterling Silver Solid Yellow Gold (14k & 22k) Solid Rose Gold Solid White Gold Platinum Buy with confidence - we have a 100% positive rating and have been an eBay member since 2001. Our items are American made and shipped from America. When you buy from us, you are receiving jewelry handcrafted by a professionally trained artist, NOT mass produced goods. Feel free to message us with any questions and make sure you check out our other listings for more great jewelry! Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application Posted with eBay Mobile We ship most items in 1-3 days. Some solid gold items take longer to ship if they are not in stock. Some general notes about purchasing: This is obvious to most people and applies to any place you shop online, but we like to include this info, just in case :) Please allow 24-72 business day hours for a response when sending an email via eBay's messaging service. We try our best to answer emails within a few hours, but occasionally this is not possible. When selecting jewelry, please keep in mind any metal allergies the intended wearer may have, as we are not responsible and cannot control any allergic reactions the wearer may have as a result of metal allergies. Please also make sure you are selecting the correct size item that will fit you (hoops are quoted in approximate INSIDE diameter - these are measured carefully while being made, but can vary by a few mm, but it's not likely. If you have very specific needs for size, please let us know and we'll be sure to make your item as close to the measurement you desire as possible. Every item is a little different due to the items being made by hand, but the photo in the listing is a very very good indication of what the item will look like. If you have any questions about sizing, please make sure to inquire about this via eBay's messaging system to the seller. Most hoops need to be bent to put them on, this means that the item can lose it's shape if not bent the correct way when put on (it opens in a spiral direction - instructions are included), so it is important to follow the instructions on how to put the hoop in correctly and you'll be able to enjoy your item for a long time. Please also note that we are not responsible for any delays that may occur once the package is dropped in the mail. Occasionally, shipping delays may occur, and we have no control over this. Estimated handling times are stated in the listing, and also under the shipping tab. This is quoted in business days (Monday-Friday), though we often ship sooner than the quoted handling time. If it is very important for you to get your item sooner, please inquire before purchasing, and we will let you know if we are able to accommodate your request. While most items have the same handling time as the one listed, some items may have a longer handling time than what is listed due to the need to special order materials (this is rare, though). Please inquire about handling time before purchasing if receiving your item by a certain day is very important to you. Please keep in mind that monitors very in size and color, so item color or size may vary slightly from picture. Our items are made by hand, so we strive to make our listing accurate and realistic. These are just standard things that apply to most listings on Ebay, but we like to mention them. We've been making jewelry for a long time, and love what we do :) Let us know if there is any way we can help you or a custom item we can make for you :) Please note with body jewelry that the thicker the gauge and smaller the inside diameter of our hoops (including our hoops, captive rings, etc, anything with a ring/hoop), the higher the chance that you may need help to insert the body ring by going to a professional piercer to have it installed. Also, most of our items listed are hand made and because of that, each item may differ a little from the photo in the listing. This is what makes every item unique. The listing photo is representative of what you will receive, but because of the handmade nature of most of our listings, your item may vary slightly from the listing photo. Every effort is made to accurately represent the item you are purchasing.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "17",
+  "PostalCode": "30308"
+}

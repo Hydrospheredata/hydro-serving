@@ -1,0 +1,218 @@
+{
+  "ExcludeShipToLocation": [
+    "FJ",
+    "NC",
+    "PG",
+    "WF",
+    "AL",
+    "AT",
+    "BA",
+    "HR",
+    "CY",
+    "CZ",
+    "DE",
+    "IT",
+    "MD",
+    "SJ",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "SG",
+    "TW",
+    "BO",
+    "BR",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
+    "PM",
+    "AO",
+    "BJ",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "KW",
+    "LB",
+    "SA",
+    "TR",
+    "YE",
+    "AF",
+    "AZ",
+    "CN",
+    "NP",
+    "LK"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "kikoonline",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9263",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product Features: Transparent Skeleton Half Hunter Design Movement: Hand Winding Mechanical Diameter: About 4.7 cm Thickness: About 1.5 cm Total Length of Chain: About 30cmPackage Content: 1 x Pocket Watch 1 x Chain",
+  "StartTime": "2017-03-12T18:51:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/MKEAAOSwSlBYxZia/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ZF4AAOSw32lYxZiq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/UgIAAOSw4A5YxZiM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Qv4AAOSwXYtYxZiQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/X~QAAOSwuxFYxZiH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/YBwAAOSwxEpYxZig/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.62"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "SKU": "[P2054C]EBKIKOH",
+  "HitCount": "128",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2528100378738080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T18:51:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.62"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Flower-Hollow-Roman-Numerals-Hand-Winding-Mechanical-Pocket-Watch-Chain-/252810037873",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro Flower Hollow Roman Numerals Hand Winding Mechanical Pocket Watch Chain",
+  "Storefront": {
+    "StoreName": "kikoonline",
+    "StoreURL": "http://stores.ebay.com/id=1237028809"
+  },
+  "ItemID": "252810037873",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT37S"
+}

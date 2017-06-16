@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExN1g3NDY=/z/UqQAAOSwaEhZJ0si/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEyNVg3NTQ=/z/UKoAAOSw3gJZJ0sf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExNVg3NDk=/z/RFUAAOSwblZZJ0sh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExN1g3NDU=/z/854AAOSwhvFZJ0sm/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anthropologie-Gijou-Stripe-Weekender-Extra-Large-Cotton-Felt-Bag-Jasper-Jeera-/162529064633",
+  "ConvertedCurrentPrice": {
+    "value": "94.05",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Anthropologie Gijou Stripe Weekender Extra Large Cotton Felt Bag By Jasper & Jeera Brand new with tag Zip closure Removable shoulder strap Inner pocket Cotton felt, leather; cotton lining 15\"H, 22\"W, 7\"D 26\" strap drop; 6\" handle drop",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.05",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Elmwood Park, Illinois",
+  "Seller": {
+    "FeedbackScore": "3721",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "quasarpl"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60707",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T21:24:04.000Z",
+  "Title": "Anthropologie Gijou Stripe Weekender Extra Large Cotton Felt Bag, Jasper & Jeera",
+  "TimeLeft": "P22DT3H42M42S",
+  "EndTime": "2017-06-24T21:24:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Lost Property Of London"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162529064633",
+  "Storefront": {
+    "StoreName": "Anthro&#39;s Vault",
+    "StoreURL": "http://stores.ebay.com/id=34406952"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625290646338080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

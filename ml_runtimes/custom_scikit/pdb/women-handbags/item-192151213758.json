@@ -1,0 +1,238 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Picard-Really-Shoulder-Bag-Leather-25-cm-Brand-New-/192151213758?var=",
+  "ConvertedCurrentPrice": {
+    "value": "137.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Picard Really Shoulder Bag Leather 25 cm by Picard Ships from Local Supplier Related Searches: Picard Shoulder Bag, Shoulder Bag Bags, Picard Bags",
+  "Title": "Picard Really Shoulder Bag Leather 25 cm. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "137.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Rot",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0060/379/526/175981131/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Schwarz",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0060/379/527/175981147/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Wei\u00df",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0060/379/528/175981161/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Creme",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0060/379/529/175839157/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "ozean",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0068/550/398/195450078/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "nougat",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0068/765/008/214552800/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "137.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60379526:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Rot"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "137.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60379527:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Schwarz"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "137.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60379528:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Wei\u00df"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "137.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60379529:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Creme"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "129.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:68550398:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "ozean"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "170.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:68765008:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "nougat"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Rot",
+          "Schwarz",
+          "Wei\u00df",
+          "Creme",
+          "ozean",
+          "nougat"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-07T12:36:01.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P3DT20H20M26S",
+  "EndTime": "2017-06-06T12:36:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Picard"
+      },
+      {
+        "Name": "MPN",
+        "Value": "427367476"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151213758",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:60379525:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

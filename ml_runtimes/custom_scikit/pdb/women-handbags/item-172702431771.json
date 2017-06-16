@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/A60AAOSwONBZBNMK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg1WDM5MA==/z/3n4AAOSwjqVZBNMT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3NTA=/z/zTcAAOSwjL5ZBNTn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3NTA=/z/RLEAAOSw~y9ZBNTy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3NTA=/z/0T0AAOSwlndZBNbo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg3NTA=/z/QtMAAOSwX61ZBNUC/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BNIB-SOLD-OUT-Anya-Hindmarch-Mink-Fur-Tennis-Ball-Charm-995-/172702431771",
+  "ConvertedCurrentPrice": {
+    "value": "449.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Sold- out Everywhere! Super-cute!!! This bright green and white Anya Hindmarch tennis ball key chain is a quirky and fun accessory which will inject some humour into your everyday attire. Crafted in Italy from soft mink fur, the tennis ball style piece is attached to a neon yellow leather strap keyring and polished gold-tone dogclip, making it easy to clip on to your keys. The bright fluorescent color gives it a super-fun summer appeal. Fur from Denmark. Tennis ball: Width: 2.9 inchesKey Chain: Length: 5.1 inches US only please.",
+  "Title": "BNIB SOLD OUT Anya Hindmarch Mink Fur Tennis Ball Charm $995",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "449.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Larkspur, California",
+  "Seller": {
+    "FeedbackScore": "866",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "susano1602"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94939",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T20:48:16.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P26DT4H43M33S",
+  "EndTime": "2017-06-28T20:48:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Anya Hindmarch"
+      },
+      {
+        "Name": "Material",
+        "Value": "Mink fur and leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bag charm or key chain"
+      },
+      {
+        "Name": "Type",
+        "Value": "Key Chain/Bag Charm"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Color",
+        "Value": "green and white"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172702431771",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727024317718080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

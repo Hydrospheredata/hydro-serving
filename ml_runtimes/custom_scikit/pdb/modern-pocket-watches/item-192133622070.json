@@ -1,0 +1,69 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "30528",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Milan quart pocket watch with chain. Gold tone. some of the coloring has faded off the chain but in person still looks good. The watch needs a battery. I have not tested. Please email with questions",
+  "StartTime": "2017-03-18T23:41:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxNVgxMDgw/z/-G8AAOSwYXVYzcP2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OVgxMDgw/z/-hEAAOSwzgBYzcQO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTQx/z/bt4AAOSw4YdYzcRA/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Open Face",
+      "Name": "Closure"
+    }
+  },
+  "Seller": {
+    "UserID": "brown-55",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2357",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "95",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921336220708080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T23:41:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "If watch does not run I will need a receipt of the jewelers battery photo.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Milan-Open-Face-Quartz-Gold-Tone-Pocket-Watch-/192133622070",
+  "Location": "Cleveland, Georgia",
+  "Title": "Milan Open Face Quartz Gold Tone Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "192133622070",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT4H50M54S"
+}

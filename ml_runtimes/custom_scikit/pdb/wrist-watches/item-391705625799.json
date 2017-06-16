@@ -1,0 +1,75 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Omega Women's Manual Wristwatch Movement & Dial ~ 17-Jewels ~ 13-K5664 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-02-15T15:01:21.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTkz/z/tGcAAOSw2gxYnHOa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTcx/z/MqcAAOSwWxNYnHOc/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Omega",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60403",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "214",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3917056257998080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-15T15:01:21.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Womens-Manual-Wristwatch-Movement-Dial-17-Jewels-13-K5664-/391705625799",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Omega Women's Manual Wristwatch Movement & Dial ~ 17-Jewels ~ 13-K5664",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391705625799",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P14DT16H19M41S"
+}

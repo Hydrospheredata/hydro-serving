@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "73.81",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Sydney, New South Wales",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:00:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "MOCC",
+    "PayPal"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-07T12:00:01.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203275115",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Enicar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "99.0",
+    "_currencyID": "AUD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Enicar-Movement-Auto-Cal-1145-Parts-Repair-/192203275115",
+  "Title": "Enicar Movement Auto Cal 1145 Parts or Repair",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922032751158080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "2030",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H42M17S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M60AAOSwlMFZLq6y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ITgAAOSwGJlZLq5J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~kgAAOSwZKBZLq5r/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tgcAAOSwlY1ZLq6Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0KQAAOSwi7RZLq7a/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R6IAAOSw8lpZLq8C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sxYAAOSw8HBZLq8j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5tIAAOSwi7RZLq~j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/48wAAOSwi7RZLq~A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P0MAAOSww5hZLq9F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GP8AAOSw9OFZLq9t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TsEAAOSwxu5ZLq-T/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Here are two Enicar movements, one auto cal 1145 and the other manual cal 1010. The auto movement cal 1145 has 17 jewels and a date feature, is in good condition and works. The dial is in fair condition and signed 'Star Jewels'. The auto has some extra new parts, a barrel bridge and auto wind train assembly which is a different design to the original. It does fit the movement. The sweep second hand post is broken. A back and the second hand are included. The cal 1010 movement is not working, a balance staff pivot is broken and this is good for parts. Notes and parts list for the cal 1145 auto are also included.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1450",
+    "UserID": "timeflies59",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

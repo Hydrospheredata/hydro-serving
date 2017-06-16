@@ -1,0 +1,101 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "619.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "619.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:53.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694667061",
+  "HandlingTime": "1",
+  "Description": "You are bidding on Omega Manual Wind 30T2 Mens Wrist Watch This watch comes out of my Private collection Description: Up for sale is a collector's Omega in ok condition Manufacturer: Omega Movement: Manual wind Cal. 30T2 Case Metal: Stainless steel Band: leather band Feel free to ask questions or more picturesPlease Bookmark me, I am a trusted seller, I am selling my entire watch collection. Shipping WorldWide.Payment options: PaypalWire Transfer",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Omega Manual Wind 30T2 Mens Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Omega-Manual-Wind-30T2-Mens-Wrist-Watch-/272694667061",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726946670618080_1.jpg",
+  "HitCount": "6",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OOIAAOSwj0NUbF4M/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kkkAAOSwQJhUbF4Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rzkAAOSw2XFUbF4U/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mjEAAOSwg3FUbF4Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/34EAAOSwIBBUbF4c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i7gAAOSwuMFUbF4f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/O6AAAOSwj0NUbF4j/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "619.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

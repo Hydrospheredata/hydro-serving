@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P13DT7H13M33S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252947734509",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REAL-Silver-925-Grillz-Custom-Fit-Grill-Your-Teeth-/252947734509",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T23:07:28.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T23:07:28.000Z",
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver 925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "I Make Grillz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SILVER",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Houston",
+        "Name": "City"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "REAL Silver 925 Grillz Custom Fit Grill to Your Teeth",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Real Custom Silver Grillz shipped straight to your door. We are a Houston based company specializing in selling Silver, Gold, Diamond, and Platinum Grillz. You will receive two shipments from us. One shipment to provide you with your mold kit, putty, and instruction sheet on how to do an impression, and then a second shipment including the finished product and a rock impression of your teeth to keep the Grill on when not in use. Grillz will be finished in about 3 days from when we receive your impression. FREE SHIPPING and FREE MOLD KIT included with every order. Each grill is hand made to fit your teeth so you can rest assured that your final product will fit nicely. Call or TEXT our main office at 281-451-7835 we look forward to doing business with you. Come view our work on IG @b_c_creations and @imakegrillz on Instagram.",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529477345098080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "imakegrillz",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Houston, Texas",
+  "HitCount": "267",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTcwWDU3MA==/z/UckAAOSwrhBZH2P3/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "77036"
+}

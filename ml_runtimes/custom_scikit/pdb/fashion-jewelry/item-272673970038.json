@@ -1,0 +1,348 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P10DT1H57M48S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "simitter01",
+    "StoreURL": "http://stores.ebay.com/id=1065110767"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.65",
+    "_currencyID": "CAD"
+  },
+  "SKU": "1PH3JZ4ZW4MG4RU6",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272673970038",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Waterproof-Smart-Bracelet-Bluetooth-Movement-Sleep-tracking-Smart-Watch-BT4-0-/272673970038?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "24.16",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-16T16:00:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T16:00:08.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/jmEAAOSwcgNZGthL/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YKMAAOSwZ4dZGthK/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wU4AAOSwuMZZGthW/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/aPIAAOSwlY1ZGthL/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/mvcAAOSwY3BZGthL/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/k44AAOSww9xZGthQ/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/bwsAAOSwjqVZGthT/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Q1YAAOSw7GRZGthQ/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/lf8AAOSw8HBZGthK/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YH0AAOSwlMFZGthM/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/lJ8AAOSww9xZGthi/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/r0cAAOSwn-tZGthj/$_10.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YlkAAOSwlndZGthW/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/rrsAAOSwn-tZGthU/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/-OsAAOSwIQdZGthQ/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/QJ0AAOSwblZZGthU/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/y3cAAOSwhvFZGthQ/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YAAAAOSwfRdZGthQ/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/SggAAOSwIaFZGthR/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/ZCEAAOSwYlRZGthP/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/8TMAAOSw3gJZGthQ/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Q3MAAOSw7GRZGthU/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/kA0AAOSwcgNZGtho/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/9BoAAOSww5hZGthr/$_10.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "golden",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/ZEkAAOSwlndZGtiM/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/9G8AAOSw3gJZGth5/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/w1sAAOSwuMZZGth5/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/cXYAAOSw5cRZGth7/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/kQoAAOSwcgNZGth6/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/rQkAAOSw0hlZGth5/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/s6AAAOSwfpVZGth6/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/l-IAAOSw8HBZGtiA/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/AykAAOSwcB5ZGth-/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Z-EAAOSwYlRZGtiA/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/I2IAAOSw8lpZGtiX/$_10.JPG",
+            "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/klIAAOSwcgNZGtiS/$_10.JPG"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Silver",
+          "golden"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "1VH3FX4KY4ZH4YX6DE.01",
+        "StartPrice": {
+          "value": "32.65",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "SKU": "1FN3CR4CQ4ZR4AZ6QX.02",
+        "StartPrice": {
+          "value": "35.32",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "SKU": "1LX3GC4SB4KX4YS6XA.03",
+        "StartPrice": {
+          "value": "35.32",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "golden",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "0.96\"",
+        "Name": "Display Screen"
+      },
+      {
+        "Value": "64k (Flash 512k)",
+        "Name": "Memory Card"
+      },
+      {
+        "Value": "Gravity sensor",
+        "Name": "Sensor"
+      },
+      {
+        "Value": "IP67",
+        "Name": "Waterproof Level"
+      },
+      {
+        "Value": "252 X 22 X 10mm/9.92 X 0.87 X 0.39\"",
+        "Name": "Product Size"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "OLED",
+        "Name": "Material"
+      },
+      {
+        "Value": "Smart Bracelet",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Waterproof,Sleep tracking,Anti-lost reminder",
+        "Name": "Feature"
+      },
+      {
+        "Value": "Task reminder,Romote photos",
+        "Name": "Function"
+      }
+    ]
+  },
+  "Title": "Waterproof Smart Bracelet Bluetooth Movement Sleep tracking Smart Watch BT4.0",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BA",
+    "EE",
+    "DE",
+    "GI",
+    "GG",
+    "JE",
+    "MK",
+    "MT",
+    "MC",
+    "ME",
+    "SM",
+    "SJ",
+    "CH",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BZ",
+    "VG",
+    "KY",
+    "DM",
+    "SV",
+    "GD",
+    "GP",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "PR",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "BM",
+    "PM",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "TR",
+    "AF",
+    "AM",
+    "AZ",
+    "BT",
+    "CN",
+    "KG",
+    "MV",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "BidCount": "0",
+  "Description": "simitter01 Add to my favorite sellers Mon. to Sat. Customer Service Warranty Service Product Description Description: Specifications: Product Model: N108 Material: OLED Display Screen: 0.96\" Power Supply: Built-in 80mAh rechargeable battery System Required: Android 4.4 or above, iOS 8.0 or above, Bluetooth 4.0 Memory Card: 64k (Flash 512k) Sensor: Gravity sensor Waterproof Level: IP67 Target Users: Adults, Children, Fashion, Business, Senior APP/APK Downloading Way: Hey Band APP, Android and iOS You can search and find it in Apple APP Store or in Android App stores) Color: Black, Silver, Gold Product Size: 252 X 22 X 10mm/9.92 X 0.87 X 0.39\" Net Weight: About 23g Gross Weight: About 111g Features: 1. 0.96\" OLED display screen; 2. With IP67 waterproof level, you can wear it while swimming; 3. Heart rate monitor, blood oxygen monitor, blood pressure monitor, exhaustion monitor; 4. Time display, pedometer, distance, calorie consumption, heart rate, sleeping time, photo taking; 5. Sleep tracking: sleeping time and quality, alarm clock reminder; 6. Incoming messages and calls prompt, text push from WeChat, QQ and facebook; 7. Anti-lost reminder (when phone out of range, the wrist band will inform you); 8. Task reminder (Long sitting and drinking water reminder); 9. Romote control to take photos, synchronize data to APK/APP; Included: 1 X Smart Watch 1 X Charging Cable 1 X Manual payment We accept PayPal only. All major credit cards are accepted through secure payment processor PayPal. Payment must be received within 7 business days of auction closing. If you have bought multiple items from me, you can send me one payment for all the items instead of paying for them individually. When you click the Pay Now button, eBay will automatically determine if there are other items you have won or purchased from me and will combine them for your review. NOTE: Import duties, taxes and chargers are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding buying. Warranty 12 months Warranty. Buy with confidence! If you are not satisfied when you receive your item, please return it within 14 days for a replacement or money back. Please contact me before you return it. If item is defective in 3 months, We will send you a replacement without extra charger, or offer refund after we receive the defective item. If item is defective after 3 months, you can still send it back to us. We will send you a new one after receiving the defective item. But you have to pay the extra shipping fee. policies We are not responsible for any custom duty or import tax. We will leave POSITIVE FEEDBACK after receiving the payment. Please contact us if you are not satisfied with the item after receive it. All messages will be answered within 1 business day. If you do not receive our reply, please kindly re-sent your message and we will reply to you as soon as possible. Serious Buyer Only! Please place bid only if you agree with all the terms. If you have any problems or concerns whatever with your order or products, please message us and give us a chance to assist you before you leave any feedback. We believe we can produce a positive outcome to any situation and will work hard to earn your praise. If you were pleased with this transaction, Please give us 5 star rating, thanks! Shipping We Ship to Worldwide. Items will be shipped within 1 business day on payment received. Item are shipped from shenzhen using Airmail, reach most of the countries within 10 to 20. Delivery time depends on destination and other factors, it may takes up to 20 business days. Contact Us Our office hours are 9:00 a.m to 6:00 p.m (GMT +8) of Monday to Saturday. And our Office is closed on Sunday and public holidays. We apologize for the late reply during the holidays.",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "UserID": "simitter01",
+    "FeedbackScore": "75389",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "QuantityThreshold": "10",
+  "Location": "ShenZhen",
+  "Quantity": "30",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzE3WDczMA==/z/YJMAAOSwIQdZG7p-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YmEAAOSwYlRZGtg2/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/zPkAAOSwDiBZGtg4/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wXoAAOSw-3FZGtg5/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/J5cAAOSwGJlZGtg4/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/mksAAOSwY3BZGtg3/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wG8AAOSwPh5ZGtg8/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/J24AAOSwGJlZGtg2/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/VHkAAOSwKytZGtg8/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/XvcAAOSwZ4dZGtgy/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/eoYAAOSwcaFZGthX/$_57.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/dvIAAOSwdjNZGthb/$_57.JPG"
+  ],
+  "ConditionID": "1500"
+}

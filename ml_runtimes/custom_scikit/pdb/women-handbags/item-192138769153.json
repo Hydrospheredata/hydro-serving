@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921387691538080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/KkMAAOSwax5Y1QJZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Herschel-Supply-Company-Womens-Tote-Bag-Multicolour-Hawaiian-Camo-Veggie-Tan-Le-/192138769153",
+  "ConvertedCurrentPrice": {
+    "value": "133.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Herschel Supply Company Women's Tote Bag Multicolour Hawaiian Camo/Veggie Tan Leather by Herschel Ships from UK Supplier Other information: 10240-00953-OS Related Searches: Herschel Bags, Totes Bags, Herschel Totes Weight: 1.1 kg",
+  "Title": "Herschel Supply Company Women's Tote Bag Multicolour Hawaiian Camo/Veggie Tan Le",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "133.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-24T11:26:09.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P19DT19H4M20S",
+  "EndTime": "2017-06-22T11:26:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Herschel"
+      },
+      {
+        "Name": "MPN",
+        "Value": "304188067"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138769153",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:98454473:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

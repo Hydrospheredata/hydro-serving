@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bethpage, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:40:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=792776490",
+    "StoreName": "basurero_764"
+  },
+  "CurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:40:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537567630",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swatch Pop",
+        "Name": "Model"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Multi Color",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Putti Pop Swatch",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rare Putti Pop Swatch In Original Box",
+  "ConditionDescription": "Never been used in original box, needs new battery.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rare-Putti-Pop-Swatch-Original-Box-/322537567630",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225375676308080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "11714",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H33M45S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/EoYAAOSwhvFZAqlr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/dXIAAOSwrhBZAqlt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/PfEAAOSwtGlZAqlt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/saEAAOSww5NZAqlw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/86AAAOSwX61ZAqlx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/21UAAOSw7GRZAqly/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/aD4AAOSww9xZAqlz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/shgAAOSww5NZAql0/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Never used rare putti swatch watch in original box, needs new battery.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "2958",
+    "UserID": "basurero_764",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

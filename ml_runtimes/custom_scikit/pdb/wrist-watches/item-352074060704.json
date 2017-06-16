@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Plano, Texas",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:54:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=766165868",
+    "StoreName": "saadgirgis1"
+  },
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:54:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "PH",
+    "VN",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "ItemID": "352074060704",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "90L60",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "LADIES BULOVA P7 QUARTZ WRISTWATCH DIAMOND 90L60 GOLD PLATED",
+  "ConditionDescription": "MINT WORKING CONDITION KEEP GOOD TIME",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LADIES-BULOVA-P7-QUARTZ-WRISTWATCH-DIAMOND-90L60-GOLD-PLATED-/352074060704",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520740607048080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "75025",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H32M59S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/b1sAAOSwn-tZLqCq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ir8AAOSwR29ZLqBY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zWsAAOSwY3BZLqBa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wRwAAOSwi7RZLqCx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UUsAAOSwxu5ZLqDD/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "LADIES BULOVA P7 QUARTZ WRISTWATCH DIAMOND 90L60 GOLD PLATEDMINT, WORKING CONDITION KEEP GOOD TIMEWILL FIT UP TO 7\" WRISTHAPPY BIDDING",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "2957",
+    "UserID": "saadgirgis1",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "All Items sold are as-is. Items may returned only if they are not described and photographed accurately. Returns due to buyers remorse are neither authorized nor accepted. We reserve the right to have an independent 3rd party inspect any item prior to refund. Shipping charge Paid by Buyer is not refund"
+  }
+}

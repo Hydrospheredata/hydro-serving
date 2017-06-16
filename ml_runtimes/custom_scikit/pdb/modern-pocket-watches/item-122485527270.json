@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Pocket watch mechanic, 49,20mm,in good condition , running",
+  "StartTime": "2017-05-08T15:58:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/3mQAAOSwepZXTHYy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/APwAAOSwMHdXTHb2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/JzUAAOSwNsdXTHb9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/K0YAAOSw0gdXTHcE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/eMIAAOSwY0lXTHcR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/efUAAOSwY0lXTHcX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/L2cAAOSw0gdXTHcg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/rSEAAOSwwIZXTHcp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/JxIAAOSwR5dXTHcw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/MpwAAOSwNsdXTHc4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/BFEAAOSwdsFXTHc~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/NOEAAOSwNsdXTHdF/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "PT",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "santosdas44710",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "668",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224855272708080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T15:58:48.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Samouco, Set\u00fabal",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket watch mechanic, running, E075",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-watch-mechanic-running-E075-/122485527270",
+  "Storefront": {
+    "StoreName": "santosdas44710",
+    "StoreURL": "http://stores.ebay.com/id=1013026817"
+  },
+  "ItemID": "122485527270",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT21H15M33S"
+}

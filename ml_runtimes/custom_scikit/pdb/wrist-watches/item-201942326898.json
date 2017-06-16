@@ -1,0 +1,170 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.56",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bexhill on Sea",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:29:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=64976394",
+    "StoreName": "hullsventure"
+  },
+  "CurrentPrice": {
+    "value": "1.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:29:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942326898",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "STEGMANN 1889",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "STEGMANN 1889",
+        "Name": "Model"
+      },
+      {
+        "Value": "NO",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": [
+          "White",
+          "Silver"
+        ],
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Adult/TEEN",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "18mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MANS STEGMANN  1889 QUARTZ WATCH WORKING NEW BATTERY NATO STRAP WATCH  NO DAMAGE",
+  "ConditionDescription": "ALL  FULLY WORKING  IN GREAT CONDITIONORIGINAL STRAP",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MANS-STEGMANN-1889-QUARTZ-WATCH-WORKING-NEW-BATTERY-NATO-STRAP-WATCH-NO-DAMAGE-/201942326898",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019423268988080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "TN39 4JU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H6M41S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/y-EAAOSw42dZLpq6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N5IAAOSwsXFZLpq1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zQAAAOSwblZZLpq-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/50AAAOSwlMFZLprP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mwsAAOSwaeRZLprB/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "THIS STEGMANN 1889 WATCH IS A GREAT EVERY DAY WORKING WATCH. THE WATCH WORKS AS ONLY A QUARTZ CAN.THE WATCH HAS A NEW BATTERY ON AN ORIGINAL STRAP",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2905",
+    "UserID": "hullsventure",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

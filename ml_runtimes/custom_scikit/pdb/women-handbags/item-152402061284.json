@@ -1,0 +1,161 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg5MDI=/z/T5oAAOSw5cNYgDBA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5OTg=/z/EPYAAOSw9GhYgDBA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Bh8AAOSw2xRYgDA-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/XWAAAOSw4DJYgDA-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE1MFgxNTAw/z/xsAAAOSw44BYgDBA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2NzI=/z/FyUAAOSwnHZYgDA-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KNOMO-Barbican-Albion-Leather-Backpack-Black-/152402061284",
+  "ConvertedCurrentPrice": {
+    "value": "250.38",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The Albion Is The Essential City Backpack, Crated Entirely From Full Grain Leather With A Padded 15\" Laptop Compartment Inside. Experience The Most Comfortable Carry In Town With The Padded Ergonomic Shoulder Straps And Cushioned Air-Mesh Back-Panel. - 16.9 x 14.1 x 4.3 inches weighing 3.3 pounds - Padded 15\" laptop section - Crafted entirely from full grain leather - Interior and exterior pockets - Padded, full leather shoulder straps KNOMO Barbican Albion Leather Backpack-Black",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "250.38",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "9743",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Green",
+    "UserID": "lotoonsca2"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "KNOMO Barbican Albion Leather Backpack-Black",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-01-19T03:19:24.000Z",
+  "HitCount": "123",
+  "TimeLeft": "P15DT12H7M32S",
+  "EndTime": "2017-06-18T03:19:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "EAN",
+        "Value": "5055385416361"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Knomo"
+      },
+      {
+        "Name": "MPN",
+        "Value": "45-401-BLK"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152402061284",
+  "Storefront": {
+    "StoreName": "lotoonsca2",
+    "StoreURL": "http://stores.ebay.com/id=1186422363"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1524020612848080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

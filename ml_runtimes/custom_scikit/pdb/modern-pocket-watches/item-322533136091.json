@@ -1,0 +1,125 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "35802",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This is a very nice Bronzed Finish Canadian Duck Scene Pocket Watch with Vest Chain and Clip. The Case is made of Stainless and Plated Metal for Long Wear. It has a Push Button Open and a Bright White 24 Hour Dial with Fancy Hands. It has a Quartz Battery Movement for better Accuracy. Comes with a Spare Battery.",
+  "StartTime": "2017-05-28T06:10:01.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDA5/z/~EkAAOSwzhVWs-Tp/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzA4/z/qRUAAOSwa-dWs-J2/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0NVgxNjAw/z/dMwAAOSwyQtVvaZh/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzMVgxNjAw/z/J6oAAOSwL7VWs-ND/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQ0/z/WdIAAOSwnLdWs-Q9/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY1WDE2MDA=/z/-QwAAOSwJb9Ws-Kn/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTY5/z/EBcAAOSwJb9Ws-Ox/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "EV",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Sweep Second Hand",
+          "24-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Duck",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "westhunt.256",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "882",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225331360918080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T06:10:01.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CANADIAN-DUCK-POCKET-WATCH-VEST-CHAIN-AND-CLIP-NICE-DUCK-SCENE-24-HOUR-DIAL-/322533136091",
+  "Location": "Huntsville, Alabama",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CANADIAN DUCK POCKET WATCH & VEST CHAIN AND CLIP, NICE DUCK SCENE, 24 HOUR DIAL",
+  "Storefront": {
+    "StoreName": "westhunt.256",
+    "StoreURL": "http://stores.ebay.com/id=804416801"
+  },
+  "ItemID": "322533136091",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT11H34M57S"
+}

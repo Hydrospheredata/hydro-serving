@@ -1,0 +1,171 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.86"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Description: - High-end case with mechanical movement. - Retro royal crown. - Classic skeleton hands. - Removable chain with hook. Specification (approximate): - Case diameter: 47mm - Case thickness: 14mm - Case Material: copper - Chain Length: 30cm - Chain Material: copper. Package Includes: - 1 * Pocket Watch - 1 * Gift Bag - 100% Brand New - High-end case with mechanical movement. - Retro royal crown. - Classic skeleton hands. - Removable chain with hook. - Please wind up the watch before every usage. Please keep the watch away from magnet to avoid making the watch stop working. - COME WITH GIFT BAG: A perfect Birthday, Christmas, New Year Gift to Fans of Dr. Who - CUSTOMER SERVICE: 30 Day money back guarantee for any reason; 12 Month warranty for quality related issues; 24 Month warranty for quality issues. YISUYA Vintage Bronze Mechanical Hand-wind Pocket Watch Hollow Steampunk Roman",
+  "StartTime": "2017-03-06T17:53:47.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~zoAAOSw2gxYvaIw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/cesAAOSw32lYvaIw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/PlkAAOSwSlBYvaIx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/KxEAAOSwXYtYvaIw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/chIAAOSw32lYvaIx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/es0AAOSwfVpYvaIx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/pqAAAOSwuxFYvaIw/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "611188268344",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0611188268344",
+        "Name": "EAN"
+      },
+      {
+        "Value": "YISUYA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "CBS041",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.8 x W 3.8 x H 1.3 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "46",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2725796967708080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:53:47.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.86"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "YISUYA Vintage Bronze Mechanical Hand-wind Pocket Watch Hollow Steampunk Roman",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/YISUYA-Vintage-Bronze-Mechanical-Hand-wind-Pocket-Watch-Hollow-Steampunk-Roman-/272579696770",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579696770",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT23H1M51S"
+}

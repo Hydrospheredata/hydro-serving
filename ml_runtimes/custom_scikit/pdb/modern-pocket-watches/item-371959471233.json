@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "49651",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "A lightly used pocket watch with fob chain. From GRUEN. Marked EMBASSY. It's gold toned, with a vivid black front and a gold motorcycle. Very nice. Shows slight wear on the back of the case and on the chain. Cleaning will help the chain I think. Needs battery, untested. Quartz. Japan Movement it says on the front. The fob chain is marked China. Smoke & Pet Free Home Shipping Price Includes United States Will Ship Internationally -Contact Seller for Specific Shipping Costs Please look carefully at my photos for clarification and details. Questions Always Welcome **THANKS FOR LOOKING**",
+  "StartTime": "2017-05-23T15:17:31.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dBUAAOSwH09ZJE~D/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F4wAAOSw42dZJE~M/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pUQAAOSwrhBZJE~W/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6V4AAOSw-K9ZJE~g/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YtAAAOSwcB5ZJE~s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/S7kAAOSwurZZJE~z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KxEAAOSwK6RZJE~7/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gruen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "purplemommac",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1503",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719594712338080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T15:17:31.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GRUEN-EMBASSY-POCKET-WATCH-15-Fob-Chain-Gold-Tone-Black-MOTORCYCLE-Box-/371959471233",
+  "Location": "Lake City, Michigan",
+  "Title": "GRUEN EMBASSY POCKET WATCH & 15\" Fob Chain, Gold Tone & Black MOTORCYCLE In Box",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "371959471233",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT20H39M43S"
+}

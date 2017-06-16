@@ -1,0 +1,112 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "91763",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "dffsupply_1",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7416",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Hiwatch Women's Spider-Web Carving Pattern Hollow Out Antique Delicate Pocket Watch Product Features ?POCKET WATCH?: Vintage bronze tone metal finish, delicate face, classic and vintage in style. ?KEEPING ACCURATE TIME?: White dial with filigreed hour, minute, and second hands on ornate arabic numerals, excellent quartz movement ensures the accuracy of the time. ?NECKLACE WATCH?: [Pendant Dimension 2.5 in x 1.9in] [Chain Length: 32in] Shipped out in an exquisite jewelry gift box. This pocket watch is a good gift for bachelor party, birthday, Christmas, wedding, ball, Thanksgiving. ?WARM TIPS?: In order to to avoid oxidation, please do not wear it when bathing, showering or swimming. And it should avoid being soaked. ?EXCELLENT SERVICE?: HiWatch is a Professional Seller in Selling Watches, We Offer Premium after-sale Service. A. 2 Years Warranty. B. 2 Months Hassle-free Return Policy. C. Seller Pays for Return if Item is DOA or not as Described. Fulfilled by Amazon with Fast Shipping. Product Description Features: Elegant design with quartz movement Dial color in white with arabic numerals in black Old pocket watch case brings you back to your memory in youth Good addition to a formal or casual dressing or collecting Daily water resistance (not for showering and swimming) Case material: alloy Chain material: alloy Package included: 1 * Pocket watch 1 * Chain belt 1 * Gift box Take Attention: Once you receive the quartz pocket watch, press the crown at the top of watch, the front plate will open Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time Shipping & Returns We ONLY Ship to Continental US 30 Day Money Back Return Policy Items Ship within 36-72 Hours we dont accept P O Box address",
+  "StartTime": "2017-05-04T10:14:59.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/7c4AAOSwuMZZCv8J/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/03oAAOSw~y9ZCv8O/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/Wx8AAOSwhvFZCv8S/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/KB0AAOSwX61ZCv8X/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/HqwAAOSw7GRZCv8b/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NjEyWDYxMQ==/z/rLMAAOSwlndZCv8d/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/6-wAAOSw-3FZCv8i/$_3.PNG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.13"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hi Watch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hi Watch",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0702874179737",
+        "Name": "EAN"
+      },
+      {
+        "Value": "702874179737",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "SKU": "B00QW8LFBC",
+  "HitCount": "22",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625029461548080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T10:14:59.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.13"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hiwatch-Womens-Spider-Web-Carving-Pattern-Hollow-Out-Antique-Delicate-Pocket-Wa-/162502946154",
+  "Location": "Montclair, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Hiwatch Women's Spider-Web Carving Pattern Hollow Out Antique Delicate Pocket Wa",
+  "Storefront": {
+    "StoreName": "dffsupply_1",
+    "StoreURL": "http://stores.ebay.com/id=1505680338"
+  },
+  "ItemID": "162502946154",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT15H30M18S"
+}

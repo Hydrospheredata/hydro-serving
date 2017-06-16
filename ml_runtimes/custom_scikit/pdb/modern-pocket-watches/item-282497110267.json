@@ -1,0 +1,92 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33126",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product DescriptionThis silver pocket watch can be engraved with initials, a name or message in any of the font styles shown to the left of the sample picture. How To Send Engraving Instructions:Go to your ordersSend engraving instructions in a message. Please include text and font style instructions/comments for engraving and/or product.Double check and reread text to avoid typos. Product FeaturesDiameter:1.875 inches x 1/2 inch Quartz Watch chain size- 14 inchesThe pocket watch can be engraved with any of the font styles shown.Men's Smooth Stainless Steel Case White Dial Roman Numbers Modern Pocket Watch with Chain*IMPORTANT* When customizing your order, please CAREFULLY review your customization order before you submit it. Please review the font style and spelling for accuracy Shipping and Handling Shipments are made to 48 states only. Shipments cannot be combined and cannot be made to PO Boxes or APO. Local pick-up is not available. Your item will be shipped directly from the supplier. In the unlikely event that the item is not delivered, the option for a prompt 100% refund will be issued. Once your payment has been cleared through PayPal, it will typically take 2 to 3 days (Mon-Fri) to process your order prior to shipping. Please take note. An opportunity to do business with you is greatly appreciated.",
+  "StartTime": "2017-05-28T04:12:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3OFgxMTky/z/48UAAOSwOVpXVZu3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3OFgxMTky/z/36cAAOSwnNBXVZvG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5Njg=/z/fq0AAOSwzJ5XVaCn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3OFgxMTky/z/OaUAAOSw9eVXVZu-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3OFgxMTky/z/eV8AAOSwuhhXVZvC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3OFgxMTky/z/JMIAAOSwnFZXVZvK/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.05"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "A & L Engraving",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PW506",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nadzibiz",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824971102678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T04:12:53.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.05"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-Watch-Personalized-Pocket-Watch-Gift-Ideas-Gunmetal-Engraved-Free-/282497110267",
+  "Location": "Miami, Florida",
+  "Title": "Men Watch Personalized Pocket Watch Gift Ideas Gunmetal Engraved Free",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "282497110267",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT9H37M43S"
+}

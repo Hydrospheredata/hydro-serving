@@ -1,0 +1,143 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jeannette, Pennsylvania",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:47:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1111005947",
+    "StoreName": "Tasteful Totes and More"
+  },
+  "CurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:47:06.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245617500",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Michele",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Michele Tahitian Jelly Bean",
+        "Name": "Model"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "35mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michele Tahitian Jelly Bean Petite Rose Gold Tone Watch!! Nwt!! Msrp $345.00",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michele-Tahitian-Jelly-Bean-Petite-Rose-Gold-Tone-Watch-Nwt-Msrp-345-00-/332245617500",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322456175008080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "15644",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H25M16S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODAwWDU4Nw==/z/NRUAAOSwt5hYZyg9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/rHAAAOSw2xRYZyg0/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Tahitian Jelly Beans feature a dose of playful luxury in an irresistible range of colors. With a sporty strap and bezel and rose accents, these timepieces are as undeniably fun as they are luxurious. Case Size - 35 mm Dial - Silver White with Topaz Stones Crystal Type - Mineral Number of Stones - 11 Total Stone Weight - 0.05 ct. Water Resistant - 5 ATM Movement - Three Hand Origin - Imported Comes from a smoke free home. Please message me with any questions. Serious bidders only please!\u00a0 All our product is guaranteed 100% authentic! Payment must be made within 2 days of auction end! An unpaid item case will open if payment is not made within 2 days.\u00a0 Shipment will be made with 1 business day of receiving payment. International buyers!! Please be aware that I am not responsible for any customs fees that may occur, also please do not follow eBays estimated delivery time as I cannot foresee possible delays.\u00a0 Returns accepted within 14 days of receiving the item. Return accepted if item is different from listing or defective. Buyer is responsible for return shipping fees. There will also be a 20% restocking fee. Thank you and happy bidding! Visit our store Tasteful Totes and More for more great product!",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "2797",
+    "UserID": "tastefultotesandmore2014",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_20",
+    "RestockingFeeValue": "20%",
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

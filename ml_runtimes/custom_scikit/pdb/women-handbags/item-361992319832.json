@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDU2WDUwMA==/z/wDUAAOSwi7RZKfTB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzQxWDUwMA==/z/eQ4AAOSwCQZZKfSz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/lGcAAOSwcB5ZKfS1/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Weekend-Duffel-Bag-Gym-Carry-Large-Black-Unisex-Luggage-w-Shoe-Compartment-/361992319832",
+  "ConvertedCurrentPrice": {
+    "value": "63.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW Sweetbriar Classic Duffle Bag - Weekender Duffel with Shoe Compartment FAST EXPEDITED 2-3 BUSINESS DAY SHIPPING!!! Product Features SIDE-ACCESS SHOE COMPARTMENT: Top-Handle Travel Duffle Bag features a side access shoe compartment, separating shoes or other items from the main bag.HIGH-QUALITY METAL REINFORCEMENTS: Additional features include longer-lasting metal connection pieces (not plastic), a removable and adjustable padded shoulder strap, light water resistance to keep interior items safe from moisture.DURABLE INTERIOR: Includes a strong interior lining, mesh inner pocket, and multi-function interior zipper pocket for storage of various small items.STYLE: Carry On Vintage Suitcase Casual Weekend Bag Traveling Travelling Holdall Overnight Trip Accessories Carryon Retro Baggage Case.DIMENSIONS: Large 21\" x 11\" x 12\". Lightweight 1.9 lbs. MATERIALS: Polyester & Vegan Leather with metal accents. Product DescriptionSweetbriar bags are high quality, durable, and stylish bags designed for all-purpose use. SHIPPING NOTE: ---NO SHIPPING OUTSIDE THE CONTINENTAL U.S.A--- This item can be shipped ONLY to the 48 contiguous states in the U.S.A. -- Sorry but we CANNOT ship it to Hawaii, Guam, Puerto Rico, Alaska or internationally. NO INTERNATIONAL SHIPPING. To expedite the delivery of items, all orders are shipped from Distribution Centers to our buyers via Expedited Shipping - 2 to 3 business days. If your address is a P.O. Box then shipment is via Standard Delivery and will take approximately 4 to 6 business days.",
+  "Title": "Weekend Duffel Bag Gym Carry On Large Black Unisex Luggage w/ Shoe Compartment",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "Africa",
+    "Asia",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PR",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "63.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Orange, California",
+  "Seller": {
+    "FeedbackScore": "14794",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "5starplaza"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92866",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-27T22:42:46.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P24DT6H8M5S",
+  "EndTime": "2017-06-26T22:42:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffel Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Sweetbriar"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "361992319832",
+  "Storefront": {
+    "StoreName": "Five Star Plaza",
+    "StoreURL": "http://stores.ebay.com/id=89592528"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Please limit returns/exchanges to defective items only.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3619923198328080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

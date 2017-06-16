@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P16DT15H10M12S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "pcRUSH-Outlet",
+    "StoreURL": "http://stores.ebay.com/id=999883422"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "43.49",
+    "_currencyID": "USD"
+  },
+  "SKU": "1140790",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "391792456858",
+  "ConvertedCurrentPrice": {
+    "value": "43.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-23T05:11:27.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Garmin-Vivofit-2-Style-Collection-Wrist-Bands-Small-Green-Blue-Purple-/391792456858",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-22T05:11:27.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "753759139926",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Garmin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "010-12149-27",
+        "Name": "MPN"
+      },
+      {
+        "Value": "010-12149-27",
+        "Name": "Description1"
+      },
+      {
+        "Value": "Wearable Replacement Bands & Straps",
+        "Name": "Product Type"
+      }
+    ]
+  },
+  "Title": "Garmin V\u00edvofit 2 Style Collection Wrist Bands (Small) (Green/Blue/Purple)",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "Location": "US",
+  "Description": "Garmin V\u00edvofit 2 Style Collection Wrist Bands (Small) (Green/Blue/Purple) Condition: New Mfg Part No. 010-12149-27 Product Information Highlights Features Pack of 3 stylish Jonathan Adler design bands Band Designs: Honeycomb - Green; Greek Key - Blue; Bargello Waves - Purple Small Size Bands: 4.7-6.9\" Shipping We do not ship on Saturdays, Sundays and Holidays. Orders placed after 10 a.m. PST Friday will ship the following Monday. Although we ship to most areas served by our carriers, FedEx, UPS and DHL are unable to deliver to PO Boxes, FPO and APO addresses. We are also unable to ship to international locations and outside the 50 United States. Payment We only accept PayPal payments from Verified Buyers with Confirmed Addresses Credit Cards used for payment through PayPal must be issued by a US Bank with a US billing address Sales Tax: applicable sales tax will be charged to orders shipped to the state of California. Returns We accept returns within 30 days from the original invoice date on your order. Returns cannot be accepted without prior authorization and an RMA number. RMA numbers are valid for 15 days and pcRUSH must receive the returned products within this timeframe. RMA numbers will not be extended or reissued. For our complete Return Policy and FAQ, please click here. Contact Us 1-888-205-7777 1-310-356-5100 1-310-356-5160 M-F 7am-5pm PST - Customer Support Send us a Message",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917924568588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "pcrush-outlet",
+    "FeedbackScore": "38742",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "22",
+  "PaymentMethods": "PayPal",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/DPkAAOSwcB5ZI8SC/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P3DT11H51M",
+  "ListingStatus": "Active",
+  "ConditionDescription": "very good condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "329.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "302336652463",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTH-Chanel-CC-logo-camellia-shape-2-color-barrettes-large-size-hair-pin-/302336652463",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "329.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T23:11:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T23:11:56.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chanel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hair Clip",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "CERAMIC",
+        "Name": "Material"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "AUTH Chanel CC logo camellia shape 2 color barrettes large size hair pin",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Chanel CC logo camellia shape 2 color barrettes hair pin This pin is in used condition hallmark is \u24d2Chanel\u00aeMade in France 03p gold plated size is about W 3.65 x 0.95 inches comes w/ gift box check out the pictures for more details please **Grade** Grade B A: Excellent condition with few scratches and used feeling B: very good condition with pin has little scratches and used feeling C: Normal condition with a bit of scratches and used feeling D: Good enough to use with noticeable scratches 100% Authentic CHANEL Guarantee or money back. **** Shipping Information **** USPS priority mail w/ Tracking #. $10.00 2-3 days for the delivery in US. **** Shipping Information (Worldwide) **** USPS Global Express mail $65 ONLY EMS for ALL International Shipping . ***** International Buyers ***** Please be advised that the Seller is responsible ONLY for the shipping Requested Combined Shipping by the Buyer (2 items / 1 package) Will be recorded as purchased price on Customs Declaration Form. The Duty and Tax are NOT included , Please contact the customs in your country For the detail. ****Payment**** Only through Paypal pls I will ship the merchant w/i 2 days after the payment. Payment is due within 2 days. I DO NOT take any return for any personal reason . Please Bid Responsibly . Any question, pls email me . Thank you .",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023366524638080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kurosake3000",
+    "FeedbackScore": "3215",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "kurosake3000",
+    "StoreURL": "http://stores.ebay.com/id=488951089"
+  },
+  "Quantity": "1",
+  "Location": "las vegas,NV",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/frAAAOSwmrlU09CC/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/chIAAOSwOgdYn2UE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/nLEAAOSwYGFU09CD/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/nNgAAOSwYGFU09CE/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/fYUAAOSwa39U09CF/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry"
+}

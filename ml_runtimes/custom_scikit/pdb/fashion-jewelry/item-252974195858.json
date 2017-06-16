@@ -1,0 +1,145 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P6DT2H48M29S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Never worn",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252974195858",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cornelia-Webb-Bespoke-Draped-Chain-Bolero-/252974195858",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T17:59:25.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-11T17:59:25.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bolero Vest",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Brass, Gunmetal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gunmetal",
+        "Name": "Color"
+      },
+      {
+        "Value": "Cornelia Webb",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chains Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "Cornelia Webb Bespoke Draped Chain Bolero",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Gunmetal-tone brass Cornelia Webb Bespoke draped bolero with curb chain detail oval link bracelets & lobster clasp closures. Designer signature on tag. Retail $1,236.00 Excellent condition Shoulder to wrist length 28\" Bracelet circumference 7.5\" Thanks for looking!",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529741958588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "deniromakes3",
+    "FeedbackScore": "385",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "De Forest, Wisconsin",
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTU2N1gxMjAw/z/Qg0AAOSwvKtY80px/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0tkAAOSw53NY80ot/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1sIAAOSw7U5Y80ov/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "PostalCode": "53532"
+}

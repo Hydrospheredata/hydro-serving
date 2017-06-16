@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/k-AAAOSw~FJZJaQ6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ug8AAOSwZ4dZJaQ7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/1IMAAOSwJH1ZJaQ8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/gJEAAOSwcB5ZJaRF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/utAAAOSwZ4dZJaRH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JE8AAOSwAPVZJaRR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lTMAAOSw~FJZJaRR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/W68AAOSwuMZZJaRZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/T18AAOSwtGlZJaRZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/UvQAAOSww9xZJaRS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/SJMAAOSwX9FZJaRH/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Lululemon-Extra-Mile-Duffel-Cape-Red-Sunny-Coral-/222524401043",
+  "ConvertedCurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Designed with plenty of storage for all of your essentials, this duffel goes the extra mile.Fabric is water-repellent, durable, and easy to wipe cleanMeshBreathable Mesh fabric is lightweight and sweat-wickingbreathablelightweightsweat-wicking",
+  "Title": "NWT Lululemon Extra Mile Duffel in Cape Red/Sunny Coral",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Terrell, Texas",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "thetealdoorboutique"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75160",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-26T00:02:32.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P22DT7H25M25S",
+  "EndTime": "2017-06-25T00:02:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester/Polyurethane/Mesh"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffel Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222524401043",
+  "Storefront": {
+    "StoreName": "thetealdoorboutique",
+    "StoreURL": "http://stores.ebay.com/id=1608140679"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225244010438080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

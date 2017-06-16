@@ -1,0 +1,124 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT3H55M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.9",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "371972012818",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Turkish-Ottoman-Handmade-925-Sterling-Silver-Ruby-Topaz-Sets-Ring-Size-8-/371972012818",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.9",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T15:53:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "TR",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T15:53:44.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 k",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Ruby",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "Topaz",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Lab-Created/Cultured",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Turkish Ottoman Handmade 925 Sterling Silver Ruby Topaz Sets Ring Size 8",
+  "ExcludeShipToLocation": [
+    "CL",
+    "PE",
+    "UY",
+    "TR"
+  ],
+  "BidCount": "0",
+  "Description": "Turkish Ottoman 925 Sterling Silver Ruby Topaz Sets Ring Size 8 Material is 925 K Sterling Silvern and Bronze. The stones are Ruby Topaz.Set weight is 19.5 grams RING SIZE NUMBER ( 8 US ) SilverIstanbul promises best service and product quality.*1 Made in Turkey PaymentPayPal and major credit cards are accepted ShippingItem will be shipped in 1 business after payment receivedIt will be shiped with national postal services of your countryTracking number will be suppliedIt takse 8-12 days to UK, 15-20 days to US and all other countries ReturnsReturns are accepted in 14 days for any kind of reason. Contact and FeedbackPlease use Ebay message system for any kind of requestWe can solve your problem without leaving negative feedbackYour satisfaction is our first priority",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3719720128188080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "UserID": "silveristanbul",
+    "FeedbackScore": "1214",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "silveristanbul",
+    "StoreURL": "http://stores.ebay.com/id=1271356158"
+  },
+  "Quantity": "1",
+  "Location": "Istanbul",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/3gQAAOSwTuJYqFmM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/CKkAAOSw2gxYqFmJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/85YAAOSwax5YqFl8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/CfAAAOSw2gxYqFmS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kY8AAOSw3v5YqFl3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/WPkAAOSw32lYqFmV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/IvEAAOSw~AVYqFmB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/H~QAAOSwfVpYqFmF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/jHcAAOSwOgdYqFmP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/lgYAAOSw3v5YqFmZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

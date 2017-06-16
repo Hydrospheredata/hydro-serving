@@ -1,0 +1,146 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT1H38M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "332251085244",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Large-Dangling-Gold-Tone-Earrings-128-00-/332251085244",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T13:40:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T13:40:57.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kate Spade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Beige, Pearl, Clear Crystal",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kate Spade Large Dangling Gold Tone Earrings $128.00",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Kate Spade Large Dangling Gold Tone Earrings $128.00\" KATE SPADE COLLECTION \"Beautiful Arrangement of Clear Crystal, Faux Tortoise Hoops, Pearl Like Faux StoneGold Tone Hoops DIMENSIONS (APPROX.):Length: 4.5 inchesLarge Hoop Diameter: 1.75 inches GORGEOUS EARRINGS AND GREAT PRICE WHEN COMPARED AT $128.00! THANK YOU FOR VISITING MY SITE!",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322510852448080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mariakozak2014",
+    "FeedbackScore": "430",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "MRK Designer",
+    "StoreURL": "http://stores.ebay.com/id=1267105888"
+  },
+  "Quantity": "1",
+  "Location": "Westlake Village, California",
+  "HitCount": "0",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/wFsAAOSw9GhYbIAl/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NTk4WDQ2Nw==/z/~lgAAOSwo4pYbIO2/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/9roAAOSwo4pYbINM/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NjI1WDQ2OQ==/z/MdcAAOSwA3dYbIAu/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/i00AAOSw5cNYbIAy/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/--0AAOSwo4pYbIOS/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "91361"
+}

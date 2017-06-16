@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Stara Zagora, Stara Zagora",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:49:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:49:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "BG",
+  "ItemID": "361995078829",
+  "HandlingTime": "2",
+  "Description": "Check out my other items! Works VERY RARE MODEL Clock is an antique. clock works This is an old mechanical watch Buy what you see. pictures speak ASK will respond shipment travels with priority and recommendation shipment travels in Europe 14-22 working days USA 22-35 WORKING DAYS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WINTAGE-old-Russian-Soviet-watch-MILITARY-WOSTOK-KOMANDIRSKIE-AMPHIBIA-7-/361995078829",
+  "ConditionDescription": "VERY GOOD CONDITION",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619950788298080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H17M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NMYAAOSwo6lWQhIz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F3YAAOSwo0JWQhIl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WaMAAOSwhcJWQhIf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KaAAAOSw5VFWQhIs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DoIAAOSwT5tWQhI9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LRkAAOSw5VFWQhJF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LfgAAOSw5VFWQhJM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JE4AAOSwAYtWQhJT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HXMAAOSwwbdWQhJd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OpIAAOSwo6lWQhJj/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "WINTAGE old Russian Soviet watch MILITARY WOSTOK KOMANDIRSKIE- AMPHIBIA 7",
+  "Seller": {
+    "PositiveFeedbackPercent": "93.3",
+    "FeedbackScore": "560",
+    "UserID": "ddok75",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

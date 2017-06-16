@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDQw/z/ENkAAOSwZKBZHFhP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk2WDE1MDA=/z/iWQAAOSw-3FZHFhM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk2WDE1MDA=/z/hQQAAOSw9OFZHFhL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/4lUAAOSwhvFZHFhQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NlgxNTAw/z/ukAAAOSwX61ZHFhS/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Arrows-Weekender-Bag-White-Elm-Large-Diaper-Tote-/272675176693",
+  "ConvertedCurrentPrice": {
+    "value": "65.03",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "[zipedit] Arrows Weekender Bag by White Elm Large Diaper Tote Description ORGANIZATION AND STORAGE: 6 total pockets (4 interior open pockets, 2 exterior deep bottle pockets)SPACE TO FIT IT ALL: Large size (19\"x15\"x6\")MANY WAYS TO CARRY: Vegan leather top handles, adjustable & removable cotton long crossbody strapSOFT MATERIAL: Made of durable & washable cotton canvasEASY ACCESS TO YOUR THINGS: Magnetic snap closure allows you to get what you need quickly THE ORIGINAL ARROWS BAG BY WHITE ELM. Take it all with you with this stylish Arrows Weekender Tote Bag! This bag works well as a carry-all, a diaper bag, for school or work, or anything you desire! It has 6 very deep pockets that let you fit it all! Use the vegan leather straps over your shoulder or wear it crossbody with the adjustable and removable strap. Cleaning Instructions: Spot clean recommended for small marks. Do not scrub. Gentle cycle cold with like colors, mild detergent, lay flat to dry. Please note, this bag is not structured and will not stand up on its own. Earn up to 5% cash back with this purchase: Handling Orders usually ship within 3 business days of processed payment. Does not include weekends, holidays, or large freight items. Delivery To keep shipping free for our customers, we cannot ship to Alaska, Hawaii, Puerto Rico, or the Virgin Islands at this time. Delivery estimates do not include weekends, holidays, or large freight items. Return Policy Most items qualify for a money back guarantee within 30 days of receipt. Buyer is responsible for return shipping. Feedback We take our customer's shopping experience seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us through eBay messages and we will work with you to resolve any issues to your satisfaction.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.03",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "689",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "**cmproducts**"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Arrows Weekender Bag by White Elm Large Diaper Tote",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-17T14:04:04.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726751766938080_1.jpg",
+  "TimeLeft": "P13DT22H39M45S",
+  "EndTime": "2017-06-16T14:04:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Teal"
+      },
+      {
+        "Name": "Brand",
+        "Value": "N/A"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272675176693",
+  "Storefront": {
+    "StoreName": "Lynns Best Deals 101",
+    "StoreURL": "http://stores.ebay.com/id=1188678901"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00O2BHVFU",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,71 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "22.27",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "Montreal, Quebec",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:21:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-07T14:21:30.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400248569",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Does not apply",
+      "Name": "UPC"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "29.99",
+    "_currencyID": "CAD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NICE-FASHION-WATCH-SILVER-CASE-RED-GENUINE-LEATHER-BAND-/142400248569",
+  "Title": "NICE FASHION WATCH SILVER CASE WITH RED GENUINE LEATHER BAND",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424002485698080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "H3H1V2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H12M43S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjM3WDYxOA==/z/~yYAAOSwHMJYEjdI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mogAAOSwXeJYEjdb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/z7QAAOSwA3dYEjdP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yVMAAOSwn7JYEjdV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U1IAAOSwcUBYEjdh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8kMAAOSwx2dYEjdn/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "FASHION WATCH LANCASTER MONACO YOU ARE LOOKING AT A FASHION WATCH WITH A WRISTBAND THAT WINDS AROUND YOUR WRIST,THE CASING IS SIVLER IN COLOUR AND MEASURES APPROSIMATELY 1.1/4 \" THE RED BRAND GENUINE LEATHER INCLUDING CASING MEASURES 15\" APPROXIMATELY CONDITION IS VERY GOOD I WILL REPLACE BATTERY WHEN SOLD THE WATCH IS IN WORKING ORDER VERY PRETTY SLEEK WATCH DON'T MISS OUT ON THIS UNIQUE ITEM THAT CAN BE ENJOYED BY TEENS AND ADULTS NO AGE LIMITS! THE PERFECT GIFT TO OFFER IN A CHRISTMAS STOCKING DON'T FORGET TO VISIT MY eBAY SITE THERE ARE MANY GREAT ITEMS I COMBINE SHIPPING COST TO SAVE YOU MONEY 1",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "71",
+    "UserID": "worldcards-4u",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

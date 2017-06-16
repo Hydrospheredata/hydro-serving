@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921407680518080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/h40AAOSw4A5Y2EMm/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Alchemy-Equipment-AEL007-Large-Shoulder-Bag-Black-Wax-Shipping-Free-/192140768051",
+  "ConvertedCurrentPrice": {
+    "value": "476.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Alchemy Equipment AEL007 Large Shoulder Bag - Black Wax by Alchemy Equipment Ships from UK Supplier Other information: AEL007-BLW Related Searches: Alchemy Equipment Men', Alchemy Equipment Bags, Shoulder Bag Bags Weight: 0.99 kg",
+  "Title": "Alchemy Equipment AEL007 Large Shoulder Bag - Black Wax. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "476.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-26T22:39:28.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P22DT6H19M7S",
+  "EndTime": "2017-06-24T22:39:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Alchemy Equipment"
+      },
+      {
+        "Name": "MPN",
+        "Value": "624571504"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140768051",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:126499014:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

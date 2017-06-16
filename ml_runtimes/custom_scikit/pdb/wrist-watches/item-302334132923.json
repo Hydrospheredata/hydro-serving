@@ -1,0 +1,90 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hammond, Indiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:45:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=527741509",
+    "StoreName": "scottve33"
+  },
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:45:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334132923",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "lathin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Pretty Ladies Lathin 14 K Yellow Gold 17 Jewel Vintage Watch Part Repair",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pretty-Ladies-Lathin-14-K-Yellow-Gold-17-Jewel-Vintage-Watch-Part-Repair-/302334132923",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023341329238080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "46324",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H13M57S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kJgAAOSwKfVXKTAx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QwAAAOSwLs5XKTA1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PgoAAOSwYmZXKTA4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rdoAAOSwiYFXKTA~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WxQAAOSwn9lXKTBD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kwUAAOSwubRXKTBH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k40AAOSwhRxXKTBK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/orMAAOSw9ZdXKTBO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XWAAAOSwn9lXKTBg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pFoAAOSw9ZdXKTBj/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Pretty Ladies Lathin 14 K Yellow Gold 17 Jewel Vintage Watch Part RepairThe watch is not working properly. It was wound and ran for several hours but the hour hand seems to have a mind of it\u2019s own. The watch is being sold as is for parts or repair. The watch case is 14 K Yellow gold. The band is 10 K gold filled. The watch measures about 16 mm across. The band is expandable.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "13487",
+    "UserID": "scottve33",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

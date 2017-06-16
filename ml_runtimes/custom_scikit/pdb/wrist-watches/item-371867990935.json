@@ -1,0 +1,95 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Fossil Stainless Steel Men's Automatic Wristwatch with Date 25-Jewels ~ 1-H6013 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-02-15T15:01:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODE3WDEyODA=/z/F54AAOSw4A5YnNfR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5MDQ=/z/FhEAAOSwB-1YnNfT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODYzWDEyODA=/z/esoAAOSwtfhYnNfU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI0WDEyODA=/z/FowAAOSwB-1YnNfW/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "199.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "407",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3718679909358080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-15T15:01:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "199.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Stainless-Steel-Mens-Automatic-Wristwatch-Date-25-Jewels-1-H6013-/371867990935",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Fossil Stainless Steel Men's Automatic Wristwatch with Date 25-Jewels ~ 1-H6013",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "371867990935",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P14DT21H5M14S"
+}

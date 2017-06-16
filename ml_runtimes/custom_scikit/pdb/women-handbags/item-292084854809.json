@@ -1,0 +1,127 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.1.jpg",
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.2.jpg",
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.3.jpg",
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.4.jpg",
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.5.jpg",
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.6.jpg",
+    "https://imagesssl.salefreaks.com/disk4/sfimages20170413/SF.US.4230314b4b484247534d.7.jpg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Womens-Stroll-Around-Baby-Bag-Imperial-Rose-/292084854809",
+  "ConvertedCurrentPrice": {
+    "value": "169.71",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Everyone sparkles a little brighter at the holidays! This holiday inspired product is perfect for gift giving. Stocking-stuffer or under the tree ready. We have the holiday spirit ready for your loved ones. - Pockets: 7 interior slip, 4 exterior;Includes changing pad Vera Bradley Womens Stroll Around Baby Bag, Imperial Rose",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "169.71",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "148",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Womens Stroll Around Baby Bag, Imperial Rose",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T13:28:27.000Z",
+  "HitCount": "30",
+  "TimeLeft": "P9DT21H59M42S",
+  "EndTime": "2017-06-12T13:28:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003410356"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003410356"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15717-D18"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Imperial Rose"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.95 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 20.9 x W 12.5 x H 2.7 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "15717-VB"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084854809",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920848548098080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

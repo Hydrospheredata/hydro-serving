@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921441316708080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDE1MDA=/z/kTAAAOSwB-1Y3S-c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ5WDE1MDA=/z/UmEAAOSwCU1Y3S-c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MjM=/z/M7QAAOSwsW9Y3S-c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NlgxNTAw/z/yecAAOSw4CFY3S-d/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ1NVgxNTAw/z/CCUAAOSwuLZY3S-d/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg0ODI=/z/ThUAAOSwTM5Y3S-c/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mandarina-Duck-MD20-Cross-Body-Bag-black-Shipping-Free-/192144131670",
+  "ConvertedCurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: MD20 Cross Body Bag black",
+  "Title": "Mandarina Duck MD20 Cross Body Bag black. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T16:17:26.000Z",
+  "HitCount": "39",
+  "TimeLeft": "P25DT23H59M48S",
+  "EndTime": "2017-06-28T16:17:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "8032803620798"
+      },
+      {
+        "Name": "UPC",
+        "Value": "8032803620798"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "UK Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144131670",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:98428160:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

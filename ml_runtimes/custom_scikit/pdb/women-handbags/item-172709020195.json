@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTM1/z/Z4wAAOSwZKBZMOdb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/aHcAAOSwi7RZMOde/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/ausAAOSwcB5ZMOdh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/A-EAAOSwIaFZMOdl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ1N1gxNjAw/z/aEcAAOSwZKBZMOdq/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Arrows-Weekender-Bag-White-Elm-Large-Diaper-Tote-Teal-/172709020195",
+  "ConvertedCurrentPrice": {
+    "value": "54.19",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Arrows Weekender Bag by White Elm - Large Diaper Tote Description THE ORIGINAL ARROWS BAG BY WHITE ELM. Take it all with you with this stylish Arrows Weekender Tote Bag! This bag works well as a carry-all, a diaper bag, for school or work, or anything you desire! It has 6 very deep pockets that let you fit it all! Use the vegan leather straps over your shoulder or wear it crossbody with the adjustable and removable strap. Cleaning Instructions: Spot clean recommended for small marks. Do not scrub. Gentle cycle cold with like colors, mild detergent, lay flat to dry. Please note, this bag is not structured and will not stand up on its own. Product Details & Features ORGANIZATION AND STORAGE: 6 total pockets (4 interior open pockets, 2 exterior deep bottle pockets)SPACE TO FIT IT ALL: Large size (19\"x15\"x6\")MANY WAYS TO CARRY: Vegan leather top handles, adjustable & removable cotton long crossbody strapSOFT MATERIAL: Made of durable & washable cotton canvasEASY ACCESS TO YOUR THINGS: Magnetic snap closure allows you to get what you need quickly Product Dimensions: 19 x 6 x 15 inchesShipping Weight: 1.4 poundsItem model number: TAWT06 Shipping & Handling Your order leaves our fulfillment centers within one day and tracking information will be provided shortly after. Please verify your address at checkout as we cannot change the address after purchase are not responsible for wrong or undeliverable addresses. AK, HI, PO boxes, or APO addresses is not available. Sales Tax Having Nationwide fulfillment centers require us to charge tax in the following states. AlabamaArkansasArizonaCaliforniaColoradoConnecticutDist. of ColumbiaFloridaGeorgiaIowaIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMichiganMinnesotaMissouriMississippiNorth CarolinaNorth DakotaNebraskaNew JerseyNevadaNew YorkOhioOklahomaPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVermontWashingtonWisconsinWest VirginiaWyoming Return Policy A 15% restocking fee will be charged on all returns within our acceptable 14 day return window.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.19",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "2678",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "prettypotato"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Arrows Weekender Bag by White Elm - Large Diaper Tote Teal",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T04:19:57.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727090201958080_1.jpg",
+  "TimeLeft": "P29DT13H59S",
+  "EndTime": "2017-07-02T04:19:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "TAWT06"
+      },
+      {
+        "Name": "Color",
+        "Value": "Teal"
+      },
+      {
+        "Name": "Brand",
+        "Value": "White Elm"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172709020195",
+  "Storefront": {
+    "StoreName": "PrettyPotato",
+    "StoreURL": "http://stores.ebay.com/id=1165816927"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), 15% restock will be changed for all returns.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00O2BHVFU",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:06:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:06:51.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245584917",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "MK5445",
+        "Name": "Model"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors MK5445 Women's Rose  gold Watch Beautiful New",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-MK5445-Womens-Rose-gold-Watch-Beautiful-New-/332245584917",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322455849178080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H42M19S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg1MDg=/z/KlkAAOSwc-tY1l0E/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand new 100% authentic Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

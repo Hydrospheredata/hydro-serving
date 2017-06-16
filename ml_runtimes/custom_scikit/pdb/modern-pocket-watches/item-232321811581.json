@@ -1,0 +1,144 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:31387",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand Name:SenorsItem Type:Quartz WristwatchesCase Shape:RoundBoxes & Cases Material:PaperFeature:Shock ResistantStyle:Fashion & CasualBand Length:27Dial Diameter:37Clasp Type:BuckleCase Thickness:10Case Material:Stainless SteelModel Number:HOM2015123121Band Width:20Movement:QuartzWater Resistance Depth:No waterproofGender:MenBand Material Type:FabricDial Window Material Type:GlassBand With:20mm to 29mmBand Width:About 2cmClasp Type:BuckleItem Type:WristwatchesDial Material Type:AcrylicCondition:New without tagsDial Display:Analog",
+  "StartTime": "2017-05-03T10:03:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk1WDg5NQ==/z/~IAAAOSwhQhYxtRE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk1WDg5NQ==/z/~RUAAOSwhQhYxtRI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk1WDg5NQ==/z/9Z8AAOSw4A5YxtRO/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "SecondaryCategoryID": "31387",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Senors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "HOM2015123121",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "aminalla_0",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T10:03:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "Country": "CN",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White"
+        ],
+        "Name": "Face Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Face Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black"
+        },
+        {
+          "VariationSpecificValue": "White"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "12.0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Face Color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "10.0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Face Color"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "california",
+  "Title": "Creative Luxury Fashion Black & White Strap Watch Men  Casual Males",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Creative-Luxury-Fashion-Black-White-Strap-Watch-Men-Casual-Males-/232321811581?var=",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232321811581",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "TimeLeft": "P1DT15H18M20S"
+}

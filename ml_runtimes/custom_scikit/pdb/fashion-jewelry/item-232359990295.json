@@ -1,0 +1,80 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT2H53M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "47.77",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232359990295",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Jay-Lane-KJL-Pave-Crystal-Cocker-Spaniel-Dog-Brooch-Pin-Original-Pouch-/232359990295",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "47.77",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T15:47:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T15:47:16.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Dog",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Clear Crystals Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kenneth Jay Lane KJL Pave Crystal Cocker Spaniel Dog Brooch Pin & Original Pouch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful Sparkling Vintage Kenneth Jay Lane Cocker Spaniel Dog Pin\u00a0 Condition: Like new/Mint with original pouch\u00a0 Details: \u2022 Goldtone cocker spaniel dog with red collar accent\u00a0 \u2022 Pave sparkling clear crystal rhinestones\u00a0 \u2022 Emerald green crystal eyes\u00a0 \u2022 Original red signature pouch\u00a0 \u2022 Signed hallmark KJL in back",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323599902958080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jamies-gems",
+    "FeedbackScore": "1549",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Mechanicsburg, Pennsylvania",
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzAz/z/Y2YAAOSw44BYYBp9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzQ4/z/5-kAAOSwnHZYYBp1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/nWMAAOSwZQRYYBpz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTU3/z/7W0AAOSw5cNYYBp4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/7aoAAOSw5cNYYBp7/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "17055"
+}

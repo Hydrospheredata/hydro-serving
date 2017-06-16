@@ -1,0 +1,128 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "AR",
+    "BO",
+    "CL",
+    "MX",
+    "BH",
+    "IQ",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "MV",
+    "MN",
+    "NP",
+    "RU",
+    "TM",
+    "UZ",
+    "VU",
+    "RO",
+    "ES",
+    "UA"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "24354",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "knifeguy78",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "33596",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Shipping Checkout Returns Shipping Domestic shipping is always free of charge. International shipping charges for are calculated by the total weight of your package. To receive combined shipment rates you must wait to pay until all desired items have ended and been combined onto a single invoice. We usually ship items out 1 to 2 business days from payment receipt. We do not ship on weekends or postal holidays. INTERNATIONAL SHIPPING / INTERNATIONAL MAIL DISCLAIMER Delivery to some countries may be delayed due to customs inspections or holds.Delivery to many International destinations can take as long as four weeks. Please allow this amount of time for delivery. Some countries may charge additional import duties, payable by the recipient of the order. We cannot assume responsibility for delays, import duties, taxes, shipping charges for returned parcels or customs confiscations. Checkout We accept Paypal payments only. With Paypal you can use all major credit cards or e-check. Payments must be received within \u00a07 business Days or unpaid case will be open. TAX & Local Pick Up We Provide Free Local Pick Up on all orders Orders must be Prepaid before Pickup Contact Us for Pick Up Address (We are not open to the public. For security and insurance purposes only customers with cleared payments will be given our will call address) SC Customers will be charged 7% Sales Tax. We Accept Payment by: PayPal Visa Mastercard Amex Returns We do accept returns up to 14 days from purchase date. You can file a return with eBay by clicking on the drop down menu of item purchased.\u00a0 There will be a 10% return fee to cover shipping fees. Return Items must be in Mfg packaging and in new condition in order for a refund. Shop By Brand Shop By Price From: $0-$150 | $150-$250 | $250-$500 | $500-$1000 | $1000 + Information About Us F.A.Q. Contact Us Why buy from us All Listings Buy It Now Ending Soon Top Brands Aitor Flexcut Schrade Follow Us Facebook Twitter Store Search Search Our Store SEARCH knifeguy78 |\u00a0eBay Templates Design by Geografixx.com",
+  "StartTime": "2017-05-01T14:28:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjcwWDM2MQ==/z/si8AAOSwrhBZB0Yc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUwWDUxNQ==/z/5GYAAOSwnONZB0Yc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUwWDQ0OQ==/z/SScAAOSwT-FZB0Yc/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.03"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "5",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Infinity",
+        "Name": "Brand"
+      },
+      {
+        "Value": "IW42",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "SKU": "COIW42",
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3820676053998080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-30T14:28:46.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.03"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Infinity-Wild-Bill-Hickock-Pocket-Watch-P-236-White-face-gold-hands-and-ima-/382067605399",
+  "Location": "Marion, Virginia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Infinity Wild Bill Hickock Pocket Watch P-236 White face with gold hands and ima",
+  "Storefront": {
+    "StoreName": "knifeguy78",
+    "StoreURL": "http://stores.ebay.com/id=768204261"
+  },
+  "ItemID": "382067605399",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT19H43M14S"
+}

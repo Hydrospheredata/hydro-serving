@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Laura-Moretti-Leather-bag-interior-zip-pocket-SATCHEL-style-Free-Shipp-/192144373485?var=",
+  "ConvertedCurrentPrice": {
+    "value": "194.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Two top handles. Detachable shoulder strap. Top zipper closure. Interior zip pocket.",
+  "Title": "Laura Moretti - Leather bag with interior zip pocket (SATCHEL style). Free Shipp",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "194.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Red",
+        "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/790/130/311069061/original.jpeg"
+      },
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": {
+      "Quantity": "1",
+      "StartPrice": {
+        "value": "194.0",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:139790130:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour Name",
+          "Value": "Red"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": "Red"
+      }
+    }
+  },
+  "StartTime": "2017-03-30T22:45:57.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P26DT6H28M15S",
+  "EndTime": "2017-06-28T22:45:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Laura Moretti"
+      },
+      {
+        "Name": "MPN",
+        "Value": "288900013"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144373485",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139790129:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

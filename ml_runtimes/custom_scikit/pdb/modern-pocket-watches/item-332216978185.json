@@ -1,0 +1,101 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "SteAMPunk pocket WAtch necklace AnTIque worn out style comes in FrEE GiFt BoX",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.25"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "SteAMPunk pocket WAtch necklace AnTIque worn out style comes in FrEE GiFt BoX Product Features Steampunk pocket watch necklace Unique vintage worn out look Pendants is 2-1/3\" tall x 1-2/3\" wide , necklace chain is 18\" long. Necklace comes in Free Gift Box Note: Item is not working watch, pendant is prop only. Product Description",
+  "StartTime": "2017-05-11T21:41:43.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk4WDEwMDA=/z/uV8AAOSwaEhZFNqS/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/4SIAAOSwX9FZFNqW/$_3.PNG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "umbrellalaboratory",
+        "Name": "Brand"
+      },
+      {
+        "Value": "umbrellalaboratory",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0700256538455",
+        "Name": "EAN"
+      },
+      {
+        "Value": "700256538455",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "golden-twice",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "34",
+    "PositiveFeedbackPercent": "96.9"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322169781858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T21:41:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.25"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "SKU": "B01GIP6ZCC",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SteAMPunk-pocket-WAtch-necklace-AnTIque-worn-out-style-comes-FrEE-GiFt-BoX-/332216978185",
+  "Storefront": {
+    "StoreName": "golden-Twice",
+    "StoreURL": "http://stores.ebay.com/id=1370776305"
+  },
+  "ItemID": "332216978185",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT2H59M23S"
+}

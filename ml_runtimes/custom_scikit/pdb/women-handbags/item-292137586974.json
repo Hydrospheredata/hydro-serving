@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/1n4AAOSwcB5ZJ4Dl/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/WjkAAOSwuMZZJ4EU/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/QsMAAOSwZKBZJ4Eh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/wCIAAOSwurZZJ4Eq/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Lug-Via-Bag-Convertible-North-South-Backpack-Tote-Black-Dot-Crinkle-Nylon-/292137586974",
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Lug Bag Via. Newly Released Style, Hard to Find. Black Dots Color. Versatility is key when it comes to this 3-in-1 travel bag, which features a wide bag mouth to make searching for your goodies even easier. Turn it into a backpack by untucking the hideaway straps, or hold it stylishly over the shoulder! This beauty is complete with an abundance of pockets and lots of ways to keep organized on the go. Measures approximately 13\"W x 15\"H x 7\"D with a 3-1/2\" handle drop, 13\" to 27\" strap drop, and a 9\" to 13\" backpack strap drop Weight: Approximately 2 lbs 3 oz Features:Wide mouth opening on the top Two soft lined accessories pocket Side cargo water bottle holder and removable key fob Protects both RFID and and contactless smart cards Front pocket with snap closure and includes 2 clear card slots Insulated back zipper compartment Luggage strap and hideaway backpack strap Adjustable and removal shoulder strap",
+  "Title": "New Lug Via Bag. Convertible North/South Backpack Tote. Black Dot Crinkle Nylon.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Bessemer, Alabama",
+  "Seller": {
+    "FeedbackScore": "466",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "alabamacutie"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "35022",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T03:22:01.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT12H48M28S",
+  "EndTime": "2017-07-02T03:22:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lug"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137586974",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921375869748080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

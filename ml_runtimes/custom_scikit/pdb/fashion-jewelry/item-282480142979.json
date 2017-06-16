@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT13H40M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282480142979",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Gold-Plated-crystals-Bridal-Wedding-Bollywood-Crystal-Waist-Belly-Chain-/282480142979",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-16T05:03:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T05:03:14.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Belly",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Glam Jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper",
+        "Name": "Metal"
+      },
+      {
+        "Value": "gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Antique Gold Plated crystals Bridal Wedding Bollywood Crystal Waist Belly Chain",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~~~ This Listing is for ~~~Beautifully designed antique rhinestones gold plated belly waist sari chain as shown in the pic.Would look sexy even with belly dance costumes.Adjustable up to 38 inches.",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824801429798080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "glamjewels",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "SUNAM, PUNJAB",
+  "HitCount": "37",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTI4WDgwMA==/z/clQAAOSw7GRZGocS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMwWDgwMA==/z/hc0AAOSwAPVZGocV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDc4MQ==/z/eboAAOSwX61ZGocX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAyWDgwMA==/z/M5kAAOSww5hZGocj/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "148028"
+}

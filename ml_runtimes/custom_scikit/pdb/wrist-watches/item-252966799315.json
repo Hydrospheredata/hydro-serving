@@ -1,0 +1,155 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529667993158080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T11:12:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T11:12:03.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "I'm not interested in these brand watches anymore but it's stool in good condition. The band has some scratches",
+  "BuyItNowPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966799315",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "G-SHOCK",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "24-Hour Dial",
+          "Alarm",
+          "Backlight",
+          "Date Indicator",
+          "Moon Phase",
+          "Multiple Time Zones",
+          "Shock-Resistant",
+          "Timer"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Teen",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "g shock g7900",
+  "ConditionDescription": "some scratches on the band still in good condition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/g-shock-g7900-/252966799315",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "7",
+  "PostalCode": "11219",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Brooklyn, New York",
+  "TimeLeft": "P9DT19H51M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTA3WDY0OA==/z/r7oAAOSwEHpZLqT7/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "andma910",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

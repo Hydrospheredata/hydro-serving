@@ -1,0 +1,78 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT19H14M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "48.0",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "201946683784",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Les-Nereides-Manoush-hamsa-hand-fatima-earrings-new-RARE-/201946683784",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "61.84",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T06:03:19.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "true",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T06:03:19.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Les Nereides Manoush",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "hamsa Fatima hand",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "Les Nereides & Manoush hamsa  hand fatima earrings new  RARE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Les Nereides hands of fatima earring Manoush designed these earrings in collaboration with Les nereides Paris brass with gold plating and red beads come brand new Brand New Rare Signed See photos for best description CLEARING MY WARDROBE - WHY NOT CHECK THE OTHER ITEMS I AM SELLING?",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019466837848080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "wardrobeoverloaded",
+    "FeedbackScore": "381",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "London",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/P3MAAOSwcaFZGLmr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/atEAAOSwGJlZGLm9/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "NW7 4AX"
+}

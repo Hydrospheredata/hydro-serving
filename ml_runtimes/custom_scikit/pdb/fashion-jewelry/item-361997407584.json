@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT5H27M24S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "HAND CRAFTED. GENUINE CORAL AND TURQUOISE BEADS.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "361997407584",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Genuine-Pink-Coral-Turquoise-Crystal-Sterling-Silver-P-Eye-Glass-Chain-Holder-/361997407584",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T16:27:07.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T16:27:07.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PINK CORAL",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Sterling Plated Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Mixed Materials",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "925",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "Genuine Pink Coral Turquoise Crystal Sterling Silver P. Eye Glass Chain Holder",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HAND CRAFTED BY ISLAND GIRL JEWELRY DESIGN CREATED WITH GENUINE 8mm PINK CORAL SEMI-PRECIOUS GEMSTONES, 8mm TURQUOISE, 6mm CLEAR AB AUSTRIAN CRYSTALS, SILVER TONE CRYSTAL SPACERS AND SMALL SILVER TONE ROUND FINDINGS LIGHT WEIGHT EYE GLASS CHAIN IS 925 STERLING PLATED SILVER ROLO CHAIN SILVER TONE EYE GLASS BUDS NOTE THAT CHAIN WORKS BEST WITH MEDIUM TO LIGHT WEIGHT EYEGLASS WEAR EYE GLASS CHAIN MEASURES 29\" (EYE GLASSES IN PHOTO NOT INCLUDED) WOULD MAKE A FABULOUS GIFT OR SOMETHING FOR YOU SURE TO BE NOTICED AND ADMIRED BUYER TO ASSUME ALL COSTS POSTED QUESTIONS ARE WELCOME SHIPS WORLD WIDE TO MOST COUNTRIES THANKS FOR YOUR CONSIDERATION",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3619974075848080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ckimodog",
+    "FeedbackScore": "8418",
+    "FeedbackRatingStar": "Green"
+  },
+  "Quantity": "1",
+  "Location": "Overland Park, Kansas",
+  "HitCount": "79",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAzNlgxNjAw/z/thUAAOSwi7RZMZEd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAxOVgxNjAw/z/0gEAAOSw1WJZMZEs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDI4/z/f5UAAOSwIQdZMZE9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/e5kAAOSw~FJZMZFM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/VsAAAOSwn-tZMZFb/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "PostalCode": "66214"
+}

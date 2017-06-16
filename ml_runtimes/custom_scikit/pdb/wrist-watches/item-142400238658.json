@@ -1,0 +1,156 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:08:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=659724323",
+    "StoreName": "dailyetrade"
+  },
+  "CurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:08:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SHARK",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Day & Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "AU",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "KW",
+    "TR",
+    "YE",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM"
+  ],
+  "ItemID": "142400238658",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SHARK LED Date Black Red Quartz Stainless Steel Men Analog Army Sport Watch",
+  "NewBestOffer": "false",
+  "SKU": "SH197",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SHARK-LED-Date-Black-Red-Quartz-Stainless-Steel-Men-Analog-Army-Sport-Watch-/142400238658",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424002386588080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H58M28S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/CTsAAOSwxu5ZKCjd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg0WDEwMDA=/z/xJwAAOSwBt5ZIJcT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/xgMAAOSwGJlZIJcU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc2WDEwMDA=/z/fygAAOSwDiBZIJcU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg4WDEwMDA=/z/RQkAAOSwurZZIJcV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzNVgxMDAw/z/b8UAAOSwlndZIJcV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY1WDEwMDA=/z/FxAAAOSwcgNZIJcW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjBYMTAwMA==/z/JBYAAOSwlY1ZIJcT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjczWDEwMDA=/z/mE0AAOSw9OFZIJcV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzN1gxMDAw/z/m8QAAOSwYvFZIJcV/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "84789",
+    "UserID": "dailyetrade",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault.\nWe will replace the defective item at no extra cost. \nPlease return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim\nAny items returned to us in working order will be sent back at the buyers cost."
+  }
+}

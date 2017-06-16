@@ -1,0 +1,82 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT23H42M59S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "510.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "2117-9301-17",
+  "ItemID": "332252001280",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-HERMES-Studs-Leather-Bracelet-Brown-/332252001280",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "510.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:17:53.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:17:53.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermes",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "AUTHENTIC HERMES Studs Leather Bracelet Brown",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "\u25baITEM NO. 2117-9301-17 \u25baNAME HERMES Studs Leather Bracelet\u00a0 \u25baMODEL NO. O\u25a1 \u25baCOLOR Brown \u25baMATERIAL Leather \u25baAPPROX SIZE Wrist Circumference: 16\uff5e20cm / 6.3\uff5e7.9in \u25baADDITIONAL ITEMS Box / Dust Bag\u00a0 \u25baITEM RANK Used AB Rank\u00a0 \u00a0 \u25baCONDITION DETAILS -Scrapes, stains and small scratches on the leather -Scratches on the studs All our items are also available for purchase on other various shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. \u00a0 REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-0084 TEL:+81-78-242-1248 \u00a0FAX:+81-78-242-0628",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322520012808080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "reference-shop",
+    "FeedbackScore": "1834",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "reference-shop",
+    "StoreURL": "http://stores.ebay.com/id=1082920074"
+  },
+  "Quantity": "1",
+  "Location": "Chuoku Kobeshi, Hyogo",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzU3WDU0Mw==/z/xuYAAOSw5ZBWG2e3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/3VMAAOSwhcJWG2e5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/v9UAAOSwI-BWG2e8/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000"
+}

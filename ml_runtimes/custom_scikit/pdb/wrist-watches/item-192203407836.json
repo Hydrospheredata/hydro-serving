@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bakersfield, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:32:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=79437064",
+    "StoreName": "hersty79"
+  },
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:32:11.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203407836",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CASIO GPX-1000 DIGITAL 902 GPX-1000 JAPAN T VINTAGE WATCH Parts/repair",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CASIO-GPX-1000-DIGITAL-902-GPX-1000-JAPAN-T-VINTAGE-WATCH-Parts-repair-/192203407836",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922034078368080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "93301",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H24M24S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/dZMAAOSwvgdW6elI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/7x8AAOSwyjBW6elO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/72wAAOSwyjBW6elQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/1ikAAOSwZ8ZW6elT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/7dEAAOSwv9hW6elV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/1tEAAOSwZ8ZW6elX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/qn0AAOSwu1VW6ela/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Took this to the watch repairman who installed a new battery but it would not turn on. It's being sold for parts or repair with no returns accepted.\u00a0 Box 2A",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "2025",
+    "UserID": "hersty79",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

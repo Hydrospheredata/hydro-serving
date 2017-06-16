@@ -1,0 +1,256 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.89",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "MY",
+  "Location": "Malaysia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:22:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "9",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1420723726",
+    "StoreName": "nyanraja"
+  },
+  "CurrentPrice": {
+    "value": "5.89",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T13:22:17.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "103760|20279456",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "AU",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IS",
+    "IE",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "GB",
+    "VA"
+  ],
+  "ItemID": "252966920380",
+  "HandlingTime": "2",
+  "Description": "Description Shipping Payment Return Policy & Feedback Contact US Image Show Description Features: 3Colors for your choosing Date display Small dials just for decoration, no function Waterproof: daily life's water resistant, but not for bathing, swimming, diving, etc Description: 100% Brand new and high quality Color: As picture show Material: Alloy Movement: Quartz Case Material: Stainless steel Band Material: Stainless steel Band Length: 22cm Package Include: 1 X Wristwatch Shipping Item will be shipped within 24 -48 hours after full payment is received. The Item will be shipped by air mail\uff0cNormally the shippment to worldwide is used to take 20 to 25 business days, exclude Sat & Sun. Payment We only accept payment through Paypal. Payment must be received in 7 business days of auction closing. Any special request cannot be accepted after 24 hours of payment, because most of orders will be processed instantly and same day dispatched. Contact Us We care about our valued buyers, if you have any questions, our Customer Service staffs will be very glad to help you. We try our best to reply your email as soon as possible, please kindly allow 24 hours(working day) for us to response. Thank you.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Luxury-Mens-Black-White-Stainless-Steel-Quartz-Analog-Sport-Wrist-Watch-/252966920380?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Manufacturer Part number"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "5.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "103760_1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "5.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "103760_2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "5.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "103760_3",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Blue",
+          "White"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/NKgAAOSw3ZRY945E/$_3.JPG"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/g9sAAOSwvihY945K/$_3.JPG"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/S6wAAOSwJ4hY945Q/$_3.JPG"
+        }
+      ],
+      "VariationSpecificName": "color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT22H9M43S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/v0EAAOSwAPVZLsOH/$_3.JPG"
+  ],
+  "Title": "Fashion Luxury Mens Black White Stainless Steel Quartz Analog Sport Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "16746",
+    "UserID": "name_again",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/oRAAAOSwIQdZL4Gh/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Genuine-leather-Backpack-bookbag-designer-bag-brown-black-PURSE-Laptop-Bag-/263013958318?var=",
+  "ConvertedCurrentPrice": {
+    "value": "148.8",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New leather HandBag Shoulder Women bag brown black hobo tote purse designer lady<TITLE> <META name=\"New leather HandBag Shoulder Women bag brown black hobo tote purse designer lady\" content=\"\"New leather HandBag Shoulder Women bag brown black hobo tote purse designer lady> <META name=\"New leather HandBag Shoulder Women bag brown black hobo tote purse designer lady\" content=\"New leather HandBag Shoulder Women bag brown black hobo tote purse designer lady\"> <HEAD> <BODY> authentic tote hobo satchel brown black Shoulder Messenger, Cross Body Baguette inspired fashion lovely girls dooney, cute lady stylish chic vintage pu briefcase dark clutch, faux leather black patent cheap bags vintage duffle travel, red wholesale business soft online handmade big large whit, sleeping Clutch classic Designer Carmel Blue Navy Clutch Shoppers faux leather Cross Body Baguette, cute lady stylish chic vintage pu briefcase dark, ed wholesale business soft online handmade big large whit, Cross Body Baguette inspired fashion lovely girls dooney, classic Designer Carmel Blue Navy Red <BODY> <HTML></font> Feedbackif you have any problem please contact us firstWe will do our best to solve ShippingProducts will be sent to the Korea International Air Mail ReturnItems must be returned to its original stateItems will be refunded after checking ContactIf you have any inquiries or concerns regarding you items Please Contactwe will be glad to assist you as quickly and effcientiy as possibie ShippingProducts will be sent to the Korea International Air Mail ReturnItems must be returned to its original stateItems will be refunded after checking ContactIf you have any inquiries or concerns regarding you items Please Contactwe will be glad to assist you as quickly and effcientiy as possibie",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "148.8",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Dangjin-gun, Chungcheongnam-do, default",
+  "Seller": {
+    "FeedbackScore": "345",
+    "PositiveFeedbackPercent": "93.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "hyesun11"
+  },
+  "PrimaryCategoryID": "169292",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Genuine leather Backpack bookbag designer bag brown black PURSE Laptop Bag",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "148.8",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "color.",
+            "Value": "black"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "148.8",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "color.",
+            "Value": "gray"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "148.8",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "color.",
+            "Value": "Navy"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "color.",
+        "Value": [
+          "gray",
+          "Navy",
+          "black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-06-01T03:00:38.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT12H16M48S",
+  "EndTime": "2017-07-01T03:00:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Unbranded"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Korea, Republic of"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013958318",
+  "Storefront": {
+    "StoreName": "hyesun11",
+    "StoreURL": "http://stores.ebay.com/id=1055576314"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "KR",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

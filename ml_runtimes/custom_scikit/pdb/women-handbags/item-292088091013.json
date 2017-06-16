@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/bmMAAOSwWWxY9Fjw/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Preferred-Nation-Rush-Sports-Travel-Duffel-Black-/292088091013",
+  "ConvertedCurrentPrice": {
+    "value": "59.58",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! 9539-Black Color: Black Features: -Spacious main compartment. -Ultra padded, detachable shoulder strap. Exterior Color: -Red. Exterior Material: -Polyester. Lining Material: -Polyester. Dimensions: Overall Height - Top to Bottom: -12.5\". Overall Width - Side to Side: -26\". Overall Depth - Front to Back: -11\". Overall Product Weight: -3.5 lbs. - Spacious main compartment - Dual vented wet pockets are ideal for shoes and wet items or towels - Double side pockets hold accessories and toiletries - Twin mesh pockets up front hold water bottles - Detachable shoulder strap Preferred Nation The Rush Sports Travel Duffel, Black",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.58",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Preferred Nation The Rush Sports Travel Duffel, Black",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T05:55:57.000Z",
+  "HitCount": "48",
+  "TimeLeft": "P13DT13H46S",
+  "EndTime": "2017-06-16T05:55:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "044759953910"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0044759953910"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Preferred Nation"
+      },
+      {
+        "Name": "MPN",
+        "Value": "9539-Black"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Sports"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 23 x W 23 x H 4 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "9539"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088091013",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920880910138080_1.jpg",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

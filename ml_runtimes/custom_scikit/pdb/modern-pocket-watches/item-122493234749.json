@@ -1,0 +1,61 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "76001",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This gold Ciprini pocket watch is in perfect condition. It runs great and is a great looking Watch.",
+  "StartTime": "2017-05-12T19:18:16.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/vbQAAOSwB-1Yxu-a/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/2asAAOSwax5Yxu-c/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/npcAAOSwOddYxu-d/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ntgAAOSwOddYxu-f/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/PAQAAOSwsW9Yxu-g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/n3wAAOSwOddYxu-i/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "aces0979",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "75.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1224932347498080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-11T19:18:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Gold-Ciprini-Pocket-Watch-/122493234749",
+  "Location": "Arlington, Texas",
+  "Title": "Men's Gold Ciprini Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "122493234749",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT36M38S"
+}

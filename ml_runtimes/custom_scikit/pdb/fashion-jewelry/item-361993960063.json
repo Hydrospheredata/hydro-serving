@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P23DT11H24M39S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "361993960063",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-Cuff-Bracelet-wristband-Johnny-Depp-Custom-watchband-Made-NYC-USA-/361993960063",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T01:24:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T01:24:16.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Matara",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Leather cuff",
+        "Name": "Theme"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Leather Cuff Bracelet wristband Johnny Depp Custom watchband Made in NYC USA!",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "MATARA DESIGN CUSTOM LEATHER THANK YOU FOR YOUR INTEREST IN MY CUSTOM HANDCRAFTED LEATHER GOODS! PRODUCT DESCRIPTION This 2.25\" wide leather cuff is made using the best natural vegetable tanned leather that is hand dyed a beautiful deep brown. It is custom sized for you and then hand worked, waxed and finished. The edges are perfectly beveled, slicked and sealed. This is a replica of the original Depp cuff. 2 quality stainless buckles provide the closure! Can be made to fit your watch or be worn alone, like it was originally. Thanks for checking out my work, all hand made by me in my Williamsburg Brooklyn Workshop! Private appointments and custom orders accommodated. I'll need your wrist size for this cuff! I Can size it for men or women!!!",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619939600638080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "matara_design",
+    "FeedbackScore": "6304",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Matara Design Custom Leather",
+    "StoreURL": "http://stores.ebay.com/id=74725241"
+  },
+  "Quantity": "5",
+  "Location": "NEW YORK CITY",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/n30AAMXQBg5RrrEM/$T2eC16N,!)cE9s4PsSNhBRrrEMRli!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/atAAAOxyB0VRrrEN/$(KGrHqV,!oEFEGe)Dqk(BRrrEM8IPQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxNTk5/z/6aMAAOxy4c5RrrEX/$T2eC16d,!w0E9szN,F+2BRrrEWlRSg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

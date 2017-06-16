@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Mainland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:56:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1388736030",
+    "StoreName": "greatdil"
+  },
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:56:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "KIMIO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "RU",
+    "BA",
+    "HR",
+    "CZ",
+    "EE",
+    "CR",
+    "PR",
+    "BN",
+    "BR",
+    "LK",
+    "FJ"
+  ],
+  "ItemID": "282502480232",
+  "HandlingTime": "3",
+  "Description": "Welcome Generally speaking. the shipping time to many country normal is 18 - 42 working days, (Italy and Brazil 30- 60) working days. [because of strict custom inspection]. If you do not have enough time to wait. please do not to buy. thanks for understand. Famous Brand KIMIO Luxury Watch Women Small Quartz-watch Heart Love Band Fashion Ladies Bracelet Watches Women Watches Female Item specifics Brand Name: KIMIO Item Type: Quartz Wristwatches Case Material: Alloy Dial Window Material Type: Hardlex Water Resistance Depth: 3Bar Movement: Quartz Dial Diameter: 17 mm Clasp Type: Hook Buckle Boxes & Cases Material: No package Gender: Women Style: Fashion & Casual Feature: Shock Resistant,Water Resistant Band Material Type: Alloy Case Shape: Round Band Length: 20 cm Band Width: 8 mm Case Thickness: 6 mm Model Number: K018 kimio: kimio watches women wristwatches: kimio women watch fashion watch: casual Watch color watch: black, white, pink, sky blue, purple, deep blue Relogios: Relogios Masculinos watch women: brand women watch wrist watch women: watch women famous brand montre femme: Kimio Wrist watches for women luxury watch women: women bracelet watch watch female: women brand watch Please message me your selected color",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Famous-Brand-KIMIO-Luxury-Watch-Women-Small-Quartz-watch-Heart-Love-Band-Fashion-/282502480232",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825024802328080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H51M23S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQxWDc5MA==/z/jXcAAOSwaB5XqCIv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcwWDc1MA==/z/~F8AAOSwHoFXqCJG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDY1WDc1MA==/z/zxcAAOSw0UdXqCJY/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Famous Brand KIMIO Luxury Watch Women Small Quartz-watch Heart Love Band Fashion",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "140",
+    "UserID": "greatdil",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

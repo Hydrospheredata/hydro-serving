@@ -1,0 +1,386 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDU1Mg==/z/xiUAAOSwo4pYUbIJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk3WDU3Ng==/z/nY4AAOSwnHZYUbIJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Floto-Procida-Italian-Leather-Handbag-Women-/391652357965?var=",
+  "ConvertedCurrentPrice": {
+    "value": "143.09",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store Floto Procida Italian Leather Handbag for Women Procida Handbag comes in four colors - Olive Brown (similar to Honey Brown), Tuscan Red, Apple Green, and Black. The interior of this leather bag is lined with rugged 100% Cotton/Denim and includes an inside zip compartment and additional cell phone / iphone pocket. Procida Handbag is handmade in Tuscany using Italian polished calf-skin leather and old world craft methods. The result is a rugged yet supple leather bag with unquestionable quality and durability. We stand by our leather bags and guarantee they will last so you get as much enjoyment out of them as we have! Procida Features: 7\" high x 6 \" wide x 12 \" long 7\" Drop Italian Polished Calf-Skin Leather Stainless Steel Hardware Soft, Breathable Cotton Lining Inside Zip Pocket and Cell Phone Pocket PAYMENTS We accept PayPal and all major credit cards. If you are having difficulties with paying by credit card please contacts us. Only California buyers will pay the CA state sales tax. SHIPPING Our orders are processed and shipped within 1-3 business days of receipt of payment. Shipping transit times may take additional 3-6 business days, depending on your location and the location of our manufacturer. Saturday, Sunday and national holidays are not business days and are not included in our estimated shipping and handling time. The total time to receive the ordered item will be 6-8 business days from the date of purchase. Regular ground free shipping is applicable to the continental 48 United States only. Please contact us for a shipping quote if there is no shipping rate posted for your location or country. We are currently only able to ship to the select international locations. After your item ships, you will receive a shipping notification with the tracking number, which you can use to obtain information on your order details at any time. RETURNS If you are not satisfied with your purchase, you may return it in unused, ORIGINAL CONDITION for any reason within 30 days of receipt for an exchange or a refund. If your delivery address is a non-US address and you would like to return your item, it is your responsibility to pay return shipping to the correct US address. Be sure to pack your item securely to prevent damage in transit. Damaged items will not be accepted for return. Merchandise must be returned via a carrier where a tracking number is required, such as, UPS, Fedex, or USPS.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LI",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "BS",
+    "KN",
+    "VI",
+    "MQ",
+    "KY",
+    "LC",
+    "AW",
+    "BB",
+    "BZ",
+    "VG",
+    "DM",
+    "TC",
+    "AG",
+    "AI",
+    "PR",
+    "VC",
+    "HT",
+    "AN",
+    "GP",
+    "GD",
+    "MS",
+    "NI",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "VN",
+    "GY",
+    "BO",
+    "GF",
+    "UY",
+    "PY",
+    "SR",
+    "VE",
+    "FK",
+    "AR",
+    "PE",
+    "EC",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BM",
+    "GL",
+    "PM",
+    "IQ",
+    "JO",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "143.09",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Orange, Connecticut",
+  "Seller": {
+    "FeedbackScore": "3204",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "powerboxusa"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "06477",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Tuscan Red",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/p/r/procidaredtoplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/p/r/procidainside.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Olive Brown",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/p/r/procidaolivetoplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/p/r/procidainside.jpg"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "143.09",
+          "_currencyID": "USD"
+        },
+        "SKU": "5542OLIVE",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Olive Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "143.09",
+          "_currencyID": "USD"
+        },
+        "SKU": "5542RED",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Tuscan Red"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Olive Brown",
+          "Tuscan Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2016-12-14T20:46:28.000Z",
+  "Title": "Floto Procida Italian Leather Handbag for Women",
+  "TimeLeft": "P10DT5H34M12S",
+  "EndTime": "2017-06-12T20:46:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Floto"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder/Messenger Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "7 x 6 x 12"
+      },
+      {
+        "Name": "Target Gender",
+        "Value": "womens"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391652357965",
+  "Storefront": {
+    "StoreName": "PowerBox",
+    "StoreURL": "http://stores.ebay.com/id=677674035"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "5542 Procida",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

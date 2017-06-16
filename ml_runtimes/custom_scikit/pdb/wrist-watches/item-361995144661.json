@@ -1,0 +1,155 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "maidstone, Kent",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:58:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "CCAccepted",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T09:58:17.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995144661",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Lorus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "white",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Gloss -Machine engraved pattern",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "28mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "16mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "50 Metres / 5 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bund Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "In Good working order with newly installed battery, Scratches to glass and back, but doesn't detract . White leather strap well worn but still workable.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LORUS-Ladies-Quartz-Dress-Watch-VJ21-XO34-Stainless-Steel-Finish-White-strap-/361995144661",
+  "Title": "LORUS Ladies Quartz Dress Watch VJ21-XO34 - Stainless Steel Finish -White strap",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619951446618080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "ME15 6PJ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT18H33M8S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1LgAAOSwuMZZIH~0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ4WDgzMg==/z/VjIAAOSwcgNZIILs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CeoAAOSwaEhZIIA5/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Lovely Used Ladies Lorus Wristwatch in Good working order - newly fitted battery. Some scratches but doesn't detract from classic lines. Lovely machine cut engraved edge pattern gives the effect of jewels. The white leather starp still fastens but show wear and tear. Buyer pays postage and packing \u00a31.70 second class UK. Additional costs to overseas on request, Payment by cheque, postal order or Paypal. Returns by negotiation.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2285",
+    "UserID": "honest_del",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "by negotiation.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

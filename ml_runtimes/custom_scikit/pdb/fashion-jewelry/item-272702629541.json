@@ -1,0 +1,173 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H51M34S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "46.03",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272702629541",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rebecca-Minkoff-Taco-Stud-Friendship-Bracelet-/272702629541",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.03",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:45:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T03:45:11.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "818676022031",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0818676022031",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Rebecca Minkoff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "B14127",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Gold/Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.04 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.09 x W 3.5 x H 0.59 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Rebecca Minkoff Jewelry Child Code",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Rebecca Minkoff Taco Stud Friendship Bracelet",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Taco 'bout an stylish bracelet! Braided bracelet with half-circle charm. Gold-tone finish. Adjustable length. Drawstring closure. Imported. Measurements: Width: 6\u00e2\u0081\"13 in Diameter/Length: 12 in Weight: 0.2 oz - Taco Stud Friendship Bracelet - Taco Stud Friendship Bracelet in Gold/Green Rebecca Minkoff Taco Stud Friendship Bracelet",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2727026295418080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "intuii",
+    "FeedbackScore": "10697",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "intuii",
+    "StoreURL": "http://stores.ebay.com/id=1018845053"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzI5WDE1MDA=/z/Gk4AAOSwtGlZNNPL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwMVgxNTAw/z/0m8AAOSwZ4dZNNPK/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,74 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91505",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-29T01:12:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/JxkAAOSwEppUOJZc/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Colibri",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "guitar49orange",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3466",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727007755128080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T01:12:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Colibri-Pocket-Watch-Plus-Fob-Japan-Movement-Silvertone-/172700775512",
+  "Location": "Burbank, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Colibri Pocket Watch Plus Fob Japan Movement Silvertone",
+  "Storefront": {
+    "StoreName": "Glen s This and That Shoppe",
+    "StoreURL": "http://stores.ebay.com/id=71932155"
+  },
+  "ItemID": "172700775512",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT6H37M35S"
+}

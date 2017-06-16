@@ -1,0 +1,154 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "92591",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Takes two batteries, one for hour, minute hands and one for second, the one missing is second hand battery. In excellent condition, though pre-owned, Elgin Swiss pocket watch.",
+  "StartTime": "2017-05-29T01:20:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/ZMUAAOSwDiBZK3ak/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/k58AAOSwaeRZK3ap/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "47.5mm",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "3683max",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1060",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.2"
+  },
+  "HitCount": "26",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3917980209208080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T01:20:14.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "15%"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Gold-Plated-ELGIN-Clear-Case-Collectible-Pocket-Watch-Swiss-Movement-Chain-/391798020920",
+  "Location": "Temecula, California",
+  "Title": "NWT Gold-Plated ELGIN Clear Case Collectible Pocket Watch Swiss Movement Chain",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "391798020920",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT6H45M21S"
+}

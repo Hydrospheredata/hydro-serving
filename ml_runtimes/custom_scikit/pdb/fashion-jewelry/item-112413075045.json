@@ -1,0 +1,175 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT7H17M2S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Brand New",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "37.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112413075045",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Amrita-Singh-Nutan-Dangle-Earrings-Black-Resin-18k-Gold-Plated-Brass-/112413075045",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "37.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T22:25:07.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-18T22:25:07.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Earrings",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "18k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Amrita Singh",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Amrita Singh 'Nutan' Dangle Earrings in Black Resin 18k Gold Plated Brass",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Amrita Singh 'Nutan' Dangle Earrings \"From the Bollywood Collection\"Black Resin18K Gold Plated BrassResin Stones3.75\"L x 1.25\" wide (approximately)Backs are post with disc for pierced earsRetail Price - $150",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124130750458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "2nyccoolcats",
+    "FeedbackScore": "695",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "NYC Cool Collectibles",
+    "StoreURL": "http://stores.ebay.com/id=85923730"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "18",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTg3/z/lfgAAOSwo4pYLHbD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IKcAAOSwHMJYLHbM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K-0AAOSwcUBYLHbH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ljgAAOSwo4pYLHbF/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "10025"
+}

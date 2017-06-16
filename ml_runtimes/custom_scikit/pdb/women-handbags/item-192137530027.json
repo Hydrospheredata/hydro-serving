@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921375300278080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg5OTY=/z/xmkAAOSwXYtY0ycM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDU4/z/F~0AAOSwuLZY0ycM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzkx/z/-s4AAOSwB-1Y0ycM/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Ladies-Large-Soft-Nappa-Leather-Shoulder-Hand-Bag-Detachable-Sho-/192137530027",
+  "ConvertedCurrentPrice": {
+    "value": "71.19",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Womens / Ladies Large Soft Nappa Leather Shoulder / Hand Bag with Detachable Shoulder Strap by Lorenz. Sizing: Length 45cm, Height, 33cm, Depth 14cm. Adjustable / Detachable Strap 135cm. 1 Main Zipped Compartment with 2 Zips and 2 Small Slots Inside. 1 Carry Handles. Fully Lined with Material to Match the Bag Colour",
+  "Title": "Womens / Ladies Large Soft Nappa Leather Shoulder / Hand Bag with Detachable Sho",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "71.19",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-23T01:25:00.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P18DT9H1M50S",
+  "EndTime": "2017-06-21T01:25:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "SNUGRUGS"
+      },
+      {
+        "Name": "MPN",
+        "Value": "149789531"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137530027",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:61492743:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

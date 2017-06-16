@@ -1,0 +1,152 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT18H16M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263020649844",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/3-BRIGHTON-Silver-Tone-Bracelet-/263020649844",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:08:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T04:08:58.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver Tone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Hearts",
+        "Name": "Theme"
+      },
+      {
+        "Value": "7\" With An Extender",
+        "Name": "Length (inches)"
+      }
+    ]
+  },
+  "Title": "3 BRIGHTON Silver Tone Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "3 BRIGHTON Silver Tone Bracelet",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630206498448080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "gerca66",
+    "FeedbackScore": "873",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "gerca66",
+    "StoreURL": "http://stores.ebay.com/id=866603614"
+  },
+  "Quantity": "1",
+  "Location": "Lawndale, California",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/kkwAAOSwhQhY4FYQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/WfYAAOSwdGFY4FYT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/WhoAAOSwdGFY4FYU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/whwAAOSwmgJY4FYX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/cu4AAOSw4CFY4FYZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/cwAAAOSw4CFY4FYa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/WKgAAOSwsW9Y4FYb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/k2oAAOSwhQhY4FYc/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "90260"
+}

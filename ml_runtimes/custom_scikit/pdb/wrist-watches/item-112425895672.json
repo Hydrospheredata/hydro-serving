@@ -1,0 +1,191 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "154.33",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Liverpool",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:42:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T10:42:59.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425895672",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "43mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Pilot/Aviator",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Citizen Eco-Drive",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "WR 100 / 10 Bar / 333ft",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "120.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Eco-Drive-Red-Arrows-Stainless-Steel-Watch-/112425895672",
+  "Title": "Citizen Eco Drive Red Arrows Stainless Steel Watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124258956728080_1.jpg",
+  "HitCount": "11",
+  "PostalCode": "L317AX",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT19H20M54S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/pOEAAOSwurZZLps-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/quEAAOSw42JZLpt2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/8TAAAOSwIaFZLpuV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/ZX4AAOSw8HBZLpu4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/h6EAAOSwYvFZLpvW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/5nwAAOSwGJlZLpvx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/BvsAAOSw8lpZLpwF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/ps0AAOSwPh5ZLpxB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/g~4AAOSwlY1ZLpx2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/1kQAAOSw9OFZLpyM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/8XsAAOSww9xZLp1F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/5AwAAOSw9OFZLp1g/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Citizen Eco Drive Stainless Steel Watch case number 53/021179. Oversized round dial - black leather strap with contrasting red stitching. Powered by rechargeable movement converts light into energy. Features Chronograph and World Time. 3 hands with date. Official Red Arrows insignia on the watch case back. Water resistant with no warranty. No scratches on dial. Original strap. Case 43 mm. Comes with official box. Watch new in jewellers is over \u00a3200+. Reluctant sale but just purchased a Brietling Vintage Navitimer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "460",
+    "UserID": "mr_minted",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

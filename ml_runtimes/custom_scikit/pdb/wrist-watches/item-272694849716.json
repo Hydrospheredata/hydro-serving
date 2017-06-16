@@ -1,0 +1,143 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.64",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:02:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1236002137",
+    "StoreName": "eforcemall2014"
+  },
+  "CurrentPrice": {
+    "value": "1.64",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:02:42.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "BY",
+    "MD",
+    "MC",
+    "ME",
+    "RS",
+    "SJ",
+    "UA",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "TW",
+    "BM",
+    "PM",
+    "BH",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KG",
+    "LK",
+    "TJ",
+    "PO Box"
+  ],
+  "ItemID": "272694849716",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Simple-Women-Men-Lady-LED-Display-Sports-Black-Rubber-Band-Digital-Wrist-Watch-/272694849716",
+  "NewBestOffer": "false",
+  "SKU": "1CB5YV7DP6MY6",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726948497168080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H37M53S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/ouoAAOSwRUhY-Jl7/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/zdAAAOSwtZJY-Jli/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/X~MAAOSw5UZY-Jlm/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/MiMAAOSw3ZRY-Jlw/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Simple Women Men Lady LED Display Sports Black Rubber Band Digital Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.8",
+    "FeedbackScore": "9931",
+    "UserID": "eforcemall2014",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

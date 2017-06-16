@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAyM1g4MDQ=/z/2oMAAOSw~y9ZBSzJ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNFg3Njc=/z/ez8AAOSw7GRZBSzJ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNFg3Njc=/z/ZLUAAOSwlndZBSzJ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNFg4MTk=/z/MG4AAOSw42JZBSzK/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNFg4MTk=/z/7okAAOSwrhBZBSzK/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUzWDEyODA=/z/MGkAAOSw42JZBSzK/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUzWDEyODA=/z/SkUAAOSww9xZBSzJ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNFg4MDM=/z/qrMAAOSwnONZBSzJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-1100-Fendi-Karlito-Punkarlito-Monster-Studded-Charm-Handbag-/192202338191",
+  "ConvertedCurrentPrice": {
+    "value": "759.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Title": "New $1100 Fendi Karlito Punkarlito Monster Studded Charm for Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "759.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "West Hollywood, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2732",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "shop_authenticfashion4less"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90069",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T15:25:11.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P26DT23H29M37S",
+  "EndTime": "2017-06-29T15:25:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Fendi"
+      },
+      {
+        "Name": "Type",
+        "Value": "Charm"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889261051637"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192202338191",
+  "PrimaryCategoryID": "163570",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Passion4Fashion4Less",
+    "StoreURL": "http://stores.ebay.com/id=436241884"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922023381918080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

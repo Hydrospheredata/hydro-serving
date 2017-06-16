@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/hCAAAOSww5NZA6zz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/7B8AAOSwX61ZA6zy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/7D0AAOSwX61ZA6zy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/J4cAAOSw-3FZA6zy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/3hUAAOSwlndZA6zy/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Baby-Diaper-Bag-Changing-mat-/112388331391",
+  "ConvertedCurrentPrice": {
+    "value": "210.78",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Betsey Johnson Signature Vertical Stipe Pattern with Changing Mat. Lining is nonremovable Comes with cute Puppy Pacifer Holder. Printed tote made of polyurethane. Dual rolled carrying handles. Comes with adjustable shoulder strap that can unbuckle into bag. Has 2 Exterior side slipinsulated pockets. Lined interior with back zip pocket. Flat bottom. Imported. Measurements: Bottom Width: 15 in ; Middle Width: 14 1/2 in ; Top Width: 14 in ; Depth: 4 in ; Height: 12 in ; Strap Length: 22 in ; Strap Drop: 10 in ; Accessory Strap Length: 51 in ; Accessory Strap Drop: 27 in ; Weight: 2 lbs 11 ozBetsey Johnson Baby Diaper Bag with Changing mat",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "210.78",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "329",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "faingoldeb"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Betsey Johnson Baby Diaper Bag with Changing mat",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-28T20:58:22.000Z",
+  "HitCount": "116",
+  "TimeLeft": "P25DT5H30M27S",
+  "EndTime": "2017-06-27T20:58:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "889487107408"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0889487107408"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "MPN",
+        "Value": "BBD2065"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Baby Product"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.8 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 18.3 x W 12.7 x H 9.4 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "B"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112388331391",
+  "Storefront": {
+    "StoreName": "faingoldeb store",
+    "StoreURL": "http://stores.ebay.com/id=1507144743"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1123883313918080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,154 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "144186625",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "CA",
+  "Location": "Oakville, Ontario",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T15:02:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T15:02:02.000Z",
+  "ShipToLocations": [
+    "Americas"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567964398",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Diver's 300+ m for Mixed Gas (ISO 6425)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "300 Metres / 30 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "10160",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Luminous",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "886678101603",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ReserveMet": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-10160-Wrist-Watch-Men-/152567964398",
+  "Title": "Invicta 10160 Wrist Watch for Men",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525679643988080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "L6K 2E3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H57M13S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mjk0WDM5Mw==/z/WSoAAOSwH09ZLtVr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODE4WDE2MDA=/z/MkMAAOSw1WJZLtq-/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Watch is brand new still in box.",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "5",
+    "UserID": "kmills2011",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

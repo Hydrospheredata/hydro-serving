@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "North Tonawanda, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:26:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:26:56.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203345657",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Helbros",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Solid Gold",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Solid Gold",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Helbros",
+        "Name": "Model"
+      },
+      {
+        "Value": "Stretch Bracelet",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Womens Helbros Solid 14K Pink Gold Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Womens-Helbros-Solid-14K-Pink-Gold-Watch-/192203345657",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922033456578080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "14120",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H14M50S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8PoAAOSwn-tZLsGN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTg1/z/aowAAOSw1WJZLsGp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc2/z/HEQAAOSwYvFZLsG7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc2/z/iAcAAOSw~FJZLsHL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTE1/z/ScEAAOSwCQZZLsHa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTU2/z/KK4AAOSwKytZLsH9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTYy/z/jzwAAOSwIaFZLsIc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjE3/z/qFYAAOSwAPVZLsI3/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Here is womans 14k solid case in pink gold. The watch is a 17 Jewel manual wind movement. The watch winds/sets and is running but I have not checked accuracy over time. The band is gold filled and appears to be original to the watch. The crystal is plastic has some light scratches, not that bad and might polish out. Overall a nice watch with minimal signs of wear. I accept PayPal only. Only sold to USA buyer. FREE SHIPPING.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "636",
+    "UserID": "usadeals$$",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

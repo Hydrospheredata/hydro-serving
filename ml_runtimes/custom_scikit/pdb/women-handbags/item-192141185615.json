@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Womens-Mercer-Medium-Messenger-Cross-Body-Bag-Shipping-Free-/192141185615?var=",
+  "ConvertedCurrentPrice": {
+    "value": "455.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors Women's Mercer Medium Messenger Cross-Body Bag Ships from Local Supplier Other information: 30F6GM9M2L MERCER Related Searches: Top-Handle Bag, Top-Handle Bag Bags Dimensions: 22.0 x 8.5 x 19.0 centimetres",
+  "Title": "Michael Kors Women's Mercer Medium Messenger Cross-Body Bag. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "455.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/854/167/316626661/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Violett (Plum)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0127/127/027/266367834/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Cherry",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/854/168/316590616/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "455.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854167:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "375.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:127127027:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Violett (Plum)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "352.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854168:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Cherry"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Blue",
+          "Violett (Plum)",
+          "Cherry"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-27T11:27:43.000Z",
+  "HitCount": "67",
+  "TimeLeft": "P22DT19H7M35S",
+  "EndTime": "2017-06-25T11:27:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "955930628"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141185615",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139854166:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

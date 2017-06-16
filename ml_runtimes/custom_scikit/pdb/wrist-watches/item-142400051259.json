@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "185.65",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Bella Vista, New South Wales",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:59:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-10T10:59:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400051259",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Versace",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Versace mens watch 100% Authentic",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Versace-mens-watch-100-Authentic-/142400051259",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424000512598080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "2153",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT19H38M16S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQzOFgxMjI5/z/OxgAAOSwSlBY0lHL/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Versus - VERSACE Men Watch Brand New In The BOX Specifications Case Diameter : 50mm Case Material : Stainless Steel Band Material : Silicone Dial Colour : Black Glass Mineral Water Resistant: 50m Read less",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "999",
+    "UserID": "5302dean",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

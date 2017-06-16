@@ -1,0 +1,516 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "BestOfferEnabled": "false",
+  "TimeLeft": "P18DT22H31M15S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SALE-SALE-Womens-Ladies-Genuine-Celebrity-Design-MEtal-chain-Clutch-Bag-Crossbod-/192138051558?var=",
+  "ConvertedCurrentPrice": {
+    "value": "88.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Snake embossed leather bag Chain trim and stitch detailing Top zip closure Full flap with mag dot extra closure Detachable chunky crossbody strap Dark silver tone metal hardware Handle drop: 59cm Dimensions: H15cm x W23cm x D5cm Material: Genuine Leather",
+  "Title": "SALE SALE Womens Ladies Genuine Celebrity Design MEtal chain Clutch Bag/Crossbod",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "88.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Dark Green",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/551/311063106/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/793/552/311065099/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Turquoise",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/793/553/311070894/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Light Blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/554/311071493/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/793/555/311063156/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/793/556/311067495/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "orange",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/793/557/311069956/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/558/311068025/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark Grey",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/559/311069415/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/793/560/311062310/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/793/561/311062639/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/793/562/311065303/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/793/563/311063697/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Navy",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/564/311070307/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Beige",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/565/311066576/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/793/566/311064369/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Royal Blue",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/793/567/311069289/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/793/568/311069609/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793551:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Green"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793552:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "White"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793553:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Turquoise"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793554:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Light Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793555:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793556:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Yellow"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793557:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "orange"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793558:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793559:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793560:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Gold"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793561:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793562:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793563:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Purple"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793564:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Navy"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793565:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Beige"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793566:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Green"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793567:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Royal Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139793568:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Silver"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Dark Green",
+          "White",
+          "Turquoise",
+          "Light Blue",
+          "Red",
+          "Yellow",
+          "orange",
+          "Grey",
+          "Dark Grey",
+          "Gold",
+          "Brown",
+          "Pink",
+          "Purple",
+          "Navy",
+          "Beige",
+          "Green",
+          "Royal Blue",
+          "Silver"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-23T14:53:51.000Z",
+  "HitCount": "5",
+  "QuantityThreshold": "10",
+  "EndTime": "2017-06-21T14:53:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Craze London"
+      },
+      {
+        "Name": "MPN",
+        "Value": "637155861"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138051558",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "72",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "25:139793550:US",
+  "HandlingTime": "10",
+  "QuantityAvailableHint": "MoreThan"
+}

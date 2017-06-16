@@ -1,0 +1,424 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjIzWDY0OA==/z/iNsAAOSwnipWVjNt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIzWDcyMA==/z/FQEAAOSwys5WVjNw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMwWDUxMg==/z/tw0AAOSwwE5WVjNu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc0WDY2Ng==/z/aIIAAOSwAKxWVjNw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDcyMA==/z/FTEAAOSwys5WVjNx/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Floto-Casiana-Large-Leather-Tote-Womens-Italian-Handbag-/391329168697?var=",
+  "ConvertedCurrentPrice": {
+    "value": "264.59",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store Floto Casiana Large Leather Tote, Womens Italian Handbag Casiana Tote combines Italian Polished calf-skin leather, smart contrast stitching, and stainless steel hardware to create a truly classic piece of luggage. The interior of this travel bag is lined with rugged 100% Cotton/Denim so your clothes will always unpack smelling fresh. Casiana Tote also has an inside zip pocket for holding a passport and travel supplies. Casiana Tote is handmade in Tuscany using Italian polished calf-skin leather and old world craft methods. The result is a rugged yet supple leather travel bag with unquestionable quality and durability not found in mass produced luggage. 13\" high x 10\" wide x 21\" long Italian Polished Calf-Skin Leather Double Stitched Seams Thick Contrast Stitching Reinforced Handles Detachable Shoulder Strap Stainless Steel Hardware 100% Cotton/Denim Lining Inside Zip Pocket Wide opening for Easy Packing Weight 4.5 Pounds See the Canvas Casiana Tote See the Floto Casiana Mini Handbag PAYMENTS We accept PayPal and all major credit cards. If you are having difficulties with paying by credit card please contacts us. Only California buyers will pay the CA state sales tax. SHIPPING Our orders are processed and shipped within 1-3 business days of receipt of payment. Shipping transit times may take additional 3-6 business days, depending on your location and the location of our manufacturer. Saturday, Sunday and national holidays are not business days and are not included in our estimated shipping and handling time. The total time to receive the ordered item will be 6-8 business days from the date of purchase. Regular ground free shipping is applicable to the continental 48 United States only. Please contact us for a shipping quote if there is no shipping rate posted for your location or country. We are currently only able to ship to the select international locations. After your item ships, you will receive a shipping notification with the tracking number, which you can use to obtain information on your order details at any time. RETURNS If you are not satisfied with your purchase, you may return it in unused, ORIGINAL CONDITION for any reason within 30 days of receipt for an exchange or a refund. If your delivery address is a non-US address and you would like to return your item, it is your responsibility to pay return shipping to the correct US address. Be sure to pack your item securely to prevent damage in transit. Damaged items will not be accepted for return. Merchandise must be returned via a carrier where a tracking number is required, such as, UPS, Fedex, or USPS.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LI",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "KY",
+    "AW",
+    "SV",
+    "BB",
+    "BZ",
+    "VG",
+    "TC",
+    "DM",
+    "PR",
+    "VC",
+    "AG",
+    "AI",
+    "AN",
+    "MS",
+    "HT",
+    "NI",
+    "GP",
+    "GD",
+    "KN",
+    "BS",
+    "MQ",
+    "VI",
+    "LC",
+    "DO",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "VN",
+    "PE",
+    "FK",
+    "AR",
+    "EC",
+    "GY",
+    "UY",
+    "PY",
+    "BO",
+    "SR",
+    "GF",
+    "VE",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BM",
+    "GL",
+    "PM",
+    "IQ",
+    "JO",
+    "LB",
+    "OM",
+    "YE"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "264.59",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "Location": "Orange, Connecticut",
+  "Seller": {
+    "FeedbackScore": "3204",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "powerboxusa"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "06477",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianablacktoplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianacanvasinsidelg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatoteredgrouplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianaredsofalg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatotecloselg.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Vecchio Brown",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatopveclg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianacanvasinsidelg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatoteredgrouplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianaredsofalg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatotecloselg.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Tuscan Red",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianaredtoplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianacanvasinsidelg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatoteredgrouplg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianaredsofalg.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/c/a/casianatotecloselg.jpg"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "264.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "56BLACK",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "264.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "56BROWN",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Vecchio Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "264.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "56RED",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Tuscan Red"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Tuscan Red",
+          "Vecchio Brown"
+        ]
+      }
+    }
+  },
+  "StartTime": "2015-11-25T22:16:33.000Z",
+  "Title": "Floto Casiana Large Leather Tote, Womens Italian Handbag",
+  "TimeLeft": "P15DT6H58M38S",
+  "EndTime": "2017-06-17T22:16:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Floto"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder/Messenger Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "13 x 10 x 21"
+      },
+      {
+        "Name": "Target Gender",
+        "Value": "womens"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391329168697",
+  "Storefront": {
+    "StoreName": "PowerBox",
+    "StoreURL": "http://stores.ebay.com/id=677674035"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "56",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

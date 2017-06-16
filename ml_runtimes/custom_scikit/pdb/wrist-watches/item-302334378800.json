@@ -1,0 +1,101 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cedarburg, Wisconsin",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:13:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=174639529",
+    "StoreName": "Love My Frankie"
+  },
+  "CurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:13:28.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334378800",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "Seconds Hand",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Decorative Fun Casual Watch, 1.5 inches wide,",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Decorative-Fun-Casual-Watch-1-5-inches-wide-/302334378800",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023343788008080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "53012",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H59M21S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/E-YAAOSwnLdWtldQ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fekAAOSwvUlWtldT/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/y4MAAOSw5dNWtldV/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yvwAAOSwX~dWtlds/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "Silver colored wide studded watch band. Measures 1.5 inches wide and 9 inches long. Adjusts to 2 sizes. Large face watch with 12 numbers and second hand. Opening for face of watch measures 1 inch long and 7/8 inch high. Back of band looks likes it leather. Band of watch is definitely flexible. Clear stones all the way around face of watch. Never worn.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "541",
+    "UserID": "kb20723",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

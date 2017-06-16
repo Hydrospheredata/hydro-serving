@@ -1,0 +1,230 @@
+{
+  "ReturnPolicy": {
+    "Description": "For all returns, buyers must contact us and follow our return process steps before sending back the item to us. - Items sent back without authorisation will not be processed - Must contact us via our email and describe reason within 30 days of items arrival - The item need to be arrived back here in new, unopened and re-saleable condition. - All accessories/parts must remain in their original packaging - Shipping and handling fees will not be refunded. - Buyer will be responsible for charges where applicable when returning items to us for exchange. - Faulty or Damaged Items will be exchanged if buyers reports the problems within 30 days of item arrival. Please contact us first to obtain return address &return process steps, thanks",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182607220191",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "32050",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "ms.piercing",
+    "FeedbackScore": "9798",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "MsPiercing Store",
+    "StoreURL": "http://stores.ebay.com/id=110351783"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/sDgAAOSww9xZNN6j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/1cUAAOSwblZZNN6i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/UdoAAOSwX9FZNN6j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/likAAOSwxu5ZNN6j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/rQYAAOSwjL5ZNN6j/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "pr_item_15341",
+  "StartTime": "2017-06-05T04:31:28.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "JP",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "0",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-Gold-belly-ring-Natural-Abalone-Stone-/182607220191?var=",
+  "EndTime": "2017-07-05T04:31:28.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Made From",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "14K white gold",
+          "PictureURL": "http://www.mspiercing.com/admin/SkuImages/189273_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "14K yellow gold",
+          "PictureURL": "http://www.mspiercing.com/admin/SkuImages/189272_1.jpg"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "14K white gold",
+          "14K yellow gold"
+        ],
+        "Name": "Made From"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "pr_sku_189273",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "14K white gold",
+            "Name": "Made From"
+          }
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_189272",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "14K yellow gold",
+            "Name": "Made From"
+          }
+        },
+        "Quantity": "40"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Navel",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "MsPiercing",
+        "Name": "Brand"
+      },
+      {
+        "Value": "belly button ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "14 (1.6mm)",
+        "Name": "Gauge (Thickness)"
+      },
+      {
+        "Value": "7/16\" (11mm)",
+        "Name": "Length"
+      },
+      {
+        "Value": "priced and sold individually",
+        "Name": "Option"
+      },
+      {
+        "Value": "Made In USA",
+        "Name": "Option 1"
+      },
+      {
+        "Value": "Customization available, contact us.",
+        "Name": "Option 2"
+      },
+      {
+        "Value": "Abalone",
+        "Name": "Gem Type"
+      },
+      {
+        "Value": "10MM x 8MM",
+        "Name": "Gem Size"
+      },
+      {
+        "Value": "Externally Threaded",
+        "Name": "Threading Type"
+      },
+      {
+        "Value": "Prong Set",
+        "Name": "Gem Setting"
+      },
+      {
+        "Value": "Genuine",
+        "Name": "Gem Creation"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Gem Shape"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Gem Color"
+      }
+    ]
+  },
+  "Title": "14K Gold belly ring with Natural Abalone Stone",
+  "TimeLeft": "P29DT12H56M9S",
+  "Location": "West Berlin, New Jersey",
+  "Description": "14K Gold belly ring with Natural Abalone StoneCondition: NewShipping: Same day from NJ, USA (3 pm est cut-of time)Type: belly button ringGauge (Thickness): 14 (1.6mm)Made From: OptionalLength: 7/16\" (11mm)Option : priced and sold individuallyOption 1: Made In USAOption 2: Customization available, contact us.Gem Type: AbaloneGem Size: 10MM x 8MMThreading Type: Externally ThreadedGem Setting: Prong SetGem Creation: GenuineGem Shape: OvalGem Color: Multi",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "80",
+  "PostalCode": "08091"
+}

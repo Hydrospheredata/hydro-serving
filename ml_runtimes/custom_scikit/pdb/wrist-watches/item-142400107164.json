@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "73.81",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Sydney, New South Wales",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:52:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=141304071",
+    "StoreName": "BRAND UNITY"
+  },
+  "CurrentPrice": {
+    "value": "98.99",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-05T11:52:08.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400107164",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mimco",
+        "Name": "Brand"
+      },
+      {
+        "Value": "60202120",
+        "Name": "MPN"
+      },
+      {
+        "Value": "9337902924549",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mimco SEEKER Timepeace Watch Jewellery BLACK  BNWT RRP $249",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mimco-SEEKER-Timepeace-Watch-Jewellery-BLACK-BNWT-RRP-249-/142400107164",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424001071648080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "1445",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H34M6S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/tBEAAOSw3gJZIQi8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xX4AAOSwH09ZIQi4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/tusAAOSwIaFZIQjX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-ZIAAOSww9xZIQjb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/I1gAAOSws5pZIQjn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~hsAAOSwR29ZIQjr/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Mimco's Stylish Watch Modern update with timeless style Easy Catching times with premium function Face diameter 4 cm Band Width 1.4 cm Colour BLACK NORMAL STRAP WITH TIMELESS DESIGN Current trending modern style Brand new with Tags Comes in mimco black watch box BRAND UNITY BRINGS THE BEST TO YOU Thank you so much for looking and please do not forget to check other beautiful things in our store's listings and follow us on ebay and other social media as we list pretty things for you. New styles daily Brandunity brings the best for you thank you Free or combined postage for 2nd & 3rd items. Good will be dispatched as soon as payment clears and will be received in 3 to 4 business days, however it will depend on regional area and state of the buyer, as seller is in NSW state. We are happy to accept direct deposit to bank account or paypal. Most Credit Cards, Master Cards, Visa Cards, Amex Cards could be paid via Paypal even buyer does not have an established Paypal account. Payment must be made within 3 days unless there was a prior arrangement; however we are so reasonable and eager to help All sales are final and return can be accepted for faulty, however only accept as unworn or unused item, as brand new with tags and used item could not be accepted after it had been used for any reason or any duration and faulty is come after the usage and we are unable to accept the return. Postage will not be refunded for the change of mind, for example postage $10 will not be refunded for the this item. \">",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7567",
+    "UserID": "brandunity123",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "All sales are final and return can be accepted for faulty, however only accept as unworn or unused item, as brand new with tags and used item could not be accepted after it had been used for any reason or any duration and faulty is come after the usage and we are unable to accept the return. Postage will not be refunded for the change of mind, for example postage $15 will not be refunded for the this item."
+  }
+}

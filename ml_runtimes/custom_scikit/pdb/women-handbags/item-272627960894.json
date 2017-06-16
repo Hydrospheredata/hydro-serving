@@ -1,0 +1,214 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rnQAAOSwTuJYuU7n/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LADIES-WOMEN-CLARKS-MAHOE-BAY-CROSS-BODY-SHOULDER-TOTE-HANDBAG-BAGS-BLACK-WHITE-/272627960894?var=",
+  "ConvertedCurrentPrice": {
+    "value": "52.77",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LADIES SHOPPER BAG BRAND - CLARKSSTYLE NAME - MAHOE BAY COLOUR - WHITE/BLACK AND BLACK/WHITE SYNTHETIC UPPER TEXTILE LINING TRIMS - DOUBLE HANDLE CAN BE WORN OVER THE SHOULDER ADJUSTABLE DETACHABLE SHOULDER STRAP ZIP AND CLASP FASTENING REMOVABLE INSIDE BAG METALLIC HARDWARE APPROX L: 53cm W: 18cm H: 36cm VERY GLAMOROUS CAN BE DRESSED UP OR DRESSED DOWN IDEAL FOR ANY OCCASION Normal 0 MicrosoftInternetExplorer4 Made from a white non-leather, this women's winged shopper-style bag features perforated panels and metallic hardware that give it a contemporary edge. A detachable shoulder strap means that it can be worn across the body or carried by the padded double handles and a removable inside bag makes for easy organisation. L: 53cm W: 18cm H: 36cm PRICE \u00a339.99 Check out my other items! Be sure to add me to your favourites list! Closure Clasp AND ZIP Style Tote, Shopper Handbag Size Large Brand CLARKS Feature Adjustable Strap Feature Detachable Strap Feature Inner Pockets Outer Material Synthetic Exact Dimensions L: 53cm W: 18cm H: 36cm Main Colour WHITE/BLACK AND BLACK/WHITE Type Two Strap",
+  "ExcludeShipToLocation": [
+    "CA",
+    "AU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.77",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Leicester, Leicestershire",
+  "Seller": {
+    "FeedbackScore": "46471",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "bluntsshoesleicester"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LADIES WOMEN CLARKS MAHOE BAY CROSS BODY SHOULDER TOTE HANDBAG BAGS BLACK WHITE",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "BLACK/WHITE",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2MwAAOSwSlBYuU8S/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2aAAAOSwSlBYuU8Z/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "WHITE//BLACK",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODc2WDExNTM=/z/BDwAAOSwdGFYuU8p/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JXgAAOSwax5YuU8w/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "52.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "CLARKS-MAHOE BAY=A",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "BLACK/WHITE"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "52.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "CLARKS-MAHOE BAY=T",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "WHITE//BLACK"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "BLACK/WHITE",
+          "WHITE//BLACK"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-12T04:51:20.000Z",
+  "TimeLeft": "P8DT12H37M18S",
+  "EndTime": "2017-06-11T04:51:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Closure",
+        "Value": "Clasp AND ZIP"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote, Shopper"
+      },
+      {
+        "Name": "Main Colour",
+        "Value": "WHITE/BLACK AND BLACK/WHITE"
+      },
+      {
+        "Name": "Features2",
+        "Value": "Adjustable strap"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clarks"
+      },
+      {
+        "Name": "Outer material",
+        "Value": "Synthetic"
+      },
+      {
+        "Name": "Exact dimensions",
+        "Value": "L: 53cm W: 18cm H: 36cm"
+      },
+      {
+        "Name": "Handbag size",
+        "Value": "L"
+      },
+      {
+        "Name": "Features1",
+        "Value": "Clutch Bags"
+      },
+      {
+        "Name": "Type",
+        "Value": "Two Strap"
+      },
+      {
+        "Name": "Features",
+        "Value": "Detachable strap"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272627960894",
+  "Storefront": {
+    "StoreName": "Blunts Shoes Leicester",
+    "StoreURL": "http://stores.ebay.com/id=986185229"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "6",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "No returns will be accepted if you have put sellotape/adhesive and writing on the original box, the box must be brand new (as received). We only accept returns if you send the item back with the original Grey coloured outer wrapping or similar to protect the box.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "CLARKS-MAHOE BAY=",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

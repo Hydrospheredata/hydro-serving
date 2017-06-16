@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "87.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:46:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "87.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:46:33.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245669118",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Date"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather White Tone",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Type"
+      },
+      {
+        "Value": "MBM1247",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MBM1247 NEW MARC BY MARC JACOBS UNISEX HENRY WHITE DIAL LEATHER BAND WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MBM1247-NEW-MARC-MARC-JACOBS-UNISEX-HENRY-WHITE-DIAL-LEATHER-BAND-WATCH-/332245669118",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322456691188080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H28M15S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODk1WDY3Mg==/z/oGwAAOSwopRYbF2y/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODgyWDcwMw==/z/rzQAAOSw9GhYbF2j/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "New , authentic Marc Jacobs watch. Case: 43mm. Dial in white tone. Leather white band. Bezel in silver. Mineral crystal scratch resistance. Hour markers. Three hands movement. Date window function. Band: 8\"/20cm. Quartz movement . Water resistance 50meters/ 165ft. Box is not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

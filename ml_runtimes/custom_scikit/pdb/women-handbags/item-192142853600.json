@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921428536008080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwOVgxNTAw/z/WrsAAOSwuLZY2xP~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzM1gxNTAw/z/HiYAAOSwZLhY2xP~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzOVgxNTAw/z/NUkAAOSwdGFY2xP~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzM1gxNTAw/z/q0IAAOSwax5Y2xP~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5MTE=/z/Wq0AAOSwuLZY2xP-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTkw/z/WsMAAOSwuLZY2xP~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzg5/z/dE4AAOSwB-1Y2xQA/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Big-Handbag-Shop-Womens-Top-Zip-Opening-3-1-Tote-Shopper-Bag-Medium-Long-/192142853600",
+  "ConvertedCurrentPrice": {
+    "value": "86.01",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: A very popular 3 in 1 large shoulder bag for the fashionite who likes to carry the latest trend on her shoulder. The bags can be carried separately with second bag measuring 10\" x 14\" and the third mini bag measuring 4.5\" x 7\" (You get three bags - A Large Shoulder Bag, Small Shoulder Bag and a Mini Make up Bag). This bag sold by Big Handbag Shop is a Top zip opening bag. If you want this bag in Top zip opening on the larger bag then please make sure you purchase this Item from \"Big Handbag Shop\". Get the same enviable look for fraction of the price! Well made bag with light gold effect hardware. Large Bag = Height 28 cm, Depth 15 cm, Width 48 cm Medium Bag = Height 25 cm, Width 36 cm Small Bag = Height 12 cm, Width 18 cm Approximate unpacked weight 1150 grammes * Colours might appear different due to monitor variations",
+  "Title": "Big Handbag Shop Womens Top Zip Opening 3 in 1 Tote Shopper Bag with Medium Long",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "86.01",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-29T01:55:04.000Z",
+  "HitCount": "41",
+  "TimeLeft": "P24DT9H36M15S",
+  "EndTime": "2017-06-27T01:55:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Big Handbag Shop"
+      },
+      {
+        "Name": "MPN",
+        "Value": "874609553"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142853600",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:133890324:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

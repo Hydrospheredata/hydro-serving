@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/emUAAOSww5hZMMFE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/gdYAAOSwPh5ZMME1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/uz8AAOSwYlRZMME-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/~S0AAOSwJH1ZMMFJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/JLgAAOSwX9FZMMFO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/~XQAAOSwJH1ZMMFU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/2BoAAOSwAPVZMMFc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/4GIAAOSw~y9ZMMFi/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Valentino-Garavani-Black-Silver-Tone-Leather-Studded-Crossbody-Flap-Bag-/282505227408",
+  "ConvertedCurrentPrice": {
+    "value": "489.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Size: N/AColor: Black,Silver,Made in: ItalyFabric Content: Exterior: Leather; Lining: TextileStrap Length 41\"Strap Drop: 18\"Height: 7.25\"Length: 9\"Width: 2.25\"Interior Features: Three open compartments and a single zipped wall pocket.*Please refer to measurements above as the item may have",
+  "Title": "Valentino Garavani Black & Silver Tone Leather Studded Crossbody Flap Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "489.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Lawrenceville, Georgia",
+  "Seller": {
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "ouidevan_0"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30044",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T01:39:06.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P2DT11H33M3S",
+  "EndTime": "2017-06-05T01:39:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Valentino"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282505227408",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825052274088080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

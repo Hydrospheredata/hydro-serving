@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272696776103",
+  "TimeLeft": "P2DT20H51M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Nod-Mod-French-Wire-Earrings-W3275-/272696776103",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T11:41:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T11:41:56.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Etched and Hammered",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Silpada ~ Nod to Mod  French Wire Earrings W3275",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Silpada Designs Jewelry is handcrafted by artisans around the world from the finest .925 Sterling\u00a0 French wire earrings .Etched and Hammered Sterling silver No backs included Used by Silpada Rep for display use Excellent condition W3275 Comes in box but not original box All sales final",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726967761038080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kgrand2012",
+    "FeedbackScore": "620",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Bridgewater, Massachusetts",
+  "HitCount": "3",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/4Q0AAOSwZVlXpevF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/N50AAOSwqfNXpevH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/NJsAAOSwtnpXpevI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/OBcAAOSwqfNXpevJ/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "02324"
+}

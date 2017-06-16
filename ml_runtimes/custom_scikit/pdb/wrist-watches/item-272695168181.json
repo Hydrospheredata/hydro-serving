@@ -1,0 +1,98 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.18",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "MATRAVILLE, New South Wales",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:22:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=292726048",
+    "StoreName": "Australian Collectibles"
+  },
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T13:22:41.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695168181",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz",
+        "Name": "Model"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Valdawn",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Tone Bracelet",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Gold Tone",
+        "Name": "Casing"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Valdawn Ladies Gold Tone Good Condition Working Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Valdawn-Ladies-Gold-Tone-Good-Condition-Working-Quartz-Watch-/272695168181",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726951681818080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "2036",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H10M22S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yl0AAOSwQPlV77uR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/w-kAAOSwHjNV77uY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yVMAAOSwHmhV77ur/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3IkAAOSwEetV77u-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yugAAOSwgNRV77u3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yKMAAOSwHmhV77uf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~nwAAOSwLqFV77ul/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZHsAAOSw4SlV77ux/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "SPECIFICATIONS:\u00a0 Brand Name: Valdawn\u00a0 Type: Quartz Wrist Band Size: Approx 17.0 cm Case Diameter: Approx 2.4 Dial Colour: White\u00a0 Band Material: Gold Tone Stainless Steel Battery: New\u00a0 Working: Keeping time well Glass Condition: Good Case Condition: Good Band Condition: Good outside little tarnish\u00a0 inside\u00a0 Comments: Nice watch\u00a0 Please see photos and other items for sale.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "1155",
+    "UserID": "autospares888",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

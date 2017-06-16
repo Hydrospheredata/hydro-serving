@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P24DT23H59M44S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "145.25",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726998545778080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/wmAAAOSwlndZCgNI/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/O-Hare-29-Luggage-Red-Heritage-Travelware-Heritage-OHare-Luggage-Coll-/172699854577",
+  "ConvertedCurrentPrice": {
+    "value": "112.6",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "O Hare 29\" Luggage Red, by Heritage Travelware, (Heritage \"O'Hare\" Luggage Coll) Heritage Travelware 882614 Satisfaction GuaranteedGreat ValueO Hare 29\" Luggage RedHeritage Travelware Heritage \"O'Hare\" Luggage Collection. 29\" Durable ABS Lightweight Expandable 8-Wheel Upright Pullman Luggage With Corner Guard Reinforcements. Expands An Additional 1.5\" Inches For Greater Carrying Capacity, 8-Wheel Spinners Allow Smooth 360 Degree Rotation, Lightweight Construction, Durable ABS Exterior With Molded Corner Reinforcement For Maximum Impact Resistance. And Fully Lined Interior, Main Compartment Features Expansion Zipper. And Garment Restraints With Zipper Pockets For Small Items. Under Lid Compartment Unzips For Greater Carrying Capacity, Durable Top Grab Handle, Molded Feet Allow For Upright To Stand On Its Side. Retractable Locking Handle System. Red. Item Length: 12 ItemWidth: 12 ItemHeight: 12 ItemWeight: 15.7 PackageLength: N/A PackageWidth: N/A PackageHeight: N/A PackageWeight:",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "112.6",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "4 Locations nationwide",
+  "Seller": {
+    "FeedbackScore": "114758",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "RedShooting",
+    "UserID": "promax_supply"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "O Hare 29\" Luggage Red, by Heritage Travelware, (Heritage \"O'Hare\" Luggage Coll)",
+  "GlobalShipping": "false",
+  "Quantity": "7",
+  "StartTime": "2017-05-28T14:57:34.000Z",
+  "HitCount": "3",
+  "Subtitle": "New in Package, Satisfaction Guaranteed",
+  "EndTime": "2017-06-27T14:57:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Manufacturer Part Number",
+        "Value": "882614"
+      },
+      {
+        "Name": "MPN",
+        "Value": "882614"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Heritage Travelware"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Heritage Travelware"
+      },
+      {
+        "Name": "UPC",
+        "Value": "023572501539"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172699854577",
+  "Storefront": {
+    "StoreName": "ProMax Supply",
+    "StoreURL": "http://stores.ebay.com/id=1130314362"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "DH-882614",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

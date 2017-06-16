@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nXkAAOSwIaFZHJ4i/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6u8AAOSwuMZZHJ4t/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zloAAOSwZKBZHJ5M/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ouQAAOSwaeRZHJ5Y/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qm4AAOSwR29ZHJ6i/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/p4AAAOSwaeRZHJ6s/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2eYAAOSwDiBZHJ6~/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Wr8AAOSwKytZHJ7h/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZowAAOSwsXFZHJ8N/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oH8AAOSwcB5ZHJ8s/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/o3kAAOSwcB5ZHJ9R/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Kate-Spade-Kaylie-Baby-Bag-Grove-Street-Dune-Stripe-NWT-Multi-Color-329-/192202973145",
+  "ConvertedCurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade Kaylie Baby Bag BRAND NEW!!! COLOR: Grove Street Printed Dunestripe (923) HANDBAG STYLE #: WKRU4262100% KATE SPADE GUARANTEED!!! Brand New with Tags Kate Spade New York Grove Street Kaylie baby bag WKRU4262 dunestripe multi colors PVC tote bag and gold tone hardware. Debuted on 01-21-2017. Very spacious and very cute, be the envy of your friends. Item will ship within 1 day of purchase. Enjoy!Baby Bag Features:Multi colors grainy vinyl Baby Bag with leather trimTop zip closure with 1 full length pocket and 2 slide pocketsLeather handles with approximate drop of 9\"Adjustable/detachable strap with max. drop of 16\"Comes with changing pad and attached stroller strapsApprox. 19\"L x 13\"H x 7\"D",
+  "Title": "NWT Kate Spade Kaylie Baby Bag Grove Street Dune Stripe NWT Multi Color $329",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Peachtree City, Georgia",
+  "Seller": {
+    "FeedbackScore": "10",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "harbi-blak"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30269",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T03:16:32.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P7DT11H56M26S",
+  "EndTime": "2017-06-10T03:16:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Coated Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192202973145",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Any returns must be returned in same unused condition as sold.  If sold new with tags, tags need to still be attached and in original condition as sold.  Thanks,",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922029731458080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

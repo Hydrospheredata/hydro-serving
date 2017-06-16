@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY0/z/qgQAAOSwcgNZD04m/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/XK4AAOSww9xZD04q/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/MbUAAOSwBt5ZD04w/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/q6wAAOSwcgNZD040/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/cKAAAOSwrhBZD045/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/pw0AAOSwR29ZD049/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Wellesley-Printed-Adaira-Baby-Bag-Laurel-Way-Printed-Blury-Flo-New-/172664568463",
+  "ConvertedCurrentPrice": {
+    "value": "240.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade Wellesley Printed Adaira Baby Bag Product Details Color: Laurel Way Printed Blury Floral Brand: Kate Spade New York UPC: 098689980003 Product Dimensions: 15.9 x 14 x 0.3 inches Shipping Weight: 3.6 pounds Kate Spade PVC baby bag with top zip closure, gold toned hardware, and leather trim Dual handles with a drop of approx. 8.5 inches. Removable, adjustable strap with a maximum drop of approx. 18 inches Slip pocket on each side; Protective skids on bottom Interior features 2 slip pockets, 1 zip pocket, and 1 elastic pocket with a wipe-able changing pad Approx. dimensions: 14 inches (L) at base (20 inches L at top) x 12.5 inches (H) x 7 inches (W) ate Spade PVC baby bag with top zip closure, gold toned hardware, and leather trim Dual handles with a drop of approx. 8.5 inches. Removable, adjustable strap with a maximum drop of approx. 18 inches Slip pocket on each side; Protective skids on bottom Interior features 2 slip pockets, 1 zip pocket, and 1 elastic pocket with a wipe-able changing pad Approx. dimensions: 14 inches (L) at base (20 inches L at top) x 12.5 inches (H) x 7 inches (W)",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "240.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "12244",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "ssb-direct"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kate Spade Wellesley Printed Adaira Baby Bag Laurel Way Printed Blury Flo... New",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T16:41:36.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726645684638080_1.jpg",
+  "TimeLeft": "P4DT1H14M43S",
+  "EndTime": "2017-06-06T16:41:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Laurel Way Printed Blury Floral"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade New York"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689980003"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0098689980003"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172664568463",
+  "Storefront": {
+    "StoreName": "ssb-direct",
+    "StoreURL": "http://stores.ebay.com/id=1080118404"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B01MD0VQZ0",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

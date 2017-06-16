@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921425911008080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/evoAAOSwuLZY2rab/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/FDkAAOSwsW9Y2rac/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/v-8AAOSw2gxY2rab/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/ocsAAOSwhQhY2rab/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/FAEAAOSwsW9Y2rab/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Red-Leather-Large-Luxury-Tote-Bag-Gold-Clip-Closure-Maria-Carla-Free-Sh-/192142591100",
+  "ConvertedCurrentPrice": {
+    "value": "215.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Beautiful large leather tote bag in attractive strong textured leather. With gold coloured fittings, the bag closes with a gold coloured clip top fastening. The interior of the bag is plain and uncluttered, and is ideal for work and holidays. Comes with an optional cliip on leather shoulder strap. Dimensions: 40 cm high x 30 cm wide x 14 cm deep",
+  "Title": "Red Leather Large Luxury Tote Bag with Gold Clip Closure by Maria Carla. Free Sh",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "215.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T19:16:34.000Z",
+  "HitCount": "44",
+  "TimeLeft": "P24DT2H57M39S",
+  "EndTime": "2017-06-26T19:16:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Maria Carla"
+      },
+      {
+        "Name": "MPN",
+        "Value": "849862064"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142591100",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:55950672:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

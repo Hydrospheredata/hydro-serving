@@ -1,0 +1,133 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.07",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:26:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1178103433",
+    "StoreName": "Forward E-commerce"
+  },
+  "CurrentPrice": {
+    "value": "30.07",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:26:21.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "740690597076",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0740690597076",
+        "Name": "EAN"
+      },
+      {
+        "Value": "PALADA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "LYSB015H3KYLO-SPRTSEQIP",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.1 x W 3.1 x H 3.1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box",
+    "Middle East",
+    "PR"
+  ],
+  "ItemID": "122524966582",
+  "HandlingTime": "3",
+  "Description": "Forward2017E-commerce If you have any queries, please contact us via eBay. We usually respond within 24 hours on weekdays. Thank you for visiting our Ebay store!",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PALADA-Sport-Watches-Mens-T7005G-Outdoor-Waterproof-Sports-Quartz-Digital-Wrist-/122524966582",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225249665828080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H6M41S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/0akAAOSwIaFZLqhi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/eW4AAOSwZ4dZLqhi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/0DgAAOSwlMFZLqhi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/HkIAAOSwCQZZLqhi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uVEAAOSw1WJZLqhi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uT4AAOSwblZZLqhi/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "PALADA Sport Watches Mens T7005G Outdoor Waterproof Sports Quartz Digital Wrist",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "30946",
+    "UserID": "home-garden-and-beyond1",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

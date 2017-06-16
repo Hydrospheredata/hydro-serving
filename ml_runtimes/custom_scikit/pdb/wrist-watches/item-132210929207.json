@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.9",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "CN",
+  "Location": ".",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:51:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "Quantity": "5",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1365768887",
+    "StoreName": "Gracies Pet Designs"
+  },
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T11:51:28.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Colour"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Battery",
+        "Name": "Type"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Casing"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210929207",
+  "HandlingTime": "2",
+  "Description": "AN AMAZING GIFT FOR A PUG DOG LOVER BARREL STYLE WATCH featuring a cute PUG dog one watch ony This metal timepiece is a perfect addition to your watch collection. This unisex barrel shaped watch comes with a leather strap, which will simply match with any outfit. Give this timeless accessory to your loved one or keep it for yourself it is perfect to wear for any occasion. Unisex watchWatch band is made of genuine leatherSilver coloured barrel shaped case Stainless steel back Japan miyota watch movement made by CitizenBattery includedWristwatch length: approximately 22.5 cmFits wrist from approximately 6.5\" to 8\"Watch case: approximately 3cm x 3.8cm Weighs approximately 30g Visit my store by clicking on the red store icon for other great products! PAYMENTAll overseas buyers outside of Australia must pay by Paypal Australian buyers can pay by paypal or bank depositAll payments must be received within 3 days POSTAGEThe item will be posted within two days of payment being received.ALL items are posted using the Hong Kong postal service and does not come with a tracking number Worldwide postage takes an average of 10 - 20 business days Public Holidays such as Easter, Christmas, New Year and Chinese New Year will cause longer postage times due to postal services closing during these periods Please DO NOT leave negative or neutral feedbackContact me and I assure you that we can sort out any issue in a friendly matter that will be of benefit to both of usI STRIVE FOR A 5 STAR RATING AND WILL DO MY BEST TO KEEP MY BUYERS 100% SATISFIED Thank you for your custom and please view my other items Check out my other items! Also Be sure to add me to your favourites list!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PUG-DOG-Puppy-LADIES-MENS-UNISEX-BARREL-WATCH-90928168-/132210929207",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322109292078080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H33M15S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/LQwAAOSwo0JWMWYi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MB4AAOSwo0JWMWZJ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/owwAAOSw14xWMWZZ/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "PUG DOG Puppy LADIES MENS UNISEX BARREL WATCH 90928168",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "341",
+    "UserID": "mcco.grac",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

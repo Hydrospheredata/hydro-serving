@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KpAAAOSw3utY57yC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xJUAAOSwDmBY57xp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BkkAAOSwuLZY57xg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Jz0AAOSwB-1Y57xi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/32EAAOSwU8hY57xl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Qm0AAOSw4CFY57xn/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lTQAAOSwmgJY57yE/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Louis-Vuitton-Pochette-Sobe-Black-Epi-/252970762294",
+  "ConvertedCurrentPrice": {
+    "value": "719.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Up for your consideration is a pre-owned Louis Vuitton Black Epi Pochette Sobe with silver hardware. Purchased by me, the receipt, dust bag and the original box are included. Hairline scratches on the hardware and on the magnetic clasp inside. Clean inside. Used very few times, therefore the sale - I hate it for such a beauty to sit in the closet. If FedEx signature shipping comes to less than $30, I will refund the difference. Enjoy!!",
+  "Title": "Louis Vuitton Pochette Sobe Black Epi",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "719.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Fort Belvoir, Virginia",
+  "Seller": {
+    "FeedbackScore": "38",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "saskia197777"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "22060",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:48:56.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT23H43M38S",
+  "EndTime": "2017-07-02T13:48:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Louis Vuitton"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Spain"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Clutch"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970762294",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529707622948080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

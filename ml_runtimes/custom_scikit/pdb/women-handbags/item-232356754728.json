@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/EgAAAOSwnHZYlSct/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/ndMAAOSw4DJYlScv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/FJ8AAOSw241YlScw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/TSsAAOSw44BYlScx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/GHoAAOSw-0xYlSc0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/1xIAAOSwImRYlSc1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/KHMAAOSwA3dYlSc4/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-COACH-EMBOSSED-TEXTURED-LEATHER-ZIPPY-WALLET-WRISTLET-52549B-RED-CURRANT-/232356754728",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT COACH EMBOSSED TEXTURED LEATHER ZIPPY WALLET/WRISTLET 52549B RED CURRANT Track Page Views With Auctiva's FREE Counter",
+  "Title": "NWT COACH EMBOSSED TEXTURED LEATHER ZIPPY WALLET/WRISTLET 52549B RED CURRANT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Colorado Springs, Colorado",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "11418",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "just_for_you2"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "80919",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T17:16:10.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P6DT1H31M54S",
+  "EndTime": "2017-06-08T17:16:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style Name",
+        "Value": "Embossed textured  Zippy Wallet"
+      },
+      {
+        "Name": "Style Number",
+        "Value": "52549B"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red Currant"
+      },
+      {
+        "Name": "Shade",
+        "Value": "Red"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "888067557572"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232356754728",
+  "Storefront": {
+    "StoreName": "just_for_you263",
+    "StoreURL": "http://stores.ebay.com/id=120484846"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323567547288080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-1.fishpond.co.nz/0116/360/165/252710825/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0116/360/165/252710826/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LAMARTHE-Paris-Portofino-Envelope-Bag-Genuine-Leather-Portofino-PM-Latte-Whit-/192144375762",
+  "ConvertedCurrentPrice": {
+    "value": "57.35",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: LAMARTHE Paris Portofino Envelope Bag, genuine premium leather, Off-White / Cream; Dimensions (LxHxW): 22 x 14.5 x 0.5 cm; Model: PP201-U002#TU; Outer Material: 100% Genuine Leather; Lining: 45% nylon, 55% polyester; Closure type: silver coloured metal with Lamarthe logo press stud fastening under flap; Dust bag",
+  "Title": "LAMARTHE Paris Portofino Envelope Bag, Genuine Leather, Portofino PM Latte, Whit",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.35",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-30T22:46:04.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P26DT6H28M22S",
+  "EndTime": "2017-06-28T22:46:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Lamarthe Paris"
+      },
+      {
+        "Name": "MPN",
+        "Value": "025180353"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144375762",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:116360165:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

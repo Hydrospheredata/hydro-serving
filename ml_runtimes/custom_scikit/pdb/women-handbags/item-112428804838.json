@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/qRoAAOSwjqVZMV0-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Z68AAOSwBt5ZMV08/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/EO0AAOSw3gJZMV1B/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/noYAAOSw-K9ZMV1D/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/nqoAAOSw-K9ZMV1E/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/kbEAAOSw42dZMV1H/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/EWcAAOSw3gJZMV1J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/SuwAAOSw~y9ZMV1L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/qakAAOSwjqVZMV1N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/oXcAAOSwX9FZMV1O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/IMQAAOSwblZZMV1R/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Coach-Deb-Pat-Margo-Purse-Set-Msrp-640-/112428804838",
+  "ConvertedCurrentPrice": {
+    "value": "550.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic coach purse and matching wallet for sale. MSRP together is $640. Very nice set with care instructions. Fast Shipping *****Preferred Paypal",
+  "Title": "Authentic Coach Deb Pat Margo Purse Set Msrp$640",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "550.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Las Vegas, Nevada",
+  "Seller": {
+    "FeedbackScore": "432",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "goodandnewdeals702"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "89147",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:48:15.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT22H38M13S",
+  "EndTime": "2017-07-02T12:48:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "10\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9\""
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "10\""
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428804838",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Must be in original form of the items been shipped",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124288048388080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

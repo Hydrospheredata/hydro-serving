@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3420.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Meguro, Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:21:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "3420.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:21:33.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BALL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942524720",
+  "HandlingTime": "3",
+  "Description": "The knob, made with a protective cover, has dramatically improve level of this high quality and reliable watch. The inner lid, axis and inner case are made with a ferrite material that protects them from corrosion. It gives accurate time even during extreme temperature change between -40C ~ 60C. The strength and beauty of this watch makes it an excellent choice. [Specifications] Face: Sapphire Crystal Display Type: Analog Case Diameter/Length: 42 mm Case Width: 13mm Band Material: Stainless Steel Bracelet Band Length: apprx. 15~21 cm Band Color: Silver Index Color: Black Calendar: Date Display Weight: 222g Movement: Automatic Water Resistance: up to 300 m 1 year warranty by Time Japan. Ship from Japan by japan Post EMS, and it will take 4-7 days for you to receive it.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ball-Watch-Automatic-Engineer-Hydrocarbon-Ceramic-XV-DM2136A-SCJ-BK-/201942524720",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019425247208080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H9M10S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/fcEAAOSwaEhZJVnT/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MegAAOSwuMZZJVnU/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/XlkAAOSws5pZJVnW/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/R3AAAOSwAPVZJVnY/$_1.GIF?set_id=8800005007"
+  ],
+  "Title": "Ball Watch Automatic Engineer Hydrocarbon Ceramic XV DM2136A-SCJ-BK",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "time_japan",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We receive returns if items are in the same condition as received and include all documentation, packaging and any other addition originally shipped."
+  }
+}

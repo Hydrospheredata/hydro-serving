@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/RrQAAOSwuspY~mfb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/1a4AAOSwSypY~mfb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDQyWDUwMA==/z/40wAAOSwmCVY~mfb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMxMw==/z/0yMAAOSwHHFY~mfb/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sugar-Lulu-Arm-Candy-Duffle-Bag-Secret-Garden-/292095953498",
+  "ConvertedCurrentPrice": {
+    "value": "58.7",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Perfect for sleepovers, dance, sports, and more, these must-have bags are the perfect size for stashing everything girls need everywhere they go! Lightweight, soft, tufted patent leather in bright, scrumptious colors and cool patterned interiors make these bags instant arm candy, while the durable construction, easy-carry handles, and removable cross body strap makes them tough enough to handle every girl's busy schedule!. - Perfect for sleepovers, dance, sports, and more - These must-have bags are the perfect size for stashing everything girls need everywhere they go - Lightweight, soft, tufted patent leather in bright, scrumptious colors and cool patterned interiors - Durable construction, easy-carry handles, and removable cross body strap Sugar Lulu Arm Candy Duffle Bag: Secret Garden",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "58.7",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "11616",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "thetoptens"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Sugar Lulu Arm Candy Duffle Bag: Secret Garden",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-24T21:02:15.000Z",
+  "HitCount": "70",
+  "TimeLeft": "P21DT4H8M10S",
+  "EndTime": "2017-06-23T21:02:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "810190026144"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0810190026144"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Sugarlulu"
+      },
+      {
+        "Name": "MPN",
+        "Value": "6144"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Toy"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.75 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 19.4 x W 17.6 x H 1.2 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Sugar Lulu"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292095953498",
+  "Storefront": {
+    "StoreName": "thetoptens",
+    "StoreURL": "http://stores.ebay.com/id=1345108464"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920959534988080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

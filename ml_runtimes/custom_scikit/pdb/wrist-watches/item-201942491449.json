@@ -1,0 +1,140 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "DELHI, DELHI",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:59:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:59:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942491449",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HMT",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "synthetic leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "HMT tarun 17 jewels",
+        "Name": "Model"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1971-1983)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Red",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "31mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "39mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE HMT TARUN 17J MACHENICAL HAND-WINDING MEN'S ANALOG DIAL WRIST WATCH",
+  "ConditionDescription": "PRE OWNED REFURBISHED IN WORKING CONDITION READY TO USE.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-HMT-TARUN-17J-MACHENICAL-HAND-WINDING-MENS-ANALOG-DIAL-WRIST-WATCH-/201942491449",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019424914498080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "110006",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H44M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N0gAAOSwLVZV3YEG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/agQAAOSwTapV3YEN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OTAAAOSwLVZV3YEV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OfwAAOSwLVZV3YEc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GdkAAOSwT6pV3YEk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9~QAAOSwu4BV3YEu/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "BRAND HMT MODEL HMT TARUN 17JEWELS DIMENSIONS IT MEASURES 33 MM IN DIAMETER INCLUDING ITS CROWN AND LUG TO LUG 39 MM CASE STAINLESS STEEL CASE. MOVEMENT HANDS WINDING MOVEMENT IN FULL WORKING ORDER. STRAP BEAUTIFUL RED STRAP NEW AFTER MARKET DIAL BEAUTIFUL BLACK COLORED DIAL AGE APPROX 30 to 40 YEARS CRYSTAL ACRYLIC CONDITION EXCELLENT AS PER ITS AGE SIGN HMT SIGNED ON THE DIAL BACK AND THE MOVEMENT FUNCTIONS HOURS, MINUTES, SECONDS. SEX MEN DISPLAY ANALOG Normal 0 false false false EN-US X-NONE X-NONE",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.6",
+    "FeedbackScore": "2042",
+    "UserID": "vintagetimecollection2015",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

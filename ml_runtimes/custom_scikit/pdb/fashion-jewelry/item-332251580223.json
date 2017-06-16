@@ -1,0 +1,115 @@
+{
+  "HandlingTime": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "332251580223",
+  "TimeLeft": "P6DT10H22M7S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-04T22:12:29.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PostalCode": "61109",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Silpada Sterling Silver Green MOP Necklace & Earring Set Retired #N1133 #W1134",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T22:12:29.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Mother of Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "925 parts per 1000",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Adjustable",
+        "Name": "Length"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Earring Style"
+      },
+      {
+        "Value": "Hook",
+        "Name": "Fastening"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Sterling-Silver-Green-MOP-Necklace-Earring-Set-Retired-N1133-W1134-/332251580223",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Rockford, Illinois",
+  "Description": "Silpada mother of pearl green necklace and earring set. All in excellent condition except for a tiny chip and they corner of one earring please see last photo",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322515802238080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "shar2342",
+    "FeedbackScore": "2418",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/0jAAAOSwBt5ZNISi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/N1QAAOSw-K9ZNISZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/eMkAAOSwuMZZNISj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/b5MAAOSwhvFZNISb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/u5oAAOSwjL5ZNISf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/JkEAAOSwX9FZNISh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/rCsAAOSwlY1ZNISl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/y54AAOSwaeRZNISm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KEUAAOSw~y9ZNISn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/LP8AAOSwGJlZNISo/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "48.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AR",
+  "Location": "Capital Federal, Buenos Aires",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:06:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090425867",
+    "StoreName": "BSASCLOCK"
+  },
+  "CurrentPrice": {
+    "value": "48.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:25.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Woman",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Antique (pre 1920)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535980031",
+  "HandlingTime": "5",
+  "Description": "BSASCLOCK Excelente Reloj de pulsera INVICTA para dama enchapado.17mm diameter Excelent Wristwatch lady INVICTA Gold plated. 17mm diameter R619",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Excelent-Wristwatch-lady-INVICTA-Gold-Plated-/162535980031",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625359800318080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H51M39S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/Mj4AAMXQBNlRhwWY/$(KGrHqR,!rQFEd!EF)SSBRhwWYO3EQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/RtIAAMXQHPFRhwWg/$T2eC16d,!zUE9s38+qCNBRhwWglRKQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/~XoAAOxyJ8ZRhwWm/$(KGrHqJ,!qYFEyUIR!9yBRhwWlkCB!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/iRoAAOxymcdRhwWq/$(KGrHqF,!l0FFzFNeuo6BRhwWphHsQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/jUMAAOxybLpRhwWy/$T2eC16V,!yEE9s5jFKGVBRhwW))D-!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/48sAAOxyW7tRhwW4/$(KGrHqZ,!l!FFy,VkCGEBRhwW3qiRw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/~hgAAOxyJ8ZRhwW9/$T2eC16N,!ykE9s7tvVrzBRhwW9hHkQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Excelent Wristwatch lady INVICTA Gold Plated",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "620",
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

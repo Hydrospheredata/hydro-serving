@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT22H59M14S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "EARRINGS ARE IN VERY GOOD CONDITION FOR THEIR AGE AND HAVE BEEN WORN....VINTAGE...SEE PICTURES AND DESCRIPTION",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142405339754",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:33:13.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-NAUTICAL-NAVY-GOLDTONE-/142405339754",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:33:13.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Scalloped",
+        "Name": "Style"
+      },
+      {
+        "Value": "GoldTone Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Navy/Gold tone",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Navy Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY..EARRINGS..CLIP-ON..NAUTICAL..NAVY/GOLDTONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "FROM MY PERSONAL COLLECTION OF ST JOHN EARRINGS....PURCHASED IN THE 90'S AT THE TIME WHEN THE COMPANY HAD A NAUTICAL CRUISE LINE FOR SALE IN THEIR BOUTIQUES... THESE EARRINGS ARE VERY NICE BUT HAVE BEEN WORN.... THEY ARE NOT A SMALL ST JOHN EARRING 1 1/4\"....THE COLOR IS A VERY DEEP NAVY BLUE SO THESE ST JOHN EARRINGS CAN BE WORN WITH BLACK ALSO... THE EARRINGS WILL BE MAILED VIA USPS MAIL WITH A TRACKING NUMBER FOR SECURE DELIVERY.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424053397548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "2",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/ADsAAOSwq7JT3-O~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/cXYAAOSwxH1T3-PB/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/cZ4AAOSwxH1T3-PC/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

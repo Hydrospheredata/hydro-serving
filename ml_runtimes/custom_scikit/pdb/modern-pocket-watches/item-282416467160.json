@@ -1,0 +1,176 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "GR",
+    "LT",
+    "MC",
+    "ME",
+    "ES",
+    "SJ",
+    "CH",
+    "AR",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "00852",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Model"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Unbrand/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/dA4AAOSww3tY3kvu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/394AAOSwTM5Y3kvu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/CaUAAOSwc-tY3kvu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/flQAAOSwsW9Y3kvu/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "QuantitySold": "4",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.61"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "29",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "KE_0DZD_Y3UZ",
+  "StartTime": "2017-03-31T12:30:35.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824164671608080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T12:30:35.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "282416467160",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "3.52"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brass-Necklace-Pendant-Quartz-Glass-Ball-Watch-1-06-/282416467160",
+  "Location": "HK",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Brass Necklace Pendant Quartz Glass Ball Watch 1.06\"",
+  "Storefront": {
+    "StoreName": "foreverhighquality",
+    "StoreURL": "http://stores.ebay.com/id=1162452825"
+  },
+  "Seller": {
+    "UserID": "foreverhighquality",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "76716",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT17H41M39S"
+}

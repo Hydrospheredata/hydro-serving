@@ -1,0 +1,172 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "23.49"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! ---FobTime Pocket Watch . --- Antique Brass Necklace . --- Bronze Case --- Skeleton Pendant Pocket Watch . --- Fob Watch. --- Military Watches . --- Hunter Watch . --- Mechanical Movement . --- Hand Winding . --- Steampunk Vintage Style Crystal Ball . --- Roman Numerals . --- Bronze Necklace Chain . - Classical see-through golden mechanical movement - Skeleton Dial with Roman Numerals Display - Half Hunter Hunter Pocket Watch Renaissance Antique Look - 100% Brand NEW with excellent workmanship - Metal Chain Length 400mm (15.5 inches) FobTime Bronze Mechanical Skeleton Pocket Watch Hand Winding Steampunk Crystal",
+  "StartTime": "2017-05-01T20:55:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/YroAAOSw7GRZB6DD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/kD4AAOSww9xZB6DD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/jb8AAOSwX61ZB6DD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CDAAAOSwjL5ZB6DD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZOkAAOSwT-FZB6DD/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "617215302494",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0617215302494",
+        "Name": "EAN"
+      },
+      {
+        "Value": "FOBTIME",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NLG-FOB-001A1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.1 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 2.5 x W 2.1 x H 1.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "FobTime",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "allcommerce27",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "987",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726556122588080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-05-31T20:55:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "23.49"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "FobTime Bronze Mechanical Skeleton Pocket Watch Hand Winding Steampunk Crystal",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FobTime-Bronze-Mechanical-Skeleton-Pocket-Watch-Hand-Winding-Steampunk-Crystal-/172655612258",
+  "Storefront": {
+    "StoreName": "allcommerce27",
+    "StoreURL": "http://stores.ebay.com/id=1582701308"
+  },
+  "ItemID": "172655612258",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT2H9M56S"
+}

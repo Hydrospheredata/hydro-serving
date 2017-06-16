@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Horicon, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:29:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173392934",
+    "StoreName": "A-2-Z Limitless"
+  },
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:29:29.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942272108",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Armitron Sport",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Armitron Sport",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0086702569885",
+        "Name": "EAN"
+      },
+      {
+        "Value": "086702569885",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Armitron Sport Women's 45/7063GRY Digital Chronograph Black and Grey Resin Strap",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Armitron-Sport-Womens-45-7063GRY-Digital-Chronograph-Black-and-Grey-Resin-Strap-/201942272108",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019422721088080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "53032",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H2M59S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/Rg8AAOSwSlBYy1Uz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/G4cAAOSwXYtYy1U3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/IdAAAOSwhQhYy1U7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/gcUAAOSw4A5Yy1VA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/pn0AAOSw4YdYy1VE/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Armitron Sport Women's 45/7063GRY Digital Chronograph Black and Grey Resin Strap Watch Product Features Grey resin case with silver-tone metalized bezel; black and grey resin strap with buckle closure Functions include: time, seconds, day/date, chronograph, lap time, alarm, countdown timer, dual time, military time and backlight with three second delay Quartz Movement Case Diameter: 37mm Water Resistant To 330 Feet Product Description Armitron has been creating quality watches for more than 50 years and understands how precious time is. Making time for family, time for friends and time for all those special moments in life is an immeasurable gift that Armitron recognizes with its extensive collection of men's and women's precision timepieces. The Armitron brand has developed its reputation based on the enduring quality and up-to-the-minute styling of its watches. Each timepiece offers exceptional value with the finest details and remarkable features such as genuine diamonds, Swarovski crystals, chronograph movements, solid stainless steel and exotic leathers. Whether it's an everyday timepiece for a loved one or a special occasion accessory for yourself, Armitron has just the right watch to give the gift of time. Functions include: time, seconds, day/date, chronograph, lap time, alarm, countdown timer, dual time, military time and backlight with three second delay.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2858",
+    "UserID": "taczann",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

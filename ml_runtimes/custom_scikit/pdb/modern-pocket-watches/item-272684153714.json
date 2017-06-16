@@ -1,0 +1,148 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "66049",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New in original box. Number pictured of 5000. From my Mother's collection. It will need a new battery. Thanks for looking.",
+  "StartTime": "2017-05-23T21:45:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/NJYAAOSwAYtWJ7zt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/NlUAAOSwAYtWJ7z7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/Wl8AAOSw14xWJ70Q/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.96"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "stark721",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1929",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726841537148080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T21:45:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.96"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Disney-Limited-Edition-Beauty-and-beast-Watch-Luminere-new-/272684153714",
+  "Location": "Lawrence, Kansas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Disney Limited Edition Beauty and the beast Watch! Luminere! new!",
+  "Storefront": {
+    "StoreName": "stark721",
+    "StoreURL": "http://stores.ebay.com/id=38743228"
+  },
+  "ItemID": "272684153714",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT3H7M11S"
+}

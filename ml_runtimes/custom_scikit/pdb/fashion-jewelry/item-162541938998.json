@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "162541938998",
+  "TimeLeft": "P6DT11H8M11S",
+  "ListingStatus": "Active",
+  "Title": "SWAROVSKI Black & Gold Crystal Shambhala Bracelet NEW! $160 Retail",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T01:53:58.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T01:53:58.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swarovski",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Various",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "mixed metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "semi-precious",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SWAROVSKI-Black-Gold-Crystal-Shambhala-Bracelet-NEW-160-Retail-/162541938998",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Sartell, Minnesota",
+  "Description": "Up for Auction: This trendy bracelet features a black waxed cotton cord twisted gray crystal pearls and gold-plated metal elements. Adorned with crystal pav\u00e9, the central motif is inspired by a frog button. A special knotting mechanism allows you to adjust the bracelet for a perfect fit. Fully Adjustable will fit most wrists. Authentic and NEW with Tags 160.00 Retail Fast & Free USA Shipping International Buyers are Welcome. We Ship Priority with Tracking.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625419389988080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "watchguyz",
+    "FeedbackScore": "6585",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Watchguyz",
+    "StoreURL": "http://stores.ebay.com/id=98617112"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzc3WDEwMjQ=/z/geYAAOSwgNRV8veM/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk3WDk3Nw==/z/dcYAAOSwQPlV8veW/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2OVgxMTE3/z/crsAAOSwQPlV8veE/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "56377"
+}

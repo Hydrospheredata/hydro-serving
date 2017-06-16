@@ -1,0 +1,293 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.02"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "SG12UUBA3718346",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-23T13:55:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/qhoAAOSw3gJZJD73/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "100",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_56629-P",
+  "HitCount": "19",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T13:55:34.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122512073700",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.02"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "Name": "color"
+        },
+        {
+          "Value": [
+            "slender Necklace",
+            "thick Necklace"
+          ],
+          "Name": "Necklace type"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificName": "color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "silver",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/JvUAAOSwaEhZJD84/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/KxwAAOSwYlRZJD87/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/KzIAAOSwYlRZJD88/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/7-kAAOSwcgNZJD8-/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/u4oAAOSwtGlZJD9A/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/dUYAAOSwIaFZJD9C/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/VCgAAOSwlndZJD9E/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/N7gAAOSwcB5ZJD9F/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "gold",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/4MQAAOSww9xZJD9H/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/rmAAAOSw3gJZJD9J/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/OB0AAOSwcB5ZJD9L/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/6YEAAOSwsXFZJD9M/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/OE4AAOSwcB5ZJD9O/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/JHgAAOSw7GRZJD9Q/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/ONEAAOSw42dZJD9R/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/vFwAAOSwtGlZJD9T/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/dwAAAOSwAPVZJD9U/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "black",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/sE0AAOSwIQdZJD8k/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/MJQAAOSwYvFZJD8m/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/SPMAAOSwurZZJD8o/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/pUUAAOSw0hlZJD8q/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/rNUAAOSw3gJZJD8s/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/NkUAAOSwcB5ZJD8u/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/HroAAOSw~y9ZJD8w/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/NoMAAOSwcB5ZJD8y/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/YDgAAOSwblZZJD80/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/FTAAAOSwX9FZJD82/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.02"
+        },
+        "SKU": "UU_ZG721202",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "silver",
+              "Name": "color"
+            },
+            {
+              "Value": "slender Necklace",
+              "Name": "Necklace type"
+            }
+          ]
+        },
+        "Quantity": "20"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.02"
+        },
+        "SKU": "UU_ZG721203",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "gold",
+              "Name": "color"
+            },
+            {
+              "Value": "slender Necklace",
+              "Name": "Necklace type"
+            }
+          ]
+        },
+        "Quantity": "20"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.02"
+        },
+        "SKU": "UU_ZG721204",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "black",
+              "Name": "color"
+            },
+            {
+              "Value": "thick Necklace",
+              "Name": "Necklace type"
+            }
+          ]
+        },
+        "Quantity": "20"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.02"
+        },
+        "SKU": "UU_ZG721205",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "silver",
+              "Name": "color"
+            },
+            {
+              "Value": "thick Necklace",
+              "Name": "Necklace type"
+            }
+          ]
+        },
+        "Quantity": "20"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.22"
+        },
+        "SKU": "UU_ZG721206",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "gold",
+              "Name": "color"
+            },
+            {
+              "Value": "thick Necklace",
+              "Name": "Necklace type"
+            }
+          ]
+        },
+        "Quantity": "20"
+      }
+    ]
+  },
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Creative Retro Mirror Smooth Slender Necklace Vintage Quartz Pocket Watch BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Creative-Retro-Mirror-Smooth-Slender-Necklace-Vintage-Quartz-Pocket-Watch-BA-/122512073700?var=",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130026",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT19H17M35S"
+}

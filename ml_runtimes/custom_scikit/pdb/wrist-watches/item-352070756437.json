@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.07"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EdMAAOSwsXFZKasn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/66QAAOSwlY1ZKasc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8eYAAOSwYlRZKas2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8Y8AAOSw7GRZKatC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zisAAOSw1WJZKatH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jkgAAOSwBt5ZKatT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z5sAAOSwIQdZKatc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DRQAAOSwcB5ZKatj/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "UK",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "GB",
+  "Seller": {
+    "UserID": "kpg-666",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3630",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "StartTime": "2017-05-27T16:41:04.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "i***a",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "128",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "Chinese",
+  "ConditionDescription": "SELLING AS SPARES/REPAIR",
+  "Title": "LOT OF VINTAGE WATCH MOVEMENTS FOR SPARES OR REPAIR-NIVADA-ROTARY",
+  "ItemID": "352070756437",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LOT-VINTAGE-WATCH-MOVEMENTS-SPARES-REPAIR-NIVADA-ROTARY-/352070756437",
+  "QuantitySold": "0",
+  "PostalCode": "hu6 9uh",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Used",
+  "Description": "THIS AUCTION IS FOR A VINTAGE JOBLOT OF VARIOUS WATCH MOVEMENTS-PLEASE SEE PICS--SELLING AS SPARES OR REPAIRS-THE SEIKO SEEMS TO WORK AND THE NIVADA ONE WINDS AND SEEMS TO WORK OK",
+  "HitCount": "417",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "GBP",
+    "value": "6.0"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "ROTARY SEIKO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3520707564378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "2",
+  "EndTime": "2017-06-03T16:41:04.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "hull",
+  "CurrentPrice": {
+    "_currencyID": "GBP",
+    "value": "5.5"
+  },
+  "TimeLeft": "P2DT20H27M57S"
+}

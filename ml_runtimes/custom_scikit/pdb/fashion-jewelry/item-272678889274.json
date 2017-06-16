@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT9H41M33S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "CN",
+    "JP",
+    "AU",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "HK",
+    "IL",
+    "NZ",
+    "PH",
+    "SG",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "MY"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272678889274",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BUFFALO-HORN-LACQUER-NECKLACE-/272678889274",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-20T00:49:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-19T00:49:27.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hand made",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces, pendant",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "BUFFALO HORN LACQUER NECKLACE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HANDMADE NECKLACE LACQUER PENDANT Handmade from water buffalo horn (not cheap plastic imitation) and lacquered one side. High quality item with great care hand carved and polished. Adjustable leather cord. The color of the lacquer link in the middle is darker than the picture. Color may be vary slightly from the listing picture due to the natural horn color. Overseas Customers are responsible for duty, tax, insurance (if necessary). Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726788892748080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "danandhaharley",
+    "FeedbackScore": "780",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Dan and Ha&#39;s Handcrafts and Stuff",
+    "StoreURL": "http://stores.ebay.com/id=16951076"
+  },
+  "Quantity": "1",
+  "Location": "Apple Valley, California",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZIEAAOSwsXFZH5GT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1kcAAOSwZKBZH5GX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3q4AAOSw~FJZH5Ga/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "92307"
+}

@@ -1,0 +1,119 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT13H56M14S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "43.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292140634980",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nine-West-Vintage-America-Royal-Flush-Black-Stone-Gold-Tone-Necklace-Earring-Set-/292140634980",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "43.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T01:41:42.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T01:41:42.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nine West Vintage America",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Base",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Faceted Black Glass",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold & Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "N - 642447077551; E- 642447077605",
+        "Name": "UPC Numbers"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Nine West Vintage America Royal Flush Black Stone Gold Tone Necklace Earring Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nine West Vintage America Royal Flush Black Stone Crystal Gold Tone Necklace & Earrings Set - MSRP $54 This fabulous set includes a necklace and a set of 2 pair of stud earrings. The necklace features a line of faceted black marquis shaped stones set in gold tone metal with crystal accents. Lobster claw clasp. One pair of earrings is the same faceted black marquis shaped stones set in gold tone metal with crystal accents. The other is the same marquis shape gold tone setting with crystal accents but has a gold tone center stone. Post for pierced ears. Necklace measures approximately 16\" length with 2\" extender. Earrings measure approximately 5/8\" length x 1/2\" width. Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921406349808080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "teakotiger",
+    "FeedbackScore": "360",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Fabulous by Angela",
+    "StoreURL": "http://stores.ebay.com/id=138062439"
+  },
+  "Quantity": "1",
+  "Location": "Fletcher, North Carolina",
+  "HitCount": "1",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tiYAAOSwAvJXBrr5/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Rm4AAOSwz2lXBrr-/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XUEAAOSwSzdXBrrM/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDg4/z/GbUAAOSw-RRXBrrR/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QgAAAOSwGYVXBrrY/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XEIAAOSwbwlXBrre/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xqQAAOSw8RJXBrrj/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/j9wAAOSwiylXBrrn/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZdgAAOSwgApXBrrr/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SCMAAOSwGYVXBrrw/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uqIAAOSwy5ZXBrr1/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fuMAAOSwSzdXBruG/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "28732"
+}

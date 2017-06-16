@@ -1,0 +1,152 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA2WDgwMA==/z/5a0AAOSw8lpZLmdA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDcwMA==/z/93wAAOSwxu5ZLmc-/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "ROCKVILLE  MD",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:48:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "12",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1092888199",
+    "StoreName": "dongx2011"
+  },
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:48:27.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "CH",
+    "AT",
+    "BG"
+  ],
+  "ItemID": "192203100605",
+  "HandlingTime": "1",
+  "Description": "U8 U10 Smart Wrist Watch Phone Mate Bluetooth For iPhone IOS Android Samsung Description Package Contens: 1x Smart Watch 1x USB Charger Cable 1x User Manual Payment We accept only PayPal payment.A non-payment dispute will be opened if full payment is not received after 5 days of auction. Delivery details The item will be Shipped from Our US Warehuose have tracking number. Item will be shipped within 2 working days after full payment is received. Email us if not receive items after 6 working days after full payment sent. We only ship to the approved address given in PayPal payment. Please make sure payment address in PayPal is correct. Any non-received items caused by invalid address registered on PayPal are not in our full refund or replacement policy. A notification email of dispatch will be sent to buyer after item is posted. Please email us if you don't receive our email after 5 days of full payment sent. About us Your satisfaction is our first priority. We appreciate your positive feedback. Our system will leave feedback automatically after you pay it. Please leave us positive feedback upon satisfaction of the item. Please email us before leaving negative and neutral feedback. We will try our best to solve the issue. We will be glad to answer any question you may have, please feel free to contact us via ebay message. we do try respond as quickly as possible. Due to time zone difference, please allow 12~24 hours to get your mail replied. Contact us We do our best to serve our each customer the best that we can. If you're not pleased with your purchase, we'll be happy to make an exchange or refund on the return of the goods. Refund(excluding the shipping costs to and fro) will be given if items are returned in their original condition. Merchandise which is damaged or missing components is not refundable. Buyers are responsible for return shipping with proper packaging. On receiving items, we will refund you/send out the replacement immediately.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/U10-Smart-Wrist-Watch-Phone-Mate-Bluetooth-iPhone-IOS-Android-Samsung-/192203100605?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "U8",
+        "Name": "Model"
+      },
+      {
+        "Value": "Analogue & Digital",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "US-UW0121 /UW0122/ UW0123",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "29.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "US-UW0121",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "U10-Black",
+            "Name": "COLOR"
+          }
+        },
+        "Quantity": "7"
+      },
+      {
+        "StartPrice": {
+          "value": "29.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "US-UW0123",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "U10-Black&Silver",
+            "Name": "COLOR"
+          }
+        },
+        "Quantity": "5"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "U10-Black",
+          "U10-Black&Silver"
+        ],
+        "Name": "COLOR"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "U10-Black",
+          "PictureURL": "https://image.pushauction.com/0/0/1bcd3c69-7114-4994-8a9f-2d66885f1dfd/d5ce986b-c0dc-42a8-8312-1fb965e9c923.jpg"
+        },
+        {
+          "VariationSpecificValue": "U10-Black&Silver",
+          "PictureURL": "https://image.pushauction.com/0/0/1bcd3c69-7114-4994-8a9f-2d66885f1dfd/f0083a79-4acc-4597-bdb3-e73f2a5c2cca.jpg"
+        }
+      ],
+      "VariationSpecificName": "COLOR"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H14M23S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "U10 Smart Wrist Watch Phone Mate Bluetooth for iPhone IOS Android Samsung",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "32880",
+    "UserID": "dongx2011",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

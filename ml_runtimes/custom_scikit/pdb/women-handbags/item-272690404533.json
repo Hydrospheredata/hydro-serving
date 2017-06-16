@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMyMFgxNTAw/z/Xs0AAOSwT~9WifCH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjgz/z/QrwAAOSwaA5WifCP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MDg=/z/PEMAAOSwGotWifCW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA4WDE1MDA=/z/X-sAAOSwT~9WifCd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE3WDE1MDA=/z/5oQAAOSwwPhWifCi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3N1gxNTAw/z/hqQAAOSwYIhWifCp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MTg=/z/w4YAAOSwL7VWifJp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOVgxNjAw/z/-3UAAOSwX~dWkoeE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6j8AAOSwKtlWkoeN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3M1gxNjAw/z/GnQAAOSw5dNWkoeS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwNFgxNjAw/z/6WkAAOSwJkJWkoeW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzMVgxNjAw/z/q8AAAOSwaA5WkofX/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-425-Rebecca-Minkoff-Dylan-Tech-Cross-Body-Purse-Black-/272690404533",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Cross Body Bag with Tablet / iPad Compartment! 10\" W x 8\"H x 3\" D 100% Genuine Leather 25.5\" strap drop 1.5\" handle drop Main magnetic snap closure Expandable side gusset One exterior zip pocket Two exterior side zippers for tablet pocket Magnetic snap closure for quick tablet access One interior zip pocket Two interior slip pockets Custom brushed gold hardware Exclusive herringbone print lining Retails for $425 + tax. Please ask all questions in advance - no returns. Thank you!***Please note that there is light scuffing on this purse. The flash of the camera makes it more pronounced then it actually is.***",
+  "Title": "NWT $425 Rebecca Minkoff 'Dylan' Tech Cross Body Purse in Black!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Sherman Oaks, California",
+  "Seller": {
+    "FeedbackScore": "143",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "theatreluv"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91403",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T07:02:43.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P24DT16H4M43S",
+  "EndTime": "2017-06-27T07:02:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Rebecca Minkoff"
+      },
+      {
+        "Name": "Style",
+        "Value": "iPod Purse"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272690404533",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726904045338080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

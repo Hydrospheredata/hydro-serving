@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P15DT9H1M55S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371937767862",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-STUNNING-BLACK-ENAMEL-BLACK-CRYSTAL-SNAKE-BRACELET-/371937767862",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T00:08:00.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T00:08:00.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE STUNNING BLACK ENAMEL BLACK CRYSTAL SNAKE BRACELET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "UP FOR AUCTION THIS LOVELY KJL KENNETH LANE BLACK ENAMEL BLACK CRYSTAL SNAKE WRAP AROUND BRACELET IT IS STUNNING PICTURES CANT DESCRIBE THESE EARCLIPS BUYER TO PAY 3.00 SHIPPING On Mar-09-09 at 15:22:48 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3719377678628080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "paper00",
+    "FeedbackScore": "11268",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "paper00",
+    "StoreURL": "http://stores.ebay.com/id=55701735"
+  },
+  "Quantity": "1",
+  "Location": "Waterbury, Connecticut",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMjMz/z/RQ0AAMXQyY1TREL1/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06708"
+}

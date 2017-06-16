@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PtQAAOSwvUlWsnQ0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Il0AAOSwJb9WsnQ-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FdgAAOSwnLdWsnRG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7y0AAOSwXshWsnRO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8~kAAOSwFMZWsnRX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8gcAAOSwpzdWsnRg/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SPECIAL-EDITION-MOBILE-EDGE-THE-MILANO-BLACK-EMBOSSED-LAPTOP-MESSENGER-BAG-/252936688339",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "SPECIAL EDITION MOBILE EDGE \"THE MILANO\" BLACK EMBOSSED LAPTOP MESSENGER BAG NEW WITHOUT TAGS 21\"X15\"",
+  "Title": "SPECIAL EDITION MOBILE EDGE \"THE MILANO\"  BLACK EMBOSSED LAPTOP MESSENGER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Poughkeepsie, New York",
+  "Seller": {
+    "FeedbackScore": "1111",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Red",
+    "UserID": "trendsntreasures2014"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "12603",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T16:33:46.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P10DT1H30M6S",
+  "EndTime": "2017-06-12T16:33:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "MOBILE EDGE"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "BLACK"
+      },
+      {
+        "Name": "Material",
+        "Value": "FAUX CROC"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252936688339",
+  "Storefront": {
+    "StoreName": "trendsntreasures2014",
+    "StoreURL": "http://stores.ebay.com/id=1198453870"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529366883398080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

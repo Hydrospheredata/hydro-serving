@@ -1,0 +1,119 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAyWDM3Nw==/z/IFIAAOxyJ-FRkj~I/$T2eC16V,!y0E9s2S65DEBRkj+HMRqw~~60_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jody-Coyote-PURSE-Handbag-ALDER-Hobo-Brown-FAUX-Suede-FREE-USA-SHIPPING-/401339598539",
+  "ConvertedCurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Jody Coyote PURSE Handbag ALDER Hobo Brown FAUX Suede Track Page Views With Auctiva's FREE Counter",
+  "Title": "Jody Coyote PURSE Handbag ALDER Hobo Brown FAUX Suede * FREE USA SHIPPING",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Millersburg, Ohio",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "8096",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "thoughtsthatcount88"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "44654",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:35:49.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P9DT23H29M37S",
+  "EndTime": "2017-06-12T13:35:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Jody Coyote"
+      },
+      {
+        "Name": "Style",
+        "Value": "Hobo"
+      },
+      {
+        "Name": "Material",
+        "Value": "Suede"
+      },
+      {
+        "Name": "Color",
+        "Value": "Browns"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "24"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "9"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "14.5"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Shade",
+        "Value": "Medium Brown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "748903322248"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401339598539",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Thoughts That Count Gifts",
+    "StoreURL": "http://stores.ebay.com/id=95271382"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Returns accepted only when item is not as described.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/4013395985398080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

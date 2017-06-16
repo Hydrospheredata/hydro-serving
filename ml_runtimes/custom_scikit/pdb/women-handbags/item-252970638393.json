@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDUyOA==/z/I6UAAOSw9OFZMVX1/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDUyOA==/z/j6YAAOSwAPVZMVX5/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/6VQAAOSwK6RZMVX7/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/e2AAAOSwfpVZMVX~/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/OygAAOSwcgNZMVYC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/t0MAAOSwcB5ZMVYF/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/DdQAAOSwxu5ZMVYM/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Lime-Green-Hamilton-Brand-New-Medium-/252970638393",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand New, never used. selling in great price and no international shipping only USA. I will only take offer no less $150 with free shipping.",
+  "Title": "Michael Kors Lime Green Hamilton Brand New Medium",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Banner Elk, North Carolina",
+  "Seller": {
+    "FeedbackScore": "14",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "call_babe"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "28604",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:15:28.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT22H3M9S",
+  "EndTime": "2017-07-02T12:15:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Color",
+        "Value": "Green"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970638393",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529706383938080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

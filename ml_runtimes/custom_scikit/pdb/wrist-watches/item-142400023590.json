@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "51.43",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Birmingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:36:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=47615761",
+    "StoreName": "blackberryfones"
+  },
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-03T10:36:01.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "RU",
+  "ItemID": "142400023590",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "French Connection",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "FCUK French Connection Men's Wrist Watch BNIB",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FCUK-French-Connection-Mens-Wrist-Watch-BNIB-/142400023590",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424000235908080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "B16 9EQ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT19H13M27S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMwN1g4OTE=/z/ogUAAOSw4CFYv~eY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODkyWDE2MDA=/z/Cf4AAOSwax5Yv~em/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/3ysAAOSw~AVYv~ez/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "FCUK French Connection Men's Wrist Watch BNIB Brand new unwanted birthday gift, never worn, plastic seals never removed. Comes in its gift box and outer box packing too. Sent using 24hr Postal service! Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "3966",
+    "UserID": "blackberryfones",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Must be returned in EXACT state. Returns not accepted if worn, any signs of use or seals removed. This is a brand new item, not try before you buy.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

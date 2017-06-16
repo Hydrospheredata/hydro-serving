@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "51.44",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Swindon",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:45:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=52632699",
+    "StoreName": "*sun-light*"
+  },
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-03T14:45:57.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "101968",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074221674",
+  "HandlingTime": "1",
+  "Description": "Ladies vintage Jesby wind up watch, gold plated and enamel bangle strap & case. All working well and keeping time. Note the small chip to the enamel on the front cover, which could probably easily filled in.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-vintage-Jesby-wind-up-watch-gold-plated-and-enamel-bangle-strap-case-/352074221674",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520742216748080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "SN5 5UY",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H39M28S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BTcAAOSwaeRZH0IP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oPEAAOSw~FJZH0Hm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU0M1gxNjAw/z/3A4AAOSwrhBZH0Hr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U5UAAOSwKytZH0Hu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUyNlgxNjAw/z/Yb0AAOSwCQZZH0H0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUzOFgxNjAw/z/o4kAAOSwn-tZH0H6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI5M1gxNTk5/z/3nEAAOSwYlRZH0H~/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Ladies vintage Jesby wind up watch, gold plated and enamel bangle strap & case.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16811",
+    "UserID": "*sun-light*",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "If you need to return an item, please use the return address on the invoice. Please also send an email through the ebay email system to confirm your intentions.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

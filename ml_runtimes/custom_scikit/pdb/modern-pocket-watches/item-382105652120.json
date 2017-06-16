@@ -1,0 +1,142 @@
+{
+  "ExcludeShipToLocation": [
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "GT",
+    "HN",
+    "JM",
+    "AN",
+    "PA",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "EC",
+    "PY",
+    "PE",
+    "VE",
+    "GL",
+    "DZ",
+    "AO",
+    "GH",
+    "MA",
+    "MZ",
+    "NA",
+    "RE",
+    "SL",
+    "TN",
+    "ZM",
+    "ZW",
+    "IQ",
+    "JO",
+    "KW",
+    "TR",
+    "AM",
+    "BD",
+    "CN",
+    "IN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM"
+  ],
+  "QuantitySold": "0",
+  "Title": "KS Mens Half Hunter Mother of Pearl Dial Pendant Classic Quartz Pocket Watch+Box",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-29T05:57:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/VLgAAOSwzgBY4ecj/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/VXMAAOSwhQhY4ec0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Au0AAOSwmgJY4ecn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/dhkAAOSwc-tY4ecr/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pjMAAOSwdGFY4ecv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/d6YAAOSwc-tY4ec4/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "10",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kronen & S\u00f6hne",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz: Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "712145247133",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kronensoehne_global",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "26499",
+    "PositiveFeedbackPercent": "98.2"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821056521208080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T05:57:42.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "Description": "1. This item is entitled to 12 months guarantee. (Excluding misuse of the item and damaged item)\n2. If you are going to return the item, please contact us through eBay message. We will provide you with solutions and return directions.\n3. For damaged items on arrival, please contact us immediately, sending us an email with a photo is preferred. We will offer solutions to such cases. Full refund or replacement will be guaranteed.\n4. If the item you receive does not live up to your expectation, please do not hesitate to contact us before leaving any feedbacks or opening any cases.\n5. For other reasons, please feel free to let us know. We will get back to you as soon as we are available.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "KSP077",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Alaska",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KS-Mens-Half-Hunter-Mother-Pearl-Dial-Pendant-Classic-Quartz-Pocket-Watch-Box-/382105652120",
+  "Storefront": {
+    "StoreName": "KronenSoehne_Global",
+    "StoreURL": "http://stores.ebay.com/id=553552939"
+  },
+  "ItemID": "382105652120",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT11H23M20S"
+}

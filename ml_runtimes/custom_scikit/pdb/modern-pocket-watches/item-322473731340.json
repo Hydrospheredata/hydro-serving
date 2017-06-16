@@ -1,0 +1,89 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "WZC Small Size Quartz Totoro Pocket Watch with Chain",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.56"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "WZC Small Size Quartz Totoro Pocket Watch with Chain Features: WZC Small Size Quartz Pocket WatchCasual and fashion style design100% brand newCome with gift box and chainColorful pocket watch case Product Details: Product Dimensions: 3.4 x 2.9 x 1.5 inchesShipping Weight: 1.6 ounces Description WZC pocket watch is the best gift for your love, seniority or yourself. Elegant design with precise quartz movement. Retro watch case brings you back to your memory in youth Perfect addition to a formal or casual dressing or collecting Case Material: Alloy Chain Material: Alloy Size/Measurements: Case diameter(cm): approx2.9 Chain length(cm): approx 80 Chain width(cm): approx 0.5 Case thickness(cm): approx 1.0 Take Attention: Once you receive the quartz watch: How to set time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. Handling We will ship all orders within 2 business days of payment. Delivery We DO NOT SHIP TO PO Boxes or Mail Forwarding Addresses. We only ship to Paypal Verified addresses. Return Policy All items that qualify for returns must be within 14 days of receipt. Buyer is responsible for return shipping on any item that is not damaged, as well as a 15% restocking fee. No exchanges permitted. All returns must be done through EBAY and processed with an RMA number to be issued refund. Upon receiving RMA, buyer has 7 days to have item shipped back. Item must be in original condition and packaging. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDg2/z/22QAAOSwc-tY4-W-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZsAAAOSw4CFY4-XA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/330AAOSw~CFY4-XD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU0N1gxNTAw/z/Zw8AAOSwVctY4-XE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/3SAAAOSwc-tY4-XH/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "WZC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "724500773324",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ccs-craigw",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9274",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "StartTime": "2017-04-04T18:19:51.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3224737313408080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T18:19:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.56"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.  All returns will be charged a 15% restocking fee.",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B01DD9AD1K",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WZC-Small-Size-Quartz-Totoro-Pocket-Watch-Chain-/322473731340",
+  "Storefront": {
+    "StoreName": "RivalTech",
+    "StoreURL": "http://stores.ebay.com/id=776355051"
+  },
+  "ItemID": "322473731340",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT23H31M26S"
+}

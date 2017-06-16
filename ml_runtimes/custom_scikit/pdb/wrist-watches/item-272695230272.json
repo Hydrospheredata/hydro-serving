@@ -1,0 +1,114 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "102.83",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:20:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1489042427",
+    "StoreName": "bankniwa_shop24"
+  },
+  "CurrentPrice": {
+    "value": "102.83",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:20:06.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B00O4JGUOS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "272695230272",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "17201",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "17201",
+        "Name": "MPN"
+      },
+      {
+        "Value": "886678210213",
+        "Name": "UPC"
+      },
+      {
+        "Value": "black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Wrist Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0886678210213",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Men's 17201 Speedway Analog Japanese Quartz Black & 18k Rose Gold Steel",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-17201-Speedway-Analog-Japanese-Quartz-Black-18k-Rose-Gold-Steel-/272695230272",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726952302728080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H10M56S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/TJoAAOSwfpVZLtDa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/BUQAAOSwhvFZLtDb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/7QQAAOSwsXFZLtDd/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "BBB_SHOP 24 Best Quality / Best Service / Best Price Invicta Men's 17201 Speedway Analog Japanese Quartz Black & 18k Rose Gold Ion-Plated Stainless Steel Watch Gallery Product Description Features 51 mm stainless steel case with synthetic sapphire dial windowPolyurethane band with rose gold-tone center links and buckle closureWater resistant to 100 m (330 ft): In general, suitable for swimming and snorkeling, but not scuba divingRound watch with 18k rose gold-tone accents featuring black dial with luminous markers/hands, chronograph subdials, and date window at 6 o'clockJapanese quartz movement with analog display Invicta 17201 black dimensions: 5.91x5.91x5.91 inch. 886678210213 0886678210213 17201 Contact Please contact us by ebay message only. Payment Policy We accept Paypal, Bank transfer, Cash on delivery an Credit Card. Shipping Policy We send: Shipping Handling in USA. The package will be shipped directly from USA with tracking number, and it will take about 05-15 business days. Return Policy 100% Satisfaction Guarantee: If you are not satisfied with the product you purchased for any reason, please contact us for a return instruction within 30 days for a refund. Shipping Handling costs are not refundable. Return shipping cost will be paid by buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "458",
+    "UserID": "bbb_shop24",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Not description"
+  }
+}

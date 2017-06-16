@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921438961628080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzI0WDUwMA==/z/N10AAOSwSlBY3NXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjkwWDUwMA==/z/9RYAAOSwuLZY3NXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDQ0WDUwMA==/z/Q74AAOSwzgBY3NXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzQxWDUwMA==/z/9xkAAOSwdGFY3NXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDQ0WDUwMA==/z/C~cAAOSw2gxY3NXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzAzWDUwMA==/z/IO0AAOSwTM5Y3NXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzI2WDUwMA==/z/wu0AAOSwA29Y3NXp/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ferrari-Active-Messenger-Bag-Black-Shipping-Free-/192143896162",
+  "ConvertedCurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: The Ferrari Travellers Bag is a versatile duffel bag that can hold your essential gear or travelling supplies. Perfect as a weekend / overnight bag, gym pack, gaming pack and much more! Comes with adjustable shoulder strap with non-slip shoulder pad to help carry heavier loads.",
+  "Title": "Ferrari Active Messenger Bag, Black. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-30T09:54:46.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P25DT17H36M56S",
+  "EndTime": "2017-06-28T09:54:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "4716814793057"
+      },
+      {
+        "Name": "UPC",
+        "Value": "4716814793057"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ferrari"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143896162",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:72894521:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

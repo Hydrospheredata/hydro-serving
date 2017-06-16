@@ -1,0 +1,57 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Albrightsville, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:13:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:13:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122525070365",
+  "HandlingTime": "3",
+  "Description": "Bulova Watch Mainspring as seen. Buyer pays shipping & handling. Ins. if requested. Will be mailed in a bubble envelope. Check out my other Watch parts auctions. Thanks for stopping buy.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NOS-Bulova-Watch-Mainspring-511-/122525070365",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225250703658080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "18210",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H56M3S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMyM1gxNjAw/z/9GYAAOSwdzVXmOQJ/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "NOS Bulova Watch Mainspring  511",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2664",
+    "UserID": "shelll8",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

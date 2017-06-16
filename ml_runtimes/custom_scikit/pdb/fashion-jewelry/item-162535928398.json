@@ -1,0 +1,152 @@
+{
+  "ReturnPolicy": {
+    "Description": "The item must be in same condition.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P25DT57M11S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "A brand-new, unused, and unworn item (including handmade items) that is not in original packaging or may be missing original packaging materials (such as the original box or bag). The original tags may not be attached",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "1607.5",
+    "_currencyID": "USD"
+  },
+  "SKU": "MNY-OWN-17",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162535928398",
+  "ConvertedCurrentPrice": {
+    "value": "1607.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-31T12:20:42.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/6-28-ct-Ruby-Diamond-Yellow-Gold-Sterling-Silver-Floral-Style-Head-Band-Jewelry-/162535928398",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T12:20:42.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Size"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "Theme"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "925 parts per 1000",
+        "Name": "Metal Purity 2"
+      },
+      {
+        "Value": "1.70",
+        "Name": "Gold Weight(Gms)"
+      },
+      {
+        "Value": "Head Jewelry",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Headband",
+        "Name": "Style"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "58.47",
+        "Name": "Silver Weight(Gms)"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal 2"
+      },
+      {
+        "Value": "18k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "7.82",
+        "Name": "Total Carat Weight(TCW)"
+      },
+      {
+        "Value": "Ruby",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Same As Picture",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "6.28 ct Ruby Diamond Yellow Gold Sterling Silver Floral Style Head Band Jewelry",
+  "ExcludeShipToLocation": [
+    "BR",
+    "AF",
+    "CN",
+    "KZ",
+    "KG",
+    "PK",
+    "UZ"
+  ],
+  "Location": "New York, New York, ZIP Code-10036",
+  "Description": "Mettlle Head Jewelry Jewelry OWN-17 International Buyers - Please Note : - Import duties, taxes and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. - Please check with you country's customs office to determine what these additional costs will be prior to bidding or buying. -Article will be delivered in 10-15 Days. -Mettlle Jewelry is Handmade Designer Jewelry. So, There can be SLIGHT difference in size and weight of the article in the comparison of the description.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625359283988080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "mettlle",
+    "FeedbackScore": "906",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "mettlle",
+    "StoreURL": "http://stores.ebay.com/id=596215482"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/qZkAAOSwRLZUIpzj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/qe4AAOSwRLZUIpzl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/wXQAAOSwDk5UIpzo/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry"
+}

@@ -1,0 +1,155 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "28379",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Inspired by Jesse James' train robbery in 1874. Certificate of authenticity. For men or women.",
+  "StartTime": "2017-05-08T14:30:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTY2WDgxMA==/z/Lz0AAOSwYHxWNjgl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTgwWDgxMA==/z/p9gAAOSwo0JWNjg5/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.49"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2013",
+        "Name": "Age"
+      },
+      {
+        "Value": "Telebrands",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "clsbtl",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "657",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625083706308080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T14:30:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.49"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Kansas-City-Railroad-26-Chain-and-FOB-included-Sealed-Telebrands-/162508370630",
+  "Location": "Rockingham, North Carolina",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket Watch Kansas City Railroad 26\" Chain and FOB included Sealed Telebrands",
+  "Storefront": {
+    "StoreName": "clsbtl",
+    "StoreURL": "http://stores.ebay.com/id=204881172"
+  },
+  "ItemID": "162508370630",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT19H46M53S"
+}

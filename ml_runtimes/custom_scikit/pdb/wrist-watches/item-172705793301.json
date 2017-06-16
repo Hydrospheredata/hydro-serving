@@ -1,0 +1,117 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "93.76",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "BIRMINGHAM, West Midlands",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:38:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=870529550",
+    "StoreName": "soliduk shop"
+  },
+  "CurrentPrice": {
+    "value": "72.9",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:38:51.000Z",
+  "ShipToLocations": [
+    "Europe",
+    "Asia",
+    "US",
+    "CA",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705793301",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SWATCH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SWATCH IRONY CHRONOGRAPH ALL STAINLESS STEEL WATCH  4 JEWELS V8 (KM20)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SWATCH-IRONY-CHRONOGRAPH-ALL-STAINLESS-STEEL-WATCH-4-JEWELS-V8-KM20-/172705793301",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727057933018080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "B45 0DN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H23M10S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PlkAAOSwcgNZKXrU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/z-8AAOSw-3FZKXrq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/bWYAAOSw0hlZKXsj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/UzIAAOSwK6RZKX5f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/2A8AAOSw5cRZKX59/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YowAAOSwDiBZKX6M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MwAAAOSwlMFZKX6V/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/NO8AAOSws5pZKX6v/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xQoAAOSw8HBZKX7t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~rsAAOSwaeRZKX73/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Superb Chronograph Swatch Swiss Men's watch,\u00a0 New battery recently installed\u00a0 works and It provides good time It has\u00a0 some minor scratches on stainless steel bracelet, case & glass\u00a0 Overall condition is good We always do our absolute best for our customers\u00a0 We provide combine postage if two or more items purchased\u00a0 Feedback will be left after feedback has been received from the buyer as we want to make sure you received your items and are satisfied with your purchase Others- We reserve the right to cancel bids to anyone that we feel might be a risk such as low feedback rating or with excessive negative feedbacks.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1809",
+    "UserID": "simakiev",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "Return accepted",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

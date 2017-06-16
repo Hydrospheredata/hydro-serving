@@ -1,0 +1,125 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.86",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:49:18.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T14:49:18.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426225221",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Day Indicator",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "19mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "35mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "10.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Citizen-Automatic-Watch-w-Day-Date-window-Day-French-English-/112426225221",
+  "Title": "Vintage Citizen Automatic Watch w Day Date window -Day in French or English",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124262252218080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "NG69JE",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H43M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/qMMAAOSwYvFZLtce/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/ApUAAOSwGJlZLtch/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/jLQAAOSwfRdZLtbk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/mxAAAOSwR29ZLtbs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMjAw/z/8XAAAOSwY3BZLtcT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/BjYAAOSww5hZLtbz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/xZ0AAOSw5cRZLtb6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/3qAAAOSwYlRZLtcB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/nzsAAOSw42JZLtcI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/GR8AAOSw8lpZLtcP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/7K4AAOSw9OFZLtcZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/QscAAOSwBt5ZLtcn/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Vintage Citizen Automatic Watch with Day Date window - Day in French or Eng 21 JewelsAutomatic winderDay and Date ,day is in english or frenchGood working order,face could be cleaner Case numbers ;4-285727KT4020159671-3236GN 4W- SDiameter 35mmHeight 11mmLug width 19mmWhen i took the case off to photo the inside has a `scratched` mark 5/11/88",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "867",
+    "UserID": "a1z2b3666d6wy",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

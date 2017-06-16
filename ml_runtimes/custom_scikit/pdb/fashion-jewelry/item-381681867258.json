@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be unworn and in original condition unless for manufactures defect.  Buyer will be responsible for return shipping.  In the case of a return due to manufactures defects or any such error on our part, we will cover return shipping. Please contact us to obtain an RA# and return instructions.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P14DT9H14M55S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Item is in new condition.",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "r***l",
+    "FeedbackScore": "752",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "NSD1295",
+  "ItemID": "381681867258",
+  "ConvertedCurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2016-06-24T23:11:57.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Toe-Ring-14KT-Solid-White-Gold-Yellow-Gold-Adjustable-3-CZ-gemstone-/381681867258",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T23:11:57.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "nosejewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1",
+        "Name": "Number of Items"
+      },
+      {
+        "Value": "Adjustable",
+        "Name": "Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Toe Ring 14KT Solid White Gold Yellow Gold Adjustable 3 CZ gemstone",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Blaine, Washington",
+  "Description": "925 Sterling Silver Toe Ring Toe Rings Three Stone Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3816818672588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "nosejewels",
+    "FeedbackScore": "40382",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "GlimmerOfGlitter",
+    "StoreURL": "http://stores.ebay.com/id=89001082"
+  },
+  "Quantity": "5",
+  "HandlingTime": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "738",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/PDoAAOSwOVpXaF8j/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "98230"
+}

@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Horicon, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:29:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173392934",
+    "StoreName": "A-2-Z Limitless"
+  },
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:29:29.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942272118",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Relic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NA",
+        "Name": "UPC"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Relic Men's ZR15762 Loden Multi Function Silver-Tone Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Relic-Mens-ZR15762-Loden-Multi-Function-Silver-Tone-Watch-/201942272118",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019422721188080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "53032",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H3M2S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/zOgAAOSwTA9X21yP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/Oa4AAOSwNRdX21yT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/~P4AAOSw8w1X21yX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/kkgAAOSwLnBX21yc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/kPsAAOSwOyJX21yg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/kUIAAOSwOyJX21yk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/gl8AAOSw4shX21yp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/wIYAAOSwAuZX21yt/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Relic Men's ZR15762 Loden Silver-Tone Watch Product Details Product Dimensions: 3.7 x 3.7 x 3.7 inchesShipping Weight: 10.4 ouncesOrigin: ChinaItem model number: ZR15762Batteries: 1 Nonstandard Battery batteries required. (included) Oversized round watch with gunmetal-tone dial featuring skeleton hands, exaggerated 12 o'clock marker, and three textured sub-dials (Day,Date and 24 Hour indicator) with tonal numbers55 mm stainless steel case with mineral dial windowQuartz movement with analog displayStainless steel band with deployant-clasp closureWater resistant to 30 m (99 ft): In general, withstands splashes or brief immersion in water, but not suitable for swimming Known for obtainable fashion with a casual yet contemporary flair, Relic\u2019s bold prints, functional silhouettes, and trend-right colors define the brand\u2019s unique personality. The design philosophy embodies the lively spirit of the brand evident in all categories, including women\u2019s and men\u2019s watches, bags, belts, and small leather goods. Featuring an oversized construction, a chronograph movement and exposed hardware, Loden stands out as one of Relic's most rugged watches. Silver-tone plating and a warm grey dial make the perfect pair. WE ONLY SHIP TO NORTH AMERICA!!!!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2858",
+    "UserID": "taczann",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

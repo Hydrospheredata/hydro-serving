@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "104.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263010411487",
+  "TimeLeft": "PT8H35M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "104.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-HEIDI-DAUS-STRETCH-3-STRAND-FACETED-CRYSTAL-BEAD-BRACELET-SIZE-M-L-/263010411487",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "104.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T23:31:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-05T23:31:36.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BRACELET",
+        "Name": "Type"
+      },
+      {
+        "Value": "Fashion Jewelry",
+        "Name": "Category"
+      },
+      {
+        "Value": "LADIES",
+        "Name": "Gender"
+      },
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Designer"
+      },
+      {
+        "Value": "YES",
+        "Name": "Signed?"
+      }
+    ]
+  },
+  "Title": "NEW HEIDI DAUS STRETCH 3 STRAND FACETED CRYSTAL BEAD BRACELET, SIZE M/L",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "LOVELY HEIDI DAUS FACETED SMOKED 3 STRAND CRYSTAL BEAD STRETCH BRACELET NEW! THIS BRACELET HAS STRETCH TO IT AND IS MEDIUM/LARGE IN SIZE AND WILL FIT FROM A 6 3/4\" - 7 1/4\" WRIST BRACELET HAS A CRYSTAL STATION ON THE FRONT AND A CRYSTAL EMBELLISHED ACCENT ON THE BACK OF THE BRACELET THIS BRACELET IS NEW, IS MARKED HEIDI DAUS AND COMES IN ITS ORIGINAL BOX WITH A MANUFACTURE'S LIMITED LIFETIME WARRANTY CARD AND IS NEW!! Please feel to contact me with any questions prior to bidding. All sales are final. Item will be carefully packed and shipped via USPS for $8.95 which includes tracking upon receipt of payment. I accept paypal as method of payment. Payment is due within 5 days after auction ends. Item comes from smoke free and pet free home. Thanks for looking and have a great day!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630104114878080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dakotajay",
+    "FeedbackScore": "1059",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "NEW YORK STATE",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tkMAAOSwh2xX~D5K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KugAAOSwLF1X~D5k/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UgAAAOSw8w1X~D6J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Pt0AAOSw4shX~D52/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MZIAAOSwLF1X~D6f/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

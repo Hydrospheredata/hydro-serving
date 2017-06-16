@@ -1,0 +1,108 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/vckAAOSwlndZKLdh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/IIYAAOSwAPVZKLdl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/rYoAAOSw42JZKLdq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/0yYAAOSwblZZKLdt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/UzIAAOSwKytZKLdx/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Valentina-Beige-Leather-Zip-Top-Tote-Shopper-Made-Italy-Large-NWOT-/112428803252",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This handbag is in excellent condition. I just purchased it from another seller but found another bag I love more so I'm selling this one back at a great discount from what I paid. It's a gorgeous bag in Beige leather with cognac shaded leather straps. Bag is made in Italy.",
+  "Title": "Valentina Beige Leather Zip Top Tote Shopper Made In Italy Large NWOT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Edmond, Oklahoma",
+  "Seller": {
+    "FeedbackScore": "1047",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "braciesmom"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "73013",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:44:34.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P2DT22H34M21S",
+  "EndTime": "2017-06-05T12:44:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Valentina"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "15"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "16"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Type",
+        "Value": "Handbags"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428803252",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124288032528080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

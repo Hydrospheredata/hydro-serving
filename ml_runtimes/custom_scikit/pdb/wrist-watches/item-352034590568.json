@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-04-19T17:23:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzc5WDEyODA=/z/4KQAAOSwj25Y8MFu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM4WDEyODA=/z/4VQAAOSwj25Y8MFw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU0WDEyODA=/z/MTcAAOSwAANY8MFv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE4WDEyODA=/z/wVYAAOSw7XBY8MFw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMyWDEyODA=/z/MYsAAOSwAANY8MFx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEyODA=/z/dqcAAOSw3utY8MFx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ3WDEyODA=/z/IIwAAOSwCWFY8MFv/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "62",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520345905688080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-18T17:23:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Fossil-Two-Tone-Quartz-Womens-Wristwatch-7-E4260-/352034590568",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Vintage Fossil Two Tone Quartz Women's Wristwatch ~ 7-E4260",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "352034590568",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P17DT23H31M55S"
+}

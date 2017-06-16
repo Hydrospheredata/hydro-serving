@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IT",
+  "Location": "Brondolo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:34:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=306832685",
+    "StoreName": "Clodiatime"
+  },
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-01T12:34:58.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "CITIZEN PROMASTERDIVER'S 200MT Fast and safe shipment within three days",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995231001",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Diver",
+        "Name": "Style"
+      },
+      {
+        "Value": "Promaster",
+        "Name": "Model"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "8018225510831",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Watch Citizen NY0040-17L Promaster Aqualand Automatic Diver's 20bar Men Mares",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Watch-Citizen-NY0040-17L-Promaster-Aqualand-Automatic-Divers-20bar-Men-Mares-/361995231001",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619952310018080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "30015",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "PT21H18M59S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjIwWDg0Mg==/z/OHQAAOSwK6RZEzXh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIyWDkzMw==/z/8R8AAOSww5hZEzXb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcyWDgzOA==/z/a30AAOSw8lpZEzXd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIyWDkzMw==/z/j1kAAOSwn-tZEzXj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIyWDkzMw==/z/KnsAAOSwcB5ZEzXm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIyWDkzMw==/z/MAMAAOSw~y9ZEzXn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIyWDkzMw==/z/hb0AAOSwH09ZEzXr/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "7379",
+    "UserID": "clodiatime",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

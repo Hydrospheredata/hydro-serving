@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kadell-Women-Leather-Handbag-Top-Handle-Crossbody-Shoulder-Bag-Removable-St-/192141463661?var=",
+  "ConvertedCurrentPrice": {
+    "value": "96.12",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kadell Women Leather Handbag Top Handle Crossbody Shoulder Bag with Removable Strap Kelly Bag Dark Blue by Kadell Ships from Local Supplier Other information: KADELLIGIRI2386 Related Searches: Kadell Top-Handle Bag, Top-Handle Bag Bags, Kadell Bags Dimensions: 26.0 x 11.0 x 23.0 centimetres Weight: 0.51 kg",
+  "Title": "Kadell Women Leather Handbag Top Handle Crossbody Shoulder Bag with Removable St",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "96.12",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Dark Blue",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/853/273/312173005/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Tan",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/853/274/312000076/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/853/275/312181259/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "96.27",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139853273:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "76.3",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139853274:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Tan"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "96.12",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139853275:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Dark Blue",
+          "Tan",
+          "Black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-27T17:48:27.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P23DT1H28M43S",
+  "EndTime": "2017-06-25T17:48:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kadell"
+      },
+      {
+        "Name": "MPN",
+        "Value": "561488047"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141463661",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "8",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139853272:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

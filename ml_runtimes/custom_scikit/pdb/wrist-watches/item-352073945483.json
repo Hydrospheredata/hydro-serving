@@ -1,0 +1,134 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "70.74",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "COVENTRY",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:55:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T07:55:21.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352073945483",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Obaku",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Obaku Designer Ladies' Wristwatch Model V167",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Obaku-Designer-Ladies-Wristwatch-Model-V167-/352073945483",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520739454838080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "CV5 9BG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H23M52S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/mFAAAOSw32lYzBOC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/IPsAAOSwCU1YzA87/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/zLUAAOSw4A5YzBN1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/NKEAAOSw4CFYzBOr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0ZUAAOSwYXVYzBWC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/gFcAAOSwSlBYzA9R/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-CkAAOSwuLZYzA9q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/6hIAAOSwhQhYzA92/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/LEIAAOSwzgBYzBOf/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Brand new stunning ladies' wristwatch by Obaku, Danish designers who take their inspiration from ideas in Eastern philosophy about simplicity, elegance and purity. Gold Design Watch on a mesh strap, the outer band has a high gloss mirror-like quality ( making it tricky to represent in photographs) This Obaku watch has a gold coated stainless steel case 32mm in diameter and is fitted with a metal strap. Inside the case lies a quartz movement and the watch features a mineral crystal. The watch is 3ATM. This means the watch is splash waterproof. The watch comes with 2 years of Worldwide warranty from the manufacturerBrand new, purchased via manufacturer at Auction, Locke & England in Bedford, UK. For more information about the designer company in Denmark, visit: https://www.obaku.com/Same day despatch from Coventry CV5, England, UK upon receipt of payment. Thanks for viewingCoventry Fine Gifts & Collectibles07824 368331",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "295",
+    "UserID": "diogenes999.2007",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

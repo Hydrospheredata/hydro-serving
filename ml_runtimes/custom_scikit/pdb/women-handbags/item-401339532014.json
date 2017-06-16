@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Dr8AAOSwDiBZHGuR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/C0wAAOSwJH1ZHGur/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/p7gAAOSwfRdZHGut/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zbAAAOSw~y9ZHGuv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bzoAAOSwZ4dZHGuy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/C7gAAOSwJH1ZHGu0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TYEAAOSwBt5ZHGu4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FeUAAOSwQjZXQbXV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QocAAOSwxj5XQbXa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WCgAAOSw71BXQbXc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fuQAAOSwU1FXQbXe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ao0AAOSw9etXQbXh/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-MICHAEL-KORS-PVC-JET-SET-TRVL-CARRYALL-TOTE-BAG-WALLET-WRISTLET-VANILLA-/401339532014",
+  "ConvertedCurrentPrice": {
+    "value": "224.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "Title": "NWT MICHAEL KORS PVC JET SET TRVL CARRYALL TOTE BAG + WALLET/WRISTLET IN VANILLA",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "224.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Woodbridge, Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "7019",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Green",
+    "UserID": "penelopecloset"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "22191",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T10:54:05.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P4DT20H30M16S",
+  "EndTime": "2017-06-07T10:54:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers + Wristlet/Wallet"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Color",
+        "Value": "Vanilla"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049646243"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401339532014",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "penelopecloset",
+    "StoreURL": "http://stores.ebay.com/id=313737353"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4013395320148080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

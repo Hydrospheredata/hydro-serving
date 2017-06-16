@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFg5MTg=/z/mzkAAOSwbsBXi5gJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/sjUAAOSwIgNXi5gO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0OFgxNjAw/z/-MQAAOSwsTxXi5gZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzY0/z/-xoAAOSwsTxXi5go/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bottega-Veneta-Limited-Edition-Shoulder-Bag-/252970778178",
+  "ConvertedCurrentPrice": {
+    "value": "2850.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Bottega Veneta Atlantic Arizona Exotic Embroidery Shoulder Bag. Mixed in Lamb skin and snake skin with chain strap. Limited edition!",
+  "Title": "Bottega Veneta Limited Edition Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "2850.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "30",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "chicchicdesign"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11230",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T14:00:14.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT23H55M52S",
+  "EndTime": "2017-07-02T14:00:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Bottega Veneta"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5.9\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "1.6\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9.4\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "16.5\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970778178",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529707781788080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

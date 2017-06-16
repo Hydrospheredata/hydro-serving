@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P22DT22H5M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "LLC24-Toe-002",
+  "ItemID": "152565173694",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Vintage-Silver-Solid-Toe-Ring-Adjustable-Foot-Beach-Feet-Jewelry-Gift-449-/152565173694",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T11:44:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T11:44:29.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Toe Ring",
+        "Name": "Style"
+      },
+      {
+        "Value": "Excellent",
+        "Name": "Cut"
+      },
+      {
+        "Value": "Solid Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Regaalia Jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2.958",
+        "Name": "Weight"
+      },
+      {
+        "Value": "925 parts per 1000",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Womens Vintage Silver Solid Toe Ring Adjustable Foot Beach Feet Jewelry Gift 449",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Festive Season Sale Price, Grab Them Before The Offer Expires",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525651736948080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "96.6",
+    "UserID": "regaaliajewels",
+    "FeedbackScore": "388",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "14kgolddiamondjewelry",
+    "StoreURL": "http://stores.ebay.com/id=1364364993"
+  },
+  "Quantity": "1",
+  "Location": "New Jersey, USA",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/CAIAAOSw5cRZLYLW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/2H8AAOSwlY1ZLYLf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/M00AAOSwBt5ZLYLq/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

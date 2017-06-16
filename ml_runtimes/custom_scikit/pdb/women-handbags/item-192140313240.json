@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921403132408080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjA5/z/u90AAOSw4CFY14uy/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dents-Daphne-Tote-Bag-Coffee-Brand-New-/192140313240",
+  "ConvertedCurrentPrice": {
+    "value": "265.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Dents - Daphne Tote Bag Coffee. The Daphne tote bag is our favourite leather bag for work. This classic and effortless style features a handy detachable shoulder strap. The interior has room for all your valuables including zip, slip and mobile pockets. Lined with Dents signature lining. Composition: Leather Size: 21cm (H) x 27cm (W) x 13cm (D)",
+  "Title": "Dents - Daphne Tote Bag Coffee. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "265.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-26T09:36:44.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P21DT17H16M13S",
+  "EndTime": "2017-06-24T09:36:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "551496408"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140313240",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:126521901:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

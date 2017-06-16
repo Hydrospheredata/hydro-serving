@@ -1,0 +1,119 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/im0AAOSwdjNZDLAJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/~WwAAOSwR29ZDLAK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/YaEAAOSwjL5ZDLAJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Luggage-Womens-Grand-Traveler-Blush-Pink-Duffel-Bag-/182561798295",
+  "ConvertedCurrentPrice": {
+    "value": "111.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "See our other items",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "111.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "500",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "m_bargain_store"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Luggage Womens Grand Traveler Blush Pink Duffel Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T17:01:58.000Z",
+  "HitCount": "51",
+  "TimeLeft": "P2DT10M39S",
+  "EndTime": "2017-06-04T17:01:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003351925"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003351925"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15684-376"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Accessory"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blush Pink"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 21.3 x W 15.2 x H 2.4 inches"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182561798295",
+  "Storefront": {
+    "StoreName": "Zenostore",
+    "StoreURL": "http://stores.ebay.com/id=1071112098"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825617982958080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

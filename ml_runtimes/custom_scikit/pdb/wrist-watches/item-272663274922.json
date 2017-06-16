@@ -1,0 +1,176 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FvcAAOSwcB5ZEMWD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bVUAAOSwK6RZEMWX/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Storefront": {
+    "StoreName": "Lewisburg Diamond and Gold",
+    "StoreURL": "http://stores.ebay.com/id=182869238"
+  },
+  "Country": "US",
+  "Seller": {
+    "UserID": "lewisburggold",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3041",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "StartTime": "2017-05-08T19:24:25.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "Watches are not working",
+  "Title": "Vintage Watch Lot Of 10 Quarts Watches 280 Grams - 5853",
+  "Quantity": "1",
+  "ItemID": "272663274922",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Watch-Lot-10-Quarts-Watches-280-Grams-5853-/272663274922",
+  "QuantitySold": "0",
+  "PostalCode": "24901",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This auction is for a lot of 10 watches. All watches are not working. Total weight of all of them is 280 grams. If you have any questions please feel free to ask. thanks for looking and have a great day.",
+  "HitCount": "144",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "5853",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square / round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Gray",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "quartz",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Model"
+      },
+      {
+        "Value": "multi",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "mixed",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "mixed",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "mixed",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726632749228080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-07T19:24:25.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Lewisburg, West Virginia",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "TimeLeft": "P6DT23H1M31S"
+}

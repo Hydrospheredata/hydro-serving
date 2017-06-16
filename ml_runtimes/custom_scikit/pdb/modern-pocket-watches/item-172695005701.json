@@ -1,0 +1,58 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "98682",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Not running.On one side has eagle design...the other side is a floral motif. Needs a light cleaning but in overall ok shape.",
+  "StartTime": "2017-05-25T20:11:51.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTQy/z/RnQAAOSw4shX4ZFH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjg3/z/IjQAAOSwPCVX4ZFf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTQ5/z/G8cAAOSwPCVX4ZEv/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "chinooksam",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "259",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726950057018080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T20:11:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Quintel-Pocket-Watch-/172695005701",
+  "Location": "Vancouver, Washington",
+  "Title": "Quintel Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "172695005701",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT1H35M24S"
+}

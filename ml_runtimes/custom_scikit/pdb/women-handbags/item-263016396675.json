@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTQ2WDYxNg==/z/9ZgAAOSw5VFWKEhY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ3MlgxMjAw/z/5UIAAOSwYHxWJuDm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUyNVgxMTY1/z/OU4AAOSwo0JWJuE6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUzNlg4MjU=/z/ia4AAOSwA4dWJuEf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU5OFgxMjAw/z/x5sAAOSwI-BWJuFP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE4MlgxMDc3/z/6ysAAOSw5ZBWJuEG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU1M1g1NjM=/z/V1cAAOSwo0JWJuLu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM5NVg1MDE=/z/XhwAAOSw14xWJuL~/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Poppy-Red-Multi-Leather-Crossbody-NWT-350-Retail-45-Off-/263016396675",
+  "ConvertedCurrentPrice": {
+    "value": "185.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new Tory Burch luxuriously soft poppy leather crossbody Stacked T and shoulder strap are a dark pink 11.5\"w x 12\"h x 1.25\"d Magnetic closure Inner zip pocket and 2 open pockets inside Long strap ~25\" Gold hardware This bag is gorgeous!",
+  "Title": "Tory Burch Poppy Red Multi Leather Crossbody.  NWT  $350 Retail.  45% Off!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "185.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Potomac, Maryland",
+  "Seller": {
+    "FeedbackScore": "272",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bkfmaf"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "20854",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:47:17.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P4DT20H22M50S",
+  "EndTime": "2017-06-07T10:47:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263016396675",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630163966758080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

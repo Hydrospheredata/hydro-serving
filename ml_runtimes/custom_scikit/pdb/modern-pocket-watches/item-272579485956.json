@@ -1,0 +1,113 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "43.83"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This highly polished gun metal finish open face ultra thin pocket watch is the perfect addition to anyone's timepiece collection. Features include a bright white dial with an easy to read railroad style dial with black numbers, detailed minute track and antique style hands. The precision Japanese quartz movement never needs winding so you will always be on time. Also included is a 14 inch deluxe curb link chain with belt clip attachment. This beautiful pocket watch will arrive in an attractive velour burgundy gift pouch then boxed in gift packaging that does not need wrapping. As always, operating instructions and our hassle free lifetime limited warranty are enclosed. It's Gotham time.. - Classic open face gun metal finish pocket watch with ultra thin polished brass case suitable for engraving - Rich white railroad style dial with detailed minute track and antique style hands - Precision Japanese analog quartz movement - Includes 14 inch silver-tone curb link chain with belt clip holder attachment - Arrives with deluxe draw string pouch and gift box, operating instructions and lifetime limited warranty card Gotham Men's Gun Metal Ultra Thin Railroad Open Face Quartz Pocket Watch #",
+  "StartTime": "2017-03-06T14:17:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjMy/z/Pf8AAOSwWxNYvbNy/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NTA=/z/8KsAAOSwTuJYvbN0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjY5/z/DG8AAOSwuxFYvbN2/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxMlgxNTAw/z/q2IAAOSw32lYvbN4/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "050014222202",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0050014222202",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Gotham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GWC15022B",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4 x W 3.5 x H 1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "84",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2725794859568080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T14:17:50.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "43.83"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gotham Men's Gun Metal Ultra Thin Railroad Open Face Quartz Pocket Watch #",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gotham-Mens-Gun-Metal-Ultra-Thin-Railroad-Open-Face-Quartz-Pocket-Watch-/272579485956",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579485956",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H26M3S"
+}

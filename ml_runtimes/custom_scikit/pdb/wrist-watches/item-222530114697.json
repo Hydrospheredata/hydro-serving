@@ -1,0 +1,129 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "K. Ata, Israel",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:52:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:52:02.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SEIKO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "39mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "20mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sport 100m",
+        "Name": "Model"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530114697",
+  "HandlingTime": "5",
+  "Description": "SEIKO SPORT 7S26-00X0 AUTOMATIC 23J WATER RESIST 100m RARE JAPAN WATCH.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEIKO-SPORT-7S26-00X0-AUTOMATIC-23J-WATER-RESIST-100m-RARE-JAPAN-WATCH-/222530114697",
+  "ConditionDescription": "Watch in work condition and keeping time.",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225301146978080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H30M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjU0/z/3TMAAOSwPCVX3A03/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjg1/z/pc4AAOSwLF1X3A06/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDIz/z/uksAAOSwYIxX3A1B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY4WDE2MDA=/z/MQgAAOSwAuZX3A1G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODYxWDE2MDA=/z/4AIAAOSwPCVX3A1K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU3WDE2MDA=/z/qRoAAOSwOyJX3A1T/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "SEIKO SPORT 7S26-00X0 AUTOMATIC 23J WATER RESIST 100m  RARE JAPAN WATCH.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1079",
+    "UserID": "tvitti1965",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded."
+  }
+}

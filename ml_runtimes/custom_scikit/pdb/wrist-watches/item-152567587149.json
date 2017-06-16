@@ -1,0 +1,132 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.29",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Diss",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:01:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:01:42.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567587149",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Limit",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "18mm width",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "RARE LADIES LIMIT INTERNATIONAL 17 JEWEL SWISS MADE GOLD COLOUR AUTOMATIC WATCH",
+  "ConditionDescription": "In mint condition. never used",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-LADIES-LIMIT-INTERNATIONAL-17-JEWEL-SWISS-MADE-GOLD-COLOUR-AUTOMATIC-WATCH-/152567587149",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525675871498080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "ip22 5sq",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H30M48S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pKgAAOSwtGlZBuUQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAxWDE2MDA=/z/fY4AAOSw-3FZBuUm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ0WDE2MDA=/z/C4YAAOSw~y9ZBuWH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/M5oAAOSwX61ZBuWa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/GtsAAOSww5NZBuWu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNjAw/z/SjAAAOSwhvFZBuXC/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "In mint condition. Comes with its red box. RARE LADIES LIMIT INTERNATIONAL 17 JEWEL SWISS MADE GOLD COLOUR AUTOMATIC WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "355",
+    "UserID": "jpgr_31",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

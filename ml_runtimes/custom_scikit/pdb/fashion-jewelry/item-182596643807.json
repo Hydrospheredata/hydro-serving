@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT15H44M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "MX",
+    "BM"
+  ],
+  "CurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "182596643807",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Deepa-Gurnani-Teal-Beaded-Crystal-Elastic-Headband-W-Geometric-Design-/182596643807",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T03:10:53.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-28T03:10:53.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Deepa Gurnani",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Headband",
+        "Name": "Style"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "NWT Deepa Gurnani Teal Beaded & Crystal Elastic Headband W/Geometric Design",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "Deepa Gurnani handmade geometric design headband featuring teal, pastel & crystal stones. Floral cloth backing with comfortable black elastic headband. New with tags, never worn. Made in India. Smoke free, clean home; all sales final; no returns.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825966438078080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "princesses_closets",
+    "FeedbackScore": "69",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Storefront": {
+    "StoreName": "Princesses_Closets",
+    "StoreURL": "http://stores.ebay.com/id=808777376"
+  },
+  "Quantity": "1",
+  "Location": "Orland Park, Illinois",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg4NDY=/z/Bw8AAOSwHMJYDPuy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iSYAAOSwUEVYDPu5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GScAAOSwm0JYDPvG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/j9YAAOSwB09YDPvU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RZgAAOSwnbZYDPva/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GoIAAOSwx2dYDPvg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W2cAAOSwXeJYDPvo/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "60462"
+}

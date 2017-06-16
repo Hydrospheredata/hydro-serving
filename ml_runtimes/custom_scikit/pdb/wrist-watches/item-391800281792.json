@@ -1,0 +1,164 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "18.97",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:11:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=421634829",
+    "StoreName": "OKaystores"
+  },
+  "CurrentPrice": {
+    "value": "18.97",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:11:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Shark",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "Alarm",
+          "Chronograph",
+          "Day & Date",
+          "Stopwatch"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "AM",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "PE",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "JO",
+    "KW",
+    "TR"
+  ],
+  "ItemID": "391800281792",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Shark Classic Mens Black Dual Time Digital LCD Stopwatch Date Alarm Quartz Watch",
+  "NewBestOffer": "false",
+  "SKU": "SH111",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Shark-Classic-Mens-Black-Dual-Time-Digital-LCD-Stopwatch-Date-Alarm-Quartz-Watch-/391800281792",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3918002817928080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT15H38M24S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/WDkAAOSww9xZDWlA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgwWDEwMDA=/z/OOUAAOSw9OFZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTU2WDEwMDA=/z/C10AAOSwsXFZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NTQ=/z/eCoAAOSwX9FZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzN1gxMDAw/z/CFkAAOSw0hlZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMzWDEwMDA=/z/K28AAOSwKytZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxMDAw/z/9nQAAOSw-3FZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwMFgxMDAw/z/q1IAAOSw1WJZIpem/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OFgxMDAw/z/BVAAAOSww9xZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5N1gxMDAw/z/CCYAAOSw7GRZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzN1gxMDAw/z/yToAAOSwrhBZIpel/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc3WDEwMDA=/z/MEQAAOSw42dZIpel/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "18.97",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "137718",
+    "UserID": "red-plus",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault. We will replace the defective item at no extra cost. Please return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim Any items returned to us in working order will be sent back at the buyers cost."
+  }
+}

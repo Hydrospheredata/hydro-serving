@@ -1,0 +1,160 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "BA",
+    "CY",
+    "EE",
+    "GI",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.57"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-04-07T08:16:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/~8wAAOSwAANY50rK/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/9~8AAOSw4CFY50qx/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/S-oAAOSww3tY50rB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/75UAAOSwpkFY50qd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/WQ8AAOSwhQhY50qm/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "30",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "8PJ1QB6GU9HN9KJ0",
+  "HitCount": "20",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2322953338068080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T08:16:14.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "232295333806",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.57"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ShenZhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Transparent Mechanical Hollow Necklace Chain Steampunk Pocket Watch Gift",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Transparent-Mechanical-Hollow-Necklace-Chain-Steampunk-Pocket-Watch-Gift-/232295333806",
+  "Storefront": {
+    "StoreName": "HCS-Autohome",
+    "StoreURL": "http://stores.ebay.com/id=1365524706"
+  },
+  "Seller": {
+    "UserID": "auto_home",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8893",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT13H28M17S"
+}

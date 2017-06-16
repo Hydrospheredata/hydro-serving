@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/V6wAAOSwys5WWPcx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QyUAAOSwbdpWWPc1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EscAAOSwgyxWWPhj/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/US-HANDMADE-BACKPACK-MIX-MONSTERS-PATTERN-COTTON-NEW-/172708489205",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This ITEM is for one of a brand new: US HANDMADE BACKPACK STYLE WITH ADJUSTABLE HANDLES \"MIX MONSTERS\" PATTERN COTTON FABRIC, NEW It is made by COTTON Fabric and VERY HARD TO FIND. UNIQUE AND BRAND NEW ADJUSTABLE HANDLES Size: 15\" length x 15\" high x 5\" Deep (BE SURE TO COMPARE THE DIMENSIONS ABOVE) Completely lined inside 1 INSIDE POCKET 4 LAYERS OF FABRIC THIS ITEM COMES WITH ASSORTED IMAGES I accept PayPal. I only ship to confirmed addresses for PayPal payments. Items are mailed within 3-5 business days of receiving payment. Payment must be received within 3-5 days of auction close or item will be re-listed. Thanks for looking!! Items purchased in California required paying %9.00 sales tax.",
+  "Title": "US HANDMADE BACKPACK WITH \"MIX MONSTERS\" PATTERN , COTTON , NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1239",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "sweetguy1010"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90015",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T20:46:36.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT6H11M13S",
+  "EndTime": "2017-07-01T20:46:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "US HANDMADE FASHION"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "COTTON"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172708489205",
+  "Storefront": {
+    "StoreName": "sweetguy1010",
+    "StoreURL": "http://stores.ebay.com/id=993223989"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727084892058080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

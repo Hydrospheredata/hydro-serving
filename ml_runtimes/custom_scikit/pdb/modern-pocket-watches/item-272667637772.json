@@ -1,0 +1,88 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "31047",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Description:Condition: NewAvailable Colors: SilverProduct Features: Item Type:Pocket Dial Window Material Type:Glass Case Material:Stainless Steel Bezel Material Type:Stainless Steel Dial Material Type:Stainless Steel Water Resistance Depth:0 m Movement:Quartz Dial Diameter:0.048 m Style:Antique Gender:Mens Bezel Function:Stationary Condition:New with tags Dial Display:Analog Case Shape:Round Brand Name:Other Package Content: 1 x Watch I Do Same Day Shipping. (Excluding Weekends & Holiday's)No International Shipping.I do not ship to Hawaii, Puerto Rico, Virgin Islands or Alaska We Only Ship to the shipping address in your PayPal account.If this is not your current address, then please update your PayPal shipping address prior to bidding on this item. We are not responsible for missed shipments if your address has changed and you have not updated your PayPal shipping address. It is our pledge that you will receive the exact item you purchased, in the condition that we have stated.If there is a problem with your order, please contact us PRIOR to leaving a feedback - your satisfaction is important to us!",
+  "StartTime": "2017-05-11T18:27:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/KpoAAOSwnF9Y7RXK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GKkAAOSwls5Y7RXN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/J0cAAOSwAANY7RXP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/aBwAAOSwhQhY7RXR/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "matiahscloset",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "535",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "97.9"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726676377728080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T18:27:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Buyer is responsible for return shipping.  A 15% restocking fee will be charged for returns.  Returns will only be accepted if they are unopened and unused and undamaged.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Fashion-Retro-Big-Face-Dial-Pocket-Watch-DAD-Gift-Long-Chain-Watch-/272667637772",
+  "Location": "Kathleen, Georgia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Fashion Retro Big Face Dial Pocket Watch DAD Gift Long Chain Watch",
+  "Storefront": {
+    "StoreName": "Matiah&#39;s Closet",
+    "StoreURL": "http://stores.ebay.com/id=1067805374"
+  },
+  "ItemID": "272667637772",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT23H45M20S"
+}

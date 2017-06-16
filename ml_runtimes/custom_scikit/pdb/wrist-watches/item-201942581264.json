@@ -1,0 +1,153 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.93",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:42:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=659731214",
+    "StoreName": "koo_titina"
+  },
+  "CurrentPrice": {
+    "value": "9.93",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:42:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CURREN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "JO",
+    "KW",
+    "TR",
+    "AM",
+    "CN",
+    "IN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AU",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "PE",
+    "VE"
+  ],
+  "ItemID": "201942581264",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CURREN Stylish Mens Stainless Steel Sport Military Analog Quartz Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "CUR012",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CURREN-Stylish-Mens-Stainless-Steel-Sport-Military-Analog-Quartz-Wrist-Watch-/201942581264",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019425812648080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H35M49S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JxIAAOSwDiBZLshK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/mW8AAOSw~y9ZLshL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzOFgxMDAw/z/CzIAAOSwjqVZIadq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwMFgxMDAw/z/2LIAAOSw8lpZIadr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM5NlgxMDAw/z/IycAAOSw5cRZIadr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzM1gxMDAw/z/eZwAAOSw~FJZIadq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY2WDEwMDA=/z/-W4AAOSwX61ZIadq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzMFgxMDAw/z/e1gAAOSwi7RZIadr/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "9.93",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "65069",
+    "UserID": "koo_titina",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault.\nWe will replace the defective item at no extra cost. \nPlease return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim\nAny items returned to us in working order will be sent back at the buyers cost."
+  }
+}

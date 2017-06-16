@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "UA",
+  "Location": "Europa",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:31:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1329937408",
+    "StoreName": "omega000_1r"
+  },
+  "CurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:31:59.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "UA",
+  "ItemID": "152567932642",
+  "HandlingTime": "3",
+  "Description": "see photo",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERY-RARE-ORATOR-SWISS-POCKET-WATCH-/152567932642",
+  "ConditionDescription": "in working condition mechanical",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525679326428080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H24M15S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k50AAOSwAuNW4Grd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/knkAAOSwZQxW4Gru/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lFoAAOSwZQxW4Gr7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lckAAOSwoudW4GsJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CbwAAOSwYlJW4Gsb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1dwAAOSwxp9W4Gso/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oP0AAOSwAuNW4Gs3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/D5gAAOSwh-1W4GtE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nzoAAOSwoudW4GtS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ofkAAOSwZQxW4Gth/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pIkAAOSwZQxW4Gtz/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "VERY RARE ORATOR -SWISS POCKET WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "131",
+    "UserID": "omega000_1r",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

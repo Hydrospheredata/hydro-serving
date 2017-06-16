@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/DU8AAOSwcB5ZH14O/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/F9kAAOSwurZZH14T/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/BLQAAOSwZ4dZH14X/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/DQYAAOSwcgNZH14b/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xbMAAOSwIQdZH14h/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/W2cAAOSw-K9ZH14m/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/E8wAAOSwaEhZH14v/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CalPak-Big-Eazy-Bright-Check-20-inch-Rolling-Shopping-Tote-Bag-Purple-Wheels-/292123257721",
+  "ConvertedCurrentPrice": {
+    "value": "54.06",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "CalPak Big Eazy Bright Check 20-inch Rolling Shopping Tote Bag Product Details Color: Purple Wheels Size: One Size Brand: CalPak MPN: RST201 PURPLE WHEELS Product Dimensions: 8 x 16 x 20 inches Shipping Weight: 4.2 pounds Origin: China Item model number: RST201 PURPLE WHEELS Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More 100% Polyester Imported Zipper closure 10\" shoulder drop 21\" high 15\" wide Four exterior pockets.One interior zip pocket Available in a variety of bold, colorful prints, this rolling tote bag offers storage and style for shopping trips or casual travel. The CalPak Big Eazy Rolling Tote bag is made from rugged and durable polyester fabric and features an all-over multicolored print with a lightweight design, a retractable pull handle, and easy rolling wheels. This tote bag has a spacious main compartment, a wide zip front pocket, a zippered pocket compartment on the inside, and mesh pockets on each side. The unique design of this tote bag makes it versatile enough for trips to the market, overnight travel, outdoor picnics, or toting laundry.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.06",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "8023",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "leitmotiv1903"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "CalPak Big Eazy Bright Check 20-inch Rolling Shopping Tote Bag Purple Wheels",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-19T21:05:55.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921232577218080_1.jpg",
+  "TimeLeft": "P16DT3H21M46S",
+  "EndTime": "2017-06-18T21:05:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "RST201 PURPLE WHEELS"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple Wheels"
+      },
+      {
+        "Name": "Brand",
+        "Value": "CalPak"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292123257721",
+  "Storefront": {
+    "StoreName": "VibeEasyShopping",
+    "StoreURL": "http://stores.ebay.com/id=526732909"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00N7TJG4M",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

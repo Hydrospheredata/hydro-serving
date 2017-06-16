@@ -1,0 +1,96 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "MARATHON ST211003 Stopwatch Single Action Mechanical Windup Analog Stop Watch",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "83.77"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "-We offer FREE shipping on all orders! -Your order will normally be shipped the same day or within 1 working day of receiving payment (Monday-Saturday) and you should expect to receive it one or two days after it ships. -We do not ship to PO/APO boxes, Hawaii or Alaska -We do not ship outside of the Continental U.S. -For large items that require freight shipping, a valid phone number is required to schedule delivery. MnM DiscountThe Best Deals on eBayLightning Fast Shipping Friendly Customer Service",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/3dMAAOSwcaFZIu-v/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cioAAOSwY3BZIu-y/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/7WkAAOSwq1JZIu-4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/7aEAAOSwq1JZIu-9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cugAAOSwY3BZIu~D/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-TYAAOSwIQdZIu~J/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/H3AAAOSwsXFZIu~P/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU3NVgxNjAw/z/OXoAAOSw42JZIu~S/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ST211003",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Marathon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "063442900017",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0063442900017",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mnmdiscount1",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "11750",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "StartTime": "2017-05-22T14:04:04.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525574468988080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T14:04:04.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "83.77"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), 15% restocking fee will be taken out of the refund amount, return shipping to be paid by buyer.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B008J3BPZY",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARATHON-ST211003-Stopwatch-Single-Action-Mechanical-Windup-Analog-Stop-Watch-/152557446898",
+  "Storefront": {
+    "StoreName": "mnm discount",
+    "StoreURL": "http://stores.ebay.com/id=131599932"
+  },
+  "ItemID": "152557446898",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT19H25M37S"
+}

@@ -1,0 +1,76 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "21113",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with defects",
+  "Description": "Very nice Colibri Gold Tone Quartz Pocket Watch featuring a real JFK 1/2 Dollar on the front side and on the inside face of the watch. Never used. Includes chain and nice storage case. The front of the watch features a real John F Kennedy used 1/2 dollar from 1964. While the watch has never been used, the coin has been used and shows its wear. I think this adds a real uniqueness to this pocket watch. The inside features the back side of another 1/2 dollar showcasing the presidential seal. The watch has black roman numerals and black hands. The back is a brushed gold tone. The watch measures 1 7/8\" across. I just put a new battery in it and it runs fine.",
+  "StartTime": "2017-05-24T20:42:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/R-4AAOSwSlBY1tJ4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/qzMAAOSwdGFY1tKM/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xG0AAOSwB-1Y1tKN/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/36wAAOSwTM5Y1tKM/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/AhQAAOSwsW9Y1tKN/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1750",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Colibri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "valeriek12234",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "40",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825906592848080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T20:42:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Colibri-Goldtone-JFK-1-2-Dollar-Real-Coin-Pocket-Watch-Chain-/182590659284",
+  "Location": "Odenton, Maryland",
+  "Title": "Colibri Goldtone JFK 1/2 Dollar Real Coin Pocket Watch with Chain",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182590659284",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT2H4M23S"
+}

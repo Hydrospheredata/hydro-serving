@@ -1,0 +1,107 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "71.82"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "WENSHIDA Steampunk Bronze Open Face Golden Movement Mens Mechanical Pocket Watch With Chain + Gift Box Product Description Features: 1.Classic series pocket watch is the best gift for your love, seniority or yourself 2.100% brand new with excellent workmanship 3.Retro roman numerals dial and alloy chain 4.Elegant design with precise mechanical movement 5.Skeleton and transparent dial shows exquisite movement and structure within the watch 6.Removable key chain with a clip at the end 1. 100% brand new with excellent craft & skeleton style, Add undeniable style and class to your daily life and fashion with a classic Pocket Watch2. Hand-winding mechanical movement, No need to use battery, Twisting the top button on the spin, Tightening a walk for 24 hours3. Attractive steampunk style design, It's an eye-catcher at the suit, pants or dress4. Elegant design with viewable precise golden mechanical movement, Good touch feeling, A fashion accessory for daily life or party5. Come with chain and gift box, Nice gift for your family or your friends, Seniority for yourself",
+  "StartTime": "2017-04-26T10:31:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTA5WDUwMA==/z/DfIAAOSwHHFZAHbf/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NzQ1WDUwMA==/z/dJgAAOSwJ4hZAHbl/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ikYAAOSwE0JZAHbp/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/QBEAAOSw53NZAHbq/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/70gAAOSwSypZAHbr/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDY5MQ==/z/D-kAAOSwRUhZAHbu/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "WENSHIDA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MCD-HBH045",
+        "Name": "MPN"
+      },
+      {
+        "Value": "MCD-HBH045",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "23",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2528983710718080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:31:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "71.82"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Steampunk Bronze Open Face Golden Movement Mens Mechanical Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Steampunk-Bronze-Open-Face-Golden-Movement-Mens-Mechanical-Pocket-Watch-/252898371071",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "252898371071",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT15H45M2S"
+}

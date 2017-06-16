@@ -1,0 +1,124 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "675.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "43068",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "1936 Elgin Open Face Pocket Watch 14k Yellow Gold 12 Size 21 Jewels ***EXCELLENT condition*** *Dial - Flawless *Crystal - Flawless *No oxidation *Accurate",
+  "StartTime": "2017-05-26T15:41:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg0WDg5Mg==/z/E2gAAOSwHoFXuxCr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/nrYAAOSwHoFXuw4p/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/OtEAAOSw6n5Xuw3I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/Ax0AAOSwHoFXuxBf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/vfQAAOSwdzVXuw6Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/4~QAAOSw9NdXuw17/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "675.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1930-1939",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "36562774",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Second Hand Sub Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "heinsjewelers",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "154",
+    "PositiveFeedbackPercent": "92.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023289863648080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T15:41:53.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "675.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-1936-14k-Yellow-Gold-Open-Face-Pocket-Watch-/302328986364",
+  "Location": "Reynoldsburg, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Elgin 1936 14k Yellow Gold Open Face Pocket Watch",
+  "Storefront": {
+    "StoreName": "heinsjewelers",
+    "StoreURL": "http://stores.ebay.com/id=1118275804"
+  },
+  "ItemID": "302328986364",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT21H5M39S"
+}

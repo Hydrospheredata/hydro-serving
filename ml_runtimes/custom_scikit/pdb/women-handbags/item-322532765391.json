@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1OVgxNTc1/z/1Y0AAOSwuMZZKgTI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNTMz/z/vEMAAOSw3gJZKgT4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4eEAAOSwurZZKgUg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pV8AAOSwAPVZKgVY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNTcy/z/ATkAAOSwjqVZKgWq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUxNFgxMDgw/z/XLAAAOSwPh5ZKgX9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/tigAAOSwcgNZKgnK/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NAZARENO-GABRIELLE-Leather-Vinyl-Overnight-Travel-Bag-/322532765391",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NAZARENO GABRIELLI Vinyl/Leather Travel Overnight Bag, very sturdy, good condition, very clean, no odor, hardware does show signs of wear (see photos)",
+  "Title": "NAZARENO GABRIELLE Leather/Vinyl Overnight Travel Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Daly City, California",
+  "Seller": {
+    "FeedbackScore": "35",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "kitty415"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94015",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-27T23:19:04.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT6H44M28S",
+  "EndTime": "2017-06-06T23:19:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather/Vinyl"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Nazareno Gabrielli"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322532765391",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225327653918080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

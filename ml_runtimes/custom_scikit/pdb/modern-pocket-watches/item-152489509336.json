@@ -1,0 +1,234 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "North America",
+    "Southeast Asia",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "IS",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "CH",
+    "UA",
+    "VA",
+    "PO Box"
+  ],
+  "QuantitySold": "1",
+  "PostalCode": "518100",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "steampunk-world",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "764",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-03-29T03:10:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/MfkAAOSwt0FZCC2q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/brgAAOSwT-FZCC2r/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/NXIAAOSwX61ZCC2t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6pcAAOSwcgNZCC2v/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/BigAAOSwCQZZCC2x/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YCUAAOSwlndZCC2z/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.88"
+  },
+  "HighBidder": {
+    "UserID": "1***e",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "393",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "11",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Antique",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Ladies Women Kids Teenagers Boys Girls Mens Pocket watches",
+        "Name": "To"
+      },
+      {
+        "Value": "Vintage Antique Bronze Truck Necklace Chain Pendant Case",
+        "Name": "Design"
+      },
+      {
+        "Value": "Halloween christmas xmas gift pendant Pocket Watch Truck Forest",
+        "Name": "Designs"
+      },
+      {
+        "Value": "Student Mens Women Kids Teenagers Boys Girls Child pocket watch",
+        "Name": "For"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Term starts Ceremony Halloween Christmas Steampunk Pocket watch",
+        "Name": "Occasion"
+      },
+      {
+        "Value": "Vintage Antique Old Skeleton Retro Pocket Watches Chain For Men",
+        "Name": "Style"
+      },
+      {
+        "Value": "Antique",
+        "Name": "Texture"
+      },
+      {
+        "Value": "Engraved Modern Digital Quartz Pocket Watches Necklace For Sale",
+        "Name": "Usage"
+      },
+      {
+        "Value": "Easy Funny Couples Halloween Costumes Ideas Store Pocket Watch",
+        "Name": "Use"
+      },
+      {
+        "Value": "Not Specified",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "P110",
+  "HitCount": "49",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1524895093368080_3.jpg",
+  "BestOfferEnabled": "true",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.88"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-27T03:10:49.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Truck-Pattern-Case-Bronze-Pocket-Watch-Quartz-Chain-Necklace-Pendant-Gift-/152489509336",
+  "Location": "Shenzhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro Truck Pattern Case Bronze Pocket Watch Quartz Chain Necklace Pendant Gift",
+  "Storefront": {
+    "StoreName": "steampunk-world",
+    "StoreURL": "http://stores.ebay.com/id=1511317862"
+  },
+  "ItemID": "152489509336",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT8H21M59S"
+}

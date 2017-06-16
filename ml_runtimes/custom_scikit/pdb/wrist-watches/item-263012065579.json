@@ -1,0 +1,78 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "265.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630120655798080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-30T23:51:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-06T23:51:17.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Stain less steel back and water resistant base metal bezel",
+  "BuyItNowPrice": {
+    "value": "265.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012065579",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Seiko",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko Watch",
+  "ConditionDescription": "Works just fine but battery replacement is required.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-Watch-/263012065579",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "4",
+  "PostalCode": "12018",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Averill Park, New York",
+  "TimeLeft": "P6DT8H33M15S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ZWQAAOSwxu5ZLgCX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ZIEAAOSwEHpZLgCr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/tesAAOSwblZZLgDQ/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "coredasilv0",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

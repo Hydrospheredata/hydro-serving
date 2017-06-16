@@ -1,0 +1,131 @@
+{
+  "ExcludeShipToLocation": [
+    "MX",
+    "NG",
+    "SO",
+    "YE",
+    "IT"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "82.99"
+  },
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTEwWDkxMA==/z/cIsAAOSwcB5ZJNuu/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Quantity": "26",
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "findingking",
+    "FeedbackRatingStar": "GreenShooting",
+    "FeedbackScore": "578608",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "StartTime": "2017-04-26T23:41:29.000Z",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "Title": "Men Charles Hubert Pocket Watch",
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "ItemID": "361963876005",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-Charles-Hubert-Pocket-Watch-/361963876005",
+  "Country": "US",
+  "PostalCode": "85215",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "New with tags",
+  "Description": "--> FindingKing Men Charles Hubert Pocket Watch This is a beautiful new Men Charles Hubert Pocket Watch. It is a great gift for yourself or a loved one and makes the perfect addition to any jewelry collection. Brand-charles HubertCase Diameter-42.00Dial Color-whiteDisplay-analogMovement-mechanicalPowered-hand WindBand Length(inches)-4.75 All weights and measurements are approximate.",
+  "HitCount": "10",
+  "QuantityAvailableHint": "MoreThan",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PrimaryCategoryID": "3938",
+  "SKU": "QU-XWA1911",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charles Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "XWA1911",
+        "Name": "MPN"
+      },
+      {
+        "Value": "14.5\"",
+        "Name": "Length"
+      },
+      {
+        "Value": "Hand Wind",
+        "Name": "Power Source"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "White",
+        "Name": "Dial Color"
+      },
+      {
+        "Value": "42.00mm",
+        "Name": "Case Size Diameter"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "curb",
+        "Name": "ChainType"
+      },
+      {
+        "Value": "brass",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619638760058080_17.jpg",
+  "BestOfferEnabled": "true",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-25T23:41:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Mesa, Arizona",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "82.99"
+  },
+  "TimeLeft": "P25DT4H55M25S"
+}

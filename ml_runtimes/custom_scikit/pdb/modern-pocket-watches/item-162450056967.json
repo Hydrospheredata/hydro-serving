@@ -1,0 +1,280 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "SR",
+    "VE",
+    "BM",
+    "GL",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "AE",
+    "YE",
+    "AF",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "GI",
+    "GG",
+    "JE",
+    "LI",
+    "LU",
+    "MC",
+    "ME",
+    "SM",
+    "SJ",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.98"
+  },
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/y48AAOSwzgBY3OCX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/nEUAAOSwmgJY3OCZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/U08AAOSwuxFY3OCc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/zHYAAOSwzgBY3OCf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/0OQAAOSwSlBY3OCi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/kZMAAOSwA29Y3OCl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/9hkAAOSwhQhY3OCo/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "Quantity": "202",
+  "QuantitySold": "2",
+  "Seller": {
+    "UserID": "sex-plaza2014",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "72545",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "StartTime": "2017-03-30T10:40:43.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "9***2",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "256",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "FixedPriceItem",
+  "PrimaryCategoryID": "3938",
+  "Title": "Bronze Wolf Hollow Pocket Watch Necklace Pendant /Keychain Women Men's Gifts NT",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "162450056967",
+  "PaymentMethods": "PayPal",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Storefront": {
+    "StoreName": "sex-plaza",
+    "StoreURL": "http://stores.ebay.com/id=1192789603"
+  },
+  "Country": "HK",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "White",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "HitCount": "170",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "keychain",
+          "necklace"
+        ],
+        "Name": "type"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "type",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "keychain",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/DtUAAOSwax5YnWYf/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "necklace",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/yvcAAOSw~AVYnWYj/$_1.JPG?set_id=8800005007"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.98"
+        },
+        "SKU": "V-SH-JY-025-KY",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "keychain",
+            "Name": "type"
+          }
+        },
+        "Quantity": "100"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "2.98"
+        },
+        "SKU": "V-SH-JY-025-NK",
+        "SellingStatus": {
+          "QuantitySold": "2",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "necklace",
+            "Name": "type"
+          }
+        },
+        "Quantity": "102"
+      }
+    ]
+  },
+  "SKU": "V-SH-JY-025@#0330VA@#RE",
+  "QuantityAvailableHint": "MoreThan",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-28T10:40:43.000Z",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bronze-Wolf-Hollow-Pocket-Watch-Necklace-Pendant-Keychain-Women-Mens-Gifts-NT-/162450056967?var=",
+  "Location": "Hong Kong",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.98"
+  },
+  "TimeLeft": "P27DT15H51M59S"
+}

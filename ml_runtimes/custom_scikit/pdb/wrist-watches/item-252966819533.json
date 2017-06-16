@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "450.07",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Middlesex",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:32:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "349.95",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:32:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966819533",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": [
+          "Date",
+          "Multiple Time Zone"
+        ],
+        "Name": "Functions & Features"
+      },
+      {
+        "Value": "Classic",
+        "Name": "Model"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Rotary",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sweden",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Quartz: Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rotarry Elite  Revolution Men's Watch Dual Dial Reversable Watch,Showerproof .",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rotarry-Elite-Revolution-Mens-Watch-Dual-Dial-Reversable-Watch-Showerproof-/252966819533",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529668195338080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "ha9 6qg",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H13M19S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r-YAAMXQeKNTO~Bu/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zyQAAMXQeKNTO~Gp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oHEAAMXQeKNTO-~k/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NwIAAOxydUJTO-9e/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pEYAAMXQuTNTO-8Z/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/krAAAOxykmZTO-71/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-UAAAOxy4eJTO-~C/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BN8AAMXQydtTO--i/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KEYAAOxyCGNTO~Dd/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/E9YAAOxyyq5TO-86/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Rotary elite revolutions reversible watch two watches in one,with leather strap and date on white dial, white face dial on one side and black on the other,A good collectors watch .Sapphire Swiss made, battery need replacing.good as new just worn a few times.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "155",
+    "UserID": "amrut69",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "All goods must be returned with in 14 day of receiving  goods ,note all goods are checked and inspected before dispatch,goods must be retuned in original pakageing and undamaged and in working order because all goods are checked that they are in working order before sending goods to customers thank you .",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

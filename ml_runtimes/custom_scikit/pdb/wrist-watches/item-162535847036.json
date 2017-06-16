@@ -1,0 +1,131 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "147.9",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bath",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:55:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:55:31.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535847036",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kennett",
+        "Name": "Brand"
+      },
+      {
+        "Value": "WCHABKBKBK",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Tonneau/Barrel",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SAVE 50%+ CLOSING DOWN! Kennett Men's Challenger Watch - Black Carbon RRP \u00a3250",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAVE-50-CLOSING-DOWN-Kennett-Mens-Challenger-Watch-Black-Carbon-RRP-250-/162535847036",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625358470368080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "BA2 1PL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H34M14S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/--sAAOSwal5YGbI4/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Kennett Men's Challenger Black Carbon Watch - James Samson Kennett Men's Challenger Black Carbon Watch Act Fast! Less than 50 products left in our Closing Down Sale! View the complete range. A fusion of sport and dress watch style, this men's chronograph from Kennett in black, is designed to impress. Comfortable for wearing at play or in the board room. Comes With 2 year Kennett guarantee, Manual and Kennett presentation box RRP \u00a3250 Features: - Model: WCHABKBKBK - Movement: Japanese Quartz - Case width: 46mm - Case depth: 15mm - Case Material: Stainless steel - Case Colour: Black carbon fibre - Strap type: Leather - Strap colour: Black - Clasp type: Buckle - Date: Yes - Chronograph: Yes - Dial Colour: Black carbon fibre - Hands: Grey / White - Water resistant: 100 metres About James Samson Based in Bath, James Samson offers a range of Jewellery, Watches, Gifts and Clocks, from over 20 small independent brands. In addition to a small product selection on eBay, our main online store includes brands such as Maserati Time, NONA jewels, Michel Herbelin Watches and more. Payment We only accept payment by PayPal. Postage 95% of orders placed Monday to Friday are dispatched the same day. We offer 3 different postage options and all require a signature: Standard: Free. 3-5 working day tracked courier. Next day: \u00a37 charge. Order by 12pm and receive your order the next day. 48 Hour: \u00a34.50 charge. Order by 12pm and receive your order in 2-3 working. Returns Unsuitable items can be returned up to 14 days after purchased. To return items please email us first. On receipt of items, we will pay any refund(s) due. We regret that we cannot be held responsible for non-delivery of returned goods. Customer Care James Samson cares about you, our customer. We want you to get the item you paid for in a timely manner, receive great service and be satisfied with your purchase. Should you have a question; we are just an email (info@jamessamson.co.uk) or a call (01225 478961) away. We aim to respond to emails within 24 hours. W: www.jamessamson.co.uk | E: info@jamessamson.co.uk | T: 01225 478961",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "63",
+    "UserID": "jamessamsonuk",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

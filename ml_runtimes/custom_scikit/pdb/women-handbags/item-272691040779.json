@@ -1,0 +1,76 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/FucAAOSwTuJYu1hU/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lot-4-Boho-Bohemian-Messenger-Travel-Duffel-Festival-Aztec-Bags-Bag-Tribal-/272691040779",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Beautiful Woven Messenger Bags for a resale price! Closing my business and need to get rid of all of my inventory. WILL ACCEPT BEST OFFER. Made with vegan leather!",
+  "Title": "Lot of 4 Boho Bohemian Messenger Travel Duffel Festival Aztec Bags Bag Tribal",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Long Beach, California",
+  "Seller": {
+    "FeedbackScore": "16",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "sunnyraefashion888"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90804",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T17:30:20.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P2DT1H21M",
+  "EndTime": "2017-06-04T17:30:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Geometric"
+      },
+      {
+        "Name": "Features",
+        "Value": "Eco Friendly"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272691040779",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726910407798080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "true"
+}

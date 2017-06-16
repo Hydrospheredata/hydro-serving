@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT7H13M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "62.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282509586503",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coral-Bay-Genuine-Shell-Jewelry-Set-Nickel-Free-Sensitive-Ears-NEW-/282509586503",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "62.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T19:07:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T19:07:52.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Genuine Shell",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Shell",
+        "Name": "Material"
+      },
+      {
+        "Value": "Nickel-Free",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Coral Bay",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Coral Bay Genuine Shell Jewelry Set, Nickel-Free/Sensitive Ears -NEW-",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "Coral Bay Genuine Shell Jewelry Set, Nickel-free/Sensitive Ears -NEW-Necklace: Approx 10.5\" long from top to bottom when clasped as in photos. Retails for $24Bracelet: (1) wrapped style. Retails for $26Earrings: Nickel-free for sensitive ears. Retails for $14Total value $64. Selling set for $62.95 with free shipping. Check out my other items for sale on eBay! If you have any questions feel free to send me a message. Thank you for looking! *Orders placed after 5:00 pm (Eastern Time Zone) will be processed the following business day. Handling time is 2 business days. Business days are Mon-Friday 8am to 5pm. *Buyer must confirm product compatibility before purchase. I cannot confirm compatibility. *Item(s) must be paid for within 2 business days of winning an auction and/or committing to buy, or the order will be cancelled and the item(s) will be relisted for sale. *Shipping within the United States only. I can not ship to Hawaii, Alaska or Puerto Rico. (JE,6)",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825095865038080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "chickenladystore",
+    "FeedbackScore": "776",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "KiesysAngel01",
+    "StoreURL": "http://stores.ebay.com/id=945049895"
+  },
+  "Quantity": "1",
+  "Location": "Columbia, Virginia",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hMAAAOSww5hZNFo8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rMMAAOSwlY1ZNFpU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KuMAAOSwX9FZNFpm/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "23038"
+}

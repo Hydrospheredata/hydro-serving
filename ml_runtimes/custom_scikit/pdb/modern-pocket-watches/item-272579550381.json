@@ -1,0 +1,116 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "54.32"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Product Description Features: 1.100% brand new with excellent workmanship 2.Elegant design with precise quartz movement 3.Comes with a long necklace brass tone chain 4.Super hardened scratch resistant mineral 5.Special Sailing Boat pocket watch with antique shape 6.Removable stainless brass tone chain 7.Perfect addition to a formal or casual dressing or colleting How to use/set the quartz watch ? A. Once you receive the quartz watch: Press the crown at the top of watch, the front plate will open. B. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. Specification (1 cm=10 mm=0.394 inch) (approximate) Case diameter: 44mm approx. Case thickness: 13.5mm approx.(cover included) Case Material: Copper Chain Length: 390mm approx. (hook included) Chain Material: Alloy Package Included: -1 x Pocket watch -1 x Gift Box -1 x Chain - 1.Attractive vintage style design, It's an eye-catcher at the suit, pants or dress of gentleman and lady - 2.100% brand new with excellent workmanship, Precise mechanical golden movement - 3.Mechanical hand-wound movement, No need to use battery, Twisting the top button on the spin, Tightening a walk for 24 hours - 4.Unique skeleton dial, Add undeniable style and class to your daily life and fashion with a classic Pocket Watch - 5.Come with chain and gift box, Nice gift for your family or your friends, Seniority for yourself WENSHIDA Steampunk Bronze Transparent Mens Pocket Watch Open Face Skeleton Chain",
+  "StartTime": "2017-03-06T15:33:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/y5MAAOSwOgdYvYE4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/fMQAAOSwol5YvYE5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/DT4AAOSw2gxYvYE4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/adcAAOSwSlBYvYE4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/mUMAAOSw4CFYvYE4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/zLQAAOSwuxFYvYE3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/fMMAAOSwol5YvYE5/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "703290408418",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0703290408418",
+        "Name": "EAN"
+      },
+      {
+        "Value": "WENSHIDA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MCD-HBH022",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.25 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5 x W 4.3 x H 1.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "64",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2725795503818080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T15:33:08.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "54.32"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "WENSHIDA Steampunk Bronze Transparent Mens Pocket Watch Open Face Skeleton Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WENSHIDA-Steampunk-Bronze-Transparent-Mens-Pocket-Watch-Open-Face-Skeleton-Chain-/272579550381",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579550381",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT20H41M21S"
+}

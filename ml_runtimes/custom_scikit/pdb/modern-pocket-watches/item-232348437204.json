@@ -1,0 +1,64 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "97361",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Non-working Endura watch -skeleton back view-mechanical. Only $6.00 as a buy it now.",
+  "StartTime": "2017-05-25T03:28:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDU0MA==/z/s3kAAOSwxu5ZJk6U/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDU0MA==/z/cs8AAOSw3gJZJk6x/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDU0MA==/z/LE8AAOSwn-tZJk7B/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Skeleton",
+      "Name": "Features"
+    }
+  },
+  "Seller": {
+    "UserID": "303robert10",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "631",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323484372048080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T03:28:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Endura-Pocket-Pendant-Watch-Skeleton-View-Back-Mechanical-Non-Working-/232348437204",
+  "Location": "Monmouth, Oregon",
+  "Title": "Endura  Pocket/Pendant Watch Skeleton View of Back Mechanical- Non Working",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232348437204",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT8H51M11S"
+}

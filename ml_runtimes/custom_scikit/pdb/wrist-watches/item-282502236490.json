@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "MUMBAI, MAHARASHTRA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:21:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T11:21:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502236490",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Date Indicator",
+          "Day Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Original Hands.",
+        "Name": "ADDITIONAL DETAILS"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-RADO-AUTOMATIC-DAY-DATE-SWISS-MADE-GOOD-CONDITION-RARE-MENS-WRIST-WATCH-/282502236490",
+  "Title": "VINTAGE RADO AUTOMATIC DAY-DATE SWISS MADE GOOD CONDITION RARE MEN'S WRIST WATCH",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825022364908080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "400004",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H1M5S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TEUAAOSwax5Yu9PU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J~8AAOSw4CFYu9Pb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IogAAOSwuxFYu9Pk/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NGYAAOSwB-1Yu9Pv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/T3IAAOSwax5Yu9P6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/desAAOSw2gxYu9QC/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "We will ship the items within 1-2 business days after receiving confirmed payments. Your order will arrive in 10-20 business days from the date of posting. If there is no one to receive the parcel at the time of delivery, the postman will leave a note at your home and you will have to pick up the parcel from the post office yourself by providing the registration number and proof of your identity. If the parcel is not picked up even after this it may be returned back to us as unclaimed. We will ship to the address which is updated as shipping address at your eBay account not on PayPal, please ensure this is correct before payment. We are not responsible for wrong or undeliverable address. We accept Payment through Paypal, the safest and easiest way of making online payment. FEEDBACKWe want you to love your purchased item. In case if you are not satisfied with your purchase, please give us a chance to resolve the issue.Please contact us for any question or complaint and we will do our best to satisfy you with your purchase. Feel free to connect with us through eBay ASK YOUR SELLER.",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.5",
+    "FeedbackScore": "40",
+    "UserID": "kirtparek-0",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

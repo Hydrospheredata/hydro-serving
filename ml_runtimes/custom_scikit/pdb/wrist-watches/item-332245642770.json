@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "76.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:11:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "76.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:11:59.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245642770",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "MBM1220",
+        "Name": "Model"
+      },
+      {
+        "Value": "Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MARC BY MARC JACOBS MBM1220 Marci Mirror Grey Leather Watch NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-MARC-JACOBS-MBM1220-Marci-Mirror-Grey-Leather-Watch-NEW-/332245642770",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322456427708080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H51M17S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTgyWDU3Ng==/z/ujoAAOSw-0xYbFq2/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "AUTHENTIC Latest Marc By Marc Jacobs Marci Mirror Dial MBM1220 Brand New Without Tags. Original MARC JACOBS\u00a0 DESCRIPTION: Features: Model number : MBM1220 Stylish Ladies Watch from MARC BY MARC JACOBS. \u00a0Sleek genuine leather strap. Mirror dial with dark grey logo as indexes. Stainless steel/leather. Water resistant to 5 ATM. Analog movement. Product Details Department: womens Manufacturer: Marc By Marc Jacobs Manufacturer reference: MBM1220 Polished Silver/Gray Tone Case and Clasp Genuine Leather Strap in Titanium Gray\u00a0 Medium Sized Case measures approximately 33mm wide",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

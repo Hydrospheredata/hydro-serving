@@ -1,0 +1,65 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Louisville, Kentucky",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:10:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:10:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695221081",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Women's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Two Fashion Women's Watches",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Two-Fashion-Womens-Watches-/272695221081",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726952210818080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "40207",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H45S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Jj8AAOSwR29ZLs64/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/h4EAAOSwtGlZLs66/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/TdsAAOSwblZZLs68/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/SjcAAOSwYlRZLs6-/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Two Fashion Women's Watches",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "34",
+    "UserID": "senadcos72",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

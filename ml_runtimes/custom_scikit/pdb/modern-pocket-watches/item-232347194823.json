@@ -1,0 +1,110 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "70131",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "we_sell_bayou_treasures",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "10631",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Awesome 2\" Pewter Style British Flag Pocket Watch!! Pre-owned in good used condition. Tested running. Honest seller. Feel free to ask any questions. Pictures show actual item being sold. Please note sales of as-is items are final, Paypal only please. Shipping to all 50 states and FPO/AP/AE. Sorry, not able to ship international due to very high costs. Exceptions possible if buyer agrees to expense. Expedited Shipping Quote is available upon request. \u2713Store Policy and Guidelines Thank you for considering us !! \u2605\u2605\u2605\u2605\u2605 \u270d \u2709 \u2646 \u2702 Special Promotions",
+  "StartTime": "2017-05-24T03:30:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVg4OTE=/z/8fcAAOSw32lYzVyo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYzWDU0MA==/z/QQ8AAOSw2gxYzVyh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyOFg4MTE=/z/2ngAAOSwdGFYzVyq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVg4OTE=/z/QyIAAOSwol5YzVy-/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Graphic Art Work",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Flag Britain",
+        "Name": "Display"
+      },
+      {
+        "Value": "2\"",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "1202381",
+        "Name": "sku"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "1202381",
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323471948238080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T03:30:08.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Awesome-2-Pewter-Style-British-Flag-Pocket-Watch-GUC-/232347194823",
+  "Location": "New Orleans, Louisiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Awesome 2\" Pewter Style British Flag Pocket Watch GUC",
+  "Storefront": {
+    "StoreName": "we_sell_bayou_treasures",
+    "StoreURL": "http://stores.ebay.com/id=8945536"
+  },
+  "ItemID": "232347194823",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT8H52M36S"
+}

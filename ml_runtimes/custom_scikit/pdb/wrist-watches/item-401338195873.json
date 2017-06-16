@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.6",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "La Puente, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:39:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=898334772",
+    "StoreName": "TOMTOP Store"
+  },
+  "CurrentPrice": {
+    "value": "14.6",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-01T09:39:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "CA-93911H2731496223113124026",
+  "Description": null,
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "401338195873",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "603983367216",
+        "Name": "UPC"
+      },
+      {
+        "Value": "OWT9389753627704AF",
+        "Name": "MPN"
+      },
+      {
+        "Value": "YDTJUJ103V",
+        "Name": "ASIN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Outdoor Sports Watch Multifunction Waterproof Fishing Barometer Pedometer A2J3",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Outdoor-Sports-Watch-Multifunction-Waterproof-Fishing-Barometer-Pedometer-A2J3-/401338195873",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013381958738080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "91746",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "PT18H13M20S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/uUIAAOSwfpVZLo6X/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/yh0AAOSwurZZLo6Z/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/GfoAAOSwn-tZLo6b/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FPAAAOSw~FJZLo6e/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/7pQAAOSwCQZZLo6g/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Hl8AAOSw8lpZLo6i/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/0qgAAOSwBt5ZLo6k/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMwMFgxMDAw/z/uyIAAOSwfpVZLo6p/$_1.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "14.6",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "412331",
+    "UserID": "tomtop_w",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

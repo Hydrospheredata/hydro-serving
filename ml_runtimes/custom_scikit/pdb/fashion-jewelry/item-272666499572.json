@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT12H30M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "51.45",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272666499572",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Austrian-Crystal-Vintage-Rose-Silk-Quartz-Star-Bead-Mix-Eyeglass-Chain-/272666499572",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "51.45",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-10T23:33:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T23:33:33.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Eyeglass Chains",
+        "Name": "Brand"
+      },
+      {
+        "Value": "cnms-swrvskvntgrsslkqrtzstrmx",
+        "Name": "MPN"
+      },
+      {
+        "Value": "crafts-n-more-store",
+        "Name": "Label"
+      },
+      {
+        "Value": "Art and Craft Supply",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Austrian Crystal Vintage Rose / Silk Quartz Star Bead Mix Eyeglass Chain",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! It is made with 4mm Silk Swarovski Crystals, 6mm Vintage Rose Swarovski Crystals, 6mm Rose Quartz Round Beads, 6mm Pink Fiber Optic Stars, 6/0 Czech Glass Seed Beads in Silver-Lined Matte Light Pink, Cream Matte Metallic, Copper-Lined Clear, 11/0 Czech Glass Silver-Lined Matte Gold. The lobster clasps allows you to easily change out the holders; connect the lobster clasp together and turn the eyeglass chain into a necklace. - Austrian Crystal Vintage Rose / Silk Quartz Star Eyeglass Chain - Chain measures 27\" - Chain weighs 0.5oz - The lobster clasps allows you to easily change out the holders; connect the lobster clasp together and turn the eyeglass chain into a necklace Austrian Crystal Vintage Rose / Silk Quartz Star Bead Mix Eyeglass Chain",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726664995728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "scorpio.ns",
+    "FeedbackScore": "3847",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "scorpio.nsSTORE",
+    "StoreURL": "http://stores.ebay.com/id=1412575523"
+  },
+  "Quantity": "3",
+  "Location": "US",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIzMFgxNTAw/z/ulAAAOSw-3FZE6NQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1MlgxNTAw/z/Gi4AAOSwuMZZE6NP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNFgxNTAw/z/YTgAAOSwi7RZE6NP/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

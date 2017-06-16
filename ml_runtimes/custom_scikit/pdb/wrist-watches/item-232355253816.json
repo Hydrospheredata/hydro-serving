@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Simi Valley, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:19:18.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:19:18.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355253816",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Brass",
+          "Stainless Steel"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "SILPADA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Silpada NEW \"Timeless Tortoise\" Stainless Steel Gold Tone Watch KRT0061 No Box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-NEW-Timeless-Tortoise-Stainless-Steel-Gold-Tone-Watch-KRT0061-No-Box-/232355253816",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323552538168080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "93065",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H6M21S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/f6YAAOSwax5Y2luP/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/CNgAAOSw32lY2luR/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Silpada NEW \"Timeless Tortoise\" Stainless Steel Gold Tone Watch KRT0061",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "99",
+    "UserID": "auntpappysstore",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

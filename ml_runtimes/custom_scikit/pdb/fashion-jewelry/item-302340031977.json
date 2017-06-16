@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT8H7M23S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "\"Excellent Pre-Owned Condition!\"",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "97.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302340031977",
+  "ConvertedCurrentPrice": {
+    "value": "97.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T20:00:10.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SET-Necklace-Bracelet-Sterling-Silver-Gold-Plated-Accents-X-O-s-XOs-/302340031977",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T20:00:10.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "J. C. Penny purchased from",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 parts per 1000",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "7\" and 16\" approx. (see pictures)",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Statement",
+        "Name": "Style"
+      }
+    ]
+  },
+  "Title": "SET * Necklace & Bracelet * Sterling Silver with Gold Plated Accents X O s XOs",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Palm Coast, Florida",
+  "Description": "Purchased from J. C. Penney's about 10 years ago and barely worn (has been in box)Sterling Silver Textured Links bending at the Gold-Plated X's. Very Nice Set of Two-Tone Silver/Gold-Plated;always makes it easier to mix pieces Gold/Silver. Slide-in Fastening with Safety Latches.Excellent Condition; comes in Original Box! (White faux leather) Please pay upon purchase with PayPal. Thanking you in advance for your purchase & positive feedback!",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023400319778080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jamisonalbin",
+    "FeedbackScore": "937",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hqgAAOSw-0xYVFiO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V~wAAOSw2xRYVFhj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ufYAAOSw241YVF06/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4WIAAOSwa~BYVFiy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4p0AAOSwa~BYVFi8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EVIAAOSw6DtYVFjK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jlIAAOSw-0xYVFjf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z9MAAOSw5cNYVFjq/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "32164"
+}

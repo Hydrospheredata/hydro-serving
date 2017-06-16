@@ -1,0 +1,206 @@
+{
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "South America",
+    "RU",
+    "GR",
+    "IT",
+    "MX"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mullingar Pewter",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Product"
+      },
+      {
+        "Value": "Shamrock",
+        "Name": "Subject"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Ireland",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Irish Themed Mechanical Pewter Pocket Watch - Choice of Design Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-02-19T18:41:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/bWcAAOSwOgdYqebP/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "21",
+  "Country": "IE",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "emerald-isle-gifts-usa",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "19057",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "35",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-19T18:41:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Asia",
+    "AU"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Book of Kells",
+          "Easter 1916",
+          "Shamrock"
+        ],
+        "Name": "Theme"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Theme",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Book of Kells",
+          "PictureURL": "http://img.auctiva.com/imgdata/2/2/9/9/8/8/webimg/937436426_o.jpg"
+        },
+        {
+          "VariationSpecificValue": "Easter 1916",
+          "PictureURL": "http://img.auctiva.com/imgdata/2/2/9/9/8/8/webimg/937435888_o.jpg"
+        },
+        {
+          "VariationSpecificValue": "Shamrock",
+          "PictureURL": "http://img.auctiva.com/imgdata/2/2/9/9/8/8/webimg/937437625_o.jpg"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "44.0"
+        },
+        "SKU": "1487529527-000",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Book of Kells",
+            "Name": "Theme"
+          }
+        },
+        "Quantity": "7"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "44.0"
+        },
+        "SKU": "1487529527-001",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Easter 1916",
+            "Name": "Theme"
+          }
+        },
+        "Quantity": "7"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "44.0"
+        },
+        "SKU": "1487529527-002",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Shamrock",
+            "Name": "Theme"
+          }
+        },
+        "Quantity": "7"
+      }
+    ]
+  },
+  "Location": "Dublin 24, Ireland",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Irish Themed Mechanical Pewter Pocket Watch - Choice of Design",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Irish-Themed-Mechanical-Pewter-Pocket-Watch-Choice-Design-/381972664840?var=",
+  "Storefront": {
+    "StoreName": "Emerald Isle Gifts",
+    "StoreURL": "http://stores.ebay.com/id=209969071"
+  },
+  "ItemID": "381972664840",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P18DT23H47M12S"
+}

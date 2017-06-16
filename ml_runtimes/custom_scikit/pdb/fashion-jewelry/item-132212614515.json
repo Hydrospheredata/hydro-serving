@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT9H40M33S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132212614515",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Signed-Nolan-Millers-Gold-Tone-Multi-Stone-Pierced-Hoop-Earrings-2-/132212614515",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T00:30:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T00:30:11.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nolan Miller",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hoop",
+        "Name": "Type"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "CZ's",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Yellow Gold/Clear",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "Signed Nolan Miller's Gold Tone Multi Stone Pierced Hoop Earrings- 2\"",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Listed is a beautiful pair of NOLAN MILLER GOLD TONE MULTI STONE PIERCED HOOP EARRINGS. Earrings are quite large measuring 2\" diameter. Width of earrings are approximately 1/4\". Pierced stud earring. Signed NM on back. Gold tone with beautiful staggered crystal clear stones that outline the entire hoop. New. Pay attention to all photos as this is part of the description. Thanks so much for looking!PAYMENT DUE WITHIN 3 DAYS OF AUCTIONS END...EBAY'S UNPAID ITEM ASSISTANT HAS BEEN ENABLED FOR ALL UNPAID INVOICES!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322126145158080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "cwoodgirl",
+    "FeedbackScore": "994",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Collinwood, Tennessee",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mhQAAOSwxCxT7r8e/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/p0AAAOSwq7JT7r7G/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RmoAAOSwDk5T7r7X/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/o8EAAOSwd4tT7r6X/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/y6MAAOSwbqpT7r9C/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pj8AAOSwq7JT7r61/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q7QAAOSwq7JT7r8M/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QwgAAOSwVFlT7r7o/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vFIAAOSwPe1T7r8w/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uK8AAOSwPe1T7r76/$_1.JPG?set_id=8800005007F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "38450"
+}

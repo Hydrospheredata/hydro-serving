@@ -1,0 +1,178 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H1M58S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "95.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "352079305909",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14k-Real-Gold-Yellow-and-White-Bezel-CZ-Belly-Button-Navel-Ring-/352079305909?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "95.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T13:31:26.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T13:31:26.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Metal Type",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Yellow Gold",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/0O0AAOSwurZZNVuM/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTAwNFgxNjAw/z/2w8AAOSwIaFZNVuN/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/zXMAAOSw42JZNVuW/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White Gold",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/AdoAAOSwcB5ZNVuY/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTAwNFgxNjAw/z/AhMAAOSwcB5ZNVuc/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/SkUAAOSw5cRZNVuc/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Yellow Gold",
+          "White Gold"
+        ],
+        "Name": "Metal Type"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "14k-BO6018-Y",
+        "StartPrice": {
+          "value": "95.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow Gold",
+            "Name": "Metal Type"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "14k-BO6018-W",
+        "StartPrice": {
+          "value": "96.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White Gold",
+            "Name": "Metal Type"
+          }
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "32050",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ritastephens",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Material"
+      },
+      {
+        "Value": "Belly Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Navel",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "22 mm",
+        "Name": "Length"
+      },
+      {
+        "Value": "Ball Closure",
+        "Name": "Closure Style"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "14k Real Gold Yellow and White Bezel CZ Belly Button Navel Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "14K Real Yellow and White Gold Bezel CZ Belly Ring. Length: 7/8\" inch, Ball is 4.5mm, the post is 1/2\", Bezel is 1/4\" Available in Yellow Gold and White GoldBeautifully designed and well crafted. This jewelry will make a great accessory and compliment any style and occasion. All items come with gift box Properly marked and stampPICTURE IS ENLARGED FOR DETAILING.",
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "ritastephensjewelry",
+    "FeedbackScore": "30226",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "RitaStephens Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=165600885"
+  },
+  "Quantity": "4",
+  "Location": "New York, New York",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/gkkAAOSw~FJZNVuB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-mMAAOSwYlRZNVvQ/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10036"
+}

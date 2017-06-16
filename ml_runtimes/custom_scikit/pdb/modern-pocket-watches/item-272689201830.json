@@ -1,0 +1,120 @@
+{
+  "QuantitySold": "0",
+  "Title": "Timex Easy Reader T2H281 Wristwatch Brand New With Tags",
+  "PostalCode": "3041",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Battery",
+        "Name": "Type"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Easy Reader",
+        "Name": "Model"
+      },
+      {
+        "Value": "T2H281",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Timex Easy Reader T2H281 WristwatchFeatures: Easy-to-Read White Dial with Full Arabic Numerals Black Genuine Leather Strap Polished Silver-Tone Case Date Window Indiglo Light-Up Watch Dial Water resistant to 99 feet (30 M) Specifications: Brand: Timex Model: T2H281 Case Material: Brass Case Diameter: 35 millimeters Band Coloud: Black Dial Colour: White Movement: Analogue-Quartz Includes: 1 x Timex T2H281 Easy Read Watch",
+  "StartTime": "2017-05-27T09:52:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/$T2eC16NHJHwFG1RPGY1LBSK-omgqSQ~~_8.JPG?set_id=89040003C1"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.74"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "AU",
+  "ProductID": {
+    "_type": "Reference",
+    "value": "93092274"
+  },
+  "Seller": {
+    "UserID": "lebonk_boutique",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1794",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726892018308080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T09:52:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "60.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "AU",
+    "Americas",
+    "Europe",
+    "Asia",
+    "NZ"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Items must still be in brand new condition for returns to be accepted. Please note the buyer is responsible for return postage costs of item unless it is being sent back because of a defect or the wrong order sent by us. Please contact us before sending items back.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AvailableForPickupDropOff": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Easy-Reader-T2H281-Wristwatch-Brand-New-Tags-/272689201830",
+  "Location": "Melbourne, VIC",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "Storefront": {
+    "StoreName": "Lebonk Boutique",
+    "StoreURL": "http://stores.ebay.com/id=892297994"
+  },
+  "ItemID": "272689201830",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "TimeLeft": "P25DT15H17M8S"
+}

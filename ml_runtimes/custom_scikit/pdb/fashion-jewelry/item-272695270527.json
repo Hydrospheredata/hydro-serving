@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "57.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272695270527",
+  "TimeLeft": "P4DT23H59M49S",
+  "ListingStatus": "Active",
+  "Title": "M. FREY WILLE Mogul Art Elephant of Fortune 24K Enamel Contessa Bangle Bracelet",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "andrebaverstoc_0",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "SecondaryCategoryID": "499",
+  "ConvertedCurrentPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:499",
+  "BidCount": "8",
+  "StartTime": "2017-05-31T14:52:33.000Z",
+  "HighBidder": {
+    "UserID": "a***s",
+    "FeedbackScore": "0",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "None"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "PT",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T14:52:33.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "M. Frey Wille / Frey Wille",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Clasp Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/M-FREY-WILLE-Mogul-Art-Elephant-Fortune-24K-Enamel-Contessa-Bangle-Bracelet-/272695270527",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Lisboa, sintra",
+  "Description": "FREY WILLE Bracelet!! Brand NEW, in its original box. Worth up to 750.00$ in other auctions. Great Opportunity",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726952705278080_1.jpg",
+  "ListingType": "Chinese",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "Quantity": "1",
+  "HandlingTime": "0",
+  "PaymentMethods": "PayPal",
+  "HitCount": "92",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/09QAAOSw7GRZLtTn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/gtwAAOSw42JZLtTz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ulMAAOSwYlRZLtT9/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

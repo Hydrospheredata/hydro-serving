@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P5DT19H4M33S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Brand new Item toe ring hand engraved by Vartani.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.85",
+    "_currencyID": "USD"
+  },
+  "ItemID": "311740014794",
+  "ConvertedCurrentPrice": {
+    "value": "31.85",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2016-11-13T08:56:53.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Hand-Engraved-hand-made-Steling-silver-toe-Ring1-4-Width-Vartani-USA-/311740014794",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T08:56:53.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vartani",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sterling silver 925",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver .925",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "New!! Hand Engraved hand made Steling silver toe Ring1/4\"Width/Vartani USA",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Glendale, California",
+  "Description": "Sterling Silver Hand Engraved Toe Ring Solid Hand made, 1/4\" of an inch, width A Hand made and, hand engraved Sterling Silver beautiful, Toe Ring is Sterling silver .925. engraved bright cut by hand,all the textures, are made by hand, it is a unique, process to engrave each toe ring, one by one by hand. with highest, quality possible to be, one of a kind, Toe ring. we hope you will enjoy this, piece of Art work. Wight is 2.6 grams, the width is 1/4\" inches. Toe Ring it is flexible can be formed to almost any size. The toe Ring,It is large for very young Kids or petite person, with small toe size. in the time of your perches, we will make the size to fit her. just Provide us your child, toe size all around toe by sending a massage. we accept return in 14 days , PayPal we have the highest quality control,in our manufacturing, every single piece. Internationals welcome. NO Restocking fees. Thanks",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3117400147948080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vartaniusa",
+    "FeedbackScore": "757",
+    "FeedbackRatingStar": "Purple"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "18",
+  "PaymentMethods": "PayPal",
+  "HitCount": "118",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzgwWDU2OA==/z/pW0AAOxyJ8ZRiEZg/$T2eC16RHJHIE9nyseIKbBRiEZgRLFw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY0WDY1MA==/z/ANEAAMXQCndRiEZh/$T2eC16dHJHQFFhYynl71BRiEZhV1B!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgyWDY1MA==/z/cy4AAOxymcdRiEZi/$(KGrHqVHJEIFE3mrpL0fBRiEZh)PQ!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODkzWDY1MA==/z/Y2QAAMXQ-KRRiEZh/$T2eC16VHJHYFFkQcpMKHBRiEZhINbg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDk0WDY1MA==/z/tOQAAOxyqKVRiEZg/$T2eC16dHJGYFFlFO48cgBRiEZfeKsw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDYzWDY1MA==/z/u9QAAOxyW7tRiEZf/$T2eC16hHJIQE9qUHu0NkBRiEZfRMM!~~60_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "91206"
+}

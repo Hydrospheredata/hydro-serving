@@ -1,0 +1,89 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "53213",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This is beautiful pocket watch was given to me a gift 15 years ago. The unique features are being able to see the inner working of the watch.",
+  "StartTime": "2017-05-26T18:41:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/RtAAAOSwHptZANpU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/Y1IAAOSwvbdZANpk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/aqgAAOSwvbdZANqK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/W8wAAOSwHptZANrL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/szwAAOSwWWxZANr5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/97YAAOSwE0JZANsa/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Red",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Majestron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "algai-sea",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "26",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225252207348080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T18:41:53.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/majestron-pocket-watch-/222525220734",
+  "Location": "Milwaukee, Wisconsin",
+  "Title": "majestron pocket watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222525220734",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT5M59S"
+}

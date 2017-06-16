@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT20H28M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "82.5",
+    "_currencyID": "USD"
+  },
+  "SKU": "1715",
+  "ItemID": "292140872579",
+  "ConvertedCurrentPrice": {
+    "value": "82.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T08:58:14.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Freshwater-White-Gray-Rondel-Pearl-Austrian-Crystal-Triple-Strand-Necklace-/292140872579",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T08:58:14.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Strand/String",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Color"
+      },
+      {
+        "Value": "18\" 19\" & 20\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Freshwater White & Gray Rondel Pearl & Austrian Crystal Triple Strand Necklace",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "New York, New York",
+  "Description": "Sku # -1715Freshwater White and Gray Pearl Triple Strand Necklace Pearl MM Size = (Rondel) 7.5mm - 8.6mm and (Rectangular) 14.6mm x 15.5mm Shape of Pearl = Rondel and Rectangular Color of Pearl = Gray and WhiteLength of First Strand Including the Clasp = 18 Inches Length of Second Strand Including the Clasp = 19 Inches Length of Third Strand Including the Clasp = 20 Inches Lock = Sterling Silver ClaspWhite freshwater pearls are natural color other colors are color enhance.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921408725798080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vicsfinejewelryinc",
+    "FeedbackScore": "1686",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Vic&#39;s Fine Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=96431699"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MlgxNTgz/z/IQQAAOSwEeFVCFkd/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTE1/z/3JQAAOSwBLlVCFki/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU0MVgxNjAw/z/7XcAAOSwpDdVCFkm/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM5NFgxNjAw/z/8RoAAOSw34FVCFkr/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10036"
+}

@@ -1,0 +1,119 @@
+{
+  "Country": "GB",
+  "Location": "chapel en le frith",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:29:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "17.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:29:25.000Z",
+  "ShipToLocations": [
+    "US",
+    "EuropeanUnion",
+    "JP",
+    "CA",
+    "AU",
+    "RU",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantityAvailableHint": "MoreThan",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lorus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "RS929BX9",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "HitCount": "6",
+  "TimeLeft": "P29DT16H59M33S",
+  "PostalCode": "SK230PJ",
+  "ConvertedCurrentPrice": {
+    "value": "23.14",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3821089781108080_1.jpg",
+  "NewBestOffer": "false",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173109439",
+    "StoreName": "Rubicon Watches"
+  },
+  "Quantity": "14",
+  "PaymentMethods": "PayPal",
+  "SKU": "LNP RS929BX9",
+  "HandlingTime": "1",
+  "Description": "Home About Us Guarantee Terms and Conditions View Feedback Our Shop Shop Categories LNP RS929BX9 Lorus Gents Black Ion Plated Bracelet Watch Track Page Views WithAuctiva's FREE Counter",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LNP-RS929BX9-Lorus-Gents-Black-Ion-Plated-Bracelet-Watch-/382108978110",
+  "BidCount": "0",
+  "ItemID": "382108978110",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionDisplayName": "New without tags",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/LIcAAOSwaEhZLn7o/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "LNP RS929BX9 Lorus Gents Black Ion Plated Bracelet Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "49971",
+    "UserID": "rubicon-watchco",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "BUY IT NOW SALES. To conform to Distance Selling Regulations Legislation, items bought by buy it now format can be returned up to seven days from the date of receipt. The item must be in the same condition as when received, unaltered & unmarked. THE BUYER IS RESPONSIBLE FOR THE RETURN POSTAGE COSTS. It is the returnee\u2019s responsibility to cover the value of the item until we receive it. AUCTION ITEMS. We will refund all postage costs on faulty items. Any returns require email authorisation.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

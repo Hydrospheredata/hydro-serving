@@ -1,0 +1,120 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT19H26M24S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302340506600",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:14:15.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Jay-Lane-Aztec-Turquoise-Earrings-New-/302340506600",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:14:15.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chandelier",
+        "Name": "Style"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Color"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Post Back",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "China",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kenneth Jay Lane Aztec Turquoise Earrings New",
+  "ExcludeShipToLocation": [
+    "CN",
+    "HK",
+    "ID",
+    "MY",
+    "PH"
+  ],
+  "Location": "Warren, New Jersey",
+  "Description": "Kenneth Jay Lane Aztec Turquoise Earrings 22K yellow gold plated base metal and black resin stone earrings with carved turquoise resin oval drop details 3 inches long 2 inches wide Lever back closure Material: 22K gold plated base metal and resin Normal 0 false false false EN-US X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023405066008080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sillhouette2006",
+    "FeedbackScore": "1349",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Fashion Accessories-24_7",
+    "StoreURL": "http://stores.ebay.com/id=422062779"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/T9UAAOSwLs5XLN0P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fWMAAOSwt7pXLN0E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rswAAOSwSclXLN0I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aRIAAOSw1DtXLN0M/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ebgAAOSw~oFXLNzW/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "07059"
+}

@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1721065144898080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDI5Ng==/z/~0QAAOSwuAVWxfzc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/~7gAAOSwuAVWxfzf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/4vUAAOSwDuJWxfze/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/FSgAAOSw~OVWxfza/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jack-Georges-Patent-Collection-Computer-Compatible-Top-Zip-Vertical-Wheeler-/172106514489",
+  "ConvertedCurrentPrice": {
+    "value": "418.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This Jack Georges Milano Patent Collection Vertical Wheeler allows you to travel on and off the plane in style without all the hassle! This supple patent leather wheeled bag features padded compartments for files or laptops (equipped for screens up to 15.4\"); makes organizing your personal and business items a breeze! Its open back pocket is ideal for stashing documents, magazines and newspapers with recessed rear wheels and a telescoping handle system for smooth maneuvering. Scratch and stain resistant Italian patent leatherPadded compartment for files or laptops with 14\" or 15.4\" screensRecessed rear wheels and a telescoping handle system for smooth maneuveringLocking front flapManufacturer Lifetime Warranty",
+  "Title": "Jack George's Patent Collection Computer Compatible Top Zip Vertical Wheeler",
+  "ExcludeShipToLocation": [
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "CD",
+    "ML",
+    "UG",
+    "ZW",
+    "BH",
+    "AF",
+    "AM",
+    "AZ",
+    "LA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "418.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Norcross, Georgia",
+  "Seller": {
+    "FeedbackScore": "1299",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "bestitalianleather"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30071",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-02-18T17:21:12.000Z",
+  "HitCount": "532",
+  "TimeLeft": "P10DT2H4M10S",
+  "EndTime": "2017-06-12T17:21:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Jack Georges"
+      },
+      {
+        "Name": "Style",
+        "Value": "Rolling Briefcase"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Material",
+        "Value": "Patent Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "UPC",
+        "Value": "745930034465"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172106514489",
+  "Storefront": {
+    "StoreName": "Best Italian Leather",
+    "StoreURL": "http://stores.ebay.com/id=1020544708"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "P3854",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "true"
+}

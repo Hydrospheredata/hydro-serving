@@ -1,0 +1,86 @@
+{
+  "ExcludeShipToLocation": [
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "17321",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Very nice ~ almost new Remington Watch with Belt Bandgreat for the worker who can't wear a watch on wristThis stylish Belt fob watch is perfect Leather case closes to protect the watch face It is a working watch",
+  "StartTime": "2017-05-26T13:23:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE4NlgxMDc2/z/MCkAAOSwuLZYyn8T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IjsAAOSwuLZYyn6r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2lgAAOSwhQhYyn6-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1TYAAOSwhQhYyn6V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tTQAAOSwzgBYyn6L/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pzAAAOSwSlBYyn6f/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Remington",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ging987",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1467",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225305225988080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-25T13:23:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Remington-Watch-Belt-band-/322530522598",
+  "Location": "Fawn Grove, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Remington Watch with Belt band",
+  "Storefront": {
+    "StoreName": "Ging+s+Treasures",
+    "StoreURL": "http://stores.ebay.com/id=16583728"
+  },
+  "ItemID": "322530522598",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT18H47M34S"
+}

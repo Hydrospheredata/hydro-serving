@@ -2,7 +2,7 @@ FROM hydrosphere/pipelineserving-python3:1.0-SNAPSHOT
 
 RUN apk add --no-cache libstdc++ lapack-dev && \
         apk add --no-cache --virtual=.build-dependencies \
-            g++ gfortran musl-dev \
+            g++ linux-headers gfortran musl-dev \
             python3-dev && \
         ln -s locale.h /usr/include/xlocale.h && \
         pip install numpy && \

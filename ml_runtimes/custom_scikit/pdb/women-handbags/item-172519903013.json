@@ -1,0 +1,157 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "i***t",
+    "FeedbackScore": "237"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzM1WDUwMA==/z/CpgAAOSwA3dYmfdF/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Expandable-Laptop-Briefcase-Tan-One-Size-/172519903013",
+  "ConvertedCurrentPrice": {
+    "value": "169.46",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Card pockets - Pen slots - Front zip pocket - Front section divider - Padded laptop section David King & Co. Expandable Laptop Briefcase, Tan, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "169.46",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "16175",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "greysharky"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Expandable Laptop Briefcase, Tan, One Size",
+  "GlobalShipping": "true",
+  "Quantity": "4",
+  "StartTime": "2017-02-07T16:35:14.000Z",
+  "HitCount": "171",
+  "TimeLeft": "P5DT1H24M8S",
+  "EndTime": "2017-06-07T16:35:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "610074792222"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0610074792222"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "100T"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172519903013",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1725199030138080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

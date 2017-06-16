@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/V0QAAOSw4A5YnYI6/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/~80AAOSwx6pYnYId/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oEAAAOSwB-1YnYId/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TncAAOSw4CFYnYIf/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QMUAAOSw2gxYnYId/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oKsAAOSwB-1YnYIg/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oIAAAOSwB-1YnYIf/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/kvoAAOSwax5YnYIY/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/07AAAOSwTuJYnYIb/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z0IAAOSwfVpYnYIc/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/STUNNING-AUTHENTIC-CHANEL-REISSUE-BAG-HANDBAG-SEQUIN-METALLIC-GOLD-SILVER-WHITE-/152570498745",
+  "ConvertedCurrentPrice": {
+    "value": "2300.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "2999.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Gorgeous Authentic Chanel Sequin Reissue Bag. Comes with everything seen in pictures. Used a few times, otherwise just stored in its dust bag in my closet. I am a handbag lover and buy way too many bags so never get around to using them! An absolutely stunning bag and in great condition! I am cleaning my closet so my loss is your gain! Final sale. Payment must be received within 48 hours. Happy bidding!",
+  "ConvertedBuyItNowPrice": {
+    "value": "2999.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "2300.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Philadelphia, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "96",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "bluepigcity"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "2300.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "19103",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:32:51.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT21H11M29S",
+  "EndTime": "2017-06-09T11:32:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "CHANEL"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Metalic"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152570498745",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Title": "STUNNING AUTHENTIC CHANEL REISSUE BAG HANDBAG SEQUIN METALLIC GOLD SILVER WHITE",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525704987458080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

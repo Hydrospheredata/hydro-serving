@@ -1,0 +1,111 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P4DT23H53M5S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent Vintage Shape",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "42.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112432104590",
+  "ConvertedCurrentPrice": {
+    "value": "42.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T13:00:12.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NB10-Sterling-Sliver-Filagree-Size-6-Peridot-Ring-2-1g-Graduated-Band-FREE-SHP-/112432104590",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T13:00:12.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CNA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Vintage",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Green Peridot",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "6",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Oval Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Hallmarked \"925 Thailand CNA\"",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "NB10 Sterling Sliver Filagree Size 6 Peridot Ring 2.1g Graduated Band ++FREE SHP",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Watseka, Illinois",
+  "Description": "NB10 Sterling Sliver Filagree Size 6 Peridot Ring 2.1g Graduated Band ++FREE SHP Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124321045908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "143pryscilla",
+    "FeedbackScore": "3402",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Pryscilla&#39;s Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=534094300"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzE5WDEyODA=/z/MxsAAOSwxu5ZE0sT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQzWDEyODA=/z/7OYAAOSwIQdZE0sU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/basAAOSwrhBZE0sT/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "PostalCode": "60970"
+}

@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1M1g4NjA=/z/YrkAAOSwa~BYQZeP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njk1WDY5NQ==/z/2HcAAOSwB09YQZgN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njk1WDY5NQ==/z/0QgAAOSwiONYQZgO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjExWDY5NQ==/z/2OMAAOSwB09YQZgP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/iqkAAOSwcUBYQZgc/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Kipling-Womens-Tina-Large-Laptop-Backpack-Combo-Color-/152535567730",
+  "ConvertedCurrentPrice": {
+    "value": "109.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kipling Women's Tina Large Laptop Backpack Combo ColorWas $159 Product Details Fashion meets function with this stylish laptop backpack from Kipling, featuring plenty of storage and a sleek, modern design.Medium sized backpack; 12\"W x 15\"H x 5\"DInterior features lining, 1 slip pocket and 1 laptop protection compartment3\"L top handle; 11\"L adjustable backpack straps Zipper closureExterior features gold-tone hardware, logo, trolley sleeve on back, 3 zip pockets and 2 side slip pockets for water bottlesNylon; trim: vegan patent leatherImported",
+  "Title": "NEW Kipling Womens Tina Large Laptop Backpack Combo Color",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Southeast Asia",
+    "South America",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Canton, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "631",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "allstarforyou"
+  },
+  "ShipToLocations": [
+    "US",
+    "AU",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48188",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-03T21:12:22.000Z",
+  "HitCount": "64",
+  "TimeLeft": "PT6H5M42S",
+  "EndTime": "2017-06-02T21:12:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Combo"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop/ Backpack"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "882256292831"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152535567730",
+  "Storefront": {
+    "StoreName": "ALLSTARFORYOU",
+    "StoreURL": "http://stores.ebay.com/id=1164380516"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525355677308080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

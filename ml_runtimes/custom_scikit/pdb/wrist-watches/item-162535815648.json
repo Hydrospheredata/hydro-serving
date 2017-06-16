@@ -1,0 +1,251 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.81",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/t5EAAOSw42dZLpk6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/LVUAAOSwR29ZLpk~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6LkAAOSwn-tZLplF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/O1sAAOSw8HBZLplR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/tAkAAOSwblZZLplZ/$_1.JPG?set_id=8800005007"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:22:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "45",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1235999307",
+    "StoreName": "eforce-auto"
+  },
+  "CurrentPrice": {
+    "value": "2.81",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:22:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BM",
+    "GL",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "DE",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "PO Box"
+  ],
+  "ItemID": "162535815648",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Analog-Wristwatch-Quartz-Watch-Roman-Numerals-Stainless-Steel-Band-Gifts-/162535815648?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "4ST9BP6BZ6YE9",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "2.81",
+          "_currencyID": "USD"
+        },
+        "SKU": "4DV9CB6YF6VJ9ZF.01",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "2.81",
+          "_currencyID": "USD"
+        },
+        "SKU": "4WF9MH6ZC6AY9NP.02",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "2.81",
+          "_currencyID": "USD"
+        },
+        "SKU": "4NA9VE6ZT6TV9BV.03",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "White",
+          "Black",
+          "Brown"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/fBUAAOSwZ4dZLpll/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/6JQAAOSwhvFZLplc/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/e7YAAOSwZ4dZLplg/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H59M11S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Women  Analog Wristwatch Quartz Watch Roman Numerals Stainless Steel Band Gifts",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackScore": "6897",
+    "UserID": "eforce-auto",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

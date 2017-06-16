@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "18.64",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "MATRAVILLE, New South Wales",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:34:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=292726048",
+    "StoreName": "Australian Collectibles"
+  },
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T11:34:47.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502252573",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Cardini",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver Tone",
+        "Name": "Casing"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Cardini Ladies Designer Excellent  Condition Working Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cardini-Ladies-Designer-Excellent-Condition-Working-Quartz-Watch-/282502252573",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825022525738080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "2036",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H15M42S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAx/z/VjIAAOSwi0RXynbM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZBcAAOSwGtRXynY5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5MFg4OTI=/z/V~cAAOSwxg5XynbO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7AsAAOSw9IpXynY7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gp4AAOSwOdpXynZC/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "SPECIFICATIONS:\u00a0 Brand Name: Cardini\u00a0 Type: Quartz Wrist Band Size: Approx 16.5 cm Case Diameter: Approx 1.8 cm Dial Colour: Pink Band Material: Stainless Steel\u00a0 Battery: New Working: Keeping time well Glass Condition: Excellent\u00a0 Case Condition: Excellent\u00a0 Band Condition: Excellent\u00a0 Comments: Nice watch Please see photos and other items for sale.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "1155",
+    "UserID": "autospares888",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

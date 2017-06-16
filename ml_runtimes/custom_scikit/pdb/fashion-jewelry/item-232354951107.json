@@ -1,0 +1,284 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "232354951107",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "499",
+  "ExcludeShipToLocation": [
+    "IT",
+    "MX",
+    "NG",
+    "SO",
+    "YE"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "findingking",
+    "FeedbackScore": "578743",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "GreenShooting"
+  },
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/OAwAAOSwIaFZL1lR/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "QU-CER17-5",
+  "StartTime": "2017-05-31T05:33:29.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ceramic-Pink-Faceted-6mm-Cancer-Awareness-Ring-/232354951107?var=",
+  "EndTime": "2017-06-30T05:33:29.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "5",
+          "5.5",
+          "6",
+          "6.5",
+          "7",
+          "7.5",
+          "8",
+          "8.5",
+          "9"
+        ],
+        "Name": "Ring Size"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "46467",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "5",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "46468",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "5.5",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "17"
+      },
+      {
+        "SKU": "46469",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "6"
+      },
+      {
+        "SKU": "46470",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6.5",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "14"
+      },
+      {
+        "SKU": "46471",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "SKU": "46472",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7.5",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "12"
+      },
+      {
+        "SKU": "46473",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "46474",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8.5",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "14"
+      },
+      {
+        "SKU": "46475",
+        "StartPrice": {
+          "value": "69.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9",
+            "Name": "Ring Size"
+          }
+        },
+        "Quantity": "23"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "polished",
+        "Name": "Finish"
+      },
+      {
+        "Value": "ceramic",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "FindingKing",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Ceramic Pink Faceted 6mm Cancer Awareness Ring",
+  "TimeLeft": "P24DT14H40M10S",
+  "Location": "Mesa, Arizona",
+  "Description": "--> FindingKing Ceramic Pink Faceted 6mm Cancer Awareness Ring Ring SizeApproximate Width5 6 mm (1/4\")5.5 6 mm (1/4\")6 6 mm (1/4\")6.5 6 mm (1/4\")7 6 mm (1/4\")7.5 6 mm (1/4\")8 6 mm (1/4\")8.5 6 mm (1/4\")9 6 mm (1/4\") All weights and measurements are approximate.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "107",
+  "PostalCode": "85215"
+}

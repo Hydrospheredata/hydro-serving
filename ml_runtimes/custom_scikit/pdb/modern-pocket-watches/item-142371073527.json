@@ -1,0 +1,100 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "E9G 1N9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This pretty little watch can fit very easily in a pocket or a purse and can also be used as a clip on or key chain. It is approximately 1.25 inches in diameter and 1.75 inches in height. It has a smooth silver colored back cover and a purple dial. It also has quartz movement and is battery operated. Beautiful! 99.9% of my items reach their destination through regular mail, but if you wish a tracking number, please let me know and I will add $9 to the cost of shipping in Canada and $16 to the USA. Check out my other items! I update frequently = :)",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/3NEAAOSw2x1XJ0Wd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/vh8AAOSwKfVXJ0Wi/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.42"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "gdanny2",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1173",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-03T12:40:47.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423710735278080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T12:40:47.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Exchange",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silvertone-Pocket-Watch-Clip-TEDDY-BEAR-Purple-Montre-OURSON-Pourpre-/142371073527",
+  "Location": "New Brunswick",
+  "Title": "Silvertone Pocket Watch Clip On TEDDY BEAR Purple  Montre OURSON Pourpre",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142371073527",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT17H56M2S"
+}

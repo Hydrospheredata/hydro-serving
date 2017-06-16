@@ -1,0 +1,176 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA5WDEwMDA=/z/4wYAAOSwDiBZL9Km/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAyWDEwMDA=/z/4UwAAOSw-3FZL9Kn/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Polka-Dot-17-inch-Laptop-Bag-Large-Dots-Black-and-White-/302335551552",
+  "ConvertedCurrentPrice": {
+    "value": "66.02",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! This 17 inch laptop case makes your commute a breeze. A convenient detachable and adjustable shoulder strap offers instant versatility, while the carefully lined interior keeps your computer safe and secure. - Imported 100% Polyester - Accessory pockets, back compartment with fan file and a spacious top-zip main compartment - adjustable & removable shoulder strap - 17 inch laptop Bag: 16.5 x 2.5 x 12.5 Polka Dot 17-inch Laptop Bag, Large Dots, Black and White",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "66.02",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "12512",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "jpurse83"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Polka Dot 17-inch Laptop Bag, Large Dots, Black and White",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T08:38:59.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P28DT17H45M14S",
+  "EndTime": "2017-07-01T08:38:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "763598166397"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0763598166397"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB00EPPW3JC-OFFSUPPLIES"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Electronics"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/White"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.45 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17.1 x W 12.7 x H 3.1 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "27617"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "PC Accessory"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302335551552",
+  "Storefront": {
+    "StoreName": "jpurse83",
+    "StoreURL": "http://stores.ebay.com/id=169328829"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023355515528080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

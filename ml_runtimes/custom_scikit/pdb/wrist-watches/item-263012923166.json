@@ -1,0 +1,127 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Groton, Connecticut",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:20:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:20:03.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012923166",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Disney",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "400003061471",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Disney Parks Limited Edition 1971 Disney World Quartz Mickey Mouse Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Disney-Parks-Limited-Edition-1971-Disney-World-Quartz-Mickey-Mouse-Watch-/263012923166",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630129231668080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "06340",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H7M37S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/nl8AAOSwZKBZHJs6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/2ycAAOSw7GRZHJtQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/-3IAAOSwJH1ZHJtk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/SacAAOSw42JZHJuk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/SpYAAOSw42JZHJu2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/t9kAAOSwblZZHJui/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Limited Edition Mickey Mouse Walt Disney World 1971watch for men or women. With plastic case and slipcover.Purchased in 2011 during WDW 40th anniversary celebration.Still has the protective plastic covering the face. Never worn or even tried on. Top of plastic protective case is cracked. Cardboard slipcover is worn but watch is pristine. Free shipping. Please pay within 3 days of purchase. I ship most items USPS within 1 day of receiving payment, except on weekends. I try to be as accurate as possible in my descriptions, and I usually include lots of pictures,but please feel free to ask questions. I accept returns, but you have to pay return shipping. If I overlooked something please contact me before leaving negative feedback. If I don't know about it, I can't try to fix the problem. Smoke free and pet free home.Thanks for looking!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "882",
+    "UserID": "12bluecallas",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "Description": "Please contact me though eBay if there is a problem.  I want you to be satisfied with your item!",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P26DT15H27M19S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "GOOD CONDITION!",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162538425337",
+  "ConvertedCurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-02T05:51:52.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JEWELRY-lot-most-AVON-ring-SIZES-7-1-4-8-8-1-2-9-1-brooch-2-earrings-/162538425337",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T05:51:52.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MIXED LOT",
+        "Name": "Type"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "RINGS,CLIP EARRINGS, PIN",
+        "Name": "ITEMS"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "JEWELRY lot, most AVON, ring SIZES 7 1/4, 8, 8 1/2, 9, 1 brooch, 2 earrings",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Henderson, Nevada",
+  "Description": "These are older pieces of AVON jewelry and other pieces. 4 of the 7 pieces are clearly marked AVON! There are 4 rings, one pin and two pairs of clip earrings in this collection. One of the rings (size 8) and the pin match and are a set. One ring (size 7 1/4) is floral, another ring (size 8 1/2, adjustable) is abalone, another (size 9) is a beautiful set of amethyst gemstones. Another (size 8, adjustable) is part of a set with the pin. One of the clip earring pair is floral, the other clip pair are bells. This is a most interesting collection and would be PERFECT for the COLLECTOR of all things AVON! Buy from us! RETURN CUSTOMERS are welcome! Plus the small profit from what we make online goes into our funds for helping us keep doing what we do! Supports medical necessities for Type 1 DIABETES, arthritis, POST POLIO and more arthritis! PLEASE SEE OUR OTHER NEAT WELL PRICED ITEMS!Visit My eBay Store: Sue's Suite REMEMBER FREE SHIPPING! AND WE WILL COMBINE ITEMS IN ONE SHIPMENT! (PUT ALL YOUR PURCHASES IN THE SHOPPING CART) Normal 0 false false false EN-US X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625384253378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "UserID": "lvsue52",
+    "FeedbackScore": "2695",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "SuesSuite",
+    "StoreURL": "http://stores.ebay.com/id=3751661"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4MFgxNjAw/z/IQIAAOSwhvFZMPtN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU0M1gxNjAw/z/5mIAAOSwlndZMPtX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NjA=/z/eDoAAOSwi7RZMPtg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3M1gxNjAw/z/eTkAAOSw42JZMPtq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzOVgxNTUw/z/57YAAOSwlndZMPt4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM3NlgxNTUz/z/Yp8AAOSww9xZMPt~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzcwWDE2MDA=/z/4bUAAOSw-K9ZMPuI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA2WDE2MDA=/z/3zwAAOSwsXFZMPuQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODUwWDE2MDA=/z/nnMAAOSw8lpZMPuX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODM1WDE2MDA=/z/3OQAAOSw9OFZMPug/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "89074"
+}

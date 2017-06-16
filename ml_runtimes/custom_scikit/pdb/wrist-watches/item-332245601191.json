@@ -1,0 +1,159 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:30:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:30:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245601191",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DKNY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "NY8196",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "24-Hour Dial",
+          "Chronograph",
+          "Date Indicator",
+          "Gemmed",
+          "Luminous Hands",
+          "Mineral Crystal",
+          "Non-Numeric Hour Marks",
+          "Seconds Hand"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Silver",
+          "Mother of Pearl"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "NY8196",
+        "Name": "Model"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "DKNY NY8196 Women's Chronograph Mother of Pearl Silicone Stainless Steel Watch*",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DKNY-NY8196-Womens-Chronograph-Mother-Pearl-Silicone-Stainless-Steel-Watch-/332245601191",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322456011918080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H7M1S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTE1WDU4NA==/z/dooAAOSwTM5Y2yL1/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand Name: DKNY Box not included Model number: NY8196 Dial: Mother of pearl, silver luminous hands, silver hour markers Features: Chronograph, sub-dials for minutes hand, chronograph/seconds hand and 24 hour, analog date display Case: Stainless steel, crystallized bezel Band: White rubber Clasp: Solid steel buckle Water Resistant: 50 meter / 165 feet / 5 ATM Case dimension: 39 mm (3.9 cm) Watch measurement: 10 inches (25.5 cm) Band Width: 20 mm (2 cm) MSRP: $175.00",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

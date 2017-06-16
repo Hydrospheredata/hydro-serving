@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Alexandria, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T06:45:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:45:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": "RU",
+  "ItemID": "252966536248",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "GMT",
+        "Name": "Features"
+      },
+      {
+        "Value": "45mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Big Crown ProPilot GMT Small Seconds 45mm Mens Watch",
+  "ConditionDescription": "Mint condition. Only worn a few times.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Big-Crown-ProPilot-GMT-Small-Seconds-45mm-Mens-Watch-/252966536248",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529665362488080_1.jpg",
+  "HitCount": "28",
+  "PostalCode": "22304",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H11M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/E1AAAOSw8HBZFzrZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/2RMAAOSwY3BZFzrk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTg1/z/2kUAAOSwaEhZFzrv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/RvIAAOSwAPVZFzr9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/y08AAOSwq1JZFzsH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/35IAAOSwPh5ZFzsZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTkx/z/WaoAAOSwcaFZFzsn/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Big Crown ProPilot GMT Small Seconds 45mm Mens Watch: Stainless steel caseCoin edge pattern on the bezel inspired by a jet engineBlack dialLuminous Arabic numerals & index hour markersLuminous hour and minute handDisplays the date between the 3 o'clock positionSmall seconds sub-dial at the 9 o'clock positionGMT centre hand with yellow arrow pointing to 24 hour track on outer dialOris 748 base SW 220-1 with red rotor, beats at 28,800 vph, contains 28 Jewels & has an approximate power reserve of 38 hours.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "carpediem215",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

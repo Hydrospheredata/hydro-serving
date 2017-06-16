@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "Description": "Genuine returns accepted for any item without argument. Buyer pays return shipping fees. On receipt a full refund will be given for the original purchase price only less a handling fee. For damaged on arrival goods please let us know immediately with photos of the item and packaging. Damage caused by incorrect mail handling may not be eligible.\nOn returned packages, please clearly mark the package as a return with a value less than $15. Any import charges incurred will be taken from the original purchase price if you have not correctly labelled the package. \nIn the rare event of damaged goods, please contact us immediately as we may come to a compromise agreement. Please do not leave negative feedback without first contacting us. Thank you",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "162541657163",
+  "TimeLeft": "P6DT7H23M19S",
+  "ListingStatus": "Active",
+  "Title": "(1) antique vintage Czech intaglio floral bouquet paperweight glass pin brooch",
+  "ConditionDescription": "Excellent vintage condition",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "C253-78",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T20:13:36.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "CZ",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T20:13:36.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "vintage",
+        "Name": "Age"
+      },
+      {
+        "Value": "Multi-Tone Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1-antique-vintage-Czech-intaglio-floral-bouquet-paperweight-glass-pin-brooch-/162541657163",
+  "ExcludeShipToLocation": [
+    "AL",
+    "CZ",
+    "NI"
+  ],
+  "Location": "Prague",
+  "Description": "Pictures sell! Auctiva Free Image Hosting.Show off your items with Auctiva's Listing Templates Auctiva, THE simple solution for eBay sellers.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625416571638080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "cityofjewelry",
+    "FeedbackScore": "4756",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "City of Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1195297574"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/UCMAAOSw5UZY-Ust/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxM1gxMDEz/z/U04AAOSwtZJY-Ust/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/SvoAAOSw7U5Y-Ust/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches"
+}

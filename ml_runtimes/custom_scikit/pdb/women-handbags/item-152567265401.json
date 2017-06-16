@@ -1,0 +1,162 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxN1gxNjAw/z/1~EAAOSwT-FZCmxZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Baby-Bag-Diaper-Tote-Poppy-Fields-Suzani-NWT-/152567265401?var=",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley - Baby Diaper Bag Tote - Poppy Fields or Suzani - NWT Your choice of Poppy Fields or Suzani What a cute way to care for your little one! The front has a magnetic flap with 3 slip - ins and an attached key clip underneath. The rear has 1 full length zippered pocket. There are 2 slip-in end pockets for holding bottles. The interior has 5 slip-in pockets. Included is a 26\" x 14\" terry cloth lined changing pad and a removable base for ease of laundering. The bag measures approximately 16\" L x 11-3/4\" H x 5-1/2\" D It has a 12\" strap drop. It is 100% cotton. Machine wash on cool, gentle cycle. Do not bleach. Line dry. It is New with Tags. All my Vera Bradley items are authentic and purchased from an authorized Vera Bradley dealer. I am in no way affiliated with Vera Bradley. Thanks for looking! U.S. Bidders Only Please.",
+  "Title": "Vera Bradley Baby Bag Diaper Tote Poppy Fields or Suzani NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Cedar Rapids, Iowa",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2589",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "a*river*runs*through*it"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "52403",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Poppy Fields",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxNTc0/z/dQMAAOSwt0FZCmzC/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMzQ4/z/UT0AAOSw-3FZCmzH/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Suzani",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bREAAOSwdjNZCmzU/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EC4AAOSwCQZZCmzY/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Material"
+    },
+    "Variation": [
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "85.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Material",
+            "Value": "Poppy Fields"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "85.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Material",
+            "Value": "Suzani"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Material",
+        "Value": [
+          "Poppy Fields",
+          "Suzani"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-05-31T00:08:36.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P27DT8H48M27S",
+  "EndTime": "2017-06-30T00:08:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Type",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152567265401",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Returns accepted only if item is misrepresented.  All items should be returned with tracking information provided by the buyer. Please return all items in original, unused condition with all original packaging. Thank you.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

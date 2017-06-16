@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H25M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132216479292",
+  "ConvertedCurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:45:19.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chicos-Madge-Bib-Necklace-NWT-/132216479292",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T10:45:19.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chico's",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Chico's Madge Bib Necklace NWT",
+  "ExcludeShipToLocation": "Africa",
+  "Location": "Vero Beach, Florida",
+  "Description": "This Madge Bib Necklace is a beautiful piece that can add to any outfit! This is a magnificient piece and can make the perfect gift for any occasion! This jewelry piece is a limited item and we are happy to combine this with any other piece. We will ship quickly and are happy to answer any questions!",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322164792928080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "femmefatale",
+    "FeedbackScore": "7885",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Ferguson Productions",
+    "StoreURL": "http://stores.ebay.com/id=204111"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMTUz/z/S0EAAOSw4DJYkg2q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxNDg1/z/JK0AAOSw-0xYkg2y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjg2/z/EIwAAOSw241Ykg26/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "32968"
+}

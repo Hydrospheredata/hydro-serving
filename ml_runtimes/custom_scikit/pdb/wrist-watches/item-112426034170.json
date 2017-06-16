@@ -1,0 +1,146 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "1300.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "1000.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124260341708080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T12:28:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "1000.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:28:57.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "This is a beautiful mens/unisex casual watch that can also be worn as a dress watch. The back has a second scratch resistant crystal allowing for the viewing of the internal movement. New with tags still on! I bought this for my husband, not realizing it's a mechanical (hand winding) watch and he wanted an automatic watch.",
+  "BuyItNowPrice": {
+    "value": "1300.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426034170",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NOMOS Glash\u00fctte",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sapphire Crystal",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "Light Brown Velour Leather",
+          "light Brown"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "32.5mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "322",
+        "Name": "Model"
+      },
+      {
+        "Value": "30 Meters / 100 Feet",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Nomos Orion 33 White Dial Stainless Steel Mens/Unixex Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nomos-Orion-33-White-Dial-Stainless-Steel-Mens-Unixex-Watch-/112426034170",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "8",
+  "PostalCode": "35223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Birmingham, Alabama",
+  "TimeLeft": "P6DT21H12M23S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQwNVgxMDE5/z/cIMAAOSw5cRZLrVI/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/me8AAOSw1WJZLrVN/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQyOFgxMDQy/z/VPsAAOSw-K9ZLrVR/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNDA1/z/dasAAOSw32lYwBvB/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU0WDE0MjM=/z/ApQAAOSw4A5YwBuS/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU2WDEzMzU=/z/eAkAAOSw32lYwBvU/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/440AAOSw4A5YwBqo/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WawAAOSw~AVYwBvh/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "1000.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "87",
+    "UserID": "paulineamc",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT9H29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "361966885131",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-DECO-WHITE-BLACK-bracelet-/361966885131",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-20T00:08:23.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T00:08:23.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE DECO WHITE & BLACK bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "THIS SIGNED BANGLE IS SILVER TONE FINISH WITH BLACK ENAMEL AND LARGE WHITE STONE.. MEASURES 1 3/4 INCH WIDE AND HAS A HINGED. BANGLE IS IN PERFECT CONDITION. BUYER PAYS 5.00 S/I USA ONLY On Dec-14-02 at 05:16:03 PST, seller added the following information: Pay me securely with any major credit card through PayPal! On Jul-05-09 at 06:49:37 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619668851318080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "almongillo",
+    "FeedbackScore": "32841",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "almongillo",
+    "StoreURL": "http://stores.ebay.com/id=342251"
+  },
+  "Quantity": "2",
+  "Location": "Danbury, Connecticut",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4MFgxMTA3/z/Yg0AAOSwEetV8ao-/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06813"
+}

@@ -1,0 +1,169 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.57"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This Hanging Pocket Watch under our private brand \"SEWOR\" is a great choice for a birthday, Christmas, working gift. The pocket watch with a exquisite dial and read the time easily at anytime when working.Use this pocket watch,it can let you to clean your hands quickly.The best choice for working more convenient. - Japan Quartz Movement Hanging Pocket Watch For Man or Women. - Sliver and Gold Case. Silky Metal, No Fade, Safe For Useing. - Package Include 2 Pcs Different Color watch and SEWOR Brand Leather Gift Box - Whole Dial Diameter:3cm,Thickness:0.6cm,Overall Length:8.5cm - This Pocket Watch under our private brand \"SEWOR\" is a great choice for a birthday, Christmas, working gift.Each watch is with a elegant gift box. The pocket watch with a exquisite dial and read the time easily at anytime when working. We also have products such as watches, pocket watches, pendant watch and cufflink. For More \"SEWOR\" brand products, you can use \"SEWOR\" keyword search in our store. If any question,please feel free to contact us. SEWOR Unisex Medical staff Hanging Pocket Watch Gold & Sliver 2pcs With Brand",
+  "StartTime": "2017-05-25T15:33:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc1/z/1yEAAOSw-K9ZJvkw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc1/z/i0cAAOSwGJlZJvkx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7XEAAOSwfpVZJvkx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7XAAAOSwfpVZJvkx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/c5YAAOSwKytZJvkx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/X08AAOSw8lpZJvkx/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "701142329720",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0701142329720",
+        "Name": "EAN"
+      },
+      {
+        "Value": "SEWOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "C175",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.4 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.9 x W 3.7 x H 1.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "greysharky",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16122",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726946096398080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T15:33:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.57"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SEWOR Unisex Medical staff Hanging Pocket Watch Gold & Sliver 2pcs With Brand",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEWOR-Unisex-Medical-staff-Hanging-Pocket-Watch-Gold-Sliver-2pcs-Brand-/172694609639",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "ItemID": "172694609639",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H56M29S"
+}

@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "Description": "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT21H6M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122533570845",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Indian-Bollywood-Traditional-Kundan-Gold-Plated-Party-Wear-Earrnigs-/122533570845",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:46:35.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T07:46:35.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Punjabi Traditional Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Traditional Party Wear",
+        "Name": "Style"
+      },
+      {
+        "Value": "Indian Punjabi",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Kundan",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pearl (Imitation)",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Screw Back (pierced)",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "Lab-Created/Cultured",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Excelent",
+        "Name": "Main Stone Treatment"
+      }
+    ]
+  },
+  "Title": "Indian Bollywood Traditional Kundan Gold Plated Party Wear Earrnigs",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Punjabi Traditional Jewellery",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225335708458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "punjabitraditionaljewellery",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "PATIALA, PUNJAB",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/uYoAAOSwhvFZNQNU/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "147001"
+}

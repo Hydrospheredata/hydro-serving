@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/pmYAAOSwuLZYzrXO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/p-UAAOSwuLZYzrXY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/bf4AAOSwTM5YzrXa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/4FIAAOSw4CFYzrXo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6jAAAOSwCU1YzrXr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/uhMAAOSw4A5YzrXt/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-handbags-MPRP-355-/112428632819",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new",
+  "Title": "Kate Spade handbags MPRP $ 355",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Round Rock, Texas",
+  "Seller": {
+    "FeedbackScore": "26",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "hannguye_4"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78665",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T08:57:11.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT18H26M1S",
+  "EndTime": "2017-07-02T08:57:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7.5\""
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428632819",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124286328198080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

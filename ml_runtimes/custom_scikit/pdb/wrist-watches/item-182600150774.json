@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Boynton Beach, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:19:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1187214304",
+    "StoreName": "D and E A to Z"
+  },
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:19:45.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600150774",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Women's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Concepts Women's Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Concepts-Womens-Watch-/182600150774",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826001507748080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "33472",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H7M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU1NVg4NjQ=/z/r18AAOSwLVZVz70l/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4N1g4NjQ=/z/-1oAAOSw3ydVz704/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NVg4NjQ=/z/1xAAAOSwPcVVz71L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4OVg4NjQ=/z/W60AAOSw9N1Vz71W/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxN1g4NjQ=/z/GFIAAOSw~gRVz71h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3MVg4NjQ=/z/cisAAOSwT6pVz71t/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Decent condition. Watch is not working but probably just needs a new battery. Needs cleaning.Glass has some scratches. Front reads Concepts quartz. Back reads Concepts, cn28188tj , concepts in time n.y. , stainless steel back, Japan movt, battery #v377, base metal bezel.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "643",
+    "UserID": "mustangford2008",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

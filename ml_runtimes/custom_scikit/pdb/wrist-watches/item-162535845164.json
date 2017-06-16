@@ -1,0 +1,129 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "180.05",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bath",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:54:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:54:23.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe"
+  ],
+  "SKU": "25077.29",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535845164",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Mother of Pearl",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Rodania Swiss",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2507729",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SAVE OVER 50%! CLOSING DOWN! Rodania Swiss Chic Ladies TYARA Watch RRP \u00a3300",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAVE-OVER-50-CLOSING-DOWN-Rodania-Swiss-Chic-Ladies-TYARA-Watch-RRP-300-/162535845164",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625358451648080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "BA2 1PL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H32M53S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/HcAAAOSw5cNYGbuy/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Rodania Swiss Chic Ladies TYARA Watch - James Samson Rodania Swiss Chic Ladies TYARA Watch Act Fast! Less than 50 products left in our Closing Down Sale! View the complete range. From Rodania Swiss' iconic Chic collection, the Tyara ladies chronograph has a minimalist look and is a timepiece that any woman would love to own. Comes With: 2 year Rodania guarantee, Manual and Rodania presentation box RRP \u00a3300 Features: - Model: 25077.29 - Movement: Ronda 762 Swiss Quartz - Case width: 36 mm - Case depth: 7 mm - Case Material: Stainless Steel - Case Colour: Silver - Strap type: Leather - Strap colour: Blue - Clasp type: Buckle - Dial Colour: Mother of Pearl - Hands: Silver - Water resistant: 30 metres About James Samson Based in Bath, James Samson offers a range of Jewellery, Watches, Gifts and Clocks, from over 20 small independent brands. In addition to a small product selection on eBay, our main online store includes brands such as Maserati Time, NONA jewels, Michel Herbelin Watches and more. Payment We only accept payment by PayPal. Postage 95% of orders placed Monday to Friday are dispatched the same day. We offer 3 different postage options and all require a signature: Standard: Free. 3-5 working day tracked courier. Next day: \u00a37 charge. Order by 12pm and receive your order the next day. 48 Hour: \u00a34.50 charge. Order by 12pm and receive your order in 2-3 working. Returns Unsuitable items can be returned up to 14 days after purchased. To return items please email us first. On receipt of items, we will pay any refund(s) due. We regret that we cannot be held responsible for non-delivery of returned goods. Customer Care James Samson cares about you, our customer. We want you to get the item you paid for in a timely manner, receive great service and be satisfied with your purchase. Should you have a question; we are just an email (info@jamessamson.co.uk) or a call (01225 478961) away. We aim to respond to emails within 24 hours. W: www.jamessamson.co.uk | E: info@jamessamson.co.uk | T: 01225 478961",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "63",
+    "UserID": "jamessamsonuk",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yvUAAOSw9eVXUvFZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTI4/z/3MgAAOSwMNxXUvF0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwMlgxNjAw/z/-F0AAOSwmtJXUvGU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTk=/z/tzcAAOSwepJXUvG2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P1kAAOSwOVpXUvHx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM0NFgxNjAw/z/SxsAAOSwLnBXUvHZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Petunia-Pickle-Bottom-Diaper-Bag-/322504112583",
+  "ConvertedCurrentPrice": {
+    "value": "58.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This listing is for a Petunia Pickle Bottom Diaper Bag! I don't know the name of the style, but it has beautiful gold dragons with Brown and pink floral scrolls. This diaper bag does not come with the back pack straps, or wipes case. You may be able to take the shoulder strap and connect it to be backpack straps. The shoulder strap is removable. The condition is pre-owned but still looks great! Please no International Bidders. I ship in the U.S only. Thank you",
+  "Title": "Petunia Pickle Bottom Diaper Bag",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "58.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Thousand Oaks, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1362",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "islandfish7"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91360",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-03T23:45:08.000Z",
+  "HitCount": "33",
+  "TimeLeft": "PT8H17M29S",
+  "EndTime": "2017-06-02T23:45:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Embroidered Satin"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack/ Shoulder"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Petunia Pickle Bottom"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322504112583",
+  "Storefront": {
+    "StoreName": "islandfish7",
+    "StoreURL": "http://stores.ebay.com/id=889396944"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225041125838080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

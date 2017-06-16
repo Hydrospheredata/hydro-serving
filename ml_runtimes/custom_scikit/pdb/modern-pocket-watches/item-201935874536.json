@@ -1,0 +1,102 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia"
+  ],
+  "QuantitySold": "0",
+  "Title": "Retro Pocket Watch in Black Silver Ornate W/Pop Open Top",
+  "PostalCode": "55016",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Very pretty piece with chain and clip for belt Has a clear circle seal on front of quarts glass. see photos Needs new battery. May have minor wear and tear from storage.",
+  "StartTime": "2017-05-25T16:47:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Xd4AAOSw-3FZJwnY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/i-4AAOSwuMZZJwnb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U6cAAOSwcB5ZJwnf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5ZEAAOSwZ4dZJwni/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~FoAAOSwR29ZJwnl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~JEAAOSwR29ZJwnp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VgEAAOSwAPVZJwns/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FwIAAOSwaeRZJwnv/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "smbkopp1964",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "203",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019358745368080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemID": "201935874536",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-01T16:47:10.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Pocket-Watch-Black-Silver-Ornate-W-Pop-Open-Top-/201935874536",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BuyItNowAvailable": "true",
+  "Location": "Cottage Grove, Minnesota",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT22H10M35S"
+}

@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921441248638080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyN1gxNTAw/z/JqQAAOSwuxFY3S9n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NDc=/z/D7cAAOSwDmBY3S9n/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Real-Leather-A4-Document-Folder-Folio-Conference-Zip-Folder-Tablet-Case-CRUISE-B-/192144124863",
+  "ConvertedCurrentPrice": {
+    "value": "144.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: The leather folio perfect for all types of use, from a documents holder to a sleeve for your tablet, this leather document folio made from luxurious milled cow leather giving it an exquisite look and feel. There is one front zip pocket, zip around opening, inside you will find another zip pocket trimmed in leather and a dedicated pocket for a tablet (tablet pocket measures width - 27cm, depth - 19cm). Measurements of folio - 37x26x2 cm",
+  "Title": "Real Leather A4 Document Folder Folio Conference Zip Folder Tablet Case CRUISE B",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "144.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T16:16:33.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P25DT23H58M41S",
+  "EndTime": "2017-06-28T16:16:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5055982590969"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5055982590969"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "House Of Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144124863",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:100610250:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

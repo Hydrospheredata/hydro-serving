@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/mfsAAOSwQYZWzkka/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/LRwAAOSwWTRWzkka/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/cUQAAOSwB4NWzkka/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/-x4AAOSwFNZWzkka/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/38sAAOSwKtVWzkka/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/OGAAAOSwezVWzkka/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Oilily-Tropical-Office-Bag-Gold-/262710681795",
+  "ConvertedCurrentPrice": {
+    "value": "198.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Oilily Tropical Office Bag, Gold Description: -Material: Printed Polyester combined with pu leather trim -Light brass hardware -Oilily rubber logos and puller -Color: Gold -Lined in an Oilily printed fabric -Wide compartment for office folders -A padded laptop protection -Multiorganizers -Dimension: Width 40 cm, height 30 cm, depth 10 cm Care Tips -Spot Clean",
+  "Title": "New Oilily Tropical Office Bag, Gold",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "198.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Corona, California",
+  "Seller": {
+    "FeedbackScore": "660",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkydarky"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92881",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2016-11-08T15:41:32.000Z",
+  "HitCount": "145",
+  "TimeLeft": "P4DT28M21S",
+  "EndTime": "2017-06-06T15:41:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Oilily"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gold"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester and Polyurethane"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Netherlands"
+      },
+      {
+        "Name": "UPC",
+        "Value": "8714457176066"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262710681795",
+  "Storefront": {
+    "StoreName": "pinkydarky",
+    "StoreURL": "http://stores.ebay.com/id=1056231547"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2627106817958080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

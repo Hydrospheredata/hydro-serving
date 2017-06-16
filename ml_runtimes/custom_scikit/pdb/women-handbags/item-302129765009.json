@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY1WDUwMA==/z/~FQAAOSw5cNYHZEd/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NzQ5WDUwMA==/z/AhUAAOSwMVdYHZEf/$_12.JPG",
+    "http://i.ebayimg.com/00/s/MTAzOVg1MDA=/z/wqkAAOSw44BYHZEh/$_12.JPG",
+    "http://i.ebayimg.com/00/s/OTMxWDUwMA==/z/Q58AAOSw4GVYHZEi/$_12.JPG",
+    "http://i.ebayimg.com/00/s/OTk2WDUwMA==/z/g4QAAOSwKOJYHZEk/$_12.JPG",
+    "http://i.ebayimg.com/00/s/Njc0WDUwMA==/z/2jEAAOSwcLxYHZEm/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDcyMw==/z/r1EAAOSwB09YHZEn/$_12.JPG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nicole-Lee-Fiona-Rolling-Business-Tote-Lauren-One-Size-/302129765009",
+  "ConvertedCurrentPrice": {
+    "value": "120.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Nicole Lee Fiona Rolling Business Tote, Lauren, One Size 100% Faux LeatherImportedNylon lining liningzipper closure16\" high18\" wideRetractable handle extends up to 24 inches from the body.16 inch padded laptop compartmentWheeledDual top handlesLarge storage space Sophisticated and stylish rolling business tote sets the tone for every trip you take. Exterior features: Nicole lee print on faux leather handles and trim, 2 front buckle embellishments, top zipper closure, back zip wall compartment for retractable handle, back wheels for easy rolling and Nicole lee nameplate in front. Interior features: large storage space, zip wall pocket with metal Nicole lee nameplate in front compartment, padded laptop compartment with Velcro strap and giraffe print with NL logo satin lining. Dual top handles with 4 inch drop. Retractable handle extends up to 24 inches from the body.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple Locations",
+  "Seller": {
+    "FeedbackScore": "3885",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Red",
+    "UserID": "bb_shop49"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Nicole Lee Fiona Rolling Business Tote, Lauren, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-11-05T07:58:33.000Z",
+  "HitCount": "371",
+  "TimeLeft": "PT16H45M32S",
+  "EndTime": "2017-06-03T07:58:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Nicole Lee"
+      },
+      {
+        "Name": "MPN",
+        "Value": "RT1500-LRN"
+      },
+      {
+        "Name": "Model",
+        "Value": "RT1500-LRN"
+      },
+      {
+        "Name": "UPC",
+        "Value": "847161052901"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0847161052901"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302129765009",
+  "Storefront": {
+    "StoreName": "bb_shop49",
+    "StoreURL": "http://stores.ebay.com/id=1339785930"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3021297650098080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

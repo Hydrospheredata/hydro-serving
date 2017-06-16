@@ -1,0 +1,82 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8870.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Japan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:35:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1164248126",
+    "StoreName": "kyoto-japan_shop"
+  },
+  "CurrentPrice": {
+    "value": "8870.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:35:45.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ZENITH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "A385",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "JP",
+  "ItemID": "182599871763",
+  "HandlingTime": "5",
+  "Description": "Description Item Details \u3010Genre\u3011 Watch / watch Men's Watch \u3010Brand\u3011 Zenith / ZENITH \u3010Product Name\u3011 El Primero Chronograph \u3010Model\u3011 A385 (SP1301) \u3010Serial\u3011 **** 670 \u3010Material\u3011 SS \u3010Dial\u3011 Brown Dial [ Bezel\u3011 SS \u3010Belt\u3011 SS \u3010Movement\u3011 Automatic winding \u3010rank\u3011 Q \u3010State\u3011 ? Small scratches, injuries, fine bruises can be confirmed ? Glass has thin scratches but one with large visibility It is not Payment We only accept PayPal payments. Please pay within 5 days after auction is finished. Shipping Free Shipping Worldwide!! Shipping Duration Shipping Method Asia North America Central America Middle East AU, NZ Europe Russia South America Africa EMS 3 - 6 days 4 - 6 days 3 - 5 days 4 - 6 days Traceable & Insurance by Japan Post Terms of Sale Money back guarantee within 14 days if returned by customer. About Us Ordering More than 1 item?? We can Combine your Shipping, and Save your Money!! If you can't find the items you're looking for in our store, please feel free to contact us!! We will confirm if the item is in stock and we will let you know as soon as possible. I am looking forward to do business with you!! Thank you for your visiting our store!! International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Zenith-El-Primero-Watch-Chronograph-A385-Brown-Used-Rare-/182599871763",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825998717638080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H9M52S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/5jMAAOSw53NY-cdE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/J94AAOSwzqFY-cRl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/tCoAAOSwvihY-cRn/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Zenith El Primero Watch Chronograph A385 Brown Used Rare",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "318",
+    "UserID": "kyoto-japan_shop",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

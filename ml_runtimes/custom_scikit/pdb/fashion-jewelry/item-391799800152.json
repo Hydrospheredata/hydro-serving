@@ -1,0 +1,136 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P1DT4H26M34S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "391799800152",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14k-Solid-White-Gold-Toe-Ring-5-CZ-stones-/391799800152",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T18:04:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-06T18:04:29.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ritastephens",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "14k Solid White Gold Toe Ring With 5 CZ stones",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a 14k Solid White Gold Toe Ring. This ring has 5 CZ stones. Free shipping and handling within the U.S. only. Payment is expected within 3 days from close of auction. \"I accept forms of payment, including paypal. If you have any questions, please contact me\" Thank you.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3917998001528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "tpd930",
+    "FeedbackScore": "5244",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Quantity": "1",
+  "Location": "Shirley, New York",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDY1WDY0MA==/z/zz0AAOSwJH1ZLbN-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTA5WDY0MA==/z/U5sAAOSw8lpZLbOD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/qe4AAOSwYvFZLbOI/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "11967"
+}

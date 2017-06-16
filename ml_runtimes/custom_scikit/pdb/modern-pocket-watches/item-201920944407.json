@@ -1,0 +1,118 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "T4N 0L9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "SEIKO Hand-Winding Pocket Watch 6110A 21J 1960s. Watch is in excellent condition, keeps good time. Sorry NO ZERO FEEDBACK BUYERS * We do not give any price adjustments, our guarantee policy is to return the item for repair or refund (no refund for shipping charges). As per E-Bay's policy, The buyer is responsible for return postage * Canadians Pay GST or HST Tax",
+  "StartTime": "2017-05-10T15:57:58.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc2/z/1RsAAOSwB-1Y61vG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUxN1gxNjAw/z/wJAAAOSwAANY61u3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg4WDE2MDA=/z/oYoAAOSwmgJY61vM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk4WDE2MDA=/z/onYAAOSwmgJY61vS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjkyWDE2MDA=/z/Y6oAAOSw03lY61vW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxOVgxNjAw/z/owQAAOSwhQhY61vA/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "180.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "21 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "6110a",
+        "Name": "Model"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "iwc",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1996",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "72",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019209444078080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-09T15:57:58.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "180.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEIKO-Hand-Winding-Pocket-Watch-6110A-21J-1960s-/201920944407",
+  "Location": "Red Deer, Alberta",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SEIKO Hand-Winding Pocket Watch 6110A 21J 1960s",
+  "Storefront": {
+    "StoreName": "iwc",
+    "StoreURL": "http://stores.ebay.com/id=168714"
+  },
+  "ItemID": "201920944407",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT21H15M22S"
+}

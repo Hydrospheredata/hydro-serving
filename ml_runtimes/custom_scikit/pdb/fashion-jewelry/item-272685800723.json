@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P18DT7H52M41S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "47.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272685800723",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Kate-Spade-New-York-Gold-Pink-Live-Colorfully-Bangle-Drawstring-Bag-/272685800723",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "47.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-24T22:56:18.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T22:56:18.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kate Spade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold & Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT Kate Spade New York Gold & Pink Live Colorfully Bangle with Drawstring Bag",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWT Kate Spade New York Gold & Pink Live Colorfully Bangle with Drawstring Bag. The Drawstring Bag is Black in Color with Kate Spade Logo in Gold in front. The Drawstring is Pink in color. Very Cute!Please don't hesitate to contact me if you have any questions. Thanks for stopping by! Cheers!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726858007238080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ava.beauty.deals",
+    "FeedbackScore": "2030",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "ava.beauty.deals",
+    "StoreURL": "http://stores.ebay.com/id=1080723725"
+  },
+  "Quantity": "2",
+  "Location": "Parsippany, New Jersey",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DWEAAOSwe-FU97~G/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vtYAAOSwqu9U97~J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kf8AAOSwNSxU97~M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~~oAAOSwstxU97~O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Dj0AAOSwe-FU97~R/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/By8AAOSwrklU97~U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/h-sAAOSwpDdU97~W/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iBAAAOSwpDdU97~Y/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "07054"
+}

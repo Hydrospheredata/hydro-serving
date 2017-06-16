@@ -1,0 +1,125 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "BS",
+    "PR",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "86.41"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! SINGLE ACTION MECHANICAL STOPWATCH 0 to 30 minutes (30 minute register) 1/5 second and 1/100 minute divisions start, stops, and returns to zero by consecutive crown depressions. Rugged 15 jewel lever movement. Anti-magnetic and shock protected. Case is nickel - chrome plated. This stop watch is great for industrial timing as the dial allows the user to record in 1/5 second intervals or 1/100 minute intervals. 30 minute register of 1 minute division value 1/5 second and 1/100 minute divisions (2 scales) Starts, stops, and returns to zero by consecutive crown depressions Rugged 15 jewel lever movement Anti-magnetic and shock protected Case is nickel - chrome plated - EASY TO USE- One button function- starts, stops and returns to zero by consecutive crown depressions. - JEWEL- Rugged 15 jewel lever movement. - DURABLE- Dust, water, shock and corrosion resistant. - Anti-magnetic and shock protected - Gift box included. Made and manufactured in Switzerland MARATHON ST211003 Stopwatch Single Action Mechanical Windup Analog Stop Watch",
+  "StartTime": "2017-04-02T22:32:30.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/aEMAAOSwCU1Y4XwB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MEcAAOSwol5Y4XwB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/SwUAAOSw4CFY4XwB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Ce8AAOSwDmBY4XwB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CgIAAOSwDmBY4XwB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sKIAAOSw3utY4XwB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Sw0AAOSw4CFY4XwB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "063442900017",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0063442900017",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Marathon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "ST211003",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Misc.",
+        "Name": "Binding"
+      },
+      {
+        "Value": "unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 9 x W 6.3 x H 1.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "MARATHON",
+        "Name": "Label"
+      },
+      {
+        "Value": "Watch",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dvi-dan",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6780",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "36",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824191356728080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T22:32:30.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "86.41"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MARATHON ST211003 Stopwatch Single Action Mechanical Windup Analog Stop Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARATHON-ST211003-Stopwatch-Single-Action-Mechanical-Windup-Analog-Stop-Watch-/282419135672",
+  "Storefront": {
+    "StoreName": "DD Shopping Gallery",
+    "StoreURL": "http://stores.ebay.com/id=1296531405"
+  },
+  "ItemID": "282419135672",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT3H44M5S"
+}

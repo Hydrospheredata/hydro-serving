@@ -1,0 +1,100 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "94619",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Item is brand new, never used. Comes with new battery in original box as seen in photos. Free Shipping on this item! The Angler II Ana Digi is an aluminum clip watch with multiple integrated tools and dimensional day/date dial. Perfect for on the go and everywhere in between! Plus it looks great! Get your Angler II today!\u2022 100 Feet Water Resistant\u2022 Day / Date Calendar Display\u2022 Solid Aluminum High Precision Molded Case with Plastic Carabiner Arm\u2022 Ultra Bright Red L.E.D. Microlight\u2022 Celsius / Fahrenheit Thermometer\u2022 Compass\u2022 Hook Sharpener\u2022 Stainless Steel Nippers\u2022 Luminescent Hands and Hour Markers\u2022 Japan Quartz Movement",
+  "StartTime": "2017-04-23T23:14:35.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UdMAAOSwuspY~TSX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oRgAAOSwJ4hY~TSx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4uwAAOSwvKtY~TTP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jC8AAOSwBOtY~TTk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iscAAOSw53NY~TT6/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "72.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Dakota Watch Co",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SSI-4010433",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "swapshopoak",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "222",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "37",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323116658688080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T23:14:35.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "72.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dakota-Angler-II-Day-Date-Clip-Watch-Silver-/232311665868",
+  "Location": "Oakland, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Dakota Angler II Day/Date Clip Watch - Silver",
+  "Storefront": {
+    "StoreName": "swapshopoak",
+    "StoreURL": "http://stores.ebay.com/id=547487356"
+  },
+  "ItemID": "232311665868",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT4H28M25S"
+}

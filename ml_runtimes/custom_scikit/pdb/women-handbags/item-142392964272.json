@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/d3wAAOSwurZZJbkT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/PFIAAOSw~y9ZJbkT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Hp8AAOSwH09ZJbkT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9FoAAOSws5pZJbkT/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-Weekender-Duffle-Travel-Bag-Pink-Bling-Sequin-Stripes-/142392964272",
+  "ConvertedCurrentPrice": {
+    "value": "51.37",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victorias Secret Weekender Duffle Travel Bag (Pink Bling Sequin Stripes) Features VS OriginalShoulder BagWeekenderTravel BagCanvas Back & Sequin Front Product Dimensions: 3.0 x 19.0 x 12.0 inches Weight: 1.0 lbs Shipping Most orders are shipped within one business day with standard shipping and tracking number. Tracking information will be automatically uploaded as soon as the item has been shipped. Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses. We do not ship to AK, HI, PO boxes, or APO addresses. Returns You may return most new, unopened items within 30 days of delivery for a full refund. Other returns may incur a 15% restocking fee. Sales Tax We have order fulfillment centers throughout the US. We are required to charge sales tax in the following states:",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.37",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Multiple Locations, USA",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "983718",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "GreenShooting",
+    "UserID": "xa-electronics"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Victoria's Secret Weekender Duffle Travel Bag (Pink Bling Sequin Stripes)",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-24T16:47:16.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423929642728080_1.jpg",
+  "TimeLeft": "P21DT9M4S",
+  "EndTime": "2017-06-23T16:47:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "LYSB018LLF3KQ-OFFSUPPLIES"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "UPC",
+        "Value": "667537274009"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0667537274009"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142392964272",
+  "PrimaryCategoryID": "169296",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "xA Enterprises",
+    "StoreURL": "http://stores.ebay.com/id=1093847129"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%",
+    "RestockingFeeValueOption": "Percent_15",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "304910",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

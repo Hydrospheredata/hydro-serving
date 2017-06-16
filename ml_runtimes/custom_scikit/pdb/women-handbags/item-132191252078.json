@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/mZ8AAOSwgQ9Vkhn-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Melanie-Dizon-Briefcase-Laptop-Bag-Leather-Brown-/132191252078",
+  "ConvertedCurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Title": "Melanie Dizon Briefcase Laptop Bag Leather Brown",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "1082",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "berenicevandaath"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU",
+    "NZ"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33131",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T21:40:06.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P10DT6H36M32S",
+  "EndTime": "2017-06-12T21:40:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Melanie Dizon"
+      },
+      {
+        "Name": "Color",
+        "Value": "Browns"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132191252078",
+  "Storefront": {
+    "StoreName": "berenice_vandaath",
+    "StoreURL": "http://stores.ebay.com/id=498925091"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321912520788080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

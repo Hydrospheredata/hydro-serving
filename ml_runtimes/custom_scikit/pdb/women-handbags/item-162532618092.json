@@ -1,0 +1,122 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/hL8AAOSwBt5ZK2Cc/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stuff-N-Pull-Scarf-Tote-/162532618092",
+  "ConvertedCurrentPrice": {
+    "value": "64.55",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Watch in delight as toddlers stuff colorful Rainbow Scarves into the soft-sided Wooden tote only to pull them out again. - Watch in delight as toddlers stuff colorful rainbow scarves into the soft-sided wooden tote only to pull them out again - Includes twelve 15-1/2 inch - Ages 6 mos. + Stuff N Pull Scarf Tote",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.55",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "15381",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "daniabodram"
+  },
+  "PrimaryCategoryID": "169302",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Stuff N Pull Scarf Tote",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-28T23:43:22.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P25DT6H21M23S",
+  "EndTime": "2017-06-27T23:43:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "649829195674"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0649829195674"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Constructive Playthings"
+      },
+      {
+        "Name": "MPN",
+        "Value": "CPX-166"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Misc."
+      },
+      {
+        "Name": "Weight",
+        "Value": "1 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 1 x W 1 x H 1 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "US Toy & Constuctive Playthings"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "BISS"
+      },
+      {
+        "Name": "ReleaseDate",
+        "Value": "2017-03-22"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162532618092",
+  "Storefront": {
+    "StoreName": "daniabodramSTORE",
+    "StoreURL": "http://stores.ebay.com/id=1379799717"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625326180928080_1.jpg",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

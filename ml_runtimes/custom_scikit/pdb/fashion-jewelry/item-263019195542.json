@@ -1,0 +1,164 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "55.99",
+    "_currencyID": "CAD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263019195542",
+  "PrimaryCategoryID": "50692",
+  "ListingStatus": "Active",
+  "Site": "Canada",
+  "PostalCode": "R0M0M0",
+  "ConvertedCurrentPrice": {
+    "value": "41.43",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Jewellery Sets",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedBuyItNowPrice": {
+    "value": "53.86",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630191955428080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "katlover1952",
+    "FeedbackScore": "2806",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Katlover s Treasures",
+    "StoreURL": "http://stores.ebay.com/id=78505785"
+  },
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "MX",
+    "PM",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IT",
+    "JE",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "UA",
+    "VA"
+  ],
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/C8EAAOSwPhdU26YW/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ukEAAOSwpDdU26YD/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/FysAAOSweW5U26YG/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM3WDEyMDA=/z/O0sAAOSw-yxU26YH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/XlkAAOSwstxU26YJ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg4NTI=/z/XqwAAOSwstxU26YM/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzIz/z/XwoAAOSwstxU26YP/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg5NDY=/z/GH8AAOSweW5U26YS/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/fZ0AAOSwBLlU26Ya/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/uysAAOSwqu9U26Yc/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY2WDEyMDA=/z/hAkAAOSwPYZU26Ye/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "TimeLeft": "P8DT16H32M",
+  "StartTime": "2017-06-04T04:39:31.000Z",
+  "ConditionDescription": "I have listed this set as pre-owned but it is in the original box with the earrings on the original card and am not sure they were ever worn. The white velvet display stand does have a couple of issues - it shows a few dirty marks which could possibly be sponged out and it is slightly warped but the box still closes fine. The jewelry is in mint condition.",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "CA",
+    "Europe",
+    "US",
+    "JP"
+  ],
+  "CurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "CAD"
+  },
+  "HitCount": "4",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "value": "72.79",
+    "_currencyID": "CAD"
+  },
+  "HandlingTime": "3",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fifth-Avenue-Butler-signed-silver-marcasite-necklace-earrings-RRP-149-99-/263019195542",
+  "EndTime": "2017-06-14T04:39:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fifth Avenue Jewelry Company Butler",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Fifth Avenue Butler signed silver & marcasite necklace & earrings RRP $149.99",
+  "Location": "Manitoba",
+  "Description": "This is an absolutely gorgeous set signed \"Butler\" from the Fifth Avenue Jewelry Company which is located in Moosejaw, Saskatchewan, Canada. They make beautiful quality costume jewelry using swarovski crystals which is sold on the home party plan. This set is in the original box with the earrings on the original card and possibly is unworn - it is definitely in mint condition. The necklace is on a silvery black metal chain with a lobster style clasp closure and a hang tag marked FAC. The pendant is a rectangle accented with numerous marcasite black rhinestones- as you can see by some of the photos it has a 3-D effect with the rows being raised in loops. The back of the pendant is signed \"Butler\" which many Fifth Avenue pieces are. The pedant measures 2\" by 1 1/2\" not including the bale. The chain is fairly long measuring approximately 24\" with a 2\" extender & a lobster style clasp closure. The matching earrings are a clip type and are matching rectangles in a somewhat smaller version measuring 1\" x 3/4 of an inch and are marked FAC on the clips. They have a cushion comfort piece on each of the clips. On the back of the earrings is marked \"Perfection Squared\" which I imagine is the name of the set and $149.99 which would be the regular retail price on the set. It also says on the back of the earring card \"made with crystals from Swarovski components\". This is truly a gorgeous set and you will not be disappointed with it. With the box it is heavy but if you are not wanting the original box could ship for a cheaper rate so please ask. Please note Manitoba residents I am required to charge you 8% PST. International bidders please note you are responsible for any duties, taxes or fees that your country's customs may charge. Check out my feedback and bid with confidence. Thanks for stopping by.",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1"
+}

@@ -1,0 +1,144 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "E&C 18 Jewel Russian Pocket Watch",
+  "PostalCode": "30747",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Case: signed E&C China, very good condition, chrome finish with some light scrtaches, flat raised crstal, snap back, 51mm in diameter without the crown or bow. Dial: signed 18 Jewels MEC Mov't, very good condition, white and pink in color with black Roman Numerals and Black Hands. Movement: signed E&C Russia 18 Jewels, the watch is running and keeping time, I do not know when this watch was last serviced. A nice Russian Pocket Watch, the pictures are of the actual watch for sale, no International Sales.",
+  "StartTime": "2017-05-31T00:39:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/i~IAAOSwGJlZLg6n/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/wOwAAOSw-K9ZLg6y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/IVkAAOSwaEhZLg69/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/BcAAAOSwq1JZLg7G/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/0-AAAOSwrhBZLg7R/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "E&C",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": [
+          "Pink",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "18 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "16",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "3602",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "executivetime",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "5362",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225369347528080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T00:39:50.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/E-C-18-Jewel-Russian-Pocket-Watch-/322536934752",
+  "ConditionDescription": "Very Good Case, Very Good Dial, Running and Keeping Time with unknown service history.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Summerville, Georgia",
+  "Storefront": {
+    "StoreName": "executivetime",
+    "StoreURL": "http://stores.ebay.com/id=81545"
+  },
+  "ItemID": "322536934752",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT6H6M10S"
+}

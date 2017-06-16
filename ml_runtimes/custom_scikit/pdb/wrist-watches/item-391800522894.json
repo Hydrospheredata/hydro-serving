@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wheelersburg, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:26:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=3817055",
+    "StoreName": "bigwheelerdealer"
+  },
+  "CurrentPrice": {
+    "value": "9.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:26:55.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "w102",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "391800522894",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "GRUEN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "200-Y481",
+        "Name": "Model"
+      },
+      {
+        "Value": "25mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "2 Tone Gold&Silver",
+          "Gold"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "13mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": [
+          "Mirror edges",
+          "Black"
+        ],
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vtg  GRUEN mirror faced Womens quartz watch 5 row rice grain 2 Tone band Runs",
+  "ConditionDescription": "clean used running condition, very tiny small chip on corner of mirror, runs keeps good time",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vtg-GRUEN-mirror-faced-Womens-quartz-watch-5-row-rice-grain-2-Tone-band-Runs-/391800522894",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3918005228948080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "45694",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H14M58S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/2nsAAOSw8w1X8ntW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/eAsAAOSwI2xX8nta/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY1/z/8lUAAOSwYIxX8ntG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/PMYAAOSwCGVX8ntj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/iSEAAOSwmLlX8ntu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/jMEAAOSwmLlX8nuD/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Vtg GRUEN mirror faced Womens quartz watch 5 row rice grain 2 Tone band Runs and keeps time, small chip on bottom right hand corner of mirror, shows in pictures but very very tiny, very Attractive watch with a unique style band that is very comfortable to wear do to the way it flexes with all the little rice individual rice grain links, New Battery 7''inches long",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "6238",
+    "UserID": "bigwheelerdealer",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

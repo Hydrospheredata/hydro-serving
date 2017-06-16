@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. Created automatically by EaSync.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT14H16M33S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "42.77",
+    "_currencyID": "USD"
+  },
+  "SKU": "B00IQ2HKSY",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "252962879441",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EVER-FAITH-Silver-Tone-Halloween-7-Skull-Simulated-Pearl-Necklace-Clear-/252962879441",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.77",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T01:42:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T01:42:45.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Clear Silver-Tone",
+        "Name": "Color"
+      },
+      {
+        "Value": "EVER FAITH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "A12077-2",
+        "Name": "MPN"
+      },
+      {
+        "Value": "N/A",
+        "Name": "UPC"
+      },
+      {
+        "Value": "N/A",
+        "Name": "EAN"
+      },
+      {
+        "Value": "N/A",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "EVER FAITH Silver Tone Halloween 7 Skull Simulated Pearl Necklace Clear...",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "EVER FAITH Silver Tone Halloween 7 Skull Simulated Pearl Necklace Clear Austrian Crystal Product Details Product Dimensions: 4.1 x 3.2 x 1.4 inches Shipping Weight: 3.2 ounces Item model number: A12077-2 [!]EVER FAITH is a US registered trademark and Ever Faith Jewelry(former name: Kiss Bling) is its only owner. We will pursue legal action against trademark infringement in case of UNAUTHORIZED sale or resale. Main Color:Clear Chain Length:42cm-48cm (16.5\" - 18.9\") Wrapping: Come with some spare crystals, and a gift box or favor bag (depend on product size) Starting an instant conversation with this stunning Skull necklace. This is perfect to add sparkle to any outfit",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529628794418080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "juicersuperstore",
+    "FeedbackScore": "189",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "juicersuperstore",
+    "StoreURL": "http://stores.ebay.com/id=4771907"
+  },
+  "Location": "US",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/KbAAAOSwxu5ZK3yS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/EW4AAOSwIQdZK3yT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZPMAAOSwY3BZK3yS/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

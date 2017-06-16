@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Menasha, Wisconsin",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:37:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:37:43.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245808548",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "GENEVA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "083275054213",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Geneva White Ladies QUARTZ Watch -  Silver & CZ Trim Silver Face 33% off  Retail",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Geneva-White-Ladies-QUARTZ-Watch-Silver-CZ-Trim-Silver-Face-33-off-Retail-/332245808548",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322458085488080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "54952",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H30M44S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1OVgxMTQ0/z/JtgAAOSw3ydVoXfk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/KIgAAOSw-vlVoXeW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/VfMAAOSwjVVVoXed/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/KVMAAOSw-vlVoXeh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/IYgAAOSw3ydVoXeq/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Geneva White Ladies Quartz Watch Embellished Silver & CZ Trim on Silver Face Stainless Steel back Needs battery Retails for $29.99 Save 33% Now only 19.99!!! See my other listing for many other items Comes from a smoke-free home. PAYMENT IS DUE WITHIN 3 DAYS OF CLOSE OF THE AUCTIONWE SHIP PROMPTLY UPON RECEIPT OF PAYMENT RETURNS ARE GLADLY ACCEPTED IF AN ITEM HAS NOT BEEN DESCRIBED PROPERLY.ADDITIONAL PHOTOS ARE ALWAYS AVAILABLE BEFORE PURCHASING.PLEASE ASK FOR ADDITIONAL INFORMATION PRIOR TO PURCHASE . Check out my other auctions! Combined shipping available. Please contact me before paying to get combined rates. Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "598",
+    "UserID": "nancys0105",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns accepted on items not as described only.  Products must be in new, unused condition."
+  }
+}

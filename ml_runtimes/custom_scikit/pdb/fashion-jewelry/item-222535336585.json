@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT16H30M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535336585",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TROLLBEADS-DIAMOND-BEAD-BLUE-GLASS-SILVER-CORE-/222535336585",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:44:49.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T02:44:49.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bead",
+        "Name": "Type"
+      },
+      {
+        "Value": "Trollbeads",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Charm Material"
+      }
+    ]
+  },
+  "Title": "TROLLBEADS THE DIAMOND BEAD BLUE GLASS WITH SILVER CORE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "TROLLBEADS ARE HANDCRAFTED FROM THE FINEST QUALITY 925 STRRLING SILVER AND ITALIAN GLASSTHIS BEAD HAS 13 CUBIC ZIRCONIAS EMBEDDED INSIDE",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225353365858080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "UserID": "sonoma3016",
+    "FeedbackScore": "84",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "Orlando, Florida",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTQwWDU0MA==/z/coIAAOSw8lpZNMUS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDU0MA==/z/IZkAAOSwYvFZNMUh/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "32832"
+}

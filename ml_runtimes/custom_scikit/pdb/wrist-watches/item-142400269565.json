@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "San Diego, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:46:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=28198251",
+    "StoreName": "huntfordealz"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:46:48.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400269565",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sanwood",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Men Fashion Numeral Dial Silicone Band Sport Analog Quartz Wrist Watch Sanwood",
+  "ConditionDescription": "Excellent",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-Fashion-Numeral-Dial-Silicone-Band-Sport-Analog-Quartz-Wrist-Watch-Sanwood-/142400269565",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424002695658080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "92124",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H40M22S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oXAAAOSw4CFY3Wtk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7OcAAOSwmgJY3Wte/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/o1wAAOSwA29Y3Wtn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aj4AAOSwc-tY3Wtq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kFAAAOSwTM5Y3Wtt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N7oAAOSwsW9Y3Wtx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OEMAAOSwsW9Y3Wt0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MnMAAOSwB-1Y3WuU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EogAAOSw2gxY3Wt6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bTkAAOSwc-tY3Wt9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k8cAAOSwTM5Y3WuA/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "You are Buying a Brand New Men Fashion Numeral Dial Silicone Band Sport Analog Quartz Wrist Watch made by Sanwood. It is in factory new Condition with No Damage, Stains or Rips. Thanks for looking and happy eBaying! From a Pet and Smoke Free Home. Fast Shipping in the U. S. A. Via First Class Mail. PAYMENT: PayPal SHIPPING: USPS first class shipping in the USA. We ship all items within - 1 business day of your payment clearing (excluding weekends and holidays). RETURNS: We will accept any item back for a return within 30 days as long as the item is returned in the same condition it arrived in with all the included items. FEEDBACK: We strive to earn positive feedback for all items. We will always leave positive feedback for our good paying customers. If you feel we deserve anything less than positive feedback please send us a message directly before leaving feedback or opening any cases so we can resolve your issue. We can fix most issues within 24 hours as opposed to 7 days via cases. THANK YOU!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "73",
+    "UserID": "bikingsilvercat",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT23H29M47S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "DIRECTLY FROM THAI MANUFACTURER",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "79.96",
+    "_currencyID": "USD"
+  },
+  "SKU": "OHM-23MAR-041",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "263021144851",
+  "ConvertedCurrentPrice": {
+    "value": "79.96",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T12:38:43.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FANCY-AAA-CUBIC-ZIRCONIA-WOW-NEW-STERLING-SILVER-925-2-TONE-RING-SIZE-9-/263021144851",
+  "Country": "TH",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T12:38:43.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Sterling Silver, 925 parts per 1000",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "925 parts per 1000",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "0",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Round",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "White",
+        "Name": "Main Stone Color"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "FANCY AAA! CUBIC ZIRCONIA WOW!! NEW STERLING SILVER 925 2-TONE RING SIZE 9",
+  "ExcludeShipToLocation": [
+    "KH",
+    "HK",
+    "LA",
+    "TH",
+    "VN",
+    "IQ",
+    "YE",
+    "AF",
+    "BD",
+    "CN",
+    "IN",
+    "PK"
+  ],
+  "Location": "Jewelry Manufacturing Center Bangkok",
+  "Description": "Rings Earring Pendant Necklace Bracelet Brooch Bangle Color Change Diaspore Loose Gemstones Contact Us FANCY AAA! CUBIC ZIRCONIA WOW!! NEW STERLING SILVER 925 2-TONE RING SIZE 9 WOW! This deal wont last long! Retail Price :$215.99 Our Price : $23.99 100% GURANTEED NATURAL GEMSTONES SOLID STERLING SILVER 925 GURANTEED COMBINED SHIPPING [$4.99 FIRST ITEM +$1 ADD] MANFACTURING IN THAILAND SINCE 1990 Product Item Specifications Jewelry Item Specifications PRODUCT CODE: OHM-23MAR-041 PRODUCT: Solid Sterling Silver 925 Ring with Yellow Gold Rhodium Coating MAIN STONE: Cubic Zirconia ADDITIONAL STONE: NONE METAL: Solid Sterling Silver 925 Guaranteed WEIGHT gram[Silver+Stone] : 49.25 TCW 9.85 grams FACE DIMENSION: 26.3x28.6mm SHAPE: Round SIZE OF STONES: 0 CLARITY/GRADE: FL/VVS ORIGIN: Manufactured in Thailand inkfrog terapeak",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630211448518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "bkkgems",
+    "FeedbackScore": "4660",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "bkkgems",
+    "StoreURL": "http://stores.ebay.com/id=1134750649"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/NwEAAOSwuLZY3KuH/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings"
+}

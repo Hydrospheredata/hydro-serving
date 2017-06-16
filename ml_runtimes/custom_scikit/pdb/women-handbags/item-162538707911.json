@@ -1,0 +1,128 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anuschka-Hand-Painted-Karmic-Koi-Safari-Small-Travel-Comanion-/162538707911",
+  "BuyItNowPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "TimeLeft": "P9DT21H43M44S",
+  "ConvertedBuyItNowPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Naples, Florida",
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "34119",
+  "StartTime": "2017-06-02T11:57:10.000Z",
+  "HitCount": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Anuschka"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2.5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9.5\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "21\" - 24\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      }
+    ]
+  },
+  "ListingType": "Chinese",
+  "BidCount": "0",
+  "EndTime": "2017-06-12T11:57:10.000Z",
+  "Title": "Anuschka Hand Painted Karmic Koi Safari Small Travel Comanion",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625387079118080_1.jpg",
+  "Site": "US",
+  "BestOfferEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "ConditionID": "1000",
+  "QuantitySoldByPickupInStore": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njc1WDQ1MA==/z/GJwAAOSwaA5Wi-r3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDM1MA==/z/PIEAAOSwFqJWi-r~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY2WDQwMA==/z/PW8AAOSwFqJWi-sK/$_1.JPG?set_id=880000500F"
+  ],
+  "Storefront": {
+    "StoreName": "City Bags of Naples",
+    "StoreURL": "http://stores.ebay.com/id=105733342"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "AutoPay": "true",
+  "NewBestOffer": "false",
+  "Description": "All these Anuschka bags are absolutely beautiful! I recently closed a boutique. Must liquidate my inventory. Items listed are well below retail price. All items are in perfect condition with dust covers included. Ask any questions prior to bidding, as every piece is completely inspected prior to shipping and all sales are final. This has a top zip entry to main compartment, inside zippered wall pocket, 3 multipurpose pockets and key holder, 2 full length front zippered pockets, plus a rear optical case and slip in Cell pocket. Always the perfect size for shopping or travel.",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Seller": {
+    "FeedbackScore": "367",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mlk289"
+  },
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "ItemID": "162538707911",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "HandlingTime": "2"
+}

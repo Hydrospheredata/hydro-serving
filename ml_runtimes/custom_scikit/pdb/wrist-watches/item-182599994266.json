@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "900.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New Richmond, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:29:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "900.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:29:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599994266",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ceramic",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Ceramic",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rado Centrix Quarty Black Dial Ceramic Men's Watch R30934712",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rado-Centrix-Quarty-Black-Dial-Ceramic-Mens-Watch-R30934712-/182599994266",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825999942668080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "45157",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H9M55S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUxWDM2Ng==/z/nU8AAOSwurZZLhRO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDExNTc=/z/veMAAOSwGJlZLhRZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDM2Ng==/z/-UwAAOSwEHpZLhRs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDM2Ng==/z/FDYAAOSw42JZLhR3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDM2Ng==/z/ZskAAOSw-3FZLhSL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzAwWDM5NA==/z/WNwAAOSwjqVZLhSc/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "I am selling my Rado watch that is in great condition. Rarely worn, gets a lot of compliments when I did wear it. Black ceramic case with a stainless steel bracelet with black ceramic inserts. Fixed black ceramic bezel. Black dial with silver-tone hands and diamond markers at the 3, 6, 9 and 12 o'clock positions. The Rado name appears below the 12 o'clock position. Dial Type: Analog. Date display appears at the 3 o'clock position. Quartz movement. Scratch resistant sapphire crystal. Push / pull crown. Solid case back. Case diMen'sions: 38 mm x 42 mm. Case thickness: 7.7 mm. Round case shape. Band width: 22 mm. Hidden double locking clasp. Water resistant at 30 meters / 100 feet. Functions: hours, minutes, seconds, date. Casual watch style. Rado Centrix Quartz Black Dial Black Ceramic Men's Watch R30934712.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "38",
+    "UserID": "henderson356",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

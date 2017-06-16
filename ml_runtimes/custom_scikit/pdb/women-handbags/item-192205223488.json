@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "695.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922052234888080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/u5oAAOSwBt5ZMUaZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/dSwAAOSwZKBZMUaZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/OlsAAOSwPh5ZMUaZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Burberry-Ashby-Small-Canvas-Check-Leather-Bucket-Bag-/192205223488",
+  "ConvertedCurrentPrice": {
+    "value": "549.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store About Us Contact Us Burberry Ashby Small Canvas Check & Leather Bucket Bag Color/material: ashby check canvas saddle brown leatherExterior design details: gold-tone hardware tassel detail detachable pouchInterior design details: fabric liningMeasures 6.5in wide x 10in high x 5.75in deepAdjustable shoulder strap drops 21inOpen top with snap closurePlease note: All measurements were taken by hand and are approximate; slight variations may occur.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "549.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Shepherdsville, Kentucky",
+  "Seller": {
+    "FeedbackScore": "511",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "la_via"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40165",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-06-02T11:05:57.000Z",
+  "Title": "Burberry Ashby Small Canvas Check & Leather Bucket Bag",
+  "TimeLeft": "P29DT20H42M47S",
+  "EndTime": "2017-07-02T11:05:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Burberry"
+      },
+      {
+        "Name": "Style",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Saddle Brown"
+      },
+      {
+        "Name": "Size",
+        "Value": "NoSize"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205223488",
+  "Storefront": {
+    "StoreName": "La Via Store",
+    "StoreURL": "http://stores.ebay.com/id=1595839561"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "SKU": "11117742710000",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

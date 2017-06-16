@@ -1,0 +1,128 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wYgAAOSwxu5ZHzJo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wdYAAOSwJ4hY~52J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kykAAOSwIWVY~52l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Gh0AAOSwvihY~510/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8qcAAOSwRUhY~52J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-UgAAOSwRUhY~52s/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yGcAAOSwJ4hY~52z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EtoAAOSw42JZHzJt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LYQAAOSwjL5ZHzK9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/FjoAAOSwhvFZHzLb/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-LBCRUISN-Cat-Striped-Quilted-Duffle-Weekender-Backpack-Set-/382058225971",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Betsey Johnson LBCRUISN Cat Striped Quilted Duffle Weekender Carry On Weekender Measures Approx: 13\" H x 8\" D x 18\"L Backpack Measures Approx: 13\" H x 5\" D x 10\" L",
+  "Title": "Betsey Johnson LBCRUISN Cat Striped Quilted Duffle Weekender Backpack Set",
+  "ExcludeShipToLocation": [
+    "MX",
+    "DZ",
+    "BH",
+    "SA",
+    "IN",
+    "ME"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Ormond Beach, Florida",
+  "Seller": {
+    "FeedbackScore": "18151",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "beantownusa"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32174",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-25T19:05:19.000Z",
+  "HitCount": "156",
+  "TimeLeft": "P22DT2H11M17S",
+  "EndTime": "2017-06-24T19:05:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Luv Betsey By Betsey Johnson"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas Faux Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Weekender"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink Ivory Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "13\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "8\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "18\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "21\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Extra Large"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Striped"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889487236535"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382058225971",
+  "Storefront": {
+    "StoreName": "beantownusa",
+    "StoreURL": "http://stores.ebay.com/id=1047780303"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3820582259718080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

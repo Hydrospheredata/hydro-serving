@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-2.fishpond.co.nz/0060/080/422/206393203/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0060/080/422/206393204/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0060/080/422/206393205/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0060/080/422/206393206/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0060/080/422/206393207/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Signare-Womens-Fashion-Canvas-Tapestry-Big-Holdall-Weekender-Luggage-Bag-Owl-Des-/192138598340",
+  "ConvertedCurrentPrice": {
+    "value": "122.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This big holdall bag in Colourful Owl design is chic and practical. With a sturdy faux leather handle and faux leather reinforced base, it can be used in a variety of occasions - as an elegant weekender or sporty gym bag. Also available in a smaller travel size (Travel Bag).",
+  "Title": "Signare Womens Fashion Canvas Tapestry Big Holdall Weekender Luggage Bag Owl Des",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "122.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-24T04:41:50.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P19DT12H19M56S",
+  "EndTime": "2017-06-22T04:41:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Signare"
+      },
+      {
+        "Name": "MPN",
+        "Value": "295986737"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138598340",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:60080422:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

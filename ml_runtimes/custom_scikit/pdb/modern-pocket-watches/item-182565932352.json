@@ -1,0 +1,164 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "45044",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "CHOICE STAR WARS POCKET/KEYRING WATCH. COMES WITH AN ATTACHED LOBSTER CLASP CONNECTED WITH A DOUBLE SPLIT RING. A 14 INCH POCKET CHAIN AND AN EXTRA BATTERY",
+  "StartTime": "2017-05-08T17:30:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxNlgxNjAw/z/qnEAAOSwc-tY6Rkp/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "fatfinggers",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2424",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "21",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T17:30:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "5 day return on watches not working properly. This gives plenty of time to make sure that the watch is working correctly. If there is a problem that arises after 5 days, then the watch was mishandled and you broke it. No returns after the fifth day. Watches are delicate and they will break or stop working if not properly taken care of.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "black",
+          "white"
+        ],
+        "Name": "Material"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Material",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "black",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMzgw/z/j5cAAOSwnF9Y6Rlg/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNDQ5/z/TxMAAOSww3tY6Rln/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "white",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjcw/z/AKEAAOSw4CFY6Rl0/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNDI5/z/16sAAOSwU8hY6Rl6/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "black",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.5"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "white",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "Middletown, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CHOICE BRONZE COLOR STAR WARS 2-IN-1 COMBINATION POCKET/KEYRING WATCH USA SELLER",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHOICE-BRONZE-COLOR-STAR-WARS-2-IN-1-COMBINATION-POCKET-KEYRING-WATCH-USA-SELLER-/182565932352?var=",
+  "Storefront": {
+    "StoreName": "coins&amp;watches",
+    "StoreURL": "http://stores.ebay.com/id=1057570148"
+  },
+  "ItemID": "182565932352",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT22H47M18S"
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921380587088080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzk3/z/BjMAAOSwuxFY0-Hu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0OFgxNTAw/z/D14AAOSwTM5Y0-Hu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/an8AAOSwmgJY0-Hu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDIyNA==/z/Hm0AAOSwWxNY0-Ht/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stefanel-Ladies-Bag-Hot-Pink-Patent-Womens-Briefcase-Shoulder-Bag-Fuchsia-40-x-/192138058708",
+  "ConvertedCurrentPrice": {
+    "value": "207.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Elegance, fashion, Italian roots and timeless quality. Stefanel`s history begins in 1959 when Carlo Stefanel started to produce knitwear in his factory, the \"Maglificio Piave\", near Treviso. Fashion is at the heart of Stefanel. A lasting passion that sees the same family still at the helm of this Italian company today as it was then. Throughout the years, unceasing innovation and creativity have made Stefanel a symbol of style and elegance.Nowadays, Stefanel is a unique brand with a strong Italian identity, known and distributed internationally through its 390 stores. \"Fashion above all. Italian style and quality forever\" is its motto. Every season, Stefanel enhances modern and contemporary influences, combining them with its own Italian identity and heritage. The continuous research is aimed at fulfilling the desires of the Stefanel woman: the need for freedom, lightness and practicality, the aspiration to wear feminine and timeless clothes. Quality is at their core.",
+  "Title": "Stefanel Ladies Bag Hot Pink Patent Women's Briefcase Shoulder Bag Fuchsia 40 x",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "207.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-23T14:55:35.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P18DT22H33M1S",
+  "EndTime": "2017-06-21T14:55:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "221447814"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138058708",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:138754669:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

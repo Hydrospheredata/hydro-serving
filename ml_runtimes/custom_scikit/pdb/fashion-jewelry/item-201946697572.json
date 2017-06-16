@@ -1,0 +1,143 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Seller",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT19H57M32S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Factory Outlet Direct Supply A brand-new, unused, and unworn item (including handmade items) in the original packaging",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "201946697572",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:42:34.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Deluxe-Style-Purple-Amethyst-925-Sterling-Silver-Women-Jewelry-Earrings-2-AE331-/201946697572",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:42:34.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermosa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925 Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Amethyst",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gemstone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hook",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Deluxe Style Purple Amethyst 925 Sterling Silver Women Jewelry Earrings 2\" AE331",
+  "ExcludeShipToLocation": [
+    "AT",
+    "DE",
+    "IT",
+    "CH",
+    "IN",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "Location": "SZ & HK",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019466975728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.0",
+    "UserID": "lightinthebox2011",
+    "FeedbackScore": "50856",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "Hermosa No.1",
+    "StoreURL": "http://stores.ebay.com/id=1042635246"
+  },
+  "Quantity": "3",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/amgAAOSwwo1XdLff/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/4q0AAOSwuzRXdLfi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/XMYAAOSwXeJXdLfk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/4wkAAOSwuzRXdLfl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/GrgAAOSwRQlXdLfn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/qrIAAOSwbYZXdLfp/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings"
+}

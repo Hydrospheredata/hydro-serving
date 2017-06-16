@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P18DT13H49M35S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "l***l",
+    "FeedbackScore": "65",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.2",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222523401276",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HANABE-KOREA-Handmade-Rose-Quartz-Pearl-Beaded-Traditional-Hairpin-Barrette-/222523401276",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.2",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T01:19:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "KR",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T01:19:33.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Barrette",
+        "Name": "Style"
+      },
+      {
+        "Value": "HANABE KOREA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Platinum Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Flower",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Korea, Republic of",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "HANABE KOREA Handmade Rose Quartz Pearl Beaded Traditional Hairpin Barrette",
+  "ExcludeShipToLocation": "PO Box",
+  "BidCount": "0",
+  "Description": "Code No. : H439AFinish Color : Platinum PlatedMaterials : Rose Quartz Stone / Cultured Pearl / Crystal Bead / Glass BeadDimension : about 0.8\" X 3.4\" (2.0 cm X 8.5 cm)Origin : MADE IN KOREACondition : Brand New with HANABE Tag - High quality handmade Korean traditional style hair pin barrette. - Raindrop Rose quartz stone with cultured pearl & crystal bead combination. - Efforts made to shape realistic beauty of nature. - Inspired by Korean traditional handcrafted ornaments. (Please note) Actual color/shape of materials such as mother-of-pearl, natural/synthetic stone, cultured pearl, crystal/glass bead would vary in each production and also do by monitor resolution of your computer & mobile handset. Beading arrangements by handmade process do, too",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225234012768080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hanabej20",
+    "FeedbackScore": "32",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "HANABE KOREA",
+    "StoreURL": "http://stores.ebay.com/id=1079742820"
+  },
+  "Quantity": "3",
+  "HandlingTime": "1",
+  "Location": "Kyongi, Seoul",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/pd4AAOSwXeJYEOFY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/cCMAAOSw-itXvX9L/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/cRwAAOSw-itXvX9U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMg==/z/~FsAAOSwgZ1XvX9b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/sYUAAOSwV0RXvX9X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/KQAAAOSwaB5XvX9O/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

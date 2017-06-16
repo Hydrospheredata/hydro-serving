@@ -1,0 +1,86 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "54638",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Condition: New with tags Description: \u2022Movement: Quartz \u2022Diameter: About 3.55 cm \u2022Thickness: About 1.85 cm \u2022Total Length of Chain: About 80 cm",
+  "StartTime": "2017-05-28T18:22:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/91UAAOSw3utY6ml~/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/duIAAOSw03lY6mmV/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/kEgAAOSwmgJY6mmt/$_32.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "3.55cm",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dawnof1",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1190",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225202717748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T18:22:50.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Walking-Dead-Mens-Necklace-Chain-Quartz-Pocket-Watch-/122520271774",
+  "Location": "Kendall, Wisconsin",
+  "Title": "The Walking Dead Mens Necklace Chain Quartz Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "122520271774",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT23H47M54S"
+}

@@ -1,0 +1,85 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "36.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172708747318",
+  "TimeLeft": "P1DT9H33M43S",
+  "ListingStatus": "Active",
+  "Title": "Fashion Costume Jewelry Bracelet Lot All Wearable Bangles Cuff",
+  "ConditionDescription": "Good Clean Wearable Previously Owned Condition Please Read Description",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "36.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "36.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-01T23:59:26.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T23:59:26.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unknown",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Mixed",
+        "Name": "Material"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Costume-Jewelry-Bracelet-Lot-All-Wearable-Bangles-Cuff-/172708747318",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Cedar City, Utah",
+  "Description": "This is a mixed lot of fashion costume jewelry bracelets. There are 41 pieces. There are bangle, cuff, stretch, and closure types. This is a nice lot. There are beaded pieces, gold and silver tone pieces, leather, shell, just a large variety. Please see all photos and read all details as they are a big part of our description. They all vary in sizes. Some stretch bracelets may need to be restrung. We try to describe our items as best we can so if you have any questions, please feel free to contact us before bidding. These are previously owned items and may show some light signs of age and use and are sold as is. Thank you for looking. SERIOUS BIDDERS ONLY PLEASE. Please note we do not offer International Shipping. Payment is due within 3 days of end of auction.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727087473188080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "rick4579",
+    "FeedbackScore": "952",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQ0WDExNDg=/z/cOkAAOSwU8hY6DQ4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VTUAAOSwAANY6DRV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mQEAAOSwpP9Y6C4y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IDIAAOSww3tY6DRv/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "84721"
+}

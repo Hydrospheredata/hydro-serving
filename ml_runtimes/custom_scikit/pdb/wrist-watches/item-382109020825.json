@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.0",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "welwyn , Hertfordshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:30:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=198065080",
+    "StoreName": "real_retro_stuf"
+  },
+  "CurrentPrice": {
+    "value": "8.55",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:30:40.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "382109020825",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sekonda",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "vintage sekonda watch in box ladies retro vintage Time Piece 1980s And 70s",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/vintage-sekonda-watch-box-ladies-retro-vintage-Time-Piece-1980s-And-70s-/382109020825",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821090208258080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "AL6 9HX",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H4M16S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/Vv8AAOSwd2xXPvdF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/MCEAAOSwCM5XPvdP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/66MAAOSwQSZXPvdH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/bggAAOSwEOxXPvdJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/KFsAAOSw71BXPvdL/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Great vintage watch in box Batteries needed",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "6179",
+    "UserID": "real_retro_stuff",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "refuns with 7 days - no postage costs refunded",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

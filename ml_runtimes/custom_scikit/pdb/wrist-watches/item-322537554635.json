@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1500.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:24:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1500.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T14:24:27.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537554635",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swiss Made",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Tiffany & Co.",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Tiffany&Co Atlas 18k Gold Men's Swiss Made Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tiffany-Co-Atlas-18k-Gold-Mens-Swiss-Made-Watch-/322537554635",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225375546358080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "10011",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H15M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDAw/z/VQoAAOSwblZZLs8f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ3NVgxMzMx/z/etIAAOSwPh5ZLs8h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDE2MDA=/z/rm0AAOSwIQdZLs8k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg0NDY=/z/Oa8AAOSwi7RZLs8l/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjcw/z/evsAAOSwPh5ZLs8i/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNFgxNjAw/z/rqMAAOSwIQdZLs8m/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Beautiful Tiffany&Co Atlas 18k yellow gold men's Swiss made wristwatch in excellent preowned condition. This has never been worn. Roman numerals on bezel, face stamped Tiffany&Co Swiss Made, back stamped Tiffany&Co Atlas M0630 , patent No. 0286753 18k Swiss water resistant, sapphire crystal , 33mm, original black lizard leather strap stamped Tiffany&Co 17R and buckle stamped Tiffany&Co. There is no box and needs a new battery. Beautiful timepiece for man or woman.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "65",
+    "UserID": "zags489",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

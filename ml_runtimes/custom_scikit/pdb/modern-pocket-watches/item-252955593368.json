@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "32044",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "the watch is brand new in the box THE POSTAGE FOR THIS ITEM WOULD BE $5.00 USPS SHIPPING FOR BUYERS IN THE U.S. WE SHIP ONLY IN THE UNITED STATES. I AM A DISABLED VETERAN WITH ADOPTED GRANDCHILDREN TRYING TO SUPPLEMENT MY RETIREMENT INCOME SELLING ON EBAY SO I AM HOPING TO CREATE A GOOD BUSINESS HERE.. IF YOU DO HAVE A PROBLEM PLEASE GIVE ME THE CHANCE TO MAKE YOU HAPPY. I DO MY BEST ON ACCURATE DESCRIPTIONS BUT I KNOW THAT I CAN MISS SOMETHING SO IF THERE IS A PROBLEM WITH AN ITEM YOU BUY FROM ME LET ME KNOW AND I WILL REPLACE IT OR REFUND YOUR PURCHASE. I WILL COMBINE SHIPPING ON MULTIPLE AUCTIONS PLEASE EMAIL ME FOR A SHIPPING ESTIMATE ON MORE THAN ONE WIN I GUARANTEE YOUR SATISFACTION IF FOR ANY REASON YOU ARE UNHAPPY PLEASE RETURN THE ITEM FOR A FULL REFUND OF YOUR PAYMENT. IF THERE IS AN ERROR IN THE LISTING I WILL PAY THE RETURN SHIPPING AS WELL. I WILL SHIP WITHIN 48 HOURS OF PAYMENT. THANK YOU FOR LOOKING BOOKMARK MY AUCTIONS AND CHECK BACK OFTEN. YOU HAVE ANY QUESTIONS FEEL FREE TO CONTACT ME. sku011730S",
+  "StartTime": "2017-05-24T13:44:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1NlgxNjAw/z/8q8AAOSweW5VRTrM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2MFgxNjAw/z/olMAAOSwcwhVRTrU/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "papasattic1015",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "5126",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529555933688080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T13:44:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-collectible-Avon-eagle-pocket-watch-collectible-tin-/252955593368",
+  "Location": "Hampton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "NIB collectible Avon eagle pocket watch with collectible tin",
+  "Storefront": {
+    "StoreName": "Vintage and New for you",
+    "StoreURL": "http://stores.ebay.com/id=778282238"
+  },
+  "ItemID": "252955593368",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT19H6M49S"
+}

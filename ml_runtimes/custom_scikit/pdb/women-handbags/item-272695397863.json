@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMzNlgxMTg2/z/0kAAAOSwEzxYZJzp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU4NlgxMDU0/z/DDcAAOSw2xRYZJzm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MTEAAOSwA3dYZJzr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dyYAAOSw241YZJzj/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Leather-Teddy-Bear-ROCKY-Collectible-LIMITED-EDITION-56845-Purple-/272695397863",
+  "ConvertedCurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Stands approx 15 inches tall. Approx 15 inches wide at his feet. Collar has the a dog tag with his name stamped on one side and Coach New York on the other. Weighs 2 lbs 13 oz Silver and pewter tone hardware. He is trimmed with watermelon color fleece. Authentic Coach label on the back. COACH LEATHER BEAR. I WAS CREATED BY A TEAM OF ELVES IN THE COACH WORKSHOP. USING BITS AND PIECES OF THE FINEST HANDBAGS AND JEWELRY. MY STARRY EYES SHOW MY DREAMER SPIRIT",
+  "Title": "COACH Leather Teddy Bear ROCKY Collectible LIMITED EDITION 56845 - Purple",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Wayne, New Jersey",
+  "Seller": {
+    "FeedbackScore": "239",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "naboolou"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07470",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-31T16:29:46.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P28DT21M40S",
+  "EndTime": "2017-06-30T16:29:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889532642359"
+      },
+      {
+        "Name": "MPN",
+        "Value": "F56845"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272695397863",
+  "Storefront": {
+    "StoreName": "The Digital Cantina",
+    "StoreURL": "http://stores.ebay.com/id=34905868"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726953978638080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

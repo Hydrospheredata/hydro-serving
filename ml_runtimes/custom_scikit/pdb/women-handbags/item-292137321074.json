@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/g~4AAOSwT~9WkbM1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/Dl4AAOSwoydWkbM7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/D8gAAOSwoydWkbNV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/EAYAAOSwoydWkbNZ/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Work-Tote-Fuchsia-NWOT-118-/292137321074",
+  "ConvertedCurrentPrice": {
+    "value": "75.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags Vera Bradley Laptop Work Tote in Fuchsia. Retails for $118.00. Comes from a smoke free home.",
+  "Title": "Vera Bradley Work Tote in Fuchsia, NWOT, $118",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "La Grange, Kentucky",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "548",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "angel92385"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40031",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T21:43:57.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT6H51M17S",
+  "EndTime": "2017-06-06T21:43:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137321074",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921373210748080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

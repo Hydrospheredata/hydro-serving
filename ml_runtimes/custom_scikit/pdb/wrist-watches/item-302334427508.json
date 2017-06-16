@@ -1,0 +1,85 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Loganville, Georgia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:04:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:04:25.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334427508",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Pink",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "kate spade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New In Gift Box Kate Spade New York Scallop Activity Tracker Gold & Pink $125",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Gift-Box-Kate-Spade-New-York-Scallop-Activity-Tracker-Gold-Pink-125-/302334427508",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023344275088080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "30052",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H54M25S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/1rAAAOSw~y9ZLs0x/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDE5Ng==/z/G~0AAOSw42JZLs1Z/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Kate Spade Activity Tracker Track your steps in style with this Kate Spade New York scallop tracker! Featuring a bright beautiful goldtone and pink hueCompatible with the Kate Spade 3rd party appSplash and dust resistantIdeal for all \u2013 day wearRetails - $125.00 All sales are final\u2026please look over pictures, description and ask questions before you bid!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "879",
+    "UserID": "jc_designs",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

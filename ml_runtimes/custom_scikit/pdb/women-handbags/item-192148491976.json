@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921484919768080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg3NzU=/z/4KkAAOSwTM5Y48Ne/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3NzU=/z/VCEAAOSwealY48Nq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3NzU=/z/-2QAAOSwDmBY48Nj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3NzU=/z/oQEAAOSwUp1Y48Nf/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Banned-Apparel-Power-Trip-Gothic-Shoulder-Bag-Black-Black-Huge-Saving-/192148491976",
+  "ConvertedCurrentPrice": {
+    "value": "51.94",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: We love the Power Trip Bag by Banned Apparel! This awesome black vegan leather crossbody bag isn't just in the shape of a creepy skull, it also has a front and back print showing a skeleton's head along with occult ouija board details.",
+  "Title": "Banned Apparel Power Trip Gothic Shoulder Bag Black Black. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.94",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-04-04T15:52:16.000Z",
+  "HitCount": "7",
+  "TimeLeft": "PT23H35M15S",
+  "EndTime": "2017-06-03T15:52:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Banned Apparel"
+      },
+      {
+        "Name": "MPN",
+        "Value": "040051904"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192148491976",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:70482856:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

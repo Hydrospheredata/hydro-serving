@@ -1,0 +1,160 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H6M47S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Emerald Isle Gifts",
+    "StoreURL": "http://stores.ebay.com/id=209969071"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "54.97",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "382115818747",
+  "ConvertedCurrentPrice": {
+    "value": "54.97",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-05T08:43:07.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Spiritual-Eye-Star-Earrings-inspired-Yogananda-Silver-18k-gold-accent-/382115818747?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:43:07.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Royal Blue",
+          "PictureURL": "http://img.auctiva.com/imgdata/2/2/9/9/8/8/webimg/943780851_o.jpg"
+        },
+        {
+          "VariationSpecificValue": "White Cubic Zirconia",
+          "PictureURL": "http://img.auctiva.com/imgdata/2/2/9/9/8/8/webimg/943780863_o.jpg"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Royal Blue",
+          "White Cubic Zirconia"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "1491440544-000",
+        "StartPrice": {
+          "value": "54.97",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Royal Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "7"
+      },
+      {
+        "SKU": "1491440544-001",
+        "StartPrice": {
+          "value": "54.97",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White Cubic Zirconia",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "7"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Spiritual Eye",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925 Sterling Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Pst",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "The Spiritual Eye Star Earrings inspired by Yogananda - Silver & 18k gold accent",
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "South America",
+    "MX",
+    "RU",
+    "GR",
+    "IT"
+  ],
+  "Location": "Selbyville, Delaware",
+  "Description": "The Spiritual Eye Star Earrings inspired by Yogananda - Silver & 18k gold accent Click images to enlarge Description Gold Accented Spiritual Eye Earrings PLEASE NOTE - Made to Order, please allow\u00a02 weeks before shipment Celebrate your spirituality with the 18k Gold Accented Spiritual Eye Earrings. Inspired by Paramahansa Yogananda\u0e22\u2019s extraordinary description of the Spiritual Eye, the Spiritual Eye Collection captures this iconic spiritual symbol with stunning 18Kt gold, enamel, and cubic zirconia accents. This accented jewelry gathers life long inspiration from Yogananda\u0e22\u2019s book \"The Law of Success\" which features the Spiritual Eye. Peter The Spiritual Eye is a universal spiritual symbol represented as a ring of golden light encircling a sphere of opalescent blue, and at the center, a pentagonal white star. It is an intrinsic part of our being, which is why the Spiritual Eye Jewelry is so appealing to people of diverse faiths and spiritual beliefs. We intuitively recognize its beauty and it resonates with meaning deep inside the soul. The Spiritual Eye is a diverse sacred symbol that can encompass the meaning of any religious adornment such as the Cross, Om, Star of David, or other religious icon. Because the Spiritual Eye Collection is tasteful and discreet, it serves as a very personal and private reminder to us of God and our own spiritual beliefs. Made in Thailand, shipped from Canada Available to USA & Canada only Specifications .925 sterling silver 0.875 inch (2.2 cm.) Nickel free Ref: JEWPSMER897 Images sell! Get Supersized Images & Free Image HostingCreate your brand with Auctiva's Customizable Templates. Attention Sellers - Get Templates Image Hosting, Scheduling at Auctiva.com. Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "emerald-isle-gifts-usa",
+    "FeedbackScore": "19062",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "14",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/L8cAAOSwaEhZNRmd/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "19975"
+}

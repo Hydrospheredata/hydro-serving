@@ -1,0 +1,224 @@
+{
+  "QuantityThreshold": "10",
+  "PostalCode": "55303",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Compass",
+        "Name": "Features"
+      }
+    ]
+  },
+  "SecondaryCategoryIDPath": "1:1401:182981:165580",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Hello! I have some Masonic Collectable items that we purchased for a fundraiser at our fraternal lodge. I just have a few left and was hoping to sell these on eBay to add to our fundraiser monies. These are heavy weight/heavy duty metal items and are not the cheap ones you see that fall apart. These are quality. Thanks for looking at my auction! You can buy one item or all (if you buy the set you get $10 off!) DESCRIPTIONS FOR ALL ITEMS for SALE: Each piece is highly detailed and features symbols from the Freemason fraternity. PEN: The Pen (5-1/2\"L) is perfect for a desktop and writes in black ink. Metal. Gift boxed.POCKETKNIFE: The Pocketknife (4-3/4\"L, folded, with a 3-1/4\" blade) features a stainless steel blade. Gift boxed.SQUARE: The Square & Compass Knife (5-1/2\"L, folded, with a 3-3/8\" blade) unfolds to look like the square and compass symbol. The knife is hidden until unfolded. Gift boxed. Metal. POCKETWATCH: The Pocket Watch (2\"W x 3\"L, with a 14\"L chain) makes a handsome accessory. Includes button-cell battery. Gift boxed. Quality design with exquisite detailing.SET: Receive a $10 discount when you buy the set of all 4 items (already priced at $10 off) Set includes one of each. 1 pen, 1 pocket watch, 1 pocket knife, and 1 square.",
+  "StartTime": "2017-04-16T17:55:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/uhMAAOSw3ZRY86pk/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "SecondaryCategoryID": "165580",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "rwrosepetals",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "5955",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "125",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T17:55:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Pen",
+          "Pocket Watch",
+          "Pocket Knife",
+          "Compass/Square (hidden knife)",
+          "SET of 4 (Save $10) Pen, Watch, Knife & Compass/Sq"
+        ],
+        "Name": "Choices"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Choices",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Pen",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/czgAAOSwHHFY865S/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Pocket Watch",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/6e0AAOSwVm5Y865h/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6tcAAOSwWWxY865x/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MzEAAOSw7U5Y8653/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Pocket Knife",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/pwcAAOSwmCVY866p/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/3ckAAOSw5UZY866t/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Compass/Square (hidden knife)",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/eAEAAOSwIWVY866W/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/kGEAAOSwvihY866a/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "SET of 4 (Save $10) Pen, Watch, Knife & Compass/Sq",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/SIYAAOSwtZJY867F/$_57.JPG?set_id=8800005007"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "19.95"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pen",
+            "Name": "Choices"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "39.85"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pocket Watch",
+            "Name": "Choices"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "29.85"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pocket Knife",
+            "Name": "Choices"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "29.85"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Compass/Square (hidden knife)",
+            "Name": "Choices"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "85.5"
+        },
+        "Quantity": "3",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "SET of 4 (Save $10) Pen, Watch, Knife & Compass/Sq",
+            "Name": "Choices"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "Anoka, Minnesota",
+  "Title": "NewInBox Masonic Mason Pocket Watch Gold & Silver Square & Compass Pen or Knife",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NewInBox-Masonic-Mason-Pocket-Watch-Gold-Silver-Square-Compass-Pen-Knife-/311848746399?var=",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "311848746399",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Collectibles:Knives, Swords & Blades:Collectible Folding Knives:Mixed Lots",
+  "TimeLeft": "P14DT23H8M38S"
+}

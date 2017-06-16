@@ -1,0 +1,215 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tibes-Genuine-Leather-Handbag-Shoulder-Bag-Tote-Ladies-Bag-Brand-New-/192139275190?var=",
+  "ConvertedCurrentPrice": {
+    "value": "88.37",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: 1.Please allow little smell from original material as it's brand new, but it will be disappeared after a few days. 1.Please allow little colour different from the picture shown due to the different screen of display or reflecting light . 1.Please allow 1-2cm measurement error because the size is measured by hand. 1.Pleh handbag will be cheque carefully before shipped, but it's still very hard to guarantee there's no extra thread.\u00a0 1.Pler Buyer: Thanks for your purchase! Your positive feedback will be greatly appreciated! 1.Ple question or problem, do feel free to contact us. Thanks!",
+  "Title": "Tibes Genuine Leather Handbag Shoulder Bag Tote Ladies Bag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "88.37",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0110/537/740/247539042/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0110/537/741/247489222/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Sky Blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0110/537/742/247461004/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0110/537/743/247536512/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Light Grey",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0110/537/744/247476685/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "88.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110537740:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "88.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110537741:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "88.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110537742:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Sky Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "32.25",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110537743:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "105.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110537744:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Light Grey"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Blue",
+          "Brown",
+          "Sky Blue",
+          "Black",
+          "Light Grey"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-25T00:58:18.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P20DT8H37M3S",
+  "EndTime": "2017-06-23T00:58:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tibes"
+      },
+      {
+        "Name": "MPN",
+        "Value": "805919041"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139275190",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:110537739:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

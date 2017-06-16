@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "Title": "B.U.M. Equipment Quartz BUEU-1584 Clip On Watch",
+  "PostalCode": "46220",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "B.U.M. Equipment Quartz BUEU-1584 Clip On Watch Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-15T18:21:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg4NjA=/z/cWMAAOSwurZZEIpB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/AeYAAOSwnONZEIpA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg2NjI=/z/pdQAAOSwsXFZEIo~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/pG4AAOSwdjNZEIo~/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "B.U.M.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BUEU-1584",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bccii",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3173",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225124725578080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T18:21:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Payment, Shipping and Return:  I offer full refund if item is misrepresented, contact me within 2 days of receipt for a full refund (excluding shipping cost).  I  accept PAYPAL payment. Payment is expected within 2 days after auction end. Will ship the item within 2 days after payment is received.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/B-U-M-Equipment-Quartz-BUEU-1584-Clip-Watch-/222512472557",
+  "ConditionDescription": "Watch is in Good Working Condition",
+  "Location": "Indianapolis, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222512472557",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT23H40M58S"
+}

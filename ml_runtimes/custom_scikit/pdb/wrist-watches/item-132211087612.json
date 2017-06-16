@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "435.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fairfield, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:57:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "435.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:57:50.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132211087612",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko Prospex",
+        "Name": "Model"
+      },
+      {
+        "Value": "Diver",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko Prospex 200m Diver Solar SBDN043 Watch Limited Edition Latest Release",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-Prospex-200m-Diver-Solar-SBDN043-Watch-Limited-Edition-Latest-Release-/132211087612",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322110876128080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "06824",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H52M46S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Zz4AAOSwKytZLtNa/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aeAAAOSwR29ZLtNs/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ddYAAOSwK6RZLtN4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/a3oAAOSwKytZLtOQ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xmYAAOSwGJlZLtOf/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LfsAAOSwhvFZLtOp/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jZUAAOSwcgNZLtO0/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xugAAOSwlMFZLtPB/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3h0AAOSw3gJZLtPP/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ynsAAOSwGJlZLtPd/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2rUAAOSw~FJZLtPr/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Seiko Prospex 200m Diver Solar SBDN043 Limited Edition Latest Release Movement: V147 SolarCase: Stainless Steel /Plastic shroudStrap: Silicon Prospex, stamped buckelLumi bright: hands and markersAccuracy: +15/-15 sec per monthWaterproof: 200m water resistance for diversAnti-magnetic: 4,800A/mDiameter: 45.5 mm (without the crown)Lug to Lug size: 52.6 mmThickness: 12.1 mm Lugs: Drilled 22mmWeight 91g Screw-down crown and casebackHack function Instructions, Original Seiko box, Warranty card, Worldwide one year warranty Returns unworn, caseback sticker intact, un-used Payment by paypal from verified U.S. address for U.S. delivery only Thanks for looking",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "248",
+    "UserID": "thyhters92012",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

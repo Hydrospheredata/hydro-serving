@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "890.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "PL",
+  "Location": "Lublin",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:45:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "890.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:45:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "JAEGER - LECOULTRE, SWITZERLAND",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Vintage",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334310657",
+  "HandlingTime": "5",
+  "Description": "JAEGER LeCOULTRE Vintage SKELETON Watch Item condition : pre-owned This is MARRIAGE watch Item specifics : Condition : pre -owned Seller Notes: this beautiful wrist watch was converted from pocket watch nowadays and a team of the best professionals gave a new life for this watch. Brand: JAEGER - LECOULTRE, SWITZERLAND Gender: Men`s Band material : Leather Age : Vintage Movement : Mechanical : Hand \u2013 winding Style: SKELETON WATCH Dial: New, metal, engraved, hand-crafted Case: original gold-plated open face case converted to wrist watch I want offer this original movement which was made in the beginning of XX century by Jaeger-LeCoultre Watch Company. Jaeger-LeCoultre is one of the most famous watches ever produced. This pocket watch has been converted to wristwatch , working very well and in excellent condition . Movement has been recently serviced. watches are mechanical accordingly watches should not be beaten or dropped , watches are not waterproof. Every 2-3 years it is necessary to service . Accuracy of +_ 5 minute",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JAEGER-LeCOULTRE-Vintage-SKELETON-Watch-/302334310657",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023343106578080_1.jpg",
+  "HitCount": "13",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H27M",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/w0MAAOSwCU1Y070s/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Ng0AAOSwzgBY070w/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/oWoAAOSwXYtY0701/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Ml4AAOSw32lY0706/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/8RUAAOSwdGFY070~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/8wEAAOSwsW9Y071F/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xxMAAOSwCU1Y071M/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/9MsAAOSwsW9Y071T/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Mp4AAOSwSlBY071Z/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "JAEGER LeCOULTRE Vintage SKELETON Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "107",
+    "UserID": "autoteile48",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

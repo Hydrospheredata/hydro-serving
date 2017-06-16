@@ -1,0 +1,199 @@
+{
+  "ExcludeShipToLocation": [
+    "BO",
+    "GF",
+    "UY",
+    "PY",
+    "SR",
+    "VE",
+    "FK",
+    "PE",
+    "AR",
+    "EC",
+    "GY"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "32713",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "NWT Marc By Marc Jacobs Black Pocket Watch Bag Charm MBM7501 Condition - New With Tags And BoxBrand - Marc By Marc JacobsStyle # - MBM7501Color - Black With Multi-Color FaceGender - Unisex Measurements - Total Height - 6.25 Inches - Face - 1.3 Inches - Chain - 4 InchesMarc By Marc Jacobs Pocket WatchMBM7501Black CaseMulti-Color B Y M A R C J A C O B S Represent The Hours On FaceBlue, Purple, Red And GreenMarc By Marc Jacobs On CenterBlack And White ArmsBlack Dial For AdjustmentBlack Chain AttachedLarge Lobster Claw Clasp Marc By Marc Jacobs Engraved Hang Tag Near ClaspMarc By Marc Jacobs Printed On Back CaseComes With Marc Jacobs Gift Box And Owners Manual Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "StartTime": "2017-05-27T13:35:51.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TDQAAOSwNSxVCtGo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jxgAAOSwpDdVCtE4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/x4YAAOSwstxVCtGx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YHkAAOSwEeFVCtG8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K8kAAOSweW5VCtEz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3HQAAOSw34FVCtE8/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Marc By Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "MBM7501",
+        "Name": "Model"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "70debary",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4885",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322391094778080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-26T13:35:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Marc-Marc-Jacobs-Black-Pocket-Watch-Hanging-Chain-Bag-Charm-MBM7501-/332239109477",
+  "Location": "Debary, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "NEW Marc By Marc Jacobs Black Pocket Watch Hanging Chain Bag Charm MBM7501",
+  "Storefront": {
+    "StoreName": "Brians Dinner Table",
+    "StoreURL": "http://stores.ebay.com/id=110803446"
+  },
+  "ItemID": "332239109477",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT19H25S"
+}

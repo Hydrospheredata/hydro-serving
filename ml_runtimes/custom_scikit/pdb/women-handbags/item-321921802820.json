@@ -1,0 +1,509 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "BestOfferEnabled": "false",
+  "TimeLeft": "P5DT7H32M57S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/UsMAAOSwoJZXSLMC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/RrgAAOSwUfNXSLMC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/3U4AAOSwepZXSLMC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/ziEAAOSwkZhWSQxZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/Er4AAOSwT4lWSQxZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/6RwAAOSw6dNWSQxZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/EysAAOSw4UtWSQxZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/EzcAAOSw4UtWSQxZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/McKlein-USA-HILL-SIDE-W-Series-Leather-Ladies-Briefcase-Business-Tote-/321921802820?var=",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store McKlein USA HILL SIDE W Series Leather Ladies' Briefcase Business Tote Features:Small front pocket. Front pocket for files.Back pocket for accessories.Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices.Built-in high-density compartment protects laptops up to 15.4&rdquo; in screen size.Leather shoulder straps. Orange, green, blue, and pink cases are trimmed in sand. Specifications:Material: Italian LeatherSize: 17\"W x 5\"D x 12.5\"HLaptop interior dimension: 15&rdquo; x 2&rdquo; x 10&rdquo;Fits laptop up to: 15.4\"Shoulder strap drop length: 12&rdquo;Weight: 3.0 lbMcKlein's limited lifetime warranty PAYMENTS We accept PayPal and all major credit cards. If you are having difficulties with paying by credit card please contacts us. Only California buyers will pay the CA state sales tax. SHIPPING Our orders are processed and shipped within 1-3 business days of receipt of payment. Shipping transit times may take additional 3-6 business days, depending on your location and the location of our manufacturer. Saturday, Sunday and national holidays are not business days and are not included in our estimated shipping and handling time. The total time to receive the ordered item will be 6-8 business days from the date of purchase. Regular ground free shipping is applicable to the continental 48 United States only. Please contact us for a shipping quote if there is no shipping rate posted for your location or country. We are currently only able to ship to the select international locations. After your item ships, you will receive a shipping notification with the tracking number, which you can use to obtain information on your order details at any time. RETURNS If you are not satisfied with your purchase, you may return it in unused, ORIGINAL CONDITION for any reason within 30 days of receipt for an exchange or a refund. If your delivery address is a non-US address and you would like to return your item, it is your responsibility to pay return shipping to the correct US address. Be sure to pack your item securely to prevent damage in transit. Damaged items will not be accepted for return. Merchandise must be returned via a carrier where a tracking number is required, such as, UPS, Fedex, or USPS.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box",
+    "PK",
+    "MN",
+    "UZ",
+    "IN",
+    "TJ",
+    "LK",
+    "NP",
+    "MV",
+    "AZ",
+    "GE",
+    "AM",
+    "BD",
+    "KG",
+    "KZ",
+    "AF",
+    "TM",
+    "BT",
+    "FJ",
+    "TO",
+    "NR",
+    "FM",
+    "PW",
+    "WS",
+    "TV",
+    "KI",
+    "AS",
+    "PF",
+    "CK",
+    "VU",
+    "WF",
+    "NC",
+    "PG",
+    "NU",
+    "MH",
+    "SB",
+    "GU",
+    "VA",
+    "LU",
+    "ME",
+    "AD",
+    "SJ",
+    "IS",
+    "RS",
+    "AL",
+    "GI",
+    "LI",
+    "GG",
+    "BY",
+    "BA",
+    "MC",
+    "SM",
+    "MK",
+    "MD",
+    "JE",
+    "BS",
+    "MQ",
+    "VI",
+    "LC",
+    "KY",
+    "AW",
+    "BB",
+    "BZ",
+    "VG",
+    "DM",
+    "TC",
+    "PR",
+    "VC",
+    "AG",
+    "AI",
+    "HT",
+    "AN",
+    "GP",
+    "MS",
+    "GD",
+    "NI",
+    "KN",
+    "MO",
+    "KH",
+    "BN",
+    "VN",
+    "LA",
+    "PY",
+    "BO",
+    "GF",
+    "UY",
+    "SR",
+    "VE",
+    "FK",
+    "PE",
+    "AR",
+    "EC",
+    "GY",
+    "BM",
+    "GL",
+    "PM",
+    "UG",
+    "GA",
+    "ML",
+    "ET",
+    "CD",
+    "SO",
+    "MZ",
+    "CI",
+    "YT",
+    "SH",
+    "GW",
+    "DZ",
+    "KM",
+    "MA",
+    "CV",
+    "MU",
+    "RW",
+    "EH",
+    "GN",
+    "BJ",
+    "ER",
+    "DJ",
+    "RE",
+    "CM",
+    "MR",
+    "SN",
+    "CG",
+    "MW",
+    "GH",
+    "GQ",
+    "LY",
+    "BW",
+    "NG",
+    "MG",
+    "LR",
+    "TG",
+    "ZW",
+    "BI",
+    "TN",
+    "NE",
+    "KE",
+    "EG",
+    "LS",
+    "TD",
+    "SL",
+    "ZM",
+    "SZ",
+    "GM",
+    "BF",
+    "NA",
+    "CF",
+    "TZ",
+    "SC",
+    "AO",
+    "OM",
+    "LB",
+    "IQ",
+    "JO",
+    "TR",
+    "YE"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "FeedbackScore": "3204",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "powerboxusa"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60639",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652or_1.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652a.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652d.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652gr_1.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652a.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652d.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652bl_1.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652a.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652d.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652red_1.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652a.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652d.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652blu_1.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652a.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652d.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": [
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652pi_1.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652a.jpg",
+            "http://www.gotbriefcases.com/media/catalog/product/9/6/9652d.jpg"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "96529",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "96528",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "96526",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "96525",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "96521",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Green"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "96520",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Orange"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Blue",
+          "Green",
+          "Orange",
+          "Pink",
+          "Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2015-11-15T22:51:00.000Z",
+  "Title": "McKlein USA HILL SIDE W Series Leather Ladies' Briefcase Business Tote",
+  "QuantityThreshold": "10",
+  "EndTime": "2017-06-07T22:51:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "McKlein USA"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase/Attache"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "17 x 12.5 x 5"
+      },
+      {
+        "Name": "Target Gender",
+        "Value": "female"
+      },
+      {
+        "Name": "To Fit",
+        "Value": "15.4\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "321921802820",
+  "Storefront": {
+    "StoreName": "PowerBox",
+    "StoreURL": "http://stores.ebay.com/id=677674035"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "18",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "9652",
+  "HandlingTime": "1",
+  "QuantityAvailableHint": "MoreThan"
+}

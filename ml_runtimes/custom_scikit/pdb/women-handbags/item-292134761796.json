@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/oIgAAOSwi7RZLbEg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/fxoAAOSwfRdZLbEr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/WeEAAOSwblZZLbE8/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-35s7gvaf6c-Vivianne-Shoulder-Bag-/292134761796",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors 35s7gvaf6c Vivianne Shoulder Bag MICHAEL KORS 35S7GVAF6CVIVIANNE DENIM CHEVRON MEDIUM SHOULDER BAG vs Sloan Edition Shoulder bag w/ chains & leather strapCan be worn in 2 ways; Double shoulder or Single long cross body strapsilver tone hardwareMichael Kors logo Foldlock flap closureBack slide pocketInside: 1 zippered pocket & 1large slip pocketMK signature fabric lining9.5\" (L) x 6.5\" (H) x 3\" (D)w/ 13\" double shoulder strap OR 23\" cross body strap",
+  "Title": "Michael Kors 35s7gvaf6c Vivianne Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Harbor City, California",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "shadesn99"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90710",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T17:52:23.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P27DT1H57M32S",
+  "EndTime": "2017-06-29T17:52:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Summer/Beach Bag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Strap/Handle"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292134761796",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921347617968080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/27gAAOSwaeRZK2DO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/aYYAAOSwi7RZK2Dz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/hYgAAOSwaEhZK2FM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/DNsAAOSwjqVZK2Ga/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/x2QAAOSw5cRZK2HA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/rmYAAOSwYvFZK2H0/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tignanello-leather-brief-case-/222527502608",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Tignanello leather brief case, shoulder strap and handle, very good condition.",
+  "Title": "Tignanello  leather brief case.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Memphis, Tennessee",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "57",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "savvy-treasures"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "38184",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T23:54:46.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P25DT8H57M",
+  "EndTime": "2017-06-27T23:54:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "tignanello"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222527502608",
+  "Storefront": {
+    "StoreName": "savvy-treasures",
+    "StoreURL": "http://stores.ebay.com/id=1434555038"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225275026088080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cheshire, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:00:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:00:04.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "252966840726",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "RELIC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "WATER RESISTANT 30 METERS/100FEET",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "Brown",
+          "Gold"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "ZR 33380",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE RELIC WOMENS SILVER TONE WRIST WATCH  AS IS",
+  "ConditionDescription": "EXCELLENT CONDITION, HAS NOT BEEN USED FOR MANY MANY YEARS.  I'M SURE IT NEEDS A NEW BATTERY SOLD AS IS",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-RELIC-WOMENS-SILVER-TONE-WRIST-WATCH-/252966840726",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529668407268080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "06410",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H42M18S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/s6sAAOSw8oFXzvoo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/mkoAAOSwdIFXzvoZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/vqsAAOSwgmJXzvoB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/uFUAAOSw8oFXzvpE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg2NDk=/z/1N0AAOSw9IpXzvoK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NTc=/z/XaIAAOSwvzRXzvo1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/Su8AAOSwMgdXzvpR/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "THIS VINTAGE RELIC WOMEN'S WATCH IS NOT CURRENTLY WORKING, IT HAS BEEN STORED FOR OVER MANY YEARS, SO I'M PRETTY SURE A NEW BATTERY IS ALL IT NEEDS. OTHERWISE THE WATCH IS IN EXCELLENT CONDITION, INTACT. ON THE BACK OF WATCH THE FOLLOWING: 30 METERS/100FT WATER RESISTANT TRADEMARK RELIC BRAND ZR 33380 260206 STAINLESS STEEL CASEBOOK I HAVE OTHER ITEMS LISTED, PL.EASE TAKE A LOOK, THANKS.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2065",
+    "UserID": "jimmiejong",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

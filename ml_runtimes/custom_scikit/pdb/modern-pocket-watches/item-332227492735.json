@@ -1,0 +1,108 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "56401",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Watch Mens Pocket Watch Kansas City Railroad. New in box, Box has a small tear.",
+  "StartTime": "2017-05-19T12:42:04.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/inwAAOSw44BYk1vU/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0isAAOSw9GhYk1vS/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Kansas City",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Latch",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Lever",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jerdeanc",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "74",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322274927358080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-18T12:42:04.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Watch-Mens-Pocket-Watch-Kansas-City-Railroad-/332227492735",
+  "Location": "Brainerd, Minnesota",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Watch Mens Pocket Watch Kansas City Railroad",
+  "Storefront": {
+    "StoreName": "MiscellanyWorld",
+    "StoreURL": "http://stores.ebay.com/id=10093276"
+  },
+  "ItemID": "332227492735",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P17DT18H2M48S"
+}

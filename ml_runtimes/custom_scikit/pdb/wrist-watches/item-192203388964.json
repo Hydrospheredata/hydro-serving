@@ -1,0 +1,63 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "513.15",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Brighton",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:01:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:01:20.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203388964",
+  "HandlingTime": "2",
+  "Description": "RECORD AUTOMATIC \" LONGINES \"STEEL CASE GOOD WORKING ORDERgary@myotherwatch.com",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RECORD-AUTOMATIC-/192203388964",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922033889648080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "BN28AL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H50M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RpAAAOSwH09ZLsbs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7kcAAOSw3gJZLsb9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k1cAAOSwaeRZLscR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EVQAAOSwDiBZLscq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KD4AAOSwtGlZLsdA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EAEAAOSw-3FZLsdY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GzgAAOSwIQdZLsdr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iBwAAOSwYvFZLseD/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "RECORD AUTOMATIC",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "24",
+    "UserID": "myotherwatch17",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

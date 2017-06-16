@@ -1,0 +1,244 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "32.09",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "QuantityThreshold": "10",
+  "Location": "Plymouth",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:21:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck",
+    "PaymentSeeDescription"
+  ],
+  "Quantity": "20",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=784246521",
+    "StoreName": "Plymtec"
+  },
+  "PaymentAllowedSite": [
+    "Netherlands",
+    "Switzerland",
+    "Belgium_French",
+    "Poland",
+    "Belgium_Dutch"
+  ],
+  "CurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T07:21:03.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "GB",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/w94AAOSw~uhUqQ~H/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YhsAAOSwFdtXzYtQ/$_1.JPG?set_id=880000500F"
+  ],
+  "HandlingTime": "2",
+  "Description": "** NEW **DARTS DARTBOARD WRIST WATCH with Large Round Casing and Quality Movement. The plaque on the Gift Box Can Be Engraved If Required !!! - 14 day money back guarantee - Dispatched from the UK - We deliver anywhere in the world Description : - Condition: 100% Brand New - Super Big impressive face - 45mm diameter - Traditional Arabic or Roman numerals - Polished chrome finish - High quality croc grain leather-look strap - black - Suits up to 8 inch wrist - Watch Movement: Quality Quartz Movement - Smart gift box - 12 months guarantee Engraving Options: - If you would like the Gift Box personalised , please choose the engraved option in the drop down box above. The price will be adjusted automatically. Add your engraving details - up to 60 characters over 4 lines (inclusive of spaces and punctuation) in the 'Note to Seller' box when you purchase or you can email us with your details at: doors212@hotmail.com Engraving Styles:Style 1 - AcademyStyle 2 - ArialStyle 3 - Bookman Old StyleStyle 4 - ChanceryStyle 5 - CopperplateStyle 6 - Harrington Note: - Please, double check your spelling when sending us engraving instructions as mistakes cannot be rectified once the item has been engraved, if we notice what we think is a mistake we will correct the error or if we are not sure we will try to contact you. - Engraving plates and presentation box may slightly vary as we use several different suppliers. Contents included: 1 x wrist watch 1 x gift box Postage: Most items will be posted within 1 - 2 working days after payment has cleared, via Royal Mail Postal Services. Items to other countries will be posted via Royal Mail Airmail. Combined Postage is available on most items, please contact us first for prices. Payment: Payment can be made via PayPal, Personal Cheque and Postal Orders. Items paid by PayPal eCheques and Personal Cheques will not be dispatched until payment has cleared. Usually 3 - 5 working days. Cheques and Postal Order from UK Customers only. All prices are inclusive of UK VAT. Money-Back Guarantee: In the unlikely event that you are unhappy with the quality of the items bought then simply return the items to us within 14 days for a refund (excluding p&p), please ensure all returns are returned unused and in their original packaging. Return policy: All products can be returned under our 14 day money back guarantee, so if for any reason you are not completely happy please return your product for a full refund of the purchase price, we do not refund postage and packaging charges . Payment methods I PREFER POSTAL ORDERS, CHEQUES AND PAYPAL Will post Worldwide If you have any questions regarding this item please feel free to email me THANKS FOR YOUR BIDS!!!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DARTS-DARTBOARD-MENS-WRIST-WATCH-GIFT-ENGRAVING-/322536803815?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "WRIST WATCH",
+        "Name": "Product"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "24.95",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Roman",
+              "Name": "Numerals"
+            },
+            {
+              "Value": "with Standard Box",
+              "Name": "Engraving Options"
+            }
+          ]
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "value": "29.95",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Roman",
+              "Name": "Numerals"
+            },
+            {
+              "Value": "with Engraved Box",
+              "Name": "Engraving Options"
+            }
+          ]
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "value": "24.95",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Arabic",
+              "Name": "Numerals"
+            },
+            {
+              "Value": "with Standard Box",
+              "Name": "Engraving Options"
+            }
+          ]
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "value": "29.95",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Arabic",
+              "Name": "Numerals"
+            },
+            {
+              "Value": "with Engraved Box",
+              "Name": "Engraving Options"
+            }
+          ]
+        },
+        "Quantity": "5"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "Roman",
+            "Arabic"
+          ],
+          "Name": "Numerals"
+        },
+        {
+          "Value": [
+            "with Standard Box",
+            "with Engraved Box"
+          ],
+          "Name": "Engraving Options"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Roman",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Z0wAAOSw-kdXzYsn/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Arabic",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/DpsAAOSwdIFXzYs6/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Numerals"
+    }
+  },
+  "ItemID": "322536803815",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H48M32S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "DARTS DARTBOARD MENS WRIST WATCH  GIFT ENGRAVING",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "6965",
+    "UserID": "plymtec",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "FOR ENGRAVED PRODUCTS:\n\nEngraved product can be return only in the case if item you purchased from us is found to be faulty!!!\n\n If in the unlikely event the product you purchased from us is found to be faulty we will offer you a replacement or offer a full refund provided the item is returned to us within 30 days of receipt.\n\nThe item must be returned to us in its original retail packaging undamaged. \n\nFOR NON ENGRAVED PRODUCTS:\n\nIf in the unlikely event you are not happy with the product you purchased from us we offer 30 day no quibble money back guarantee.\n\nWithin this period of time (starting from the day you receive goods), you can send goods back in un-opened (tried, tested, etc) condition for refund so it can be resold. All basic costs incurred by this purchare are not refundable (P&P cost, etc), we reserve right to final decide this charge. Please note: any opened, tried, tested, etc goods are NOT refundable whether it's within or after 30 days!\n\nIn the case for non engraved non faulty item(s) you pay the return costs and you will be refunded the item cost minus the P&P charge it cost us to send to you. \n \nWE FULLY COMPLY WITH THE DISTANCE SELLING REGULATIONS & THE SALE OF GOODS ACT.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

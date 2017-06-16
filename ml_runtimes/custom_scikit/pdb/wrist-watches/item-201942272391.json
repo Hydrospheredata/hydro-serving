@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Horicon, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:30:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173392934",
+    "StoreName": "A-2-Z Limitless"
+  },
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:30:08.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942272391",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "American-Exchange-Brand",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Men's Analog Interchangeable Watch Set 1 Blue & 2 Black Silicone Bands",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Mens-Analog-Interchangeable-Watch-Set-1-Blue-2-Black-Silicone-Bands-/201942272391",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019422723918080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "53032",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H3M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/RewAAOSwXeJYJRNK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/3V4AAOSw5cNYJRNO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/DoIAAOSwo4pYJRNT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/xEYAAOSwXyVYJRNY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/TrQAAOSwXeJYJROK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/25MAAOSw5cNYJRNF/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "The American Exchange Men's Watch Set is perfect for every-day wear. With three interchangeable straps, this watch is ready to match up with any outfit of the day.\u2713 The American Exchange PURPLE Dial Men's Watch Set is great for daily wear\u2713 BLACK IP bezel \u2713 Purple dial face\u2713 1 BLUE AND 2 Black Silicone bands \u2713 Analog display\u2713 3 sub dials (NON FUNCTIONING ) WE ONLY SHIP TO NORTH AMERICA!!!!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2858",
+    "UserID": "taczann",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

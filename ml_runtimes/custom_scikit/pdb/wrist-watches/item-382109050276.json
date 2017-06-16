@@ -1,0 +1,163 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "45.01",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Harwich",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:11:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:11:48.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "US",
+    "CA",
+    "NO",
+    "MX"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "382109050276",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "TIDE RIDER",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "HEXAGONAL",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "METAL",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "RETRO",
+        "Name": "Style"
+      },
+      {
+        "Value": "1980?",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "METAL",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "TIDER RIDER \"SHARK\"",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "TIDE RIDER \"SHARK\" VINTAGE 1980'S LCD DIGITAL WATCH, LITHIUM CHRONO/DAY/DATE/",
+  "ConditionDescription": "Very good used condition, some signs of age, light very dim, haven't tested the alarm? LCD bright and strong, all chrono functions work!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TIDE-RIDER-SHARK-VINTAGE-1980S-LCD-DIGITAL-WATCH-LITHIUM-CHRONO-DAY-DATE-/382109050276",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821090502768080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "CO12 2AN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H47M41S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU4M1g4MTU=/z/KUAAAOSw~y9ZBwjl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1MlgxMDcy/z/Fj4AAOSw~y9ZBwh5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/XPgAAOSwnONZBwhr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1MlgxMTM2/z/5KUAAOSwjqVZBwiI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/hcIAAOSwrhBZBwjB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/ZJgAAOSwnONZBwjQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDU2WDE1ODg=/z/r54AAOSw-3FZBwig/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU4M1g2MDA=/z/9w4AAOSwjqVZBwlS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUyWDEzNDg=/z/NHYAAOSwjL5ZBwiU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzA4WDE1ODg=/z/wUwAAOSwhvFZBwkZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExOFg2NzU=/z/e7sAAOSw42JZBwk3/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "UP FOR SALE IS THISOLD SCHOOL COOLRETRO RARETIDE RIDER\"SHARK\"1980'SLCD DIGITAL WATCHCHRONOGRAPHSTOP WATCHDAY/DATEBACK LIGHTALARM NEW BATTERY FITTED TOTAL STRAP LENGTH LAID OUT 9 INCHESHAS SLIDER TO ADJUST TO YOUR WRIST SIZE SEE ZOOMY PICTURES OF ACTUAL WATCH CONDITION:WATCH IS IN VERY GOOD USED CONDITION, FACE HAS SOME MINOR MARKS/WEAR, STRAP VERY GOOD FOR AGE/LCD DISPLAY BRIGHT AND STRONG/DAY AND TIME/DATE FUNCTIONS PERFECTLY, BACK LIGHT VERY DIM, ALARM UNTESTED WILL POST FOR FREE RECORDED DELIVERY MAINLAND UK ONLY! JUST THE BUSINESS! CHECK MY FEEDBACK BELOW AND BID WITH CONFIDENCE!DON'T MISS OUT??WHEN IT'S GONE ITS GONE!! I strive for a 5-Star service by stating upfront my policies, shipping rates and anticipated delivery time. If you are not pleased, please let me know via email me and I will do whatever it takes to make it better! My 100% E-Bay Feedback Rating is your guarantee you'll receive Exactly what I've promised and what you have paid for. I will post this as quickly as I can after payment is cleared, which in 99% of cases means the following day or first day that the PO is open after payment is cleared. PLEASE take the time to review my feedback ratings, especially the comments from other happy buyers. My ratings are your guarantee that you will get what you are paying for!!PLEASE NOTE: I AM NOT A PROFESSIONAL SELLER! I BUY THINGS ON E-BAY BECAUSE IT IS GREAT VALUE AND FUN! I SELL THINGS THAT ARE OF INTEREST TO OTHERS. I WILL DO MY VERY BEST TO DESCRIBE EVERYTHING I SELL AS ACCURATELY AS POSSIBLE AND WILL PACKAGE IT CAREFULLY TO ENSURE IT GETS TO YOU IN GOOD CONDITION. FeedbackFrom Buyer/priceWhenHappy!abstephens22 ( 89) During past month SUZUKI MOTOR CORPORATION OFFICIAL MERCHANDISE NAVY BLUE POLO SHIRT BNWT SUZUKI!! (#381869080866)\u00a315.00View Item5star ebayer1985hinberg ( 486) During past month BEARBRICK 400% KILL BILL 2 THE BRIDE WITH COFFIN 2004 SUPER-FU-MANCHU MEDICOM !! (#381915446308)\u00a345.00View ItemSMashingrugbygrahamw ( 1195) During past month GANT U.S.A. LIGHT BROWN V-NECK COTTON JUMPER SIZE UK LARGE NEAR MINT USED GANT (#381926036569)\u00a325.00View ItemEVERYTHING IN COMPLIANCE WITH DESCRIPTION, SUPER SELLER THANKSmarcin810113 ( 264) During past month NIKE SHOX RARE GOLD COLOUR WAY GRID PATTERN TRAINERS UK 11/EU 46 WOW NIKE SHOX! (#381905256137)\u00a325.00View ItemAmazingly fast shipping to U.S. Great seller!!!whodaname ( 96) During past month POKEMON DECK BOX VENUSAUR & GYRADOS PACK OF 60 ULTRA PRO CLEAR SLEEVES SEALED!!! (#381905256103)\u00a327.50View ItemNice buy from an a1 eBayer art-and-antiques2000 ( 435) During past month SINGER SEWING MACHINE ANTIQUE CAST IRON BASE WITH STONE TOP/GARDEN/HOME/SINGER!! (#381925189157)\u00a345.00View Item5* seller. Highly recommended !gaz42gary ( 370) During past month TRI-ANG HORNBY R562 00G BATTLE SPACE PLANE LAUNCH CAR KHAKI GREEN ORIGINAL BOX!! (#381905256076)\u00a320.00View ItemBrilliant item as described, A+++ ebayerclynmadd ( 164) During past month DIGIMON DIGITAL MONSTERS BANDAI 3930 RARE ANGEMON BRAND NEW MINT ON CARD DIGIMON (#381869080888)\u00a335.00View ItemBrilliant ebay seller \ud83d\udc4d Pleasure doing business with u. smeatricha ( 51) During past month ED HARDY RARE \"MEXICO\" DON ED HARDY DESIGNS BY CHRISTIAN AUDIGIER TRACK SUIT TOP (#381906548065)\u00a345.00View ItemFast shipping - Great item! Thank You pkdarcy ( 1107) During past 6 months STAR WARS THE EMPIRE STRIKES BACK KENNER 1980 DARTH VADER COLLECTOR'S CASE JEDI! (#381869080874)\u00a335.00View Itemvery good ebayer 5 star !!!!christianh2103 ( 437) During past 6 months STAR WARS POWER OF THE FORCE 1997/99 PRINCESS LEIA JABBA'S PRISONER BUNDLE BOXED (#381869080853)\u00a340.00View Itemgreat service thank youoptivisorboy ( 450) During past 6 months LEGO TECHNIC 8047 COMPACT EXCAVATOR SET BRAND NEW AND SEALED IN BOX LEGO 8047!! (#381879324571)\u00a350.00View Itemgood toyracik_andri ( 156) During past 6 months CARRERA GO!! SPEED UP 62309 FERRARI AND RED BULL FORMULA 1 3.6M RACING SET BNIB! (#381821095989)\u00a350.00View ItemFast delivery, excellent ebayer, thank you!rusla1966 ( 516) During past 6 months BLU RAY 3D FILMS SUPERMAN MAN OF STEEL /WRATH OF THE TITANS/UNDERWORLD AWAKENING (#381840515040)\u00a320.00View ItemQuicker Replies, Quick Delivery, Would Use Again A+++++++ Ebayerlee_mc_superstar ( 55) During past 6 months N64 NINTENDO BUNDLE DIDDY KONG RACING COMPLETE AND BOXED+ N64 CONTROLLER BOXED!! (#381880962129)\u00a340.00View Itemfab seller fast delivery thanksdancingdivablue ( 1979) During past 6 months IN SICKNESS & IN HEALTH THE COMPLETE COLLECTION BBC DVD BOX SET BRAND NEW SEALED (#381869080936)\u00a316.50View Item\"We can rise and fall like empires.... Flow in and out like the tide\"quartacorda ( 511) During past 6 months ASICS MOTION DRY YELLOW LIGHTWEIGHT HOODIE UK MEDIUM ZIP TO NECK CLOSURE ASICS! (#381856167047)\u00a318.00View ItemThx greatpeogeotviktor ( 71) During past 6 months NIKE AIR JORDAN \"23\" WHITE HOODIE UK LARGE GREEN LOGO TO CHEST AND HOOD JORDAN!! (#381874445804)\u00a317.50View ItemQuick, well packed, well painted. Professional. Like it.treboremik ( 1709) During past 6 months ADVANCED DUNGEONS & DRAGONS DUNGEON MASTER'S AND PLAYERS SCREENS TSR REF 1/9146 (#381833620568)\u00a335.00View ItemThanks, Product as described, Fast delivery :)ian74vine ( 137) During past 6 months NIKE PRO COMBAT COMPRESSION T-SHIRT AND SHORTS UK MEDIUM/BLACK/BLACK/YELLOW NIKE (#381856163428)\u00a317.50View Itemlove this game than youebzcomix ( 167) During past 6 months TAKE THE BRAIN VINTAGE 1970 PARKER GAMES COMPLETE AND IN GOOD USED CONDITION!! (#381817601642)\u00a326.00View Itemgreat servicemcl810 ( 136) During past 6 months MULLION THERMOTIC FLOTATION SUIT HI-VIS SIZE LARGE FISHING/SAILING/YACHTING/BOAT (#381867259223)\u00a360.00View ItemReally quick delivery - thanks so much :-)kzajo0 ( 285) During past 6 months BERWICK GEM TUMBLER VINTAGE 1980 GEM TUMBLING MACHINE WORKING BOXED/INSTRUCTIONS (#381858717428)\u00a340.00View Itemmany thanks a++++sellermarshall78bristol (private) During past 6 months STAR WARS DARTH VADERS TIE FIGHTER KENNER 1979 FULLY WORKING LIGHT/SOUND KENNER! (#381833620526)\u00a330.00View ItemGreat.Thank you. all 5 stars.marvel2210 ( 725) During past 6 months PLANET OF THE APES FIGURE BUNDLE/DAENA/LIMBO/ARI HASBRO 2001 MOC 6\" FIGURES POTA (#381833620552)\u00a320.00View Item I am selling a lot of cool stuff!! THANKS FOR LOOKING!! TERMS & CONDITION'S OF BIDDERS AND WINNING BID. Bidders with feedback under 5 or any negatives MUST contact me prior to bidding otherwise I reserve the right to cancel your bid. All items I sell are described to the best of my ability and I want to keep my feedback @ 100% Occasionally mistakes maybe made I do my best in all cases to be fair and rectify them where possible. Payment is by PAY-PAL ONLY. Payment must have cleared before I Dispatch my items. Please note that i won't be held responsible for failed delivery by the Postal Service and any issues concerning lost items will have to be taken up with the Post Office by the winning bidder. Proof of posting receipt will be sent to you on request if this happens. Once your item arrives and you have been fully satisfied with my service, your feedback will be highly appreciated. Of course, I will do the same for you. Anything your unsure of ASK BEFORE BIDDING and I will do my best to answer ASAP. Thanks for your time and Bidding and GOOD LUCK!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2844",
+    "UserID": "retrohounds",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

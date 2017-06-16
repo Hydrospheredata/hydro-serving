@@ -1,0 +1,140 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Burnham-on-Crouch",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:36:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=361820456",
+    "StoreName": "Vintage Tag"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T09:36:08.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "Description": "Very unusual watch. Large face with leather strap. Large strap size.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355096392",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Zapiro",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Cartoon/Novelty",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "large face and unusual watch",
+  "ConditionDescription": "VGC",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/large-face-and-unusual-watch-/232355096392",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323550963928080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "CM0 8DD",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H10M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU4NVgxMDgw/z/d6MAAOSw5cRZG1Vt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2OVgxMTY4/z/NZEAAOSw8lpZG1WN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/cnMAAOSwlY1ZG1Wn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/c9cAAOSwjqVZG1XB/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "462",
+    "UserID": "calulastar1",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

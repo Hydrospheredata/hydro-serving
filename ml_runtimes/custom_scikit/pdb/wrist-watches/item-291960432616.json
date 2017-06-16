@@ -1,0 +1,216 @@
+{
+  "ExcludeShipToLocation": [
+    "AI",
+    "AG",
+    "BZ",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HN",
+    "NI",
+    "PA",
+    "PR",
+    "VC",
+    "TC",
+    "KH",
+    "LA",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BT",
+    "KZ",
+    "KG",
+    "MN",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "54.66"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "HandlingTime": "0",
+  "EligibleForPickupDropOff": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDUwMA==/z/YK0AAOSwB09YQVrh/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "UK",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "5",
+  "Country": "GB",
+  "Seller": {
+    "UserID": "lloydsjewellers1990",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "11279",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2016-12-02T11:28:31.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Please see our Returns Policy under Terms of Sale.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Title": "Ladies Accurist LB1457BR Semi Bangle Rose Gold Plated Crystal Set Watch RRP \u00a380",
+  "AvailableForPickupDropOff": "true",
+  "ItemID": "291960432616",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Other Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Accurist-LB1457BR-Semi-Bangle-Rose-Gold-Plated-Crystal-Set-Watch-RRP-80-/291960432616",
+  "Storefront": {
+    "StoreName": "Lloyds Jewellers",
+    "StoreURL": "http://stores.ebay.com/id=804245587"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "SA72 6BT",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Ladies Accurist LB1457BR Semi Bangle Rose Gold Plated Crystal Set Watch RRP \u00a380 Track Page Views With Auctiva's FREE Counter",
+  "HitCount": "281",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "ACCURIST",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "LB1457BR",
+        "Name": "Model"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "LB1457BR",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Tonneau/Barrel",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "5051322002406",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2919604326168080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-30T11:28:31.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Pembroke Dock",
+  "CurrentPrice": {
+    "_currencyID": "GBP",
+    "value": "42.5"
+  },
+  "TimeLeft": "P29DT17H29M38S"
+}

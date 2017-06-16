@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/YSMAAOSwH09ZKiXw/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/VL8AAOSw1WJZKifZ/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/Zs4AAOSw5cRZKiXk/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/0gAAAOSwrhBZKikV/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/9LEAAOSww9xZKinD/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/MswAAOSw8lpZKkmb/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/rcQAAOSwjL5ZKjsJ/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TUMI-Voyageur-Backpack-Large-Handbag-Women-/282496950101",
+  "ConvertedCurrentPrice": {
+    "value": "450.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Best Pricing",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "450.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Phasamut Jedi",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "happydeal_1978"
+  },
+  "PrimaryCategoryID": "42526",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "TUMI Voyageur Backpack Large Handbag for Women",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T00:25:58.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P1DT6H46M19S",
+  "EndTime": "2017-06-04T00:25:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "TUMI"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack , Shoulder Bag , Purse , Tote"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282496950101",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824969501018080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

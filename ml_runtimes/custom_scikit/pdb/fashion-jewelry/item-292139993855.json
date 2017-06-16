@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT19H55M48S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292139993855",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Unworn-Robert-Lee-Morris-24k-Gold-Plate-Pulled-Heart-Bracelet-/292139993855",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T10:42:22.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T10:42:22.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Gold Plated BRass",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "Vintage Unworn Robert Lee Morris 24k Gold Plate Pulled Heart Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a vintage Robert Lee Morris \"Pulled Heart Link\"bracelet that he designed in the 1980's. It is unworn in mint condition without any fading to the gold plated brass. The bracelet is made from 24k gold plated brass and measures 8\" in length and has a lobster clasp. There is a metal tag that is stamped Robert lee Morris next to the lobster. It is a great collector's piece and has been kept in a private archive collection. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921399938558080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMzcz/z/iQEAAOSw~AVYnLT8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YIcAAOSwWxNYnLT2/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FcwAAOSwCU1YnLT5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rVQAAOSw2gxYnLT-/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "10012"
+}

@@ -1,0 +1,183 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.5"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "CHOICE BIG BRONZE COLOR COMBINATION KEYRING/POCKET WATCH. COMES WITH AN ATTACHED LOBSTER SWIVEL CLASP CONNECTED TO WATCH WITH A DOUBLE SPLIT RING. A 14\" POCKET CHAIN AND AN EXTRA BATTERY (IN CASE INSTALLED BATTERY ARRIVES DEAD).",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMwNFgxNjAw/z/ZyMAAOSwB09YJheo/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "fatfinggers",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2424",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-07T22:49:36.000Z",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T22:49:36.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "5 day return on watches not working properly. This gives plenty of time to make sure that the watch is working correctly. If there is a problem that arises after 5 days, then the watch was mishandled and you broke it. No returns after the fifth day. Watches are delicate and they will break or stop working if not properly taken care of.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "smokey",
+          "swords",
+          "crossbones"
+        ],
+        "Name": "Material"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Material",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "smokey",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjE1/z/3w0AAOSw3ydVnEji/$_57.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMDkz/z/ReQAAOSwgQ9VnEjT/$_57.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "swords",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMzE4/z/WJQAAOSwXyVYJhfF/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/AvwAAOSwcLxYJhfK/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "crossbones",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMzI0/z/IggAAOSwA3dYJhfg/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/D7cAAOSw4GVYJhfl/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.5"
+        },
+        "Quantity": "2",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "smokey",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.5"
+        },
+        "Quantity": "0",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "swords",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.5"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "crossbones",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "OH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CHOICE BIG BRONZE COLOR PIRATE-SMOKEY 2-IN-1 KEYRING/POCKET WATCH USA SELLER",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHOICE-BIG-BRONZE-COLOR-PIRATE-SMOKEY-2-IN-1-KEYRING-POCKET-WATCH-USA-SELLER-/182564756315?var=",
+  "Storefront": {
+    "StoreName": "coins&amp;watches",
+    "StoreURL": "http://stores.ebay.com/id=1057570148"
+  },
+  "ItemID": "182564756315",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT4H6M15S"
+}

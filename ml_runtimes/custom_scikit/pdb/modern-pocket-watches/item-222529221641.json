@@ -1,0 +1,142 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.9"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "17325",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "CIVIL WAR PRESIDENT ABRAHAM LINCOLN ABE PENNY POCKET WATCH NEW",
+  "StartTime": "2017-05-30T14:32:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/lRgAAOSw4A5Y0s9h/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.9"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DAI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jdggettysburg",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "12025",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225292216418080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T14:32:40.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "19.9"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CIVIL-WAR-PRESIDENT-ABRAHAM-LINCOLN-ABE-PENNY-POCKET-WATCH-NEW-/222529221641",
+  "Location": "Gettysburg, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CIVIL WAR PRESIDENT ABRAHAM LINCOLN ABE PENNY POCKET WATCH NEW",
+  "Storefront": {
+    "StoreName": "Gettysburg Civil War Store",
+    "StoreURL": "http://stores.ebay.com/id=716590136"
+  },
+  "ItemID": "222529221641",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H58M49S"
+}

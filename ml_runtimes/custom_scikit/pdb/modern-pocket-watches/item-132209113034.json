@@ -1,0 +1,100 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "South America",
+    "RU",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "IL",
+    "TR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "30",
+  "ConditionDisplayName": "New with tags",
+  "Description": "BESIKTAS SPORT CLUB MUSTAFA KEMAL ATATURK POCKET WATCH %100 ORIGINAL LICENCED... Shipping : We ship worldwide...It takes 15-20 days to Europe&Russia;20-25 days to Usa,Canada,Australia,New Zeland,Japan&Asia... Return Policy : Buyer has to pay return shipping if there is no wrong with the item...",
+  "StartTime": "2017-05-29T17:59:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/8koAAOSwB-1Ytxh9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/FgEAAOSwax5Ytxh-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/il0AAOSwTM5YtxiA/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "TR",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "subbazaar",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "272",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322091130348080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T17:59:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Istanbul",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "BESIKTAS SPORT CLUB MUSTAFA KEMAL ATATURK POCKET WATCH %100 ORIGINAL LICENCED...",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BESIKTAS-SPORT-CLUB-MUSTAFA-KEMAL-ATATURK-POCKET-WATCH-100-ORIGINAL-LICENCED-/132209113034",
+  "Storefront": {
+    "StoreName": "subbazaar",
+    "StoreURL": "http://stores.ebay.com/id=1129520035"
+  },
+  "ItemID": "132209113034",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT23H24M55S"
+}

@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921426060898080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/keIAAOSwax5Y2rdQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/jyYAAOSwmgJY2rdQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/j3UAAOSwmgJY2rdR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/kd0AAOSwax5Y2rdQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/gPoAAOSwWxNY2rdQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4MTA=/z/Z70AAOSwSlBY2rdP/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REAL-LEATHER-HANDBAG-Ladies-Leather-Handbags-Black-Soft-Genuine-Leather-2-S-/192142606089",
+  "ConvertedCurrentPrice": {
+    "value": "55.15",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: REAL LEATHER HANDBAG, Ladies Leather Handbags in Black Soft Genuine Leather. 2 Straps, Multiple Compartments and Pockets. Designer Shoulder Bags by Quenchy London. QL173",
+  "Title": "REAL LEATHER HANDBAG, Ladies Leather Handbags in Black Soft Genuine Leather. 2 S",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.15",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-28T19:19:31.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P24DT3H47S",
+  "EndTime": "2017-06-26T19:19:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Quenchy London"
+      },
+      {
+        "Name": "MPN",
+        "Value": "876379487"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142606089",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:73611846:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

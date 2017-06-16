@@ -1,0 +1,131 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "185.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359686688080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T12:53:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:53:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Victorinox Swiss Army Men's Original Leather Accented Watch #24378",
+  "BuyItNowPrice": {
+    "value": "185.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535968668",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swiss Army",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Black",
+          "Silver"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "Genuine Leather",
+          "Nylon"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Victorinox Swiss Army Men's Original Leather Accented Watch #24378, RARE!!!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Victorinox-Swiss-Army-Mens-Original-Leather-Accented-Watch-24378-RARE-/162535968668",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "4",
+  "PostalCode": "11354",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Flushing, New York",
+  "TimeLeft": "P6DT21H38M24S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0noAAOSww5hZLrxA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjE4/z/al4AAOSwaEhZLrxF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jH4AAOSwn-tZLrxB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/34oAAOSw-K9ZLrxD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FMEAAOSwX61ZLrw8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HEgAAOSwJH1ZLrw-/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "supernova010",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "23.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "13.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825024709898080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:51:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "13.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:51:14.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "BuyItNowPrice": {
+    "value": "23.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502470989",
+  "HandlingTime": "2",
+  "Description": "This is an Einstein Relativity Watch. Brand new - never used.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Einstein Relativity Wrist Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Einstein-Relativity-Wrist-Watch-/282502470989",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "2",
+  "PostalCode": "13803",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Marathon, New York",
+  "TimeLeft": "P6DT23H45M43S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTcz/z/~k0AAOSwax5Yq3ab/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "13.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "10",
+    "UserID": "1fine460",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

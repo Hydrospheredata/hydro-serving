@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/ElEAAOSwol5Y28lT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/5ucAAOSwWxNY28lT/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mercado-Global-Rosa-Tote-Beach-Bag-Black-Natural-Ultramarine-One-/201871735991",
+  "ConvertedCurrentPrice": {
+    "value": "120.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Rosa oversize tote with tassel ties and leather detail. - Name: Tote - Style: SS1747 Mercado Global Rosa Tote Beach Bag Black/Natural/Ultramarine One",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "12039",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "37percentoff"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Mercado Global Rosa Tote Beach Bag Black/Natural/Ultramarine One",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-29T14:48:48.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P24DT20H54M21S",
+  "EndTime": "2017-06-27T14:48:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "853949002754"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0853949002754"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Mercado Global"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/Natural/Ultramarine"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Model",
+        "Value": "SS1747"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201871735991",
+  "Storefront": {
+    "StoreName": "37percentoff",
+    "StoreURL": "http://stores.ebay.com/id=1200106672"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2018717359918080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,157 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P21DT8H55M1S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Good",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "38.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122519176877",
+  "ConvertedCurrentPrice": {
+    "value": "38.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-27T23:36:58.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Necklaces-Lot-3-Link-Rings-Rhinestones-Black-Beads-Crystals-/122519176877",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-26T23:36:58.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Faux Rhinestones",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Vintage Necklaces Lot of 3 Link Rings with Rhinestones - Black Beads - Crystals",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Elk Grove, California",
+  "Description": "Hi, for sale 3 vintage necklacesOne is made with gun metal and round black beads and clear faux rhinestones and measures 21 inches in lengthOne is gold toned and has linked rings with faux blue rhinestones and measures 18 inches in lengthOne is gold tones and has faux teardrop shaped rhinestones and measures 20 inches in lengthThey are adorable necklaces that are gently used in good conditionPlease email with any questions I will be glad to help. If returning item please notify me within 3 days if possible & please return item in the same condition you received it within 30 days.For the rest of return information please read ebay policy.Thanks for looking and have a blessed day!",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225191768778080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "shell555michelle",
+    "FeedbackScore": "1631",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Trinkets Jewels and Treasures",
+    "StoreURL": "http://stores.ebay.com/id=110786480"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyOVg5MDA=/z/hawAAOSwnOJWEyR2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3OVg5MDA=/z/CtUAAOSwKIpWEyTT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/O-wAAOSw4HVWEySe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3NVg5MDA=/z/GFUAAOSwunJWEyS0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMwWDg4MQ==/z/wicAAOSwx~JWEyT5/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "95624"
+}

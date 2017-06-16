@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272692887754",
+  "TimeLeft": "PT10H50M36S",
+  "ListingStatus": "Active",
+  "Title": "Michal Negrin Swarovski Crystal Victorian Pink & Fuchsia  Cross & Chain",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-05-30T01:46:22.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T01:46:22.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cross Pendant",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Michal Negrin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michal-Negrin-Swarovski-Crystal-Victorian-Pink-Fuchsia-Cross-Chain-/272692887754",
+  "ExcludeShipToLocation": "ID",
+  "Location": "Fort Lauderdale, Florida",
+  "Description": "Michal Negrin Pink & Fuchsia Swarovski Crystal Victorian Cross Beautiful Unique Flower design Vintage inspired of the Victorian era Cross Suspended between a chain with 6 Crystal beads 3 on each side Cross crafted from Brass, Swarovski Crystals Chain Length including cross is 22 inches long plus an additional 2 inches extra Cross Length Approx 2.3 Inches Long Cross width 1.1 inch across Total weight of necklace and cross 8.9 Grams 100% Authentic All the Jewelry I sell does not come with box Michal Negrin an Israeli Designer and world renowned has been creating designer Jewelry for over two decades. Stamped Made In Israel See or other Matching Jewelry",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726928877548080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "intertime1",
+    "FeedbackScore": "4823",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Intertime",
+    "StoreURL": "http://stores.ebay.com/id=3923248"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/$(KGrHqN,!jME8GG2PRqMBPR9EfRJLQ~~60_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDcw/$(KGrHqV,!hEE86b1hlS5BPR9Ev!61!~~60_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/$(KGrHqF,!k8E9G8tTy)BBPR9Fkk-Nw~~60_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/$(KGrHqN,!rkE88hC-)(oBPR9FPjH2w~~60_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDY2/$(KGrHqJ,!lIE8MN7KbsCBPR9E9G5u!~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "33328"
+}

@@ -1,0 +1,125 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUxWDEwODI=/z/-7wAAOSw5cRZMVON/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/hGEAAOSww9xZMVJF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTY1WDgwMA==/z/CsMAAOSwsXFZMVUS/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REALTREE-CAMO-TROPICAL-HEAT-SATCHEL-CONCEALED-WEAPON-CARRY-PURSE-YELLOW-/232357681854",
+  "ConvertedCurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "new color! 11X3.5X10.5 Double Strap (10 inch drop) Back concealed zipper pocket (10\"Lx 6.25\"H) 2 Separate Top Zipper Closures Multiple Inside CompartmentsCamo prints will vary as each one is unique PLUS MATCHING 7.5\" X 4.5\" WALLET International Buyers \u2013 Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying* ******International buyers: Please note: To have tracking information on your package you must purchase Priority International Shipping. Please be advised that Foreign customs can take up to 6-8 weeks in certain countries. There are no warranties expressed or given",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Bullard, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "23293",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "razzledazzle121558"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75757",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:03:48.000Z",
+  "Title": "REALTREE CAMO TROPICAL HEAT SATCHEL CONCEALED WEAPON CARRY PURSE YELLOW",
+  "TimeLeft": "P29DT21H50M43S",
+  "EndTime": "2017-07-02T12:03:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "REALTREE"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Yellow"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Material",
+        "Value": "leatherette/canvas"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4.5"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10.5"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "10"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Camouflage"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232357681854",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "RAZZLE DAZZLE CO",
+    "StoreURL": "http://stores.ebay.com/id=265397626"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323576818548080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

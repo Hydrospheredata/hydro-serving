@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921507536368080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-3.fishpond.co.nz/0116/361/908/252710411/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0116/361/908/252710412/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0116/361/908/252710413/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0116/361/908/252710414/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0116/361/908/252710415/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0116/361/908/252710416/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brics-Bag-Handle-Shoulder-Life-Portofino-Shopping-Black-Best-Price-/192150753636",
+  "ConvertedCurrentPrice": {
+    "value": "194.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Bric's Bag Handle Shoulder Life Portofino Shopping Black by Bric's Ships from UK Supplier Other information: BNF03346.001_Nero Related Searches: Shoulder Bag Bags, Bric's Bags, Bric's Shoulder Bag Weight: 1 kg",
+  "Title": "Bric's Bag Handle Shoulder Life Portofino Shopping Black. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "194.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-07T00:09:06.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P3DT7H53M12S",
+  "EndTime": "2017-06-06T00:09:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bric's"
+      },
+      {
+        "Name": "MPN",
+        "Value": "693848932"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192150753636",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:116361908:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

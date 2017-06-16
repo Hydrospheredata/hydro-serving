@@ -1,0 +1,75 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "38827",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "KANSAS CITY RAILROAD POCKET WATCH NEW AND IMPROVED QUARTZ MOVEMENT NEVER NEEDS WINDING! 26\" CHAIN AND FOB INCLUDED INSPIRED BY JESSE JAMES' TRAIN ROBBERY IN 1874 CERTIFICATE OF AUTHENTICITY BUTTERFLY HINGE PERFECTLY PAIRED 26\" POCKET CHAIN AND FOB",
+  "StartTime": "2017-04-25T16:58:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDA3/z/E-4AAOSwJ4hY~3-a/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "9",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "KANSAS CITY POCKET WATCH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "southernbellgolfer",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1586",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "84",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323135190058080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T16:58:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kansas-City-Railroad-Pocket-Watch-/232313519005",
+  "Location": "Belmont, Mississippi",
+  "Title": "Kansas City Railroad Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232313519005",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT22H11M52S"
+}

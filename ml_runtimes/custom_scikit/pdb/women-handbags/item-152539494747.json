@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/G38AAOSw-3FZDmzt/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/KJgAAOSwrhBZD3iG/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/g0AAAOSww9xZDmzo/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/YaMAAOSwY3BZDmzs/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/3r4AAOSw~y9ZDmzt/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/a14AAOSwrhBZDmzk/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kggAAOSwhvFZDmzl/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/dh0AAOSw42JZDmzo/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/bfkAAOSw42dZDmzu/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wLMAAOSwR29ZD3iJ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/KlAAAOSwhvFZD3iN/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/U0cAAOSwcB5ZD3iu/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-COACH-MADISON-Leather-Crossbody-Shoulder-Bag-Matching-Envelope-Wallet-/152539494747",
+  "ConvertedCurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT COACH MADISON Lizard Leather IPAD Crossbody/Shoulder Bag 66223 $298 As elegant as a handbag, this slender envelope is designed to hold an iPad or a tablet of similar size. Crafted in luxurious LIZARD leather, it's secured with a classic turnlock and finished with a sophisticated chain-link strap for shoulder or crossbody wear. Leather Turnlock Closure Fabric lining Adjustable strap with 20\" drop for shoulder or crossbody wear 11.50\" (L) x 8.75\" (H). NWT matching COACH MADISON envelope style wallet.",
+  "Title": "NWT COACH MADISON Leather Crossbody/Shoulder Bag & Matching Envelope Wallet",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Wichita, Kansas",
+  "Seller": {
+    "FeedbackScore": "66",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "slocke57xce"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "67206",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T00:47:59.000Z",
+  "HitCount": "48",
+  "TimeLeft": "P3DT9H42M3S",
+  "EndTime": "2017-06-06T00:47:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Style",
+        "Value": "iPAD"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152539494747",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525394947478080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

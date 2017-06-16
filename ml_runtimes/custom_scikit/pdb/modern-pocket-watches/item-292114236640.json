@@ -1,0 +1,126 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "89011",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "20",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand Name:YISUYAItem Type:Pocket & Fob WatchesDial Material Type:Stainless SteelCase Shape:RoundWater Resistance Depth:0mBezel Material Type:Stainless SteelDial Diameter:0.048mCase Material:Stainless SteelStyle:AntiqueDial Window Material Type:AcrylicMovement:QuartzFeature:noBezel Function:StationaryDial Display:AnalogModel Number:P421Condition:New with tagsGender:Unisex",
+  "StartTime": "2017-05-11T21:44:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MI0AAOSwq1JZFNq~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/bmYAAOSwKytZFNq2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/DX8AAOSwn-tZFNq4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/2yoAAOSwurZZFNq5/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Bezel Material Type"
+      },
+      {
+        "Value": "0.048m",
+        "Name": "Dial Diameter"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Antique",
+        "Name": "Style"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "highquality001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "High Quality China",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "YISUYA",
+        "Name": "Brand Name"
+      },
+      {
+        "Value": "Pocket & Fob Watches",
+        "Name": "Item Type"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Dial Material Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Case Shape"
+      },
+      {
+        "Value": "0m",
+        "Name": "Water Resistance Depth"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shippworxstore",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "4",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "21",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921142366408080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T21:44:54.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/High-Quality-Full-Metal-Alchemist-Dull-Polish-Pocket-Watch-/292114236640",
+  "Location": "Henderson, Nevada",
+  "Title": "High Quality Full Metal Alchemist Dull Polish Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "292114236640",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT3H2M31S"
+}

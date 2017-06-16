@@ -1,0 +1,189 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT5H21M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "JP",
+    "BE",
+    "FR",
+    "NZ",
+    "BR"
+  ],
+  "CurrentPrice": {
+    "value": "158.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162539211073",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ECHO-DREAMER-STERLING-MABE-PEARL-CLIP-EARRINGS-/162539211073",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "158.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T20:09:28.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-02T20:09:28.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Echo of the Dreamer",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "mabe pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "silver, white",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ECHO OF THE DREAMER STERLING MABE PEARL CLIP EARRINGS",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "UA",
+    "VA",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "I just visited the Echo of the Dreamer showroom and picked up 12 pairs from their brand new collection which I'm offering almost at wholesale price. There's nothing like Echo of the Dreamer for top quality. These one of a kind original designs created my Margaret Thurman's daughter Myoshin (her line is Mars & Valentine) feature intricately worked sterling silver webs with one large grade AAA mabe pearl in the center and two smaller pearls on each side. Very dramatic. 1\" x 1\" Clips. Margaret Thurman (Uma Thurman's aunt) created Echo of the Dreamer in 1993 with her daughter, Myoshin. These signed pieces are true collector's items renowned for their unique combinations of exquisite stones hand-set in sterling silver",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625392110738080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bestom742",
+    "FeedbackScore": "649",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Bess Heitner Handmade Jewelry Salon",
+    "StoreURL": "http://stores.ebay.com/id=159728212"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQ5WDEyMjc=/z/qksAAOSwLVZV7GB1/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10010"
+}

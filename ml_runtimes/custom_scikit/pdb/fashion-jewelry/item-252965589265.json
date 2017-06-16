@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fees: No",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P24DT5H48M27S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "NEW HAND MADE TIARA",
+  "QuantitySold": "0",
+  "HandlingTime": "20",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "1792.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252965589265",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ROYAL-VINTAGE-REPRODUCTION-12-32CT-ROSE-CUTE-DIAMOND-925-SILVER-TIARA-CROWN-/252965589265",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "1792.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T17:12:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T17:12:55.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "JMDJEWELERY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Tiara/Diadem",
+        "Name": "Style"
+      },
+      {
+        "Value": "sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "ROYAL VINTAGE REPRODUCTION 12.32CT ROSE CUTE DIAMOND 925 SILVER TIARA/CROWN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "JMDJEWELLERY Product Description Diamond Diamond Weight - 12.32ct Diamond Color - Tinted Brown Diamond Clarity - I2-I3 Diamond shape \u2013 Round Diamond Cut - Rose cut Diamond Setting - Pave Silver Silver Weight - 72.850gms Silver Purity \u2013 92.5% Silver Finish - Antique Look/Gold Plated Additional Stone - Turquoise (Lab Created)",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529655892658080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "princessjewelery",
+    "FeedbackScore": "29",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "GHAZIABAD, UTTAR PRADESH",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDEwMDA=/z/jy8AAOSw~FJZLagV/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "PostalCode": "201005"
+}

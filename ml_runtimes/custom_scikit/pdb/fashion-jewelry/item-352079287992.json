@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "Description": "Money back after received item in perfect status.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT23H56M14S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Please confirm your shipping address after payment.",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "352079287992",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BIG-925-STERLING-SILVER-FULL-FINGER-ARMOR-ADJUSTABLE-RING-4-LINKS-SIZE-L-/352079287992",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T13:03:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "TH",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T13:03:33.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Finger",
+        "Name": "Style"
+      },
+      {
+        "Value": "Cartoon, TV & Movie Characters",
+        "Name": "Theme"
+      },
+      {
+        "Value": "11-15 USA sizes",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "silver",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "BIG 925 STERLING SILVER FULL FINGER ARMOR ADJUSTABLE RING 4 LINKS SIZE L",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "925 Sterling Silver (Not plate) Item description;Height x Width : 38 x 25 mmWeight : 26 gramRing size range : 11-15 USA sizesShipping method;Normal shipping by Registered Airmail: - FREE of charge (15-30 delivery time)Fast shipping by DHL : - Please added $40 USD for fast shipping (3-5 days delivery time) Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520792879928080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "silverrabbits",
+    "FeedbackScore": "1773",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Silverrabbits",
+    "StoreURL": "http://stores.ebay.com/id=537882331"
+  },
+  "Quantity": "1",
+  "Location": "Bangkok",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mfsAAOSwB09YMWGU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lZMAAOSw4GVYMWGI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/H-oAAOSwo4pYMWGP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/yd4AAOSwiONYMWGc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mGYAAOSw4GVYMWGh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/V3cAAOSwux5YMWGs/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings"
+}

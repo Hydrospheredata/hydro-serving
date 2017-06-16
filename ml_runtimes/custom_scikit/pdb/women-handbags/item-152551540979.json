@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525515409798080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQ2MQ==/z/0B0AAOSwK6RZHCZT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDE0WDUwMA==/z/KowAAOSww9xZHCZT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAxWDUwMA==/z/H2kAAOSw5cRZHCZT/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Cole-Reaction-Womens-Business-Computer-Tote-Computer-Up-16-/152551540979",
+  "ConvertedCurrentPrice": {
+    "value": "101.18",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kenneth Cole Reaction Women's Business Computer Tote for Computer Up To 16\" - Burgundy Padded protection holds laptops up to 16\" Secure tablet iPad pocket Dimensions: 17 x 13 x 4.875. Weight: 2LB Multiple accessory pockets Business accessory organizer Stay stylish with this beautiful tote bag! Shipping We ship within Three business days of payment, usually sooner. We only ship to the lower 48 states, no APO/FPO addresses or PO Boxes allowed. We can not ship item to some states depend on kind of items. If we can't ship item to your address, we will do full refund and contact you via Ebay message as soon as possible. Local pickups and combined shipping options are not provided at this time. Return You can return a product for up to 30 days from the date you purchased it. If you would like to return your purchase merchandise, please kindly contact us via Ebay message by choosing [I have a question about using my item or I want to send a seller message] Our products are being stored and fulfiled by third party warehouses and manufacturers through out the United States, Please note that the return shipping location may differ from the return address stored on Ebay. Please refer to the return instructions and follow them accordingly to ensure successful return processes. Any product you return must be in the same condition you received it and in the original packaging. Please keep the receipt. Payment We accept payment by any of the following methods:PayPalPlease pay as soon as possible after winning an auction, as that will allow us to post your item to you sooner! Feedback Customer satisfaction is very important to us. If you have any problem with your order, please contact us and we will do our best to make you satisfied. Contact Us If you have any queries, please contact us via ebay. We usually respond within 24 hours on weekdays. Please visit our eBay store to check out other items for sale! Thank you for shopping at our store.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "101.18",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple Locations",
+  "Seller": {
+    "FeedbackScore": "1777",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "niceandniche"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kenneth Cole Reaction Women's Business Computer Tote for Computer Up To 16\" -...",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-17T10:30:44.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P13DT19H28M",
+  "EndTime": "2017-06-16T10:30:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kenneth Cole REACTION"
+      },
+      {
+        "Name": "Model",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "UPC",
+        "Value": "23572500891"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0023572500891"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152551540979",
+  "Storefront": {
+    "StoreName": "niceandniche",
+    "StoreURL": "http://stores.ebay.com/id=1167897507"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B01FFF27NM",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

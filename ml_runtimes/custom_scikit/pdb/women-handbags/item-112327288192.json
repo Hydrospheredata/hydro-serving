@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg4NDM=/z/7UwAAOSwfVpYwCRp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMyWDUwMA==/z/11YAAOSwax5YwCRo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAxWDUwMA==/z/qmEAAOSwOgdYwCRp/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/World-Traveler-Pink-Zebra-Print-Polyester-Stylish-Rolling-Laptop-Tote-New-/112327288192",
+  "ConvertedCurrentPrice": {
+    "value": "65.27",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Item Description \u00a0 A bold zebra print with pink trim lends elegance to this securely padded rolling laptop tote from World Traveler. This case features a roomy laptop compartment with velcro straps and a back compartment to organize files and papers. \u00a0 Materials: 600 denier heavy-duty polyester Dimensions: 13.5 inches high x 7 inches wide x 17 inches long Color: Black/white/pink Computer sleeve size: 12 inches high x 3 inches wide x 16 inches long Fits most 17-inch laptops Padding: Yes Pockets: 2 Hide-away multi-stage telescoping handle Adjustable and removable shoulder strap Zebra print with pink trim Dual-gusset design Fully padded, spacious top-zip main compartment Velcro straps to properly secure laptop Back compartment features fan-file to organize papers Lightweight body construction Inline skate wheels to maximize maneuverability \u00a0 \u00a0 Shipping Our items ship from US-based warehouses all across the United States. Items ship via FedEx, UPS or USPS most of the time (depending on location and package weight). You will be provided a tracking number as soon as it is available. We do ship most of our smaller items internationally using eBay's Global Shipping Program. If ordering electrical items outside of the U.S., please note that they will come equipped with a standard U.S. voltage plugs. \u00a0You will need a suitable adapter to use the item in your country. Returns We offer a 30 day return policy for our products. You must contact us prior to returning an item, we will then issue an RMA number and give you return instructions. This is so we know that it was your item that was returned.\u00a0When returning an item, it must be in all of the original packaging and include all of the original accessories or items that came with it. The item and package should be in original and perfect condition. All returns must be requested within 30 days of date of purchase. Please note that we cannot give refunds or replacements after the 30 day limit has expired. When sending in a return, please note that it can take up to 3 business days for the return to be processed. We do our best to process as quickly as possible. Some items are subject to a twenty percent restocking fee, if a fee applies it will be clearly noted in the item listing. We are extremely fair, and in the rare event of something out of the ordinary happening with our products or shipping, we will gladly work with you to find a solution. About us Trusty Commerce began with a vision of offering an outstanding shopping experience along with providing remarkable value. Our objective is to make it very easy to do business with us. We want you to feel safe & secure while shopping with us and to be very happy with your purchases. At Trusty Commerce, we are committed to customer satisfaction! We are continually adding new products on a daily basis and encourage you to visit us often.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.27",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple Locations",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "790",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "trustycommerce"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "World Traveler Pink Zebra Print Polyester Stylish Rolling Laptop Tote New",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-07T18:41:29.000Z",
+  "HitCount": "117",
+  "TimeLeft": "P3DT3H31M28S",
+  "EndTime": "2017-06-05T18:41:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "World Traveler"
+      },
+      {
+        "Name": "MPN",
+        "Value": "813102-163F"
+      },
+      {
+        "Name": "Model",
+        "Value": "813102-163F"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112327288192",
+  "Storefront": {
+    "StoreName": "Trusty Commerce",
+    "StoreURL": "http://stores.ebay.com/id=576498850"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1123272881928080_2.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

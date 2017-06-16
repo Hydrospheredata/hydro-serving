@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P17DT10H22M24S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "a bit rosier then pictures show",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDczWDYzMQ==/z/~cgAAOSwOyJX5Dyy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc1WDYzMw==/z/Dz8AAOSwzaJX5Dy3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/6VQAAOSw8gVX5Dy6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/EIEAAOSwzaJX5Dy9/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LULULEMON-MANIFESTO-SCRIPT-SCUBA-HOODIE-purple-fog-SIZE-2-/132199212900",
+  "ConvertedCurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Nice cosy hoodie one that you will love for a long time Made from cotton fleece that is pre-shrunk, machine washable & soft inside Built-in zipper garage to keep the zipper from chafing your chin Large, deep hood to keep your head and neck warm IN GOOD PRELOVED CONDITION NO RIPS TEARS OR HOLES SIZE 2 somewhat paler in colour then pictures depict",
+  "Title": "LULULEMON MANIFESTO SCRIPT SCUBA HOODIE IN purple fog SIZE 2",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Salt Spring Island, British Columbia",
+  "Seller": {
+    "FeedbackScore": "685",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkhibiscus12"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "v8k 1p4",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-21T03:03:33.000Z",
+  "HitCount": "15",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-20T03:03:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "SCUBA"
+      },
+      {
+        "Name": "Size Type",
+        "Value": "REG"
+      },
+      {
+        "Name": "Size (Women's)",
+        "Value": "2"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132199212900",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1321992129008080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

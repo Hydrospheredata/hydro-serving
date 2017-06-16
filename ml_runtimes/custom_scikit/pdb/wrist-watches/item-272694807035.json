@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "LAHARPUR, UTTAR PRADESH",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:26:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "20.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:26:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694807035",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Seiko 5",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "6309",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "20.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-SEIKO-5-DAY-DATE-AUTOMATIC-USED-WATCH-BROWN-COLOUR-/272694807035",
+  "Title": "VINTAGE SEIKO 5 DAY-DATE AUTOMATIC USED WATCH BROWN COLOUR",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726948070358080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "261135",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT17H59M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/nMwAAOSwK6RZJx6U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/p9oAAOSwsXFZJx6Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/rdcAAOSwfRdZJx6e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/cHYAAOSwlMFZJx6i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/-lsAAOSwaEhZJx62/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "VINTAGE SEIKO 5 DAY-DATE AUTOMATIC USED WATCH BROWN COLOUR",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1",
+    "UserID": "moonwatches9",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

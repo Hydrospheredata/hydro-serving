@@ -1,0 +1,173 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H26M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "46.03",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272702614334",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Multi-Beaded-Silver-Bangle-Bracelet-/272702614334",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.03",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:21:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T03:21:36.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "796483231696",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0796483231696",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "JA6775040",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "One Size",
+        "Name": "ClothingSize"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.6 x W 3.9 x H 1.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Fossil Multi-Beaded Silver Bangle Bracelet",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Amp up your arm party with our oh-so stackable beaded bracelet. - Metal - Made in China - Silver-tone double strand bracelet with metal beads and rolo chain - Imported Fossil Multi-Beaded Silver Bangle Bracelet",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727026143348080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "intuii",
+    "FeedbackScore": "10697",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "intuii",
+    "StoreURL": "http://stores.ebay.com/id=1018845053"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjcyWDE1MDA=/z/VXgAAOSwlY1ZNM5D/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwM1gxNTAw/z/QWUAAOSw-3FZNM5D/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

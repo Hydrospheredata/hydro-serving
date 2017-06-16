@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322484397498080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/GVEAAOSwlndZMTMA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/QR8AAOSw42dZMTMD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/wF4AAOSwZ4dZMTME/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/SvYAAOSw3gJZMTMG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/yS8AAOSw5cRZMTMH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/zzIAAOSwGJlZMTMI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA3WDgwMA==/z/QIUAAOSwcgNZMTMJ/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/100-Authenticated-Vintage-Cartier-Sapphire-Line-W-Chain-Shoulder-Bag-Purse-/332248439749",
+  "ConvertedCurrentPrice": {
+    "value": "417.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "100% Authenticated Vintage Cartier Sapphire Line W Chain Shoulder Bag Purse Color / Material Dark Navy / Calf Leather Sizes Approx L7in\u00d7H6.8in\u00d7D2.1in Strap Drop44.4in Approx L18\u00d7H17.5\u00d7D5.5cm Strap Drop113cm Features 1 interior pocket, 2 exterior pockets Exterior AB grade\uff1aVery good condition. Some scratches on the surface. Interior AB grade\uff1aVery good condition. Some scratches on the leather part. Corners & Trim Good condition Metal Good condition Smell No other noticed. *Note: Please understand that senses of smell varies by person Come with Guarantee card Code No CA170402A",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "417.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Tokyo",
+  "Seller": {
+    "FeedbackScore": "66",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "glamorous-japan"
+  },
+  "PrimaryCategoryID": "63852",
+  "Country": "JP",
+  "ListingType": "FixedPriceItem",
+  "Title": "100% Authenticated Vintage Cartier Sapphire Line W Chain Shoulder Bag Purse",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:42:34.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P9DT19H14M20S",
+  "EndTime": "2017-06-12T09:42:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Cartier"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332248439749",
+  "Storefront": {
+    "StoreName": "Glamorous Japan",
+    "StoreURL": "http://stores.ebay.com/id=1181929844"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays the shipping fees). The item MUST be refunded after received the item in same condition as we ship out.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "CA170402A",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

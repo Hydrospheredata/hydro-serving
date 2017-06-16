@@ -1,0 +1,163 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "64.29",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Yorkshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:33:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:33:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705612619",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sekonda",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "24-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Sekonda 3378",
+        "Name": "Model"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SEKONDA MENS 'AVIATOR' CHRONOGRAPH WATCH MODEL 3378 \u00a349.99 RRP \u00a379.99",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEKONDA-MENS-AVIATOR-CHRONOGRAPH-WATCH-MODEL-3378-49-99-RRP-79-99-/172705612619",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727056126198080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "LE53NE",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H10M35S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzUwWDUwMA==/z/IxwAAOSwOyJX678B/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Sekonda 3378 \u00a349.99 RRP \u00a379.99 Get yours now for the awesome price of \u00a349.99 The Cheapest Price on the Internet and Ebay Guaranteed Men's genuine leather strap chronograph watchfeaturing a striking yellow dial, three subsidiary dials and 24-hour functions with date window The watch is fitted with a genuine black leather strap with yellow stitching andmeasures approx. 22mm wide and fastens with a stainless steel buckle.The Wristwatch Features the Following:Stainless Steel CaseBlack Leather StrapStainless Steel Buckle FasteningYellow Dial3 Hand Time - 24 Hour, Date and ChronographQuartz MovementWater Resistant To 50MGenuine presentation box2 Years Manufacturer's Guarantee",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1101",
+    "UserID": "sportz111",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "No Returns Accepted",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

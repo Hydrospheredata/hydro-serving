@@ -1,0 +1,87 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "In good working condition. You get exactly what you see.Appearance is much better than in the photo. Suitable for collection and for everyday use.If you have questions - ask! See my other items. Shipping Worldwide $10 International air mail with tracking number. Payment:Paypal Please do not leave neutral or negative feedback.\u0421ontact with me first. THANK YOU FOR LOOKING !!!",
+  "StartTime": "2017-05-11T01:23:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kf4AAOSw5cNYQP5N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qUgAAOSwA3dYQP42/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/h~QAAOSwo4pYQP4u/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rdEAAOSwux5YQP4~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SgAAAOSwEzxYQP4n/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1980-1989",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Molnija",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "collectibles_from_ussr",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "528",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "33",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225124961838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T01:23:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Kryvoy Rog, \u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+  "Title": "Molnija \"Deers\" Hunting Theme.Soviet Pocket watch.Cal 3602.",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Molnija-Deers-Hunting-Theme-Soviet-Pocket-watch-Cal-3602-/322512496183",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322512496183",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT6H41M24S"
+}

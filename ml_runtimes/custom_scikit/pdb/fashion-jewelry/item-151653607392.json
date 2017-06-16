@@ -1,0 +1,112 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "PT21H58M25S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "151653607392",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Green-Violet-Glasses-Holder-Nickel-Free-Leather-Turquoise-Jade-cp-gh-17g-/151653607392",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2015-04-18T09:09:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T09:09:57.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tamarusan Ginza",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper and Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "cp-gh-17g",
+        "Name": "Product number"
+      }
+    ]
+  },
+  "Title": "Green Violet Glasses Holder Nickel Free Leather Turquoise Jade cp-gh-17g",
+  "ExcludeShipToLocation": "JP",
+  "BidCount": "0",
+  "Description": "International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying. It usually takes around 10-15 days for arrival Handmade. made in Japan.Because it is cut into random part of the picture, it will be a shade different point by point. The actual pictures may differ slightly from the photo shown. Our concepts are to offer something beyond the bounds of accessories which attract everyone regardless of age or sex. The jewel stone parts are made with acrylic resin. We trap various materials in clear resin such as hand-drawing, embroidery and beads. Please hang glasses on a ring part and use it as glasses holder. The jewel stone parts are made with acrylic resin. We use the turquoise and jade to match the color of the resin. the total length 43.5cm length 4.7cm and width 2.5cm [charm] width of glasses temple until 1.5cm material ---- the main parts\uff1aepoxy resin metal: plated copper and brass",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1516536073928080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tamarusan",
+    "FeedbackScore": "7",
+    "FeedbackRatingStar": "None"
+  },
+  "Storefront": {
+    "StoreName": "tamarusan",
+    "StoreURL": "http://stores.ebay.com/id=1206526448"
+  },
+  "Quantity": "1",
+  "Location": "Tokyo",
+  "HitCount": "345",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/gmsAAOSwymxVMh6V/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/jboAAOSwBLlVMh6Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/g0oAAOSwymxVMh6d/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/b5AAAOSwstxVMh6f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/g9IAAOSwymxVMh6i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/dYsAAOSwNSxVMh6q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMFgxNjAw/z/t0cAAOSwBahVMh6w/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

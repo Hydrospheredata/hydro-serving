@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT9H9M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "361979908795",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-CORAL-ANGEL-SKIN-ACRYLIC-EARRINGS-/361979908795",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T00:03:18.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T00:03:18.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Acrylic",
+        "Name": "Material"
+      },
+      {
+        "Value": "EARRINGS",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE CORAL ANGEL SKIN ACRYLIC EARRINGS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SIGNED CLIP ON EARRINGS MEASURES 2 1/2 CORAL AND PINK ACRYLIC. NEW ON ORIGINAL CARD.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619799087958080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "almongillo",
+    "FeedbackScore": "32841",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "almongillo",
+    "StoreURL": "http://stores.ebay.com/id=342251"
+  },
+  "Quantity": "1",
+  "Location": "Danbury, Connecticut",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA1WDU3Ng==/z/7aoAAOSwUKxYcE8v/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "06813"
+}

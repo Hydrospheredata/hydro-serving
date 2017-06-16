@@ -1,0 +1,93 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "y***u",
+    "FeedbackScore": "709"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/oZkAAOSw4CFY0OPR/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/bIkAAOSwCU1Y0OPi/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/S-IAAOSwzgBY0OPo/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beauty-and-Beast-Red-Rose-Durable-Canvas-Travel-Duffel-Bag-Ourdoor-/252823281714",
+  "ConvertedCurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "FJ",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2694",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "fancyluckyjane"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Beauty and the Beast Red Rose Durable Canvas Travel Duffel Bag Ourdoor",
+  "GlobalShipping": "false",
+  "Quantity": "10",
+  "StartTime": "2017-03-21T08:27:47.000Z",
+  "HitCount": "129",
+  "TimeLeft": "P16DT14H32M47S",
+  "EndTime": "2017-06-19T08:27:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "fancyluckyjane"
+      },
+      {
+        "Name": "Style",
+        "Value": "Modern"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "574518803816"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252823281714",
+  "Storefront": {
+    "StoreName": "fancyluckyjane",
+    "StoreURL": "http://stores.ebay.com/id=1255800385"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CN",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2528232817148080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

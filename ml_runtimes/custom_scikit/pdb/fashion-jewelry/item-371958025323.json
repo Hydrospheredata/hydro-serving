@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT12H9M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.2",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371958025323",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Jewelry-PINKTINA-LEOPORD-BALLERINA-NECKLACE-NWT-/371958025323",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.2",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T03:15:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T03:15:32.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hobo",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "885043978727",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Betsey Johnson Jewelry PINKTINA LEOPORD BALLERINA NECKLACE NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Betsey Johnson Jewelry PINKTINA LEOPORD BALLERINA NECKLACE PINKALICIOUS ! Fun! Dance like nobody's watching. Rose gold tone necklace chains with pink ballerina in leopard tutu with crystal accents. Crafted in a rose gold-tone mixed metal. Rose gold tone necklace chains with crystal cup chain accent and pink patina tone bows Shaky faceted mixed oval-shaped beads and faux pearls Pink ballerina with crystal accents and leopard printed tutu Lobster claw Rose gold Metal/glass/plastic/fabric 4mm Plastic 15 length + 3 extender; frontal width 1.5; frontal drop 2.5 ballerina drop 1.75 PINKTINA Collection Limited Edition Thank you for looking at our listing Your product is guaranteed new and authentic! We Ship SAME DAY with US Postal Service Guaranteed Delivery! Contact us with any questions! Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719580253238080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellabacciaccessories",
+    "FeedbackScore": "3395",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Bellabacciaccessories",
+    "StoreURL": "http://stores.ebay.com/id=598323925"
+  },
+  "Quantity": "2",
+  "Location": "Costa Mesa, California",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg2ODE=/z/5MMAAOSw-3FZIlfX/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92627"
+}

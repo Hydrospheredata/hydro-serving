@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT1H6M26S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "SKU": "5\" Baby Bracelet (Plain) 24080",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "371969090695",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-5-Baby-Bracelet-NWT-R-75-00-/371969090695",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T15:56:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T15:56:27.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "092882124080",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Sterling Silver 5\" Baby Bracelet - NWT R$75.00",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Middle East",
+    "Southeast Asia"
+  ],
+  "BidCount": "0",
+  "Description": "Sterling Silver 5\" Baby Bracelet - NWT R$75.00 Check out my other items! Be sure to add me to your favorites list! I ship free on as many items as possible. I am always willing to quote a reduced price on a multi-item order and on wholesale lots. Please send me your wish list and I will return with a no obligation quote.I ship mostly via priority mail or first class mail and almost always within a day \u2026. you will receive promptly...no questions asked returns...no rules...just common sense (if it makes sense to you then it will to me)...all this adds up to make my business really good and I am thankful for that...Charlie Media mail is an exception\u2026service is pretty good and the cost is low\u2026 items going via media mail should be listed that way. Thank you looking. I am a one person business having a bit of a good time doing this. I buy inventories that have a lot of variety and common uses. I also like items that are simply unique, have good perceived value, and/or would be fun to own. I am proud of my 100% positive feedback and will make sure that you are pleased as well. So come back often \u2026roam around my store\u2026 http://stores.ebay.com/Continental-Marketing-Inc I have tried to structure store categories (CLICK ON SHOW SUB CATEGORIES at bottom of list \u2026now right click and create a shortcut for your desktop so that coming back will be easier) in a user friendly manner\u2026there are lots of neat items with more being added frequently. Charlie Ladd PS\u2026. Tell a friend about me",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719690906958080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "thm37",
+    "FeedbackScore": "31440",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "Continental Marketing Inc",
+    "StoreURL": "http://stores.ebay.com/id=23727658"
+  },
+  "Quantity": "1",
+  "Location": "Waterville, Maine",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SGsAAOSwxu5ZMDiZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~LgAAOSw42JZMDii/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/314AAOSwuMZZMDin/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk3WDE2MDA=/z/tRQAAOSw0hlZMDiq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xasAAOSw8HBZMDiv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qcYAAOSwrhBZMDi1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Io0AAOSwK6RZMDi5/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "04901"
+}

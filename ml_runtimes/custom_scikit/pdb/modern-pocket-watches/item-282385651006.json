@@ -1,0 +1,171 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.97"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Specification: * Item Type: Pocket Watch * 100% brand new with excellent workmanship * Case Material: Alloy * Chain Material: Alloy * Case diameter(cm): approx 4.6 * Case thickness(cm): approx 1.0 (cover included) * Chain length(cm): approx 36.5 (hook included) * Watch weight(g): approx 89 * Water resistant:Daily water resistant, please don't put it in water *Retro watch case brings you back to your memory in youth Perfect addition to a formal or casual dressing or collecting Note: Take Attention: How to set time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. Package included: 1* Pocket watch 1* Chain 1* Gift box 1* wristband - Vintage pocket watch with a black tone metal chain - Japanese quartz movement - Skeleton Dial with golden roman numerals scale - Metal Chain Length 36.5cm (14 inches),Can be worn like a Belt decorative pendant or put in the pocket - Best gift, come with a gift box CSMARTE Classic Smooth Surface Mechanical Black Pocket Watch with Chain",
+  "StartTime": "2017-03-06T17:20:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/KgwAAOSwol5YvZpw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/eSgAAOSw4CFYvZpw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sLIAAOSwCU1YvZpw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/V2UAAOSw32lYvZpv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/m04AAOSwdGFYvZpv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/u5UAAOSwTuJYvZpw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ0WDE1MDA=/z/FNoAAOSwSlBYvZpv/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "6931314135789",
+        "Name": "EAN"
+      },
+      {
+        "Value": "CSMARTE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "black-2",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.1 x W 2 x H 1.1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "45",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2823856510068080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:20:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.97"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CSMARTE Classic Smooth Surface Mechanical Black Pocket Watch with Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CSMARTE-Classic-Smooth-Surface-Mechanical-Black-Pocket-Watch-Chain-/282385651006",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385651006",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H28M45S"
+}

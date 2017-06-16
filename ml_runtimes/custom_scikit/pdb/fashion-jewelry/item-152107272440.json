@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P17DT16H1M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "406.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "152107272440",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Glasses-Holder-Tibet-Agate-Onyx-Hematite-Lapis-Lazuri-Quartz-ho-gh-1b-/152107272440",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "406.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-05-29T03:12:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T03:12:16.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tamarusan Ginza",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper and Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Onyx",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "ho-gh-1b",
+        "Name": "Product number"
+      }
+    ]
+  },
+  "Title": "Glasses Holder Tibet Agate Onyx  Hematite Lapis Lazuri Quartz ho-gh-1b",
+  "ExcludeShipToLocation": "JP",
+  "BidCount": "0",
+  "Description": "It is the eyeglass holder necklace using the resin parts of the \"flame series (blue)\". You can hang the glasses to the ring portion. Clear stones above the resin is a crystal. We connect the Tibet agate and onyx and an artificial turquoise and lapis lazuli and a magnetic containing hematite. The main parts:epoxy resin, metal: plated copper and brass, leather, length 6.6cm and width 4.5cm, length 56.5cm, width of glasses temple until 3.3cm. Because the company's stock is also serves as a real stores and its Web site other sites, there is also a case of sold out by the time difference. The other at the Ginza store, we offer a large number commodity. Handmade. Made in Japan. Because it is cut into random part of the picture, it will be a shade different point by point. The actual pictures may differ slightly from the photo shown. The jewel stone parts are made with acrylic resin. International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1521072724408080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tamarusan",
+    "FeedbackScore": "7",
+    "FeedbackRatingStar": "None"
+  },
+  "Storefront": {
+    "StoreName": "tamarusan",
+    "StoreURL": "http://stores.ebay.com/id=1206526448"
+  },
+  "Quantity": "1",
+  "Location": "Tokyo",
+  "HitCount": "162",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/61wAAOSwNsdXSlzl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/188AAOSwQaJXSlz1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~IcAAOSwBPNXSl0E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/7rIAAOSwNsdXSl0f/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

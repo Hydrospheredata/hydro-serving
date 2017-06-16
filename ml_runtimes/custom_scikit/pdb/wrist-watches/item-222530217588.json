@@ -1,0 +1,83 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225302175888080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T13:15:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:15:44.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "One year old citizen eco drive chronograph. Hardly worn excellent shape. 375 new",
+  "BuyItNowPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530217588",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen Eco-Drive",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Citizen Eco-Drive",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "citizen eco-drive",
+  "ConditionDescription": "purchased a year ago. hardly worm excellent shape <br>",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/citizen-eco-drive-/222530217588",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "PostalCode": "46774",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "New Haven, Indiana",
+  "TimeLeft": "P6DT22H2M16S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/NvsAAOSwTglYkQmd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/sFwAAOSwB-1Y5V1M/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "142",
+    "UserID": "jeyoder",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

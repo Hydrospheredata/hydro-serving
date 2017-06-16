@@ -1,0 +1,60 @@
+{
+  "QuantitySold": "0",
+  "Title": "Beautiful antique rhinestone belt clip",
+  "PostalCode": "11702",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Gorgeous st. John's knit Buckle clip selling as is missing 2 clips.... Circa 1990",
+  "StartTime": "2017-05-13T19:46:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/GXwAAOSwo4pYZ-H1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/rrEAAOSwUKxYZ-IE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/zqIAAOSwZQRYZ-IW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/BSsAAOSwt5hYZ-Il/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "thornetreasures77",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "11",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629838149838080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-12T19:46:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-antique-rhinestone-belt-clip-/262983814983",
+  "ConditionDescription": "missing seconds Buckle clip",
+  "Location": "Babylon, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "262983814983",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT1H5M45S"
+}

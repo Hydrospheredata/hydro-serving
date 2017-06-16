@@ -1,0 +1,154 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.79",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Peterborough",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:39:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "4.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T12:39:14.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705795391",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "16.2mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "RL-2456",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "4.5",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Royal-London-Stainless-Steel-Quartz-Wrist-Watch-/172705795391",
+  "Title": "Ladies Royal London Stainless Steel Quartz Wrist Watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727057953918080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "PE67NG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H23M27S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V4gAAOSwSlBY12m2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IBAAAOSwB-1Y12nB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/z3YAAOSw4CFY12nL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZSoAAOSwhQhY12nU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W60AAOSwWxNY12nd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q2EAAOSwzgBY12np/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Ladies Royal London Stainless Steel Quartz Wrist Watch The case is in good condition. Any marks or scratches are commensurate with age. The ivory coloured dial is in excellent condition. The hour hands are in silver tone. The hour markers are silver tone.Fitted with a stainless steel bracelet strap 17 cm long (total length). The case measures approximately: 20 mm. x 17 mm.Fully working and keeping good time. Ready to wear.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "654",
+    "UserID": "steve5558diy",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

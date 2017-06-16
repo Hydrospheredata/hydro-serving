@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921514551288080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MG8AAOSwhQhY5~fk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDc4/z/MNwAAOSwnF9Y5~fk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3ODM=/z/psYAAOSwB-1Y5~fk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5OTQ=/z/EVAAAOSwpP9Y5~fk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NTI=/z/9CYAAOSwls5Y5~fk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMzWDE1MDA=/z/XZ4AAOSwmgJY5~fk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE4WDE1MDA=/z/mJAAAOSwpkFY5~fk/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RADLEY-Alphabetti-Dog-Large-Oilskin-Shoulder-Bag-RRP-89-NEW-Free-Shippi-/192151455128",
+  "ConvertedCurrentPrice": {
+    "value": "132.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Radley 'Alphabetti Dog' large shoulder bag . Fastens with a zip. Slip pocket on the back of the bag. Internally, one zipped pocket and two slip pockets. Measures 33cms wide x 37cms excluding the straps x 11cms. Brand new with price ticket. RRP \u00a389.",
+  "Title": "RADLEY 'Alphabetti Dog' Large Oilskin Shoulder Bag - RRP \u00a389 - NEW. Free Shippi",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "132.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-07T19:02:46.000Z",
+  "HitCount": "29",
+  "TimeLeft": "P4DT2H47M13S",
+  "EndTime": "2017-06-06T19:02:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "RADLEY"
+      },
+      {
+        "Name": "MPN",
+        "Value": "929792983"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151455128",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:126518236:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

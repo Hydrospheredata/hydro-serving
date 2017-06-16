@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "328.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922052985058080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/5hkAAOSwIaFZMWGX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/ImYAAOSwrhBZMWGX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/x~gAAOSw42dZMWGW/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-New-York-Leeword-Place-Rainn-Leather-Tote-/192205298505",
+  "ConvertedCurrentPrice": {
+    "value": "249.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store About Us Contact Us kate spade new york Leeword Place Rainn Leather Tote Color/material: soft porcini leatherExterior design details: gold-tone hardwareInterior design details: fabric lining, interior pocketsMeasures 13.25in wide x 11in high x 5.75in deepTop handles drop 8.5inZippered topImportedPlease note: All measurements were taken by hand and are approximate; slight variations may occur.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "249.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Shepherdsville, Kentucky",
+  "Seller": {
+    "FeedbackScore": "511",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "la_via"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40165",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:01:08.000Z",
+  "Title": "Kate Spade New York Leeword Place Rainn Leather Tote",
+  "TimeLeft": "P29DT22H52M4S",
+  "EndTime": "2017-07-02T13:01:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Style",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Soft Porcini"
+      },
+      {
+        "Name": "Size",
+        "Value": "NoSize"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689993096"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205298505",
+  "Storefront": {
+    "StoreName": "La Via Store",
+    "StoreURL": "http://stores.ebay.com/id=1595839561"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "11602865790000",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

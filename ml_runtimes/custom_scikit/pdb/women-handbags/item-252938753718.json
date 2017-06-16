@@ -1,0 +1,141 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MXcAAOSwjDZYhBTg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/juoAAOSwLEtYhBTi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/4IcAAOSw2xRYhBTj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/b70AAOSwNnRYhBTk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/c4QAAOSwZQRYhBTm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/4P4AAOSwImRYhBTn/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/j00AAOSwLEtYhBTo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/QHAAAOSw241YhBTp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/CHoAAOSw5cNYhBTs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/GckAAOSwE0JY9Nya/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/JXYAAOSwVm5Y9NyT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KYEAAOSwVm5Y9Ny3/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Franklin-Covey-Donna-Leather-Red-Business-Case-Wheels-/252938753718",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Franklin Covey Donna Leather Red Business Case On Wheels",
+  "Title": "Franklin Covey Donna Leather Red Business Case On Wheels",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Powder Springs, Georgia",
+  "Seller": {
+    "FeedbackScore": "1091",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "770plusme"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30127",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-14T23:27:03.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P11DT8H23M47S",
+  "EndTime": "2017-06-13T23:27:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Franklin Covey"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Style",
+        "Value": "Rolling Briefcase"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252938753718",
+  "Storefront": {
+    "StoreName": "Ivey s Closets",
+    "StoreURL": "http://stores.ebay.com/id=795917469"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529387537188080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

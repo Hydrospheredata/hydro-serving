@@ -1,0 +1,154 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.1",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:28:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1420725051",
+    "StoreName": "aotoper"
+  },
+  "CurrentPrice": {
+    "value": "8.1",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:28:47.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CURREN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "MA",
+    "NG",
+    "ZW",
+    "BH",
+    "YE",
+    "BD",
+    "CN",
+    "IN",
+    "PK",
+    "LK",
+    "GU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "AT",
+    "BE",
+    "DE",
+    "IE",
+    "IT",
+    "CH",
+    "GB",
+    "PR",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN",
+    "EC",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "302334255394",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Men's Women's Date Leather Stainless Steel Military Sport Quartz Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "20156078-2/120112aot",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Mens-Womens-Date-Leather-Stainless-Steel-Military-Sport-Quartz-Wrist-Watch-/302334255394",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023342553948080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT19H5M53S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/MxQAAOSw5dNWoKYY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/KaMAAOSwqrtWoKYd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/KEAAAOSwpRRWoKYi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMTk0/z/ejEAAOSwL7VWoKYo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/evMAAOSwL7VWoKYx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMTk0/z/zfIAAOSwLnlWoKY4/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "8.1",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.8",
+    "FeedbackScore": "23532",
+    "UserID": "aotoper",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/laMAAOSwAPVZJc2A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wqAAAOSws5pZJc1o/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OfgAAOSwjqVZJc11/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/X48AAOSw8lpZJc2M/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0tIAAOSwhvFZJc03/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Bh8AAOSw~FJZJc1K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JgoAAOSwn-tZJc2V/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JmcAAOSwn-tZJc2c/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Woolrich-Vintage-Classic-Mens-Large-Fanny-Pack-Hunters-Farmers-Outdoorsmen-/302326848574",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Nice bag - could be vintage - but in very good condition. No rips or tears or stains. There are some scuff marks on the bottom due to normal use - see pics. The bottom looks to be some kind of leather or leather like material. The lining is red and in good condition with a zippered pocket. Measured as pictured - 48.25\" around, although the strap is adjustable. The green bag part measures approx. 24\" long. Bag itself measures approx. 5\" x 21\" x 5\". Pictures reflect some lint that was on bag. You could get a lot of stuff in this bag - hunters, farmers, hiking !",
+  "Title": "Woolrich Vintage Classic Men's Large Fanny Pack / Hunters, Farmers, Outdoorsmen",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "North Lewisburg, Ohio",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "192",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "downpoison15"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "43060",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T18:35:20.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P21DT1H37M40S",
+  "EndTime": "2017-06-23T18:35:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Woolrich"
+      },
+      {
+        "Name": "Material",
+        "Value": "65% Wool / 35% Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Waist Band Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302326848574",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023268485748080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

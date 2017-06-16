@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P17DT2H52M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "391190811362",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Whispering-Shades-Female-Intimate-Body-Clip-Floral-Glass-Beads-Gold-GEP-/391190811362",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2015-07-03T19:13:46.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-22T19:13:46.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BeautiflStuff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Electroplate",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Whispering Shades Female Intimate Body Clip Floral Glass Beads Gold GEP",
+  "ExcludeShipToLocation": [
+    "CN",
+    "HK"
+  ],
+  "BidCount": "0",
+  "Description": "Click Here. Double your traffic. Get Vendio Gallery - Now FREE! Gorgeous female intimate clips in gold electroplating adorned with little flowers and pink/blue glass beads. Very cute and feminine. Easy to wear. Get one before they're all snatched up! ;) Track Page Views With Auctiva's FREE Counter On Jul-03-15 at 14:20:46 PDT, seller added the following information: Every buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3911908113628080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "beautiflstuff",
+    "FeedbackScore": "21868",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "BEAUTIFLSTUFF Sexy Hot Body Chains",
+    "StoreURL": "http://stores.ebay.com/id=87170296"
+  },
+  "Quantity": "6",
+  "Location": "Boynton Beach, Florida",
+  "HitCount": "466",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTQ5WDY4MQ==/z/U48AAOSwLVZVlt6W/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ5WDY4MQ==/z/XecAAOSwgQ9Vlt6Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTU5WDY4MQ==/z/dVgAAOSwyQtVlt6Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTU5WDY4MQ==/z/lqkAAOSw3ydVlt6b/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33435"
+}

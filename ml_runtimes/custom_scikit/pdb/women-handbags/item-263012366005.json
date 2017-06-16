@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjkzWDY0MA==/z/y9kAAOSw4CFYt42g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI2WDU5OQ==/z/IEkAAOSwdGFYt42v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzMxWDU2Ng==/z/K0sAAOSwax5Yt42x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzcyWDU3MA==/z/BMUAAOSwhlZYt42y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY2WDU5Mw==/z/BRMAAOSw2gxYt42z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTgyWDQzNg==/z/rdsAAOSw4A5Yt42-/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Puppy-Pug-Dog-Face-Backpack-Bag-NWT-138-Authentic-/263012366005",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new with tags. Authentic betsey Johnson!! So cute black & ivory quilted faux leather backpack with pug dog face. The dog has one ear pierced with betsey earring. Top grab handle. Adjustable shoulder straps. Fully lined. Interior zip pocket and slide pockets. Top zip around closure. Black Pom Pom detail. Exterior zipper pocket. $138 retail price! I guarantee that all my items are authentic. I can combine shipping if you want more than one of my items CANADA BUYERS- I can go down on shipping. Just msg me:)",
+  "Title": "Betsey Johnson Puppy Pug Dog Face Backpack Bag NWT $138 Authentic!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Antioch, Tennessee",
+  "Seller": {
+    "FeedbackScore": "1335",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "chri-creg"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37013",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T04:05:52.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P27DT13H17M6S",
+  "EndTime": "2017-06-30T04:05:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black & ivory"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Height",
+        "Value": "15.5\""
+      },
+      {
+        "Name": "Length",
+        "Value": "12.5\""
+      },
+      {
+        "Name": "Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263012366005",
+  "Storefront": {
+    "StoreName": "chri-creg",
+    "StoreURL": "http://stores.ebay.com/id=1387885057"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630123660058080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

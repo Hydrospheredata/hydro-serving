@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P18DT2H58M29S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "You are welcome to contact us if you have any questions.Thank you :)",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222522358529",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Crystal-Shoulder-Chain-Body-Chain-Necklace-Bridal-Wedding-Jewelry-Accessory-/222522358529",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-24T18:17:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T18:17:09.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Crystal Shoulder Chain Body Chain Necklace Bridal Wedding Jewelry Accessory",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "welcome to our shop New Crystal Shoulder Chain Body Chain Necklace Bridal Wedding Jewelry Accessory",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225223585298080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "xuut2084",
+    "FeedbackScore": "6",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "\u82cf\u5dde\u5e02, \u6c5f\u82cf\u7701",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzM0WDczOQ==/z/S6kAAOSwYlRZJP2~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQwWDczOA==/z/R54AAOSwlMFZJP23/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM3WDczNA==/z/XoYAAOSw7GRZJP25/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDY5WDcwMw==/z/LekAAOSwurZZJP26/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzYwWDcyOQ==/z/H90AAOSwq1JZJP28/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc0WDcwOQ==/z/4KIAAOSww5hZJP2-/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains"
+}

@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT3H50M14S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "\"EXCELLENT!\"",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292140243713",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T16:43:05.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Camrose-Kross-Jacqueline-Kennedy-24k-Gold-Plated-Enamel-Scott-Brooch-Pin-/292140243713",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T16:43:05.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Camrose & Kross",
+        "Name": "Brand"
+      },
+      {
+        "Value": "24k Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Green Enamel",
+        "Name": "Color"
+      },
+      {
+        "Value": "Crystals",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Camrose & Kross Jacqueline Kennedy 24k Gold Plated Enamel Scott Brooch Pin",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Palm Coast, Florida",
+  "Description": "Camrose & Kross Jacqueline Kennedy Scott Brooch -Pin. Gold-Plated, Green Enamel with Crystal Accents!This is a beautiful brooch; new in velvet box with papers. Camrose and Kross has reproduced the Jacqueline Kennedy Collection as costume jewelry. Most of the peices are white metal alloys electroplated in either 24k gold, rhodium or platinum. NOTE: The entire Jacqueline Kennedy Collection by Camrose & Kross has been retired and all tooling destroyed. This fabulous collection was onlyavailable from QVC. Thus, each piece is becoming increasing hard to find and no more pieces will ever be reproduced. *Please pay upon purchase with PayPal. Thanking you in advance for your purchase & positive feedback!",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921402437138080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jamisonalbin",
+    "FeedbackScore": "937",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7s8AAOSwTuJYu28U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gHAAAOSwB-1Yu284/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pEAAAOSwax5Yu29I/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "32164"
+}

@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/HDkAAOSwhvFZCmbR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/9UEAAOSw42JZCmbZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-Triple-Compartment-Travel-Bag-Paisley-Paradise-Carry-NWT-/391793306666",
+  "ConvertedCurrentPrice": {
+    "value": "57.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand New w. tags Vera Bradley Triple Compartment Travel Bag Pattern: Paisley in Paradise Carry On Compliant - Zipper Closure Measures: 20 X 13 X 7\" 12\" Strap Drop Bag has 3 separate zipper closure compartments. Trolley Sleeve and 2 slip pockets on back. Front compartment features 2 slip pockets. Middle compartment features 5 elastic mesh pockets. Back compartment features a padded laptop compartment. Retail: $108",
+  "Title": "VERA BRADLEY Triple Compartment Travel Bag Paisley in Paradise Carry On NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Marlton, New Jersey",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "3435",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "nbt1224"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08053",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-24T01:00:05.000Z",
+  "HitCount": "20",
+  "TimeLeft": "PT7H17M43S",
+  "EndTime": "2017-06-03T01:00:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Fabric"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003306031"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391793306666",
+  "Storefront": {
+    "StoreName": "nbt1224",
+    "StoreURL": "http://stores.ebay.com/id=195527892"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917933066668080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

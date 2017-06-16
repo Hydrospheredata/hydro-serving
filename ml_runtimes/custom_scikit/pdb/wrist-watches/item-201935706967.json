@@ -1,0 +1,184 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "HongKong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:12:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1201108501",
+    "StoreName": "Galaxytops"
+  },
+  "CurrentPrice": {
+    "value": "2.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:12:46.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "LVPAI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "LVP0616919866870AI",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2.8cm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "8288",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "0.6cm",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Does not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "TR",
+    "CN",
+    "PK",
+    "LK",
+    "HR",
+    "GG",
+    "JE",
+    "LI",
+    "LT",
+    "MC",
+    "ME",
+    "SJ",
+    "VA",
+    "DM",
+    "HK",
+    "ID",
+    "MO",
+    "TW",
+    "BO",
+    "CL",
+    "FK",
+    "GY",
+    "SR",
+    "PO Box"
+  ],
+  "ItemID": "201935706967",
+  "HandlingTime": "1",
+  "Description": "Watches Women Quartz Wristwatch Clock Ladies Dress Gift Watches Feature: Gender:Women Sytle:Fashion casual Dial board diameter:2.8cm Strap length:19.5cm Strap width:1cm Weight:About 37g Color:Silver,Gold Package Content: 1 x Wrist Watch(without retail package)",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Luxry Women's Watch Full Stainless Steel Rose Gold Analog Quartz Wristwatch Gift",
+  "NewBestOffer": "false",
+  "SKU": "ZLN60822250GD",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Luxry-Womens-Watch-Full-Stainless-Steel-Rose-Gold-Analog-Quartz-Wristwatch-Gift-/201935706967",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019357069678080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H55M34S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDgxMA==/z/Wh0AAOSwAuZX3Kez/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "2.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "237986",
+    "UserID": "e_coming",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

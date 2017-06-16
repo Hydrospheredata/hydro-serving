@@ -1,0 +1,216 @@
+{
+  "ExcludeShipToLocation": [
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BT",
+    "KZ",
+    "KG",
+    "MN",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AI",
+    "AG",
+    "BZ",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HN",
+    "NI",
+    "PA",
+    "PR",
+    "VC",
+    "TC",
+    "KH",
+    "LA"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.26"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "HandlingTime": "0",
+  "EligibleForPickupDropOff": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/f1YAAOSw4A5YquoP/$_12.PNG?set_id=880000500F"
+  ],
+  "Site": "UK",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "10",
+  "Country": "GB",
+  "Seller": {
+    "UserID": "lloydsjewellers1990",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "11279",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-02-20T13:07:22.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Please see our Returns Policy under Terms of Sale.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Title": "Casio Collection MW-240-1BVEF Gents Analogue 50m WR Watch",
+  "AvailableForPickupDropOff": "true",
+  "ItemID": "282367455053",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Other Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-Collection-MW-240-1BVEF-Gents-Analogue-50m-WR-Watch-/282367455053",
+  "Storefront": {
+    "StoreName": "Lloyds Jewellers",
+    "StoreURL": "http://stores.ebay.com/id=804245587"
+  },
+  "QuantitySold": "5",
+  "PostalCode": "SA72 6BT",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Casio Collection MW-240-1BVEF Gents Analogue 50m WR Watch Track Page Views With Auctiva's FREE Counter",
+  "HitCount": "561",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "48 x 43.6 x 10.3 mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "MW-240-1BVEF",
+        "Name": "Model"
+      },
+      {
+        "Value": "MW-240-1BVEF",
+        "Name": "MPN"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "4549526102394",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2823674550538080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-20T13:07:22.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Pembroke Dock",
+  "CurrentPrice": {
+    "_currencyID": "GBP",
+    "value": "15.75"
+  },
+  "TimeLeft": "P19DT19H11M40S"
+}

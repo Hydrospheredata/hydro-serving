@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT23H20M54S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "All Ring Sizes Available",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322543507251",
+  "ConvertedCurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T12:30:42.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pure-925-Sterling-Silver-Boulder-Opal-Ring-Size-5-6-7-8-9-10-15-ri808-/322543507251",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T12:30:42.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Boulder Opal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "8.5",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Pure 925 Sterling Silver Boulder Opal Ring Size-5 6 7 8 9 10 15-ri808",
+  "ExcludeShipToLocation": [
+    "AU",
+    "RU",
+    "GB",
+    "CI",
+    "GH",
+    "NG"
+  ],
+  "Location": "JAIPUR, RAJASTHAN",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225435072518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "ravishingimpression",
+    "FeedbackScore": "2692",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "ravishingimpression",
+    "StoreURL": "http://stores.ebay.com/id=1135639467"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/7J8AAOSw7aBVB~Is/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/rvAAAOSw-7RVB~Ii/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/zowAAOSwqu9VB~Ij/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/AKYAAOSwEeFVB~Io/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/khIAAOSwBahVB~Iq/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "PostalCode": "302015"
+}

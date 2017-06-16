@@ -1,0 +1,184 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Z6wAAOSwurZZFQFm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/IEsAAOSwX61ZFQFm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/PIYAAOSwblZZFQFm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZlEAAOSwlMFZFQFm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/E90AAOSwjL5ZFQFn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/grAAAOSwaEhZFQFm/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Knomo-Luggage-Tech-Brompton-Knomad-Air-Portable-Organizer-Brown-One-Size-/322513641561",
+  "ConvertedCurrentPrice": {
+    "value": "144.93",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Organize your digital and travel essentials within the all new premium leather knomad. Designed for use with a knomo portable battery, so that your everyday tech devices never lose charge - Slim 2-fold organizer with subtle magnetic fastening - Opens out fully-flat on your desk for easy access - Interior organizational panels feature: shockproof 10 inch tablet section specific smartphone and battery compartments leather pen loop - Elastic ties for loose items (cables, usb drives) - 1x8.5x11.41 Knomo Luggage Tech Brompton Knomad Air Portable Organizer, Brown, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "144.93",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "759",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "giftguys"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Knomo Luggage Tech Brompton Knomad Air Portable Organizer, Brown, One Size",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-12T00:27:15.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P8DT9H23M7S",
+  "EndTime": "2017-06-11T00:27:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5055385412943"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Knomo"
+      },
+      {
+        "Name": "MPN",
+        "Value": "55-091-BRN"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.37 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 11.97 x W 9.25 x H 1.18 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Knomo Luggage"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322513641561",
+  "Storefront": {
+    "StoreName": "THE GIFT-GUYS",
+    "StoreURL": "http://stores.ebay.com/id=1105227626"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225136415618080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

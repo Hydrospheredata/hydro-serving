@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT5H10M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192207483805",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/South-Indian-White-Green-Stone-Chain-Women-Necklace-Earring-Pendant-Jewelry-Set-/192207483805",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T17:06:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T17:06:38.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "South Indian White Green Stone Chain Women Necklace Earring Pendant Jewelry Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "* Elegant necklace pendant earring set. * The base metal color is gold tone studded with white CZ stone and green ,red acrylic stone . * This sets gives a very traditional Indian ethnic look and would surely bring lots of compliments. * Size: Earring length: 2\" x 0.5\" Inches; Necklace Drop: 9.3\"\" Inches ,Pendant: 2.1\" x 1.9\" inches. * Note: - This is an artificial Jewelry Set.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922074838058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.1",
+    "UserID": "jewelsea21",
+    "FeedbackScore": "199",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "GADARPUR, UTTARAKHAND",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/gVEAAOSw8d9Ut9KH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/404AAOSwa39Ut9KS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/IlUAAOSw-W5Ut9Kc/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "263152"
+}

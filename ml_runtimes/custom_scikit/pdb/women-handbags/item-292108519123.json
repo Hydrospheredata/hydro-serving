@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQ1NQ==/z/LTkAAOSwBLlVgHUB/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Matt-Nat-Heroes-Slim-Expandable-Tote-Peach-/292108519123",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Matt & Nat Heroes Lap Top Documents Tote in Peach Track Page Views With Auctiva's FREE Counter",
+  "Title": "Matt & Nat Heroes Slim Expandable Tote in Peach",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Seattle, Washington",
+  "Seller": {
+    "FeedbackScore": "801",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "*buymore4fun*"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98136",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-06T17:56:42.000Z",
+  "HitCount": "22",
+  "TimeLeft": "P3DT2H50M49S",
+  "EndTime": "2017-06-05T17:56:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "matt & nat"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Peach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292108519123",
+  "Storefront": {
+    "StoreName": "buymore4fun",
+    "StoreURL": "http://stores.ebay.com/id=430042999"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921085191238080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

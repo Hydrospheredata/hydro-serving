@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hL8AAOSwdjNZFlC9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hV4AAOSwZ4dZFlDD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1W4AAOSwtGlZFlDH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WbMAAOSwfpVZFlDL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5DAAAOSwjL5ZFlDP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WfAAAOSwfpVZFlDS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Oz0AAOSwaEhZFlDW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-AUAAOSw8HBZFlDa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cT8AAOSwX61ZFlDf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1iQAAOSwtGlZFlDj/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Zebra-Tote-with-matching-accessories-/182571924373",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This Vera Bradley tote is brand new with tags and includes the matching wallet, pen, and pencil case.",
+  "Title": "Vera Bradley Zebra Tote (with matching accessories)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Wilkes-Barre, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "30",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "kelseypolachek"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "18706",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T00:22:32.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P9DT6H35M19S",
+  "EndTime": "2017-06-12T00:22:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton with Faux Leather Trim"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182571924373",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825719243738080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

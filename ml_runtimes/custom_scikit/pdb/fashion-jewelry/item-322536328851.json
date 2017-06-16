@@ -1,0 +1,151 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT5H14M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "62.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.7",
+    "UserID": "dreamersky2011",
+    "FeedbackScore": "285",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ItemID": "322536328851",
+  "SecondaryCategoryID": "43205",
+  "ConvertedCurrentPrice": {
+    "value": "62.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:43205",
+  "BidCount": "0",
+  "StartTime": "2017-05-30T14:42:18.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Fashion-Anklets-Barefoot-Sandals-Jewelry-Set-Earrings-Choker-Anklets-/322536328851?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T14:42:18.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Small 5 to 7 1/2",
+          "Medium 8 to 9 1/2",
+          "Large 10 and up"
+        ],
+        "Name": "Size"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Small 5 to 7 1/2",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "62.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Medium 8 to 9 1/2",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "62.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Large 10 and up",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "62.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Designs By Loure",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Lace, Fringe",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Women's Fashion Anklets, Barefoot Sandals & Jewelry Set, Earrings Choker Anklets",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Brooklyn, New York",
+  "Description": "This beautiful and sexy accessory collection consists of 4 matching rose and leaf pattern fashions that you will love to wear. 1 black lace choker necklace 1 pair of long fringe lace earrings 1 pair of barefoot sandals 1 pair of ankle glams The choker necklace is designed with Venice lace. It has a tie string, which makes it size adjustable. The earrings are designed with silver colored earring hooks, Venice lace, and fringe. The barefoot sandals are designed with Venice lace and a tie string. They look attractive with shoes or without them, and are ordered according to your shoe measurement. Small 5 to 7 1/2, Medium 8 to 9 1/2 and large 10 and up. It is the only item in this collection, in which you have to order your size above. The ankle glams are designed with Venice lace, a button, elastic, and are size adjustable.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "Storefront": {
+    "StoreName": "Designs By Loure",
+    "StoreURL": "http://stores.ebay.com/id=1067781780"
+  },
+  "Quantity": "3",
+  "PaymentMethods": "PayPal",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDIy/z/tU4AAOSwZd1Vc5Uf/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/t9oAAOSwZd1Vc5VL/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTMz/z/2eoAAOSwrklVc5U7/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/1LoAAOSwv0tVc5Wa/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/V6gAAOSw3xJVc5Vw/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "11203"
+}

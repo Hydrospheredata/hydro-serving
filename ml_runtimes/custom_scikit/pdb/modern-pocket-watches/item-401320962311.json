@@ -1,0 +1,160 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "PayPal is our preferred method of payments it's the quickest, easiest and most secure way to pay for your goods or services online. PayPal offers buyer and seller protection should there be a problem. If you do not have a PayPal account, to get started and buy your first item with us is very easy. Simply click on the 'Buy It Now' button and follow the eBay checkout steps. Select PayPal as the payment method you then will be given the chance to enter your card details in to PayPal's secure checkout in order to pay for your order. Once the payment has been made, you will then be given the opportunity to make your own PayPal account to make paying for your items in the future very easy. Should there be a problem with payment please do let us know.",
+  "StartTime": "2017-05-05T00:00:11.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/y4gAAOSwdjNZC8CO/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Telebrands",
+        "Name": "Brand"
+      },
+      {
+        "Value": "KSCWATCH",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Toy",
+        "Name": "Binding"
+      },
+      {
+        "Value": "0.55 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 9.2 x W 7.8 x H 2.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "TeleBrands",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "booba11",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "22518",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "HitCount": "41",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/4013209623118080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T00:00:11.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.18"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Kansas City Railroad Pocket Watch- Antique Style - in Silver Tone with Butterfly",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kansas-City-Railroad-Pocket-Watch-Antique-Style-Silver-Tone-Butterfly-/401320962311",
+  "Storefront": {
+    "StoreName": "booba11",
+    "StoreURL": "http://stores.ebay.com/id=1028282373"
+  },
+  "ItemID": "401320962311",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT5H16M9S"
+}

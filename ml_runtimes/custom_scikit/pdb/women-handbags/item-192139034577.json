@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921390345778080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/2KUAAOSwWxNY1WQC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/F1AAAOSwCU1Y1WQB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDMyNA==/z/2KAAAOSwWxNY1WQB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMyWDUwMA==/z/2x8AAOSwsW9Y1WQB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjczWDUwMA==/z/FgUAAOSwB-1Y1WQA/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HiveBag-Womens-Shoulder-Bag-Weiss-Gold-28x15x4-Free-Shipping-/192139034577",
+  "ConvertedCurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "HiveBag Women's Shoulder Bag Weiss - Gold 28x15x4 by HiveBag Ships from UK Supplier Other information: 4251002901000 Related Searches: HiveBag Hobo, HiveBag Bags, Hobo Bags Dimensions: 32 x 2 x 20 centimeters Weight: 0.3 kg",
+  "Title": "HiveBag Women's Shoulder Bag Weiss - Gold 28x15x4. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-24T18:22:46.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P20DT2H1M15S",
+  "EndTime": "2017-06-22T18:22:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "HiveBag"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4251002901000"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139034577",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57134923:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

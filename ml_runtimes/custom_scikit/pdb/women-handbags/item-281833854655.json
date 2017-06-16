@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/03wAAOSwI-BWJkza/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/CSIAAOSwAYtWJkzf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/eqgAAOSw5ZBWJkzj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/680AAOSwwbdWJkzv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/J4YAAOSw9mFWJkzz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/fPcAAOSw5ZBWJkz3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/9ocAAOSwYHxWJkz7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/7YQAAOSwwbdWJkz-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/9-cAAOSwYHxWJk0I/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FRANKLIN-COVEY-BLACK-Leather-Briefcase-16-Professional-Bag-Business-LAWYER-BAG-/281833854655",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NAPA LEATHER, FULL GRAIN, BUTTERY SOFT 16 X 12 X 4 $235 RETAIL THIS IS A REALLY NICE CASE ONE OF MY FAVORITES, AND I HAVE HAD ALOT OF BAGS NO KEY INCLUDED",
+  "Title": "FRANKLIN COVEY BLACK Leather Briefcase 16\"  Professional Bag Business LAWYER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Salt Lake City, Utah",
+  "Seller": {
+    "FeedbackScore": "1777",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "lonewolfstore"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "84115",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2015-10-20T14:20:13.000Z",
+  "HitCount": "427",
+  "TimeLeft": "P8DT23H2M6S",
+  "EndTime": "2017-06-11T14:20:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Franklin Covey"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "281833854655",
+  "Storefront": {
+    "StoreName": "lonewolfstore",
+    "StoreURL": "http://stores.ebay.com/id=1064212122"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "PLEASE CONTACT ME VIA EBAY MESSAGE SYSTEM IF YOU HAVE CONCERNS, BEFORE LEAVING ANY NEGATIVE FEEDBACK. I STRIVE FOR COMPLETE SATISFACTION. I WILL FOLLOW UP. IF YOU WOULD LIKE A CALL BACK SEND YOUR TELEPHONE NUMBER WITH ANY CONCERNS THANKS",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2818338546558080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

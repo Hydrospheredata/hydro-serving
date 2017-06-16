@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-1.fishpond.co.nz/0098/429/227/236601101/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0098/429/227/236601102/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0098/429/227/236601103/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0098/429/227/236601104/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Guess-Handbag-Ophelia-HWSG4562240-Lipstick-Lip-Shipping-Included-/192137279234",
+  "ConvertedCurrentPrice": {
+    "value": "291.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Guess Handbag Ophelia HWSG4562240 Lipstick Lip by UK Bags Ships from UK Supplier Related Searches: Guess Ophelia Handbags, UK Bags Top-Handle Bag, Top-Handle Bag Bags Weight: 1.2 kg",
+  "Title": "Guess Handbag Ophelia HWSG4562240 Lipstick Lip. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "291.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-22T18:29:26.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P18DT2H5M31S",
+  "EndTime": "2017-06-20T18:29:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "UK Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "119466107"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137279234",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:98429227:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

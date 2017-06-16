@@ -1,0 +1,136 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExNFgxNTAw/z/bIMAAOSwsXFZJguw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI5N1gxNTAw/z/cj8AAOSwlMFZJgux/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5NzY=/z/UhAAAOSwcgNZJguw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMwWDE1MDA=/z/RUoAAOSwjL5ZJguw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM5WDE1MDA=/z/TX8AAOSwurZZJguw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyMlgxNTAw/z/NLkAAOSwGJlZJguw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3MzY=/z/YFwAAOSwlndZJguw/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Large-Weekender-Bag-Flower-Cluster-One-Size-/332234767986",
+  "ConvertedCurrentPrice": {
+    "value": "133.84",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "PayPal is our preferred method of payments it's the quickest, easiest and most secure way to pay for your goods or services online. PayPal offers buyer and seller protection should there be a problem. If you do not have a PayPal account, to get started and buy your first item with us is very easy. Simply click on the 'Buy It Now' button and follow the eBay checkout steps. Select PayPal as the payment method you then will be given the chance to enter your card details in to PayPal's secure checkout in order to pay for your order. Once the payment has been made, you will then be given the opportunity to make your own PayPal account to make paying for your items in the future very easy. Should there be a problem with payment please do let us know.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "133.84",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "36752",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "flower1000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Large Weekender Bag, Flower Cluster, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T22:39:41.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P21DT6H1M27S",
+  "EndTime": "2017-06-23T22:39:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "883681932262"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0883681932262"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "MPN",
+        "Value": "7185 - FC"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Flower Cluster"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.4 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 11 x W 8.4 x H 3.2 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "Large Weekender"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332234767986",
+  "Storefront": {
+    "StoreName": "flower1000",
+    "StoreURL": "http://stores.ebay.com/id=1008235809"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322347679868080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

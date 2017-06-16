@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.69",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "United States",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-30T23:49:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "13.69",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-29T23:49:36.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "W800H-1AV",
+        "Name": "MPN"
+      },
+      {
+        "Value": "751744825038",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322536900351",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-Mens-W800H-1AV-Classic-Sport-Watch-Black-Band-/322536900351",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225369003518080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT8H31M9S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/38UAAOSwblZZLgUO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDMwWDUwMA==/z/zzIAAOSw0hlZLgUO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4WDUwMA==/z/GqQAAOSw~y9ZLgUP/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Casio Men's W800H-1AV Classic Sport Watch with Black Band",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "ahmesharqaw1",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

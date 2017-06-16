@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODYzWDEzOTQ=/z/D5MAAOSwkl5XdYJF/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTg2/z/~dsAAOSwGIRXbedU/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFg2NzE=/z/A0gAAOSwGIRXbeeU/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTAzM1gxMjU1/z/24QAAOSwepJXbedu/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjY1/z/ZbcAAOSw-4BXbegK/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Ultimate-Wristlet-Wavy-Stripes-/232354435839",
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "You can shop a wide variety of Vera Bradley Handbags and Accessories in our store.All of our items are stored in a smoke free environment.Vera Bradley Ultimate Wristlet in Wavy Stripes. Dress up your wrist and keep your money close at hand.",
+  "Title": "Vera Bradley Ultimate Wristlet in Wavy Stripes",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "North Fort Myers, Florida",
+  "Seller": {
+    "FeedbackScore": "278",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "lane0216"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33903",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T19:47:25.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P27DT3H52M52S",
+  "EndTime": "2017-06-29T19:47:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Poly Twill With Leather Trim"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Wristlet"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232354435839",
+  "Storefront": {
+    "StoreName": "Handbags and More by Savannah Lane",
+    "StoreURL": "http://stores.ebay.com/id=1459287828"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323544358398080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

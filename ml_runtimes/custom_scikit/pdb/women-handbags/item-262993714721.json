@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTg2WDU2NA==/z/LCoAAOSwcB5ZHxFj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/xnIAAOSwJH1ZHxDl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/IqMAAOSwcB5ZHxDq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/exsAAOSwn-tZHxFQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/YtMAAOSwCQZZHxDt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/rQUAAOSwjL5ZHxDx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/cu0AAOSwAPVZHxD0/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-Honor-Roll-Duffel-Tote-TWIRLY-BIRDS-PINK-NWT-Floral-Fuchsia-White-/262993714721",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a Vera Bradley Foundation for Breast Cancer Tote and Honor Roll bag. Both are NWT. Please ask any questions before purchase. This is a great bag for travel. The large roll has a vinyl interior that will clean easy. MSRP $ 132.00",
+  "Title": "VERA BRADLEY Honor Roll Duffel & Tote TWIRLY BIRDS PINK NWT Floral Fuchsia/White",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Yadkinville, North Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "275",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "yadkin30"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27055",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-19T15:43:59.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P15DT23H1M28S",
+  "EndTime": "2017-06-18T15:43:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Main Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262993714721",
+  "Storefront": {
+    "StoreName": "Salem s Mama",
+    "StoreURL": "http://stores.ebay.com/id=96435697"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629937147218080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

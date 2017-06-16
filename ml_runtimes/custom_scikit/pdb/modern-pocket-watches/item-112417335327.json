@@ -1,0 +1,64 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "55433",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "nice 70\"s Bradley pocket watch could use cleaning has light scuff marks from ware on case you are bidding on piece shown in picture's",
+  "StartTime": "2017-05-23T22:58:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njg4WDYwMA==/z/5aUAAOSwUV9WnWDO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgxWDc5OQ==/z/ZAIAAOSwLnlWnWDu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjcxWDYwMA==/z/b0MAAOSw5dNWnWEr/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Bradley",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "dwdddu-ngxz08eyq7",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "73",
+    "PositiveFeedbackPercent": "0.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124173353278080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-02T22:58:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1970s-Bradley-Mickey-Mouse-Pocket-watch-/112417335327",
+  "Location": "Minneapolis, Minnesota",
+  "Title": "1970's Bradley Mickey Mouse Pocket watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "112417335327",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT4H21M5S"
+}

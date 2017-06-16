@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224438308828080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQzMQ==/z/lX8AAOSwfVpYvXiA/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Ryan-Baby-Tote-Carry-Bag-Zoo-Cute-One-Size-/322443830882",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "THE-FASHION-SCOOP LeSportsac Ryan Baby Tote Carry On Bag, Zoo Cute, One Size Click Below Images to Enlarge PRODUCT DESCRIPTION Baby weekender/carry on bag </",
+  "Title": "LeSportsac Ryan Baby Tote Carry On Bag, Zoo Cute, One Size",
+  "ExcludeShipToLocation": "Alaska/Hawaii",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Avondale Estates, Georgia",
+  "Seller": {
+    "FeedbackScore": "823",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "the-fashion-scoop"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30002",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-06T14:56:01.000Z",
+  "HitCount": "323",
+  "TimeLeft": "P1DT23H25M40S",
+  "EndTime": "2017-06-04T14:56:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4262-D878"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883681977720"
+      },
+      {
+        "Name": "Site Price",
+        "Value": "150.00"
+      },
+      {
+        "Name": "List Price",
+        "Value": "150.00"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322443830882",
+  "Storefront": {
+    "StoreName": "the-fashion-scoop",
+    "StoreURL": "http://stores.ebay.com/id=1389056348"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "BH-4262-D878",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

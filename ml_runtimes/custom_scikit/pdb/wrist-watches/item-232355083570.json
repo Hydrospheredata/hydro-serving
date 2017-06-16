@@ -1,0 +1,86 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2290.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Chuoku Kobeshi, Hyogo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:16:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1082920074",
+    "StoreName": "reference-shop"
+  },
+  "CurrentPrice": {
+    "value": "2290.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:16:00.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cartier",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355083570",
+  "HandlingTime": "3",
+  "Description": "\u25baITEM NO. 4702-8291-44 \u25baNAME CARTIER Tank Francaise SM Ladies'Wristwatch \u25baMODEL NO. W51008Q3 \u25baMOVEMENT Quartz \u25baGLASS MATERIAL Sapphire Glass\u00a0 \u25baMAIN MATERIAL SS \u25baAPPROX SIZE Case: W20mm (excluding crown) Wrist Circumference: 15cm / 5.9in \u25baADDITIONAL ITEMS None \u25baITEM RANK Used AB Rank\u00a0 \u00a0 \u25baCONDITION DETAILS -Overall scratches and stains\u00a0 All our items are also available for purchase on other various shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. \u00a0 REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-0084 TEL:+81-78-242-1248 \u00a0FAX:+81-78-242-0628",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-CARTIER-Tank-Francaise-SM-Ladies-Womens-Wristwatch-SS-Quartz-W51008Q3-/232355083570",
+  "NewBestOffer": "false",
+  "SKU": "4702-8291-44",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323550835708080_1.jpg",
+  "HitCount": "8",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H48M35S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDU3WDU5Ng==/z/0f0AAOSw5ZBWPGyK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/ySsAAOSwAYtWPGyM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/zv4AAOSw5VFWPGyN/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "AUTHENTIC CARTIER Tank Francaise SM Ladies Women's Wristwatch SS Quartz W51008Q3",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "1830",
+    "UserID": "reference-shop",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0SwAAOSwcUBYPuD5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NRoAAOSw4GVYPuFN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gf0AAOSw2xRYPuES/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RfMAAOSwn7JYB~~j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SW4AAOSwUuFW029Q/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eO4AAOSwXeJYB~~K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-JkAAOSwcLxYCADm/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/J-CREW-STEELE-CANVAS-BASKET-CORP-LEATHER-TOTE-NAVY-BLUE-NWT-BAG-A7131-/192191122881",
+  "ConvertedCurrentPrice": {
+    "value": "90.52",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "STEELE CANVAS BASKET CORP FOR J CREW COAL BAG NWTITEM#A7131MADE IN USA CANVAS WITH LEATHER BASESNAP CLOSURE 5\" HANDLE +ADJUSTABLE HANDLE 37 1/2'15 1/2\" H X 201/2\" W X 6\" D COLOR NAVY BLUE FREE FROM SMOKE AND PET THANKS FOR LOOKING AND PLEASE CHECK OUT MY OTHER LISTING",
+  "Title": "J CREW STEELE CANVAS BASKET CORP LEATHER TOTE IN NAVY BLUE  NWT BAG  #A7131",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "90.52",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Rustburg, Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1637",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "starr-moon"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "24588",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-19T00:28:32.000Z",
+  "HitCount": "41",
+  "TimeLeft": "P15DT6H44M2S",
+  "EndTime": "2017-06-18T00:28:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "STEELE CANVAS FOR J CREW"
+      },
+      {
+        "Name": "Material",
+        "Value": "CANVAS"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192191122881",
+  "Storefront": {
+    "StoreName": "starr-moon",
+    "StoreURL": "http://stores.ebay.com/id=1177292376"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921911228818080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

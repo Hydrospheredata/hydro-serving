@@ -1,0 +1,233 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "AU",
+    "KI",
+    "BA",
+    "DE",
+    "GI",
+    "IT",
+    "GB",
+    "BS",
+    "LC",
+    "BN",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "GF",
+    "MX",
+    "PM",
+    "CM",
+    "SL",
+    "IQ",
+    "JO",
+    "YE",
+    "AF",
+    "CN",
+    "TM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "85225",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "j-pro-shop",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "26947",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Payment Terms We accept PayPal payment only. We do not offer combine shipping discount. Our P&P rates includes the postage, packing materials, processing and administrative costs. Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Shipping Terms We ship your orders within 1 business day (Excluding holidays)\u00a0after the payment is cleared. Estimated Delivery Time:A) United States: 3-7 business days B) Canada: 9-15 business days C) Other Countries: 14-35 business days inkfrog terapeak inkFrog Analytics On Mar-09-17 at 19:51:31 PST, seller added the following information:",
+  "StartTime": "2017-03-10T03:35:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/VcsAAOSwR29ZK4VL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA2WDkzMA==/z/UwgAAOSwEHpZK4VK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI2WDkzMA==/z/WWYAAOSwIQdZK4VK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/vhwAAOSwY3BZK4VL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/T88AAOSwlMFZK4VL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/714AAOSws5pZK4VM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDkzMA==/z/lVYAAOSwq1JZK4VM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM3WDkzMA==/z/5LsAAOSww9xZK4VM/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.17"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "5",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Model"
+      },
+      {
+        "Value": "Anchor",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": [
+          "Black",
+          "Bronze"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "14",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "SKU": "PX-034",
+  "HitCount": "168",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T03:35:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.17"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "60 Days",
+    "RestockingFeeValue": "20%"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Bronze"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JpkAAOSwWxNYwh8J/$_57.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Bronze",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/N8EAAOSwol5Ywh8J/$_57.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "18.19"
+        },
+        "SKU": "PX-034-B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "0"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "18.17"
+        },
+        "SKU": "PX-034-BRZ",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Bronze",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "5"
+      }
+    ]
+  },
+  "Location": "Chandler, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "PACIFISTOR Skeleton Mechanical Pocket Watch Stainless Steel Vintage Steampunk US",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PACIFISTOR-Skeleton-Mechanical-Pocket-Watch-Stainless-Steel-Vintage-Steampunk-US-/311820070688?var=",
+  "Storefront": {
+    "StoreName": "infantry watch",
+    "StoreURL": "http://stores.ebay.com/id=1011738844"
+  },
+  "ItemID": "311820070688",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT8H44M13S"
+}

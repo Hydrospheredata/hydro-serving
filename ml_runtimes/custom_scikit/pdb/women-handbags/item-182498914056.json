@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/sxoAAOSwUKxYdQqr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/lGkAAOSw5cNYdQqw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/nsEAAOSwjDZYdQrG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/oA0AAOSwnHZYdQrN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/oQcAAOSwnHZYdQrS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/0WsAAOSwEzxYdQrW/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BLACK-LEATHER-WHEELED-BRIEFCASE-LAPTOP-BAG-PULLOUT-HANDLE-FRANKLIN-COVEY-365-/182498914056",
+  "ConvertedCurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Almost new black leather pullout handle wheeled laptop bag/briefcase.\u00a0 This bag has padded pockets, credit card slot, cell phone pocket, pen slots and key fob to name a few of the features.\u00a0 Measurements are approx length 16 inches, width 12 inches and depth 8 inches. Handle extends up to 27 inches from bag.",
+  "Title": "BLACK LEATHER WHEELED BRIEFCASE LAPTOP BAG PULLOUT HANDLE FRANKLIN COVEY 365",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Minneapolis, Minnesota",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "53",
+    "PositiveFeedbackPercent": "95.8",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "assistanceleaguemsp"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "55423",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-22T11:55:44.000Z",
+  "HitCount": "211",
+  "TimeLeft": "P17DT20H46M38S",
+  "EndTime": "2017-06-20T11:55:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Franklin Covey"
+      },
+      {
+        "Name": "Style",
+        "Value": "Rolling Briefcase"
+      },
+      {
+        "Name": "Features",
+        "Value": "Laptop protection"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182498914056",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1824989140568080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

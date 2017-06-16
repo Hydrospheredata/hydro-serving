@@ -1,0 +1,239 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.85",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "322000",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:15:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1402059670",
+    "StoreName": "toplovedongqi2"
+  },
+  "CurrentPrice": {
+    "value": "1.85",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:15:49.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "P153@#2893392",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "CN",
+    "DE",
+    "IE",
+    "IT",
+    "CH",
+    "GB",
+    "HK",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "ItemID": "332245414070",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Lady-Gold-Rose-Gold-Silver-Round-Dial-Alloy-Roman-Analog-Quartz-Wristwatch-/332245414070?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3.9cm/1.54''",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Fashion & Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "1.85",
+          "_currencyID": "USD"
+        },
+        "SKU": "P153_1@#S2893392",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "1.85",
+          "_currencyID": "USD"
+        },
+        "SKU": "P153_2@#S2893392",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Rose Gold",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "1.85",
+          "_currencyID": "USD"
+        },
+        "SKU": "P153_3@#S2893392",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "2"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold",
+          "Rose Gold",
+          "Silver"
+        ],
+        "Name": "Colors"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/makAAOSwjL5ZLm2e/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Rose Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/eWkAAOSwPh5ZLm2h/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/i4IAAOSwKytZLm2d/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Colors"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H43M5S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~TEAAOSwYlRZLm19/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/7V8AAOSw9OFZLm2F/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/TW0AAOSwDiBZLm2L/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/CM4AAOSwGJlZLm2D/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/9SQAAOSwZKBZLm2L/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/PUUAAOSw~y9ZLm2T/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/5NYAAOSwaeRZLm2S/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/O~gAAOSw3gJZLm2a/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Women Lady Gold Rose Gold Silver Round Dial Alloy Roman Analog Quartz Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "525",
+    "UserID": "toplovedongqi2",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

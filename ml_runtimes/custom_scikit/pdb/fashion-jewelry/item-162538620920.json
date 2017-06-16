@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT22H48M43S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "73.18",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162538620920",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-22kt-Fine-Kundan-Emerald-Carved-Pearl-Droplet-Gold-Plated-Maang-Tikka-/162538620920",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "73.18",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T10:08:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T10:08:52.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Maang Tikka",
+        "Name": "Style"
+      },
+      {
+        "Value": "Kumar Jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver&alloy with 22kt gold plating",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Kundan",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Golden Pearl and Emerald",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Beautiful 22kt Fine Kundan Emerald Carved Pearl Droplet Gold Plated Maang Tikka",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625386209208080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kumarjewelsamit",
+    "FeedbackScore": "120",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "kumarjewelsamit",
+    "StoreURL": "http://stores.ebay.com/id=1005047448"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/Zz0AAOSwfRdZMTkR/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "144001"
+}

@@ -1,0 +1,120 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.5"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LhIAAOSw7GRZJ3Ji/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LH4AAOSw7GRZJ3It/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7HsAAOSwblZZJ3Iv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r1UAAOSwZ4dZJ3Ix/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wmkAAOSw~FJZJ3I0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jiMAAOSw-3FZJ3I4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IMoAAOSwcB5ZJ3I6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wy4AAOSwBt5ZJ3I9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/a7UAAOSwGJlZJ3JA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UgkAAOSwhvFZJ3JD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ujoAAOSwfRdZJ3JF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QEkAAOSwtGlZJ3JI/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "makaila714",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1379",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-26T00:10:43.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "w***a",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3804",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "Chinese",
+  "Title": "Vintage Men's Hamilton 747 17 Jewels 10k GF Wristwatch parts or repair",
+  "Storefront": {
+    "StoreName": "makaila714",
+    "StoreURL": "http://stores.ebay.com/id=1140334982"
+  },
+  "ItemID": "122516026411",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Mens-Hamilton-747-17-Jewels-10k-GF-Wristwatch-parts-repair-/122516026411",
+  "QuantitySold": "0",
+  "PostalCode": "19608",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Men's Hamilton 747 17 Jewels 10k GF Wristwatch parts or repair. Watch is NOT running and inside watch face LOTs of wear as seen in photos so selling it AS IS for parts or repair. It has 17 Jewels and marked 10k Gold Filled. It does show wear/scratches to metal and glass as seen in photos. Gladly ask any questions! Gladly will combine shipping just let me know you are and can as long as next listing is within 5 days thanks!! Payment due within 2 days of listing end.",
+  "HitCount": "225",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "17.0"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Hamilton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225160264118080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "6",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-02T00:10:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Reading, Pennsylvania",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.5"
+  },
+  "TimeLeft": "P1DT3H56M4S"
+}

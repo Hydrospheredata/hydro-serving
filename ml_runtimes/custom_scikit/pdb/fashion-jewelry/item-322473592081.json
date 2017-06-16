@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.  All returns will be charged a 15% restocking fee.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P28DT1H56M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "46.14",
+    "_currencyID": "USD"
+  },
+  "SKU": "B00E5TJGBG",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322473592081",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Rhodium-Plated-Multi-Colors-Cubic-Zirconia-Prong-Twin-Flower-/322473592081",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.14",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-04-04T15:44:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T15:44:24.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "FAPPAC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "6",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "NA",
+        "Name": "UPC"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Rhodium Plated Multi Colors Cubic Zirconia Prong Twin Flower ...",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "Sterling Silver Rhodium Plated Multi Colors Cubic Zirconia Prong Twin Flower Wide Band Ring Features: Plating: RhodiumBase: 925 Sterling SilverMulti Colors CZ Flower Shaped Statement RingImported Product Details: Shipping Information: View shipping rates and policiesItem model number: FD01 Description Astonishing multi-colored cubic zirconia twin flower with prong setting and well polished rhodium Handling We will ship all orders within 2 business days of payment. Delivery We DO NOT SHIP TO PO Boxes or Mail Forwarding Addresses. We only ship to Paypal Verified addresses. Return Policy All items that qualify for returns must be within 14 days of receipt. Buyer is responsible for return shipping on any item that is not damaged, as well as a 15% restocking fee. No exchanges permitted. All returns must be done through EBAY and processed with an RMA number to be issued refund. Upon receiving RMA, buyer has 7 days to have item shipped back. Item must be in original condition and packaging. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3224735920818080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "ccs-craigw",
+    "FeedbackScore": "9382",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "RivalTech",
+    "StoreURL": "http://stores.ebay.com/id=776355051"
+  },
+  "Location": "US",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/u2wAAOSwDmBY48IM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAz/z/rMgAAOSw4CFY48IL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTU1/z/QygAAOSw03lY48IY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NzI=/z/cw0AAOSwUp1Y48IL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/cyUAAOSwUp1Y48IL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA0NlgxNjAw/z/c3EAAOSwUp1Y48IO/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JvYAAOSwSdZWgvEz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/L8UAAOSw3KFWgvE3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zJ8AAOSwHPlWgvE7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/btcAAOSwJcZWgvE-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KCwAAOSwSdZWgvFB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zYIAAOSwHPlWgvFG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~yAAAOSwCQNWgvFL/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Mens-Black-Charcoal-Slim-Signature-Briefcase-Bag-F71168-495-/131761821086",
+  "ConvertedCurrentPrice": {
+    "value": "282.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Coach bag",
+  "Title": "COACH Men's Black/Charcoal Slim Signature Briefcase Bag F71168   $495",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "282.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Brentwood, California",
+  "Seller": {
+    "FeedbackScore": "220",
+    "PositiveFeedbackPercent": "97.6",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mafiamafia0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94513",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-03-25T01:48:59.000Z",
+  "HitCount": "591",
+  "TimeLeft": "P15DT10H32M33S",
+  "EndTime": "2017-06-18T01:48:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/Charcoal"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "131761821086",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1317618210868080_2.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

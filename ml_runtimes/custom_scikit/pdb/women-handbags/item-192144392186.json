@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921443921868080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/2A4AAOSwuxFY3Ysa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/LV8AAOSwc-tY3Ysb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/b5sAAOSw4CFY3Ysb/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Messenger-Baby-Bag-Indigo-Pop-Free-Shipping-/192144392186",
+  "ConvertedCurrentPrice": {
+    "value": "214.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Great new Baby Bag from Vera Bradley in the Indigo Pop pattern.. The inside is lined with vinyl and trimmed in the samei print, with a colourful coordinating print under the large magnetic flap and at the base inside. This bag has all of the \"Mom Pockets\" to stay organised for a day on the go. The large zipper compartment is big enough to slide a tablet or E-reader inside! The easy to adjust strap makes it a snap to go crossbody-messenger style or just over the shoulder. Perfect size for everyday use.",
+  "Title": "Vera Bradley Messenger Baby Bag (Indigo Pop). Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "214.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-30T22:47:45.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P26DT6H30M17S",
+  "EndTime": "2017-06-28T22:47:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "032513520"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144392186",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:56589140:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

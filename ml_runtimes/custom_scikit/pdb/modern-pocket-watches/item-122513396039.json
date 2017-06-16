@@ -1,0 +1,114 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.95"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SG12UUBA3640545",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "GTIN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-24T07:46:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/mXAAAOSwAPVZJTpR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/9sQAAOSw0hlZJTpS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/MBkAAOSwblZZJTpT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/ZmMAAOSwsXFZJTpU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/SEwAAOSwlndZJTpV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/oU4AAOSwxu5ZJTpW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/E9EAAOSwhvFZJTpX/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_ZG669800",
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225133960398080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T07:46:33.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122513396039",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.95"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Sunflowers Round Sweater Chain Watch Pendant Necklace Watch Special BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Sunflowers-Round-Sweater-Chain-Watch-Pendant-Necklace-Watch-Special-BA-/122513396039",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130025",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT13H9M9S"
+}

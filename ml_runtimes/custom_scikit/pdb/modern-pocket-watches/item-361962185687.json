@@ -1,0 +1,94 @@
+{
+  "QuantitySold": "3",
+  "PostalCode": "89436",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "pacpawn",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "82537",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand New!! New Masonic Mason Pocket Watch Square & Compass WORKING TOOLS QUARTZ BLUE LODGEBRAND NEW MODEL FOR 2017Blue enamel cover - gold coverComes with a pocket watch chain and belt hook.Great item to add to any Masonic Freemason collection. You may be interested in our other eBay listings.",
+  "StartTime": "2017-04-24T20:50:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/BosAAOSwvKtY~mTc/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/smsAAOSwE0JY~mTf/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/b-8AAOSwtZJY~mTi/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/emQAAOSwvihY~mTm/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/wGIAAOSwWWxY~mTo/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/wKsAAOSwWWxY~mTr/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/MkUAAOSwSypY~mTu/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/wTEAAOSwWWxY~mTw/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "6",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "PaCPAWN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "305",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz: Automatic/Kinetic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "P-305",
+  "HitCount": "165",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619621856878080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T20:50:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Original \"shipping charges\" are not refunded if item is returned due to some regret or mistake on the buyers part.  If item is not described right or some mistake on our part, we will refund original shipping charge.  Thank you for understanding.  Pacpawn",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Masonic-Mason-Pocket-Watch-Square-Compass-WORKING-TOOLS-QUARTZ-BLUE-LODGE-/361962185687",
+  "Location": "Sparks, Nevada",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Masonic Mason Pocket Watch Square & Compass WORKING TOOLS QUARTZ BLUE LODGE",
+  "Storefront": {
+    "StoreName": "pacpawn",
+    "StoreURL": "http://stores.ebay.com/id=92752"
+  },
+  "ItemID": "361962185687",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT2H3M46S"
+}

@@ -1,0 +1,117 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Folsom, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:04:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:04:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535976656",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Date Indicator",
+          "Diamond Accent",
+          "Non-Numeric Hour Marks",
+          "Sapphire Crystal",
+          "Scratch-Resistant",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Stainless Steel",
+          "Gold Plated"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Bulova Diamond",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Bulova Men's Watch Diamond Gold Ice Bling Baller",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bulova-Mens-Watch-Diamond-Gold-Ice-Bling-Baller-/162535976656",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359766568080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "95630",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H50M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lPoAAOSwX61ZHNHD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lQ0AAOSwX61ZHNHF/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8EwAAOSwGJlZHNHB/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3C0AAOSw-3FZHNHJ/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xaIAAOSwn-tZHNHG/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xvgAAOSwBt5ZHNHI/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WekAAOSwq1JZHNHK/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzNlg2NDA=/z/xpEAAOSwBt5ZHNG-/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Beautiful watch, just needs a battery and could use a cleaning. Has day indicator dial which is a nice feature. Was purchased from Kay Jewelers.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "184",
+    "UserID": "yul_luze",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "56082",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "You are buying a nicely used Milan pocketwatch that features a 14\" chain with a clip. The pocket watch measures 47.3mm in diameter. The front cover opens with the push of a button and the back cover snaps on to the back of the watch. There is some very minor wear to the gold tone finish. Just installed a new 377 battery. Works great. Has a very nice design on the front and back. FAQ'S We ship via USPS only. We combine shipping on multiple purchases so do not hesitate to e-mail if you want a combined shipping quote. We ship every day except Sunday. If you would like additional pictures or more information do not hesitate to e-mail. Tracking information is automatically uploaded to ebay upon shipment. Please e-mail us with questions BEFORE bidding or buying.",
+  "StartTime": "2017-02-28T16:07:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg1WDE0MjQ=/z/sjcAAOSwuxFYtZ7J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc5WDEwODU=/z/lYcAAOSwdGFYtZ7O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDEwMjY=/z/jIAAAOSwXYtYtZ70/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Milan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Less than 7 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sominnsales",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14135",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "200",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118126797538080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T16:07:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Milan-gold-tone-pocket-watch-golfer-14-chain-new-battery-quartz-/311812679753",
+  "Location": "Saint Peter, Minnesota",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Milan gold tone pocket watch golfer with 14\" chain & new battery quartz",
+  "Storefront": {
+    "StoreName": "Bjdiede",
+    "StoreURL": "http://stores.ebay.com/id=713650"
+  },
+  "ItemID": "311812679753",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT21H14M11S"
+}

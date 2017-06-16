@@ -1,0 +1,211 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5OVgxNTAw/z/RB4AAOSwYvFZFDk1/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lug-Womens-Puddle-Jumper-Overnight-Version-2-0-Gym-Bag-Coral-Pink-One-Size-/262979602687",
+  "ConvertedCurrentPrice": {
+    "value": "159.53",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Lug Womens Puddle Jumper Overnight Version 2.0 Gym Bag, Coral Pink, One SizeThank you for visiting our ebay store!",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.53",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "528",
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "myonlinedeals"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Lug Womens Puddle Jumper Overnight Version 2.0 Gym Bag, Coral Pink, One Size",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T10:13:03.000Z",
+  "HitCount": "64",
+  "TimeLeft": "P7DT17H25M33S",
+  "EndTime": "2017-06-10T10:13:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "880479215859"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0880479215859"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Lug"
+      },
+      {
+        "Name": "MPN",
+        "Value": "PUD JUMP-CORAL PINK"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Coral Pink"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.94 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 15.51 x W 15.12 x H 2.99 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Lug Parent Code"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262979602687",
+  "Storefront": {
+    "StoreName": "myonlinedeals",
+    "StoreURL": "http://stores.ebay.com/id=229515597"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629796026878080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

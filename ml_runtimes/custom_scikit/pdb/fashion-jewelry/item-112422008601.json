@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "112422008601",
+  "TimeLeft": "P1DT9H2M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/sterling-silver-jewelry-lot-/112422008601",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-27T23:44:17.000Z",
+  "PaymentMethods": "PayPal",
+  "HighBidder": {
+    "UserID": "e***1",
+    "FeedbackScore": "4176",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Red"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T23:44:17.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "assorted",
+        "Name": "Type"
+      },
+      {
+        "Value": "sterling silver",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "sterling silver jewelry lot",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "3",
+  "Description": "98% of this lot is sterling silver and all hallmarked 925 or sterling silver. There's more than 6 necklaces all sterling 16 to 18inches, earrings, (one broke earring pictured) pendants, one bracelet, rings assorted sizes from 5.5 -7, a few bands have broken but still wearable and a few misc items, one earring with no match and a pair of sterling w/turquoise earrings to match rings are not shown. All wearable, not junk!! There is a small bag of misc items as shown in 2nd to last pic that is not all sterling. Please see all pics before bidding as sale is final. Thanks for watching!",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124220086018080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "stayingseen",
+    "FeedbackScore": "168",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "HandlingTime": "3",
+  "Location": "Concord, North Carolina",
+  "HitCount": "133",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk3WDE2MDA=/z/ENQAAOSwhvFZDT3R/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODgzWDE0NDA=/z/TFUAAOSwfRdZDT4C/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/yfEAAOSwaEhZDT4t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/q6QAAOSwnONZDT5s/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/U6YAAOSwjL5ZDT6M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/OVIAAOSww9xZDT6w/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5MVg5MDA=/z/z5wAAOSwaEhZDT7O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4OTc=/z/AlkAAOSwcB5ZDT7t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/XXMAAOSwjL5ZDT8o/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4OTk=/z/6EsAAOSwX9FZDT9a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/RRUAAOSwhvFZDT9u/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/Xs4AAOSwR29ZDT-I/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "28025"
+}

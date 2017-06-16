@@ -1,0 +1,79 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "Cariole Pocket Watch antimagnetic running mechanical",
+  "PostalCode": "23322",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Very nice Cariole Pocket Watch. Winds, Sets, and Runs. Good runner. #433",
+  "StartTime": "2017-05-28T17:30:51.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xHsAAOSwnHZYep0B/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JO8AAOSw2xRYep0F/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/07AAAOSw5cNYep0J/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "019816",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "950",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225339466638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:30:51.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cariole-Pocket-Watch-antimagnetic-running-mechanical-/322533946663",
+  "ConditionDescription": "used but like new, with new battery.",
+  "Location": "Chesapeake, Virginia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322533946663",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H55M55S"
+}

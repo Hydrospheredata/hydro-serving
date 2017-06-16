@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "31.33",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "302340580811",
+  "TimeLeft": "P9DT20H55M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.33",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-WHITE-CZ-GOLDEN-TONE-BOLLYWOOD-BRIDAL-NECKLACE-JEWELRY-SET-4-PCS-HALLOWEEN-/302340580811",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.33",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:35:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T08:35:11.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "White",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Real Sparkle",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NEW WHITE CZ GOLDEN TONE BOLLYWOOD BRIDAL NECKLACE JEWELRY SET 4 PCS HALLOWEEN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Normal 0 false false false MicrosoftInternetExplorer4",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023405808118080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "real-sparkle",
+    "FeedbackScore": "4875",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Jannat Collection",
+    "StoreURL": "http://stores.ebay.com/id=881651537"
+  },
+  "Quantity": "1",
+  "Location": "DELHI, DELHI",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg2WDYwMQ==/z/mMYAAOSwd4tUG-Ej/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "110062"
+}

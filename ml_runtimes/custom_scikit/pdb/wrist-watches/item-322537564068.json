@@ -1,0 +1,138 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "140994191",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Little Ferry, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:36:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:36:13.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537564068",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Burberry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BU7702",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "822138022842",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Burberry Men's BU7701 Heritage Black Chronograph Dial Rubber Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Burberry-Mens-BU7701-Heritage-Black-Chronograph-Dial-Rubber-Watch-/322537564068",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225375640688080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "07643",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H28M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/h7IAAOSwYvFZLtVN/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/H44AAOSwBt5ZLtVR/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI0WDY1MA==/z/y9MAAOSw9OFZLtVS/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/aXYAAOSwlY1ZLtVT/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "USA SELLER EVERYTHING IS PACKAGED AND THE WATCHES STILL HAVE THE PLASTIC COVERING OVER THEM! 100% AUTHENTIC ALSO COMES WITH 2 YEAR WARRANTYFREE SHIPPING!PLEASE ALLOW 6-12 DAYS TO RECEIVE YOUR ITEM",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "22",
+    "UserID": "kingofwatches123",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

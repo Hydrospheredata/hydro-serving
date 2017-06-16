@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.47"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Steampunk Death Skull Pirate Red Dragon Retro Pendant Pocket Watch Gift WPK172 Sold by AMPM24 Store. Description: - High -end case with quartz movement. - Retro royal crown. - Classic skeleton hands. - Removable chain with hook. Specification (approximate): - Case diameter: 5 cm (2 inch) approx. - Case thickness: 1.9cm approx (0. 8 inch), cover included. - Case Material: copper. - Chain Length: 34cm approx. (hook included). - Chain Material: copper. Package Includes: - 1 x Pocket Watch and 1 x AMPM24 Gift Box For detail instructions of the watch, please access our website to download. The website address will show on the manual in your package. If any questions, please don't hesitate to contact us.",
+  "StartTime": "2017-04-26T10:29:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjYwWDUwMA==/z/~awAAOSwHHFZAHaC/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NzQwWDUwMA==/z/9AMAAOSw3ZRZAHaE/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDU3MA==/z/mG8AAOSw5UZZAHaK/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUzNA==/z/NI4AAOSwN6JZAHaQ/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTA3WDUwMA==/z/qwUAAOSwkShZAHaS/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDU3Mw==/z/qTUAAOSwvihZAHaV/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjI1WDUwMA==/z/7qsAAOSwtZJZAHaW/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjYwWDUwMA==/z/nLoAAOSw5UZZAHaX/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "AMPM24",
+        "Name": "Brand"
+      },
+      {
+        "Value": "WPK172+ZC172",
+        "Name": "MPN"
+      },
+      {
+        "Value": "WPK172+ZC172",
+        "Name": "Model"
+      },
+      {
+        "Value": "700900782012",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0700900782012",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629541110428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:29:48.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.47"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Death Skull Pirate Red Dragon Retro Pendant Pocket Watch Gift",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Death-Skull-Pirate-Red-Dragon-Retro-Pendant-Pocket-Watch-Gift-/262954111042",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "262954111042",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT15H43M38S"
+}

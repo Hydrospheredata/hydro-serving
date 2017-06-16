@@ -1,0 +1,123 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/bEQAAOSwIWVY9Kre/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wTsAAOSwtZJY9Kre/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/hRAAAOSwSypY9Kre/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hedgren-Womens-Hatha-Large-Gym-Tote-Castle-Rock-One-Size-/292088294282",
+  "ConvertedCurrentPrice": {
+    "value": "145.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The Hatha is a large, casual tote that organizes all your belongings - Adjustable shoulder strap - Exterior: 2 front zippered pockets - Interior: 1 zippered mesh pocket, 4 slip pockets - Detachable zippered pouch - 13.8x2.4x9.9 Hedgren Women's Hatha-Large Gym Tote, Castle Rock, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "145.9",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Hedgren Women's Hatha-Large Gym Tote, Castle Rock, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T11:45:13.000Z",
+  "HitCount": "103",
+  "TimeLeft": "P13DT18H50M18S",
+  "EndTime": "2017-06-16T11:45:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5413507850033"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Hedgren"
+      },
+      {
+        "Name": "MPN",
+        "Value": "HPLT 18"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Castle Rock"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.05 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 15 x W 14 x H 5.2 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "HPLT18-228-01"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088294282",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920882942828080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

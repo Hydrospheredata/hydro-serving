@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Mayville, Wisconsin",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:20:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:20:00.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012923103",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Quartz Tan Band Watch, Womans, Stainless Steel Case Back",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Quartz-Tan-Band-Watch-Womans-Stainless-Steel-Case-Back-/263012923103",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630129231038080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "53050",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H7M41S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE0N1gxNjAw/$T2eC16V,!zUE9s38+!k(BQMp76KkhQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzMFgxNjAw/$(KGrHqF,!g8F!U3M0JruBQMp8mGMWQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyMFgxNjAw/$(KGrHqR,!qYE+nUF1Ge0BQMp8PdOjQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Nice Womans Watch This is the information on the back. Base Metal Bezel Stainless Steel Case Back 30706 knx V377 S60-05 Check out all my watches for sale! Good Luck. Posted with eBay Mobile",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "403",
+    "UserID": "tlschraufnagel",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "The buyer has 7 days to return the item (the buyer pays shipping fees). The item will be refunded."
+  }
+}

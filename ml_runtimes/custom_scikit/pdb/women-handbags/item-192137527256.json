@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921375272568080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/NxMAAOSwOgdY0yPX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/07gAAOSwol5Y0yPW/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Signare-Womens-Ladies-Tapestry-Fashion-Handbag-Across-Body-Bag-Convertible-Spo-/192137527256",
+  "ConvertedCurrentPrice": {
+    "value": "61.16",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Our Urban Equestrian pattern starts with a classic checkerboard design in subtle golds, greys and creams that make a solid background for the equestrian imagery in the fore. Iconic images of polo, dressage and racing horses and accessories adorn this collection, and speak to that part of us that loves the elegance and pageantry of horses, even if we've never left the city in our lives. This elegant handbag not only looks fashionably fantastic, but has also been designed for the busy lifestyle. Yes, we've all been there before, quickly fumbling around to find the elusive purse or car keys. This new design concept keeps to an original classic style but encompasses a full zip down, allowing you to open the bag very widely so you can quickly find the bags contents. Beautifully designed tapestry bags from Signare - 'As individual as you are'.",
+  "Title": "Signare Womens Ladies Tapestry Fashion Handbag Across Body Bag (Convertible) Spo",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "61.16",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-23T01:24:33.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P18DT9H1M4S",
+  "EndTime": "2017-06-21T01:24:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Handbag Queen"
+      },
+      {
+        "Name": "MPN",
+        "Value": "147350693"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137527256",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:60075259:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

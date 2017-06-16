@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P10DT57M41S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "TK-003",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302318728505",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ethnic-Bridal-Jhoomer-Indian-Pakistani-Wedding-Jewelry-Jhumer-Tika-bride-New-/302318728505",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-16T12:33:12.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T12:33:12.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "KUNDAN JHOOMER SIDE TIKA",
+        "Name": "Style"
+      },
+      {
+        "Value": "COPPER AND SILVER WITH GOLD PLATING",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "RHODOLITE",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Ethnic Bridal Jhoomer Indian Pakistani Wedding Jewelry Jhumer Tika for bride New",
+  "ExcludeShipToLocation": "GB",
+  "BidCount": "0",
+  "Description": "22K GOLD PLATED HANDCRAFTED BRIDAL KUNDAN HEAD JHUMAR apps.froo.com | Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023187285058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kundanartjewelry",
+    "FeedbackScore": "250",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Kundanartjewelry",
+    "StoreURL": "http://stores.ebay.com/id=1107857656"
+  },
+  "Quantity": "1",
+  "Location": "CHANDLODIYA, GUJARAT",
+  "HitCount": "18",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/jw8AAOxydlFS7pAJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "382481"
+}

@@ -1,0 +1,125 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyM1gxNTAw/z/xhEAAOSwCQZZJgRb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExNlgxNTAw/z/XCgAAOSwEHpZJgRb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOFgxNTAw/z/sAkAAOSw-3FZJgRb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjYz/z/vqcAAOSw3gJZJgRb/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Small-Duffel-Bag-Tango-Red-/252956226536",
+  "ConvertedCurrentPrice": {
+    "value": "87.88",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "PayPal is our preferred method of payments it's the quickest, easiest and most secure way to pay for your goods or services online. PayPal offers buyer and seller protection should there be a problem. If you do not have a PayPal account, to get started and buy your first item with us is very easy. Simply click on the 'Buy It Now' button and follow the eBay checkout steps. Select PayPal as the payment method you then will be given the chance to enter your card details in to PayPal's secure checkout in order to pay for your order. Once the payment has been made, you will then be given the opportunity to make your own PayPal account to make paying for your items in the future very easy. Should there be a problem with payment please do let us know.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "87.88",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "36752",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "flower1000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Small Duffel Bag In Tango Red",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T22:08:24.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P21DT5H30M6S",
+  "EndTime": "2017-06-23T22:08:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003323724"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003323724"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB0153KXGIO-OFFSUPPLIES"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "OZ"
+      },
+      {
+        "Name": "Color",
+        "Value": "red"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.37 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 19.2 x W 15.2 x H 2 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "39567"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252956226536",
+  "Storefront": {
+    "StoreName": "flower1000",
+    "StoreURL": "http://stores.ebay.com/id=1008235809"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529562265368080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

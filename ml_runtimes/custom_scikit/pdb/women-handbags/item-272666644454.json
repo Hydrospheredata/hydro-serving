@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "TimeLeft": "P7DT8H52M20S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Item is in good condition. Please review all photos for the best description of this item, feel free to ask any questions before the purchase. We are willing to respond your request if you need more pictures.",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/zUcAAOSww3tY3bpX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/eQkAAOSwuLZY3bpd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/piYAAOSwmgJY3bpi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/0HkAAOSww3tY3bpo/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Auth-Louis-Vuitton-Keepall-Bandoliere-60-M41412-Boston-Bag-/272666644454",
+  "ConvertedCurrentPrice": {
+    "value": "630.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "630.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "OSAKA-CITY",
+  "Seller": {
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "maruhonpo"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Auth Louis Vuitton  Keepall Bandoliere 60 M41412 Boston Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T02:40:18.000Z",
+  "HitCount": "21",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-10T02:40:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Monogram Canvus"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Louis Vuitton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travelling Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "W23.6 H13 D10.2 Strap40.6-46.5"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272666644454",
+  "Storefront": {
+    "StoreName": "maruhonpo",
+    "StoreURL": "http://stores.ebay.com/id=1361962580"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "JP",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726666444548080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

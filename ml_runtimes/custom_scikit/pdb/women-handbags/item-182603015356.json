@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAz/z/IlwAAOSwxndXTiOV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjYx/z/fZ0AAOSwNsdXTiOa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwNVgxNjAw/z/yPIAAOSw6btXTiOh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzA4/z/fL4AAOSwNsdXTiOR/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Michael-Kors-Hayley-MK-Signature-Large-Convertible-Tote-Handbag-Vanilla-/182603015356",
+  "ConvertedCurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "~BNWT Michael Kors Hayley MK Signature Large Convertible Tote Bag Handbag MK SIGNATURE VANILLA/LUGGAGE Color:Vanilla/Peanut Bicolor bonded MK Signature PVC Double handles with 6-1/2\" drop; adjustable crossbody strap with 21-23\" drop Magnetic closure Exterior features gold-tone hardware Interior features detachable zip pouch and 1 open pocket 14\" W x 15\" H x 5\" D International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.",
+  "Title": "NWT~Michael Kors Hayley MK Signature Large Convertible Tote Handbag ~Vanilla~",
+  "ExcludeShipToLocation": "Alaska/Hawaii",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA"
+  ],
+  "Location": "Haddonfield, New Jersey",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "572",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "rosiesdesignerhandbags2014"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08033",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:59:36.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P9DT19H32M15S",
+  "EndTime": "2017-06-12T09:59:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Color",
+        "Value": "Vanilla"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "15\" H"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\" D"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14\" W"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "6-1/2\"/21-23\"long"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049136874"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182603015356",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "rosiesdesignerhandbags2014",
+    "StoreURL": "http://stores.ebay.com/id=1292798629"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826030153568080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

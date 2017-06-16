@@ -1,0 +1,88 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33713",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "geoforester248727",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "159",
+    "PositiveFeedbackPercent": "98.2"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "American Civil war Sesquicentennial -150th year anniversary. Watch is working and is in excellent condition. No box. #3",
+  "StartTime": "2017-05-21T16:29:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qwIAAOSwcUBYNFaU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hzQAAOSwHMJYNFae/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MGQAAOSwiDFYNFam/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6yIAAOSw-0xYNFa1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oqgAAOSw4GVYNFbE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U-8AAOSwo4pYNFbR/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "SKU": "3",
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322301459798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T16:29:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SESQUICENTENNIAL-ANNIVERSARY-AMERICAN-CIVIL-WAR-POCKET-WATCH-/332230145979",
+  "Location": "Saint Petersburg, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SESQUICENTENNIAL ANNIVERSARY OF THE AMERICAN CIVIL WAR POCKET WATCH",
+  "Storefront": {
+    "StoreName": "geofor10",
+    "StoreURL": "http://stores.ebay.com/id=1010713826"
+  },
+  "ItemID": "332230145979",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT21H50M57S"
+}

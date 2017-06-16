@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "47.59",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Leighton Buzzard",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:57:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=122038984",
+    "StoreName": "bijourbearsjewellery"
+  },
+  "CurrentPrice": {
+    "value": "37.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T06:57:03.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU",
+    "NZ"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203107221",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rivo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rivo Ladies 1950s Wrist Watch",
+  "ConditionDescription": "very good",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rivo-Ladies-1950s-Wrist-Watch-/192203107221",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922031072218080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "Lu7 4NU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H23M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjAw/z/xHsAAOSw4A5Yup9P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjAw/z/L50AAOSwTuJYup9P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjAw/z/vtwAAOSwXYtYup9Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjAw/z/rqwAAOSwSlBYup9R/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Rivo Ladies 1950s Wrist Watch \u00a345 1950s watch - in very good conditionSigned Rivo on the backRose gold colourFully working and seems to keep good timeStrap length 6.5-7.5 inches Please visit my eBay shop http://stores.ebay.co.uk/bijourbearsjewellery or my website www.bijourbearsjewellery.co.uk to see more stunning jewelleryOr join my group to see even more wonderful items https://www.facebook.com/groups/920426801408762",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "886",
+    "UserID": "bijourbearsjewellery",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "\u2022 We will only refund items that are returned in the state they were dispatched and any labels must be intact.\n\n\u2022 Should a claim for non arrival of an order arise we will refund you once we have received compensation from the post office.\n\n\u2022 Our returns policy complies with the UK\u2019s Consumer Protection (distance selling) Regulations. Your Statutory Rights will not be affected.\n\n\u2022 We offer a full refund option on all orders to the cost of the item(s) as long as the following conditions are met:\n\n\u2022 Email us within 24 hours of receiving your item(s) stating what you are returning and why. We will then advise you of how to return your item(s).\n\n\u2022 Then simply return the item(s) within 7 days. \n\nWe regret that we are unable to refund return postage costs.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

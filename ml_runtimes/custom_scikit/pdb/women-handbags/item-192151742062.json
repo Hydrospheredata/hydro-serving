@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921517420628080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uWYAAOSwmgJY6DuK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/pRUAAOSwB-1Y6DuJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/dDYAAOSwAANY6DuJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gLoAAOSwuLZY6DuJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/SnwAAOSwpP9Y6DuJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/dDUAAOSwAANY6DuJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/c68AAOSw03lY6DuJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3ukAAOSwc49Y6DuJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Genuine-Italian-Cow-Leather-Handmade-Satchel-Shoulder-Handbag-Messenger-Bag-/192151742062",
+  "ConvertedCurrentPrice": {
+    "value": "97.66",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Made from Genuine Italian leather, this EU made Professional Suitcase has a natural leather aroma and it's made by experienced local artisans. - Because this product is made with genuine leather, each product is unique and has it's own characteristics. - Ajustable genuine leather shoulder strap, easy to access and secured pockets make this an ideal business bag. - The natural smell of tanned leather will diminish if product is placed in a ventilated area before usage. - Koson Leather focuses on genuine leather and we always cheque our bags before shipping to ensure customer satisfaction. - Please note: The bag colour may vary slightly from the pictures as it's made of genuine leather and exposure in sunlight generates a different colour tint , but we guarantee that the item was photographed by us.",
+  "Title": "Mens Genuine Italian Cow Leather Handmade Satchel Shoulder Handbag Messenger Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "97.66",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-08T01:23:14.000Z",
+  "HitCount": "27",
+  "TimeLeft": "P4DT9H8M5S",
+  "EndTime": "2017-06-07T01:23:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Koson Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "989907175"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151742062",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:131095793:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

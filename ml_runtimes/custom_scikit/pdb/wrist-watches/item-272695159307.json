@@ -1,0 +1,178 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "235.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Los Angeles, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:13:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=187434258",
+    "StoreName": "VORA WATCH PLUS"
+  },
+  "CurrentPrice": {
+    "value": "235.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:13:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695159307",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ONISS PARIS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "ON8203-LRG",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Day & Date",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "CHRONO Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Ceramic",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Ceramic",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "ON8203LRG",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ONISS LADY'S WATCH CHRONO IP BACK ROU CERAMIC SAPPHIRE DIAMOND ORIGINAL ON8203RG",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ONISS-LADYS-WATCH-CHRONO-IP-BACK-ROU-CERAMIC-SAPPHIRE-DIAMOND-ORIGINAL-ON8203RG-/272695159307",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726951593078080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "90033",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H59M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/jF4AAOxy66pRvKOf/$T2eC16VHJHIFFhi0pvg,BRvKOeq6eQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/VowAAMXQlgtRvKOe/$(KGrHqVHJCEFDLpKJ0+SBRvKOeowNQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/LygAAMXQWlFRvKOh/$(KGrHqVHJCUFGnNfS((jBRvKOhPlrg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-C0AAOxyKsZRvKOk/$(KGrHqVHJB8FGtwCRsppBRvKOkLRYg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/EvgAAOxyFrNRvKOo/$(KGrHqEOKpIFGuoW)Ss!BRvKOnvqe!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/OeMAAOxy--NRvKOl/$T2eC16FHJIIE9qTYI45WBRvKOkwF1w~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/V24AAOxye3BRvKOn/$(KGrHqJHJFcFG(1Stj22BRvKOmzpdg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/L0AAAMXQWlFRvKOn/$(KGrHqMOKpYFGWfj3M)VBRvKOnSb)Q~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/d5IAAOxy2YtRvKOi/$T2eC16FHJGwFFZUK3ZYsBRvKOhv-4!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/qFoAAMXQCgpRvKOi/$T2eC16hHJGUFFh9SrjdkBRvKOh4l5!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/OdEAAOxy--NRvKOf/$T2eC16NHJIkE9qU3jcrJBRvKOe8JEw~~60_1.JPG?set_id=880000500F"
+  ],
+  "Description": "ONISS PARIS WOMEN'S CHRONO QUARTZ AUTHENTIC 100% ON 8203 LRG,ROSE GOLD CASE & SCREW ON CROWN BEVERLY HILLS COLLECTION! MULTI-FUNCTIONS SWISS MOVEMENT COMPACT ALL HITEK LUXURY BLACK CERAMIC BAND & CASE BLACK DIAL WITH DATE & DAY CHRONOBLACK DIAL WITH 7 GENUINE DIAMOND LUMINOUS HANDS & TIME MARKERS STAINLESS CASE BACK SCREW ON CROWN SPECIAL MADE BY HITEK CERAMIC ONISS SAPPHIRE CRYSTAL NO SCRATCH WATER RESISTANT 30M ADJUSTABLE BAND EASILY CASE DIAMETER: 36 MM THICKNESS: 7 MM RETAIL PRICE: $640.00 COMES WITH ORIGINAL CHERRY WOODEN WATCH BOX WARRANTY BOOKLET 3 YEAR LIMITED Check out my other items! Return policy If you are not happy with your item, we are glad to accept return. send the item back in original new condition within 14 days after you have received your item and your full money will be paid back except shipping cost by ebay transaction policy. *SHIPPING INFORMATION:*USA DOMESTIC: USPS PRIORITY MAIL FREE*WORLDWIDE: USPS PRIORITY MAIL INTERNATIONAL:$39.90*CANADA:USPS PRIORITY MAIL $19.90",
+  "Seller": {
+    "PositiveFeedbackPercent": "96.2",
+    "FeedbackScore": "6257",
+    "UserID": "vorawatchplus2005",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

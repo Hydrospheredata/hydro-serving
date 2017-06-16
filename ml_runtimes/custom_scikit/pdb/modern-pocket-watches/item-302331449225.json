@@ -1,0 +1,84 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "QuantitySold": "0",
+  "Title": "Majesti \"Number 1 Dad\" quartz pocket watch with chain, runs, needs battery",
+  "PostalCode": "75115",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Up for auction is a Majesti \"Number 1 Dad\" quartz pocket watch with chain. This watch is in its original box and was originally priced $34.86. The watch case measures 1.875\" in diameter. The watch runs, but needs a battery. In great condition. See photos for details. What you see is what you get. I do not accept returns, ask questions before bidding. I will ship anywhere in the world, but all international shipping is via USPS Priority Mail (except Canada).",
+  "StartTime": "2017-05-28T21:42:19.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JbQAAOSwfRdZK0GN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/jAgAAOSwaeRZK0GX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ktQAAOSwGJlZK0GH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7JIAAOSwi7RZK0GT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/yz8AAOSwlMFZK0Ga/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/oHQAAOSwn-tZK0Ge/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ynwAAOSwY3BZK0Gh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/neIAAOSwIaFZK0Gk/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Majesti",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kathys_curios",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "303",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023314492258080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T21:42:19.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Majesti-Number-1-Dad-quartz-pocket-watch-chain-runs-needs-battery-/302331449225",
+  "ConditionDescription": "This watch runs, but needs a battery. In its original box. See photos for details. What you see is what you get.",
+  "Location": "Desoto, Texas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302331449225",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT3H7M26S"
+}

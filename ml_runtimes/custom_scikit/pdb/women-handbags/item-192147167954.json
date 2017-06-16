@@ -1,0 +1,251 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LadyZiWangMeiZiWang-Lady-Canvas-Shoulder-Messenger-Bag-Huge-Saving-/192147167954?var=",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Material: Nylon Fabric texture: polyester Material texture: polyester Style: female Messenger bag Bags shape: cross section square Luggage fashion style: hand package Open the lid way: zipper Popular elements: hand packs Package internal structure: mobile phone bags, document bags, zipper bags Strap root number: single Bags size: small Pattern: plain Style: Casual Hardness: Soft Ask carry parts: soft handle Outside Bag Type: Inside Pouch Whether to export: No Colour: purple, khaki, black, violet, denim blue, rose red",
+  "Title": "LadyZiWangMeiZiWang Lady Canvas Shoulder Messenger Bag. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/852/779/311706641/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/852/780/311722837/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/781/311600762/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/782/311927068/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/852/783/312904992/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "60.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852779:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Colour",
+              "Value": "Red"
+            },
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "60.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852780:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Colour",
+              "Value": "Brown"
+            },
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "60.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852781:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Colour",
+              "Value": "Purple"
+            },
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "59.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852782:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Colour",
+              "Value": "Black"
+            },
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "60.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852783:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Colour",
+              "Value": "Blue"
+            },
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "Colour",
+          "Value": [
+            "Red",
+            "Brown",
+            "Purple",
+            "Black",
+            "Blue"
+          ]
+        },
+        {
+          "Name": "Size",
+          "Value": "One Size"
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-04-03T01:40:29.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT9H23M25S",
+  "EndTime": "2017-07-02T01:40:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MeiZiWang"
+      },
+      {
+        "Name": "MPN",
+        "Value": "10102"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192147167954",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139852778:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

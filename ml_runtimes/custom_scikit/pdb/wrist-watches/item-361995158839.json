@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Saitama",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:30:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "HighBidder": {
+    "FeedbackScore": "278",
+    "UserID": "r***w",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackPrivate": "false"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:30:41.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Title": "Vintage 1960-70's IWC (International Watch Co) Automatic watch [C.8541B]",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995158839",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "IWC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "34mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "C.8541B",
+        "Name": "Model"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Value",
+        "Name": "Type"
+      },
+      {
+        "Value": "No Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "R810AD",
+        "Name": "MPN"
+      },
+      {
+        "Value": "18mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "1951035",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "10.49",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-1960-70s-IWC-International-Watch-Co-Automatic-watch-C-8541B-/361995158839",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619951588398080_1.jpg",
+  "HitCount": "19",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H22M42S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LbgAAOSw~y9ZLpgU/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Swiss IWC (International Watch Co) Automatic watch in 1960-70's Movement: C.8541B, International Watch Co. SWISS, Auto-winding, Sr.1980057 Dial: Original, fine. Case diameter: 34 mm Case material: Stainless Steel Glass: Original, acrylic, a little scratch (polished). Crown: Original, signed \"logo\". Band: Original?, signed \"IWC\", it fits for wrist of 20.5 cm or less. Date: Works fine automatically. Condition: Used, it runs well, keeps good time (+-1 minute a day). I feel the rotor for auto-winding is loose. For practical, everyday use, it would be advisable to have the movement cleaned and oiled.Shipping by EMS from Japan. Asia: 13$ North America, Australlia: 17$ Europe: 19$ South America, Africa: 21$ Payment : Paypal",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4410",
+    "UserID": "saitama_jp",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

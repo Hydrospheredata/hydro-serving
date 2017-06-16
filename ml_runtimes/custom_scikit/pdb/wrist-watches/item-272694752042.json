@@ -1,0 +1,118 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "16.08",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:40:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "12.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:40:23.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08160088",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "BY",
+    "MX",
+    "KZ"
+  ],
+  "ItemID": "272694752042",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Disney",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Childrens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "SWM3006-BLACK",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Black Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "5018479079446",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Children\u2019s Star Wars Finn black digital watch SWM3006",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Children-s-Star-Wars-Finn-black-digital-watch-SWM3006-/272694752042",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726947520428080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H11M33S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/TRUAAOSww5hZLoF7/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Children\u2019s Star Wars Finn black digital watch SWM3006 RRP \u00a317.99 Now \u00a312.50 Description Black and orange children\u2019s Star Wars watch, featuring an image of the popular characters Finn and Chewbacca on the watch face. The watch clearly displays digital time, making this watch great for any child who wants to confidently tell the time. The watch casing is orange, with a fixed black bezel, and has three buttons on the side. These control timekeeping functions, including adjusting the clock, but one also illuminates the watch vibrantly with red lights set inside the casing. The watch also has a comfortable and durable black watch strap, printed with images from the most recent Star Wars movie, including a Rebel Resistance logo. The strap is worn with a secure black plastic buckle. We are authorised stockists of Disney\u2019s Star Wars watches, and stock a variety of other designs, featuring characters such as Darth Vader and the Stormtroopers. This product comes with a one year manufacturer\u2019s warranty and all watches are sent brand new. Chapelle ref 08160088 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

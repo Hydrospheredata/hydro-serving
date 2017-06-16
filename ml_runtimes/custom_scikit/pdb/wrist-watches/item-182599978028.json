@@ -1,0 +1,137 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2347.13",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "London",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:19:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1825.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T11:19:51.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "More than 23 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599978028",
+  "HandlingTime": "2",
+  "Description": "Up for sale is a very rare and beautiful automatic omega seamaster aqua terra with mother of pearl diamond dial. This comes with full box papers and spare links. Very similar to the Rolex datejust and also has a similar sweeping movement! This watch is in excellent condition and fully working order. Cash on collection or immediate payment. NO TIMEWASTERS!! Please look at my other items!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Omega Seamaster Aqua Terra MOP Diamond Dial 36mm Automatic Co-Axial 2504.75 RARE",
+  "ConditionDescription": "Excellent",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Seamaster-Aqua-Terra-MOP-Diamond-Dial-36mm-Automatic-Co-Axial-2504-75-RARE-/182599978028",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825999780288080_1.jpg",
+  "HitCount": "11",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT19H59M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwNlg3NTA=/z/YEoAAOSwdGFY3auW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI0NVg3NDY=/z/EDsAAOSwc-tY3ana/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODA2WDc1MA==/z/tkUAAOSwmgJY3auY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI2N1g2MjQ=/z/k8gAAOSwXYtY3aua/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMlg3MTY=/z/KHUAAOSwA29Y3auc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEyM1g3NDc=/z/YU4AAOSwdGFY3aue/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Mzk1WDc0OA==/z/irYAAOSw4CFY3auh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTY5WDc1MA==/z/qdYAAOSwzgBY3auj/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "1825.0",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "96.8",
+    "FeedbackScore": "501",
+    "UserID": "oneawayz",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

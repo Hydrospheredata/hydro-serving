@@ -1,0 +1,142 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33763",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This auction for very nice previously owned MAJESTRON MAJESTI #1 DAD Silver & Gold Tone Pocket Watch W/ Fob Box & Battery Works ! item works great just put in new battery. its in great barely used shape. little signs of use. cool little display collector or useful. great gift idea for fathers day. item ships as is, shown and described. item ships for $7.50 email for combined shipping.",
+  "StartTime": "2017-03-03T16:01:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rMoAAOSwuxFYuZIp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/f2QAAOSwB-1YuZIs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PecAAOSwdGFYuZIy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J90AAOSwhlZYuZI2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rtYAAOSwuxFYuZI5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ONIAAOSwTM5YuZI-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6m4AAOSwXYtYuZJE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IWQAAOSw4A5YuZJJ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.88"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Majestron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "tmurph92",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "10981",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "168",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3321441323378080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-01T16:01:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.88"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MAJESTRON-MAJESTI-1-DAD-Silver-Gold-Tone-Pocket-Watch-W-Fob-Box-Battery-/332144132337",
+  "Location": "Clearwater, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MAJESTRON MAJESTI #1 DAD Silver & Gold Tone Pocket Watch W/ Fob Box & Battery !",
+  "Storefront": {
+    "StoreName": "TMURPH92 ZERO DIRECTION COLLECTION",
+    "StoreURL": "http://stores.ebay.com/id=62168576"
+  },
+  "ItemID": "332144132337",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT21H8M3S"
+}

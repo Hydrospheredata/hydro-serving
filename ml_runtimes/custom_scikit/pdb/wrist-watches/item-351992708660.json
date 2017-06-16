@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Bulova Manual Wind Men's Wristwatch ~ 17-Jewels ~ 11-K5637 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-02-27T11:27:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDEyODA=/z/Pb4AAOSw5cNYmi9z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4NjY=/z/fwcAAOSwnHZYmi90/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI1WDEyODA=/z/KoEAAOSw241Ymi92/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "2039",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3519927086608080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-27T11:27:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Bulova-Manual-Wind-Mens-Wristwatch-17-Jewels-11-K5637-/351992708660",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Vintage Bulova Manual Wind Men's Wristwatch ~ 17-Jewels ~ 11-K5637",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "351992708660",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P26DT17H31M58S"
+}

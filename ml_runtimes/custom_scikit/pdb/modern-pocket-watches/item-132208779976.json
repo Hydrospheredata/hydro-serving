@@ -1,0 +1,138 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "18901",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Antique Waltham Pocket WatchGrade 96 - Model 2 - 7 Jewelsc. 1898RUNNING Well Case:Silverode in very good condition - no dents - light wear Case Size:Measures approximately 59mm Dial:White single sunk in good condition with a few light hairlines - please zoo in Crystal:Heavy glass - no scratches Movement:Elgin Grade 96 - 7 Jewels - Winds smooth and runs keeping time within 3 minutes over the past 24 hours - I do not know when it was last serviced. If you have less than 5 eBay transactions, please contact me before bidding. PA residents are subject to a 6% Sales Tax.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/doEAAOSwX61ZLBhA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ObMAAOSw7GRZLBhD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SxAAAOSwn-tZLBhG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5uwAAOSwY3BZLBhJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dv4AAOSwX61ZLBhM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i2EAAOSwfRdZLBhR/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Waltham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "59MM",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silverode",
+        "Name": "Metal"
+      },
+      {
+        "Value": "7 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "7268954",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Silverode",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rmon3283",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3028",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-30T01:30:27.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322087799768080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T01:30:27.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-Pocket-Watch-18-Size-Grade-96-7-Jewels-1898-Running-Well-/132208779976",
+  "Location": "Doylestown, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Elgin Pocket Watch - 18 Size - Grade 96 - 7 Jewels - 1898- Running Well",
+  "Storefront": {
+    "StoreName": "Bucks County Beautiful",
+    "StoreURL": "http://stores.ebay.com/id=27770581"
+  },
+  "ItemID": "132208779976",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT6H56M8S"
+}

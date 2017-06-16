@@ -1,0 +1,138 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "3000.0",
+    "_currencyID": "USD"
+  },
+  "Country": "US",
+  "Location": "Silver Spring, Maryland",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T14:19:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2300.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-01T14:19:33.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "BuyItNowPrice": {
+    "value": "3000.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "4",
+  "TimeLeft": "PT23H10M23S",
+  "MinimumToBid": {
+    "value": "2300.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "20904",
+  "ConvertedCurrentPrice": {
+    "value": "2300.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023344437388080_1.jpg",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "BuyItNowAvailable": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Breitling Superocean",
+        "Name": "Model"
+      },
+      {
+        "Value": "Breitling",
+        "Name": "Brand"
+      },
+      {
+        "Value": "great color must see goes well with all",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "More than 23 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "yes",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "HandlingTime": "2",
+  "Description": "ACCEPTING ALL REASONABLE OFFERS NO OUT OF COUNTRY DEALS. WATCH IS MUST SEE. BLUE DIAL HAS MULTI COLOR. STONES ARE GREAT ACCENT WATCH GREAT FOR RIGHT OWNER.COMES WITH ORIGINAL BOX AND PAPERS. AUTHENTICITY GUARANTEED.",
+  "QuantitySold": "0",
+  "Title": "Breitling superocean diamond watch",
+  "ConditionDescription": "AUTHENTIC GREAT WATCH. JUST LOOKS GREAT ON ANYONE. MUST HAVE. ONCE YOU SEE IN PERSON YOU CANT RESIST. IM ACCEPTING ALL REASONABLE OFFERS.COMES WITH ORIGINAL BOX AND PAPERS. WILL ALSO INCLUDE RECEIPT FROM ORIGINAL JEWELER IF REQUESTED.",
+  "BidCount": "0",
+  "ItemID": "302334443738",
+  "Subtitle": "Once payment made watch goes out this morning I",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/ibYAAOSww5hZJRnR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1NVgxMTI0/z/P08AAOSwjqVZJRo1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/w00AAOSw8HBZJRno/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTE5WDEwODA=/z/0lwAAOSwIQdZJRoH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU3WDEyNjk=/z/CRYAAOSws5pZJRpl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/prQAAOSw-3FZLpwf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNDQw/z/qk8AAOSw-3FZLpxf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/id4AAOSwY3BZLpyF/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Breitling-superocean-diamond-watch-/302334443738",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "37",
+    "UserID": "shmmml82333-1",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

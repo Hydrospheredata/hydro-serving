@@ -1,0 +1,195 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33180",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:93720",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Watch DetailsManufacturer: Frederique Constant Diameter (without Crown): 36mmCase Condition: Brand NewCase Metal: Stainless Steel Dial Condition: ExcellentDial Color: mother of pearlMovement Type: Swiss Automatic w/ 38 Hr Power Reserve, 26 JewelsMovement Condition: Fully FunctioningCrystal: Sapphire crystal with Antiflective coatingBand/Bracelet: Black leather bandClasp or Buckle: BuckleCase: Skeleton back WRIST SIZE: 8'' FREDERIQUE CONSTANT 100% AUTHENTIC WATCH Bracelet band belongs to DeBeer Paris company genuine crocodile, not original Frederique constant.",
+  "StartTime": "2016-08-21T12:01:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2MlgxMjM0/z/6o4AAOxycgVTfmZp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/Da4AAOxyhS9Tfmbw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/efQAAOxyx0JTfmb2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/4lYAAMXQuCdTfmb9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5rkAAOxy3cJTfmcC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/e68AAOxyx0JTfmcO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/WWIAAOxykUZTfmcV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/lAMAAOxyaURTfmcZ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1250.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "93720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Diver Watch/Water Resistant over 100 m",
+          "Easy To Read"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Frederique Constant",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical: Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "magicjewelers2014",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "270",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "731",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1919509941388080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T12:01:37.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1250.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CO",
+    "PA",
+    "JM",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE",
+    "TW"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FREDERIQUE-CONSTANT-CLASSIC-HEART-BEAT-AUTOMATIC-WATCH-DIAMOND-BEZEL-/191950994138",
+  "Location": "Miami, Florida",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "FREDERIQUE CONSTANT CLASSIC HEART BEAT AUTOMATIC WATCH WITH DIAMOND BEZEL",
+  "Storefront": {
+    "StoreName": "magic jewelers",
+    "StoreURL": "http://stores.ebay.com/id=16783694"
+  },
+  "ItemID": "191950994138",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Manuals & Guides",
+  "TimeLeft": "P16DT15H14M16S"
+}

@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "AU",
+    "KI",
+    "BA",
+    "DE",
+    "GI",
+    "IT",
+    "GB",
+    "BS",
+    "LC",
+    "BN",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "GF",
+    "MX",
+    "CM",
+    "IQ",
+    "JO",
+    "YE",
+    "AF",
+    "CN",
+    "TM"
+  ],
+  "QuantitySold": "11",
+  "PostalCode": "85225",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "infantry-006xi",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13158",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Payment Terms We accept PayPal payment only. We do not offer combine shipping discount. Our P&P rates includes the postage, packing materials, processing and administrative costs. Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Shipping Terms We ship your orders within 1 business day (Excluding holidays)\u00a0after the payment is cleared. Estimated Delivery Time:A) United States: 3-7 business days B) Canada: 9-15 business days inkfrog terapeak On Mar-08-17 at 19:05:14 PST, seller added the following information:",
+  "StartTime": "2017-03-09T03:00:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/3dEAAOSwBt5ZJ99a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA2WDkzMA==/z/eVUAAOSw~y9ZJ99a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI2WDkzMA==/z/S9MAAOSw7GRZJ99b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/kl8AAOSwlMFZJ99b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/NB4AAOSwZKBZJ99c/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/o00AAOSwurZZJ99c/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg5WDkzMA==/z/WN8AAOSwaeRZJ99d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDkzMA==/z/VZMAAOSwlndZJ99e/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM3WDkzMA==/z/gYYAAOSwPh5ZJ99d/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "16",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton",
+          "12-Hour Dial",
+          "Large Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Double Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Anchor",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "12",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "4895203629297",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "PX-026-S",
+  "HitCount": "850",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2322649237868080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T03:00:08.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "60 Days",
+    "RestockingFeeValue": "20%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PACIFISTOR-SKELETON-MECHANICAL-POCKET-WATCH-STEAMPUNK-CHAIN-ANTIQUE-STYLE-SILVER-/232264923786",
+  "Location": "Chandler, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "PACIFISTOR SKELETON MECHANICAL POCKET WATCH STEAMPUNK CHAIN ANTIQUE STYLE SILVER",
+  "Storefront": {
+    "StoreName": "Infantry-006xi",
+    "StoreURL": "http://stores.ebay.com/id=1021027758"
+  },
+  "ItemID": "232264923786",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT8H8M41S"
+}

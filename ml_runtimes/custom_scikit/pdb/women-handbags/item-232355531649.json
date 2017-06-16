@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7skAAOSw-3FZLyYf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zGsAAOSwYlRZLyYS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/41EAAOSwK6RZLyYF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ETYAAOSw~y9ZLyYr/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hermes-Empty-box-KELLY-35-KELLY-40-/232355531649",
+  "ConvertedCurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "HERMES EMPTY BOX FOR KELLY 35 - KELLY 40 -VICTORIA -SAC A DEPECHES dim . 52,5 x 42 x 17,5 cm height 20,66 '' X 16,53 '' X '' 6,88'' complete with cushion, silk paper Customer Service: Our Customer Service department can be reached \ud83d\udcf2 by Text or WhatsApp at 33 6 22 41 25 19 perfect condition - Guaranteed authentic !",
+  "Title": "Hermes Empty box for KELLY 35 KELLY 40",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Collemiers",
+  "Seller": {
+    "FeedbackScore": "69",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "accesstovintage75"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "FR",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "89100",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T18:02:36.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P28DT2H12M53S",
+  "EndTime": "2017-06-30T18:02:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Hermes"
+      },
+      {
+        "Name": "Type",
+        "Value": "Empty Box"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232355531649",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323555316498080_2.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

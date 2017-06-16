@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P18DT5H51M11S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "SCROLL RIGHT DOWN FOR MORE PICTURES ..",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/INEAAOSwSypY-j7e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lYYAAOSwvihY-j7j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lhUAAOSwvihY-j7n/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/IusAAOSwSypY-j7r/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LULULEMON-Groovy-Run-Short-Size-8-Plum-Pow-Stripe-Raspberry-Glo-Light-/142390322404",
+  "ConvertedCurrentPrice": {
+    "value": "61.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "LULULEMON Groovy Run Short Size 8 Plum Pow Stripe Raspberry Glo Light",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "61.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Salt Spring Island, British Columbia",
+  "Seller": {
+    "FeedbackScore": "685",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkhibiscus12"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "v8k 1p4",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-21T22:32:19.000Z",
+  "HitCount": "5",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-20T22:32:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "shorts"
+      },
+      {
+        "Name": "Size Type",
+        "Value": "8"
+      },
+      {
+        "Name": "Size (Women's)",
+        "Value": "8"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142390322404",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423903224048080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

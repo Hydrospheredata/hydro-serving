@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jNMAAOSwGJlZMWwa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WOEAAOSwEHpZMWwx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/XXsAAOSwBt5ZMWsk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/P1wAAOSwaeRZMWsm/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Black-Nylon-Eliza-Baby-Bag-Tote-Large-Bag-Workwear-/282506108680",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Like NEW! RETAILS FOR $298. Highly sought after baby bag in Excellent used condition. This bag is the best! Also comes with original tag and long detachable strap. Please email any questions. This is an as is sale, no returns.",
+  "Title": "Marc by Marc Jacobs Black Nylon Eliza Baby Bag Tote Large Bag Workwear",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Baton Rouge, Louisiana",
+  "Seller": {
+    "FeedbackScore": "132",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "eliseolagarde"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "70806",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:49:00.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT22H29M59S",
+  "EndTime": "2017-06-09T13:49:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282506108680",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825061086808080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

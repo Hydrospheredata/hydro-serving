@@ -1,0 +1,157 @@
+{
+  "ExcludeShipToLocation": [
+    "Middle East",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "Africa"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mjg5WDE2MDA=/z/k~MAAOSwJQdXAvLp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MjgwWDE2MDA=/z/5mUAAOSwSX9XAvLr/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "all_ways_on_time",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "39133",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "StartTime": "2017-05-12T01:24:50.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept returns for any reason, no questions asked.  Customer service is our number one priority!  Simply open a return on Ebay's purchase history page and you'll easily be guided through the process and provided a shipping label. We will issue a full refund of your original payment within 2 business days (M-F) of receiving the item.\n\nAll items must be returned in the original condition as when received and must include any accessories that came with the item.  This may or may not include the box, papers, hang tag, etc - whatever is listed in the description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "New without Tags, Running/Working, Protective Film on Band, No Box or Paperwork",
+  "Title": "New Nike Big Al WC0001 601 Deep Red D Line Collection Replacement Watch Band",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "401325733517",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Nike-Big-Al-WC0001-601-Deep-Red-D-Line-Collection-Replacement-Watch-Band-/401325733517",
+  "Storefront": {
+    "StoreName": "all_ways_on_time6",
+    "StoreURL": "http://stores.ebay.com/id=163963794"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "75070",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "New without tags",
+  "Description": "If you need a new factory Big Al Aluminum Band, snap one up because this may be the only source. Product Description: This offer is for 1 Deep Red/Anthracite Band for a Nike Big Al WC0001 601. This item is missing the movement and case but can be replaced with an existing Nike Big Al Band. This watch band measures 7.25\" long. Condition: \u2022Brand New \u2022Protective Film on Band \u2022No Box or Papers",
+  "HitCount": "10",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "Nike Part 53",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nike",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Red",
+          "Black"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "21mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Nike Big Al",
+        "Name": "Model"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013257335178080_1.jpg",
+  "BestOfferEnabled": "true",
+  "BidCount": "0",
+  "EndTime": "2017-06-11T01:24:50.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "Location": "McKinney, Texas",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "TimeLeft": "P10DT5H2M46S"
+}

@@ -1,0 +1,87 @@
+{
+  "QuantitySold": "0",
+  "Title": "BIKER POCKET WATCH.",
+  "PostalCode": "92346",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "BIKER POCKET WATCH. DIAMETER -- 2\" CONDITION -- UNWANTED GIFT. NEEDS A NEW BATTERY AS IT'S BEEN IN A BOX FOR YEARS. TINY SCRATCH NEAR THE TOP/SIDE AREA",
+  "StartTime": "2017-05-29T18:09:58.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzY0/z/0jsAAOSwhQhY0Xab/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOVgxNjAw/z/uzMAAOSwax5Y0Xao/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GrwAAOSwuxFY0Xa0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3-IAAOSwCU1Y0Xct/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "2009midnight1234",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2687",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423983596098080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-28T18:09:58.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BIKER-POCKET-WATCH-/142398359609",
+  "ConditionDescription": "NEVER USED.",
+  "Location": "Highland, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142398359609",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT23H35M30S"
+}

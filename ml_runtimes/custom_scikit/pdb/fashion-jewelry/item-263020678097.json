@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT18H31M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "239.2",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263020678097",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-Yurman-4MM-X-Cuff-Beautiful-Bracelet-14K-Yellow-Gold-925-Sterling-Silver-/263020678097",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "239.2",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:22:03.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:22:03.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "David Yurman",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "X Cuff Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "David Yurman 4MM X Cuff Beautiful Bracelet 14K Yellow Gold 925 Sterling Silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "David Yurman 4MM X Cuff Beautiful Bracelet 14K Yellow Gold & 925 Sterling Silver Style No : David-X-Bracelet Brand : David Yurman Condition : Pre-owned (Excellent Condition) Metal Type : 925 Sterling Silver Diameter : 2 1/7\" Approximately Cable : 4 MM Wide Wrist : 7\" Hallmark :\u00a9 D.Y. 925 750 Powered by SixBit's eCommerce Solution",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630206780978080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "neminy",
+    "FeedbackScore": "1619",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Nemi NY",
+    "StoreURL": "http://stores.ebay.com/id=109829217"
+  },
+  "Quantity": "1",
+  "Location": "East Rutherford, New Jersey",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rsoAAOSwdGFYt-S2/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FtEAAOSwhlZYt-Sv/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rjkAAOSwdGFYt-Sy/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/I7QAAOSwax5Yt-S4/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/MYIAAOSwWxNYt-S6/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "07073"
+}

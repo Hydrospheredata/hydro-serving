@@ -1,0 +1,191 @@
+{
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "59.64"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIEDAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-03-27T10:23:55.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/ixMAAOSw2gxY2OfN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/xtsAAOSwdGFY2Ofg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/rFAAAOSwWxNY2Ofu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/jFkAAOSwuLZY2OgC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/apgAAOSwTM5Y2OgT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/ZLYAAOSwXYtY2Ogu/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "25",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "lerosentha-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "484",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "27",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:23:55.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "79.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Make sure it is in the original packaging please",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Silver",
+          "Blue",
+          "Gold",
+          "Silver Gold"
+        ],
+        "Name": "Colour"
+      }
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "79.99"
+        },
+        "SKU": "sku-auc-0",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "79.99"
+        },
+        "SKU": "sku-auc-1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "79.99"
+        },
+        "SKU": "sku-auc-2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "79.99"
+        },
+        "SKU": "sku-auc-3",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "79.99"
+        },
+        "SKU": "sku-auc-4",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver Gold",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "5"
+      }
+    ]
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ON THE EDGE STEEL Quartz Pocket Watch/FOB Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EDGE-STEEL-Quartz-Pocket-Watch-FOB-Watch-/152487412618?var=",
+  "Storefront": {
+    "StoreName": "leostoreaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1477142763"
+  },
+  "ItemID": "152487412618",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "TimeLeft": "P24DT15H34M34S"
+}

@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3223543435528080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/JYgAAOSwImRYSjuX/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kalencom-Multitasker-Diaper-Bag-Chocolate-Blue-281-/322354343552",
+  "ConvertedCurrentPrice": {
+    "value": "78.4",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "THE-FASHION-SCOOP Kalencom Multitasker Diaper Bag , Chocolate/Blue 281 Click Below Images to Enlarge PRODUCT DESCRIPTION Zippered top opens to roomy interior. Inside lined with mesh storage pockets. Comfortable, shoulder length straps. Two outside pockets. Matching insulated bottle bag. Coordinating zippered pouch. Large fold-out changing pad. </",
+  "Title": "Kalencom Multitasker Diaper Bag , Chocolate/Blue 281",
+  "ExcludeShipToLocation": "Alaska/Hawaii",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.4",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Avondale Estates, Georgia",
+  "Seller": {
+    "FeedbackScore": "823",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "the-fashion-scoop"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30002",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-12-09T05:05:29.000Z",
+  "HitCount": "37",
+  "TimeLeft": "P4DT13H31M50S",
+  "EndTime": "2017-06-07T05:05:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kalencom"
+      },
+      {
+        "Name": "MPN",
+        "Value": "281-CHOCOLATE/BLUE"
+      },
+      {
+        "Name": "UPC",
+        "Value": "088161222431"
+      },
+      {
+        "Name": "Site Price",
+        "Value": "78.40"
+      },
+      {
+        "Name": "List Price",
+        "Value": "78.40"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322354343552",
+  "Storefront": {
+    "StoreName": "the-fashion-scoop",
+    "StoreURL": "http://stores.ebay.com/id=1389056348"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "BH-281-CHOCOLATEBLUE",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

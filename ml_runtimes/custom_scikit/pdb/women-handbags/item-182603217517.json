@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hvcAAOSwK6RZMV-C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8r8AAOSw8HBZMV-F/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dN4AAOSwlY1ZMV-J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sh8AAOSws5pZMV-M/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-SOFIA-large-wristlet-tan-multi-NWT-/182603217517",
+  "ConvertedCurrentPrice": {
+    "value": "53.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fossil SOFIA large wristlet in tan with multi colors NWTmeasures approx 5 x 6.5LZIP with wristlet strapon tan leather there are embellished design with green and pink ribbons throughout..also turquoise and red dashesinside 3 card slots MSRP$ 65.00",
+  "Title": "Fossil SOFIA large wristlet in tan with multi  NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Monroe, New York",
+  "Seller": {
+    "FeedbackScore": "14772",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "longgoneshaggy"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10950",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:55:05.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT22H45M34S",
+  "EndTime": "2017-07-02T12:55:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Fossil"
+      },
+      {
+        "Name": "Style",
+        "Value": "wristlet 5 x 6.5"
+      },
+      {
+        "Name": "Color",
+        "Value": "tan leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "723764487749"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182603217517",
+  "Storefront": {
+    "StoreName": "A better place to shop",
+    "StoreURL": "http://stores.ebay.com/id=808410022"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "A 10% restocking fee may apply to this listing. \"Returns can be quite costly since the buyer pays the return shipping as well as a 10% restocking fee (sorry but this is necessary to cover the cost of shipping and fees) so please contact me prior to purchasing if you have any questions as to the size and I will gladly provide measurements and/or additional pictures.\"",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826032175178080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

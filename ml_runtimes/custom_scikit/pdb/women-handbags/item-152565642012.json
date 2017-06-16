@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vzMAAOSwn-tZLF5E/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AyEAAOSwBt5ZLF5I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oX0AAOSw8HBZLF5M/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NI8AAOSw-K9ZLF5Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qtkAAOSw5cRZLF5V/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-PETAL-PAISLEY-Colorful-Tote-NWT-Shopper-Carry-Office-Navy-/152565642012",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "Vera Bradley PETAL PAISLEY Be Colorful Tote NWT Shopper Carry On Office Navy",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Elma, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "3529",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mes0_4"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "14059",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T17:56:28.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P26DT1H24M24S",
+  "EndTime": "2017-06-28T17:56:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Tote Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Totes"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Paisley"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium to Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink & Green & Navy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003242230"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152565642012",
+  "Storefront": {
+    "StoreName": "MES Selling Items",
+    "StoreURL": "http://stores.ebay.com/id=113726143"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525656420128080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

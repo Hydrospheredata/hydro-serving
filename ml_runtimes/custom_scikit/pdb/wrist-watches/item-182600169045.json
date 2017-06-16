@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "FR",
+  "Location": "Charquemont",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:36:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T13:36:44.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600169045",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "lip",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/lip-watch-electronic-42985-old-stock-/182600169045",
+  "Title": "lip watch,electronic , ,42985 (old stock)",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826001690458080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "25140",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT22H25M9S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/di8AAOSwcB5ZLsas/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "lip watch,electronic , movement R184 , diameter 39,70 mm ,42985 (old stock)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "598",
+    "UserID": "fresardwatch",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

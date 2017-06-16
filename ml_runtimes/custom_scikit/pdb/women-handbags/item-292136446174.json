@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921364461748080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4MA==/z/S1gAAOSwmgJY7mE7/$_10.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/85-VICTORIA-SECRET-black-Fashion-Show-Bag-Limited-Edition-Fringe-Backpack-NEW-8-/292136446174",
+  "ConvertedCurrentPrice": {
+    "value": "59.98",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Condition: New with tags Color: Black Brand: Victoria's Secret Description: 17\"L x 6.3\"W x 14\" H - Large size and SUPER cute Retail: $85.00 Please note: My items come from a variety of sources including retail stores, outlets, estate sales, thrift stores and auctions. I describe everything to the best of my ability and I take A LOT of pictures so you know exactly what you're getting when you purchase from me. I offer 30 day returns - no questions asked - but the buyer is responsible for shipping costs. Thank you for visiting! inkfrog terapeak",
+  "Title": "$85 VICTORIA SECRET black Fashion Show Bag Limited Edition Fringe Backpack NEW 8",
+  "ExcludeShipToLocation": [
+    "Middle East",
+    "RU",
+    "HR",
+    "CZ",
+    "HU",
+    "MT",
+    "PL",
+    "RS",
+    "SJ",
+    "UA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.98",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Kennesaw, Georgia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "9065",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "sakuravintage2011"
+  },
+  "PrimaryCategoryID": "169292",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30152",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "StartTime": "2017-06-01T03:23:39.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P28DT12H39M54S",
+  "EndTime": "2017-07-01T03:23:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "0667540462011"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292136446174",
+  "Storefront": {
+    "StoreName": "Sakura Vintage 2011",
+    "StoreURL": "http://stores.ebay.com/id=42568437"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept returns if an item has not been properly described, but we do not accept returns in cases of buyer's remorse or for ill-fitting clothing or footwear.  Please compare measurements given in the auction with an item at home so that you know exactly what you are getting :)  We do not refund shipping at any time.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "PROD_NUM_429144",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

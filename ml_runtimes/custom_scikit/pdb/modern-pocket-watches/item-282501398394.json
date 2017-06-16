@@ -1,0 +1,88 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "82604",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "NEW Silver Owl watch key chain.",
+  "StartTime": "2017-05-30T23:01:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIxMlg4MTA=/z/fe0AAOSw8lpZG4RZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2MVg4MTA=/z/dWMAAOSw9OFZG4RI/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "allsmiles1415_0",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "6",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825013983948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T23:01:17.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silver-Owl-watch-key-chain-/282501398394",
+  "Location": "Casper, Wyoming",
+  "Title": "Silver Owl watch key chain",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "282501398394",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT4H27M47S"
+}

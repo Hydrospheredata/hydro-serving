@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4MFg5MjA=/z/F-8AAOSwB09YJNFo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4MFg5MjA=/z/BNIAAOSwx2dYJNFv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4MFg5MjA=/z/vFMAAOSw4GVYJNFy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4MFg5MjA=/z/Bp4AAOSwXeJYJNF1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4MFg5MjA=/z/3gUAAOSwo4pYJNF-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REBECCA-MINKOFF-Hudson-blue-mini-leather-hook-fastening-shoulder-bag-/282506121433",
+  "ConvertedCurrentPrice": {
+    "value": "207.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Rebecca Minkoff royal-blue Hudson shoulder bagLeatherDetachable shoulder strapFront flap pocket, designer plaque, gold hardwareTwo internal compartments, patch pocketFully lined in black failleHook-fastening front flapSizeMax. Strap LengthHeightWidthDepthinch486.58.53",
+  "Title": "REBECCA MINKOFF Hudson blue mini leather hook fastening shoulder bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "207.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Rancho Cucamonga, California",
+  "Seller": {
+    "FeedbackScore": "107",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "magnolia2016"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91730",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T14:00:37.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT23H56M17S",
+  "EndTime": "2017-07-02T14:00:37.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Rebecca Minkoff"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282506121433",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825061214338080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

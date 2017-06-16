@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "292071103972",
+  "TimeLeft": "P22DT14H1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "AUD"
+  },
+  "SKU": "35281",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Classic-fine-925-Sterling-Silver-Pebbles-Toe-Ring-35281-/292071103972",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.15",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-30T03:47:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "AU",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-28T03:47:44.000Z",
+  "Location": "Sydney",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bee Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "35281",
+        "Name": "MPN"
+      },
+      {
+        "Value": "606280786193",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Classic fine 925 Sterling Silver Pebbles Toe Ring 35281",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "RUGS BOOTS EARINGS NECKLACE Note: This item is on pre-sale.All orders after 1st Apr will be dispatched on: 40th June. --> New Classic fine 925 Sterling Silver Pebbles Toe Ring 35281",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2920711039728080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "fab-living",
+    "FeedbackScore": "13020",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Fab-living",
+    "StoreURL": "http://stores.ebay.com/id=653894059"
+  },
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/G~IAAOSwhQhY3H~i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/YdEAAOSwsW9Y3H~i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/TGIAAOSwTM5Y3H~i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/DPkAAOSwuxFY3H~i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/pFgAAOSwmgJY3H~i/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

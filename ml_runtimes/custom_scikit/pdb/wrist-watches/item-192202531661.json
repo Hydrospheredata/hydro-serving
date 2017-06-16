@@ -1,0 +1,117 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Gadsden, Alabama",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-30T19:12:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "HighBidder": {
+    "FeedbackScore": "304",
+    "UserID": "s***s",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackPrivate": "false"
+  },
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-04T19:12:02.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "THIS AUCTION IS FOR A VERY NICE MEN'S AUTOMATIC INVICTA OCEAN GHOST. IT IS WORKING AND IN EXCELLENT CONDITION. IT MEASURES 46MM ACROSS NOT INCLUDING THE CROWN. IT DOES COME WITH ONE EXTRA LINK.",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192202531661",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel/GOLD PLATE",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "46mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "21 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MEN'S INVICTA OCEAN GHOST 21 JEWEL AUTOMATIC 2 TONE 200M WATCH 7112",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MENS-INVICTA-OCEAN-GHOST-21-JEWEL-AUTOMATIC-2-TONE-200M-WATCH-7112-/192202531661",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922025316618080_1.jpg",
+  "HitCount": "13",
+  "PostalCode": "35903",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT3H38M58S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3QMAAOSwEHpZLcI0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~KEAAOSwGJlZLcJL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jN4AAOSwtGlZLcJP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~eoAAOSw1WJZLcJS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3rkAAOSw9OFZLcJX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q~wAAOSw0hlZLcJc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5jEAAOSwi7RZLcJi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5oAAAOSwi7RZLcJn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CfIAAOSws5pZLcJq/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "1.04",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "haleybaby18_2",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

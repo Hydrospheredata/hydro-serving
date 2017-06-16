@@ -1,0 +1,96 @@
+{
+  "QuantitySold": "0",
+  "Title": "Jacques Du Manoir Pocket Watch, Men's Watch, Swiss Made",
+  "PostalCode": "92831",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Swiss made. Purchased in Wengen, Switzerland.",
+  "StartTime": "2017-05-27T19:06:48.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/PRIAAOSwxEpYxCk4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/NgQAAOSwxEpYxCkg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/scIAAOSw2gxYxCki/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/YGMAAOSwfVpYxCkm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/Q3gAAOSw32lYxCku/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/7CcAAOSwuxFYxCkw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/460AAOSwWxNYxCky/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jacques du Manoir",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Swiss Made",
+          "Includes Chain",
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mrfipp-7",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023302470418080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-26T19:06:48.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jacques-Du-Manoir-Pocket-Watch-Mens-Watch-Swiss-Made-/302330247041",
+  "ConditionDescription": "Always kept in case. Has a new battery.",
+  "Location": "Fullerton, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302330247041",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT31M30S"
+}

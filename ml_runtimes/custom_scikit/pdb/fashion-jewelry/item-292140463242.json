@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT10H45M",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292140463242",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-PANDORA-EFFERVESCENCE-Murano-Glass-925-Sterling-Silver-Charm-PN9-/292140463242",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T21:15:35.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T21:15:35.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "European",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Flowers & Plants",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Murano",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "AUTHENTIC PANDORA \"EFFERVESCENCE\" Murano Glass .925 Sterling Silver Charm - PN9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Best-selling item! This is an AUTHENTIC PANDORA item in the original plastic bag with the Pandora barcode. It does not come with a Pandora box. I am not an authorized dealer of Pandora, but my items have been certified by REACT and Pandora as authentic, I purchase all Pandora items from the company that Pandora sells their retired items to. Please know you can buy with confidence, just check my feedback rating. Please do not buy this item unless you are a serious buyer. There is a 10% restocking fee on any returns of authentic Pandora items so that I can have their authenticity verified again. Thanks so much for visiting!",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921404632428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "holhouse",
+    "FeedbackScore": "11765",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "BeadCharms",
+    "StoreURL": "http://stores.ebay.com/id=189317619"
+  },
+  "Quantity": "2",
+  "Location": "Leominster, Massachusetts",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTE1WDUwMw==/z/kckAAOSw-K9ZNHho/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "01453"
+}

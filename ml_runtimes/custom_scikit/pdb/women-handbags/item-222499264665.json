@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2224992646658080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/1JEAAOSwnONZC0UW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/PbUAAOSwuMZZC0Ub/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ2MFg5MDM=/z/oYcAAOSwdjNZC0fo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/oDAAAOSww9xZC0fO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/jNYAAOSwuMZZC0fK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY4WDk1Mg==/z/lYUAAOSwlndZC0e~/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Womens-Tote-Espresso-12741-085-Retail-99-NWT-/222499264665",
+  "ConvertedCurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Vera Bradley Womens Tote Espresso 12741-085 Retail $99 NWT Espresso Color appears to be Brown Exterior Toggle Closure Front Slip Pocket W/ Key Clip Back Zipper Pocket Strap 10\"Drop Interior 6 Slip Pockets 18\"W x 14.75\"H x 6.25\"D Custom Label: S3-886003308738 LT Shipping We pride ourselves in shipping your purchases within one business day of cleared payment. Most orders with cleared payment before Noon CDT will ship the same day. We combine shipping to save you money. Just have fun shopping and wait to pay when you are all finished. Shipping is figured for the item with highest shipping cost. You can add items and the shipping charges will be included at 65% off flat shipping rates. Payment Ready to Pay? We accept PayPal only. We accept the forms of payment below through PayPal. When you are ready to pay, simply click the \"Pay Now\" button at the top of the eBay item page to submit a secure payment through checkout. Terms International customers are responsible for all customs, duties, or taxes on all purchases. Please do not ask us to change classification or value on the customs forms. The item will be valued on the customs forms at the price that you paid. Returns are accepted within 30 days of arrival to the buyer. The buyer pays all shipping costs. About Us We are a family owned business and customer satisfaction is our #1 goal. We try to offer you the best prices possible on some of the world's finest brands. Check back often for some of eBay's finest treasures! If you need anything, please send us a message via the eBay messaging feature!",
+  "Title": "Vera Bradley Womens Tote Espresso 12741-085 Retail $99 NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Shawnee, Oklahoma",
+  "Seller": {
+    "FeedbackScore": "16095",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "zippdogoutlet"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "74804",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-04T15:29:38.000Z",
+  "HitCount": "16",
+  "TimeLeft": "PT22H37M30S",
+  "EndTime": "2017-06-03T15:29:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003308738"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222499264665",
+  "Storefront": {
+    "StoreName": "Zippdog Outlet",
+    "StoreURL": "http://stores.ebay.com/id=810239449"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "S3-886003308738 LT",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,312 @@
+{
+  "ReturnPolicy": {
+    "Description": "1) Please contact us to get a RMA number BEFORE returning back the item. Goods without RMA number will NOT be accepted. \n2) Defective goods must be returned within 30 days from the delivery date.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT1H6M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Body Jewellery:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "43.59",
+    "_currencyID": "CAD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "182598781588",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Sexy-Bridal-Crystal-Harness-Necklace-Body-Chain-Bikini-Jewelry-Silver-/182598781588?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.25",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T16:21:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T16:21:51.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Style",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "A",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/9doAAOSw-3FZLVgZ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/-PYAAOSwDiBZLVgf/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/5JcAAOSwAPVZLVgm/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/~P4AAOSwKytZLVgs/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/baEAAOSwcgNZLVgx/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/D8AAAOSwlndZLVg3/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "B",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/--UAAOSwKytZLVgc/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/pyAAAOSwZKBZLVgj/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/FtoAAOSwPh5ZLVgp/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/j5gAAOSwEHpZLVgv/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/y-gAAOSw7GRZLVg0/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/xp0AAOSwaeRZLVg6/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "A",
+          "B"
+        ],
+        "Name": "Style"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "15_CV282256013005",
+        "StartPrice": {
+          "value": "45.55",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "A",
+            "Name": "Style"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "15_CV282256013007",
+        "StartPrice": {
+          "value": "43.59",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "B",
+            "Name": "Style"
+          }
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "/",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "/",
+        "Name": "Material"
+      },
+      {
+        "Value": "/",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "/",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "/",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "/",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "Title": "Women's Sexy Bridal Crystal Harness Necklace Body Chain Bikini Jewelry Silver",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "JP",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "CY",
+    "EE",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "BidCount": "0",
+  "Description": "About us Shipping Payment Returns Contact us Store Categories Store home Womens Clothing & Accessories Mens Clothing & Accessories Baby Children Supplies Wedding Supplies Toys & Hobbies Dolls & Bears Musical Instruments Crafts Foot & Shoes Care Colloyes SwimWear Home & Garden Other Payment Policy Womens Sexy Bridal Crystal Harness Necklace Body Chain Bikini Jewelry SilverSKU: 15_CV2822120 Description: Occasion for Wedding, nightclub, holiday beach, kinks of parties, ect. A good gift for your lover, family, friend and coworkers. Making you feel more elegant and fashion Excellent wearing effect Perfect ornament when you enjoy the wedding,Party,Beach etc Specification: Material: Alloy Size (Waist): 46cm / 18inch Size A-Body vertical chain length: 36.5cm,Back chain circumference:96cm (including metal chest portion size) Size B-Size (Waist): 102cm / 40.2inch ,Body vertical chain length: 26cm/10.2 Color: Golden Package Includes: 1 x Body Chain Shipping And Handling Policy The buyer is responsible for any applicable import duties and local taxes. Please verify with your customs before making your purchase. Please verify your address during checkout. We are not responsible for any wrong or undeliverable addresses. People always bought together withNew Fashion Women Bikini Beach Cross...6.73Buy It NowFree ShippingShoulder Chain Wrap Necklace Wedding...30.98Buy It NowFree ShippingWedding Bridal White Flower Lace Sho...45.60Buy It NowFree Shipping2pcs Vintage Diamante Crystal Silver...79.93Buy It NowFree ShippingCrystal Rhinestone Wedding Bridal Je...40.43Buy It NowFree ShippingWomens Crystal Body Chain Bra Jewelr...3.45Buy It NowFree ShippingNew Fashion Women Gold Bikini Beach ...3.83Buy It NowFree ShippingNew Fashion Women Silver Bikini Beac...3.77Buy It NowFree ShippingBohemian Multilayer Luxury Body Chai...9.49Buy It NowFree ShippingRetro Punk Sexy Bikini Geometric Han...10.36Buy It NowFree ShippingNew Fashion Bikini Sexy Gold Plated ...4.56Buy It NowFree ShippingNew Women Gold Body Chain Long Neckl...3.14Buy It NowFree ShippingMulticolor Rhinestone Crystal Gem Fl...12.04Buy It NowFree ShippingWomens Bikini Belly Waist Body Chai...13.36Buy It NowFree ShippingCrystal Belly Button Ring Navel Chan...3.58Buy It NowFree ShippingCrystal Luxury Ring Button Bar Waist...3.94Buy It NowFree ShippingFashion Gold Crossover Body Belly Wa...9.57Buy It NowFree ShippingLuxury Trendy Stretchy 3 Row Tassel ...3.61Buy It NowFree ShippingFashion Lady Multi Tassel Body Belly...10.35Buy It NowFree ShippingCrystal Rhinestone Sexy Metal Linger...10.52Buy It NowFree Shipping On 30-May-17 at 12:26:12 EDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "dealsgoing",
+    "FeedbackScore": "48870",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "dealsgoing",
+    "StoreURL": "http://stores.ebay.com/id=1338195832"
+  },
+  "Quantity": "2",
+  "Location": "Shenzhen",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/DFYAAOSwlMFZLVgR/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

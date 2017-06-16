@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/zLsAAOSww9xZMJ33/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5ckAAOSwY3BZMJ4E/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QhoAAOSwZKBZMJ4U/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/56IAAOSwY3BZMJ4f/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zw8AAOSww9xZMJ4p/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/c8oAAOSw3gJZMJ41/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/c-oAAOSw3gJZMJ44/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SVgAAOSwK6RZMJ4-/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Messenger-Crossbody-Bag-Crossgrain-Leather-Lapis-Teal-/263015553644",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Durable crossgrain leather perfect for all the essential items (fits anything from a thick wallet to a large smartphone). The open side pocket is ideal for travel (i.e. passport and ticket holder). Adjustable strap. Condition: taken out of the packaging and labels to be worn and never taken outside, so truly like new.",
+  "Title": "COACH Messenger Crossbody Bag (Crossgrain Leather in Lapis Teal)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Brookline, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "pizzagal77"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02445",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T23:25:57.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT9H4M18S",
+  "EndTime": "2017-07-01T23:25:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8 1/4\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "7 3/4\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "23\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263015553644",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630155536448080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

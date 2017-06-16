@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P28DT2H21M10S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Like New Condition",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/40EAAOSwIQdZLv-7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PTAAAOSwfRdZLv--/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OKUAAOSwH09ZLv~B/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Vu8AAOSwYvFZLv~F/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zUcAAOSww5hZLv~H/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/X94AAOSwfpVZLv~L/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-STEVIE-Black-DIAPER-BAG-w-CHANGING-PAD-TOTE-LARGE-Handbag-/172706324979",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "KATE SPADE STEVIE Black DIAPER BAG w/ CHANGING PAD TOTE LARGE Handbag! Feel free to message us with any questions or concerns before purchasing. We put maximum effort into providing customers with a safe, informed, and enjoyable shopping experience. Consumer protection is important to us, so we ensure only the top quality service!",
+  "Title": "KATE SPADE STEVIE Black DIAPER BAG w/ CHANGING PAD TOTE LARGE Handbag!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Virginia Beach, Virginia",
+  "Seller": {
+    "FeedbackScore": "85",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "abeesboutique"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "23452",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T17:41:07.000Z",
+  "HitCount": "16",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-30T17:41:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder diaper bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172706324979",
+  "Storefront": {
+    "StoreName": "happinessthekey",
+    "StoreURL": "http://stores.ebay.com/id=1298835288"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727063249798080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

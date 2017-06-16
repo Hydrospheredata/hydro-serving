@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTcz/z/1boAAOSw8HBZIgMr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjA5/z/CA8AAOSwblZZIgM0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4NFgxNjAw/z/RlgAAOSwR29ZIgM-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDk1/z/CO4AAOSwYvFZIgNI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/q2cAAOSwfRdZIgNR/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Frye-Antiqued-Leather-Teardrop-Backpack-18-x-14-/263013810027",
+  "ConvertedCurrentPrice": {
+    "value": "129.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "I bought this Frye Backpack in Santa Fe several years ago. It is in very good shape. There are two zippers located on the back of the pack, a 15\" one running the length, and a short one, 7\" long. The shorter zipper allows you to access the pack without opening it completely. It is an eloquent and excellent pack for travel, as the zippers are next to your back and are not exposed. There is a 6\" x 7\" zippered pocket inside the pack. All hardware, the ring, buckles and zipper pulls are brass. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "Title": "Frye Antiqued Leather Teardrop Backpack, 18\" x 14\"",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "129.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Castle Rock, Colorado",
+  "Seller": {
+    "FeedbackScore": "752",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "suzgot"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "80109",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T00:53:59.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P8DT10H9M16S",
+  "EndTime": "2017-06-11T00:53:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Frye"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown with charcoal antiquing"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Colombia"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013810027",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630138100278080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,112 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "Vintage Ladies Tiffany and Co \"Portfolio\" Roman Numerals White Dial",
+  "PostalCode": "30518",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Tiffany & Co. Ladies Portfolio Wristwatch Black Roman-Numeral White Dial Excellent Pre-Owned Condition Roman-Numeral Dial 100% Guaranteed Authentic High-grade Swiss made quartz movement Case Measures 23 mm wide (1\") Inside Circumference 7\u201d Hallmarked Original Swiss Quartz movement ** Hallmarked** **Face of watch** Portfolio Tiffany & Co. Swiss Made **Back of Watch** Portfolio By Tiffany & Co. All Stainless Steel Swiss Made Water resistantNo box or papers, come with this fine watch. Running great~keeping perfect time At time of listing Watches that are working Are Not Tested for Accuracy Some May Need Cleaning & Oil We Cannot Guarantee the Performance & Accuracy of any Watch. Watches should be serviced & cleaned for good performance, And To Maximize Appearance Currently running and keeping perfect time Excellent Pre-Owned Condition",
+  "StartTime": "2017-05-24T20:04:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kMEAAOSwaeRZJeZN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DWAAAOSwjqVZJeaQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ai8AAOSw3gJZJeZE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QnwAAOSwlY1ZJeZX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/M18AAOSwEHpZJeZh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kooAAOSwaeRZJeZt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jTsAAOSwrhBZJeYT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kWcAAOSw8lpZJeZ9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Y88AAOSw5cRZJeaF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OiQAAOSw7GRZJeY3/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "695.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tiffany & Co.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Portfolio",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jmwjewelry",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "417",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "21",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525599676518080_2.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T20:04:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "695.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Ladies-Tiffany-and-Co-Portfolio-Roman-Numerals-White-Dial-/152559967651",
+  "ConditionDescription": "Excellent Condition",
+  "Location": "Buford, Georgia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152559967651",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT1H26M57S"
+}

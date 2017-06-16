@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P27DT23H11M1S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent example of mid century jewelry.  Very good condition.  Pin fastener works well.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201945249896",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-03T12:17:23.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-Gold-Tone-Amber-Crackle-Art-Glass-Mid-Century-Brooch-281100-/201945249896",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T12:17:23.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "gold tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Amber",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Beautiful Gold Tone Amber & Crackle Art Glass Mid Century Brooch  281100",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Salisbury, North Carolina",
+  "Description": "Stunning mid century gold tone brooch. Amber colored glass alternates with crackle art glass with two marquis dangles. Unmarked as to maker. Measures 2-1/4\" long including dangles and 1-1/2\" wide. Ring boxes and other display pieces are not included. The items I list are pre-owned. Some are vintage or antique. They may not be perfect but I will describe to the best of my ability. Ask questions! My sterling silver jewelry and items are pre-owned and pre-loved. Older quality silver offers a soft patina that is warm and unique to the history of each individual piece. There may be light surface scratches but that is normal for silver. I do my best to describe the items. However, I occasionally miss something. Questions are always welcome. I believe that all problems can be resolved if the buyer communicates with the seller. It is EBAY's posted policy to contact the seller before leaving negative/neutral feedback. Negative/neutral feedback neither helps nor resolves problems. It is permanent and damages the reputation that we strive so hard to establish.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019452498968080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "murphymom111",
+    "FeedbackScore": "3495",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "River Rock Collectibles and Silver",
+    "StoreURL": "http://stores.ebay.com/id=942105713"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IioAAMXQVERSxc~c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TPEAAMXQVT9Sxc~V/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/isAAAOxygPtSxc~Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rhkAAOxyNo9Sxc~g/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cbUAAOxyUrZSxc~l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TtkAAMXQVT9Sxc~p/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cqYAAOxyUrZSxc~t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RbMAAOxycmBSxc~w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zL0AAOxy63FSxc~3/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "28144"
+}

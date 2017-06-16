@@ -1,0 +1,136 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P12DT16H53M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "SA",
+    "CO",
+    "BR",
+    "CL",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "181155187090",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Handmade-sterling-silver-and-czech-crystal-eye-glass-holder-/181155187090",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2013-06-09T04:06:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-18T04:06:16.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "Handmade sterling silver and czech crystal eye glass holder",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This 26\" eye glass holder is made of sterling silver and beautiful blue czech crystals.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1811551870908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "gemstonefun",
+    "FeedbackScore": "2",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Cypress, Texas",
+  "HitCount": "488",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA0WDEwMjQ=/z/7McAAMXQDK1Rs~53/$T2eC16ZHJGUFFh)rg8GkBRs+51JTU!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM0WDEwMjQ=/z/wDIAAMXQLs5Rs~5f/$(KGrHqNHJBUFBS7B8p31BRs+5fNjIg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMyWDEwMjQ=/z/jAkAAOxyPH9Rs~6J/$(KGrHqNHJ!0FGn,qjZsJBRs+6I1Jpg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "77429"
+}

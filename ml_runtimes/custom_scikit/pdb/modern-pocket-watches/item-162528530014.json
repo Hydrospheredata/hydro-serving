@@ -1,0 +1,172 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.05"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Sold by AMPM24 Store. Description: 1.Dragon series pocket watch is the best gift for your love, seniority or yourself. 2.Elegant design with precise quartz movement. 3.Retro watch case brings you back to your memory in youth. 4.Removable chain with a clip at the end. Specification (1 cm=10 mm=0.394 inch) (approximate) Case diameter: 5.0cm approx. Case thickness: 1.0cm approx.(cover included) Case Material: Copper Chain Length: 36cm approx. (hook included) Chain Material: Alloy Package Includes: - 1 x Pocket Watch and 1 x AMPM24 Gift Box For detail instructions of the watch, please access our website to download. The website address will show on the manual in your package. If any questions, please don't hesitate to contact us. - Sold by AMPM24 Store. Package Includes:- 1 x Pocket Watch and 1 x AMPM24 Gift Box - Dragon series pocket watch is the best gift for your love, seniority or yourself. Elegant design with precise quartz movement. - Case diameter: 5.0cm approx. Case thickness: 1.0cm approx.(cover included) Chain Length: 36cm approx. (hook included) - Color may not appear as exactly as in real life due to variations between the computer monitors and nacked eye color difference. - For detail instructions of the watch, please access our website to download. The website address will show on the manual in your package. If any questions, please don't hesitate to contact us. AMPM24 Mens Golden Dragon Dangle Pendant Pocket Quartz Watch + Gift Chain WPK043",
+  "StartTime": "2017-05-25T12:04:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/KgEAAOSwcB5ZJshY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/VEkAAOSwfpVZJshX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/UW4AAOSwblZZJshX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/dMgAAOSw8HBZJshX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/RHwAAOSw0hlZJshY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/6UsAAOSwGJlZJshX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/hjwAAOSw3gJZJshY/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "700621215868",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0700621215868",
+        "Name": "EAN"
+      },
+      {
+        "Value": "AMPM24",
+        "Name": "Brand"
+      },
+      {
+        "Value": "WPK043",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.31 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.49 x W 3.94 x H 1.02 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "23",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625285300148080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T12:04:37.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.05"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "AMPM24 Mens Golden Dragon Dangle Pendant Pocket Quartz Watch + Gift Chain WPK043",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AMPM24-Mens-Golden-Dragon-Dangle-Pendant-Pocket-Quartz-Watch-Gift-Chain-WPK043-/162528530014",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528530014",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT17H27M48S"
+}

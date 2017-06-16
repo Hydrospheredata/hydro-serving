@@ -1,0 +1,115 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Raleigh, North Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:30:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:30:54.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705415069",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Accutime Watch Corp",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Comic/ Cartoon/ Novelty",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult / Teen",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New BATMAN vs SUPERMAN Dawn of Justice Dual Time Men's Analog WATCH w/ Gift Box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-BATMAN-vs-SUPERMAN-Dawn-Justice-Dual-Time-Mens-Analog-WATCH-w-Gift-Box-/172705415069",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727054150698080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "27619",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H58M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzNVgxNTg5/z/vbsAAOSwGIRXZIPi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Mx8AAOSwOVpXZIRq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY0WDEyMDA=/z/3EwAAOSwmtJXZIUG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA0OFgxMjAw/z/UFoAAOSwnNBXZIS4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkxWDE2MDA=/z/OcsAAOSwNuxXZITm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QosAAOSwOVpXZIUz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q~QAAOSwjXRXZIVT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/wDoAAOSwGIRXZIQD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/a8kAAOSwzJ5XZIQY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NjE=/z/LOAAAOSwNuxXZIQ1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxMVgxMDgw/z/bGsAAOSw3YNXZIRW/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "NEW in BOX Batman VS Superman Dawn of Justice Face Dual Time Watch *Switch to activate the watch battery has Never been removed* Large Face makes times Easy to ReadSet 2 separate times Double displaysBlack BandSilvertone scratch-resistant Face Mecury-free battery operated DC Comics brand",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "247",
+    "UserID": "richmomof4",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "NO REFUNDS ON OPENED MERCHANDISE. Refunds only apply to an item that's returned in the same condition it was in before shipment. IF the item was purchased new and unopened, it must come back in stated condition to receive a refund. The refund will include the cost of the item, minus shipping/handling."
+  }
+}

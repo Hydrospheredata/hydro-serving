@@ -1,0 +1,109 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFg4NDM=/z/LlEAAOSw5cRZMVbM/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDUyOA==/z/0YQAAOSwYvFZMVWV/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/TGQAAOSwR29ZMVWU/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/UlkAAOSw8HBZMVWX/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/JbkAAOSwsXFZMVbO/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/iT8AAOSw0hlZMVbJ/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Coach-F57612-Signature-Jacquard-Lexy-Shoulder-Bag-Handbag-Purse-Black-Smoke-/132213087385",
+  "ConvertedCurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Coach F57612 Signature Jacquard Lexy Shoulder Bag Handbag Purse Black Smoke *I do not have a dust bag* Thanks for looking!",
+  "Title": "New Coach F57612 Signature Jacquard Lexy Shoulder Bag Handbag Purse Black Smoke",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Mount Morris, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "228",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "amberj5518"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "15349",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:19:35.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P29DT22H7M43S",
+  "EndTime": "2017-07-02T12:19:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "Silver/Black Smoke/Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10 3/4\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4 3/4\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "Handles with 9 1/2\" drop"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Multi-Colored"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132213087385",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322130873858080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQxOVg4OTg=/z/tXwAAOSw--1Wr2rD/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Thirty-One-Rolling-Weekender-Black-Floral-Brushstrokes-Retired-hard-find-/162525304334",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thirty One Rolling Weekender In Black Floral Brushstrokes Retired, hard to find Sold for 99.99 as a hostess gift plus tax and ship Great price smoke and pet free",
+  "Title": "Thirty One Rolling Weekender In Black Floral Brushstrokes Retired,  hard to find",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169302",
+  "Location": "Montrose, Minnesota",
+  "Seller": {
+    "FeedbackScore": "876",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "creativelyyou"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "55363",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-22T18:28:58.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P19DT1H55S",
+  "EndTime": "2017-06-21T18:28:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Thirty-One"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162525304334",
+  "Storefront": {
+    "StoreName": "creativelyyou",
+    "StoreURL": "http://stores.ebay.com/id=1430442477"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625253043348080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

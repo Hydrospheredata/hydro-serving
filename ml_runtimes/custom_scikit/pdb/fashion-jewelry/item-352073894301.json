@@ -1,0 +1,159 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "352073894301",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "43205",
+  "ExcludeShipToLocation": [
+    "MX",
+    "NG",
+    "SO",
+    "YE",
+    "IT"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "findingking",
+    "FeedbackScore": "578739",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "GreenShooting"
+  },
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6kcAAOSwn-tZL2I7/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "QU-QG1241-9",
+  "StartTime": "2017-05-31T05:49:10.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Fancy-Link-Anklet-Chain-Jewelry-/352073894301?var=",
+  "EndTime": "2017-06-30T05:49:10.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "9\"",
+          "10\""
+        ],
+        "Name": "Chain Length"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "75708",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "SKU": "75707",
+        "StartPrice": {
+          "value": "44.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "11"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "polished",
+        "Name": "Finish"
+      },
+      {
+        "Value": "925 sterling",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "spring ring",
+        "Name": "Clasp Type"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "FindingKing",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Fancy Link Anklet Chain Jewelry",
+  "TimeLeft": "P24DT20H22M58S",
+  "Location": "Mesa, Arizona",
+  "Description": "--> FindingKing Sterling Silver Fancy Link Anklet Chain Jewelry Chain LengthApproximate LengthApproximate Weight10\"254mm3.701 grams 9\"228.6mm3.198 grams All weights and measurements are approximate.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "26",
+  "PostalCode": "85215"
+}

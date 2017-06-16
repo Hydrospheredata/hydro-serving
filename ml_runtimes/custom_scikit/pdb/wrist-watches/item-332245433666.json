@@ -1,0 +1,146 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "276.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "SA",
+  "Location": "Riyadh",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:38:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "276.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T07:38:17.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "40.5mm with crown",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "23 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Seiko 5 Sports",
+        "Name": "Model"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245433666",
+  "HandlingTime": "3",
+  "Description": "DESCRIPTIONS: White Dial Strong Luminous Hands and Markers Day and Date display at 3 o'clock position Stainless Steel Case See Through Case Back Stainless Steel Bracelet with Push Button Clasp Features: Seiko 5 Sports Series Water Resistance 100m (10bar) Automatic Movement 23 Jewels Made in JAPAN Approximate measurements: Case diameter: 40.5mm (with crown) Case diameter: 37mm (without crown)",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/eSeiko-5-Sports-SNZF25J1-Mens-Watch-/332245433666",
+  "ConditionDescription": "It is brand new!, never wore!, with box & international warranty, but there are few tiny minor hairline scratches on the case side.",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with defects",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322454336668080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT16H6M11S",
+  "ConditionID": "1750",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMTcy/z/XcoAAOSwpP9Y68Ga/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/tZoAAOSwc49Y677e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUzWDU0MA==/z/ktoAAOSww3tY677j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/-yoAAOSw3utY68GR/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "eSeiko 5 Sports SNZF25J1 Men's Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "94",
+    "UserID": "distinguished.collector",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be returned intact (same as received)\nBuyer should pay for the return shipping fees"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "AD",
+    "BA",
+    "CY",
+    "EE",
+    "GI",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.74"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-04-08T03:58:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/gfYAAOSwdjNZBAys/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/r90AAOSwT-FZBAyx/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Qr4AAOSw42dZBAyd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/~PAAAOSwCQZZBAyh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/~C4AAOSwt0FZBAym/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/UusAAOSwX61ZBAyW/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "30",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "4FC7QV3ZX1YQ3",
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2322962776158080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T03:58:39.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "232296277615",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.74"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ShenZhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vogue Unisex Silver Polish Quartz Chain Pendant Necklace Fob Pocket Watch Gift",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vogue-Unisex-Silver-Polish-Quartz-Chain-Pendant-Necklace-Fob-Pocket-Watch-Gift-/232296277615",
+  "Storefront": {
+    "StoreName": "HCS-Autohome",
+    "StoreURL": "http://stores.ebay.com/id=1365524706"
+  },
+  "Seller": {
+    "UserID": "auto_home",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8893",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT9H11M3S"
+}

@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fees: No",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT23H29M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "63.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222535705767",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chrysoprase-Ring-925-Solid-Silver-Gemstone-Ring-All-Sizes-16-RI710-/222535705767",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "63.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:38:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T12:38:20.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Chrysoprase",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "9",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Chrysoprase Ring,925 Solid Silver Gemstone Ring All Sizes 16-RI710",
+  "ExcludeShipToLocation": [
+    "North America",
+    "AU",
+    "GB",
+    "CI",
+    "GH",
+    "NG"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225357057678080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "ravishingimpression",
+    "FeedbackScore": "2692",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "ravishingimpression",
+    "StoreURL": "http://stores.ebay.com/id=1135639467"
+  },
+  "Quantity": "1",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/zREAAOSwQYZWyFJV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzcyWDU3MA==/z/f~QAAOSwWTRWyFJV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/EWcAAOSwezVWyFJW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/HPMAAOSwx-9WyFJX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/qfEAAOSwll1WyFJY/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "302015"
+}

@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns Only On Items Grossly Misrepresented In Listing.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT18H1M22S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "SKU": "843036055909",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "232360576262",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T03:54:14.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-Christo-Power-Pink-Wide-Cuff-Silver-Reversible-Band-BNWT-/232360576262",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T03:54:14.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton Christo Power Of Pink Wide Cuff Silver With Reversible Band BNWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Schenectady, New York",
+  "Description": "Brighton Christo Wide Power Of Pink Cuff 2016. Brand New With Tag. DETAILS:Gorgeous Silver Plated Cuff Includes Leather Reversible Band In Pink Or Embossed PythonWear It In Pink Or Wear It In Python Or Wear It Alone In Chic Silver Measures 1 1/2\" Wide 2 1/2\" Diameter Comes From A Clean Smoke Free Home",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323605762628080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "channelly121",
+    "FeedbackScore": "3272",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bHwAAOSwblZZNNSx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/v9wAAOSwIQdZNNS8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1RsAAOSwCQZZNNTF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0OEAAOSwlMFZNNTV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Vj0AAOSwurZZNNTi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wZEAAOSwIQdZNNTu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cWUAAOSwsXFZNNT4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jQ8AAOSwK6RZNNUD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YA0AAOSw8HBZNNUN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yBkAAOSwY3BZNNUZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "12309"
+}

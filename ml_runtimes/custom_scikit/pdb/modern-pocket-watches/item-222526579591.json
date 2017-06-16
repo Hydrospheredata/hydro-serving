@@ -1,0 +1,117 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "35802",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Make a Statement with this Gloss Black Pocket Watch and White Roman Numerals and Hands. It has a Battery Operated (spare battery included) Quartz Movement for greater accuracy. Comes with a Removable Matching Chain about 80 cm long.",
+  "StartTime": "2017-05-28T06:10:01.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iPEAAOSwCU1YwnJ9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODcyWDEwNzY=/z/JZ4AAOSwOgdYwnNo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/t9gAAOSwax5YwnLP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6QgAAOSwsW9YwnMS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODY4WDgxNg==/z/vkEAAOSwuxFYwnO6/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "westhunt.256",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "882",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225265795918080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T06:10:01.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/POCKET-WATCH-GLOSS-BLACK-ROMAN-NUMERALS-AND-CHAIN-BLACK-DIAL-WHITE-HANDS-/222526579591",
+  "Location": "Huntsville, Alabama",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "POCKET WATCH, GLOSS BLACK WITH ROMAN NUMERALS AND CHAIN, BLACK DIAL WHITE HANDS",
+  "Storefront": {
+    "StoreName": "westhunt.256",
+    "StoreURL": "http://stores.ebay.com/id=804416801"
+  },
+  "ItemID": "222526579591",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT11H35M5S"
+}

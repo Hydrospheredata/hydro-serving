@@ -1,0 +1,284 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Loni-Classy-Faux-Leather-Occasion-Wedding-Clutch-Shoulder-Bag-Shipping-Included-/192138778595?var=",
+  "ConvertedCurrentPrice": {
+    "value": "51.89",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This classy and elegant clutch/shoulder bag for that special occasion, wedding, race event etc. will make you stand out from the crowd. The body of the bag is made of smooth faux kid leather. The lining is faux suede. The bag has a detachable strap which is 97cm in length, and is made of the same material and is in the same colour as the bag. There is a double inside pocket - one is zipped, and the other is open. The size of the bag is 27cm x 17cm x 6cm. If you are unsure of the colour or material - please request a FREE colour swatch. Please message or email us with your name and address to post to and the colour(s) you are interested in. Will be sent by 1st Class post. The swatch we send will be the same as the actual material used to make the bag. Please note: Swatches are posted every TUESDAY and FRIDAY. all of our bags are designed and made in the uk!",
+  "Title": "Loni Classy Faux Leather Occasion Wedding Clutch Shoulder Bag. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.89",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Frosted Silver Grey",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0060/564/724/176222137/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Pewter Gunmetal",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0060/564/725/206649859/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0060/564/726/176222148/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0060/564/727/176222160/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Nude Beige",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0060/564/728/176222174/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark Navy",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0060/564/729/176222188/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Pewter Bronze",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0060/564/730/176222202/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Pewter Graphite",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0060/564/731/211039038/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564724:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Frosted Silver Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564725:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Pewter Gunmetal"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564726:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "White"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "55.63",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564727:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564728:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Nude Beige"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564729:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Dark Navy"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564730:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Pewter Bronze"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.89",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:60564731:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Pewter Graphite"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Frosted Silver Grey",
+          "Pewter Gunmetal",
+          "White",
+          "Black",
+          "Nude Beige",
+          "Dark Navy",
+          "Pewter Bronze",
+          "Pewter Graphite"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-24T11:28:44.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P19DT19H7M2S",
+  "EndTime": "2017-06-22T11:28:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LONI"
+      },
+      {
+        "Name": "MPN",
+        "Value": "204242119"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138778595",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:60564723:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

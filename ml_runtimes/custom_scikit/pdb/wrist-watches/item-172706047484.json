@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Los Angeles, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:57:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1135035959",
+    "StoreName": "timelinestore"
+  },
+  "CurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:57:02.000Z",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172706047484",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Burberry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "10384",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Burberry Bu9801",
+  "ConditionDescription": "Mint condition worn 25 days less than 1 month with inner box outer box and booklet",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Burberry-Bu9801-/172706047484",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727060474848080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "90034",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H51M48S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6u4AAOSwgZ1Xr9JD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/h4IAAOSw0UdXr9I2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6iUAAOSwgZ1Xr9I5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aUIAAOSw-itXr9JP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Dt0AAOSwIgNXr9JR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jOgAAOSwV0RXr9JV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Xc0AAOSwaB5Xr9LP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RDAAAOSw9NdXr9LR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/paEAAOSwHoFXr9Lc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WS4AAOSwZVlXr9I9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xS0AAOSwMtxXr9JT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z7kAAOSw-itXr9I7/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Burberry 9801 black dial stainless steel quartz movement watch\u00a0 Worn less than 1 month The size of watch strap is 6 inches ,15 cm Watch strap was made it smaller by customers\u00a0 It is in mint condition\u00a0 Brand NameBurberry Model numberBU9108 Item ShapeRound Dial window material typeSapphire Crystal Display TypeAnalog ClaspDeployment Clasp with Push Button Case materialGunmetal Grey Ion Plated Stainless Steel Case diameter45 millimeters Case Thickness22 Band MaterialStainless Steel Band lengthMen's Standard Band width24 millimeters Band ColorGunmetal Grey Dial colorBlack Bezel materialGunmetal Grey Ion Plated Stainless Steel Bezel functionStationary CalendarDate Special featuresChronograph Function, Measures Seconds MovementQuartz Water resistant depth100 Meters",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.1",
+    "FeedbackScore": "407",
+    "UserID": "timelinestore",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Return must be unused condition"
+  }
+}

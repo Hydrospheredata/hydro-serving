@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Mk4AAOSw7KJXDlce/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/MucAAOSwubRXDlWy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/lAYAAOSwJMhXDlW3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/73gAAOSw1DtXDlW7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/680AAOSwhDdXDlXH/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Boconi-Laptop-Case-bag-Canvas-And-Leather-/272665886957",
+  "ConvertedCurrentPrice": {
+    "value": "137.59",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags Boconi laptop case bag. Features 6 extra pockets . Slim double buckle. Heather brown with houndstooth. Measures 15.5x11x3\" Very nice rugged style bag NWT ($298.00)",
+  "Title": "NEW Boconi Laptop Case/bag Canvas And Leather",
+  "ExcludeShipToLocation": [
+    "Middle East",
+    "CZ"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "137.59",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Atlanta, Georgia",
+  "Seller": {
+    "FeedbackScore": "770",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "gtraders16"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30326",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T14:08:06.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P6DT23H3M16S",
+  "EndTime": "2017-06-09T14:08:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Boconi"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272665886957",
+  "Storefront": {
+    "StoreName": "gtraders16",
+    "StoreURL": "http://stores.ebay.com/id=169498368"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726658869578080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

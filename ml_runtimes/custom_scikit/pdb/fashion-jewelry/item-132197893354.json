@@ -1,0 +1,113 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P13DT4H45M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "1",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132197893354",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Rebecca-Minkoff-Triangle-Stud-Silver-Metal-Body-Chain-Body-Jewelry-/132197893354",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T20:06:45.000Z",
+  "PaymentMethods": "PayPal",
+  "HighBidder": {
+    "UserID": "e***y",
+    "FeedbackScore": "465",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T20:06:45.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Body",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Rebecca Minkoff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "889793009144",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Rebecca Minkoff Triangle Stud Silver Metal Body Chain Body Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Rebecca Minkoff triangle silver body chain. This style is completely sold out.",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321978933548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "randomjenny",
+    "FeedbackScore": "2199",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "randomjenny",
+    "StoreURL": "http://stores.ebay.com/id=945069762"
+  },
+  "Quantity": "2",
+  "HandlingTime": "1",
+  "Location": "Bellingham, Washington",
+  "HitCount": "23",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/d9wAAOSwIWVY9skq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/LREAAOSwSypY9skr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/-54AAOSwuspY9sks/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/yUIAAOSw5UZY9skt/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "98229"
+}

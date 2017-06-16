@@ -1,0 +1,173 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "74058",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Need battery",
+  "StartTime": "2017-05-23T03:50:31.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2NVg4NDA=/z/GuMAAOSwX61ZI7Dj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI0MFgxMDE1/z/sfsAAOSw1WJZI7D5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg1WDEzNDU=/z/LVIAAOSwcB5ZI7D~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI1WDEyODA=/z/EloAAOSwKytZI7EZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxMVg4NDA=/z/Pp0AAOSwK6RZI7En/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxMVgxMDg4/z/QbEAAOSwYlRZI7E4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDE0MjI=/z/QhoAAOSwYlRZI7FE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDE1NzQ=/z/6okAAOSwq1JZI7FO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg4WDE1NjU=/z/-I4AAOSwsXFZI7Fb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI1WDEzMzQ=/z/oSEAAOSwY3BZI7Fm/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Japan Movt",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Metallic",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "2\"",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mix_hawk",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "56",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "28",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525581707198080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T03:50:31.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Japan-Movt-Pocket-Watch-Quarts-Chain-and-Pocket-Knife-Train-/152558170719",
+  "Location": "Pawnee, Oklahoma",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Japan Movt Pocket Watch Quarts With Chain and Pocket Knife Train",
+  "Storefront": {
+    "StoreName": "mix_hawk",
+    "StoreURL": "http://stores.ebay.com/id=1545932843"
+  },
+  "ItemID": "152558170719",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT9H12M20S"
+}

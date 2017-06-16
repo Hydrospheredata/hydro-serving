@@ -1,0 +1,180 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "315.09",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Barking",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:01:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "245.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:01:48.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694848400",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "TW Steel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "CEO Tech",
+        "Name": "Model"
+      },
+      {
+        "Value": "CE4008",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": [
+          "PVD Coated",
+          "Stainless Steel"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Netherlands",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "TW STEEL CEO Tech Chronograph Gents Watch CE4008 - RRP \u00a3650 - BRAND NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TW-STEEL-CEO-Tech-Chronograph-Gents-Watch-CE4008-RRP-650-BRAND-NEW-/272694848400",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726948484008080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "ig110pz",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H37M5S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/0eEAAOSwi7RZLpPy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/MCEAAOSwBt5ZLpPC/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "BRAND NEW TW STEEL CEO Tech Chronograph Gents Watch CE4008 Quartz Chronograph MovementBlack dial with chronograph sub dials & date display between 4 & 5 o'clock44mm diameter Black PVD Stainless Steel Case Black Leather strap with pin buckleWater resistant to 100m Immediate Delivery *Not an official TW Steel dealer",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2606",
+    "UserID": "folarin76",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

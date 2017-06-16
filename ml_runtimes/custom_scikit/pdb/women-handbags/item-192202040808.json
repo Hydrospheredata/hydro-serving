@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "380.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922020408088080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/3kEAAOSw42dZLT28/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/Ci0AAOSwK6RZLT28/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4NjQ=/z/7fEAAOSwhvFZLT27/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Longchamp-Le-Pliage-Neo-Fantaisie-Polka-Small-Nylon-Backpack-/192202040808",
+  "ConvertedCurrentPrice": {
+    "value": "299.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store About Us Contact Us Longchamp Le Pliage Neo Fantaisie Polka Small Nylon Backpack Color/material: marine and white polka dot nylon, marine leather trimExterior design details: silver-tone hardware, exterior pocketInterior design details: fabric liningMeasures 10in wide x 12in high x 3.5in deepTop handle drops 2inAdjustable shoulder straps drop 11inZippered topPlease note: All measurements were taken by hand and are approximate; slight variations may occur.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "299.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Shepherdsville, Kentucky",
+  "Seller": {
+    "FeedbackScore": "511",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "la_via"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40165",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-30T09:39:02.000Z",
+  "Title": "Longchamp Le Pliage Neo Fantaisie Polka Small Nylon Backpack",
+  "TimeLeft": "P26DT18H47M6S",
+  "EndTime": "2017-06-29T09:39:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Longchamp"
+      },
+      {
+        "Name": "Style",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "NoColor"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192202040808",
+  "Storefront": {
+    "StoreName": "La Via Store",
+    "StoreURL": "http://stores.ebay.com/id=1595839561"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "SKU": "11113915760000",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

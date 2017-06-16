@@ -1,0 +1,86 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Akishima-shi",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:03:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:03:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "311 601",
+        "Name": "Model"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "311 601",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501898955",
+  "HandlingTime": "2",
+  "Description": "< Description >Brand new.Please look at the pictures. < Shipping >I live in Japan. I can ship to WORLDWIDE by Registered Air Mail. The cost is written in \"Shipping and payments\".Registered Air Mail is including tracking number. Shipping time is 4-12 days.Shipping costs can be cheaper if you win some items at one time. < Payment >ONLY PayPal < Others >If you are disappointed at the item, I give money back.If you want other Japanese goods, please let me know. I may help you. Please note:Such as import taxes and customs are not included in the product price or shipping.Payment obligation of these rates are the successful bidder.Amount of import tax and customs, please check with your country's customs.We can not manipulate the price of invoice. Thank you!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEIKO-COMPLETE-BALANCE-Brand-new-311-601-/282501898955",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825018989558080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H33M1S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6fEAAOSwTuJYsuvE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RiMAAOSwSlBYsuvL/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "SEIKO COMPLETE BALANCE Brand new 311 601",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "145",
+    "UserID": "jap_t_t_w",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "23703",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Benrus size 12 17J 10k Gold plated Watch runs. Not checked for accuracy. Could use service. Watches are from watchmakers estate. Look at all pics well prior bidding. No Refunds No Returns.Cases open and close correctly. Insured for 50$. Any more insurance is at the cost of the buyer.",
+  "StartTime": "2017-05-18T20:17:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3VMAAOSw2gxYzsp6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6kkAAOSwXYtYzsq~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7isAAOSwdGFYzsrD/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Benrus",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "m_conroy",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2346",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629923459718080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T20:17:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Benrus-Size12-17J-Antique-pocket-watch-/262992345971",
+  "Location": "Portsmouth, Virginia",
+  "Title": "Benrus Size12 17J  Antique pocket watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "262992345971",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P17DT1H38M25S"
+}

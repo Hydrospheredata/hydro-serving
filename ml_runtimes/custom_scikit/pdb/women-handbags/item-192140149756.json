@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921401497568080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/1YkAAOSwWxNY1zDw/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BB-Designs-Stylish-Comics-Close-Up-Design-Marvel-Hulk-Messenger-Bag-BB-Design-/192140149756",
+  "ConvertedCurrentPrice": {
+    "value": "50.23",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BB Designs Stylish Comics Close Up Design Marvel Hulk Messenger Bag by BB Designs [Toy] by BB Designs Ships from UK Supplier Other information: na Related Searches: BB Designs Boys', BB Designs Bags, Boys' Bags Dimensions: 43.0 x 31.0 x 3.0 centimetres",
+  "Title": "BB Designs Stylish Comics Close Up Design Marvel Hulk Messenger Bag by BB Design",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "50.23",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-26T03:09:30.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P21DT10H48M37S",
+  "EndTime": "2017-06-24T03:09:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "BB Designs"
+      },
+      {
+        "Name": "MPN",
+        "Value": "508365670"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140149756",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139715077:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

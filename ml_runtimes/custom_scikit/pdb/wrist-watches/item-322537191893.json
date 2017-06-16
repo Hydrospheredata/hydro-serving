@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.49",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "China",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:58:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1527739100",
+    "StoreName": "bosales89"
+  },
+  "CurrentPrice": {
+    "value": "1.49",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T06:58:49.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Adult Teen",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "708653049574",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "322537191893",
+  "HandlingTime": "4",
+  "Description": "Led Watch Bracelet Wrist Unisex Sports Ultra Thin Silicone Digital Features: Water resistant.Style: Sport Material: Silicone Digital Size:5*1.8cmBand Length: 22cm/8.7inchColor:BlackPackage Included:1 x digital watch Shipping Policies We do not offer tracking number We provide FREE SHIPPING, and will only ship to the 48 States of U.S. No shipping to Alaska, Hawaii, Puerto Rico, Guam, or the Virgin Islands. No shipping to Canada or Mexico. No shipping to PO Box/APO/FPO/DPO. We do not offer local pickup or combined shipping services",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Led-Watch-Bracelet-Wrist-Unisex-Sports-Silicone-Digital-Summer-Accessories-/322537191893",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225371918938080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H25M9S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/kEcAAOSww9xZBblj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/UaQAAOSwX61ZBbmH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/XJYAAOSw42JZBbmL/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Led Watch Bracelet Wrist Unisex Sports Silicone Digital Summer Accessories",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "35",
+    "UserID": "bosales89",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

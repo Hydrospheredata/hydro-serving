@@ -1,0 +1,69 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "350.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Rare Pocket Watch \"FORTIX\". In very good condition!!!! Works without flaws!!!! Rare exemplar!!!!!!!! See the movie clip with the actual item: In case you have any questions, please do not hesitate to contact me. The parcel will be well packed and shipped with PRIORITY Airmail Registered, so tracking number will be sent after postage. Combined shipping with other my items is welcome - just use \"ask a question\" at the bottom of the page or \"request a total from seller\".",
+  "StartTime": "2017-03-15T21:33:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i8QAAOSwOgdYybAO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DcYAAOSwB-1YybAT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PSoAAOSwTM5YybAe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PmMAAOSwTM5YybAo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MWYAAOSwax5YybAy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QAwAAOSwTM5YybA3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tysAAOSwuxFYybA8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Mu0AAOSwax5YybBC/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "BG",
+  "Seller": {
+    "UserID": "al_tsankov",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "639",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "HitCount": "54",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1321275338278080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-13T21:33:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "350.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Plovdiv, default",
+  "Title": "Rare Pocket Watch \"FORTIX\"",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rare-Pocket-Watch-FORTIX-/132127533827",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "132127533827",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "TimeLeft": "P13DT2H42M58S"
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTkwWDUzNw==/z/~rMAAOSwH09ZLt8O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTEwWDUyNw==/z/fPEAAOSwY3BZLt7P/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTUwWDUzNQ==/z/AfUAAOSwH09ZLt8z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE0WDUyMQ==/z/oXsAAOSwAPVZLt9g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEwWDI0Nw==/z/ZlcAAOSwjL5ZLt-F/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-GRAND-TRAVELER-XL-TRAVEL-TOTE-BAG-JAVA-FLORAL-NWT-/382109430575",
+  "ConvertedCurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY GRAND TRAVELER XL TRAVEL TOTE BAG JAVA FLORAL NWT Trolley sleeve. Two slip pockets in back. Large pocket underneath the front magnetic flap. Four large slip pockets inside. Exterior ID window and zip closure. Dimensions: 21\"W x 14 \u00bd\"H x 9 \u00bd\"D 7\" strap drop 52 \u00bd\" removable, adjustable strap",
+  "Title": "VERA BRADLEY / GRAND TRAVELER / XL TRAVEL TOTE BAG / JAVA FLORAL / NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Mary Esther, Florida",
+  "Seller": {
+    "FeedbackScore": "1796",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jay.88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32569",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T15:22:33.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P27DT22H53M42S",
+  "EndTime": "2017-06-30T15:22:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "XL Travel Tote Bag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Totes"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382109430575",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3821094305758080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,106 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.01"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "ALPS Classic Black Roman Numerals Skeleton Hand Wind Mechanical Pocket Watch Sold and Ships by BuyTerestGood Quality, Nice GiftNo Waterproof, Do not Touch the Waterfunctions without a battery; powers automatically with the movement of your armAny question ,pls feel free to contact us^^",
+  "StartTime": "2017-05-28T17:12:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE3WDUwMA==/z/AdQAAOSwZKBZKwTh/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/WLIAAOSwYlRZKwTi/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMg==/z/MTEAAOSw7GRZKwTj/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAyWDUwMA==/z/vJIAAOSwaEhZKwTk/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjE3WDUwMA==/z/iHwAAOSwH09ZKwTl/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ALPS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "POC105",
+        "Name": "MPN"
+      },
+      {
+        "Value": "POC105",
+        "Name": "Model"
+      },
+      {
+        "Value": "642554112855",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0642554112855",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630082651408080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T17:12:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.01"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ALPS Classic Black Roman Numerals Skeleton Hand Wind Mechanical Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ALPS-Classic-Black-Roman-Numerals-Skeleton-Hand-Wind-Mechanical-Pocket-Watch-/263008265140",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "263008265140",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT22H37M6S"
+}

@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921497207578080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CzsAAOSwDmBY5XrZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/SMgAAOSw~CFY5Xra/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gvAAAOSw03lY5XrZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/z6cAAOSw3utY5Xra/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/KGsAAOSwuLZY5Xra/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coccinelle-Ladies-Bag-Genuine-Saffiano-Leather-Handbag-Black-Dimensions-LxHxW-/192149720757",
+  "ConvertedCurrentPrice": {
+    "value": "336.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Coccinelle Ladies Bag Genuine Saffiano Leather Handbag, Black; Dimensions (LxHxW): 30 x 19 x 13 cm - One size; Model No.: C1T30280180001TU; by Coccinelle Ships from UK Supplier Related Searches: Coccinelle Bags, Coccinelle Totes, Totes Bags",
+  "Title": "Coccinelle Ladies Bag Genuine Saffiano Leather Handbag, Black; Dimensions (LxHxW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "336.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-05T23:15:05.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P2DT6H58M37S",
+  "EndTime": "2017-06-04T23:15:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coccinelle"
+      },
+      {
+        "Name": "MPN",
+        "Value": "464686902"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192149720757",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:109494376:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

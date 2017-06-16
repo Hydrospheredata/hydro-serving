@@ -1,0 +1,155 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "hong kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:32:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=421634829",
+    "StoreName": "OKaystores"
+  },
+  "CurrentPrice": {
+    "value": "13.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:32:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbrand",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "PE",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "JO",
+    "KW",
+    "TR",
+    "AM",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM"
+  ],
+  "ItemID": "391800289642",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Classic Skeleton Stainless Steel Automatic Mechanical Fashion Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "PMW489",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Classic-Skeleton-Stainless-Steel-Automatic-Mechanical-Fashion-Wrist-Watch-/391800289642",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3918002896428080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT15H59M56S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/9pQAAOSwcaFZFBMA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM4WDEwMDA=/z/I6QAAOSwX61ZDXuK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDEwMDA=/z/dEcAAOSwfRdZDXuI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkxWDEwMDA=/z/yxMAAOSwt0FZDXuI/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "13.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "137718",
+    "UserID": "red-plus",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault. We will replace the defective item at no extra cost. Please return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim Any items returned to us in working order will be sent back at the buyers cost."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT23H44M18S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "PRISTINE...BEAUTIFUL",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142405371424",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:15:55.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-BLACK-GOLD-TONE-/142405371424",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T10:15:55.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Huggie",
+        "Name": "Style"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Black/Gold Tone",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY..EARRINGS...CLIP-ON..BLACK/GOLD TONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "GREAT LARGE HUGGIE ST JOHN SIGNED EARRINGS.. 1\" HUGGIE STYLE AND OVER 3/4\" WIDE...THESE ARE STATEMENT HUGGIES... NOT THE SMALL OR MEDIUM SIZE...THE OUTER SIDES AND CENTER SECTION ARE BLACK ENAMELED WITH HEAVY GOLD TRIM ALL AROUND....THEY WILL BE NOTICED...THEY ARE EXTREMELY CLEAN...WILL BE MAILED TO YOU VIA USPS PRIORITY MAIL WITH A TRACKING NUMBER....ABSOLUTELY GORGEOUS!!!",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424053714248080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/H1wAAOSwDN1UMcLP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/n3sAAOSw6EhUMcLQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/bwAAAOSwU9xUMcLQ/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

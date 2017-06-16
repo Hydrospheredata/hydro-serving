@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "399.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Glen Ellyn, Illinois",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:22:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "399.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:22:12.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132211057163",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ice-Watch ICE",
+        "Name": "Model"
+      },
+      {
+        "Value": "Aqua Ice",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Aqua Ice Diamond Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Aqua-Ice-Diamond-Watch-/132211057163",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322110571638080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "60137",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H13M22S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODc2WDcyMA==/z/Pv8AAOSwY3BZKC-w/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQzWDc4Nw==/z/2BcAAOSwurZZKDAL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDkwNQ==/z/xu4AAOSw~y9ZKC-N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg3MjA=/z/HBEAAOSwYvFZKC8-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDcyMA==/z/Lq4AAOSw9OFZKC92/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "I have a Aqua Ice Diamond watch in excellent working conditions with light normal wear. Please review the pictures listed and the auction is for the watch only. Payment is due within 24hrs after best offer is accepted. Thank you for stopping by and please check out my other great deal items as well....",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "700",
+    "UserID": "j-priceless_items",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

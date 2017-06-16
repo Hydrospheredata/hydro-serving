@@ -1,0 +1,199 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "136.97",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Pembroke Dock",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:18:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=804245587",
+    "StoreName": "Lloyds Jewellers"
+  },
+  "CurrentPrice": {
+    "value": "106.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:18:10.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "GT",
+    "GH",
+    "RE",
+    "DJ",
+    "PR",
+    "CV",
+    "ML",
+    "GP",
+    "BW",
+    "SL",
+    "KH",
+    "MG",
+    "TJ",
+    "AI",
+    "SH",
+    "GM",
+    "LR",
+    "RW",
+    "SV",
+    "DO",
+    "LK",
+    "LY",
+    "ZW",
+    "GA",
+    "CM",
+    "CF",
+    "LS",
+    "YT",
+    "NG",
+    "MU",
+    "AZ",
+    "GN",
+    "JO",
+    "CI",
+    "TC",
+    "KE",
+    "TD",
+    "TM",
+    "GD",
+    "CR",
+    "GW",
+    "BT",
+    "AM",
+    "ER",
+    "SN",
+    "TG",
+    "UZ",
+    "MA",
+    "YE",
+    "AF",
+    "KZ",
+    "MN",
+    "VC",
+    "BI",
+    "IQ",
+    "GQ",
+    "BH",
+    "MR",
+    "BZ",
+    "DM",
+    "CD",
+    "EH",
+    "CG",
+    "MW",
+    "KM",
+    "NI",
+    "AO",
+    "DZ",
+    "BJ",
+    "TN",
+    "ZM",
+    "UG",
+    "SO",
+    "AG",
+    "SZ",
+    "EG",
+    "MZ",
+    "ET",
+    "LA",
+    "NA",
+    "NE",
+    "TZ",
+    "PA",
+    "BF",
+    "HN",
+    "KG"
+  ],
+  "ItemID": "272694872181",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "SGW-1000-1AER",
+        "Name": "Model"
+      },
+      {
+        "Value": "SGW-1000-1AER",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "24-Hour Dial",
+          "Alarm",
+          "Altimeter",
+          "Large Numerals",
+          "Day & Date",
+          "Light",
+          "Multiple Time Zone",
+          "Water-Resistant up to 100m"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "4971850035558",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio SGW-1000-1AER Sports Illuminator World Time Altimeter Watch RRP \u00a3160",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-SGW-1000-1AER-Sports-Illuminator-World-Time-Altimeter-Watch-RRP-160-/272694872181",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726948721818080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "SA72 6BT",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H54M23S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM1MQ==/z/VA0AAOSwX61ZLphk/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Casio SGW-1000-1AER Sports Illuminator World Time Altimeter Watch RRP \u00a3160 Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11276",
+    "UserID": "lloydsjewellers1990",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Please see our Returns Policy under Terms of Sale.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

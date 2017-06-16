@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Ld4AAOSwCQZZD2KK/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/p40AAOSwuMZZD2Kb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/fckAAOSwhvFZD2K2/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hermes-GriGri-Rodeo-Horse-PM-bag-charm-Multicolor-w-Horse-Hair-NIB-/302332758420",
+  "ConvertedCurrentPrice": {
+    "value": "944.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Normal 0 21 false false false DE JA X-NONE",
+  "Title": "Hermes GriGri Rodeo Horse PM bag charm Multicolor w/ Horse Hair NIB",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "944.49",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Wien",
+  "Seller": {
+    "FeedbackScore": "1038",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "chinalv"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "AT",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "1010",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T22:03:42.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P6DT5H59M40S",
+  "EndTime": "2017-06-08T22:03:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Hermes"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Charm"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "Style",
+        "Value": "horse"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302332758420",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023327584208080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

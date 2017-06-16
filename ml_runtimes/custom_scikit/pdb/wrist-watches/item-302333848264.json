@@ -1,0 +1,97 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023338482648080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T00:00:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T00:00:27.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Pre-Owned. Hardly ever worn. Excellent condition. Men's Shinola Runwell Sport Chrono Watch. 48 mm. Original price $875.00",
+  "BuyItNowPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302333848264",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Shinola",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "48mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Shinola Runwell Sport Chrono Men's Watch 48mm. Excellent Condition.",
+  "ConditionDescription": "Needs new battery.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Shinola-Runwell-Sport-Chrono-Mens-Watch-48mm-Excellent-Condition-/302333848264",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "PostalCode": "85750",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Tucson, Arizona",
+  "TimeLeft": "P2DT8H42M46S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~3gAAOSwIWVY9Txg/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MHsAAOSwvihY9Txf/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KicAAOSwSypY9Txi/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KMkAAOSwHHFY9UF5/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "kstratigouleaskelly",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

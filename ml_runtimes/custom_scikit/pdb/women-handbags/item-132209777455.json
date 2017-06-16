@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/UT4AAOSwaB5XnRnj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/yuYAAOSwIgNXnRoI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/28kAAOSwIgNXnRra/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/uBcAAOSwARZXnRr0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/JngAAOSw-YVXnRsM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/KFMAAOSw-YVXnRsl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/auwAAOSwaB5XnRs4/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sherpani-Women-Havana-Wool-Gray-Rucksack-Backpack-NWT-/132209777455",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with Tag Sherpani Havana Rucksack Backpack Gray Wool measures 18\" X 11.5\" 6\" 1151 cu.in. Top grab handle Exterior front pocket with snap close Large main compartment with snap-close One interior zip pocket Two interior media slip pocket",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1646",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "readbrit"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Sherpani Women Havana Wool Gray Rucksack Backpack NWT",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T09:38:59.000Z",
+  "HitCount": "27",
+  "TimeLeft": "P26DT18H47M3S",
+  "EndTime": "2017-06-29T09:38:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Sherpani"
+      },
+      {
+        "Name": "Material",
+        "Value": "Wool Blend"
+      },
+      {
+        "Name": "UPC",
+        "Value": "877293030232"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132209777455",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322097774558080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

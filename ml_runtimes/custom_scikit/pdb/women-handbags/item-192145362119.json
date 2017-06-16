@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921453621198080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/HLcAAOSwSlBY3vKF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/wwAAAOSwol5Y3vKF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/CWYAAOSwXYtY3vKF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/CYQAAOSwXYtY3vKF/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Krish-Vintage-Leather-Laptop-Bag-Messenger-Handmade-Briefcase-Crossbody-Shoulder-/192145362119",
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size- 28cm (L), 38cm (W), 13cm (D) 1 Front pockets, handle on top. Total 5 compartments inside with green colour strong canvas lining. 140cm long adjustable shoulder broad strap. Real Brass metal accessories used in this Bag. Made by professional and experienced artisans from Rajasthan.",
+  "Title": "Krish Vintage Leather Laptop Bag Messenger Handmade Briefcase Crossbody Shoulder",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-01T00:21:19.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P27DT8H4M4S",
+  "EndTime": "2017-06-30T00:21:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "KRISH"
+      },
+      {
+        "Name": "MPN",
+        "Value": "204849663"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192145362119",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:101660858:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

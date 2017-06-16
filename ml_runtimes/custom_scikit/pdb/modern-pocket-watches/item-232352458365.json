@@ -1,0 +1,89 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "44030",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-05-29T01:35:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/5h0AAOSwARZXl9M2/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "As Seen on TV",
+        "Name": "Brand"
+      },
+      {
+        "Value": "097298023231",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz: Automatic/Kinetic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "097298023231",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "revrev224",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4248",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323524583658080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-28T01:35:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEEN-TV-Kansas-City-Railroad-POCKET-WATCH-Limited-Edition-We-sell-cheaper-/232352458365",
+  "Location": "Conneaut, Ohio",
+  "Title": "AS SEEN ON TV Kansas City Railroad POCKET WATCH Limited Edition We sell cheaper",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232352458365",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT7H15S"
+}

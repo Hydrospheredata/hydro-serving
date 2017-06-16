@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3070.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "koriyama",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:59:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1151580159",
+    "StoreName": "tomocamera"
+  },
+  "CurrentPrice": {
+    "value": "3070.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:59:57.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695142889",
+  "HandlingTime": "5",
+  "Description": "Item Description [Brand] SEIKO [Material] Case stainless steel [Draft shield] sapphire crystal glass [Belt] Stainless steel [Color] Dial Black [Case] Silver [Belt] Silver [Model number] SBGR 053 [Serial] 08058 [Move] AT (automatic winding) [Operational status] -4 sec to -7 sec [Waterproof] Waterproof everyday life [Country of manufacture] Made in Japan Finish polished [size] Case diameter 3.6 cm Belt inner circumference maximum length 20 cm (including reserve coma) Belt width 1.8 - 1.9 cm Weight 130 g [State] Body Excellent Condition Belt A rank Bezel slight scratches Case slight scratches Belt slight scratch Shipping Domestic Shipping(United States)Expedited shippingShipping Cost : $20.00 International ShippingExpedited International Flat Rate ShippingShipping Cost : $20.00Asia, Canada, China, Mexico, Japan, AustraliaExpedited International Flat Rate ShippingShipping Cost : $30.00Worldwide Payment Paypal Only Other Term International Buyers\u3000\u3000 Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up -\u3000do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \"gifts\" - US and International government regulations prohibit such behavior.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Grand-seiko-SBGR053-Watch-Mechanical-Black-Dial-Back-Skelton-Automatic-/272695142889",
+  "NewBestOffer": "false",
+  "SKU": "MEG14188",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726951428898080_1.jpg",
+  "HitCount": "21",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H44M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/km4AAOSw0hlZLr5P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/s4kAAOSwn-tZLr5P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/kn4AAOSw0hlZLr5Q/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Grand seiko SBGR053 Watch Mechanical Black Dial Back Skelton AT Automatic",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "638",
+    "UserID": "fe-shop-japan",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

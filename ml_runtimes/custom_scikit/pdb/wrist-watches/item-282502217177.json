@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "899.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BR",
+  "Location": "Jundia\u00ed S\u00e3o Paulo, default",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:07:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "899.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:07:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "A\u00c7O",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Diver",
+        "Name": "Style"
+      },
+      {
+        "Value": "CHIFRUDINHO BULLHEAD.GN 4 S",
+        "Name": "Model"
+      },
+      {
+        "Value": "8110",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502217177",
+  "HandlingTime": "1",
+  "Description": "REL\u00d3GIO DA FAMOSA MARCA JAPONESA CITIZEN MADE IN JAPAN. ANOS 70. MODELO CHIFRUDINHO BULLHEAD GN 4 S EXCELENTE ESTADO DE CONSERVA\u00c7\u00c3O E FUNCIONAMENTO. GARANTIA, NOTA FISCAL. COMPRE COM SEGURAN\u00c7A E SATISFA\u00c7\u00c3O. CAIXA EM A\u00c7O COM 38,00 MM X 43,00 MM . COROA ASSINADA. MOSTRADOR ORIGINAL. PULSEIRA ORIGINAL COM FECHO E FIVELA ASSINADOS. MOVIMENTO AUTOM\u00c1TICO CRON\u00d3GRAFO CALIBRE 8110, REVISADO, FUNCIONAMENTO OK. VIDRO EM CRISTAL MINERAL. LINDA PE\u00c7A PARA SUA COLE\u00c7\u00c3O, OU MESMO USO NO DIA A DIA. GRATO POR SUA VISITA E INTERESSE.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Chifrudinho-Bullhead-Nota-Fiscal-Garantia-Funcoes-Ok-/282502217177",
+  "ConditionDescription": "COROA ASSINADA. MOSTRADOR ORIGINAL. PULSEIRA ORIGINAL COM FECHO E FIVELA ASSINADOS.",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825022171778080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H46M35S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/1GAAAOSwmgJY3luP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/3xIAAOSwDmBY3luV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/G0EAAOSwuLZY3lub/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/EEIAAOSwhQhY3luS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/TZ8AAOSwzgBY3luf/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Citizen Chifrudinho Bullhead Nota Fiscal Garantia Funcoes Ok",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.5",
+    "FeedbackScore": "415",
+    "UserID": "kiko8896",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

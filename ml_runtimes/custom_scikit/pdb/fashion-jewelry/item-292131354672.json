@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P20DT20H8M12S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "57.97",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292131354672",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWOT-MEXICO-925-STERLING-SILVER-CROSS-SHAPED-TURQUOISE-PENDANT-/292131354672",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "57.97",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-27T11:09:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T11:09:09.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mexico 925",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Gems & Stones",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "NWOT - MEXICO 925 - STERLING SILVER CROSS-SHAPED TURQUOISE PENDANT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWOT - MEXICO 925 - STERLING SILVER CROSS-SHAPED TURQUOISE PENDANT One (1) authentic Mexico 925 Sterling Silver Cross-Shaped Pendant from my personal collection is up for consideration Featured materials appear to be Turquoise of an unknown variety --- my light source has slightly glared the Sterling Silver of the Pendant This item was purchased NWOT then never worn but may show faint signs of mild patina due to storage only Please consult the photograph(s) for the approximate size of this item --- any coins shown are for display purposes only THIS ITEM WILL BE SHIPPED WITHIN ONE (1) BUSINESS DAY OF RECEIVING PAYMENT THANK YOU SO MUCH AND ENJOY !!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921313546728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "boazian",
+    "FeedbackScore": "14",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Bel Air, Maryland",
+  "HitCount": "4",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDUxOQ==/z/kzQAAOSwSlBY2bYK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTEyWDU1MQ==/z/SCUAAOSwdGFY2bY7/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "21014"
+}

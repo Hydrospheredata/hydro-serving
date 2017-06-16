@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/doIAAOSwfpVZLbxn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/mcwAAOSwZ4dZLbxk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/mUsAAOSwZ4dZLbxc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/fwYAAOSwCQZZLbxe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/OQsAAOSwYvFZLbxg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/3vIAAOSwcB5ZLbxi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/7RwAAOSwH09ZLbxl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/9YEAAOSwAPVZLbxp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/cs4AAOSwn-tZLbxr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/j-IAAOSwGJlZLbxa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/t4QAAOSwYlRZLbxt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/NFIAAOSwJH1ZLbxw/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-KAVU-Rope-Bag-Sling-Backpack-Everyday-Womens-Travel-Hiking-Daypack-/192202512040",
+  "ConvertedCurrentPrice": {
+    "value": "65.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NEW WITH TAGS KAVU ROPE BAG BIG SPENDER SPRING WAVE 965-252 Smoke free pet free",
+  "Title": "NEW KAVU Rope Bag Sling Backpack Everyday Women's Travel Hiking Daypack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Chatsworth, Georgia",
+  "Seller": {
+    "FeedbackScore": "377",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "sspringfield123"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30705",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T18:45:09.000Z",
+  "HitCount": "92",
+  "TimeLeft": "P27DT3H54M20S",
+  "EndTime": "2017-06-29T18:45:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Cattitude"
+      },
+      {
+        "Name": "Brand",
+        "Value": "KAVU"
+      },
+      {
+        "Name": "MPN",
+        "Value": "944-583"
+      },
+      {
+        "Name": "Model",
+        "Value": "944-583"
+      },
+      {
+        "Name": "UPC",
+        "Value": "782519291970"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0782519291970"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192202512040",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922025120408080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

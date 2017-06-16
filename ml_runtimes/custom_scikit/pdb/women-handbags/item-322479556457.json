@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kPoAAOSwB-1Yr6PA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AfsAAOSwtfhYr6PD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HygAAOSw32lYr6PF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Qt4AAOSwCU1Yr6PG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/H2IAAOSw32lYr6PI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/w48AAOSw4A5Yr6PJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Q00AAOSwCU1Yr6PL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/w-kAAOSw4A5Yr6PN/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Marc-Marc-Jacobs-Pretty-Nylon-Eliza-Diaper-Baby-Tote-Black-298-/322479556457",
+  "ConvertedCurrentPrice": {
+    "value": "159.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Up for sale is this beautiful Marc Jacobs Pretty Nylon Diaper bagDual top handlesDetachable, adjustable shoulder strapZip top closureExterior features 2 side slip pockets, 1 front and 1 back slip pockets and allover quilted detailingInterior features 2 slip pockets and removable changing padApprox. 14\" H x 20\" W x 5\" DApprox. 9\" handle drop, 12-19\" strap dropChanging pad: Approx. 22.5\" L x 12\" WMSRP : $298 + Tax. Please let me know if you have any question, and visit my store for more great deals.",
+  "Title": "NWT Marc By Marc Jacobs Pretty Nylon Eliza Diaper Baby Tote Black $298",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CZ",
+    "EE",
+    "GI",
+    "GG",
+    "HU",
+    "JE",
+    "LV",
+    "LT",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.95",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Newark, Delaware",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2785",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "myworldoffashion"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "19702",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "PaymentAllowedSite": [
+    "Australia"
+  ],
+  "ItemID": "322479556457",
+  "TimeLeft": "P7DT6H17M29S",
+  "EndTime": "2017-06-09T21:46:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889732588181"
+      }
+    ]
+  },
+  "Site": "US",
+  "StartTime": "2017-04-10T21:46:45.000Z",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "HitCount": "325",
+  "Storefront": {
+    "StoreName": "My World Of Fashion",
+    "StoreURL": "http://stores.ebay.com/id=200297665"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3224795564578080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

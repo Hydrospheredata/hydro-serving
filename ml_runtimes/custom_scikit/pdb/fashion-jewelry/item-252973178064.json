@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P28DT12H13M26S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Most have tags, some don't",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252973178064",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Earrings-Lot-50-Pairs-Chandelier-Statement-Dangle-Studs-Hoops-Lot-105-/252973178064",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T02:29:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T02:29:57.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Various",
+        "Name": "Style"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Earrings Lot, 50 Pairs, Chandelier, Statement, Dangle, Studs, Hoops, Lot#105",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Earring Lovers and Resellers!!! Amazing Assortment of Fashion Earrings-- all for less than 1.00 per pair! Lots include chandelier earrings, statement earrings, dangle earrings, studs and hoops. Lots of variety! You are getting the exact earrings pictured so you don't have to wonder what your lot is going to include. Features Little to no repeatsTags with multiple earrings count as 1 pair (so you get more) :)Earrings are brand new and most have tagsSome lots include a few department store or designer brand earringsGreat for resale or gift-givingYou get the exact earrings pictured- no guessingMost earrings are for pierced ears, but every lot includes a few clip-onsSome lots include ear climbers, ear cuffs and/or earrings for single piercings (see pictures to know what your lot brings) Important Info: I've combed through the earrings in these lots and have removed damaged product. You may still get a few pieces with slight imperfections, such as a little tarnishing or a pair of earrings missing the earring backing. Shipping Offer Available: Free Priority Mail Shipping!",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529731780648080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dian_jorg",
+    "FeedbackScore": "46",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Homestead, Florida",
+  "HitCount": "7",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjc2/z/5C4AAOSw42JZM2Ll/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjQ2/z/3PUAAOSw8lpZM2LO/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cf0AAOSwYvFZM0vP/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~3EAAOSwrhBZM0vM/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDc2/z/DWQAAOSw8lpZM0vS/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTcw/z/xh0AAOSwlY1ZM0vU/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/p~kAAOSwAPVZM0vQ/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hdAAAOSwPh5ZM0vW/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDM4/z/cmUAAOSwYvFZM0vY/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDc2/z/UrcAAOSw0hlZM0va/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUwNlgxNjAw/z/msMAAOSwZKBZM0vc/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cA0AAOSwhvFZM0ve/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "33033"
+}

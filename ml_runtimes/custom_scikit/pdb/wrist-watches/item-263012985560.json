@@ -1,0 +1,121 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "38.58",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:18:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-03T14:18:22.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012985560",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Oris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "30.0",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "great",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/mans-vintage-oris-watch-/263012985560",
+  "Title": "mans vintage oris watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630129855608080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "Ng98ha",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H8M48S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LsgAAOSwYvFZLtAz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mt8AAOSwAPVZLtA1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PJwAAOSwR29ZLtA4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QLAAAOSwfpVZLtA8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UTIAAOSw5cRZLtA-/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage oris 17 jewels mechanical hand winding swiss mens wrist watch in great condition superb looking watch. UK SELLER will post same day as payment first class signed for by royal mail please have a look at my photos for better description if you are not happy with the description above please do not bid. Year 1972_1982 Stainless steel case Mens watch New black leather strap fitted 12 hour dial Mechanical hand winding Size of case 37,5 with crown Steel hands New glass Crystal fitted New dial fitted Signed stainless steel back Country of manufacturing Switzerland",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "666",
+    "UserID": "hartleyhare1963",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

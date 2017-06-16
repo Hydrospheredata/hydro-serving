@@ -1,0 +1,90 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "60074",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage MOLNIJA . pocket watch\u00a0 18 jewels\u00a0 made \u200b\u200bin USSR\u00a0 diameter - 50mm\u00a0 cal.-3602 PRODUCED - 1970-1980 The watch is in\u00a0 working condition\u00a0.",
+  "StartTime": "2017-05-20T18:53:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/VVcAAOSw4CFYqT-4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/~A0AAOSwCU1YqT~O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/jlUAAOSwax5YqT~r/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/Z5sAAOSw32lYqUAA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk3WDE0NDA=/z/nIsAAOSw4A5YqUAY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/lLkAAOSwax5YqUAy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/v6sAAOSwTuJYqUBF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/YnsAAOSw4CFYqUBT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/UpwAAOSwr~lYqUBm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/TEAAAOSwx6pYqUB1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/Ld4AAOSwfVpYqUCF/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "120.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Molnija",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "olegrynenk-0",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "21",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124139887988080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-19T18:53:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "120.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-USSR-Molnija-Zodiak-signs-Molniya-pocket-watch-/112413988798",
+  "Location": "Palatine, Illinois",
+  "Title": "Vintage USSR Molnija Zodiak signs(Molniya) pocket watch.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "112413988798",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT14M13S"
+}

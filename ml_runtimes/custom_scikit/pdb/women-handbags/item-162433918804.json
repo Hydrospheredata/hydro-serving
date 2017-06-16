@@ -1,0 +1,177 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/e4EAAOSwuxFYyvbK/$_12.PNG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Laptop-Attache-Tango-Red-/162433918804",
+  "ConvertedCurrentPrice": {
+    "value": "130.43",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Vera Bradley Laptop Attache (Tango Red) - Vera Bradley - Laptop Attache - Tango Red Vera Bradley Laptop Attache Tango Red",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "130.43",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "7496",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Green",
+    "UserID": "dell_0711"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Laptop Attache Tango Red",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-03-16T20:34:14.000Z",
+  "HitCount": "79",
+  "TimeLeft": "P12DT5H24M47S",
+  "EndTime": "2017-06-14T20:34:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003280621"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003280621"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB01EBTUPFU-OFFSUPPLIES"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Electronics"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.05 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17.2 x W 11.7 x H 2 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "67585"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "PC Accessory"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162433918804",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1624339188048080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

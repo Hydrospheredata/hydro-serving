@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921403153098080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk2WDE1MDA=/z/TekAAOSwc-tY14vd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM0WDE1MDA=/z/TfkAAOSwc-tY14vd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzAy/z/peQAAOSwmgJY14vd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg1MzA=/z/f3kAAOSwXYtY14vc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMyWDE1MDA=/z/wMYAAOSw4CFY14vd/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Phive-Rivers-Women-Genuine-Leather-Wallet-OXYINE-PR702-Free-Shipping-/192140315309",
+  "ConvertedCurrentPrice": {
+    "value": "106.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Phive Rivers Women Genuine Leather Wallet - OXYINE_PR702",
+  "Title": "Phive Rivers Women Genuine Leather Wallet - OXYINE_PR702. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "106.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-26T09:37:26.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P21DT17H16M55S",
+  "EndTime": "2017-06-24T09:37:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Phive Rivers"
+      },
+      {
+        "Name": "MPN",
+        "Value": "543041486"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140315309",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:55947445:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

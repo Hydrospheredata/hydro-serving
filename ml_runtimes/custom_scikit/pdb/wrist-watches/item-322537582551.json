@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Dumont, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:57:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=70406805",
+    "StoreName": "Blue Tulip Consignment"
+  },
+  "CurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:57:29.000Z",
+  "ShipToLocations": [
+    "US",
+    "DE",
+    "JP",
+    "BR",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "HK",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537582551",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CLASSIQUE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NIB! CLASSIQUE QUARTZ WATCH BLACK BAND WHITE FACE ROMAN NUMERALS!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-CLASSIQUE-QUARTZ-WATCH-BLACK-BAND-WHITE-FACE-ROMAN-NUMERALS-/322537582551",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225375825518080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "07628",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H52M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/H2sAAOSww5hZLtlE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ut8AAOSw42JZLtlJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GSUAAOSwjL5ZLtlO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rhMAAOSwlY1ZLtlT/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "New In Box! CLASSIQUE QUARTZ WATCH BLACK BAND WHITE FACE ROMAN NUMERALS! measures... 8\" not including clasp, 3/4\" wideNot sure if band is leatherVisit our store for an array of shopping choices! Email us with questions! All of our items are either new or like new condition unless otherwise specified. Please let us know how we can improve your shopping experience before leaving any negative feedback! New packages may have been opened for photography purposes Some photos especially with black items have been brightened to show detail and because of this may look faded. We are an online resale and consignment store. Our items are located in New Jersey. Some listings may say San Diego. Thank you for shopping our store!!! Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "886",
+    "UserID": "bluetulipconsignment",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

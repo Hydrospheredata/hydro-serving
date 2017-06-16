@@ -1,0 +1,65 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "45.01",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Swindon",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:45:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=52632699",
+    "StoreName": "*sun-light*"
+  },
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-03T14:45:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "101993",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074221670",
+  "HandlingTime": "1",
+  "Description": "Gents Smiths De Luxe watch movement 15 jewels for repair. Has a faulty mainspring. The movement runs if you prod it a bit, but will not run on it's own. The balance is good, the movement needs to be cleaned.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gents-Smiths-Luxe-watch-movement-15-jewels-repair-/352074221670",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520742216708080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "SN5 5UY",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H39M24S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQxN1gxNjAw/z/k7kAAOSw-K9ZJwQk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/h-UAAOSwfpVZJwQp/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Gents Smiths De Luxe watch movement 15 jewels for repair.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16811",
+    "UserID": "*sun-light*",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "If you need to return an item, please use the return address on the invoice. Please also send an email through the ebay email system to confirm your intentions.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

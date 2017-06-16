@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:06:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "11.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:06:31.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1707695-gift-box",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      },
+      {
+        "Value": "gift box",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Mance-Z Hot New Arrival Vogue Casual Brand Cat Pattern Leather Band Analog $11.77 Item Type: Quartz Wristwatches Case Material: Acrylic Brand Name: susenstone Dial Window Material Type: Acrylic Water Resistance Depth: No waterproof Movement: Quartz Dial Diameter: 38 mm Clasp Type: Buckle Boxes & Cases Material: Glass Gender: Women Style: Fashion & Casual Feature: Auto Date Band Material Type: PU Case Shape: Round Band Length: 26 cm Band Width: 20 mm Case Thickness: 10 mm Model Number: Mance-L9 \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mance-Z-Hot-New-Arrival-Vogue-Casual-Brand-Cat-Pattern-Leather-Band-Analog-/192203241401",
+  "NewBestOffer": "false",
+  "SKU": "1707695-gift-box",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922032414018080_1.jpg",
+  "ItemID": "192203241401",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H45M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/4Q0AAOSwX61ZLqO6/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Mance-Z Hot New Arrival Vogue Casual Brand Cat Pattern Leather Band Analog",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

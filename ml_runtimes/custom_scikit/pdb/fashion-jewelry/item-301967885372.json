@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P16DT7H18M7S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "301967885372",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/E-13-Blue-Cloisonne-white-aceh-bone-Eyeglass-leash-holder-chain-necklace-/301967885372",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-05-27T18:28:30.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T18:28:30.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "(#E-13) Blue Cloisonn\u00e9 + white aceh bone Eyeglass leash holder chain necklace",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "(Internal #E-13) This is a eyeglass leash holder with Blue cloisonn\u00e9 beads spaced with white aceh bone beads with gold brass beads, on medium blue cording, 26\" long. These are designed by Glenn, and serve two purposes - they keep you from losing your glasses, and they look like earrings when you've got your glasses on! Loops slip on eyeglass arms, cording behind your neck. Keep your glasses on, or rest them on your chest - you've got them on a leash! These are hand crafted and ONE OF A KIND. What you see in the photo is exactly what you would receive WE SHIP WORLDWIDE, see the chart for postage to your country. Click on my Ebay Store tag for MANY more eyeglass holders.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3019678853728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "whereonearth",
+    "FeedbackScore": "34751",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "whereonearth",
+    "StoreURL": "http://stores.ebay.com/id=22586828"
+  },
+  "Quantity": "1",
+  "Location": "Spartanburg, South Carolina",
+  "HitCount": "127",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODgwWDExNzM=/z/nUIAAOSw7ehXSJDp/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "29303"
+}

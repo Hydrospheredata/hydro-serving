@@ -1,0 +1,91 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "FR",
+  "Location": "Charquemont",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:16:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T13:16:20.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705866720",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "memosail",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chronograph-memosail-mechanical-Valjoux-old-stock-/172705866720",
+  "Title": "Chronograph memosail , mechanical Valjoux  (old stock)",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727058667208080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "25140",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT22H3M8S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZNwAAOSwrhBZLsFB/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Chronograph memosail , mechanical Valjoux,diameter 38mm(old stock)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "598",
+    "UserID": "fresardwatch",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

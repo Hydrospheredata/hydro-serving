@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "478.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "true",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726599513078080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8C4AAOSwrhBZC1i6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nZIAAOSw42JZC1i7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6qsAAOSw7GRZC1i6/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/American-West-Retro-Romance-Laptop-Briefcase-Antique-Brown-Leather-Tooled-Buckle-/172659951307",
+  "ConvertedCurrentPrice": {
+    "value": "406.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "American West Retro Romance Laptop Briefcase Antique Brown Leather Tooled Buckle CONDITION: NEW MAKER: American West MATERIALS: Leather DESCRIPTION: This is a laptop briefcase. Inside flap pockets. Back zipper file & flap pocket. Front pocket with inside pouch, sliding clasp closure. Padded main compartment, straps to hold laptop in place. Briefcase includes adjustable/detachable shoulder strap. Hand tooled vegetable tanned antique brown leather decorated with antiqued silver spots, leather lacing, and a silver star buckle set and concho. Hand tooled front and back. Each piece is made by hand, one at a time. This item is backed by the American West Lifetime Guarantee. DETAILS: \u2022 Laptop briefcase. \u2022 Padded main compartment, straps to hold laptop in place. \u2022 Inside flap pockets. \u2022 Back zipper file & flap pocket. \u2022 Front pocket with inside pouch, sliding clasp closure. INVENTORY# 8565910 SHIPPING - This is a special order item. There is a handling time associated with this item, please click the shipping and payments tab above for more information. Internationally we ship USPS Priority Mail, cost is calculated based on weight. PAYMENT - We accept payment via PayPal and Credit Card. Please pay within 7 days of your purchase or eBay will open an Unpaid Item Dispute (UPI). RETURNS & EXCHANGES - We accept returns within 14 days after purchase for a purchase price refund, there is no restocking fee. THE WESTERN COMPANY 1355 S Colorado Blvd Suite C-901 Denver, CO 80222 Need to exchange your item? Exchanges are hassle free. In order to expedite the exchange process, we recommend re-ordering the item that you would like to exchange for, and returning your original purchase for a refund. HOURS OF OPERATION - Monday-Friday 8:00 AM to 5:00 PM Mountain Time.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "406.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Pompano Beach, Florida",
+  "Seller": {
+    "FeedbackScore": "7028",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "Green",
+    "UserID": "thewesterncompany"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33069",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-04T16:37:10.000Z",
+  "Title": "American West Retro Romance Laptop Briefcase Antique Brown Leather Tooled Buckle",
+  "TimeLeft": "P1DT1H30M37S",
+  "EndTime": "2017-06-03T16:37:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "American West"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Antique Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "671893033835"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172659951307",
+  "Storefront": {
+    "StoreName": "thewesterncompany",
+    "StoreURL": "http://stores.ebay.com/id=1190533166"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "We accept returns within 14 days after purchase for a purchase price refund, there is no restocking fee.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "AW-8565910-16x12x4",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

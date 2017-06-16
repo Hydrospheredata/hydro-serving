@@ -1,0 +1,227 @@
+{
+  "ReturnPolicy": {
+    "Description": "\u2022We accept returns for a full refund, exchange or store credit within 14 days of the item being received by the customer. \u2022Items must be in the same condition as when they were sent. \u2022Refunds will include the cost of the item plus the original shipping charge. The customer is responsible for the cost of return shipment to us. *FREE return shipping is included with every package shipped in CANADA via Canada Post Expedited Parcel.  \u2022Refunds will be processed through PayPal.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P27DT4H7M41S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "CAD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "spreadingsunshineeverywhere",
+    "FeedbackScore": "122",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ItemID": "272698672485",
+  "SecondaryCategoryID": "110634",
+  "ConvertedCurrentPrice": {
+    "value": "25.16",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:110633:110634",
+  "BidCount": "0",
+  "StartTime": "2017-06-02T13:27:43.000Z",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HOTI-Hemp-Handmade-Silver-Hot-Pink-Bells-Bail-Metal-Beads-Anklet-Ankle-Bracelet-/272698672485?var=",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T13:27:43.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "8.75\"",
+          "9\"",
+          "9.25\"",
+          "9.5\"",
+          "10\"",
+          "11\"",
+          "Your size in inches"
+        ],
+        "Name": "Size"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Your size in inches",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8.75\"",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "2"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10\"",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9\"",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9.25\"",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9.5\"",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "11\"",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "34.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Hemp",
+        "Name": "Material"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "HOTI Hemp Handmade Silver Hot Pink Bells Bail Metal Beads Anklet Ankle Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Toronto, ON",
+  "Description": "Normal 0 false false false MicrosoftInternetExplorer4 Home | About Us | Payment | Shipping | Sales Policy | Contact Brand: HOTI Retail Price: $34.00 CAD Size: Variable Color: Natural Hemp Style: Anklet / Ankle Bracelet Description: Ring a ding ding! Jing-a-ling-a-ling with each step in this sweet silver, hot pink & natural beige HOTI hemp handmade anklet. This hand crafted Ring My Bali Bell HOTI natural hemp with silver and hot pink bells ankle bracelet from the Original 2003 Belles Collection features sections of alternating metallic silver and hot pink dangling small steel jingle bells between Bali style antique silver metal tube beads that have a wave & stud design. The Hot Pink & Silver Ring My Bali Bell Anklet is easy to put on & take off with its \"clasp-it\" lobster clasp closure. Handmade in Toronto, Ontario Canada Normal 0 false false false MicrosoftInternetExplorer4",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewellery & Watches:Handcrafted, Artisan Jewellery:Anklets",
+  "Storefront": {
+    "StoreName": "Sunshine on a Cloudy Day Online",
+    "StoreURL": "http://stores.ebay.com/id=1108951517"
+  },
+  "Quantity": "8",
+  "PaymentMethods": "PayPal",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6HcAAOSwY3BZMWcD/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M6C 3K4"
+}

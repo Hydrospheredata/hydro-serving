@@ -1,0 +1,344 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.74",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ONEAAOSwfpVZLqTE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/FC0AAOSwi7RZLqTG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/FFgAAOSwi7RZLqTI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/iioAAOSw7GRZLqTK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/9wAAAOSwuMZZB3iV/$_12.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:11:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "15",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "4.74",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:11:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "282502222064",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Casual-All-Match-Lattice-Band-Strap-Round-Dial-Quartz-Analog-Wrist-Watch-/282502222064?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Girl's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "082-YW01704",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01704B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01704W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01704Y",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01704P",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01704L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White",
+          "Yellow",
+          "Pink",
+          "Blue"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/SksAAOSwPh5ZLqTL/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/V5wAAOSw42dZB3ig/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/1rsAAOSww9xZB3ie/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/9wAAAOSwuMZZB3iV/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/YFkAAOSwlndZB3ja/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/n0oAAOSwhvFZB3jY/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ZKwAAOSwtGlZB3jT/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nUYAAOSwhvFZB3jR/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/oMoAAOSw7GRZB3ib/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/zkcAAOSwrhBZB3iW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/7GYAAOSwjL5ZB3ii/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/X9kAAOSwlndZB3jW/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/VccAAOSw42dZLqTN/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/cOsAAOSw~y9ZB3iZ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/z6sAAOSwrhBZB3id/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dT8AAOSwX61ZB3iV/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/3XAAAOSwrhBZB3jV/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/F-UAAOSwnONZB3iW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/jTUAAOSwR29ZB3jb/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ATIAAOSwjqVZB3jb/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H50M33S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Retro Casual All Match Lattice Band Strap Round Dial Quartz Analog Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

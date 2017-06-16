@@ -1,0 +1,162 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "60.83",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "144180049",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:57:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1489042427",
+    "StoreName": "bankniwa_shop24"
+  },
+  "CurrentPrice": {
+    "value": "60.83",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:57:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B00394UQPI",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "272695276628",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "IBI-41701-003",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "Black/Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Wrist Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0722631028740",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "41701-003",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Stainless Steel",
+          "Gold Plated"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silicon",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Day & Date",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Japanese Quartz",
+          "Analog Quartz"
+        ],
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "722631028740",
+          "049353821863"
+        ],
+        "Name": "UPC"
+      },
+      {
+        "Value": "722631028740",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "I By Invicta Men's 41701-003 Chronograph Stainless Steel Black Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-41701-003-Chronograph-Stainless-Steel-Black-Watch-/272695276628",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726952766288080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H52M9S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/UEsAAOSw9OFZJ3Kl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vI4AAOSwfpVZJ3Km/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/M2QAAOSwR29ZJ3Ko/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "BBB_SHOP 24 Best Quality / Best Service / Best Price I By Invicta Men's 41701-003 Chronograph Stainless Steel Black Watch Gallery Product Description Features 45 mm stainless steel case with mineral dial windowJapanese quartz movement with analog displayRound watch with navy dial featuring three chronograph subdials, black unidirectional bezel, tachymeter, and open lugsBlack rubber band with fold-over clasp with double push-button safetyWater resistant to 50 m (165 ft): In general, suitable for short periods of recreational swimming, but not diving or snorkeling Invicta IBI-41701-003 Black/Blue dimensions: 0.59x0.59x0.59 inch. 722631028740 0722631028740 41701-003 Contact Please contact us by ebay message only. Payment Policy We accept Paypal, Bank transfer, Cash on delivery an Credit Card. Shipping Policy We send: Shipping Handling in USA. The package will be shipped directly from USA with tracking number, and it will take about 05-15 business days. Return Policy 100% Satisfaction Guarantee: If you are not satisfied with the product you purchased for any reason, please contact us for a return instruction within 30 days for a refund. Shipping Handling costs are not refundable. Return shipping cost will be paid by buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "458",
+    "UserID": "bbb_shop24",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Not description"
+  }
+}

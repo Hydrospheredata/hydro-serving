@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Boise, Idaho",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:13:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:13:08.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942149455",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "FERRARI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "FERRARI CHRONO  MEN'S designer WATCH Quartz Resin Model 0830304",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FERRARI-CHRONO-MENS-designer-WATCH-Quartz-Resin-Model-0830304-/201942149455",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019421494558080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "83702",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H40M13S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAzWDUwMw==/z/684AAOSwa~BYQKv2/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Stock photo. Item is brand new, NIB (new in box), in original gift box with tags (if applicable). Box may have price stickers removed. New in box, never used. Item will be shipped within 2 BUSINESS days AFTER payment. Thank you!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "162",
+    "UserID": "mm1889",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

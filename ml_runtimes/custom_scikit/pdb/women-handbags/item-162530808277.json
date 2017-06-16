@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc2/z/Z5gAAOSwsXFZKUyy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5Njk=/z/W1AAAOSwlndZKUyx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1NzE=/z/ETUAAOSw1WJZKUyy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI5WDE1MDA=/z/iSQAAOSwn-tZKUyy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTgyWDE1MDA=/z/9MQAAOSwDiBZKUyy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzkz/z/qMsAAOSwYvFZKUyz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2Nzc=/z/V8MAAOSws5pZKUyx/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Ryan-Baby-Tote-Carry-Bag-Fastest-Shipper-Ebay-/162530808277",
+  "ConvertedCurrentPrice": {
+    "value": "179.14",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LeSportsac Ryan Baby Tote Carry On Bag Fastest Shipper On Ebay Product Details Product Dimensions: 19.5 x 12.6 x 2.4 inches Shipping Weight: 1.4 pounds Origin: China Item model number: 4262 International Shipping: This item is not eligible for international shipping. Learn More Nylon Imported Lesportsac partners with mr. men little miss to bring the iconic series to life on lesportsacs signature styles. Zip front pocket and back slide pocket with interior side stroller straps Interior front&#x2F;back double mesh slide pockets Baby changing mat included Detachable straps & special enamel puller Baby weekender/carry on bag",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.14",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1214",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mr.alston"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Ryan Baby Tote Carry On Bag Fastest Shipper On Ebay",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-27T09:53:56.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625308082778080_1.jpg",
+  "TimeLeft": "P23DT18H31M53S",
+  "EndTime": "2017-06-26T09:53:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "MRN Melon/Little Miss"
+      },
+      {
+        "Name": "Brand",
+        "Value": "N/A"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162530808277",
+  "Storefront": {
+    "StoreName": "Mr Instant Films",
+    "StoreURL": "http://stores.ebay.com/id=555901352"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B06W5FW94F",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

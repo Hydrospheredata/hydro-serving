@@ -1,0 +1,154 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.29",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "bampton",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:39:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1173969234",
+    "StoreName": "sicura1"
+  },
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T08:39:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "BH",
+    "IQ",
+    "JO",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "GU",
+    "KI",
+    "FM",
+    "NR",
+    "NU",
+    "PW",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "BA",
+    "IT",
+    "LV",
+    "MK",
+    "RO",
+    "RS",
+    "UA"
+  ],
+  "ItemID": "252966652417",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "citizen quart, mans for spares repairs,,doesnt run,,untested u fix",
+  "ConditionDescription": "missing battery strap,,,non unner    u fix item scratches to rear / untested in any way",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/citizen-quart-mans-spares-repairs-doesnt-run-untested-u-fix-/252966652417",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529666524178080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "OX182nr",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT17H10M30S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HtkAAOSwcB5ZIUDx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-QkAAOSwlndZIUC-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ptsAAOSwurZZIUDi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1w8AAOSwaeRZIUDO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Aa4AAOSwX61ZIUDS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZiMAAOSwjqVZIUDV/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "citizen quartz, mens watch,,,,,, non running, sold for parts ,,so u fix terms only,,,,clean dial ,, rear shows scrapes, appears missing battery strap,,, haven't tested in any way,,for parts watch,only",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2337",
+    "UserID": "sicura1",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

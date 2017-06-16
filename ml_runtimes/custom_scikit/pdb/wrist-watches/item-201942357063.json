@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Oak Ridge, Tennessee",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:05:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T11:05:05.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942357063",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Peugeot",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Moon Phase",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Peugeot Quartz Mens Watch w/Brown Leather Band, Chronograph, Moon Phase",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Peugeot-Quartz-Mens-Watch-w-Brown-Leather-Band-Chronograph-Moon-Phase-/201942357063",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019423570638080_1.jpg",
+  "HitCount": "9",
+  "PostalCode": "37830",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT19H44M2S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/2DkAAOSwAPVZE8In/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/60AAAOSwq1JZE8JA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwNlg4MTA=/z/EawAAOSwuMZZE8Jf/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Nice-looking Peugeot men's wrist watch with brown leather band. Feature silver tone case, rotating bezel, 12-hour dial, chronograph and moon phase. Pre-owned, so does show minor wear. Leather band looks good. Of course it needs a new battery. Very clean overall. Great sporty watch. Estate sale find, so age unknown. Back of watch reads stainless steel back, water resistant, 3 ATM, Peugeot. Please view photos. Selling as found.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1184",
+    "UserID": "gourds09",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

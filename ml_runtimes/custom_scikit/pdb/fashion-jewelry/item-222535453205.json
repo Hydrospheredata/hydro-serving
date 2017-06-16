@@ -1,0 +1,142 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Seller",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT19H3M6S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Factory Outlet Direct Supply A brand-new, unused, and unworn item (including handmade items) in the original packaging",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "52.69",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222535453205",
+  "ConvertedCurrentPrice": {
+    "value": "52.69",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T05:52:36.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Classy-Jewelry-17x13mm-HOT-Green-Topaz-925-Sterling-Silver-Earrings-1-1-4-AE330-/222535453205",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T05:52:36.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermosa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925 Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Topaz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gemstone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hook",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Classy Jewelry 17x13mm.HOT Green Topaz 925 Sterling Silver Earrings 1 1/4\" AE330",
+  "ExcludeShipToLocation": [
+    "IN",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AT",
+    "DE",
+    "IT",
+    "CH"
+  ],
+  "Location": "SZ & HK",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225354532058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.0",
+    "UserID": "lightinthebox2011",
+    "FeedbackScore": "50856",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "Hermosa No.1",
+    "StoreURL": "http://stores.ebay.com/id=1042635246"
+  },
+  "Quantity": "4",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/yNYAAOSw-KFXdLDT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/iDQAAOSwRQlXdLDW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/PUMAAOSwuzRXdLDY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/iHgAAOSwRQlXdLDZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vNgAAOSwgY9XdLDb/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings"
+}

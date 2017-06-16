@@ -1,0 +1,151 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT14H6M32S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Brand new brooch boxed and shipped directly to your door.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535339319",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorian-Style-Pearl-and-Crystal-Brooch-gold-toned-findings-/222535339319",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:50:23.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-08T02:50:23.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HWK Designs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hypoallergenic Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "pearl",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Victorian Style Pearl and Crystal Brooch (gold toned findings)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This is IT! The newest fashion accessory is a pin/brooch! Elegant Victorian Style Brooch, made from sparkling crystal stones and accented with crystals. Be the first in your crowd to wear the latest Hollywood fashion! It measures 1 1/2\" tall and 2\" wide and makes a terrific fashion statement. Pin it on a coat, winter dress, suit, blazer, jean jacket, hat, scarf or handbag and let the compliments fly! Buy two or three and cluster them for a more dynamic look (see seller's other listings) Measurements: 1 1/2\" tall, 2\" wideScale: Elegant and light weightMaterial: base metal, acrylic, crystals- Nickel and Lead Compliant (Hypoallergenic) Please contact us immediately with any questions or concerns. We are proud of our high seller feedback and will make every effort to make your transaction run smoothly. If you are not satisfied with your purchase, for any reason, please contact us. We will make it right or refund the cost of your purchase. Thank you for shopping with The Sleepy Cricket!",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225353393198080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "thesleepycricket",
+    "FeedbackScore": "268",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "The Sleepy Cricket",
+    "StoreURL": "http://stores.ebay.com/id=700199806"
+  },
+  "Quantity": "1",
+  "Location": "Ann Arbor, Michigan",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU0NVgxNjAw/z/3AkAAOSw5ZBWO2B-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE0WDYxNA==/z/3R0AAOSwT5tWPgfu/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "48108"
+}

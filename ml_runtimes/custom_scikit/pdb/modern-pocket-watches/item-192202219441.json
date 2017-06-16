@@ -1,0 +1,113 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Japan CITIZEN electronic watch \"ELECTRONIC\" in 1972 Movement: 5835, CITIZEN, Electronic, 16 jewels. Dial: Original, fine. Glass: Original, crystal glass, fine. Case diameter: 32 mm Case material: Silver Crown: Original, signed \"CTZ\". Strap: Original, 90 mm Others: Original Battery: New, I have replaced before the listing. Condition: Old stock?, it is running. For practical, everyday use, it would be advisable to have the movement cleaned and oiled.Shipping by EMS from Japan. Asia: 13$ North America, Australlia: 17$ Europe: 19$ South America, Africa: 21$ Payment : Paypal",
+  "StartTime": "2017-05-30T14:40:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~LYAAOSwY3BZLW6E/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "HighBidder": {
+    "UserID": "n***n",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "22",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "JP",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4-350049",
+        "Name": "MPN"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Electronic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "16 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "2100797",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Citizen ELECTRONIC",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "saitama_jp",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4410",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "63",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922022194418080_2.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.49"
+  },
+  "BidCount": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-06T14:40:53.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-1972-CITIZEN-electronic-pocket-watch-ELECTRONIC-5835-Silver-case-/192202219441",
+  "Location": "Saitama",
+  "Title": "Vintage 1972 CITIZEN electronic pocket watch [ELECTRONIC 5835] Silver case",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "192202219441",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT20H6M59S"
+}

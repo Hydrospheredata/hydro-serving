@@ -1,0 +1,116 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "BuyItNowAvailable": "true",
+  "TimeLeft": "P6DT23H55M36S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Like new!",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rtIAAOSwIaFZMW43/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~K8AAOSwjL5ZMW45/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/c4oAAOSwEHpZMW5C/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gfYAAOSwaEhZMW5E/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3YEAAOSw-K9ZMW5I/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3jQAAOSwhvFZMW5L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/fFEAAOSwcB5ZMW6e/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-New-York-Small-Hayden-Leather-satchel-crossbody-Beige-Pink-/192205335006",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Like new condition, no noted flaws.",
+  "ConvertedBuyItNowPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Athens, Georgia",
+  "Seller": {
+    "FeedbackScore": "89",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "audreymgill"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "30605",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:59:56.000Z",
+  "HitCount": "2",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-09T13:59:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "beige/pink (clocktower/flogernaium)"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8.6 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4.7 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9.2 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "20 inches"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192205335006",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Title": "Kate Spade New York Small Hayden Leather satchel/crossbody in Beige/Pink",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1922053350068080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P22DT20H49M46S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "HAND CRAFTED",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "172701248002",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/4-3-LARGE-VINTAGE-GOLD-PEACOCK-FEATHER-CRYSTAL-HAIR-COMB-BRIDAL-WEDDING-EVENING-/172701248002",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "46.38",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T08:15:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T08:15:24.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hair Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "VINTAGE GOLD",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "CRYSTAL",
+        "Name": "Material"
+      },
+      {
+        "Value": "CRYSTAL",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "PEACOCK FEATHER",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "4.3\" LARGE VINTAGE GOLD PEACOCK FEATHER CRYSTAL HAIR COMB BRIDAL WEDDING EVENING",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "CRYSTAL PEACOCK HAIR SLIDE COMB MADE WITH CHAMPAGNE TOPAZ AUSTRIAN CRYSTAL IN VINTAGE GOLD TONE PLATED SETTING CRYSTAL SECTION APPROX MEASUREMENTS 4.3\"X 2.3\" (11.1X5.8CM) ON METAL COMB PLEASE NOTE: MANNEQUIN IMAGE IS FOR DISPLAY PURPOSES ONLYLISTING IS FOR GOLD VERSION PLEASE NOTE: COLOUR MAY VARY ACCORDING TO DIFFERENT SCREEN MONITORS. PLEASE CONTACT WITH ANY QUESTIONS.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727012480028080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "nrch1",
+    "FeedbackScore": "220",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Hertford",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1MVgxNjAw/z/OXYAAOSwENxXnhEo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3NVgxNjAw/z/loUAAOSwIgNXnhFY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gYsAAOSwnQhXnhGM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTgy/z/2pUAAMXQC-tTEwq9/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Hair & Head Jewellery",
+  "PostalCode": "SG14 1BZ"
+}

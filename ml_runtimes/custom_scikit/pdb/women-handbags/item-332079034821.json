@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzY3WDUwMA==/z/jS0AAOSwT6pVv-6a/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Coach-Ashley-Leather-Carryall-Tote-Brass-Steel-15444-/332079034821",
+  "ConvertedCurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Coach Ashley Leather Carryall Tote Brass/Steel #15444 Normal 0 false false false MicrosoftInternetExplorer4 \u00b7 Leather. Shoulder Strap for cross body .\u00b7 Inside zip, cell phone and multifunction pockets \u00b7 Zip-top closure, fabric lining \u00b7 Handles with 5\" drop. Outside pocket \u00b7 15 1/4\" (L) x 12 1/4\" (H) x 5\" (W)* This item is Brand New and never been used! * All items come from a smoke/pet free home. * Feel free ask any questions! Good Luck!100% Guaranteed Authentic or your money back.It was purchased directly from Coach in U.S.A.. PayPal only. Payment is expected within 48 hours. Buyer agrees to add shipping within the U.S. California residents need to add sales tax. We can accept Verified or Confirmed Paypal only. Payment is expected within 48 hours.",
+  "Title": "NWT Coach Ashley Leather Carryall Tote Brass/Steel #15444",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "San Diego, California",
+  "Seller": {
+    "FeedbackScore": "2311",
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "lubi_dubi"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92122",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-01-02T10:48:16.000Z",
+  "HitCount": "135",
+  "TimeLeft": "P28DT19H15M28S",
+  "EndTime": "2017-07-01T10:48:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brass/Steel"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332079034821",
+  "Storefront": {
+    "StoreName": "mini lubi dubi",
+    "StoreURL": "http://stores.ebay.com/id=497421496"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Buyer pays return shipping and S&H will not be returned.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3320790348218080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

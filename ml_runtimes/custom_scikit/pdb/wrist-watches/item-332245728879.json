@@ -1,0 +1,87 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "480.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322457288798080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T13:13:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:13:42.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Check photos",
+  "BuyItNowPrice": {
+    "value": "480.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245728879",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Robert",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Robert Bianci Watch D003 With Diamond Bezel",
+  "ConditionDescription": "In great condition Fully functional",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Robert-Bianci-Watch-D003-Diamond-Bezel-/332245728879",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "3",
+  "PostalCode": "11373",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Elmhurst, New York",
+  "TimeLeft": "P4DT21H59M35S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/B0QAAOSwDmBY581S/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/B8wAAOSwDmBY581V/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/O8sAAOSwls5Y581a/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/RE8AAOSw3utY581d/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/QbAAAOSwls5Y582E/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/FX8AAOSwuLZY582I/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/7qsAAOSwpkFY583D/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/0uUAAOSwmgJY583x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/SAwAAOSw03lY584J/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/JA4AAOSw~CFY584M/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/MwcAAOSwc-tY584s/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/Y2AAAOSw3utY584u/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16",
+    "UserID": "johnapp1212_2",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

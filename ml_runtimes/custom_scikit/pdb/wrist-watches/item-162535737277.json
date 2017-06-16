@@ -1,0 +1,113 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "725.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Sweeny, Texas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:00:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "725.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:00:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535737277",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fortis",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "623.10.158",
+        "Name": "Model"
+      },
+      {
+        "Value": "25",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "FORTIS SPACEMATIC CLASSIC BLACK 623.10.158 - Automatic- Day / Date $NICE$",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FORTIS-SPACEMATIC-CLASSIC-BLACK-623-10-158-Automatic-Day-Date-NICE-/162535737277",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625357372778080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "77480",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H32M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/1HkAAOSw3ZRZANhP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/At8AAOSwuspZANhe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ATUAAOSwvbdZANhm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/EygAAOSwSypZANhs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/BQYAAOSwvbdZANh2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/WmcAAOSw53NZANiD/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Fortis Spaematic Classic - Automatic - Grey Silicone Strap - Day / Date Pre-Owned $$$ MINT Condition$$$ It comes with original box, manual Automatic Swiss Movement ETA 2836-2 25 Jewels, 28,800 Vibrations per hour Fine timing device and Incabloc shock absorber Hour, minute and center stop second Day and Date display in English Steel, two part case with brushed matte finish Sapphire glass crystal FORTIS logo crown Water resistant to 100 meters (330 feet) Superluminova dial (white areas) with blue afterglow Arabic numerals and triangle at 3 position Indices, minute, hour and seconds hand in black Silicone strap Gray 40mm case width (approximately 1 5/8 inches) Comes w box and papers",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "454",
+    "UserID": "jaybof40",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

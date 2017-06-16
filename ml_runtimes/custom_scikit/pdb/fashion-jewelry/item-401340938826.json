@@ -1,0 +1,80 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT5H58M52S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "401340938826",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-JAY-LANE-K-J-L-RHINESTONE-LEOPARD-PANTHER-PIN-GOLDTONE-/401340938826",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T18:50:31.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T18:50:31.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "crystals-",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Goldtone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH JAY LANE/K.J.L RHINESTONE LEOPARD/PANTHER PIN GOLDTONE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "KENNETH JAY LANE/K.J.L RHINESTONE LEOPARD/PANTHER PIN GOLDTONE Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4013409388268080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "immemom",
+    "FeedbackScore": "2950",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Royersford, Pennsylvania",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDEwNjc=/z/RXcAAOSw9VZXOypP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEwNjc=/z/sS8AAOSwB9xXOypQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEwNjc=/z/5EUAAOSw74FXOypR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEwNjc=/z/1TEAAOSwxehXOypT/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "19468"
+}

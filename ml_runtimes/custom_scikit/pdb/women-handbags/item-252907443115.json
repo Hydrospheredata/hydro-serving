@@ -1,0 +1,190 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTQyWDEyMDA=/z/hmgAAOSwCQZZBRyN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTY1WDEyMDA=/z/jv4AAOSwnONZBRyU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDEyMDA=/z/ctcAAOSw42dZBRyY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/R7sAAOSw7GRZBRyf/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/new-tag-vera-bradley-large-duffel-travel-bag-4-different-patterns-/252907443115?var=",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "9",
+  "NewBestOffer": "false",
+  "Description": "vera bradley large duffel travel bag in 4 different patterns new with tag the Mickey and Minnie medallion pattern has the QR code on the vera bradley tag inside the bag 22\" w x 11 \u00bd\" h x 11 \u00bd\" d with 15\" strap drop free shipping! Track Page Views With Auctiva's FREE Counter",
+  "Title": "new with tag vera bradley large duffel travel bag in 4 different patterns",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "Location": "Burnaby, British Columbia",
+  "Seller": {
+    "FeedbackScore": "47",
+    "PositiveFeedbackPercent": "97.4",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "girlsfashionjewelrys"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "v5h4n2",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "mickey's magic blooms",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTQyWDEyMDA=/z/iH8AAOSwCQZZBRys/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "mickey and minnie medallion",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTY1WDEyMDA=/z/dS0AAOSw42dZBRy1/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "dreaming mickey",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTAxWDEyMDA=/z/DsQAAOSwrhBZBRy-/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "just mousing around",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/~9IAAOSw-3FZBRzH/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "pattern"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "69.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "sku-auc-0",
+        "SellingStatus": {
+          "QuantitySold": "3",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "pattern",
+            "Value": "mickey's magic blooms"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "69.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "sku-auc-1",
+        "SellingStatus": {
+          "QuantitySold": "2",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "pattern",
+            "Value": "mickey and minnie medallion"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "65.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "sku-auc-2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "pattern",
+            "Value": "dreaming mickey"
+          }
+        }
+      },
+      {
+        "Quantity": "5",
+        "StartPrice": {
+          "value": "59.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "sku-auc-3",
+        "SellingStatus": {
+          "QuantitySold": "4",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "pattern",
+            "Value": "just mousing around"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "pattern",
+        "Value": [
+          "mickey's magic blooms",
+          "mickey and minnie medallion",
+          "dreaming mickey",
+          "just mousing around"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-29T23:10:01.000Z",
+  "HitCount": "738",
+  "TimeLeft": "P26DT6H17M1S",
+  "EndTime": "2017-06-28T23:10:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffel Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252907443115",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "13",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CA",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

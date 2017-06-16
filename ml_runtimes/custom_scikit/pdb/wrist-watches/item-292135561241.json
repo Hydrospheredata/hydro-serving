@@ -1,0 +1,104 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Palatine, Illinois",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:26:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=115226329",
+    "StoreName": "Pixies+Perfect+Closet"
+  },
+  "CurrentPrice": {
+    "value": "5.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:26:31.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135561241",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "G&S",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PA474-50",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "G&S PA474-50 Replacement Crystal For Omega Speed Master Watches 34.2mm  #P164",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/G-S-PA474-50-Replacement-Crystal-Omega-Speed-Master-Watches-34-2mm-P164-/292135561241",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921355612418080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "60067",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H6M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/Njk4WDYzMg==/z/IdUAAOSwaEhZLR-6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzU4WDc0Mw==/z/AFwAAOSw~FJZLR~B/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "G&S PA474-50 Replacement Crystal For Omega Speed Master Watches 34.2mm . NOS PLEASE SEE MY EBAY STORE FOR MORE GREAT ITEMS! I AM HAPPY TO COMBINE SHIPPING!",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "4018",
+    "UserID": "pixie14320",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

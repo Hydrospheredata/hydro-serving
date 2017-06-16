@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "154.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Grants Pass, Oregon",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:52:18.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "154.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:52:18.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210807532",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nixon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Diver's 300 m (ISO 6425)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Nixon Watch 51-30 Chrono All Gold Men's A083502 A083-502",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Nixon-Watch-51-30-Chrono-All-Gold-Mens-A083502-A083-502-/132210807532",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322108075328080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "97526",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H24M",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/FjUAAOSwq1JZLoQS/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EkYAAOSwZ4dZLoQT/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/aNAAAOSw~FJZLoQS/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/sZ8AAOSwi7RZLoQT/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/M1MAAOSw9OFZLoQT/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "THE STORYSUPERIOR FUNCTIONALITYGood looks, brains and brawn combined The 51-30 Chrono rates second-to-none. FEATURES INSPIREDHandsome, easy-to-read 51 mm design that launched the oversized trend, with 3 CD textured subdialsSUPERIOR FUNCTION6-hand chrono, date window, 24-hour and seconds subdials, custom-molded hands with luminous fillWELL EQUIPPEDConcave dial ring with rotating bezel with countdown timer, bold numbers and printed seconds trackSHIPPING10-22 DaysDURABLE CONSTRUCTION3-link stainless steel or Acetate band with stainless steel double locking clasp with micro adjustTEAM DESIGNEDCrown positioned at 9 o\u2019clock and pushers at 8 and 10 to prevent \u201cwrist bite\u201d while surfing",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "136",
+    "UserID": "relent107luke",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

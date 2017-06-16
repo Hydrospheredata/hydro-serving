@@ -1,0 +1,137 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "88.88",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Portsmouth, New Hampshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:33:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "88.88",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T12:33:17.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "172705782124",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wittnauer",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "LAUREATE",
+        "Name": "Model"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "HT8216-9554",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MEN'S WITTNAUER LAUREATE IN OUTSTANDING CONDITION-WRIST TO 7.75\"-DATE-SS-HT8216",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MENS-WITTNAUER-LAUREATE-OUTSTANDING-CONDITION-WRIST-7-75-DATE-SS-HT8216-/172705782124",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727057821248080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "03801",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT21H17M21S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUyWDM3NA==/z/bYUAAOSwSypY~PnC/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQxWDM3NQ==/z/we8AAOSwJ4hY~PnK/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjkwWDI1Ng==/z/w5EAAOSwJ4hY~PnQ/$_1.PNG?set_id=880000500F"
+  ],
+  "Description": "MEN'S WITTNAUER LAUREATEIN OUTSTANDING CONDITIONWILL FIT A WRIST TO APPROXIMATELY 7.75\"CLEAN AND CLEAR SAPPHIRE CRYSTALTWO TONE BAND AND BEZEL IN EXCELLENT CONDITIONDUAL DEPLOYMENT CLASPDATE FEATUREWATER RESISTANT US SHIPPER SHIPS WITHIN ONE BUSINESS DAY OF PAYPAL PAYMENT. IN MOST CASES I SHIP WATCHES WITH THE CROWN PULLED OUT SO THE BATTERY IS NOT WASTED WHILE IN TRANSIT. ALSO, DEPENDING ON WHERE A WATCH IS GOING, THE TIME MAY BE DIFFERENT THAN WHERE I AM. UNLESS A WATCH IS LISTED AS \u201cNEW IN BOX\u201d, THE BOX IS NOT INCLUDED. I USE A GENERIC BOX TO TAKE PHOTOS, BUT I ONLY HAVE ONE.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "897",
+    "UserID": "jaraysco",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

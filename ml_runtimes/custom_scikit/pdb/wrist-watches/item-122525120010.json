@@ -1,0 +1,124 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.29",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Tunbridge Wells",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:43:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "HighBidder": {
+    "FeedbackScore": "428",
+    "UserID": "r***r",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackPrivate": "false"
+  },
+  "CurrentPrice": {
+    "value": "1.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:43:17.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "2 Sterling silver cased watches for repair/renovation. The gents watch is a great size at 41mm lug to lug and 26mm wide, very large for the time!! and a ladies watch - great face, 27mm across the face. Great case on the gents watch with engraving to the sides and fixed lugs 20mm wide, stamped to the rear 925 and 2 indistinct marks and AGR case maker and 17470. The face is totally original - great Arabic numbers. Nice 15 j movement which runs but the crown has broken off. The perspex needs replacing but with some care you will have a delightful Art Deco Timepiece. The ladies watch is also a good size @ 27mm across with double hinged Silver case, all fine. Great original face - this watch runs bit the stem is loose. The case is stamped GS and London Import Hallmarks and date letter 'c' 1918. Both cases are in good condition. Auction only - no reserve.",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122525120010",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Pre-1920",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Art Deco",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "2 Vintage silver watches running for repair 1918 Art Deco case 40m x 26m + 26m",
+  "ConditionDescription": "Great cases but attention required, both balances running.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2-Vintage-silver-watches-running-repair-1918-Art-Deco-case-40m-x-26m-26m-/122525120010",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "1",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225251200108080_1.jpg",
+  "HitCount": "11",
+  "PostalCode": "TN2 3RU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT21H27M30S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1okAAOSw8lpZLrap/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tuMAAOSw~y9ZLra7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kMMAAOSwhvFZLrbL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/StEAAOSwjL5ZLrbt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wagAAOSwjqVZLrb1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UbAAAOSwlY1ZLrb-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~X8AAOSwlndZLrcL/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "1.2",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "851",
+    "UserID": "jon3327",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "If the item is not as described or photographed I will consider a refund. The item must be returned in 7 days from purchase and have a tracker number.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

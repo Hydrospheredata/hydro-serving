@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "277.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fairfax, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:35:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "277.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:35:02.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142399989026",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brand new.  Jewelry Bulova Mens Classic Watch. Stainless Steel Brown Leather",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-new-Jewelry-Bulova-Mens-Classic-Watch-Stainless-Steel-Brown-Leather-/142399989026",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423999890268080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "22031",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H8M37S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE2NFg3NDc=/z/bLMAAOSwONBZBhh1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1MFg2Njk=/z/B7wAAOSw7GRZBhiD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxNVg4MTA=/z/FqwAAOSw42JZBhiP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNlg2NTY=/z/eXEAAOSwnONZBhia/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Perfect for daily wear, this Classic men's watch features a black layered dial and genuine leather strap. Stainless steel case Water resistant to 30 meters (100 feet) Genuine leather strap 40mm case width (approximately 1 5/8 inches) 6.3mm case thickness (approximately 1/4 inches)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6",
+    "UserID": "luchedly",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

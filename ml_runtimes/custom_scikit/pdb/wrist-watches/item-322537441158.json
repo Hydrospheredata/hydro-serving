@@ -1,0 +1,90 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Longmeadow, Massachusetts",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:13:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090661985",
+    "StoreName": "shopdesigner12"
+  },
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:13:15.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537441158",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rose Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Citizen Eco-Drive",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Citizens Eco Drive Rose Gold Watch With Purple Gauges",
+  "ConditionDescription": "Worn for about a year and then I purchased an Apple Watch. Runs well. Has the extra links as I took some out",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Citizens-Eco-Drive-Rose-Gold-Watch-Purple-Gauges-/322537441158",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225374411588080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "01106",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H56M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Z9QAAOSwImRYOb~1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/LvoAAOSwux5YOcAc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/f7sAAOSw-0xYOcAf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/llgAAOSw44BYOcAh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/gF4AAOSw-0xYOcAj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/kQcAAOSwo4pYOcAl/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Runs well Some scuffing on clasp from wearing it.\u00a0 Worn about a year before I got a new Watch.\u00a0 Comes in box with extra links",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "692",
+    "UserID": "shopdesigner12",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

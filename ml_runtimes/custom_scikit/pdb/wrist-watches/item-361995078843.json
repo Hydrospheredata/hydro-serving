@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Stara Zagora, Stara Zagora",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:49:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:49:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "BG",
+  "ItemID": "361995078843",
+  "HandlingTime": "2",
+  "Description": "Check out my other items! Works VERY RARE MODEL Clock is an antique. clock works This is an old mechanical watch Buy what you see. pictures speak ASK will respond MODEL collectors WATCH WORK WELL BUY what you see EXCLUSIVE RARE MODEL shipment travels with priority and recommendation shipment travels in Europe 14-22 working days USA 22-35 WORKING DAYS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Old-GERMAN-GDR-MODEL-collectors-WATCH-GLASHUTTE-SPEZMATIC-26-JEWELS-GOLD-AU-10-/361995078843",
+  "ConditionDescription": "VERY GOOD CONDITION . PERFECT",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619950788438080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H17M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6H8AAOSwZVhWSb4D/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r8kAAOSwkZhWSb7C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eawAAOSwT4lWSb4Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bMwAAOSw4UtWSb3h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MmoAAOSwcdBWSb3n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nH8AAOSwkZhWSb31/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FasAAOSwlV9WSb3u/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/b5UAAOSw4UtWSb37/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HS4AAOSwEgVWSb4J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Gc8AAOSwlV9WSb4V/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/c0cAAOSw4UtWSb4c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/b5gAAOSweuxWSb4q/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Old  GERMAN GDR MODEL collectors  WATCH GLASHUTTE SPEZMATIC 26 JEWELS GOLD AU 10",
+  "Seller": {
+    "PositiveFeedbackPercent": "93.3",
+    "FeedbackScore": "560",
+    "UserID": "ddok75",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

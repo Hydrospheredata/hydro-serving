@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "470.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IT",
+  "Location": "Brusciana",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:02:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "470.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T08:02:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142399929860",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Swaziland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ELEGANT BAUME MERCIE",
+  "ConditionDescription": "excellent",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ELEGANT-BAUME-MERCIE-/142399929860",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423999298608080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "50053",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT16H31M24S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/Se8AAOSwjL5ZDKR-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/kEoAAOSw42dZDKRv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/9fQAAOSw7GRZDKRQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/xlwAAOSwCQZZDKSg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/GuUAAOSwhvFZDKRW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/nwcAAOSww9xZDKRc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/qW4AAOSww9xZDKSX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/~T0AAOSw7GRZDKSc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/f0oAAOSwONBZDKSm/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Elegant Baume & Mercier Baumatic, a 70's automatic watch that became a classic classic of that time, a model very similar to the Rolex Datejust.In this larger version of 30 mm (most of the Baumatic is 25 mm) one can consider a unisex or boy's watch (in my taste does not fit at all on a male wrist).The watch on sale is in excellent aesthetic and functional conditions and all original Steel and gold case type Rolex Oyster, 30 mm width excluding crown. Faceted bezel in 18kt solid gold. Robust Baume & Mercier Steel Screwdriver. The case has a decent waterproof (30 meters - 3 atmospheres).Original plexi glass with lens on the date in excellent condition.Precious original dial (not reprinted) in splendid conditions, without stains, marks or weather patina and still perfect graphics. Applied golden Baume & Mercier logo, golden indexes applied with tritium balls combined with printed Roman numerals, date at 3 o'clock, gold spheres with tritium carry, sphere of the middle black seconds.Baume & Mercier BM860 Movement ETA 2671, excellent gauge used by various houses including Tudor, Ulysse Nardin, Cartier, Eterna. Automatic charge mechanic, 28,800 A / h, charge reserve of 39 hours.It works fine, holds time with precision, is soft to adjust, keeps the charge well, and the date shoots up correctly.Original steel and gold bracelet (plated) of considerable length, suitable for wrists also for more than 20 cm. The plating is Great conditions, more worn on the upper part. Clasp closes well.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "58",
+    "UserID": "antichitanascoste",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

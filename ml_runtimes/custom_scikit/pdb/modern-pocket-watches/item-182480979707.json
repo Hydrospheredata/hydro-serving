@@ -1,0 +1,187 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "110.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert Pocket Watch Model # 3543Quartz Movement Dial: SkeletonNumbers: Roman NumeralsShape: RoundCase Size: 47 mmCase Thickness: 17 mmCase Material: BrassEngravable: YesChain IncludedLifetime Movement WarrantyShips with Charles Hubert Gift BoxFree Standard ShippingIn Stock, Ready to Ship Today!",
+  "StartTime": "2017-03-07T20:16:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/sFYAAOSwSlBYvxP1/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/hawAAOSwWxNYvxPZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/0gkAAOSwol5YvxPh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/6ycAAOSwax5YvxP5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzgwWDc1MA==/z/1IoAAMXQDXRRGb-G/$(KGrHqRHJE8FESjb10eWBRGb-G(l2Q~~60_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "10",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Charles-Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "3543",
+        "Name": "Model"
+      },
+      {
+        "Value": "Lifetime Movement",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shopgifties",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "379",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "34",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1824809797078080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T20:16:37.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "110.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "We guarantee items to be free from defects in material & workmanship. If you're not satisfied with any purchase from us, contact us within 30 days of purchase & we'll exchange it, replace it or refund your money at our option. Returns must be shipped insured in original packaging w/all paperwork. Refunds exclude shipping fees unless item not as described.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "United States",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Charles-Hubert Stainless Steel Hunter Case Quartz Pocket Watch 3543",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Charles-Hubert-Stainless-Steel-Hunter-Case-Quartz-Pocket-Watch-3543-/182480979707",
+  "Storefront": {
+    "StoreName": "Shop Gifties",
+    "StoreURL": "http://stores.ebay.com/id=1041085656"
+  },
+  "ItemID": "182480979707",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT1H24M57S"
+}

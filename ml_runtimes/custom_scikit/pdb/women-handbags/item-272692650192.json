@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yCkAAOSwlMFZLILQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HlcAAOSw0hlZLILb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9cwAAOSwjqVZLINM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Wu0AAOSwEHpZLILu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fdoAAOSwY3BZLIMZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EjYAAOSwcgNZLIL8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hBwAAOSwaeRZLIMf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CWAAAOSwGJlZLIMH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZKgAAOSw-K9ZLIMM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BLEAAOSww9xZLIMS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9QAAAOSwjqVZLIMp/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Tumi-Large-Business-Satchel-Black-Nylon-Leather-Business-Case-/272692650192",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Tumi Large Business Satchel with Tags Size: 15.75\" x 5\" x 11\" Condition: New with tags (minor dust, scratches from storage) Retail: $350 UPC: 42315746990 Style: 0431191RN SHIPPING within the US and ships within three business days with tracking. Please contact me for any additional questions or shipping fees. Bidders with no or less than 100 positive feedback scores message me before bidding. Payment is due within 24 hours of the close of auction or item will be relisted. All sales are final at auctions close. If you believe there was an error with your shipment, the buyer must contact FHL-Shop within 24 hours of confirmed receipt of the item (according to USPS tracking information). Thank you for your interest and Happy Shopping!",
+  "Title": "NWT Tumi Large Business Satchel - Black Nylon & Leather Business Case",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "San Jose, California",
+  "Seller": {
+    "FeedbackScore": "192",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "fhl-shop"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "95109",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T20:27:02.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P3DT5H30M4S",
+  "EndTime": "2017-06-05T20:27:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tumi"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather/Nylon"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272692650192",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726926501928080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

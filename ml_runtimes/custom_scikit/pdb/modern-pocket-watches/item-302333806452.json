@@ -1,0 +1,73 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.0"
+  },
+  "QuantitySold": "0",
+  "Title": "pivotal living sports bracelet",
+  "PostalCode": "47904",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Doesn't come with a charger. The screen is also scratched up but works",
+  "StartTime": "2017-05-30T22:50:08.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODUwWDU0Nw==/z/FWkAAOSwZ4dZIGb4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzE1WDczNA==/z/5ScAAOSwIQdZIGb2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTA1WDc0OQ==/z/QaQAAOSw~FJZIGb3/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "kelldaoud",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "154",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023338064528080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-09T22:50:08.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "4.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/pivotal-living-sports-bracelet-/302333806452",
+  "ConditionDescription": "The screen is scratched up but works. Doesn't come with a charger",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Lafayette, Indiana",
+  "Storefront": {
+    "StoreName": "MoBettaDesigns",
+    "StoreURL": "http://stores.ebay.com/id=1285625733"
+  },
+  "ItemID": "302333806452",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT4H16M22S"
+}

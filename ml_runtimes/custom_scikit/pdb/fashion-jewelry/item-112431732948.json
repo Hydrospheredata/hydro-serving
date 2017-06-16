@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT18H17M26S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112431732948",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Tory-Burch-Gold-Kissing-Elephant-Bracelet-Leather-Strap-/112431732948",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:09:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T04:09:24.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Tory Burch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Tory Burch Gold Kissing Elephant Bracelet, Leather Strap.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "brand new Tory burch bracelet. Tory Burch Logo is embossed inside strap 100% Italian Leather strap Decorated with two kissing elephants 16K Gold Plated brass Length about 8\" Width about 0.5\" Buckle closure Imported",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124317329488080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "gizitaza1969",
+    "FeedbackScore": "834",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "gizitaza1969",
+    "StoreURL": "http://stores.ebay.com/id=935988071"
+  },
+  "Quantity": "1",
+  "Location": "Irvine, California",
+  "HitCount": "3",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lC0AAOSwjDZYedUe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/opcAAOSwt5hYedUY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xC0AAOSwnHZYedUb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/qlYAAOSw2xRYedUh/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92614"
+}

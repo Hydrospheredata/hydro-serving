@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTY3WDExMjU=/z/GWEAAOSwENxXl4ar/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTMyWDExMTQ=/z/GxgAAOSwENxXl4a1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTcyWDExMjg=/z/TWMAAOSwbsBXl4bH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XokAAOSw0fhXl4av/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Nzk4WDExNDI=/z/IfsAAOSwENxXl4bb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/68UAAOSwTZ1Xl4a6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODU1WDE0MzE=/z/JUkAAOSwENxXl4bq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cckAAOSwARZXl4bD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/TwQAAOSwbsBXl4bP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/oyYAAOSwSv1Xl4bV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/EZUAAOSwtnpXl4bl/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Monogram-Brown-Leather-Diaper-Bag-Purse-Unisex-/332248544963",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Coach monogram unisex diaper bag purse. The bag is preowned and has some stains on the inside flap cloth part of the bag. The strap also is dis colored from normal wearing. The staining can be seen in the photos. The photos are very accurate as to the condition of the bag. Please message me with any questions you may have about this item before you make a purchase, thank you.",
+  "Title": "Coach Monogram Brown Leather Diaper Bag Purse Unisex",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Long Island City, New York",
+  "Seller": {
+    "FeedbackScore": "122",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "nandosdealsallday"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11101",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:25:34.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H3M52S",
+  "EndTime": "2017-07-02T11:25:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332248544963",
+  "Storefront": {
+    "StoreName": "nandosdealsallday",
+    "StoreURL": "http://stores.ebay.com/id=1325010710"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322485449638080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

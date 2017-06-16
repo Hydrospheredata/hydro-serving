@@ -1,0 +1,105 @@
+{
+  "QuantitySold": "0",
+  "Title": "***Wrist Watch**Tom Anthony Driving Team**Works***",
+  "PostalCode": "93063",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-31T18:13:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/BAgAAOSwKytZLwqu/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Swiss Made",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rj121",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6616",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520743763888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemID": "352074376388",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "all items must be as originally sent----no returns on sealed albums that were opened",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-07T18:13:37.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wrist-Watch-Tom-Anthony-Driving-Team-Works-/352074376388",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BuyItNowAvailable": "true",
+  "Location": "Simi Valley, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT23H40M18S"
+}

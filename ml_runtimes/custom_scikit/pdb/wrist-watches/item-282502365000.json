@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bradenton, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:20:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "11.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:20:05.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502365000",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sun Time",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Cal Ripken Jr. Iron Man 2131 Game Day Watch - New in Box - Limited Edition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cal-Ripken-Jr-Iron-Man-2131-Game-Day-Watch-New-Box-Limited-Edition-/282502365000",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825023650008080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "34209",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H7M42S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qZYAAOSwGtRXyd6~/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WcQAAOSw9IpXyd7D/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sOIAAOSwOdpXyd7H/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SpoAAOSwxg5Xyd7K/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Cal Ripken Jr 2131 Game Day Watch.Rare watch, still mint in case. It will need a new battery, just due to age. The watch is perfect condition. Check pictures carefully.Any questions please ask.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "115",
+    "UserID": "luckydog1717",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

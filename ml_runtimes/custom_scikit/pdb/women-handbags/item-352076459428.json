@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FPIAAOSwK6RZFFBA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/up4AAOSwfRdZFFBD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDY2/z/vBYAAOSwtGlZFFBG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z88AAOSw8lpZFFCC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjA4WDY0MA==/z/h4QAAOSw9OFZFFCD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTkxWDY0MA==/z/VGUAAOSw-3FZFFCF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NDY0WDY0MA==/z/K-8AAOSwCQZZFFCG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjM1WDY0MA==/z/V~gAAOSwONBZFFCH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NDMxWDY0MA==/z/v18AAOSwGJlZFFCI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Nzg0WDY0MA==/z/eDwAAOSwxu5ZFFCJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NDE2WDY0MA==/z/12YAAOSwi7RZFFCK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTkyWDY0MA==/z/9xoAAOSwfpVZFFCL/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Brooke-Pewter-Silver-Metallic-Leather-Tote-Purse-Matching-Wallet-EUC-/352076459428",
+  "ConvertedCurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Excellent Condition!! No rips, tears or stains.",
+  "Title": "Coach Brooke Pewter Silver Metallic Leather Tote Purse & Matching Wallet EUC!!!!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Collinsville, Illinois",
+  "Seller": {
+    "FeedbackScore": "265",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "loveflowers1989"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "62234",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:49:13.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P6DT20H25M7S",
+  "EndTime": "2017-06-09T10:49:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Silver"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Metallic"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "352076459428",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520764594288080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

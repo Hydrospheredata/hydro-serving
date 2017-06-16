@@ -1,0 +1,154 @@
+{
+  "ExcludeShipToLocation": "HK",
+  "QuantitySold": "0",
+  "PostalCode": "12861",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Jules Jurgensen has been crafting fine time pieces since 1740. The pocket watch offered in this listing is a Gents Railroad Pocket Watch which is now somewhat difficult to find. It comes in its original box, which measures 5.5\" x 4.5\" x 2.5', and its original paperwork. It appears to have been unused but I did have a new battery and insulator professionally installed. It is now in perfect working condition and keeps great time. A very nice two toned (gold/silver) pocket watch with a highly decorative train oriented case.",
+  "StartTime": "2017-05-21T23:44:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDMy/z/kB8AAOSwuLZYzDkw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3OFgxNjAw/z/xCMAAOSw32lYzDk5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDQw/z/r~UAAOSw4YdYzDlC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTcw/z/n68AAOSwax5YzDlI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDU1/z/tzwAAOSwWxNYzDlW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExNFgxNjAw/z/6vAAAOSwB-1YzDle/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM5MlgxNjAw/z/9X4AAOSwYXVYzDlo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDc3/z/u50AAOSwWxNYzDlz/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "150.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gold/Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "25s",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Gents Railroad Pocket",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Jules Jurgensen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "719281074845",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rocelectro5ub3",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "797",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525568544338080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T23:44:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "150.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU",
+    "JP",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jules-Jurgensen-Gents-Railroad-Pocket-Watch-/152556854433",
+  "Location": "Putnam Station, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Jules Jurgensen Gents Railroad Pocket Watch",
+  "Storefront": {
+    "StoreName": "Frary Finds",
+    "StoreURL": "http://stores.ebay.com/id=13837512"
+  },
+  "ItemID": "152556854433",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT5H6M5S"
+}

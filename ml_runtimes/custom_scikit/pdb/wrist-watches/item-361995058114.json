@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "51.44",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Birmingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:04:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T07:04:20.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995058114",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Men's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rotary Swiss Made Gent's Aviator's Vintage Style Quartz Chronograph.",
+  "ConditionDescription": "see main listing.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rotary-Swiss-Made-Gents-Aviators-Vintage-Style-Quartz-Chronograph-/361995058114",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619950581148080_1.jpg",
+  "HitCount": "33",
+  "PostalCode": "B461QD",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT15H31M1S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/e10AAOSwBt5ZLmng/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rZ0AAOSwEHpZLmns/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W3QAAOSwK6RZLmn4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hJgAAOSwlY1ZLmoF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kNQAAOSwJH1ZLmoT/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "A vintage style Rotary Swiss gent's quartz multi dial Aviator's style chronograph watch in good used condition and full working order keeping good time.Features:Stainless steel case with snap down back.Crown set with black cabuchon stone.Vintage style black textured dial with applied silver baton markers and luminous hands.Date at 5 o'clock with quick change.Flawless mineral glass crystalQuality 4 jewel Swiss quartz movement in working order with fully functioning multi dial chronograph.Fitted with brown buffalo grain leather watch strap.Size: 42 mm. diameter case. A great looking Swiss quartz chronograph from a top maker that combines vintage styling with quartz accuracy. Full refund if not happy with item, buyer to pay return postage.Payment by paypal only.All items to be paid for within 48 hours.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5110",
+    "UserID": "fohar181",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "Full money back on all returns.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

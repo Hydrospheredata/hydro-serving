@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT7H35M12S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Great condition, no chips, no scratches, antique piece.",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "263017157794",
+  "ConvertedCurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-02T21:56:51.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Blue-Gem-Turquoise-Cluster-Vintage-Bracelet-Cuff-Sterling-Silver-Navajo-Mens-/263017157794",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T21:56:51.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Blue Gem Turquoise Cluster Vintage Bracelet/Cuff Sterling Silver Navajo Mens",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "California",
+  "Description": "This men's bracelet design is a beautiful turquoise cluster bracelet, the color of the turquoise is a vivid mix of light and dark teals with hints of green and rock sprinkled throughout the stones. This turquoise was found in the blue gem mines and was named 'blue gem turquoise' after the location. The sterling silver band of this bracelet has smooth edges that are comfortable to wear and is an amazingly unique antique piece circa from the 1960's. It is in perfect condition with no scratches or chips. If you have any questions please do not hesitate to ask, we are here to help! Measurements:inner circumference: 6 1/4opening: 1 3/4total bracelet size: 8cluster width: 2 3/4weight: 111.1 g *ALL PIECES LISTED, ARE ALSO AVAILABLE IN MY GALLERY AND CAN BE SOLD AT ANYTIME.**ALL PHOTOS ARE UNEDITED AND ARE NOT PHOTO SHOPPED*",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630171577948080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "southwestflair",
+    "FeedbackScore": "865",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "jibril07",
+    "StoreURL": "http://stores.ebay.com/id=712121094"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ0WDEwMDA=/z/zx4AAOSwYlRZMdVv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY3WDEwMDA=/z/YeQAAOSwrhBZMdVo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU4WDEwMDA=/z/Ly8AAOSwblZZMdWQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjE2WDEwMDA=/z/7kIAAOSwjqVZMdWg/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots"
+}

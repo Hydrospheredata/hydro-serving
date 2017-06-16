@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921404997728080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwNlgxNTAw/z/pL4AAOSwSlBY1-Xi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyNlgxNTAw/z/AxMAAOSwWxNY1-Xi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NjU=/z/sLoAAOSwB-1Y1-Xh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA3WDE1MDA=/z/AvgAAOSwWxNY1-Xh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODkxWDE1MDA=/z/-kkAAOSwzgBY1-Xh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1Njg=/z/ddoAAOSwuLZY1-Xh/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/National-Geographic-Womens-Cross-Body-Bag-Shipping-Included-/192140499772",
+  "ConvertedCurrentPrice": {
+    "value": "127.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "National Geographic Women's Cross-Body Bag by National Geographic Ships from UK Supplier Other information: N01106-06 Related Searches: National Geographic Bags, Cross-Body Bag Bags Dimensions: 49.0 x 33.6 x 5.0 centimetres Weight: 0.68 kg",
+  "Title": "National Geographic Women's Cross-Body Bag. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "127.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-26T16:01:30.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P21DT23H40M59S",
+  "EndTime": "2017-06-24T16:01:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "National Geographic"
+      },
+      {
+        "Name": "MPN",
+        "Value": "574023736"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140499772",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:113063134:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

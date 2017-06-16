@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDYxWDYyMw==/z/Ar4AAOSw2gxYucdI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lsIAAOSwSlBYucdM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/hKkAAOSw4CFYucdN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/z0sAAOSwOgdYucdP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/0lwAAOSwTM5YucdQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-KIPLING-LAPTOP-CASE-GORILLA-GIRLZ-MIDGE-PADDED-NETBOOK-CASE-DOCUMENT-SLEEVE-/201840944707",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "You may return an item for exchange if you pay the shipping to and from your destination.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "POWERSELLER FROM EUROPE",
+  "Seller": {
+    "FeedbackScore": "6141",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "milliez"
+  },
+  "PrimaryCategoryID": "169293",
+  "Country": "GR",
+  "ListingType": "FixedPriceItem",
+  "Title": "NWT*KIPLING LAPTOP CASE*GORILLA GIRLZ*MIDGE*PADDED NETBOOK CASE*DOCUMENT SLEEVE",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-03T19:43:14.000Z",
+  "HitCount": "78",
+  "TimeLeft": "P29DT4H33M2S",
+  "EndTime": "2017-07-01T19:43:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "KIPLING"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blacks"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Shade",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5414890694242"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201840944707",
+  "Storefront": {
+    "StoreName": "Milliez Magnificent Auctions",
+    "StoreURL": "http://stores.ebay.com/id=14911804"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2018409447078080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

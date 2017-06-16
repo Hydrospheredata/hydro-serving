@@ -1,0 +1,134 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Southeast Asia",
+    "MX",
+    "BH",
+    "IQ",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "CN",
+    "PK"
+  ],
+  "QuantitySold": "1",
+  "PostalCode": "33434",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This auction is for a real nice Antique Designed Sea Shell Crystal Pocket Watch with Necklace Chain. New, no tags. Beautiful case with 2 crystals on the front. Measures apx. 2\" in diameter. Embossed back case. Full Hunter closing. Push top to open. Comes with apx. 32\" necklace chain. Quartz Movement. Great gift idea! Please message me if you have any questions. View more great items",
+  "StartTime": "2017-05-12T15:37:54.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VfcAAOSw8gVX2ORb/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jRwAAOSwNRdX2OSJ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ocsAAOSwLnBX2OTD/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aWkAAOSw8gVX2OUn/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "HighBidder": {
+    "UserID": "n***d",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "51",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Stainless & Plated Metal",
+          "Bronze"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sweetpeadiscountdeals",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2579",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "35",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525462772218080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-11T15:37:54.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Antique-Style-Bronze-Sea-Shell-Crystal-Pocket-Watch-Necklace-Chain-/152546277221",
+  "Location": "Boca Raton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Ladies Antique Style Bronze Sea Shell Crystal Pocket Watch & Necklace Chain",
+  "Storefront": {
+    "StoreName": "Sweetpea&#39;s Deals",
+    "StoreURL": "http://stores.ebay.com/id=39635712"
+  },
+  "ItemID": "152546277221",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT20H56M13S"
+}

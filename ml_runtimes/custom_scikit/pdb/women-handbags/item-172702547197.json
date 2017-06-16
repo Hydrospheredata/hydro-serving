@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMzM1gxMTA1/z/fZ4AAOSwuxFY2liA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/bKAAAOSwdGFY2ljI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/lnAAAOSwCU1Y2lja/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNTE1/z/U6wAAOSwTM5Y2lju/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTU0WDE0OTQ=/z/8YkAAOSwDKtY2lkF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNTQw/z/Z-wAAOSwmgJY2lkc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVg4MjM=/z/eucAAOSwdGFY2lk5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1MVg4NzI=/z/oTEAAOSwB-1Y2llN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVg1MjA=/z/chMAAOSwol5Y2llv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgwWDg0OQ==/z/uYIAAOSw4CFY2lmF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/k5QAAOSwXYtY2lmZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNTk1/z/dhkAAOSwuLZY2lmt/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Coach-NWT-Leather-Baby-Diaper-Bag-/172702547197",
+  "ConvertedCurrentPrice": {
+    "value": "380.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "*BRAND NEW GORGEOUS LEATHER COACH DIAPER BAG* This beautiful, leather, authentic Coach diaper bag is brand new. It is still in the plastic bag and all of the hardware and zippers are still wrapped from when it was shipped to me from the store. I bought it a few years ago but didn't end up using it so it just stayed wrapped up. The only time it was taken out was for me to take these pictures. This bag isn't a pure white, it is more off-white or ivory color. The interior is navy blue. It comes with a navy blue changing pad as well. There are many different pockets on the inside, and pockets on the sides and a large pocket outside for those items you need to grab quickly. It has a zip top closure so nothing falls out, and it has a detachable longer strap. This is such a gorgeous bag and wished I could keep it, but I would like for it to be used by another Coach brand loving Mom! If you have any other questions about it please feel free to ask. Will ship out within 24 hours after receiving payment via Paypal and will go Priority mail with a tracking number. I'm sorry, but I can't accept returns as it states in my Ebay profile. I make sure to inspect every item before I send it out for any defects. I can't be held responsible for any damage done during and after shipping.",
+  "Title": "Authentic Coach NWT Leather Baby Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "380.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Bangor, Maine",
+  "Seller": {
+    "FeedbackScore": "29",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "lablover23-5"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "04401",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T21:38:08.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P26DT6H17M26S",
+  "EndTime": "2017-06-28T21:38:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Baby Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Off White"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172702547197",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727025471978080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

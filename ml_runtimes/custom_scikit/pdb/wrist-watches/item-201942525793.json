@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2100.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Meguro, Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:23:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2100.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:23:50.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942525793",
+  "HandlingTime": "3",
+  "Description": "It has a Caliber 9F62 Quartz movement with A terrific annual variation of +/- 5 second accuracy. The chic brown crocodile band enhances the simple display of the hours, minutes and seconds. [Specifications] Drive Method: Quartz Caliber No: 9F61 Case Material: Stainless Steel Band: Leather Glass Material: Dual Curved Sapphire Glass Rumi Bright: None Accuracy: Annual Variation +/- 5 second Waterproof: Strengthen Waterproof for Daily Use (Up to 10 barometric pressure) Anti-magnetic protection: Installed Weight: 50g Width: 10.4mm Case (Outer Diameter): 36.5mm Screw Back Accessories: Warranty, Clear box and Instruction brochure 1 year warranty by Time Japan. Ship from Japan by japan Post EMS, and it will take 4-7 days for you to receive it.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Grand-Seiko-Mens-Sbgx009-/201942525793",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019425257938080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H11M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/RYwAAOSwH09ZJVUL/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/CZ4AAOSw-3FZJVUO/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/7xIAAOSwuMZZJVUR/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/vXcAAOSwi7RZJVUV/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9JgAAOSwlMFZJVUX/$_1.GIF?set_id=8800005007"
+  ],
+  "Title": "Grand Seiko Mens Sbgx009",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "time_japan",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We receive returns if items are in the same condition as received and include all documentation, packaging and any other addition originally shipped."
+  }
+}

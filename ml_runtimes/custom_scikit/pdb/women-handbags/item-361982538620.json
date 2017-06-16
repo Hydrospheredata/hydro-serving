@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4NVgxNjAw/z/ZVYAAOSw241YVi1A/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4NlgxNjAw/z/8GAAAOSwnHZYVi0t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3NVgxNjAw/z/VCoAAOSwEzxYVi1f/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAxOVgxNjAw/z/NLwAAOSwux5YO5wE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3OFgxNjAw/z/rJ8AAOSwa~BYRP3H/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDE1/z/xXcAAOSwiDFYO5vt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTg=/z/xfgAAOSw44BYO5wQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTg=/z/pPMAAOSwo4pYO5wX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk4WDE2MDA=/z/hQAAAOSwj85YO53E/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VICTORIAS-SECRET-PINK-WHITE-STRIPED-WEEKENDER-TOTE-BAG-PASSPORT-LUGGAGE-TAG-/361982538620",
+  "ConvertedCurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VICTORIA'S SECRET PINK & WHITE STRIPED WEEKENDER TOTE BAG + PASSPORT & LUGGAGE TAG SETBRAND NEW Bag (11\" x 17\" x 9\" ) is a Beautiful Light-Weight Canvas w/Metallic DetailsLuggage Tag and Passport Set seems to be a coated/protected Canvas Truly Stunning!!!",
+  "Title": "VICTORIA'S SECRET PINK & WHITE STRIPED WEEKENDER TOTE BAG PASSPORT & LUGGAGE TAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Lugoff, South Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1381",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "taheerac"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "29078",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-17T19:08:21.000Z",
+  "HitCount": "55",
+  "TimeLeft": "P14DT2H24M30S",
+  "EndTime": "2017-06-16T19:08:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret PINK"
+      },
+      {
+        "Name": "Style",
+        "Value": "DUFFEL OVERNIGHT BAG"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "CLASSIC PINK AND WHITE STRIPE"
+      },
+      {
+        "Name": "Size",
+        "Value": "11 IN X 17 IN (APPROXIMATELY)"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "361982538620",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3619825386208080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

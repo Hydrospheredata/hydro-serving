@@ -1,0 +1,193 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT5H23M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122532742214",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cubic-Zircon-925-Sterling-Silver-Beautiful-Earring-and-Pendant-Set-DJ106-/122532742214?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T17:20:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T17:20:14.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Green Silver Plated",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ClMAAOSwi7RZI9i~/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~M8AAOSwlMFZI9jH/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTU5OVgxNTk5/z/itEAAOSwxu5ZI9jQ/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6egAAOSw42dZI9jb/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/W0gAAOSw0hlZI9jj/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Orange Silver Plated",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/oBcAAOSwaEhZI9js/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/DZwAAOSwi7RZI9j0/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/YfoAAOSw3gJZI9j-/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JngAAOSwDiBZI9kG/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XW8AAOSw0hlZI9kO/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Blue and White Silver Plated",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/dRMAAOSw~y9ZI9ka/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-QIAAOSwPh5ZI9kj/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/S-QAAOSwuMZZI9kt/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/OgsAAOSwurZZI9k0/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ZbIAAOSwIQdZI9k7/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Green Silver Plated",
+          "Orange Silver Plated",
+          "Blue and White Silver Plated"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green Silver Plated",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Orange Silver Plated",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue and White Silver Plated",
+            "Name": "Color"
+          }
+        },
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Dhorgems",
+        "Name": "Brand"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "26x20-24x18mm",
+        "Name": "Size"
+      },
+      {
+        "Value": "10.60",
+        "Name": "Weight in Gram"
+      }
+    ]
+  },
+  "Title": "Cubic Zircon 925 Sterling Silver Beautiful Earring and Pendant Set#DJ106",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This Listing is for Cubic Zircon 925 Sterling Silver Beautiful Earring and Pendant Set#DJ106",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dhorgems",
+    "FeedbackScore": "243",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "3",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xu8AAOSwX9FZI9io/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Ix4AAOSwDiBZI9i5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Xv8AAOSwIQdZI9i1/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "302003"
+}

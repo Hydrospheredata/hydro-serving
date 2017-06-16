@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT20H37M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122533507061",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ETRO-Womens-Cuff-Bangle-Bracelet-/122533507061",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T06:20:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T06:20:27.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Etro",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Acrylic",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ETRO Womens Cuff Bangle Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "You are bidding on ETRO women's cuff bangle bracelet wide burgundy green. The measurements are as follows: diameter inside - 2 1/2'', width - 1 6/8'' .The bracelet has gently been worn, so it is in good condition except some small scratches ( see close-up photos ). Please, if you have further questions do not hesitate to ask before bidding. Thank you for looking. NOTE: ALL SALES ARE FINAL WITHOUT EXCEPTION. NO RETURN, REFUND OR EXCHANGE. PLEASE READ THE DESCRIPTION, CHECK THE PHOTOS AND IF YOU HAVE FURTHER QUESTIONS DO NOT HESITATE TO ASK BEFORE YOU PLACE YOUR BID. THANK YOU.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225335070618080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "semars2",
+    "FeedbackScore": "3112",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "semars2",
+    "StoreURL": "http://stores.ebay.com/id=581040710"
+  },
+  "Quantity": "1",
+  "Location": "San Francisco, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5M1gxNjAw/z/apMAAOSw4A5YvkmV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDQ5/z/8XsAAOSw4CFYvkmJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxNlgxNjAw/z/86YAAOSwOgdYvkmo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTg4WDE2MDA=/z/6J0AAOSw2gxYvkmu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1sEAAOSwSlBYvkm0/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "94122"
+}

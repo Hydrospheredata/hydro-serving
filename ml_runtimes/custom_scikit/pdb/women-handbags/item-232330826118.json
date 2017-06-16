@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9XAAAOSwdGFYo1EI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IoYAAOSwx6pYo1EE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Yh4AAOSw4CFYo1EM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JEoAAOSwx6pYo1ER/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rIkAAOSwtfhYo1EV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/N5cAAOSwr~lYo0e2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/TLwAAOSwB-1Yo0e4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/q7QAAOSw4A5Yo0e6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/tFkAAOSwx6pYo0e9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0A8AAOSw4CFYo0e~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/1EcAAOSwOgdYo0fC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/TtIAAOSwB-1Yo0fE/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EUC-Black-Burberry-Tonal-Black-Check-Diaper-Bag-/232330826118",
+  "ConvertedCurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Great diaper bag with lots of pockets. It is used but has lots of life left. It can be used as a weekend bag after the kids grow up. The outside pockets aw my favorite for pacifiers and bottles.",
+  "Title": "EUC Black Burberry Tonal Black Check Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Dallas, Texas",
+  "Seller": {
+    "FeedbackScore": "141",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "brianbrian5672"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75214",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T22:50:04.000Z",
+  "HitCount": "124",
+  "TimeLeft": "P7DT7H24M4S",
+  "EndTime": "2017-06-09T22:50:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Burberry"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232330826118",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323308261188080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

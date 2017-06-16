@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "279.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Miami, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:02:18.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "279.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:02:18.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966901539",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "24024",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "500 meters.",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Invicta Jason Taylor 52mm Quartz Z60 Chrono Dial Watch Blue + case",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Invicta-Jason-Taylor-52mm-Quartz-Z60-Chrono-Dial-Watch-Blue-case-/252966901539",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529669015398080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "33186",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H47M46S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uT8AAOSw4A5YoHB6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dqQAAOSwx6pYpgsG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1Nlg4OTc=/z/BGUAAOSwTuJYn~GI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3N1g5MDA=/z/21sAAOSwr~lYn~Gh/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "New Invicta Jason Taylor 52mm Quartz Z60 Chrono Dial Watch Blue plus white dive case. Newest Jason Taylor Limited Edition collection, number xxx/999. Details: Movement: Ronda Z60 Quartz Chronograph Case Measurements: 52mm Thickness: 20mm Bezel: Fixed Crystal: Mineral Crown: Screw down with function pushers Subdials: 3:00 - Perpetual Seconds, 6:00 - 30-minute and 9:00 - Day of the week Strap: Silicone Strap Measurements: 10-1/4\" L x 26mm W Clasp: Buckle Maximum Wrist Size: 9-1/4\" Water Resistance: 50 ATM - 500 meters - 1650 feet Weight: 8 oz Additional Information: Watch comes packaged in an Invicta Jason Taylor white three-slot dive case (59.95value) with instruction manual and warranty information. This timepiece comes with an automatic five-year limited warranty from InvictaWarranty: Sorry No International Buyers.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "227",
+    "UserID": "sorencio2012",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

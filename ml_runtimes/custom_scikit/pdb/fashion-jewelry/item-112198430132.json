@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P1DT10H37M8S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "112198430132",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Natural-Baltic-amber-chain-glasses-Rainbow-glasses-chain-amber-beads-/112198430132?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "103.05",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-11-08T21:44:48.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "true",
+  "Country": "LT",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T21:44:48.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Item",
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Chain for glasses",
+        "PictureURL": "http://i.ebayimg.com/00/s/MTE2OVgxNjAw/z/J38AAOSwu1VW44wn/$_57.JPG?set_id=880000500F"
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "Chain for glasses",
+        "Name": "Item"
+      }
+    },
+    "Variation": {
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "Chain for glasses",
+          "Name": "Item"
+        }
+      },
+      "StartPrice": {
+        "value": "79.99",
+        "_currencyID": "GBP"
+      },
+      "SellingStatus": {
+        "QuantitySoldByPickupInStore": "0",
+        "QuantitySold": "0"
+      },
+      "Quantity": "1"
+    }
+  },
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "As in the picture",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Natural Baltic amber",
+        "Name": "Material"
+      },
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Lithuania",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Cut and polished",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "Natural Baltic amber chain for glasses \u201cRainbow\u201d, glasses chain from amber beads",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Genuine brand new Baltic amber chain for glasses \u201crainbow\u201d All products are hand-made of 100% genuine Baltic amber - an organic substance-fossil resin that was produced under natural conditions at least 40-45 million years ago. Condition: Brand new with tags. Material: Baltic amber, thread, silicon loops, brass fittings. Amber beads size: 3-5 mm. Length: 75 cm or 29.53 inches. Weight:~6 g. Could be sent in gift box or not in gift box packaging (please see prices and pictures). Gift box size: 90 mm x 70 mm x 25 mm., material - carton. Orders will be dispatched next working day by PRIORITY registered mail. Shipping time: \u00a7 5-10 working days to Europe (usually to United Kingdom it takes 5-6 working days). \u00a7 8-20 working days to US. \u00a7 7-25 working days worldwide. Thank you for visiting.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "consilis",
+    "FeedbackScore": "3450",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Consilis UK",
+    "StoreURL": "http://stores.ebay.com/id=1219673158"
+  },
+  "Quantity": "1",
+  "Location": "Vilnius",
+  "HitCount": "105",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE2OVgxNjAw/z/qh4AAOSwxp9W44vx/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM5WDE2MDA=/z/5MYAAOSwZ8ZW44v0/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODgwWDE2MDA=/z/5R8AAOSwZ8ZW44v4/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUyWDE2MDA=/z/5a4AAOSwZ8ZW44v~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE4WDE2MDA=/z/QDkAAOSwYlJW44wB/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

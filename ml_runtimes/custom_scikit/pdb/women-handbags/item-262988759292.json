@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMDkw/z/~BgAAOSwB-1Yyszi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTQ0/z/l~kAAOSwhQhYyszn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/e3AAAOSwTM5Yyszs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mo4AAOSwOgdYyszz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMDMy/z/LTgAAOSwSlBYysz4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYx/z/glYAAOSwCU1Yysz9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QD0AAOSwzgBYys0C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM2N1gxNjAw/z/cwEAAOSwuxFYys0K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OyMAAOSwzgBYyszd/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MPG-Mixer-Black-Eclipse-Gym-Tote-Shopper-Lightweight-Versatile-Different-Looks-/262988759292",
+  "ConvertedCurrentPrice": {
+    "value": "44.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "MPG Mixer Black Eclipse Tote Gym Bag Shopper Lightweight bag that is versatile, with different looks Inside drawstring pocket Can be carried as two bags zipped together at the bottom, to keep items separated, one mesh section, one nylon section.Can also be carried as one bag with the nylon bag on the outside, and the mesh bag on the insideAlso can be unzipped and used separately from one another",
+  "Title": "MPG Mixer Black Eclipse Gym Tote Shopper Lightweight Versatile Different Looks",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "CAD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Gibbons, Alberta",
+  "Seller": {
+    "FeedbackScore": "181",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bluebird_26"
+  },
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "T0A 1N0",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-16T18:02:46.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P13DT1H18M10S",
+  "EndTime": "2017-06-15T18:02:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MPG"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "882931405075"
+      }
+    ]
+  },
+  "Site": "Canada",
+  "ItemID": "262988759292",
+  "Storefront": {
+    "StoreName": "Bluebird Beach",
+    "StoreURL": "http://stores.ebay.com/id=1218432399"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629887592928080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

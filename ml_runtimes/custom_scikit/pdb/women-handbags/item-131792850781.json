@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Men's Accessories:Backpacks, Bags & Briefcases",
+  "TimeLeft": "P17DT6H16M41S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Excellent",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:4250:52357",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1317928507818080_3.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/D04AAOSwc-tY3oM-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ULwAAOSwsW9Y3oNB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/seYAAOSwuLZY3oNF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/EPoAAOSwc-tY3oNI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6OoAAOSwDmBY3oNO/$_12.JPG?set_id=880000500F"
+  ],
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "784.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Prada Black/Red Gold Trim Saffiano Leather Briefcase. Sz. 15\u201dW. 11.5\u201dH. 2.5\u201dD (expandable).",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "784.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "52357",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "lavieconsignmentboutique"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10014",
+  "GlobalShipping": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Prada-Black-Red-Leather-Briefcase-/131792850781",
+  "StartTime": "2016-04-25T21:32:52.000Z",
+  "Title": "Prada Black/Red Leather Briefcase",
+  "SecondaryCategoryIDPath": "11450:169291:169293",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Prada"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red / Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "131792850781",
+  "Storefront": {
+    "StoreName": "La Vie Consignment Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1446499088"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "Quantity": "1",
+  "SecondaryCategoryID": "169293",
+  "EndTime": "2017-06-19T21:32:52.000Z",
+  "Country": "US",
+  "SKU": "6342334-N-B",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

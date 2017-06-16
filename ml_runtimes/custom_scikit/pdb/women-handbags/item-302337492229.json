@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P29DT21H33M52S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Like new",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4NYAAOSwX61ZMU9W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/K-EAAOSwKytZMU9q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ciYAAOSwaEhZMU91/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Perry-Tote-Oceano-/302337492229",
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Beautiful Tory Burch Perry tote in the limited edition color - Oceano with a turquoise blue interior. This bag was lightly used and in like new condition with no visible signs of wear. Please let me know if you have any questions and thanks for your interest!",
+  "Title": "Tory Burch Perry Tote Oceano",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Astoria, New York",
+  "Seller": {
+    "FeedbackScore": "64",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "sairawr"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11106",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:48:02.000Z",
+  "HitCount": "12",
+  "ConditionID": "3000",
+  "EndTime": "2017-07-02T11:48:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Pebble Leather"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337492229",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023374922298080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

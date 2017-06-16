@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT30M16S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.65",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162541235082",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925-Sterling-Silver-Blue-Created-Sapphire-White-Topaz-beautiful-Jewelry-Sets-/162541235082",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.65",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T12:33:19.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "TH",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T12:33:19.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "925 Sterling Silver Blue Created Sapphire White Topaz beautiful Jewelry Sets",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SIZE RING AVAILABLE : SIZE 6 , 7 ,8,9 AND 10 .....PLEASE MESSAGE ME WHICH SIZE YOU WANT.....THANK YOU ^^Item Type:Jewelry SetsFine or Fashion:FashionIncluded Additional Item Description:Bracelet/Necklace/Ring/EarringsModel Number:JS0006Jewelry Sets Type:Bridal Jewelry SetsMaterial:Semi-precious StoneStyle:TrendyOccasion:WeddingShape\\pattern:Water DropGender:WomenMetals Type:925,SterlingMain Stone Color:BlueRing Size:6/7/8/9/10Quality:AAAACountry of Manufacture:ChinaGift:Jewelry BoxBracelets Lenth:7+1 InchBracelets Chain:45+5cm",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625412350828080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "nunamwhan",
+    "FeedbackScore": "80",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "2",
+  "Location": "Ayutthaya",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6rsAAOSwdGFY2eTa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/utYAAOSw4A5Y2eTd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/f3kAAOSwc-tY2eTd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qnAAAOSwCU1Y2eTg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/EQcAAOSwTM5Y2eTg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/73oAAOSwmgJY2eTi/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

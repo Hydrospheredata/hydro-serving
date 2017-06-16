@@ -1,0 +1,73 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Horse Watches for men, Horse watch, Wrist Watches, Gifts for Horse Lovers, Best Friend Gift Ideas, wrist watches men, women watches, watchWrist WatchMaterial Type window of the dial: GlassDial Material Type: Stainless steelWater Resistance Depth: No-waterproofClockwork: QuartzBand Width: From 20 to 29 mmDial Diameter: 3.8 cmBelt width: 2cmBand Length: 23cm All items will be carefully packaged for shipping.Shipping:The usual period of delivery is 7-10 days to European countries (except Germany and Italy, delivery time to these countries can take 2-3 weeks, up to 1 month), 14 -25 days to the USA, Canada and the rest of the world - 15-21 days, Mexico - up to 2 months. ** IMPORTANT **Please keep in mind that this shipping terms are just estimations and might be sometimes even shorter or longer. As always, I welcome questions. If you need additional information, please email me. I will respond as quickly a possible.Thank you for looking",
+  "StartTime": "2017-05-28T17:15:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMzOFgxNjAw/z/B9oAAOSwA3dYFJY7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwM1gxNjAw/z/goYAAOSwx2dYFJYg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI0MFgxNjAw/z/8z8AAOSwMVdYFJYt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExMlgxNjAw/z/KgEAAOSwXeJYFJZA/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "natalii6",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225339253238080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-27T17:15:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Zhitomir, default",
+  "Title": "Horse Watches for men, Horse watch, Wrist Watches,wrist watches men,women watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Horse-Watches-men-Horse-watch-Wrist-Watches-wrist-watches-men-women-watch-/322533925323",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322533925323",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT22H41M4S"
+}

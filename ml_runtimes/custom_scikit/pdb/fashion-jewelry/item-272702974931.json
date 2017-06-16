@@ -1,0 +1,141 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT21H33M37S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "A brand-new, unused, and unworn item",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272702974931",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:58:13.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/W-Swarovski-Crystal-Dove-Peace-Symbol-Bird-Friend-Pendant-Necklace-Charm-Gift-/272702974931",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T09:58:13.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Pendant",
+        "Name": "Style"
+      },
+      {
+        "Value": "Signs & Symbols",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "W Swarovski Crystal Dove of Peace Symbol Bird Friend Pendant Necklace Charm Gift",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "BG",
+    "CZ",
+    "PL",
+    "SK",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "SG",
+    "TH",
+    "VN",
+    "MX"
+  ],
+  "Location": "Arlington Heights, Illinois",
+  "Description": "W Swarovski Crystal Dove of Peace Symbol Bird Friend Pendant Necklace Charm Gift Dimension: 1\" x 1\" inch - (27 x 27 mm) With silver plated 16 inch / 41 cm chain lobster clasp Condition: A brand-new, unused, and unworn item Jewelry box included, ready for gift giving! Perfect Birthday, Christmas, Valentines day and anniversary gift for your loved ones, or a gift for yourself!. This elegant high quality necklace is awesome for any occasion or everyday wear and also great value for money. A high polish finish completes this great look. This necklace will make a wonderful gift for your loved ones, or a gift for yourself! Please drop us a message if you have any inquiry. We will try our best to help you out! Your Best Value For Beautiful High Quality Jewelry! SHIPPING DOMESTIC - FREE INTERNATIONAL $7.95 first item and $1.95 for each additional Items are measured entirely include the bail, earrings include the hooks, the bracelets and necklaces to its last link. Positive feedback is greatly appreciated. If you are unhappy for any reason please do not leave negative or neutral feedback and allow us the opportunity resolve all issues. We are very fair and easy to deal with. The crystals of this finished product are being manufactured by D. Swarovski & Co. \u201cSwarovski\u201d is registered trademark of Swarovski AG, but there is no relationship between any Swarovski company and the manufacturer of this product. PAYMENT Payment should be made within seven days since the winning of the first item. RETURNS If you are not 100% happy with the item you received, you can return it in original packaging and condition within 30 days of receiving your package.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2727029749318080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellatrixjewelry",
+    "FeedbackScore": "4530",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "BELLATRIX JEWELRY",
+    "StoreURL": "http://stores.ebay.com/id=224470813"
+  },
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTYzWDU3MA==/z/kAIAAOSw-itXuKBV/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "PostalCode": "60004"
+}

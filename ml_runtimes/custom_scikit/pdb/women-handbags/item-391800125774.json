@@ -1,0 +1,249 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/3akAAOSw5cRZLjbJ/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/svcAAOSwi7RZLjbM/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/hHcAAOSwn-tZLjbQ/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/C6kAAOSwrhBZLjbU/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vqwAAOSwY3BZLjbZ/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/7ZgAAOSwYlRZLjbc/$_10.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Genuine-Leather-Patchwork-Handbags-Crossbody-Bag-Shoulder-Bags-Bolsa-Feminina-/391800125774?var=",
+  "ConvertedCurrentPrice": {
+    "value": "52.79",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "Genuine Leather Patchwork Handbags Crossbody Bag Shoulder Bags Bolsa Feminina",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "PH",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "TR",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "EE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SI",
+    "SJ",
+    "VA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.79",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Zhengzhou",
+  "Seller": {
+    "FeedbackScore": "2132",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jayghoulwu"
+  },
+  "PrimaryCategoryID": "163570",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "450000",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/GV0AAOSwcgNZLjbf/$_10.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vyAAAOSwY3BZLjbk/$_10.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/UFoAAOSwIQdZLjbn/$_10.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/xLoAAOSwhvFZLjb0/$_10.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/7qAAAOSwYlRZLjb3/$_10.JPG?set_id=880000500F"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "52.79",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "52.79",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Grey"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Brown",
+          "Grey"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-05-31T03:22:33.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P27DT11H30M39S",
+  "EndTime": "2017-06-30T03:22:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Unbranded"
+      },
+      {
+        "Name": "Type",
+        "Value": "Strap/Handle"
+      },
+      {
+        "Name": "Style",
+        "Value": "Summer/Beach Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391800125774",
+  "Storefront": {
+    "StoreName": "jayghoulwu",
+    "StoreURL": "http://stores.ebay.com/id=1159482829"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CN",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

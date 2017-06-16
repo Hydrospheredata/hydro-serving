@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DDUAAOSwi7RZDPd3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2CIAAOSwuMZZDPd7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/48kAAOSwhvFZDPd~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sswAAOSwfRdZDPeC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0jAAAOSwq1JZDPeF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjAwWDYwMA==/z/b~4AAOSwhvFZCU10/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3vUAAOSwcgNZDPeJ/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Coach-Celeste-Convertible-Hobo-Signature-Canvas-F58327-Light-Khaki-Chalk-/182603250571",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Coach F58327 Celeste Convertible in Outline Signature gold/light khaki/chalk 100%Authentic Signature jacquard Inside zip pocket/ cell phone pocket Handles with 10 1/4\" drop Longer strap with 22\" drop for shoulder or crossbody wear 12\"(L) 9\"(H) 4\"(W) MSRP:$375",
+  "Title": "NWT Coach Celeste Convertible Hobo In Signature Canvas F58327 Light Khaki/Chalk",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Orlando, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "211",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "martina_style"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32836",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:24:09.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT23H17M10S",
+  "EndTime": "2017-07-02T13:24:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Light Khaki"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12\""
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "6.5"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4\""
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182603250571",
+  "Storefront": {
+    "StoreName": "martina style19",
+    "StoreURL": "http://stores.ebay.com/id=143181693"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826032505718080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

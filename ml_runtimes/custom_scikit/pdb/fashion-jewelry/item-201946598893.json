@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "201946598893",
+  "TimeLeft": "P6DT17H28S",
+  "ListingStatus": "Active",
+  "Title": "KENNETH LANE Gold Plated Woven Mesh Braid Magnetic Closure Wide Bracelet",
+  "ConditionDescription": "VERY GOOD CONDITION from a SMOKE-FREE home! See photos.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T02:58:18.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T02:58:18.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Magnetic",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "7.5",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-Gold-Plated-Woven-Mesh-Braid-Magnetic-Closure-Wide-Bracelet-/201946598893",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Beaverton, Oregon",
+  "Description": "Check out this beautiful KENNETH LANE Woven Mesh Statement Bracelet! 22K Gold Plated. Gorgeous statement piece that wears comfortably. VERY GOOD CONDITION from a SMOKE-FREE home! See photos.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019465988938080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "anistu52oh",
+    "FeedbackScore": "14341",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "RockItResell",
+    "StoreURL": "http://stores.ebay.com/id=15704774"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxNDYx/z/MjwAAOSw5cNYgVTY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExOVgxNjAw/z/kXUAAOSwt5hYgVTb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQw/z/eqQAAOSwImRYgVTe/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "PostalCode": "97006"
+}

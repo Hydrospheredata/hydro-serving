@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P19DT22H18M9S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "This is a very Large Used Lot With Many Very nice pieces of jewelry with Hearts",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "252959114174",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-26T13:01:50.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Large-Jewelry-Lot-200-Heart-and-More-Different-Styles-Shapes-Wear-Crafts-/252959114174",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T13:01:50.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mixed",
+        "Name": "Color"
+      },
+      {
+        "Value": "Mixed",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed",
+        "Name": "Material"
+      },
+      {
+        "Value": "Jewelry Lot with hearts",
+        "Name": "Type"
+      }
+    ]
+  },
+  "Title": "Large Jewelry Lot 200 Heart and More- Different Styles-Shapes To Wear,Crafts",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Port Angeles, Washington",
+  "Description": "This is a very Nice 200 Pieces of jewelry that all have a Heart shape of some form on them. I have given many photos of all to show you how wonderful they are for Gifts to wear and enjoy or use for crafts.This is a used lot which does have a few that May be in need of fixing a clasp put on a chain or Replacing a Stone. I have counted all of the earring pairs as one and all of the pendent's with chains as one. There are a couple of single earrings also that may not have backs and would be wonderful for crafts. There are to many to list and I have given a few photos up close which shows them a coupled of times but there is only one of each. I am not a jeweler or a Gemologist so this lot has not been tested as I do not have that training and you are getting what I have collected and resell for added income.I will not accept a return or a Partial return on this lot but you will get exactly what is in the photos. Thank you for looking",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529591141748080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "foundcollections",
+    "FeedbackScore": "518",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5ugAAOSwfRdZE8YG/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6nEAAOSwZ4dZE8Yb/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qFgAAOSwcB5ZE8Yc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eqgAAOSwY3BZE8Yc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cw4AAOSw-K9ZE8Yb/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gAAAAOSwblZZE8Yc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BwMAAOSwX61ZE8Yd/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EIgAAOSwq1JZE8Yc/$_32.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "98363"
+}

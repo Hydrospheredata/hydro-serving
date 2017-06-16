@@ -1,0 +1,185 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.95"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oK0AAOSwOgdYnJ2P/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8iQAAOSwTuJYnJ2l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5hwAAOSwx6pYnJ24/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J9QAAOSwax5YnJ3N/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Storefront": {
+    "StoreName": "Lewisburg Diamond and Gold",
+    "StoreURL": "http://stores.ebay.com/id=182869238"
+  },
+  "Country": "US",
+  "Seller": {
+    "UserID": "lewisburggold",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3041",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "StartTime": "2017-02-23T18:55:38.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "Watch is working well.",
+  "Title": "Vintage Etienne Aigner Quartz Watch - 4853",
+  "Quantity": "1",
+  "ItemID": "361912024313",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Etienne-Aigner-Quartz-Watch-4853-/361912024313",
+  "QuantitySold": "0",
+  "PostalCode": "24901",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This auction is for a etienne aigner quartz wristwatch. Watch is working. Face measures 15mm. Case measures 20mm. If you have any questions please feel free to ask. Thanks for looking and have a good day.",
+  "HitCount": "291",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "4853",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Etienne Aigner",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Gold Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "Gold Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "19mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "4mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "na",
+        "Name": "Model"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "0",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Et46216",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "no",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619120243138080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-23T18:55:38.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Lewisburg, West Virginia",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.95"
+  },
+  "TimeLeft": "P22DT22H25M19S"
+}

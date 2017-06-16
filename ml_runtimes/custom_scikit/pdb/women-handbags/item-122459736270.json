@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI1N1gxMTcw/z/J9cAAOSwzgBY2~yS/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDA1/z/gyQAAOSwB-1Y2~yU/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDA1/z/aRUAAOSwhQhY2~yR/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDA1/z/NtcAAOSwax5Y2~yS/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/GAcAAOSww3tY5EC9/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/GGgAAOSww3tY5EDA/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/hE0AAOSwc-tY5EC~/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/4YkAAOSw3utY5EC9/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/Dk8AAOSwpkFY5EC-/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/taEAAOSw03lY5EDA/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/FVkAAOSwB-1Y5EC~/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/DscAAOSwpkFY5EDB/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Marc-Marc-Jacobs-Pretty-Nylon-Eliza-Diaper-Baby-Tote-Black-298-/122459736270",
+  "ConvertedCurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Bring up baby in style with this MARC BY MARC JACOBS diaper bag, packed with practical pockets and on-the-go accessories. -Double shoulder straps. Detachable, adjustable long strap -Top zip closure. Exterior front, side and back patch pockets with concealed magnetic closure. Four interior slip and one zip pocket -Contains diaper changing pad -Logo lining -20\"W x 14\"H x 6 1/2\"D. 6 1/2\" handle drop. 23\" strap drop -Nylon; lining: fabric -Imported",
+  "Title": "NWT Marc By Marc Jacobs Pretty Nylon Eliza Diaper Baby Tote Black $298",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Columbia, Missouri",
+  "Seller": {
+    "FeedbackScore": "29",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "dthet_ucimbfo"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "65203",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-22T19:58:38.000Z",
+  "HitCount": "54",
+  "TimeLeft": "P19DT4H30M20S",
+  "EndTime": "2017-06-21T19:58:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122459736270",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224597362708080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

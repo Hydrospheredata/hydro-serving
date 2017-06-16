@@ -1,0 +1,90 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "11714",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Majestron Gold Tone Pocket Watch with Sailship Engraved on Front. In Case, Never used. Swiss Quartz Movement. Will need New Battery.",
+  "StartTime": "2017-05-27T17:23:09.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFg4NDc=/z/B34AAOSw241Yawp-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg4MDI=/z/tlQAAOSwnHZYawqB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDA1/z/W1UAAOSwjDZYawqC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDU4/z/W4oAAOSwjDZYawqF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTI3/z/vlkAAOSwEzxYawqI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/iV0AAOSwnHZYa7kL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/A14AAOSw9GhYa7kO/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "1 1/2 ' Dia",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Majestron",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sweetlady76",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "30",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525631593678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T17:23:09.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Majestron-Sail-Ship-Pocket-Watch-Case-Gold-Tone-Swiss-Quartz-Movement-/152563159367",
+  "Location": "Bethpage, New York",
+  "Title": "Majestron Sail Ship Pocket Watch in Case Gold Tone Swiss Quartz Movement",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152563159367",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT22H47M56S"
+}

@@ -1,0 +1,172 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "11220",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Size adjustable",
+  "StartTime": "2017-05-03T15:25:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTI1WDY2NQ==/z/JpIAAOSwRjNXN3uS/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "beautyshare",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "439",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "HitCount": "31",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T15:25:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "FULLMETAL ALCHEMIST-1",
+          "FULLMETAL ALCHEMIST-2",
+          "Naruto",
+          "Death Note"
+        ],
+        "Name": "Anime"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Anime",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "FULLMETAL ALCHEMIST-1",
+          "PictureURL": "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/1g0AAOSwubRXN3va/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "FULLMETAL ALCHEMIST-2",
+          "PictureURL": "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/j2wAAOSwr0ZXN3vj/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Naruto",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/ybgAAOSw7W5XN3vv/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Death Note",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/hQUAAOSwxfNXN3v5/$_1.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "FULLMETAL ALCHEMIST-1",
+            "Name": "Anime"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "FULLMETAL ALCHEMIST-2",
+            "Name": "Anime"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Naruto",
+            "Name": "Anime"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Death Note",
+            "Name": "Anime"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "Brooklyn, New York",
+  "Title": "Anime Naruto / FULLMETAL ALCHEMIST / Death note watch ring",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anime-Naruto-FULLMETAL-ALCHEMIST-Death-note-watch-ring-/222497982298?var=",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222497982298",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT20H40M41S"
+}

@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "Title": "SHANNONS POLINI MEN'S POCKET WATCH (DAD)",
+  "PostalCode": "87120",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is a Shannons Polini Men's Pocket Watch (DAD). Item is in very good condition. Has light wear on the item and box.",
+  "StartTime": "2017-05-11T20:18:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTU2WDEwNjY=/z/0j8AAOSwTM5Y6TK~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU2WDgzNQ==/z/A4EAAOSwB-1Y6TLS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/l4cAAOSw3utY6TKl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU2WDExMDQ=/z/1uwAAOSwmgJY6TTX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU2WDEyOTM=/z/QrYAAOSwpP9Y6TLo/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Polini (Shannons)",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bobbyamy8-5",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "26",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "24",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529332053478080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-10T20:18:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SHANNONS-POLINI-MENS-POCKET-WATCH-DAD-/252933205347",
+  "ConditionDescription": "Great Condition",
+  "Location": "Albuquerque, New Mexico",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252933205347",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT1H35M43S"
+}

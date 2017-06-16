@@ -1,0 +1,84 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "92841",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "A cool pocket watch that is in good condition and working well with just minor signs of use. Thanks for looking.",
+  "StartTime": "2017-05-05T17:38:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMyNFgxNTc0/z/MBwAAOSwB-1YunXZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5MVgxNDAw/z/47gAAOSwXYtYunXg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwMFgxNjAw/z/FwsAAOSwOgdYunXQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1MVgxNjAw/z/eEoAAOSw4CFYunXU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2MFgxNDcz/z/7OUAAOSwSlBYunXk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NzI=/z/pLkAAOSwTM5YunXn/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Caifu",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jgolfandjskate",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2105",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921074895828080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-04T17:38:50.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Style-Pendant-Wind-Up-Pocket-Watch-Caifu-Skeleton-Mechanical-Chain-/292107489582",
+  "Location": "Garden Grove, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro Style Pendant Wind Up Pocket Watch Caifu Skeleton Mechanical With Chain",
+  "Storefront": {
+    "StoreName": "jgolfandjskate",
+    "StoreURL": "http://stores.ebay.com/id=222103549"
+  },
+  "ItemID": "292107489582",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H54M39S"
+}

@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzgzWDU4Nw==/z/eBgAAOSw-kdXy1MT/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzgzWDU4Nw==/z/GMIAAOSwGtRXy1Mc/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzgzWDU4Nw==/z/eVAAAOSw-kdXy1Ml/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzgzWDU4Nw==/z/Gd8AAOSwGtRXy1Mt/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzgzWDEwNDU=/z/tgsAAOSw9IpXy1M4/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Marc-Marc-Jacobs-Typewriter-Ultimate-backpack-Aquamarine-multi-/272698034213",
+  "ConvertedCurrentPrice": {
+    "value": "228.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "*100% Authentic *Style: M0005186 *Color:Aquamarine multi *Allover logo pattern in typewriter font Two exterior zip pockets, patch logo on front *Main compartment has laptop pocket",
+  "Title": "NWT! Marc by Marc Jacobs Typewriter Ultimate backpack, Aquamarine multi",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "228.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "FeedbackScore": "273",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "otegoro"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60605",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T04:45:34.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT14H12M26S",
+  "EndTime": "2017-07-02T04:45:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Aquamarine multi"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272698034213",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726980342138080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/J04AAOSwJH1ZI6ES/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/n5wAAOSww9xZI6EV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dbgAAOSwaeRZI6EM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/g34AAOSwYvFZI6EQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6FkAAOSwjL5ZI6EX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zUAAAOSw8HBZI6EZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mHQAAOSwhvFZI6Ec/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5LsAAOSwblZZI6Ee/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Black-Kate-Spade-Purse-And-Wallet-/142402305947",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Black Kate Spade Purse with 2 large zippered compartments and buckle middle closure interior has signs of wear that can be cleaned. Wallet has buckle closure and several card slots.",
+  "Title": "Black Kate Spade Purse And Wallet",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Santa Monica, California",
+  "Seller": {
+    "FeedbackScore": "512",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "msl.1017"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "90404",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:43:17.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT22H32M53S",
+  "EndTime": "2017-06-07T12:43:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Closure",
+        "Value": [
+          "Zip",
+          "Magnetic Snap"
+        ]
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Style",
+        "Value": "Doctor"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142402305947",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424023059478080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

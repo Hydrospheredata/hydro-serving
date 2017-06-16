@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/i8IAAOxypNtShYg~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rWQAAOxyzi9ShYhO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tZkAAMXQfvlShYhb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NYMAAOxygj5ShYhm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nroAAOxy3NBShYhw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~WcAAOxyXDhShYiH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oWUAAOxy3NBShYiU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H5MAAOxyRNJShYig/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Q4UAAOxy4t1ShYis/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cy4AAOxyTjNShYgg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ov0AAOxy4t1ShYgy/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Genuine-Ladies-Alligator-Handbag-Mini-Briefcase-EXCELLENT-condition-/282464869440",
+  "ConvertedCurrentPrice": {
+    "value": "599.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "AUTHENTICITY: All of my items are guaranteed to be AUTHENTIC! If you buy one of my pieces and the store of the designer gives you written documentation that states it is NOT AUTHENTIC, I will give you a 100% REFUND! ITEM YOU ARE BIDDING ON: This is an authentic, ladies size GENUINE alligator briefcase. Since it is slim in width, you could also use for a handbag due to the smaller size. This bag says....\"You have arrived!\" ;) In great condition and a vintage piece. Rarely used. The size is 14\" x 11\" x 3\" expanded. CONDITION: Vintage but Great condition. The leather is shiny and the glow of the leather is the natural radiance of the alligator skin. The edges are in great shape as well. Thank you for viewing my auction and have a Blessed Day! eBay Global Shipping: If you are an international buyer outside of United States, please contact me prior to purchasing. I will give you the proper weight and box dimensions on this item so you will not overpay on global shipping.",
+  "Title": "Genuine Ladies Alligator Handbag Or Mini Briefcase - EXCELLENT condition",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "599.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Marietta, Georgia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2655",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "techgoddess2000"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30067",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T02:50:28.000Z",
+  "HitCount": "20",
+  "TimeLeft": "P3DT11H44M35S",
+  "EndTime": "2017-06-06T02:50:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Brand",
+        "Value": "unknown"
+      },
+      {
+        "Name": "Style",
+        "Value": "Attache Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Crocodile/Alligator"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282464869440",
+  "Storefront": {
+    "StoreName": "techgoddess2000",
+    "StoreURL": "http://stores.ebay.com/id=109181028"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824648694408080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

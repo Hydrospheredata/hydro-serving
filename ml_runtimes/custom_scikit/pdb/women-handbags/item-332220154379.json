@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/M~wAAOSwH09ZF9wG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/mNQAAOSww5hZF9wa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/S9EAAOSwZKBZF9wu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ZeoAAOSwAPVZF9xG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Id8AAOSwlY1ZF9xZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/TS4AAOSwZKBZF9xt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/dnQAAOSwrhBZF9x-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/3E0AAOSwK6RZF9yO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/SmwAAOSwKytZF9yr/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sakroots-Crossbody-shoulder-bag-OPTIC-SONGBIRD-MATCHING-WALLET-NWT-/332220154379",
+  "ConvertedCurrentPrice": {
+    "value": "92.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "SAKROOTS ARTIST CIRCLE OPTIC SONGBIRD PATTERNCROSSBODY/MESSENGER THAT COMES WITH A MATCHINGWALLET!!!! The Crossbody is canvas and the wallet is coated canvas and it zips around. Exterior front has a large snap pouch. Exterior rear has a zippered compartmentTop zip close. Interior has a large zippered compartment and two large slip pockets. I have several other pieces that match this pattern if you want to check themout in my store.Thanks for looking!",
+  "Title": "Sakroots Crossbody shoulder bag OPTIC SONGBIRD WITH A MATCHING WALLET  NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "92.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Lakeland, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "749",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "mlun2354"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33803",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-14T04:36:00.000Z",
+  "HitCount": "45",
+  "TimeLeft": "P10DT11H50M5S",
+  "EndTime": "2017-06-13T04:36:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Sakroots"
+      },
+      {
+        "Name": "Material",
+        "Value": "Coated canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Crossbody with matching wallet"
+      },
+      {
+        "Name": "UPC",
+        "Value": "300383748347"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332220154379",
+  "PrimaryCategoryID": "169296",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "mlun2354",
+    "StoreURL": "http://stores.ebay.com/id=1085193863"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Must have all tags in order to return.  Cannot do a refund without tags.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322201543798080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

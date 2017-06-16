@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT15H47M3S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "182.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162359807405",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Glass-Code-Glasses-Chain-Braid-Silk-Heart-Note-Eyeglasses-Strap-pu-gh-41y-/162359807405",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "182.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-01-16T02:53:41.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T02:53:41.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tamarusan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper and Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "pu-gh-41y",
+        "Name": "Product number"
+      }
+    ]
+  },
+  "Title": "Glass Code Glasses Chain Braid Silk Heart Note Eyeglasses Strap pu-gh-41y",
+  "ExcludeShipToLocation": "JP",
+  "BidCount": "0",
+  "Description": "This glass code using the resin parts from the \"note\" series. It was a combination of braid and heart-shaped resin of silk. Stone brown is smoky quartz. It is wearing easy to lightly. This is unique stylish recommended glasses. The metal parts are the nickel-free, it is recommended for those allergic to metal. Imported The main parts:epoxy resin, metal: 24k gold plating copper and brass, silk length and width 1.5cm length 70cm nickel free Handmade. Made in Japan. Because it is cut into random part of the picture, it will be a shade different point by point. The actual pictures may differ slightly from the photo shown. The jewel stone parts are made with acrylic resin. International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1623598074058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tamarusan",
+    "FeedbackScore": "7",
+    "FeedbackRatingStar": "None"
+  },
+  "Storefront": {
+    "StoreName": "tamarusan",
+    "StoreURL": "http://stores.ebay.com/id=1206526448"
+  },
+  "Quantity": "1",
+  "Location": "Tokyo",
+  "HitCount": "45",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/I0oAAOSwt5hYfDVN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/INQAAOSw5cNYfDVS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/IYYAAOSw5cNYfDVb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/vgcAAOSw4DJYfDVl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/9eAAAOSwNnRYfDVt/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

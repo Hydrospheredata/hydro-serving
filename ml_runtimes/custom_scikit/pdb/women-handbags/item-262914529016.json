@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzgw/z/hc0AAOSwXYtY20SH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc0/z/H4MAAOSwTM5Y20SH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg0OTE=/z/tugAAOSwax5Y20SH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTcxWDE1MDA=/z/I8EAAOSwsW9Y20SH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1MDY=/z/lPYAAOSw4CFY20SH/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Luggage-Womens-Hanging-Organizer-Espresso-Luggage-Accessory-/262914529016",
+  "ConvertedCurrentPrice": {
+    "value": "87.96",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Dual top carrying handles. Fold-up with tie closure. Interior lining with two clear zip cosmetic compartments and two fabric zip compartments.Vera Bradley Luggage Women's Hanging Organizer Espresso Luggage Accessory",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "87.96",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14088",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "easybuying2005"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Luggage Women's Hanging Organizer Espresso Luggage Accessory",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-29T05:22:11.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P24DT11H27M44S",
+  "EndTime": "2017-06-27T05:22:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003308332"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003308332"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "12446085"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Accessory"
+      },
+      {
+        "Name": "Color",
+        "Value": "Espresso"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.2 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 14.1 x W 12.2 x H 3.5 inches"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262914529016",
+  "Storefront": {
+    "StoreName": "easybuying2005",
+    "StoreURL": "http://stores.ebay.com/id=1186614849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629145290168080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

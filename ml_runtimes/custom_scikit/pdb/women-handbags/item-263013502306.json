@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630135023068080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ukIAAOSw42dZBkxG/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-POTTERY-BARN-Mona-Ikat-Teal-Canvas-Tote-Weekend-Shopping-Handbag-/263013502306",
+  "ConvertedCurrentPrice": {
+    "value": "52.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Sturdy and stylish, Pottery Barn totes are a versatile essential for the beach, shopping, weekend getaways or longer trips. An interior pocket holds your smaller items where they\u2019re easy to reach. ** NOT Personalized - show for detail only**23\" wide x 8\" deep x 16\" highMade of cotton canvas.Imported.DETAILSOverall: 23\" wide x 8\" deep x 16\" highInterior: 22.75\" wide x 7.75\" deep x 15.75\" highInner Pocket: 9\" wide x 6\" highCARESpot clean only with a damp white cloth.Blot to remove excess water.Air dry.",
+  "Title": "New POTTERY BARN Mona Ikat Teal Canvas Tote Weekend Shopping Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Allendale, New Jersey",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1012",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "md_marketplace"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07401",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T20:40:35.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT3H5M37S",
+  "EndTime": "2017-06-30T20:40:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Pottery Barn Mona"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "Teal blue, gold and white"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "16\""
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013502306",
+  "PrimaryCategoryID": "42526",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "md_marketplace2015",
+    "StoreURL": "http://stores.ebay.com/id=1145645695"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "23.19",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921414585348080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2OVgxNTAw/z/d~8AAOSwCU1Y2VAs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2OFgxNTAw/z/fGQAAOSwzgBY2VAr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDI4/z/3eEAAOSwdGFY2VAr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ3WDE1MDA=/z/GScAAOSwhQhY2VAr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA2WDE1MDA=/z/EMMAAOSw4A5Y2VAr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2OTM=/z/~EYAAOSwDKtY2VAr/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Shoulder-Bag-Brand-New-/192141458534",
+  "ConvertedCurrentPrice": {
+    "value": "226.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Women's Shoulder Bag by leplas Ships from UK Supplier Other information: LP078/01 Related Searches: Leplas Backpack Handbag, Backpack Handbag Bags, Leplas Bags Dimensions: 30.0 x 30.0 x 10.0 centimetres Weight: 1.3 kg",
+  "Title": "Women's Shoulder Bag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "226.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-27T17:47:21.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P23DT1H27M25S",
+  "EndTime": "2017-06-25T17:47:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "leplas"
+      },
+      {
+        "Name": "MPN",
+        "Value": "697764699"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141458534",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:106010301:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

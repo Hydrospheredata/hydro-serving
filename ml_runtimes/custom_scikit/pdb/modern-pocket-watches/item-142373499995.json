@@ -1,0 +1,86 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "30084",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Masonic Pocket Watch Outside of watch features gold masonic symbols on a mirror high polish chrome finish. Inside watch face has blue/gold masonic artwork. Battery powered. Silver watch chain and fob attached. Comes in hard shell gift box with masonic artwork on inside of lid. Instruction sheet included. It Also Makes A Great Gift California Residents 9% Sales Tax will be charged at checkout. No Sales Tax will be charged on shipping costs if any. Shipping We ship to the lower 48 states, excluding Hawaii and Alaska. No International Shipping. Also we do not ship to P.O. Boxes or APO's. These items are shipped from our warehouse - Allow for 24-48 hours to ship. Once item has shipped you will be provided with a tracking number. Shipping may vary UPS, USPS. Items in Stock We strive to keep items in stock, but on rare occasions an item may sell out. Typically that item is back in stock within 1-4 days. At such time you will receive a notice from us and you may elect to have shipped once item is back in stock or an immediate refund. Returns Merchandise must be returned within 14 days of receipt of your shipment and in the same condition it was shipped. In order to return an item you must contact us for a return authorization to ensure that your item is exchanged or refunded in a timely manner. Once we have received your request you will be emailed with instructions for a proper return. If you are returning a item for anything other than a shipping error or defect, than buyer will be responsible for return shipping costs. Feedback We strive to give our customers the best shopping experience and customer service. We take great pride in keeping our rating at 100% feedback and will the go extra mile for our customers. We do everything possible to ensure a pleasant and speedy deliver of your merchandise. Should there be a case where there is an issue please contact us first before leaving us a negative feedback and we shall immediately rectify the situation. We value you as a customer. Thank You For Looking DC112",
+  "StartTime": "2017-05-05T17:54:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzk1WDc0OA==/z/ZbQAAMXQVERSwhh~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjMxWDc0OA==/z/YjYAAOxygPtSwhh7/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Chrome",
+      "Name": "Case Material"
+    }
+  },
+  "Seller": {
+    "UserID": "rustic-dragon-multimedia",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "422",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423734999958080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:54:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Masonic-Pocket-Watch-High-Polished-Mirror-Chrome-Face-Blue-Gold-Masonic-Artwork-/142373499995",
+  "Location": "Tucker, Georgia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Masonic Pocket Watch  High Polished Mirror Chrome Face Blue Gold Masonic Artwork",
+  "Storefront": {
+    "StoreName": "rustic-dragon-multimedia",
+    "StoreURL": "http://stores.ebay.com/id=1054500826"
+  },
+  "ItemID": "142373499995",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT23H10M1S"
+}

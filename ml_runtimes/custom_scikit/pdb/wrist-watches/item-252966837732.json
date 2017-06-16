@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "\u6df1\u5733",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:55:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:55:09.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Daniel Wellington",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "0901DW",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Platinum",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Nylon",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Black",
+          "Multi-Color"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Teen",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966837732",
+  "HandlingTime": "3",
+  "Description": "Brand, Seller, or Collection NameDaniel WellingtonModel number0962DWPart NumberDW00100081Model Year2015Item ShapeRoundDial window material type\ufeffMineralDisplay TypeAnalogClaspBuckleMetal stampStainless steelCase materialStainless steelCase diameter34 millimetersCase Thickness6 millimetersBand MaterialNylonBand lengthWomen's StandardBand width18 millimetersBand ColormultiDial colorWhiteBezel materialStainless steelBezel function\ufeffStationarySpecial featuresWomen's StandaredItem weight2.40 OuncesMovement\ufeffQuartzWater resistant depth99 Feet",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Daniel-Wellington-Womens-Watch-0962DW-Quartz-Watch-Nylon-Band-/252966837732",
+  "ConditionDescription": "99% NEW, same as brand new with gift retail package",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529668377328080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H37M4S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2N1g4MDA=/z/WwsAAOSwcaFZEpaY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/kOcAAOSwKytZEpaN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAyWDgwMA==/z/7pEAAOSwlY1ZEpaS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMzM1gxMDAw/z/GpAAAOSw~y9ZCvuM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMzM1gxMDAw/z/zcIAAOSwCQZZCvue/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMxM1g3NTA=/z/wCAAAOSw1WJZEpaV/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Original Daniel Wellington Women's Watch 0962DW Quartz Watch Nylon Band",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "27",
+    "UserID": "wymihuan_0",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

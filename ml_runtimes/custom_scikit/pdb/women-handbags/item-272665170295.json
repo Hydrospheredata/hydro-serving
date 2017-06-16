@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qYwAAOSwGJlZEm3t/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eRQAAOSw42dZEm32/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/v~kAAOSwn-tZEm4D/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k~gAAOSwDiBZEm4P/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TkoAAOSwK6RZEm4W/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQxNlgxNDE2/z/yAQAAOSwYvFZEm4e/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Jacobs-Pretty-Nylon-Eliz-A-Baby-Diaper-Bag-Black-/272665170295",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Pre-Owned. In excellent condition. Marc Jacobs Diaper Bag. Color black and changing pad is all black too. I bought it from Nordstrom (proof of email order confirmation shown in picture). I used it only for a few months. There are so many endless use for this bag besides as a diaper bag (use it as a work bag, carry on bag, travel bag, gym bag, etc.). Smoke free and pet free home. I do not ship international. All sales are final. Thank you.",
+  "Title": "Marc Jacobs Pretty Nylon Eliz-A-Baby Diaper Bag, Black",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Long Beach, California",
+  "Seller": {
+    "FeedbackScore": "171",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "november_elle"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90808",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T01:48:19.000Z",
+  "HitCount": "70",
+  "TimeLeft": "P6DT10H22M1S",
+  "EndTime": "2017-06-09T01:48:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272665170295",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726651702958080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

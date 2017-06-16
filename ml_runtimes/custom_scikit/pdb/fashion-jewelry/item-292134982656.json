@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT7H12M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "SKU": "BAZ11WBR",
+  "ItemID": "292134982656",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sorrelli-White-Bridal-Bracelet-BAZ11ASWBR-antique-Silver-tone-/292134982656",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T22:06:10.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-29T22:06:10.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sorrelli",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Swarovski and Austrian crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "not applicable",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Sorrelli White Bridal Bracelet BAZ11ASWBR antique Silver tone",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "start_elivehelp_btncodeend_elivehelp_btncode Name: Sorrelli White Bridal Bracelet BAZ11ASWBR antique Silver tone Style Number: BAZ11ASWBR Color: Antique silver tone Length: 7 1/4 inch + 3/4 inch , to fit at 7 - 7 1/2 inches Width: 0.75 inches Our Retail Location: located in Cordova mall (across from Claires), 5100 North 9th Avenue, Pensacola, FL 32504, Tel # 850-505-0406 Our Internet Sales person: Sarah @ 850-449-9858 ( Due to high call volumes, you may leave a voicemail and we will return your call as soon as possible.) Each item comes with a Sorrelli lifetime warranty card ( Sorrelli guarantees to fix any lost stones for the lifetime of the item) and Sorrelli's keepsake pouch Powered by ProStores Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921349826568080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "myjewelrydiscounts",
+    "FeedbackScore": "3930",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "myjewelrydiscounts",
+    "StoreURL": "http://stores.ebay.com/id=976695572"
+  },
+  "Location": "Pensacola, Florida",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDE4/z/c5UAAOSw~FJZLesq/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjE3/z/P0cAAOSwGJlZLetU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQxMFgxNjAw/z/rKMAAOSwrhBZLetj/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxNTk5/z/RTsAAOSwaeRZLet3/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "32504"
+}

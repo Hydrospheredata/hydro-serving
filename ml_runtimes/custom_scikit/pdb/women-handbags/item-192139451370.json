@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921394513708080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNTAw/z/7lkAAOSwCU1Y1h2V/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-Messenger-Bag-38cm-Leather-FULL-FLAP-Laptop-Bag-Eco-Friendly-Leather-Bag-/192139451370",
+  "ConvertedCurrentPrice": {
+    "value": "83.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Leather Messenger Bag Leather Laptop Bag Genuine Leather Handcrafted by Indian artisans. This Leather Bag has 3 Internal compartments Inner walls are well padded for keeping Ipad, cigarette box, wallets, laptop, etc. 2 Zippers inside the bag 1 Adjustable Strap Use of Canvas Lining Eco Friendly Bag Naturally Tanned Size 38cm *11*10cm",
+  "Title": "Leather Messenger Bag 38cm Leather FULL FLAP Laptop Bag Eco Friendly Leather Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "83.49",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-25T07:34:42.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P20DT15H13M24S",
+  "EndTime": "2017-06-23T07:34:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "KRISH"
+      },
+      {
+        "Name": "MPN",
+        "Value": "391720758"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139451370",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:101660859:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

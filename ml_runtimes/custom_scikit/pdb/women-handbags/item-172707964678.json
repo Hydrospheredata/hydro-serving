@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/EIAAAOSw2gxYtftT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/X24AAOSwXYtYtftM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/Xu8AAOSwXYtYtftI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/2nIAAOSwWxNYtftE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ml4AAOSwr~lYtftA/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-CALVIN-KLEIN-DRESSY-NYLON-BACKPACK-/172707964678",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Calvin Klein presents laid-back-luxe style with this chic nylon backpack, featuring multiple compartments for effortless organization.11\"W x 13\"H x 5\"DInterior features lining, 2 slip pockets and 1 zip pocket4\"L top handle; 11\"L to 18\"L adjustable backpack strapsMagnetic snap closure with drawstringExterior features gold-tone hardware, 2 magnetic-snap pockets and 1 back zip pocketNylon/faux leather",
+  "Title": "NEW CALVIN KLEIN DRESSY NYLON BACKPACK",
+  "ExcludeShipToLocation": [
+    "AL",
+    "UA",
+    "BN",
+    "KH",
+    "ID",
+    "PH",
+    "VN",
+    "PE",
+    "ZA",
+    "LB",
+    "IN"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Philadelphia, Pennsylvania",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "800",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "kim8880"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "19154",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T15:22:30.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT45M24S",
+  "EndTime": "2017-07-01T15:22:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Calvin Klein"
+      },
+      {
+        "Name": "Style",
+        "Value": "DRESSY Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889609029748"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172707964678",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "kim8880",
+    "StoreURL": "http://stores.ebay.com/id=1094525926"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727079646788080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

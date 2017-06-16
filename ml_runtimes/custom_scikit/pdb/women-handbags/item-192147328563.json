@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vincico-Womens-Fashion-PU-Leather-Shoulder-Bags-Top-Handle-Handbag-Tote-Satchel-/192147328563?var=",
+  "ConvertedCurrentPrice": {
+    "value": "61.37",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Multi functional small purse can be used as a wristlet, tote bag or crossbody bag. With this must-have PU leather tote bag by your side, show the world that you have a style all your own. The flat design is compact and lightweight, while still having plenty of space in which to store your cell phone, wallet, cosmetics, and other important essentials.Information about the product:Item Type:Clutch/Evening bag/Crossbody bagMaterial:PU leatherBrand:VincicoPattern: SolidCarry method: Handbag or Crossbody bagColour:Grey, BlackStyle: FashionOccasion: Versatile, especially suitable for business, office, party, family reunion, prom, banquet and cocktail party and so on. *NOTE*: Due to differences between monitor displays, actual colour may vary slightly from image. Little leather smell is normal. Putting it in well-ventilated areas for few days, the smell will disappear.",
+  "Title": "Vincico Womens Fashion PU Leather Shoulder Bags Top-Handle Handbag Tote Satchel",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "61.37",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/852/875/311610250/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/876/311726937/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "61.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852875:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "61.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852876:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Grey",
+          "Black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-03T08:12:10.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT15H55M9S",
+  "EndTime": "2017-07-02T08:12:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vincico"
+      },
+      {
+        "Name": "MPN",
+        "Value": "311534837"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192147328563",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "8",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139852874:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

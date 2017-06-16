@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "225.07",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "TW",
+  "Location": "Taipei",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:10:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=110701747",
+    "StoreName": "Luxury Watch Products"
+  },
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:10:07.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Roger Dubuis",
+      "Name": "Brand"
+    }
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966739615",
+  "HandlingTime": "1",
+  "Description": "Roger Dubuis Large Multi Purpose Travel Wallet Unique Opportunity to purchase a Rare and Collectable Roger Dubuis Item Presented is a Roger Dubuis wallet with 8 Credit Card sleeves, Passport Sleeve, 2 Travel Document Sleeves & 1 Side Bill Sleeve Produced as a Limited Edition for Roger Dubuis A true Collectors Item! Closed Size: 23cm x 11cm Has discolouring to the silk from storage please see last photo. Please Note: Passport shown is used for illustration only and is not included in the sale!",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Roger-Dubuis-Large-Multi-Purpose-Travel-Wallet-/252966739615",
+  "ConditionDescription": "Slight discolouring of the silk from Storage. See last photo",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with defects",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529667396158080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H45M27S",
+  "ConditionID": "1750",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QxcAAOSwcgNZBwPB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K8YAAOSwuMZZBwPK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/o98AAOSw7GRZBwPb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Y4sAAOSwtGlZBwQm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sKUAAOSw7GRZBwRH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~c4AAOSw42JZBwQP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0H8AAOSwrhBZBwR0/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Roger Dubuis Large Multi Purpose Travel Wallet",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "576",
+    "UserID": "luxurywatchproducts",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

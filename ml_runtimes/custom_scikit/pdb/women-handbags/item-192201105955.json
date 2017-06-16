@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with defects",
+  "ConditionID": "1750",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": [
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMwMVgxNTk5/z/4owAAOSw4CFY2RtV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5MVgxNjAw/z/DqIAAOSwWxNY2Rta/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMwM1gxNjAw/z/O5gAAOSwXYtY2Rte/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hermes-Silver-Pegasus-Cadena-Lock-Charm-/192201105955",
+  "ConvertedCurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Hermes \"Pegasus\" cadena lock charm or silver metal. Origin: France Condition: Never used, slight wear from storage and handling Accompanied by: Hermes box Size: Length: 4.5\"; Width: 2.5\"",
+  "Title": "Hermes Silver Pegasus Cadena Lock Charm",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "New York, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "530",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "mninnyc"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10022",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T14:50:19.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P2DT22H44M36S",
+  "EndTime": "2017-06-05T14:50:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Metal"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Hermes"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192201105955",
+  "Storefront": {
+    "StoreName": "MNINNYC",
+    "StoreURL": "http://stores.ebay.com/id=96929064"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Returned items must be exactly in the condition as received.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922011059558080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

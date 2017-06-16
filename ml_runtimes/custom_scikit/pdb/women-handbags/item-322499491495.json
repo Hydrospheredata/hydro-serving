@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P26DT14H16M43S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE3NVgxMzIz/z/JC0AAOSwlndZAXod/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5N1gxMjYw/z/KA8AAOSwX61ZAXor/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA5NVgxNDY4/z/~bEAAOSwnONZAXo-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA4MlgxNTQy/z/LsMAAOSw5UZZAXpE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAzNlgxNTY3/z/MMsAAOSwX61ZAXpO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTY0WDEyMDA=/z/iNwAAOSwE0JZAXpZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAzMlgxMzUw/z/~4MAAOSw-3FZAXpm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTExOVgxNDg4/z/OHkAAOSw5UZZAXpw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUyMFgxMTU2/z/Op8AAOSw5UZZAXp5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU0M1gxMDk4/z/akAAAOSw53NZAXqC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ5OVgxMTI0/z/a7AAAOSw53NZAXqM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUyN1g4Nzk=/z/dO0AAOSwhvFZAXqX/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lot-8-Multicolored-Designs-Textures-Purses-Handbags-Evening-Designer-/322499491495",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Lot of 8 muticolored designs & textures purses, handbags, evening bags & pouches. Designer names, leather, snake skin, tapestry, beaded, hand tooled, silk & hand woven. High end bags- not old & used. No stained linings or interiors. Some of the bags include the following:-Nila Anthony-Leaders in Leather (missing zipper pull)-Betsy Johnson (patent leather)-Vintage tapestry w/chain (made in Hong Kong)-1980's yellow patchwork w/snakeskin inserts",
+  "Title": "Lot of 8 Multicolored Designs & Textures Purses Handbags Evening Designer",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Riverside, California",
+  "Seller": {
+    "FeedbackScore": "1606",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "starpinejewelry"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92501",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-30T06:29:44.000Z",
+  "HitCount": "30",
+  "SecondaryCategoryIDPath": "11450:169291:169303",
+  "EndTime": "2017-06-29T06:29:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Pattern",
+        "Value": "Multi-Colored"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsy Johnson, Nila Anthony, Etc."
+      },
+      {
+        "Name": "Style",
+        "Value": "Mixed Lot"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322499491495",
+  "Storefront": {
+    "StoreName": "starpinejewelry",
+    "StoreURL": "http://stores.ebay.com/id=694084011"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "SecondaryCategoryID": "169303",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3224994914958080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

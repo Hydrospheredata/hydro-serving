@@ -1,0 +1,88 @@
+{
+  "ExcludeShipToLocation": [
+    "AL",
+    "IT"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "98501",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Cool dark silver/pewter pocket watch necklace. Medium size, includes intricate cutout on top. Unfortunately the battery has stopped working!",
+  "StartTime": "2017-05-21T04:43:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7m0AAOSw3ydVnGth/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Wc8AAOSwgQ9VnGto/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i7EAAOSw~gRVnGtw/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "karajaco",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1844",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629962323918080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T04:43:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pewter-Colored-Pocket-Watch-Necklace-Circular-Cutout-Flip-Opening-Long-/262996232391",
+  "Location": "Olympia, Washington",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pewter Colored Pocket Watch Necklace Circular Cutout Flip Opening Long",
+  "Storefront": {
+    "StoreName": "eKlecticJumble",
+    "StoreURL": "http://stores.ebay.com/id=503284117"
+  },
+  "ItemID": "262996232391",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT10H5M18S"
+}

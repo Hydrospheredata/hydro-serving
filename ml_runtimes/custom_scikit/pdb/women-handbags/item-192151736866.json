@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-colourless-light-leather-Shipping-Included-/192151736866?var=",
+  "ConvertedCurrentPrice": {
+    "value": "99.08",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Volume (ML): 45Model: 45gMINK yellow Wolf fat cream OILColour: transparent green",
+  "Title": "Leather colourless light leather. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.08",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Army Green",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/852/231/312820698/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Clear and colorless",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/852/232/312228704/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "99.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852231:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Army Green"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "99.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852232:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Clear and colorless"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Army Green",
+          "Clear and colorless"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-08T01:22:19.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P4DT9H7M10S",
+  "EndTime": "2017-06-07T01:22:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DADAO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "779280612"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151736866",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139852230:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

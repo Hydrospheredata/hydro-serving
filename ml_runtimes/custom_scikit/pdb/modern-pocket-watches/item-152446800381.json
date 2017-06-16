@@ -1,0 +1,112 @@
+{
+  "QuantitySold": "1",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Lerosentha TECH. SEKAI NO OWARI TREE Quartz Pocket Watch/FOB Watch Made in China Specifications Product Features: Watch Movement: QuartzWatch Chain & Case Material: Stainless steel alloyWatch Diameter: About 4.8cmWatch Thickness: About 1.5cmTotal Length of Chain: About 80cm Package Content: 1 x Watch1 x Chain Photos Contact and Supportemail: rosenthalleo@gmail.com phone: 0405050173 11am-8pm or send us an eBay message TERMS OF SALE - Please Read If there is an issue you MUST contact us and work with us to resolve it. At first, we will troubleshoot the issue, if that does not work we will ask you to send it back for a refund. We usually reply within 24 hours and would appreciate if you could do the same. We will not tolerate Abuse, Swearing or insults when trying to help you. We have the same standard of customer service as would be expected in most shops in Australia. Once you are satisfied with your item we require you to leave feedback. Leaving negative feedback won't resolve the issue, contacting us will BULK DEALS: Yes we do BULK items/deals please call/email",
+  "StartTime": "2017-02-23T04:41:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/B4cAAOSwTuJYqrqw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nVgAAOSwB-1Yqrq5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/qVMAAOSwWxNYqrrB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vvYAAOSw4A5YqrrH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~rwAAOSw3v5YqrrO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/f8QAAOSwfVpYqrrW/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1500",
+  "HighBidder": {
+    "UserID": "y***8",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "27",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "5",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIEDAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "lerosentha-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "484",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "80",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Make sure it is in the original packaging please",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-23T04:41:52.000Z",
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "Bronze",
+        "Name": "Colour"
+      }
+    },
+    "Variation": {
+      "StartPrice": {
+        "_currencyID": "AUD",
+        "value": "14.99"
+      },
+      "SKU": "sku-auc-0",
+      "SellingStatus": {
+        "QuantitySold": "1",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "Bronze",
+          "Name": "Colour"
+        }
+      },
+      "Quantity": "5"
+    }
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SEKAI NO OWARI TREE Quartz Pocket Watch/FOB Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEKAI-NO-OWARI-TREE-Quartz-Pocket-Watch-FOB-Watch-/152446800381?var=",
+  "Storefront": {
+    "StoreName": "leostoreaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1477142763"
+  },
+  "ItemID": "152446800381",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT9H48M3S"
+}

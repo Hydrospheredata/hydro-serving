@@ -1,0 +1,276 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3.78",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/-EEAAOSwjqVZLo5t/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Il4AAOSww9xZLo5y/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/390AAOSw9OFZLo56/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/yCEAAOSwurZZLo59/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/-5gAAOSwGJlZLo6B/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/z-oAAOSwBt5ZLo6E/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wUQAAOSwq1JZLo6I/$_1.JPG?set_id=8800005007"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:36:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "60",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1235999307",
+    "StoreName": "eforce-auto"
+  },
+  "CurrentPrice": {
+    "value": "3.78",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:36:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "DE",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "GB",
+    "VA",
+    "PO Box"
+  ],
+  "ItemID": "152567660660",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Simple-Women-Wrist-Watches-Leather-Strap-Wristwatch-Ladies-Quartz-Watch-/152567660660?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "4NR9UU6DS8WC6",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "3.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4AB9XK6WT8WS6YU.01",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "white",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "3.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4FB9MZ6YB8ES6NW.02",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "black",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "3.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4GV9YZ6LQ8PY6ZN.03",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "pink",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "3.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4EN9FD6XF8MJ6DH.04",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "mint green",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "white",
+          "black",
+          "pink",
+          "mint green"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "white",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/pckAAOSwcgNZLo6d/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/nugAAOSwYvFZLo6L/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "pink",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/VwsAAOSw-K9ZLo6Z/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "mint green",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/0VsAAOSw5cRZLo6R/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H10M33S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Simple  Women Wrist Watches Leather Strap Wristwatch Ladies Quartz Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackScore": "6898",
+    "UserID": "eforce-auto",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

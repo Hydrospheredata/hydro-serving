@@ -1,0 +1,157 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "77.15",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Spalding",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:28:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:28:55.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502309372",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "G-7900",
+        "Name": "Model"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CASIO G-SHOCK G-7900 (3194) \"G-RESCUE\" DIGITAL DISPLAY WATCH",
+  "ConditionDescription": "SEE MAIN DESCRIPTION",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CASIO-G-SHOCK-G-7900-3194-G-RESCUE-DIGITAL-DISPLAY-WATCH-/282502309372",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825023093728080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "PE12 9DS",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT21H12M16S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/M-YAAOSwvihY9zI0/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/KK4AAOSwHptY9zJI/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/cVkAAOSwvKtY9zJB/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/O5YAAOSw7U5Y9zI7/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/zyAAAOSwIWVY9zJP/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/3QEAAOSwzqFY9zJU/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/pTcAAOSwSypY9zJb/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDkyWDU5Ng==/z/fLwAAOSwiYFXF4il/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "CASIO G-SHOCK G-7900 (3194) \"G-RESCUE\" DIGITAL DISPLAY WATCHShock Resistant200M Water ResistantLow Temperature Resistant LCD (-20 C / -4 F)Auto EL Backlight with AfterglowFlash Alert (flashes with buzzer that sounds for alarms, hourly time signal, countdown timer time-up alarm, countdown timer progress beeper and stopwatch auto-start)Tide Graph (tide level for specific date and time)Moon Data (moon age of the input data, moon phase graph)World Time29 times zones (48 cities), city code display, daylight saving on/off4 Multi-function Alarms and 1 Snooze AlarmHourly Time SignalCountdown TimerMeasuring unit: 1 secondCountdown range: 24 hoursCountdown start time setting range: 1 minute to 24 hours (1-minute increments and 1-hour increments)Other: Auto-repeat, time-up alarm, progress beeper1/100 second stopwatch (ST1)Measuring capacity: 999:59'59.99\"Measuring modes: Elapsed time, split time, 1st-2nd place timesOther: 5-second Auto-start1/100 second stopwatch (ST2)Measuring capacity: 999:59'59.99\"Measuring modes: Elapsed time, split time, 1st-2nd place timesButton Operation Tone on/offAuto Calendar (pre-programmed until the year 2099)12/24 Hour FormatsAccuracy: +/- 15 seconds per monthBattery: CR2025Module: 3194Size of Case: 52.4mm x 50.0mm x 17.7mmCOMPLETE WITH G-SHOCK TIN, SADLY I HAVE LOST THE INSTRUCTIONS IN VERY GOOD USED & WORKING CONDITION, ONLY BEEN WORN TWICE, SEE PHOTO'S IDEAL ANNIVERSARY, BIRTHDAY, CHRISTMAS, XMAS, GIFT, PRESENT or FILM, TV & THEATRE PROP FREE DELIVERY WITHIN THE UK NO RETURNS ACCEPTED",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.1",
+    "FeedbackScore": "320",
+    "UserID": "throwback-clothing",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

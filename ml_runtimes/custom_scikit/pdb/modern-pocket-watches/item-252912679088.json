@@ -1,0 +1,139 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "02915",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Sammy Sosa pocket watch. Brand new in original packaging",
+  "StartTime": "2017-05-01T19:07:12.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pCkAAOSwr~lYre~Z/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BzoAAOSw~AVYre~U/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Plastic",
+        "Name": "Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Modern",
+        "Name": "Era"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "joanzerb0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "103",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529126790888080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-05-31T19:07:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAMMY-SOSA-Sports-Superstar-Kids-Watch-1999-Avon-NIB-/252912679088",
+  "Location": "Riverside, Rhode Island",
+  "Title": "SAMMY SOSA Sports Superstar Kids Watch /1999 Avon NIB",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252912679088",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT21M38S"
+}

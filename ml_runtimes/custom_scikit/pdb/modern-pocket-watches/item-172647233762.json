@@ -1,0 +1,112 @@
+{
+  "ExcludeShipToLocation": [
+    "HK",
+    "TW",
+    "CN"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "19809",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "boniskisscom",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "52209",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-04-27T08:48:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/6vkAAOSw33hZAbBV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/aHoAAOSwhvFZAbBX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/xfsAAOSwjqVZAbBZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/1AQAAOSw-3FZAbBc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxMDY3/z/ZLsAAOSwuMZZAbBf/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Arabic Numerals,12-hour Dial,Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "a42303",
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726472337628080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-26T08:48:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/love-London-Analog-Quartz-White-Arabic-Numbers-Modern-Pocket-Watch-Necklace-/172647233762",
+  "Location": "Wilmington, Delaware",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "I love London Analog Quartz White Arabic Numbers Modern Pocket Watch Necklace",
+  "Storefront": {
+    "StoreName": "boniskisscom",
+    "StoreURL": "http://stores.ebay.com/id=1166174867"
+  },
+  "ItemID": "172647233762",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT14H2M31S"
+}

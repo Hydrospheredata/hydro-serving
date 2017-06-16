@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Modern-Simple-Top-Handle-Leather-Bags-Understated-Elegance-Shoulder-Bag-L-/192148961127?var=",
+  "ConvertedCurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: *This classic style shoulder bag was made of high quality Wax oil leather,With Sophisticated technology,brilliant Appearance,Classic characteristics,make it become the Popular Bag for men.*[Product details]*Colour:Brown*Outer material:Top Leather(Wax oil leather)*Inner material:Polyester-cotton Blend*Inner structure:Two main interlayer,Phone Bag,ID card bag,Zipper pocket.*Size Dimension:28cm\u00d75cm\u00d732cm.11in\u00d72in\u00d712.6in*Net weight: 700 g *Capacity:9-Inch iPad,Folding umbrella*Applicable people:Business man,Leisure man,Travel ,Outdoor trips.",
+  "Title": "Mens Modern & Simple Top-Handle Leather Bags Understated Elegance Shoulder Bag L",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Brown",
+        "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/717/206/311470750/original.jpeg"
+      },
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": {
+      "Quantity": "1",
+      "StartPrice": {
+        "value": "105.0",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:139717206:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour",
+          "Value": "Brown"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": "Brown"
+      }
+    }
+  },
+  "StartTime": "2017-04-05T04:16:12.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P1DT11H59M28S",
+  "EndTime": "2017-06-04T04:16:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MUCO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "033330262"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192148961127",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139717205:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

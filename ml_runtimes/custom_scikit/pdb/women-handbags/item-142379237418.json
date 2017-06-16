@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/p54AAOSwTM5Y69pA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/1DsAAOSwpkFY69pC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/YBwAAOSwc49Y69pD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/MLoAAOSww3tY69pH/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skip-Hop-Chelsea-Downtown-Chic-2-1-Diaper-Bag-NEW-/142379237418",
+  "ConvertedCurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new and never been used",
+  "Title": "Skip Hop Chelsea Downtown Chic 2 In 1 Diaper Bag -NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Newark, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "57",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "infinite_options"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94560",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-10T19:37:04.000Z",
+  "HitCount": "128",
+  "TimeLeft": "P7DT4H10M59S",
+  "EndTime": "2017-06-09T19:37:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Skip Hop"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142379237418",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "infiniteangled-7",
+    "StoreURL": "http://stores.ebay.com/id=1555022473"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Must be in original packaging and factory sealed.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423792374188080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

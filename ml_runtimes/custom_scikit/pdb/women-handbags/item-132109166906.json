@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321091669068080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzNlgxNjAw/z/dlcAAOSwCU1Ys1qC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkwWDgwMA==/z/A3wAAOSwDKtY09kV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ1OFgxNjAw/z/550AAOSw-RFYs1qB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDQ2/z/6X4AAOSwfVpYs1qC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg5WDEwMDA=/z/iRUAAOSwmgJY2SoP/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Calvin-Klein-Unisex-Gray-Red-Zipper-Shoulder-Weekender-Duffle-Bag-/132109166906",
+  "ConvertedCurrentPrice": {
+    "value": "54.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers REMOVE MAIN IMAGE FROM DESCRIPTION --> Calvin Klein Unisex Gray Red Zipper Shoulder Weekender Duffle Bag Product Details Description Calvin Klein Unisex Gray Red Zipper Shoulder Weekender Duffle Bag. CK Logo printed. Adjustable wide shoulder strap. Front zipper pocket. Around zipper closure. Adjustable wide shoulder strap. Front zipper pocket. Around zipper closure. Notes",
+  "ExcludeShipToLocation": [
+    "BO",
+    "PY",
+    "VE",
+    "MX",
+    "AO",
+    "CD",
+    "CG",
+    "CI",
+    "LR",
+    "LY",
+    "NG",
+    "SO",
+    "ZW",
+    "LB",
+    "AF",
+    "RU",
+    "UA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.49",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Apopka, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "17336",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "bestglobaltrader"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32703",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-02-26T22:45:17.000Z",
+  "Title": "Calvin Klein Unisex Gray Red Zipper Shoulder Weekender Duffle Bag",
+  "TimeLeft": "P24DT4H48M51S",
+  "EndTime": "2017-06-26T22:45:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Calvin Klein"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray-Red"
+      },
+      {
+        "Name": "Gender",
+        "Value": "Unisex"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132109166906",
+  "PrimaryCategoryID": "42526",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "BestGlobalTrader",
+    "StoreURL": "http://stores.ebay.com/id=182698881"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%",
+    "RestockingFeeValueOption": "Percent_15",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "WLI-CALVINKLEIN-WDUFBAG-ZIPSHOULD-GRYRED",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

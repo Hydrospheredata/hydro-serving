@@ -1,0 +1,134 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:38:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:38:10.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012771162",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "female",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "ROMAN NUMBERS",
+        "Name": "Features"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "NO BAND",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "all",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "17",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "no",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "none",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "old fashioned small face",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VTG 1960s Hamilton Lady Watch Brown FACE WHITE ROMAN NUMERALS PARTS REPAIR",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VTG-1960s-Hamilton-Lady-Watch-Brown-FACE-WHITE-ROMAN-NUMERALS-PARTS-REPAIR-/263012771162",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630127711628080_1.jpg",
+  "HitCount": "10",
+  "PostalCode": "10024",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H15M32S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/O5cAAOSwK6RZIdQl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/R~AAAOSwjL5ZIdQo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/lCwAAOSw42JZIdQr/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "SMALL BROWN FACED HAMILTON WATCHw/ white roman numeralsPARTS REPAIR17 jewelsFrom mid 1960sThanks for lookingNo band",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "253",
+    "UserID": "glenviewgirl123",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

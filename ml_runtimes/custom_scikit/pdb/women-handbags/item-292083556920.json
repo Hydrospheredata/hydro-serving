@@ -1,0 +1,213 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg2WDg4NA==/z/LjYAAMXQlgtS2~Ee/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Unisex-Clarks-Tiger-Palm-Leather-Messanger-Shoulder-Crossbody-Bag-Strap-/292083556920?var=",
+  "ConvertedCurrentPrice": {
+    "value": "92.37",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LADIES CLARKS BAG COLOUR: BLACK or BROWN SIZE: 26x30x7cm approx. ADJUSTABLE SHOULDER STRAP ZIP FASTENING INTERNAL COMPARTMENTS OUTER POCKET PRICE \u00a369.99 Check out my other items! Be sure to add me to your favourites list! Closure Zip Style Shoulder Bags Brand Clarks Feature Adjustable Strap Feature Inner Pockets Feature Outer Pockets Outer Material Leather Exact Dimensions 26x30x7cm approx. Handbag Size 26x30x7cm approx. Type Messanger/Shoulder Bag",
+  "ExcludeShipToLocation": [
+    "CA",
+    "AU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "92.37",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Asia",
+    "GB",
+    "DE",
+    "FR",
+    "AU"
+  ],
+  "Location": "Leicester, Leicestershire",
+  "Seller": {
+    "FeedbackScore": "46471",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "bluntsshoesleicester"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Unisex Clarks Tiger Palm Leather Messanger Shoulder Crossbody Bag Strap",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WsoAAOxyVLNS2~GM/$_1.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OzIAAMXQlgtS2~GH/$_1.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/O6sAAOxyRhBS2~GM/$_1.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/t8MAAOSwc49Y66p2/$_1.JPG?set_id=880000500F"
+        }
+      ],
+      "VariationSpecificName": "Exact colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "92.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "CLARKS-TIGERPALM=B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Exact colour",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "92.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "CLARKS-TIGERPALM=A",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Exact colour",
+            "Value": "Black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Exact colour",
+        "Value": [
+          "Brown",
+          "Black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-12T04:51:26.000Z",
+  "TimeLeft": "P8DT12H37M20S",
+  "EndTime": "2017-06-11T04:51:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bags"
+      },
+      {
+        "Name": "Features",
+        "Value": "Adjustable strap"
+      },
+      {
+        "Name": "Features2",
+        "Value": "Clutch Bags"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clarks"
+      },
+      {
+        "Name": "Outer material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Exact dimensions",
+        "Value": "26x30x7cm approx."
+      },
+      {
+        "Name": "Handbag size",
+        "Value": "26x30x7cm approx."
+      },
+      {
+        "Name": "Type",
+        "Value": "Messanger/Shoulder Bag"
+      },
+      {
+        "Name": "Features1",
+        "Value": "Outer pockets"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292083556920",
+  "Storefront": {
+    "StoreName": "Blunts Shoes Leicester",
+    "StoreURL": "http://stores.ebay.com/id=986185229"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "No returns will be accepted if you have put sellotape/adhesive and writing on the original box, the box must be brand new (as received). We only accept returns if you send the item back with the original Grey coloured outer wrapping or similar to protect the box.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "CLARKS-TIGERPALM=",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

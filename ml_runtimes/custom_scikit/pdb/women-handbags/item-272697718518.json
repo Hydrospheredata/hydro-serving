@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDk=/z/8XUAAOSw1WJZMKSe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDk=/z/~kcAAOSw8HBZMKSZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg1NzY=/z/EMwAAOSwGJlZMKSY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDEwMDA=/z/6noAAOSwtGlZMKSa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg2Mzc=/z/0mQAAOSw8lpZMKSb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg0MTY=/z/ubIAAOSwhvFZMKSc/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Coach-Tote-Bag-M-1220-F-198-Dark-Pink-/272697718518",
+  "ConvertedCurrentPrice": {
+    "value": "171.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This bag's strap drop is 9 1/2 \" or extended 17 -/2 \" long. Bag is 14 \" highand 13 1/2 \" long.",
+  "Title": "New Coach Tote Bag M-1220 F-198, Dark Pink.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "171.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Elizabeth, New Jersey",
+  "Seller": {
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "barbarkaminska-edd_0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07208",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T23:44:48.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P29DT9H30M33S",
+  "EndTime": "2017-07-01T23:44:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "14 \""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13 1/2 \""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272697718518",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726977185188080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

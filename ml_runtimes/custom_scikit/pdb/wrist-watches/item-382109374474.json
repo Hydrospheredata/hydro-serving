@@ -1,0 +1,101 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "23.09",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wichita, Kansas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:31:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=18253455",
+    "StoreName": "AOK Supercenter"
+  },
+  "CurrentPrice": {
+    "value": "23.09",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:31:36.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "This watch is pre-owned and will have some minor scratches and marks due to past use. The band is in good shape!!! Face is clear and all the CZ stones are accounted for We ship fast and securely!We accept PayPal only for payment and it is due within 3 days from the end of the auction.We only ship in the United States! No international orders.We ship within 1 business day of receiving cleared payment via USPS Priority Select Mail with a Tracking Number!If there are any questions feel free to contact us through eBay Message. Our hours are M-F 9:00am - 5:00pm CST.Thank you for looking & happy bidding!! LFH 2245 EAST",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "382109374474",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "N/A",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Caravelle by Bulova Ladies Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Caravelle-Bulova-Ladies-Watch-/382109374474",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3821093744748080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "67203",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H23M22S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgzNDY=/z/2sYAAOSwcUBYKzEB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg1Nzk=/z/djQAAOSwux5YKzED/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgzNzA=/z/3Z0AAOSwImRYKzEF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NTU=/z/RGUAAOSwiONYKzEH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxOFgxNjAw/z/LkwAAOSwal5YKzEL/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "23.09",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "11761",
+    "UserID": "aokinc",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

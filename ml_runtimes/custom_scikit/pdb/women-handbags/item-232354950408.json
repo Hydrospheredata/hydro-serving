@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vS0AAOSwjL5ZLlRg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/t8EAAOSwlndZLlRk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qk8AAOSww9xZLlRn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6rUAAOSwblZZLlRx/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-TORY-BURCH-41149786-Starless-Night-417-Marion-Quilted-Backpack-/232354950408",
+  "ConvertedCurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tag and protecting bag",
+  "Title": "NEW TORY BURCH (41149786) Starless Night/417 Marion Quilted Backpack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "College Station, Texas",
+  "Seller": {
+    "FeedbackScore": "76",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "wangchyu88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77840",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T05:31:46.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P27DT14H42M58S",
+  "EndTime": "2017-06-30T05:31:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Suede"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232354950408",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323549504088080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

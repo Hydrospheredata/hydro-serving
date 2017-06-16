@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "16.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "DELHI, DELHI",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:06:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "16.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:17.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192203331698",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hmt",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Synthetic Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Hmt Nahru 17 jewels",
+        "Name": "Model"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1971-1983)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE HMT NAHRU 17 JWL HAND-WINDING MEN'S BEAUTIFUL ANALOG WRIST WATCH",
+  "ConditionDescription": "PRE OWNED REFURBISHED.IN WORKING CONDITION.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-HMT-NAHRU-17-JWL-HAND-WINDING-MENS-BEAUTIFUL-ANALOG-WRIST-WATCH-/192203331698",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1922033316988080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "110006",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H51M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3mcAAOSw3ydV4XDj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M4cAAOSw0JpV4XDq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Va4AAOSwgQ9V4XDx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fEEAAOSwLVZV4XD4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NXUAAOSw0JpV4XEB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6MIAAOSwu4BV4XEL/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "BRAND HMT MODEL HMT NAHRU 17JEWELS DIMENSIONS IT MEASURES 37 MM IN DIAMETER INCLUDING ITS CROWN AND LUG TO LUG 41 MM CASE STAINLESS STEEL CASE. (INSTALL IN NEW CASE) MOVEMENT MECHANICAL HAND WINDING MOVEMENT. STRAP BEAUTIFUL WHITE STRAP NEW AFTER MARKET. (COLOR OF BAND CAN BE CHANGED ON DEMAND, DEPENDS UPON THE AVAILABILITY) DIAL BEAUTIFUL WHITE COLOR DIAL. (REPAINTED) AGE APPROX 30 to 40 YEARS CRYSTAL ACRYLIC CONDITION EXCELLENT AS PER ITS AGE SIGN HMT SIGNED ON THE DIAL BACK AND MOVEMENT FUNCTIONS HOURS, MINUTES, SECONDS. SEX MEN DISPLAY ANALOG Normal 0 false false false EN-US X-NONE X-NONE",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.6",
+    "FeedbackScore": "2042",
+    "UserID": "vintagetimecollection2015",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

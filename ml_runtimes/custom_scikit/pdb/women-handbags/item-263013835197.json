@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OzkAAOSwuxFYybP1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/u7UAAOSwax5YybQI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZFgAAOSwsW9YybQy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yOEAAOSwax5YybRi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TIQAAOSwuxFYybRy/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-COACH-MINI-BILLIE-BACKPACK-37621-PEBBLE-LEATHER-/263013835197",
+  "ConvertedCurrentPrice": {
+    "value": "139.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NEW WITH TAGS COACH MINI BILLIE BACKPACK #37621 IN PEBBLE LEATHER COLOR SILVER/AZURE BLUE HAS INSIDE ZIP POCKET AND MULTIFUNCTION POCKET TOP HANDLE WITH 2 1/2 DROP OUTSIDE POCKET ADJUSTABLE SHOULDER STRAPS SIZE 8 L X8 3/4 H X 3 1/4 W SELLS FOR $295.00 SNAP CLOSURE AND STRING CLOSURE",
+  "Title": "NWT COACH MINI BILLIE BACKPACK # 37621 PEBBLE LEATHER",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "139.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Brimfield, Massachusetts",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1578",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pumpkin7435"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "01010",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:27:41.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT10H43M9S",
+  "EndTime": "2017-07-01T01:27:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013835197",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630138351978080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "true"
+}

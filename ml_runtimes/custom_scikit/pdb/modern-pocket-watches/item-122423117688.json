@@ -1,0 +1,72 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "47906",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Danbury Pocket Watch - Brand New!",
+  "StartTime": "2017-03-31T00:40:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/n5sAAOSw4A5Y1HrA/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "60.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "juareboll_5",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "24",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1224231176888080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-29T00:40:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "60.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Danbury-Pocket-Watch-/122423117688",
+  "Location": "West Lafayette, Indiana",
+  "Title": "New Danbury Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "122423117688",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT5H51M23S"
+}

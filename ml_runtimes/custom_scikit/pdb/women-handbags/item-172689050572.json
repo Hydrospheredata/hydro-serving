@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzE5WDc0OQ==/z/fvMAAOSwq1JZIvtM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODU5WDc0OQ==/z/uaoAAOSwR29ZIvtT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODk1WDc0NQ==/z/j60AAOSw5cRZIvtZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTU1WDcyNw==/z/ge4AAOSw3gJZIvtg/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-SIGNATURE-NYLON-BABY-BAG-DIAPER-SHOULDER-BAG-TOTE-GREY-F77577-/172689050572",
+  "ConvertedCurrentPrice": {
+    "value": "164.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Good condition Mild pen mark inside the bag",
+  "Title": "COACH SIGNATURE NYLON BABY BAG DIAPER SHOULDER BAG TOTE GREY F77577",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "164.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "North Hollywood, California",
+  "Seller": {
+    "FeedbackScore": "232",
+    "PositiveFeedbackPercent": "93.8",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "1buy109"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "91605",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-22T14:57:00.000Z",
+  "HitCount": "48",
+  "TimeLeft": "P18DT23H33M20S",
+  "EndTime": "2017-06-21T14:57:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172689050572",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1726890505728080_2.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

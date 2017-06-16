@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "302000474332",
+  "TimeLeft": "P19DT14H4M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Toe Rings",
+  "QuantitySold": "1",
+  "Site": "Australia",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "AUD"
+  },
+  "SKU": "24085",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Horse-Shoe-Diamond-9ct-9k-Solid-Yellow-Gold-Toe-Ring-24085-/302000474332",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "81.07",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-06-30T04:01:26.000Z",
+  "PaymentMethods": "PayPal",
+  "HighBidder": {
+    "UserID": "o***a",
+    "FeedbackScore": "19",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "AU",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-25T04:01:26.000Z",
+  "Location": "Sydney",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bee Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9ct Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "24085",
+        "Name": "MPN"
+      },
+      {
+        "Value": "JP2",
+        "Name": "Colour"
+      },
+      {
+        "Value": "702658829575",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Horse Shoe Diamond 9ct 9k Solid Yellow Gold Toe Ring 24085",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "RUGS BOOTS EARINGS NECKLACE Note: This item is on pre-sale.All orders after 1st Apr will be dispatched on: 40th June. --> Horse Shoe Diamond 9ct 9k Solid Yellow Gold Toe Ring 24085",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3020004743328080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "fab-living",
+    "FeedbackScore": "13020",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Fab-living",
+    "StoreURL": "http://stores.ebay.com/id=653894059"
+  },
+  "HandlingTime": "5",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/PRkAAOSwEjFXdJmZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/efwAAOSwhOVXdJmZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/aIQAAOSwuzRXdJmZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/Fj0AAOSwgY9XdJmZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/GcsAAOSwwo1XdJmZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT22H45M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172714344117",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LAA-Trollbeads-Bracelet-Charm-Mask-/172714344117",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:48:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "RO",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:48:24.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "LAA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling",
+        "Name": "Metal"
+      },
+      {
+        "Value": "19 cm / 7.5 in",
+        "Name": "Bracelet Size"
+      },
+      {
+        "Value": "Sterling",
+        "Name": "Material"
+      },
+      {
+        "Value": "Sterling",
+        "Name": "Charm Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "LAA Trollbeads Bracelet With Charm Mask",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Trollbeads Bracelet With Charm MaskMaterial Sterling silver 925.Size 19 cm/7,5\"Authentic 100% LAA .Mark 925 LAA",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727143441178080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.7",
+    "UserID": "radoinello",
+    "FeedbackScore": "332",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "BUJORENI VALCEA, RO",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CXAAAOSwY3BZNRoD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eUQAAOSwfpVZNRoN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A0QAAOSwAPVZNRoZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MW8AAOSwEHpZNRo1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dGwAAOSwIQdZNRpM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XuAAAOSwlndZNRpd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QKoAAOSwK6RZNRpk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nOoAAOSwhvFZNRpo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/01kAAOSw0hlZNRpu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A5YAAOSwX61ZNRp1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zOYAAOSwjL5ZNRv8/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000"
+}

@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P19DT14H59M7S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "232349478607",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-12K-Gold-Plated-KATE-SPADE-NEW-YORK-Skinny-Bow-Metal-Headband-Kate-Spade-Bag-/232349478607",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T02:27:31.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T02:27:31.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kate Spade New York",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12K Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bow",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Headband",
+        "Name": "Style"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "12K Gold Plated Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New 12K Gold Plated KATE SPADE NEW YORK Skinny Bow Metal Headband Kate Spade Bag",
+  "ExcludeShipToLocation": [
+    "CI",
+    "ZW"
+  ],
+  "BidCount": "0",
+  "Description": "New Women's KATE SPADE NEW YORK SKINNY BOW METAL HEADBANDColor: Rose Gold Rare, sold-out style. Brand new in Kate Spade dust bag. 12K Gold-plated headband. All items that I sell are first quality and guaranteed authentic; purchased directly from the brand's store or authorized retailer. I will ship next day or same day depending on time payment is received. From a non-smoking home. I have been selling on ebay since 2004. Customer satisfaction is very important to me. If there is ever a problem, please email me and I will do my best to remedy the situation. I am happy to offer reduced shipping prices when additional auctions are won and items are shipped together. I will leave positive feedback for you as soon as I know that you have received your package. (When you leave feedback for me, I'll know that you have received it.) Please feel free to email me with any questions you may have. Thank you.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323494786078080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "little_luxuries_by_laura",
+    "FeedbackScore": "844",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Little Luxuries by Laura",
+    "StoreURL": "http://stores.ebay.com/id=148349536"
+  },
+  "Quantity": "1",
+  "Location": "Riverside, California",
+  "HitCount": "27",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iHgAAOSw3ZRY~78i/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NTcwWDQ1Ng==/z/kuQAAOSwzqFY~79P/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rTkAAOSwIWVY~781/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pBsAAOSwHptY~78-/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "92503"
+}

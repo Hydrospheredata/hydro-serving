@@ -1,0 +1,237 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.59",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/WZUAAOSw42dZEsKY/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/XREAAOSwK6RZEsKZ/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/clYAAOSw42dZEsTL/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/OwwAAOSwH09ZEsKY/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/LsMAAOSwurZZEsTN/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/hfYAAOSwjL5ZEsKZ/$_12.JPG"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:06:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1500",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1122499091",
+    "StoreName": "love-shopping2013"
+  },
+  "CurrentPrice": {
+    "value": "1.59",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:06:07.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BY",
+    "BA",
+    "HR",
+    "CY",
+    "CZ",
+    "FI",
+    "IS",
+    "LV",
+    "LT",
+    "ME",
+    "NO",
+    "RO",
+    "SI",
+    "SE",
+    "CH",
+    "UA",
+    "HN",
+    "PR",
+    "BN",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "PE",
+    "UY",
+    "MX",
+    "BH",
+    "IL",
+    "JO",
+    "KW",
+    "AZ",
+    "CN",
+    "GE",
+    "JP",
+    "MV",
+    "PF",
+    "PO Box"
+  ],
+  "ItemID": "322537197781",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anchor-Pattern-Simple-Dial-Women-Geneva-Watch-Leather-Band-Quartz-Analog-Watchls-/322537197781?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "V-SH-JY-212@#lsn@ls13@WZBG",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "1.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "V-SH-JY-212-WT",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "500"
+      },
+      {
+        "StartPrice": {
+          "value": "1.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "V-SH-JY-212-BK",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "500"
+      },
+      {
+        "StartPrice": {
+          "value": "1.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "V-SH-JY-212-BN",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "500"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "White",
+          "Black",
+          "Brown"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/3KkAAOSwn-tZE8ld/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/w2wAAOSwYlRZE8li/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/KmEAAOSwaEhZE8ll/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H32M42S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Anchor Pattern Simple Dial Women Geneva Watch Leather Band Quartz Analog Watchls",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "82997",
+    "UserID": "love-shopping2013",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg4OTE=/z/1AkAAOSwal5YKR3E/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dakine-Neptune-Stripes-Getaway-Carry-Bag-Luggage-Laptop-Sleeve-Feaures-NEW-/222314220730",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Title": "Dakine Neptune Stripes Getaway Carry On Bag Luggage~Laptop Sleeve & Feaures NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Farmington, Minnesota",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "18574",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "thorseufer"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "55024",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-11-14T02:13:21.000Z",
+  "HitCount": "67",
+  "TimeLeft": "P9DT11H29S",
+  "EndTime": "2017-06-12T02:13:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "DAKINE"
+      },
+      {
+        "Name": "Style",
+        "Value": "CARRY ON TOTE"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222314220730",
+  "Storefront": {
+    "StoreName": "Vintage Toy Spot",
+    "StoreURL": "http://stores.ebay.com/id=12403625"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2223142207308080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

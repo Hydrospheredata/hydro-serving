@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/SnoAAOSw32lYsEyd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/LXcAAOSwr~lYsEyg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/UAsAAOSw4CFYsEyr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/IzIAAOSwax5YsEyi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/bskAAOSwfVpYsEyk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/7oYAAOSwTuJYsEyt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/6eMAAOSw~AVYsEym/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/1ocAAOSwWxNYsEyq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/ei8AAOSwdGFYsEyv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/prAAAOSw3v5YsEyw/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Longchamp-Made-France-Beige-Leather-Briefcase-Laptop-Bag-/302336910230",
+  "ConvertedCurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New! Longchamp Made In France Beige Leather Briefcase Laptop Bag Rare! Hard to find",
+  "Title": "New! Longchamp Made In France Beige Leather Briefcase Laptop Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Laurel, Maryland",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "601",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "xela_806"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "20724",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T02:47:59.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT11H55M37S",
+  "EndTime": "2017-07-02T02:47:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LONGCHAMP"
+      },
+      {
+        "Name": "Style",
+        "Value": "BRIEFCASE Laprtop Case"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302336910230",
+  "Storefront": {
+    "StoreName": "Baby Lauren s Closet",
+    "StoreURL": "http://stores.ebay.com/id=442695689"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023369102308080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

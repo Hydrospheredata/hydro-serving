@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P10DT20H9M2S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1622815170388080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjcy/z/ExwAAOSw44BYKvTe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTU3/z/q7cAAOSwXeJYKvTY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/rmAAAOSwKOJYKvTX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0NFgxNTgx/z/oKsAAOSw5cNYKvTW/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Borsa-Donna-Shopping-Bag-Versace-Jeans-Donna-Fashion-Bag-Strass-Black-/162281517038",
+  "ConvertedCurrentPrice": {
+    "value": "194.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "WOMEN'S CLOTHING MEN'S CLOTHING WOMEN'S ACCESSORIES MEN'S ACCESSORIES Borsa Donna Shopping Bag Versace Jeans Donna Fashion Bag Strass Black --> PRICE: N/A--> DESCRIPTION : Borsa Donna Shopping Bag Versace Jeans Donna Fashion Bag Strass Black Dimensioni:42X25X18CM Materiale:EcoPelle Chiusura a zip -->",
+  "Title": "Borsa Donna Shopping Bag Versace Jeans Donna Fashion Bag Strass Black",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "194.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Bra",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "37317",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "e-bestsale"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "12042",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2016-11-15T11:43:05.000Z",
+  "HitCount": "103",
+  "SecondaryCategoryIDPath": "11450:169291:169292",
+  "EndTime": "2017-06-13T11:43:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "eco-friendly leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Versace Jeans"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Cina"
+      },
+      {
+        "Name": "MPN",
+        "Value": "2200000524478"
+      },
+      {
+        "Name": "UPC",
+        "Value": "2200000524478"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162281517038",
+  "Storefront": {
+    "StoreName": "Looev",
+    "StoreURL": "http://stores.ebay.com/id=438311782"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "SecondaryCategoryID": "169292",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "IT",
+  "SKU": "2200000524478",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzY3/z/iSkAAOSwtZJY9Pep/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Top-Trenz-Inc-Fast-Food-Backpack-/222478682557",
+  "ConvertedCurrentPrice": {
+    "value": "62.34",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! - dimensions 17\"H x 13 W , netting for drink holder on one side - Great for kids of all ages - ships within 24-48 hours of purchase - Guaranteed for any issue up to a year from purchase Top Trenz,Inc Fast Food Backpack",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "62.34",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "17714",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "avalonteam"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Top Trenz,Inc Fast Food Backpack",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T17:12:22.000Z",
+  "HitCount": "59",
+  "TimeLeft": "P14DT17M21S",
+  "EndTime": "2017-06-16T17:12:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Top Trenz Inc"
+      },
+      {
+        "Name": "MPN",
+        "Value": "6793536"
+      },
+      {
+        "Name": "Color",
+        "Value": "Fast Food"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex children"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.25 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 8 x W 5 x H 1 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "FF BP"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222478682557",
+  "Storefront": {
+    "StoreName": "avalonteam",
+    "StoreURL": "http://stores.ebay.com/id=1343696448"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2224786825578080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

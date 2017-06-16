@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/qF0AAOSw-3FZDMLq/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~lkAAOSw~y9ZDMLt/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/BikAAOSwt0FZDMLv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/22cAAOSwblZZDMLz/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/J-World-Pretty-Girl-II-Kids-17-Rolling-Duffel-Bag-/252921689604",
+  "ConvertedCurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "J World Pretty Girl II Kids' 17\" Rolling Duffel Bag Product Details color: Pink gender: Girls model: RFS-023PRETGRL size: 17\"x 10\" x 10\" Made of 600D polyester Recessed, 3-stage locking handle with push button Soft, noiseless wheels for stable and controlled motion Hoop and loop padded handle Detachable and adjustable shoulder strap Kids rolling duffel bag features a front zippered pocket Soft and noiseless wheels J World Pretty Girl II Kids' 17\" Rolling Duffle Bag is made of 600D polyester. It is designed to fit under the airplane seat or overhead compartment and features a hoop and loop padded handle. It features a detachable and adjustable shoulder strap, front zippered pocket and soft, noiseless wheels. The recessed, three-stage locking handle features a push button. This J World Pretty girl ii Kids' 17\" Rolling Duffel makes an ideal gift for little girls who like to travel.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "969",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "rjk2016"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "J World Pretty Girl II Kids' 17\" Rolling Duffel Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T18:22:45.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529216896048080_1.jpg",
+  "TimeLeft": "P2DT1H31M41S",
+  "EndTime": "2017-06-04T18:22:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "RFS-023PRETGRL"
+      },
+      {
+        "Name": "Brand",
+        "Value": "JWorld"
+      },
+      {
+        "Name": "UPC",
+        "Value": "837309203760"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0837309203760"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252921689604",
+  "Storefront": {
+    "StoreName": "rjklrk5",
+    "StoreURL": "http://stores.ebay.com/id=161547717"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "39795271",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,96 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "76227",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This vintage Regent quartz pocket watch has a Japan movement. It is 2 5/8 inches long from the top of the loop to the bottom of the watch. The case is 46mm wide and is in good condition. The crystal has a few light scratches. The case closes tightly. I don't know how to open the watch to get to the battery. I assume it will work with a new battery, but you are buying it \"as is\". Look closely at the photos. Although I've been an ebay member for many years, I've just decided to start selling. My wife has bought and sold for years under the ID illusionjewels, so you can get an idea of our business practices from looking at her feedback. Most of you are probably also familiar with her jewelry resource site \"RCJ\". I ship on Tuesday and Friday. I accept payments from and ship to the US.",
+  "StartTime": "2017-05-28T12:55:51.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQwMFgxMTI0/z/Nb4AAOSwB-1YwEVn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDExMjQ=/z/oGIAAOSwfVpYwEVp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM5MVgxMTI0/z/NyEAAOSwB-1YwEVt/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTQxWDExMjQ=/z/T6sAAOSwXYtYwEVv/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Regent",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Japan Movement",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "illusionjewels",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2073",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630080139788080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T12:55:51.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Regent-Pocket-Watch-Quartz-Automobile-Front-Japan-Movement-S-/263008013978",
+  "Location": "Aubrey, Texas",
+  "Title": "Regent Pocket Watch Quartz Automobile On Front Japan Movement  S",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "263008013978",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT18H20M52S"
+}

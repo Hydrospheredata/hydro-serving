@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kadell-Women-Cross-Body-Shoulder-Bags-Elegent-Handbags-Purse-Satchel-Bag-White-/192144643072?var=",
+  "ConvertedCurrentPrice": {
+    "value": "98.55",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kadell Women Cross Body Shoulder Bags Elegent Handbags Purse Satchel Bag White by Kadell Ships from Local Supplier Other information: KADELLIGIRI2355 Related Searches: Top-Handle Bag Bags, Kadell Bags, Kadell Top-Handle Bag Dimensions: 30.0 x 11.0 x 22.0 centimetres Weight: 0.65 kg",
+  "Title": "Kadell Women Cross Body Shoulder Bags Elegent Handbags Purse Satchel Bag White.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "98.55",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "White",
+        "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/853/615/311566963/original.jpeg"
+      },
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": {
+      "Quantity": "4",
+      "StartPrice": {
+        "value": "98.55",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:139853615:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour Name",
+          "Value": "White"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": "White"
+      }
+    }
+  },
+  "StartTime": "2017-03-31T05:09:20.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P26DT12H51M47S",
+  "EndTime": "2017-06-29T05:09:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kadell"
+      },
+      {
+        "Name": "MPN",
+        "Value": "897898766"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144643072",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139853614:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

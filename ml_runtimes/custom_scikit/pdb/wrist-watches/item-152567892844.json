@@ -1,0 +1,150 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Odessa, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:50:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:50:47.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567892844",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Anne Klein II",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Roman Numerals",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Sterling Silver",
+          "Stainless Steel"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Two Tone",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "10/4775",
+        "Name": "Model"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "New Battery! Light wear! Good Condition!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ANNE-KLEIN-II-10-4775-LADIES-TWO-TONE-BRACELET-BAND-WATCH-New-Battery-/152567892844",
+  "Title": "ANNE KLEIN II 10/4775 LADIES TWO TONE BRACELET BAND WATCH/New Battery!",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525678928448080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "33556",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H39M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZiAAAOSwH09ZLsiJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DI4AAOSw3gJZLsiK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9boAAOSwGJlZLsiM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rxwAAOSwq1JZLsiN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZqEAAOSwH09ZLsiO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rmsAAOSwfpVZLsiQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CLUAAOSw~FJZLsih/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Anne Klein II ladies two tone silver dial water resistant bracelet band watch! Band measures 6.75\". New Battery! Good Condition! Payment through PayPal and shipping within U.S. Only! Thank you!",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "875",
+    "UserID": "teacherlady717",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

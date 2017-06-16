@@ -1,0 +1,137 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "37.99",
+    "_currencyID": "GBP"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263009966189",
+  "TimeLeft": "PT2H36M18S",
+  "ListingStatus": "Active",
+  "Title": "job lot of 100 earrings for pierced ears. Resell, car boot or wear.",
+  "ConditionDescription": "all great condition",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "BR",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "CH",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "CurrentPrice": {
+    "value": "37.99",
+    "_currencyID": "GBP"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "48.94",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-29T17:15:35.000Z",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "GB",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-05T17:15:35.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multi-Coloured",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/job-lot-100-earrings-pierced-ears-Resell-car-boot-wear-/263009966189",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Ormskirk",
+  "Description": "A job lot of 100 pairs of new earrings for pierced ears. Ideal for car boot sale, resell or wear. Thanks for your interest in this item and please see my other items.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630099661898080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kejan28",
+    "FeedbackScore": "450",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMTk0/z/9w4AAOSwOgdYt~mC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc5/z/lKYAAOSw4A5Yt~mb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5M1gxMTgx/z/aeQAAOSwXYtYt~my/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk4/z/aAoAAOSwCU1Yt~nJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NVgxMTk5/z/EskAAOSwB-1Yt~nm/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Mixed Lots",
+  "PostalCode": "L40 4BU"
+}

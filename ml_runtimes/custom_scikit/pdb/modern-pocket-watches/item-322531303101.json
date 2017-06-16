@@ -1,0 +1,62 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "19111",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "They have never been used, the only flaw is one little scratch that is not noticeable unless you want looking for it.",
+  "StartTime": "2017-05-26T23:55:01.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/cEAAAOSwnHZYerhg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/NMAAAOSwa~BYerhv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/c3UAAOSwjDZYerh9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/QsoAAOSw9GhYeriH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODgxWDE0NDE=/z/NgUAAOSwa~BYerid/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ3WDE1MDc=/z/Rp8AAOSw9GhYeri3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg1WDEyOTM=/z/2~0AAOSw5cNYerj1/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "150.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "am_us_pl85i66atw",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "4",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225313031018080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-25T23:55:01.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "150.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Franklin-MinThe-Four-Freedomst-pocket-watches-Wooden-Display-Case-/322531303101",
+  "Location": "Philadelphia, Pennsylvania",
+  "Title": "Franklin MinThe Four Freedomst pocket watches With Wooden Display Case",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322531303101",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT5H19M13S"
+}

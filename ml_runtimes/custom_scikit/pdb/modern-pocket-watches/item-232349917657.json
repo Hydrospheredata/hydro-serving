@@ -1,0 +1,88 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "60420",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "NEW IN BOX- GREAT LOOKING QUARTZ POCKET WATCH-NEEDS NEW BATTERY-BOX HAS SHELF WEAR",
+  "StartTime": "2017-05-26T13:38:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GPIAAOSwcgNZKC8o/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JnoAAOSwH09ZKC8Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gNcAAOSw~FJZKC8k/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Does not apply",
+      "Name": "UPC"
+    }
+  },
+  "Seller": {
+    "UserID": "auctionpro61",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1020",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323499176578080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T13:38:32.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TIMBER-CREEK-POCKET-WATCH-AND-CHAIN-ORIGINAL-BOX-WITH-DEER-STAG-/232349917657",
+  "Location": "Dwight, Illinois",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "TIMBER CREEK POCKET WATCH AND CHAIN IN ORIGINAL BOX-WITH DEER-STAG",
+  "Storefront": {
+    "StoreName": "auctionpro61",
+    "StoreURL": "http://stores.ebay.com/id=75604546"
+  },
+  "ItemID": "232349917657",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT19H2M14S"
+}

@@ -1,0 +1,223 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:43:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1119580425",
+    "StoreName": "intershop26"
+  },
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:43:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Women's Wristwatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Fashionedwatches001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "mesh",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "PO Box"
+  ],
+  "ItemID": "162535959155",
+  "HandlingTime": "2",
+  "Description": "Gold Mesh Quartz Wristwatch Item Type:Quartz WristwatchesDial Diameter:36mmModel Number:1887Case Shape:RoundGender:WomenBand Width:16mmStyle:Fashion & CasualClasp Type:BuckleCase Material:Stainless SteelBand Material Type:Stainless SteelBoxes & Cases Material:No packageMovement:QuartzFeature:NoneWater Resistance Depth:No waterproofDial Window Material Type:GlassBand Length:24cmCase Thickness:9mmGender:Women Ladies Girls Teenager FemaleStyle:Gold Silver Stainless Steel Watch",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Mesh-Quartz-Analog-Metal-Stainless-Steel-Fashion-Womens-Wristwatch-/162535959155?var=",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Face Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White"
+        ],
+        "Name": "Face Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/HY4AAOSw42JZLrjo/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/qVEAAOSwY3BZLrjr/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Face Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H27M46S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/4XQAAOSwCQZZLrjf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/nMwAAOSwfpVZLrji/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/RAkAAOSw-3FZLrjo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/nXgAAOSwfpVZLrjr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/n8kAAOSwq1JZLrjv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/DIgAAOSwAPVZLrjy/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Gold Mesh Quartz Analog Metal Stainless Steel Fashion Women's Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "73",
+    "UserID": "intershop26",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

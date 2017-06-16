@@ -1,0 +1,171 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.07"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Pendant style Pocket watches under our private brand \"ShoppeWatch\" make superb birthday or Christmas gifts, in addition to great wedding and Valentines gifts. They are also ideal for corporate gifts or for the retirement of a long time employee. Here is an example of a pocket watch in a vintage design for anyone that wants the classic look and practicality of a quality quartz movement pocket watch - Silver Case Ladies Style with Small Face - Case Diameter is 1 inch (Approx the size of a Quarter dollar) - Can be worn like a Necklace with a Pendant. Chain Length: 32 inches - ShoppeWatch Brand with Gift box ShoppeWatch Ladies Pendant Pocket Watch Steampunk Necklace Silver Small Face Whi",
+  "StartTime": "2017-04-13T03:00:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sOYAAOSww3tY7uqB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/b-IAAOSwmgJY7uqB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/EmIAAOSwhQhY7uqE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/2BQAAOSw3utY7uqC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDg3/z/2BcAAOSw3utY7uqC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDA0/z/cBYAAOSwmgJY7uqD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/OT0AAOSw4CFY7uqC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MT0AAOSwc-tY7uqC/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "608819525662",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0608819525662",
+        "Name": "EAN"
+      },
+      {
+        "Value": "ShoppeWatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PWQLWH55",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.09 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.86 x W 3.07 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rareearth-83",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "519",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1224446761078080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T03:00:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.07"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ShoppeWatch Ladies Pendant Pocket Watch Steampunk Necklace Silver Small Face Whi",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ShoppeWatch-Ladies-Pendant-Pocket-Watch-Steampunk-Necklace-Silver-Small-Face-Whi-/122444676107",
+  "Storefront": {
+    "StoreName": "rareearth-83",
+    "StoreURL": "http://stores.ebay.com/id=1579234679"
+  },
+  "ItemID": "122444676107",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT8H13M15S"
+}

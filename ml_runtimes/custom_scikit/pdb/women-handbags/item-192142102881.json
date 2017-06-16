@@ -1,0 +1,151 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tignanello-Borough-Vintage-Leather-Mini-Tote-Convertible-Cross-Body-Brand-New-/192142102881?var=",
+  "ConvertedCurrentPrice": {
+    "value": "266.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Top zip, convertible crossbody strap, in a vintage durable leather",
+  "Title": "Tignanello Borough Vintage Leather Mini Tote Convertible Cross Body. Brand New",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "266.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90040",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Juniper",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0113/653/497/249983250/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Sangria",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0113/653/498/249941004/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "266.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:113653497:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Juniper"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "203.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:113653498:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Sangria"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Juniper",
+          "Sangria"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-28T06:28:29.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P23DT14H9M14S",
+  "EndTime": "2017-06-26T06:28:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tignanello"
+      },
+      {
+        "Name": "MPN",
+        "Value": "684597190"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142102881",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "25:113653496:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

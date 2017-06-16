@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "BestOfferEnabled": "false",
+  "TimeLeft": "P21DT12H41M43S",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/9lkAAOSw4A5Yr9Sv/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/BlMAAOSwr~lYr9S7/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-uMAAOSwOgdYr9TE/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Alice-Wonderland-Cartoon-Movie-Theme-Durable-Canvas-Travel-Duffel-Bag-Outdoor-/252785033110",
+  "ConvertedCurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU"
+  ],
+  "Location": "FJ",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2694",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "fancyluckyjane"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Alice in Wonderland Cartoon Movie Theme Durable Canvas Travel Duffel Bag Outdoor",
+  "GlobalShipping": "false",
+  "Quantity": "15",
+  "StartTime": "2017-02-24T06:38:21.000Z",
+  "HitCount": "77",
+  "QuantityThreshold": "10",
+  "EndTime": "2017-06-24T06:38:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Unbranded"
+      },
+      {
+        "Name": "Style",
+        "Value": "Modern"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "574518803502"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252785033110",
+  "Storefront": {
+    "StoreName": "fancyluckyjane",
+    "StoreURL": "http://stores.ebay.com/id=1255800385"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CN",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2527850331108080_1.jpg",
+  "HandlingTime": "5",
+  "QuantityAvailableHint": "MoreThan"
+}

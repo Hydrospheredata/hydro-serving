@@ -1,0 +1,110 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "22602",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Thanks for stopping by! This auction if for a beautiful, vintage Waltham Men's Pocket Watch! The item pictured is the item that you're bidding on - This watch runs well, and the case is in very good condition with normal wear and tear for a vintage item. Please note that face shows some wear on the 3 and 4 numeral side (you can see gold through the face) and a similar mark on the \"6\" numeral - Please see hi-res photos. I am not sure of the service history of the watch, but the interior appears clean (please see photo) and winds, works, runs strong and smooth. The crystal is in good shape and clear. Maker: WalthamJewels: 25Sets: StemWeight: 89 gramsApprox Measurements: 2 3/8\" total height from the base to the top of the extended bail, 2\" (50.6mm) in diameter and 9/16\" (14.4mm) thick I'm happy to answer any questions that you may have regarding this item and please bid with confidence as I offer returns and have a long history of a constant 100% rating. Your satisfaction is imperative to me. I wish you happy bidding and thanks once again for your consideration of our item!",
+  "StartTime": "2017-05-09T16:05:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDcx/z/1EoAAOSw44BYa~6s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDk4/z/o0MAAOSwo4pYa~61/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUyNVgxNjAw/z/zD4AAOSwa~BYa~6w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTE5/z/5C0AAOSw2xRYa~7A/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "135.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Waltham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "2 3/8",
+        "Name": "Measurements"
+      },
+      {
+        "Value": "89 grams",
+        "Name": "Weight"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "grgroup2",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "359",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "175",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322134313828080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T16:05:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "135.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Waltham-Incabloc-Pocket-Watch-25-Jewels-Antimagnetic-10k-Gold-Plate-/332213431382",
+  "Location": "Winchester, Virginia",
+  "Title": "Vintage Waltham Incabloc Pocket Watch 25 Jewels Antimagnetic 10k Gold Plate",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "332213431382",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT21H22M13S"
+}

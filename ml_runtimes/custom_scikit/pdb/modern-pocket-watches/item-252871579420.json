@@ -1,0 +1,103 @@
+{
+  "QuantitySold": "0",
+  "Title": "Franklin Mint Harley Davidson Edge Collector Pocket Watch B11F148 retired",
+  "PostalCode": "81625",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Franklin Mint Harley-Davidson pocket watch excellent condition withstand and new battery put in at shipping time there is some scratches on the back side at the bottom from taking on and off of the stand see picture",
+  "StartTime": "2017-04-16T16:16:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDc5/z/BfYAAOSw3v5YnQyL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/XxUAAOSw4A5YnQyq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/YcoAAOSw4A5YnQzE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/ArAAAOSwWxNYnQ1W/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "64.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Franklin Mint",
+        "Name": "Brand"
+      },
+      {
+        "Value": "B11F148",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Harley Davidson",
+        "Name": "Model"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kimhanson63-1",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "62",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "59",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2528715794208080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T16:16:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "64.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Franklin-Mint-Harley-Davidson-Edge-Collector-Pocket-Watch-B11F148-retired-/252871579420",
+  "ConditionDescription": "was for display only excellent condition",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Craig, Colorado",
+  "Storefront": {
+    "StoreName": "kimhanson63-1",
+    "StoreURL": "http://stores.ebay.com/id=1578701824"
+  },
+  "ItemID": "252871579420",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT21H28M59S"
+}

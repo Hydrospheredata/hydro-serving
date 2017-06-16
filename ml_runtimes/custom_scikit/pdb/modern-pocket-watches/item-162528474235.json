@@ -1,0 +1,170 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.77"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! \"Features: Good workmanship Elegant design with precise quartz movement Dial color in white with arabic numerals in black The back case are smooth without any engravings Removable silvery chain with a clip at the end Retro watch case brings you back to your memory in youth Perfect addition to a formal or casual dressing or collecting Daily water resistance(not for showering and swimming) Case Material: Alloy Chain Material: Alloy Size/Measurements: Case diameter(cm): approx 4.6 Chain length(cm): approx 37.5 Chain width(cm): approx 0.5 Case thickness(cm): approx 1.0 Watch weigt(g): approx 69 Package included: 1* pocket watch 1* watch chain 1* Gift box Please Take Attention: Once you receive the quartz watch: Press the crown at the top of watch, the front plate will open. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. \" - Imported - Precision Japan quartz movement. - High quality alloy case and chain. - Metal Chain Length 320mm,Dial Diameter 48mm. - Use it as a key chain pendant,pure black color,smooth case,perfect to hold it in hand. SwitchMe Pocket Watch Smooth Case Quartz Movement with Belt Clip Chain Black",
+  "StartTime": "2017-05-25T10:52:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/u0sAAOSwaeRZJrdl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/boEAAOSwZKBZJrdl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JfgAAOSwcgNZJrdl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/clcAAOSwfpVZJrdl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/siEAAOSwuMZZJrdm/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "611714970352",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0611714970352",
+        "Name": "EAN"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.3 x W 2.8 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "23",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625284742358080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T10:52:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.77"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SwitchMe Pocket Watch Smooth Case Quartz Movement with Belt Clip Chain Black",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SwitchMe-Pocket-Watch-Smooth-Case-Quartz-Movement-Belt-Clip-Chain-Black-/162528474235",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528474235",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT16H15M12S"
+}

@@ -1,0 +1,113 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "70299801",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hendersonville, North Carolina",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:02:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:02:01.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537478707",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold-tone stainless steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "PPH104",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PK3026X",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "037738064837",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Pulsar Women's PPH104 Gold-tone Stainless Steel Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pulsar-Womens-PPH104-Gold-tone-Stainless-Steel-Watch-/322537478707",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225374787078080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "28791",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H46M53S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg0OTg=/z/yXMAAOSwnONZD86r/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/X7wAAOSwK6RZD86z/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzU0WDU2Ng==/z/1mMAAOSwnONZD891/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Quality Japanese-quartz movement Strong mineral crystal protects watch from excessive wear on dial Case diameter: 15.5 mm Gold-tone-Stainless-steel case; black dial This Pulsar women's gold-tone timepiece has a rounded square, black dial with \"Pulsar\" below 12:00. It features gold-tone stick index markers at all hour positions. There are gold-tone hour, minute and second hands. Bracelet: Gold-tone metal Movement: Seiko Quartz Crystal: Hardlex Crown: Push/Pull Clasp: Jewelers Strap Measurements: 7-1/2\"L x 5mm W Case Measurements: 15 mm L Additional Features: Watch comes packaged in a Pulsar watch box with instruction manual and 3 year warranty information. I have all positive Ebay ratings and plan to keep it that way. I guarantee you will be satisfied or you money refunded less shipping cost. Thanks for looking.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "369",
+    "UserID": "wawesson",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

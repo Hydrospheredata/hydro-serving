@@ -1,0 +1,97 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Elgin Pocket Watch Father Time Gold Fill 21 Jewel Size 16 S/N 23296241 Ca. 1920",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-26T16:48:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzE3/z/wsMAAOSw2GlXJfmd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTI4/z/zscAAOSwY3RXJfmk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTIx/z/8eEAAOSw3mpXJfmr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3MFgxNjAw/z/ppsAAOSwIjNXJfmw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUxOFgxNjAw/z/HLoAAOSwubRXJfm2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzAz/z/8zIAAOSw3mpXJfm6/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "363.86"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1920-1929",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "SKU": "F104 $375",
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726883211618080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T16:48:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "489.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-Pocket-Watch-Father-Time-Gold-Fill-21-Jewel-Size-16-S-N-23296241-Ca-1920-/272688321161",
+  "ConditionDescription": "See Photos. Watch in great working order",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "272688321161",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT22H12M17S"
+}

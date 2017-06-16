@@ -1,0 +1,78 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI5MFg5MDA=/z/LXoAAOSwIaFZLjzF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1Nlg5MDA=/z/S-sAAOSwPh5ZLjyv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3MVg5MDA=/z/5TQAAOSw7GRZLjzY/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Botkier-Valentina-Black-Leather-Backpack-New-/272694526866",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gorgeous Leather backpack! 9.25\" height 11\" length 4\" depth 5\" handle drop 13.5\" strap drop Imported leather Gunmetal hardware Turn lock closure Single arm strap and adjustable double shoulder straps. External back slip pocket and internal zip and multi functional slip pockets Logo lining. Dust bag and extra zipper puller included.",
+  "Title": "NWT Botkier Valentina Black Leather Backpack New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Newport Beach, California",
+  "Seller": {
+    "FeedbackScore": "92",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "newgirl*"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92663",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T04:04:07.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P27DT13H15M22S",
+  "EndTime": "2017-06-30T04:04:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Botkier"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272694526866",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726945268668080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

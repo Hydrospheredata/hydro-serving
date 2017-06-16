@@ -1,0 +1,187 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "48009",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Elgin Deluxe 10K gold filled pock watch with a 17 jewel unadjusted movement. This watch is running and appears to be keeping accurate time. Some normal wear and tear throughout, and also some spotting on the dial.",
+  "StartTime": "2017-05-30T17:01:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzAy/z/cyAAAOSwlndZCL8j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzgxWDE2MDA=/z/DbQAAOSww9xZCL8l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAxWDE2MDA=/z/fWoAAOSw~y9ZCL8m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc1WDE2MDA=/z/fc8AAOSw~y9ZCL8o/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTk3WDE2MDA=/z/SBUAAOSwtGlZCL8p/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDAw/z/nJYAAOSw-3FZCL8s/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM1N1gxNjAw/z/N9kAAOSwt0FZCL8u/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTM0/z/YPEAAOSwuMZZCL8x/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "1940-1949",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Filled",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "L488838",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "10",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Cream",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kurtiscorner",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7131",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023335164138080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T17:01:46.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-Deluxe-10K-GF-Pock-Watch-17-Jewel-Unadjusted-Movement-Keeping-Time-/302333516413",
+  "Location": "Birmingham, Michigan",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Elgin Deluxe 10K GF Pock Watch with a 17 Jewel Unadjusted Movement Keeping Time",
+  "Storefront": {
+    "StoreName": "Birmingham Coin and Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=260695370"
+  },
+  "ItemID": "302333516413",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT22H28M11S"
+}

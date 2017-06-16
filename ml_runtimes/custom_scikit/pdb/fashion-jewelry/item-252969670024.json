@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P26DT13H37M27S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent Condition. Wore 3 or 4 times.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "BR"
+  ],
+  "CurrentPrice": {
+    "value": "34.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252969670024",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNIQUE-DESIGN-Evita-Peroni-Multi-Color-Hair-Clip-French-Clip-Made-France-/252969670024",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "34.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T00:58:12.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T00:58:12.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Evit Peroni",
+        "Name": "Brand"
+      },
+      {
+        "Value": "French Clip",
+        "Name": "Style"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "UNIQUE DESIGN \"Evita Peroni\" Multi-Color Hair Clip/French Clip Made in France",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "I bought this \"Evita Peroni\" Multi-Color Hair Clip from Bloomingdales many years ago and had wore it for only 3 or 4 times. Its bright colors are very beautiful. Its \"overlapping\" design is so unique. You can also wear it in 2 ways (see 2nd and 3rd pictures) for different looks. Approx. Size: 3.75\" long, 1.65\" widest width (diameter of the yellow circle). High quality item of Evita Peroni, but its brand cloth label was no longer on the clip.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529696700248080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "220patty",
+    "FeedbackScore": "89",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6jkAAOSw2ENW7d4N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iCAAAOSwpIdW7d3~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i1QAAOSwoudW7d3v/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wAcAAOSwxp9W7d3S/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5FwAAOSws4JW7d3g/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "PostalCode": "10002"
+}

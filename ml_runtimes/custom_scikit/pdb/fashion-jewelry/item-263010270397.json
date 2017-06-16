@@ -1,0 +1,130 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "k8tlenjams",
+    "FeedbackScore": "715",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P23DT6H34M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "119.49",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "263010270397",
+  "SecondaryCategoryID": "10970",
+  "ConvertedCurrentPrice": {
+    "value": "119.49",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "SecondaryCategoryIDPath": "281:10968:10970",
+  "BidCount": "0",
+  "StartTime": "2017-05-29T21:13:26.000Z",
+  "HandlingTime": "1",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stella-Dot-Getaway-Black-and-Cream-Stripe-BRAND-NEW-BAG-Expandable-/263010270397",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T21:13:26.000Z",
+  "PrimaryCategoryID": "63852",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stella & Dot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Shoulder Bag",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Extra Large",
+        "Name": "Size"
+      },
+      {
+        "Value": "8\"",
+        "Name": "Bag Depth"
+      },
+      {
+        "Value": "15 1/2\"",
+        "Name": "Bag Length"
+      },
+      {
+        "Value": "15\" - Expanded 19.25\"",
+        "Name": "Bag Height"
+      },
+      {
+        "Value": "8.5\"",
+        "Name": "Strap Drop"
+      },
+      {
+        "Value": "Vegan Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Geometric",
+        "Name": "Pattern"
+      },
+      {
+        "Value": "Cream",
+        "Name": "Color 2"
+      }
+    ]
+  },
+  "Title": "Stella & Dot Getaway Black and Cream Stripe ~  BRAND NEW IN BAG, Expandable",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Corona, California",
+  "Description": "Stella & Dot Getaway Bag ~ Black/Cream 100% Authentic ~ Brand New! Have style, will travel. This weekender makes packing a cinch. Expands in a zip for spontaneous shopping. Measurements: 14 1/4\" Height (zipped), 19 1/4\" Height (unzipped) x 15 1/2\" Length x 8\" Depth x 8\" Strap Drop Exterior: Woven fabric with vegan leather trim, front slit pocket, top zipper closure Interior: Pocket with zip closure Lining: Wipeable coral/white print lining Hardware: 9k Plated Gold 2 way versatility: Detachable & adjustable cross body strap included",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630102703978080_3.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "56",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFg2MDA=/z/XhoAAOSwaEhZLI4S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjQ3WDY2Ng==/z/OWoAAOSw-3FZLI45/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDM4WDc1MA==/z/YA4AAOSwaEhZLI44/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ2NA==/z/LpQAAOSwKytZLI40/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjgyWDQ1MA==/z/-ScAAOSw-K9ZLI41/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92883"
+}

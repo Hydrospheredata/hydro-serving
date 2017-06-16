@@ -1,0 +1,530 @@
+{
+  "ReturnPolicy": {
+    "Description": "For all returns, buyers must contact us and follow our return process steps before sending back the item to us. - Items sent back without authorisation will not be processed - Must contact us via our email and describe reason within 30 days of items arrival - The item need to be arrived back here in new, unopened and re-saleable condition. - All accessories/parts must remain in their original packaging - Shipping and handling fees will not be refunded. - Buyer will be responsible for charges where applicable when returning items to us for exchange. - Faulty or Damaged Items will be exchanged if buyers reports the problems within 30 days of item arrival. Please contact us first to obtain return address &return process steps, thanks",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182607221829",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "32050",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "ms.piercing",
+    "FeedbackScore": "9798",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "MsPiercing Store",
+    "StoreURL": "http://stores.ebay.com/id=110351783"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/IZMAAOSwcLxYEscY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/xI4AAOSwXeJYEscY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/R50AAOSw44BYEscY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/46QAAOSwal5YEscY/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "pr_item_16247",
+  "StartTime": "2017-06-05T04:35:01.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "JP",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-Gold-Teal-Blue-Diamond-Nose-Pin-/182607221829?var=",
+  "EndTime": "2017-07-05T04:35:01.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Made From",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "14K white gold",
+          "PictureURL": "http://www.mspiercing.com/admin/SkuImages/201154_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "14K yellow gold",
+          "PictureURL": "http://www.mspiercing.com/admin/SkuImages/201157_1.jpg"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "Small - 1.5mm (.015ct)",
+            "Standard - 2mm (.03ct)"
+          ],
+          "Name": "Diamond Size"
+        },
+        {
+          "Value": [
+            "18 (1.0mm)",
+            "20 (0.8mm)",
+            "22 (0.6mm)"
+          ],
+          "Name": "Gauge (Thickness)"
+        },
+        {
+          "Value": [
+            "14K white gold",
+            "14K yellow gold"
+          ],
+          "Name": "Made From"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "SKU": "pr_sku_201154",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Small - 1.5mm (.015ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "18 (1.0mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201220",
+        "StartPrice": {
+          "value": "59.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Standard - 2mm (.03ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "18 (1.0mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201157",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Small - 1.5mm (.015ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "18 (1.0mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201223",
+        "StartPrice": {
+          "value": "59.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Standard - 2mm (.03ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "18 (1.0mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201155",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Small - 1.5mm (.015ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "20 (0.8mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201221",
+        "StartPrice": {
+          "value": "59.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Standard - 2mm (.03ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "20 (0.8mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201158",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Small - 1.5mm (.015ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "20 (0.8mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201224",
+        "StartPrice": {
+          "value": "59.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Standard - 2mm (.03ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "20 (0.8mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201156",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Small - 1.5mm (.015ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "22 (0.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201222",
+        "StartPrice": {
+          "value": "59.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Standard - 2mm (.03ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "22 (0.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201159",
+        "StartPrice": {
+          "value": "39.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Small - 1.5mm (.015ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "22 (0.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_201225",
+        "StartPrice": {
+          "value": "59.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Standard - 2mm (.03ct)",
+              "Name": "Diamond Size"
+            },
+            {
+              "Value": "22 (0.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            }
+          ]
+        },
+        "Quantity": "40"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MsPiercing",
+        "Name": "Brand"
+      },
+      {
+        "Value": "nose pin (L-shaped)",
+        "Name": "Type"
+      },
+      {
+        "Value": "1/4\" (6mm)",
+        "Name": "Length"
+      },
+      {
+        "Value": "priced and sold individually",
+        "Name": "Option"
+      },
+      {
+        "Value": "Made In USA",
+        "Name": "Option 1"
+      },
+      {
+        "Value": "Genuine Diamond",
+        "Name": "Gem Type"
+      },
+      {
+        "Value": "Teal Blue",
+        "Name": "Diamond Color"
+      },
+      {
+        "Value": "Irradiated",
+        "Name": "Stone Treatment"
+      },
+      {
+        "Value": "Prong Set",
+        "Name": "Gem Setting"
+      },
+      {
+        "Value": "Genuine",
+        "Name": "Gem Creation"
+      },
+      {
+        "Value": "Round",
+        "Name": "Gem Shape"
+      }
+    ]
+  },
+  "Title": "14K Gold Teal Blue Diamond Nose Pin",
+  "TimeLeft": "P29DT13H1M7S",
+  "Location": "West Berlin, New Jersey",
+  "Description": "14K Gold Teal Blue Diamond Nose PinCondition: NewShipping: Same day from NJ, USA (3 pm est cut-of time)Diamond Size: OptionalType: nose pin (L-shaped)Gauge (Thickness): OptionalMade From: OptionalLength: 1/4\" (6mm)Option : priced and sold individuallyOption 1: Made In USAGem Type: Genuine DiamondDiamond Color: Teal BlueStone Treatment: IrradiatedGem Setting: Prong SetGem Creation: GenuineGem Shape: Round",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "480",
+  "PostalCode": "08091"
+}

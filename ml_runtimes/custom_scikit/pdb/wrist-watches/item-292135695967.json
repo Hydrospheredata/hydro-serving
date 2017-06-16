@@ -1,0 +1,118 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "1235.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "950.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921356959678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:00:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "CurrentPrice": {
+    "value": "950.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowAvailable": "true",
+  "EndTime": "2017-06-07T14:00:13.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "Vintage 70's LONGINES CONQUEST Men's Chronograph Watch, in good working order. Manufacturer: Longines Circa: 1970\u2019s Case Diameter: 35mm without crown.Movement Type: Mechanical (Hand-winding) Movement Condition: Running great Band or Bracelet: Aftermarket leather band. Please inspect all pictures and ask all questions before bidding, this watch is being sold as is.",
+  "BuyItNowPrice": {
+    "value": "1235.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135695967",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Longines",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Very Rare Vintage Longines Conquest One Button Chronograph Watch",
+  "ConditionDescription": "The watch runs and keeps time.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Very-Rare-Vintage-Longines-Conquest-One-Button-Chronograph-Watch-/292135695967",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "14",
+  "Location": "Moscow, RU",
+  "TimeLeft": "P6DT22H49M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/p2IAAOSwV0RXuuEo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OVgAAOSwU-pXuuEw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SLgAAOSwZVlXuuE5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3fwAAOSwawpXuuFD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oJgAAOSwdzVXuuFN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hz8AAOSwHoFXuuIi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YJ4AAOSwMtxXuuIr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ipwAAOSwHoFXuuI8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z~0AAOSw0UdXuuJS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/jpoAAOSwHoFXuuJU/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "950.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "330",
+    "UserID": "nestos200002",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

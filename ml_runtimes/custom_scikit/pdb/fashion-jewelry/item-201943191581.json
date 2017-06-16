@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT11H46M43S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "37.49",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201943191581",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DOrlan-Rhodium-Plated-Bracelet-Swarovski-Crystals-7-1-4-Length-/201943191581",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.49",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T02:37:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T02:37:20.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "D'Orlan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lead and Nickel FREE",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "D'Orlan Rhodium Plated Bracelet with Swarovski Crystals - 7 1/4\" Length",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "D'Orlan Rhodium Plated Bracelet with Swarovski Crystals - 7 1/4\" Length. Manufacturing Standards: Made in Canada. Lead & Nickel Free.All crystals are Swarovski crystals. Each crystal is hand set.D'Orlan Plating Standards:Gold Plated items are 22kt gold. Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. To maintain your jewellery always avoid spraying perfumes or working with chemical products while wearing your jewellery.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019431915818080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "Quantity": "10",
+  "Location": "Toronto, Ontario",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M28AAOSw42JZB~Bj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tkEAAOSwdjNZB~Ae/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tskAAOSww9xZB~Ah/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tscAAOSwdjNZB~Al/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qDoAAOSwtGlZB~Ao/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4P2J1"
+}

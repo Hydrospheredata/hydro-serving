@@ -1,0 +1,118 @@
+{
+  "HandlingTime": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "252974623603",
+  "TimeLeft": "P4DT14H26M49S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "ConditionDescription": "Brand New",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "PostalCode": "M5H 1T1",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T00:48:04.000Z",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Authentic Pandora Black Leather Bracelet 6.9\"/17.5cm & Sparking Mickey Charm",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T00:48:04.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "S925 ALE",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Bead",
+        "Name": "Charm Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Authentic",
+        "Name": "Vintage"
+      },
+      {
+        "Value": "6.9\" / 17.5cm",
+        "Name": "Bracelet Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Disney",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Pandora-Black-Leather-Bracelet-6-9-17-5cm-Sparking-Mickey-Charm-/252974623603",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Toronto, Ontario",
+  "Description": "Brand new Authentic Pandora Black Leather Bracelet 6.9\" / 17.5cm & Sparking Mickey Portrait Charm Black Leather Bracelet - No. 590705CBKSparking Mickey Portrait Charm - No. 791795NCK NOTE: ***We No Longer Offer Combined Shipping Rates******We reserved the right to send multiple items in one package*** ***Shipping is sent by Canada Post regular letter mail - we can provide you with a quote for additional shipping costs for tracking, registered, courier, etc. if requested*** If there are any problems with your item(s), please contact us directly. We are always here to answer your questions and to satisfy our customers. Our goal is to earn your positive feedback by providing you with great customer service and a 5 star eBay buying experience",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529746236038080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.7",
+    "UserID": "cybercharms",
+    "FeedbackScore": "236",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDE5WDU3MA==/z/KyMAAOSw5UZY-j2q/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0118/389/291/255679146/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0118/389/291/255679144/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0118/389/291/255679145/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0118/389/291/256223959/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fritzi-aus-Preusen-Womens-Fritzi-aus-Preusen-Marit-2d-Versandkostenfrei-Bei-S-/192144377838",
+  "ConvertedCurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fritzi aus Preu\u00dfen Women's Fritzi aus Preu\u00dfen Marit 2d Versandkostenfrei Bei Shoulder Bag Brown turf by Fritzi aus Preu\u00dfen Ships from UK Supplier Other information: Marit 2D Rucksack - Turf Related Searches: Hobo Bags, Shoulder Bag Dimensions: 18 x 32 x 40 centimeters Weight: 0.8 kg",
+  "Title": "Fritzi aus Preu\u00dfen Women's Fritzi aus Preu\u00dfen Marit 2d Versandkostenfrei Bei S",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T22:46:10.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P26DT6H28M30S",
+  "EndTime": "2017-06-28T22:46:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Fritzi aus Preu\u00dfen"
+      },
+      {
+        "Name": "MPN",
+        "Value": "006013008"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144377838",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:118389291:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

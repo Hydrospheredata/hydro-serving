@@ -1,0 +1,120 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "32.15",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Sheffield",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:23:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "3",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:23:54.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "391800429554",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ROLEX DRIVING WHEEL FOR RATCHET Wheel 1530",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ROLEX-DRIVING-WHEEL-RATCHET-Wheel-1530-/391800429554",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3918004295548080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "S8 8BX",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H4M2S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njc3WDgxMA==/z/QHEAAOSwc-tY2rNe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM4WDgxMQ==/z/cfYAAOSw4CFY2rN~/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "This listing is for one Rolex driving wheel for a 1530, 1570, etc. PayPal or cash on collection. I only post to the UK, unless through ebays global shipping program.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1056",
+    "UserID": "mr.amoscurry",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

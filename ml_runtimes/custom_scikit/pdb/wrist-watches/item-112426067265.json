@@ -1,0 +1,196 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "699.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Apple Valley, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:56:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1055551451",
+    "StoreName": "O&amp;C Classic Treasures"
+  },
+  "CurrentPrice": {
+    "value": "699.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:56:21.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "112426067265",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Concord",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Diamond Accent",
+          "Swiss Made",
+          "Swiss Movement"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "22.5mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "6mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "14-25-0562.S",
+        "Name": "Model"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "More than 23 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "14-25-0562 s",
+        "Name": "MPN"
+      },
+      {
+        "Value": "1176180",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Concord Diamond Watch \"La Scala\" 38 diamonds 14-25-0562 s",
+  "ConditionDescription": "shows signs of wear  , exact item pictured",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Concord-Diamond-Watch-La-Scala-38-diamonds-14-25-0562-s-/112426067265",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124260672658080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "92308",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H41M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTM3WDUyMw==/z/Y8wAAOSwTuJYpPs0/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2MFg3NzY=/z/RcYAAOSw32lYpPqP/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxMFgxMDgw/z/9WAAAOSwr~lYpPrN/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDgwMA==/z/7hcAAOSw3v5YpPsL/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MVgxMDgw/z/bVEAAOSwB-1YpPtm/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/IgIAAOSw4A5YpPun/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjU0WDU0Mw==/z/~mQAAOSw4CFYpPwH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIzWDEwODA=/z/8PwAAOSwWxNYpPxJ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg2WDU3Mw==/z/-kIAAOSwx6pYpPyF/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4ODA=/z/B7wAAOSwax5YpPyq/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "This beautiful diamond encrusted ladies Concord la scala watch would be a perfect gift or a present for your self. featuring 38 diamonds . approx 1/2 kt of diamonds The item is pre owned and does show signs of wear , it is the exact item pictured . This item does not come with the original box .",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "781",
+    "UserID": "danielsauction",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921405126568080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/83YAAOSw4A5Y1-aQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/IKkAAOSwWxNY1-aQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/EwMAAOSwzgBY1-aQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/1CAAAOSw4CFY1-aQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/1A8AAOSw4CFY1-aQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sevilla-Premium-Sun-Leather-Shopper-K-Lined-Colour-Natural-Ecru-Real-Leath-/192140512656",
+  "ConvertedCurrentPrice": {
+    "value": "589.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "'Sevilla - Premium Sun Leather Shopper K Lined Colour: Natural Ecru * Real Leather * by SONNENLEDER Ships from UK Supplier Other information: 10158001A Related Searches: Sonnenleder Bags, Sonnenleder, SONNENLEDER Bags Dimensions: 31.5 x 11.5 x 24.5 centimetres Weight: 1.3 kg",
+  "Title": "'Sevilla - Premium Sun Leather Shopper K Lined Colour: Natural Ecru * Real Leath",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "589.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-26T16:04:25.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P21DT23H44M4S",
+  "EndTime": "2017-06-24T16:04:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "SONNENLEDER"
+      },
+      {
+        "Name": "MPN",
+        "Value": "583095335"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140512656",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:75186811:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

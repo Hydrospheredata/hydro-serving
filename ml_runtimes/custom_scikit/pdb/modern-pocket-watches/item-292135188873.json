@@ -1,0 +1,58 @@
+{
+  "QuantitySold": "0",
+  "Title": "Batman Pocket Watch",
+  "PostalCode": "36107",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Batman Pocket Watch Brand New.",
+  "StartTime": "2017-05-31T03:06:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cqIAAOSwlY1ZLjFA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~LMAAOSwKytZLjKo/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "mike5668",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "250",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921351888738080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-30T03:06:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Batman-Pocket-Watch-/292135188873",
+  "ConditionDescription": "New",
+  "Location": "Montgomery, Alabama",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "292135188873",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT8H33M"
+}

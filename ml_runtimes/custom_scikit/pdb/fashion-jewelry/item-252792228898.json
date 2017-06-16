@@ -1,0 +1,155 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P23DT11H12M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "107.92",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252792228898",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-SOLID-YELLOW-WHITE-GOLD-Twin-Elephant-Toe-Ring-Adjustable-Good-Luck-Band-/252792228898",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "107.92",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-01T01:01:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-29T01:01:32.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Multi-Tone Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Italy",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Band",
+        "Name": "Style"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14K SOLID YELLOW WHITE GOLD Twin Elephant Toe Ring Adjustable - Good Luck Band",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "14K Solid Yellow White Gold Twin Elephant Toe Ring PRODUCT DESCRIPTION\u2022 Material: 100% Real 14K Solid Yellow White Gold\u2022 Width: 8.0mm (0.3\")\u2022 Size: Adjustable\u2022 Avg Weight: 2.0g\u2022 Stamp: 14K\u2022 Retail Price: $270 SHIPPING\u2022 Free gift box included.\u2022 1 - 3 business day processing time.\u2022 Free standard shipping within United States.\u2022 Expedited shipping available within United States.\u2022 International shipping available outside of United States. RETURN POLICY\u2022 Please contact us for return instructions before you return your item.\u2022 All items must be returned in its original condition within 30 days of receipt. Note: Images may be enlarged to show details. Please read description for actual size. RG890",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2527922288988080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "blusom",
+    "FeedbackScore": "3409",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Blusom",
+    "StoreURL": "http://stores.ebay.com/id=1210677440"
+  },
+  "Quantity": "3",
+  "Location": "Los Angeles, California",
+  "HitCount": "73",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTQ3WDU0Nw==/z/~z8AAOSwTuJYth0J/$_57.PNG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "90015"
+}

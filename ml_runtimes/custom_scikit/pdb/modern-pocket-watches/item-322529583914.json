@@ -1,0 +1,145 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "AS",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "WS",
+    "RU",
+    "BA",
+    "CZ",
+    "RS",
+    "UA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "TH",
+    "VN",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "249.0"
+  },
+  "HandlingTime": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTIxWDY5MQ==/z/EHsAAOSwfVpYtbp7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjkxWDkyMQ==/z/Q~AAAOSwr~lYtbr1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDY5MQ==/z/a5AAAOSwr~lYtbxN/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "Quantity": "1",
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "4bargainsandbuys",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1313",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.7"
+  },
+  "StartTime": "2017-05-25T23:23:47.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "AutoPay": "true",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "249.0"
+  },
+  "Title": "Beautiful and elegant Classic gold Pocket Watch, Timepiece with matching chain",
+  "ItemID": "322529583914",
+  "PaymentMethods": "PayPal",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-and-elegant-Classic-gold-Pocket-Watch-Timepiece-matching-chain-/322529583914",
+  "Country": "US",
+  "PostalCode": "94538",
+  "ConditionDescription": "Like new!",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Beautiful and elegant classic gold pocket watch timepiece with matching chain. Save More! Offering FREE Domestic shipping on this item. In great condition, looks elegant, it was tested and works great!! You won't be disappointed, thank you for looking! :-)",
+  "HitCount": "8",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryID": "3938",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225295839148080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-04T23:23:47.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Fremont, California",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "TimeLeft": "P4DT4H47M33S"
+}

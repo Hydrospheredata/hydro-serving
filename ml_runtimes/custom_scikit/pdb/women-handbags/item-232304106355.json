@@ -1,0 +1,120 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323041063558080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/bOEAAOSwVm5Y86mP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0nwAAOSw53NY86mQ/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Travelers-Club-32-2-Wheeled-Duffel-/232304106355",
+  "ConvertedCurrentPrice": {
+    "value": "53.2",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "no file",
+  "Title": "Travelers Club 32'' 2 Wheeled Duffel",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.2",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "129",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mpp-sales"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11223",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-16T17:27:46.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P13DT32M30S",
+  "EndTime": "2017-06-15T17:27:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Travelers Club"
+      },
+      {
+        "Name": "MPN",
+        "Value": "B-86032-010"
+      },
+      {
+        "Name": "Type",
+        "Value": "Travel Totes"
+      },
+      {
+        "Name": "Assembled Product Weight",
+        "Value": "3.6 Pounds"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Size",
+        "Value": "29 - 36 (Large)"
+      },
+      {
+        "Name": "Is Wheeled",
+        "Value": "Y"
+      },
+      {
+        "Name": "Number of Wheels",
+        "Value": "2"
+      },
+      {
+        "Name": "Model",
+        "Value": "B-86032-010"
+      },
+      {
+        "Name": "Theme",
+        "Value": "Rolling Grab Handle"
+      },
+      {
+        "Name": "UPC",
+        "Value": "015272752571"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232304106355",
+  "Storefront": {
+    "StoreName": "mpp-sales",
+    "StoreURL": "http://stores.ebay.com/id=1016289830"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "If you arenot satisfied, return the item for refund.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "DDHLLFHJKJ",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

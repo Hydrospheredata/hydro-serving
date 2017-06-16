@@ -1,0 +1,152 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "06074",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "This is a beautiful gold, color. Fire Department Watch. This beautiful piece of jewelry will make any Firefighter proud.The gift case has the universal Fire Department emblem.The top of the watch is red with gold ,Fire Department Emblem, and a ladder truck.Take a close look at the pictures and see the fantastic detail",
+  "StartTime": "2017-05-24T14:49:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE2NFg5MTY=/z/Ac8AAOSw53NY~Pw-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExNVg4Njc=/z/144AAOSwzqFY~PwW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTE1WDEyMTk=/z/Lo4AAOSwRUhY~Pvf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU2WDczMg==/z/YTYAAOSwN6JY~Pxc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/DKsAAOSwHptY~Pvo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2OFg3NzI=/z/vewAAOSwIWVY~PyE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zToAAOSwE0JY~Pvw/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "3",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Fire Department",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "beesonthemove2014",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "289",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825901170508080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T14:49:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Fire-Department-Pocket-Watch-/182590117050",
+  "Location": "South Windsor, Connecticut",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gold Fire Department Pocket Watch",
+  "Storefront": {
+    "StoreName": "Bees on the Move",
+    "StoreURL": "http://stores.ebay.com/id=197154363"
+  },
+  "ItemID": "182590117050",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT20H11M41S"
+}

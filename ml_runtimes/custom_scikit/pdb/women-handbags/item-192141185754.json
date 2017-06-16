@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921411857548080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzAx/z/~6wAAOSwWxNY2Pc3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzAw/z/~5YAAOSwWxNY2Pc3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjk5/z/HbcAAOSwol5Y2Pc3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzAw/z/DkoAAOSwDKtY2Pc2/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SIX-Summer-Spacious-white-canvas-backpack-bag-black-white-brown-details-4-/192141185754",
+  "ConvertedCurrentPrice": {
+    "value": "73.53",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Stylish and practical - it's good for more than just hiking, this canvas backpack turned stylish accessory is perfect for any ladies who don't like putting everything in their handbags. Whether you're shopping or simply on the go, the broad shoulder straps provide a pleasant wearing feel and the additional pockets on the outside are perfect for storing things that could go missing in the big interior. The striking ikat pattern make it more than just your typical backpack.\u00a0Dimensions: approx. 42 x 29 x 14 cm",
+  "Title": "SIX \"Summer\" Spacious white canvas backpack bag in black-white, brown details (4",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "73.53",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-27T11:27:45.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P22DT19H7M40S",
+  "EndTime": "2017-06-25T11:27:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "SIX"
+      },
+      {
+        "Name": "MPN",
+        "Value": "666016633"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141185754",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:107158790:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

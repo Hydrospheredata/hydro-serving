@@ -1,0 +1,172 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Item Shape \u00ef\u00bc\u0161Round Display Type \u00ef\u00bc\u0161 Analog Case diameter \u00ef\u00bc\u0161 4.5 centimeters Case Thickness \u00ef\u00bc\u0161 1centimeters Chain Material \u00ef\u00bc\u0161 Metal Chain Chain length \u00ef\u00bc\u0161 about 80centimeters Item weight \u00ef\u00bc\u0161 0.055kg Movement\u00ef\u00bb\u00bf \u00ef\u00bc\u0161 Quartz Package Content: 1 x Pocket Watch 1 x Necklace Chain - Large pocket watch ,Case diameter 4.5 CM - A perfect present for friends,families, lovers - With necklace chain, can be a necklace,also a watch - Steampunk style ,quartz movement - Nice for collection Cosplay Game Theme Movie Assassins Creed Quartz Pocket Watch Necklace Chain Men",
+  "StartTime": "2017-05-25T12:56:07.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/tV8AAOSwYlRZJtRq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Vy4AAOSwtGlZJtRq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/FZcAAOSws5pZJtRq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WnkAAOSwxu5ZJtRp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/6CYAAOSwlY1ZJtRq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Vw8AAOSwi7RZJtRq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/81QAAOSwblZZJtRp/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "606825693665",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0606825693665",
+        "Name": "EAN"
+      },
+      {
+        "Value": "KDJ STORE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "KDJ STORE",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.6 x W 1.2 x H 0.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625285812538080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T12:56:07.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.18"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Cosplay Game Theme Movie Assassins Creed Quartz Pocket Watch Necklace Chain Men",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cosplay-Game-Theme-Movie-Assassins-Creed-Quartz-Pocket-Watch-Necklace-Chain-Men-/162528581253",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528581253",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT18H19M15S"
+}

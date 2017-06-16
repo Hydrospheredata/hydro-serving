@@ -1,0 +1,106 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "81047",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Midnight Pocket WatchHandsome and a little bit mysterious, personalized Midnight Pocket Watch is classic with a modern twist, featuring an attractive black finish and matching black face adorned with white Roman numerals. Secured with a sturdy matching chain, this watch is a great keepsake gift for any occasion including graduation, Father's Day, or a special birthday, and is an ideal present for the Best Man or groomsman. The watch features Quartz Movement and measures 1 1/2\" in diameter and includes a 14\" removable chain. Personalize with three lines of up to 15 characters. Please email Personalization details and include Phone # in case I have questions",
+  "StartTime": "2017-05-29T20:41:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/USMAAOSwSlBY3VFE/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "38.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "GC938",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "14\" Removable Chain",
+          "12-Hour Dial",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "White Numbers",
+          "Black"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "1-1/2\"",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shawnlehammi0",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "19",
+    "PositiveFeedbackPercent": "95.2"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825976822778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T20:41:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "38.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Personalized-Midnight-Pocket-Watch-Fathers-Day-Birthday-Graduation-Gift-Elegant-/182597682277",
+  "Location": "Holly, Colorado",
+  "Title": "Personalized Midnight Pocket Watch Fathers Day Birthday Graduation Gift Elegant",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182597682277",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT2H6M42S"
+}

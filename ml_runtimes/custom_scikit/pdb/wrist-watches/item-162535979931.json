@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AR",
+  "TimeLeft": "P29DT21H51M36S",
+  "Location": "Capital Federal, Buenos Aires",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:06:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090425867",
+    "StoreName": "BSASCLOCK"
+  },
+  "SecondaryCategoryID": "57720",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:22.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MABERO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ItemID": "162535979931",
+  "HandlingTime": "5",
+  "Description": "- MABERO WRISTWATCH MANUAL WINDING - 35MM DIAMETER - SWISS - WORKING - RELOJ DE PULSERA MABERO - A CUERDA MANUAL - 35MM DIAMETRO - SWISS - FUNCIONANDO A845 (ml) ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MABERO-WRSITWATCH-MANUAL-WINDING-35MM-DIAMETER-SWISS-/162535979931",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625359799318080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/cKUAAOSwbqpT6mBJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/GpYAAOSwxH1T6mBM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/3LYAAOSw7NNT6mBP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/RAAAAOSwEK9T6mBK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/3OsAAOSw7NNT6mBR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/gMcAAOSwq7JT6mBN/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "MABERO WRSITWATCH MANUAL WINDING - 35MM DIAMETER - SWISS",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "620",
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

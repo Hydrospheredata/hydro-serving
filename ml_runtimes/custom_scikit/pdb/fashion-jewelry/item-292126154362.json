@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "A 10% restocking fee will be deducted from returns.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P15DT21H22M49S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "THis ring is pre-owned and has never been worn.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292126154362",
+  "ConvertedCurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-22T12:28:24.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Signed-Robert-Lee-Morris-Sterling-Silver-18K-Citrine-Ring-Sz-7-/292126154362",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-21T12:28:24.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver, 18K",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925, 18k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Citrine",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Signed?"
+      }
+    ]
+  },
+  "Title": "Signed Robert Lee Morris Sterling Silver, 18K, Citrine Ring Sz. 7",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "New York, New York",
+  "Description": "This auction is for a pre-owned but never worn, Robert Lee Morris Collection (not QVC) sterling silver , 18K gold and citrine ring. The ring is stamped and signed Robert Lee Morris. It is made of polished sterling silver and has a high cabochon citrine stone set in a 18k gold bezel. It is a size 7. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921261543628080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "18",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bIUAAOxyOlhSsdJv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5ycAAMXQVERSsdJ5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2iwAAOxyNo9SsdJ6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zoIAAOxyRhBSsdJ5/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "10012"
+}

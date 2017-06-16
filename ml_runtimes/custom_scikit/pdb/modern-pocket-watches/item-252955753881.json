@@ -1,0 +1,157 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "59801",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "gearshopusa",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1330",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thomas Edison Light Bulb Commemorative Pocket Watch Japanese Movement Black face with gold finish numbers. Gold finish embossed cast metal case with image of a light bulb on front with commemoration to Thomas Edison on the back. Gold finish metal chain. Pocket watch features: second hand, Japanese quartz movement, and gift box.You may be interested in our other eBay listings. Powered by SixBit's eCommerce Solution",
+  "StartTime": "2017-05-24T15:48:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg0WDExMTE=/z/-FIAAOSwHptY~h0W/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwN1g4OTA=/z/gBUAAOSw5UZY~h0P/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEzWDEwMDQ=/z/994AAOSwHptY~h0R/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMwWDEwMjQ=/z/AT4AAOSwWWxY~h0Z/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxOFg4Nzc=/z/bk0AAOSwN6JY~h0U/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2NVg5MDA=/z/xIUAAOSwBOtY~h0N/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/-VsAAOSwHptY~h0d/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Croton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Japanese movement",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "3254-04-2017",
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529557538818080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T15:48:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Thomas-Edison-Light-Bulb-Commemorative-Pocket-Watch-Japanese-Movement-/252955753881",
+  "Location": "Missoula, Montana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Thomas Edison Light Bulb Commemorative Pocket Watch Japanese Movement",
+  "Storefront": {
+    "StoreName": "Gear Shop USA",
+    "StoreURL": "http://stores.ebay.com/id=25903359"
+  },
+  "ItemID": "252955753881",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT21H11M17S"
+}

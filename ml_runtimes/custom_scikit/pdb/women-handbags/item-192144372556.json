@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921443725568080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI3/z/S~YAAOSwCU1Y3Yql/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDEz/z/Wl8AAOSw4CFY3Yql/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDU1/z/pYgAAOSwhQhY3Yqk/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Made-Italy-Fringe-Bag-Shoulder-Bag-Patent-Shopper-Bag-Silver-Shipping-Fre-/192144372556",
+  "ConvertedCurrentPrice": {
+    "value": "142.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Made In Italy Fringe Bag Shoulder Bag Patent Shopper Bag Silver by My-Musthave Ships from UK Supplier Related Searches: My-Musthave Bags, My-Musthave Shoulder Bag, Shoulder Bag Bags Weight: 0.96 kg",
+  "Title": "Made In Italy Fringe Bag Shoulder Bag Patent Shopper Bag Silver. Shipping is Fre",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "142.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T22:45:49.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P26DT6H28M9S",
+  "EndTime": "2017-06-28T22:45:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "My-Musthave"
+      },
+      {
+        "Name": "MPN",
+        "Value": "012567164"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144372556",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:107158663:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

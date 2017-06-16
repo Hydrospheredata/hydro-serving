@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "44.52",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Mainland, China",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:26:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "44.52",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:26:25.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "T-WINNER",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "No waterproof",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705886575",
+  "HandlingTime": "3",
+  "Description": "Product DescriptionDescription: - Stainless steel watch case and watch band makes the watch more durable.- Skeleton dial design reveals your fashionable point of view.- Automatic winding mechanical movement lets you wear the watch anytime.- Color may not appear as exactly as in real life due to variations between the computer monitors and nacked eye color difference. Specification: - Diameter: 44mm - Thickness: 16mm - Length of watch band: 17cm - Band width: 20mm - Movement: Self-winding Mechanical- Watch band: Stainless steell- Watch case: Stainless steel Package included:Specification:- 1 x Mechanical watch- 1 x GMT Cardboard Gift box",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Winner-Classic-Series-Golden-Movement-Inside-Silver-Stainless-Steel-Mens-Skeleto-/172705886575",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727058865758080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H14M28S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTQ4WDU0NA==/z/SekAAOSwjqVZLsMv/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDkwWDU0NA==/z/gXoAAOSws5pZLsKY/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzQ1WDUyMg==/z/FvcAAOSww5hZLsKc/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTE5WDUxOA==/z/j4YAAOSwlndZLsKi/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTE5WDUyMQ==/z/rYwAAOSwBt5ZLsKo/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDMzWDYwNg==/z/M~oAAOSwK6RZLsKt/$_57.PNG?set_id=8800005007"
+  ],
+  "Title": "Winner Classic Series Golden Movement Inside Silver Stainless Steel Mens Skeleto",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16",
+    "UserID": "big_store",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.97"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! 1. CLASSIC series pocket watch is the best gift for your love, seniority or yourself. 2. Elegant design with precise Quartz Antique 3. shows exquisite movement and structure within the watch. 4. Retro watch case brings you back to your memory in youth. 5. Delicate carving shows your special aesthetics. Specification (1 cm=10 mm=0.394 inch) (approximate) Case diameter: 4.6cm approx. Case thickness: 1.4cm approx.(cover included) Case Material: Alloy Chain Length: 35cm approx. (hook included) Chain Material: Alloy Product Dimensions: 4.7 x 4 x 0.9 inches Package included: 1* Pocket watch 1* Chain belt 1* Gift box Take Attention: Once you receive the quartz watch: Press the crown at the top of watch, the front plate will open. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. - 100% Brand New with excellent workmanship - High quality gives you a new classic definition. - A good present for you and your friends - Japanes quartz movement - super gifts Brand Mall Classic Vintage Double Display Roman Numerals Design Case for Quartz",
+  "StartTime": "2017-04-13T02:22:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDg2/z/wqcAAOSw~CFY7uDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDk1/z/VD8AAOSwpkFY7uDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2OVgxNTAw/z/JPcAAOSwmgJY7uDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE4M1gxNTAw/z/THEAAOSwTM5Y7uDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/nHYAAOSwrddY7uDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjUy/z/dzgAAOSwc49Y7uDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JPwAAOSwmgJY7uDi/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "712243491476",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0712243491476",
+        "Name": "EAN"
+      },
+      {
+        "Value": "New Brand Mall",
+        "Name": "Brand"
+      },
+      {
+        "Value": "w67",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.1 x W 3.3 x H 1.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "SD36",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rareearth-83",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "519",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "40",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1224446548878080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T02:22:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.97"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Brand Mall Classic Vintage Double Display Roman Numerals Design Case for Quartz",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-Mall-Classic-Vintage-Double-Display-Roman-Numerals-Design-Case-Quartz-/122444654887",
+  "Storefront": {
+    "StoreName": "rareearth-83",
+    "StoreURL": "http://stores.ebay.com/id=1579234679"
+  },
+  "ItemID": "122444654887",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT7H35M3S"
+}

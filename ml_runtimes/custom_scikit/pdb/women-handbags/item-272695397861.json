@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726953978618080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1M1g4NjA=/z/iC0AAOSwImRYjsUP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1M1g4NjA=/z/QkcAAOSwt5hYjsUR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTg5/z/OqQAAOSw9GhYjsUU/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-Michael-Kors-Rhea-Zip-Medium-Fur-Backpack-Signature-Black-Shearling-/272695397861",
+  "ConvertedCurrentPrice": {
+    "value": "298.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Genuine fur adds a luxurious touch to a laid-back backpack from MICHAEL Michael Kors, designed to slip effortlessly over your shoulders while jet-setting around the globe or just getting around the city. Medium sized bag; 9\"W x 13\"H x 5\"D Interior features 1 zip pocket, 3 open pockets and key clip 2-1/2\"L top handle; 12\"L backpack straps Double compartments with zip closures Exterior features gold-tone hardware, genuine fur trim and 2 front zip pockets Double compartments with zip closures Interior features 1 zip pocket, 3 open pockets and key clip Exterior features gold-tone hardware, genuine fur trim and 2 front zip pockets 2-1/2\"L top handle; 12\"L backpack straps Medium sized bag; 9\"W x 13\"H x 5\"D Additional Details ------------------------------ Department: womens Material type: Leather, fur This item is posted and managed courtesy of Bonanza.com",
+  "Title": "MICHAEL Michael Kors Rhea Zip Medium Fur Backpack (Signature Black/Shearling ...",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "298.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Wayne, New Jersey",
+  "Seller": {
+    "FeedbackScore": "239",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "naboolou"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07470",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-31T16:29:46.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P28DT1H42M34S",
+  "EndTime": "2017-06-30T16:29:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049685488"
+      },
+      {
+        "Name": "brand",
+        "Value": "MICHAEL Michael Kors"
+      },
+      {
+        "Name": "Color",
+        "Value": "Signature Black/Shearling Trim"
+      },
+      {
+        "Name": "Size Type",
+        "Value": "Regular"
+      },
+      {
+        "Name": "Size (Women's)",
+        "Value": "Medium"
+      },
+      {
+        "Name": "ean",
+        "Value": "0190049685488"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272695397861",
+  "Storefront": {
+    "StoreName": "The Digital Cantina",
+    "StoreURL": "http://stores.ebay.com/id=34905868"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Partial refund available within 30 days Buyer pays return shipping.\nInitial shipping costs and 15% restocking fee apply.\nRestocking fees up to 50% will be deducted on items that are not returned new, unused with original packaging and tags attached.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "03-95K6-024Q",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

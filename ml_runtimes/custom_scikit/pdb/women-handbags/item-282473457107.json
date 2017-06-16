@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P8DT4H36M38S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "used for 6months after my daughter was born",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/V0sAAOSwHptY-pyN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/y90AAOSwIWVY-pyn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/pNYAAOSwBOtY-pzA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/EN4AAOSwSypY-pzQ/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Juicy-couture-diaper-bag-/282473457107",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Diaper up for auction used for 6months bag has been just hanging in her room since I stopped using it. She used to put baby doll clothes in it when she didn't have bag for them. Bag does need to be cleaned has some stains in the inside other than that bag is beautiful. If you would like more pics or information just ask....thanks happy bidding",
+  "Title": "Juicy couture diaper bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Greenville, South Carolina",
+  "Seller": {
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "shygrl1980"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "29606",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T20:02:32.000Z",
+  "HitCount": "41",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-10T20:02:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Juicy Couture"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Suede"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282473457107",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824734571078080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

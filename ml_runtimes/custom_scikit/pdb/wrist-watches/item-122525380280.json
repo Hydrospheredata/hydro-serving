@@ -1,0 +1,91 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "LB",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225253802808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:38:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "CurrentPrice": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowAvailable": "true",
+  "EndTime": "2017-06-07T14:38:32.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "PLEASE READ: 1. MY GUARANTEES. I guarantee that all pictures are actual,You will receive what You see. 2. ITEM CONDITION a) Overall cosmetic condition is good with some minor signs of use on crystal and case. b) Any defects not mentioned but visible on pictures will be considered as described. 3. PAYMENT a) I am PayPal verified seller and I accept PayPal only. b) Payment must be made within 4 days. c) Without any contact for 4 days I will open unpaid item dispute. 4. FEEDBACKS a) If You are happy with your item,please leave positive feedback for me and I will leave positive feedback for You. b) If You are not happy with your item,please contact me first before leave negative or neutral feedback.I will do my best to resolve a problem. 5.SHIPPING and HANDLING a) Item will be shipped within 5 business days via Registered Airmail Service after receipt of payment. c) SHIPPING WILL TAKE ABOUT 11-28 BUSINESS DAYS IN MOST CASES,BUT COULD TAKE LONGER DUE TO CUSTOMS CLEARANCE IN YOUR COUNTRY.I AM ALSO NOT RESPONSIBLE FOR ANY CUSTOMS DUTIES,TAXES,ETC IMPOSED BY YOUR COUNTRY. 6.RETURN and REFUND POLICY Accept no Returns Or Refunds",
+  "BuyItNowPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "ExcludeShipToLocation": [
+    "IQ",
+    "IL",
+    "KW",
+    "KZ",
+    "KG",
+    "KH",
+    "LA",
+    "MO",
+    "VN"
+  ],
+  "ItemID": "122525380280",
+  "HandlingTime": "20",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "aproxematly1980's",
+      "Name": "Age"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE SEIKO AUTOMATIC 7005-7001  WATCH  17 JEWELS  1970'S  MADE IN JAPAN",
+  "ConditionDescription": "The watch  working well also date . scratches in case and bracelet  as photos[need polish] and some small dings. .serial no 100735 Japan A .size37mmX43mm  . not tested for water proof.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-SEIKO-AUTOMATIC-7005-7001-WATCH-17-JEWELS-1970S-MADE-JAPAN-/122525380280",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "Location": "Beirut,Lebanon",
+  "TimeLeft": "P6DT23H31M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE3NFgxMDY4/z/KCoAAOSwYIxX9qnS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Bw0AAOSwLF1X9qlk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/o4UAAOSw8gVX6BLb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/pf8AAOSw8gVX6BLq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/pm0AAOSw8gVX6BLs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/rKsAAOSw8w1X6BL0/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "25.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "310",
+    "UserID": "samloub",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

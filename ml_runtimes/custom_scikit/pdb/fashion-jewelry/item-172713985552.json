@@ -1,0 +1,174 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT17H3M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "67.99",
+    "_currencyID": "USD"
+  },
+  "SKU": "25723",
+  "ItemID": "172713985552",
+  "ConvertedCurrentPrice": {
+    "value": "67.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T03:01:32.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Bracelet-Leather-16K-Gold-ID-Bracelet-Rouge-Red-Pink-NWT-/172713985552",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-15T03:01:32.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tory Burch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "2 1/2\" diameter",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Red",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "ID/Identification",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Tory Burch Bracelet Leather 16K Gold ID Bracelet Rouge Red Pink NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Fort Lauderdale, Florida",
+  "Description": "Description Justsellitstore sells both new and previously owned authentic high end designer clothing, shoes and accessories. All previously owned items are in the finest condition and as described. We can resell your items on consignment in our eBay store. Just contact us at through our eBay store justsellitstore. Our commission ranges from 45% of the final selling price. We may be contacted via this page.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727139855528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "justsellitstore",
+    "FeedbackScore": "14284",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Justsellitstore",
+    "StoreURL": "http://stores.ebay.com/id=103329220"
+  },
+  "Quantity": "4",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjM1WDk0OQ==/z/GOwAAOSw3gJZNMmE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM1WDk0OQ==/z/smkAAOSw9OFZNMmF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxOVg5NTA=/z/i6QAAOSwCQZZNMmI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxOVg5NTA=/z/-vcAAOSwPh5ZNMmJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM1WDk0OQ==/z/UjAAAOSwYvFZNMmL/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33327"
+}

@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P28DT8H30M25S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Minor signs of wear. See photos",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Wn4AAOSwlY1ZL1TL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/tFMAAOSwcB5ZL1TN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pBYAAOSwxu5ZL1TX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/o88AAOSwxu5ZL1TQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/IwYAAOSwJH1ZL1TS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/tKwAAOSwcB5ZL1TT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDY2OQ==/z/uhsAAOSwcB5ZL1VR/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lola-Pout-Tote-Quilted-Diaper-Bag-Leather-Trim-Includes-Changing-Pad-/272695940201",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Tote style. Quilted pattern with leather trim and handles. Changing pad included. Satin tie closure. Interior pocket slots and bottle holders. Easy to wipe clean. Water Resistant material.",
+  "Title": "Lola Pout Tote Quilted Diaper Bag With Leather Trim Includes Changing Pad",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Buffalo, New York",
+  "Seller": {
+    "FeedbackScore": "23",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "connors_craft_corner"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "14211",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T23:50:07.000Z",
+  "HitCount": "2",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-30T23:50:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Silver"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon And Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Pout"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272695940201",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726959402018080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,350 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.41",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/4H0AAOSwsXFZLqTr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/lnIAAOSw~FJZLqTx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/flYAAOSwblZZLqT3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IYIAAOSw42JZLqT9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-HAAAOSwjqVZLqUG/$_12.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:11:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "15",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "5.41",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:11:23.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "PO Box"
+  ],
+  "ItemID": "263012803997",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Detective-Boy-Watch-Manifier-Red-Laser-Function-Black-Round-Dial-Wristwatch-/263012803997?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Boy's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "Light",
+          "Manifier Red Laser Function",
+          "magnifying glass"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "082-YW01702",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "5.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01702W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "1",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "5.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01702L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "2",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "5.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01702K",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "3",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "5.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01702N",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "4",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "5.41",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01702D",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "5",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Name": "Pattern"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "1",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/464AAOSw0hlZLqUP/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/jagAAOSw7GRZB5B2/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/oQsAAOSwxu5ZLqUW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/k6UAAOSwlMFZLqUc/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IVoAAOSwK6RZLqUi/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "2",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/uwMAAOSwhvFZB3lQ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/eJoAAOSwONBZB3lS/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dK8AAOSwtGlZB3lh/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/o9MAAOSw8lpZLqUw/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/mX8AAOSw~y9ZB3lM/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "3",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Dy4AAOSwJH1ZLqU0/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/o10AAOSw3gJZLqU3/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/JsAAAOSw-3FZLqU9/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/KjwAAOSwYvFZLqVE/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/SzMAAOSwaeRZLqVL/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "4",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/n4UAAOSwT-FZB3lc/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~wUAAOSwjL5ZB3lW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IxQAAOSwX9FZLqVT/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/c3AAAOSwtGlZB3lW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/oFsAAOSwX61ZB3lP/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "5",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dE8AAOSwtGlZB3le/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/K6IAAOSwYvFZLqVW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/VG4AAOSwPh5ZLqVY/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/D7gAAOSwuMZZB3lZ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~pEAAOSw42JZB3lN/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Pattern"
+    }
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H50M41S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Detective Boy Watch With Manifier Red Laser Function Black Round Dial Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P24DT9H42M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "R21295W\u914d\u6212",
+  "ItemID": "302333865509",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Genuine-Natural-SI-H-Diamonds-Wedding-Match-Band-Ring-Jewelry-/302333865509",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T00:36:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T00:36:33.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Solitaire with Accents",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver 925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "6.5",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "H",
+        "Name": "Diamond Color"
+      },
+      {
+        "Value": "SI-SI3",
+        "Name": "Clarity"
+      },
+      {
+        "Value": "Round Single Cut",
+        "Name": "Cut"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Side Stones"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "0.14ct",
+        "Name": "Total Carat Weight (TCW)"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Genuine Natural SI/H Diamonds Wedding Match Band Ring Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023338655098080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "jewelryhere09",
+    "FeedbackScore": "5056",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "CWD JEWELRY",
+    "StoreURL": "http://stores.ebay.com/id=986265181"
+  },
+  "Quantity": "1",
+  "Location": "\u5e7f\u5dde",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/jO4AAOSwfpVZLfZU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ui8AAOSww5hZLfZz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/iW0AAOSwPh5ZLfZl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ARgAAOSwlMFZLfZs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/smIAAOSwGJlZLfZv/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "511400"
+}

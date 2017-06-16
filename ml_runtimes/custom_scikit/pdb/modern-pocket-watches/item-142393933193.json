@@ -1,0 +1,98 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "QuantitySold": "0",
+  "Title": "SPORT IRULU WATCH QUARTZ",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "34.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Pre -owned,working properly ,used without visible demages ,same as on photo",
+  "StartTime": "2017-05-25T14:32:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI5WDYyMg==/z/Ue8AAOSw4CFY58gv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI5WDYyMg==/z/cpkAAOSwTM5Y58g4/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "MK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Aluminum",
+          "Bronze",
+          "Chrome"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sashristesk-0",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "49",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423939331938080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "34.0"
+  },
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-01T14:32:45.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SPORT-IRULU-WATCH-QUARTZ-/142393933193",
+  "ConditionDescription": "NO MISSING  PARTS OR ANY VISIBLE DEMAGES",
+  "BuyItNowAvailable": "true",
+  "Location": "Ohrid, Ohrid",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142393933193",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT19H55M46S"
+}

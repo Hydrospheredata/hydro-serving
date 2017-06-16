@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P25DT10H56M51S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "650.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "182600930891",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JOHN-HARDY-Silver-Diamond-Pave-Diagonal-Square-Ring-Size-6-/182600930891",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "650.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T01:47:23.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T01:47:23.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "John Hardy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Indonesia",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Indonesia",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "JOHN HARDY Silver Diamond Pave Diagonal Square Ring, Size 6",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "Authentic John Hardy Silver Diamond Pave Diagonal Square Ring Size 6 Pre-owned With Tags Retail: $1195.00 Details: John Hardy Silver Diamond Pave Diagonal Square Ring 0.31 Total Weight The Ring is approximately .5\" wide at widest pointSize 6 Handcrafted in Indonesia Comes with John Hardy Pouch and Cleaning Cloth This is an incredibly beautiful, confortable John Hardy ring. It was purchased as a gift for me from Neiman Marcus and worn a few times. I will include the original tag. I have listed a pair of earrings that will match the ring. Shipping Details: I only ship to PayPal verified addresses within the lower 48 states of the U.S. No post office boxes. Shipping and handling is free and includes insurance and delivery confirmation. You will need to sign for this package upon receipt. The item will be shipped via USPS Priority Mail. I want you to receive your purchase quickly. I typically ship the same day I receive your cleared payment. If the time should fall on a Sunday or Holiday, your package will be shipped the next business day. Payment Details: Payment is due within 24 hours of purchase. PayPal is the only accepted form of payment. PLEASE DO NOT COMMIT TO BUY THIS ITEM IF YOU DO NOT INTEND TO PAY FOR IT!! Returns: I do not accept returns. Other Information: All of my items are from my personal collection and come from a smoke free environment. The ring will come with the original tag, John Hardy pouch and cleaning cloth. Please feel free to email me with questions and/or for additional pictures. Thank you for looking.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826009308918080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.5",
+    "UserID": "islandgirl0_17",
+    "FeedbackScore": "148",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Dallas Cowboy, Texas",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/auoAAOSwZVlXlSCB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wCQAAOSwGvhT1WSj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aAwAAOSwxCxT1WSc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ka8AAOSwVFlT1WSd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K~IAAOSwEK9T1WSf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KlkAAOSwVFlT1WSk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z4AAAOSwENxXlSCh/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000"
+}

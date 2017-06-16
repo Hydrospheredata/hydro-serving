@@ -1,0 +1,79 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "14006",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is an incomplete wristwatch movementPlates measure approx. 13 Linges acrossBalance wheel appears fineDial is extra cleanSold as a parts resource",
+  "StartTime": "2017-04-30T09:05:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDg5MQ==/z/8VgAAOSw3ZRY-qLJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc2WDg5MQ==/z/6bwAAOSwHptY-qLQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.75"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "Seller": {
+    "UserID": "bits-n-pieces-4-u",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1062",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "44",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525305912798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T09:05:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.75"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swiss-Mathey-Tissot-Day-Date-Antique-High-Grade-Wristwatch-/152530591279",
+  "Location": "Angola, New York",
+  "Title": "Swiss Mathey Tissot Day/ Date Antique High Grade Wristwatch",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "152530591279",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P28DT10H28M58S"
+}

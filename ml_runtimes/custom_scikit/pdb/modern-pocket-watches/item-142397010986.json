@@ -1,0 +1,187 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.1"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-05-28T13:42:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDg4/z/F-8AAOSweW5VKQ34/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY3WDExMTc=/z/v-UAAOxy3yNTirOD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxMzgy/z/sucAAOSwBahVKQ4A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM4WDE1MjI=/z/m4UAAOSwEeFVKQ4D/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "divine-bijou",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16512",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423970109868080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T13:42:09.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "0.1"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.1"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Beijing",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fine gift ,Black butler / Kuroshitsuji Sebastian Pocket Watch , with chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fine-gift-Black-butler-Kuroshitsuji-Sebastian-Pocket-Watch-chain-/142397010986",
+  "Storefront": {
+    "StoreName": "Tibetan-crafts-store",
+    "StoreURL": "http://stores.ebay.com/id=676059331"
+  },
+  "ItemID": "142397010986",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT19H7M16S"
+}

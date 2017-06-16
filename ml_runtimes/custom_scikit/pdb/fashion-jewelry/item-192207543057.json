@@ -1,0 +1,149 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT5H28M24S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "IN EXCELLENT CONDITON",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192207543057",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/St-John-Gold-Tone-Dangle-Fashion-Charm-Brooch-/192207543057",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T18:20:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T18:20:08.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "fashion",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "St John Gold Tone Dangle Fashion Charm Brooch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful and extremely detailed St John Dangle BroochDesigned by Marie Gray Gold toneEUC Comes with a velvety dust bag.Size Approx 3\" long All items are carefully inspected and photographed before shipping",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922075430578080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "laurentaylor*s",
+    "FeedbackScore": "2066",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Lauren Taylor&#39;s Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1005195159"
+  },
+  "Quantity": "1",
+  "Location": "USA",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTI4WDEzMjA=/z/kHEAAOSwIaFZNE4m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUzWDcwMw==/z/KnMAAOSwZKBZNE45/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA4WDE0MDg=/z/3RwAAOSwi7RZNE5e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTQ4WDEzMjg=/z/W4EAAOSw1WJZNE5~/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches"
+}

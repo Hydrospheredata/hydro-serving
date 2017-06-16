@@ -1,0 +1,128 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:00:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "5.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:00:27.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "192199914920",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Strada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Strada Watch....Large Black Face w/ Black Band... BRAND NEW in BOX....NEVER USED",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Strada-Watch-Large-Black-Face-w-Black-Band-BRAND-NEW-BOX-NEVER-USED-/192199914920",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921999149208080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "11221",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H26M33S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MVg4MTA=/z/k2UAAOSwZKBZKtYS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzN1g4MTA=/z/F2IAAOSw42JZKtYr/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "ITEM DESCRIPTION: Nice New in Box Strada Watch. Black large face with bland rubber like band. BRAND NEW IN BOX NEVER WORN Stainless Steel BackQuartz battery operatedItem will ship within 24 hours of receipt of payment",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.1",
+    "FeedbackScore": "65",
+    "UserID": "brooklyngirldesigns",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

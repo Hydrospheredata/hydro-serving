@@ -1,0 +1,165 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "North America",
+    "South America",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "LB",
+    "QA",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AT",
+    "DE",
+    "GR",
+    "SE",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "PO Box"
+  ],
+  "QuantitySold": "1",
+  "PostalCode": "NG2 4PP",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "hdjkhdjk1",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8398",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-04-16T02:05:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/En0AAOSwcdRY8tFQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/wTIAAOSwN6JY8tFR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/wToAAOSwN6JY8tFR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Pu4AAOSwRUhY8tFS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/vIYAAOSwBOtY8tFS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ZTkAAOSwvKtY8tFT/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.97"
+  },
+  "HighBidder": {
+    "UserID": "t***0",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "0",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "HK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4894462359914",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462359914",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462359914",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "SKU": "SZUS-HKH1-I035040",
+  "HitCount": "81",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824347603858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.97"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you are not satisfied as you received the item, please return it within 30 days for a replacement or money back. Please contact me before you return i1764.All returned items MUST BE in the original packaging with all components and accessories included.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-15T02:05:09.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/H1-Blue-Heart-Quartz-Movement-Clip-Nurse-Brooch-Fob-Tunic-Watch-Smiley-Face-P6E5-/282434760385",
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "H1 Blue Heart Quartz Movement Clip Nurse Brooch Fob Tunic Watch Smiley Face P6E5",
+  "Storefront": {
+    "StoreName": "hdjkhdjk1",
+    "StoreURL": "http://stores.ebay.com/id=1474754215"
+  },
+  "ItemID": "282434760385",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT7H18M4S"
+}

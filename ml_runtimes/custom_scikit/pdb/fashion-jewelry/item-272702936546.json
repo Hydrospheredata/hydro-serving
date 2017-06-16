@@ -1,0 +1,172 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT18H25M11S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "50.84",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272702936546",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dogeared-Its-Little-Things-Open-Pineapple-Earrings-Gold-Stud-Earrings-/272702936546",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "50.84",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:10:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T09:10:32.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "844923073679",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0844923073679",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Dogeared",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3GE187",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5.87 x W 4.69 x H 0.79 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Dogeared Its The Little Things Open Pineapple Earrings Gold Stud Earrings",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Enjoy the summer sun with the help of these Dogeared\u00c2\u00ae earrings! Pineapple studs. gold-dipped sterling silver. Post back. Imported. Each Dogeared Jewels necklace and bracelet is packaged in a sweet and sturdy gift box. Handcrafted in California. Measurements: Width: 1\u00e2\u0081\"5 in Height: 3\u00e2\u0081\"10 in Weight: 0.1 oz - Items that are handmade may vary in size, shape and color - it's the little things, open pineapple earrings, GD Dogeared Its The Little Things Open Pineapple Earrings Gold Stud Earrings",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727029365468080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "intuii",
+    "FeedbackScore": "10707",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "intuii",
+    "StoreURL": "http://stores.ebay.com/id=1018845053"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDk2/z/ndIAAOSwjqVZNSAM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQyWDE1MDA=/z/yvkAAOSwlMFZNSAL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTQ0/z/AjQAAOSw~y9ZNSAL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MFgxNTAw/z/JvEAAOSw-3FZNSAL/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

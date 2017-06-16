@@ -1,0 +1,153 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Seller",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT21H36M33S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Factory Outlet Direct Supply A brand-new, unused, and unworn item (including handmade items) in the original packaging",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.96",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "142405398563",
+  "ConvertedCurrentPrice": {
+    "value": "31.96",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:51:42.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Perfect-Sale-Crazy-25x27mm-Rhodonite-925-Sterling-Silver-Ring-Size-9-5-AZ624-/142405398563",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T10:51:42.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermosa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Solitaire",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Gemstone",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Rhodonite",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "9.5",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Bleaching",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Perfect Sale Crazy 25x27mm Rhodonite 925 Sterling Silver Ring Size 9.5# AZ624",
+  "ExcludeShipToLocation": [
+    "IN",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AT",
+    "DE",
+    "IT",
+    "CH"
+  ],
+  "Location": "SZ & HK",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424053985638080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.0",
+    "UserID": "lightinthebox2011",
+    "FeedbackScore": "50856",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "Hermosa No.1",
+    "StoreURL": "http://stores.ebay.com/id=1042635246"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/2KAAAOSw4A5Yotm8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/2M8AAOSw4A5Yotm9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nAEAAOSw2gxYotm~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/27EAAOSwax5YotnA/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings"
+}

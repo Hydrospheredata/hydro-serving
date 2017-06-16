@@ -1,0 +1,115 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT17H33M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535360664",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/QVC-Sterling-Silver-Turquoise-Bracelet-7-1-2-LONG-28-91-GRAMS-/222535360664",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:28:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T03:28:57.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "FROM QVC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Statement",
+        "Name": "Style"
+      },
+      {
+        "Value": "Blue Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Compressed Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "7 1/2\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "SILVER",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "QVC Sterling Silver Turquoise  Bracelet 7 1/2\" LONG 28.91 GRAMS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "IT IS ABOUT 7 1/2\" LONG X 3/4\" WIDE TOTAL WEIGHT 28.91 GRAMS OF STERLING SILVER FROM QVC COMES WITH ORIGINAL BOX & POUCH STAMPED 925 IT IS IN EXCELLENT CONDITION",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225353606648080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "radarb69",
+    "FeedbackScore": "6340",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "radarb69",
+    "StoreURL": "http://stores.ebay.com/id=799685768"
+  },
+  "Quantity": "1",
+  "Location": "Saint Louis, Missouri",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bKcAAOSwcLxYIlj9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5gkAAOSwx2dYIlj~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3O4AAOSwImRYIlkK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xscAAOSw5cNYIlkN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cuMAAOSwcUBYIlkQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Rx4AAOSw44BYIlkT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yCwAAOSw5cNYIlkX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ywAAAOSw5cNYIlks/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8TUAAOSwo4pYIlkf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/syEAAOSw4GVYIlkj/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "63110"
+}

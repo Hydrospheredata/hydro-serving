@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921491114808080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/A7QAAOSwpkFY5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyMVgxNTAw/z/XLEAAOSw03lY5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDE4WDE1MDA=/z/9JkAAOSwTM5Y5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE4MFgxNTAw/z/A6YAAOSwpkFY5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc1WDE1MDA=/z/zQQAAOSwB-1Y5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNVgxNTAw/z/S5kAAOSwhQhY5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTgxWDE1MDA=/z/A5oAAOSwpkFY5Mil/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzMFgxNTAw/z/A8IAAOSwpkFY5Mim/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM1WDE1MDA=/z/u4oAAOSw3utY5Mil/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gusti-Leder-studio-Zoey-Genuine-Leather-Handbag-Ladies-Cross-Body-Shoulder-Bag-/192149111480",
+  "ConvertedCurrentPrice": {
+    "value": "99.88",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gusti Leder studio \"Zoey\" Genuine Leather Handbag Ladies Cross-Body Shoulder Bag Casual Vintage Style Dark Red 2H54-33-9 by Gusti Leder studio Ships from UK Supplier Other information: 2H54-33-9 Related Searches: Gusti Leder Studio Bags, Gusti Leder Studio Women', Satchel Bags Dimensions: 27.0 x 18.0 x 6.0 centimetres Weight: 0.42 kg",
+  "Title": "Gusti Leder studio \"Zoey\" Genuine Leather Handbag Ladies Cross-Body Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.88",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-05T10:35:47.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P1DT18H18M58S",
+  "EndTime": "2017-06-04T10:35:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gusti Leder studio"
+      },
+      {
+        "Name": "MPN",
+        "Value": "236149798"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192149111480",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:133843021:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

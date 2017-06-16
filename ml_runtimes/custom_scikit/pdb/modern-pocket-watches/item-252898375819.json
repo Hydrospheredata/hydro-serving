@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.36"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Mudder Vintage Quartz Pocket Watch With Chain Features: Elegant design with precise quartz movement. Dial color in white with arabic numerals in black. Removable bronze chain with a clip at the end. Vintage watch case brings you back to your memory in youth. Good for formal or casual dressing or collecting. Case material: alloy Chain material: alloy Size/ measurements: Case diameter: approx. 4.5 cm (1.8 inches) Chain length: approx. 81 cm (32 inches) Case thickness: approx. 1.0 cm (0.39 inch) (cover included) Watch weight: approx. 47 g Package included: 1 * Pocket watch 1 * Present box Take Attention: Once you receive the quartz watch: press the crown at the top of watch, the front plate will open. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. Half open pocket watch with special designGood for matching clothesLong chain necklace pendantComes with mudder present box",
+  "StartTime": "2017-04-26T10:34:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjA1WDUwMA==/z/IQoAAOSw3ZRZAHeb/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjQ2WDUwMA==/z/IUMAAOSw3ZRZAHed/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjQ2WDUwMA==/z/ossAAOSwJ4hZAHee/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjQ2WDUwMA==/z/6PgAAOSwzqFZAHei/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjQ2WDUwMA==/z/IjIAAOSw3ZRZAHej/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjQ2WDUwMA==/z/IlsAAOSw3ZRZAHek/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTExWDUwMA==/z/-CwAAOSw5UZZAHem/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NjA1WDUwMA==/z/6cYAAOSwzqFZAHen/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mudder",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mudder-Pocket Watch-01",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mudder-Pocket Watch-01",
+        "Name": "Model"
+      },
+      {
+        "Value": "604776882695",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0604776882695",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "32",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2528983758198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:34:18.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "34.36"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Mudder Vintage Quartz Pocket Watch With Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mudder-Vintage-Quartz-Pocket-Watch-Chain-/252898375819",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "252898375819",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT15H48M1S"
+}

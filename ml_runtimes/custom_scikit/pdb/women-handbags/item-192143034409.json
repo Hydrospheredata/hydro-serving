@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Laura-Moretti-Snake-skin-leather-handbag-pompoms-WRISTLET-FLAP-style-/192143034409?var=",
+  "ConvertedCurrentPrice": {
+    "value": "148.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Front zipper closure. Adjustable shoulder strap 110cm. Interior zip pocket. Gold accessories. Strap drop 15 cm.",
+  "Title": "Laura Moretti - Snake skin leather handbag with pompoms (WRISTLET or FLAP style)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "148.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/928/105/312223003/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/928/106/311555539/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "148.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139928105:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Purple"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "122.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139928106:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Yellow"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Purple",
+          "Yellow"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-29T08:17:16.000Z",
+  "HitCount": "36",
+  "TimeLeft": "P24DT15H58M49S",
+  "EndTime": "2017-06-27T08:17:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Laura Moretti"
+      },
+      {
+        "Name": "MPN",
+        "Value": "332101477"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143034409",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139928104:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

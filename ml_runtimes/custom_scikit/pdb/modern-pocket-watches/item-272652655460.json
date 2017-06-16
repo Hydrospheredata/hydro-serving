@@ -1,0 +1,157 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "34983",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "UP FOR SALE IS THIS MAN'S RELIC (by Fossil) SILVER TONE POCKET QUARTZ WATCHIN VERY GOOD CONDITION PLEASE SEE PHOTOS FEEL FREE TO CONTACT US WITH ANY QUESTIONS BEFORE PURCHASE THANK YOU FOR LOOKING!!",
+  "StartTime": "2017-05-01T04:59:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI0WDEzMzY=/z/D~4AAOSwuMZZBr-x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MlgxMTg2/z/EXUAAOSwuMZZBr~F/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI1N1g4MzU=/z/FkgAAOSwcgNZBr~l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODE3WDkwMQ==/z/WyYAAOSwhvFZBr~5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzcyWDEwMjQ=/z/tEsAAOSw~y9ZBsAN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODA4WDEwNjg=/z/qQIAAOSwdjNZBsAd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODA4WDEwNDg=/z/LwUAAOSwnONZBsAs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUyWDk4NA==/z/ZMUAAOSwhvFZBsA~/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Relic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Bronze?",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "1 3/4\" diameter",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "retrotechvintage",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "39",
+    "PositiveFeedbackPercent": "97.6"
+  },
+  "HitCount": "73",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726526554608080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-30T04:59:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MANS-RELIC-by-Fossil-SILVER-TONE-POCKET-QUARTZ-WATCH-/272652655460",
+  "Location": "Port Saint Lucie, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MAN'S RELIC (by Fossil) SILVER TONE POCKET QUARTZ WATCH",
+  "Storefront": {
+    "StoreName": "RetroTechandVintage",
+    "StoreURL": "http://stores.ebay.com/id=1605596243"
+  },
+  "ItemID": "272652655460",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT10H14M9S"
+}

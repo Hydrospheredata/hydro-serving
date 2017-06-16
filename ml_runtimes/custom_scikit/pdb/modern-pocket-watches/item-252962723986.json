@@ -1,0 +1,99 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33544",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "This is a Majestron pocket watch. The original paperwork states the Majesti Watch Company introduces a new signature series timepieces from work of acclaimed wildlife artist Philip Crowe who is a limited edition print artist . This watch was bought over 10-15 years ago to be put into a function silent auction but was misplaced during a move . We just found it and will now put it up here for auction. It is still new with tags and original box. I did bring it to my jeweler to get a new battery and it is keeping perfect time.",
+  "StartTime": "2017-05-28T22:40:35.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyM1gxNjAw/z/-c4AAOSwOgdYpgYp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~csAAOSwOgdYpgZC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hrQAAOSwx6pYpgZa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/NfIAAOSw~AVYpgZ1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/j-wAAOSw2gxYpgbX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-cwAAOSwax5YpgcQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2OFgxNjAw/z/pCgAAOSw2gxYpgc4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/aOUAAOSw~AVYpgdh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/bY4AAOSwfVpYpgfK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6ZAAAOSwx6pYpggq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XbsAAOSwTuJYpgie/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDg3/z/hroAAOSwr~lYpgjz/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.42"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Majestron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "10515",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "hobbitshideaway4",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "23",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529627239868080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-27T22:40:35.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.42"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Restocking fee only applies when it is a buyers error. Any sellers error restocking fee does not apply.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Majesti-New-tags-box-Philip-Crowe-Signature-Series-Pocket-Watch-/252962723986",
+  "Location": "Wesley Chapel, Florida",
+  "Title": "Vintage Majesti New with tags & box Philip Crowe Signature Series Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252962723986",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT4H5M58S"
+}

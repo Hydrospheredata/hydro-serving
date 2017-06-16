@@ -1,0 +1,160 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT12H14M11S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "These pieces have not been worn.  Joan Rivers gift box and warranty card not included.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "eBay Table Basket",
+  "ItemID": "292140571952",
+  "ConvertedCurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T00:01:23.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JOAN-RIVERS-Purple-Gray-Lavender-Glass-Bead-30-Necklace-Bracelet-Set-Gold-Tone-/292140571952",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T00:01:23.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gray, Purple, Lavender",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass, Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Joan Rivers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "JOAN RIVERS Purple Gray Lavender Glass Bead 30\" Necklace Bracelet Set Gold Tone",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Hoschton, Georgia",
+  "Description": "Signed Joan Rivers single strand bead necklace and bracelet set. Gold tone. Hand knotted enamel and glass beads with clear glass spacer beads. The necklace measures approximately 20\" long with a 3\" extender. The bracelet is stretchy measuring approximately 8\" in diameter. The necklace is signed Joan Rivers.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921405719528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "lejardincollection",
+    "FeedbackScore": "920",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Le Jardin Collection",
+    "StoreURL": "http://stores.ebay.com/id=105487069"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2NFgxNjAw/z/GRUAAOSwPh5ZNJyB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/X2sAAOSwCQZZNJpP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/b2cAAOSwJH1ZNJpR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vngAAOSw1WJZNJpV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oxwAAOSwlMFZNJpX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rLcAAOSwrhBZNJpZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/47AAAOSw8lpZNJpb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/M1sAAOSw42dZNJpg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nEsAAOSwKytZNJpj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jwUAAOSwYvFZNJpn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wVoAAOSw5cRZNJyE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A20AAOSwR29ZNJyI/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "30548"
+}

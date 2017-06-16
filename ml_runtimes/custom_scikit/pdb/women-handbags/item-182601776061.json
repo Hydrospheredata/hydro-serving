@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/W68AAOSwH09ZLaT6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/lUUAAOSwblZZLaUY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/RjAAAOSw-K9ZLaV0/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TUMI-GEORGETOWN-FOREST-ATTACHE-CAPPUCCCINO-LAPTOP-CASE-11-25-X-15-X-3-/182601776061",
+  "ConvertedCurrentPrice": {
+    "value": "128.66",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "235.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "TUMI GEORGETOWN FOREST ATTACHE CAPPUCCINO LAPTOP CASE 11.25' x 15\" x 3\". WELL ORGANIZED. LETS YOU CARRY EVERYTHING YOU NEED WITHOUT BEING WEIGHED DOWN. IT FEATURES MULTIPLE INSIDE POCKETS. TOP CARRY HANDLES AND ADJUSTABLE SHOULDER STRAP. ID TAG.",
+  "ConvertedBuyItNowPrice": {
+    "value": "235.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "128.66",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Thousand Oaks, California",
+  "Seller": {
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "jeannettazr0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "128.66",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "91362",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T15:30:01.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P9DT36M46S",
+  "EndTime": "2017-06-11T15:30:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tumi"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182601776061",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Title": "TUMI GEORGETOWN FOREST ATTACHE CAPPUCCCINO LAPTOP CASE 11.25\" X 15\" X 3\"",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826017760618080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

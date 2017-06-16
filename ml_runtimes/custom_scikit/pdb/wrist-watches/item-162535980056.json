@@ -1,0 +1,84 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "DEVON WRISTWATCH \u00a0- \u00a0MANUAL WINDING - 32MM DIAMETER - SWISS - WORKING - \u00a0 \u00a0 RELOJ DE PULSERA DEVON - \u00a0A CUERDA MANUAL - 32MM DIAMETRO - SWISS - FUNCIONANDO\u00a0 L554 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "StartTime": "2017-05-31T13:06:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTIzWDk2Ng==/z/iZQAAOSwPgxVMwvN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTgzWDkzNA==/z/HnwAAOSwPhdVMwvV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk3WDgyNg==/z/KWIAAOSwEeFVMwvb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg5WDk5NA==/z/H74AAOSwPhdVMwvi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE1WDkwMA==/z/IRoAAOSwymxVMwvp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIzWDEwMzc=/z/NTAAAOSwBahVMwvx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMDgz/z/Ne8AAOSwBahVMwv7/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DEVON",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "620",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359800568080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T13:06:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "BidCount": "0",
+  "Country": "AR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Capital Federal, Buenos Aires",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "DEVON WRISTWATCH  -  MANUAL WINDING - 32MM DIAMETER - SWISS -",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DEVON-WRISTWATCH-MANUAL-WINDING-32MM-DIAMETER-SWISS-/162535980056",
+  "Storefront": {
+    "StoreName": "BSASCLOCK",
+    "StoreURL": "http://stores.ebay.com/id=1090425867"
+  },
+  "ItemID": "162535980056",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P29DT14H49M59S"
+}

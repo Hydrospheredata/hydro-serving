@@ -1,0 +1,115 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "West Palm Beach, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:43:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "24.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T12:43:22.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ExcludeShipToLocation": "Africa",
+  "ItemID": "252966883530",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "6530-5080",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Goldtone Seiko Mens Dress Watch 6530-5080",
+  "ConditionDescription": "Very good clean unmarked",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Goldtone-Seiko-Mens-Dress-Watch-6530-5080-/252966883530",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529668835308080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "33401",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT21H27M38S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTQw/z/JvsAAOSwZVlXiFoP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTY5/z/KlgAAOSwtnpXiFoV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4MlgxNjAw/z/TdEAAOSwdzVXiFod/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NlgxNjAw/z/TmAAAOSwdzVXiFol/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzNlgxNjAw/z/Y1MAAOSw6WdXiFos/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Pre-Owned Goldtone Seiko Mens Dress Watch 26mm wide x 33mm lug to lugBeautiful watch & braceletCaseback reads: SEIKO SGP ST.STEEL BACK6530-5080 RO JAPAN F 350973.*****(Very Good Condition)***** Recently serviced and keeping good time.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "172",
+    "UserID": "pbtp",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

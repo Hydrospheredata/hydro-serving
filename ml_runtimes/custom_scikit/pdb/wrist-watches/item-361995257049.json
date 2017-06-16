@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pittsburg, Kansas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:22:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=30732450",
+    "StoreName": "dollys-treasures"
+  },
+  "CurrentPrice": {
+    "value": "2.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:22:52.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995257049",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "GENEVA LADIES QUARTZ WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GENEVA-LADIES-QUARTZ-WATCH-/361995257049",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619952570498080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "66762",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H10M29S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI5Mlg1NTg=/z/daYAAOSw3gJZJULm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H40AAOSww9xZJULv/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Geneva Ladies Quartz Watch Water Resistant Stainless Steel Back Item 316 Please Add us to your Favorites List Please Look at our other items",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "23393",
+    "UserID": "dollys-treasures",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

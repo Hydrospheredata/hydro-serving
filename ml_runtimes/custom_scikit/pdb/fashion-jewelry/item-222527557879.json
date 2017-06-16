@@ -1,0 +1,181 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "222527557879",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "PostalCode": "33442",
+  "ConvertedCurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "PrimaryCategoryID": "10970",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225275578798080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "pegstreasure",
+    "FeedbackScore": "2672",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Treatyourselfa lil",
+    "StoreURL": "http://stores.ebay.com/id=870495839"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTUw/z/WzkAAOSwgZ1XtgPb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UwMAAOSw6n5XtgO5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NzQ=/z/Wt0AAOSw65FXtgPC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTY=/z/fiIAAOSwIgNXtgPJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TP4AAOSw9NdXtgO8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDA4/z/DIUAAOSw-itXtgPA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTQ=/z/cC4AAOSwMtxXtgPL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/83EAAOSwHoFXtgPG/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "SKU": "8/2016",
+  "StartTime": "2017-05-29T01:23:30.000Z",
+  "Charity": {
+    "CharityName": "Bright Pink NFP",
+    "CharityID": "42108",
+    "Mission": "Bright Pink is the only national non-profit organization dedicated to the prevention and early detection of breast and ovarian cancer in young women. It's mission is saving women's lives from breast and ovarian cancer by empowering them to live proactively at a young age.",
+    "Status": "Valid",
+    "CharityNumber": "33862",
+    "DonationPercent": "10.0",
+    "LogoURL": "http://i.ebayimg.com/00/s/NjYxWDE2MDA=/z/0aQAAOSwIQdZHrTK/$_1.JPG?set_id=8800005007"
+  },
+  "ConditionDescription": "Very Nice",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "11",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HEARTS-LOVE-Mixed-Jewelry-Lot-Vintage-Now-Necklaces-Bracelets-Earrings-a26-/222527557879",
+  "EndTime": "2017-06-08T01:23:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Assorted",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Assorted",
+        "Name": "Material"
+      },
+      {
+        "Value": "Necklaces, Bracelets, Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "HEARTS LOVE Mixed Jewelry Lot \u2022Vintage-Now\u2022 Necklaces*Bracelets*Earrings  a26",
+  "TimeLeft": "P2DT10H43M4S",
+  "Location": "Deerfield Beach, Florida",
+  "Description": "HEARTS and LOVE Themed Assorted Jewelry Mix includes Necklaces, Earrings and Bracelets &/or others as shown in photos \u2022 Items may include vintage to current pieces \u2022 Very Nice Condition Please;View all photos for fuller descriptionHappy to Combine Shipping - please request invoice Before paying to receive this discountContact me Before and After with Any QuestionsTHANK YOU FOR CHOOSING TO SHOP FROM pegstreasure",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "Quantity": "1"
+}

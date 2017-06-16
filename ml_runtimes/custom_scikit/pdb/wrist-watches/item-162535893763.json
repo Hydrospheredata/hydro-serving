@@ -1,0 +1,161 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Secaucus, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:47:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1589842190",
+    "StoreName": "sotglobalcorp"
+  },
+  "CurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:47:30.000Z",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "Africa",
+    "Southeast Asia",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "BH",
+    "IQ",
+    "IL",
+    "LB",
+    "OM",
+    "YE",
+    "PO Box"
+  ],
+  "ItemID": "162535893763",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MK6151",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "MK6151",
+        "Name": "Model"
+      },
+      {
+        "Value": "38mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "0696746261425",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors MK6151 Women's Gold-tone Stainless Steel Brown Dial Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-MK6151-Womens-Gold-tone-Stainless-Steel-Brown-Dial-Quartz-Watch-/162535893763",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625358937638080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "07094",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H29M3S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyN1g3NDE=/z/E6kAAOSwDiBZLqnT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/7i4AAOSw~FJZLqnA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/z1sAAOSwblZZLqnC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/JNoAAOSwn-tZLqnE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/mM4AAOSw-3FZLq0v/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Michael KorsMichael Kors MK6151 Women's Brown Dial Quartz Watch EAN696746261425MODELMK6151 GENDERLADIESGLASSSCRATCH RESISTANT MINERAL COLOURTORTOISE SHELLCASE WIDTH38MMCASE MATERIALGOLD-TONE STAINLESS STEELCASE COLOURGOLDSTRAP TYPEMETAL BRACELETSTRAP COLOURGOLD-TONE STAINLESS STEEL WITH TORTOISE-SHELL ACETCLASP TYPEDEPLOYMENT BUCKLEDIAL COLOURBROWN IN TWO SHADESMOVEMENTQUARTZWATER RESISTANCE10 ATM / 100 METRESWARRANTY2 YEARS SELLER LIMITED WARRANTY",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "sotglobalcorp",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

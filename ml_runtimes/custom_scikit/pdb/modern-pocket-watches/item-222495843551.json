@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91505",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-02T01:27:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg3Njc=/z/xCQAAOSwFqJWlwGD/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Disney Channel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "guitar49orange",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3466",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "49",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2224958435518080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T01:27:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Disney-Channel-Quartz-Clip-on-Belt-Pocket-Watch-Japan-Movement-Box-/222495843551",
+  "Location": "Burbank, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Disney Channel Quartz Clip-on Belt Pocket Watch Japan Movement with Box",
+  "Storefront": {
+    "StoreName": "Glen s This and That Shoppe",
+    "StoreURL": "http://stores.ebay.com/id=71932155"
+  },
+  "ItemID": "222495843551",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT6H41M57S"
+}

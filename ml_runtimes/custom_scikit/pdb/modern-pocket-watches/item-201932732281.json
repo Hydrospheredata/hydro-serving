@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "28630",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "I have a Silver NYFD Pocket Watch This is a Silver Quartz Watch with a white face. It is a solid watch design and measures 2 inches round, and a 14 inch Pocket Watch Chain... I designed it with a pewter pin and flag design badge... comes in a Black Velvet Gift Bag, and foil gift box... These are one of a kind design and are limited",
+  "StartTime": "2017-05-22T16:20:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEyWDU3MA==/z/IJ8AAOSw65FXq9sD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU3WDU3MA==/z/TycAAOSwawpXq9r2/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Firefighter",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "oldtimeytreasuresforyou",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "276",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019327322818080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T16:20:54.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Firefighter-Pocket-Watch-N-Y-F-D-Silver-/201932732281",
+  "Location": "Granite Falls, North Carolina",
+  "Title": "Firefighter  Pocket Watch N.Y.F.D. (Silver)",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "201932732281",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT21H42M27S"
+}

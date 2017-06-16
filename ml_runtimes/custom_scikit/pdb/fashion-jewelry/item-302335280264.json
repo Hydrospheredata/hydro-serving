@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "Description": "RETURNS are accepted ONLY if the item is different from description. Read well all the size details, the pictures are bigger than reality.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT16H35M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "302335280264",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hair-Pin-Barrette-Swarovski-Crystals-Wedding-White-Silver-Costume-Jewelry-NEW-/302335280264",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T03:58:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T03:58:33.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Barrette",
+        "Name": "Style"
+      },
+      {
+        "Value": "Swarovski",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Hair Pin Barrette Swarovski Crystals Wedding White Silver Costume Jewelry - NEW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Hair Pin Barrette White Swarovski Crystals - NEWCostume Jewelry 3.5\" long - 1\" wide, white crystalsShinny Silver color - does not oxidize - good qualityNew in Gift Box - Ships Free next dayFor Special Packaging Gift, please write me, I am happy to help free of charge",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023352802648080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "artsimlys",
+    "FeedbackScore": "459",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "New Hyde Park, New York",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/gHIAAOSwH09ZL5Ar/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk1WDE2MDA=/z/AZ0AAOSwfRdZL5Am/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MFgxNjAw/z/iQcAAOSw-K9ZL5Ao/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "11040"
+}

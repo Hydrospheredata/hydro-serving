@@ -1,0 +1,182 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "232354970206",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ConvertedCurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "43205",
+  "ExcludeShipToLocation": [
+    "IT",
+    "MX",
+    "NG",
+    "SO",
+    "YE"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "findingking",
+    "FeedbackScore": "578739",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "GreenShooting"
+  },
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/GoYAAOSw-K9ZLlm9/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "QU-QG666-10",
+  "StartTime": "2017-05-31T05:50:47.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Fancy-Link-Anklet-Chain-Jewelry-/232354970206?var=",
+  "EndTime": "2017-06-30T05:50:47.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "7.25\"",
+          "9\"",
+          "10\""
+        ],
+        "Name": "Chain Length"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "76416",
+        "StartPrice": {
+          "value": "44.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "7.25\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "19"
+      },
+      {
+        "SKU": "76417",
+        "StartPrice": {
+          "value": "44.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "9\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "18"
+      },
+      {
+        "SKU": "76415",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10\"",
+            "Name": "Chain Length"
+          }
+        },
+        "Quantity": "11"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "925 sterling",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "lobster claw",
+        "Name": "Clasp Type"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "fancy double link",
+        "Name": "ChainType"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "polished",
+        "Name": "Finish"
+      },
+      {
+        "Value": "FindingKing",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Fancy Link Anklet Chain Jewelry",
+  "TimeLeft": "P24DT20H24M33S",
+  "Location": "Mesa, Arizona",
+  "Description": "--> FindingKing Sterling Silver Fancy Link Anklet Chain Jewelry Chain LengthApproximate LengthApproximate WeightApproximate Width10\"254mm6.092 grams 7.25\"184.15mm4.55 grams 4.5mm9\"228.6mm5.248 grams All weights and measurements are approximate.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "48",
+  "PostalCode": "85215"
+}

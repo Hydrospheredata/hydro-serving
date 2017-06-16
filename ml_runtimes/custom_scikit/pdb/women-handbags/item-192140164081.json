@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921401640818080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/1doAAOSwc-tY1zGO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/~OIAAOSw32lY1zGO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/rvcAAOSwB-1Y1zGO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/QNsAAOSwzgBY1zGN/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/QPcAAOSwzgBY1zGO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/QGUAAOSwsW9Y1zGO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/P7sAAOSwuLZY1zGO/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Banuce-Mens-Genuine-Leather-Shoulder-Bag-Size-M-Huge-Saving-/192140164081",
+  "ConvertedCurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This shoulder bag used ltalin cowhides leather. Main Feature 1. Shoulder strap is adjustable2. Ykk zipper closure3. Customised gun metal colour hardware.4. two sizes for your choose.Specification:Size Medium: 9.2*2.2*28cm Exterior:1. Front wall with a horizontal zipper closure compartment.2. Back wall with a horizontal zipper closure compartment. Interior:1. Front wall with 2 split pockets, for cell phone; cigarette case storage.Back wall with 1 zipper closure compartment, for small things storage.",
+  "Title": "Banuce Men's Genuine Leather Shoulder Bag Size M. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-26T03:12:10.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P21DT10H51M27S",
+  "EndTime": "2017-06-24T03:12:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Banuce"
+      },
+      {
+        "Name": "MPN",
+        "Value": "526447297"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140164081",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:61970222:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

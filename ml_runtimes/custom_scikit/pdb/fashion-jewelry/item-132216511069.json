@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "Description": "items must be returned in its original condition within 7 working days, we will refund full money without deduction any restocking fee, if we recieve the item in its original condition",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "132216511069",
+  "TimeLeft": "P6DT23H17M7S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Serling-Silver-Flower-Design-Zircon-Necklace-Made-Sterling-Silver-/132216511069",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T11:31:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T11:31:32.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "gleam jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Collar",
+        "Name": "Style"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "silver",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "zircon",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Serling Silver Flower Design Zircon Necklace Made With Sterling Silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322165110698080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "gleam_jewels",
+    "FeedbackScore": "464",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Gleam jewels",
+    "StoreURL": "http://stores.ebay.com/id=324281901"
+  },
+  "Quantity": "1",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/6xwAAOSwYIxX6Pj-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JIYAAOSw8gVX6PkD/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "302003"
+}

@@ -1,0 +1,74 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "62234",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vtg Remington railroad quartzarama gold plated pocket watch with train on dial and on back. Measures 1 5/8\" W x 2\" T. Made in Hong Kong. Requires a battery. Have not put battery in, don't know if runs or not.",
+  "StartTime": "2017-05-17T22:34:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5MVgxNjAw/z/U6cAAOSwA3dYeouz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDI3/z/HTUAAOSwImRYeovM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMyNFgxNjAw/z/5uAAAOSwopRYeovi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4N1gxNjAw/z/kAIAAOSwt5hYeov5/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Remington",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "beev1010",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "88",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322252553578080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T22:34:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vtg-Remington-Quartzarama-Railroad-Train-Pocket-Watch-/332225255357",
+  "Location": "Collinsville, Illinois",
+  "Title": "Vtg Remington Quartzarama Railroad Train Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "332225255357",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT3H54M51S"
+}

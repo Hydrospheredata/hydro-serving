@@ -1,0 +1,69 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Haddonfield, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:41:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=473045",
+    "StoreName": "thebarefootjeweler"
+  },
+  "CurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:41:58.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074219180",
+  "HandlingTime": "3",
+  "Description": "Ladies' Ebel Classic Wave - Stainless Steel w/ Gold Accents Track Page Views With Auctiva's FREE Counter",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Ebel-Classic-Wave-Stainless-Steel-w-Gold-Accents-/352074219180",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520742191808080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "08033",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H35M15S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDEyODA=/z/0U0AAOSw~uhUoxhc/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Ladies' Ebel Classic Wave - Stainless Steel w/ Gold Accents",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6062",
+    "UserID": "thebarefootjeweler",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We believe you will be thrilled with this item when you receive it.   If you are not absolutely thrilled you may return it for a Refund (-20% for restocking fees - s/h/i not included)    Just email us for an RMA#.   Thanx"
+  }
+}

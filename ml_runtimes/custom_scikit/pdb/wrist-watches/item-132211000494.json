@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "36.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "West Bloomfield, Michigan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:11:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=13742841",
+    "StoreName": "The Razor Company"
+  },
+  "CurrentPrice": {
+    "value": "36.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T13:11:29.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132211000494",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Smith & Wesson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SPEC OPS-2",
+        "Name": "MPN"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Smith & Wesson SWWSO2 Wesson Special Ops Watch/Knife set Great Father's Day Gift",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Smith-Wesson-SWWSO2-Wesson-Special-Ops-Watch-Knife-set-Great-Fathers-Day-Gift-/132211000494",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322110004948080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "48322",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT21H57M30S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODUwWDM0Mw==/z/23QAAOSw5cRZJcZE/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": ".Stock photoActual item may differ slightly from picture (Please check listingTitle/Description for fit, color and size information.)Comes in Very Nice gift tinSmith & Wesson SWWSO2 Wesson Special Ops Watch/ Knife Combo W/ A Sw5Tbs ExtSmith & Wesson Special Ops Watch/Knife Combo. Includes a SW5TBS ExtremeOps Linerlock and a Spec-Ops Diver Wristwatch. Black face with white numerals. Black rotating bezel and case with stainless back. Second hand and date. Black nylon wrist band with integrated compass. Waterproof to 300 Foot.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "577",
+    "UserID": "1999m300",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns accepted on merchandise in same condition sold in, with packaging and all materials (iff applicable), if the item is found to be defective.  Please email us to get an RA number for any returns."
+  }
+}

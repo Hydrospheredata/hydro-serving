@@ -1,0 +1,95 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "91423",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Silver Tone Pocket Watch & chainWorks!Quartz Japan Movement White Face Black HandsRoman Numerals16\" Silver Tone Chain including clip1\" Face including Bezel",
+  "StartTime": "2017-05-05T22:52:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/JaQAAOSwFnFWDaYI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Jd0AAOSwFnFWDaYK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/z~EAAOSw42JWDaYL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/40gAAOSw4HVWDaYO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/420AAOSw4HVWDaYP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/46oAAOSw4HVWDaYR/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Roman Numerals",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "patchworks55555",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "301",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917761518538080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T22:52:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-watch-chain-Silver-Tone-Roman-Numerals-Quartz-Pincharming-Works-/391776151853",
+  "Location": "Sherman Oaks, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket watch chain Silver Tone Roman Numerals Quartz Pincharming Works!",
+  "Storefront": {
+    "StoreName": "Bless This Happy Home",
+    "StoreURL": "http://stores.ebay.com/id=1105873400"
+  },
+  "ItemID": "391776151853",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT4H8M27S"
+}

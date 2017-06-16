@@ -1,0 +1,238 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Douguyan-Girls-Mini-Canvas-Everyday-Purse-Crossbody-Shoulder-Bag-Fashion-Messen-/192151489239?var=",
+  "ConvertedCurrentPrice": {
+    "value": "51.38",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: -- Model Name: E00156 -- Three colours available -- Length: 25cm, Width: 8cm, Height: 25cm -- 0.4 kg -- Canvas Material -- Front zip pocket -- Adjustable shoulder strap -- Zipper closure -- Internal slip pocket -- Internal back wall zip pocket -- Back zip pocket -- Fully lined Notes: 1. Due to the lighting effect and other factors, actual colours may differ slightly form what it shows in the picture. 2. Due to manual measurement, please allow 1-3 cm error. 3.Hand wash only.",
+  "Title": "Douguyan Girl's Mini Canvas Everyday Purse Crossbody Shoulder Bag Fashion Messen",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.38",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0111/741/301/248101798/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0111/741/302/248106867/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "155 White",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0111/741/303/248109991/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "155 Blue",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0111/741/304/248091539/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "155 Orange",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0111/741/305/248101690/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0111/741/306/248115678/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "51.38",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:111741301:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:111741302:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "White"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:111741303:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "155 White"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:111741304:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "155 Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:111741305:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "155 Orange"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:111741306:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Orange"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Blue",
+          "White",
+          "155 White",
+          "155 Blue",
+          "155 Orange",
+          "Orange"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-07T19:07:17.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P4DT2H51M59S",
+  "EndTime": "2017-06-06T19:07:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Douguyan"
+      },
+      {
+        "Name": "MPN",
+        "Value": "130104148"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151489239",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:111741300:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

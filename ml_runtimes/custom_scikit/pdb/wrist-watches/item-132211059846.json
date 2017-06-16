@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1650.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Homestead, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:25:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1650.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:25:34.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132211059846",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Cartier Panthere",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "1650.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Cartier-Watch-SS-18k-Panthere-2-Row-Quartz-/132211059846",
+  "Title": "Vintage Cartier Watch SS/18k Panthere 2 Row Quartz",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322110598468080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33030",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H16M54S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODY0WDU0NA==/z/N0wAAOSw5cNYkPSb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY0WDQ4OQ==/z/qowAAOSw4DJYkPSr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY0WDUzNA==/z/rs4AAOSwUKxYkPS6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY0WDUyMg==/z/Gn8AAOSwNnRYkPT3/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage Cartier Panthers 2 row. Stainless and 18k. Minor signs of wear. Quartz, Swiss made. Or Etacier, #183949. #9051853",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "22",
+    "UserID": "palmer1948",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

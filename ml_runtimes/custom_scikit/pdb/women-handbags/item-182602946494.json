@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQxOFgxNjAw/z/8QcAAOSwcgNZBLGf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/e2YAAOSw~y9ZBLGi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTg2/z/Y7EAAOSww9xZBLGk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjQ2/z/zV0AAOSw-3FZBLGm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDA4/z/ZJ0AAOSww9xZBLGo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTk4/z/UhcAAOSwuMZZBLGr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU1NFgxNjAw/z/7b4AAOSw42dZBLGu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UpIAAOSwuMZZBLGv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Zl4AAOSww9xZBLGy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LO8AAOSwlndZBLG2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM0NlgxNjAw/z/xekAAOSwjL5ZBLG4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/U8cAAOSwuMZZBLG8/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-LOEWE-HERITAGE-LEATHER-TOTE-BAG-BLACK-/182602946494",
+  "ConvertedCurrentPrice": {
+    "value": "390.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Brand: LOEWE\u00a0 Model:\u00a0 \u00a0HERITAGE TOTE BAG \u00a0leather black. \u2028 Size:\u00a028.5 x 26 x \u00a08.5\u00a0cm \u00a0 \u00a0 \u00a011\"x 10\"x 3 1/2\" 695 g\u00a0 Comes With:\u00a0 N/A \u2028 Condition:\u00a0 It has wrinkles,\u00a0scratches on corners\u00a0and metal prats. Signs of used but in good shape.",
+  "Title": "AUTHENTIC LOEWE HERITAGE LEATHER TOTE BAG BLACK",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "390.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Boston, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "264",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "anantic15"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02115",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T08:47:52.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P29DT18H16M12S",
+  "EndTime": "2017-07-02T08:47:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Loewe"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182602946494",
+  "Storefront": {
+    "StoreName": "anantic15",
+    "StoreURL": "http://stores.ebay.com/id=1346269493"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826029464948080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

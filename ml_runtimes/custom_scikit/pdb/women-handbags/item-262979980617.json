@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/Njk1WDYyNw==/z/gEUAAOSw-CpX-tMR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjcxWDUwNg==/z/0osAAOSw8w1X-tMT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjcxWDU1MQ==/z/rPAAAOSwNRdX-tMU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Njc1WDY4Mw==/z/MZEAAOSwzaJX-tMV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU1MVgxNjAw/z/oPsAAOSwh2xX-tMY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oSQAAOSwh2xX-tMa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FSMAAOSwPCVX-tMc/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Adrienne-Vittadini-Workbook-Tote-Black-NWT-/262979980617",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "The Adrienne Vittadini Workbook tote is made with Pebble Grain and Faux Suede PU Leather. The interior features a spacious workbook sleeve and interior organizer. Dimensions: 15.75\u201dH x 12.5\u201dW x 8\u201dD. Retails for $190",
+  "Title": "Adrienne Vittadini Workbook Tote - Black NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Hendersonville, Tennessee",
+  "Seller": {
+    "FeedbackScore": "54",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "bailie58"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37075",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T15:24:44.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P8DT20M",
+  "EndTime": "2017-06-10T15:24:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Adrienne Vittadini"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Suede"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262979980617",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629799806178080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

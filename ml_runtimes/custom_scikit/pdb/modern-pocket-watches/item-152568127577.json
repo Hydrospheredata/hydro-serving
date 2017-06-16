@@ -1,0 +1,76 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "30157",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "VS date quartz pocket watch. works on batteries, Needs new one.Slight discoloration on inside, needs good cleaning. see pictures for details.",
+  "StartTime": "2017-05-31T17:36:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/VLwAAOSwzgBY3qj~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/D7oAAOSwTM5Y3qkE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/0XYAAOSwc-tY3qkM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/LVkAAOSwol5Y3qkU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0-YAAOSwc-tY3qka/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "VS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "op1320awd",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1168",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525681275778080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T17:36:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VS-pocket-watch-train-chain-quartz-date-/152568127577",
+  "Location": "Dallas, Georgia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "VS pocket watch train with chain quartz date",
+  "Storefront": {
+    "StoreName": "Blue Chicken Goodies",
+    "StoreURL": "http://stores.ebay.com/id=183042522"
+  },
+  "ItemID": "152568127577",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT23H3M38S"
+}

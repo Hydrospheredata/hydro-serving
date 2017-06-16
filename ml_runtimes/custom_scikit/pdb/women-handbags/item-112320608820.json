@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIzMFgxNjAw/z/-DcAAOSwTuJYt3US/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ5OVgxNjAw/z/QrAAAOSwdGFYt3UW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ5WDE2MDA=/z/nIkAAOSwax5Yt3Ua/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Letter-Size-Envelope-Cafe-One-Size-/112320608820",
+  "ConvertedCurrentPrice": {
+    "value": "53.07",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "David King & Co. Letter Size Envelope Description Features: Leather10\" high14.5\" wideWristlet StrapBriefcase Product Details: Product Dimensions: 13.9 x 11 x 1.6 inchesShipping Weight: 8 ouncesOrigin: ColombiaCalifornia residents: Click here for Proposition 65 warningItem model number: 101CDomestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.07",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1727",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "melondelight"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Letter Size Envelope Cafe One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-02T01:27:59.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1123206088208080_1.jpg",
+  "TimeLeft": "P27DT10H17M43S",
+  "EndTime": "2017-06-30T01:27:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Cafe"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "UPC",
+        "Value": "does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112320608820",
+  "Storefront": {
+    "StoreName": "MelonDelight",
+    "StoreURL": "http://stores.ebay.com/id=88779270"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. A 10% restocking fee may apply.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B000QDIPTO",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

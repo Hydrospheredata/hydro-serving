@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "319.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Anaheim, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:01:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=2946352",
+    "StoreName": "SIMARC TECH"
+  },
+  "CurrentPrice": {
+    "value": "319.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:01:48.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Renato Colleziani Colleziani Collection Watch Limited Edition Swiss Chronograph Description: This chronograph limited edition Renato Calleziani Colleziani watch is #57 of 180. It has an original, rubber integration band and 243 grams of pure stainless steel. 30 ATM water resistant. Swiss made. Includes box, case, certificate of authenticity, cloth, and booklet. These are not stock photos! These are actual pictures of the item for sale.Please review the photos as they show the exact item's condition you are purchasing. This is an auction only. Please do not make any offers to buy it now. Shipping and payment terms: \u00b7 I strive for positive feedback and five star rating and will do whatever it takes to satisfy the buyer.\u00b7 Please contact me before leaving feedback if you have any problems or questions about your purchase.\u00b7 I accept PayPal exclusively. Payment must clear prior to shipment.\u00b7 After 4 days if no payment is received an eBay Unpaid Item Dispute will be filed\u00b7 I will ship from California and will email you the tracking number once the item ships.\u00b7 I ship to USA only\u00b7 I do not ship to APO/FPO or PO Boxes\u00b7 I ship Tuesday \u2013 Saturday & all items are in stock\u00b7 I do not ship on Mondays\u00b7 I ship within 1 business day after your payment is received Feel free to contact me with any questions!CHECK MY FEEDBACK- All buyers are very happy :)I will leave you POSITIVE feedback upon payment.Thanks for looking \u2013 Noel",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "382108932598",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Renato",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "\u25a0 Renato Colleziani Colleziani Collection Watch Limited Edition Swiss Chronogr \u25a0",
+  "ConditionDescription": "It has an original, rubber integration band and 243 grams of pure stainless steel. Includes box, case, certificate of authenticity, cloth, and booklet.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Renato-Colleziani-Colleziani-Collection-Watch-Limited-Edition-Swiss-Chronogr-/382108932598",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3821089325988080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "92804",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT16H30M36S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/wTsAAOSw1S9Wccnd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/d08AAOSwSHZWcJ7t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/BiQAAOSw5IJWcJ7x/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/LrQAAOSw5IJWccmQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Yl0AAOSwNyFWccmU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/S-IAAOSw~otWccmX/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "319.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6524",
+    "UserID": "minidisc0",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

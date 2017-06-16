@@ -1,0 +1,73 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wayne, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:48:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T14:48:46.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537574762",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "KESSARIS",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KESSARIS-Watch-Bracelet-SILVERTONE-W-Interchangeable-Top-Nib-Estate-Sale-/322537574762",
+  "Title": "KESSARIS Watch Bracelet SILVERTONE W Interchangeable Top Nib Estate Sale",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225375747628080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "07470",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H42M55S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/7TQAAOSwT-FZC15Y/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/CkkAAOSww9xZC15a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/KCkAAOSwlndZC15b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/bxgAAOSw~y9ZC15c/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/zyYAAOSwjqVZC15h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/KRMAAOSwlndZC15i/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/kLMAAOSw7GRZC15j/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/X6gAAOSwdjNZC15l/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "KESSARIS Watch with 5 different interchangeable tips. I inserted a brand new battery Good Luck and check out my other auctions Thank you",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "58",
+    "UserID": "ricky_028",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

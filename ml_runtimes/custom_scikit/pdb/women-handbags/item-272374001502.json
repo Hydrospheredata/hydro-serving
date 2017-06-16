@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/fO8AAOSwFV9X1vfE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/DSAAAOSwi0RX1vfc/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ULTIMATE-BUSINESS-AND-TRAVEL-BAG-/272374001502",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Travel in style but know that you won't forget anything in this deluxe Kenneth Cole\u00ae Women's Tote. Three sections comprise the main compartment. Zippered middle compartment section unzips to the bottom of the bag. Includes a padded computer pouch that holds most 15.4\" computers. Also includes a padded pocket for your iPad, tablet or eReader. Middle section has a deluxe organization panel with multiple pockets for your phone, pens, cards and more. Other two main compartment sections snap closed for your additional personal and business-related belongings. Open front pocket and rear trolley sleeve pass-through to make travel easier for you. Supportive bottom feet. Includes vinyl identification tag. Signature Kenneth Cole\u00ae hardware and lining.",
+  "Title": "ULTIMATE BUSINESS AND TRAVEL BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Henderson, Nevada",
+  "Seller": {
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "lovelineusa"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "89053",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-09-12T19:01:48.000Z",
+  "HitCount": "100",
+  "TimeLeft": "P7DT3H47M53S",
+  "EndTime": "2017-06-09T19:01:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kenneth Cole"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business and Travel Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Textured Vinyl"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272374001502",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2723740015028080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "true"
+}

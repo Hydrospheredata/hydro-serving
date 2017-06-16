@@ -1,0 +1,119 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT7H11M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252974280460",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Romantic-Design-Fashion-Vintage-Silver-Heart-Necklace-Earrings-Set-/252974280460",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T19:06:21.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T19:06:21.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Light Blue/Black/White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Fine_Fashion"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Ristar.J",
+        "Name": "Brand"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Beads",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "55g",
+        "Name": "necklace Weith:"
+      },
+      {
+        "Value": "15.5g",
+        "Name": "Earrings Weight:"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Romantic Design Fashion Vintage Silver Heart Necklace&Earrings Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Ethnic style Two layers 3 Colors Necklace and Earrings. Vintage Silver Jewelry Heart Pendant Set.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529742804608080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "laviconsultings",
+    "FeedbackScore": "776",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "The Lavi Store",
+    "StoreURL": "http://stores.ebay.com/id=1138741415"
+  },
+  "Quantity": "1",
+  "Location": "China",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTc4WDgwMA==/z/wAYAAOSw42dZNFlq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTU1WDgwMA==/z/F7EAAOSw8lpZNFlz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTc3WDgwMA==/z/wNgAAOSw42dZNFl8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUyWDgwMA==/z/gaIAAOSwYlRZNFmH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUyWDgwMA==/z/4MsAAOSwlMFZNFmP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI1Mlg4MDA=/z/0AUAAOSw-K9ZNFmn/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

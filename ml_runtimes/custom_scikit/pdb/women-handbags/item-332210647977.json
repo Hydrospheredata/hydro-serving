@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rgQAAOSwuMZZD0HL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/42oAAOSwPh5ZD0HT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P~wAAOSwrhBZD0Mk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QrQAAOSwrhBZD0Mv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-K8AAOSww9xZD0Hn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JgwAAOSw42dZD0Hs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-tcAAOSww9xZD0Hy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rUcAAOSwn-tZD0H3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EaoAAOSwi7RZD0H9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/r7kAAOSw-3FZD1RO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/g0cAAOSwhvFZD1Re/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cZQAAOSww9xZD1Nc/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lululemon-Duffle-Gym-Tote-Travel-Bag-pink-white-EXCELLENT-CONDITION-/332210647977",
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gorgeous Lululemon duffel bag in bright pink with white trim. Double handles and single adjustable shoulder strap. Double zipper closure. Two side pockets outside and lots of pockets inside, including one waterproof zipper pocket. Measures 21\" long; 9\" wide; 9-1/2\" tall\". Condition is excellent - small smudges/discoloration on edges/corners/straps from light use, but no large marks, tears or odors - last 3 pics show the worst of them. Inside is clean - looks hardly used. Please look over all pictures to your satisfaction. Smoke- and pet-free household.",
+  "Title": "Lululemon Duffle Gym Tote Travel Bag - pink & white - EXCELLENT CONDITION",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Austin, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "358",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "custobarc"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78757",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T17:11:43.000Z",
+  "HitCount": "314",
+  "TimeLeft": "P4DT21M43S",
+  "EndTime": "2017-06-06T17:11:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "na"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffle Bags"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink & White"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332210647977",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322106479778080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

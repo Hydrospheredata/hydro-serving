@@ -1,0 +1,104 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "268.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "afula",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:48:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "268.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T08:48:15.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Movado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Swiss Quartz (Battery-Powered)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "PO Box",
+  "ItemID": "182599830452",
+  "HandlingTime": "1",
+  "Description": "Click here to view full size. Movado Museum Men's Quartz Watch 2100005Movado, Museum, Men's Watch, Stainless Steel Yellow Gold Plated Case, Leather Strap, Swiss Quartz (Battery-Powered), 2100005Model# 2100005Retail:$595.00Your Price:$297.50YOU SAVE:$297.50 (50.00%)DetailsPaymentShippingWarrantyReturnsFEATURESTwo Hand, Water Resistant up to 100 mCASEShape:RoundMaterial:Stainless Steel Yellow Gold PlatedWidth:38 mmWater Resistance:30 m (100 feet)Crystal:Sapphire Crystal Scratch ResistantThickness:7 mmCase Back:Snap Back ClosedCase Length with Lugs:46 mmFinish:PolishedDIALColor:BlackHands:Gold Tone HandsMarkers:Movado Signature Dot Gold ToneBEZELMaterial:Yellow Gold PlatedMOVEMENTType:Swiss Quartz (Battery-Powered)Crown:Pull and Push Crown Gold ToneCountry of Origin:Made in SwitzerlandBANDType:StrapMaterial:LeatherColor:BlackWidth:21 mmLength:7.5 inchesClasp:Pin Buckle",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Movado-Museum-Black-Dial-Gold-Black-Leather-Mens-2100005-Womens-2100006-Watch-/182599830452",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825998304528080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT17H19M29S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxOVg5Mjc=/z/9CUAAOSwcB5ZLn2A/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/dH0AAOSwK6RZLn2T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VN8AAOSwY3BZLn2b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/wlsAAOSw5cRZLn2i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/OewAAOSwCQZZLn2s/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/IgcAAOSwxu5ZLn2z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/zJ8AAOSw7GRZLn28/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Movado Museum Black Dial Gold Black Leather Mens 2100005 / Womens 2100006 Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "152",
+    "UserID": "sal_il8",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

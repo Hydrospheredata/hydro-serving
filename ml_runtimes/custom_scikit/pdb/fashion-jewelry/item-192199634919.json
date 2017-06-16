@@ -1,0 +1,147 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT20H22M58S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "50.96",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192199634919",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rebecca-Minkoff-MESH-TASSELL-ANKLET-11-SILVER-Rhodium-Beaded-Chain-FRINGE-88-/192199634919",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "50.96",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T05:53:37.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-27T05:53:37.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "11",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Rebecca Minkoff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Rebecca Minkoff MESH TASSELL ANKLET 11\" SILVER Rhodium Beaded Chain FRINGE $88",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "- Mesh tassel anklet- Lobster clasp- Approx. 11\" adjustable length New with tags",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921996349198080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "prima.classe",
+    "FeedbackScore": "1671",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "1a Class Store",
+    "StoreURL": "http://stores.ebay.com/id=85598924"
+  },
+  "Quantity": "1",
+  "Location": "Illinois",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/0NwAAOSwn-tZKmSa/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/by0AAOSw42dZKmSh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~y4AAOSws5pZKmSe/$_57.PNG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

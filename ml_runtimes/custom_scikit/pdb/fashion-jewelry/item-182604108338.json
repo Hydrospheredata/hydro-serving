@@ -1,0 +1,295 @@
+{
+  "ReturnPolicy": {
+    "Description": "1) Please contact us to get a RMA number BEFORE returning back the item. Goods without RMA number will NOT be accepted. \n2) Defective goods must be returned within 30 days from the delivery date.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P27DT11H9M39S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "dealsgoing",
+    "StoreURL": "http://stores.ebay.com/id=1338195832"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Body Jewellery:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.71",
+    "_currencyID": "CAD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "182604108338",
+  "ConvertedCurrentPrice": {
+    "value": "23.46",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-06-03T02:21:45.000Z",
+  "Site": "Canada",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Harness-Body-Chain-Sequins-Tassels-Necklace-Bikini-Bra-Chain-Belts-Silver-Gold-/182604108338?var=",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T02:21:45.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/7l8AAOSwq1JZMhcz/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/kdUAAOSwrhBZMhc5/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/Xj0AAOSwjL5ZMhc~/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/NCAAAOSwfRdZMhdE/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/7oUAAOSwq1JZMhc2/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/4NMAAOSwn-tZMhc7/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/GWEAAOSwxu5ZMhdB/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/6yIAAOSwIQdZMhdH/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/NIsAAOSwfRdZMhdK/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Silver",
+          "Gold"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "ONP0000456022652",
+        "StartPrice": {
+          "value": "32.78",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "SKU": "ONP0000456022653",
+        "StartPrice": {
+          "value": "31.71",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Universal",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "MagiDeal",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Iron sequins",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Title": "Harness Body Chain Sequins Tassels Necklace Bikini Bra Chain Belts Silver/Gold",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "CY",
+    "EE",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "VN",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "JP",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "Location": "Shenzhen",
+  "Description": "About us Shipping Payment Returns Contact us Store Categories Store home Womens Clothing & Accessories Mens Clothing & Accessories Baby Children Supplies Wedding Supplies Toys & Hobbies Dolls & Bears Musical Instruments Crafts Foot & Shoes Care Colloyes SwimWear Home & Garden Other Payment Policy Harness Body Chain Sequins Tassels Necklace Bikini Bra Chain Belts Silver/GoldSKU: ONP0000466911436163 Description: Suitable for swimwear,swimsuit,bikini,summer tops,beach long dress; Multilayer cross tassel sequins body chain belts necklaces for womens gilrs; As a gifts for your girls,friend and mothers; Specification: Material: Iron sequins; Necklace length: 48cm/ Approx. 18.9inch Waist: 130cm/ Approx. 51inch Extension chain: 15cm/ Approx. 5.9inch Package Includes: 1 Piece body chain necklace Shipping And Handling Policy The buyer is responsible for any applicable import duties and local taxes. Please verify with your customs before making your purchase. Please verify your address during checkout. We are not responsible for any wrong or undeliverable addresses. People always bought together withWomen Hollow Halter Rhinestone Body ...17.22Buy It NowFree ShippingNew Fashion Women Bikini Beach Cross...6.73Buy It NowFree ShippingSexy Golden Tassel Shoulder Chain Bi...17.49Buy It NowFree ShippingShoulder Chain Wrap Necklace Wedding...30.98Buy It NowFree ShippingWedding Bridal White Flower Lace Sho...45.60Buy It NowFree Shipping2pcs Vintage Diamante Crystal Silver...79.93Buy It NowFree ShippingCrystal Rhinestone Wedding Bridal Je...40.43Buy It NowFree ShippingWomens Crystal Body Chain Bra Jewelr...3.45Buy It NowFree ShippingNew Fashion Women Gold Bikini Beach ...3.83Buy It NowFree ShippingNew Fashion Women Silver Bikini Beac...3.77Buy It NowFree ShippingWomen Sexy Shiny Crystal Rhinestone ...33.35Buy It NowFree ShippingBohemian Multilayer Luxury Body Chai...9.49Buy It NowFree ShippingWomen Sexy Golden Tassel Body Chain ...44.47Buy It NowFree ShippingBridal Wedding Tassel Body Belly Cha...41.69Buy It NowFree ShippingBridal Crystal Tassel Body Belly Cha...28.60Buy It NowFree ShippingWedding Bridal Crystal Tassel Body C...24.65Buy It NowFree ShippingRetro Punk Sexy Bikini Geometric Han...10.36Buy It NowFree ShippingNew Fashion Bikini Sexy Gold Plated ...4.56Buy It NowFree ShippingNew Women Gold Body Chain Long Neckl...3.14Buy It NowFree ShippingMulticolor Rhinestone Crystal Gem Fl...12.04Buy It NowFree Shipping On 02-Jun-17 at 22:29:34 EDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "dealsgoing",
+    "FeedbackScore": "48870",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "20",
+  "PaymentMethods": "PayPal",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/1kAAAOSw8HBZMhcv/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

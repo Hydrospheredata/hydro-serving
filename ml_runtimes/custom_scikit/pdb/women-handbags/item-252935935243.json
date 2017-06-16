@@ -1,0 +1,128 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxMFgxNTAw/z/7-AAAOSwGJlZFqJo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0NVgxNTAw/z/cRMAAOSwR29ZFqJn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc5WDE1MDA=/z/pmAAAOSw42dZFqJo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1MFg3ODg=/z/NJ4AAOSwK6RZFqJm/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Personalized-Quilted-Duffle-Bag-Butterfly-Name-Isabella-/252935935243",
+  "ConvertedCurrentPrice": {
+    "value": "65.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! At approximately 9\" x 15\", the toddler quilted duffle is perfect for monogramming. It is easy to clean and use, being machine washable with coordinating zipper pulls. - Machine Washable - Coordinating zipper pulls - Perfect for monogramming - Approx. 9\" x 15\" Personalized Quilted Duffle Bag, Butterfly, Name Isabella",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.95",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "6593",
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackRatingStar": "Green",
+    "UserID": "patcha777"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Personalized Quilted Duffle Bag, Butterfly, Name Isabella",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T06:06:26.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P9DT13H19M53S",
+  "EndTime": "2017-06-12T06:06:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "009243217206"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0009243217206"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ababy"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB00P9V0578-TOYS"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Toy"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Butterfly"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-girls"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.6 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 15.8 x W 9.9 x H 2 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "aBaby"
+      },
+      {
+        "Name": "Model",
+        "Value": "9243217206"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252935935243",
+  "Storefront": {
+    "StoreName": "patcha777STORE",
+    "StoreURL": "http://stores.ebay.com/id=1402700962"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529359352438080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT18H32M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112431741276",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Signature-COACH-Slip-Enamel-Gold-Tone-And-Camouflage-Bangle-Bracelet-/112431741276",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:23:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:23:57.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Bangle Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "Coach",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "8 1/2\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Signature COACH Slip on Enamel Gold Tone And Camouflage Bangle Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This is a Signature Coach slip on enamel camouflage and gold tone bangle bracelet.Previously owned but in good used condition.Please view pictures,very nice unique design. You can see that the signature C is intertwined with the colors..Colors are burgundy,brown,white and gold.This bracelet measures 8 1/2\" around.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124317412768080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kathcart18",
+    "FeedbackScore": "35",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Cincinnati, Ohio",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njc4WDcyMA==/z/ZVYAAOSwnONZC~1a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk3WDY3Mg==/z/ApEAAOSw~y9ZC~18/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg3WDEzMTU=/z/atoAAOSwnONZC~22/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY3WDE0Mzk=/z/n2QAAOSw42dZC~3Y/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDkwWDExNzk=/z/SzAAAOSwR29ZC~5i/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE0WDk0Mg==/z/-zQAAOSwONBZC~6l/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzcxWDMxOA==/z/zV0AAOSwuMZZC~7T/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/bfwAAOSw42JZC~8B/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "45239"
+}

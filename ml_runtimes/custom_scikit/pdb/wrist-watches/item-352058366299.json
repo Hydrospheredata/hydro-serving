@@ -1,0 +1,91 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Tag Heuer Divers Men's Gold Filled 200 Meter Stainless Steel Wristwatch 9-F5228 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-15T13:09:35.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDEyODA=/z/yzIAAOSwZKBZEiJE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg3NDg=/z/OoUAAOSw42dZEiJF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM4WDEyODA=/z/4T8AAOSwhvFZEiJF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTEwWDEyODA=/z/YM8AAOSwrhBZEiJE/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "399.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tag Heuer Diver",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60400",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "116",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520583662998080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-14T13:09:35.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "399.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tag-Heuer-Divers-Mens-Gold-Filled-200-Meter-Stainless-Steel-Wristwatch-9-F5228-/352058366299",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Tag Heuer Divers Men's Gold Filled 200 Meter Stainless Steel Wristwatch 9-F5228",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "352058366299",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P13DT19H24M52S"
+}

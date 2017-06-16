@@ -1,0 +1,76 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4MA==/z/-N0AAOSwCU1Yvcfw/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/blue-gucci-laptop-bag-/232324695016",
+  "ConvertedCurrentPrice": {
+    "value": "900.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BLue laptop bag by Guccibrand new condition",
+  "Title": "blue gucci laptop bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "900.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Long Beach, California",
+  "Seller": {
+    "FeedbackScore": "14",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "mtreogrand1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90802",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T20:37:13.000Z",
+  "HitCount": "57",
+  "TimeLeft": "P2DT5H30M50S",
+  "EndTime": "2017-06-04T20:37:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Gucci"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232324695016",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323246950168080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

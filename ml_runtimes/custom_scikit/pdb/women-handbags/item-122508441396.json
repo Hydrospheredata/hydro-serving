@@ -1,0 +1,78 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/4lUAAOSww9xZB9Ex/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/LngAAOSwONBZB9Ex/$_32.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/CxkAAOSwrhBZB9HH/$_32.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KIPLING-NEW-BABY-BAG-L-Print-Diaper-Bag-Changing-Mat-Marble-Multi-TM3421-/122508441396",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This nylon baby bag is perfect to carry all your little one's essentials and more. Ultra-functional and lightweight with loads of useful features and great style! Easy to clean and very durable. 100% Nylon, adjustable straps to fix around stroller arms Top carry handles plus removeable/adjustable shoulder straps for carrying options. Zipped main compartment contains: large zipped mesh pocket and two lined bottle pouch pocket Internal organizer for diapers, bottles, foot that is removeable and washable. Large zipped back pocket with matching padded changing mat Dimensions: 16.75x12.25x7.25\"",
+  "Title": "KIPLING NEW BABY BAG L Print / Diaper Bag with Changing Mat Marble Multi TM3421",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Orlando, Florida",
+  "Seller": {
+    "FeedbackScore": "21",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "adri173flores"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32824",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-21T19:34:22.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P18DT4H10M48S",
+  "EndTime": "2017-06-20T19:34:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Color",
+        "Value": "537 Marble Multi"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Bag/Shoulder"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122508441396",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225084413968080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

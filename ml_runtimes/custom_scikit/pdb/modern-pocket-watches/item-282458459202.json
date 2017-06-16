@@ -1,0 +1,98 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "E9G 1N9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This pretty little watch can fit very easily in a pocket or a purse and can also be used as a key chain. It is approximately 1.20 inches in diameter and has a smooth silver covered back cover. It also has quartz movement and is battery operated. Beautiful! 99.9% of my items reach their destination through regular mail, but if you wish a tracking number, please let me know and I will add $16 to the cost of shipping to the USA and $9 to Canada. Check out my other items! I update frequently = :)",
+  "StartTime": "2017-05-03T12:29:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3NFgxMjc4/z/17AAAOSwuMFUhffI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ElEAAOSw0vBUhffM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/XlMAAOSwofxUhffR/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.68"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "meekmember",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "572",
+    "PositiveFeedbackPercent": "96.6"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824584592028080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T12:29:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "8.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/White-Blossoms-Green-Clip-Pocket-Watch-Montre-Fleurs-Blanches-sur-Vert-/282458459202",
+  "Location": "Neguac, New Brunswick",
+  "Title": "White Blossoms on Green Clip On Pocket Watch Montre Fleurs Blanches sur Vert",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "282458459202",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT17H44M57S"
+}

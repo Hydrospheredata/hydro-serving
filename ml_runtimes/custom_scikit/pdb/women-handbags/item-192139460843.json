@@ -1,0 +1,284 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Womens-New-S-Shopper-42x27x13-cm-B-X-H-X-T-Free-Delivery-/192139460843?var=",
+  "ConvertedCurrentPrice": {
+    "value": "86.97",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: New Shopper Small Shoulder Bag with Removable Shoulder Strap by Kipling. No matter where your day brings you, stay prepared with the New Shopper. With versatile storage space and modern style, this bag has a removable shoulder strap and tote handles to give you plenty of carrying options.",
+  "Title": "Kipling Women's New S Shopper, 42x27x13 cm (B X H X T). Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "86.97",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Multicolor (REF35B Rose Bloom Blue)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/792/511/316626077/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple (REF34Z Plum Purple)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/792/512/316420137/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Multicolor (REF34K Mini Geo)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/792/513/316626083/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Multicolor (80C Festive Geo)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/792/514/316566184/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue (42W Alaskan Blue)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0140/792/515/316566375/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Multicolor (78J City Night C)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/792/516/316507438/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black (REFH53 Dazz Black)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0140/792/517/316536351/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red (78G Red Rust)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/792/518/316608934/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "86.97",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792511:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (REF35B Rose Bloom Blue)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "90.39",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792512:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Purple (REF34Z Plum Purple)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "66.9",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792513:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (REF34K Mini Geo)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "86.37",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792514:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (80C Festive Geo)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "61.15",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792515:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Blue (42W Alaskan Blue)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "86.63",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792516:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolor (78J City Night C)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "86.6",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792517:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Black (REFH53 Dazz Black)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "89.19",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140792518:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Red (78G Red Rust)"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Multicolor (REF35B Rose Bloom Blue)",
+          "Purple (REF34Z Plum Purple)",
+          "Multicolor (REF34K Mini Geo)",
+          "Multicolor (80C Festive Geo)",
+          "Blue (42W Alaskan Blue)",
+          "Multicolor (78J City Night C)",
+          "Black (REFH53 Dazz Black)",
+          "Red (78G Red Rust)"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-25T07:36:59.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P20DT15H15M51S",
+  "EndTime": "2017-06-23T07:36:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "604290591"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139460843",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:136687914:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

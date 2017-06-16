@@ -1,0 +1,69 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "55807",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Milan Pocket Watch, quartz movement, hunter case, stainless steel case, date window, eagle on case, watch runs good. On Feb-11-17 at 09:26:20 PST, seller added the following information: buyer must wait for me to send invoice before paying.",
+  "StartTime": "2017-05-28T00:04:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/43AAAOSwcUBYOORh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Q1sAAOSwiDFYOOR3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/n7EAAOSwHMJYOOSG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JVYAAOSwEzxYOOSV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oscAAOSwHMJYOOSl/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "annachiq3",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "593",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630071911678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T00:04:08.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Milan-Pocket-Watch-/263007191167",
+  "Location": "Duluth, Minnesota",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Milan Pocket Watch",
+  "Storefront": {
+    "StoreName": "annachiq3",
+    "StoreURL": "http://stores.ebay.com/id=703861290"
+  },
+  "ItemID": "263007191167",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT5H28M55S"
+}

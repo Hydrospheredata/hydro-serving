@@ -1,0 +1,349 @@
+{
+  "ExcludeShipToLocation": [
+    "GG",
+    "JE",
+    "DO",
+    "MQ",
+    "VC",
+    "HK",
+    "MO",
+    "TW",
+    "BO",
+    "GL",
+    "GH",
+    "LY",
+    "MU",
+    "RE",
+    "SO",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "TR",
+    "YE",
+    "CN",
+    "GU"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.73"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173697",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/LAsAAOSwl8NVbQ-i/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "2400",
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "wonderful-shop88",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "35093",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "StartTime": "2017-01-03T00:30:50.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "PrimaryCategoryID": "31387",
+  "Title": "New Women Butterfly Faux Pearl Rhinestone Bracelet Watch Dial Quartz Wristwatch",
+  "Storefront": {
+    "StoreName": "Wholesale-Retail-Online",
+    "StoreURL": "http://stores.ebay.com/id=1121805229"
+  },
+  "ItemID": "332079583027",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Nurse Watches",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "No",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "HitCount": "253",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Red",
+          "Green",
+          "Purple",
+          "Blue",
+          "Black",
+          "Rose Red",
+          "Orange",
+          "Brown"
+        ],
+        "Name": "Colors"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Colors",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/SfMAAOSwNSxVblaA/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/XAQAAOSwl8NVblgj/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/Xi0AAOSw3xJVblba/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ebUAAOSw3xJVblg4/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/G0wAAOSwBLlVblhH/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Rose Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/86QAAOSwpdpVblbu/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/HFIAAOSwBLlVblhX/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/fiwAAOSw3xJVblhv/$_1.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-3",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Purple",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-4",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-5",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-6",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Rose Red",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-7",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Orange",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "5.73"
+        },
+        "SKU": "DY0041-8",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "300"
+      }
+    ]
+  },
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "173697",
+  "QuantityAvailableHint": "MoreThan",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-02T00:30:50.000Z",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Women-Butterfly-Faux-Pearl-Rhinestone-Bracelet-Watch-Dial-Quartz-Wristwatch-/332079583027?var=",
+  "Location": "China",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.73"
+  },
+  "TimeLeft": "P1DT8H20M41S"
+}

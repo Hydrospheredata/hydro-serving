@@ -1,0 +1,173 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "BH",
+    "OM",
+    "QA",
+    "TR",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "BA",
+    "DE",
+    "ME",
+    "CH",
+    "VA",
+    "BN",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "AR",
+    "BO",
+    "EC",
+    "FK",
+    "GF",
+    "PY",
+    "PE",
+    "SR",
+    "VE",
+    "BM",
+    "CA",
+    "PM",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.96"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4894462054895",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462054895",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462054895",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-04-12T15:44:24.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/jLMAAOSwnF9Y7kt1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/lk8AAOSwAANY7kt2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/jPQAAOSwnF9Y7kt2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/lWsAAOSwpkFY7kt2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/uIEAAOSww3tY7kt2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/VS4AAOSwhQhY7kt1/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "400",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKLW-I010179",
+  "HitCount": "60",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825275441418080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-11T15:44:24.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "182527544141",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you reviced the item, please return it within 30 days for a replacement or money back. Please contact me before you return it.2.All returned items MUST BE in the original packaging with all components and accessories included,And you MUST provide us the return shipping information\uff08The shipment or the tracking number\uff09.3.Return shipping fee is to be paid by the buyers.We will not responsible for any custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.96"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "4.7CM Bronze Tone Quartz Pocket Chain Watch Necklace T7G4",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/4-7CM-Bronze-Tone-Quartz-Pocket-Chain-Watch-Necklace-T7G4-/182527544141",
+  "Storefront": {
+    "StoreName": "lucky.warm",
+    "StoreURL": "http://stores.ebay.com/id=1335526814"
+  },
+  "Seller": {
+    "UserID": "lucky.warm",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "71843",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT20H57M1S"
+}

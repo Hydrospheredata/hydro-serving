@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "7.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cecil, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:35:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=297267945",
+    "StoreName": "polerbare"
+  },
+  "CurrentPrice": {
+    "value": "7.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:35:09.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "222530237303",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "L.A. Express",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Cuffs Stretch Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "L.A. Express Silver Toned Quartz Wrist Watch with Marcasites",
+  "ConditionDescription": "Very nice.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/L-A-Express-Silver-Toned-Quartz-Wrist-Watch-Marcasites-/222530237303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225302373038080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "54111",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H23M34S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMDA1/z/wlcAAOSwfRdZGG7w/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0MlgxNjAw/z/ZHwAAOSw8lpZGG7w/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ2NVgxNjAw/z/bt4AAOSw7GRZGG7y/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Selling this nice pre owned L.A. Express silver toned Quartz wrist watch with Marcasites around the dial and 1/2 Cuff/Stretch band suitable for about 2 1/2\" wide wrist.The watch looks good and keeps great time.Shows some light wear from use.You will receive the watch pictured.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3440",
+    "UserID": "polerbare",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Contact us through ebay message system only.Returns accepted if item is not as described."
+  }
+}

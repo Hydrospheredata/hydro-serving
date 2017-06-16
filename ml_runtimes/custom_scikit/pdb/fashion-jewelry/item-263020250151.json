@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT11H55M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263020250151",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-2008-JUICY-COUTURE-PRINCESS-PINK-CARRIAGE-CHARM-YJRU2486-NIB-/263020250151",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T22:24:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T22:24:05.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fairytale & Fantasy",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Juicy Couture",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT 2008 JUICY COUTURE PRINCESS PINK CARRIAGE CHARM YJRU2486 NIB",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New in box, never worn. No flaws in enamel nor missing any stones. Makes the perfect \ud83d\udc4c gift. Thank you for looking today, LORI All prices have been slashed to sell quickly. I am moving to a new home 1 July and at that time I will be listing hundreds of new fabulous items. Please consider saving me as one of your favorite sellers. Laurie",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630202501518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "raisinglori",
+    "FeedbackScore": "2944",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "raisinglori",
+    "StoreURL": "http://stores.ebay.com/id=161816817"
+  },
+  "Subtitle": "Huge Moving Sale Prices Can't Be Beat",
+  "Quantity": "1",
+  "Location": "Elk Grove, California",
+  "HitCount": "4",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/Gb8AAOSwImRYEbme/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/hS4AAOSwcLxYEbnQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/FrwAAOSwA3dYEbn7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/XvIAAOSwHsRYEboZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/PHgAAOSwImRYEbpq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/MBEAAOSwA3dYEbqB/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "95758"
+}

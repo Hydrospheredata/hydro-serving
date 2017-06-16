@@ -1,0 +1,86 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "77014",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Sports Superstars kids watch Sammy Sosa. Brand new in original container been in storage may need a new battery.",
+  "StartTime": "2017-05-15T05:31:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MDk=/z/yW0AAOSwepJXZIAx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MDk=/z/DHIAAOSw3YNXZIBZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/9loAAOSwnNBXZIB8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/0q0AAOSwepJXZICf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/jbAAAOSwmtJXZIE~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/9xsAAOSwNuxXZIGv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/7vcAAOSwepJXZIHk/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Metal",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Material"
+      },
+      {
+        "Value": "Modern",
+        "Name": "Era"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "eve12191959",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "82",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824785735918080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T05:31:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAMMY-SOSA-Sports-Superstar-Kids-Watch-1999-Avon-NIB-/282478573591",
+  "Location": "Houston, Texas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SAMMY SOSA Sports Superstar Kids Watch /1999 Avon NIB",
+  "Storefront": {
+    "StoreName": "eve12191959",
+    "StoreURL": "http://stores.ebay.com/id=907135776"
+  },
+  "ItemID": "282478573591",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT10H50M40S"
+}

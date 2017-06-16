@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CA",
+  "Location": "Whitby, Ontario",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:03:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T13:03:50.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DE",
+    "JP",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942497285",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lucerne",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage LUCERNE Diver",
+  "ConditionDescription": "Works but missing bezel and some lume bars.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-LUCERNE-Diver-/201942497285",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019424972858080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "L1M 2J1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT21H49M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HuMAAOSwX9FZH1WK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/i8QAAOSwxu5ZH1WR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gz0AAOSwfpVZH1WW/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "LUCERNE diver, original dial as well as the lume and hands. Missing lume indices at 1, 7 and 8, and bezel. Manual wind RUNS.35mm+crown. 18mm lugs.$5 shipping. All sales are final as watches for SERVICE/REPAIRS. We do not accept return. We have many happy customers and will gladly answer any questions.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "93",
+    "UserID": "montlubin",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

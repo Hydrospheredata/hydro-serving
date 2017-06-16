@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/hyMAAOSwY3BZMC1O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/n9QAAOSwurZZMC1~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA0NFgxMjAw/z/5oAAAOSwaEhZMC8m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/cBUAAOSww9xZMC4b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/6fIAAOSwKytZMC8C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/uEEAAOSwfRdZMC4C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/MRkAAOSwDiBZMC26/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/4-MAAOSwH09ZMC3k/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/QoIAAOSwH09ZMCMm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcwWDQ1Ng==/z/3CcAAOSwX61ZMCMx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcwWDQ1Ng==/z/UQ8AAOSwlndZMCNH/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Gucci-GG-Supreme-Canvas-Diaper-Bag-Gucci-Sleeper-Brand-NEW-w-Tags-1150-/252968835334",
+  "ConvertedCurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "GucciNew with tagsGG Canvas Diaper Bag w/Changing PadAnd Gucci Sleeper/Storage BagRetail $1,150Brand New just got it from Bergdorf GoodmanGG Canvas with Dark Brown Leather TrimAdjustable shoulder strapZip around top closureElasticized side pocketsInterior Pocket & Front & Rear PocketsChanging PadApproximately 11.8\" H x 17\" W x 5.1\" DMade in ItalyAny questions, please ask as I'm here to helpBrand New Gucci Diaper BagA great large size Gucci Bag that you can use for many different things :)",
+  "Title": "NEW Gucci GG Supreme Canvas Diaper Bag & Gucci Sleeper Brand NEW w/Tags $1150",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DE",
+    "JP",
+    "FR",
+    "AU"
+  ],
+  "Location": "Fernandina Beach, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1331",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "eluxuryboutique"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32034",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T14:30:39.000Z",
+  "HitCount": "27",
+  "TimeLeft": "P28DT23H11M9S",
+  "EndTime": "2017-07-01T14:30:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gucci"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige Brown"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "885133358064"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252968835334",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "lyndaf333",
+    "StoreURL": "http://stores.ebay.com/id=59760227"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529688353348080_4.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

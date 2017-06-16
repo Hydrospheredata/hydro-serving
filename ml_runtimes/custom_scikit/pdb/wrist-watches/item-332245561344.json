@@ -1,0 +1,162 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "139.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:31:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "139.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:31:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245561344",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Diesel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "DZ7127",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Military time",
+          "4 time zone",
+          "Stopwatch",
+          "Water Resistant",
+          "Date",
+          "Easy To Read",
+          "Genuine Leather",
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "57mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "28mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "DZ7127",
+        "Name": "Model"
+      },
+      {
+        "Value": "DZ7127",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Blue Reflection",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Diesel Men Oversized Watch Black Leather Reflection SBA MR DADDY DZ7127 $325",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Diesel-Men-Oversized-Watch-Black-Leather-Reflection-SBA-MR-DADDY-DZ7127-325-/332245561344",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322455613448080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H5M18S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA4M1g4OTg=/z/sSQAAOSw5cNYZINd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTgzWDg5OA==/z/MSsAAOSwa~BYZINk/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "BRAND NEW & 100% AUTHENTIC DIESEL DZ7127 BIG DADDY IRIDESCENT BLUE DIAL BLACK LEATHER MEN'S WATCH Box not included \u2028 Image result for DZ7127 \u2028 This mega-oversized timepiece features a chronograph, digital display, three-hand, and two hand movement allowing you to navigate multiple time zones without losing a second. \u2028 The case is plated in black IP and enhanced with a laser crystal. Case Size 65 mm x 57 mm Case Thickness 13 mm Band Width 25 mm Water Resistant 3 ATM",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

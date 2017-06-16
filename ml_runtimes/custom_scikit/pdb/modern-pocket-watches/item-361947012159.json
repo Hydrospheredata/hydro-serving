@@ -1,0 +1,115 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "95648",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Very good used condition showing typical wear from age and use including light scuffs, works great, reads \"Mercedes 1903\" opens and closes with ease nice snug fit. VHTF. Please ask any detailed questions before bidding and like all of our auctions we offer a 100 percent money back guarantee minus shipping. Thanks for looking SHELF18B",
+  "StartTime": "2017-04-06T01:02:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA0MFg5MDA=/z/bdkAAOSw03lY5ZD7/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/LSIAAOSwhQhY5ZE7/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxMlg5MDA=/z/OM4AAOSwB-1Y5ZEf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/ET0AAOSwc-tY5ZEl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/c84AAOSw03lY5ZEw/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/O5IAAOSwB-1Y5ZE1/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/oo0AAOSwpkFY5ZD3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/bcQAAOSw03lY5ZD6/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.49"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "R Henry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sodiumpen",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16118",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "80",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619470121598080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-05T01:02:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.49"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Hong-Kong-Mercedes-1903-R-Henry-Anti-magnetic-Working-Pocket-Watch-NM-/361947012159",
+  "Location": "Lincoln, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Hong Kong \"Mercedes 1903\" R Henry Anti-magnetic Working Pocket Watch NM",
+  "Storefront": {
+    "StoreName": "Frost and Ferrari Five and Dime",
+    "StoreURL": "http://stores.ebay.com/id=1252379"
+  },
+  "ItemID": "361947012159",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT6H14M16S"
+}

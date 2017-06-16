@@ -1,0 +1,154 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "95.5",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "332250232087",
+  "TimeLeft": "P5DT2H25M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "95.5",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PRETTY-HEIDI-DAUS-2-NECKLACES-/332250232087",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "95.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T16:45:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-10T16:45:01.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Heidi Daus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "CRYSTALS",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "BLUE. LT. GREEN ,LT. PINK & LT. LAVENTER",
+        "Name": "Color"
+      },
+      {
+        "Value": "GLASS SKY BLUE BEADS, FACETED",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "PRETTY HEIDI DAUS  2 NECKLACES",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HEIDE DAUS PRETTY AND PETITE NECKLACES CAN BE WORN TOGETHER OR APARTLOTS OF BLING BUT NOT OVERLY LARGEBOTH NECKLACES WORN VERY LITTLE AND IN VERY GOOD CONDITIONSORRY NO HD BOX BUT YOU WILL RECEIVER THE TAGS THANK YOU FOR LOOKING",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322502320878080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sparklies4us",
+    "FeedbackScore": "179",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Chico, California",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/5p8AAOSw4YdYywG9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/~l4AAOSwB-1YywIO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/oVsAAOSwol5YywJB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/o0AAAOSwhQhYywKE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/6OMAAOSwXYtYywKg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/4UEAAOSwWxNYywLU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/bs8AAOSwTM5YywMI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/1YcAAOSwsW9YywNb/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "95973"
+}

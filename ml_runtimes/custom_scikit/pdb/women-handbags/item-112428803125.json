@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/A5QAAOSwhvFZKLz9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/eVsAAOSwjL5ZKL0J/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/8EEAAOSwYvFZKL0O/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/TRcAAOSwi7RZKL0T/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/H-0AAOSwaEhZKL0X/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/TVkAAOSwi7RZKL0c/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/dEAAAOSw-K9ZKL0g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/JJEAAOSwfpVZKL0k/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/7YUAAOSw5cRZKL0o/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/iwsAAOSwEHpZKL0u/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/GwEAAOSwJH1ZKL0x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/xuYAAOSwlY1ZKL0D/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Brooklyn-Grab-Bag-Large-Tote-Luggage-Leather-Used-One-Week-/112428803125",
+  "ConvertedCurrentPrice": {
+    "value": "335.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "I have had this bag for one week so it is in excellent condition and is near new! It is the gorgeous Brooklyn style bag with dual handles and shoulder strap. The accents are gold brass which is stunning against the Luggage leather. This bag retails for $498 new so my price is a steal!!!! I will ship in a large box so there is no creasing or folding of the leather. The MK silk storage bag and large paper shopping bag are included. I love the bag so much I went and got the black one but decided to sell this one. You will love it!!!! I have gotten so many compliments it's just so gorgeous!!",
+  "Title": "Michael Kors Brooklyn Grab Bag Large Tote Luggage Leather Used One Week",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "335.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Edmond, Oklahoma",
+  "Seller": {
+    "FeedbackScore": "1047",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "braciesmom"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "73013",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:44:15.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P2DT22H34M2S",
+  "EndTime": "2017-06-05T12:44:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428803125",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124288031258080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

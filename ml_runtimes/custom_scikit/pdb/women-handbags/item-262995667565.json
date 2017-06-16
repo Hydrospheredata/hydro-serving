@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIzOVgxMTUx/z/4nkAAOSwX9FZIK1q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vZQAAOSwGJlZIK14/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ToIAAOSwJH1ZIK2B/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODg4WDE1NTI=/z/vx8AAOSwGJlZIK2a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4MFgxMDM2/z/5TUAAOSwX9FZIK2x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzNlgxNDc2/z/3kUAAOSwIaFZIK3M/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F9EAAOSwq1JZIKsV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dpkAAOSwDiBZIK3a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2lAAAOSwlMFZIK3j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wbEAAOSwKytZIK3r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Mm4AAOSw5cRZIK3y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Gv4AAOSwlY1ZIK36/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pacsafe-Citysafe-100-GII-RFID-Safe-Smart-Travel-Handbag-Model-PB144MD-NWT-/262995667565",
+  "ConvertedCurrentPrice": {
+    "value": "68.97",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a new with tags Pacsafe Citysafe 100 GII Anti-Theft Travel Handbag. This bag has a RFID Safe pocket and has turn and lock security hooks, eXomesh slashguards, slash proof carrysafe strap, and smart zipper security. This handbag has two outer pockets and three inner pockets with one of them having a zipping closure. This handbag is blue in color and has a yellow interior. This handbag measures around 10.5 inches wide and 10 inches tall at the widest and tallest parts of the body of the handbag. Thank you for viewing my listing and feel free to make me an offer.",
+  "Title": "Pacsafe Citysafe 100 GII RFID Safe Smart Travel Handbag Model PB144MD NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "68.97",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Berea, Kentucky",
+  "Seller": {
+    "FeedbackScore": "33",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "kys_treasure"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40403",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-20T20:59:04.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P17DT3H15M12S",
+  "EndTime": "2017-06-19T20:59:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Pacsafe"
+      },
+      {
+        "Name": "Material",
+        "Value": "EXOMESH"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Style",
+        "Value": "Handbag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262995667565",
+  "Storefront": {
+    "StoreName": "KY s_Treasure",
+    "StoreURL": "http://stores.ebay.com/id=1599984858"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629956675658080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

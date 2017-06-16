@@ -1,0 +1,71 @@
+{
+  "ExcludeShipToLocation": "APO/FPO",
+  "QuantitySold": "0",
+  "PostalCode": "85331",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "GLASS MOSTLY CLEAN,AND CLEAR,MAY FIND A VERY SMALL SURFACE SCRATCH,OR 2,TO SMALL TO NOTICE,DATE DISPLAY,GOLD TONE DETAILS,2 TONE CASE SHOWING SOME WARE,FROM NORMAL USE,UPPER WRIST BAND APPEARS TO BE SILVER,WITH TURQUOISE INLAY,LOWER BAND,STAINLESS STEEL STRETCH TYPE,NEW BATTERY,KEEPS GOOD TIME,RESPONDING TO ALL INQUIRES",
+  "StartTime": "2017-05-06T13:51:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwNlgxNjAw/z/AMAAAOSw-3FZDdS-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NFgxNjAw/z/FqIAAOSwHsRYEin0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA5WDEyMDk=/z/CF8AAOSwImRYEin7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4NVgxNjAw/z/G0YAAOSwHsRYEioL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxMlgxNjAw/z/YIcAAOSwn7JYEioA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTIyWDEyMjM=/z/YdsAAOSwn7JYEioH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODE4WDExNDg=/z/E4YAAOSwHsRYEink/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "jomclain2011",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "890",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529231152758080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T13:51:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MATHEY-TISSOT-MADISON-WOMENS-SOUTH-WEST-STYLE-WATCH-/252923115275",
+  "Location": "Cave Creek, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MATHEY TISSOT MADISON WOMEN'S SOUTH WEST STYLE WATCH",
+  "Storefront": {
+    "StoreName": "jomclain2011",
+    "StoreURL": "http://stores.ebay.com/id=1091137179"
+  },
+  "ItemID": "252923115275",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT19H7M17S"
+}

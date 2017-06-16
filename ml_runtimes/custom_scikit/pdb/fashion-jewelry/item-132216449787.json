@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT23H48M3S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "PRISTINE...VINTAGE",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132216449787",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:19:43.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST-JOHN-COLLECTION-DESIGNER-JEWELRY-EARRINGS-CLIP-ON-BLACK-GOLDTONE-/132216449787",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T10:19:43.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "St. John",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Classic",
+        "Name": "Style"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Black/GoldTone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Clip-On",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "ST JOHN COLLECTION..DESIGNER JEWELRY...EARRINGS...CLIP-ON...BLACK/GOLDTONE",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Miami Beach, Florida",
+  "Description": "THESE ST JOHN VINTAGE EARRINGS ARE 1 1/4\" TALL..THESE EARRINGS ARE NOT SMALL IN SIZE....THE PADS ON CLIPS ARE REMOVABLE...THE BLACK ENAMEL CENTER SECTION IS TRIMMED WITH A THIN GOLD STRIP AND NEXT TO THAT A THICK SECTION IN THE GOLD TONE ON THE OUTER EDGES OF THE EARRINGS...THESE EARRINGS ARE LOVELY AND ARE ATTRACTIVE FROM THE SIDES AS WELL AS FROM THE FRONT...IN GREAT CONDITION AND WELL CARED FOR....VERY WEARABLE FOR BUSINESS...THE PICTURES ARE NOT GREAT THAT WERE ATTACHED HERE...THE EARRINGS ARE FABULOUS.....THE EARRINGS ARE SIGNED ON THE CLIPS AND WILL BE MAILED VIA USPS PRIORITY FLAT RATE SMALL BOX WITH A TRACKING NUMBER FOR SECURE RECEIPT....IF YOU HAVE ANY QUESTIONS, PLEASE MESSAGE ME HERE ON EBAY.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322164497878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hildi123",
+    "FeedbackScore": "1036",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hildi123",
+    "StoreURL": "http://stores.ebay.com/id=998428060"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/o1kAAOSwWKtUxafe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/RdQAAOSw2s1Uxafg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/Se0AAOSw1ZBUxafi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc4WDY0MA==/z/sNYAAOSw0e9Uxafl/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "PostalCode": "33154"
+}

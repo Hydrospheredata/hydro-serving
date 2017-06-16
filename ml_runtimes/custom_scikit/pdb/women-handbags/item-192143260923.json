@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921432609238080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDg2/z/tl0AAOSwB-1Y28mb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg2Mjc=/z/IEQAAOSwol5Y28mb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MlgxNTAw/z/etMAAOSwsW9Y28mc/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rowallan-Black-Leather-Portfolio-Shipping-Free-/192143260923",
+  "ConvertedCurrentPrice": {
+    "value": "103.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Rowallan of Scotland are proud to be Queen's Award winners. With over 50 years' experience they are masters of their trade. Rowallan products are made from carefully selected leathers and they believe in quality through tradition. Key Features: With its multiple dividers this underarm portfolio has been designed to keep all you business essentials in order. The folio opens with two zip pulls and has four gusseted compartments, two leather pouches and three leather pen holders. There is also a zipped pocket on the front. The leather is natural and genuine so with use it will develop a natural patina and any marks in the grain are an indication of its uniqueness. This is the beauty of a fine natural leather Size: Height 38cm x Length 27cm x Width 4cm.",
+  "Title": "Rowallan Black Leather Portfolio. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "103.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-29T14:49:58.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P24DT22H31M38S",
+  "EndTime": "2017-06-27T14:49:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5060399337380"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5060399337380"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Rowallan"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143260923",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:69109922:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

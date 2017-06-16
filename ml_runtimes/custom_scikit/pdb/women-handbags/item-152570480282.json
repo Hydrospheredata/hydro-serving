@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sckAAOSwuLZY3uYW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/K7EAAOSwmgJY3uYY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lZkAAOSwdGFY3uYc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IGIAAOSwDmBY3uYf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IUgAAOSwol5Y3uYh/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-KORS-RING-TOTE-BLACK-TASSEL-HANDBAG-SHOULDER-BAG-/152570480282",
+  "ConvertedCurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BLACK EXTERIOR POLISHED GOLD TONE HARDWARE + MICHAEL KORS LOGO METAL FOB,BLACK TASSEL ON FRONT BLACK DOUBLE HANDLES TAB WITH SNAP CLOSURE ON TOP GOLD TONE RINGS FOR THE HANDLES INTERIOR BLACK FABRIC LINING MATCHING BLACK TRIM COMPLETELY OPEN INTERIOR FOUR SLIP POCKETS",
+  "Title": "MICHAEL KORS RING TOTE BLACK TASSEL HANDBAG SHOULDER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Taunton, Massachusetts",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "483",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "robina2323"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02780",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:07:26.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P9DT20H44M23S",
+  "EndTime": "2017-06-12T11:07:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "GRAB BAG, Tote, Hand,Shoulder Bag, Purse"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "16\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "9.5"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152570480282",
+  "Storefront": {
+    "StoreName": "Biina s Bags",
+    "StoreURL": "http://stores.ebay.com/id=736670911"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525704802828080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

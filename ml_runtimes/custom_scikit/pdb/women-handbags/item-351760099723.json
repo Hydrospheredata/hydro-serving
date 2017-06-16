@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/Ra4AAOSwmtJXYXm3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/JugAAOSwvg9XYXnK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/08YAAOSwc1FXYXnY/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-BABY-BAG-LOVES-ME-PATTERN-NWT-/351760099723",
+  "ConvertedCurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY BABY BAG NWT \"LOVES ME\" PATTERN MEASURES APPROX.: 11 1/2\" H 15 1/2\" W 5 1/2\" D 11\" DOUBLE STRAP DROP(1 INCH) HAS THREE EASY SLIP IN EXTERIOR POCKETS WITH MAGNETIC FLAP OVERTWO EASY SLIP IN EXTERIOR END POCKETS FULL LENGTH EXTERIOR ZIPPERED POCKET HAS FIVE SLIP IN INTERIOR POCKETS ALL IN TAFFETA LINING HAS A LOBSTER CLAW STRAP FOR KEYS, ETC. THAT SLIPS IN ONE OF THE OUTSIDE POCKETS THERE IS A ZIPPERED TOP CLOSURE HAS A CHANGING PAD AND STURDY REMOVABLE BOTTOM THANKS FOR LOOKING COMES FROM A SMOKE FREE ENVIRONMENT FAST SHIP PLEASE CHECK OUT MY OTHER AUCTIONS FOR MORE VERA BRADLEY ITEMS",
+  "Title": "VERA BRADLEY BABY BAG\"   LOVES ME\"   PATTERN    NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fort Wayne, Indiana",
+  "Seller": {
+    "FeedbackScore": "2355",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pickard1940yahoo"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46805",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-06-15T16:00:05.000Z",
+  "HitCount": "144",
+  "TimeLeft": "P8DT23M",
+  "EndTime": "2017-06-10T16:00:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "PINKS/MIXED"
+      },
+      {
+        "Name": "Style",
+        "Value": "BABY BAG"
+      },
+      {
+        "Name": "Material",
+        "Value": "COTTON W/TAFFETA"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "351760099723",
+  "Storefront": {
+    "StoreName": "pattys picks",
+    "StoreURL": "http://stores.ebay.com/id=96370368"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3517600997238080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

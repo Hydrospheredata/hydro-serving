@@ -1,0 +1,126 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT20H30M7S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302340506569",
+  "ConvertedCurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:14:14.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Jay-Lane-Faux-Pearl-White-Stone-Cluster-Bangle-Bracelet-Black-Gold-New-/302340506569",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:14:14.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "22K  gold plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Diameter 2.75\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kenneth Jay Lane Faux Pearl & White Stone Cluster Bangle Bracelet Black Gold New",
+  "ExcludeShipToLocation": [
+    "HK",
+    "ID",
+    "MY",
+    "PH",
+    "CN"
+  ],
+  "Location": "Warren, New Jersey",
+  "Description": "\u00b7 Kenneth Jay Lane Faux Pearl & White Stone Cluster Bangle Bracelet A strong silhouette is softened with a twinkling embellishment of simulated pearls and varied stonesSimulated faux pearlsGlassEnamel22k yellow gold toneDiameter, 2.75\"Width, 1.75\"MagnetMade in USA Normal 0 false false false EN-US X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023405065698080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sillhouette2006",
+    "FeedbackScore": "1348",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Fashion Accessories-24_7",
+    "StoreURL": "http://stores.ebay.com/id=422062779"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yvgAAOSw0UdXtkBW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1Z0AAOSwMtxXtkBB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~aIAAOSwIgNXtkBI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ak0AAOSwHoFXtkBL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0hkAAOSw-itXtkBT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MMgAAOSwaB5XtkBa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uJ0AAOSw65FXtkBf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2SYAAOSwMtxXtkBj/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "07059"
+}

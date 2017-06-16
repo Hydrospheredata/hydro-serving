@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118656078648080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExOFgxMzk1/z/lMIAAOSwfRdZD04D/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzMFgxMjcx/z/JC4AAOSwuMZZD04Q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMlgxMjg2/z/owoAAOSw42dZD04U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMlgxNDEz/z/MPMAAOSwBt5ZD04c/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA0MlgxNTI0/z/a~oAAOSwrhBZD04g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/66IAAOSwlndZD04k/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Le-Sportsac-Brown-Pink-Green-Floral-Print-Nylon-Handbag-Duffel-Bag-Crossbody-/311865607864",
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "Le Sportsac Brown Pink Green Floral Print Nylon Handbag Duffel Bag Crossbody",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Plymouth Meeting, Pennsylvania",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "27637",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "rodeo-drive-deals"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "19462",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T16:41:13.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P3DT23H51M10S",
+  "EndTime": "2017-06-06T16:41:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Le SportSac"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffel"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does Not Apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "311865607864",
+  "Storefront": {
+    "StoreName": "Rodeo-Drive-Deals",
+    "StoreURL": "http://stores.ebay.com/id=29638445"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "-RETURNS ACCEPTED WITHIN 14 DAYS OF RECEIPT\r\n-BUYER MUST CONTACT SELLER PRIOR TO RETURNING ANY ITEM AND A RETURN REQUEST MUST BE MADE WITHIN THEIR EBAY BUYER PURCHASE HISTORY (LET US KNOW IF YOU NEED HELP)\r\n- ITEMS MUST BE RETURNED IN SAME CONDITION AS SENT AND REQUIRE TRACKING INFORMATION\r\n-RETURN SHIPPING IS AT BUYER'S EXPENSE\r\n-YOUR ACCOUNT WILL BE CREDITED UPON RECEIPT",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "74867",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

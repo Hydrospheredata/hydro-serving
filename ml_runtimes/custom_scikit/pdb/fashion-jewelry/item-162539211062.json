@@ -1,0 +1,189 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P27DT5H21M2S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "JP",
+    "BE",
+    "FR",
+    "NZ",
+    "BR"
+  ],
+  "CurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162539211062",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SALE-BESS-HEITNER-MAKABIBI-SHELL-HORN-MOTHER-OF-PEARL-NECKLACE-/162539211062",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T20:09:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-02T20:09:27.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bess Heitner",
+        "Name": "Brand"
+      },
+      {
+        "Value": "necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "horn, mother of pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "amber, tortoise, white",
+        "Name": "Color"
+      },
+      {
+        "Value": "Shell",
+        "Name": "Material"
+      },
+      {
+        "Value": "Philippines",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SALE - BESS HEITNER  MAKABIBI SHELL, HORN MOTHER-OF-PEARL NECKLACE",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "UA",
+    "VA",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "WEBSITE PRICE $158...EBAY SALE: $98...LAST ONEI am a NY-based jewelry designer specializing in one-of-a-kind and limited edition pieces for women who want to make a unique statement at work and in their personal life. Every design contains precious and unusual stones collected over many years. Each piece is handmade in my New York City studio. From my Spring 2015 collection, this lightweight on trend necklace has already sold on sight without being listed. It features light as a feather luminous natural makabibi shell,horn, and mother-of-pearl linked circles in tones of amber, tortoise, deep brown and white. 18\"sterling hook clasp with 2\" extender. Only 1 available.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625392110628080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bestom742",
+    "FeedbackScore": "649",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Bess Heitner Handmade Jewelry Salon",
+    "StoreURL": "http://stores.ebay.com/id=159728212"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDcx/z/bKAAAOSwZjJU-ngy/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10010"
+}

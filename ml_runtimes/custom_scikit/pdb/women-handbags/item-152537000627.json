@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525370006278080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/hyIAAOSwCQZZC8WR/$_12.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lug-Double-Dutch-Cross-Body-Bag-/152537000627",
+  "ConvertedCurrentPrice": {
+    "value": "77.73",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Lug Double Dutch Cross-Body Bag Product Features Polyester Imported 10\" high 12.5\" wide glasses pocket, pen slots and cargo pockets -we've even added a soft-lined pocket for your tablet! Adjustable shoulder strap Rfid protection Signature soft-lined pull-tab cell phone 4.5 x 12.5 x 10 Product Description Perfectly polished, and filled with style! The favorite double dutch shoulder bag has us excited about its sleek and slightly structured design. New gunmetal hardware, and of-the-moment colors has us swooning! Doubling up on features this rfid protected \"it\" bag has not one but two carrying options: cross-body like a messenger (new updated longer strap!), or, shortened, it's a perfect purse. Boasting practicality with two front zip pockets stacked with organizational features; like a signature soft-lined cell phone",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "77.73",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "New Jersey",
+  "Seller": {
+    "FeedbackScore": "2297",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "thomasgraciemusic"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Lug Double Dutch Cross-Body Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T00:21:38.000Z",
+  "HitCount": "31",
+  "TimeLeft": "P1DT9H15M15S",
+  "EndTime": "2017-06-04T00:21:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lug"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Lug"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0880479214302"
+      },
+      {
+        "Name": "UPC",
+        "Value": "880479214302"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152537000627",
+  "Storefront": {
+    "StoreName": "Thomas Gracie Music",
+    "StoreURL": "http://stores.ebay.com/id=140562892"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B018SYLYYU",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

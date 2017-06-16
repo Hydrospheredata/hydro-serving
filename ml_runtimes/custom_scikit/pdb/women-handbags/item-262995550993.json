@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gG4AAOSw2gxYqOq7/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EXIAAOSwWxNYqOq8/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dz0AAOSw4A5YqOq3/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6TAAAOSwtfhYqOq2/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EaMAAOSwWxNYqOq-/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qDEAAOSw~AVYqOq4/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-Donna-Sharp-Green-Black-Patchwork-Mini-Rolling-Duffel-MSRP-200-/262995550993",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "DONNA SHARP MINI ROLLING DUFFEL USED ONCE EXCELLENT USED CONDITION This is a great bag for a weekend trip or to carry your craft project. The bag is a green, black, and tan tones patchwork. There are black piping, handles, accents, and quilted lining. There are a variety of pockets on the sides, front, and inside the bag. The telescoping transport handle extends to 29\" inches and the black handles are 8\" inches. The bag measures 10\" by 16\" by 15\". The bag was used once and has been in storage since.The bag comes from a smoke-free home. Please contact me if you have any questions or to make an offer. If you would like to purchase multiple items from my store, please contact me with your zip code so that I can give you an accurate shipping cost.",
+  "Title": "RARE Donna Sharp Green Black Patchwork Mini Rolling Duffel MSRP $200",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Berlin, New Jersey",
+  "Seller": {
+    "FeedbackScore": "184",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "stitcher864"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08009",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-20T19:11:37.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P17DT3H51S",
+  "EndTime": "2017-06-19T19:11:37.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Donna Sharp"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Rolling Duffel"
+      },
+      {
+        "Name": "Features",
+        "Value": "Zipper"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262995550993",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629955509938080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

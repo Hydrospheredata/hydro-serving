@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTQwWDcyMA==/z/Nd4AAOSwhQhYzIpo/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-KORS-Large-Shoulder-Bag-Black-Purse-gold-straps-/122529205610",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New condition black leather snake pattern with gold straps.",
+  "Title": "MICHAEL KORS Large Shoulder Bag Black Purse with gold straps",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Ronkonkoma, New York",
+  "Seller": {
+    "FeedbackScore": "64",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "sseus"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "11779",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:31:35.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P9DT19H2M51S",
+  "EndTime": "2017-06-12T09:31:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gold"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122529205610",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225292056108080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

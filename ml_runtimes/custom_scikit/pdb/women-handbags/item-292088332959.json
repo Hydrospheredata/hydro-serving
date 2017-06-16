@@ -1,0 +1,123 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "None",
+    "UserID": "b***_",
+    "FeedbackScore": "1"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5OVgxNTAw/z/xy8AAOSwJ4hY9LZy/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lug-Womens-Puddle-Jumper-Overnight-2-0-Gym-Bag-Spice-Orange-One-Size-/292088332959",
+  "ConvertedCurrentPrice": {
+    "value": "141.15",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Top choice for the true traveler. Get uber organized on the go with the Lug quilted Puddle Jumper 2.0 gym/overnight bag. Fashion meets real function thanks to convenient carrying options and plenty of pockets--both inside and out. Thought-of-everything touches include a handy removable pouch, hidden magnetic pocket, and detachable mirror. Not too big and not too small, with a pocket or pouch for every last thing, it's easy to see why this bag is a best seller. With so many great features, it's hard to pick a favorite: Probably the clear-coated bottom for easy cleaning and durability. Or the travel strap that attaches to any standard rolling luggage handle. Or the ventilated compartment that keeps the dirty clothes/shoes away from the clean. Or the - you get the picture. This bag has all the bells and whistles. The Puddle Jumper design was inspired by frustration of having to topple over and squish larger duffel bags to fit into a gym locker. The bag was specifically designed to fit upright for easy in and out access! - Tote handles - Removable cross-body strap - Three zip storage pockets - Hidden magnetic pocket - 6x14.5x15.5 Lug Women's Puddle Jumper Overnight 2.0 Gym Bag, Spice Orange, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "141.15",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Lug Women's Puddle Jumper Overnight 2.0 Gym Bag, Spice Orange, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-17T12:34:50.000Z",
+  "HitCount": "226",
+  "TimeLeft": "P13DT19H39M58S",
+  "EndTime": "2017-06-16T12:34:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "880479216313"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0880479216313"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Lug"
+      },
+      {
+        "Name": "MPN",
+        "Value": "PUD JUMP-SPICE ORANGE"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Spice Orange"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.3 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 15.35 x W 14.57 x H 2.44 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Lug Parent Code"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088332959",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2920883329598080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/-ywAAOSwJ4hY9ZLp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/MtIAAOSwRUhY9ZLo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/bIoAAOSw53NY9ZLq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/-7gAAOSwHHFY9ZLo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/ft8AAOSwIWVY9ZLo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/5CIAAOSwN6JY9ZLp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/m-MAAOSw5UZY9ZLo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/OqoAAOSwWWxY9ZLo/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Diaper-Bag-Changing-Mat-Gold-/222479179448",
+  "ConvertedCurrentPrice": {
+    "value": "150.31",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Travel in style with this deluxe Betsey Johnson Signature Bag, complete with a premium fabric lining and the unique logo. Betsey Johnson uses only the finest quality custom material in crafting their bags. Each piece slight texture and color variation to give their product its own unique character over time. Enjoy the classic styling and unique design of your Betsey Johnson bag! - Zip Top Closure. Golden Hardware - White Bow on Front - Changing Mat - Measures : 17.5\" (L) x 13\" (H) x 8\" (D) Betsey Johnson Diaper Bag with Changing Mat in Gold",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "150.31",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "585",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "2.tzvishai2"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Betsey Johnson Diaper Bag with Changing Mat in Gold",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-18T04:15:27.000Z",
+  "HitCount": "22",
+  "TimeLeft": "P14DT12H46M52S",
+  "EndTime": "2017-06-17T04:15:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "889487071532"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0889487071532"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Baby Product"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gold"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17 x W 11 x H 7 inches"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222479179448",
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2224791794488080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

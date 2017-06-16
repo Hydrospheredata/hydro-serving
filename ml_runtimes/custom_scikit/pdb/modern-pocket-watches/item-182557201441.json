@@ -1,0 +1,87 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "02910",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Tazmanian Devil Pocket Watch by Fossil. Sold at Warner Brothers Stores. Includes chain fob. New in original tin from 1998. Still has film on face and back. New battery installed. Watch case measures about 2 inches diameter.",
+  "StartTime": "2017-05-02T21:10:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTUy/z/ffAAAOSwhRxXKS70/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTE0/z/fkoAAOSwhRxXKS79/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI2NFgxNjAw/z/ez0AAOSwubRXKS8F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ1MFgxNjAw/z/bC4AAOSw2GlXKS8T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1MFgxNjAw/z/kF0AAOSw3mpXKS8b/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "antsthings",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1146",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825572014418080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T21:10:56.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "129.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Fossil-Tazmanian-Devil-Pocket-Watch-Warner-Bros-Store-TAZ-/182557201441",
+  "Location": "Cranston, Rhode Island",
+  "Title": "NEW Fossil Tazmanian Devil Pocket Watch Warner Bros Store TAZ",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182557201441",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT2H25M50S"
+}

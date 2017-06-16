@@ -1,0 +1,123 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Useful to carry your valuables and essentials. It is in good condition, has some signs of normal wear. Please see photos. Hassle-free returns.",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-MZ-WALLACE-Black-Metro-Small-Backpack-/232354717262",
+  "BuyItNowPrice": {
+    "value": "174.99",
+    "_currencyID": "USD"
+  },
+  "TimeLeft": "P2DT10H10M34S",
+  "ConvertedBuyItNowPrice": {
+    "value": "174.99",
+    "_currencyID": "USD"
+  },
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "133.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Mira Loma, California",
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "133.99",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "91752",
+  "StartTime": "2017-05-31T01:00:20.000Z",
+  "HitCount": "23",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "MZ Wallace"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "ListingType": "Chinese",
+  "BidCount": "0",
+  "EndTime": "2017-06-05T01:00:20.000Z",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323547172628080_1.jpg",
+  "Site": "US",
+  "BestOfferEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTEw/z/R~UAAOSwjL5ZB48J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDk3/z/HCoAAOSwtGlZB48L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/HKMAAOSwtGlZB48P/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5NVgxNjAw/z/0o0AAOSwhvFZB48R/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDg3MQ==/z/0tgAAOSwhvFZB48T/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDg3Mg==/z/fecAAOSw-3FZB48V/$_12.JPG?set_id=880000500F"
+  ],
+  "Storefront": {
+    "StoreName": "eastvalestore",
+    "StoreURL": "http://stores.ebay.com/id=1219339367"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "133.99",
+    "_currencyID": "USD"
+  },
+  "AutoPay": "false",
+  "NewBestOffer": "false",
+  "Description": "Women's MZ WALLACE Black Metro Small Backpack Product Details Features: Brand: MZ Wallace Color: Black MPN: Does Not Apply Gender: Women's Size Type: Small Style: Backpack Measurements: Height (in): 3\" Width (in): 8\" Depth (in): 14\" Weight (lb): 1lb Only items pictured are included in the listing Condition: Useful to carry your valuables and essentials. It is in good condition, has some signs of normal wear. Please see photos. Hassle-free returns. Product Details Features: Brand: MZ Wallace Color: Black MPN: Does Not Apply Gender: Women's Size Type: Small Style: Backpack Measurements: Height (in): 3\" Width (in): 8\" Depth (in): 14\" Weight (lb): 1lb Only items pictured are included in the listing Condition: Useful to carry your valuables and essentials. It is in good condition, has some signs of normal wear. Please see photos. Hassle-free returns. eBay Store Designed & Developed By",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "46780",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "eastvalestore"
+  },
+  "Title": "Women's MZ WALLACE Black Metro Small Backpack",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "ItemID": "232354717262",
+  "SKU": "355805",
+  "Subtitle": "An eBay Valet trusted partner listing (ebay.com/valet)",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "HandlingTime": "1"
+}

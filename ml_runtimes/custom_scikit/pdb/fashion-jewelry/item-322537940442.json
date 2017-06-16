@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.  Item must be returned in the original unworn new condition.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT5H20M45S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "89.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322537940442",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victoria-Wieck-4-21ct-Prasiolite-Green-Enamel-Sterling-Silver-Ring-Size-5-/322537940442",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "89.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T20:11:50.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T20:11:50.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Victoria Wieck",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Prasiolite",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Green",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Fine Jewelry",
+        "Name": "Category"
+      },
+      {
+        "Value": "104451000050",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Victoria Wieck 4.21ct Prasiolite & Green Enamel Sterling Silver Ring - Size 5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Victoria Wieck 4.21ct Prasiolite & Green Enamel Sterling Silver Dome Ring *Available in Size 5 Stone Information: *Total carat weight: 4.21ct *Prasiolite: Oval (14x10mm) - 4ct. - mined in Brazil *White Topaz: Round (1.3mm) - .21ct - mined in China Design: *East/West Oval Prasiolite prong-set at top *Openwork scroll-design domed table and shoulders *Pave'-set round Topazes & Green Enamel adorn scrolls Details: *Measures approx. 1/2\" long x 3/4\" wide *Stamped .925 *Rhodium Plated *Polished *Tapered shank *Boxed",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225379404428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "gemgirl09",
+    "FeedbackScore": "1235",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Pompano Beach, Florida",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTE1WDY0Mw==/z/R3YAAOSwKtlWpZWH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDY5WDU2MQ==/z/9A0AAOSwa-dWpZWL/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTgwWDkwOA==/z/u4QAAOSw3xJVaGig/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3NlgxMjU5/z/gTMAAOSwl8NVaFkf/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE1WDcxOQ==/z/BcwAAOSwX~dWpZZZ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDc2NQ==/z/WUUAAOSwKtlWpZZh/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc1WDcxOQ==/z/vfkAAOSwUV9WpZZd/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg0WDg2Mg==/z/3QoAAOSwpRRWpZZq/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDc1WDY3OQ==/z/Ad8AAOSwuYVWpZZk/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM1WDkzOQ==/z/ChEAAOSwoydWpZaI/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDk0WDU5Ng==/z/7XcAAOSwGotWpZaL/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33066"
+}

@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P4DT16H19M51S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152567423364",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hand-Made-Hair-Jewelry-swarovski-crystal-Hair-Comb-Frosted-Flowers-Gold-/152567423364",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T03:43:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T03:43:56.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "2.5\"",
+        "Name": "Width"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Hair Comb",
+        "Name": "Type"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Hand Made Hair Jewelry swarovski crystal Hair Comb with Frosted Flowers, Gold",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful hair comb with gold, topaz colored crystal flowers. Excellent condition!",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525674233648080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "janicemcmillan",
+    "FeedbackScore": "334",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Crofton, Maryland",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wQQAAOSw42dZLjsD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JGAAAOSwEHpZLjsA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dhkAAOSwBt5ZLjsB/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "21114"
+}

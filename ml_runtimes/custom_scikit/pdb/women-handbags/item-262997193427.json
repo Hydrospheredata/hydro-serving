@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/4rgAAOSwfRdZIgjA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/Cl0AAOSwjqVZIgmL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/kg0AAOSwi7RZIgmg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/x4sAAOSwBt5ZIgnG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/xAYAAOSwZKBZIgnd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/ksYAAOSwq1JZIgnq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/vIAAAOSwK6RZIgoL/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Stevie-Diaper-Bag-black-green-polka-dot-lining-/262997193427",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Black Nylon Kate Spade New York Stevie Baby Bag with gold-tone hardware, dual rolled shoulder straps in black patent leather, dual pockets with black patent drawstring string closure at side exterior, logo at front, black patent leather trim, green polka dot nylon lining, six pockets at interior walls, single zip pocket and zip closure at top. Includes changing pad. Was only used a few times. Shoulder Strap Drop: 9\"Height: 12.5\"Width: 19\"Depth: 8\" Condition: Very Good. Light surface scuffs on bottom exterior; minor wear at interior. Designer: Kate Spade New York",
+  "Title": "Kate Spade Stevie Diaper Bag black with green polka dot lining.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Chagrin Falls, Ohio",
+  "Seller": {
+    "FeedbackScore": "86",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "zarl_purses"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "44023",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-21T21:48:02.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P18DT6H24M22S",
+  "EndTime": "2017-06-20T21:48:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262997193427",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629971934278080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Morden",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:28:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T12:28:32.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "311885331069",
+  "HandlingTime": "3",
+  "Description": "THIS VINTAGE LADIES WATCH IS NOT WORKING CORRECTLY.THE BALANCE SWINGS FOR A FEW SECONDS.CASE, STEEL SCREW BACK.CASE N0,C,8031.CASE WIDTH SIZE,WITH CROWN,25MM, WITHOUT,22MM APPROX.THIS WATCH IS SOLD AS SEEN / SPARES/ REPAIRS.PLEASE SE ALL PHOTOS.HAPPY TO ANSWER ANY QUESTIONS.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE OLD LADIES WATCH.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-OLD-LADIES-WATCH-/311885331069",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118853310698080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "sm46jg",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H11M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/bMQAAOSwhvFZLrRc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/sW8AAOSwrhBZLrRz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/m~EAAOSw~y9ZLrSe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDcx/z/s88AAOSwR29ZLrSy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/0o0AAOSwDiBZLrTY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/n7oAAOSw~y9ZLrTv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/XsQAAOSwY3BZLrUB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/sTsAAOSw~FJZLrUR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/lgwAAOSwblZZLrVg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/iv8AAOSwPh5ZLrVx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/NoUAAOSwjL5ZLrWC/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "2102",
+    "UserID": "the-good-buy",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

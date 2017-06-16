@@ -1,0 +1,73 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "India",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:14:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=920896473",
+    "StoreName": "Watch collecter"
+  },
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:14:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695001589",
+  "HandlingTime": "2",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-EL-370-Vintage-Electronic-Day-date-Original-bracelet-Mens-watch-Japan-/272695001589",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726950015898080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H58M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/CoAAAOSw41xXOv-b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/3f0AAOSw9VZXOv-N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/vvwAAOSwxehXOv-Q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/cSYAAOSwH71XOv-O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/aFkAAOSwIzNXOv-S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/3p0AAOSw9VZXOv-T/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/S90AAOSwdWBXOv-U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/ciwAAOSwH71XOv-X/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/QecAAOSwVcFXOv-Y/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/V0oAAOSwcvdXOv-a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/QpEAAOSwVcFXOv-e/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDExODA=/z/oScAAOSwZetXOwdQ/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Seiko EL 370 Vintage Electronic Day date Original bracelet Mens watch Japan",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "879",
+    "UserID": "vandiyadevan",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

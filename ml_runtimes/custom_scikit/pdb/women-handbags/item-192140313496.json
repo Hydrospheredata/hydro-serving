@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921403134968080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg5MzY=/z/39gAAOSwdGFY14vI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4Njg=/z/fe8AAOSwzgBY14vI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3NzU=/z/S44AAOSwc-tY14vI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA0WDE1MDA=/z/r6sAAOSw4A5Y14vI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3OVgxNTAw/z/ffwAAOSwzgBY14vI/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Braun-Buffel-S-Infinity-Nuva-Loto-Shopper-BB-19060-518-Black-Huge-Saving-/192140313496",
+  "ConvertedCurrentPrice": {
+    "value": "649.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Braun B\u00fcffel S Infinity Nuva Loto Shopper, BB 19060 518 Black by Braun B\u00fcffel Ships from UK Supplier Related Searches: Braun Buffel Shoulder Bags, Top-Handle Bag Bags, Braun B\u00fcffel Women' Weight: 1.2 kg",
+  "Title": "Braun B\u00fcffel S Infinity Nuva Loto Shopper, BB 19060 518 Black. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "649.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-26T09:36:47.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P21DT17H16M18S",
+  "EndTime": "2017-06-24T09:36:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Braun B\u00fcffel"
+      },
+      {
+        "Name": "MPN",
+        "Value": "531817217"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140313496",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:75186452:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

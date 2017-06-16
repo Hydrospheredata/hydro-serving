@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "42.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Round Mountain, Nevada",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:54:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "42.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:54:13.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135636756",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "WeWOOD",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "42.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wewood-watch-moon-crystal-chocolate-women-/292135636756",
+  "Title": "Wewood watch moon crystal chocolate for women",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921356367568080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "89045",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H38M59S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/z8gAAOSwnONZDgry/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KpIAAOSwhvFZDgru/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vkQAAOSwcgNZDgry/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vnAAAOSwcgNZDgr0/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EQsAAOSwfRdZDgr0/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "WeWOOD 100% Natural wood watch. Made from Indian Rosewood. Chemical and toxin free. Rediscover nature in beauty with WeWood, the avant-garde approach to sophisticated sustainability. Made of 100% natural wood, these high-tech wood watches fill the forest, as WeWood plants one tree for each watch sold. 100% Natural Wood Hypo-allergenic& Completely free of toxic chemicals. Premium Multi-function Miyota movement Hardened, scratch-proof mineral glass Adjustable to fit most any wrist",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "155",
+    "UserID": "jadabeany",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

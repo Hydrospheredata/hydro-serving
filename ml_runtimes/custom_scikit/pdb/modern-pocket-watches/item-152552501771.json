@@ -1,0 +1,72 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "41649",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Inspired by Jesse James train robbery in 1874-Butterfly Hinge-26\" pocket chain and FOB-Certificate of authenticityNew in sealed box",
+  "StartTime": "2017-05-18T06:28:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/hO8AAOSwo4pYl6H2/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "38.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TeleBrands",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "097298023231",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "tori_the_nerd96",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "15",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525525017718080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T06:28:46.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "38.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kansas-City-Railroad-Pocket-Watch-Silver-SEEN-TV-Inspired-Jesse-James-/152552501771",
+  "Location": "Martin, Kentucky",
+  "Title": "Kansas City Railroad Pocket Watch Silver AS SEEN ON TV - Inspired by Jesse James",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152552501771",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT11H49M20S"
+}

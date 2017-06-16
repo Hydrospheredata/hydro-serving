@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P18DT9H3M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142383138495",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KENNETH-LANE-AMBER-MULTI-BROWNS-CABOCHON-RING-/142383138495",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T00:06:46.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T00:06:46.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "KENNETH LANE AMBER  MULTI BROWNS CABOCHON RING",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SIGNED RING IS A 8 1/4 WITH INNER RING TO ADJUST. MULTI AMBER STONES WITH LARGE AMBER STONE",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423831384958080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "almongillo",
+    "FeedbackScore": "32841",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "almongillo",
+    "StoreURL": "http://stores.ebay.com/id=342251"
+  },
+  "Quantity": "1",
+  "Location": "Danbury, Connecticut",
+  "HitCount": "14",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzgyWDU0MQ==/z/VFoAAOSw4CFY2vSX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQxWDUxMw==/z/7DYAAOSwTM5Y2vRl/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "06813"
+}

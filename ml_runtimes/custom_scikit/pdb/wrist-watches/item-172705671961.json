@@ -1,0 +1,142 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3.22",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Port Talbot",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:18:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1338721480",
+    "StoreName": "newandvintagefinds"
+  },
+  "CurrentPrice": {
+    "value": "2.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T11:18:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "Description": "Lize Collection gift set in box comprising stainless steel watch, 7cm photo frame, keyring / bag charm and earrings. Box has some damage which is photographed. Box measures approximately 18.5cm. Please view photos carefully as part of this description. I can merge postage on multiple purchases so please have a look at my other items and contact me if you would like to buy more than one item. I normally dispatch as soon as possible, if you need this in a hurry please let me know and I will do my best to help. Thanks for looking! Normal 0 false false false EN-GB X-NONE X-NONE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705671961",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Lize Collection",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Lize Collection Watch Gift Set with photo frame, key ring/bag charm and earrings",
+  "ConditionDescription": "New in box but box has a little damage so please see photos.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lize-Collection-Watch-Gift-Set-photo-frame-key-ring-bag-charm-and-earrings-/172705671961",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with defects",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727056719618080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "SA12 7RH",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT19H58M11S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1750",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/EpkAAOSwX61ZBa48/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/TpUAAOSwrhBZBa4f/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/P4MAAOSw42JZBa4s/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/otcAAOSwT-FZBa5N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/VR8AAOSwt0FZBa5e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/-4EAAOSwnONZBa50/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/~TYAAOSwnONZBa6M/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "2.5",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "278",
+    "UserID": "mur0534",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

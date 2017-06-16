@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921387683258080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/gTgAAOSwc-tY1QJQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/xTgAAOSwmgJY1QJQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/PrUAAOSwsW9Y1QJQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/fXEAAOSwuxFY1QJU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/BEcAAOSw4A5Y1QJS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/P04AAOSwsW9Y1QJU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/NdYAAOSwB-1Y1QJQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/xgAAAOSwuLZY1QJQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/xUIAAOSwmgJY1QJQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/A-P-Donovan-Travel-bag-leather-bag-hand-luggage-60xm-x-25cm-x-45xm-Shipp-/192138768325",
+  "ConvertedCurrentPrice": {
+    "value": "161.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This bag is lovingly created by hand from the finest goat leather and features the highest quality and comfort. P> Ideal for travelling. It has a large inside pocket and two small side pockets. P> Our goat leather is of the highest quality. P> The shoulder strap is adjustable in length. The internal dimensions are 60xm x 25cm x 45xm p>",
+  "Title": "A.P. Donovan - Travel bag - leather bag hand luggage - 60xm x 25cm x 45xm. Shipp",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "161.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-24T11:26:02.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P19DT19H4M13S",
+  "EndTime": "2017-06-22T11:26:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "A.P. Donovan"
+      },
+      {
+        "Name": "MPN",
+        "Value": "309157497"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138768325",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:60983783:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

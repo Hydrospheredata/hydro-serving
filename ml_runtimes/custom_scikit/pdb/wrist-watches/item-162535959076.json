@@ -1,0 +1,325 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:43:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "7",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1119580425",
+    "StoreName": "intershop26"
+  },
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:43:21.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Women's Wristwatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Multicoloredwatch001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "PO Box"
+  ],
+  "ItemID": "162535959076",
+  "HandlingTime": "2",
+  "Description": "Leather Band Bracelet Wristwatch Item Type:Quartz WristwatchesCase Material:AlloyDial Window Material Type:HardlexWater Resistance Depth:No waterproofMovement:QuartzDial Diameter:3.5mmClasp Type:Leather Deployment BucketBoxes & Cases Material:PaperGender:WomenStyle:Fashion & CasualFeature:NoneBand Material Type:LeatherCase Shape:Irregular ShapeBand Length:24cmBand Width:11mmCase Thickness:8.8mmModel Number:asStyle:Fashion & CasualGender:UnisexFeature:Shock ResistantBand Length:22CMcolour:MulticolorBoxes & Cases Material:leatherBand With:10mm to 19mm",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Multi-Color-Genuine-Leather-Vintage-Quartz-Dress-Watch-Leaf-Pendant-Bracelet-/162535959076?var=",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Orange",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Brown",
+          "Red",
+          "White",
+          "Blue",
+          "Green",
+          "Black",
+          "Orange"
+        ],
+        "Name": "Band Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8yIAAOSwIaFZLri0/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9f8AAOSw3gJZLriO/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/9i0AAOSw3gJZLriR/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/l0EAAOSwfpVZLriW/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3HAAAOSwGJlZLrib/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/1qoAAOSw1WJZLriu/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/BmYAAOSws5pZLriq/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Band Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H27M34S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/084AAOSwjqVZLriA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/D0wAAOSwuMZZLriD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GsEAAOSwIQdZLriH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YYkAAOSwjL5ZLriK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/N5cAAOSwsXFZLriP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/5foAAOSwX61ZLriS/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Multi Color Genuine Leather Vintage Quartz Dress Watch Leaf Pendant Bracelet",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "73",
+    "UserID": "intershop26",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

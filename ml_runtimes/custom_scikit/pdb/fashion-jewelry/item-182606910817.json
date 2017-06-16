@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "30.9",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182606910817",
+  "TimeLeft": "P9DT13H4M2S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "30.9",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Pandora-Champagne-Leather-Small-7-Bracelet-box-/182606910817",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "30.9",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T23:29:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T23:29:05.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bracelet Only",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "18 cm / 7.1 in",
+        "Name": "Bracelet Size"
+      }
+    ]
+  },
+  "Title": "New Pandora Champagne Leather Small 7 In Bracelet I in a box",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "A genuine new size 7 Inch Pandora Champagne Braided Leather Bracelet with the sturdy Pandora Clasp Lock. The hallmark crown is over the O. Will come with the original boxes as pictured. See the pictures for more details Payment is due within 2 days I ship the next day Look at my other listed items",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826069108178080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "tata8263",
+    "FeedbackScore": "1051",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Somerset, New Jersey",
+  "HitCount": "2",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTczWDYzMQ==/z/IpwAAOSwurZZGdjn/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODg4WDY4Nw==/z/vQkAAOSwR29ZGdj8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ4WDcwOQ==/z/VAkAAOSwq1JZGdkj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ3WDgzNw==/z/Ui8AAOSwCQZZGdkl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAzWDY3NQ==/z/hOQAAOSwuMZZGdk~/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "08873"
+}

@@ -1,0 +1,369 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "48.93",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, NY",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:28:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "7",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1139018221",
+    "StoreName": "AreaTrend"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "48.93",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:28:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantityAvailableHint": "Limited",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Middle East",
+    "RU",
+    "BG",
+    "CY",
+    "CZ",
+    "EE",
+    "GR",
+    "LT",
+    "MT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "SG",
+    "VN",
+    "ZA",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK"
+  ],
+  "ItemID": "152567654876",
+  "HandlingTime": "0",
+  "Description": "Product Description Catalog #1681993130 The Base Camp Approach by The North Face will be your go-to everyday sneaker because of its classic style and function. The rubber soles are built to support and cushion your feet all day long. You will not sacrifice style or function with the Base Camp Approach by The North Face.Important Information for Orders Shipping Outside of the United States Orders that are shipped to countries outside of the U.S. may be subject to import taxes, customs duties and fees levied by the destination country. By law, we must declare all items at the value of payment received and cannot alter this amount to decrease international custom fees. The recipient of an international shipment may be subject to such Import Fees and administrative fees which are levied once a shipment reaches your country. Additional charges for customs clearance must be borne by the recipient; we have no control over these charges. Customs policies vary widely from country to country; you should contact your local customs office for further information. When customs clearance procedures are required, it can cause delays beyond our control and beyond the original delivery estimates. If you refuse a shipment from AreaTrend, you will be responsible for the original shipping charges, any customs or taxes, and the cost of returning the package to AreaTrend. This amount will be deducted from your merchandise refund. In the event that the return fee exceeds the order total, the package will be abandoned and you will not be refunded.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/North-Face-Mens-Base-Camp-Approach-Ankle-High-Fabric-Fashion-Sneaker-/152567654876?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1681993130",
+        "Name": "Catalog"
+      },
+      {
+        "Value": "The North Face",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "TNFBCA2791705",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Fashion Sneaker",
+        "Name": "Style"
+      },
+      {
+        "Value": "Fabric",
+        "Name": "Material"
+      },
+      {
+        "Value": "Base Camp Approach",
+        "Name": "Model"
+      },
+      {
+        "Value": "Ankle-High",
+        "Name": "Height"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "1681993130",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "48.93",
+          "_currencyID": "USD"
+        },
+        "SKU": "1681993123",
+        "DiscountPriceInfo": {
+          "SoldOneBay": "false",
+          "PricingTreatment": "STP",
+          "SoldOffeBay": "false",
+          "OriginalRetailPrice": {
+            "value": "65.0",
+            "_currencyID": "USD"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Tnf Black/Tnf Red",
+              "Name": "Color"
+            },
+            {
+              "Value": "8M",
+              "Name": "US Shoe Size (Men's)"
+            }
+          ]
+        }
+      },
+      {
+        "StartPrice": {
+          "value": "48.93",
+          "_currencyID": "USD"
+        },
+        "SKU": "1681993124",
+        "DiscountPriceInfo": {
+          "SoldOneBay": "false",
+          "PricingTreatment": "STP",
+          "SoldOffeBay": "false",
+          "OriginalRetailPrice": {
+            "value": "65.0",
+            "_currencyID": "USD"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Tnf Black/Tnf Red",
+              "Name": "Color"
+            },
+            {
+              "Value": "9.5M",
+              "Name": "US Shoe Size (Men's)"
+            }
+          ]
+        }
+      },
+      {
+        "StartPrice": {
+          "value": "48.93",
+          "_currencyID": "USD"
+        },
+        "SKU": "1681993125",
+        "DiscountPriceInfo": {
+          "SoldOneBay": "false",
+          "PricingTreatment": "STP",
+          "SoldOffeBay": "false",
+          "OriginalRetailPrice": {
+            "value": "65.0",
+            "_currencyID": "USD"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "Quantity": "2",
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Tnf Black/Tnf Red",
+              "Name": "Color"
+            },
+            {
+              "Value": "10M",
+              "Name": "US Shoe Size (Men's)"
+            }
+          ]
+        }
+      },
+      {
+        "StartPrice": {
+          "value": "48.93",
+          "_currencyID": "USD"
+        },
+        "SKU": "1681993131",
+        "DiscountPriceInfo": {
+          "SoldOneBay": "false",
+          "PricingTreatment": "STP",
+          "SoldOffeBay": "false",
+          "OriginalRetailPrice": {
+            "value": "65.0",
+            "_currencyID": "USD"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Tnf Black/Tnf Red",
+              "Name": "Color"
+            },
+            {
+              "Value": "10.5M",
+              "Name": "US Shoe Size (Men's)"
+            }
+          ]
+        }
+      },
+      {
+        "StartPrice": {
+          "value": "48.93",
+          "_currencyID": "USD"
+        },
+        "SKU": "1681993126",
+        "DiscountPriceInfo": {
+          "SoldOneBay": "false",
+          "PricingTreatment": "STP",
+          "SoldOffeBay": "false",
+          "OriginalRetailPrice": {
+            "value": "65.0",
+            "_currencyID": "USD"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Tnf Black/Tnf Red",
+              "Name": "Color"
+            },
+            {
+              "Value": "11M",
+              "Name": "US Shoe Size (Men's)"
+            }
+          ]
+        }
+      },
+      {
+        "StartPrice": {
+          "value": "48.93",
+          "_currencyID": "USD"
+        },
+        "SKU": "1681993127",
+        "DiscountPriceInfo": {
+          "SoldOneBay": "false",
+          "PricingTreatment": "STP",
+          "SoldOffeBay": "false",
+          "OriginalRetailPrice": {
+            "value": "65.0",
+            "_currencyID": "USD"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Tnf Black/Tnf Red",
+              "Name": "Color"
+            },
+            {
+              "Value": "12M",
+              "Name": "US Shoe Size (Men's)"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": "Tnf Black/Tnf Red",
+          "Name": "Color"
+        },
+        {
+          "Value": [
+            "8M",
+            "9.5M",
+            "10M",
+            "10.5M",
+            "11M",
+            "12M"
+          ],
+          "Name": "US Shoe Size (Men's)"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Tnf Black/Tnf Red",
+        "PictureURL": "http://images.areatrend.com/products/1681993130-4630-1500-1500_m.jpg"
+      },
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H1M52S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://images.areatrend.com/products/1681993130-4630-1500-1500_m.jpg"
+  ],
+  "Title": "The North Face Men's Base Camp Approach Ankle-High Fabric Fashion Sneaker",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "64003",
+    "UserID": "areatrend",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP"
+  },
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Everything we do here at AreaTrend is centered around our customers. For this reason we are proud to offer our 365 day no hassle return policy!\n\nWithin 365 days of your order date, provided your product is still in its original box with all materials and has not been worn, used or sized your product is eligible for return.** \n\nThat's right! An entire year to return, and no restocking fee! Buy any gifts early and rest easy knowing that if the recipient is not 100% happy with it they are able to return it at their convenience. \n\nJust fill out the return form on the bottom of your packing slip and include it with your return. In addition, if your order was shipped within the United States, you may choose to use the return label on the reverse side of your packing slip. If you use this label a flat fee of $6.95 will be deducted from your refund. If you use the included label, simply drop off the package at your local post office, a post office mail box or give the package to your local carrier. Or, if you choose, you may contact us for an RMA number and ship your return via another method of your liking. \n\nHere are some additional details:\n\nYou can return your watch for refund, exchange, or store credit.\n\nUpon arrival please check your watch for any manufacturer defects. To prevent having to go through the warranty process defective items must be brought to our attention within 10 days of receipt. After 10 days, defective items are no longer eligible for return, and you must use warranty repair for your product at this time. \n\nWhen returning an item, we suggest purchasing insurance for the return shipment. Please note that we are not responsible for return liability.\n\nYou will receive an automated email once your return has been checked in to our returns department. Your return will then be processed within 3-7 business days and a refund, exchange or store credit will be issued less original shipping charges. If your original shipping was free, a flat shipping fee of $5.00 will be deducted from your refund. \n\nPlease note, if any return is sent back to us as RTS (Return To Sender) by the carrier, an additional $5.00 fee will be deducted from your refund. In the event that your order is returned to us undeliverable by the carrier at customs clearance, the refund provided to your account will be applied less any amount we were charged by the carrier and customs to have your package enter your country.\n\nRemember, if at any time you have questions or concerns let us know! We have real live people standing by ready to help. Our toll free number is 1-877-493-6847, and we are available here Monday through Friday, 9AM to 5PM EST."
+  }
+}

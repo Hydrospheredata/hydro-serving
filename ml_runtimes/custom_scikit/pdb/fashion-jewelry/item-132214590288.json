@@ -1,0 +1,119 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT2H28M57S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "See listing",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132214590288",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-03T15:34:19.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JELLY-BELLY-TURTLE-Pin-Vintage-Monet-AMBER-RIBBED-MELON-RHINESTONES-/132214590288",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T15:34:19.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fashion Jewelry",
+        "Name": "Category"
+      },
+      {
+        "Value": "Pins or Brooch",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Goldtone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestones/Amber Jelly Belly/Enamel",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rhinestones/Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Monet",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "JELLY BELLY TURTLE Pin Vintage Monet AMBER RIBBED MELON RHINESTONES",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Port Clinton, Ohio",
+  "Description": "THIS IS AN ADORABLE SIGNED MONET DESIGNER GOLDTONE GOLD TONE AMBER RIBBED MELON JELLY BELLY TURTLE PIN OR BROOCH WITH A DARK BLUE AND GREEN ENAMEL SHELL SURROUND AND RHINESTONE STUDDED HEAD, FEET AND TAIL. JUST LOVE THIS ONE! PERFECT FOR A HAT OR PURSE OR SCARF! SWIVEL CLASP. IT IS SIGNED OR STAMPED \"MONET\" ON THE UNDERSIDE. MINT CONDITION! MEASURES 1 5/8 BY 1 1/4 INCHES.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322145902888080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "treasuresoftime419",
+    "FeedbackScore": "3834",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Treasures of Time Two",
+    "StoreURL": "http://stores.ebay.com/id=6866003"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAz/$(KGrHqNHJCME+,L)qcs5BP55!uh5jQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM1NVgxNjAw/$T2eC16hHJFoE9nh6qS4YBP55!04HnQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2MVgxNjAw/$T2eC16hHJF0E9nmFTL6RBP55!7L2gQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjcw/$T2eC16hHJGwE9n)yVTnvBP55B!b7Cw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwNFgxNjAw/$T2eC16VHJF0E9nmFRoweBP55BN1TQw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1OVgxNjAw/$T2eC16FHJHwE9n8igs,oBP55BSoT(g~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQ5WDE0Njc=/$T2eC16hHJGoE9nuQhoOOBP55BH8LM!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxMlgxNjAw/$T2eC16NHJHwE9n8ig+GSBP55BH239Q~~60_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "43452"
+}

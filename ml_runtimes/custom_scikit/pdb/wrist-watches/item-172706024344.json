@@ -1,0 +1,142 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "631.2",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "Brantford, Ontario",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:40:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-03T14:40:58.000Z",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172706024344",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DAVOSA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Luminous Hands",
+          "Rotating Bezel",
+          "Sapphire Crystal",
+          "Screwdown Crown",
+          "Swiss Made",
+          "Swiss Movement"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Diver",
+        "Name": "Style"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "200 Metres / 20 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Davosa Ternos Vintage watch",
+  "ConditionDescription": "like new",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Davosa-Ternos-Vintage-watch-/172706024344",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727060243448080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "N3P 1B2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H34M17S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MVgxMDc5/z/GH4AAOSw~y9ZDnPk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2N1gxMTkz/z/68sAAOSw42dZDnQA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwN1gxMDgw/z/VA0AAOSwuMZZDnQT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/nAEAAOSwcgNZDnQi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/Kv0AAOSwrhBZDnQ3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NTQ=/z/QTsAAOSwX61ZDnRP/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Davosa Ternos Vintage watch Watch is like new, I cannot see a mark on it. Comes boxed with booklet Worlds:DivingCase:all stainless steelMovement:automatic, DAV2824Crystal:anti-glare, sapphireWater resistance:20 ATMBezel:high-tech ceramic, unidirectional turningDial:brownNumerals:indicesLuminosity:SuperLumiNovaCase back:screw-inStrap/bracelet:leatherGender:menLength:40 mmThickness:12.5 mmWidth:40 mm",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "549",
+    "UserID": "uktom84",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

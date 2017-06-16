@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTEzMlg4OTk=/z/E7UAAOSwt0FZDMNw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwNVg4OTk=/z/CIsAAOSwCQZZDMN-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE1NFg4OTk=/z/q~4AAOSwH09ZDMOJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM1N1g4Njg=/z/~mIAAOSwrhBZDMOU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTk3WDg5MQ==/z/AUUAAOSwrhBZDMOi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE3OVg4NzM=/z/KKQAAOSwjL5ZDMOw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEwMVg4OTU=/z/1ncAAOSwPh5ZDMPA/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Sold-Out-Marc-Jacobs-Pretty-Black-Nylon-Large-Diaper-Bag-MRSP-298-/112398720511",
+  "ConvertedCurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT!! Sold Out. Marc Jacobs Pretty Black Nylon Large Diaper Bag. MRSP $298! Still in original packaging. Great baby shower gift. From clean and smoke free home. Please see picks and ask any questions. Thanks for looking!",
+  "Title": "NWT!! Sold Out. Marc Jacobs Pretty Black Nylon Large Diaper Bag. MRSP $298!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Greenacres, Washington",
+  "Seller": {
+    "FeedbackScore": "299",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "tashytash83"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "99016",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T04:11:55.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P3DT12H44M59S",
+  "EndTime": "2017-06-06T04:11:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112398720511",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1123987205118080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

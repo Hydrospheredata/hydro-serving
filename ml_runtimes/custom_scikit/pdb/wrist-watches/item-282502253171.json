@@ -1,0 +1,90 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.95",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "MATRAVILLE, New South Wales",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:35:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=292726048",
+    "StoreName": "Australian Collectibles"
+  },
+  "CurrentPrice": {
+    "value": "12.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T11:35:27.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502253171",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Casing"
+      },
+      {
+        "Value": "Plastic/Resin",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Excellent Condition Working Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Excellent-Condition-Working-Quartz-Watch-/282502253171",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825022531718080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "2036",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H16M22S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fwsAAOSwbYZXeoT7/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5BEAAOSwEjFXeoT-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EAYAAOSwwo1XeoUA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2SoAAOSwuzRXeoUC/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "SPECIFICATIONS:\u00a0 Type: Quartz Wrist Band Size: Approx 18.0 cm Case Diameter: Approx 3.9 cm Dial Colour: White Battery: New Working: Keeping time well Comments: Glass - Case - Band in excellent condition some gems missing\u00a0 Please see photos and other items for sale.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "1155",
+    "UserID": "autospares888",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

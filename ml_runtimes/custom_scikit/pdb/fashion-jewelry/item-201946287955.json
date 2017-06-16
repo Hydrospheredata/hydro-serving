@@ -1,0 +1,160 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT6H52M3S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "IL",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201946287955",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Joan-Rivers-Vintage-lot-2-Beautiful-Pins-Brooches-/201946287955",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T19:42:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T19:42:51.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Joan Rivers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brooches",
+        "Name": "Type"
+      },
+      {
+        "Value": "MULTI",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "China",
+        "Name": "Metal Weight"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Joan Rivers Vintage lot of 2 Beautiful Pins/Brooches",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "LOT OF 2 VINTAGE JOAN RIVERS BROOCHESIN EXCELLENT CONDITIONAPPROX 2 1/2\" X 2 1/2\"ALL ITEMS ARE INSPECTED AND PHOTOGRAPHED BEFORE SHIPPING",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019462879558080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "laurentaylor*s",
+    "FeedbackScore": "2066",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Lauren Taylor&#39;s Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1005195159"
+  },
+  "Quantity": "1",
+  "Location": "USA",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYyWDkzNg==/z/~TcAAOSwaEhZNGEV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODkyWDgyNg==/z/THoAAOSwY3BZNGCi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc5WDg0Mw==/z/mMIAAOSwblZZNGDQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFg5NDU=/z/6LsAAOSwn-tZNGCC/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000"
+}

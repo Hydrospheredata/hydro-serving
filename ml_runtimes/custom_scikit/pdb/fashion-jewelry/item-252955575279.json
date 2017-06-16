@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "buyer pays all shipping costs original condition",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P17DT22H25M14S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "48.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252955575279",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Barse-Turquoise-Lapis-Abstract-LARGE-Drop-Sterling-925-Charm-Pendant-/252955575279",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "48.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-24T13:29:28.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T13:29:28.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Barse",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm Pendant",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling 925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Barse",
+        "Name": "Designer"
+      },
+      {
+        "Value": "Turquoise Lapis",
+        "Name": "Gemstone"
+      },
+      {
+        "Value": "Sterling 925",
+        "Name": "Hallmark"
+      },
+      {
+        "Value": "Barse Thailand",
+        "Name": "Maker's Mark"
+      }
+    ]
+  },
+  "Title": "Barse Turquoise Lapis Abstract LARGE Drop Sterling 925 Charm Pendant",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Barse Turquoise Lapis Abstract LARGE Drop Sterling 925 Charm Pendant",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529555752798080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "UserID": "esanfordsalvage",
+    "FeedbackScore": "11091",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "esanfordsalvage",
+    "StoreURL": "http://stores.ebay.com/id=562860197"
+  },
+  "Quantity": "1",
+  "Location": "Milwaukee, Wisconsin",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/VI8AAOSwd0BVqoyS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/~csAAOSwT6pVqoyT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/hAsAAOSwPcVVqoyW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/wPoAAOSwjVVVqoyZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/hJAAAOSwPcVVqoyc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/VWoAAOSwd0BVqoye/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "53216"
+}

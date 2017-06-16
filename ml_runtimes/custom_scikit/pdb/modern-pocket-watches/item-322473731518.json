@@ -1,0 +1,86 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Charles-Hubert Paris 3548-W Stainless Steel Pocket Watch Chain",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "31.21"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert, Paris 3548-W Stainless Steel Pocket Watch Chain Features: Stainless steel pocket watch chain14 inches in lengthDeluxe presentation box Product Details: Product Dimensions: 6.5 x 2.8 x 2.2 inchesShipping Weight: 6.4 ouncesItem model number: 3548-WDomestic Shipping: Item can be shipped within U.S. International Shipping: This item can be shipped to select countries outside of the U.S. Learn More Description Charles-Hubert premium stainless steel pocket watch chain for securing your timepiece on your person. Watch sold separately. Chain: Stainless steel chain, 14 inches long with clasps on ends. Measuring approximately 14 inches in length, the Charles-Hubert, Paris Stainless Steel Pocket Watch Chain 3548-W is the perfect accessory for your pocket watch. Made of silver-tone stainless steel for beauty and durability, this chain lets you keep your watch with you as you move through your day. Perfect for clipping on a pocket or belt loop, this chain arrives in a deluxe blue giftbox. See all Product description Handling We will ship all orders within 2 business days of payment. Delivery We DO NOT SHIP TO PO Boxes or Mail Forwarding Addresses. We only ship to Paypal Verified addresses. Return Policy All items that qualify for returns must be within 14 days of receipt. Buyer is responsible for return shipping on any item that is not damaged, as well as a 15% restocking fee. No exchanges permitted. All returns must be done through EBAY and processed with an RMA number to be issued refund. Upon receiving RMA, buyer has 7 days to have item shipped back. Item must be in original condition and packaging. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDEy/z/Y7AAAOSwVctY4-Wy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDM1/z/NPMAAOSwpkFY4-W0/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "811233010656",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ccs-craigw",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9274",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "StartTime": "2017-04-04T18:20:02.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224737315188080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T18:20:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "31.21"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.  All returns will be charged a 15% restocking fee.",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B002NSME0Q",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-3548-W-Stainless-Steel-Pocket-Watch-Chain-/322473731518",
+  "Storefront": {
+    "StoreName": "RivalTech",
+    "StoreURL": "http://stores.ebay.com/id=776355051"
+  },
+  "ItemID": "322473731518",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT23H31M24S"
+}

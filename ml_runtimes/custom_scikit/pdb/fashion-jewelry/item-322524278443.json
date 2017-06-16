@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P15DT2H46M54S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Very nice condition, a small amount of tarnish by post",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "119.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322524278443",
+  "ConvertedCurrentPrice": {
+    "value": "119.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-21T17:53:21.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Robert-Lee-Morris-24k-Gold-Plate-Pierced-Open-Leaf-Drop-Earrings-/322524278443",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-20T17:53:21.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Gold Plated Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "Vintage Robert Lee Morris 24k Gold Plate Pierced Open Leaf (?) Drop Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Chappaqua, New York",
+  "Description": "Vintage Robert Lee Morris 24k Gold Plate Pierced Open Leaf (?) Drop Earrings Comes with Robert Lee Morris PouchPurchased at RLM sample sale Very nice vintage RLM drop open leaf earringsApproximately 2 1/4\" in length 1 1/4\" in width Very nice condition, a bit of tarnish by post Please ask questions & check out my other sales",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225242784438080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "brooklyn756",
+    "FeedbackScore": "2085",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "brooklyn756",
+    "StoreURL": "http://stores.ebay.com/id=984914501"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/zcEAAOSw-itXv3Wo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/f8YAAOSwHoFXv3W0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/1cwAAOSw-itXv3Xs/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "10514"
+}

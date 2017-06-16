@@ -1,0 +1,191 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/97/02/92/292079103436_00_s_MTAwMVgxMTEx_z_VIIAAOSwCFY59fi__1.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kakadu-Traders-Weekender-Shoulder-bag-Scrubbed-Convertible-navy-/292079820446?var=",
+  "ConvertedCurrentPrice": {
+    "value": "77.03",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kakadu Traders Weekender Shoulder bag Scrubbed Convertible in navy The description of this item has been automatically translated. If you have any questions, please feel free to contact us. The scrubbed convertible by Kakadu Australia is a real all-rounder. According to requests and needs, it is a journey - or shoulder bag. The large inside pocket offers enough space for your luggage or your gifts from the holidays. Inner compartment, zipped front pocket, detachable L\u00e4ngenverstellbarer shoulder strap. \u00a0 Width: approx. 59 cm depth: approx. 27 cm \u2013 height: 37 cm Material: 100% Cotton \u00a0Dimensions:\u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0 Metric cm (Cm) Customs (Inches) Width 59 23 Quarter Depth 27 10 Half Height 37 14 Half eBay store powered by Shopping-Feed.com Marke Kakadu Traders Australia Stil siehe Artikelbeschreibung Verschluss siehe Artikelbeschreibung Handtaschengr\u00f6\u00dfe siehe Artikelbeschreibung Au\u00dfenmaterial Baumwolle Ma\u00dfe siehe Artikelbeschreibung Muster Unifarben Farbe siehe Artikelbeschreibung Themen Freizeit, Outdoor, City, Casual Ausstattung siehe Artikelbeschreibung Produktart siehe Artikelbeschreibung",
+  "ExcludeShipToLocation": [
+    "CA",
+    "AU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "77.03",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "de",
+  "Seller": {
+    "FeedbackScore": "4171",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "schlau-wow"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kakadu Traders Weekender Shoulder bag Scrubbed Convertible in navy",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Blue",
+        "PictureURL": "https://s3-eu-west-1.amazonaws.com/wi-ebay-pictures/EBAY/97/02/92/292079103436_s_files_1_1391_5499_products_9L06_blue_front_1_5691bdd4-8ffb-4d38-92ef-895ab3e565dc.jpeg"
+      },
+      "VariationSpecificName": "Color"
+    },
+    "Variation": {
+      "Quantity": "1",
+      "StartPrice": {
+        "value": "77.03",
+        "_currencyID": "USD"
+      },
+      "SKU": "9L06BLU*",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": [
+          {
+            "Name": "Color",
+            "Value": "Blue"
+          },
+          {
+            "Name": "Size",
+            "Value": "One Size"
+          }
+        ]
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "Color",
+          "Value": "Blue"
+        },
+        {
+          "Name": "Size",
+          "Value": "One Size"
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-04-08T04:38:10.000Z",
+  "TimeLeft": "P4DT12H23M16S",
+  "EndTime": "2017-06-07T04:38:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Themes",
+        "Value": "Leisure, Outdoor, City, Casual"
+      },
+      {
+        "Name": "Style",
+        "Value": "See Item Description"
+      },
+      {
+        "Name": "Handbag Size",
+        "Value": "siehe Artikelbeschreibung"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "See Item Description"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kakadu Traders Australia"
+      },
+      {
+        "Name": "Pattern.",
+        "Value": "Plain"
+      },
+      {
+        "Name": "Exterior Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Fastener",
+        "Value": "See Item Description"
+      },
+      {
+        "Name": "Main Colour",
+        "Value": "See Item Description"
+      },
+      {
+        "Name": "Product Type",
+        "Value": "See Item Description"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "See Item Description"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292079820446",
+  "Storefront": {
+    "StoreName": "Outdoor fuer Outbacker",
+    "StoreURL": "http://stores.ebay.com/id=98970109"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Is there a purchase return guarantee?\r\n\r\nIf, for some reason, you are not satisfied with the product you ordered, you can send it back to us. Of course we would undertake the shipping cost in the case that it is the consequence of a mistake on our side. \t\r\n\r\nIs it possible to swap the product? \r\nWe will send you another product as soon as we receive the returned package.\r\nWe cover the postage cost of the second product in the case that it is due to a mistake on our side. If you change your mind about the product and return it to us, you will be asked to contribute to the product shipping costs. \t\t\t\t\t\t\t\t\r\n\r\nConditions of the returned product:\r\nPlease note that in order to receive a full refund of the product price, or an exchange of equal value, we will ask you to return the product in the same conditions as when we sent it to you.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "DE",
+  "SKU": "7980498759",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

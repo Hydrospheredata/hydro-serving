@@ -1,0 +1,192 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-handmade-original-leather-handbag-vintage-casual-suede-leather-zip-women-bag-/192149114255?var=",
+  "ConvertedCurrentPrice": {
+    "value": "316.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size: smallApplication object: suitable for youthStyle: shoulder bagBackpack: shoulder slungTexture: cowhideLeather material: first layer leatherCarrying part type: softClosure: zipperInternal structure: zipper pouchLuggage bag type: dig kitsPopular elements: colourPattern: solid colourColour category: black purple brown grey BrownThere is no sandwich:Bags of hardness: softFoldable: noCondition: brand newApplication scenario: leisureStyle: retroShape: square boxShoulder strap styles: singleLining material: polyester",
+  "Title": "New handmade original leather handbag vintage casual suede leather zip women bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "316.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/852/013/312906634/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/014/311660399/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black-Brown",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/015/311905213/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/852/016/311814093/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852013:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852014:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852015:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Black-Brown"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852016:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Purple"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Brown",
+          "Grey",
+          "Black-Brown",
+          "Purple"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-05T10:36:19.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P1DT18H19M51S",
+  "EndTime": "2017-06-04T10:36:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DADAO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "418740871"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192149114255",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139852012:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

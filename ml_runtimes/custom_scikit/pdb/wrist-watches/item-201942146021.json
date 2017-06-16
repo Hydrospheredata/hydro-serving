@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Daytona Beach, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:07:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "12.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:07:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942146021",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Red",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Red",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Red",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Star Wars brand new watch black with red face digital with box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Star-Wars-brand-new-watch-black-red-face-digital-box-/201942146021",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019421460218080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "32119",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H34M24S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/uocAAOSww3tY68So/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "New with box / ships with tracking from the us",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1",
+    "UserID": "jsbs2015.js1-3",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

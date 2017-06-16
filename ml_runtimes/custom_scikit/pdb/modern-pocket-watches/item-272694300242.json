@@ -1,0 +1,107 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Waltham Pocket Watch \"Colonial\" 17 Jewels Gold Fill S/N 31931699 Ca. 1944",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-30T22:45:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTY3/z/IdIAAOSwjqVZBmG2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1MFgxNjAw/z/dGEAAOSwdjNZBmHJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTg3/z/yZMAAOSw~y9ZBmHT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUzNlgxNjAw/z/yRgAAOSw42JZBmHc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3NVgxNjAw/z/fn8AAOSwX61ZBmHk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NFgxNjAw/z/f~QAAOSwX61ZBmHv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3MlgxNjAw/z/-k8AAOSwrhBZBmH6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTg5/z/g74AAOSwX61ZBmIF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NVgxNjAw/z/zfEAAOSw42JZBmIQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3NlgxNjAw/z/zssAAOSw42JZBmIa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDk1/z/iV8AAOSwX61ZBmIk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NVgxNjAw/z/1-EAAOSw~y9ZBmIt/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "144.8"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1940-1949",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Waltham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "31931699",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "SKU": "F109 $85",
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726943002428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T22:45:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "194.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Waltham-Pocket-Watch-Colonial-17-Jewels-Gold-Fill-S-N-31931699-Ca-1944-/272694300242",
+  "ConditionDescription": "See Photos. Watch in great working order .",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "272694300242",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT4H11M46S"
+}

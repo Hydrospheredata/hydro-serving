@@ -1,0 +1,145 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/-ygAAOSwImRYZHgC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/R2oAAOSwa~BYXgYP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Hx0AAOSwo4pYXgYG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/3~oAAOSwW6JYXgYI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/7YwAAOSwEzxYXgYL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5eIAAOSwux5YXgYq/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-HERMES-PETIT-H-Bear-Leather-Bag-Charm-Double-Sided-Purple-Red-AUTH-/172704975344",
+  "ConvertedCurrentPrice": {
+    "value": "395.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NIB HERMES PETIT H Bear Leather Bag Charm Double Sided AUTHleather color: purple & redstring color: as picstring length 6 1/4\"charm size : 4\" height x 6 1/8\" width has receipt upon request",
+  "Title": "NIB HERMES PETIT H Bear Leather Bag Charm Double Sided Purple & Red AUTH",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "395.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Whitestone, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "246",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "luxworld2828"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11357",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T02:21:58.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P27DT10H29M40S",
+  "EndTime": "2017-06-30T02:21:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "HERMES"
+      },
+      {
+        "Name": "Type",
+        "Value": "Charm"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172704975344",
+  "Storefront": {
+    "StoreName": "shopshop2828",
+    "StoreURL": "http://stores.ebay.com/id=1286326599"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727049753448080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

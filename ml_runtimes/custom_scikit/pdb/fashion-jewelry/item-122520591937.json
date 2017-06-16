@@ -1,0 +1,79 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P22DT7H57M18S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New handmade necklace and earrings.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122520591937",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Handmade-Beaded-Necklace-And-Matching-Earrings-Gold-And-Blue-Green-Beads-/122520591937",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T22:37:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T22:37:51.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Blue/green",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "Handmade Beaded Necklace And Matching Earrings Gold And Blue/Green Beads",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Handmade Beaded Necklace And Matching Earrings Gold And Blue/Green Beads Handmade Handcrafted Necklace Size is approximately 26\" long Earrings are approximately 2\" long Necklace has a screw on clasp and earrings are dangling wires. Colors may vary depending on your monitor. All items are sent with a Tracking Number. I will be happy to combine shipping on multiple purchases. You must wait for an invoice with shipping discount to get the deal. Due to new billing charges, I will no longer refund shipping if you do not wait for a combined invoice. Thank you.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225205919378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kims-krochet",
+    "FeedbackScore": "246",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Weston, Ohio",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg3MjA=/z/J88AAOxyC5dSP1Gh/$T2eC16h,!y!FIc9h2E(dBSP1GgBNgw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1NlgxNjAw/z/XMYAAOxy1JBSP1Gl/$T2eC16V,!y0FI,Y,InTpBSP1GlJMOg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MzE=/z/5wUAAOxy9MpSP1Gm/$T2eC16R,!)4FI,VOSVdYBSP1GkMTv!~~60_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "43569"
+}

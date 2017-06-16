@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:10329",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/nRAAAOSwrhBZK3p3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "beadart2000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6774",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "StartTime": "2017-05-29T01:33:37.000Z",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "60 Days",
+    "RestockingFeeValue": "20%"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "ConditionDescription": "Needs a battery.",
+  "Title": "MONET Watch and Charm Bracelet - New with tag",
+  "Storefront": {
+    "StoreName": "beadart2000",
+    "StoreURL": "http://stores.ebay.com/id=436670"
+  },
+  "ItemID": "361993185510",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Necklace Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MONET-Watch-and-Charm-Bracelet-New-tag-/361993185510",
+  "QuantitySold": "0",
+  "PostalCode": "12508",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "MONET Watch and Charm Bracelet - New with tag. The toggle bracelet is 7 1/2\" (19 cm) long. The watch is 24 mm wide. Track Page Views WithAuctiva's FREE Counter",
+  "HitCount": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "10329",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Monet",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619931855108080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-05T01:33:37.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Beacon, New York",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "TimeLeft": "P4DT9H46M4S"
+}

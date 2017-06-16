@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzM4WDU5Ng==/z/MKIAAOSw3v5YnTsz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE1WDczNw==/z/2xwAAOSwTuJYnTwq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1OVg1Nzk=/z/JxQAAOSwr~lYnTyT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MjI4WDUxOA==/z/G28AAOSw~AVYnTyd/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Smell-Roses-Pewter-Back-Pack-NWT-118-/232355069767",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Betsey Johnson Smell The Roses Pewter Back Pack NWT $118",
+  "Title": "Betsey Johnson Smell The Roses Pewter Back Pack NWT $118",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Bronx, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "182",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "newyork12-us"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10462",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T08:51:34.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P27DT18H3M22S",
+  "EndTime": "2017-06-30T08:51:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Betsey johnson"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pewter"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889487042587"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232355069767",
+  "Storefront": {
+    "StoreName": "minibeautymarket",
+    "StoreURL": "http://stores.ebay.com/id=1113720029"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323550697678080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

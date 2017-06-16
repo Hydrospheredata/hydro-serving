@@ -1,0 +1,85 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182607254131",
+  "TimeLeft": "P6DT19H21M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/QVC-Diamonique-Sterling-7-5-Cubic-Zirconia-Tennis-Bracelet-Cocktail-Ring-/182607254131",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T05:10:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T05:10:13.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tennis",
+        "Name": "Style"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "7.5",
+        "Name": "Length (inches)"
+      }
+    ]
+  },
+  "Title": "QVC Diamonique Sterling 7.5\" Cubic Zirconia Tennis Bracelet, Cocktail Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for the bracelet and ring. This tennis bracelet is from QVC and is part of their Diamonique collection. I believe the matching ring is also from QVC. Very good condition. Gold over .925 sterling silver. I don't know about the carat weight, but I'd guess at least 6 cts for both. Ring is size 7. Please ask questions if you have them. PayPal only Smoke free home Payment due within 2 days Handling time 3 business days No refunds Thanks for looking",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826072541318080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "purple_aholic",
+    "FeedbackScore": "2798",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Oklahoma City, Oklahoma",
+  "HitCount": "3",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE0OFgxNTM2/z/b7QAAOSw4YdY0eYt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTQwWDE1MzY=/z/MxMAAOSwYXVY0eYq/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "73160"
+}

@@ -1,0 +1,185 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:04:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:04:08.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "FI",
+    "AU",
+    "SE",
+    "NL",
+    "DE",
+    "AT",
+    "NZ",
+    "NO"
+  ],
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "FR",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "UA",
+    "VA",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "PO Box"
+  ],
+  "ItemID": "252966789727",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "LCD",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Bulova LCD Quartz Men's Watch c1977, Working, Orig Band",
+  "ConditionDescription": "Very nice original 1977 Bulova 'LCD Quartz' men's watch, working with new batteries, original band!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Bulova-LCD-Quartz-Mens-Watch-c1977-Working-Orig-Band-/252966789727",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529667897278080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "23219",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H43M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE0MlgxNjAw/z/2GcAAOSwTM5Y3vu8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/pTYAAOSwCU1Y3vuw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/de8AAOSwuLZY3vu4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/zJ4AAOSwuxFY3vuy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/644AAOSww3tY3vu6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MlgxNjAw/z/RZ0AAOSwc-tY3vu-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/16UAAOSwTM5Y3vu0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0MlgxNjAw/z/dP4AAOSwuLZY3vut/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA0OVgxNDY4/z/F9UAAOSwhQhY3vur/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDI3/z/ES4AAOSwXYtY3vu2/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Up for sale is a Men's 1977 Bulova 'LCD Quartz' Watch Very neat and original watch, working quartz LCD movement, original band. Case and Caseback: all stainless steel in good condition; shows some wear and scratches; approx 37mm width and 41mm length Lug-2-Lug, dated N7 (1977); markings on backside are hard to read, but state: Bulova N7|Stainless Steel Case|Water Resistant|8057 SWISS.Crystal: flat crystal, clean and clear, nice condition.Dial: clean dial with LCD readout, may be difficult to see in sunlight and at certain angles; signed Bulova. Movement: LCD quartz model in working condition, shows hr/min/sec on main screen; month/date/day on second screen using the top button; lower left button activates a rather dim light for viewing in the dark; has two new battery cells; service history is unknown.Band: Original stainless steel bracelet, in nice used condition with some signs of wear and scratches, signed clasp; current and approx max size is 7.5\" and can be resized smaller through the clasp by moving the springbar. Other: No box or manuals included. Please review all photos for best description and evaluation.Note, this is a smaller sized watch; please consider this before purchasing.Please allow for some inaccuracies with vintage watches.Additional photos and details available upon request. Vintage and antique watches require regular professional cleaning and adjusting to be their most accurate. They are not as exact or dependable as modern or new quartz watches. Accuracy and water resistance cannot be guaranteed. Vintage watches should be handled with care. Please review the pictures well before bidding and feel free to ask questions. Watch is sold AS-IS, no returns, no refunds, all sales final. PayPal is the only method of payment accepted.Domestic Buyers: All packages will be sent via USPS, with insurance.Buyers outside of USA: You will be invoiced an additional amount from ebay for final shipping and any fees to your country; package will be sent from ebay's US Global Shipping Center.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "233",
+    "UserID": "naplater1031",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

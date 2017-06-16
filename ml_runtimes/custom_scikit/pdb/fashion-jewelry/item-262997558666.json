@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT12H17M24S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "262997558666",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tarina-Tarantino-Jewelry-Iconic-Blush-Small-Cameo-Ring-NWT-/262997558666",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T03:22:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T03:22:56.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tarina Tarantino",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hobo",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "Tarina Tarantino Jewelry Iconic Blush Small Cameo Ring NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Tarina Tarantino Jewelry Iconic Blush Small Cameo Ring Fantastic Statement One of the Most Beautiful rings Tarina has ever done! Part of the new Iconic Collection Very Striking Mod and Class all in one. Very Limited Edition Cameo measures 1 x 3/4 inches Iconic Collection Limited Edition Comes with Tarina Care Card and Ribbon Pouch Handmade in USA also Packed in Signature Pink Gift Box Thank you for looking at our listing Your product is guaranteed new and authentic! We Ship SAME DAY with US Postal Service Guaranteed Delivery! Contact us with any questions! Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629975586668080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellabacciaccessories",
+    "FeedbackScore": "3395",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Bellabacciaccessories",
+    "StoreURL": "http://stores.ebay.com/id=598323925"
+  },
+  "Quantity": "2",
+  "Location": "Costa Mesa, California",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMTEy/z/PzIAAOSwAPVZIlmS/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92627"
+}

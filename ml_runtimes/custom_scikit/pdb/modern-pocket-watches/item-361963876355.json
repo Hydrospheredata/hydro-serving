@@ -1,0 +1,115 @@
+{
+  "ExcludeShipToLocation": [
+    "MX",
+    "NG",
+    "SO",
+    "YE",
+    "IT"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "103.99"
+  },
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODE2WDgxNg==/z/BrUAAOSwRUhZATBT/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Quantity": "28",
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "findingking",
+    "FeedbackRatingStar": "GreenShooting",
+    "FeedbackScore": "578608",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "StartTime": "2017-04-26T23:42:10.000Z",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "Title": "Swingtime Rose Gold & Chrome Plated Pocket Watch",
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "ItemID": "361963876355",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swingtime-Rose-Gold-Chrome-Plated-Pocket-Watch-/361963876355",
+  "Country": "US",
+  "PostalCode": "85215",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "New with tags",
+  "Description": "--> FindingKing Swingtime Rose Gold & Chrome Plated Pocket Watch This is a beautiful new Swingtime Rose Gold & Chrome Plated Pocket Watch. It is a great gift for yourself or a loved one and makes the perfect addition to any jewelry collection. Gemstone-quartz All weights and measurements are approximate.",
+  "HitCount": "13",
+  "QuantityAvailableHint": "MoreThan",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PrimaryCategoryID": "3938",
+  "SKU": "QU-XWA2784",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "other color",
+        "Name": "Main Stone Color"
+      },
+      {
+        "Value": "natural",
+        "Name": "StoneCreationMethod"
+      },
+      {
+        "Value": "Not treated",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "FindingKing",
+        "Name": "Brand"
+      },
+      {
+        "Value": "XWA2784",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619638763558080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-25T23:42:10.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Mesa, Arizona",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "103.99"
+  },
+  "TimeLeft": "P25DT4H56M9S"
+}

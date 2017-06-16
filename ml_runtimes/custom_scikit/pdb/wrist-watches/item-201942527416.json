@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2380.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Meguro, Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:26:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2380.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:26:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942527416",
+  "HandlingTime": "3",
+  "Description": "It has a Caliber 9F62 Quartz movement with a terrific annual variation of +/- 5 second accuracy. The magnificent case and bracelet as well as the dials give you a high-fashion look. [Specifications] Movement: Quartz 10 Barometric Pressure Waterproof Accuracy: Annual Variation +/-5 Back cover screw back Lion Crest on the back cover Glass Material: Curved Sapphire Glass (Areflexia Coating) Case Material: Stainless Steel Case size: 44x39 mm Case width: 10 mm Band Material: Stainless Steel Band Fastener Type: Three-fold with one touch Band length: 19 mm Display color: Black 1 year warranty by Time Japan. Ship from Japan by japan Post EMS, and it will take 4-7 days for you to receive it.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Grand-Seiko-Mens-Sbgx061-/201942527416",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019425274168080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H14M33S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GpwAAOSw~FJZJVOS/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8REAAOSw-K9ZJVOW/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/yMQAAOSwX9FZJVOZ/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/LvgAAOSw~y9ZJVOc/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/XxYAAOSw5cRZJVOf/$_1.GIF?set_id=8800005007"
+  ],
+  "Title": "Grand Seiko Mens Sbgx061",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "time_japan",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We receive returns if items are in the same condition as received and include all documentation, packaging and any other addition originally shipped."
+  }
+}

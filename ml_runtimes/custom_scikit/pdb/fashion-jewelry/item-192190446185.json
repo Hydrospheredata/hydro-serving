@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P11DT15H31M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.98",
+    "_currencyID": "USD"
+  },
+  "SKU": "VVS0005",
+  "ItemID": "192190446185",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-plated-Red-Green-Stone-Kamar-Bandh-Indian-Waist-Belt-Women-Wedding-Jewelry-/192190446185",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.98",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-18T06:53:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-17T06:53:01.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "natural_gems15",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Red Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Kundan",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "waist",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Gold plated Red Green Stone Kamar Bandh Indian Waist Belt Women Wedding Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921904461858080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.5",
+    "UserID": "natural_gems15",
+    "FeedbackScore": "77",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "GHAZIABAD, UTTAR PRADESH",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/UT0AAOSwPh5ZHUQh/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "201003"
+}

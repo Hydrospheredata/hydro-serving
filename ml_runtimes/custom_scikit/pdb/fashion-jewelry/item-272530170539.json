@@ -1,0 +1,151 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT2H45M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "2",
+  "HighBidder": {
+    "UserID": "k***a",
+    "FeedbackScore": "1",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "None"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "41.43",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272530170539",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Grant-Cardone-Wristband-Bracelets-Set-5-/272530170539",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "41.43",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-01-21T16:54:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-20T16:54:44.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Grant Cardone",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Grant Cardone Wristband Bracelets Set of 5",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! This set includes 5 Wristband/Bracelets: 1. Grant Cardone 10X/Success Is My Duty Wristband, 1. Grant Cardone Don't Be A Little Bitch/Champions Dominate Wristband, 1. Grant Cardone No Negativity Allowed/Stay Positive Wristaband, 1. Grant Cardone Keep Pushing/HustleMuscle Wristband, 1. Grant Cardone Whatever it Takes/I'm Committed Wristband - 1. Grant Cardone 10X/Success Is My Duty Wristband - 1. Grant Cardone Don't Be A Little Bitch/Champions Dominate Wristband - 1. Grant Cardone No Negativity Allowed/Stay Positive Wristaband - 1. Grant Cardone Keep Pushing/HustleMuscle Wristband - 1. Grant Cardone Whatever it Takes/I'm Committed Wristband Grant Cardone Wristband Bracelets Set of 5",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2725301705398080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "intuii",
+    "FeedbackScore": "10705",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "intuii",
+    "StoreURL": "http://stores.ebay.com/id=1018845053"
+  },
+  "Quantity": "4",
+  "HandlingTime": "5",
+  "Location": "US",
+  "HitCount": "285",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3ODI=/z/-0oAAOSw44BYg5JY/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

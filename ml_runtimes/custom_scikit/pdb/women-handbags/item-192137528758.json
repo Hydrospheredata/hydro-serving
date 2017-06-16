@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921375287588080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg5MjU=/z/dJ4AAOSwXYtY0yQQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5MjU=/z/g10AAOSwWxNY0yQI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5MjU=/z/oY4AAOSwB-1Y0yQI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5MjU=/z/8FUAAOSw4YdY0yQH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5MjU=/z/AY0AAOSwYXVY0yQI/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Guess-HWVG50-68060-Shipping-Free-/192137528758",
+  "ConvertedCurrentPrice": {
+    "value": "191.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: - Bag- Fall/Winter 2015- ANGELA model- Handbag- Shoulder bag- Synthetic material on the outside- Removable charm at the base of the handle- Zip closure- One internal zip pocket- Three internal pockets- Front pocket with flap and magnetic closure- Double handles- Badge- Metal detail with 4G logo at the front- Width : 33 cm- Height : 23 cm- Depth : 17 cm- Fabric : 100% Polyurethane- Lining : 80% Polyester 20% Cotton AttributesColour: Black",
+  "Title": "Guess HWVG50 68060. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "191.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-23T01:24:52.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P18DT9H1M35S",
+  "EndTime": "2017-06-21T01:24:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Guess"
+      },
+      {
+        "Name": "MPN",
+        "Value": "170641838"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137528758",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:67324985:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

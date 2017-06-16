@@ -1,0 +1,173 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.27",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "newport, Newport",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:48:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T14:48:30.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "391800646227",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Figaro",
+        "Name": "Brand"
+      },
+      {
+        "Value": "24-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "lilac / silver",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": [
+          "Steel",
+          "chromed"
+        ],
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "chrome",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "N/A",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "minor surface scratches.... .needs a new battery...Italian design",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Figaro-bracelet-wristwatch-minor-surface-damage-needs-battery-/391800646227",
+  "Title": "Ladies Figaro bracelet wristwatch, minor surface damage... needs battery",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3918006462278080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "np20 2ar",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H42M42S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HIkAAOSww9xZLtci/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-MMAAOSw1WJZLtc1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CSQAAOSww5hZLtc7/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "here for sale is a ladies chromed bracelet wrist watch, 24 hour dial, Diamante details,needs a new battery, and there are some minor surface scratches. Tape measure is for size comparision onlyAny questions, please ask.Should you win more than 1 of our items, it may be possible to combine your items in one parcel, and so save you money on postal charges.....Good luck, happy bidding.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "13316",
+    "UserID": "billybikespeedway",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

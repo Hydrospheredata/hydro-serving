@@ -1,0 +1,96 @@
+{
+  "ExcludeShipToLocation": "BR",
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.95"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "SquareTrade \u00a9 AP6.0 Please note the Reasonable Shipping Charge, Clear photos and descriptions, Lightning fast processing and Delivery, and open communication, when leaving Detailed seller ratings. Thanks for your bids and your Business! A Very Nice Vintage Westclox Scotty Pocket Watch! It is in Working Order! Low Price of just $39.95. No Reserve, so Good Luck with your Bids! Shipping and Handling in the US is just $5.99 and International is $11.99! PLEASE CHECK OUT OUR NEW E-BAY STORE & ADD US TO YOUR FAVORITE SELLERS LIST! SquareTrade \u00a9 squaretrade warranty v2.0 Attention International Buyers: Import Duties, Taxes and Charges are not included in the item price or Shipping charges. These charges are the Buyers Responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. We will not mark customs forms for less than the value of the item or mark them as gifts. US and International Regulations prohibit such Actions or Behaviors.",
+  "StartTime": "2017-05-08T05:44:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/$(KGrHqZ,!g4E0eb5LOR4BN(RMuk9Rw~~_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/$(KGrHqQOKpME0VKHPTOzBN(RMwHclw~~_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/$(KGrHqV,!isE1Mz(W(nlBN(RMyDYMg~~_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/$(KGrHqEOKpgE0VI+1O!EBN(RM1DU8g~~_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Westclox",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "USA",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Scotty",
+        "Name": "Model"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "birthdaybuddy",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14560",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "167",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3520513358698080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T05:44:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.95"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Mechanicsville, VA",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Westclox SCOTTY Pocket Watch Open Faced Movement #T373",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Westclox-SCOTTY-Pocket-Watch-Open-Faced-Movement-T373-/352051335869",
+  "Storefront": {
+    "StoreName": "Cherie&#39;s Antique Emporium",
+    "StoreURL": "http://stores.ebay.com/id=103102867"
+  },
+  "ItemID": "352051335869",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT11H1M"
+}

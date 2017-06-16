@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P8DT22H24M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282479129751",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wedding-Rhodium-Plated-Bridal-Belly-Waist-Couture-Hip-Belt-Sari-Chain-/282479129751",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-15T13:47:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T13:47:08.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Belly",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Glam Jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Wedding Rhodium Plated Bridal Belly Waist Couture Hip Belt Sari Chain",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~~~ This Listing is for ~~~** Beautifully designed Silver clear rhinestones studded 3 row Belly waist chain.** Would look sexy with belly dance costumes.** Adjustable up to 36 inches.",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824791297518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "glamjewels",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "SUNAM, PUNJAB",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDU1WDgwMA==/z/LaAAAOSwYvFZGbDi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQ0WDgwMA==/z/5FIAAOSwKytZGbDl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMyWDgwMA==/z/4ZkAAOSww9xZGbDr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTEyWDgwMA==/z/6UsAAOSwfRdZGbDv/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "148028"
+}

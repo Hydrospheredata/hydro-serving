@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "81.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:28:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "81.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:28:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245599919",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DKNY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "CRYSTAL, STAINLESS STEEL",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "NY8441",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Pink",
+          "ROSE GOLD"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "NY8441",
+        "Name": "Model"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "DKNY ROSE GOLD TONE+CRYSTAL,GEMSTONE WHITE CHRONOGRAPH DIAL SMALL WATCH NY8441",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DKNY-ROSE-GOLD-TONE-CRYSTAL-GEMSTONE-WHITE-CHRONOGRAPH-DIAL-SMALL-WATCH-NY8441-/332245599919",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322455999198080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H5M22S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTExMlg2Njk=/z/DW4AAOSw4CFY2yAT/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand:DKNY Part number:NY8441 Model year:N/A Item Shape:Round Crystal material:Mineral Display Type:ANALOG Clasp:Fold over dual clasp Case Material:Stainless Steel Case Diameter:30 millimeters Case Thickness:8 millimeters Band Material:Stainless Steel Band Length:Women's Standard Band Width:14 millimeters Band color:Rose Gold Tone Dial Color:White Bezel Material:Crystal/Gemstone Special Features:Crystal/Gemstone Movement:Quartz Water Resistant Depth:5 ATM Warranty type:2 Years Dkny Ma Box not completed",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

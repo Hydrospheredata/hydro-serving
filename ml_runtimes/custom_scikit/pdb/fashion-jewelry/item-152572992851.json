@@ -1,0 +1,147 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT4H9M13S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "pristine",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152572992851",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-retired-Clarita-Gem-bracelet-and-pierced-earrings-set-lot-B58-/152572992851",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T16:07:02.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T16:07:02.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "green gold yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton retired Clarita Gem bracelet and pierced earrings set lot B58",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Brighton retired Clarita Gem bracelet and pierced earrings set. Silver plated, green and gold/yellow Swarovski crystals. Earrings: JE3665, French wire, 3/4 in green crystals, 1 in drop. Bracelet: JB2702, green & gold/yellow crystals, 3/4 in wide, 7 in + in extender, lobster clasp. New without tags. Handling fee covers signature and insurance. Other Brighton items listed separately. I combine shipping.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525729928518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "lxfain",
+    "FeedbackScore": "2040",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "bejeweledvintage",
+    "StoreURL": "http://stores.ebay.com/id=26550722"
+  },
+  "Quantity": "1",
+  "Location": "North Hollywood, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIxWDE1ODM=/z/Qc0AAOSwYlRZNBV9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg0WDE2MDA=/z/34kAAOSw-K9ZNBWO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE2WDE1MzM=/z/jj8AAOSwEHpZNBWg/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "91606"
+}

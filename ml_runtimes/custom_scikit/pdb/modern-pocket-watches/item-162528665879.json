@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "72.59"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Tourbillon / Moon Phase / 24H 3D Digital Dial Waterproof and Dustproof Design Super Longer service life Waterproof:3ATM/Washable Dust can not enter the interior Watch Face Diameter: About 48mm Case Thickness: About 12 mm Case Material: Stainless Steel Chain Material: Alloy Chain Length(choose one): Mens necklace 360mm Women necklace 640mm OGLE provide Ladys necklace, if you Need Ladys necklace, please remark when payment?default send mens necklace. Package Content: 1 X Pocket Watch 1 X Gift Box 1 X Free Chain 1 X User Book Reminder: Specification (1 cm=10 mm=0.394 inch) (approximate) - 3ATM\u00c2\u00a0Waterproof - 3D Digital Dial - Tourbillon/Moon Phase/24H - Lady necklace optional - Come with Gift box OGLE Waterproof Bronze Black Tourbillon Phases Moon Pendant Necklace Chain Fob",
+  "StartTime": "2017-05-25T14:42:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/0-0AAOSwfRdZJu1Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5D4AAOSwq1JZJu1Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/xw0AAOSwKytZJu1Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/qnIAAOSw7GRZJu1Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/48wAAOSwGJlZJu1Y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/zRkAAOSwK6RZJu1Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5EoAAOSwq1JZJu1Z/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "OGLE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "FSYUEXIANG-002-BR-B",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.55 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.29 x W 4.21 x H 2.01 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625286658798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:42:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "72.59"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "OGLE Waterproof Bronze Black Tourbillon Phases Moon Pendant Necklace Chain Fob",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OGLE-Waterproof-Bronze-Black-Tourbillon-Phases-Moon-Pendant-Necklace-Chain-Fob-/162528665879",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528665879",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H5M30S"
+}

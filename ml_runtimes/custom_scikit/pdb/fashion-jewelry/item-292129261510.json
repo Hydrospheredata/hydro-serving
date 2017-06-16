@@ -1,0 +1,112 @@
+{
+  "ReturnPolicy": {
+    "Description": "A 10% restocking fee will be deducted from returns.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P18DT19H43M11S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292129261510",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Unworn-Vintage-Robert-Lee-Morris-24k-Gold-Plated-Brass-Cuff-Made-Loewe-/292129261510",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T10:46:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-24T10:46:20.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "24k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Fashion Jewelry",
+        "Name": "Category"
+      },
+      {
+        "Value": "Bracelets",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Unworn Vintage Robert Lee Morris 24k Gold Plated Brass Cuff Made for Loewe",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a rare Robert Lee Morris cuff he designed for Loewe. It is a unworn vintage piece. It is made from 24k gold plated brass. It measures 1 1/2\" wide and 6\" around without the opening and with it is 7 1/4\" and with the opening 8 1/4\".It is in excellent condition and has not been worn. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921292615108080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqJ,!oIFCpUG0eeyBQ5jY5n4)!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqF,!n0FCr)VQf9gBQ5jY6EBC!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$T2eC16JHJGoE9nuQeWR7BQ5jY50tRw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqR,!o4FDNvi!gJbBQ5jY6HlQQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$T2eC16N,!w0E9szN(mTCBQ5jY5vDdg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqZ,!joFCfd+lDwkBQ5jY6JHGw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqF,!qkFDkP4oc6hBQ5jY6JNvQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10012"
+}

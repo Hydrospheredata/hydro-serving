@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT8H25M8S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "89.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232010869245",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Toe-Ring-14Kt-Yellow-Gold-HEART-/232010869245",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "89.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-07-12T22:21:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T22:21:52.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Q Gold",
+        "Name": "Brand"
+      },
+      {
+        "Value": "14 Kt Gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Toe Ring-14Kt Yellow Gold -HEART",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "<div style=\"text-align:center\"><img src=\"http://ti2.auctiva.com/sw/java.gif\" border=\"0\"><br><table align=\"center\"><tr><td><a style=\"text-decoration:none\" href=\"http://store.auctiva.com/sungems\"><img src=\"http://ti2.auctiva.com/sw/images.gif\" border=\"0\"></a></td><td height=\"27px\" valign=\"middle\" align=\"center\"><font face=\"arial\" size=\"2\"><b><a href=\"http://store.auctiva.com/sungems\">sungems</a> Store</b></font></td></tr></table></div> <img src=\"http://ti2.auctiva.com/web/aswCredit.gif\" border=\"0\"><br><a href=\"http://www.auctiva.com/?how=scLnk0\" target=\"_blank\"><img src=\"http://ti2.auctiva.com/images/sc1line0.gif\" border=\"0\"></a> 14kt HEART Toe Ring Ring is adjustable. Just squeeze to make a perfect fit. Highly polished, very sweet Heartt! Brand New! Retails $158.00 Approx. 1.28 grams Shipped gift boxed.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2320108692458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "UserID": "sungems",
+    "FeedbackScore": "37333",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "Sun Gems and Auctions",
+    "StoreURL": "http://stores.ebay.com/id=782059"
+  },
+  "Quantity": "2",
+  "Location": "Voluntown, Connecticut",
+  "HitCount": "91",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ZCMAAOSwAPlXhW0o/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

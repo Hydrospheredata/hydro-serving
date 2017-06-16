@@ -1,0 +1,82 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "59.5",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272702861741",
+  "TimeLeft": "P6DT22H13M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "59.5",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/J-Crew-Enamel-Cuff-Bracelet-Coral-Rhinestones-Jewelry-Starfish-Hinged-RARE-/272702861741",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:52:26.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T07:52:26.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Orange",
+        "Name": "Color"
+      },
+      {
+        "Value": "Coral",
+        "Name": "Material"
+      },
+      {
+        "Value": "J.Crew",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      }
+    ]
+  },
+  "Title": "J. Crew Enamel Cuff Bracelet Coral Rhinestones Jewelry Starfish Hinged RARE",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Authentic J. Crew Cuff Cream enamel with gold metallic accents, synthetic coral, and rhinestone star detail. Please see photos for detailed condition, sold as-is. Closes with hinge and clasp. Buyer pays flat fee $5.99 shipping within the mainland U.S.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2727028617418080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "j_vance",
+    "FeedbackScore": "422",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Chicago, Illinois",
+  "HitCount": "0",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YGoAAOSwv9hW4cED/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/37kAAOSwZ8ZW4cEG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HakAAOSwr7ZW4cEI/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "60657"
+}

@@ -1,0 +1,134 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3215.25",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "London",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:36:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=144630961",
+    "StoreName": "Belmont Jewellers"
+  },
+  "CurrentPrice": {
+    "value": "2500.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:36:43.000Z",
+  "ShipToLocations": [
+    "Asia",
+    "US",
+    "EuropeanUnion"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400147587",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Ulysse Nardin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": [
+          "Pink",
+          "Silver"
+        ],
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Diver's 100 m (ISO 6425)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": [
+          "Date Indicator",
+          "Swiss Movement"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "36mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "19mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ulysse nardin GMT Ladies Pink Mother Of Pearl Diamond Dial",
+  "ConditionDescription": "No box or papers . Comes with presentation box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ulysse-nardin-GMT-Ladies-Pink-Mother-Pearl-Diamond-Dial-/142400147587",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424001475878080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "Wc2a 1qt",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H21M2S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z-sAAOSwhvFZLrQK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OhQAAOSwi7RZLrQs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/y5sAAOSws5pZLrQQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dz4AAOSw9OFZLrQl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-ekAAOSwH09ZLrQU/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Ulysse Nardin ladies GMT Pink Mother Of Pearl and Diamond Dial. Elegant ladies sports style watch for a globe trotting lady. Very stylish and a bit more individual .",
+  "Seller": {
+    "PositiveFeedbackPercent": "94.4",
+    "FeedbackScore": "201",
+    "UserID": "belmontv46",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

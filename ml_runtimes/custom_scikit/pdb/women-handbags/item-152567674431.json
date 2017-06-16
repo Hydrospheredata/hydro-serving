@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/42EAAOSwAPVZKjP8/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/Hp0AAOSwfRdZKjQH/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/u9IAAOSwBt5ZKjPX/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/CdoAAOSw42dZKjPb/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/xTMAAOSwR29ZKjPf/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/1NYAAOSwcgNZKjQa/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Kate-Spade-Kaylie-Baby-Bag-Grove-Street-islndstpbk-NWT-Multi-Color-329-/152567674431",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "About the Product Black nylon zip top baby bag with black vinyl trim and polished hardware Water resistant polyester lined interior with zippered pocket, two open slip pockets and diaper pouch Zippered top closure with open slip pockets on either end Dual handles with an 8\" drop, and a removable and adjustable shoulder strap with an 18\" drop Measures approximately 14\" (L) at bottom tapering to 18\" (L) at top x 12\" (H) x 5.5\" (W)",
+  "Title": "NWT Kate Spade Kaylie Baby Bag Grove Street islndstpbk NWT Multi Color $329",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Dallas, Georgia",
+  "Seller": {
+    "FeedbackScore": "31",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "purse_vault"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30132",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T09:50:53.000Z",
+  "HitCount": "3",
+  "TimeLeft": "PT18H30M39S",
+  "EndTime": "2017-06-03T09:50:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Coated Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152567674431",
+  "Storefront": {
+    "StoreName": "Purse Vaults",
+    "StoreURL": "http://stores.ebay.com/id=1583814044"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "If you are not happy with your item, please return it in the original packaging and with all tags attached within 30 days. Goods must be returned with shipping paid for. Refund of purchase price will be done by the same method as the payment was made. Postage and packaging will not be refunded.",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525676744318080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

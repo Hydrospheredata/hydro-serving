@@ -1,0 +1,241 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT41S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "CSBLINGSHOP",
+    "StoreURL": "http://stores.ebay.com/id=332410189"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "68",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "y8",
+  "ItemID": "302031698569",
+  "ConvertedCurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2016-08-03T16:04:02.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/10K-Solid-Yellow-Gold-Custom-fit-REAL-Grill-Gold-Teeth-GRILLZ-/302031698569?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T16:04:02.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "6 PCS TOP OR BOTTOM",
+          "8 PCS TOP OR BOTTOM",
+          "12 PCS 6&6 TOP&BOTTOM",
+          "14 PCS 6&8 TOP&BOTTOM",
+          "16 PCS 8&8 TOP&BOTTOM",
+          "10 PCS TOP OR BOTTOM",
+          "20 PCS 10&10 TOP&BOTTOM"
+        ],
+        "Name": "Piece"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6 PCS TOP OR BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "195.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "32"
+        },
+        "Quantity": "206"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8 PCS TOP OR BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "275.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "16"
+        },
+        "Quantity": "201"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "12 PCS 6&6 TOP&BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "375.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "10"
+        },
+        "Quantity": "202"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "14 PCS 6&8 TOP&BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "450.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "2"
+        },
+        "Quantity": "201"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "16 PCS 8&8 TOP&BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "525.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "4"
+        },
+        "Quantity": "201"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10 PCS TOP OR BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "350.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "Quantity": "200"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "20 PCS 10&10 TOP&BOTTOM",
+            "Name": "Piece"
+          }
+        },
+        "StartPrice": {
+          "value": "680.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "3"
+        },
+        "Quantity": "202"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "GOLD",
+        "Name": "Material"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "10k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "10K Solid Yellow Gold Custom fit REAL Grill Gold Teeth GRILLZ.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Houston, Texas",
+  "Description": "SOLID 1OK YELLOW GOLD GRILLZ6pcs, 8pcs,10pcs,6&6,6&8,8&8,10&10 TO CUSTOM FIT YOU. THIS IS NOT A ONE SIZE FIT GRILLZTHIS IS A REAL GRILL FIT ONLY YOUR TEETH. ONCE YOU PLACE ORDER WE WILL SEND YOU FREE MOLDING KIT, IMPRINT YOUR TEETH THEN SEND US BACK YOUR MOLD AND WE WILL SHIP YOUR CUSTOMIZE GRILLZ IN 1~2 BUSINESS DAY. 10K YELLOW GOLD REAL GOLD 2~6 GRAMS OF GOLD (DEPENDS ON YOUR TEETH SIZE) 6PC TOP OR BOTTOM COVER 6 OF YOUR TEETH 100% HAND MADE JOB FREE MOLDING KITS WITH INSTRUCTIONS DISCLAIMER: This removable tooth jewelry is intended for temporary cosmetic use only and should be removed prior to eating, drinking, sleeping, or any other activity that may result in the jewelry being dislodged from the tooth and posing a choking hazard. Csblingshop hereby disclaims any and all liability from injuries resulting from the improper use of this product. RETURN All grillz are custom made to order. There are No Refunds. We try our best to make the grillz true to size, so if for any reasons you have issues, please contact us first. Generally if the mold wont work, we will let you know before we get started to reach a solution. We have put together very detailed instructions on making a mold, and ask that you read carefully and are patient when making the mold. If your mold will not work, you are responsible for purchasing another mold kit.",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "UserID": "cssean",
+    "FeedbackScore": "6128",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "1413",
+  "PaymentMethods": "PayPal",
+  "HitCount": "18256",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTQ3WDE2MDA=/z/~qEAAOSwPe1T6-OA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc2WDE2MDA=/z/zh0AAOSwq7JT6-OD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE4WDExODk=/z/d9gAAOSwGvhT6-OF/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "77060"
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921414651408080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/OFQAAOSw2gxY2VCL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/RzkAAOSwax5Y2VCM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Rv4AAOSwax5Y2VCK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CvMAAOSwB-1Y2VCL/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hype-Backpack-Bag-School-Work-Gym-Rucksack-Legion-Black-Best-Price-/192141465140",
+  "ConvertedCurrentPrice": {
+    "value": "69.47",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Hype Backpack Bag - School / Work / Gym Rucksack - Legion Black by Just Hype Ships from UK Supplier Other information: Hype bag (Legion) Black Related Searches: Hype School Bag Bags, Just Hype Bags, Just Hype Shoulder Bag Weight: 0.42 kg",
+  "Title": "Hype Backpack Bag - School / Work / Gym Rucksack - Legion Black. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.47",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-27T17:48:49.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P23DT1H29M7S",
+  "EndTime": "2017-06-25T17:48:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Just Hype"
+      },
+      {
+        "Name": "MPN",
+        "Value": "712088731"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141465140",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:121545932:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

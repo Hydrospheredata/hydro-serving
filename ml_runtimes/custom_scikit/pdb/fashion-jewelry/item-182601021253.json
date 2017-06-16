@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182601021253",
+  "TimeLeft": "P3DT17H41M7S",
+  "ListingStatus": "Active",
+  "Title": "14K White Gold Anklet With Round Cubic Zirconia By The Yard 10 Inches",
+  "ConditionDescription": "Brand new handmade anklet bracelet. Ships in a beautiful gift box. No tags. Limited lifetime warranty!",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-02T03:02:01.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T03:02:01.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "10 Inches",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "clear",
+        "Name": "Color"
+      },
+      {
+        "Value": "amazinite",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-White-Gold-Anklet-Round-Cubic-Zirconia-Yard-10-Inches-/182601021253",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "New York, New York",
+  "Description": "14K White Gold Anklet With Round Cubic Zirconia Stones 10 Inches 14K white gold anklet features sparkling round cubic zirconia stones.All Stones Are 4mm connected by a 14k white gold chain with a 14K white gold spring lock. Details: Length: 10 Inches Stone Size: Round 4 mm Metal Type: 14K White Gold Type Of Lock: Spring Ring Shipped In A Beautiful Gift Box 100% handmade in New York City, USA.All gold jewelry is authentic and stamped 14K.We proudly stand behind each and every product we manufacture. If you are dissatisfied for any reason, we will happily exchange or refund your order. Please contact us for an exchange/return authorization number within 30 days of the purchase date. We never charge a restocking fee.If you have any more questions, please feel free to contact us at: 212-354-6081Style:000070International Customers Are Responsible For All Import Tariffs And Duties.",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826010212538080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "amazinitenyc",
+    "FeedbackScore": "5010",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "14K Gold Gemstone Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=382281463"
+  },
+  "Quantity": "1",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "CashOnPickup",
+    "AmEx"
+  ],
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/TDIAAOxydlFS3ZA1/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lpMAAOSwqu9VU2kx/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/0doAAOSw6BtVU2kz/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "PostalCode": "10036"
+}

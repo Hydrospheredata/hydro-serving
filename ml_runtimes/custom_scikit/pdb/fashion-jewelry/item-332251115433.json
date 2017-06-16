@@ -1,0 +1,112 @@
+{
+  "HandlingTime": "3",
+  "ReturnPolicy": {
+    "Description": "Money will be given back through paypal and the buyer must pay for return shipping.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "332251115433",
+  "TimeLeft": "P6DT2H7M13S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "ConditionDescription": "Excellent",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T14:09:05.000Z",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Amy Kahn Russel original pin designed into a necklace set",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IL",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T14:09:05.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver Pin",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Orange stone with bronze hematite",
+        "Name": "Color"
+      },
+      {
+        "Value": "hand painted animal print",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "hand painted animal print",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "bronze hematite",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Israel",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Amy-Kahn-Russel-original-pin-designed-into-necklace-set-/332251115433",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Ma'ale Shomron",
+  "Description": "Amy Kahn Russel original pin in sterling silver animal print. Designed by Edita's collectable. One of a kind pin signed and stamped AKR. Pin is 3.5 inches, necklace 21 inches. Cuff bracelet is up to 8 inches. Necklace is made out of crystal and hematite. 3 piece set. Set is a collectable and one of a kind not repeated.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322511154338080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "editahold0625",
+    "FeedbackScore": "16",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "-1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/qakAAOSw4CFYrXup/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/rPEAAOSwOgdYrXvH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/6hAAAOSwfVpYrXvx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/sTAAAOSw3v5YrXwF/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets"
+}

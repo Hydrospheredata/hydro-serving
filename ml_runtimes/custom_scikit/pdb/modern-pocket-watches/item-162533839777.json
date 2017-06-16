@@ -1,0 +1,72 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "93105",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Gorgeous Charles-Hubert pocket watch necklace. In great working condition with a few slight scratches on the back. Really nice piece of jewelry! I hope you will enjoy! Item #20990316",
+  "StartTime": "2017-05-29T23:27:43.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDU4NA==/z/q7QAAOSwh-1W2J2x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTkwWDUwMA==/z/En0AAOSwUuFW2J2v/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/J58AAOSwP~tW2J20/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAyWDY3MQ==/z/SwUAAOSwr7ZW2J22/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTk0WDYyOQ==/z/SLQAAOSwYlJW2J25/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjIyWDY0MA==/z/E8kAAOSwzgRW2J8L/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjI0WDYxNw==/z/2gcAAOSwh-1W2J8O/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "85.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Charles-Hubert",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "sb.babe",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "128",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625338397778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T23:27:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "85.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Pocket-Watch-Necklace-/162533839777",
+  "Location": "Santa Barbara, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles Hubert Pocket Watch Necklace",
+  "Storefront": {
+    "StoreName": "Santa Barbara Gems",
+    "StoreURL": "http://stores.ebay.com/id=1208417887"
+  },
+  "ItemID": "162533839777",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT4H53M38S"
+}

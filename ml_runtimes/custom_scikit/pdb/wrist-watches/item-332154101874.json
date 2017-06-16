@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Daytona Zenith 16520 16523 16528 Gloss White Dial 2/T #A18 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T06:13:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMx/z/ty0AAOSwWxNYx4n7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMx/z/HygAAOSwuxFYx4n7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE4WDEyODA=/z/xlQAAOSwol5Yx4n7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE4WDEyODA=/z/DYwAAOSwOddYx4n7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE4WDEyODA=/z/ISkAAOSwB-1Yx4n7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE4WDEyODA=/z/3tkAAOSwzgBYx4n7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMx/z/JRcAAOSwXYtYx4n7/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "940.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Daytona",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "483",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3321541018748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T06:13:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "940.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Daytona-Zenith-16520-16523-16528-Gloss-White-Dial-2-T-A18-/332154101874",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Daytona Zenith 16520 16523 16528 Gloss White Dial 2/T #A18",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "332154101874",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT9H43M54S"
+}

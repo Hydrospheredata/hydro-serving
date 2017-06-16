@@ -1,0 +1,115 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/qagAAOSwIjNXJgwk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/DCkAAOSwiYFXJgw3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/-EAAAOSwubRXJgxN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wwYAAOSwYmZXJgyO/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LILLY-PULITZER-BROWN-GOLD-WHITE-NWOT-/182603133436",
+  "ConvertedCurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LILLY PULITZER UPSCALE MIZNER FABULOUS TOTE BAG GOLD, BROWN AND WHITE DRAWSTRING ON SIDES INTERIOR ZIPPER POCKET INTERIOR PDA POCKETS DOUBLE HANDLES BAMBOO AND BRASS ACCENTS GORGEOUS DETAIL BRAND NEW WITHOUT TAGS ITEM IS FROM A SMOKE FREE HOME :) THANKS FOR LOOKING AT ANOTHER FAB FIND!!! LIVE LIFE FABULOUS",
+  "Title": "LILLY PULITZER ~ BROWN, GOLD & WHITE ~ NWOT",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Palm Beach Gardens, Florida",
+  "Seller": {
+    "FeedbackScore": "966",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "fabfinds2u"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33410",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:55:10.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P29DT21H41M18S",
+  "EndTime": "2017-07-02T11:55:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "LILLY PULITZER"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "20"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "9.5"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182603133436",
+  "Storefront": {
+    "StoreName": "fabfinds2u",
+    "StoreURL": "http://stores.ebay.com/id=149047963"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826031334368080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-2.fishpond.co.nz/0114/164/367/250419476/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0114/164/367/250419477/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0114/164/367/250419478/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Disney-Mickey-Mouse-Minimal-Woman-Bag-Bowling-Bag-Barrel-Handbag-Shoulderbag-Fr-/192142111740",
+  "ConvertedCurrentPrice": {
+    "value": "94.19",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Woman Bag Height : 33cm Width : 26cm Thickness : 16cm * Closed with zipper * Removable shoulder strap * Two inner pockets, one closed by zipper * External Material: Synthetic; Inner Material: Synthetic",
+  "Title": "Disney Mickey Mouse Minimal Woman Bag Bowling Bag Barrel Handbag Shoulderbag. Fr",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.19",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-28T06:30:11.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P23DT14H10M56S",
+  "EndTime": "2017-06-26T06:30:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Disney"
+      },
+      {
+        "Name": "MPN",
+        "Value": "800652022"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142111740",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:114164367:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

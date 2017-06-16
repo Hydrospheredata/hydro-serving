@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lkEAAOSwxu5ZKFeY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JDwAAOSwX61ZKFec/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ntcAAOSwEHpZKFeg/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-VERY-BERRY-PAISLEY-Large-Duffel-/112420636249",
+  "ConvertedCurrentPrice": {
+    "value": "67.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Listing is for Vera Bradley VERY BERRY PAISLEY Large Duffel Pattern VERY BERRY PAISLEY New With Out Tags From a Smoke Free Home !!",
+  "Title": "Vera Bradley VERY BERRY PAISLEY Large Duffel",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Muncie, Indiana",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2960",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "darkestknight2011"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "47304",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-26T16:30:54.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P22DT23H54M48S",
+  "EndTime": "2017-06-25T16:30:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffel Bag"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Paisley"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112420636249",
+  "PrimaryCategoryID": "169296",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "darkestknight2011",
+    "StoreURL": "http://stores.ebay.com/id=1050479658"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124206362498080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

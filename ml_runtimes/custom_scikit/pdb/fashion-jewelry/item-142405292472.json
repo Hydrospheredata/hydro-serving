@@ -1,0 +1,128 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT19H8M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "CN",
+    "SE",
+    "FR",
+    "HK",
+    "ES",
+    "IT",
+    "DE",
+    "RU",
+    "IL",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "MY",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "CurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142405292472",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1-37ctw-Bella-Luce-Diamond-Simulant-Fancy-Double-Flower-Pave-Ring-NWT-SIZE-9-/142405292472",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:30:19.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T08:30:19.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bella Luce",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cocktail",
+        "Name": "Style"
+      },
+      {
+        "Value": "Platinum Plated Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Pave Diamond Simulant",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "9",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      }
+    ]
+  },
+  "Title": "1.37ctw Bella Luce Diamond Simulant Fancy Double Flower Pave Ring. NWT. SIZE 9.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "1.37ctw Bella Luce Diamond Simulant Fancy Double Flower Pave Ring. NWT. SIZE 9. Rhodium Plated .925 Sterling Silver for TarnishResistance. Width of ring- 13/16\". Estimated Retail Value- $85.00 SEE MY OTHER ITEMS...",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424052924728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jennautumn",
+    "FeedbackScore": "1142",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Mesa, Arizona",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzczWDczNg==/z/rZkAAOSwCU1YyDmi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDk1WDUxNw==/z/FWkAAOSwOgdYu9bQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA4WDY3NQ==/z/obEAAOSwWxNYu9Tf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjIxWDM2MA==/z/sNcAAOSwWxNYu9V7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ1WDQ5Nw==/z/eB0AAOSwXYtYu9Vh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjMxWDY0Nw==/z/5igAAOSwCU1Yu9at/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDYzWDUzMg==/z/ZgsAAOSwB-1Yu9ZX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg3MjE=/z/l6gAAOSwWxNYyDdN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjYyWDEyODc=/z/0IEAAOSwax5YyD2O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEyWDc5MA==/z/BXEAAOSw-0xYfICz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkzWDczNg==/z/LXYAAOSwnHZYfIED/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkyWDc2MA==/z/9cEAAOSw9GhYfIE0/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "85207"
+}

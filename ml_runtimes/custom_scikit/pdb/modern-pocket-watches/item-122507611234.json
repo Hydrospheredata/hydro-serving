@@ -1,0 +1,118 @@
+{
+  "QuantitySold": "0",
+  "Title": "New Police Pocket Watch",
+  "PostalCode": "62417",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "New Police Pocket Watch Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-21T09:58:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MjI1WDE2MA==/z/V1oAAOSwPCVYBOpK/$_1.JPG?set_id=8800004005"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain",
+          "Large Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jamestrading",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "15050",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225076112348080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T09:58:52.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "We refund purchase price only. No postage. We will refund Your money or send another item.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Police-Pocket-Watch-/122507611234",
+  "ConditionDescription": "This watch is new with a watch chain and a gift box.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Bridgeport, Illinois",
+  "Storefront": {
+    "StoreName": "JamesTrading",
+    "StoreURL": "http://stores.ebay.com/id=1586142"
+  },
+  "ItemID": "122507611234",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT15H20M16S"
+}

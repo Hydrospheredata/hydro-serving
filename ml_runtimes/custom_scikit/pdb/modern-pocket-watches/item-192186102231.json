@@ -1,0 +1,58 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "95661",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "New Allude pocket watch Deer Decoration",
+  "StartTime": "2017-05-13T16:08:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/OIcAAOSwGJlZFy8c/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/PFUAAOSwcgNZFy8d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/1LwAAOSwaeRZFy8f/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "chancbushel_0",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "11",
+    "PositiveFeedbackPercent": "92.3"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921861022318080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-12T16:08:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Allude-Keepsake-Pocket-Watch-Deer-NEW-/192186102231",
+  "Location": "Roseville, California",
+  "Title": "Allude Keepsake Pocket Watch | Deer *NEW*",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "192186102231",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT21H27M26S"
+}

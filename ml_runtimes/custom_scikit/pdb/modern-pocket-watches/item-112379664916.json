@@ -1,0 +1,103 @@
+{
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "RU",
+    "FR",
+    "IT",
+    "MT",
+    "ES",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Gruen fancy pocket watch, Quartz  good running condition.",
+  "PostalCode": "11103",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "for your consideration a fancy Gruen pocket watch, Quartz movement. good running condition, gold plated, the case has normal Wear scratches. it measures 33 mm \u00d7 42 mm.",
+  "StartTime": "2017-04-22T01:53:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDEzMjc=/z/WdAAAOSwaB5Xj4Dk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/pMAAAOSwqfNXj4D5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyNTQ=/z/6~AAAOSwbsBXj4EM/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "75.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "vintagechronomaster",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "689",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1123796649168080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-21T01:53:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "75.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gruen-fancy-pocket-watch-Quartz-good-running-condition-/112379664916",
+  "ConditionDescription": "light scratches from normal wear .",
+  "Location": "Astoria, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "112379664916",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT7H7M11S"
+}

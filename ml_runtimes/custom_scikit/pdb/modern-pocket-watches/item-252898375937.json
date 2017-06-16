@@ -1,0 +1,106 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.92"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Souarts Antique Bronze Color Round Pocket Watch Hollow Rose Flower Engraved With Chain 83cm Pocket watch with necklace chain The material is alloyThe battery is includedThe length of watch and link is 83cmThe length of the watch face 6.4cmThe width of the watch face is 4.7cm",
+  "StartTime": "2017-04-26T10:34:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzk4WDUwMA==/z/6dMAAOSwzqFZAHen/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTY4WDUwMA==/z/GOkAAOSwBOtZAHep/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDc5Nw==/z/T5cAAOSwVm5ZAHeq/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwOQ==/z/rYYAAOSwE0JZAHer/$_12.JPG",
+    "http://i.ebayimg.com/00/s/Nzk4WDUwMA==/z/QEAAAOSwIWVZAHet/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Souarts",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "31",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2528983759378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:34:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.92"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Antique Bronze Color Round Pocket Watch Hollow Rose Flower Engraved",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Bronze-Color-Round-Pocket-Watch-Hollow-Rose-Flower-Engraved-/252898375937",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "252898375937",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT15H48M16S"
+}

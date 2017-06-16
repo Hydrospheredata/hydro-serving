@@ -1,0 +1,269 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "109.98",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "140993801",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Walnut, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:48:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1014806753",
+    "StoreName": "SoCal Tech Store"
+  },
+  "CurrentPrice": {
+    "value": "109.98",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:48:42.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates"
+  ],
+  "ItemID": "382108928297",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "0079767430887",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "G-Shock",
+        "Name": "Model"
+      },
+      {
+        "Value": "GW6900-1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Alarm",
+        "Name": "Features"
+      },
+      {
+        "Value": [
+          "Men's",
+          "Unisex"
+        ],
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Chronograph Quartz",
+          "Solar Quartz",
+          "Digital Quartz",
+          "Quartz (Battery)"
+        ],
+        "Name": "Movement"
+      },
+      {
+        "Value": "Dress, Sport / Outdoor",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "151903132173",
+          "079767430887"
+        ],
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "079767430887",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio G Shock Solar Powered Atomic Mens Watch Black NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-G-Shock-Solar-Powered-Atomic-Mens-Watch-Black-NEW-/382108928297",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821089282978080_2.jpg",
+  "HitCount": "7",
+  "PostalCode": "91789",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H17M10S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VEoAAOSw5cRZLnVW/$_57.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUxNw==/z/Np4AAOSwfpVZLnVX/$_57.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDE0MDU=/z/lDsAAOSwaEhZLnVV/$_57.JPG"
+  ],
+  "Description": "Casio G Shock Solar Powered Atomic Mens Watch Black NEW G Shock Solar Atomic Watch CasioThis Solar Atomic model is based on the original DW6900 model- G-Shock's best-selling case design. With this model- a Solar Atomic Timekeeping system was employed without changing the basic design of the watch. This makes it possible to generate power to keep the watch running with extreme accuracy and minimal exposure to normal lighting. This simple design was achieved by eliminating as much coloring and decoration as possible and the result is a model that captures the essence of the basic G-Shock.GenderUnisexDisplay TechnologyDigital DisplayBrandCasioMaterialMulti This Solar Atomic model is based on the original DW6900 model, G-Shock's best-selling case design. With this model, a Solar Atomic Timekeeping system was employed without changing the basic design of the watch. This makes it possible to generate power to keep the watch runnin",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "100685",
+    "UserID": "casewear",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

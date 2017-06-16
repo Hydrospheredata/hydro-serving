@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTcxWDYxOA==/z/D8YAAOSw42dZDN0e/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ECEAAOSw42dZDN0j/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/vvcAAOSw8HBZDN0g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/pO4AAOSwrhBZDN0h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/dEsAAOSwuMZZDN0k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/5mwAAOSwlndZDN0m/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYxWDczMg==/z/G9oAAOSww9xZDN0o/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/dSQAAOSwtGlZDN0q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/TL0AAOSwKytZDN0r/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/sUkAAOSwq1JZDN0s/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/tp8AAOSwR29ZDN0u/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SoYoung-Charlie-Diaper-Bag-w-Brown-Handles-Waxed-Canvas-Charcoal-Unisex-Vegan-/222500831283",
+  "ConvertedCurrentPrice": {
+    "value": "68.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "SoYoung Charlie Diaper Bag w/Brown Handles,Waxed Canvas, Charcoal, Unisex, Vegan Company InfoSoYoung creates lifestyle bags and accessories for modern families from its studio in Toronto, Canada. Its mission is to add beauty to the everyday moments of parents' lives by elevating the design of essential items.The company was founded in 2006 by Catherine Choi around a diaper bag concept, as she searched in vain for something that met her needs as a new mother. In 2010, the company launched its first collection of lunch boxes and cooler bags, which was expanded to include backpacks the following year. As the collection has grown, SoYoung has maintained a singular focus on creating beautifully designed products in natural fabrics that present a refined alternative to licensed cartoon characters and floral prints.Product InfoFinally, a true unisex bag to get you through the diaper years and beyond. This canvas workhorse looks as natural on Dad as it does on Mom, and is designed to hold everything you need for a trip to the playground or a day at work.FeaturesCanvas exterior with vegan leather strapsShallow bottom with no black hole effectContrasting interior lining with clear and mesh pockets Laminated and wipeable interior compartmentsCompletely insulated interior compartment to hold snacks - also fits a 13\" laptopBack slide pocket for bulky items such as blanket, newspaper or umbrellaDedicated sunglass, cellphone and wallet pocketsTwo insulated bottle pocketsDetachable messenger strapBackpack conversion optionLaminated change matAdjustable stroller strapsPVC and phthlate-freeShoulder straps with detachable comfort grip paddingBag dimensions: 15\"W x 10\"H x 7\"D",
+  "Title": "SoYoung Charlie Diaper Bag w/Brown Handles,Waxed Canvas, Charcoal, Unisex, Vegan",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "68.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Seattle, Washington",
+  "Seller": {
+    "FeedbackScore": "81",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "pnw_thrifts"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98133",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T20:14:46.000Z",
+  "HitCount": "62",
+  "TimeLeft": "P2DT4H47M11S",
+  "EndTime": "2017-06-04T20:14:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "SoYoung"
+      },
+      {
+        "Name": "Color",
+        "Value": "Charcoal"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222500831283",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225008312838080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT9H13M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "38.9",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "172708447162",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tarina-Tarantino-Fashion-Couture-Iconic-Collection-Organza-Rose-Anywhere-/172708447162",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.9",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T20:34:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T20:34:16.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "617529462211",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0617529462211",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Tarina Tarantino",
+        "Name": "Brand"
+      },
+      {
+        "Value": "B00DMFTL82",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Misc.",
+        "Name": "Binding"
+      },
+      {
+        "Value": "0.04 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5.4 x W 3.4 x H 2.1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Tarina Tarantino - Fashion Couture - Iconic Collection - Organza Rose Anywhere &",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Please note: due to health code regulations we cannot accept exchanges or refunds on items worn in hair - Small irridescent organza rose Anywhere Clip embellished with Swarovski crystals & feathers, and a suede patch for a secure grip - Rose measures approximately 2 1/2\" in diameter not including feathers Tarina Tarantino - Fashion Couture - Iconic Collection - Organza Rose Anywhere &",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727084471628080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "abood.av",
+    "FeedbackScore": "19716",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "abood.avSTORE",
+    "StoreURL": "http://stores.ebay.com/id=1400291383"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/R9AAAOSw-3FZMHpL/$_12.PNG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

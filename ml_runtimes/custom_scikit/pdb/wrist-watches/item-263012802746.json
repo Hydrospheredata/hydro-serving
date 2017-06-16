@@ -1,0 +1,89 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.47",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Berkeley, NSW",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:10:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-03T11:10:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012802746",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen Promaster",
+        "Name": "Model"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "120.0",
+    "_currencyID": "AUD"
+  },
+  "ConditionDescription": "EXCELLANT CONDITION VINTAGE CHRONOGRAPH EXCELLANT CONDITION  BOTH PHYSICAL AND WORKING ORDER GREAT COLLECTORS WATCH HARDLY WORN ITS A GN-4S SERIAL NUMBER 520499 TRUELY EXCELLANT ORDER",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CITIZEN-VINTAGE-CHRONAGRAPH-PROMASTER-GN-4NS-EXCELLANT-CONDITION-/263012802746",
+  "Title": "CITIZEN VINTAGE  CHRONAGRAPH  PROMASTER GN 4NS EXCELLANT CONDITION",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630128027468080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "2506",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT19H50M3S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/swYAAOSwfRdZIrJt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/7fUAAOSw7GRZIrJ5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/s7gAAOSwfpVZIrKH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/zJsAAOSwi7RZIrKT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/WJYAAOSw0hlZIrKf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/VCQAAOSwjqVZIrKp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/xQUAAOSwaeRZIrUT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/du4AAOSwZ4dZIrUg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/MyAAAOSwH09ZIrUy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/sdMAAOSw9OFZIrVO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/wlsAAOSwn-tZIris/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/J9kAAOSw7GRZIrkd/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "GREAT WATCH FIRST CLASS WORKING AND CONDITION....../GN-4S SERIAL 520499.....GREAT COLLECTORS WATCH REAL STUNNER WORKS AS NEW HARDLY WORN...ITS A GENIUNE PROMASTER",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "876",
+    "UserID": "comments1058",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

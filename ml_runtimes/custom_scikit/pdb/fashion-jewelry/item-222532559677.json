@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P27DT9M21S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "68.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222532559677",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HAIR-BARRETTE-Cara-Hair-Clip-w-Red-Blue-Swarovski-Crystals-5-x-3-NWT-/222532559677",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "68.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T11:29:30.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T11:29:30.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nordstrom",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Hair Clip",
+        "Name": "Style"
+      },
+      {
+        "Value": "Swarovski Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Red and Blue Crystals",
+        "Name": "Color"
+      },
+      {
+        "Value": "Swarovski Crystals and Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "HAIR BARRETTE Cara Hair Clip w/ Red & Blue Swarovski Crystals 5\" x  3\" NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Sparkling Swarovski Red, Blue,and Lavender Crystals in a Beautiful Arrangement on a Silver Gun Metal Tone Frame by Cara. A Brilliant Presentation.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225325596778080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.6",
+    "UserID": "petdapdav",
+    "FeedbackScore": "413",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yGkAAOSwt5hYjlaD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1HMAAOSwUKxYjlaO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODMyWDExMjg=/z/LJsAAOSw5cNYkCIP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/swUAAOSw241Yjlae/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10038"
+}

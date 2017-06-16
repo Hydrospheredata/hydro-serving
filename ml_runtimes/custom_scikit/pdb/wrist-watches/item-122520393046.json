@@ -1,0 +1,79 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "94404",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:3937:3940",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Hamilton 39MM 10S 17J 917 Open Face Pendantset Nickle Movement No Reserve. Nice clean silver metal dial with applied gold numerals. Nice clean running nickle movement and comes with stem and crown. Powered by eBay Turbo ListerThe free listing tool. List your items fast and easy and manage your active items.",
+  "StartTime": "2017-05-28T19:54:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/PUMAAOSwYvFZKyrz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/C4cAAOSwKytZKyrz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/JzEAAOSws5pZKyr0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/C5cAAOSwKytZKyr1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/5IMAAOSw~y9ZKyr2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/cpcAAOSww5hZKyr3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.0"
+  },
+  "HighBidder": {
+    "UserID": "9***3",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "786",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "3940",
+  "Seller": {
+    "UserID": "geno",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8945",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "60",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225203930468080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "28.0"
+  },
+  "BidCount": "5",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-04T19:54:33.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hamilton-39MM-10S-17J-917-Open-Face-Pendantset-Nickle-Movement-No-Reserve-/122520393046",
+  "Location": "San Mateo, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Hamilton 39MM 10S 17J 917 Open Face Pendantset Nickle Movement No Reserve",
+  "Storefront": {
+    "StoreName": "geno",
+    "StoreURL": "http://stores.ebay.com/id=706101"
+  },
+  "ItemID": "122520393046",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Antique",
+  "TimeLeft": "P4DT1H40M47S"
+}

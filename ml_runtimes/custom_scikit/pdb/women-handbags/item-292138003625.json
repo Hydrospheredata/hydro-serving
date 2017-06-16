@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VJYAAOSwhvFZMWQK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/q7UAAOSwtnpXombj/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EdgAAOSwARZXomb2/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Vera-Bradley-Disney-MICKEY-MINNIE-MAGICAL-BLOOMS-LARGE-TOTE-Free-Ship-/292138003625",
+  "ConvertedCurrentPrice": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW Vera Bradley Disney MICKEY & MINNIE MAGICAL BLOOMS LARGE TOTE RareMain Compartment has full Zip ClosureVera Bradley Signature Tag insideOne Pocket on Front with Smaller pocket insideSix Inside interior Pockets and Sturdy BaseOne Zip Pocket on BackQuilted ExteriorDouble StrapsFully LinedThis is the Exact Large Tote You will receive as picturedExclusively from Walt Disney World Park15 W X 14 H X 6 D W/Strap Drop 12No returns accepted PayPal OnlyThanks for Looking",
+  "Title": "NWT Vera Bradley Disney MICKEY & MINNIE MAGICAL BLOOMS LARGE TOTE~Free Ship~~",
+  "ExcludeShipToLocation": "Alaska/Hawaii",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Kissimmee, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1022",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "laughlove2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34758",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:12:17.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT22H40M10S",
+  "EndTime": "2017-07-02T13:12:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Large Tote Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Disney Mickey Magical Blooms"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292138003625",
+  "Storefront": {
+    "StoreName": "Pebbles Fun Place",
+    "StoreURL": "http://stores.ebay.com/id=103705599"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921380036258080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P9DT22H25M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "361999800489",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PONO-Joan-Goodman-Purple-Grey-Ombre-Color-Link-32-Chunky-Resin-Necklace-ITALY-/361999800489",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T10:45:43.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T10:45:43.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "resin",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "PONO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Italy",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "PONO Joan Goodman Purple Grey Ombre Color Link 32\" Chunky Resin Necklace ITALY",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "PONO By Joan Goodman Purple to Grey Ombre Color Link 32\" Chunky Resin Necklace. Good Pre-owned Condition with the exception of a couple spots of light discoloration. See photos.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619998004898080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "thecarltoncollection",
+    "FeedbackScore": "4577",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "thecarltoncollection",
+    "StoreURL": "http://stores.ebay.com/id=82372539"
+  },
+  "Quantity": "1",
+  "Location": "Debary, Florida",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNjAw/z/kwkAAOSw-K9ZGKqx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/umgAAOSwDiBZGKrV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTQ2/z/jR4AAOSwlY1ZGKrt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RFMAAOSwaEhZGKsR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/m2IAAOSwPh5ZGKtD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/eHsAAOSwdjNZFMfx/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/yecAAOSwGJlZGKtW/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "32713"
+}

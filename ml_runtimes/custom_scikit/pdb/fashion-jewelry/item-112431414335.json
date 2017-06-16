@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT7H53M19S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "129.61",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "112431414335",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Heidi-Daus-Pumpkin-Crystals-Pin-Brooch-/112431414335",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "129.61",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T20:43:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T20:43:16.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Heidi Daus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Oxidized, polished metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Orange",
+        "Name": "Color"
+      },
+      {
+        "Value": "Multi-Colored",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Heidi Daus Pumpkin Crystals Pin Brooch",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "ID",
+    "RU",
+    "IT"
+  ],
+  "BidCount": "0",
+  "Description": "What better Gift Can you offer a Lady... Nothing is more wonderful than a Jewel As They say a Jewel for a Jewel !!! Description Get into the spirit of Halloween with this fun pin from Heidi Daus, featuring cute two pumpkins design. \u2022 Pave set with mutli color Swarovski crystals and black enamel accents, add this whimsical pin to your Heidi pin collection. \u2022 Pin includes tangerine-, topaz-, and olivine-color round crystals. \u2022 Black enamel accents. \u2022 Joint & catch backing. \u2022 Manufacturers warranty and romance cards included. \u2022 Measures approximately 1.50\" from top to bottom and approximately 2\" long. \u2022 Nickel free. Payment We accept Visa/MC/Discover/Amex through www.paypal.com Shipping International customers are responsible for all import tariffs and duties. We COMBINE Shipments so you can SAVE on shipping of multiple items. Please visit our other auctions at eBay and save on shipping charges with multiple orders. Normal Shipping takes 4 to 8 Days depending on the area you live in not including weekends & holidays. Return Policy We offer a 100% risk free shopping experience. If the item does not meet your every expectation you may return it for full refund within 10 days of receipt, shipping charges are non refundable. To be accepted for return, all items must be received within 10 days from delivery date. Items must also be in their original purchase condition, including the original product packaging, manufacturer's containers, documentation, warranty cards, and all accessories. Any item that you received with tags attached must be returned with those tags intact. Items purchased as part of a set or multi-item pack may not be returned individually. Returns that do not meet these requirements will be sent back to you and no refund will be issued. A 10% restocking fee will be deducted for the returned merchandises. Restocking fee is waived and will not be deducted only if the reason for the return is \"item is damaged or defective.\" Feedback We want you to be happy with your purchase, there is no reason for neutral or negative feedbacks, please contact us via email before leaving a negative or neutral feedback. We always resolve all the problems of our customers as soon as we can. Thanks for visiting our eBay items! PayPal\u2014eBay's service to make fast, easy, and secure payments for your eBay purchases!",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124314143358080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ispy-gooddeal",
+    "FeedbackScore": "1236",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Naples, Florida",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~yAAAOSwf05XPHJY/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "34112"
+}

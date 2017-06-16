@@ -1,0 +1,114 @@
+{
+  "ExcludeShipToLocation": "Africa",
+  "QuantitySold": "0",
+  "PostalCode": "3000",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-Owned",
+  "Description": "18K Gold-Plated Pocket Watch together with the fob chain. Manual movement, 17 jewels, incabloc. Porcelain dial with Breguet hands, subsidiary seconds, black Arabic numerals. 50mm in diameter. Circa 2000 plus. In great condition and in excellent working order.",
+  "StartTime": "2017-03-10T06:15:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/X5kAAOSwB-1Ywj9u/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU1NlgxMDE5/z/HbQAAOSwSlBYwj9b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HiEAAOSw32lYwj~l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vwIAAOSwSlBYwjxY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g48AAOSwXYtYwj-T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/G50AAOSw32lYwj~V/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "294.51"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "AU",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Arabic Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "50",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Hand-winding",
+        "Name": "Type"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "borisg3707",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "96",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "343",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1123301446248080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T06:15:37.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "395.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Plated-Pocket-Watch-Felicia-Luxe-fob-chain-Incabloc-17-jewels-/112330144624",
+  "Location": "Melbourne, Victoria",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gold-Plated Pocket Watch by Felicia De Luxe with fob chain. Incabloc, 17 jewels.",
+  "Storefront": {
+    "StoreName": "borisg3707",
+    "StoreURL": "http://stores.ebay.com/id=293635420"
+  },
+  "ItemID": "112330144624",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT11H23M58S"
+}

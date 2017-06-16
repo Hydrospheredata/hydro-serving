@@ -1,0 +1,188 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Large-Multi-Pocket-Shave-Kit-Shipping-Included-/192143747558?var=",
+  "ConvertedCurrentPrice": {
+    "value": "53.19",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "David King & Co. Large Multi Pocket Shave Kit by David King & Co Ships from Local Supplier Other information: 414B Related Searches: David King And Co Totes, Totes Bags, David King And Co Bags Dimensions: 10.2 x 30.5 x 10.2 centimetres Weight: 0.22 kg",
+  "Title": "David King & Co. Large Multi Pocket Shave Kit. Shipping Included",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.19",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90040",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "One Size",
+        "PictureURL": "http://rcdn-4.fishpond.co.nz/0129/006/582/272087966/original.jpeg"
+      },
+      "VariationSpecificName": "Size"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "53.19",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:35659985:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Tan"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "32.25",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:53103056:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Cafe"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "29.45",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129006582:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Black"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "Size",
+          "Value": "One Size"
+        },
+        {
+          "Name": "Colour",
+          "Value": [
+            "Tan",
+            "Cafe",
+            "Black"
+          ]
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-03-30T03:38:42.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P25DT11H20M35S",
+  "EndTime": "2017-06-28T03:38:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "999354405"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143747558",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "25:129006581:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

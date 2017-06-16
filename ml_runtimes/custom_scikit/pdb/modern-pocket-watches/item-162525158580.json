@@ -1,0 +1,112 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "10001",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "blingjewelry",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8692",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "DiscountPriceInfo": {
+    "SoldOneBay": "false",
+    "SoldOffeBay": "false",
+    "OriginalRetailPrice": {
+      "_currencyID": "USD",
+      "value": "39.99"
+    },
+    "PricingTreatment": "STP"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "He will keep time stylishly with a personalized mens pocket watch. Made with a quartz movement and featuring easy to read arabic numerals on the dial, our engravable pocket watch with chain is made in an antique style silver finish and perfect for hunters and deer enthusiasts. Treat your dad as one of his Fathers Day gifts this year. Bling Jewelry Our eBay Store Add to Favorite Sellers Bling Jewelry Deer Mens Pocket Watch Antique Finish Rhodium Plated Quartz Measure: Chain 14.5in L, Watch Face 1.50in Diameter Weight: 75.6 Grams Material: Rhodium Plated Alloy He will keep time stylishly with a personalized mens pocket watch. Made with a quartz movement and featuring easy to read arabic numerals on the dial, our engravable pocket watch with chain is made in an antique style silver finish and perfect for hunters and deer enthusiasts. Treat your dad as one of his Fathers Day gifts this year. Product Details Brand Bling Jewelry Item Type pocket-watches Target Audiance men Color Grey Gem Type NA Welcome Bling Jewelry! To make your purchase as simple and easy as possible, please refer to the store policies listed below. After completing a Buy It Now purchase, you have two check-out options: Check-Out Now! Click the Pay Now button at the top of this listing to immediately proceed with our checkout and payment process. Please note that the Pay Now button is ONLY available after winning an auction or completing a Buy It Now purchase. Payment We currently accept following forms of payment. PayPal Sales Tax For shipments to New York addresses, we are required by State law to collect 8.875% Sales Tax. Shipping SHIPPING COST EST. DELIVERY TIME (business days only) Economy Shipping FREE Limited Tracking Available 3-14 Days USPS Priority $5.95 Flat Rate 3-4 Business Days USPS Express Mail $19 Flat Rate 1-2 Business Days CANADA Standard(USPS) $6.99 Flat Rate 5-10 Business days CANADA Express Mail(USPS) $39.99 Flat Rate 3-6 Business days USPS International Standard $6.99 Flat Rate 20 Business days USPS International Express Mail $39.99 Flat Rate 4-8 Business days Customer Service You can call us at 800-434-9905 for any questions.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/f4kAAOSwX61ZIwx~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8ZEAAOSwaEhZIwx~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/9WkAAOSws5pZIwx~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-cQAAOSw8HBZIwx~/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "102",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bling Jewelry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "WFW-XL65-A",
+        "Name": "MPN"
+      },
+      {
+        "Value": "metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "MetalType"
+      },
+      {
+        "Value": "Grey",
+        "Name": "Color"
+      },
+      {
+        "Value": "0640626664349",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "WFW-XL65-A-AZ",
+  "StartTime": "2017-05-22T16:06:19.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625251585808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T16:06:19.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bling-Jewelry-Deer-Mens-Pocket-Watch-Antique-Finish-Rhodium-Plated-Quartz-/162525158580",
+  "Location": "New York, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Bling Jewelry Deer Mens Pocket Watch Antique Finish Rhodium Plated Quartz",
+  "Storefront": {
+    "StoreName": "BlingJewelry12",
+    "StoreURL": "http://stores.ebay.com/id=19550052"
+  },
+  "ItemID": "162525158580",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT21H27M53S"
+}

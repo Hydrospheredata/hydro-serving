@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3321961100788080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTUyWDU4OQ==/z/hQAAAOSw53NZAMcn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE2WDcwOQ==/z/rd0AAOSwRUhZAMcn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjIyWDEwMjA=/z/4lgAAOSwSypZAMcp/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Buxton-Paris-Shopper-Tote-Red-/332196110078",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Buxton Paris Shopper Tote Red Product Features :Padded laptop pocket protects laptops up to 15.6\" with heavy density foam paddingMany organizational options for accessories27G inkFrog Analytics",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Carlisle, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "3732",
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackRatingStar": "Red",
+    "UserID": "speterson1000"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "17013",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-26T16:13:31.000Z",
+  "Title": "Buxton Paris Shopper Tote Red",
+  "TimeLeft": "P23DT1H6M10S",
+  "EndTime": "2017-06-25T16:13:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Buxton"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Style",
+        "Value": "782-T73"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332196110078",
+  "Storefront": {
+    "StoreName": "Pete&#39;s General Store",
+    "StoreURL": "http://stores.ebay.com/id=121461036"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "IF_30B2321F",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

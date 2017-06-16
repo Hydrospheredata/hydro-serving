@@ -1,0 +1,152 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "385.0",
+    "_currencyID": "USD"
+  },
+  "Country": "US",
+  "Location": "Dedham, Massachusetts",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T12:27:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T12:27:52.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "BuyItNowPrice": {
+    "value": "385.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "2",
+  "TimeLeft": "P9DT21H11M21S",
+  "MinimumToBid": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "02026",
+  "ConvertedCurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727057713738080_1.jpg",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=825097573",
+    "StoreName": "AAA_Awesome Gifts"
+  },
+  "BuyItNowAvailable": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Movado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Black",
+          "Blue"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "BOLD",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "HandlingTime": "2",
+  "Description": "THIS IMMACULATE TIMEPIECE WAS A GIFT AND WAS NEVER USED. NEW WITH TAGS. All the sophistication of Movado, energized with a new attitude and ultra-contemporary styling.Black polyurethane braceletRound black TR90 composite material and stainless steel bracelet, 44mmBlack chronograph dial with electric blue dot marker at twelve o'clock, three hands and three subdialsSwiss quartz movementWater resistant to 30 meters",
+  "QuantitySold": "0",
+  "Title": "MOVADO BOLD GENTS",
+  "BidCount": "0",
+  "ItemID": "172705771373",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SEgAAOSwDmBY4ua3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iJsAAOSwU8hY4uai/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RcoAAOSwDmBY4uam/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/risAAOSwpkFY4uao/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RhQAAOSwc-tY4uar/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ihAAAOSwU8hY4uat/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YqAAAOSw3utY4uav/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3cUAAOSwealY4uay/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MOVADO-BOLD-GENTS-/172705771373",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1488",
+    "UserID": "ege50",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

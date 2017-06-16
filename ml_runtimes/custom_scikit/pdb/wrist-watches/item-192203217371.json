@@ -1,0 +1,367 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:25:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "9",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "5.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:25:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "1830484",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Newly Design Kids Lovely Pattern Transparent Silicone Gel Band Quartz Wrist $6.77 Item Type: Quartz Wristwatches Case Material: Plastic Brand Name: Senors Dial Window Material Type: Glass Water Resistance Depth: No waterproof Movement: Quartz Dial Diameter: 39 mm Clasp Type: Buckle Boxes & Cases Material: No package Gender: Children Style: Fashion & Casual Feature: None Band Material Type: Silicone Case Shape: Round Band Length: 22 cm Model Number: Sun \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Newly-Design-Kids-Lovely-Pattern-Transparent-Silicone-Gel-Band-Quartz-Wrist-/192203217371?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "5.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-c",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-c",
+              "Name": "MPN"
+            },
+            {
+              "Value": "C",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-h",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-h",
+              "Name": "MPN"
+            },
+            {
+              "Value": "H",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-d",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-d",
+              "Name": "MPN"
+            },
+            {
+              "Value": "D",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-b",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-b",
+              "Name": "MPN"
+            },
+            {
+              "Value": "B",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-a",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-a",
+              "Name": "MPN"
+            },
+            {
+              "Value": "A",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-i",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-i",
+              "Name": "MPN"
+            },
+            {
+              "Value": "I",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-g",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-g",
+              "Name": "MPN"
+            },
+            {
+              "Value": "G",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-e",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-e",
+              "Name": "MPN"
+            },
+            {
+              "Value": "E",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "6.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1830484-f",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1830484-f",
+              "Name": "MPN"
+            },
+            {
+              "Value": "F",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "1830484-a",
+            "1830484-b",
+            "1830484-c",
+            "1830484-d",
+            "1830484-e",
+            "1830484-f",
+            "1830484-g",
+            "1830484-h",
+            "1830484-i"
+          ],
+          "Name": "MPN"
+        },
+        {
+          "Value": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "Name": "Color"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "H",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362092.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "D",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362084.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "B",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362077.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "A",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362073.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "C",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362081.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "I",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362095.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "G",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362090.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "E",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362086.jpg?v=1481508103"
+        },
+        {
+          "VariationSpecificValue": "F",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-92362087.jpg?v=1481508103"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "ItemID": "192203217371",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H2M34S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODIyWDgyMg==/z/kVAAAOSwurZZLpoq/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Newly Design Kids Lovely Pattern Transparent Silicone Gel Band Quartz Wrist",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

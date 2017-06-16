@@ -1,0 +1,130 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P17DT9H34M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "281552549672",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Modern-Silver-Pin-City-Lights-Clear-Swarovski-CZs-FAC-Rhodium-NWT-/281552549672",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2015-01-05T01:56:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T01:56:32.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fifth Avenue Collection",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "Pin",
+        "Name": "Type"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Modern Silver Pin \"City Of Lights\" Clear Swarovski CZs FAC Rhodium NWT",
+  "ExcludeShipToLocation": [
+    "VE",
+    "AO",
+    "CD",
+    "CG",
+    "CI",
+    "LR",
+    "NG",
+    "SL",
+    "SO",
+    "AF",
+    "AM",
+    "AZ",
+    "GE",
+    "KZ",
+    "KG",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "BY",
+    "MD",
+    "UA"
+  ],
+  "BidCount": "0",
+  "Description": "<div style=\"text-align: center;\"><img border=\"0\" src=\"http://ti2.auctiva.com/sw/java.gif\"><br><table align=\"center\"><tbody><tr><td><a style=\"text-decoration: none;\" href=\"http://store.auctiva.com/AGreatFind\"><img border=\"0\" src=\"http://ti2.auctiva.com/sw/browse2.gif\"></a></td><td height=\"21\" vAlign=\"middle\" align=\"center\"><font size=\"2\" face=\"arial\"><b><a href=\"http://store.auctiva.com/AGreatFind\">AGreatFind</a> Store</b></font></td></tr></tbody></table></div> <img border=\"0\" src=\"http://ti2.auctiva.com/web/aswCredit.gif\"><br><a href=\"http://www.auctiva.com/?how=scLnk1\" target=\"_blank\"><img border=\"0\" src=\"http://ti2.auctiva.com/images/sc1line1.gif\"></a> FAC Silver City Of Lights Pin With Clear Swarovski CZs <div style=\"text-align: center;\"><a style=\"text-decoration: none;\" href=\"http://mostpopular.sellathon.com/?id=AC865236\"><img border=\"0\" src=\"http://www.sellathon.com/Resources/Images/countercredit.gif\"></a></div>",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2815525496728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kathystreasurechest",
+    "FeedbackScore": "682",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Kathys Treasure Chest",
+    "StoreURL": "http://stores.ebay.com/id=109585628"
+  },
+  "Quantity": "1",
+  "Location": "Auburn, Washington",
+  "HitCount": "304",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/$(KGrHqR,!lYFC!YZLSY5BQqYGFiz3w~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "98002"
+}

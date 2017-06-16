@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-cute-canvas-Crossbody-fashion-handbag-Huge-Saving-/192150521230?var=",
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size:Application object: suitable for youthStyle: CrossbodyBags: Messenger bagsTexture: canvasCarrying part type: softClosure: zipperInternal structure: zipper pouch for cell phone Pocket sandwich zipper bagsLuggage bag type: dig kitsPattern: original designThere is no sandwich:Bags of hardness: softCondition: brand newApplication scenario: leisureStyle: cartoonShape: cross the squareShoulder strap styles: singleLining material: cotton",
+  "Title": "Original cute canvas Crossbody fashion handbag. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Khaki color",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/851/768/311983305/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Cobalt Blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/851/769/311879069/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "115.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851768:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Khaki color"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "115.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851769:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Cobalt Blue"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Khaki color",
+          "Cobalt Blue"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-06T17:51:40.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P3DT1H35M48S",
+  "EndTime": "2017-06-05T17:51:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DADAO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "259341110"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192150521230",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139851767:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

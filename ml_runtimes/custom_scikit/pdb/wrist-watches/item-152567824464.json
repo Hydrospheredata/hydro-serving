@@ -1,0 +1,68 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Elkridge, Maryland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:39:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1111794961",
+    "StoreName": "cpauctions12"
+  },
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:39:05.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567824464",
+  "HandlingTime": "2",
+  "Description": "Thank you for viewing this stunning watch this piece would look great worn anywhere and not to mention This item would be a terrific gift for anyone. Please note my watches are sold as is due to the fact they are used also note watches may need a new battery however this one is Working Just Fine\u00a0 . I can combine shipping on watches for an additional 50 cents each if you have any questions please ask",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Allude Watch Bag A Works",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Allude-Watch-Bag-Works-/152567824464",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525678244648080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "21075",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H23M16S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Nz0AAOSw4A5Yn0lQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/SXYAAOSwfVpYn0lS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/hsMAAOSw2gxYn0lT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/HAoAAOSwax5Yn0lU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/FRgAAOSwOgdYn0lW/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "989",
+    "UserID": "cpauctions12",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

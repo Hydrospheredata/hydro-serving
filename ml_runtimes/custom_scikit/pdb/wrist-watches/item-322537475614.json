@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1145.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IT",
+  "Location": "Arcigliano",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:57:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1145.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:57:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537475614",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stamped Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Up to 20% off! A Rare Opportunity: An Omega Constellation With Its Box&Papers",
+  "ConditionDescription": "1960 Era 18k on S.S. Case Automatic Constellation. Come with Original Guarantee and Original Chronometer Certificate",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Up-20-off-Rare-Opportunity-Omega-Constellation-Its-Box-Papers-/322537475614",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225374756148080_1.jpg",
+  "HitCount": "26",
+  "PostalCode": "51100",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H42M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/a4kAAOSwtfhYpwq8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~NcAAOSw2gxYpwq1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xJQAAOSwTuJYpwrF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BxQAAOSwfVpYpwrR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~2kAAOSw4CFYpwrU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eGsAAOSw~AVYpwq4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BCoAAOSwfVpYpwq~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xUsAAOSwTuJYpwrL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc1WDE1OTk=/z/d34AAOSw~AVYpwqy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8XYAAOSwVctY49MA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FUIAAOSwuLZY5Mjm/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc3WDE2MDA=/z/cxEAAOSw5cRZLsSG/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "FREE SHIPPING by EXPRESS COURIER",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "232",
+    "UserID": "gmmctpt",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

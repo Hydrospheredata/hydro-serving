@@ -1,0 +1,177 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P14DT13H57M58S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "198.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162523588403",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SALE-BESS-HEITNER-LEMON-TOPAZ-TOURMALINE-QUARTZ-SAGE-PEARL-FANTASY-NECKLACE-/162523588403",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "198.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-21T05:04:28.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-20T05:04:28.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bess Heitner",
+        "Name": "Brand"
+      },
+      {
+        "Value": "necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "lemon topaz, tourmaline quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "sage pale green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SALE - BESS HEITNER LEMON TOPAZ, TOURMALINE QUARTZ, SAGE PEARL FANTASY NECKLACE",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "UA",
+    "VA",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "BESS HEITNER WEBSITE PRICE: $328..EBAY PRICE $198 I am a NY-based jewelry designer specializing in one-of-a-kind and limited edition pieces for women who want to make a unique statement at work and in their personal life. Every design contains precious and unusual stones collected over many years. Each piece is handmade in my New York City studio. One of our very bestsellers! A delicate and dazzling collar of sage coin pearls, petal pearls, precious stones, lemon topaz, tourmalated quartz, frosted glass leaves, and Swarovski crystals, with custom moonstone sterling clasp. Each made completely by hand so no two are identical. 17-1/2\".",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625235884038080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bestom742",
+    "FeedbackScore": "649",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Bess Heitner Handmade Jewelry Salon",
+    "StoreURL": "http://stores.ebay.com/id=159728212"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTI2/z/WtAAAOSweW5VUrr1/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10010"
+}

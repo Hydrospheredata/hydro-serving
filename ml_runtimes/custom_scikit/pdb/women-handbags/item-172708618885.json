@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i8AAAOSwDiBZE7hC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PTsAAOSwONBZE7hL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Xw0AAOSw-3FZE7hA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PiAAAOSwrhBZE7hE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PjIAAOSwrhBZE7hG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3Y4AAOSwaeRZE7hI/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nine-West-Womens-Evelina-Crossbody-ME-New-Saddle-Multi-Floral-Size-OSFA-/172708618885",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Women's Nine West Evelina Crossbody ME Add a little charm to your look with the Evelina Crossbody from Nine West. Showing off attention grabbing floral appliques and a modest interior with enough room for your keys, wallet and smartphone. Zip main compartment Inside zip pocket Two open slip pockets Floral accents Lined interior.",
+  "Title": "Nine West Women's   Evelina Crossbody ME New Saddle/Multi Floral Size OSFA",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Schofield, Wisconsin",
+  "Seller": {
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "evodipatin_0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "54476",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T21:57:22.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT7H30M12S",
+  "EndTime": "2017-07-01T21:57:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Nine West"
+      },
+      {
+        "Name": "Style",
+        "Value": "Handbags"
+      },
+      {
+        "Name": "Color",
+        "Value": "New Saddle/Multi Floral"
+      },
+      {
+        "Name": "Size",
+        "Value": "OSFA"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172708618885",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727086188858080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUzOVgxMDcx/z/BUsAAOSwaeRZLYIs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk5WDYzMQ==/z/i8QAAOSw-K9ZLYHU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0MlgxNTM3/z/VK0AAOSw3gJZLYJo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc1WDk0MA==/z/ucQAAOSwurZZLYLg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMwWDk4OA==/z/6vsAAOSwGJlZLYMR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3MFg1NjQ=/z/C44AAOSws5pZLYKz/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-BABY-DIAPER-BAG-FLORAL-NIGHTINGALE-NWT-/382107843187",
+  "ConvertedCurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY BABY DIAPER BAG FLORAL NIGHTINGALE NWT 16\" X 11 3/4\" X 5 1/2\" with 12\" double strap drop. This will keep you organized & stylish. Outside has 3 slip-in pockets under a magnetic close flap on one side, a zip pocket on the other plus two side slip-in pockets. Inside is lined with nylon & has two slip-in pockets on one side & three on the other. Hard bottom base. Changing pad with matching fabric lining. Double zip closure makes getting in & out really easy.",
+  "Title": "VERA BRADLEY / BABY DIAPER BAG / FLORAL NIGHTINGALE / NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Mary Esther, Florida",
+  "Seller": {
+    "FeedbackScore": "1796",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jay.88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32569",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T14:41:51.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P26DT23H21M29S",
+  "EndTime": "2017-06-29T14:41:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382107843187",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3821078431878080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

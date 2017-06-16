@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT21H3M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "66.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282510294742",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-Silver-Polished-Red-Crystal-Carved-Cubic-Zirconia-Broad-Stud-Earrings-/282510294742",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "66.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:43:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T07:43:38.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kumar Jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stud",
+        "Name": "Style"
+      },
+      {
+        "Value": "wedding",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Red Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Screw Back (pierced)",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "silver&alloy with antique plating",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Beautiful Silver Polished Red Crystal Carved Cubic Zirconia Broad Stud Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825102947428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kumar-jewels",
+    "FeedbackScore": "1",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDkzWDgwMA==/z/SToAAOSwGJlZNQsf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTU3WDgwMA==/z/MuIAAOSww9xZNQsi/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "144001"
+}

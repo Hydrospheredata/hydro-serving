@@ -1,0 +1,132 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzNlg2NDA=/z/gpYAAOSwx2dYE5jR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzNlg2NDA=/z/hiQAAOSwXeJYE5cE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQyMFg4MTI=/z/gq0AAOSwXeJYE5bt/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-tote-bag-leather-travel-shopping-bag-leather-handbag-laptop-bag-/192199542155?var=",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Made in USA, Texas.This item was carefully made by hand, made of high quality Genuine real leather in the united states.high quality leather tote bag for everyday use, big enough to fit your daily stuff, it can hold laptop, tablet, wallet all your daily use. it has an inside pocket for most use things like cellphone or keys.dimensions:top width 13\"bottom width 10\"height 15.5\"wide 4\"inside pocket 9*5 inch divided in tow slotsstraps length 27\", 10\" above the topoptional crossbody strap length 48\"we're not using any enhanced pictures, we use a regular cell phone camera, so what you see is what you get.colors might be a little bit different because of light changing on camera.",
+  "Title": "Leather tote bag, leather travel & shopping bag, leather handbag,  laptop bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Flower Mound, Texas",
+  "Seller": {
+    "FeedbackScore": "854",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "sycadaleather"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75028",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "110.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Add Crossbody Strap?",
+            "Value": "No"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "135.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Add Crossbody Strap?",
+            "Value": "Yes"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Add Crossbody Strap?",
+        "Value": [
+          "No",
+          "Yes"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-05-28T03:08:34.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P24DT12H10M26S",
+  "EndTime": "2017-06-27T03:08:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Sycada Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192199542155",
+  "Storefront": {
+    "StoreName": "danielalhallak75",
+    "StoreURL": "http://stores.ebay.com/id=1185280210"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "6",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "personalized wallet with initials or anything else can't be return unless there's a defect in the wallet.\nunpersonalized wallet can be returned with 14 days money back guarantee.",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

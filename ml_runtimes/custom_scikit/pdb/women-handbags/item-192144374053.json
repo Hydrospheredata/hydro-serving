@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921443740538080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzU3WDUwMA==/z/wUkAAOSwdGFY3Yqu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzU3WDUwMA==/z/fBkAAOSww3tY3Yqu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzU3WDUwMA==/z/bLwAAOSwXYtY3Yqu/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SPIRIT-LIGHTWEIGHT-TRAVEL-HOLIDAY-TOP-ZIP-CROSSBODY-BAG-5054-Mink-Brand-New-/192144374053",
+  "ConvertedCurrentPrice": {
+    "value": "57.89",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Brilliant Medium/Large Sized handbag from Spirit. Made from super durable and lightweight Nylon, this is a new model to the Spirit Range. Featuring the usual handy and easy to reach multiple pockets, this bag is perfect for everyday and travel use. It features A large main compartment, with mobile phone pouches, a zipped pocket for security. Multiple front pockets for easy to reach items. There is also a zipped pocket on the rear of the bag. The shoulder strap is fully adjustable to suit your wearing style and adjusts to 150cm at full extension. The bag size is 28.2cm W x 23cm H x 11.2cm D (Approx).",
+  "Title": "SPIRIT LIGHTWEIGHT TRAVEL HOLIDAY TOP ZIP CROSSBODY BAG - 5054 - Mink. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.89",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T22:46:00.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P26DT6H28M22S",
+  "EndTime": "2017-06-28T22:46:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Spirit Travel bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "024299539"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144374053",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:61690104:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

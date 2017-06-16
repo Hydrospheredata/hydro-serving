@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/wz0AAOSwOVpXagOp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/jjUAAOSwMNxXagOp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/3I8AAOSwmtJXagOr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/zPQAAOSwjXRXagOs/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Johnston-and-Murphy-Ladies-Black-Tote-Red-Trim-New-NR-/122125594689",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "ITEM#: 14927616 Store your personal belongings in this stylish handbag from Johnston & Murphy. A lovely leather construction, zip-top closure and spacious interior pockets complete this tote handbag.\u00a0 Color options: Desert, black Style: Tote bag Construction: Leather Exterior: Solid color with contrast trim Entry: Zip-top closure Lining: Pattern Handles: Ttwo (2) top handles Exterior pockets: None Interior pockets: Six (6) Country of origin: Imported Bag dimensions: 17.5 inches long x 13 inches high x 5.5 inches deep Drop: 11 inches",
+  "Title": "Johnston and Murphy Ladies Black Tote with Red Trim  New NR",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Mesa, Arizona",
+  "Seller": {
+    "FeedbackScore": "149",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "arizonaoscar"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85201",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-09-09T21:27:14.000Z",
+  "HitCount": "64",
+  "TimeLeft": "P4DT6H13M10S",
+  "EndTime": "2017-06-06T21:27:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Johnston And Murphy"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122125594689",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1221255946898080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

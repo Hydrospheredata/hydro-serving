@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/l8gAAOSwY3BZHmHv/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Old-Angler-Classic-Italian-Brown-Briefcase-Florentine-Leather-/391798987366",
+  "ConvertedCurrentPrice": {
+    "value": "228.88",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This OLD ANGLER FIRENZE Briefcase Brown Bag Made in Italy High Quality Calfskin Leather brand new never used",
+  "Title": "\"Old Angler\u201d Classic Italian Brown Briefcase Florentine Leather",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "228.88",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Land O' Lakes, Florida",
+  "Seller": {
+    "FeedbackScore": "1487",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "78walkingdead"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "228.88",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "34637",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T00:24:37.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P3DT9H27M32S",
+  "EndTime": "2017-06-06T00:24:37.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Il Gabbiano of The Old Angler"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391798987366",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917989873668080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

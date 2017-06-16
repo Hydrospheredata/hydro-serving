@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT21H2M52S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122533569160",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Kendra-Scott-Corley-14k-Gold-Filled-Drop-Earrings-Turquoise-/122533569160",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:42:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T07:42:58.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kendra Scott",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Yellow Gold Filled",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Turqu",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Kendra Scott Corley 14k Gold Filled Drop Earrings In Turquoise",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Stunning Kendra Scott earrings.Comes with Kendra Scott original pouch.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225335691608080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "gizitaza1969",
+    "FeedbackScore": "834",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "gizitaza1969",
+    "StoreURL": "http://stores.ebay.com/id=935988071"
+  },
+  "Quantity": "1",
+  "Location": "Irvine, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/mAIAAOSwMtxXq4m8/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Z1cAAOSwgZ1Xq4nA/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/~YkAAOSw0UdXq4nF/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/0agAAOSwawpXq4nJ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/91AAAOSw9NdXq4nO/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Yk0AAOSwZVlXq4nT/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/08cAAOSwawpXq4nZ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Y5gAAOSwZVlXq4nf/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/UDsAAOSwIgNXq4nl/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/ZN4AAOSwZVlXq4nq/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/FkgAAOSw6n5Xq4nu/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/tvgAAOSwaB5Xq4n0/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92614"
+}

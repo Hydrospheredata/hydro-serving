@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zrYAAOSwvg9XWMqG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Pl0AAOSwtJZXWMqI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XgMAAOSwQupXWMqa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OvQAAOSwmtJXWMqN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ieUAAOSw9eVXWMqT/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Crossbody-Bag-Hobo-Purse-and-wallet-Celeste-f36628-NWT-350-/201944387241",
+  "ConvertedCurrentPrice": {
+    "value": "389.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "super cute Coach hobo bag with crossbody strap Pebble leatherzip top brown removable long strap, double zip top. good size with matching brown leather wallet",
+  "Title": "Coach Crossbody Bag Hobo Purse  and wallet Celeste f36628 NWT $350",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "389.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "La Jolla, California",
+  "Seller": {
+    "FeedbackScore": "128",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "donnaleec"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU",
+    "ZA",
+    "NZ",
+    "EG",
+    "RE"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92037",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:31:17.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H9M50S",
+  "EndTime": "2017-07-02T11:31:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag, Crossbody, Hobo"
+      },
+      {
+        "Name": "Material",
+        "Value": "Pebbled ( Textured ) Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Saddle Brown"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8\" ( Center )"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8\" & detachable, adjustable crossbody strap"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944387241",
+  "Storefront": {
+    "StoreName": "great stuff from elise",
+    "StoreURL": "http://stores.ebay.com/id=1145609341"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019443872418080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "true"
+}

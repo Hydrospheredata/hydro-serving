@@ -1,0 +1,159 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SALE-SALE-Designer-Faux-Leather-New-Handbag-Womens-Fashion-Tote-Shoulder-Bags-/192142586830?var=",
+  "ConvertedCurrentPrice": {
+    "value": "59.68",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size: 33Cm Length X 27.5 Cm Height X 14 cm Width Approximately Interior: 2 open pockets, 2 zip pocket. It is also ideal for use as a shopping bag or for every day use and it stands out with its classic yet unusual design. Outer Material: Faux Leather Material Composition: Interior: Fabric Exterior: zip closure, adjustable and removeable strap, top handles. Crafted from the best faux leather with custom hardware and detail stitching, it's the perfect work-to-weekend companion Classic with a fashionable twist, this bag is crafted in rich faux leather and finished with extra strong and detailed stitching",
+  "Title": "SALE SALE Designer Faux Leather New Handbag Womens Fashion Tote Shoulder Bags La",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.68",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Black",
+        "PictureURL": "http://rcdn-1.fishpond.co.nz/0129/510/717/294348902/original.jpeg"
+      },
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "59.68",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129510717:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129510718:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Bolar"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:129510719:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Brown"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Black",
+          "Bolar",
+          "Brown"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-28T19:15:53.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P24DT2H57M",
+  "EndTime": "2017-06-26T19:15:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Craze London"
+      },
+      {
+        "Name": "MPN",
+        "Value": "215534293"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142586830",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:129510716:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

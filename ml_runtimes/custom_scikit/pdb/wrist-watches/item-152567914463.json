@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Beverly, Massachusetts",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:11:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:11:49.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567914463",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "JULES JURGENSEN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE JULES JURGENSEN GOLD TONE LADIES WATCH WITH DIAMOND BEZEL Not WORKING",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-JULES-JURGENSEN-GOLD-TONE-LADIES-WATCH-DIAMOND-BEZEL-Not-WORKING-/152567914463",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525679144638080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "01915",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H2M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjU2WDY1Ng==/z/bqAAAOSwdjNZCxrT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxNFg0OTc=/z/p2MAAOSwlndZCxqV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU2WDY1Ng==/z/UV0AAOSwT-FZCxqy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU2WDY1Ng==/z/qucAAOSwlndZCxq9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU2WDY1Ng==/z/0TsAAOSwuMZZCxrJ/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Vintage not working. Not sure if it is a battery that is needed. Crystal has some scratches. Diamond Accents. Adjustable Clasp. Measures 6.5 inches. Free USPS shipping with tracking number. Thank you.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "195",
+    "UserID": "aaaclueless",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT54M43S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "53.69",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222523812205",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bridal-Wedding-Prom-Party-Rhodium-Plated-Multicoloured-Austrian-Crystal-Faux-/222523812205",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "53.69",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T12:23:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T12:23:44.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "634558767193",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0634558767193",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Avalaya",
+        "Name": "Brand"
+      },
+      {
+        "Value": "HA00495",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4 x W 3.5 x H 1.3 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Bridal/ Wedding/ Prom/ Party Rhodium Plated Multicoloured Austrian Crystal, Faux",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Want picture-perfect hair? Slip this beaut comb into the back of your ponytail or use it to hold your hair away from your face. Featuring a large silver-tone hair comb with a cluster of flowers motif, encrusted with various shape multicoloured Austrian crystals. The comb measures 100mm across and is approximately 60mm long. The amount of work and skill that has gone into producing this piece is truly amazing. Perfect as an heirloom to pass on which can be treasured for years to come! Sparkle away no matter the occasion! - Occasion: bridesmaid, cocktail party, going to theatre, wedding - Metal Finish: rhodium plated - Gemstone: glass pearl, swarovski crystal - Theme: floral - Collection: floral Bridal/ Wedding/ Prom/ Party Rhodium Plated Multicoloured Austrian Crystal, Faux",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225238122058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "2.tzvishai2",
+    "FeedbackScore": "607",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/qskAAOSwuMZZJszT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/FwcAAOSwlMFZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/uhEAAOSwrhBZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/5UQAAOSwi7RZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/u3cAAOSwBt5ZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/A-sAAOSw9OFZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VQsAAOSwYlRZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VQ4AAOSwYlRZJszS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/IaUAAOSwPh5ZJszS/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

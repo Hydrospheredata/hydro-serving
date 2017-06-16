@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT19H40M43S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "38.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122533453845",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ALEXIS-BITTAR-NEW-FLUORESCENT-FUSHCIA-SKINNY-LUCITE-TAPERED-BANGLE-NWOT-70-/122533453845",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T05:28:22.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T05:28:22.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alexis Bittar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Lucite",
+        "Name": "Material"
+      },
+      {
+        "Value": "2.5\" Inside Diameter",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Fluorescent Neon Fuschia",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "ALEXIS BITTAR NEW FLUORESCENT FUSHCIA SKINNY LUCITE TAPERED BANGLE NWOT $70",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Alexis Bittar NEW Skinny Tapered Bangle in Fluorescent Fuschia Lucite, RARE!, NWOT, MSRP $70 Pop some precious color perfection into your ensemble with the Alexis Bittar\u2122 Skinny Tapered Bangle in Fluorescent Fuschia Hand carved and painted Lucite\u00ae.Gold-tone metal brand logo.Slip-on style.By Alexis Bittar, imported.Measurements:Width: 1\u20445 inDiameter/Length: 2.5 inWeight: 0.4 ozINCLUDES DUST POUCH NWOTMSRP $70",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225334538458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "foxsunset6559",
+    "FeedbackScore": "209",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Camano Island, Washington",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/pXYAAOSw3gJZK0Bu/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/9GQAAOSwfpVZK0Br/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/G60AAOSwKytZK0Bt/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODM0WDE2MDA=/z/klYAAOSwhvFZKu-Z/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/SoQAAOSww5hZKu-a/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/kn4AAOSwhvFZKu-c/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ci8AAOSw1WJZKu-e/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFg4NTI=/z/BKkAAOSwrhBZKu-g/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFg4NTI=/z/YrEAAOSwaeRZKu-h/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTE3MFgxNDcy/z/NC8AAOSw8lpZKu-j/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "98282"
+}

@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT17H33M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "41.44",
+    "_currencyID": "USD"
+  },
+  "SKU": "18959020-000-000",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "352069256409",
+  "ConvertedCurrentPrice": {
+    "value": "41.44",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-05-26T03:07:30.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Journee-Collection-Sterling-Silver-Turquoise-Bead-Anklet-/352069256409",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T03:07:30.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SA-148",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Journee Collection",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9 in.",
+        "Name": "Length"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "870271103546",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Journee Collection Sterling Silver Turquoise Bead Anklet",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "Location": "Salt Lake City, UT",
+  "Description": "Overstock Everyday Free Shipping for Orders $45 and Over* *Shipping excludes PO Boxes and international orders. Home & Garden Jewelry & Watches Sporting Goods Health & Beauty Clothing, Shoes & Accessories Crafts Selected Home & Garden Jewelry & Watches Sporting Goods Health & Beauty Clothing, Shoes & Accessories Crafts Journee Collection Sterling Silver Turquoise Bead Anklet Product Description: Find your favorite accessory with this sterling silver ankle bracelet from Journee Collection. This everyday wear accessory features silver beads with eight turquoise stones. A spring ring clasp provides a secure and comfortable fit to complete the piece. Jewelry Type: FineChain Style: SpecialtyGender: FemaleClasp: Spring RingJewelry Finish: High PolishMetal Color: WhiteMetal: Sterling SilverExact Color: BlueLength: Over 9 InchesColor: Blue All measurements are approximate and may vary slightly from the listed dimensions. Try These Other Categories Bedding Furniture Crafts Rugs & Carpets Health & Beauty Camping & Hiking About Us... Overstock has a simple mission: To save people money. We serve customers world-wide by offering high-quality goods at unbeatable prices, all while maintaining a focus on superior customer service. Need Our Help? Our award-winning customer service agents are available 7 days a week. Click here to contact us. Overstock Standard Shipping Information Combined shipping lets you get free shipping on Overstock orders totaling $50 or more. Put all the items you intend to purchase in your cart and check out; it's that easy. Please note that items purchased from other eBay stores will void the combined shipping rate. Standard orders ship within 1-3 business days, depending on the time the order is received, and arrive within 5-10 business days. Custom Art: Up to 10 business days to ship and 1-4 weeks for delivery. Oversized Items: Up to 10 business days to ship and 1-4 weeks for delivery. We use all major mail carriers, including UPS, FedEx, and the United States Postal Service. Customers cannot specify the carrier of their choice. Overstock Returns Standard Return Policy: Items must be returned in new or unused condition and contain all original materials included with the shipment. Frequently Asked Questions Frequently Asked Questions",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3520692564098080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.5",
+    "UserID": "overstock",
+    "FeedbackScore": "448399",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "Storefront": {
+    "StoreName": "Overstock",
+    "StoreURL": "http://stores.ebay.com/id=1112463734"
+  },
+  "Quantity": "1",
+  "Subtitle": "20% off for a limited time",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/i~UAAOSw5cNYc8K0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/TdEAAOSwUKxYc8K3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/dHYAAOSwnHZYc8K9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/3j4AAOSwo4pYc8LB/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

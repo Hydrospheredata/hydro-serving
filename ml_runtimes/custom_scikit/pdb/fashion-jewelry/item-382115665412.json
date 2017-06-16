@@ -1,0 +1,193 @@
+{
+  "ReturnPolicy": {
+    "Description": "Item must be returned in its original condition",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "382115665412",
+  "PrimaryCategoryID": "50692",
+  "ListingStatus": "Active",
+  "Site": "Australia",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewellery & Watches:Engagement & Wedding:Wedding Party Jewellery",
+  "ConvertedCurrentPrice": {
+    "value": "54.29",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:91427:164310",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "SK",
+    "SI",
+    "UA",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "LB",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "UZ",
+    "CK",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NU",
+    "PW",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821156654128080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "UserID": "stylejewelry",
+    "FeedbackScore": "77518",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "StyleJewelry",
+    "StoreURL": "http://stores.ebay.com/id=167511182"
+  },
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "MOCC",
+    "PayPal",
+    "PersonalCheck",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMQ==/z/jPIAAOSw-K9ZNOQD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/yJ4AAOSwxu5ZNOQF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDY2OA==/z/HP8AAOSwK6RZNOQJ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUyOQ==/z/GgAAAOSww5hZNOQM/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTUwWDU1MA==/z/JyIAAOSw3gJZNOQP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDU1MQ==/z/kfgAAOSw~FJZNOQS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDYwNg==/z/HW4AAOSwK6RZNOQU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTQwWDc3OQ==/z/mfYAAOSw1WJZNOQY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDU4Mw==/z/B20AAOSwsXFZNOQb/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "TimeLeft": "P29DT17H13M54S",
+  "StartTime": "2017-06-05T04:56:00.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ConditionDescription": "New Without Tags is thought to mean that the item is brand new but does not include price tags.",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "72.99",
+    "_currencyID": "AUD"
+  },
+  "SecondaryCategoryID": "164310",
+  "HitCount": "1",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/18k-White-Gold-Filled-Green-Emerald-Crystal-Vintage-Tennis-Bridal-Set-XS15-/382115665412",
+  "EndTime": "2017-07-05T04:56:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "18k rose gold filled",
+        "Name": "Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Sets",
+        "Name": "Type"
+      },
+      {
+        "Value": "18k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "White Gold Filled",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Dose not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "18k White Gold Filled Green Emerald Crystal Vintage Tennis Bridal Set XS15",
+  "Location": "Wishart, QLD",
+  "Description": "Item Detail: \u3000 Click to Buy It Now & Get It Faster SWAROVSKI ELEMENTS is the premium brand for the finest crystals manufactured by Swarovski. Our jewellery inlay high quality Austria Swarovski Elements crystal (strass and compents semi-crystal) to make each item more brilliant & valuable! StyleJewelry - XS15 * Retail Price $179.95 Antique Beautiful 18k White Gold Filled Emerald Green Wheat Style Necklace & Earring Set Decorated With Sparkling Swarovski Crystals * Condition: 100% BRAND NEW! Color: same as pictures * Made with Swarovski Crystal (Click To Learn About Swarovski Elements) Necklace: * Great quality 18k white gold filled non discolor, nickel free and hypoallergenic! * Necklace size: 41.5cm(L) x 1.1cm(W) * Total 7 pieces emerald green oval designs in the necklace * Size of the emerald designs are the same size as the matching earrings. Earring: * 18k white gold filled, surgical steel posts free of allergy! * Earring size: 13mm(L) x 11mm(W) * Beautiful emerald stone: 9mm(L) x 7mm(W), side stone: 1.5mm * Absolutely gorgeous wheat style necklace and earring set paved with Swarovski Crystals! * Mix vintage spirit with modern glamour, this set perfectly meld luxury and simplicity! * The timeless design, perfect for any occation and never out of date! * Available in matching bracelet T24 in store, available in loyal blue collection item XS7! (The model is wearing ruby red collection, please contact us to order) * Packed in beautiful jewellery pouch! * One Inch Equals 25 mm/2.5 Centimeter Click Images to Purchase. Visit Our StoreStyleJewelry For More Collections Payment information: *For Australian buyers, we accept Bank Deposit & Transfer / Money Order / Bank Cheque / Paypal. For oversea buyers, we accept PAYPAL ONLY. Please attach your ebay ID & item numbers as reference with any bank payment, otherwise deferred post might occur. *Payment is required within 5 days from the date of the purchase end. *Your bid is your contract, please honor your bid and our work! Please don\u2019t hesitate to contact us with any questions before bidding! Shipping and Handle *Item will be posted within 1 business day after payment is cleared. *All items will be posted to nominated address in buyer\u2019s ebay profiles. Please email us if different delivery address required. Surcharge applies to any unclaimed items which includes any incomplete or wrong address. *Insurance optional but strongly recommended. We have no responsibility for loss or damage goods during the delivery if no insurance covered. *No track number for regular shipping, no pick up service available. Discount & Delivery Time Shipping discount: Combined postage is offered for 2 items or above within a 7 days period of purchase. Please do not pay until you receive combined shipping invoice for all your purchase. Delivery time frame: Australian buyer: 2-6 working days. Oversea buyers: 7-25 working days depends on your location. Return Policy *100% satisfaction is guaranteed! Simply email us to fix the problems if you have any questions and we will reply in 24 hours! If you want to return the item for an exchange or refund, it must be returned in its original condition within 7 days upon receipt and buyer bears the postage. Feedback & Contact Us We strive to earn POSITIVE FEEDBACK and FIVE STAR ratings from you! Please contact us to resolve any problems if the transaction do not meet your expectations before leaving your feedback and stars! We appreciate your great communication and business!",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "EligibleForPickupDropOff": "true",
+  "Quantity": "26",
+  "PostalCode": "4122"
+}

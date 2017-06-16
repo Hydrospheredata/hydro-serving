@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P18DT16H5M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.8",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222523482454",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bling-Jewelry-Rhinestone-Flower-Headpiece-Crown-Tiara-Silver-Plated-/222523482454",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.8",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T03:35:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T03:35:14.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "640626721615",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0640626721615",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Bling Jewelry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "TK-C8892",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Color"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.3 x W 6.3 x H 3.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Bling Jewelry Rhinestone Flower Headpiece Crown Tiara Silver Plated",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! A truly beautiful headpiece, this bridal tiara is made of Silver plated alloy. It features hand set crystals in a decadent design that host a teardrop shaped centerpiece. A very sweet and hard to find piece, the tiara has a comb to keep it secure without sacrificing style. You do not have to spend like a princess to look like one. Purchase today. This tiara is made with the highest quality materials - Royal Inspired Crown for the Bride - Secured with Side Combs - Material: Silver Plated Alloy, Rhinestones - Measure: 1.85 inch H - Weight: 70 grams Bling Jewelry Rhinestone Flower Headpiece Crown Tiara Silver Plated",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225234824548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "2.tzvishai2",
+    "FeedbackScore": "607",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/SEAAAOSwfpVZJlD0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/IHEAAOSw8HBZJlD0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/iT8AAOSw-K9ZJlD0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/XVIAAOSwlY1ZJlD0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/zLkAAOSwGJlZJlD0/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

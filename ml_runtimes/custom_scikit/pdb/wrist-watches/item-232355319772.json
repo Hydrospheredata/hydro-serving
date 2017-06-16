@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Louisville, Kentucky",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:19:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "12.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:19:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "232355319772",
+  "HandlingTime": "3",
+  "Description": "Very nice. Metal Superman adult size watch dial. DC Comics Dabs & Co. Has a date of 1977 on dial face. Looks like new old stock. Use zoom on listing photo to help with item description and condition.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Metal-Adult-Size-1977-DC-Comics-Dabs-Superman-Character-Watch-Dial-/232355319772",
+  "ConditionDescription": "Nice",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323553197728080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "40229",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H10M19S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zwYAAOSwtGlZI0Xb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NzkAAOSwi7RZI0YM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zYoAAOSw~y9ZI0ZQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Metal Adult Size 1977 DC Comics Dabs Superman Character Watch Dial",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "889",
+    "UserID": "2hattiesfarm",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dad-Sons-First-Hero-Daughters-First-Love-Tote-Bag-Shopper-Delivery-Free-/192139914734?var=",
+  "ConvertedCurrentPrice": {
+    "value": "191.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Natural and White bags are made from 300D Polyester and will be sublimation printed. These prints will not fade, crack or peel as they are embedded into the bag. Cool wash only (due to material), no tumble dry. We recommend hand wash or wipe clean. Measure approx 38cmx42cm with 67cm handle and 10 litre capacity.Available Size: 38cm x 42cm with 67cm handle and 10 litre capacityAvailable Colours: Natural and WhiteWeight: 150 grammesMaterial: 300D PolyesterWash Instructions: Cool wash only (due to material), no tumble dry. We recommend hand wash or wipe clean.'Graphics by Cutting Modern'",
+  "Title": "Dad A Sons First Hero A Daughters First Love Tote Bag Shopper. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "191.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/716/013/311550767/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Beige",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/716/014/312165288/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "191.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139716013:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "White"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "191.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139716014:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Beige"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "White",
+          "Beige"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-25T20:45:53.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P21DT4H24M53S",
+  "EndTime": "2017-06-23T20:45:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Just Another Tee"
+      },
+      {
+        "Name": "MPN",
+        "Value": "031776218"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139914734",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139716012:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

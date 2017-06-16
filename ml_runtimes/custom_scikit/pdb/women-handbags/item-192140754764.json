@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921407547648080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTg5/z/K3YAAOSwCU1Y2EKK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQ1/z/C8cAAOSwzgBY2EKK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDc4/z/41MAAOSwWxNY2EKK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjU5WDE1MDA=/z/K2EAAOSwCU1Y2EKJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDU5/z/srAAAOSwsW9Y2EKK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA0MlgxNTAw/z/ZA0AAOSwTM5Y2EKK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4Mjk=/z/-tgAAOSwc-tY2EKJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDcx/z/ZAgAAOSwTM5Y2EKK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4ODM=/z/orYAAOSwmgJY2EKK/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gusti-Leder-studio-Steven-Genuine-Leather-Rucksack-Backpack-Satchel-Smart-Ever-/192140754764",
+  "ConvertedCurrentPrice": {
+    "value": "141.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gusti Leder studio \"Steven\" Genuine Leather Rucksack Backpack Satchel Smart Everyday Work Uni College 40cm Laptop Bag Dark Brown Unisex 2M34-26-9 by Gusti Leder studio Ships from UK Supplier Other information: 2M34-26-9 Related Searches: Leather Backpacks Bags, Gusti Leder Studio Hobo, Gusti Leder Studio Bags Dimensions: 11.0 x 31.0 x 37.0 centimetres Weight: 1.4 kg",
+  "Title": "Gusti Leder studio \"Steven\" Genuine Leather Rucksack Backpack Satchel Smart Ever",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "141.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-26T22:36:54.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P22DT6H16M33S",
+  "EndTime": "2017-06-24T22:36:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gusti Leder studio"
+      },
+      {
+        "Name": "MPN",
+        "Value": "602116851"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140754764",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:70181696:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

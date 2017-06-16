@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT19H7M41S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "euc",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "CN",
+    "SE",
+    "FR",
+    "HK",
+    "ES",
+    "IT",
+    "DE",
+    "RU",
+    "IL",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "MY",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282510341589",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Diamond-Accent-Ring-/282510341589",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:29:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T08:29:29.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Forever Bride",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cluster",
+        "Name": "Style"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "7",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "sterling silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Diamond Accent Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful sterling silver engagement ring with genuine diamonds , made by Forever bride. Size 7 , weighs 2.4 g. In excellent condition. All diamonds are there...none mising. Please feel free to ask any questions. Thanks \ud83d\ude07",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825103415898080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "a.shabazz",
+    "FeedbackScore": "156",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Forest Park, Georgia",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE0M1g5MDA=/z/wwEAAOSw37tWEb0d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3OVg4MTA=/z/k0YAAOSw42JWEb0~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/nW0AAOSw4HVWEb2T/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/7xcAAOSwU~FWEb2r/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/pC8AAOSw4HVWEb3W/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "PostalCode": "30297"
+}

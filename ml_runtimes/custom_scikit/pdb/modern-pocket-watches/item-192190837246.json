@@ -1,0 +1,127 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "56601",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New Deer Image Pocket watch and Chain Measurements are Approximate... 1 3/4\" diameter x 2 5/8\" tall x 14\" long chain Visit My Store: Eleanor's Attic Check out my pictures and message me any questions! SHIPPING CHARGES ARE QUOTED FOR LOWER 48 STATES USA ONLY. For shipping to Alaska, Hawaii and Puerto Rico, please message me requesting shipping cost. Thanks for looking and have a Great Day!# 458 cs 2944",
+  "StartTime": "2017-05-18T17:13:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMzMVgxMDkx/z/stQAAOSwT-FZAhKw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwMlg4MDg=/z/b9cAAOSwX61ZAhK2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2Mlg5Nzg=/z/nzIAAOSw7GRZAhKz/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Detail",
+        "Name": "Brand"
+      },
+      {
+        "Value": "DTL13PO6",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "10154443",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "049353403243",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "great_stuff_2006",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "22528",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921908372468080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T17:13:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "I try very hard to be accurate with descriptions and have a great track record. If you feel an item has been misrepresented kindly contact me within 2 days of receipt to discuss a return/refund. Thank You!",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Deer-Pocket-Watch-Chain-Silver-Gold-Tone-NIB-Details-White-Face-/192190837246",
+  "Location": "Bemidji, Minnesota",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Deer Pocket Watch & Chain Silver & Gold Tone NIB Details White Face",
+  "Storefront": {
+    "StoreName": "Eleanor&#39;s Attic",
+    "StoreURL": "http://stores.ebay.com/id=191465206"
+  },
+  "ItemID": "192190837246",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT22H34M1S"
+}

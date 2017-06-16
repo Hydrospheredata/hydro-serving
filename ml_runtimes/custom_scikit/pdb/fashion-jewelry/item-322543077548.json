@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT14H34M11S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543077548",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-NWT-JUICY-COUTURE-Gold-Tone-Crown-Heart-Charms-Necklace-Set-YJRU4575-78-/322543077548",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "36.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:18:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T02:18:57.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Juicy Couture",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NIB NWT JUICY COUTURE Gold Tone Crown Heart Charms Necklace Set YJRU4575 $78",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Juicy Couture Crown Heart Charms on Golden Triple Necklace Set brand new with price tags and original round pink boxjuicy paper bag Style: YJRU4575 retail price: $78 please check all photos, photos are parts of my description. priced to sell, no return. To avoid massing up with other seller's items, I do not accept return. If you really want to return, please contact me within 3 days after receiving the bag, please do not remove my tags, including the original price tag and the security tag from my store. item must in original condition. Otherwise I do not accept return. Buyer need pay 15% restocking fee and both ways shipping fees if return is approved.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225430775488080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "love*gucci*",
+    "FeedbackScore": "1452",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "lindas fashion usa",
+    "StoreURL": "http://stores.ebay.com/id=911782838"
+  },
+  "Quantity": "4",
+  "Location": "Texas",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ1WDczMQ==/z/CmoAAOSw-itXvc0U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/qyUAAOSwdzVXvc6I/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk5WDE0NDA=/z/gyUAAOSwHoFXvc6g/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/XR0AAOSw0UdXvc6x/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwNlg5MDA=/z/dsEAAOSwdzVXvdzT/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

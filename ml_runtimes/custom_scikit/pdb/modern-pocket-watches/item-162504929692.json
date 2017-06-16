@@ -1,0 +1,132 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.95"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "KANSAS CITY RAILROAD POCKET WATCH* AS SEEN ON TV! BRAND NEW!!!! ~Limited Edition~ *Free Shipping",
+  "StartTime": "2017-05-05T21:58:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/haAAAOSw4CFYvNZD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zJcAAOSwfVpYvNZP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/V10AAOSwhlZYvNZ6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EyYAAOSw~AVYvNaZ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "As Seen on TV ( Tele Brands)",
+        "Name": "Brand"
+      },
+      {
+        "Value": "7189-6",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Butterfly Hinge",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "NEW & IMPROVED QUARTZ MOVEMENT",
+          "12-hour Dial",
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz Movement - Never Needs Winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "7189-6",
+        "Name": "Model"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "26\"",
+        "Name": "Chain Lenth"
+      },
+      {
+        "Value": "Yes",
+        "Name": "FOB"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Certificate of Authenticity"
+      },
+      {
+        "Value": "2.5 oz",
+        "Name": "Weight"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Country Made"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bluedrumzz",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "211",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625049296928080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T21:58:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.95"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Georgia",
+  "Title": "KANSAS CITY RAILROAD POCKET WATCH - AS SEEN ON TV! BRAND NEW! - Limited Edition",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KANSAS-CITY-RAILROAD-POCKET-WATCH-SEEN-TV-BRAND-NEW-Limited-Edition-/162504929692",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "162504929692",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT3H14M10S"
+}

@@ -1,0 +1,113 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "None",
+    "UserID": "i***b",
+    "FeedbackScore": "0"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTIyWDUyMg==/z/OfkAAOSwzvlW-~k3/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Disney-Minnie-Mouse-5-1-Diaper-Bag-Changing-Tote-Polka-Dot-/172108657445",
+  "ConvertedCurrentPrice": {
+    "value": "52.94",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Disney Minnie Mouse 5 In 1 Diaper Bag Changing Tote Polka Dot Tote your diapers and your Disney pride with the Disney 5-In-1 diaper bag set. These generously sized Disney diaper bags are charmingly decorated in the style of Minnie Mouse. With popping pink accents, these graphic baby diaper bags will visually stimulate your child while they provided first class functionality. The Disney 5-in-1 diaper bag set includes a large carrying bag, an included bottle bag, an included pacifier pouch, an included changer and an included clear wipe case. It's an all-in-on baby accessory where you can store sundries, toys and snacks. With a child-friendly Disney theme, these baby diaper bags will be a big hit at day care and on play dates. You'll love the Disney 5-in-1 diaper bag set for its practical compartments and convenient carrying straps and your baby will love looking at Minnie Mouse during changing time. If your family wants a baby diaper bag with a touch of magic, consider buying the Disney 5-in-1 diaper bag set. Features5 large pockets Includes bottle bag Includes wipes case Shipping / Return Policies (Balanced): Shipping Policies: We ship to the Lower 48 States only (Does NOT include Hawaii or Alaska) We cannot ship to PO Boxes/APO's We cannot combine shipping. No Local Pickup. All items will be shipped directly to you from our supplier within 1-3 business days. Most items are delivered within 3-5 business days, however, please allow 3-10 business days. All items are in stock when they are listed. Inventory is tracked and updated regularly. However, if demand exceeds our supply, we will give the customer the following options: Full refund. Have the item back ordered and shipped when it becomes available. We will offer other items in similar style and quality. Your bid / purchase of the item implies you agree to this policy. If you have a question about a product not otherwise answered in the item description, please contact us via eBay messages first and allow us the opportunity to help you and be sure we have what you're looking for. Exchange/Return Policy: Your satisfaction is guaranteed! If for any reason you are unhappy with your item, just return it within 14 days for a full refund, minus shipping cost. Please contact us prior to initiating a return so that we can issue you a refund authorization. Payment Policy We require Immediate Payment. Must be an authorized address.",
+  "Title": "Disney Minnie Mouse 5 In 1 Diaper Bag Changing Tote Polka Dot",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.94",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Southfield, Michigan",
+  "Seller": {
+    "FeedbackScore": "136",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mlmunlimiteddeals"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48076",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2016-02-20T12:03:47.000Z",
+  "HitCount": "2619",
+  "TimeLeft": "P11DT20H25M40S",
+  "EndTime": "2017-06-14T12:03:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Disney"
+      },
+      {
+        "Name": "MPN",
+        "Value": "99333"
+      },
+      {
+        "Name": "Material",
+        "Value": "Textile"
+      },
+      {
+        "Name": "Color",
+        "Value": "Polka Dot"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "UPC",
+        "Value": "786417167054"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172108657445",
+  "Storefront": {
+    "StoreName": "mlm unlimited deals",
+    "StoreURL": "http://stores.ebay.com/id=177397023"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Please review the shipping and return policies included in the item description for more details.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1721086574458080_2.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

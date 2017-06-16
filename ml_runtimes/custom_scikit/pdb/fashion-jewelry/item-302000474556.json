@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "302000474556",
+  "TimeLeft": "P19DT14H4M42S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.95",
+    "_currencyID": "AUD"
+  },
+  "SKU": "35274",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925-Sterling-Silver-Toe-Ring-3-Frangipani-Flowers-35274-/302000474556",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.15",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-06-30T04:01:35.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "AU",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-25T04:01:35.000Z",
+  "Location": "Sydney",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bee Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "35274",
+        "Name": "MPN"
+      },
+      {
+        "Value": "606280786131",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "925 Sterling Silver Toe Ring with 3 Frangipani Flowers 35274",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "RUGS BOOTS EARINGS NECKLACE Note: This item is on pre-sale.All orders after 1st Apr will be dispatched on: 40th June. --> 925 Sterling Silver Toe Ring with 3 Frangipani Flowers 35274",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3020004745568080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "fab-living",
+    "FeedbackScore": "13020",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Fab-living",
+    "StoreURL": "http://stores.ebay.com/id=653894059"
+  },
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/Ju4AAOSw-KFXdJmk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/JusAAOSw-KFXdJmk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/6OYAAOSwRQlXdJmk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/6RQAAOSwRQlXdJmm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/1zIAAOSweWVXdJmk/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

@@ -1,0 +1,156 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "london, London",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:02:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:02:21.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530165114",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "...",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Silver",
+          "Gold / Silver"
+        ],
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "...",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "....",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "....",
+        "Name": "Model"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "....",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Yonger & Bresson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "26mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Yonger-Bresson-Mechanical-Wrist-Watch-Swiss-Made-/222530165114",
+  "Title": "Yonger & Bresson Mechanical Wrist Watch, Swiss Made",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225301651148080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "sw15 3dp",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H44M27S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDY3/z/dM8AAOSwhlZYuZo0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDY3/z/1WgAAOSw32lYuZo4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMDY3/z/~AIAAOSwSlBYuZo2/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Yonger & Bresson Mechanical Wrist Watch, Swiss Made Watch Conditions : Doesn't start, balance wheel moves but soon stops.... Therefore I'm selling it as to be repaired, or for collection or even for spare parts..... Please look well pictures for more details Many thanks for looking",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "972",
+    "UserID": "leopard78_123",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

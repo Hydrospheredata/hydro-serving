@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hjYAAOSwIaFZGiVQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U~IAAOSwcB5ZGiVf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/g4IAAOSwK6RZGiU-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OS0AAOSwlndZGiVp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1Nlg4MTY=/z/E~AAAOSwaEhZGiVx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1Nlg4MTY=/z/5ogAAOSw5cRZGiV3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgyWDE2MDA=/z/rxUAAOSwxu5ZGiWC/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ELLA-VICKERS-Original-Zip-Tote-Medium-Recycled-Sailcloth-Pink-Blue-/302318159781",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Ella Vickers Original Zip Tote Medium The Original Zip Tote is perfect for day sailing or carrying around town.Inspired by wind sails, made from sailclothBrass O-rings Zippered closureDimensions: 14.5\"w x 12\"h x 6\"d Pink blue",
+  "Title": "ELLA VICKERS Original Zip Tote Medium Recycled Sailcloth. Pink Blue",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Cabo Rojo, Puerto Rico",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "590",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "makoteam"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "00623",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-15T22:05:12.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P12DT5H20M20S",
+  "EndTime": "2017-06-14T22:05:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ella Vickers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Recycled Materials"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302318159781",
+  "Storefront": {
+    "StoreName": "JJ Embroidery&amp;More",
+    "StoreURL": "http://stores.ebay.com/id=65831729"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023181597818080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

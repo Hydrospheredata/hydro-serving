@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cqEAAOSwcvdXOkNz/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9SkAAOSwXSJXOkN9/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YLIAAOSw9VZXOkKn/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9qMAAOSw41xXOkKr/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/x9wAAOSwB9xXOkKv/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YYkAAOSw9VZXOkK1/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jwoAAOSwdWBXOkK5/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OFsAAOSwZetXOkLA/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jzcAAOSwH71XOkLE/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WqcAAOSwboVXOkLM/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ObQAAOSwZetXOkLQ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5BkAAOSwB9xXOkPz/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Coach-Black-Waverly-Soho-Leather-purse-4157-/112428792859",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Classic buttery smooth leather. Coach at its very best, early 1980s. Very roomy inside with one zipper pocket inside. Hard to see any appreciable wear on edges or bottom. One tiny flaw is white spot the size of the head of a pin which is included in picture gallery. Hardware gleaming bright gold. Straps is good condition seeing that they take the brunt of wear for this style of shoulder bag. Stitching tight. Magnetic close. Thanks for looking.",
+  "Title": "Vintage Coach Black Waverly Soho Leather purse #4157",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Omaha, Nebraska",
+  "Seller": {
+    "FeedbackScore": "3091",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "rhow6201"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "68132",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:35:21.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT22H24M32S",
+  "EndTime": "2017-07-02T12:35:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4.5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "8.5"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "14\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428792859",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124287928598080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

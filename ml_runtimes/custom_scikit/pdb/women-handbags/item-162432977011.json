@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM0NVgxNTAw/z/nzYAAOSw4CFYyfs8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzY1/z/qGEAAOSwOgdYyfs7/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Travel-Cosmetic-Bag-Sierra-/162432977011",
+  "ConvertedCurrentPrice": {
+    "value": "84.94",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Dimensions: 8\" W x 4.5\" H x 4.5\" D with a 2\" handle drop - Vera Bradley Travel Cosmetic Bag in this fantastic case that will keep your cosmetics safe, perfectly organized, and easily accessible. This soft case is made from 100% cotton with a block logo satin lining that is easily wipeable to keep looking its best while it helps you look your best! The outside features a zipper closure with dual zipper pulls and a convenient handle, while the inside features four slip pockets and a zippered pocket along the sides. - Dimensions: 8\" W x 4.5\" H x 4.5\" D with a 2\" handle drop. - A zipper closure with dual zipper pulls - Convenient handle - Four slip pockets inside - A zippered pocket inside Vera Bradley Travel Cosmetic Bag in Sierra",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "84.94",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "TW",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "9745",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Green",
+    "UserID": "lotoonsca2"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Travel Cosmetic Bag in Sierra",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-03-16T02:40:56.000Z",
+  "HitCount": "77",
+  "TimeLeft": "P11DT8H45M36S",
+  "EndTime": "2017-06-14T02:40:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003374849"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003374849"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB01NAHV8OZ-OFFSUPPLIES"
+      },
+      {
+        "Name": "Color",
+        "Value": "Sierra"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.8 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 10.2 x W 4.5 x H 1.4 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "51562"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162432977011",
+  "Storefront": {
+    "StoreName": "lotoonsca2",
+    "StoreURL": "http://stores.ebay.com/id=1186422363"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1624329770118080_1.jpg",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

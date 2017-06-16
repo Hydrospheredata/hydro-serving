@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921428607288080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4NFgxNTAw/z/gU4AAOSwB-1Y2xRV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM0OVgxNTAw/z/M88AAOSwzgBY2xRW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5MjI=/z/LKEAAOSwZLhY2xRV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg4WDE1MDA=/z/LK4AAOSwZLhY2xRW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIwWDE1MDA=/z/mesAAOSwol5Y2xRV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNTAw/z/W2UAAOSwc-tY2xRW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzk5WDE1MDA=/z/M70AAOSwzgBY2xRV/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Real-Leather-Briefcase-Mens-Messenger-Laptop-Satchel-Bag-BENNETT-Black-Best-/192142860728",
+  "ConvertedCurrentPrice": {
+    "value": "316.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: With its classic styling, beautifully suited milled cow leather, to the high quality fittings, this bag is sure to tick all the boxes. The bag has a long detachable shoulder strap which has a leather shoulder pad for added comfort when carrying, two top grab handles, front magnetic button flap pocket which has inner card, wallet pockets. There are two top zip opening compartments, in one compartment you will find one large compartment, perfect for files and folders, in the other compartment you have three inner dividers with a handy pull out laptop sleeve (up to 15.5\") . Measurements - 39x30x9 cm",
+  "Title": "Real Leather Briefcase For Mens Messenger Laptop Satchel Bag BENNETT Black. Best",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "316.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-29T01:56:34.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P24DT9H37M52S",
+  "EndTime": "2017-06-27T01:56:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "House Of Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "885660740"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142860728",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:100610487:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

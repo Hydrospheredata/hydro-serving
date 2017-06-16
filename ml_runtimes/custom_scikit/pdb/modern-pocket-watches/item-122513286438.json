@@ -1,0 +1,116 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.76"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SG12UUBA3639382",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "GTIN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-24T06:17:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/78AAAOSwuMZZJSVX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDc0OQ==/z/3bcAAOSwjL5ZJSVZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/r0UAAOSwK6RZJSVa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/N7UAAOSwcgNZJSVb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/h0gAAOSwsXFZJSVc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/vV4AAOSwYlRZJSVd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/2IkAAOSwn-tZJSVe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/vW8AAOSwYlRZJSVe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDc0Ng==/z/CXYAAOSww9xZJSVf/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "30",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_ZG517900",
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225132864388080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T06:17:05.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122513286438",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.76"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fashion Quartz Heart-shaped Pocket Watch Necklace Pendant Men Women Gift BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Quartz-Heart-shaped-Pocket-Watch-Necklace-Pendant-Men-Women-Gift-BA-/122513286438",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130025",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT11H39M33S"
+}

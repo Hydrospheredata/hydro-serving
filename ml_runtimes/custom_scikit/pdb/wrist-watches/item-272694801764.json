@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "PT",
+  "Location": "Vermoim - Maia, Porto",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:19:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:19:33.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country//Region of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694801764",
+  "HandlingTime": "3",
+  "Description": "Hello, I'm selling this vintage Casio Pro Trek PRT-60 in working condition and in good cosmetic conditions as you can see in the images. All functions are working. The watch comes with the original strap. The watch is used and has wear marks but in my opinion, still is in good cosmetic condition. If you have any additional question, please contact me! Thank you",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rare vintage Casio Pro Trek retro digital watch PRT-60 Japan made triple sensor",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rare-vintage-Casio-Pro-Trek-retro-digital-watch-PRT-60-Japan-made-triple-sensor-/272694801764",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726948017648080_1.jpg",
+  "HitCount": "6",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H52M8S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzA0/z/PyIAAOSwcdRY8q3b/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjM2/z/P10AAOSwcdRY8q3e/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjg0/z/UOsAAOSwkShY8q3g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTUy/z/i7EAAOSw3ZRY8q3j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/tdEAAOSwlfxXFe07/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackScore": "307",
+    "UserID": "alexpisca",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

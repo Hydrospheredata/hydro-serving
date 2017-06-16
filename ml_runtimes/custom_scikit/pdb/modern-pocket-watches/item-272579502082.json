@@ -1,0 +1,170 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.8"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Features: Good workmanship Elegant design with precise quartz movement Removable silvery chain with a clip at the end Retro watch case brings you back to your memory in youth Good addition to a formal or casual dressing or collecting Daily water resistance(not for showering and swimming) Case Material: Alloy Chain Material: Alloy Size/Measurements: Case diameter(cm): approx 4.5 Chain length(cm): approx 37.5 Chain width(cm): approx 0.5 Case thickness(cm): approx 1.3 (cover included) Watch weight(g): approx 66 Package included: 1* Pocket watch 1* Chain belt 1* Gift box Take Attention: Once you receive the quartz watch: Press the crown at the top of watch, the front plate will open. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. - Silver necklace chain with pocket watch - Present for Dad or birthday present - Come with Mudder gift box - A good present for you Mudder Vintage Silver Stainless Steel Quartz Pocket Watch Chain",
+  "StartTime": "2017-03-06T14:37:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/zBQAAOSwTM5YvXQS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/JUIAAOSwB-1YvXQT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/JAwAAOSw2gxYvXQR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/Pw4AAOSw32lYvXQS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/ge8AAOSwax5YvXQT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/vXkAAOSw4CFYvXQS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/Pw8AAOSw32lYvXQS/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "701715991408",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0701715991408",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Mudder",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MUDDER-WATCH004",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.7 x W 3.6 x H 2.4 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "94",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2725795020828080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T14:37:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.8"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Mudder Vintage Silver Stainless Steel Quartz Pocket Watch Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mudder-Vintage-Silver-Stainless-Steel-Quartz-Pocket-Watch-Chain-/272579502082",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579502082",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H45M4S"
+}

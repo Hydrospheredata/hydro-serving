@@ -1,0 +1,167 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Secaucus, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:08:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1589842190",
+    "StoreName": "sotglobalcorp"
+  },
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:08:47.000Z",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "Africa",
+    "Southeast Asia",
+    "South America",
+    "BH",
+    "IQ",
+    "IL",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ItemID": "162535914993",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "MK3355",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "36mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "MK3355",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors MK3355 Ladies Catlin Silver Stainless Steel Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-MK3355-Ladies-Catlin-Silver-Stainless-Steel-Watch-/162535914993",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625359149938080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "07094",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H51M42S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyN1g3MTg=/z/CbwAAOSwK6RZLrHT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/Gy0AAOSwtGlZLrHB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/xK8AAOSw42JZLrHE/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Michael KorsMichael Kors MK3355 Ladies Catlin Watch EAN8431242981857MODELMK3355 GENDERLADIESGLASSMINERALCOLOURSILVERCASE WIDTH36CASE MATERIALSTAINLESS STEELCASE COLOURSTAINLESS STEELSTRAP TYPEMETAL BRACELETSTRAP COLOURSILVERCLASP TYPEPUSH BUTTON DEPLOYMENT CLASPDIAL COLOURSILVERMOVEMENTQUARTZWATER RESISTANCE03 ATM / 30 METRESWARRANTY2 YEARS MANUFACTURERS WARRANTY",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "sotglobalcorp",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

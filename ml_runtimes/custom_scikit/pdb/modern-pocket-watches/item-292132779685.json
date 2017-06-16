@@ -1,0 +1,70 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "92117",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "100% authentic guaranted in box new size of the box 3.9\"x3\"x2.75\"diameter of the round watch 1.4\"-1.45\" with metal full &. .65\" with out metal.",
+  "StartTime": "2017-05-28T21:55:20.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/mCQAAOSwZG9WkZsg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/RnwAAOSwL7VWkZsi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/8FEAAOSwT~9WkZsk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Ha4AAOSw5dNWkZsm/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "White Gold",
+      "Name": "Material"
+    }
+  },
+  "Seller": {
+    "UserID": "del4042_wl87fgo",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "346",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921327796858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T21:55:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/White-Diamond-Elizabeth-Tylor-Gold-Tone-Women-Wrist-Watch-/292132779685",
+  "Location": "San Diego, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "White Diamond Elizabeth Tylor Gold -Tone Women Wrist Watch",
+  "Storefront": {
+    "StoreName": "del4042_wl87fgo",
+    "StoreURL": "http://stores.ebay.com/id=1293347236"
+  },
+  "ItemID": "292132779685",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT3H20M21S"
+}

@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes, Accessories:Women's Bags",
+  "TimeLeft": "P28DT15H54M36S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/9jMAAOSwIaFZL6Xu/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Rock-Luxury-Gothic-Punk-Genuine-Blue-Black-Cow-Leather-Tote-Handbag-SO-/201943355708",
+  "ConvertedCurrentPrice": {
+    "value": "369.39",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Made in Spain",
+  "Title": "New Rock Luxury Gothic Punk Genuine Blue Black Cow Leather Tote Handbag - [SO]",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "500.26",
+    "_currencyID": "AUD"
+  },
+  "PrimaryCategoryID": "169291",
+  "Location": "Yecla, Murcia",
+  "Seller": {
+    "FeedbackScore": "55",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "newrockaustralia"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30510",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-06-01T07:40:26.000Z",
+  "HitCount": "7",
+  "SecondaryCategoryIDPath": "11450:4251:163570",
+  "EndTime": "2017-07-01T07:40:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "New Rock"
+      },
+      {
+        "Name": "Colour",
+        "Value": "Multi-Coloured"
+      },
+      {
+        "Name": "Made in",
+        "Value": "Spain"
+      },
+      {
+        "Name": "Adornment Material",
+        "Value": "ZAMAK"
+      },
+      {
+        "Name": "MPN",
+        "Value": "M.BAG055-C1"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Floral"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "Australia",
+  "ItemID": "201943355708",
+  "Storefront": {
+    "StoreName": "newrockaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1533314374"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes, Accessories:Women's Accessories:Handbag Accessories",
+  "SecondaryCategoryID": "163570",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Description": "If the product that you have purchased from us is faulty, not fit for purpose or doesn\u2019t match the description, you can return it and get a refund or exchange the product. \n\nAll our products are displayed as accurately as possible however, images may vary from the actual product depending on your monitor, brightness display and other screen settings. \n\nIf the change involves a change of style you should pay the price difference that exists between them. \n\nIn the event you need to return your faulty product, all your transport charges will be refunded upon return of the product (Note: you must have documentation or receipt of the costs you\u2019ve paid for transportation costs. \n\nNo returns will be accepted without the previous written authorisation of New Rock Australia. For a return you must contact us within 60 days after delivery of the products to you. The product must be returned in original packaging and in perfect condition. New Rock Australia shoes does not allow returns of custom manufacturing or similar products. \n\nProduct warranty \n\nThe process for a claim for defective material and to avoid unnecessary costs is: \n\nSend a photo of the defective product to \n\neBay User ID: NewRockAustralia\nIndicate the product defect \nIndicate the order number and date",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "ES",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019433557088080_1.jpg",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

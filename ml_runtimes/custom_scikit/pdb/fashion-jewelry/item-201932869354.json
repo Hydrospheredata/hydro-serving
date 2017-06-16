@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P16DT3H41M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201932869354",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Betsey-Johnson-Fabulous-Under-Sea-Necklace-MSRP-145-00-/201932869354",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T18:46:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T18:46:58.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Nickel and Lead Free",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Golden tone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Gold/Blue",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Fashion Jewelry",
+        "Name": "Category"
+      }
+    ]
+  },
+  "Title": "NWT Betsey Johnson Fabulous \"Under the Sea\" Necklace MSRP $145.00",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Betsey Johnson Fabulous \"Under the Sea\" NecklaceDescription:Take the dreamy, romantic quality of Starfish and Lobsters with you anywhere you go by wearing these charming, ever-dramatic necklace from Betsey Johnson. This necklace adds a fun touch of color and sparkle to your ensemble.Metal/enamel18 \" pendant 3 \" extensionImported Thank you for looking and happy bidding!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019328693548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "andyrsc",
+    "FeedbackScore": "633",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Columbia, South Carolina",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/DQUAAOSw9r1WDuR6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/T6UAAOSwNgxWDuR5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/zvIAAOSwU~FWDuR4/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "29210"
+}

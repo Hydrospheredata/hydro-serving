@@ -1,0 +1,141 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT19H24M43S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162541303683",
+  "ConvertedCurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:12:47.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-BlueBell-Fairy-Flower-Bead-AB-Cryst-Dangle-Drop-EARRINGS-USA-Made-Gold-Hooks-/162541303683",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T06:12:47.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue, Gold, Aurora Borealis",
+        "Name": "Color"
+      },
+      {
+        "Value": "Hook",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Beads",
+        "Name": "Material"
+      },
+      {
+        "Value": "Fairytale & Fantasy",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "MidSummer, Twilight, Dream",
+        "Name": "Fairy, Faery, Faerie, Sprite, Magic"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New BlueBell Fairy Flower Bead AB Cryst Dangle Drop EARRINGS USA Made Gold Hooks",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "AD",
+    "BG",
+    "RO",
+    "UA"
+  ],
+  "Location": "Tulsa, Oklahoma",
+  "Description": "Welcome ~ Free Shipping USA ! Do you enjoy the dragonflies in the garden ~ and the faeries too ? These are practical yet whimsical and handmade Catching the colors of the sun where ever you go with the aurora borealis swear off skiing crystals so fine ! Super for girls of all ages and stages ! ~ Winter Spring Summer or Fall ~ Thes bring a happy bit of cheer to your ears ! These are created with gold and peacock blue beads and crystals ~ complete on French ball hoook gold earwires ~ super for your ears for years ! ~*~*~*~*~*~A Happy Day to You and Yours from Mine and Ours and All Those In BetweenThese come in a fine velvety gift bag ~ ready for all your gift giving needs ~*~*~*~Thank YOU",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625413036838080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tannenbaumtrees",
+    "FeedbackScore": "7292",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Kirsten Tannenbaum Earrings by Mom",
+    "StoreURL": "http://stores.ebay.com/id=74045100"
+  },
+  "Quantity": "1",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE4MFgxMTY0/z/WScAAOSw3ZRY-qbz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ymcAAOSwN6JY-qcp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA5NlgxNDQ0/z/V5IAAOSw53NY-qdd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rkEAAOSwWWxY-qcX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tY8AAOSwWWxY-qd2/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4MFgxMzMy/z/cssAAOSwE0JY-qai/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "74136"
+}

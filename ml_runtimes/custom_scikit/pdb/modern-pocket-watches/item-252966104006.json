@@ -1,0 +1,98 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "46506",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This is a brand new watch.With the original box.It doesn't even have a battery in it.I would be very happy to consider any offers.Please e-mail me if you have any questions.",
+  "StartTime": "2017-05-31T01:20:03.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5N1gxNTk5/z/dg0AAOSw8w1X8TxF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/fL4AAOSwPCVX8Txl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/~ygAAOSwI2xX8TyC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5N1gxNTk5/z/JsMAAOSwYIxX8T1a/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5N1gxNTk5/z/29kAAOSwpLNX8T4f/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Hemi",
+        "Name": "Display"
+      },
+      {
+        "Value": "Dodge",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rollandjk",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1177",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529661040068080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-07T01:20:03.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rare-Original-New-Dodge-Hemi-Pocket-Watch-Chain-Box-/252966104006",
+  "Location": "Bremen, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Rare Original New Dodge Hemi Pocket Watch With Chain & Box",
+  "Storefront": {
+    "StoreName": "rollandjk",
+    "StoreURL": "http://stores.ebay.com/id=635629327"
+  },
+  "ItemID": "252966104006",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT6H46M30S"
+}

@@ -1,0 +1,149 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4095.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Spartanburg, South Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:22:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4095.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:22:51.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536058970",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "David Yurman",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Cushion",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Stainless Steel & Sterling Silver",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Black Mother of Pearl",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel & Sterling Silver",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "32mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "11mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "David Yurman - Thoroughbred",
+        "Name": "Model"
+      },
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Diamond Markers, Diamond Bezel",
+        "Name": "Features"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "David Yurman Midsize Thoroughbred Watch, Diamond Black MOP Dial, Diamond Bezel",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-Yurman-Midsize-Thoroughbred-Watch-Diamond-Black-MOP-Dial-Diamond-Bezel-/162536058970",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625360589708080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "29307",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H13M52S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/aUsAAOSwax5Ynd7G/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ZPAAAOSwTuJYnd7L/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/ohEAAOSwfVpYnd8n/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/7eAAAOSw~AVYnd7J/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/46gAAOSwOgdYnd7O/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/XiIAAOSw4A5Ynd8o/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "New Old stock. David Yurman Thoroughbred Midsize (32mm), Stainless Steel & Sterling Silver Case & Bracelet. Includes fresh battery, box & paperwork. Original store retail says $6,300.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5",
+    "UserID": "de_morel_classics",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

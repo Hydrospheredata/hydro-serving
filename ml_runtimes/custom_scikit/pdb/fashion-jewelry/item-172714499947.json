@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT21H57M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "129.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172714499947",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ALEXANDER-MCQUEEN-SIGNATURE-ENAMEL-BRASS-LOGO-BAND-RING-Sz-11-/172714499947",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "129.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T11:12:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T11:12:08.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alexander McQueen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Band",
+        "Name": "Style"
+      },
+      {
+        "Value": "Enamel & Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "11",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Gold & White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ALEXANDER MCQUEEN SIGNATURE ENAMEL & BRASS LOGO BAND RING Sz. 11",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "ALEXANDER MCQUEEN BAND LOGO RING Size: 11 IT / 5.75 US Color: Gold & White Material: Enamel and Brass Comes in Dust Bag Pictures of actual item uploaded Please contact me with any questions Thank you!",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727144999478080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "eccentricpicks",
+    "FeedbackScore": "306",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "eccentricpicks",
+    "StoreURL": "http://stores.ebay.com/id=845994640"
+  },
+  "Quantity": "1",
+  "Location": "Los Angeles, California",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4Ng==/z/gQwAAOSwGtNXicLB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI5Nlg5OTI=/z/HQcAAOSwqfNXicK7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/apkAAOSw6WdXicV4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bBUAAOSwZVlXicV~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI0WDEyMDA=/z/AzkAAOSw0fhXicWn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTM2WDE1ODg=/z/INcAAOSwbsBXicXO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc2WDE1NjQ=/z/WQMAAOSwqfNXicXe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk2WDEzMjQ=/z/WOkAAOSwtnpXicX0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI0WDE1Mjg=/z/H3wAAOSwbsBXicW4/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "90095"
+}

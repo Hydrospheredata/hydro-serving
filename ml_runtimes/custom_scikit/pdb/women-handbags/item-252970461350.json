@@ -1,0 +1,159 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/QjIAAOSwONBZCT9P/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/wp8AAOSwrhBZCT9S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mDkAAOSww9xZCT9W/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/IRIAAOSwX61ZCT9Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lbcAAOSw~y9ZCT9d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mWgAAOSww9xZCT9g/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hello-Kitty-Hallmark-2Way-Backpack-Shoulder-Bag-Rucksack-Purse-Japan-L2022-/252970461350?var=",
+  "ConvertedCurrentPrice": {
+    "value": "88.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Welcome to Best Deal Japan Store! \u25a0Condition : Brand New / New Sealed \u25a0Color variation : Navy / White \u25a0Size : 13.77\" x 14.56\" x 2.75 - 4.33\" (35 x 37 x 7 - 11 cm) \u25a0Material : Synthetic Leather Shipping \u25a0Please choose shipping method as follows. 1) EMS (about 5-9 days / tracked and insured) \u30fbAsia: $15, USA: $17, Canada/Australia: $20, Europe: $25, Africa: $35 2) e-Packet (about 7-14 days / tracked & insured up to JPY6000) \u30fbAsia :$9, USA:$10, Canada/Australia :$10, Europe :$15, Africa :$19 3) Registered SAL(about 14-30 days / tracked & insured up to JPY6000) \u30fbAsia :$4, USA:$5, Canada/Australia :$7, Europe :$9, Africa :$15 \u25a0We do combined shipment for multiple items purhcase to save postage! * Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Payment Paypal Only. Please make payment within 4 days after the auction closed. About Us I am Japanese and live in Japan. All my products are 100% official product. I never deal fake or bootleg. I always do my best for customer satisfaction. I promise to give you a satisfaction if you buy from me. * Please feel free to ask me your question.",
+  "ExcludeShipToLocation": [
+    "MX",
+    "IL",
+    "CN",
+    "JP"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "88.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "japan",
+  "Seller": {
+    "FeedbackScore": "1915",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "sakuraya.japan"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Hello Kitty Hallmark 2Way Backpack Shoulder Bag Rucksack Purse from Japan L2022",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Navy",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/QjIAAOSwONBZCT9P/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lbcAAOSw~y9ZCT9d/$_12.JPG?set_id=880000500F"
+        }
+      ],
+      "VariationSpecificName": "color"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "17050311213660",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "color",
+            "Value": "Navy"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "88.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "17050311215327",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "color",
+            "Value": "White"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "color",
+        "Value": [
+          "Navy",
+          "White"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-06-02T10:04:28.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT19H37M30S",
+  "EndTime": "2017-07-02T10:04:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Sanrio Japan x Hallmark"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack Style"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": "Synthetic Leather"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Hello Kitty"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970461350",
+  "Storefront": {
+    "StoreName": "sakuraya777",
+    "StoreURL": "http://stores.ebay.com/id=1066480684"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept return within 30 days from the receipt of the item for refund.\nBuyer has to contact us first before return the item. Unless the item is defective, the buyer is responsible of paying return shipping cost and we refund the cost of item ONLY.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "JP",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

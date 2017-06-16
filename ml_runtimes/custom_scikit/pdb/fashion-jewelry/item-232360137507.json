@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "232360137507",
+  "TimeLeft": "P6DT6H32M4S",
+  "ListingStatus": "Active",
+  "Title": "Necklace Earrings & Ring Set RHODIUM PLATED DIAMOND 1/2 CTW SIZE 8 NIB $499.99",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T18:27:03.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-11T18:27:03.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SET IN BRASS & POLISHED WITH RHODIUM",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "NEAR COLORLESS G-J",
+        "Name": "Color"
+      },
+      {
+        "Value": "817433013336",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Necklace-Earrings-Ring-Set-RHODIUM-PLATED-DIAMOND-1-2-CTW-SIZE-8-NIB-499-99-/232360137507",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Granville, Ohio",
+  "Description": "RHODIUM PLATED 1/2 CTTW DIAMOND NECKLACE EARRINGS & RING SETRING SIZE 8JEWELRY IS SET IN BRASS AND POLISHED WITH RHODIUM FOR A BRIGHT SHINY LOOKROUND DIAMONDS THAT DOT THE CURVES OF THE JEWELRY WEIGH UP TO 0.5 CARATSPOST STYLE EARRINGSNECKLACE-BISMARCK CHAIN WITH A SPRING RING CLASP FOR SECURE WEARFINISH POLISHEDNECKLACE/CHAIN LENGTH 18 INCHESDIAMOND CLARITY IDIAMOND COLOR NEAR COLORLESS G-JSTONE SHAPE ROUNDSTONE COLOR WHITESTONE TYPE DIAMONDTHESE ARE NATURAL DIAMONDS RETAIL $499.99100% AUTHENTIC WITH ORIGINAL TAGS ATTACHEDBOX INCLUDED On Mar-17-16 at 13:01:19 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323601375078080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "crh0800",
+    "FeedbackScore": "20157",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "crh0800",
+    "StoreURL": "http://stores.ebay.com/id=208737036"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Wm0AAOSwr7ZW6hjK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA5WDUwMA==/z/mK8AAOSwAuNW6hjL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Wt4AAOSwr7ZW6hjO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/ehgAAOSwZQxW6hjQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/kPIAAOSwYlJW6hjS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/mWoAAOSwAuNW6hjV/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "43023"
+}

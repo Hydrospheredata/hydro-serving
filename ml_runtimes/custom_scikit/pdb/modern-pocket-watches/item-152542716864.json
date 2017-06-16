@@ -1,0 +1,58 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "in good working condition",
+  "StartTime": "2017-05-09T15:26:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UDkAAOSwUEVYD0Ig/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/104AAOSwal5YD0Ix/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9lsAAOSwXeJYD0JD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HcQAAOSwo4pYD0JS/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "RU",
+  "Seller": {
+    "UserID": "olgader",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1284",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525427168648080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T15:26:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Surovikino, Volgograd",
+  "Title": "Russian USSR vintage pocket watch MOLNIJA 7",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Russian-USSR-vintage-pocket-watch-MOLNIJA-7-/152542716864",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152542716864",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT20H43M46S"
+}

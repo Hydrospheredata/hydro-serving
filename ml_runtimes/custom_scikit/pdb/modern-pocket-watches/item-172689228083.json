@@ -1,0 +1,165 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "TW",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "CA",
+    "IL",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.17"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4894462365601",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462365601",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462365601",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Designer/Brand"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-22T16:59:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/HnwAAOSwq1JZIxju/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/IFMAAOSw8lpZIxjv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/xwMAAOSwblZZIxjx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/dvAAAOSwYvFZIxjy/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "500",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKTS-I034688",
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726892280838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T16:59:32.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "172689228083",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you reviced the item, please return it within 30 days for a replacement or money back. Please contact me before you return it.2.All returned items MUST BE in the original packaging with all components and accessories included,And you MUST provide us the return shipping information\uff08The shipment or the tracking number\uff09.3.Return shipping fee is to be paid by the buyers.We will not responsible for any custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.17"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Man Pocket Watch Quartz Roman Numerals Black Dial with Alloy Necklace G6U5",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Man-Pocket-Watch-Quartz-Roman-Numerals-Black-Dial-Alloy-Necklace-G6U5-/172689228083",
+  "Storefront": {
+    "StoreName": "tianxinshops",
+    "StoreURL": "http://stores.ebay.com/id=1401577662"
+  },
+  "Seller": {
+    "UserID": "tianxinshops",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "30288",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT22H21M5S"
+}

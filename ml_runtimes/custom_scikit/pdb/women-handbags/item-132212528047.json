@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM0NQ==/z/e18AAOSw9NdXvGXm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM2OA==/z/qdIAAOSwZVlXvGXm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4OA==/z/-jsAAOSw65FXvGXm/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-North-Face-Womens-Recon-15-Laptop-Backpack-Bookbag-Bag-Black-/132212528047",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "100% AUTHENTIC the north face recon backpack!Brand New With Tags! DETAILSNylon Imported The women-specific FlexVentTM suspension system features custom injection-molded shoulder straps, a padded mesh back panel with a spine channel that's specifically shaped for an ergonomic fit and a wicking lumbar panel for maximum support and ventilationWomen-specific shoulder straps with flexible attachment points are contoured for a women's torso for a perfect fit for any size or shapePadded, fleece-lined laptop sleeve in main compartment protects laptop from bumps and fallsPadded, fleece-lined tablet sleeve located in the front compartment for quick accessFront stash pocket with stretch side panels for additional volume. MEASUREMENTS 19\"X14\"X4\" COLOR TNF BLACK/GREEN/VIOLETADDITIONAL PRODUCT INFOManufacturer: THE NORTH FACEShipping Weight: 220Product Dimensions: Width: 12.80 Length: 20.40 Height: 2.80",
+  "Title": "NEW! The North Face Women's Recon 15\" Laptop Backpack Bookbag Bag, Black",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Asbury Park, New Jersey",
+  "Seller": {
+    "FeedbackScore": "2777",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "Red",
+    "UserID": "nusiar"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07712",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T22:55:53.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT8H20M40S",
+  "EndTime": "2017-07-01T22:55:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "The North Face"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132212528047",
+  "Storefront": {
+    "StoreName": "GetStyled",
+    "StoreURL": "http://stores.ebay.com/id=65215461"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322125280478080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

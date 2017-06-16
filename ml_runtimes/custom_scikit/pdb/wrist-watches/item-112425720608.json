@@ -1,0 +1,389 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.65",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qF0AAOSwAPVZKmwQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HSsAAOSwn-tZKmxM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/hakAAOSwcgNZKmxQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/u8EAAOSwblZZKmxa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/2-0AAOSwrhBZKmxd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/aOEAAOSw8lpZKmxg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/rfYAAOSwaeRZKmxk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/80oAAOSwK6RZKmxn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/5KoAAOSw-3FZKnB-/$_12.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "HONGKONG",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:33:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "20",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1510163824",
+    "StoreName": "goodmoodwatch"
+  },
+  "CurrentPrice": {
+    "value": "30.65",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:33:07.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "AT",
+    "BA",
+    "HR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "IS",
+    "IE",
+    "JE",
+    "LI",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "RO",
+    "SK",
+    "SJ",
+    "CH",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN"
+  ],
+  "ItemID": "112425720608",
+  "HandlingTime": "1",
+  "Description": "Store category Sign Up Now ! You may also like 2017 New Brand Biden Chronogragph Quartz Wristwatch 3 Sub-dials Men Watch Gift Product Description Specifications:Gender: MenMovement: Quartz movementFeature: Chronograph, Calendar, Water ResistantClasp type: BuckleWaterproof: 3BarBand Material: LeatherDial Window Material Type: Hardlex Case Material: Stainless steel Case Diameter: 43 mm Approx.Case Thickness: 12 mm Approx.Band Length: 270 mm Approx.Band Width: 25 mm Approx. Features:1. Life water resistant,withstands rain and splashes of water, but not showering, diving, snorkeling or water-related work.2. 3 sub-dials and calendar window are all functional.3. Quartz movement with analog display and accurate time keeping.4. 12-months factory guarantee.5. All orders will be sent with simple package to save more profit for buyers, if any one need original box, please contact us. (It needs pay for extra fee)Note:Please allow 1-2cm differs due to manual measurement! Color may not appear as exactly as in real life due to variations between the computer monitors and nacked eye color difference. Thanks for your understandings!If have any questions, just be free to contact us here. Please don't open any dispute or leave any negative feedback without communication.Thank you! Components Included: 1 x BIDEN Watch Payment Delivery details Terms of sale About us Contact us Payment We accept payment via Paypal only. Payment must be made within 5 days, Non-payment may result in an UPI (Unpaid Item), eBay will automatically close your account if you accumulate 4 UPI's total. Total amount due includes the final auction price plus S&H(Shipping and Handling). PLEASE NOTE: a) Import duties, taxes and charges are not included in the item price or shipping and handling. These charges are the buyers responsibility. b) Please check with your countrys customs office to determine what these additional costs will be prior to bidding/buying. Please list your special requests (color, packages, value of declaration, etc.) in the paypal notes section when you make payment. Delivery details The items will be sent by Hong Kong post courier within 48 hours after payment confirmed. . Under normal condition, buyer can receive the goods within 7-14 working days. Delivery standard applies to working days in the destination and excludes the time for customs clearance. Delivery Time upon purchase Locations About 10\u2013 20 working days Australia About 7 \u2013 15working days USA and Canada About 10 \u2013 20 working days most European countries About 21 - 30 working days the other countries Note: if you haven't received the item on the Delivery Time , Please contact us by email if you have any questions ,normally, your mail will be replied within 24 Hours. If you still haven't got the reply after 24 hours, please check the spam of your email box. We will try our best to give you the best solution by communication. Terms of sale We strive for positive Feedback on all transactions and nothing less than an overall Detail Seller Rating (DSR) of 5 STAR. If you are considering giving a neutral or negative Feedback or a low DSR. Do write to us and give us an opportunity to address your concerns firstly. We will leave the positive feedback when we got your positive feedback Privacy International Buyers \u2013 Please Note: \u25cf Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. \u25cf Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. About us Contact us Please feel free to contact us, we are here for you! We answer all emails within 48hrs. If you email questions after business hours or on holidays, we will usually answer them the next business day. We are closed on the weekends and all major holidays",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2017-New-Brand-Biden-Chronogragph-Quartz-Wristwatch-3-Sub-dials-Men-Watch-Gift-/112425720608?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BIDEN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Multiple Time Zones",
+          "Calendar",
+          "Day & Date",
+          "Easy To Read"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Black",
+          "Brown"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Military",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": [
+          "Black",
+          "Brown"
+        ],
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "BD0001-BD0002",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "30.65",
+          "_currencyID": "USD"
+        },
+        "SKU": "BD0001",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "value": "30.65",
+          "_currencyID": "USD"
+        },
+        "SKU": "BD0002",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "10"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Brown"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qF0AAOSwAPVZKmwQ/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/2-0AAOSwrhBZKmxd/$_12.JPG?set_id=880000500F"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H3M41S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "2017 New Brand Biden Chronogragph Quartz Wristwatch 3 Sub-dials Men Watch Gift",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "131",
+    "UserID": "goodmoodwatch",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "7.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:10:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=659724323",
+    "StoreName": "dailyetrade"
+  },
+  "CurrentPrice": {
+    "value": "7.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T11:10:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SINOBI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Crystal Hour Indexes",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Synthetic Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AU",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "KW",
+    "TR",
+    "YE"
+  ],
+  "ItemID": "201942360795",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SINOBI New Classic Men's Black Glass Band Quartz Watch",
+  "NewBestOffer": "false",
+  "SKU": "SNB021",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SINOBI-New-Classic-Mens-Black-Glass-Band-Quartz-Watch-/201942360795",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019423607958080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT19H49M56S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/kPEAAOSws5pZJiAg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTA3WDc1MA==/z/sxgAAOSw5cRZJiAf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQ5WDc1MA==/z/-VQAAOSwlndZJiAf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTIzWDc1MA==/z/KTYAAOSwlMFZJiAf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQ0WDc1MA==/z/yZkAAOSwYvFZJiAf/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "7.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "84789",
+    "UserID": "dailyetrade",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault.\nWe will replace the defective item at no extra cost. \nPlease return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim\nAny items returned to us in working order will be sent back at the buyers cost."
+  }
+}

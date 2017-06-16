@@ -1,0 +1,142 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "05033",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "New in Box, in working condition. This will be shipped by first class mail. This price does not include any package tracking or insurance. Additional costs are assessed for these services.",
+  "StartTime": "2017-05-23T01:14:35.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nL0AAOSwi7RZI4w6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HIAAAOSw~y9ZI4wn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fXkAAOSwImRYa5iE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ea8AAOSw5cNYa5gl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/faUAAOSw9GhYa5g1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nFAAAOSwEzxYa5hE/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "junctionshop2010",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "245",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525580650308080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T01:14:35.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AVON-QUARTZ-POCKET-WATCH-NEW-BOX-WOLF-/152558065030",
+  "Location": "Bradford, Vermont",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "AVON QUARTZ POCKET WATCH - NEW IN BOX - WOLF",
+  "Storefront": {
+    "StoreName": "Dusty s Junctionshop",
+    "StoreURL": "http://stores.ebay.com/id=1016127363"
+  },
+  "ItemID": "152558065030",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT6H36M30S"
+}

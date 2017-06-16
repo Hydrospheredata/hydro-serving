@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/8uEAAOSw5cNYkt6X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/UMsAAOSw44BYkt6f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/ETgAAOSwnHZYkt6u/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/tgAAAOSw9GhYkt69/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Signature-Canvas-Chain-Strap-Shoulder-Bag-/122529523108",
+  "ConvertedCurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Guaranteed authentic Coach bag that has only been worn a few times. It is in perfect condition except for the little scuff on the back bottom corner as can be seen on the last picture. For a size comparison, my 13\" macbook pro fits inside, but very snugly though. -There is a zip pocket and 2 slip wall pockets on the interior. -Hardware is gold I disclose all defects about my items, if there are any. There is a NO return policy.",
+  "Title": "Coach Signature Canvas Chain Strap Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Oceano, California",
+  "Seller": {
+    "FeedbackScore": "33",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "xpoignant"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "93445",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:53:11.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT22H43M27S",
+  "EndTime": "2017-07-02T12:53:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122529523108",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225295231088080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

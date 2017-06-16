@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "44.44",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pasadena, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:50:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1361732353",
+    "StoreName": "Arcente Retail"
+  },
+  "CurrentPrice": {
+    "value": "44.44",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:50:32.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B00HYUS5PG",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530290577",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "T2P2989J",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0753048515776",
+        "Name": "EAN"
+      },
+      {
+        "Value": "753048515776",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex Women's Easy Reader Dress Expansion Band Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Womens-Easy-Reader-Dress-Expansion-Band-Watch-/222530290577",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302905778080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "91101",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H44M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg2NzI=/z/zUIAAOSwcgNZLtg2/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTQ3WDUwMA==/z/dOsAAOSwX61ZLtg3/$_12.PNG"
+  ],
+  "Description": "Timex Women's Easy Reader Dress Expansion Band Watch Product Features Easy-to-Read White Dial with Full Arabic Numerals Polished Two-Tone Stainless Steel Expansion Band Polished Silver-Tone Case Indiglo Light-Up Watch Dial Water resistant to 99 feet (30 M): withstands rain and splashes of water, but not showering or submersion Product Description The direct descendant of our 1960s televised torture test survivors, today's Easy Reader is as durable as it is classically cool. __________________________________________________________________________________________ Shipping Terms: Shipping is ONLY to the 48 Contiguous US States.. This excludes these locations: Alaska, Hawaii and Puerto Rico. APO/FPO\u2019s are definitely excluded. PO Boxes: Please include a physical street address. Many items cannot be shipped to a PO Box. Your order will be delayed if a physical address is not provided. Expedited shipping is available for most items. We will contact you within 24 hours if an item cannot be expedited. Returns: All items qualify for returns within 14 days of receipt. Please send a message through eBay if an item is damaged, broken, or incorrect so we can promptly track and resolve any issues. Terms of Sale and Feedback: Please leave us a good rating after you have received the item and are happy with our transaction. If there are any issues, please contact me first before leaving a neutral, negative or 5 star rating. Customer Satisfaction is our top priority!! We promise we can make you happy if you give us a fair chance. Thanks and happy bidding!! SALES TAX: In those States where State taxes must be collected there may be a separate invoice that follows the order and will be in a separate PayPal cover. The reason this is that the system is not program for this is in all cases. Some of these States are but does not exclude others: Arizona, California, Kansas, New York, North Dakota, Pennsylvania, Texas and Washington. _______________________________________________________________________________________________",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "23648",
+    "UserID": "ret.arcente",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

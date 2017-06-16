@@ -1,0 +1,132 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "189.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Horicon, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:29:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173392934",
+    "StoreName": "A-2-Z Limitless"
+  },
+  "CurrentPrice": {
+    "value": "189.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:29:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942272127",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Two Tone",
+        "Name": "Strap Color"
+      },
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "CA4084-51E",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Solar Powered",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Citizen",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Dial Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Type"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Citizen Eco-Drive Primo Stingray 620 Chronograph Mens Watch CA4084-51E",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Citizen-Eco-Drive-Primo-Stingray-620-Chronograph-Mens-Watch-CA4084-51E-/201942272127",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019422721278080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "53032",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H3M",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/nSYAAOSwXeJYDUvh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/deAAAOSwn7JYDUvb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/9nUAAOSwImRYDUvm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/aPQAAOSwUEVYDUvr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/1iUAAOSwx2dYDUvv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/W2gAAOSwB09YDUvz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/YEwAAOSwB09YDUwj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/TzwAAOSwHMJYDUwo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/LBEAAOSwA3dYDUws/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYz/z/QLEAAOSwm0JYDUww/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Citizen Eco-Drive Primo Stingray 620 Chronograph Mens Watch CA4084-51E DescriptionStainless steel case.Two- tone stainless steel bracelet.Black dial.Luminous hands and markers.Tachymeter.Chronograph.Date.One-way rotating elapsed-time bezel.Eco-Drive movement.Mineral crystal.Water resistant 100 meters.Case diameter 45 mmWE ONLY SHIP TO NORTH AMERICA!!!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2858",
+    "UserID": "taczann",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

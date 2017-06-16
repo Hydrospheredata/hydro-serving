@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P2DT16H11M22S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "AUD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "96.9",
+    "UserID": "premiumservice2015",
+    "FeedbackScore": "2248",
+    "FeedbackRatingStar": "Red"
+  },
+  "ItemID": "272702635158",
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "81.07",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T03:54:20.000Z",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Fashion-8-9MM-430MM-Pink-Juicy-Natural-Freshwater-Pearl-Necklace-/272702635158",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T03:54:20.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "925 Silver+Natural Freshwater Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "\uff01\uff01New Fashion 8-9MM 430MM Pink Juicy Natural Freshwater Pearl Necklace",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "lakemba, New South Wales",
+  "Description": "Name: Juicy Natural Freshwater Pearl Necklace Remarkable Size: Length 430 MM Pearl Size: 8-9 MM Material:Natural Freshwater Pearl Color\uff1aPink Pearl Shape:Goose round Pearl Type: Natural Pearl Luster\uff1a Glare Pearl Level:AAA Style: Fashion Normal 0 7.8 \u78c5 0 2 false false false MicrosoftInternetExplorer4 Track Page Views WithAuctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727026351588080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "Storefront": {
+    "StoreName": "Outdoor Factory 2010",
+    "StoreURL": "http://stores.ebay.com/id=932447122"
+  },
+  "Quantity": "5",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTYwWDc5MA==/z/WHAAAOxyVaBSqng5/$_1.GIF?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTYwWDc5MA==/z/GnMAAOxygPtSqng9/$_1.GIF?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2195"
+}

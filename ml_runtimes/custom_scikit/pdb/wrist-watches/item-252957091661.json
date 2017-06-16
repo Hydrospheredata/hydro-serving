@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "99.95"
+  },
+  "HandlingTime": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzc4/z/PQYAAOSwfRdZJq5r/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNTYy/z/7gUAAOSwlY1ZJq5a/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzM3/z/Yq4AAOSwxu5ZJq5e/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzcw/z/tHMAAOSwcgNZJq5j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDY2/z/jTYAAOSwn-tZJq5n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDk1/z/Y5sAAOSwxu5ZJq5v/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "99.95"
+  },
+  "Quantity": "1",
+  "Country": "IL",
+  "Seller": {
+    "UserID": "mona0008",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "336",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-25T10:23:45.000Z",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "NewBestOffer": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "ConditionDescription": "Sold as is for Parts or Repair - skeletonized all original. Balance good, no stem.",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "Title": "WOW! SKELETON SKELETONIZED Citizen Miyota 8060A Automatic movement 4 REPAIR 21 j",
+  "ItemID": "252957091661",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WOW-SKELETON-SKELETONIZED-Citizen-Miyota-8060A-Automatic-movement-4-REPAIR-21-j-/252957091661",
+  "QuantitySold": "0",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "For sale! WOW! Beautiful original SKELETONIZED Citizen Miyota 8060A Automatic movement 21 jewels with good balance staff and no stem. Sold as is for parts - repair - project Please examine the photos - you get what you see. Please pay three days after winning the bid. See my other auctions! Good Luck!",
+  "HitCount": "40",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529570916618080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-04T10:23:45.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Mazkeret Batya, default",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "TimeLeft": "P3DT12H1M33S"
+}

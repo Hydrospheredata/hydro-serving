@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921392696788080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/saUAAOSwTM5Y1cBT/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gusti-Leder-studio-Paige-Genuine-Leather-Ladies-Handbag-Cross-Body-Shoulder-Ca-/192139269678",
+  "ConvertedCurrentPrice": {
+    "value": "214.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gusti Leder studio \"Paige\" Genuine Leather Ladies Handbag Cross-Body Shoulder Casual Bag Vintage Style Retro Brown 2M28-20-5wp by Gusti Leder studio Ships from UK Supplier Other information: 2M28-20-5wp Related Searches: Vintage Bag Shoulder Bags, Gusti Leder Studio Bags, Shoulder Bag Bags Dimensions: 14.0 x 35.0 x 40.0 centimetres Weight: 1.3 kg",
+  "Title": "Gusti Leder studio \"Paige\" Genuine Leather Ladies Handbag Cross-Body Shoulder Ca",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "214.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-25T00:56:46.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P20DT8H35M28S",
+  "EndTime": "2017-06-23T00:56:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gusti Leder studio"
+      },
+      {
+        "Name": "MPN",
+        "Value": "370666428"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139269678",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:115265163:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "325.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:28:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "325.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:28:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245559314",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Burberry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "BU9364",
+        "Name": "MPN"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "50 Metres / 5 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Burberrry Men's Swiss  Chrono  Watch 42mm BU9364",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Burberrry-Mens-Swiss-Chrono-Watch-42mm-BU9364-/332245559314",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322455593148080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H1M45S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODA5WDUwMA==/z/tWAAAOSw42dZD~-A/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODk4WDg5OA==/z/59wAAOSw-3FZBpDg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY1WDY1MQ==/z/UbQAAOSw~y9ZBpDj/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "BrandBurberry Part Number Burberry BU9364 Item ShapeRound Display TypeAnalog Case diameter42 millimeters Band MaterialSynthetic leather Band width22 millimeters Band ColorBrown Dial colorBrown Special featuresChronograph Movement\ufeffSwiss quartz",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

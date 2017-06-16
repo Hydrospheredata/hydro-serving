@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921441275848080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/AGoAAOSwdGFY3S9y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/AGsAAOSwdGFY3S9y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/K4UAAOSwA29Y3S9z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/S2wAAOSwCU1Y3S9y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/KWIAAOSwuxFY3S9z/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Belli-Medium-Nappa-Leather-Shopper-Bag-Brown-37-CM-x-20-CM-x-17-CM-W-x-H-x-D-/192144127584",
+  "ConvertedCurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Belli \u00ae Medium Nappa Leather Shopper Bag Brown 37 CM x 20 CM x 17 CM (W x H x D) by Belli Ships from UK Supplier Other information: 339.24 Related Searches: Belli Totes, Belli Bags, Totes Bags Dimensions: 44.0 x 29.6 x 4.6 centimetres Weight: 0.54 kg",
+  "Title": "Belli \u00ae Medium Nappa Leather Shopper Bag Brown 37 CM x 20 CM x 17 CM (W x H x D",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T16:16:45.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P25DT23H58M53S",
+  "EndTime": "2017-06-28T16:16:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Belli"
+      },
+      {
+        "Name": "MPN",
+        "Value": "011718401"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144127584",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:129513102:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

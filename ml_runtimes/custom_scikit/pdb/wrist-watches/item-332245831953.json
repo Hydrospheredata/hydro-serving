@@ -1,0 +1,99 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:59:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:59:33.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245831953",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "DKNY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "DKNY Chronograph Black Ion-plated Ladies Watch New",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DKNY-Chronograph-Black-Ion-plated-Ladies-Watch-New-/332245831953",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322458319538080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H54M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTEwMFg3MTM=/z/EiQAAOSwuxFY2IVn/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "DKNY Chronograph Black Ion-plated Ladies Watch Box not included Black ion-plated stainless steel case and bracelet. Fixed black ion-plated bezel set with black diamantes. Black dial with luminous hands and stick hour markers. Dial Type: Analog. Luminescent hands and markers. Date display between the 4 and 5 o'clock positions. Chronograph - three sub-dials displaying: 60 seconds, 30 minutes and 24 hours. Quartz movement. Scratch resistant mineral crystal. Solid case back. Case diameter: 38 mm. Fold over clasp with push button releasze. Water resistant at 50 meters / 165 feet. Functions: hours, minutes, seconds, chronograph, date. Casual watch style. DKNY Chronograph Black Ion-plated Ladies Watch NY8316. BRAND:DKNY MODEL:NY8316 GENDER:Ladies MOVEMENT:Quartz CASE SIZE:38 mm CASE MATERIAL:Black Ion-plated Stainless Steel CASE SHAPE:Round CASE BACK:Solid DIAL TYPE:Analog DIAL COLOR:Black CRYSTAL:Mineral HANDS:Luminous SUB DIALS:Three - 60 Seconds, 30 Minutes and 24 Hours LUMINISCENCE:Hands and Markers BEZEL:Fixed Black Ion-plated set with Black Diamante CLASP:Fold Over with Push Button Release WATER RESISTANCE:50 meters / 165 feet CALENDAR:Date display between the 4 and 5 o'clock positions FUNCTIONS:Hours, Minutes, Seconds, Chronograph, Date FEATURES:Chronograph, Stainless Steel STYLE:Casual Watches WARRANTY:2 Year Jomashop Warranty UPC CODE:674188214629 INTERNAL ID:DKNY8316 PRODUCT CATEGORY:Watches",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

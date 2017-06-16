@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTkyWDEwMDA=/z/ARsAAOSw4GVYPcSF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc3WDEwMDA=/z/ylUAAOSw5cNYPcST/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMlgxMDAw/z/qjIAAOSwux5YPcSO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3M1gxMDAw/z/ukoAAOSw44BYPcSQ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Russian-Knitted-Handbag-Handmade-8-/201944303619",
+  "ConvertedCurrentPrice": {
+    "value": "81.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Length: 44 cm /17.6 inches. Height: 28 cm/11.2 inches. Handle diameter 16 cm/6.4 inches. Manual measurement, 1-3 cm error is normal.Material: wool 75%Weight: 220g. Bright handbag for the summer with comfortable wooden handles. Suitable for city, beach, will bring all sorts of stuff from the store. Hand wash at 30 degrees.Hand crafted and each item is unique!Delivery: Combined shipping is available. The parcel will be with tracking number. View more great items",
+  "ExcludeShipToLocation": [
+    "RU",
+    "CR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "81.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Lytkarino, Moscow region",
+  "Seller": {
+    "FeedbackScore": "2603",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "chebyrash"
+  },
+  "PrimaryCategoryID": "169302",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Russian Knitted Handbag. Handmade #8",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:10:42.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT15H59M11S",
+  "EndTime": "2017-07-02T09:10:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "wool"
+      },
+      {
+        "Name": "Brand",
+        "Value": "\"Handmade\""
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Russian Federation"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944303619",
+  "Storefront": {
+    "StoreName": "Traditional merchandise from Russia",
+    "StoreURL": "http://stores.ebay.com/id=1146431798"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "RU",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019443036198080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

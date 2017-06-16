@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzE2WDcwNw==/z/JXsAAOSwhQhY5u3F/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjM5WDY5Mg==/z/6P8AAOSw4CFY5u27/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzkxWDczMg==/z/pS4AAOSwA29Y5uyf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/rr8AAOSwmgJY5uyW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/97wAAOSwTM5Y5uyw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/wKcAAOSw4CFY5uyZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/tNsAAOSwmgJY5uy4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MFcAAOSw~CFY5uyb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/5fEAAOSwls5Y5uyc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/br4AAOSwuLZY5uyg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/0pAAAOSwmgJY5u2K/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/HfMAAOSwhQhY5u2L/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tory-Burch-Blue-Travel-Nylon-Baby-Diaper-Bag-/132151457696",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Good pre-owned condition. Minimum signs of use. Small spot on front of bag and 1 inside bag. No major stains, no holes. No smoking home. Please look over all pictures to verify condition. Quick shipping. Thank you for considering.",
+  "Title": "Tory Burch Blue Travel Nylon Baby Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "406",
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bryanriley1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33170",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-07T01:39:40.000Z",
+  "HitCount": "533",
+  "TimeLeft": "P3DT10H10M24S",
+  "EndTime": "2017-06-06T01:39:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tory Burch"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132151457696",
+  "Storefront": {
+    "StoreName": "bryanriley1",
+    "StoreURL": "http://stores.ebay.com/id=1126564478"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1321514576968080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

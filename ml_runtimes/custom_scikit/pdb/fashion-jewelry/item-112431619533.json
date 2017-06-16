@@ -1,0 +1,117 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT14H44M55S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "112431619533",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Alducchi-Midnight-Blue-fire-Opal-925-Silver-European-Charm-Bead-2-/112431619533",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T01:05:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "HU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T01:05:27.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "European",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Lab Created Opal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "European Union",
+        "Name": "Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Authentic Alducchi Midnight Blue fire Opal .925 Silver European Charm Bead  #2.",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "AL",
+    "BG",
+    "GI",
+    "GG",
+    "HU",
+    "UA"
+  ],
+  "BidCount": "0",
+  "Description": "ALDUCCHI Lab Created Opal Charm bead .925 Sterling Silver core Dimensions : 14 x 8 mmCompatible with PANDORA or european style screw threaded braceletand any other beracelet under 3.6 mm diameter. It is perfectly fit authentic Pandora screw threaded bracelet ,we test it before ship it. RETAIL PRICE : $55.95 Alducchi bead collection includes 36 type crystal beads and 20 type opal beads. Please check out my inventory for more beads: PAYMENT: we accept PAYPAL Ships from European Union For European Union customer no need to pay VAT /sales tax / ,Import Tax , duty, etc... Shipping: Items will ship within 1 business days of payment cleared. We use Priority International shipping service and provide tracking information . RETURNS We accept returns within 14 days after item delivery. Please return the item with the shipping slip Shipping charges will not be refunded. Thank You for looking! Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124316195338080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "alducchi-jewelry",
+    "FeedbackScore": "705",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "alducchi-jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1133887914"
+  },
+  "Quantity": "4",
+  "Location": "European Union",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDUw/z/htAAAMXQrhdTW90l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDUw/z/YzsAAOxy9X5TW90o/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/VIIAAOxyBotTW90q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/VKMAAOxyBotTW90s/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

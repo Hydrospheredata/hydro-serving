@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "417.98",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:49:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "325.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:49:52.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08460040",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "MX",
+    "KZ",
+    "BY"
+  ],
+  "ItemID": "282501989877",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Dreyfuss & Co.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "DGB00007/21",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Swiss Made",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rectangle Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "White Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Silver Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "32x32mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "5037678011897",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Men\u2019s Dreyfuss & Co. 1974 Quartz Rectangular Dial DGB00007/21",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-s-Dreyfuss-Co-1974-Quartz-Rectangular-Dial-DGB00007-21-/282501989877",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825019898778080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H21M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/V24AAOSwn-tZLoO0/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Men\u2019s Dreyfuss & Co. 1974 Quartz Rectangular Dial DGB00007/21 RRP \u00a3575.00 Now \u00a3325.00 Description A sleek design, this men\u2019s Dreyfuss & Co. 1974 Quartz watch is suitable for both everyday wear and formal occasions. Crafted in stainless steel, the watch features an expander bracelet strap, fastened with a push button clasp. The rectangular watch case has a fixed bezel, framing the white rectangular dial, which is textured with a diamond-shape pattern. Roman numerals mark the surrounding hours, with a square date window positioned at the three o\u2019clock position. A subdial is located at the six o\u2019clock position, clearly showing the seconds as they pass. Deep blue watch hands create a contrast against the dial, with a clear minute track surrounding the hour markers. The dial is protected by a layer of strong sapphire crystal glass. Powered by a Quartz movement, this Swiss-made watch is guaranteed to meet the Dreyfuss & Co. Seafarer Standard of waterproofing. This means this watch can be worn during water sports and other water activities. Chapelle are proud to be authorised stockists of Dreyfuss & Co. watches, and this watch will be sent in official Dreyfuss & Co. presentation packaging, to store your precious timepiece when not being worn. Chapelle reference: 08460040 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

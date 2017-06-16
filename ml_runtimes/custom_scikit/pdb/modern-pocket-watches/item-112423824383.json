@@ -1,0 +1,153 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91610",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New with tags! Watch is $399 case was made for $300! $50 dollar discount",
+  "StartTime": "2017-05-29T18:26:39.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTgx/z/RjUAAOSwTuJYpPEC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg0OTY=/z/bu4AAOSwOgdYpPD~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQwNFgxMTI1/z/NIMAAOSw4DJYgpwM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM2N1gxMTEy/z/dHEAAOSwA3dYgpwO/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "550.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rapport",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "England",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "PW35",
+        "Name": "Model"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "brick210",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "81",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124238243838080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T18:26:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "550.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Custom-Pocket-Wrist-Watch-Case-Black-Ion-Plated-Face-Mechanical-Rapport-PW35-/112423824383",
+  "Location": "Toluca Lake, California",
+  "Title": "Custom Pocket Wrist Watch Case Black Ion Plated Face Mechanical Rapport PW35",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "112423824383",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT23H52M6S"
+}

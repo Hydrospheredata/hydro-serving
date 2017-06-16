@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Elizabethtown, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:30:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:30:40.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567812703",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Medana",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MEDANA  Quartz Ladies Wrist Watch",
+  "ConditionDescription": "USED ??---LOOSE IN BOX---NEEDS BATTTERY---LOOK OVER THE PHOTOS GOOD SO YOU KNOW THE CONDITION---Sold as is with no returns, refunds, or partial refunds and no exceptions",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MEDANA-Quartz-Ladies-Wrist-Watch-/152567812703",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525678127038080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "17022",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H14M23S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HRsAAOSwqBJXXV4K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VZ4AAOSwMNxXXV4X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/O24AAOSwepJXXV4Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HREAAOSw9eVXXV4d/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PGAAAOSwepJXXV4g/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HdEAAOSw9eVXXV4j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0ucAAOSwnNBXXV4l/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "MEDANA Quartz Ladies Wrist Watch-----USED ??---LOOSE IN BOX---NEEDS BATTTERY---LOOK OVER THE PHOTOS GOOD SO YOU KNOW THE CONDITION---Sold as is with no returns, refunds, or partial refunds and no exceptions--SHIPPED IN A BOX",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "242",
+    "UserID": "jejet55-4",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "33472",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Decent condition. Watch is not working. Don't know if its the battery or if it needs fixing. Front reads Charles -Hubert Paris.",
+  "StartTime": "2017-05-23T19:10:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg5NjA=/z/bR4AAOSwdI9Y8WeP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/bwQAAOSwdI9Y8Web/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5NjA=/z/t5MAAOSwpkFY8Wes/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/uzMAAOSwj25Y8We7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3N1g5NjA=/z/wV0AAOSwZeVY8WfJ/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "mustangford2008",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "643",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726913723598080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T19:10:18.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Stop-Watch-/172691372359",
+  "Location": "Boynton Beach, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles & Hubert Stop Watch",
+  "Storefront": {
+    "StoreName": "D and E A to Z",
+    "StoreURL": "http://stores.ebay.com/id=1187214304"
+  },
+  "ItemID": "172691372359",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT32M19S"
+}

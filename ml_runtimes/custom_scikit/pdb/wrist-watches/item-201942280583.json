@@ -1,0 +1,104 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Luxuryware2007, CA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:45:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:45:59.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CITIZEN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "BM8475-26E",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz: Solar powered",
+        "Name": "Movement"
+      },
+      {
+        "Value": "BROWN LEATHER",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "GRAY ORANGE NUMERAL",
+        "Name": "DIAL COLOR"
+      },
+      {
+        "Value": "13205095566",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "Europe",
+    "IL",
+    "KZ",
+    "BN",
+    "KH",
+    "ID",
+    "MY",
+    "BR",
+    "CL"
+  ],
+  "HandlingTime": "1",
+  "Description": "***BRAND NEW*** CITIZEN -- ECO-DRIVE -- SPORT GRAY DIAL -- ORANGE NUMERALS -- BM8475-26E DESCRIPTIONS SCREW-BACK CASE STAINLESS STEEL BLACK, BLUE, OR GRAY ION PLATING BROWN LEATHER STRAP WATER RESISTANT TO 100M 42MM CASE NEVER NEEDS A BATTERY NEW IN BOX!!! COMES WITH TAGS, MANUALS, WARRANTY PAPERS, AND ORIGINAL CITIZEN BOX. ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ OUR POLICY PAYMENT WE ONLY ACCEPT PAYPAL. ALL ITEM ARE SHIPPED ACCORDINGLY TO PAYPAL AND EBAY FRAUD PROTECTION POLICIES. ITEM WILL SHIP SAME DAY OR NEXT BUSINESS DAY OF RECEIVING FULL PAYMENT TO THE ADDRESS CONFIRMED ON PAYPAL. GUARANTEEALL PRODUCTS ARE GUARANTEED 100% AUTHENTIC AND BRAND NEW. SHIPPINGDOMESTIC (USA): USPS FIRST CLASS MAIL / USPS PRIORITY MAIL / USPS EXPRESS MAIL. INTERNATIONAL: WE ONLY OFFER USPS PRIORITY MAIL / USPS EXPRESS MAIL FOR INTERNATIONAL CUSTOMERS.INTERNATIONAL BUYER ARE RESPONSIBLE FOR ALL CUSTOM DUTIES INCURRED BY YOUR COUNTRY. WE DO NOT MARK AS GIFT. RETURNSIF YOU ARE NOT COMPLETELY SATISFIED WITH YOUR PURCHASE IT CAN BE RETURNED WITHIN 30 DAYS OF DELIVERY FOR A REFUND OR EXCHANGE.ALL ITEMS MUST BE IN ORIGINAL UNUSED CONDITION. BUYERS ARE RESPONSIBLE FOR SHIPPING CHARGES INCURRED IN RETURNING THE ITEM. THERE IS A 10% RESTOCKING FEE FOR RETURNS. NO RESTOCKING FEE FOR EXCHANGE, ONLY SHIPPING FEES APPLY.PLEASE CONTACT ME FIRST FOR A RETURN AUTHORIZATION. THANK YOU!",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-CITIZEN-WATCH-ECO-DRIVE-GRAY-ORANGE-NUMERAL-BROWN-LEATHER-BM8475-26E-/201942280583",
+  "NewBestOffer": "false",
+  "SKU": "BM8475-26E",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019422805838080_1.jpg",
+  "ItemID": "201942280583",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H20M13S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/$(KGrHqV,!k0E+1NP4uN-BQGeDZk8fQ~~60_1.JPG?set_id=8800005007"
+  ],
+  "Title": "*BRAND NEW* CITIZEN WATCH ECO-DRIVE GRAY ORANGE NUMERAL BROWN LEATHER BM8475-26E",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3087",
+    "UserID": "luxuryware2007",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_10",
+    "RestockingFeeValue": "10%",
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)"
+  }
+}

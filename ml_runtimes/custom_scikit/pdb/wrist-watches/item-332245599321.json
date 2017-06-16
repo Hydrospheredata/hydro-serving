@@ -1,0 +1,136 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:27:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:27:25.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245599321",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DKNY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's, Girl's, Ladies",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "33mm x 25mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress, Fashion, Casual, Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "NY8556",
+        "Name": "Model"
+      },
+      {
+        "Value": "NY8556",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "DKNY NY8556 Women's Ladies SQUARE Steel Watch Silver MESH Bracelet SILVER Dial",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DKNY-NY8556-Womens-Ladies-SQUARE-Steel-Watch-Silver-MESH-Bracelet-SILVER-Dial-/332245599321",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322455993218080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H4M7S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA4MFg4MzE=/z/hIoAAOSwSlBY2x9D/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Watch Information Brand NameDKNY Model numberNY8556 GenderWomen's, Girl's, Ladies Item ShapeSquare StyleDress, Fashion, Casual Dial window material typeMineral Display TypeAnalog ClaspJewelry Clasp Case MaterialStainless Steel Case Width33 x 25 millimeters Case Thickness8 millimeters Band MaterialStainless Steel Band LengthStandard Band width24 millimeters Band ColorSilver Dial colorSilver Bezel materialStainless Steel Bezel functionStationary MovementQuartz Water resistant depth 30 Meters / 3 ATM / 100 Feet Special FeaturesMesh Bracelet Warranty2 Years Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

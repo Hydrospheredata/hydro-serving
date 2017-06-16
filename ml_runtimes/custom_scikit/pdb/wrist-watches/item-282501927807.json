@@ -1,0 +1,155 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Nevada",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:19:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "8.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:19:37.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "DFDI05ZZP70309826ADT",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Synthetic Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Diameter: 4.5cm  /Thickness: 1cm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Classic",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "2.2cm (0.86\")",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Daily water resistance",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "2.2cm (0.86\")",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "648839519210",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "282501927807",
+  "HandlingTime": "1",
+  "Description": "Description: 100% brand new and high quality. Round dial with date display Precise quartz movement for accurate time keeping. Daily water resistance (not for showering and swimming). Color may not appear as exactly as in real life due to variations between the computer monitors and naked eye color difference. Features (Approx): Watchcase Diameter: 4.5cm Watchcase Thickness: 1cm Band Length (Included the case): 26.0cm Watchband Width: 2.2cm (0.86\") Band material: Synthetic Leather Case material: Alloy Package included: 1 x Wrist Watch On May-31-17 at 06:27:32 PDT, seller added the following information:",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-Calendar-Waterproof-Watch-Leather-Stainless-Steel-Sport-Quartz-Wristwatch-US-/282501927807",
+  "NewBestOffer": "false",
+  "SKU": "I05ZZP70309826A_2934",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825019278078080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H49M11S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/CvQAAOSwIQdZLnp2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Xm0AAOSwYvFZLnp4/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Men Calendar Waterproof Watch Leather Stainless Steel Sport Quartz Wristwatch US",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "647",
+    "UserID": "vdian",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

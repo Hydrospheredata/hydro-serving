@@ -1,0 +1,161 @@
+{
+  "QuantityThreshold": "10",
+  "PostalCode": "33076",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "The Wedding Party Store",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "730792971089",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GlobalShipping": "true",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Personalized Black Matte Pocket Watch - Groomsmen Gift - Fathers Day Gift Click Thumbnails to Enlarge Personalization is FREE! ** If ordering 4 or more please contact me for a bulk discount! PERSONALIZATION INSTRUCTIONS Put your engraving instructions and font/style choice in the message to seller section at checkout. Thanks! DESCRIPTION This Personalized Black Pocket Watch is the perfect gift for your groomsmen or any favorite guy in your life. This watch features an attractive black finish with a matching black face with white roman numerals. It is securely fastened with a sturdy matching 14\" chain. This Quartz watch is a wonderful keepsake. Personalize with 3 lines up to 15 characters per line. Measures 1 1/2\" in diameter. Payment We accept Paypal Shipping Most orders will ship your order within 1-2 Business Days Returns If you are not satisfied for any reason in the first 14 days, you can return your order for a full refund. We strive for 100% satisfaction! About Us My Personal Memories is located in Coral Springs Florida and began in 2011. Contact Us contact us through eBay message and we will be happy to help with any questions",
+  "StartTime": "2017-02-24T21:31:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/eDUAAOSwSlBYsKWk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~1kAAOSwfVpYsKWo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/eV4AAOSwSlBYsKWp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xFsAAOSwdGFYsKWr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/wdwAAOSw4CFYsKWu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xZIAAOSw3v5YsKWx/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "33",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "my_personal_memories",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1025",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2527860082558080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T21:31:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Personalized-Black-Groomsmen-Pocket-Watches-WPS-/252786008255",
+  "Location": "Pompano Beach, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Personalized Black Groomsmen Pocket Watches - WPS",
+  "Storefront": {
+    "StoreName": "My Personal Memories",
+    "StoreURL": "http://stores.ebay.com/id=1225330974"
+  },
+  "ItemID": "252786008255",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT2H37M22S"
+}

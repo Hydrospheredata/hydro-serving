@@ -1,0 +1,69 @@
+{
+  "QuantitySold": "0",
+  "Title": "Nurse Pouch And Fob Watch",
+  "PostalCode": "3082",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-Owned",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Purple nurse pouch and washable silicon fob watch. Both for $20",
+  "StartTime": "2017-05-29T02:39:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/PSMAAOSwKytZESpR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/v8oAAOSwDiBZESpT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/zYMAAOSwX9FZESpV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Pj8AAOSwKytZESp3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/idgAAOSw8lpZESp6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/0oAAAOSw8HBZESty/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "Australia",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.91"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "AU",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Nurse Watch",
+      "Name": "Type"
+    }
+  },
+  "Seller": {
+    "UserID": "squidymcsquid",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "276",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225276038318080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T02:39:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "20.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nurse-Pouch-And-Fob-Watch-/222527603831",
+  "ConditionDescription": "Good as new",
+  "Location": "Mill Park, VIC",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222527603831",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT8H4M40S"
+}

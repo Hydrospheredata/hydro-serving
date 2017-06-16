@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/-iMAAOSwQiRUmdrr/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LULULEMON-MOVE-MESSENGER-GYM-BAG-TOTE-DUFFLE-GREY-PINK-GREAT-TRAVEL-BAG-/132197671599",
+  "ConvertedCurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "txzj pxzj31669 txzj5 txzj40 txzj57",
+  "Title": "LULULEMON MOVE IT MESSENGER GYM BAG TOTE DUFFLE GREY + PINK GREAT TRAVEL BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Salt Spring Island, British Columbia",
+  "Seller": {
+    "FeedbackScore": "685",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkhibiscus12"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DE",
+    "FR",
+    "AU",
+    "RU"
+  ],
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "v8k 1p4",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-19T15:54:09.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P15DT23H11M31S",
+  "EndTime": "2017-06-18T15:54:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "BAG"
+      },
+      {
+        "Name": "Size Type",
+        "Value": "Plus"
+      },
+      {
+        "Name": "Size (Women's)",
+        "Value": "O/S"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132197671599",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1321976715998080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,131 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/O~0AAOSwls5Y70nx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/hvkAAOSw~CFY70ny/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/G~EAAOSwmgJY70ny/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-Cell-Phone-Fanny-Pack-Dark-Brown-7350-4-/332182079985",
+  "ConvertedCurrentPrice": {
+    "value": "69.96",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Wear this stylish fanny pack wherever you go - This leather fanny pack has seven zipped pockets and is a perfect waist bag for your cell phone, palm pilot, camera and much more - Hidden rear zip-pocket with adjustable nylon waist strap, extending up to 35\" waist. - Luggage: Designer Handbags - Waistpack Leather Cell Phone/Fanny Pack Dark Brown 7350-4",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.96",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "22818",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "roytan2012"
+  },
+  "PrimaryCategoryID": "169298",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Leather Cell Phone/Fanny Pack Dark Brown 7350-4",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-04-13T09:50:04.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P9DT16H48M18S",
+  "EndTime": "2017-06-12T09:50:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "791336735048"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0791336735048"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Amerileather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "7350-4"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Wireless Phone Accessory"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "US"
+      },
+      {
+        "Name": "Color",
+        "Value": "Dark Brown"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.75 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 5.7 x W 4 x H 3 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "AmeriLeather"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Wireless"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332182079985",
+  "Storefront": {
+    "StoreName": "lotoons4",
+    "StoreURL": "http://stores.ebay.com/id=1170977337"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3321820799858080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

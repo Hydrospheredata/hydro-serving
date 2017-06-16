@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P5DT2H35M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322537730532",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ORIGAMI-OWL-17-PIECE-LOT-JEWELRY-LOT-/322537730532",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T17:09:02.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T17:09:02.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ORIGAMI OWL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MIXED LOT",
+        "Name": "Type"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "ORIGAMI OWL 17 PIECE  LOT JEWELRY LOT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "MIXED LOT OF ORIGAMI OWL..LISTING INCLUDES 2 SILVER BRACELET BASES, 1 LARGE GOLD HINGED LOCKET WITH CRYSTALS, 1 GOLD LOCKET DANGLE COLLECTOR, 1 GOLD TASSLE, 1 GOLD LINK BRACELET 7 INCH, 9 JEWELS DANGLES, 1 GOLD 24 INCH MINI CURB CHAIN..I BELIEVE THAT'S WHAT IT IS..GREAT DEAL FOR SUCH NICE ITEMS..",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225377305328080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "reneecragiy01",
+    "FeedbackScore": "313",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Essex, Maryland",
+  "HitCount": "19",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/C5AAAOSwlMFZLvbF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4N1g5MDA=/z/064AAOSwX9FZLvb3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDEwNzU=/z/Q9cAAOSwY3BZLvct/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwOVg5MDA=/z/1GQAAOSwCQZZLvdJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDk4Nw==/z/924AAOSwZKBZLvdw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2Mlg4MTA=/z/-TEAAOSwZKBZLveO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgzWDY1MA==/z/rVgAAOSw-3FZLve6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDU5OA==/z/1qkAAOSwaeRZLvfO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIyWDczMQ==/z/1ZYAAOSwYvFZLvfy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDEwODg=/z/6g4AAOSwX9FZLvgq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg2MTA=/z/e90AAOSw0hlZLvhr/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "21221"
+}

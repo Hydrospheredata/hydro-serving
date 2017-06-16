@@ -1,0 +1,120 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172700316839",
+  "PrimaryCategoryID": "499",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "PostalCode": "77853",
+  "ConvertedCurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedBuyItNowPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727003168398080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "his_new_bride",
+    "FeedbackScore": "443",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/znwAAOSw3utY6V~x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/C08AAOSwpkFY6V~z/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/xrQAAOSwnF9Y6V~0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/PLcAAOSwls5Y6V~2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/v5cAAOSwAANY6V~3/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "TimeLeft": "P2DT4H23M26S",
+  "StartTime": "2017-05-28T19:23:08.000Z",
+  "ConditionDescription": "Like New Display Earrings",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "11",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "HandlingTime": "1",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Sterling-Silver-Patina-Brass-Cayman-Earrings-W3071-/172700316839",
+  "EndTime": "2017-06-07T19:23:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver and Brass",
+        "Name": "Color"
+      },
+      {
+        "Value": "Patina Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": ".925, Sterling",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Silpada Sterling Silver, Patina Brass  \"Cayman\"  Earrings  W3071",
+  "Location": "Dime Box, Texas",
+  "Description": "Silpada Cayman Earrings - W3071 French Wire Drops, Patina Brass and Sterling Silver 2 1/4 inch drop Like New Earrings Ask questions Ships to USA addresses",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1"
+}

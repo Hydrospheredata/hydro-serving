@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT2H40M8S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Handcrafted, Artisan Jewelry:Hair Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bogdakonvisaro_0",
+    "FeedbackScore": "2",
+    "FeedbackRatingStar": "None"
+  },
+  "ItemID": "222519124826",
+  "SecondaryCategoryID": "110620",
+  "ConvertedCurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:110620",
+  "BidCount": "0",
+  "StartTime": "2017-05-21T14:12:51.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Horchakova-Jewellery-Luxury-Black-Tiara-Crown-headband-roses-Gothic-/222519124826",
+  "Country": "UA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-20T14:12:51.000Z",
+  "PrimaryCategoryID": "164351",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Horchakova Jewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Velvet",
+        "Name": "Material"
+      },
+      {
+        "Value": "Ukraine",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Horchakova Jewellery Luxury Black Tiara Crown headband with roses Gothic",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Zaporozhye, Zaporozhye",
+  "Description": "Hi! My name is Anastasia and I am a Designer. I am the owner \"Horchakova Jewellery\". I get inspiration in various ways: organizing a photo shoot of designer clothes, communicating with different designers and brands to photos and gratitude from my clients. I help women, girls and little princesses look at $1 million , because today You can win an Oscar for your attractiveness, confidence and exclusivity. I'd be happy to help You choose your accessory and make exclusive decoration! Pleased to meet you! Horchakova Jewellery LuxuryBlack Tiara Crown headband with roses Gothic Size of tiara: about 10cm (3.94 in) at the middle part. Color: black.Materials: handmade foamiran roses, crystal Czech beads, metal headband, wire, velvet ribbon.Each piece is handmade to manufacture 3 to 5 days.",
+  "PrimaryCategoryIDPath": "281:110633:164351",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225191248268080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/ugsAAOSwlndZIZ9r/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/k9QAAOSwYvFZIZ9u/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM0WDc0Nw==/z/sawAAOSw-K9ZIZ9u/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

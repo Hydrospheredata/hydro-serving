@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT2H17M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "30.01",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222523873554",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EVER-FAITH-Silver-Tone-Austrian-Crystal-Graceful-Bridal-Ribbon-Knot-Hair-Side-/222523873554",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "30.01",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T13:46:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T13:46:33.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EVER FAITH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "B00005-1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Silver-Tone",
+        "Name": "Color"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "L 4 x W 2 x H 2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "EVER FAITH Silver-Tone Austrian Crystal Graceful Bridal Ribbon Knot Hair Side",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Classic, glamorous and spectacular design will make you an instant centre of attraction. - [!]EVER FAITH\u00c2\u00ae is a US registered trademark and Ever Faith Jewelry is its only owner. - Place on a low side bun and French pleat, this hair comb lets your hair style look more classic and graceful. Who adores bold headpieces may choose this one to replace tiara. - Length:8.7cm(3.4\"), Width:4.7cm(1.9\"), Weight: 25g. - Intended Use: Wedding/Anniversary/Mothers-day/Valentines-day/Birthday/Party/Prom/Casual Wear. - Wrapping: Come with some spare crystals, a gift box or favor bag. If you need assistance please contact us. EVER FAITH Silver-Tone Austrian Crystal Graceful Bridal Ribbon Knot Hair Side",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225238735548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "2.tzvishai2",
+    "FeedbackScore": "607",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/rUIAAOSwY3BZJuA9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/v5QAAOSwDiBZJuA9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/AVYAAOSw8lpZJuA9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/U2sAAOSwYlRZJuA8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/L-kAAOSw7GRZJuA8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UMAAAOSwaEhZJuA8/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

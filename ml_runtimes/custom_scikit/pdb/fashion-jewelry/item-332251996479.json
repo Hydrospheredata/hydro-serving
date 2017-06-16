@@ -1,0 +1,82 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT20H44M13S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "485.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "61872-8915-32",
+  "ItemID": "332251996479",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-GUCCI-Diamante-Necklace-K18-/332251996479",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "485.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:12:19.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:12:19.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gucci",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Style"
+      },
+      {
+        "Value": "Diamante",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "AUTHENTIC GUCCI Diamante Necklace K18",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "\u25baITEM NO. 61872-8915-32 \u25baNAME Gucci Diamante Necklace \u25baMODEL NO. - \u25baCOLOR Silver \u25baMATERIAL Au750 \u25baAPPROX SIZE Length: 42cm / 16.5in. \u25baADDITIONAL ITEMS Box \u25baITEM RANK Used S Rank\u00a0 \u00a0 \u25baCONDITION DETAILS -Has scratches and minor stains. All our items are also available for purchase on other various shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. \u00a0 REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-0084 TEL:+81-78-242-1248 \u00a0FAX:+81-78-242-0628",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322519964798080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "reference-shop",
+    "FeedbackScore": "1834",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "reference-shop",
+    "StoreURL": "http://stores.ebay.com/id=1082920074"
+  },
+  "Quantity": "1",
+  "Location": "Chuoku Kobeshi, Hyogo",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzg2WDU1MA==/z/7KsAAOSw8-tWajSj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/F-4AAOSwNphWajSm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/7REAAOSw8-tWajSn/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000"
+}

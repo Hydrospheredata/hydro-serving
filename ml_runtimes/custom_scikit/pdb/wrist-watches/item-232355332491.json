@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "540.16",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Keighley",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:28:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "420.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T14:28:03.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ExcludeShipToLocation": [
+    "CN",
+    "IT",
+    "ES"
+  ],
+  "ItemID": "232355332491",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "420.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Strela-Poljot-Sekonda-3017-Serviced-/232355332491",
+  "QuantitySoldByPickupInStore": "0",
+  "Title": "Strela Poljot Sekonda 3017 Serviced",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323553324918080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "BD20 7nH",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H19M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/z-wAAOSwT-FZD0dl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RZUAAOSww9xZD0je/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/62UAAOSw42dZD0iA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NAwAAOSw-3FZD0iE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/77gAAOSwX9FZD0iI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KksAAOSwAPVZD0iM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lYoAAOSw~y9ZD0iR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/No4AAOSww9xZD0iW/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Sekonda 3017 watch, serviced, all parts that needed replacing have been replaced with genuine parts. I have had this watch running on continuous chronograph sweep second hand for 24 hours, it did not lose any time. Face is perfect. Hands show very light corrosion, which can only be seen under a magnifying glass, can't be seen by the naked eye. Case in light scratched condition. Perspex glass is original, in used condition, just very light scratches. All in all a very nice watch from the 1960's, one for the collector. Please look at pictures for more information as these form part of the description. The starting price reflects the price of the service.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1859",
+    "UserID": "7900stephen",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

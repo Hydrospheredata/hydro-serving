@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "142.58",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "Welland, ON",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:49:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "192.0",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-07T14:49:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530289177",
+  "HandlingTime": "10",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "ESQ Movado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "192.0",
+    "_currencyID": "CAD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ESQ-Ladies-Diamond-Swiss-Made-Quartz-DressWatch-Movado-And-ESQ-Ladies-Casual-/222530289177",
+  "Title": "ESQ Ladies Diamond Swiss Made Quartz DressWatch by Movado And ESQ Ladies Casual",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302891778080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "L3b4c8",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H43M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzg2/z/yQwAAOSwfpVZFLmk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjU2/z/6bQAAOSwY3BZFLls/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/i5kAAOSwKytZEIMC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MwgAAOSw8lpZEIMU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8CMAAOSwblZZEIMj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/X9AAAOSwONBZEIMn/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zNUAAOSw42JZEIMp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P04AAOSwGJlZEIMr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQ4/z/QdsAAOSwONBZFLln/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1MlgxNjAw/z/4zYAAOSwH09ZFLlq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTAy/z/100AAOSwYlRZFLlu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2OFgxNjAw/z/59MAAOSwH09ZFLm~/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Like new ,genuine ESQ Swiss dress watch ,20 diamonds , 16 on the band , 4 on the dial , stainless steel running perfect watch has minor wear and scratches And an ESQ Swiss ladies casual with new genuine crocodile calf band , Crystal has some small chips on the edges . Both are running and in good condition",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "106",
+    "UserID": "ca_bo49",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.11",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:25:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1522969761",
+    "StoreName": "colors.store654"
+  },
+  "CurrentPrice": {
+    "value": "11.11",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:25:28.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "744960271987",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0744960271987",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Cokoo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "B135",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.4 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.1 x W 3.9 x H 2.6 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "CW-01",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ItemID": "192203290098",
+  "HandlingTime": "3",
+  "Description": "Thank you for visiting our ebay store! Display: Analog Movement: Quartz Condition: New Case Shape: Round Package included 1 x Watch - Fashionable, very charming for all occasions. - 100% brand new and high quality . - It's pretty lovely to be a gift to your mother or girlfriend, furthermore, the box will make it full of fancy and surprise. - Band size: 41cm. Case color: gold - Waterproof: no Cokoo Fashion Style Pearl Chain Bracelet Womens Wrap Wrist Watch White",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cokoo-Fashion-Style-Pearl-Chain-Bracelet-Womens-Wrap-Wrist-Watch-White-/192203290098",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1922032900988080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H8M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/cXoAAOSwaeRZLrY9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/qjoAAOSw1WJZLrY9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/aMoAAOSw-K9ZLrY8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/WXUAAOSwYvFZLrY8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/8eYAAOSwIQdZLrY9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/61gAAOSwDiBZLrY8/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Cokoo Fashion Style Pearl Chain Bracelet Womens Wrap Wrist Watch White",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackScore": "733",
+    "UserID": "colors.store654",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

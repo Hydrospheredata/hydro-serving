@@ -1,0 +1,74 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "07601",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "VINTAGE 1 7/8\" EAGLE RIDGE QUARTZ POCKET WATCH WORKS BUT NEEDS BATTERY IN VINTAGE CONDITION...SEE PICS Postage & handling US $3.99 Add Me to Your Favorite Sellers Check out our other eBay auctions! We accept CHK,MO Visa, MasterCard, and payments by Paypal. ***",
+  "StartTime": "2017-05-10T15:42:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwNFg4NDA=/z/aEwAAOSw4DJYkg6E/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFg4NTI=/z/wdYAAOSwTglYkg5S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODg4WDE0NDg=/z/NGUAAOSw-0xYkg49/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "EAGLE RIDGE",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "records123",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "35567",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "20",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118683235488080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-09T15:42:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-1-7-8-EAGLE-RIDGE-QUARTZ-POCKET-WATCH-WORKS-BUT-NEEDS-BATTERY-/311868323548",
+  "Location": "Hackensack, New Jersey",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "VINTAGE 1 7/8\" EAGLE RIDGE QUARTZ POCKET WATCH WORKS BUT NEEDS BATTERY",
+  "Storefront": {
+    "StoreName": "records123",
+    "StoreURL": "http://stores.ebay.com/id=2290134"
+  },
+  "ItemID": "311868323548",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC"
+  ],
+  "TimeLeft": "P8DT21H9S"
+}

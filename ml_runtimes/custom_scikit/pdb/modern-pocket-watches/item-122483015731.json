@@ -1,0 +1,162 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "CA",
+    "IL",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.25"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4894462243756",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462243756",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462243756",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-07T01:06:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/eDYAAOSwjL5ZDnML/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/t9gAAOSwaEhZDnMM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/9iUAAOSwurZZDnMO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/lBcAAOSwY3BZDnMP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/9jcAAOSwurZZDnMQ/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKZH-I026839",
+  "HitCount": "29",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1224830157318080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T01:06:26.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122483015731",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you received the item, please return it within 30 days for a replacement or money back. Please contact me before you return it. 2.All  returned items must be in the original packaging with all  components  and  accessories included, and you must provide us the return  shipping  information  (The shipment or the tracking number) 3.Return  shipping fee is to be paid by the buyers. We will not be responsible for any  custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.25"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Silver and Black Mini Owl Pocket Watch Necklace Q1W1",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silver-and-Black-Mini-Owl-Pocket-Watch-Necklace-Q1W1-/122483015731",
+  "Storefront": {
+    "StoreName": "zhuangjian6",
+    "StoreURL": "http://stores.ebay.com/id=1401573918"
+  },
+  "Seller": {
+    "UserID": "zhuangjian6",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14668",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT6H22M40S"
+}

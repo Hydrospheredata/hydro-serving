@@ -1,0 +1,221 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDE4/z/CyoAAOSwKytZL9B7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5MjA=/z/TC8AAOSwY3BZL9B7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2NzA=/z/Yi8AAOSwYlRZL9B6/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Tokidoki-Palette-Childrens-School-Backpack-Bianco-Palette-One-Size-/292136654096",
+  "ConvertedCurrentPrice": {
+    "value": "182.93",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! - Includes one interior multi-function pocket - Shoulder strap length 32.00\" LeSportsac Tokidoki Palette Childrens School Backpack, Bianco Palette, One Size",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "182.93",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "12512",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "jpurse83"
+  },
+  "PrimaryCategoryID": "169292",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Tokidoki Palette Childrens School Backpack, Bianco Palette, One Size",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T08:29:45.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P28DT17H50M29S",
+  "EndTime": "2017-07-01T08:29:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "883681804033"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0883681804033"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "MPN",
+        "Value": "3270-P541"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Accessory"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Bianco Palette"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.3 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 18 x W 10.8 x H 2.6 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "Tokidoki Palette Backpack"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292136654096",
+  "Storefront": {
+    "StoreName": "jpurse83",
+    "StoreURL": "http://stores.ebay.com/id=169328829"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921366540968080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

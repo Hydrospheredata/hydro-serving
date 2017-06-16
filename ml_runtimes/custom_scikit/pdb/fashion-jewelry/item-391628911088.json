@@ -1,0 +1,135 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be unworn and in original condition unless for manufactures defect.  Buyer will be responsible for return shipping.  In the case of a return due to manufactures defects or any such error on our part, we will cover return shipping. Please contact us to obtain an RA# and return instructions.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT12H10M51S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Item is in new condition.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "NSD1187/NSD1195",
+  "ItemID": "391628911088",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2016-11-21T02:02:54.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/10KT-Solid-Stamped-Yellow-Gold-White-Gold-Band-Size-Adjustable-Toe-Ring-/391628911088?var=",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T02:02:54.000Z",
+  "Variations": {
+    "Pictures": null,
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "10K White Gold",
+          "10K Yellow Gold"
+        ],
+        "Name": "Choose Your Gold"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "NSD1187",
+        "StartPrice": {
+          "value": "59.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10K White Gold",
+            "Name": "Choose Your Gold"
+          }
+        },
+        "Quantity": "4"
+      },
+      {
+        "SKU": "NSD1195",
+        "StartPrice": {
+          "value": "59.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10K Yellow Gold",
+            "Name": "Choose Your Gold"
+          }
+        },
+        "Quantity": "4"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1",
+        "Name": "Number of Items"
+      },
+      {
+        "Value": "Adjustable",
+        "Name": "Size"
+      },
+      {
+        "Value": "nosejewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White or Yellow Gold",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "10KT Solid Stamped Yellow Gold or White Gold Band Size Adjustable Toe Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Blaine, Washington",
+  "Description": "10KT Solid Stamped Yellow Gold or White Gold Band Size Adjustable Toe Ring Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "nosejewels",
+    "FeedbackScore": "40382",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "GlimmerOfGlitter",
+    "StoreURL": "http://stores.ebay.com/id=89001082"
+  },
+  "Quantity": "8",
+  "PaymentMethods": "PayPal",
+  "HitCount": "368",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Z9YAAOSw5cNYMlXR/$_1.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "98230"
+}

@@ -1,0 +1,109 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "85.63"
+  },
+  "QuantitySold": "0",
+  "Title": "Eberhard&co  Royal Quarts swiss made",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "85.63"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "15",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Eberhard& co royal quartz. Unisex",
+  "StartTime": "2017-05-27T18:16:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/GeYAAOSwH09ZFrTW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/GeYAAOSw42dZFrR5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/wloAAOSww9xZFrSo/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "AL",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Eberhard & Co.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "gold plated",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "7 jeweles",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ferroelon-0",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1726983182448080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T18:16:50.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "85.63"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ConditionDescription": "Eberhart royal quartz gold plated cal 75004 7 jewel Swiss made vintage, is glass heavy length  scratches see the foto.",
+  "Location": "Tirane, Tirane",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Eberhard-co-Royal-Quarts-swiss-made-/172698318244",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "172698318244",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT23H41M32S"
+}

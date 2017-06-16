@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.56"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Display: Analog Movement: Quartz Band Material: Metal Primary Color: Silver Battery Type: Thermal Model No.: 7189 Shipping Weight (in pounds): 0.45 Product in Inches (L x W x H): 2.25 x 7.75 x 9.25 - Comes with Certificate of Authenticity From The American Historic Society - Limited edition collectable - 1-year warranty - As Seen on TV Kansas City Railroad Pocket Watch As Seen On TV",
+  "StartTime": "2017-05-13T01:59:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/6z4AAOSwi7RZFmh2/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "764130280618",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0764130280618",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Telebrands",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1264",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Toy",
+        "Name": "Binding"
+      },
+      {
+        "Value": "0.5 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 8.8 x W 7.4 x H 2.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "TELE Brands",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "patcha777",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6556",
+    "PositiveFeedbackPercent": "98.4"
+  },
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529355721198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T01:59:14.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.56"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Kansas City Railroad Pocket Watch As Seen On TV",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kansas-City-Railroad-Pocket-Watch-Seen-TV-/252935572119",
+  "Storefront": {
+    "StoreName": "patcha777STORE",
+    "StoreURL": "http://stores.ebay.com/id=1402700962"
+  },
+  "ItemID": "252935572119",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT7H17M46S"
+}

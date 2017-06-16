@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921401524888080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0064/527/591/184898788/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0064/527/591/184898789/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0064/527/591/184898790/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0064/527/591/184898791/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0064/527/591/184898792/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0064/527/591/184898793/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0064/527/591/184898794/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0064/527/591/184898795/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NOWI-Messenger-Bags-04222101-14-Brown-Best-Price-/192140152488",
+  "ConvertedCurrentPrice": {
+    "value": "507.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NOWI Messenger Bags 04222101-14 Brown by NOWI Ships from UK Supplier Other information: 04222101-14_Braun_38 Related Searches: NOWI Bags, NOWI Cross-Body Bag, Cross-Body Bag Bags Dimensions: 17.0 x 38.0 x 33.0 centimetres Weight: 0.76 kg",
+  "Title": "NOWI Messenger Bags 04222101-14 Brown. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "507.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-26T03:09:42.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P21DT10H48M49S",
+  "EndTime": "2017-06-24T03:09:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "NOWI"
+      },
+      {
+        "Name": "MPN",
+        "Value": "496465478"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140152488",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:64527591:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

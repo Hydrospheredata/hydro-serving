@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE4WDUxMg==/z/1oQAAOSweWVXeu8e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjE2WDYyNg==/z/W~IAAOSwRQlXeu8m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YmsAAOSwuzRXe9Gv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qJYAAOSwRQlXe9Gy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/O-AAAOSwwo1Xe9G2/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Varsity-Stripe-Bennet-Satchel-Signature-Khaki-Watermelon-F38269-NWT-425-/332206842280",
+  "ConvertedCurrentPrice": {
+    "value": "136.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NEW Coach Varsity Stripe Bennet Satchel Signature Khaki Watermelon Item #: F38269 COLOR: SILVER/CHALK ORANGE Details Signature coated canvas Inside zip, cell phone and multifunction pockets Zip-top closure, fabric lining Handles with 4 1/2\" drop Longer strap with 22\" for shoulder or crossbody wear Outside open pocket 11 1/4\" (L) x 7 3/4\" (H) x 6\" (W)",
+  "Title": "Coach Varsity Stripe Bennet Satchel Signature Khaki Watermelon F38269 NWT $425",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "136.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fremont, California",
+  "Seller": {
+    "FeedbackScore": "608",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pupper2007"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94539",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-04T18:12:55.000Z",
+  "HitCount": "45",
+  "TimeLeft": "P1DT2H45M32S",
+  "EndTime": "2017-06-03T18:12:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Khaki"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7.5 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.5 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11.5 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "Handle drop 5 inches Strap drop 23 inches"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Shade",
+        "Value": "Khaki"
+      },
+      {
+        "Name": "Main Color",
+        "Value": "Khaki"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889532514212"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332206842280",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322068422808080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

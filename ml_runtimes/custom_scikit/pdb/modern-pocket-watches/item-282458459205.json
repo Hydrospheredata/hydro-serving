@@ -1,0 +1,101 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "E9G 1N9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This owl, 1.5 inches in height, it is battery operated and is running strong. Give a hoot and go for it! 99.9% of my items reach their destination through regular mail, but I cannot be responsible for lost items. If you wish a tracking number, please let me know and I will add $9 to the shipping charges. Check out my other items. I update frequently. Thanks!",
+  "StartTime": "2017-05-03T12:29:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDEwNjg=/z/k9kAAOSwabhUWV5P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AakAAOSwrx5UWV5V/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.42"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "meekmember",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "572",
+    "PositiveFeedbackPercent": "96.6"
+  },
+  "HitCount": "11",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824584592058080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T12:29:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OWL-Gold-tone-Clip-Pocket-Watch-Montre-HIBOU-Couleur-/282458459205",
+  "Location": "Neguac, New Brunswick",
+  "Title": "OWL Gold tone Clip On Pocket Watch Montre HIBOU Couleur Or",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "282458459205",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT17H45M2S"
+}

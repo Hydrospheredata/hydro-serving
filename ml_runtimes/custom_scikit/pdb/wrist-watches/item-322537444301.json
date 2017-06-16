@@ -1,0 +1,127 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "25.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225374443018080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T12:17:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T12:17:26.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Greetings, this auction is for a Vintage Disney Winnie the Pooh and Piglet (Pooh and Piglet are sitting back to back on a rock) oval faced watch with an ivory colored face and brass colored bezel. The beautiful faceted crystal design on the face (diamond shaped dome) makes this watch a collectors item. The face measures .50\" x 1.00\". I purchased it at the Disney store in the late 80's but did not keep the box and have since changed the original pink leather strap with the navy blue Croco Grain adjustable strap shown in the main pictures. The battery will have to be replaced but other than that the watch is in very good condition and is a perfect addition to your Disney collection. Please US Buyers only. Payment via Pay Pal is required within 4 days of auction closure. I ship the next business day following payment confirmation. Questions are always welcome. Happy Bidding.",
+  "BuyItNowPrice": {
+    "value": "25.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537444301",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Disney",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Cartoon/Idol",
+        "Name": "Style"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Retro (1984-1999)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Disney Winnie the Pooh and Piglet ladies watch Oval crystal petite face",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Disney-Winnie-Pooh-and-Piglet-ladies-watch-Oval-crystal-petite-face-/322537444301",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "1",
+  "PostalCode": "33442",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Deerfield Beach, Florida",
+  "TimeLeft": "P9DT21H34S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vlUAAOSwax5YucbW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vxwAAOSwXYtYucbo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wQUAAOSwOgdYucbr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uW4AAOSwTM5YucbS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/850AAOSw2gxYucbZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UAgAAOSwfVpYucbk/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "755",
+    "UserID": "ilovelucytoo2001",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM3OFg3OTk=/z/R4YAAOSwMNxXZycv/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDg5Mw==/z/QW4AAOSwbYZXZyeX/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/i7oAAOSwOVpXZygq/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/P-UAAOSw3YNXZyde/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE4WDg4MQ==/z/w58AAOSwzJ5XZyfG/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/5VYAAOSwGIRXZyf~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI0WDg5Mw==/z/E6UAAOSw-4BXZyfp/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dog-Handbag-Keychain-Fob-Charm-Yellow-and-Black-Crystal-Beads-/322536844777",
+  "ConvertedCurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Stunning Black and Yellow Crystal Beads with Orange and Clear Crystals for Nose of Dog with Tail Handbag or Keychain Fob. Small Gold Tone Bell Charm on Yellow Woven Chain.",
+  "Title": "Dog Handbag or Keychain Fob Charm Yellow and Black Crystal Beads",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "105.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "413",
+    "PositiveFeedbackPercent": "97.6",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "petdapdav"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10038",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T22:48:29.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P27DT6H54M55S",
+  "EndTime": "2017-06-29T22:48:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Beaded"
+      },
+      {
+        "Name": "Type",
+        "Value": "Tag/Fob"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322536844777",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225368447778080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

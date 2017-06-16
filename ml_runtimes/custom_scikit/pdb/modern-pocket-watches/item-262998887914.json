@@ -1,0 +1,158 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "19070",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Up for bid is this unique, very pretty Du Barry Jeweled mechanical pocket watch pendant. May be from the Art Deco Era\"This vintage watch works well. It measures 1 3/4\" long by 7/8\" wide.The Pendant does not come witha chain.This eye catching watch is in very good condition with scratches on the back.",
+  "StartTime": "2017-05-23T00:33:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/KHYAAOSwYvFZFQet/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/0xkAAOSwsXFZFQfa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/rb4AAOSwZKBZFQfp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/psAAAOSwxu5ZFQf5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/X1AAAOSw8HBZFQgH/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Cylinder",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Du Barry Jeweled",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jfernsr",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "133",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629988879148080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T00:33:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Du-Barry-Jeweled-Mechanical-Pocket-Watch-Pendant-10-Kt-Gold-Plated-/262998887914",
+  "Location": "Morton, Pennsylvania",
+  "Title": "Vintage Du Barry Jeweled Mechanical Pocket Watch Pendant 10 Kt Gold Plated",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "262998887914",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT5H55M3S"
+}

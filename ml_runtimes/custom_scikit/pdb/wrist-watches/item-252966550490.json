@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Riverview, Michigan",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:01:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "20.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:01:52.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966550490",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Roamer",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies vintage Roamer working, windup watch, broken glass face, steampunk",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-vintage-Roamer-working-windup-watch-broken-glass-face-steampunk-/252966550490",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529665504908080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "48193",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H28M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTg=/z/98MAAOSwWxNYuoP1/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NjA=/z/eUQAAOSwSlBYuoRW/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1MFgxNjAw/z/tssAAOSw4A5YuoRi/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQyWDE2MDA=/z/BrsAAOSwdGFYuoRg/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTg=/z/LssAAOSwhlZYuoRi/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NjE=/z/fZcAAOSwCU1YuoRf/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTg=/z/XqgAAOSw~AVYuoRi/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MjA=/z/StUAAOSw32lYuoRi/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "This is a really beautiful antique watch, despite the broken glass on the face. It is Swiss made, by Roamer. It is stainless steel. It works! Sold as is. The band is about 6 1/2\" long by 1/4\" wide. The face is 1 1/4\" long by 5/8\" wide. A jeweler told me that he thinks that the part that you wind up has a real blue sapphire on it.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "sharowhitlo_0",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

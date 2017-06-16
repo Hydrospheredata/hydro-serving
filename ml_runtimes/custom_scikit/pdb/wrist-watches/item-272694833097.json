@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "257.22",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Barking, Essex",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:52:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T09:52:34.000Z",
+  "ShipToLocations": [
+    "GB",
+    "US",
+    "CA",
+    "IE",
+    "DE",
+    "FR",
+    "IT",
+    "ES",
+    "RU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "GR",
+    "HU",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694833097",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TW Steel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "CE1404",
+        "Name": "Model"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "200.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-TW-Steel-CE4014-Brown-Leather-48mm-Chronograph-Watch-/272694833097",
+  "Title": "BRAND NEW TW Steel CE4014 Brown Leather 48mm Chronograph Watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726948330978080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "ig110pz",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H27M23S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/naAAAOSw9uFW892k/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/bZ4AAOSwdU1W892n/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/sqMAAOSwxcRW892q/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/OE4AAOSwI3RW893Z/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "The is a beautiful beautiful TW STEEL CE4014, Brand New and Boxed. Grab a deal Nowwwww! Product DetailsCase: Matte stainless steelCaseback: Stainless steel, screw-downBezel: Matte and polished stainless steel, with screw accentsDial: BlackHands: Silvertone, luminescentMarkers: Silvertone Arabic numeralCalendar: Date display window between the 4 and 5 o'clock positionSubdials: Three, 24 hour time display at the 3 o'clock position, chronograph 60 minute counter at the 9 o'clock position and a 1/10th of a second counter at the 6 o'clock positionTachymeter scale displayed around the edge of the dialStrap: Brown leatherClasp: Pin buckleCrystal: MineralCrown: Screw-downMovement: QuartzWater resistance: 10 ATM/100 meters/330 feetCase measurements: 48 mm in diameter x 15 mm thickStrap measurements: 33 mm wide x 8 inches longModel: CE4014 Have a blessed day. *NOT AN OFFICIAL TW STEEL RETAILER",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2606",
+    "UserID": "folarin76",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:02:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:02:46.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245626624",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Red",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Red",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Marc by Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Marc by Marc Jacobs  1 Women's MBM1377 Tether Gold-Tone and Red Watch New",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-1-Womens-MBM1377-Tether-Gold-Tone-and-Red-Watch-New-/332245626624",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322456266248080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H41M48S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA4NVg2OTQ=/z/5EcAAOSwWxNY19hc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTAxWDU4Mg==/z/p7MAAOSwdGFY19hk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODczWDUzNA==/z/uB4AAOSwsW9Y19hv/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Marc by Marc Jacobs 1 Women's MBM1377 Tether Gold-Tone and Red Watch BackAbout this itemFeaturesGold-tone watch featuring sunray inner dial and transparent outer dial with logo-inspired hour markers36 mm stainless steel case with mineral dial windowQuartz movement with analog displaySaffiano-textured leather band with buckle closureWater resistant to 50 m (165 ft): In general, suitable for short periods of recreational swimming, but not diving or snorkelingProduct informationProduct Dimensions3.8 x 3.8 x 3.8 inchesItem Weight1 poundsShipping Weight7.2 ouncesDepartmentwomensManufacturerMarc by Marc Jacobs WatchesASINB00VFPB2Y2Domestic ShippingCurrently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.International ShippingThis item is not eligible for international shipping. Learn MoreManufacturer referenceMBM1377Batteries1 Nonstandard Battery batteries required. (included)Customer Reviews5.0 out of 5 stars 1ReviewBest Sellers Rank2785494Date first available at Amazon.comSeptember 12, 2015Product specifications Watch InformationBrand, Seller, or Collection NameMarc by Marc JacobsModel numberMBM1377Part NumberMBM1377Item ShapeRoundDial window material typeMineralDisplay TypeAnalogClaspBuckleCase materialStainless steelCase diameter36 millimetersCase Thickness10 millimetersBand Materialleather calfskinBand lengthWomen's StandardBand width18 millimetersBand ColorPurpleDial colorGoldBezel materialStainless steelBezel functionUnidirectionalItem weight16 OuncesMovementAnalog quartzWater resistant depth165 Feet Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

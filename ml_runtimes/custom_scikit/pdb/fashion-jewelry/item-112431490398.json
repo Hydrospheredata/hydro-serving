@@ -1,0 +1,149 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT7H17M31S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New engineering sample.",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "y***y",
+    "FeedbackScore": "2170",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Red"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "112431490398",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Motif-Silver-Gold-Plated-cable-Shure-SRH750DJ-SRH840-SRH940-Headphones-5ft-/112431490398?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T22:03:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T22:03:33.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Finish",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold Plating",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NjI4WDgwNw==/z/OPoAAOSwmgJY1C69/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/ODc1WDEzMDk=/z/LOMAAOSwXYtY1C7j/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Silver Plating",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NjY4WDgxMg==/z/kykAAOSwuxFY1C7I/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/ODUwWDExOTE=/z/76wAAOSwax5Y1C7y/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold Plating",
+          "Silver Plating"
+        ],
+        "Name": "Finish"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold Plating",
+            "Name": "Finish"
+          }
+        },
+        "StartPrice": {
+          "value": "35.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver Plating",
+            "Name": "Finish"
+          }
+        },
+        "StartPrice": {
+          "value": "35.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Motif brand",
+        "Name": "Brand"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "Motif Silver/Gold Plated cable for Shure SRH750DJ, SRH840, SRH940 Headphones 5ft",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Hello there. We are Surf Cables LLC and have launched a line of fashion audio cables at www.motifcables.com. This auction includes a Motif (TM) engineering sample we built (not available on the web site). It is a Shure compatible headphone cable (for SRH750DJ, SRH840, SRH940 Headphones) with a Shure type locking connector. If you have other headphones email us and we will see what we can do. If you are a DJ who wants to make an impression at an event, if you are into fashion or having your own unique look, you will be happy to note that this is a silver or gold plated headphone cable, it is about 5 feet long and will connect the Shure headset to a smartphone or other audio player. This cable is 6mm wide, so everyone will notice your shiny silver cable. This cable is fatter than the ones that went to production on the web site and also longer. It is a high quality engineering sample using Mogami brand internal wire, with the ends epoxy filled to prevent breakage or the ingress of contaminants. It was made by us in the USA using imported connectors and wire. Any questions, just ask. Item includes cable and product pouch, headphones not included. Item ships after payment received, please email us if you have less than 5 feedbacks. Free shipping in USA. $25.00 will be added for international shipping.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "surfcables",
+    "FeedbackScore": "29",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "2",
+  "HandlingTime": "3",
+  "Location": "San Diego, California",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk2WDg2NA==/z/~qgAAOSwXYtY1C2Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTI5WDU4Ng==/z/K9sAAOSwXYtY1DbM/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "92131"
+}

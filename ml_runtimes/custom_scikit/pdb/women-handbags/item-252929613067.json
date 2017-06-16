@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4NFg4MTA=/z/TNIAAOSw4A5Yua60/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzOVg4MTA=/z/QqMAAOSwXYtYua7I/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/xj8AAOSwTM5Yua7g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUzOVg5MDA=/z/3rMAAOSwB-1Yua75/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk3WDE1MTU=/z/30kAAOSwCU1Yua8N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/WQkAAOSwXYtYua9T/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kempton-Co-New-York-Suede-Padded-Laptop-Tablet-Career-Work-Tote-675-/252929613067",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fashion meets function with this beautiful suede and Leather trim tote. Padded interior pocket for tablet or laptop. Great condition, some spots on suede. 15\" Height 14\" Length 7\" Depth Smoke free home.",
+  "Title": "Kempton & Co New York  Suede Padded Laptop Tablet Career Work Tote $675",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Orange, Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2996",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "amberlo80"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "22960",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T01:03:58.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P6DT9H59M1S",
+  "EndTime": "2017-06-09T01:03:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kempton & Co"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Suede"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252929613067",
+  "Storefront": {
+    "StoreName": "Amber s Closet Clean Out",
+    "StoreURL": "http://stores.ebay.com/id=1110992554"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529296130678080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

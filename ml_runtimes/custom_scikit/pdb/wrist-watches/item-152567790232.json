@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "169.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Reynoldsburg, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:07:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1418429685",
+    "StoreName": "missmelindalou"
+  },
+  "CurrentPrice": {
+    "value": "169.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T12:07:05.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567790232",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko Automatic Chronograph 6139-8029 Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-Automatic-Chronograph-6139-8029-Watch-/152567790232",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525677902328080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "43068",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT20H49M31S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzU5WDUwMA==/z/VgsAAOSwR29ZB496/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzAyWDU5Nw==/z/x2kAAOSww9xZB46o/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODgzWDUxNg==/z/3BsAAOSw~y9ZB45c/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/-VYAAOSwjqVZB4~S/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTMyWDkwMA==/z/Rt8AAOSwrhBZB5DK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/gDkAAOSwnONZB4-h/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjY2WDY3NA==/z/uHQAAOSwhvFZB46b/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/Om0AAOSwCQZZB4-f/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDUwMA==/z/~mUAAOSwrhBZB4-V/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/JIkAAOSwlndZB490/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDUwMQ==/z/YqEAAOSwX61ZB4-C/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/fvwAAOSwX61ZB4~u/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Watch works, time set, quick set day and date (push for one, push more for the other one) work and both hands (the second and the 30 minute) of the chronograph work and seem to function as an accurate stopwatch. I shook it and let it run and it stopped after about 7 hours. The top button that starts chronograph sometimes/often sticks, and you often have to pull it out with your fingers, but this is easy to do and the top button does start and stop the chronograph. The bottom, chronograph reset, button does things, but doesn't consistently reset the chronograph to the same place...often moves second hand back to previous position. I'm far from an expert on vintage seiko watches, but am quite fond of this one and spent a lot trying to figure out how it works and researching it and am describing as best as I can. Hate to sell this one, as I have no special affinity for watches, but really admire clever gadgetry, and this watch is an impressive implementation of early 70s technology. Just must sell to get our antique mall business stocked and profitable. Please see pics for more information. Seems to be in rather nice physical condition, just in need of an expert to get it properly cleaned and serviced and back to tip top operating condition.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "365",
+    "UserID": "missmelindalou",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

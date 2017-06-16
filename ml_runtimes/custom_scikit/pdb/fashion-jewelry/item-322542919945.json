@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT12H2M3S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322542919945",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Juicy-Couture-Pink-Laptop-Charm-YJRUO739-/322542919945",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T22:30:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T22:30:13.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Juicy Couture",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Love & Hearts",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver-tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Classic",
+        "Name": "Style"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Juicy Couture Pink Laptop Charm YJRUO739",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New in box. Any questions please ask. Thank you for looking.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225429199458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mybluekimono",
+    "FeedbackScore": "162",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Decatur, Georgia",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDc0Ng==/z/reIAAOSw42dZNIj0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA3WDEwNzc=/z/mf8AAOSws5pZNIiP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDc2MA==/z/fKEAAOSwblZZNIjZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzEzWDgxOA==/z/tSUAAOSwYlRZNIjC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQ0WDEwMjI=/z/kzwAAOSwhvFZNIig/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzU3WDEwMDg=/z/HZcAAOSwrhBZNIiy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU0WDgzMw==/z/8BEAAOSww5hZNIkE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk0WDY5Ng==/z/8iQAAOSwZKBZNIm9/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "30031"
+}

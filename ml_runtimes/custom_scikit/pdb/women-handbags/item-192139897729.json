@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921398977298080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjA1/z/3SEAAOSw32lY1tj1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDIz/z/59UAAOSw4CFY1tj1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MTg=/z/jQ8AAOSwol5Y1tj0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDM2/z/3REAAOSw32lY1tj0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDc2/z/w9kAAOSwWxNY1tj0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI5MlgxNTAw/z/JsUAAOSwmgJY1tj1/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fritzi-aus-Preusen-Womens-Top-Handle-Bag-Blue-dark-blue-Shipping-Included-/192139897729",
+  "ConvertedCurrentPrice": {
+    "value": "172.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fritzi aus Preu\u00dfen Women's Top-Handle Bag Blue dark blue by Fritzi aus Preu\u00dfen Ships from UK Supplier Other information: 503424 Related Searches: Top-Handle Bag, Top-Handle Bag Bags Dimensions: 41.0 x 13.0 x 37.0 centimetres Weight: 0.98 kg",
+  "Title": "Fritzi aus Preu\u00dfen Women's Top-Handle Bag Blue dark blue. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "172.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-25T20:43:34.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P21DT4H22M34S",
+  "EndTime": "2017-06-23T20:43:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Fritzi aus Preu\u00dfen"
+      },
+      {
+        "Name": "MPN",
+        "Value": "503424"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139897729",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:124792935:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

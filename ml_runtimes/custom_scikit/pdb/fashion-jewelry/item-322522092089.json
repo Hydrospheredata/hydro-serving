@@ -1,0 +1,266 @@
+{
+  "ReturnPolicy": {
+    "Description": "Is there a purchase return guarantee?\r\n\r\nIf, for some reason, you are not satisfied with the product you ordered, you can send it back to us. Of course we would undertake the shipping cost in the case that it is the consequence of a mistake on our side. \t\r\n\r\nIs it possible to swap the product? \r\nWe will send you another product as soon as we receive the returned package.\r\nWe cover the postage cost of the second product in the case that it is due to a mistake on our side. If you change your mind about the product and return it to us, you will be asked to contribute to the product shipping costs. \t\t\t\t\t\t\t\t\r\n\r\nConditions of the returned product:\r\nPlease note that in order to receive a full refund of the product price, or an exchange of equal value, we will ask you to return the product in the same conditions as when we sent it to you.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT46M39S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Kiss-of-Leather",
+    "StoreURL": "http://stores.ebay.com/id=18023555"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "63.71",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322522092089",
+  "ConvertedCurrentPrice": {
+    "value": "63.71",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-19T15:55:27.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/No-229-Large-Pentagram-925-Silver-Pendant-Silver-Chain-Guardian-Magic-Magic-/322522092089?var=",
+  "Country": "DE",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T15:55:27.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": "925 Silver",
+          "Name": "Design"
+        },
+        {
+          "Value": [
+            "Silver chain 41 cm",
+            "Silver chain 51 cm",
+            "Silver chain 61 cm",
+            "Silver chain 66 cm"
+          ],
+          "Name": "Chain Type"
+        },
+        {
+          "Value": "Silver 229",
+          "Name": "Models"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "SKU": "wi_322345918531_0",
+        "StartPrice": {
+          "value": "63.71",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "925 Silver",
+              "Name": "Design"
+            },
+            {
+              "Value": "Silver chain 41 cm",
+              "Name": "Chain Type"
+            },
+            {
+              "Value": "Silver 229",
+              "Name": "Models"
+            }
+          ]
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "wi_322345918531_1",
+        "StartPrice": {
+          "value": "63.71",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "925 Silver",
+              "Name": "Design"
+            },
+            {
+              "Value": "Silver chain 51 cm",
+              "Name": "Chain Type"
+            },
+            {
+              "Value": "Silver 229",
+              "Name": "Models"
+            }
+          ]
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "wi_322345918531_2",
+        "StartPrice": {
+          "value": "63.71",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "925 Silver",
+              "Name": "Design"
+            },
+            {
+              "Value": "Silver chain 61 cm",
+              "Name": "Chain Type"
+            },
+            {
+              "Value": "Silver 229",
+              "Name": "Models"
+            }
+          ]
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "wi_322345918531_3",
+        "StartPrice": {
+          "value": "63.71",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "925 Silver",
+              "Name": "Design"
+            },
+            {
+              "Value": "Silver chain 66 cm",
+              "Name": "Chain Type"
+            },
+            {
+              "Value": "Silver 229",
+              "Name": "Models"
+            }
+          ]
+        },
+        "Quantity": "3"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Markenlos",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Necklace & Necklace",
+        "Name": "Type"
+      }
+    ]
+  },
+  "Title": "No 229: Large Pentagram 925 Silver Pendant & Silver Chain Guardian Magic Magic",
+  "ExcludeShipToLocation": [
+    "CA",
+    "AU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB"
+  ],
+  "Location": "Hamburg",
+  "Description": "Large, elaborately designed Pentagram in 925 sterling silver. The pendant is polished smooth. Dimensions: approx. 36 mm diameter. Internal dimensions of the eye: approx. 5.5 mm tall x approx. 3.7 mm wide. Weight: approx. 9.8 g. Background: The pentacle is a symbol often used in magic. With the tip upwards it is white magic. In popular belief, it was long a spell sign against evil. \u00a0 \u00a0 \u00a0 \u00a0In the price included a snake necklace in 925 sterling silver, is 0.8 mm about thick.\u00a0We have the pendant without chain in the program. Like to browse in our shop!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kiss-of-leather.de",
+    "FeedbackScore": "4771",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "11",
+  "PaymentMethods": "PayPal",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/vDYAAOSwal5YLGVJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg1MTY=/z/2CIAAOSwnHZYQCmp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg0NzY=/z/XDwAAOSwA3dYQCmv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQxNFgxNjAw/z/CvAAAOSwiDFYQCm2/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

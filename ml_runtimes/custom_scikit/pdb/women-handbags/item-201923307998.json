@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/b6gAAOSwuxFYu4cN/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NTMxWDgwMA==/z/Io4AAOSw4CFYu4MB/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTkxWDE2MDA=/z/IckAAOSwuxFYu4N2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/bM0AAOSwSlBYu4P6/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q7wAAOSw2gxYu4b-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lK4AAOSwax5Yu4cE/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-BAUBLES-Bon-Voyage-Black-Pink-Travel-Pouch-NWT-/201923307998",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "KATE SPADE PASLEY PARK MARIT COSMETIC CASE IN BLUSH - $98 This ostrich feather printed cosmetic case is pretty and pink.* Zip-around closure* Lined* Synthetic materials* W:9.5\" H:6\" D:3\"* ImportedNew with tags attached Please check my other listings for matching accessories",
+  "Title": "Kate Spade \"BAUBLES\" Bon Voyage Black with Pink Travel Pouch, NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Sandy, Utah",
+  "Seller": {
+    "FeedbackScore": "1674",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "alfa5970"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "84092",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T23:30:15.000Z",
+  "HitCount": "41",
+  "TimeLeft": "P10DT5H43M30S",
+  "EndTime": "2017-06-12T23:30:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Train Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Brand",
+        "Value": "KATE Spade"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201923307998",
+  "Storefront": {
+    "StoreName": "MODA FRENZI",
+    "StoreURL": "http://stores.ebay.com/id=167633594"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019233079988080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

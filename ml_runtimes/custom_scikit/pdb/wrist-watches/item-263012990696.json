@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bentonville, Arkansas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:22:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:22:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "263012990696",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "MK2369",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors Watch Women MK2369 Gold Tone with Purple Band",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Watch-Women-MK2369-Gold-Tone-Purple-Band-/263012990696",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630129906968080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "72712",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H13M43S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tvIAAOSwIaFZLtGR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V8EAAOSwcB5ZLtGU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kvwAAOSwxu5ZLtGX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bocAAOSwcgNZLtGI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P2MAAOSwX9FZLtGL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bsQAAOSwcgNZLtGN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDE2MDA=/z/uAYAAOSw3gJZLtGP/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Pre-owned authentic Michael Kors Women's watch - MK2369. Very pretty watch with purple and gold link band. Watch is in working condition. Some minor surface wear on the gold tone. I no longer have the original box. Very hard to find band color. Will be sent Priority Mail with Insurance. Payment through Paypal due upon purchase. thank you",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "847",
+    "UserID": "mawedding2012",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

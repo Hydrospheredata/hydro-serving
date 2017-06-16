@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns are accepted within 30 days with the buyer being responsible for all return shipping cost. The original cost of the item will be refunded less the shipping cost. Item must have all tags attached, be in original or unworn condition, and all package contents must be returned. A 15% restocking fee applies to items returned that are as described.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT6H33M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "262837763863",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-85-MICHAEL-KORS-Army-Green-Rhinestone-Snap-Bracelet-/262837763863",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-02-04T20:42:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T20:42:55.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Fabric",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT $85 MICHAEL KORS Army Green Rhinestone Snap Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWT $85 MICHAEL KORS Army Green Rhinestone Snap Bracelet Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2628377638638080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "klsluvstoshop",
+    "FeedbackScore": "1002",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "KLS&#39;S BLING",
+    "StoreURL": "http://stores.ebay.com/id=93439487"
+  },
+  "Quantity": "1",
+  "Location": "Cordova, Tennessee",
+  "HitCount": "176",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg3ODg=/z/l8cAAOSwjDZYljzH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg1WDEyODA=/z/jMoAAOSwUKxYljzI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMjc1/z/HDwAAOSw4DJYljzK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjYzWDEyODA=/z/mDsAAOSwjDZYljzL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDcyWDEyODA=/z/Rt0AAOSw241YljzM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjEw/z/U54AAOSw-0xYljzN/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "38016"
+}

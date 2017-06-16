@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxM1gxNDc1/z/bxgAAOSwxu5ZLj3F/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI0WDE1NzQ=/z/~N0AAOSwaEhZLj26/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/310AAOSwlY1ZLj2k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/G08AAOSwZKBZLj2q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fX8AAOSwAPVZLj3C/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc0WDE0OTU=/z/gTEAAOSw8HBZLj3O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk1WDE1MTA=/z/WgkAAOSwfRdZLj2x/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jA0AAOSwIQdZLj2z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YLEAAOSwlMFZLj22/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UKsAAOSwcgNZLj24/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fVYAAOSwAPVZLj28/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YPgAAOSwlMFZLj3A/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Va-Va-Bloom-XL-Duffel-Travel-Bag-NWT-108-/252966315813",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Va Va Bloom XL Duffel Bag - NWT $108. Brand new, never used, with tag. MSRP $108. We do not ship outside of the US. Please message with any questions prior to purchasing. Thanks!",
+  "Title": "Vera Bradley Va Va Bloom XL Duffel Travel Bag - NWT $108",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Gallatin, Tennessee",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1243",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Red",
+    "UserID": "garlyss"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37066",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T03:52:12.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P27DT10H16M10S",
+  "EndTime": "2017-06-30T03:52:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffel/Summer/Beach/Travel Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252966315813",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529663158138080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

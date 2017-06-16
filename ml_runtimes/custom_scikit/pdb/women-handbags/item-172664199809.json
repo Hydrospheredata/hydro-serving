@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU0MlgxNjAw/z/ao4AAOSwnONZDv6q/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMz/z/JIEAAOSwX61ZDv6u/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMz/z/SWsAAOSw8HBZDv6y/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTI3/z/LPcAAOSwAPVZDv61/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5NlgxNjAw/z/rQkAAOSwT-FZDv65/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU0M1gxNjAw/z/qlQAAOSww9xZDv67/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Taden-Baby-Bag-Blake-Avenue-Diamond-Dot-123-New-/172664199809",
+  "ConvertedCurrentPrice": {
+    "value": "218.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade Taden Baby Bag Blake Avenue in Diamond Dot (123) Product Details Item Weight:2.3 pounds Product Dimensions:19.4 x 6.8 x 12.7 inches UPC:098689888507 Item model number:WKRU3524 Material Type:Nylon Batteries required:No Dishwasher safe:No Is portable:No Recessed zip closure; gold-toned hardware; 2 handles with drop of approx. 8 inches; Removable/adjustable strap with maximum drop of approx. 18 inches Front has Kate Spade name and logo; Each side has a slip pocket Interior features open compartment with 1 zip pocket, 1 elastic pocket and 2 slip pockets Wipeable nylon lining with removable changing pad Approx. Dimensions: 14 in L x 13 in H x 5.5 in W A very stylish and functional Kate Spade baby diaper bag for every use, trips, etc. Durable woven nylon with smooth leather trim wipeable nylon lining.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "218.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "12244",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "ssb-direct"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kate Spade Taden Baby Bag Blake Avenue in Diamond Dot (123) New",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T11:02:22.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726641998098080_1.jpg",
+  "TimeLeft": "P3DT19H35M18S",
+  "EndTime": "2017-06-06T11:02:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "WKRU3524"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade New York"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689888507"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0098689888507"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172664199809",
+  "Storefront": {
+    "StoreName": "ssb-direct",
+    "StoreURL": "http://stores.ebay.com/id=1080118404"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B0169M0GQ0",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

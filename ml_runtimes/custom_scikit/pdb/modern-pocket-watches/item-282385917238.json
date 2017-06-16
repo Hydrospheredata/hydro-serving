@@ -1,0 +1,64 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "85032",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "A gold plated eagle pocket watch and chain. The watch is a Japan movement. It is very ornate featuring an eagle face on the outside cover and on the face of the watch. Easy to read roman numeral numbers - hand wound. Very good condition with the exception of a missing piece on the pocket watch where the chain would be attached. FREE SHIPPING",
+  "StartTime": "2017-03-06T22:22:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/H98AAOSw2gxYvdw6/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxNDYw/z/e1EAAOSwfVpYvdyD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxOVgxMjA4/z/qP4AAOSwuxFYvdyX/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "1990-1999",
+      "Name": "Year of Manufacture"
+    }
+  },
+  "Seller": {
+    "UserID": "snowball.0",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "13",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "92",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2823859172388080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-04T22:22:48.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/USA-Golden-Eagle-Pocket-Watch-Gold-Chain-/282385917238",
+  "Location": "Phoenix, Arizona",
+  "Title": "USA Golden Eagle Pocket Watch with Gold Chain",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "282385917238",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT3H30M58S"
+}

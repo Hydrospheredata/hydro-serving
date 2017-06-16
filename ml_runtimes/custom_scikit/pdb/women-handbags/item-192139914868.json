@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0138/755/747/306385447/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0138/755/747/306385448/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0138/755/747/306385449/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0138/755/747/306385450/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fritzi-aus-Preusen-Womens-Top-Handle-Bag-Wheat-Free-Shipping-/192139914868",
+  "ConvertedCurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fritzi aus Preu\u00dfen Women's Top-Handle Bag Wheat by Fritzi aus Preu\u00dfen Ships from UK Supplier Related Searches: Top-Handle Bag Bags, Top-Handle Bag Weight: 1.1 kg",
+  "Title": "Fritzi aus Preu\u00dfen Women's Top-Handle Bag Wheat. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-25T20:45:53.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P21DT4H24M48S",
+  "EndTime": "2017-06-23T20:45:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Fritzi aus Preu\u00dfen"
+      },
+      {
+        "Name": "MPN",
+        "Value": "476010314"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139914868",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:138755747:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

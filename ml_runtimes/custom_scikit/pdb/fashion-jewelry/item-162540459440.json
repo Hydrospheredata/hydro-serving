@@ -1,0 +1,152 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P28DT5H39M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162540459440",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swallow-Bird-Swarovski-Element-Austrian-Crystal-Rhinestone-Brooch-Pin-/162540459440",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T18:42:17.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-03T18:42:17.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "Swallow Bird Swarovski Element Austrian Crystal Rhinestone Brooch Pin",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Stunning! Swallow Bird Fashion Brooch made with Swarovski Element Austrian Crystal and Rhodium Plate. Color: Clear Crystal and Rhodium Plated Size: 66mm x 88mm Quantity: 1 x Brooch Condition: 100% Brand New Made In U.S.A. -------------------------------------------------------------------------------------------------------------------- NOTES: 1. The size might be slightly difference due to manual measurement. 2. Items in photos are highly magnified to show detail and may appear larger than actual size. Please read the measurements in description. 3. Color might appear differently in different monitors, we tried our best to show the actual color of the item. 4. Please read the description and notes before you buy, buy cautiously if you cannot accept these slight variations. Thank you! 5. Payment are expected within 48 hours from the end of each auction. If you have any question please feel free to contact me, I will answer it ASAP.Thank you for looking and Happy Bidding!!!!!",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625404594408080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "isaccessories",
+    "FeedbackScore": "394",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "isaccessories",
+    "StoreURL": "http://stores.ebay.com/id=526752892"
+  },
+  "Quantity": "1",
+  "Location": "Miami, Florida",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kWkAAOSwTglYkM6g/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MMQAAOSwUKxYkM6E/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oSoAAOSwopRYkM60/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/p7QAAOSw4DJYkM7E/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "33172"
+}

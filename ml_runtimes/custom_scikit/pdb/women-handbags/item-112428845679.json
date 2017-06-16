@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY5WDcwMA==/z/JJIAAOSwtnpXnsBl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyMlg3MDA=/z/RCsAAOSwH3NXnsBn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NkAAAOSw3xJXnr~4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aQsAAOSwRoxXnr~9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FrQAAOSwPRlXnsAA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/acwAAOSwRoxXnsAG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oM8AAOSwbsBXnsAM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1o0AAOSwZVlXnsAQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OFgAAOSw3xJXnsAX/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-PROENZA-SCHOULER-Python-Medium-Bucket-Bag-Dark-Olive-/112428845679",
+  "ConvertedCurrentPrice": {
+    "value": "900.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Proenza Schouler Ptyhon Medium Bucket Bag in Dark Olive Purchased from Barneys, includes tags, authenticity card, and dust bag Retails for $1850 It's so gorgeous, but I'm selling it because the color isn't what was pictured on the website. The Barneys website pictures are not true to color. Please refer to my pictures for the true color of the bag Details\u00a0 Proenza Schouler matte dark olive python medium bucket bag. Protective metal feet. Polished silvertone hardware. Lined with black smooth leather. Zip pouch on leather lanyard at interior. Detachable, adjustable flat python strap. Drawcord closure. 10.0\" height x 8.5\" width x 5.5\" depth (approximately). 18\" to 20\" strap drop (approximately). Available in Dark Olive. Made in Italy.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "900.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Kyoto",
+  "Seller": {
+    "FeedbackScore": "142",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "abeeyo_q8"
+  },
+  "PrimaryCategoryID": "63852",
+  "Country": "JP",
+  "ListingType": "FixedPriceItem",
+  "Title": "NWT PROENZA SCHOULER Python Medium Bucket Bag Dark Olive",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:37:54.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT23H31M59S",
+  "EndTime": "2017-07-02T13:37:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Proenza Schouler"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bucket"
+      },
+      {
+        "Name": "Material",
+        "Value": "Python"
+      },
+      {
+        "Name": "Color",
+        "Value": "Green"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428845679",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124288456798080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

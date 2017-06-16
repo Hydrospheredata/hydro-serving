@@ -1,0 +1,231 @@
+{
+  "ExcludeShipToLocation": [
+    "AT",
+    "BA",
+    "CY",
+    "DE",
+    "MD",
+    "SJ",
+    "CH",
+    "AG",
+    "AW",
+    "VG",
+    "CR",
+    "SV",
+    "GT",
+    "HN",
+    "MQ",
+    "NI",
+    "VC",
+    "TT",
+    "TC",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "BR",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "KW",
+    "QA",
+    "SA",
+    "AF",
+    "AZ",
+    "CN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "LK",
+    "FJ",
+    "KI",
+    "NC",
+    "PG",
+    "TV",
+    "WF"
+  ],
+  "QuantitySold": "1",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "buyfromhere89",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "29593",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-20T03:09:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-z8AAOSwurZZH7Na/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-HMAAOSw0hlZH7Nc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HlIAAOSwlndZH7Ne/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/h3kAAOSwR29ZH7Ni/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/lekAAOSw~y9ZH7Nk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/93MAAOSwJH1ZH7Ns/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "HighBidder": {
+    "UserID": "i***e",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "483",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "11",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "[P940]EBB89A",
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3917897639808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-19T03:09:34.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Captain-America-Quartz-Pocket-Watch-Necklace-Pendant-Gift-Men-Women-Boy-/391789763980",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fashion Captain America Quartz Pocket Watch Necklace Pendant Gift Men Women Boy",
+  "Storefront": {
+    "StoreName": "buyfromhere89",
+    "StoreURL": "http://stores.ebay.com/id=1088295596"
+  },
+  "ItemID": "391789763980",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P18DT8H30M35S"
+}

@@ -1,0 +1,114 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "usa",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:18:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:18:32.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Pulsar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "182600149768",
+  "HandlingTime": "1",
+  "Description": "Vintage Pulsar V320-5160 Mens Watch with Original Box and Papers. The watch is pre owned in very clean great condition with some very minor marks, working perfect. Please see the pictures.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Pulsar V320-5160 Mens Watch with Original Box and Papers",
+  "ConditionDescription": "pre owned great condition with some very minor marks",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Pulsar-V320-5160-Mens-Watch-Original-Box-and-Papers-/182600149768",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826001497688080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H5M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4MzE=/z/H6MAAOSwhvFZLsEP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTQ=/z/7C8AAOSw8HBZLsEU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQz/z/fMwAAOSw~FJZLsEj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTM0/z/LdsAAOSwq1JZLsEq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTgxWDE2MDA=/z/ci8AAOSwlMFZLsFU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODg5WDE2MDA=/z/hEQAAOSw3gJZLsFZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMzM1gxNjAw/z/~EMAAOSwlY1ZLsFo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQ5WDE2MDA=/z/c~AAAOSws5pZLsFv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODE4WDE2MDA=/z/79MAAOSwn-tZLsF7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTQ2WDE2MDA=/z/IUgAAOSwKytZLsGF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg5WDE2MDA=/z/yD8AAOSw0hlZLsGQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVgxNDA1/z/CvcAAOSwfRdZLsGW/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "643",
+    "UserID": "allens25",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

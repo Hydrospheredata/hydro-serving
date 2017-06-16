@@ -1,0 +1,146 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns accepted if item description does not match item only.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "222535204509",
+  "TimeLeft": "P9DT11H39M44S",
+  "ListingStatus": "Active",
+  "Title": "UNISEX Matching Hippy Gypsy Style Beaded Cuff Bracelet & Necklace Set",
+  "ConditionDescription": "Perfect",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T23:27:41.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-14T23:27:41.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNISEX-Matching-Hippy-Gypsy-Style-Beaded-Cuff-Bracelet-Necklace-Set-/222535204509",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Topock, Arizona",
+  "Description": "Although this bracelet and necklace came from two different places, it was clear to see that they belong together. Both pieces are made from multi-colored glass and wooden beads. The cuff bracelet is adjustable to fit any wrist and the continuous necklace measures 50\". We accept payments through Paypal only. We ship within 24 hours on weekdays. We prefer not to deal with returns so please ask any questions and be sure before placing a bid. Although we research our items, we are subject to error. That being said, if you ever receive an item from us that is not as described, please contact us for a resolution before leaving negative feedback or opening a case. We will do everything we can to resolve the issue. However, we will not accept returns if a buyer changes their mind, or an item does not fit. We are always willing to take measurements of our items to help you determine whether it is the right fit for you. Please take a moment to check our other auctions and bookmark us as we are always listing a variety of new items. Thanks for dropping in and have a Grateful day!",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225352045098080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "lifeforceyetay",
+    "FeedbackScore": "448",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4OTY=/z/OF8AAOSw-3FZJ2gA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwNlg4OTY=/z/h7sAAOSwblZZJ2gq/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "86436"
+}

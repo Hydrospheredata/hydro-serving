@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "144.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fairfax, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:34:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "144.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:34:13.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142399988645",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brand new, jewelry  Bulova 96D104 Silver Analog Japanese Quartz Men's Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brand-new-jewelry-Bulova-96D104-Silver-Analog-Japanese-Quartz-Mens-Watch-/142399988645",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423999886458080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "22031",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H8M",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDYxWDYyOA==/z/YgAAAOSwt0FZBhpD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzQzWDY3Mg==/z/dW8AAOSwcgNZBhpc/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "This classic from Bulova's Diamond collection features stainless steel case with a steel link bracelet. Black dial with luminous hands and 8 diamond hour markers. Brand:BulovaBand Color:SilverBand Material:Stainless SteelBand Width (MM):26Case Diameter (MM):40Case Material:Stainless SteelClasp:DeploymentCrystal:MineralDisplay:AnalogGender:Men'sWarranty:3 Year Bulova Limited WarrantyWatch Movement:Japanese QuartzWater Resistance (M):30Features:Date Function, 8 diamonds as hour markers Series:Diamond Movement:Quartz Case Diameter (mm.):40 Case Thickness (mm.):8 Bezel Material:Stainless steel",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6",
+    "UserID": "luchedly",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

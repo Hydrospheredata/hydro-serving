@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM3MFgxMDI0/z/osAAAOSwKytZG13h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/sxoAAOSw42dZG13s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3MFgxMDI0/z/LlQAAOSw~y9ZG13z/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Disney-X-Coach-RED-Penny-Crossbody-Calf-Leather-Mickey-Mouse-F59374-395-/322540130049",
+  "ConvertedCurrentPrice": {
+    "value": "215.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "DISNEY X COACH RED PENNY CROSSBODY IN GLOVE CALF LEATHER WITH MICKEY MOUSE LIMITED EDITION DETAILS STYLE: F 59374Glove calf leatherInside open pockets Outside slip pocketDetachable strap with 23 1/2\" drop for shoulder or crossbody wear9\" (L) x 5\" (H) x 2 1/4\" (W)",
+  "Title": "NWT Disney X Coach RED Penny Crossbody  Calf Leather Mickey Mouse F59374 $395",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "215.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Middletown, New York",
+  "Seller": {
+    "FeedbackScore": "313",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "tealbluewave"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10940",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:16:57.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P4DT22H4M52S",
+  "EndTime": "2017-06-07T12:16:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322540130049",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225401300498080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

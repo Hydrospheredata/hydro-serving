@@ -1,0 +1,84 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Berkeley, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-30T19:45:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-06T19:45:48.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322536686498",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gucci",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GUCCI-Mens-Watch-131-3-40-x-42mm-Swiss-watch-Original-1000-/322536686498",
+  "Title": "GUCCI Men's Watch 131.3 40 x 42mm Swiss watch Original $1000",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225366864988080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "94704",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT4H14M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/XigAAOSwlndZLcuh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/PZQAAOSwYvFZLcuh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/nhAAAOSwn-tZLcuh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/lfwAAOSw1WJZLcuh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/W5cAAOSwX61ZLcui/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/lkEAAOSwi7RZLcuh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/tlsAAOSwYlRZLcui/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/6VIAAOSwq1JZLcs~/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/eOsAAOSwfpVZLcuh/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "The left band and watch strap of this watch is very worn, 4/10 condition. The watch face and right band is in very good 8/10 condition. The original price of this watch is retailed at one thousand dollars. Owners manual and original box included. Pictures of wear shown above.",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "1",
+    "UserID": "pde-pat-uv7w3dam",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

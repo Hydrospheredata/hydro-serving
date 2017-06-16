@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DFcAAOSw3utY6sO4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aGsAAOSw03lY6sPJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4uYAAOSwls5Y6sPZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-VERA-BRADLEY-PORTABELLO-ROAD-MESSENGER-DIAPER-BAG-GORGEOUS-PRINT-F-S-/332247172963",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a gorgeous BRAND NEW WITH TAGS VERA BRADLEY PORTABELLO ROAD MESSENGER DIAPER BAG. Adjustable shoulder strap. Changing pad included. MSRP $118. FREE SHIPPING. BRAND NEW/UNUSED CONDITION. Please e-mail me if you have any questions. Please ask questions before bidding as all sales are final. Payment due within 2 days of auction win. All items are sent with FREE Delivery Confirmation. You will receive an e-mail once your item has been shipped with a tracking number. Thanks!!!",
+  "Title": "NWT-VERA BRADLEY PORTABELLO ROAD MESSENGER DIAPER BAG GORGEOUS PRINT! F/S!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Lynnwood, Washington",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "4249",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "missieprissie"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98037",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T12:55:31.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P5DT21H35M55S",
+  "EndTime": "2017-06-08T12:55:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332247172963",
+  "Storefront": {
+    "StoreName": "Fancy Pants Finery",
+    "StoreURL": "http://stores.ebay.com/id=50831066"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322471729638080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

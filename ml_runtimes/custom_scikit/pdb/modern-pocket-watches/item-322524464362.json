@@ -1,0 +1,81 @@
+{
+  "ExcludeShipToLocation": "Europe",
+  "QuantitySold": "0",
+  "PostalCode": "33174",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Pulsar Pocket Watch PXD198 Gold Plated White Dial Japanese Quartz Movement 45mm Case",
+  "StartTime": "2017-05-21T20:52:04.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/u7wAAOSwWxNYzVW9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/5qsAAOSw4CFYzVW-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/UMEAAOSwax5YzVW~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/OKIAAOSwSlBYzVeA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/22oAAOSwYXVYzVeE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/mO0AAOSw2gxYzVeG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/nW0AAOSwol5YzVeJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/lZ8AAOSwax5YzVeb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/MmYAAOSw4YdYzVed/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "115.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Pulsar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rojus-itdrrg",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "143",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225244643628080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T20:52:04.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "115.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pulsar-Pocket-Watch-PXD198-/322524464362",
+  "Location": "Miami, Florida",
+  "Title": "Pulsar Pocket Watch PXD198",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322524464362",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT2H13M25S"
+}

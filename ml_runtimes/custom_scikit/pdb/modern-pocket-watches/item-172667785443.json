@@ -1,0 +1,129 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "COLIBRI OF LONDON POCKET WATCH GOLF",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "COLIBRI OF LONDON POCKET WATCH GOLFBRAND: COLIBRI OF LONDON MOVEMENT: BatteryDIAMETER: Approx: 18 (Approx: 44 mm OR Approx: 1.75 inches)THICKNESS: Approx: 14 mm MATERIAL: Stainless steelCLOSURE: Full HunterCRYSTAL: Mineral CrystalHANDS: Silver/illuminating hour and minute hands. Silver second hand. DIAL COLOR: White with silver golferCHAIN LENGTH: Approx: 6.5 inches. Chain has been replaced. Please note that the end of the chain does not have a clasp. PLEASE VIEW IMAGES CLOSELY AND EMAIL WITH ANY QUESTIONS PRIOR TO PURCHASING WATCH. PLEASE NOTE: THIS ITEM IS A FINAL SALE! WE DO NOT ACCEPT RETURNS OR EXCHANGES.",
+  "StartTime": "2017-05-09T19:57:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/ypMAAOSwt5hYi7hd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/0TkAAOSw-0xYi7f~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/sw8AAOSwImRYi7gC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/eaAAAOSwnHZYi7gF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/mxAAAOSw9GhYi7gI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/hKUAAOSwA3dYi7gL/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Colibri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": [
+          "Silver",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "18",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "watchsolutions10",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "362",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "40",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726677854438080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T19:57:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "SKU": "MURRIETA - PW13",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLIBRI-LONDON-POCKET-WATCH-GOLF-/172667785443",
+  "Storefront": {
+    "StoreName": "WATCHSOLUTIONS10",
+    "StoreURL": "http://stores.ebay.com/id=1040060587"
+  },
+  "ItemID": "172667785443",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT1H15M5S"
+}

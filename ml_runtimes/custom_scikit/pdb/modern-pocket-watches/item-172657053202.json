@@ -1,0 +1,93 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "60107",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Silver Tone Stainless Steel Motorcycle Pocket Watch. Cool Exquisite Personality and Stylish too! Super excellent design with precise and durable movement. A good gift for your Dad, Son, Friends or OTHER Relatives. Very nice wearing pocket watch in outdoor recreations and rides. It's fashion, and a useful accessory to brighten up your look. Dial Diameter is 1.77 inches. Dial Thickness is 0.59 inches. Chain Length is15.75 inches Metal Material is Stainless Steel Please review all photos carefully before bidding or buying, All sales final, No Returns. Shipping only to the 48 continental United States. E-mail with questions first. Thanks!",
+  "StartTime": "2017-05-02T20:15:30.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xvQAAOSwV0RXsRhr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CtAAAOSwU-pXsRhz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GlMAAOSw65FXsRh5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6zQAAOSwaB5XsRiB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zfgAAOSw9NdXsRiJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7RAAAOSw6n5XsRiQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/H4YAAOSwMtxXsRiW/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "moonbaby-2007",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "130",
+    "PositiveFeedbackPercent": "96.4"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726570532028080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T20:15:30.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Motorcycle-Pocket-Watch-Silver-Tone-Stainless-Steel-/172657053202",
+  "Location": "Streamwood, Illinois",
+  "Title": "Motorcycle Pocket Watch Silver Tone Stainless Steel",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "172657053202",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT1H30M21S"
+}

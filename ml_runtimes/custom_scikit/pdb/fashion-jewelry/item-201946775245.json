@@ -1,0 +1,134 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT23H24M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "100.11",
+    "_currencyID": "USD"
+  },
+  "SKU": "A000036-shoul-A-187",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "201946775245",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/natural-Sun-stone-Bead-9mm-Bracelet-Lovers-fashion-grace-High-end-Ornaments-/201946775245",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "100.11",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:00:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:00:24.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stretchable",
+        "Name": "Features"
+      },
+      {
+        "Value": "7",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "solar stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "natural Sun stone Bead 9mm Bracelet Lovers fashion grace High-end Ornaments",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019467752458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "sellerdirect_2015",
+    "FeedbackScore": "6362",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sellerdirect_2015",
+    "StoreURL": "http://stores.ebay.com/id=1344662342"
+  },
+  "Quantity": "1",
+  "Location": "Lianyungang",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/bnkAAOSwK6RZNR2s/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/LsoAAOSwurZZNR2s/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jUQAAOSwcgNZNR2s/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GnYAAOSws5pZNR2s/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

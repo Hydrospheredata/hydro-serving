@@ -1,0 +1,221 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/SLwAAOSwmrlUts-N/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/xPkAAOSw1ZBUts-P/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/SioAAOSw2s1Uts-S/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/7GUAAOSw0e9Uts-U/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/GV0AAOSwzrxUts-X/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/HEgAAOSw1vlUts-Y/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/S1IAAOSw2s1Uts-a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/xnUAAOSw1ZBUts-d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/NewAAOSwm8VUts-f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/WKQAAOSw-W5Uts-i/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MA4AAOSwxYxUts-l/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/TQ8AAOSw2s1Uts-o/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-KORS-JET-SET-ITEM-MANDARIN-SOFT-GENUINE-LEATHER-LARGE-TOTE-NWT-278-/172709448768",
+  "ConvertedCurrentPrice": {
+    "value": "144.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags Michael Kors jet set item Mandarin Soft Genuine Leather Large Tote MSRP:$278. 00. Style# 38F2CTTT7L Inside one large main compartment Four slip pockets and one zippered pocket Exterior back side has one slip pocket Michael Kors signature tan interior lining Hardware is gold tone Purse closes on the top with hidden magnetic snap to secure your belongings Michael Kors gold tone hangtag Medallion No Dustbag",
+  "Title": "MICHAEL KORS JET SET ITEM MANDARIN SOFT GENUINE LEATHER LARGE TOTE NWT $278",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "144.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Cumming, Georgia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "257",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "marciashawshaw"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PE",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30028",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:12:10.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT20H49M36S",
+  "EndTime": "2017-07-02T11:12:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Mandarin"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "Top-14\" Bottom 11\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "10\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "887042365393"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172709448768",
+  "Storefront": {
+    "StoreName": "Fashion Home And Sports Galore",
+    "StoreURL": "http://stores.ebay.com/id=1060630629"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727094487688080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "Title": "New Eagle Majestic Flight Exclusive Edition Pocket Watch",
+  "PostalCode": "76016",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This is a new still in the packaging majestic flight eagle which is an exclusive edition for Al Agnew.",
+  "StartTime": "2017-03-30T17:19:43.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pekAAOSwnNBXWuEj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VOkAAOSw9eVXWuE8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ywEAAOSwmtJXWuFS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SycAAOSwtJZXWuFn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OBAAAOSwbYZXWuGI/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NOS part",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "cmdallas",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2506",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "80",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3719070004808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T17:19:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Eagle-Majestic-Flight-Exclusive-Edition-Pocket-Watch-/371907000480",
+  "ConditionDescription": "This is new still in the original packaging one of a kind",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Arlington, Texas",
+  "Storefront": {
+    "StoreName": "Custom Motorcycles of Dallas",
+    "StoreURL": "http://stores.ebay.com/id=81840651"
+  },
+  "ItemID": "371907000480",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT22H30M53S"
+}

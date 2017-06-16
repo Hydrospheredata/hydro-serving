@@ -1,0 +1,146 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.13",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "maidstone, Kent",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:57:38.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "CCAccepted",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "10.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T09:57:38.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "361995144189",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Swatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Beige",
+          "Patterned"
+        ],
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "17.5mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Swatch Irony",
+        "Name": "Model"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "10.99",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "used but in good condition - no appreciable damage - some wear expected with use and age. agaood working order - new battery added",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Ladies-Swatch-Irony-Wristwatch-Stainless-steel-expanding-strap-/361995144189",
+  "Title": "Vintage Ladies Swatch Irony Wristwatch -Stainless steel - expanding strap",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619951441898080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "ME15 6PJ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT18H32M19S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk2WDc4NA==/z/pMIAAOSwX9FZIHmj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njg0WDYxMg==/z/MGYAAOSw-K9ZIHnd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BpcAAOSwfpVZIHo9/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Lovely Used Ladies Vintage Swatch Iriony Stainless Steel expanding Bracelet wristwatch in good working order - new battery fitted. Buyer pays postage and Packing \u00a31.70 second class UK. Additional costs to overseas on request. Payment by cheque, postal order or Paypal. Returns by negotiation",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2285",
+    "UserID": "honest_del",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "by negotiation.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT3H1M53S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Stickers & Body Art",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "388.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252834366083",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jewels-/252834366083",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "388.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-28T19:11:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T19:11:55.000Z",
+  "PrimaryCategoryID": "177768",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ear",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "VMDesigner",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sapphire",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Brazil",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Jewels",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Semij\u00f3ia: Brinco 3 em 1Pedras: Cristal Turquesa MCZ cor Turmalina Banho: R\u00f3dioConfira mais produtos: http://www.vaniamarinho.com.br/",
+  "PrimaryCategoryIDPath": "281:10968:15124:177768",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2528343660838080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "vmdesigner",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Miami Beach, Florida",
+  "HitCount": "23",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/yRcAAOSwZLhY2m50/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33140"
+}

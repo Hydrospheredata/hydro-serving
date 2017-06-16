@@ -1,0 +1,181 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/-kEAAOSwsW9YyRm-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/jHwAAOSwXYtYyRnA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/TC8AAOSwuLZYyRnB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/uKQAAOSwol5YyRnD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/LC4AAOSwSlBYyRnE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/B68AAOSwuxFYyRnG/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/kate-spade-handbag-/112428648411",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade \u2660\ufe0f handbag \ud83d\udc5c in good condition like new used 1 time.",
+  "Title": "kate spade handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Pomona, California",
+  "Seller": {
+    "FeedbackScore": "235",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "909*mona*"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "NZ",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "91768",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:13:33.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT18H43M38S",
+  "EndTime": "2017-06-09T09:13:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428648411",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124286484118080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

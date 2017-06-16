@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921438972968080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/pHUAAOSww3tY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/InUAAOSwTM5Y3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/4F8AAOSwDmBY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/4FcAAOSwDmBY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/4GMAAOSwDmBY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/DT4AAOSw2gxY3NXx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/IokAAOSwTM5Y3NXx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/-EwAAOSwdGFY3NXx/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Belli-The-Bag-L-Womens-Italian-Genuine-Leather-Handbag-Satchel-Bag-Patent-Le-/192143897296",
+  "ConvertedCurrentPrice": {
+    "value": "149.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: High quality leather bag by Belli\u00ae made in italy. Available in a lot of colours and 3 sizes in our shop (Available sizes: L, XL, XXL). Beautiful modern look - strong, stable and high quality genuine leather - beautiful gold coloured trims and padlock. Reinforced bottom with metall feets. The ideal companion for every day in a handy format. A great sized tote carry bag that looks incredibly smart for everyday or work wear. - All our leather bags are impregnated as a small service performance for you before shipping fresh. Details of the bag: - Freshly impregnated - 3-divided main compartment with centre zipper compartment - 1 pocket inside with zipper, 1 pocket for handy - Separate shoulder strap - 2 variants carrying handle or shoulder bag - With twist lock to close - Dimensions approximately: Width: 29 cm Height: 24 cm (without handles) Depth: 16 cm",
+  "Title": "Belli\u00ae \"The Bag L\" Womens Italian Genuine Leather Handbag Satchel Bag Patent Le",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "149.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-30T09:54:51.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P25DT17H37M1S",
+  "EndTime": "2017-06-28T09:54:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "4250615300217"
+      },
+      {
+        "Name": "UPC",
+        "Value": "4250615300217"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Belli"
+      },
+      {
+        "Name": "MPN",
+        "Value": "11"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143897296",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:55645218:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

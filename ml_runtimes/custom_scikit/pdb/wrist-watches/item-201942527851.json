@@ -1,0 +1,165 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "\u4e2d\u5c71\u5e02, \u5ee3\u6771\u7701",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:27:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1510259998",
+    "StoreName": "Buyclearlove_dress"
+  },
+  "CurrentPrice": {
+    "value": "1.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:27:28.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": [
+          "Same as picture",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Display"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Model"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Style"
+      },
+      {
+        "Value": "Same as picture",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942527851",
+  "HandlingTime": "30",
+  "Description": "Welcome to my store ! If you have any question about the item just send me a massage , i will be glad to help you !",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Hot Sale Whole Sale Mans Business Wtches Cheap Fast Shipping  Cheap Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hot-Sale-Whole-Sale-Mans-Business-Wtches-Cheap-Fast-Shipping-Cheap-Watch-/201942527851",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019425278518080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H15M9S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MJ8AAOSwzaJYBf3G/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "1.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "18",
+    "UserID": "buyclearlove888",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

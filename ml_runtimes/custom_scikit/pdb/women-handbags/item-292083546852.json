@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/~esAAOSwirZTumKh/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LADIES-CLARKS-EVERYDAY-MODERN-BLACK-SMOOTH-FAUX-LEATHER-BAG-/292083546852?var=",
+  "ConvertedCurrentPrice": {
+    "value": "52.77",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "LADIES BAGS BRAND - CLARKSSTYLE NAME - MODERN SHOWCOLOUR - BLACK/COMBSTYLISH SYNTHETIC UPPERCOLORED TEXTILE LININGAPPROX LENGTH 36CM, WIDTH 17CM & HEIGHT 23CMLONG DETACHABLE SHOULDER STRAPCLASP FASTENINGSMARTPHONE POCKETSIDEAL FOR EVERYDAY USE/WORK ONLY \u00a339.99 Check out my other items! Be sure to add me to your favourites list! Closure Clasp Style Shoulder Bags Handbag Size L:36cm W:17cm H:23cm Brand Clarks Feature Detachable Strap Feature Mobile Phone Pocket Outer Material Patent Leather Main Colour Black",
+  "ExcludeShipToLocation": [
+    "AU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.77",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Location": "Leicester, Leicestershire",
+  "Seller": {
+    "FeedbackScore": "46471",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "bluntsshoesleicester"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LADIES CLARKS EVERYDAY MODERN BLACK SMOOTH FAUX LEATHER BAG",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "BLACK/COMB"
+      },
+      "VariationSpecificName": "Exact colour"
+    },
+    "Variation": {
+      "Quantity": "4",
+      "StartPrice": {
+        "value": "52.77",
+        "_currencyID": "USD"
+      },
+      "SKU": "CLARKS-MODERN=A",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Exact colour",
+          "Value": "BLACK/COMB"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Exact colour",
+        "Value": "BLACK/COMB"
+      }
+    }
+  },
+  "StartTime": "2017-04-12T04:33:03.000Z",
+  "TimeLeft": "P8DT12H18M57S",
+  "EndTime": "2017-06-11T04:33:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Closure",
+        "Value": "Clasp"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bags"
+      },
+      {
+        "Name": "Handbag size",
+        "Value": "L:36CM W:17CM H:23CM"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clarks"
+      },
+      {
+        "Name": "Outer material",
+        "Value": "Patent Leather"
+      },
+      {
+        "Name": "Main Colour",
+        "Value": "Black"
+      },
+      {
+        "Name": "Features1",
+        "Value": "Detachable strap"
+      },
+      {
+        "Name": "Features",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292083546852",
+  "Storefront": {
+    "StoreName": "Blunts Shoes Leicester",
+    "StoreURL": "http://stores.ebay.com/id=986185229"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "No returns will be accepted if you have put sellotape/adhesive and writing on the original box, the box must be brand new (as received). We only accept returns if you send the item back with the original Grey coloured outer wrapping or similar to protect the box.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "CLARKS-MODERN=",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

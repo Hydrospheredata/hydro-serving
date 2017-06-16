@@ -1,0 +1,90 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "78723",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "ecop!",
+    "FeedbackRatingStar": "SilverShooting",
+    "FeedbackScore": "1252500",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Powered by Frooition.comContact UsThe Best Police & Tactical Gear, Knives, Gun Parts, Hunting & Fishing Equipment and More - Always Free Shipping! Shop Categories Securityman SEC-SM-825DTH WiFi Fixed Camera for iWatchAlarm Series Stock photo Actual item may differ slightly from picture (Please check listingTitle/Description for fit, color and size information.)Securityman SEC-SM-825DTH WiFi Fixed Camera for iWatchAlarm Series Item Description App-Based iSecurity WiFi Indoor Camera with Audio and Night Vision. Works as a standalone app-based camera or integratable with iWatchAlarm series. Monitor through a password-protected connnection from PC, Mac, iPhone, iPad, or any compatible smartphone. Connect to a router via WiFi or Ethernet, install software on your PC, or register online with P2P server and then download the free app on your smartphone. 2.4GHz transmission up to 200 feet between walls or 490 feet with a clear line of sight. IR LEDs for 33 feet of black and white night vision. Infrared filtered camera for best vibrant color picture. Bult-in microphone with recording up to 30 feet away. Multiple recording options: micro SD card, smartphone, tablet, Mac, or PC. Two-way audio. Motion detection recording and email alert notification. Package includes indoor camera with bracket, power adapter, software and user manual CD, quick start guide, Ethernet cable, mounting screws. Color: White. Our StoreOur StoreShippingReturnsPaymentContact usOur Store More Items!View more great items About UsStore PoliciesInternational OrdersContact UsStore FAQ'sFlashlight GuideRiflescope GuideBinocular GuidePowered by Frooition.comFrooition www.frooition.com | No-js Template | eBay design, eBay store design, eBay shop design, eBay template design, eBay listing design (ver:froo_no_js)This listing is currently undergoing maintenance, we apologise for any inconvenience caused.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTUwWDU1MA==/z/Ye0AAOSw-K9ZHRaQ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.59"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "5",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Securityman",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SEC-SM-825DTH",
+        "Name": "MPN"
+      },
+      {
+        "Value": "701107902500",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "TDF-SEC-SM-825DTH-MAP",
+  "StartTime": "2017-05-18T03:35:42.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3820885368028080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T03:35:42.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.59"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "Description": "You are welcome to return your purchase to eCopUSA. The following guidelines apply to return requests submitted to eCopUSA: 1. Items returned that are deemed broken or defective, a listing error, or a shipping error qualify for a full refund that will be covered by eCopUSA. 2. Items returned for ANY reason other than stated above will be considered a customer error. Customers will be responsible for the return shipping costs plus a 15% restocking fee will apply. Please note, if an item or the item packaging for a customer error return is missing, incomplete, has been opened or tampered with in any way, WE WILL NOT ACCEPT THE RETURN. Items must be in a resalable pristine condition as Brand New, Unopened, Never Used. Do not return items in any other state as we will refuse the return request and the customer will be responsible for the shipping costs of the item (if you choose to reclaim the item). Items that are not reclaimed within 10 days of receipt of the unaccepted return will be disposed of. Please forward questions concerning our returns policy to our customer service team before returning items. 3. Returns will not be accepted for the following items: Batteries, Undergarments, Liquids and Oils, C02 products, and Flashlight Bulbs.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Securityman-SEC-SM-825DTH-WiFi-Fixed-Camera-iWatchAlarm-Series-/382088536802",
+  "Location": "Austin, Texas",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Securityman SEC-SM-825DTH WiFi Fixed Camera for iWatchAlarm Series",
+  "Storefront": {
+    "StoreName": "eCop Police Supply",
+    "StoreURL": "http://stores.ebay.com/id=12024003"
+  },
+  "ItemID": "382088536802",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P16DT9H52M36S"
+}

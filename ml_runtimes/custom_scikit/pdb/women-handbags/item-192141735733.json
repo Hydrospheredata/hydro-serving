@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921417357338080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-2.fishpond.co.nz/0125/729/027/263196778/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0125/729/027/263196779/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0125/729/027/263196780/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0125/729/027/263196781/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0125/729/027/263196782/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0125/729/027/263196783/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pratesi-Saturnia-small-handbag-B151-P-Bruce-Cognac-Shipping-Included-/192141735733",
+  "ConvertedCurrentPrice": {
+    "value": "780.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Made in Italy by artisans Dimensions: 26 cm x 23 cm x 12 cm Weight: 0,50 kg In Italian vegetable-tanned leather. Made of Italian leather, tanned according to a technique, unique in the world, yet never replayed. The tanning uses only vegetable products (tannin, fat, tallow, etc..) and has the characteristic of age with use, becoming day by day, more and more fascinating. The first age was made by applying various waxes and other natural products, whose formula is secret. Including cotton cloth bag plush. Made\u2022in\u2022Italy Product Information Material: Calf Leather Width 26 cm Height 23 cm Depth 12 cm Handles: Leather Weight 0,50 kg",
+  "Title": "Pratesi Saturnia small handbag - B151/P Bruce (Cognac). Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "780.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T00:09:44.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P23DT7H50M16S",
+  "EndTime": "2017-06-26T00:09:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Pratesi Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "748733416"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141735733",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:125729027:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

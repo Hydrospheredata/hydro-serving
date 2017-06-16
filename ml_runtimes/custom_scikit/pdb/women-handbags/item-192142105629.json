@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921421056298080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/krYAAOSw4A5Y2gKu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wxAAAOSwhQhY2gKu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/YXgAAOSw4CFY2gKv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/LksAAOSwax5Y2gKv/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hype-Glitch-Flowers-Backpack-Multicoloured-Free-Delivery-/192142105629",
+  "ConvertedCurrentPrice": {
+    "value": "61.1",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Are you seeking a new backpack that has a different edge. Bored of your existing style, and looking for a simple way to switch up your look. If so, then it's time you checked out the Hype Glitch Flowers Backpack (Multicoloured)! Offering an unusual but quirky finish, this unisex backpack is perfect for all occasions, whether it's for transporting school essentials, your gym kit, or everything you need for that perfect weekend away, this backpack has your back covered (literally!). With its glitch floral design, this spacious 18 litre bag also features a zipped main compartment, zipped front pocket, adjustable padded straps, padded back panel, and the well-known hype branding. What are you waiting for. Switch up your look today with the Hype Glitch Flowers Backpack! Let your style blossom with this essential fashion accessory.",
+  "Title": "Hype Glitch Flowers Backpack (Multicoloured). Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "61.1",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-28T06:28:53.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P23DT14H9M38S",
+  "EndTime": "2017-06-26T06:28:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "HYPE. Clothing"
+      },
+      {
+        "Name": "MPN",
+        "Value": "781423786"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142105629",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:137453544:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

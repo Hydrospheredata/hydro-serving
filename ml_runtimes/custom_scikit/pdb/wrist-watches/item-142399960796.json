@@ -1,0 +1,128 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "7.7",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Sunderland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:54:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=80740601",
+    "StoreName": "steveandsuecat"
+  },
+  "CurrentPrice": {
+    "value": "5.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:54:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "South America",
+    "PR",
+    "ZA",
+    "LK"
+  ],
+  "ItemID": "142399960796",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Green",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Model"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Harry Potter Hogwarts  Gold  Faced Quartz Watch Ice Green Strap",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Harry-Potter-Hogwarts-Gold-Faced-Quartz-Watch-Ice-Green-Strap-/142399960796",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423999607968080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "SR67QU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H37M",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/E6wAAOSwEjFXcRT2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/H4IAAOSwzJ5XcRUR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JE8AAOSwzJ5XcRU6/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "This is an auction for a Quartz Watch. Face is 38mm in diameter with a Gold surround on face and Image of Hogwarts. Strap which is 24.5cm in total length. Quartz watch which has battery fitted . ANY QUESTIONS PLEASE CONTACT. CHECK OUR OTHER AUCTIONS . THANK YOU Please check our feedback. Will be shipped from the UK . We post daily apart from Sunday . More auctions will be added daily.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "47934",
+    "UserID": "steveandsuecat",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "We will accept returns up to 30 days after delivery if the item is not as described or broken.We will refund costs but not return postage if items not as described or faulty.Please contact us with any queries as we will do our utmost to ensure 100% satisfaction",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

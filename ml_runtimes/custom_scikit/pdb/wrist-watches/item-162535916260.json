@@ -1,0 +1,139 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "16.71",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Warrington, Cheshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:10:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "12.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:10:25.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535916260",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "any",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "OHSEN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Backlight",
+        "Name": "Features"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "7mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "25mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Analogue and Digital  WATCH  BRAND NEW.  STILL IN CELLOTHANE",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Analogue-and-Digital-WATCH-BRAND-NEW-STILL-CELLOTHANE-/162535916260",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359162608080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "Wa3 3ex",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H53M20S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg4WDY5NA==/z/ZGUAAOSw-kdX1Vxu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/Xm0AAOSwknJX1VxZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM5WDUxMQ==/z/X9oAAOSwcL5XMINW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQ2WDUwMA==/z/SZ8AAOSw3zxXMINH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/bYwAAOSw~oFXMINS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQ5WDY5MQ==/z/oooAAOSwOdpX1Vx5/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "SPORTY LOOKING WATCH FROM OHSEN WATER RESIST DIGITAL ANALOGUE WITH LED LIGHT ACTIVATED WITH A BUTTON STILL IN CELLOPHANE",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "322",
+    "UserID": "hoot_greg",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

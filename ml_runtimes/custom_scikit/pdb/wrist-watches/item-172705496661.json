@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:50:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:50:29.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MVMT",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog & K\u1ef9 thu\u1eadt s\u1ed1",
+        "Name": "Display"
+      },
+      {
+        "Value": "Tr\u00f2n",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Brown",
+          "Gray"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Brown",
+          "Gray"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "30 m\u00e9t / 3 m\u00e1y ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705496661",
+  "HandlingTime": "1",
+  "Description": "IT'S ALL IN THE DETAILSCASE SIZE : 45 mmCASE THICKNESS : 9 mmSTRAP WIDTH : 24 mmMOVEMENT : Battery powered 3 hand Miyota quartz with dateGLASS : Hardened mineral crystalWATER RESISTANCE : 3 ATMCASE : Brushed gunmetal stainless steelDIAL : GunmetalDIAL DETAILS : Gunmetal hands & markers / blue second handSTRAP : Sandstone 100% genuine leatherINTERCHANGEABLE STRAP : Yes - compatible with leather and metal straps",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MVMT-WATCH-SANDSTONE-LEATHER-/172705496661",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727054966618080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H21M50S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/QP4AAOSw~FJZLoFr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/c3oAAOSwIQdZLoFs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/Yo8AAOSws5pZLoFv/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "MVMT WATCH SANDSTONE LEATHER",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "minhquannr",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

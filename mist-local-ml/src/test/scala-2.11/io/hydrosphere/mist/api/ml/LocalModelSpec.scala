@@ -139,7 +139,7 @@ class LocalModelSpec extends FunSpec with BeforeAndAfterAll {
         List(4.0, 0.0, 0.0, 6.0, 7.0)
       )))
       val result = trainedModel.transform(data).column("scaledFeatures").get.data.map { f =>
-        f.asInstanceOf[OldDenseVector].toArray
+        f.asInstanceOf[Array[Double]]
       }
       val validation = List(
         List(0.5, 0.0, 0.6546536707079772, 1.7320508075688774, 0.0),

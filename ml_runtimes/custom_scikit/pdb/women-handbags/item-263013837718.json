@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/QCoAAOSwblZZLiqr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/JpgAAOSwYvFZLirl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/QPEAAOSwY3BZLisE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/0YgAAOSwfRdZLjBx/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Jet-Set-Travel-Jewel-Tote-Small-Saffiano-Leather-Black-/263013837718",
+  "ConvertedCurrentPrice": {
+    "value": "270.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Color: BlackMaterial: Saffiano LeatherHardware: SilverHandle: Double Leather HandlesOpening : Zippered Closure With Silver MK PullInterior: Full Length Zippered Compartment, Leather MK Logo, 2 Additional Slips, Key ClipExterior Front: Jewel and Stud Accents, Michael Kors in Silver Letters, Silver MK Logo HangtagExterior Rear: Jewel and Stud AccentsBottom: LeatherLining: Michael Kors Signature FabricLength: 13\"Width: 5\"Height: 13\"Handle Drop: 8\" retailed at $298.00",
+  "Title": "Michael Kors Jet Set Travel Jewel Tote, Small, Saffiano Leather,Black,",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "270.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Seminole, Florida",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "beblessed7x77"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33772",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:30:53.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P28DT10H11M11S",
+  "EndTime": "2017-07-01T01:30:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Saffiano Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote, Shoulder Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013837718",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630138377188080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,97 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "348.99"
+  },
+  "QuantitySold": "0",
+  "Title": "VINTAGE 1942 WALTHAM PREMIER VANGUARD 23 JEWELS 10K GF RAILROAD POCKET WATCH",
+  "PostalCode": "17551",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "NEAR MINT -- CASE AND MOVEMENT ARE CLEAN -- CRYSTAL AND DIAL ARE NEAR PERFECT. PRODUCTION YEAR- 1942SERIAL NUMBER- 31243403GRADE- VANGUARDMODEL- 1908RUN QUANTITY- 10,000SIZE- 16JEWELS- 23OPEN FACELEVER SETRAILROAD GRADE- YES",
+  "StartTime": "2017-05-29T23:05:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODgwWDEwOTI=/z/GUYAAOSwTA9X9Frv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/bjUAAOSw4shX9Fq0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzgwWDgzNg==/z/slcAAOSwzaJX9Frd/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "348.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Waltham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "10 GOLD FILLED",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "31243403",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "pitbullmaher",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3186",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719665375798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T23:05:48.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "348.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-1942-WALTHAM-PREMIER-VANGUARD-23-JEWELS-10K-GF-RAILROAD-POCKET-WATCH-/371966537579",
+  "ConditionDescription": "RUNS BUT HAS NOT BEEN TESTED FOR ACCURACY",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Millersville, Pennsylvania",
+  "Storefront": {
+    "StoreName": "WATCHES AND OTHER THINGS",
+    "StoreURL": "http://stores.ebay.com/id=1058681024"
+  },
+  "ItemID": "371966537579",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT4H31M45S"
+}

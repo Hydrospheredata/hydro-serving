@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4MA==/z/A4oAAOSw7GRZCnhf/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Large-Duffel-Caffe-Latte-Fast-Shipping-/401320317465",
+  "ConvertedCurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Clean Home, Smoke & animal free",
+  "Seller": {
+    "FeedbackScore": "4623",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "yangyoung1"
+  },
+  "PrimaryCategoryID": "169296",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Large Duffel in Caffe Latte Fast Shipping!",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-04T00:39:56.000Z",
+  "HitCount": "23",
+  "TimeLeft": "PT7H47M32S",
+  "EndTime": "2017-06-03T00:39:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Strap",
+        "Value": "15"
+      },
+      {
+        "Name": "Length",
+        "Value": "22"
+      },
+      {
+        "Name": "Width",
+        "Value": "11.5"
+      },
+      {
+        "Name": "Height",
+        "Value": "11.5"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pictured"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401320317465",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013203174658080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTA2WDUwNg==/z/gI8AAOSw0UdXqA9V/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUxWDcyMA==/z/PewAAOSwbsBXqA9X/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc5WDYwMA==/z/rGcAAOSw65FXqA9b/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mjg1WDU4Nw==/z/2R0AAOSwdzVXqA9d/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg4WDQ2Ng==/z/tA8AAOSw9NdXqA9f/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PORTER-INTERNATIONAL-reversible-TOTE-Hand-Bag-Computer-Bag-/201944259348",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "PORTER-INTERNATIONAL reversible TOTE hand bagOfficially authorised by the original copyright, sold in Taiwan onlyCan be turned inside out to transform color & styleSize: 25 cm long x 10.5 cm deep x 32.5 cm high Quick registered delivery with tracking from Taiwan",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Chiayi County, Taiwan",
+  "Seller": {
+    "FeedbackScore": "150",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "submarineivan"
+  },
+  "PrimaryCategoryID": "169293",
+  "Country": "TW",
+  "ListingType": "FixedPriceItem",
+  "Title": "PORTER-INTERNATIONAL reversible TOTE Hand Bag / Computer Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T07:51:00.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT16H58M35S",
+  "EndTime": "2017-07-02T07:51:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Porter International"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "Style",
+        "Value": "Reversible Hand Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944259348",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019442593488080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

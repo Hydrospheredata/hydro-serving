@@ -1,0 +1,174 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.44"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Specification: Item Type: Pocket Watch Dial Window Material Type: Hardlex Glass Movement: Japanes quartz movement Color: Bronze Style: Fashion & Casual Material: Alloy; Item weight: 1.76 Ounces Gender:men,women,boy,gilr Movement Description:Quartz Movement Water resistant:Daily water resistant, please don't put it in water Package: 1 * Pocket Watch 1* Gift Wrist strap - Owl Antique Style Delicate Pocket Watch - Diameter: 17mm(0.67inch); Thickness: 12mm(0.47 inch) - Owl Height: 4.2cm(1.65 inch); width: 2.5cm(0.98 inch);Chain Length: 80cm (31.5 inch) - Can be worn like a Necklace with a Pendant - Great gift for family and friends,come with a gift box CSMARTE Pocket Watch- Owl Style Bronze Steampunk Quartz Watch with Chain",
+  "StartTime": "2017-03-06T14:49:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JO0AAOSw4CFYvXcc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/xgEAAOSwOgdYvXcd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/rMEAAOSw32lYvXcd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/4NYAAOSwax5YvXcc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4NVgxNTAw/z/sDQAAOSwXYtYvXce/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4M1gxNTAw/z/xhoAAOSwOgdYvXce/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQzWDE1MDA=/z/r-EAAOSwXYtYvXcc/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "6900682072415",
+        "Name": "EAN"
+      },
+      {
+        "Value": "CSMARTE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "P-1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.1 x W 2 x H 1.1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "28",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2823855187628080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T14:49:53.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.44"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CSMARTE Pocket Watch- Owl Style Bronze Steampunk Quartz Watch with Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CSMARTE-Pocket-Watch-Owl-Style-Bronze-Steampunk-Quartz-Watch-Chain-/282385518762",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385518762",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H57M54S"
+}

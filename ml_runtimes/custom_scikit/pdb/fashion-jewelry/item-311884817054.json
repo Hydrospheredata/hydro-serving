@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "No quibble 30 day returns policy",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "311884817054",
+  "Quantity": "6",
+  "TimeLeft": "P24DT5H35M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Hallmarked-9ct-Gold-Celtic-Band-Pattern-5mm-Toe-Ring-Adjustable-Size-/311884817054",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "51.52",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T19:13:10.000Z",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "CCAccepted",
+    "PersonalCheck"
+  ],
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-29T19:13:10.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9ct Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "9ct Gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "United Kingdom",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "JTR008",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "New Hallmarked 9ct Gold Celtic Band Pattern 5mm Toe Ring Adjustable Size",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Hallmarked 9ct Gold Celtic Band Pattern 5mm Toe Ring Adjustable Size 0.8g Track Page Views With Auctiva's FREE Counter",
+  "GlobalShipping": "false",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3118848170548080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ratpackcat",
+    "FeedbackScore": "4084",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Redcar Jewellers",
+    "StoreURL": "http://stores.ebay.com/id=164909433"
+  },
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "Location": "Redcar, Cleveland",
+  "HitCount": "23",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/QHQAAOSww3tY6DVO/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "TS10 1RJ"
+}

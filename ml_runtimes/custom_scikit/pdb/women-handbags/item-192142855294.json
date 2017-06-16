@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sweet-Years-Woman-Bag-Mod-2457-TEMPLE-Huge-Saving-/192142855294?var=",
+  "ConvertedCurrentPrice": {
+    "value": "60.37",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Sweet Years Woman Bag",
+  "Title": "Sweet Years Woman Bag - Mod. 2457 TEMPLE. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.37",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Black",
+        "PictureURL": "http://rcdn-2.fishpond.co.nz/0138/755/805/306380574/original.jpeg"
+      },
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": {
+      "Quantity": "4",
+      "StartPrice": {
+        "value": "60.37",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:138755805:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour Name",
+          "Value": "Black"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": "Black"
+      }
+    }
+  },
+  "StartTime": "2017-03-29T01:55:18.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P24DT9H36M29S",
+  "EndTime": "2017-06-27T01:55:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Sweet Years"
+      },
+      {
+        "Name": "MPN",
+        "Value": "889000499"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142855294",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:138755804:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

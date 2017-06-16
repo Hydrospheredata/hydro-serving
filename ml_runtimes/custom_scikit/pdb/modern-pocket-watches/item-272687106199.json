@@ -1,0 +1,126 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "370.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Illinois Pocket Watch vintage 17jewels Movement # 2967143 size 12s, Gold plated Model 3 Grade 405, Case # 2675984 Estimated year of production 1916 Runs Scratches on the case, crystal and dial",
+  "StartTime": "2017-05-25T20:19:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODYwWDg4MA==/z/kBsAAOSwaEhZJzve/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XegAAOSwxu5ZJzUx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/59kAAOSwYlRZJzU2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Yt8AAOSw8HBZJzU7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KKQAAOSww9xZJzVA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-n0AAOSw~y9ZJzv1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Y8EAAOSw8HBZJzVP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~xsAAOSwJH1ZJzVU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QokAAOSws5pZJzwJ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Illinois",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "2967143",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "3",
+        "Name": "Model"
+      },
+      {
+        "Value": "12",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "17",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "watchmanca",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "568",
+    "PositiveFeedbackPercent": "99.1"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726871061998080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-24T20:19:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "370.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "As long as it is not damaged and it is in the some condition as shipped.\nThanks",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Illinois Pocket Watch  17j, 12s, ygp  Model 3, grade 405, 1916 runs",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Illinois-Pocket-Watch-17j-12s-ygp-Model-3-grade-405-1916-runs-/272687106199",
+  "Storefront": {
+    "StoreName": "watchmanca",
+    "StoreURL": "http://stores.ebay.com/id=1780258"
+  },
+  "ItemID": "272687106199",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT1H42M48S"
+}

@@ -1,0 +1,71 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Harry Potter Hogwarts School Watch, Hogwarts Watch, fabulous watches, Mens watch, Travel jewelry, harry potter watch, potter necklace, Hufflepuff crest Watch, Children's watches Material Type window of the dial: Glass Dial Material Type: Stainless steel Dial Diameter: 3.8 cm Type of material strap: Leather Clockwork: Quartz Features: Waterproof, No Belt width: 2cm Band Length: 24cmBand Width: 20 to 29 mmCase Material: Stainless SteelProduct type: Watches As always, I welcome questions. If you need additional information, please email me. I will respond as quickly a possible. Thank you for looking!!",
+  "StartTime": "2017-05-27T20:27:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/pgAAAOSwsW9YzZEp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/tQYAAOSwzgBYzZEv/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "natalii6",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "20",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225325836258080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-26T20:27:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Zhitomir, default",
+  "Title": "Harry Potter Hogwarts School  Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Harry-Potter-Hogwarts-School-Watch-/322532583625",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322532583625",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT1H51M51S"
+}

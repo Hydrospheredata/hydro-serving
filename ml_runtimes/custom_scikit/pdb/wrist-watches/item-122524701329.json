@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GR",
+  "Location": "Athens",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:57:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:57:20.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TW Steel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "CB151",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "8718836361319",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "122524701329",
+  "HandlingTime": "1",
+  "Description": "TW Steel large Bracelet Watch canteen bracelet stainless steel bicolor Ros\u00e9 45 mm CB151WATCH BRANDTW SteelSKUCB151EAN-CODE8718836361319CONDITIONThis watch is new and 100% originalCASE MATERIALSStainless steelDATEYesCASE SIZE45 mmCASE THICKNESS13 mmKIND OF MOVEMENTQuartz(=battery)MANUFACTURER MOVEMENTCitizen Miyota 2415COLOR OF THE DIALBrownDISPLAY SECONDSYesCRYSTALMineral with saphire layerKIND OF WATCHMens watchLUMINOUSLuminous handsWATER RESISTANT10ATM(=swimming + snorkelling)KIND OF WATCH STRAPStainless steelBAND WIDTH22 mmSTRAP COLORSteelBUCKLEDeployant clasp",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TW-STEEL-CB151-/122524701329",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225247013298080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H29M5S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI2MFgxMjYw/z/OMIAAOSw3gJZLn-6/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "TW STEEL CB151",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "340",
+    "UserID": "doyoulikeme22",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P25DT9H16M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "302334992211",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NERITIDAE-SNAIL-SHELL-NECKLACE-Hand-strung-signed-rare-/302334992211",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T00:07:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T00:07:01.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "No data",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "Snail, shell",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Color 1"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Material. 1"
+      },
+      {
+        "Value": "Shell/Sea snail",
+        "Name": "Material."
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NERITIDAE SNAIL SHELL NECKLACE Hand strung  signed  rare",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This is a rare real snail shell necklace The name on the larger snails, Red white and black are called Neritina communisThese snail are found in the Philippines The black and white snails are called Puperita Pupa Zebra Nerite Both snails are from the same famile of Neritidae.These snails are found in the islands of the Caribbean Province, southeast Florida and the West Indies. The ends (shell?) has a signature carved in, I believe it is says CP Hand strung the necklace itself hangs down about 14\" I really do not know much about snail and shells, the information given you I found in books",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023349922118080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "karimor",
+    "FeedbackScore": "1754",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Thousand Palms, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fLsAAOSw241YkqUc/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nA4AAOSwA3dYkqUt/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/X1UAAOSw44BYkqVZ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EwoAAOSwopRYkqVu/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zAwAAOSwImRYkqWI/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/naAAAOSwo4pYmHk2/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UNUAAOSwTglYmHlK/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "92276"
+}

@@ -1,0 +1,126 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Southeast Asia",
+    "BH",
+    "IQ",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "CN",
+    "PK",
+    "MX"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33434",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This auction is for a real nice Silver Hollow Horse Pocket Watch with Necklace Chain. New, no tags. Beautiful silver case with a \"HORSE\" on the front. Measures apx. 1 7/8\" in diameter. Embossed back case. Half Hunter closing. Push top to open. Comes with apx. 32\" necklace chain. Quartz Movement. If you would prefer fob silver chain, just message me or leave note at check-out and I will send that instead of necklace. Great gift idea! Please message me if you have any questions. View more great items",
+  "StartTime": "2017-05-13T19:15:34.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODg1WDc5NQ==/z/MeIAAOSwB-1Yr7Z7/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTA3WDgxNw==/z/EfcAAOSwx6pYr7aP/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/ODI5WDc0OA==/z/5e8AAOSw32lYr7a0/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NTAwWDM3NQ==/z/Gi0AAOSwax5Yr7Y5/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hollow Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sweetpeadiscountdeals",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2579",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "28",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625149385948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T19:15:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Silver-HORSE-Hollow-Pocket-Watch-Necklace-Chain-Fob-Chain-/162514938594",
+  "Location": "Boca Raton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Silver HORSE Hollow Pocket Watch & Necklace Chain or Fob Chain",
+  "Storefront": {
+    "StoreName": "Sweetpea&#39;s Deals",
+    "StoreURL": "http://stores.ebay.com/id=39635712"
+  },
+  "ItemID": "162514938594",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT34M41S"
+}

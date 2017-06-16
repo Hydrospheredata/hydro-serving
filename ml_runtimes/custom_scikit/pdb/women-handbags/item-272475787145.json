@@ -1,0 +1,100 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "l***v",
+    "FeedbackScore": "21"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1N1gxNjAw/z/viUAAOSw4GVYRiTB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4M1gxNjAw/z/ppIAAOSwnHZYRiTD/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Neon-Kart-Multiple-Colors-Available-Blue-/272475787145",
+  "ConvertedCurrentPrice": {
+    "value": "118.58",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Neon Kart - Multiple Colors Available Product Details Color: Blue Brand: Yvolution MPN: Neon KartTM UPC: 816661022004 Shipping Information: View shipping rates and policies An accessory that transforms your hoverboard into a seated three-wheeled vehicle that is stable, maneuverable, and even more fun! Enhances the balancing technology of hoverboards to accelerate, brake, turn and wherever you go! Push the handlebars forward to accelerate, pull back to brake, and pull further back to go backwards. To turn, just pull back on one handlebar and push forward on the other. Once assembled, the Neon Karts velcro and elastic straps makes it so easy to attach and detach to your hoverboard. Its fully adjustable too! The seat, handlebar angle and the frame can all be re-adjusted to fit your needs so everyone can take it out for a spin!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "118.58",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "207",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "macancelado2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Neon Kart - Multiple Colors Available Blue",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2016-12-06T02:39:01.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2724757871458080_1.jpg",
+  "TimeLeft": "P1DT9H34M19S",
+  "EndTime": "2017-06-04T02:39:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "Neon KartTM"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Yvolution"
+      },
+      {
+        "Name": "UPC",
+        "Value": "816661022004"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0816661022004"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272475787145",
+  "Storefront": {
+    "StoreName": "macancelado2",
+    "StoreURL": "http://stores.ebay.com/id=1380330248"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B01LZC5SUJ",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

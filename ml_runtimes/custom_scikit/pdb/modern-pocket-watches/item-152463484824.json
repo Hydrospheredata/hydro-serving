@@ -1,0 +1,114 @@
+{
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.36"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIEDAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "2",
+  "ConditionDisplayName": "New with tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-07T10:29:29.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mu4AAOSwfVpYqZ9I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dT0AAOSw4CFYqZ9N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nN4AAOSwfVpYqZ9T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lvgAAOSwTuJYqZ9Y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/eKAAAOSw4CFYqZ9e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/D7AAAOSwB-1YqZ9i/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1000",
+  "HighBidder": {
+    "UserID": "o***o",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "54",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "16",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "lerosentha-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "484",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "151",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "29.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Make sure it is in the original packaging please",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-05T10:29:29.000Z",
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "Bronze",
+        "Name": "Colour"
+      }
+    },
+    "Variation": {
+      "StartPrice": {
+        "_currencyID": "AUD",
+        "value": "29.99"
+      },
+      "SKU": "sku-auc-0",
+      "SellingStatus": {
+        "QuantitySold": "2",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "Bronze",
+          "Name": "Colour"
+        }
+      },
+      "Quantity": "16"
+    }
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "PHOENIX DRAGON Quartz Pocket Watch/FOB Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PHOENIX-DRAGON-Quartz-Pocket-Watch-FOB-Watch-/152463484824?var=",
+  "Storefront": {
+    "StoreName": "leostoreaustralia",
+    "StoreURL": "http://stores.ebay.com/id=1477142763"
+  },
+  "ItemID": "152463484824",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT15H37M38S"
+}

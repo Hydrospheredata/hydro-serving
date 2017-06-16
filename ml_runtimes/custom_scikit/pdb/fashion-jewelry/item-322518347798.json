@@ -1,0 +1,166 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT16H21M46S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New, never worn",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.9",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322518347798",
+  "ConvertedCurrentPrice": {
+    "value": "39.9",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-16T03:24:17.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-eyeglass-holder-beautiful-chain-12-blue-beads-new-/322518347798",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-15T03:24:17.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Blue Beads",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver, Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton eyeglass holder beautiful chain with 12 blue beads, new",
+  "ExcludeShipToLocation": [
+    "Middle East",
+    "RU",
+    "BN",
+    "MY",
+    "AF",
+    "AZ",
+    "BT",
+    "PK"
+  ],
+  "Location": "Redlands, California",
+  "Description": "Brighton eyeglass holder beautiful chain with 12 blue beads, new Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225183477988080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "shadylady5",
+    "FeedbackScore": "2481",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "shadylady5 Jewelry Custom Lampshade",
+    "StoreURL": "http://stores.ebay.com/id=4827780"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "56",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTc2WDEyODA=/z/49IAAOSwzgBYyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMjU5/z/8~sAAOSw32lYyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMTkx/z/KJcAAOSwhQhYyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ0WDEyODA=/z/j20AAOSwCU1Yyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg2WDEyODA=/z/nHIAAOSw2gxYyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTgwWDEyODA=/z/0wAAAOSwax5Yyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxNFgxMjgw/z/yDsAAOSw4A5Yyq5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc2WDEyODA=/z/8~0AAOSw32lYyq5w/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "PostalCode": "92373"
+}

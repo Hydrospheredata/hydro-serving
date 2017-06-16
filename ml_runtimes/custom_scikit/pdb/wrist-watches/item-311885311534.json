@@ -1,0 +1,73 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Morden",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:52:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T11:52:30.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "311885311534",
+  "HandlingTime": "3",
+  "Description": "VINTAGE 2 COLOR METAL DATE WATCH.THE WATCH IS WORKING, THIS IS A MECHANICAL MOVEMENT WATCH.THIS WATCH WILL BE A WORTHWHILE PROJECT.THE CONDITION IS GOOD & THE WATCH IS WORKING, BUT NO GUARANTEE TO TIMEKEEPING.THIS WATCH IS SOLD AS SPARES/ REPAIRS.PLEASE SEE ALL PHOTOS.HAPPY TO ANSWER ANY QUESTIONS.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE OLD DATE WATCH.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-OLD-DATE-WATCH-/311885311534",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3118853115348080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "sm46jg",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H34M17S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/970AAOSwhvFZLqxl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/MKUAAOSw~y9ZLqx2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/~EgAAOSwblZZLqyK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/7kMAAOSw9OFZLqyY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/JbEAAOSw8lpZLqyi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/T1oAAOSwX61ZLqyw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/HEEAAOSwxu5ZLqy6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/eU0AAOSwlndZLqzM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/InsAAOSww5hZLqzZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/EKEAAOSwBt5ZLqz6/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "2102",
+    "UserID": "the-good-buy",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

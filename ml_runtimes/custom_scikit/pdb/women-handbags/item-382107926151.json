@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzY2WDUyMg==/z/gZMAAOSwuMZZLZRG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAxWDQ1MQ==/z/zPIAAOSw9OFZLZJ6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzkyWDUyMg==/z/Bp4AAOSw1WJZLZPg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYzWDc1MA==/z/u2cAAOSwurZZLZIW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDIyWDUyMg==/z/XhMAAOSwcgNZLZQc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc5WDUyMg==/z/PFoAAOSw7GRZLZQt/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-BABY-DIAPER-BAG-PLUM-CRAZY-NWT-/382107926151",
+  "ConvertedCurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY BABY DIAPER BAG PLUM CRAZY (WITH SOLID PLUM LINING) NWT Vera's durable Baby Bag is made of soft quilted fabric. The fully zippered top closure secures an interior with two open slip pockets. It is lined in an easy to clean solid fabric. The front features a full length zip pocket, and an open slip pocket on each end for bottles and other necessities. The long straps have a drop of 12 inches. A removable, washable plum quilted changing pad measures 24 inches (L) x 16 inches (W). Vera's baby bag is lightweight, easily maintained and can be laundered. Just remove the sturdy bottom insert first. It measures 16\" (L) x 11\" (H) x 5.5\" (W).",
+  "Title": "VERA BRADLEY / BABY DIAPER BAG / PLUM CRAZY / NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Mary Esther, Florida",
+  "Seller": {
+    "FeedbackScore": "1796",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jay.88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32569",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T15:48:44.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P27DT28M6S",
+  "EndTime": "2017-06-29T15:48:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382107926151",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3821079261518080_3.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

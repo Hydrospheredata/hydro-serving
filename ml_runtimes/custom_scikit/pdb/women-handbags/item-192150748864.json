@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921507488648080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyNlgxNTAw/z/0IQAAOSwhQhY5thy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNlgxNTAw/z/XzgAAOSww3tY5thx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNlgxNTAw/z/SKsAAOSwuLZY5thy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNlgxNTAw/z/cVkAAOSw~CFY5thy/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Loria-Womens-Tote-Bag-Multicolor-Blau-weis-Delivery-Free-/192150748864",
+  "ConvertedCurrentPrice": {
+    "value": "157.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "La Loria Women's Tote Bag Multicolor Blau-wei\u00df by La Loria Ships from UK Supplier Other information: BP 05 Related Searches: La Loria Bags, Totes Bags, La Loria Totes Dimensions: 46.0 x 28.0 x 36.0 centimetres Weight: 0.36 kg",
+  "Title": "La Loria Women's Tote Bag Multicolor Blau-wei\u00df. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "157.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-07T00:08:13.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P3DT7H52M21S",
+  "EndTime": "2017-06-06T00:08:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "La Loria"
+      },
+      {
+        "Name": "MPN",
+        "Value": "658112987"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192150748864",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:110636423:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

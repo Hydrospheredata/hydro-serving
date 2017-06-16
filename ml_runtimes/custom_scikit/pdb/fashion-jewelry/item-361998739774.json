@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P8DT12H48M4S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "excellent vintage condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "361998739774",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T01:47:11.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Weiss-Ice-Rhinestone-Brooch-and-Pin-Bridal-Jewelry-Wedding-Jewelry-L-/361998739774",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T01:47:11.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Weiss",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Vintage Weiss Ice Rhinestone Brooch  and Pin, Bridal Jewelry, Wedding Jewelry, L",
+  "ExcludeShipToLocation": "IT",
+  "Location": "Cleveland, Ohio",
+  "Description": "Vintage Weiss Ice Rhinestone Brooch and Pin, Bridal Jewelry, Wedding Jewelry, Large Rhinestone Pin Gorgeous vintage 1950's designer signed Weiss Rhinestone Pin \\ brooch . The Pin features a swirl of clear prong set Rhinestones, set in silver tone metal, with signature on back. Measures approx 2 inches in diameter. This beautiful vintage piece of jewelry was recently purchased at an estate sale. This pin is in excellent condition and is completely intact, the stones are clear and all intact. make sure to add me to your favorites list!check out my other items! Payment via Paypal, payment due within 2 days. We will combine shipping on items purchased within a 7 day period. Shipping cost will be the lowest we can find for you, Items are shipped within 24-48hrs after receiving your payment. We offer one of a kind Vintage and as they are vintage they have had a previous life, I will note any issues they may have in my description but sometimes things slip by. We want you to be happy with your purchase, any problems or concerns should be addressed upon receiving your merchandise. We do not smoke but as all items are vintage unless otherwise noted and have had a previous life it is not possible to know if anything has been exposed to smoke, perfume etc. International buyers please email me for shipping quote prior to bidding, all overseas mail must be shipped via Priority Mail with insurance and any taxes or Vat fees are not paid by the seller they are paid by the buyer.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619987397748080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "cork123",
+    "FeedbackScore": "8129",
+    "FeedbackRatingStar": "Green"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/zlwAAOSwnHZYd6k~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/9pAAAOSwZQRYd6kS/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/A1QAAOSwZQRYd6le/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/vAsAAOSwA3dYd6l3/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/8VAAAOSw44BYd6mc/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "44121"
+}

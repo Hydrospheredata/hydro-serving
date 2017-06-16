@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDE5WDUwMA==/z/QLEAAOSwZ4dZIXaf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTIyWDUyMg==/z/ez8AAOSwn-tZIXar/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njc5WDQ1Mw==/z/7O0AAOSwlMFZIXas/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUzWDUyMg==/z/e2YAAOSwn-tZIXau/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wawAAOSwrhBZIXai/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDE4WDUyMg==/z/wkoAAOSwrhBZIXa1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTIyWDUyMg==/z/vVYAAOSwhvFZIXal/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTIyWDUyMg==/z/TCoAAOSwIaFZIXaz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIwWDkwMA==/z/2uwAAOSw7GRZIPGJ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Backpack-Diaper-Bag-Tote-Baby-Girl-Multifunction-Leather-Stroller-Straps-/332229921628",
+  "ConvertedCurrentPrice": {
+    "value": "108.79",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Backpack Diaper Bag Tote Baby Girl Multifunction Leather with Stroller Straps. About the product\u2022 8 POCKETS: 1 main zippered compartment has 1 full-length pocket (for changing pad) and 1 gathered pocket (for diapers, wipes, etc.). 1 front zippered compartment has 2 additional pocket compartments (for personal items such as cell phones, wallets, keys, etc.). 2 side insulated pockets are ideal for bottles, drinks, etc. Fits all essentials and accessories!\u2022 QUALITY MATERIALS: Exclusive wipe-clean material can handle big bottle spills & small sticky hands. The high-quality zippers keep stuff safe & secure. The leather bottom base ensures durability.\u2022 CHANGING PAD & ADJUSTABLE STRAPS: Matching changing pad included. Straps adjust to fit men and women of all sizes and are padded for optimal comfort. Features strap buckles which allow it to be snapped onto ANY stroller.\u2022 UNISEX DESIGN: Designed for moms and dads! Product informationColor : BlackTechnical DetailsItem Weight : 1.2 poundsProduct Dimensions : 16.2 x 13.2 x 3 inches Batteries required : No",
+  "ExcludeShipToLocation": [
+    "CA",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "108.79",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Illinois,Chicago",
+  "Seller": {
+    "FeedbackScore": "205",
+    "PositiveFeedbackPercent": "97.1",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "wisefantastic"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Backpack Diaper Bag Tote Baby Girl Multifunction Leather with Stroller Straps",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-21T11:16:20.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P17DT19H52M25S",
+  "EndTime": "2017-06-20T11:16:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Gender",
+        "Value": "Unisex"
+      },
+      {
+        "Name": "Brand",
+        "Value": "wanman"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Does Not Apply"
+      },
+      {
+        "Name": "Type",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Mix"
+      },
+      {
+        "Name": "Theme",
+        "Value": "Holiday"
+      },
+      {
+        "Name": "Features",
+        "Value": "Changing Pad"
+      },
+      {
+        "Name": "Size",
+        "Value": "16.2 x 13.2 x 3 inches"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332229921628",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322299216288080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

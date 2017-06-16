@@ -1,0 +1,180 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "222434986680",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatch Bands",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "ConvertedCurrentPrice": {
+    "value": "30.72",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:112603",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "TopRatedListing": "true",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "PrimaryCategoryID": "98624",
+  "ExcludeShipToLocation": [
+    "HK",
+    "MO",
+    "TW",
+    "CN"
+  ],
+  "PrimaryCategoryIDPath": "281:14324:98624",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "UserID": "cococitymall",
+    "FeedbackScore": "2604",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "CocoCityMall",
+    "StoreURL": "http://stores.ebay.com/id=1127074015"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/je0AAOSw32lYwjt1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Wb0AAOSwTM5YwjUg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/FK8AAOSwB-1YwjUw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/pH4AAOSwsW9YwjU8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9k8AAOSw4A5YwjVK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JgMAAOSwXYtYwjVM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/y~gAAOSwuxFYwjVS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WZ4AAOSwWxNYwjVb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/KMoAAOSwXYtYwjVf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/-8wAAOSw4A5YwjVp/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "SKU": "Manao",
+  "StartTime": "2017-03-10T02:02:42.000Z",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "r***3",
+    "FeedbackScore": "42",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "30.72",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "112603",
+  "HitCount": "511",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Luxury-Wood-Cassia-Siamea-Beads-Bracelet-Strap-Apple-Watch-Wristwatch-Bands-/222434986680?var=",
+  "EndTime": "2017-06-08T02:02:42.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Apple Watch 42mm",
+          "Apple Watch 38mm"
+        ],
+        "Name": "Compatible Watch"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "Wood Beads 42",
+        "StartPrice": {
+          "value": "30.72",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Apple Watch 42mm",
+            "Name": "Compatible Watch"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "SKU": "Wood Beads 38",
+        "StartPrice": {
+          "value": "30.72",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Apple Watch 38mm",
+            "Name": "Compatible Watch"
+          }
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "For Apple Watch",
+        "Name": "Compatible Brand"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cassia Siamea Wood",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Handmade Jewelry Wood Watch Band",
+        "Name": "Model"
+      },
+      {
+        "Value": "Fashion &amp; Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "All Festival",
+        "Name": "Fit Festival"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Title": "Luxury Wood Cassia Siamea Beads Bracelet Strap for Apple Watch Wristwatch Bands",
+  "TimeLeft": "P2DT11H54M45S",
+  "Location": "\u6df1\u5733, \u5e7f\u4e1c\u7701",
+  "Description": "5791883657743734 Watch Bands / Cases Cute Cartoon Mickey Mouse Ears Soft Silicone Protective Case for Apple Watch 1/2 322519972213 US $ 4.98 Cute Cartoon Rabbit Ears Soft Silicone Protective Case for Apple Watch 1/2 Cover 222514623052 US $ 4.88 Luxury Jewelry Hematite Marble Bracelet Strap for Apple Watch Wristwatch Bands 222417726839 US $ 31.83 Luxury Wood Cassia Siamea Beads Bracelet Strap for Apple Watch Wristwatch Bands 222434986680 US $ 30.72 Luxury Jewelry Carnelian Pendant Bracelet Bands for Apple Watch Agate WatchBand 222417768083 US $ 30.14 Stainless Steel Metal Links Bracelet Watch Band Strap For Fitbit Blaze Tracker 222077230703 US $ 16.20 Luxury Jewelry Onyx Beads Flower Bracelet Strap for Apple Watch Wristwatch Bands 322442293052 US $ 31.51 Luxury Jewelry Crystal Diamond Bracelet Strap for Apple Watch Wristwatch Bands 322436851750 US $ 32.47 Luxury Jewelry Genuine Wood Cassia Siamea Beads Bracelet Strap Watchband for Apple Watch 42mm 38mm Series 2 / 1 Wristwatch Band Note: The jewelry band can't be adjusted the size, and the band's length is about 140mm (42mm) / 135mm (38mm), the total size need plus the watch size, so your Wrist circumference may be less 182mm (42mm) / 173mm (38mm). if your wrist circumference is larger than the sizes, it is not suitable with you. Hope for your understanding, tha Package Includes: 1 x Beads Band (watch not included) Only through PayPal Thanks for your bid. Item will be shipped from China in the 24 hours after your full payment has been received. !!Rate the seller on the time it took to mail the item, not the time it took you to receive the item!! See the ebay policy here Delivery time: ----By Airmail: Generally, about 2-3 weeks to UK, USA, AU. ----By Express: Generally, about 5-10 working days to UK, USA, AU. ----delivery to US, UK, Australia and Canada usually takes 7-14 working days; ----delivery to countries except US, UK, Australia and Canada usually takes 7-21 working days; ----We can also ship the item through express service like DHL, UPS, if you are ready to pay the extra charge. To know the details please contact us with email. We ship to eBay address. Please make sure your address in ebay is matched with your shipping address before you pay. The images are for reference only. Please take the item you get as the standard. Please indicate your personal requirement, such as colors, packages, value of declaration etc, at paypal's message when you pay to us. Notes: We will NOT be responsible for any delay during delivery including but not limited to customs postage checking, strike, force majeure etc. As a buyer, it is your duty to pay the tax when you make a order from abroad. Our price does not include taxes, VAT, or other hidden charges. Return & Refund Refund or replacement request is available only the requests within 1 week after parcel received & returning the item as the same condition as received. Please contact us to request a return authorization. Your name, auction number, and reason for return should be included in the email. All items returned must contain all original packaging materials. Please repack the item carefully. Items returned will be tested and a new replacement will be shipped to the buyer immediately when found defective. In the event that a suitable replacement is not available then a refund will be issued. Shipping, handling and insurance fees are non refundable. If the item is found non-defective, the item will be sent back to the buyer at buyer's expense. Items returned without RMA number will be refused and returned to the sender. Buyer is responsible for All Return Postage and Shipping Charges. Buyer is responsible for additional shipping costs for items that are returned refused and/or undeliverable. We do not accept any returns without an authorization number on the box or label it is being returned in. Our working time: Hong Kong time :Monday to Friday 9:00 am to 4:30 pm. We do not work holidays in Hong Kong. if you send email to us,In our working hours will be resumed within 48 hours. If you we are not satisfied with the product or service ,please contact me and don't give us negative or natural feedback,We must give you a satisfactory solution. Feedback & DSRs (Detailed Seller Ratings). We depend on our eBay reputation and customer satisfaction to succeed.Therefore, Your feedback and DSRs are extremely important to us as better DSR scores affect our search placement on eBay. We would like to earn your good feedback and 5 star DSR rating. Your action will help us offer our milk and bread . If we have not given you reason enough for 5-star grades on each DSR then please let us know how we can earn your 5-star rating before submitting yourscores! Contact us through ebay message in English",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "5"
+}

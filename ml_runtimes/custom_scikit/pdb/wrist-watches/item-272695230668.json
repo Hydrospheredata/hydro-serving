@@ -1,0 +1,115 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "71.83",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:20:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1489042427",
+    "StoreName": "bankniwa_shop24"
+  },
+  "CurrentPrice": {
+    "value": "71.83",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:20:23.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B01HSGGXQ8",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "272695230668",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "22417",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "22417",
+        "Name": "MPN"
+      },
+      {
+        "Value": "886678274420",
+        "Name": "UPC"
+      },
+      {
+        "Value": "black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Wrist Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0886678274420",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Men's 'Pro Diver' Quartz Stainless Steel Casual Watch, Color:Black",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-Pro-Diver-Quartz-Stainless-Steel-Casual-Watch-Color-Black-/272695230668",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726952306688080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H11M6S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/X2QAAOSw5cRZLtEA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RawAAOSwq1JZLtEC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YzkAAOSwi7RZLtED/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/5DsAAOSwaEhZLtEE/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "BBB_SHOP 24 Best Quality / Best Service / Best Price Invicta Men's 'Pro Diver' Quartz Stainless Steel Casual Watch, Color:Black (Model: 22417) Gallery Product Description Features Case Diameter: 44mmQuartz MovementChronograph functions with 60 second, 60 minute and 1/10 of a second sub dials date window at 3:00Black dial with silver tone and white hands and hour markers luminous unidirectional bezel tachymeter flame fusion crystal black ion-plated stainless steel case and braceletWater resistant to 100m (330ft): in general, suitable for swimming and snorkeling, but not diving Invicta 22417 black dimensions: 5.91x5.91x5.91 inch. 886678274420 0886678274420 22417 Contact Please contact us by ebay message only. Payment Policy We accept Paypal, Bank transfer, Cash on delivery an Credit Card. Shipping Policy We send: Shipping Handling in USA. The package will be shipped directly from USA with tracking number, and it will take about 05-15 business days. Return Policy 100% Satisfaction Guarantee: If you are not satisfied with the product you purchased for any reason, please contact us for a return instruction within 30 days for a refund. Shipping Handling costs are not refundable. Return shipping cost will be paid by buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "458",
+    "UserID": "bbb_shop24",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Not description"
+  }
+}

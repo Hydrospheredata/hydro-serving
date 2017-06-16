@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT22H18M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232360982552",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Piercing-Screw-Nose-stud-22g-Solid-Real-14k-Yellow-Gold-L-Bend-Bone-Pin-/232360982552",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T13:47:19.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T13:47:19.000Z",
+  "PrimaryCategoryID": "32050",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "screw",
+        "Name": "Type"
+      },
+      {
+        "Value": "Nose",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "karizma jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "no",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "screw",
+        "Name": "Closure Style"
+      },
+      {
+        "Value": "22g",
+        "Name": "Gauge (Thickness)"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Piercing Screw Nose stud 22g Solid Real 14k Yellow Gold L Bend Bone Pin",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Metal: Solid 14k Yellow Gold Weight: 0.300 Grams Dimension: 6.2mm , (Piercing Thickness 22 Gauge) Style: Screw Origin: India",
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323609825528080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "karizmajewels",
+    "FeedbackScore": "9057",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "karizmajewels",
+    "StoreURL": "http://stores.ebay.com/id=179629606"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/3e0AAOSw2gxY25IB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyMVgxMDIx/z/brMAAOSwol5Y25ID/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0MFgxMDMx/z/30sAAOSw2gxY25IJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzOVgxNDAw/z/oRAAAOSwTM5Y25IP/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "144003"
+}

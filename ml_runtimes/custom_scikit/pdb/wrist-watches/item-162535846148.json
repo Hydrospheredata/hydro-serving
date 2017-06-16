@@ -1,0 +1,59 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New Baltimore, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:54:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "12.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:54:53.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535846148",
+  "HandlingTime": "3",
+  "Description": "Lilly Pulitzer Interchangeable Watch. Never Worn. Non-Smoking Home.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lilly-Pulitzer-Interchangeable-Watch-Never-Worn-/162535846148",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625358461488080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "12124",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H33M23S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/SAQAAOSwImRYjLzn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/fxUAAOSwjDZYjLzq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/f8gAAOSwjDZYjLzu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/gLsAAOSwjDZYjLzz/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Lilly Pulitzer Interchangeable Watch (Never Worn)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "emilwhee_defqc",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

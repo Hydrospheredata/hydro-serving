@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT12H9M57S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "262997543921",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Jewelry-SUPER-SETS-SKULL-RING-AND-EARRINGS-NWT-/262997543921",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T03:15:48.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T03:15:48.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hobo",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "Betsey Johnson Jewelry SUPER SETS SKULL RING AND EARRINGS NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Betsey Johnson Jewelry SUPER SETS SKULL RING AND EARRINGS For feminine style with some edge this crystal decorated skull set is perfect for you. Matching stud earrings in jet black are offset by a gold and pink stretch ring while the skull motifs get a playful touch with charming bows. Skull ring with pave crystal accents Set includes stretch ring and pair of stud earrings Stretch ring Post back studs Mixed Metal Plating Metal/glass/enamel/elastic Ring Vertical Length 1.2\" Ring Width 0.75\" Ring Shank Width: 5mm Stud Length: 0.5\" Stud Width: 0.3\" Limited Edition Thank you for looking at our listing Your product is guaranteed new and authentic! We Ship SAME DAY with US Postal Service Guaranteed Delivery! Contact us with any questions! Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629975439218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellabacciaccessories",
+    "FeedbackScore": "3395",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Bellabacciaccessories",
+    "StoreURL": "http://stores.ebay.com/id=598323925"
+  },
+  "Quantity": "2",
+  "Location": "Costa Mesa, California",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA1WDEwMDA=/z/gwYAAOSwtGlZIlfm/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92627"
+}

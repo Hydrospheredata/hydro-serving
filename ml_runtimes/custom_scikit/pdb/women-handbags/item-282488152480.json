@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5M1gxMTUw/z/VrUAAOSw7GRZIKoP/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExMlgxMTg1/z/bNAAAOSwuMZZIKof/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NDk=/z/z30AAOSwxu5ZIKoy/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4M1g1OTY=/z/2HMAAOSwIQdZIKpC/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4Nlg3NTQ=/z/EnoAAOSwfpVZIKpP/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BdIAAOSwjqVZIKpU/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/zLwAAOSwhvFZIKpg/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-VERA-BRADLEY-MIDNIGHT-BLUES-LAPTOP-PORTFOLIO-/282488152480",
+  "ConvertedCurrentPrice": {
+    "value": "71.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "E). Beautiful New Vera Bradley midnight blues multicolor floral cotton 17\" laptop case, features quilted cotton, top double zip around closure, double rolled handles, detachable and adjustable shoulder strap, front full slip pocket and back zip closure pocket computer accessories. Approx. measurements: 18\"L X 13\"H X 2.5\"D. Note: all measurements are +/-1 inch. Please enlarge pictures to see details. Pictures are important part of the description. Excellent condition",
+  "Title": "NWT VERA BRADLEY MIDNIGHT BLUES LAPTOP PORTFOLIO",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "71.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Sicklerville, New Jersey",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1902",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "uniquefashions15"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08081",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-21T19:05:55.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P18DT4H4M35S",
+  "EndTime": "2017-06-20T19:05:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Portfolio"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282488152480",
+  "Storefront": {
+    "StoreName": "uniquefashions24_7",
+    "StoreURL": "http://stores.ebay.com/id=861328301"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824881524808080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

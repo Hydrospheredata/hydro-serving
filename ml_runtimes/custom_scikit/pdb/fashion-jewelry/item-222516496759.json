@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P12DT19H28M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.7",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222516496759",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HANABE-KOREA-Handmade-Flower-Leaf-Pink-Beaded-Mother-Pearl-Hairpin-Barrette-/222516496759",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.7",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T07:02:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "KR",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T07:02:20.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HANABE KOREA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Barrette",
+        "Name": "Style"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Leaf",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Crystal Glass Beaded / Mother of Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mother of Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Korea, Republic of",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "HANABE KOREA Handmade Flower Leaf Pink Beaded Mother of Pearl Hairpin Barrette",
+  "ExcludeShipToLocation": "PO Box",
+  "BidCount": "0",
+  "Description": "Code No. : H473AFinish Color : Gold PlatedMaterials : Austrian Crystal / Crystal Bead / Glass Bead / Mother of Pearl / FormicaDimension : about 2.4\" X 3.5\" (6.0 cm x 9.0 cm)Origin : MADE IN KOREACondition : Brand New with HANABE Tag - High quality handmade lovely hairpin.- Really fits into the nature-oriented design motif of us, HANABE KOREA.- Luxurious combination w/light pink flower mother-of-pearl, crystal and glass beaded.- Inspired by Korean traditional handcrafted ornaments. (Please note) Actual color/shape of materials such as mother-of-pearl, natural/synthetic stone, cultured pearl, crystal/glass bead would vary in each production and also do by monitor resolution of your computer & mobile handset. Beading arrangements by handmade process do, too",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225164967598080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hanabej20",
+    "FeedbackScore": "32",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "HANABE KOREA",
+    "StoreURL": "http://stores.ebay.com/id=1079742820"
+  },
+  "Quantity": "3",
+  "Location": "Kyongi, Seoul",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/-0YAAOSw53NY9iPR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/x3EAAOSwSypY9iO6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/958AAOSw53NY9iO2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUxNA==/z/gT4AAOSwJ4hY9iPL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/ghMAAOSwE0JY9iO~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDAyWDUwMA==/z/EzcAAOSwtZJY9iPF/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

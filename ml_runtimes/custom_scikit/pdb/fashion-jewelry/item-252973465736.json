@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "Description": "Tag MUST still be attached. Cannot have been worn or used; item must be in the same condition as it was received.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P28DT17H50M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252973465736",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-F56436-Boxed-Hangtag-Charm-Necklace-Earring-SET-Silver-RoseGold-MSRP-165-/252973465736",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T05:56:41.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T05:56:41.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Coach",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver/ROSEGOLD",
+        "Name": "Color"
+      },
+      {
+        "Value": "Plated Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "889295141359",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Coach F56436 'Boxed Hangtag Charm Necklace, Earring SET,Silver/RoseGold,MSRP$165",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "DetailsCoach F56436 Accessories ( Necklace and Earring Set)Plated metalPackaged in a Coach gift boxCoach MSRP $165",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529734657368080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dirrtysock",
+    "FeedbackScore": "227",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Aliso Viejo, California",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/9jwAAOSwcUBYS0nS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/WXcAAOSwa~BYcyW5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/Gg8AAOSwImRYcyXS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/g44AAOSwopRYcyXn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JC4AAOSwo4pYcyYM/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92656"
+}

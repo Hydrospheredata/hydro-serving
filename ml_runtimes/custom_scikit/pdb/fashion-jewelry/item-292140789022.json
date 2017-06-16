@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT19H26M24S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292140789022",
+  "ConvertedCurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:14:15.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Jay-Lane-Jolie-Drop-Earrings-Clear-Crystal-Silver-Tone-Metal-New-/292140789022",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T06:14:15.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Jay Lane",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Angelina Jolie/Classic",
+        "Name": "Style"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pierced",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "Clear Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Emerald Green",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Kenneth Jay Lane Jolie Drop Earrings Clear Crystal Silver Tone Metal New",
+  "ExcludeShipToLocation": [
+    "HK",
+    "ID",
+    "MY",
+    "PH",
+    "CN"
+  ],
+  "Location": "Warren, New Jersey",
+  "Description": "Part of the Jolie Collection designed by Kenneth Jay Lane Pear-shaped prong-set crystal Earrings drop approximately 2.17in and measure approximately 0.79in at widest point Friction post backs Clear Crystal Silver Tone metal Normal 0 false false false EN-US X-NONE X-NONE On Apr-05-15 at 19:28:57 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921407890228080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sillhouette2006",
+    "FeedbackScore": "1349",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Fashion Accessories-24_7",
+    "StoreURL": "http://stores.ebay.com/id=422062779"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUxMlgxMjA5/z/fEEAAOSwBLlVIdSS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjgw/z/~koAAOSwBahVIdSV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjgw/z/VWMAAOSwv0tVIdSX/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "07059"
+}

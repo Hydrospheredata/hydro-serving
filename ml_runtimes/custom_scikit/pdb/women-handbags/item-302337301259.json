@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTg2WDE2MDA=/z/Iw4AAOSw42JZMSiK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMyWDE2MDA=/z/DGUAAOSwi7RZMSiM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/XWYAAOSwuMZZMSiN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAzMlgxNjAw/z/d78AAOSwYlRZMSiP/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Black-Leather-Handbag-/302337301259",
+  "ConvertedCurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fabulous Kate Spade evening black soft leather handbag with creme fabric band, magnetic closure.",
+  "Title": "Kate Spade Black Leather Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "120",
+    "PositiveFeedbackPercent": "97.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "m-and-n_coutures"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11220",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:07:10.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT18H36M50S",
+  "EndTime": "2017-07-02T09:07:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "11 In."
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5 in."
+      },
+      {
+        "Name": "Style",
+        "Value": "Clutch"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337301259",
+  "Storefront": {
+    "StoreName": "M-and-N_Coutures",
+    "StoreURL": "http://stores.ebay.com/id=1371224386"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023373012598080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

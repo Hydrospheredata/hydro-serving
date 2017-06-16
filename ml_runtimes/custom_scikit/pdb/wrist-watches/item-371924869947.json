@@ -1,0 +1,88 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-04-19T17:23:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzU1WDEyODA=/z/qY8AAOSww3tY8NNu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAxWDEyODA=/z/MpgAAOSwdI9Y8NNu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODkwWDEyODA=/z/H-4AAOSwls5Y8NNt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM4WDEyODA=/z/MpsAAOSwdI9Y8NNu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4MjU=/z/S0QAAOSwGy5Y8NNt/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "108",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719248699478080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-18T17:23:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Seiko-Womens-Quartz-Textured-Wristwatch-7-E4262-/371924869947",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Vintage Seiko Women's Quartz Textured Wristwatch ~ 7-E4262",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "371924869947",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P17DT23H31M57S"
+}

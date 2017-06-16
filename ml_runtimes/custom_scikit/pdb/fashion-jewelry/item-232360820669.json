@@ -1,0 +1,81 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT21H35M48S",
+  "ListingStatus": "Active",
+  "ConditionID": "1500",
+  "ConditionDescription": "no scratches, dents, missing stones or other defects noted",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "4070gail",
+    "FeedbackScore": "225",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ItemID": "232360820669",
+  "SecondaryCategoryID": "165894",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:48579:500:165890:165894",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:15:51.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kirks-Folly-unicorn-pin-/232360820669",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T10:15:51.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kirk's Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "fantasy",
+        "Name": "Theme"
+      },
+      {
+        "Value": "gold-toned",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Kirk's Folly unicorn pin",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Sayre, Oklahoma",
+  "Description": "This is a wonderful unicorn pin by Kirk's Folly, which has never been worn.It is 3 and 1/2 in long and 2 in wide, including the crystal dangles at the bottom.It is enameled- white on the body,and blue on the mane. The enameling also has sparkles that catch the light, and the horn is covered in rhinestones. It is stamped \"Kirk's Folly\" on the back, and has 4 chains with blue and white crystals that dangle from the bottom of the mane. You can wear it, or pin it and others on a throw pillow for display on a sofa or bed. It is about 15 yrs old, but in brand new condition, and has never been worn. Shipping will be free within the continental US.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323608206698080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Vintage & Antique Jewelry:Costume:Designer, Signed:Pins, Brooches",
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/0D4AAOSwi7RZDPIg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/84oAAOSwrhBZDPJh/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "73662"
+}

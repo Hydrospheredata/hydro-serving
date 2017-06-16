@@ -1,0 +1,129 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.5"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "47904",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "In good condition",
+  "StartTime": "2017-05-26T20:50:48.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTg4/z/GKcAAOSwuspY~-LZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzM2/z/sV4AAOSwWWxY~-Lc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFg5NTY=/z/M7sAAOSwE0JY~-Le/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDEw/z/uPoAAOSwN6JY~-Lh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzc2/z/7mQAAOSw53NY~-Lk/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "gold",
+          "Black"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Native U.S.A.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "unknown",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "unknown",
+        "Name": "Model"
+      },
+      {
+        "Value": "unknown",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kelldaoud",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "154",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023292417668080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T20:50:48.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "3.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Native-U-S-A-Gold-Quartz-Golf-Themed-Pocket-Watch-Very-Nice-/302329241766",
+  "Location": "Lafayette, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Native U.S.A. Gold Quartz Golf Themed Pocket Watch Very Nice",
+  "Storefront": {
+    "StoreName": "MoBettaDesigns",
+    "StoreURL": "http://stores.ebay.com/id=1285625733"
+  },
+  "ItemID": "302329241766",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT2H14M51S"
+}

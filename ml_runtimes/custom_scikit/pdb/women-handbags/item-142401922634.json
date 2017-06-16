@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fCAAAOSwaEhZMNfR/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Amy-Quilted-Black-Leather-Backpack-/142401922634",
+  "ConvertedCurrentPrice": {
+    "value": "97.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Great condition. Gently used. Smoke free home.",
+  "Title": "Vera Bradley Amy Quilted Black Leather Backpack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "97.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Decatur, Alabama",
+  "Seller": {
+    "FeedbackScore": "3131",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "molliebear72"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "97.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "35601",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T03:15:19.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT12H41M49S",
+  "EndTime": "2017-06-09T03:15:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142401922634",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424019226348080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

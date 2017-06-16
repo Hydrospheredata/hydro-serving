@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5M1gxNTk1/z/IFwAAOSwHHFY~~ro/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/iTQAAOSwIWVY~~rC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/rMsAAOSwVm5Y~~r3/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-Michael-Kors-Raven-Brick-Leather-Medium-Bag-298-matching-wallet-/112428769474",
+  "ConvertedCurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Only worn a few times. Comes with dust bag. Thanks for looking!",
+  "Title": "MICHAEL Michael Kors Raven Brick Leather Medium Bag $298 with matching wallet",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Goodyear, Arizona",
+  "Seller": {
+    "FeedbackScore": "47",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "shindais"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85395",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:02:34.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P4DT21H49M23S",
+  "EndTime": "2017-06-07T12:02:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger, Crossbody Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "brick"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7.5"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9.5"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "11, 22"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Wi",
+        "Value": "41717-7"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428769474",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124287694748080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921514520388080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzM1WDUwMA==/z/DBYAAOSwB-1Y5~ly/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/G9MAAOSww3tY5~lz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/X2AAAOSwls5Y5~l0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNFgxNTAw/z/G-IAAOSww3tY5~lz/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cream-and-Red-Leather-Bowling-Style-Handbag-Two-Handles-Smith-Canova-Huge-/192151452038",
+  "ConvertedCurrentPrice": {
+    "value": "266.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Part of Smith & Canova's beautiful Strawberries and Cream collection, this large luxurious bowling style handbag is made of top quality robust leather with gold coloured fittings. The two leather handles, base and front and back panels are red, the sides and top are cream. There are metal feet on the base, zip up pockets on the front and back of the bag, and the deep body of the bag is accessed using the two way zip. Inside the bag is uncluttered leaving lots of space for maximum flexibility, it is lined in green monogrammed satin and there is one small zip up pocket and two open pockets. There is a clip on shoulder strap in cream. The Smith & Canova logo is embossed on the front of the bag in gold. Dimensions: 28 cm wide x 22 cm high x 14 cm deep.",
+  "Title": "Cream and Red Leather Bowling Style Handbag Two Handles by Smith & Canova. Huge",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "266.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-07T19:02:34.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P4DT2H46M59S",
+  "EndTime": "2017-06-06T19:02:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Smith & Canova"
+      },
+      {
+        "Name": "MPN",
+        "Value": "933710335"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151452038",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:138742009:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

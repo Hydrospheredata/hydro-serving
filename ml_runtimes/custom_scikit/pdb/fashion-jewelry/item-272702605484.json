@@ -1,0 +1,113 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P4DT17H13M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "BE",
+    "FR",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "RU",
+    "HR"
+  ],
+  "CurrentPrice": {
+    "value": "190.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272702605484",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Balenciaga-Gray-Leather-Bracelet-w-Gold-Hardware-M-/272702605484",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "190.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:09:54.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-10T03:09:54.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Balenciaga",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Color"
+      },
+      {
+        "Value": "Italy",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      }
+    ]
+  },
+  "Title": "Balenciaga Gray Leather Bracelet w/ Gold Hardware (M)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Authentic Balenciaga Gray Leather Bracelet With Gold Hardware in Size Medium w tag in new condition",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2727026054848080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "zoyie96",
+    "FeedbackScore": "396",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Chicago, Illinois",
+  "HitCount": "3",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pe8AAOSw0hlZNMkR/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eo4AAOSwX61ZNMkP/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6YIAAOSwAPVZNMkS/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "60638"
+}

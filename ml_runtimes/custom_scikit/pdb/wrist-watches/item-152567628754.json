@@ -1,0 +1,85 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "NZ",
+  "Location": "Lower Hutt, Wellington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:50:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T08:50:47.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Universal Gen\u00e8ve",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567628754",
+  "HandlingTime": "10",
+  "Description": "Up for sale is a good condition pre-owned Universal Geneve Polerouter Gold 'Cross Hair' watch. Please refer to photos for condition of watch.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "UNIVERSAL GENEVE POLEROUTER MICROROTOR AUTOMATIC MOVEMENT",
+  "ConditionDescription": "Up for sale is a good condition pre-owned Universal Geneve Polerouter Gold 'Cross Hair' watch.Please refer to photos for condition of watch.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNIVERSAL-GENEVE-POLEROUTER-MICROROTOR-AUTOMATIC-MOVEMENT-/152567628754",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525676287548080_1.jpg",
+  "HitCount": "21",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT17H22M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vBAAAOSwjL5ZISiL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WhkAAOSwq1JZISiP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dagAAOSw9OFZISiS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bMYAAOSwrhBZISiV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/07EAAOSw8HBZISiY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bPYAAOSwrhBZISib/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "145",
+    "UserID": "chelsea_nz",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "A REFUND will only be accepted if item is not as described."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "395.35"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert, Paris 3866-S Classic Collection Antiqued Finish Double Hunter Case Mechanical Pocket Watch Since 1990, Charles-Hubert Pans has been a major influence in the United States watch industry. By including both retro and contemporary designs in its line, Charles-Hubert Paris has established a large and loyal following. With its unprecedented Lifetime Warranties, exceptional quality standards and affordable pricing, the future looks very bright for Charles-Hubert Paris. Antique Finish Double Hunter CaseSkeleton Dial17 Jewels Mechanical MovementLifetime Movement WarrantyDeluxe Gift Box",
+  "StartTime": "2017-04-26T10:31:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzE1WDUwMA==/z/5uoAAOSwSypZAHbU/$_12.JPG",
+    "http://i.ebayimg.com/00/s/Njc4WDUwMA==/z/50sAAOSwSypZAHbV/$_12.JPG",
+    "http://i.ebayimg.com/00/s/Njk5WDUwMA==/z/9WMAAOSwBOtZAHbZ/$_12.JPG",
+    "http://i.ebayimg.com/00/s/Njc4WDUwMA==/z/c3cAAOSwJ4hZAHbh/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NzE0WDUwMA==/z/-pkAAOSwqWNZAHbq/$_12.PNG",
+    "http://i.ebayimg.com/00/s/NzE1WDUwMA==/z/71wAAOSwSypZAHbr/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3866-S",
+        "Name": "MPN"
+      },
+      {
+        "Value": "3866-S",
+        "Name": "Model"
+      },
+      {
+        "Value": "811233018522",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0811233018522",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "38",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629541134198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T10:31:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "395.35"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles-Hubert 3866-S Classic Collection Antiqued Finish Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-3866-S-Classic-Collection-Antiqued-Finish-Pocket-Watch-/262954113419",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "262954113419",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT15H44M58S"
+}

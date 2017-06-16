@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "282503080562",
+  "TimeLeft": "P2DT7H29M36S",
+  "ListingStatus": "Active",
+  "Title": "Michal Negrin Swarovski Crystal Victorian Turquoise Cross & Chain",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-05-31T22:20:44.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T22:20:44.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Cross Pendant",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Michal Negrin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michal-Negrin-Swarovski-Crystal-Victorian-Turquoise-Cross-Chain-/282503080562",
+  "ExcludeShipToLocation": "ID",
+  "Location": "Fort Lauderdale, Florida",
+  "Description": "Michal Negrin Turquoise Swarovski Crystal Victorian Cross Beautiful Unique Flower design Vintage inspired of the Victorian era Cross Suspended between a chain with 6 Turquoise beads 3 on each side Cross crafted from Brass, Swarovski Crystals Chain Length including cross is 22 inches long plus an additional 2 inches extra Cross Length Approx 2.3 Inches Long Cross width 1.1 inch across Total weight of necklace and cross 8.9 Grams 100% Authentic All the Jewelry I sell does not come with box Michal Negrin an Israeli Designer and world renowned has been creating designer Jewelry for over two decades. Stamped Made In Israel See or other Matching Jewelry",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825030805628080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "intertime1",
+    "FeedbackScore": "4823",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Intertime",
+    "StoreURL": "http://stores.ebay.com/id=3923248"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDcw/$T2eC16hHJG!E9nm3sB1YBQgqOySJ5g~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/$T2eC16JHJF8E9nnC6UIwBQgqOrIdZw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5MVgxNjAw/$(KGrHqVHJC8FBmEHKtUJBQgqO1Jt,Q~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/$(KGrHqRHJCQFBUPb!09LBQgqO5k)vw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/$(KGrHqJHJCYFB5KM7irtBQgqO7FjfQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/$(KGrHqNHJEwFB)8lW28BBQgqO-ksQQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "33328"
+}

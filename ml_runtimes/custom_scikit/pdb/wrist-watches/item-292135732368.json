@@ -1,0 +1,102 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Abbeville, Mississippi",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:32:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:32:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135732368",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Fabric/Canvas",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Japan Movement",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "Still in box, no price tag. Never worn, battery saver still attached",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Striped-Band-Quartz-Watch-/292135732368",
+  "Title": "Women's Striped Band Quartz Watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921357323688080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "38601",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H24M43S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA5NVgxMDI4/z/ls8AAOSwmLlYAt~k/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4HsAAOSwh2xYAt~t/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OUcAAOSwCGVYAt~T/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nu4AAOSwzaJYAt~Z/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KggAAOSw-CpYAt~g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQzMVgxMDQz/z/qe0AAOSw8w1YAt~3/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Stainless steel back\u00a0 SR626SW\u00a0 Length of entire watch/band 8 1/2\"",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "106",
+    "UserID": "hayniallis",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Charles-Hubert Paris Mechanical Pocket Watch",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "107.38"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Charles-Hubert, Paris Mechanical Pocket Watch FEATURES Chrome finish brass 47mm double hunter case with a matching curb chain Skeleton dial with roman numerals 17 jewel mechanical movement Deluxe gift box DESCRIPTION Two-side access meets one handsome watch. This classic Hunter collection pocket case watch has a sleek silver-tone finish to complement the white skeleton dial and black Roman numeral indicators. Precise jewel mechanical movement means flawless attention to time. Skeleton dial. Roman numerals. 17 jewel mechanical movement. Comes with deluxe gift box. 1.85 in. Dia. A sleek, silver-tone update of a classic style, the Charles-Hubert, Paris Mechanical Pocket Watch 3537 combines 17-jewel mechanical movement with an eye-catching skeleton dial. A chrome finish brass double Hunter case has a subtle etched design and surrounds a clean white dial with black-tone Roman numerals and sweeping seconds hand for easy time-reading. Precise and reliable, this watch has a chrome-plated curb chain and arrives in a deluxe blue gift box. See all Product description BRAND NEW As sent by the manufacturer FAST & FREE SHIPPING We automatically choose the shipping carrier that will get your order to you ASAP, many times before the date guaranteed by eBay. BUY FROM US Your complete satisfaction is our #1 priority. If you're not happy about anything, contact us so we can make it right! Top Rated Plus eBay Rating. Consistently meeting eBay's highest standards for shipping and customer satisfaction. FAST Shipping. Your order is automatically printed in our warehouse. Cancellation requests cannot be guaranteed, but we do have a great return policy. 30 day money back return policy. Because your complete satisfaction is important to us! Secure. We automatically ship to the address eBay and PayPal give us when you place your order. If you need a different address, make sure it's on your account before ordering. eBay and PayPal do not allow us to ship anywhere else. PO Box/Hawaii/Alaska/US Protectorates/APO/FPO. We are sorry, but we cannot always ship to these types of addresses, so this listing doesn't accept these addresses, because we don't want your money tied up if we can't ship to you.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU2N1gxNjAw/z/fxQAAOSwtZJY~DX-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzI4/z/C0oAAOSw7U5Y~DYC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzk3/z/3eYAAOSwHHFY~DYG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MzU=/z/QYEAAOSwVm5Y~DYJ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/txUAAOSw53NY~DYO/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "3537",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "848870005370",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0848870005370",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "michigancolor",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7378",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-04-23T05:05:20.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920941417338080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T05:05:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "107.38"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "30 day money back policy",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B002NSMFC8",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-Mechanical-Pocket-Watch-/292094141733",
+  "Storefront": {
+    "StoreName": "michigancolor",
+    "StoreURL": "http://stores.ebay.com/id=279184979"
+  },
+  "ItemID": "292094141733",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT10H18M51S"
+}

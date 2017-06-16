@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Stara Zagora, Stara Zagora",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:49:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:49:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "BG",
+  "ItemID": "361995078828",
+  "HandlingTime": "2",
+  "Description": "Check out my other items! Works VERY RARE MODEL Clock is an antique. clock works This is an old mechanical watch Buy what you see. pictures speak ASK will respond shipment travels with priority and recommendation shipment travels in Europe 14-22 working days USA 22-35 WORKING DAYS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WINTAGE-old-Russian-Soviet-watch-SLAVA-21-JEWELS-PERFECT-NEW-leather-strap-/361995078828",
+  "ConditionDescription": "VERY GOOD CONDITION",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3619950788288080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H17M39S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hfQAAOSwpIdW8RO~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-oQAAOSwu1VW8ROr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/83MAAOSwxvxW8ROm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wHgAAOSwMORW8ROy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9cEAAOSwxvxW8RO4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Nb8AAOSwHgVW8RPE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mfsAAOSw2ENW8RPL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mq0AAOSw2ENW8RPR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cgsAAOSwwpdW8RPb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WEAAAOSwvFZW8RPg/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "WINTAGE old Russian Soviet watch SLAVA   21 JEWELS PERFECT NEW leather strap",
+  "Seller": {
+    "PositiveFeedbackPercent": "93.3",
+    "FeedbackScore": "560",
+    "UserID": "ddok75",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

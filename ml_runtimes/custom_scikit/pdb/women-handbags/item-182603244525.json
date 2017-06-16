@@ -1,0 +1,109 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LKAAAOSwhvFZJKXm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/z30AAOSw3gJZJKXo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FgMAAOSw-3FZJKXp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ei0AAOSwsXFZJKXr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ub4AAOSwYlRZJKXt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Xd0AAOSw8HBZJKXv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vmAAAOSw0hlZJKXw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjUwWDQzNQ==/z/9r8AAOSw42JZJKS0/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EUC-Black-Foley-and-Corinna-La-Trenza-City-Tote-/182603244525",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a 100% authentic Foley and Corinna \"La Trenza\" city tote in EUC. I only carried it once! It is in black leather and can be carried by the handles or folded over and carried over the shoulder. It's a celebrity bag - see Halle Berry carrying something similar! It's classic with lots of versatility. I frankly have too many black bags, which is why I'm selling it, but I do love it. This particular style has whipstitching on the side, with grommets, making it a bit more downtown and edgy. Currently sold out - I paid over $300 for it, so I'm listing it for a fraction of that. Bought at Bloomingdale's. Stored in my smoke-free home. I will send it along with its dust bag. More specifics:\u00a0 Open top Double handles, detachable shoulder strap Two exterior zip pockets Black leather with brass hardware About me: I'm a trusted seller who cares about her customers and feedback! I try to be as ethical and honest as possible, but if you're not completely satisfied, I ask that you contact me right away. I'm a college professor by day and therefore not affiliated with any retailer or brand. Everything I sell is 100% authentic and comes from my personal collection. Thanks for looking :)",
+  "Title": "EUC Black Foley and Corinna \"La Trenza\" City Tote",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Hershey, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "537",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "tourist"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "17033",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:16:39.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P9DT23H9M8S",
+  "EndTime": "2017-06-12T13:16:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Foley + Corinna"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4.5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "15\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182603244525",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826032445258080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

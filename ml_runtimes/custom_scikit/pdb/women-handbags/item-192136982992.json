@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lucrin-Round-watches-holder-Granulated-Leather-Free-Delivery-/192136982992?var=",
+  "ConvertedCurrentPrice": {
+    "value": "248.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: All luxury watch lovers like switching between their precious watches to match their outfit or merely on a whim. This gorgeous round leather case has been designed to let you have your coveted time devices within hand-reach during your travels. Safely store up to 3 watches by strapping them around the round cushion found inside. For additional protection, the case's interior has been expertly lined in microfibre; the whole is securely held together by a silvery buckle.Cushion diameter: 6 cmCase diameter: 8 cmLength: 15 cm",
+  "Title": "Lucrin - Round watches holder - Granulated Leather. Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "248.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/790/050/311070956/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/790/051/311071605/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Navy Blue",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/790/052/311064462/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Band Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "248.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139790050:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Band Colour",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "248.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139790051:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Band Colour",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "248.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139790052:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Band Colour",
+            "Value": "Navy Blue"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Band Colour",
+        "Value": [
+          "Red",
+          "Black",
+          "Navy Blue"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-22T11:14:46.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P17DT18H50M27S",
+  "EndTime": "2017-06-20T11:14:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "892195737"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192136982992",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139790049:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

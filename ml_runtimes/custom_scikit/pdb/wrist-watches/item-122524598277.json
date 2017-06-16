@@ -1,0 +1,158 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.56",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bridgend, Bridgend",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:45:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T07:45:11.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524598277",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CHANCELLOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Chancellor de luxe",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Stretch Bracelet",
+        "Name": "Strap Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "1.99",
+    "_currencyID": "GBP"
+  },
+  "ConditionDescription": "ALMOST ALL OF THE GOLD PLATE HAS WORN OFF.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-LADIES-CHANCELLOR-LUXE-17-JEWEL-WRIST-WATCH-/122524598277",
+  "Title": "VINTAGE LADIES CHANCELLOR DE LUXE 17 JEWEL WRIST WATCH.",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225245982778080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "cf31 1hr",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT16H13M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/5UkAAOSwEzxYUEvW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/BfcAAOSwnHZYUEvY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/hisAAOSwOtdYUEvZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/E1sAAOSwImRYUEvZ/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "VINTAGE LADIES SWISS CHANCELLOR DE LUXE WRIST WATCH. RUNNING AND KEEPS GOOD TIME. GOLD PLATE HAS ALMOST ALL WORN OFF. PLEASE VIEW PICS AS THEY ARE PART OF THE DESCRIPTION.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3095",
+    "UserID": "michael1166",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

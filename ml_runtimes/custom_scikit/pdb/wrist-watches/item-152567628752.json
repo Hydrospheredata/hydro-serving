@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "NZ",
+  "Location": "Lower Hutt, Wellington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:50:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T08:50:47.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 Jewel",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567628752",
+  "HandlingTime": "10",
+  "Description": "Up for sale is a beautiful time piece - RADO WORLD TRAVEL - 30 Jewel (Date)",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "RADO World Travel 30 Jewel",
+  "ConditionDescription": "A decent Rado World Travel watch for sale.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RADO-World-Travel-30-Jewel-/152567628752",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525676287528080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT17H22M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/3ikAAOSwn-tZISqg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/x6wAAOSwIQdZISq7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/TmoAAOSwfRdZISq-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/hkUAAOSwYvFZISrA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMjAw/z/8wsAAOSwZ4dZISrC/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "145",
+    "UserID": "chelsea_nz",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "A REFUND will only be accepted if item is not as described."
+  }
+}

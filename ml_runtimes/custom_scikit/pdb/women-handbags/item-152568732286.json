@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/r4cAAOSwcUBYNzR~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/elsAAOSwA3dYNzSU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/m6UAAOSwcUBYNzrH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/T1EAAOSwB09YNzrY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/COUAAOSwB09YNyxh/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NIB-AUTH-HERMES-GRIGRI-RODEO-HORSE-BAG-CHARM-ROUGE-INDIEN-RED-ROSE-JAIPUR-FEU-PM-/152568732286",
+  "ConvertedCurrentPrice": {
+    "value": "595.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "1000% Authentic & Brand new Rodeo charm PM Color is rouge indien/rose jaipur/feu Made in France Please view every pics and ask questions before bidding. It comes with Hermes box & ribbon. VERY PRETTY! Payment by paypal (verified & confirm address) and wire transfer within 48 hours after auction ends. Shipping within USA is FREE including insurance. For international shipping, i only ship by EMS.All sales are final. No return or exchange.If you have any questions, please don't hesitate to email me!Thank you.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "595.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "United States",
+  "Seller": {
+    "FeedbackScore": "385",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "sonicmsllc"
+  },
+  "PrimaryCategoryID": "163570",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "NIB AUTH HERMES GRIGRI RODEO HORSE BAG CHARM ROUGE INDIEN RED ROSE JAIPUR FEU PM",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T04:37:56.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P28DT12H51M42S",
+  "EndTime": "2017-07-01T04:37:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Hermes"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Charm"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152568732286",
+  "Storefront": {
+    "StoreName": "sonicmsllc",
+    "StoreURL": "http://stores.ebay.com/id=463325412"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525687322868080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

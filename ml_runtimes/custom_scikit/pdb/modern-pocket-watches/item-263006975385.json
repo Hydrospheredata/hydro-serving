@@ -1,0 +1,69 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "74131",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Nice Princeton 1/10 second Stop Watch. Good clean watch, no scratches on lens, back is in good shape, no major issues.",
+  "StartTime": "2017-05-27T20:41:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/nRcAAOSwIWVY-NNs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/faoAAOSwBOtY-NNe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/W4kAAOSwvKtY-NNI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/aA0AAOSwmCVY-NN~/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "tulsale",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "401",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630069753858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T20:41:15.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Princeton-STOP-WATCH-1-10-Second-Anti-Magnetic-SWISS-MADE-Quality-/263006975385",
+  "Location": "Tulsa, Oklahoma",
+  "Title": "Princeton STOP WATCH 1/10 Second Anti-Magnetic SWISS MADE Quality",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "263006975385",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT2H5M57S"
+}

@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "Description": "Because Mersham is a UK based VAT registered business, most \"Buy It Now\" purchases are protected by United Kingdom Distance Selling Regulations. This means you have 7 working days from the day after you receive the item to return it for credit. For Health & Hygiene reasons Earrings and Body Jewellery that have been tried on are ineligible for return. We have technology that can detect worn jewellery. Bespoke items (e.g. Wedding Rings) or items which have been altered to the Buyer's preference are also ineligible for return. *This does not affect your Statutory Rights* Please ensure that items are in their original condition, unworn, with the original Box and a copy of the Invoice/Delivery Note. Should you wish to contact us before returning an item, please do so via eBay. \n\n*RETURN ADDRESS CAN BE FOUND ON YOUR DELIVERY NOTE*",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT37M26S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "104.99",
+    "_currencyID": "GBP"
+  },
+  "SKU": "016360",
+  "ItemID": "371966929537",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Briouze-Tresor-Paris-Anklet-White-8mm-11-Crystal-Magnetite-Black-Cord-/371966929537",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "135.25",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T10:05:04.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T10:05:04.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "10\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Mersham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "016360",
+        "Name": "MPN"
+      },
+      {
+        "Value": "other-chain-type",
+        "Name": "Chain Type"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Stone 1 Type"
+      },
+      {
+        "Value": "Haematite",
+        "Name": "Stone 2 Type"
+      },
+      {
+        "Value": "10 inch",
+        "Name": "Approx. Length"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "Briouze - Tresor Paris Anklet - White - 8mm - 11'' Crystal Magnetite Black Cord",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Order by Lunch Time for Same-Day* shipping Orders over \u00a3100 are automatically sent via Royal Mail Special Delivery (*working day) 016360 149.00",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719669295378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mershamsupplies",
+    "FeedbackScore": "13975",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Mersham Supplies",
+    "StoreURL": "http://stores.ebay.com/id=54866816"
+  },
+  "Location": "London, England",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~KEAAOSwxu5ZLUPU/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

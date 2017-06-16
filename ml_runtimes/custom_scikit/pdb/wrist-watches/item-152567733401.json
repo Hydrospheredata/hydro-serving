@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.97",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "USA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:59:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=45262453",
+    "StoreName": "BitComer"
+  },
+  "CurrentPrice": {
+    "value": "12.97",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T10:59:45.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yazole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rose-Gold-Luxury-Fashion-Wristwatch-Mens-Quartz-Watch-Casual-Business-/152567733401",
+  "NewBestOffer": "false",
+  "SKU": "MensWatch09(1)",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525677334018080_1.jpg",
+  "ItemID": "152567733401",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT19H38M34S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk4WDU5Ng==/z/Q-kAAOSwcUBYIsCt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE2WDg5OA==/z/z0IAAOSwx2dYIsCo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzY0WDgwOQ==/z/7FUAAOSwKOJYIsCj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDk5WDcxMA==/z/zwsAAOSwx2dYIsCm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTkzWDU5Nw==/z/haAAAOSwB09YIsCq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjA0WDU5OA==/z/Pr8AAOSwHMJYIsCg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQzWDc2MQ==/z/QJgAAOSwHMJYIsCv/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Rose Gold Luxury Fashion Wristwatch  Mens Quartz Watch Casual Business",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "18648",
+    "UserID": "bitcomer",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Disclaimer:\nAll items purchased from BitComer are made pursuant to a shipment contract. This means that the risk of loss and title for such items pass to you upon our delivery to the carrier. \nBitComer WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM USING THIS ITEM, INCLUDING, BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, AND CONSEQUENTIAL ECONOMIC DAMAGES."
+  }
+}

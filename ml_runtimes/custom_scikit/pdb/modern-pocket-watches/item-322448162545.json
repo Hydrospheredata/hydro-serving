@@ -1,0 +1,144 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "11222",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "MOTHERS DAY SPECIAL! FOR MOTHERS DAY I HAVE LOWERED THE PRICE FROM $2449.99 TO $1799.99 I GUARANTEE YOU WILL NOT FIND A DEAL LIKE THIS ANYWHERE :) ALL OF MY TIMEPIECES COME WITH A FULL 2 YEAR WARRANTY(this does not include battery or physical abuse) Features: ~26 Diamonds ~Hand Set Diamonds with prong settings ~14k Gold ~Mineral Crystal ~Swiss Movement ~Stampado Bracelet with fold over clasp Measurements: Overall Length= 6.5\" Case Width= 7/8\" Suggested Retail: 3299.00 Sku#: BWC-0222",
+  "StartTime": "2017-03-10T18:51:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5hQAAOSw4A5YwvTB/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9SYAAOSwfVpYwvTE/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5N1gxNjAw/z/vlwAAOSwWxNYwvTI/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JdoAAOSwuxFYwvTQ/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1799.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "12-hour Dial",
+          "Swiss/Quartz Movement"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Aegler",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "vnessp",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "48",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "25",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3224481625458080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T18:51:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1799.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CO",
+    "PA",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MOTHERS-DAY-SALE-WATCH-Swiss-Movement-14K-Gold-/322448162545",
+  "Location": "Brooklyn, New York",
+  "Title": "MOTHERS DAY SALE - WATCH - Swiss Movement - 14K Gold -",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322448162545",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT10S"
+}

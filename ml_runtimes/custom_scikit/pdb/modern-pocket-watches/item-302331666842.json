@@ -1,0 +1,174 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "33813",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Check out my other items! Up for Sale is a gently used Colibri of London Full Hunter Pocket Watch in Silver tone,with Eagle bird on cover. Features: roman numerals, silver tone hour, minute and second hand in blue dial and eagle bird. New battery Installed. Japan Movement. Comes with wooden box and cloth pouch and Chains. Great Gift. Selling as is. No return. No refund.",
+  "StartTime": "2017-05-29T01:51:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/4OMAAOSwD0lUi3RW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/SwUAAOSwofxUi3Rm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/~vQAAOSwAL9Ui3Rx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/dJcAAOSwnDxUi3R8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/tekAAOSw0vBUi3SF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/AZkAAOSwAL9Ui3SN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/txwAAOSw0vBUi3SX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/6DQAAOSwD0lUi3Sg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/6~MAAOSwaNBUi3So/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/T6MAAOSwofxUi3Sw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/6rAAAOSwD0lUi3S6/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "40.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Colibri of London",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Silver Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "England",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Vintage (1970-1983)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jewelrybug715",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "958",
+    "PositiveFeedbackPercent": "98.1"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023316668428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T01:51:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "40.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLIBRI-LONDON-SILVER-TONE-POCKET-WATCH-COMES-WOODEN-BOX-CLOTH-POUCH-/302331666842",
+  "Location": "Lakeland, Florida",
+  "Title": "COLIBRI OF LONDON SILVER TONE POCKET WATCH COMES WITH WOODEN BOX & CLOTH POUCH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302331666842",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT7H16M28S"
+}

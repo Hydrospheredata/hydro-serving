@@ -1,0 +1,170 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.51"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Features: Good workmanship Elegant design with precise quartz movement Dial color in white with arabic numerals in black The back case are smooth without any engravings Removable silvery chain with a clip at the end Retro watch case brings you back to your memory in youth Perfect addition to a formal or casual dressing or collecting Daily water resistance(not for showering and swimming) Case Material: Alloy Chain Material: Alloy Size/Measurements: Case diameter(cm): approx 4.6 Chain length(cm): approx 37.5 Chain width(cm): approx 0.5 Case thickness(cm): approx 1.0 Watch weigt(g): approx 69 Package included: 1* pocket watch 1* watch chain 1* Gift box Please Take Attention: Once you receive the quartz watch: Press the crown at the top of watch, the front plate will open. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. - Imported. - Precision Japanese quartz movement. - High quality alloy case and chain. - Chain Length 365mm 14 inches. - 12 months International Guarantee with Official Box. SwitchMe Retro Quartz Pocket Watch Japan Movement with Belt Clip Chain for",
+  "StartTime": "2017-03-06T17:23:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/mHkAAOSwuxFYvZsK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8UYAAOSwB-1YvZsK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/bzwAAOSw32lYvZsK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIxN1gxNTAw/z/PsQAAOSwol5YvZsJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDE1MDA=/z/wmYAAOSwCU1YvZsK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/rOIAAOSwfVpYvZsJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/FacAAOSwXYtYvZsK/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "611714969875",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0611714969875",
+        "Name": "EAN"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.25 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.3 x W 2.9 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "85",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2725796625628080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:23:18.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.51"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SwitchMe Retro Quartz Pocket Watch Japan Movement with Belt Clip Chain for",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SwitchMe-Retro-Quartz-Pocket-Watch-Japan-Movement-Belt-Clip-Chain-/272579662562",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579662562",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H31M31S"
+}

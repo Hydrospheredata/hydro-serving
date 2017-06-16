@@ -1,0 +1,106 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "29.5",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630130461088080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T14:46:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:46:37.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Box was damaged during delivery. Other than that, it's brand new.",
+  "BuyItNowPrice": {
+    "value": "29.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263013046108",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "U.S. Polo Assn.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NA",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "U.S. Polo Assn. Women's Quartz Metal and Alloy Casual Watch Color:Two Tone (M...",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/U-S-Polo-Assn-Womens-Quartz-Metal-and-Alloy-Casual-Watch-Color-Two-Tone-M-/263013046108",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "2",
+  "PostalCode": "14174",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Youngstown, New York",
+  "TimeLeft": "P6DT23H40M15S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg1NzU=/z/7w8AAOSwo4pYijul/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0N1g2ODE=/z/LdsAAOSwNnRYijvB/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "391",
+    "UserID": "aaronsmom1208",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

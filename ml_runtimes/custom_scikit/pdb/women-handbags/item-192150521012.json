@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Top-Leather-Shoulder-Bag-Top-Crazy-house-Leather-Cross-Body-Bag-Genuine-Lea-/192150521012?var=",
+  "ConvertedCurrentPrice": {
+    "value": "151.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: *This classic style shoulder bag was made of high quality crazy-horse leather,With Sophisticated technology,brilliant Appearance,Classic characteristics,make it become the Popular Bag for men.*[Product details]*Colour:Coffee *Outer material:Top Leather(Crazy-horse leather)*Inner material:Polyester-cotton Blend*Inner structure:One main interlayer,Phone Bag,ID card bag,two front pocket,zipper pocket.*Size Dimension:33cm\u00d79cm\u00d724cm.13in\u00d73.5in\u00d79.4in*Net weight: 700 g *Feature:Can put a folding umbrella,With a length adjustable shoulder strap.*Applicable people:Business man,Leisure man,Travel ,Outdoor trips.",
+  "Title": "Mens Top Leather Shoulder Bag Top Crazy-house Leather Cross Body Bag Genuine Lea",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "151.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Coffee",
+        "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/717/199/311550831/original.jpeg"
+      },
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": {
+      "Quantity": "3",
+      "StartPrice": {
+        "value": "151.0",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:139717199:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour",
+          "Value": "Coffee"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": "Coffee"
+      }
+    }
+  },
+  "StartTime": "2017-04-06T17:51:34.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P3DT1H35M40S",
+  "EndTime": "2017-06-05T17:51:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MUCO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "109285023"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192150521012",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139717198:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

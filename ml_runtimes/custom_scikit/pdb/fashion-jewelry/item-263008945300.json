@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P22DT11H45M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "38.76",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263008945300",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bold-Sterling-Filigree-Dimensional-Flower-Ring-Signed-DGS-Turkey-Size-5-/263008945300",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.76",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T02:44:48.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T02:44:48.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Bold Sterling Filigree Dimensional Flower Ring Signed DGS Turkey, Size 5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "The face and 3/4 of the band are made of a filigree design with a large open, tri-layered flower Metal: Sterling Silver Ring Size: 5 Band Width: 0.25\"Ring Face: 1\" roundStamped \"DGS Turkey 925\" Excellent condition, worn 2 times, no flaws or damage",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630089453008080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "steph4302_0",
+    "FeedbackScore": "9",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Pasadena, California",
+  "HitCount": "16",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/r9AAAOSwtGlZK4ma/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/DaUAAOSwYlRZK4me/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/7MAAAOSw~FJZK4mg/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/2rsAAOSwX61ZK4ml/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/ExcAAOSwKytZK4mq/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/kdcAAOSwxu5ZK4mt/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/CygAAOSws5pZK4mx/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/z5UAAOSw-3FZK4m1/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/mXQAAOSwn-tZK4m4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/tmIAAOSwCQZZK4nR/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/vOAAAOSwJH1ZMhHp/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/HxMAAOSw1WJZMhHV/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "91106"
+}

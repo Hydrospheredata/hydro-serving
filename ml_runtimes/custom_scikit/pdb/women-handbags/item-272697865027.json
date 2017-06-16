@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/5pYAAOSwuMZZHVvW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/UgkAAOSwYvFZHVva/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/MSYAAOSwY3BZHVvS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/4cAAAOSw8lpZHVvO/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-YSL-Monogram-Small-Leather-Chain-Bag-/272697865027",
+  "ConvertedCurrentPrice": {
+    "value": "490.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "100% Authentic size:6.75\"W X 5\"H X 1.75\"D inches dust bag and tag are includend Adjustable chain shoulder strap drop: 19\"",
+  "Title": "New  YSL Monogram  Small Leather Chain Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "490.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Gonzales, Louisiana",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "jiafalsclakd-7"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "70737",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T01:28:42.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P9DT11H22M14S",
+  "EndTime": "2017-06-12T01:28:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Yves Saint Laurent"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Deep Marine"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272697865027",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726978650278080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

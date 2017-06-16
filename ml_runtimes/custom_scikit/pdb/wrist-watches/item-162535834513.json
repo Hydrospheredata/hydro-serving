@@ -1,0 +1,175 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Secaucus, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:44:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1589842190",
+    "StoreName": "sotglobalcorp"
+  },
+  "CurrentPrice": {
+    "value": "155.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:44:25.000Z",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "Africa",
+    "Southeast Asia",
+    "South America",
+    "BH",
+    "IQ",
+    "IL",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ItemID": "162535834513",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "MK6169",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "MK6169",
+        "Name": "Model"
+      },
+      {
+        "Value": "0796483164284",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors MK6169 Women's Gold Plated Stainless Steel Rose Gold Mineral Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-MK6169-Womens-Gold-Plated-Stainless-Steel-Rose-Gold-Mineral-Watch-/162535834513",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625358345138080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "07094",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H22M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTM2WDU0Ng==/z/8cAAAOSw42dZLp2W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA5N1g2OTI=/z/IsgAAOSw3gJZLp2k/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NFgxMDAw/z/mqIAAOSwi7RZLp52/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/k8AAAOSwX61ZLp16/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Michael KorsMichael Kors MK6169 Ladies' Parker Chronograph Watch EAN796483164284MODELMK6169GENDERLADIESGLASSSCRATCH RESISTANT MINERAL COLOURGOLDCASE WIDTH39CASE MATERIALSTAINLESS STEELCASE COLOURGOLDSTRAP TYPEMETAL BRACELETSTRAP COLOURGOLDCLASP TYPEPUSH BUTTON DEPLOYMENT CLASPDIAL COLOURPURPLEMOVEMENTQUARTZADDITIONAL FEATURESDATE AND CHRONOGRAPH.WATER RESISTANCE10 ATM / 100 METRESWARRANTY2 YEARS MANUFACTURERS WARRANTY",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7",
+    "UserID": "sotglobalcorp",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

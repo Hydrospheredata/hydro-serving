@@ -1,0 +1,178 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.27"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! WZC pocket watch is the best gift for your love, seniority or yourself. Elegant design with precise quartz movement. Removable chain. Retro watch case brings you back to your memory in youth Perfect addition to a formal or casual dressing or collecting Case Material: Alloy Chain Material: Alloy Size/Measurements: * Case diameter(cm): approx 4.6 * Chain length(cm): approx 37.5 * Chain width(cm): approx 0.5 * Case thickness(cm): approx 1.0 Take Attention: Once you receive the quartz watch: How to set time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. - WZC Watches - Better quality Through technical detection, excellent workmanship and 100% Brand NEW - Super birthday, wedding or Christmas gifts. Best present for families, friends or teachers. - Each pocket watch has a chain when you get it. - With a gift box. WZC Vintage Motorcycle Quartz Movement Arabic Numerals Pocket Watch with Chain",
+  "StartTime": "2017-05-28T12:49:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GLcAAOSwYvFZKsdl/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDk4/z/~ggAAOSwX61ZKsdm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/heEAAOSwjL5ZKsdm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/fmwAAOSwsXFZKsdm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3KsAAOSwK6RZKsdm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/4igAAOSwtGlZKsdm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UNYAAOSwaEhZKsdm/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "601279272060",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0601279272060",
+        "Name": "EAN"
+      },
+      {
+        "Value": "WZC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "WZC007",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.3 x W 2.9 x H 1.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "WZCPW007",
+        "Name": "Label"
+      },
+      {
+        "Value": "WZC-007",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "hadaso-40",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1124",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423969676218080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T12:49:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.27"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "WZC Vintage Motorcycle Quartz Movement Arabic Numerals Pocket Watch with Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WZC-Vintage-Motorcycle-Quartz-Movement-Arabic-Numerals-Pocket-Watch-Chain-/142396967621",
+  "Storefront": {
+    "StoreName": "OnlineBest1",
+    "StoreURL": "http://stores.ebay.com/id=1441228617"
+  },
+  "ItemID": "142396967621",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT18H14M35S"
+}

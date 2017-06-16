@@ -1,0 +1,80 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "169.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263010524249",
+  "TimeLeft": "PT10H47M42S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "169.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HEIDI-DAUS-SWAROVSKI-CRYSTAL-ANEMONES-NECKLACE-NEW-/263010524249",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "169.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T01:43:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T01:43:36.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SWAROVSKI CRYSTALS",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "NECKLACE",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "HEIDI DAUS SWAROVSKI CRYSTAL ANEMONES NECKLACE, NEW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NEW HEIDI DAUS SWAROVSKI CRYSTAL ANEMONES NECKLACE THIS NECKLACE FEATURES A PAVE ENCRUSTED DOME CENTER AND PETALS WHICH ARE BEZEL SET WITH A STUNNING ARRAY OF MULTI-SHAPED, MULTICOLORED SWAROVSKI CRYSTALS AND PAVE SET WITHIN A SCALLOPED FRAMETHIS NECKLACE MEASURE APPROXIMATELY 16\" IN LENGTH WITH A 4\" EXTENDER AND IS MARKED HEIDI DAUSCOMES IN ITS ORIGINAL BOX INSIDE A GOLD SLEEVE WITH A MANUFACTURER'S LIMITED LIFETIME WARRANTY CARD AND IS NEW!! Please feel free to contact me with any questions prior to bidding. All sales are final.Item will be carefully packed and shipped via USPS for $9.95 with tracking. I accept paypal and payment is due within 5 days after auction ends. Item comes from a smoke free and pet free home.Thanks for looking and happy bidding!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630105242498080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dakotajay",
+    "FeedbackScore": "1059",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "NEW YORK STATE",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Mh4AAOSwh2xX~Dl~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1wQAAOSwYIxX-wmd/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,159 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg4NDI=/z/gnIAAOSwvihY-UbT/$_12.JPG",
+    "http://i.ebayimg.com/00/s/OTg0WDEwMDA=/z/DQ0AAOSwN6JY-UbW/$_12.JPG",
+    "http://i.ebayimg.com/00/s/OTg0WDEwMDA=/z/8lQAAOSw3ZRY-UbY/$_12.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMFg4NDA=/z/djEAAOSwWWxY-UbZ/$_12.JPG",
+    "http://i.ebayimg.com/00/s/MTAwMFg1MzY=/z/J9AAAOSwzqFY-Ubb/$_12.JPG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-and-Co-Florentine-Flap-Front-Handbag-US-Seller-Free-Shipping-/302290694691",
+  "ConvertedCurrentPrice": {
+    "value": "67.67",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.67",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "865",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pipeak"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King and Co. Florentine Flap Front Handbag - US Seller Free Shipping",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-04-20T23:40:14.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P17DT8H32M32S",
+  "EndTime": "2017-06-19T23:40:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "David King   Co."
+      },
+      {
+        "Name": "MPN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "Model",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302290694691",
+  "Storefront": {
+    "StoreName": "Pi Peak",
+    "StoreURL": "http://stores.ebay.com/id=1450026191"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3022906946918080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

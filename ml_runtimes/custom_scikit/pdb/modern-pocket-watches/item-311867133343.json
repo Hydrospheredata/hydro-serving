@@ -1,0 +1,176 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "IQ",
+    "JO",
+    "YE",
+    "AF",
+    "CN",
+    "TM",
+    "AU",
+    "KI",
+    "BA",
+    "DE",
+    "GI",
+    "IT",
+    "GB",
+    "BS",
+    "LC",
+    "BN",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "GF",
+    "MX",
+    "PM",
+    "CM",
+    "SL"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "85225",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Double Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton",
+          "12-Hour Dial",
+          "Large Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Anchor",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "16",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "4895203627422",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Payment Terms We accept PayPal payment only. We do not offer combine shipping discount. Our P&P rates includes the postage, packing materials, processing and administrative costs. Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Shipping Terms We ship your orders within 1 business day (Excluding holidays)\u00a0after the payment is cleared. Estimated Delivery Time:A) United States: 3-7 business days B) Canada: 9-15 business days C) Other Countries: 14-35 business days inkfrog terapeak inkFrog Analytics On May-09-17 at 01:19:01 PDT, seller added the following information:",
+  "StartTime": "2017-05-09T08:13:24.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/EroAAOSwaeRZK4VI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA2WDkzMA==/z/Q8AAAOSw42JZK4VH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI2WDkzMA==/z/OkQAAOSwIaFZK4VI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/uHoAAOSwJH1ZK4VJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/~JkAAOSwuMZZK4VJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg5WDkzMA==/z/8WwAAOSwrhBZK4VK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDkzMA==/z/1t0AAOSwjL5ZK4VK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM3WDkzMA==/z/Q4EAAOSwcB5ZK4VL/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.6"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "20",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "PX-012-S",
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3118671333438080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T08:13:24.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "311867133343",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "60 Days",
+    "RestockingFeeValue": "20%"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.6"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PACIFISTOR-Mechanical-Pocket-Watch-Double-Half-Hunter-Steampunk-Stainless-Steel-/311867133343",
+  "Location": "Chandler, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "PACIFISTOR Mechanical Pocket Watch Double Half Hunter Steampunk Stainless Steel",
+  "Storefront": {
+    "StoreName": "infantry watch",
+    "StoreURL": "http://stores.ebay.com/id=1011738844"
+  },
+  "Seller": {
+    "UserID": "j-pro-shop",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "26947",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT13H30M36S"
+}

@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT20H6M48S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "54.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232360883955",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ethnic-Indian-Multicolor-CZ-Piercing-Screw-Nose-stud-22g-Solid-Real-14k-Gold-/232360883955",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "54.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T11:37:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T11:37:08.000Z",
+  "PrimaryCategoryID": "32050",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "screw",
+        "Name": "Type"
+      },
+      {
+        "Value": "karizma jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "multicolor",
+        "Name": "Color"
+      },
+      {
+        "Value": "gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "22g",
+        "Name": "Gauge (Thickness)"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Ethnic Indian Multicolor CZ Piercing Screw Nose stud 22g Solid Real 14k Gold",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Metal: Solid 14k Yellow Gold Weight: 0.360 Gram Dimension: 7.2mm , (Piercing Thickness 22 Gauge) Stone: CZ (Cubic Zirconia's) Style: Screw Origin: India",
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323608839558080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "karizmajewels",
+    "FeedbackScore": "9057",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "karizmajewels",
+    "StoreURL": "http://stores.ebay.com/id=179629606"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzOVgxMTM5/z/2DoAAOSw44BYP~-t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA0M1gxMDAy/z/w5MAAOSwcUBYP~-a/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMw/z/138AAOSw44BYP~-o/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyNFgxMjI0/z/a~IAAOSwa~BYP~-x/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "144003"
+}

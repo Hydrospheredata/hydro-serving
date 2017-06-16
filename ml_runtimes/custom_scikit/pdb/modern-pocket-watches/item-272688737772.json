@@ -1,0 +1,150 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "32822",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Vintage style bronze 4.5 cm pocket watch with a 80cm chain. Front cover has \"The Greatest Dad\" with a full hunter closure. Made of durable stainless steel with roman numerals and decorative hands.",
+  "StartTime": "2017-05-27T00:32:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM3OVg4MTE=/z/q7QAAOSwK6RZKMhx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM2WDgxMA==/z/vMwAAOSwjqVZKMiS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/1k4AAOSwrhBZKMkI/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "thethriftchest",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "587",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726887377728080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T00:32:53.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/The-Greatest-Dad-antique-style-pocket-watch-chain-/272688737772",
+  "Location": "Orlando, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "\"The Greatest Dad\" antique style pocket watch with chain",
+  "Storefront": {
+    "StoreName": "the thrift chest",
+    "StoreURL": "http://stores.ebay.com/id=907302986"
+  },
+  "ItemID": "272688737772",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT5H56M59S"
+}

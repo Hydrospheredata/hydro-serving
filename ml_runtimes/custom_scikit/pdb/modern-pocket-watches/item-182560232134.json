@@ -1,0 +1,122 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "61265",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Colibri Swiss Quartz Goldtone Pocket Watch US Twenty & Keyring with Original Box Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-04T14:35:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/8YYAAOSwnONZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/zb8AAOSwhvFZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/Ik0AAOSwdjNZCzw4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/gyAAAOSw-3FZCzw4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1g3OTk=/z/Ii0AAOSwdjNZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/8YAAAOSwnONZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/AXEAAOSwrhBZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/AXkAAOSwrhBZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg2ODI=/z/sDEAAOSwR29ZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg2ODI=/z/LnAAAOSwlndZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/IjMAAOSwdjNZCzw3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDEyODA=/z/zd8AAOSwhvFZCzw4/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "125.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Colibri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "No Hour Marks",
+          "No Second Hand",
+          "Swiss Made"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Anchor",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "coinguy5488",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1093",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "50",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825602321348080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-03T14:35:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "125.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Item must be in original condition and original packaging to qualify for a return. Please message us before leaving negative of neutral feedback. We will trying our best to rectify any situation. If a return is the only acceptable answer please let us know so we can be on the lookout for incoming returns.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Colibri-Swiss-Quartz-Goldtone-Pocket-Watch-US-Twenty-Keyring-Original-Box-/182560232134",
+  "Location": "Moline, Illinois",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Colibri Swiss Quartz Goldtone Pocket Watch US Twenty & Keyring with Original Box",
+  "Storefront": {
+    "StoreName": "CoinGuys",
+    "StoreURL": "http://stores.ebay.com/id=573254193"
+  },
+  "ItemID": "182560232134",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT19H51M9S"
+}

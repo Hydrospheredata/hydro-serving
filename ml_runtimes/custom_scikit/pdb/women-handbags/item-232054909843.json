@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "Charity": {
+    "Mission": "We rescue and provide sanctuary to equines that have been subjected to cruelty, neglect, or slaughter.",
+    "CharityID": "103461",
+    "CharityName": "Triple Me Mac Equine Sanctuary",
+    "Status": "NoLongerValid",
+    "LogoURL": "http://i.ebayimg.com/images/g/2Z4AAOSwdGxXImrM/s-l1600.jpg",
+    "DonationPercent": "10.0",
+    "CharityNumber": "178467"
+  },
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMyOFgxMjAw/z/q74AAOSw-itXuLKg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4MlgxMjAw/z/VfgAAOSwawpXuLKc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMlgxNTAw/z/l~MAAOSw0UdXuLKi/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Priscilla-Pink-Laptop-Travel-Tote-/232054909843",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Multi-compartment laptop travel tote by Vera Bradley. Only used once or twice - in beautiful condition! Measurements are: 11.25\" x 14.75\" x 3\" with 12\" strap drop. The divided interior has a padded laptop sleeve on one side and a zip-top section on the other. Sides unzip, dividing the tote in half for quick and easy security inspection.",
+  "Title": "Vera Bradley Priscilla Pink Laptop Travel Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "New Braunfels, Texas",
+  "Seller": {
+    "FeedbackScore": "40",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "tracybrains"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78132",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-08-20T19:45:50.000Z",
+  "HitCount": "86",
+  "TimeLeft": "P14DT4H31M34S",
+  "EndTime": "2017-06-16T19:45:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232054909843",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2320549098438080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

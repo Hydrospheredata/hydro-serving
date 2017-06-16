@@ -1,0 +1,150 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P24DT5H10M29S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Gently Used Condition!",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182599039311",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stunning-JAY-KING-MINE-FINDS-STERLING-TURQUOISE-COPPER-NECKLACE-JEWELRY-/182599039311",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "64.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T19:45:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-29T19:45:56.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DTR 925 JAY KING",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "TURQUOISE",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "TURQUOISE   Copper & Sterling",
+        "Name": "Color"
+      },
+      {
+        "Value": "STONE",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "DONT KNOW",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Onyx",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "Title": "Stunning JAY KING MINE FINDS STERLING TURQUOISE COPPER NECKLACE JEWELRY",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "I have a beautiful Jay King mine Find necklace. Turquoise with copper and turquoise with silver.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825990393118080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "thehighfashionlady",
+    "FeedbackScore": "629",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Derry, New Hampshire",
+  "HitCount": "15",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5NzA=/z/EpMAAOSw9OFZIDLN/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "03038"
+}

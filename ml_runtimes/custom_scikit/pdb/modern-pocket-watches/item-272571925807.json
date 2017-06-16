@@ -1,0 +1,173 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "HR",
+    "CY",
+    "DE",
+    "GI",
+    "GG",
+    "JE",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "VA",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.51"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "690177226985",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product Description Shipping Payment Return Policy&Feedback Contact Us Description\uff1a 100% Brand new and high quality Color: bronze Mirror material: plastic mirror Shell material: aluminum Length: 6.5 cm Diameter: 4.4 cm Chain length: 38cn Style: Antique Movement types: quartz Waterproof: No Package Content: 1 x Watch 1 x Chain Shipping All items will be shipped within 24-48 working hours upon receipt of payment. In most cases, delivery takes around 15-25 business days, it's highly depended on the efficiency of the shpping carrier. If your item doesn't arrive on time, please contact us immediately for further assistance. Payment We only accept payment through Paypal. Please make sure you have a valid PayPal account prior bidding. Return Policy&Feedback If any item is defective upon receipt, please contact us for the return address, return is accepted within 14 days after the buyer receiving the item. Returned item has to be in its original condition. Buyer is responsible for return shipping costs. After receiving the return we will make a replacement depends on our available stock, if not available, a refund will be issued. Dear buyers, we appreciate your business, if you are satisfied with our service, please leave us a positive feedback and rate the details of the transaction (Detailed Seller Ratings) with a \"PERFECT 5 STARS\".Your recognition will make us more confident to develop business and serve you better. Our goal is to make sure you are a happy buyer and pleasant shopping with us. Please email us before leaving any 1 or 2 ratings, negative feedback or open any dispute. We understand the concerns and frustrations you might have, and will do our endeavor to resolve the issues. Please give us the opportunity to resolve any problem. Contact Us We care about our valued buyers, if you have any questions, our Customer Service staffs will be very glad to help you. We try our best to reply your email as soon as possible, please kindly allow 24 hours for us to response. Thank you.",
+  "StartTime": "2017-02-28T03:50:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/93UAAOSw4A5YtPOh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/uKsAAOSwTM5YtPOg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/eMMAAOSwB-1YtPOh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/534AAOSw~AVYtPOh/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "2",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "102",
+  "Country": "PH",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "101272|18585659",
+  "HitCount": "44",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2725719258078080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T03:50:54.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "272571925807",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.51"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Philippines",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage DAD Father Hollow Quartz Pocket Watch Analog Pendant Necklace xmas' gift",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-DAD-Father-Hollow-Quartz-Pocket-Watch-Analog-Pendant-Necklace-xmas-gift-/272571925807",
+  "Storefront": {
+    "StoreName": "tinglo3",
+    "StoreURL": "http://stores.ebay.com/id=1278064773"
+  },
+  "Seller": {
+    "UserID": "tellme3",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "28940",
+    "PositiveFeedbackPercent": "97.9"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT8H57M16S"
+}

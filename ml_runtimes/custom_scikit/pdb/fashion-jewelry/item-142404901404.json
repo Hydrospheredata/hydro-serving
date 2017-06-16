@@ -1,0 +1,88 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT9H32M54S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "41.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142404901404",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mystic-Topaz-necklace-pendant-and-Womens-ring-sterling-silver-fine-jewelry-set-/142404901404",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "41.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T21:23:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T21:23:58.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mystic Topaz",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Mystic Topaz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "rhodium",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "Mystic Topaz necklace pendant and Women's ring sterling silver fine jewelry set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This ring is simply stunning! Crafted from rhodium over sterling silver, this ring shines with a high polish finish. Five prong set round cut mystic topaz each 4.00 mm. Gemstone weight: 1 3/5 carats. Sterling silver, five stone, mystic topaz gemstone ring, size 7. Band width: 1.8 mm The stunning and unique pendant is crafted of highly polished sterling silver inlaid with cut white opals. A cubic zirconia mystic topaz hangs from the center. Pendant style, oval gemstone, prong set CZ measures 8mm wide x 10 mm long. 18 inch chain. PayPal only. United States shipping only.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424049014048080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "xkarencherriesx",
+    "FeedbackScore": "299",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Victoria, Texas",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE3MVgxNDQw/z/IqkAAOSwlY1ZFJbz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1MlgxNDQw/z/B9kAAOSwK6RZEzK5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwNlgxNDQw/z/~VUAAOSw~y9ZEzKp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODk5WDExMjQ=/z/o7EAAOSwfRdZEzKY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwN1gxNDQw/z/NCoAAOSwlY1ZEzLQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMxWDgxMA==/z/WywAAOSwAPVZEzLi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwNlgxNDQw/z/PFoAAOSwR29ZFJcI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDk0OA==/z/2BsAAOSwfpVZFJcZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc1WDY1Ng==/z/ZK0AAOSwtGlZFJcr/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "77901"
+}

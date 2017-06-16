@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT16H3M2S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302337146737",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KIRKS-FOLLY-STARSTRUCK-HEART-HINGED-TRINKET-PILL-BOX-Brasstone-New-Tags-/302337146737",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T06:51:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T06:51:59.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kirks Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BUSINESS CARD CASE",
+        "Name": "Type"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Brasstone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Brasstone",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "KIRKS FOLLY STARSTRUCK HEART HINGED TRINKET OR PILL BOX Brasstone New with Tags",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "KIRKS FOLLY BY THE LIGHT of the CRESCENT MOON BUSINESS CARD CASE BrasstoneSparkling Crescent Moon. The sparkling Crescent Moon is encrusted with faceted round crystals. This rectangular-shaped card case features a whimsical textured all-over floral design. Perfect for storing all your business cards in style.*Antique Brasstone*Made in Fairyland USA *Measures approximately 3-3/4\" x 2-1/4\" x 1/4\" *PayPal accepted for payment, please pay within 3 days of auction close. Items ship via the US Postal Service once payment has been received. Please note that I do not accept returns, so email me with any questions prior to bidding. Item comes from a smoke free and pet free environment. I will do combined shipping; just notify me by email so I can adjust the invoice. Items are shipped within 24 hours of confirmed payment. Once an item has shipped, I will email the delivery confirmation number to the buyer. Sorry, United States shipping only",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023371467378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "chicandcheerful4u",
+    "FeedbackScore": "424",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "NJ",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjI3WDExODc=/z/~SUAAOSwLVZV0ssy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM3WDY1OA==/z/zR0AAOSwyQtV0ssp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg3WDEzMTQ=/z/yWgAAOSwT6pV0ssx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjIyWDExNjU=/z/tuUAAOSwDNdV0ssx/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

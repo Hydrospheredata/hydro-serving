@@ -1,0 +1,119 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "135.11"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Color/Finish: Chrome. Watch Case: Brass. Quartz Movement. Matching Chain. Lifetime Movement Warranty. Deluxe Gift Box. - Quartz movement - Off-white dial with arabic numerals - Chrome finish brass 48 mm hunter case with a matching curb chain - Deluxe gift box - Photo insert on inside of front cover Charles Hubert 3851 Quartz Picture Frame Pocket Watch",
+  "StartTime": "2017-03-06T13:47:04.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyNlgxNTAw/z/i6YAAOSw2gxYvWhb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTky/z/Ah0AAOSwax5YvWhb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTc3/z/7mkAAOSwSlBYvWhc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5NDM=/z/2kQAAOSw32lYvWhb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3OVgxNTAw/z/PTQAAOSwTM5YvWhb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDE1MDA=/z/AgoAAOSwax5YvWhb/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "848870002997",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0811233017877",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3851",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "chrome",
+        "Name": "Color"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.45 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.9 x W 4.3 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "24",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2823854659728080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T13:47:04.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "135.11"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles Hubert 3851 Quartz Picture Frame Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-3851-Quartz-Picture-Frame-Pocket-Watch-/282385465972",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385465972",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT18H55M17S"
+}

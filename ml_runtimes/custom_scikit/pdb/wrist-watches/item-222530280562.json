@@ -1,0 +1,73 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3200.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Riverview, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:36:00.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "3200.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:36:00.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530280562",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Bell & Ross",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Bell & Ross BR01-96 Grande Date Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bell-Ross-BR01-96-Grande-Date-Watch-/222530280562",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225302805628080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "33578",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H28M24S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Vo4AAOSwYvFZLtJa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-UwAAOSwjqVZLtJb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pSIAAOSw1WJZLtJb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/xBIAAOSwIaFZLtJd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XWEAAOSwq1JZLtJd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rqwAAOSwlMFZLtJd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/HdMAAOSwH09ZLtJg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/P3oAAOSwn-tZLtJg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-ZUAAOSwjqVZLtJg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/WqUAAOSwurZZLtJi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk4/z/lEMAAOSwblZZLtJ3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pzkAAOSw1WJZLtJ3/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "The Bell & Ross Grande Date in Steel was designed by inspiration from aeronautical instrumentation. At 46mm it is a steel monster on the wrist. The case is satin brushed steel with a screw down crown for water resistance to 100 meters. The black dial with oversized Arabic numbers has an incredible sheen. The watch is fitted with a black Bell & Ross leather strap with steel buckle. This one sits beautifully on the wrist and is a joy to wear. It is like new in a generic box. There are no papers but will carry a one year warranty.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "37",
+    "UserID": "spideyrocks2004",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

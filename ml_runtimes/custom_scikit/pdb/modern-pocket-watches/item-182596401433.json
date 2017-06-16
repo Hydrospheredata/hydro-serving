@@ -1,0 +1,110 @@
+{
+  "QuantitySold": "0",
+  "Title": "Remington Electra Railroad Pocket Watch, working and manual winding, runs well",
+  "PostalCode": "28650",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Nice watch, ready for usage!",
+  "StartTime": "2017-05-28T23:18:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/bb8AAOSwYvFZK1pH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/RqQAAOSwBt5ZK1nl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/n5QAAOSwJH1ZK1oP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/7QMAAOSwIQdZK1ow/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Remington",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Model"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "24-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "glennschronce",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "466",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825964014338080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T23:18:18.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Remington-Electra-Railroad-Pocket-Watch-working-and-manual-winding-runs-well-/182596401433",
+  "ConditionDescription": "Nice watch with no scratches on crystal or case!  Please see photos!",
+  "Location": "Maiden, North Carolina",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182596401433",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT4H43M38S"
+}

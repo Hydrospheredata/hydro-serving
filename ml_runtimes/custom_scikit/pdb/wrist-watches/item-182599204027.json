@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.88",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "hong kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-30T22:20:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "9.88",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-04T22:20:46.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "ID",
+    "MY",
+    "IL"
+  ],
+  "ItemID": "182599204027",
+  "HandlingTime": "2",
+  "Description": "DESCRIPTION Unisex silver-tone high quality watch. The watch casing measures approx. 1 1/2\" in diameter, the watch band fits most wrists from approx. 6 1/2\" to 8\" The watch band is made of stainless steel Stainless steel back Miyota watch movement made by Citizen. The battery for the watch is included. Flat image on background. Not 3D (Only Printed) PAYMENT METHOD We accept PayPal and credit card only. Your order will be processed (in max. 3 working days) and shipped. SHIPPING TERMS TRACKING NUMBER AND BOX are available. Shipping time takes approximately 15-30 business days to United States, 20-30 days to Canada, 15-30 days to Europe, 15-30 days to Australia. For some others areas/countries, sometimes will take time a little longer, depend on custom service. Shipping delays due to packages held by customs are beyond our control. For holiday seasons, shipping will take longer time to reach Not responsible for customs duties, taxes, fees, or delays. RETURN POLICY If you are not fully satisfied with your purchase, please contact us immediately before make a dispute case or leaving negative feedback. We will work to resolve your concerns. This return policy does NOT apply if it related to the buyer's mistakes; e.g. wrong address etc. CONTACT US Got a question? Please don't hesitate to contact us via seller contact form. Normal 0 false false false IN X-NONE X-NONE",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Limited Audi A6 Avant S line Steering Wheel Sport Metal Watch#4",
+  "ConditionDescription": "A brand-new, unused, and unworn item (including handmade items) that is not in original packaging or may be missing original packaging materials (such as the original box or bag). The original tags may not be attached.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Limited-Audi-A6-Avant-S-line-Steering-Wheel-Sport-Metal-Watch-4-/182599204027",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825992040278080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT6H57M17S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/fUgAAOSwrhBZCZcQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxMFgxMDEw/z/rCMAAOSwt0FZCZcN/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "9.88",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6",
+    "UserID": "adanyapp_fqkfo",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

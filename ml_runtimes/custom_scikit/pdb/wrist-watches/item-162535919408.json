@@ -1,0 +1,135 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Warrington, Cheshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:13:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:13:24.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535919408",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "VERA PELLE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "20mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "35mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "QUARTZ WATCH - VERA PELLE STRAP LEATHER",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/QUARTZ-WATCH-VERA-PELLE-STRAP-LEATHER-/162535919408",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359194088080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "Wa3 3ex",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H56M12S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTI4WDU3Mg==/z/FtEAAOSwFdtXxG1Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE0WDU3NQ==/z/4kkAAOSwFe5XxG1j/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzExWDUyMA==/z/RDcAAOSwvzRXxG1w/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "VERY SMART CASUAL ANALOGUE. BATTERY WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "322",
+    "UserID": "hoot_greg",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

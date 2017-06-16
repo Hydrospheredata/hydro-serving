@@ -1,0 +1,111 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT23H37M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263021151653",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DOUBLE-COLORS-HANDMADE-TOPAZ-AMETHYST-925-STERLING-SILVER-RING-SIZE-6-/263021151653",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:46:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T12:46:11.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ring Harness",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Topaz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "6",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "DOUBLE COLORS HANDMADE TOPAZ AMETHYST .925 STERLING SILVER RING SIZE 6",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Material is .925 Sterling Silver. The stones are TOPAZ, AMETHYST.This Ring is 9,41 grams. Head size is 0,85\". Ring Size is 6All our silver items have the 925 stamp.***All our items are made in EUROPE with high quality workmanship*** Visit our other auctions for great deals",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630211516538080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "baharluxury",
+    "FeedbackScore": "510",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "baharluxury",
+    "StoreURL": "http://stores.ebay.com/id=1169861099"
+  },
+  "Quantity": "1",
+  "Location": "Los Angeles, California",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQxWDkwMA==/z/5CAAAOSw4CFY6TCw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc3WDkwMA==/z/REYAAOSw3utY6TDB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI0WDkwMA==/z/reYAAOSwB-1Y6TDN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI5WDU1MA==/z/WEAAAOSw03lY6TC3/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "90034"
+}

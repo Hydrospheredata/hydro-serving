@@ -1,0 +1,160 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "BD",
+    "CN",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "BY",
+    "BA",
+    "HR",
+    "CY",
+    "DE",
+    "JE",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SJ",
+    "UA",
+    "VA",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "IL",
+    "KW",
+    "LB",
+    "YE",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.31"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-05-11T10:18:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/1vsAAOSw1WJZFDpL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/V9cAAOSwYvFZFDpV/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/o3wAAOSwblZZFDpc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/PEgAAOSwBt5ZFDqA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/HUwAAOSw-3FZFDpi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/JYoAAOSw-K9ZFDqF/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "15",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "1MU0TA4ER8AL9SD1",
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625120774138080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T10:18:48.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "162512077413",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.31"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ShenZhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Antique Retro Union Jack British Flag Quartz Pendant Chain Fob Pocket Watch Gift",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Retro-Union-Jack-British-Flag-Quartz-Pendant-Chain-Fob-Pocket-Watch-Gift-/162512077413",
+  "Storefront": {
+    "StoreName": "acemotor2015",
+    "StoreURL": "http://stores.ebay.com/id=1283724237"
+  },
+  "Seller": {
+    "UserID": "acemotor2015",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7872",
+    "PositiveFeedbackPercent": "98.3"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT15H36M25S"
+}

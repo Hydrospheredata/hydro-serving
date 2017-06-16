@@ -1,0 +1,136 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91789",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "king_toyz",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4926",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Description:- Stainless steel watch band makes the watch more durable.- Skeleton dial design reveals your fashionable point of view.- Daily water resistance (not for showering and swimming).- Automatic winding mechanical movement lets you wear the watch anytime.- Color may not appear as exactly as in real life due to variations between the computer monitors and naked eye color difference.Specification (approx):- Diameter: 4.2cm (1.65\")- Thickness: 1.4cm (0.55\")- Length of watch band: 19.0cm (7.5\")- Band width: 2.2cm (0.86\")- Movement: Self-winding Mechanical- Watch band: Stainless steelPackage includes: - 1 x Mechanical watchReminder:1. Please peel all films off before wearing.2. Please keep the watch away from magnet to avoid making the watch stop working.3. Please wind up the watch before every usage.",
+  "StartTime": "2017-05-02T07:33:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzMwWDczMA==/z/MPEAAOSwdjNZCDXj/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY4WDczMA==/z/tNcAAOSwCQZZCDXd/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzMwWDczMA==/z/mw4AAOSwcgNZCDYO/$_57.PNG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.14"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "10",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Fabric/Canvas",
+          "Stainless Steel"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Skeleton"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "W003",
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529140606128080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T07:33:56.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.14"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Skeleton-Leather-Band-Analog-Wrist-Mechanical-Stainless-Steel-Watch-/252914060612",
+  "Location": "Walnut, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Men's Skeleton Leather Band Analog Wrist Mechanical Stainless Steel Watch",
+  "Storefront": {
+    "StoreName": "king_toyz",
+    "StoreURL": "http://stores.ebay.com/id=1174216453"
+  },
+  "ItemID": "252914060612",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "PT13H43M52S"
+}

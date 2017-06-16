@@ -1,0 +1,82 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "92.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263015730301",
+  "TimeLeft": "P6DT11H13M47S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "92.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HEIDI-DAUS-SWAROVSKI-CRYSTAL-BLUE-ANEMONES-COMFORT-CLIP-ON-EARRINGS-NEW-/263015730301",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "92.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T02:03:07.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T02:03:07.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SWAROVSKI CRYSTALS",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "CLIP-ON EARRINGS",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Designer"
+      }
+    ]
+  },
+  "Title": "HEIDI DAUS SWAROVSKI CRYSTAL BLUE ANEMONES COMFORT CLIP-ON EARRINGS, NEW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NEW HEIDI DAUS SWAROVSKI CRYSTAL BLUE ANEMONES IN BLOOM COMFORT CLIP-ON EARRINGS THESE EARRINGS FEATURE A TOP ROUND DOMED STATION ENCRUSTED WITH ROUND PAVE SET CRYSTALS WITH A FLORAL DROP WITH MULTI-SHAPED, MULTICOLORED SWAROVSKI CRYSTALS WHICH ARE BEZEL AND PAVE SET WITHIN A SCALLOPED FRAME THESE EARRINGS MEASURE APPROXIMATELY 1 7/8\" IN LENGTH x 1 \" IN WIDTH AND ARE MARKED HEIDI DAUS COMES IN ITS ORIGINAL BOX INSIDE A GOLD SLEEVE WITH A MANUFACTURER'S LIMITED LIFETIME WARRANTY CARD AND IS NEW!! Please feel free to contact me with any questions prior to bidding. All sales are final. Item will be carefully packed and shipped via USPS for $7.95 with tracking. I accept paypal and payment is due within 5 days after auction ends. Item comes from a smoke free and pet free home. Thanks for looking and happy bidding!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630157303018080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dakotajay",
+    "FeedbackScore": "1059",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "NEW YORK STATE",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QCYAAOSw8gVX-wD~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyMlgxMjg1/z/lrMAAOSwzaJX-wDK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ih0AAOSwh2xX-wDd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyOVgxNjAw/z/x6wAAOSw8w1X-wDp/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

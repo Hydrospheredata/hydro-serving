@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:02:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:02:32.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245579525",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Marc by Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "796483028821",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Marc by Marc Jacobs MBM1283 Baker White Leather Strap Women's Watch",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Marc-Marc-Jacobs-MBM1283-Baker-White-Leather-Strap-Womens-Watch-/332245579525",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322455795258080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H37M46S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIxM1g3NjQ=/z/augAAOSwsW9Y1~8W/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand, Seller, or Collection Name Marc by Marc Jacobs Box not included Model number MBM1283 Part Number MBM1283 Model Year 2013 Item Shape round Dial Window Material Type Mineral Display Type Analogue Clasp Type Buckle Case Material Stainless steel Case Diameter 35 millimetres Case Thickness 9 millimetres Band Material Leather Band Length Women's Standard Band Width 18 millimetres Band Colour White Dial Colour silver Calendar No Special Features Measures seconds Weight 27 Grams Movement Swiss Quartz Warranty Type Manufacturer and seller combination.",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

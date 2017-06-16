@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE2WDU1Nw==/z/vGEAAOSwhQhYzGbc/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjIzWDU5NA==/z/D5QAAOSwuxFYzGbe/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTI4WDU3MQ==/z/xRsAAOSwB-1YzGbg/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Juicy-Couture-Velour-Marrakech-Cameo-Baby-Diaper-Bag-baby-changing-pad-new-/252818904115",
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Juicy Couture Marrakech Cameo Velour Diaper bag & Baby changing pad! Brand new in in original packaging and with tags! Color ~ Cerise Meet the most fashionable diaper bag and your new best friend! For the chic mom who doesn't want to sacrifice style for function.Juicy Couture bright and playful bag with enough compartments to organize everything you could possibly need. This diaper bag has you covered from clean up to diaper time. Exterior side pockets for bottles, cell phones or keys for quick access as well as detachable pouches for convenience. Measures ~ 13\" x 7\" x 12\"Handle drop~ 3\"Shoulder Strap ~ 24\" Fully lined 100% authentic and comes from a smoke free home!",
+  "Title": "Juicy Couture Velour Marrakech Cameo Baby Diaper Bag & baby changing pad! new",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Saint Louis, Missouri",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1240",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "kei514"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "63101",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-17T22:45:27.000Z",
+  "HitCount": "77",
+  "TimeLeft": "P13DT7H15M22S",
+  "EndTime": "2017-06-15T22:45:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Measures",
+        "Value": "13\" x 7\" x 12\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Velour"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Juicy Couture"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252818904115",
+  "Storefront": {
+    "StoreName": "kei514",
+    "StoreURL": "http://stores.ebay.com/id=573160647"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2528189041158080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

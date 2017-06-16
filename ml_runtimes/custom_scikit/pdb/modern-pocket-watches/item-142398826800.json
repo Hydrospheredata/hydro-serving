@@ -1,0 +1,147 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Antique Liberty Pocket Watch Gold&Silver American flag LIMITED EDITION The Liberty Pocket Watch makes a beautiful gift. The design on the front of the case features the torch of lady liberty with the image of a bald eagle. The face of the watch features the American flag. The design of the watch is a mixed gold and silver tone color. The watch is made of stainless steel with quartz movement. The watch has an analog display with an acrylic dial. The watch is water resistant but should not be placed in water. The style is antique with a round face and all parts being stainless steel. This watch is a great value and is made to last for many years.",
+  "StartTime": "2017-05-30T04:38:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE4WDYyMQ==/z/WUYAAOSwfRdZLPY~/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "stainless steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dig_deal",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423988268008080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-29T04:38:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "CA",
+  "Title": "Antique Liberty Pocket Watch Gold&Silver American flag LIMITED EDITION",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Liberty-Pocket-Watch-Gold-Silver-American-flag-LIMITED-EDITION-/142398826800",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142398826800",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT10H4M17S"
+}

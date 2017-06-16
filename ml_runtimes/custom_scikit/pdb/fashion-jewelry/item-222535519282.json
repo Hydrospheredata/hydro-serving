@@ -1,0 +1,135 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H32M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "88.33",
+    "_currencyID": "USD"
+  },
+  "SKU": "A000036-shoul-A-180",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222535519282",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/natural-Xinjiang-Gobi-stone-Bracelet-colour-Beautiful-Lovers-fashion-Ornaments-/222535519282",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "88.33",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:10:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:10:05.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stretchable",
+        "Name": "Features"
+      },
+      {
+        "Value": "8.5",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Xinjiang stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "natural Xinjiang Gobi stone Bracelet colour Beautiful Lovers fashion Ornaments",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225355192828080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "2014bestbird",
+    "FeedbackScore": "8672",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Beauty_User",
+    "StoreURL": "http://stores.ebay.com/id=1271974606"
+  },
+  "Quantity": "3",
+  "Location": "Lianyungang",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/UMYAAOSw~FJZNRHh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GjkAAOSwPh5ZNRHh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/aasAAOSwH09ZNRHg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/1HMAAOSwK6RZNRHg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/x1cAAOSwaEhZNRHh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/x1QAAOSwaEhZNRHg/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "379.4",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:45:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:45:33.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08460042",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "MX",
+    "KZ",
+    "BY"
+  ],
+  "ItemID": "302334178274",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Dreyfuss & Co.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "DGS00142/06",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Swiss Made",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rectangle Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Cream Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Brown Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "31x42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "5037678043775",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Men\u2019s Dreyfuss & Co. 1974 Quartz Brown Leather Watch DGS00142/06",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-s-Dreyfuss-Co-1974-Quartz-Brown-Leather-Watch-DGS00142-06-/302334178274",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023341782748080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H16M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/XD4AAOSw8lpZLoKw/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Men\u2019s Dreyfuss & Co. 1974 Quartz Brown Leather Watch DGS00142/06 RRP \u00a3470.00 Now \u00a3295.00 Description Handmade in Switzerland, this men\u2019s Dreyfuss & Co. 1974 Quartz real leather strap watch features rose gold plating surrounding the rectangular watch case. It\u2019s antique-inspired appearance its heightened by the warm tones of the real leather brown strap complementing the rustic hues of rose gold, and emphasised further by the black Roman numerals on the dial indicating the hours. The dial, in contrast, is white, featuring a rose gold edged subdial at six o\u2019clock and a slim date window at three. A black minute track surrounds the dial, with blue iridescent hands indicating the time accurately. Beneath the twelve o\u2019clock position, the Dreyfuss & Co. logo sits, written in black with rose gold plating. The strap is fastened with a rose gold plated buckle, with the watch face being protected by a layer of sapphire crystal glass. The inner workings of this men\u2019s leather strap watch is guaranteed to meet the Dreyfuss & Co. Seafarer Standard. It also comes with a two year manufacturer\u2019s warranty and will be sent in Dreyfuss & Co. presentation packaging. Chapelle reference: 08460042 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

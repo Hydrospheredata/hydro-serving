@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Sun City, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:59:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:59:03.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536096556",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "318588",
+        "Name": "Model"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Cole-Womens-Wrist-Watch-/162536096556",
+  "Title": "Kenneth Cole Women's Wrist Watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625360965568080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "92587",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H53M48S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/qpcAAOSwcldUY4ZQ/$_1.JPG?set_id=8800005007F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/BhQAAOSwuMFUY4Zk/$_1.JPG?set_id=8800005007F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/o94AAOSw0vBUY4Z5/$_1.JPG?set_id=8800005007F",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/jxsAAOSwAF5UY4aL/$_1.JPG?set_id=8800005007F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/Z~AAAOSwMKpUY4ad/$_1.JPG?set_id=8800005007F"
+  ],
+  "Description": "Kenneth Cole Women's wrist watch, beautiful condition with original box and lengthening pieces...Awesome Stainless steel color that goes with everything you wear.Fold over fastener that locks your watch into place.Please email with any questions you may have before bidding. Battery is currently working but can't promise a time frame. Thank you for looking at my Item and have a great day~",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "40",
+    "UserID": "janzachse13",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

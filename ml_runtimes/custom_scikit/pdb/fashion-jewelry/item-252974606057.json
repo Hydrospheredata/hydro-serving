@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P6DT12H42M9S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Great condition!",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252974606057",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Necklace-And-Earrings-Set-N1424-And-W1429-/252974606057",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T00:29:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T00:29:05.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pink Fresh Water Pearls",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Rose Quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "Silpada Necklace And Earrings Set. N1424 And W1429",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Authentic Silpada necklace and earrings set. Necklace is 18 in long with a 2 inch extender. Earrings are on French Wires. I only ship to the U S Continental states. Please refer to my photos as this is the item you can get. Thank you for viewing my site :-)",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529746060578080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dannersnana2012",
+    "FeedbackScore": "695",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Center City, Minnesota",
+  "HitCount": "2",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pE8AAOSw03lY6r3d/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/syUAAOSwmgJY6r3g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/e4IAAOSw4CFY6r3i/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IagAAOSwls5Y6r3k/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/l7IAAOSwU8hY6r3m/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tC4AAOSwmgJY6r3p/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8tcAAOSwc49Y6r3r/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "55012"
+}

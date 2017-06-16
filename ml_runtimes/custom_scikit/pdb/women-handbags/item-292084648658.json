@@ -1,0 +1,122 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423030464f484a465041.1.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423030464f484a465041.2.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423030464f484a465041.3.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423030464f484a465041.4.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423030464f484a465041.5.jpg",
+    "https://imagesssl.salefreaks.com/disk3/sfimages20170413/SF.US.423030464f484a465041.6.jpg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Flip-Tumble-Lightweight-Travel-Bag-Black-Black-One-Size-/292084648658",
+  "ConvertedCurrentPrice": {
+    "value": "50.29",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! This lightweight travel bag weighs in at just 5.5oz. Its cross body design and lightweight construction make it a breeze to carry your gear hands free to explore the globe, take a bike trip, or spend a day downtown. Or use it at home to hit the gym or just to head off to work. This travel bag folds into a small pouch, making it the perfect packable to bring back souvenirs. Just stash one in your luggage and always have a spare bag ready to go. - Cross-body style is perfect for travelling, biking, the gym, and more. - Foldable and compactable - storage pouch doubles as pocket that snaps into the inside of the bag. - Bag size 12\" x 13.5\" with a 4.5\" gusset. Features strap that adjusts from 26\" to 48\" long. - Secure zip-top keeps contents safe inside. - Made from ripstop nylon. Machine washable. Flip & Tumble Lightweight Travel Bag, Black/Black, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "50.29",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "149",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Flip & Tumble Lightweight Travel Bag, Black/Black, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T08:18:09.000Z",
+  "HitCount": "24",
+  "TimeLeft": "P9DT14H25M11S",
+  "EndTime": "2017-06-12T08:18:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "713757182201"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0713757182201"
+      },
+      {
+        "Name": "Brand",
+        "Value": "flip & tumble"
+      },
+      {
+        "Name": "MPN",
+        "Value": "CBBK001"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.35 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 7 x W 6 x H 0.5 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Flip & Tumble"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084648658",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920846486588080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

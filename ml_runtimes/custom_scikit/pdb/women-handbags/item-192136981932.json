@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-1.fishpond.co.nz/0061/691/629/178317614/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0061/691/629/178317615/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0061/691/629/178317616/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0061/691/629/178317617/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0061/691/629/178317618/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0061/691/629/178317619/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BELLI-Womens-Italian-Genuine-Leather-Tote-Bag-Classic-City-Style-Two-Tone-Blac-/192136981932",
+  "ConvertedCurrentPrice": {
+    "value": "156.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: High quality leather bag made in italy. Available in a lot of colours and embossings in our shop. Great modern look - strong, stable and high quality genuine leather - silver coloured metal elements. Reinforced bottom with metall feets. The ideal companion for every day in a handy format. Variable used as a tote bag or shoulder bag with the separate shoulder strap. - All our leather bags are impregnated as a small service performance for you before shipping fresh. Details of the bag: - Freshly impregnated - 3-divided main compartment with centre zipper compartment - 1 pocket inside with zipper, 1 pocket for handy - Separate shoulder strap - 2 variants carrying handle or shoulder bag - With a zipper and extra twist lock to close - Dimensions approximately: Width: 365cm Height: 24 cm (without handles) Depth: 18 cm",
+  "Title": "BELLI\u00ae Womens Italian Genuine Leather Tote Bag Classic City Style Two Tone Blac",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "156.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-22T11:14:39.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P17DT18H50M20S",
+  "EndTime": "2017-06-20T11:14:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Belli"
+      },
+      {
+        "Name": "MPN",
+        "Value": "101578736"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192136981932",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:61691629:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

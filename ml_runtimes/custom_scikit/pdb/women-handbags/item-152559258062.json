@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Xg8AAOSwpkFY6Ov-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/e2QAAOSwhQhY6Ovp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qLQAAOSwls5Y6OvN/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/DhAAAOSwB-1Y6Ove/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~3oAAOSwAANY6Ov0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FqoAAOSw3utY6OwG/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Grand-Cargo-Travel-Bag-Carry-Weekender-Canterberry-Cobalt-NWT-/152559258062",
+  "ConvertedCurrentPrice": {
+    "value": "56.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "16\u201d L x 15\u201d H x 8.5\u201d D. New with Tags. Exterior front has 2 snap closure cargo pockets and large zip pocket. Back exterior has 2 slip pockets and a trolley sleeve. Zip around closure. Interior has 2 large slip pockets. Has 6.5\u201d Dual short rolled handles or 48.5\u201d removable adjustable shoulder strap. Great for overnight, weekends, trips, college, diaper bag, etc. Airline carry on compliant. MSRP $112 + tax. Machine Washable. Comes from pet free, smoke free, dry home. Please pay within 48 hours of purchase. Thank you.",
+  "Title": "Vera Bradley Grand Cargo Travel Bag Carry On Weekender in Canterberry Cobalt NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "56.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Arlington, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "176",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "sandylee23"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "76017",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T04:56:36.000Z",
+  "HitCount": "36",
+  "TimeLeft": "P20DT12H17M39S",
+  "EndTime": "2017-06-23T04:56:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Travel Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Overnight Bags"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue/Black/White"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152559258062",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525592580628080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

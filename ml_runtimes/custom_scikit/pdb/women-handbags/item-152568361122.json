@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oFgAAOSwU8hY6xkw/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-NEW-Mesa-Red-Metro-Book-Bag-Messenger-Crossbody-Laptop-/152568361122",
+  "ConvertedCurrentPrice": {
+    "value": "84.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley's Metro (or Metropolitan) bag was initially sold as a portfolio bag, geared toward businesswoman who carry around file folders and legal documents. It's large enough (and has a zipper) so it can be used to hold a laptop or a laptop inside of a laptop sleeve. The strap is long and the clasps are plastic, so it's lightweight, unlike many laptop or portfolio bags. There's a front pocket with a key fob and clip to hold your keys and plenty of pockets and zippers inside and in the back. Mesa Red Vera Bradley Metro Bag All of my items are smoke-free and pet-free and stored in odorless protective plastic containers. Some are with tags and some are without. A couple no longer have the baseboards (most customers remove them anyway). Since this is my new store I am only permitted to list 20 items per month, so please choose carefully. I can't do returns yet and I can't make special listings. I can modify listings so if you want more than one, message me before checking out. I offer combined shipping. Please message me BEFORE you purchase to ask the combined shipping price. I can't do anything to alter shipping once it's been purchased.",
+  "Title": "Vera Bradley NEW Mesa Red Metro Book Bag Messenger Crossbody Laptop",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "84.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Everson, Washington",
+  "Seller": {
+    "FeedbackScore": "159",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "ashleysatticwa"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98247",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T20:50:57.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P28DT6H5M20S",
+  "EndTime": "2017-06-30T20:50:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Bookbag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152568361122",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525683611228080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

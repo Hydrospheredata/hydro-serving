@@ -1,0 +1,113 @@
+{
+  "QuantitySold": "0",
+  "Title": "Kenneth Cole Reaction Pocket Watch, Stainless Steel, Water Resistant",
+  "PostalCode": "32207",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Kenneth Cole Reaction Pocket Watch",
+  "StartTime": "2017-05-29T11:55:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/qVAAAOSw4CFY24O~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/zmAAAOSwWxNY24O2/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "KR7001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Reaction",
+        "Name": "Model"
+      },
+      {
+        "Value": "25s",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "thingsveryspecial",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "4",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825971478928080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-28T11:55:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kenneth-Cole-Reaction-Pocket-Watch-Stainless-Steel-Water-Resistant-/182597147892",
+  "ConditionDescription": "Needs a new battery.  In good condition, shows normal wear and tear.",
+  "Location": "Jacksonville, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182597147892",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT17H20M43S"
+}

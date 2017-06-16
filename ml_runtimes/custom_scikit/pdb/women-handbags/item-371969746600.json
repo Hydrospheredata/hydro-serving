@@ -1,0 +1,181 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/eZcAAOSw5cNYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ECgAAOSwo4pYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/GfMAAOSwXeJYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/EVoAAOSwx2dYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/yZUAAOSwMVdYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/8BYAAOSwal5YEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/zOMAAOSwA3dYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ECwAAOSwo4pYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Y2wAAOSwB09YEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Vb8AAOSw44BYEv01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/EbgAAOSwx2dYEv04/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Cat-Vivid-Ladies-Shoulder-Bags-Crossbody-Animal-Handmade-Handbag-/371969746600?var=",
+  "ConvertedCurrentPrice": {
+    "value": "52.88",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "We believe the good communication is important for a happy shopping experience. Please feel free to contact us through eBay Message of your concerns (product, service, shipping, etc.) Thank You. Note: we suggest customer pay for extra postage (e-packet or express service) when its close to Xmas, New Year Holidays. Join Our eBay Promotions, Buy More Save More!!!!!! Material: Plush Size: one size Condition: 100% new Manufacture: China, Chinese Factory Homegrown products for Sale",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.88",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "China",
+  "Seller": {
+    "FeedbackScore": "4322",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "huxuanbar"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Womens Cat Vivid Ladies Shoulder Bags Crossbody Animal Handmade Handbag",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/EbgAAOSwx2dYEv04/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ECwAAOSwo4pYEv01/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Vb8AAOSw44BYEv01/$_12.JPG?set_id=880000500F"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "52.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "hua0",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "White"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "52.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "hua1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "52.88",
+          "_currencyID": "USD"
+        },
+        "SKU": "hua2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Brown"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "White",
+          "Black",
+          "Brown"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-06-02T09:02:18.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P29DT18H31M38S",
+  "EndTime": "2017-07-02T09:02:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Brand",
+        "Value": "\"Handmade\""
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "PP Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371969746600",
+  "Storefront": {
+    "StoreName": "huxuanbar",
+    "StoreURL": "http://stores.ebay.com/id=1010973117"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "6",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CN",
+  "SKU": "hua",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

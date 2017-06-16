@@ -1,0 +1,129 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P10DT9H44M39S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "2",
+  "HighBidder": {
+    "UserID": "l***l",
+    "FeedbackScore": "364",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "62.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "Ck606-buttefly",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "351764887706",
+  "ConvertedCurrentPrice": {
+    "value": "62.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2016-06-20T23:42:01.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/10k-Yellow-Gold-Multi-colored-Butterfly-CZ-Ring-Toe-Ring-Body-Art-Adjustable-/351764887706",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T23:42:01.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ritastephens",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "10k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "10k Yellow Gold Multi-colored Butterfly CZ Ring or Toe Ring Body Art Adjustable",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "IN",
+    "NP",
+    "PK",
+    "GB",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "PH",
+    "TH",
+    "VN",
+    "MX",
+    "PM"
+  ],
+  "Location": "New York, New York",
+  "Description": "10k Yellow Gold Multi-colored Butterfly CZ Toe Ring Body Art Adjustable SquareTrade \u00a9 AP6.0 DETAILS- 10k Yellow Gold Multi-colored Butterfly CZ Toe Ring Body Art Adjustable Stunning look!!! These are appropriate for women of all ages. Add some sparkle to your toes with this Toe Ring. CONDITION - Brand New RETAIL PRICE -$120.00 PROPERLY STAMPED & MARKED 10K STORE HOME ABOUT US CONTACT US ALL ITEMS We offer Free Shipping for US orders. Orders are shipped within 1-3 business days of receiving payment We accept all major credit cards processed through PayPal. International buyers are responsible for customs duty. 100% satisfaction guarantee \u2013 Return for any reason within 30 days to receive a full refund. Monday to Friday 9AM \u2013 4PM ET Design by Sally Milo - MiloDesign Powered by SixBit's eCommerce Solution",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3517648877068080_3.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "ritastephensjewelry",
+    "FeedbackScore": "30226",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "RitaStephens Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=165600885"
+  },
+  "HandlingTime": "1",
+  "PaymentMethods": "PayPal",
+  "Quantity": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/4dAAAOSwRQlXfBAM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjYwWDcxNA==/z/TAUAAOSwofxUdPaj/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU5WDE2MDA=/z/npMAAOSw0fhXmhRY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxM1gxNjAw/z/s50AAOSwqfNXml8l/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/N90AAOSweWVXfBAW/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10036"
+}

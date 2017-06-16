@@ -1,0 +1,108 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XYAAAOSwGotWhqDR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMzOVgxMTg1/z/2vYAAOSwJkJWhqCl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI4OVgxMjAw/z/~y0AAOSwFqJWhqCx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/boMAAOSwT~9WhqCU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQyMFgxMjAw/z/QN4AAOSwX~dWhqC~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tz8AAOSwZG9WhqCh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Wv8AAOSwGotWhqCt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P4gAAOSw5dNWhqC1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA5MVgxNjAw/z/33wAAOSwJkJWhqDe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMlgxNjAw/z/gIYAAOSwwPhWhqDo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pY4AAOSwLN5WhqDN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/t5kAAOSwHaBWhqDU/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Coach-Signature-Pleat-Tote-F36653-/122529508541",
+  "ConvertedCurrentPrice": {
+    "value": "179.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Coach Signature Pleat Tote Signature Jacquard Inside Zip , Cell Phone And Multifunction Pockets Zip-Top Closure Fabric Lining Handles With 5 1/4\" Drop Adjustable Longer Strap For Crossbody Wear F36653 14 1/2\" L x 10 3/4\" H x 6 1/2\" W Black F36653",
+  "Title": "Authentic Coach Signature Pleat Tote F36653",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Flushing, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1246",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "meihingli"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11367",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:36:37.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT22H25M54S",
+  "EndTime": "2017-07-02T12:36:37.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14 1/2\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10 3/4\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "5 1/4\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "6 1/2\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Jacquard"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122529508541",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225295085418080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

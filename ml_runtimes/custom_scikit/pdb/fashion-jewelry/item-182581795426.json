@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "Description": "I try to describe my items as accurately as possible and to the best of my knowledge.  However, I am not infallable and will happily refund the full item price if I have made a mistake.\r\nPlease ask questions before you bid and I will aim to reply to you within 24 hours.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182581795426",
+  "Quantity": "2",
+  "TimeLeft": "P12DT6H45M8S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "42.0",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Hallmarked-Solid-9ct-Gold-Heart-Shaped-CZ-Toe-Ring-/182581795426",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "54.11",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-18T20:27:07.000Z",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "CCAccepted",
+    "PersonalCheck"
+  ],
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "140010",
+  "EndTime": "2017-06-17T20:27:07.000Z",
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "JN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "JTR017",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Bezel",
+        "Name": "Setting Type"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Stone 1 Type"
+      },
+      {
+        "Value": "Valentines",
+        "Name": "Occasion"
+      },
+      {
+        "Value": "5mm",
+        "Name": "Approx. Width"
+      },
+      {
+        "Value": "0.9g",
+        "Name": "Approx. Weight"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "New Hallmarked Solid 9ct Gold Heart Shaped CZ Toe Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "New Hallmarked Solid 9ct Gold Heart Shaped CZ Toe Ring Will be sent gift boxed Track Page Views With Auctiva's FREE Counter",
+  "GlobalShipping": "false",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825817954268080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "ratpackcat",
+    "FeedbackScore": "4084",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Redcar Jewellers",
+    "StoreURL": "http://stores.ebay.com/id=164909433"
+  },
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "Location": "Redcar, Cleveland",
+  "HitCount": "23",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/iL8AAOSwWxNYzstO/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "TS10 1RJ"
+}

@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT16H30M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "92.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142405152593",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Brighton-Silverwood-Set-Necklace-Bracelet-Earrings-Wood-Silvertone-/142405152593",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "92.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:13:34.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T04:13:34.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Silvertone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Wood",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Brighton Silverwood Set Necklace Bracelet Earrings Wood Silvertone",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful rare and retired set. Necklace measures 28\"-30\" long by 1 1/4\" wide at widest. Bracelet measures 8\"-9\" long and can be adjusted. Earrings measure 2 1/2\" long by 1\" wide at widest. Consists of Silvertone different shapes and wooden shapes. Please see photos. Nice nice nice... NO RETURNS PLEASE NOTE: I am helping a parent with Alzheimer's. I try to ship the same day payment is received, but occasionally there may be a day delay, with notice, if an \"emergency\" arises. I ask for your understanding when this happens. I have retired and am selling most of my personal jewelry and accessories. Please check back often as I have a lot, and I am slow. Thanks I Combine Shipping. Consider photos part of description. Colors may show differently on different monitors. All Measurements Are As Close As I Can Get. All items marked with invisible ink. Signature required on $125.00 items. Please forgive my wrinkled, age spotted hands...hahahaha Please, all questions thru the items on EBay, as I don't check the email account. I am sorry to say, that because so many people have purchased my items, and not paid, that I now require immediate payment. If you need more time, please let me know. I promise that I'm not hard to deal with. I am sorry for the inconvenience, especially to all my regulars.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424051525938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mcneals",
+    "FeedbackScore": "7916",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Mcneals",
+    "StoreURL": "http://stores.ebay.com/id=24589787"
+  },
+  "Quantity": "1",
+  "Location": "Wabash, Indiana",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxMDkw/z/g2AAAOSwmCVY~5Pf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/UT4AAOSwN6JY~5PQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/-BgAAOSwSypY~5PR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/-0kAAOSwRUhY~5PT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1MFgxMzE0/z/hfAAAOSwmCVY~5Px/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQyWDEwNTM=/z/V0MAAOSwN6JY~5P6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY5WDEwMjk=/z/SjwAAOSwWWxY~5QB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/4aMAAOSwJ4hY~5Pb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/bOQAAOSwqWNY~5Pe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/g50AAOSwmCVY~5Ph/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "46992"
+}

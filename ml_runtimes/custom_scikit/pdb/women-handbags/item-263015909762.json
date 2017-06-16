@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HtkAAOSwK6RZMOAd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/I3MAAOSw0hlZMOAR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ak4AAOSwH09ZMOAS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QDYAAOSwY3BZMOAS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~-cAAOSwfpVZMOAc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HwYAAOSwK6RZMOAg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WvMAAOSw8lpZMOAl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/A2EAAOSwcB5ZMOAl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iNgAAOSwlY1ZMOAo/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-New-Valentino-Garavani-Mini-Rockstud-Red-Leather-Backpack-/263015909762",
+  "ConvertedCurrentPrice": {
+    "value": "1690.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Red leather mini 'Rockstud' backpack from Valentino Garavani featuring a top handle, a top zip fastening, a front zip pocket, gold-tone Rockstud embellishments, adjustable shoulder straps, an internal logo patch and a hanging luggage tag. Retail price $2,175. Comes with dust bag.",
+  "Title": "Authentic New Valentino Garavani Mini \"Rockstud\" Red Leather Backpack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1690.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Dallas, Texas",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "louiemami"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75233",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T03:50:03.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT13H22M9S",
+  "EndTime": "2017-07-02T03:50:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack Style"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Brand",
+        "Value": "valentino"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "Mini"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263015909762",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630159097628080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,210 @@
+{
+  "ExcludeShipToLocation": [
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LI",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "VA"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "46308",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "This is a silver tone stainless steel pocket watch chain our store purchased directly from the Colibri Group and was not sold (No Previous Owner). The chain is 12\". Style AWC002105W",
+  "StartTime": "2017-05-29T19:07:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mVoAAOSwaB5XmkrA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0bkAAOSwTZ1XmkrY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QYcAAOSwqfNXmkro/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pagAAOSwRoxXmksH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FpYAAOSwPRlXmksd/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Colibri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "AWC002105W",
+        "Name": "Model"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Closure"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "genie-1948",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "591",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225353555578080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T19:07:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Silver-Tone-Pocket-Watch-Chain-Colibri-/322535355557",
+  "Location": "Crown Point, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Silver Tone Pocket Watch Chain By Colibri",
+  "Storefront": {
+    "StoreName": "genie-1948",
+    "StoreURL": "http://stores.ebay.com/id=1164871979"
+  },
+  "ItemID": "322535355557",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT33M16S"
+}

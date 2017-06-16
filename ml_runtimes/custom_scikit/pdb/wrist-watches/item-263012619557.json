@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "TH",
+  "Location": "Hua Hin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:52:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T07:52:40.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "21 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "DE",
+    "IT"
+  ],
+  "ItemID": "263012619557",
+  "HandlingTime": "2",
+  "Description": "Chrysler International Swiss Incabloc Gold Plated 21 Jewels Ladies Watch This watch is in nearly mint condition and would be a lovely addition to any collection of fine swiss watches and/or automotive memorabilia. I believe the Incabloc 21 jewel movement was produced by Fabrique d'Horlogerie de Fontainemelon sometime in the 1960's. On the back case it has engraved the word 'waterproof' which watch makers were not allowed to use to describe watches after 1969. So my best guess at dating would be sometime in the 1960's which would make this watch a spectacular find. Via Thailand Post Registered Air 9.33 USD Paypal only and must pay immediately with buy it now feature. FreeAuctionDesigns Free eBay Templates, Image Hosting and eBay Listing Tools!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chrysler-International-Swiss-Incabloc-Gold-Plated-21-Jewel-Ladies-Watch-/263012619557",
+  "ConditionDescription": "Spectacular condition for mid 1960's watch",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630126195578080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT16H21M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI3Nlg3MTg=/z/J-YAAOSwaEhZITjr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3Nlg3MTg=/z/46YAAOSwcB5ZITjj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3Nlg3MTg=/z/k1kAAOSwZKBZITjp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3Nlg3MTg=/z/6TQAAOSwcaFZITjl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3Nlg3MTg=/z/7lIAAOSw9OFZITjm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3Nlg3MTg=/z/lmcAAOSw42dZITjo/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Chrysler International Swiss Incabloc Gold Plated 21 Jewel Ladies Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "52",
+    "UserID": "siamdao",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

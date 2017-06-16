@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821083107298080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RDUAAOSwY3BZLdWe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NqMAAOSw-3FZLdWd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~N0AAOSwlY1ZLdWd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G~0AAOSwurZZLdWd/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Black-Tote-Purse-Carryall-Shoulder-Preppy-Poly-Uptown-Baby-Bag-New-/382108310729",
+  "ConvertedCurrentPrice": {
+    "value": "95.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Add OutletCouture to your favorites! Vera Bradley Black Tote Purse Carryall Shoulder Preppy Poly Uptown Baby Bag New Retail : 168.00 Buy It Now : 95.99--> Carry all you need for the baby and yourself with the convenience of the Preppy Poly Uptown Baby Bag! Generously-sized baby bag. Top zip closure. Includes removable, wipeable changing pad in back slip pocket. Dual, deep slip pockets on front. Six mesh pockets inside. Lined with wipeable polyester. Metal feet provide added protection to bag. Removable stroller strap (12\" drop) attaches to stroller handles. Changing Pad: 24\" x 18\". Brand : Vera Bradley Product Details Color Black Color Specific Black Height Length Width About Us OutletCouture is the place to shop for authentic designer handbags, shoes and apparel. We hope you will find the perfect item for yourself or a gift for someone you care about. We offer a wonderful selection featuring some of the finest, most sought after brand names. Excellent customer service is our primary goal. We want your shopping experience with us to be enjoyable and easy. We are grateful for your business and hope you return often. Shipping International Customers: Shipping and handling rates do NOT include any Customs duties/taxes that you may pay upon receipt of your item.",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "RU",
+    "UA",
+    "ID"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "95.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Raleigh, North Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "67535",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "outletcouture"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27607",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T20:27:01.000Z",
+  "Title": "Vera Bradley Black Tote Purse Carryall Shoulder Preppy Poly Uptown Baby Bag New",
+  "TimeLeft": "P27DT5H6M31S",
+  "EndTime": "2017-06-29T20:27:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003348963"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382108310729",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "OutletCouture",
+    "StoreURL": "http://stores.ebay.com/id=8771021"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Sales are final. However, your satisfaction is important to us. As a courtesy, we can offer partial refunds or exchange an item for a different product if we have it in stock within 30 days of the original sale date. You must receive authorization for the exchange prior to returning your item. The exchanged item must be unworn with all original packaging. Your exchange can be delayed significantly if you do not include identifying information. Buyer is responsible for returning shipping costs.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "VBPREPBABYBAGBLACK",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

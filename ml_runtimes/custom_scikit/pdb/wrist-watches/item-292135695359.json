@@ -1,0 +1,131 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Chicago, Illinois",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:59:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=460579689",
+    "StoreName": "new2nearlynew"
+  },
+  "CurrentPrice": {
+    "value": "6.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:59:31.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135695359",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "STRADA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Faux Leather Band",
+        "Name": "Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Watch Ladies Purple Cuff Austrian Crystal Wrist Watch Analog New (Does Not Run)",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Watch-Ladies-Purple-Cuff-Austrian-Crystal-Wrist-Watch-Analog-New-Does-Not-Run-/292135695359",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921356953598080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "60628",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H48M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/kCoAAOSww5NZBz5u/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/WosAAOSwtGlZBz6A/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/FK8AAOSwONBZBz6P/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/UEUAAOSwlndZBz6f/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "New in Box (NEEDS A BATTERY) DOES NOT RUN. NO RETURNS Ladies Watch Strada Purple Cuff Band Austrian Crystal Wrist Watch Analog New Women On the Back of Watch it says Water Resistant. I would Remove Watch when Washing my Hands.Don't Submerge into Water. Smoke Free HomeGod Bless YouThank You For Looking",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2608",
+    "UserID": "1106sthompson",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

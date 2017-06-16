@@ -1,0 +1,140 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Oceania",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "60617",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Description:Condition: NewDiameter: About 1.88976\"Thickness: About 0.590551\"Total Length of FOB Chain: About 31 1/2\"Package Content: 1 x Pocket Watch 1 x Chain All payments for auctions are due within 24 hours after auction.",
+  "StartTime": "2017-05-30T19:51:24.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwNQ==/z/x4gAAOSwuxFY2qS3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/miIAAOSw32lY2qUR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/7UkAAOSwol5Y2qU0/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "chitownsales2016",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1811",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323544386788080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T19:51:24.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nightmare-Before-Christmas-Pendant-Necklace-Pocket-Watch-/232354438678",
+  "Location": "Chicago, Illinois",
+  "Title": "The Nightmare Before Christmas Pendant Necklace Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232354438678",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT1H17M38S"
+}

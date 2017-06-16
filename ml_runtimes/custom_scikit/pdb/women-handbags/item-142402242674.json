@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xlcAAOSwuxFYsups/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/S3sAAOSwx6pYsupv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/y9wAAOSwTuJYsupy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/7LkAAOSw-RFYsup2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/LFwAAOSwOgdYsup6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/iaAAAOSw4CFYsup~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/~scAAOSwB-1YsuqC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/IqgAAOSw2gxYsuqF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/z7MAAOSwWxNYsuqJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/y-QAAOSwuxFYsuqP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/TmEAAOSwx6pYsuqS/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FENDI-BAG-/142402242674",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic, FENDI used bag. It measures +/-15\" in length, +/- 5' in height and +/- 3.5\" in width. Straps are +/-6.5\" long above the bag's zipper. It has 1 zipped compartment inside. Bag comes with a dust bag. I always describe the items to the best of my ability. Please read the description before you purchase, so you will know exactly what you are buying. If you have any questions , please don't hesitate to email me. Payment is expected within 48 hrs of end of auction. Please contact me if it will be taking longer to make your payment. I will ship as soon as payment is received. PS The photo may not reflect the exact color of the item as it will vary from computer to computer and the light in which the photo was taken, but I try to get as close as possible.",
+  "Title": "FENDI BAG",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Hartsdale, New York",
+  "Seller": {
+    "FeedbackScore": "204",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bglab2012"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10530",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:25:24.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H3M47S",
+  "EndTime": "2017-07-02T11:25:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "FENDI"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baguette"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "BROWN"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3.5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142402242674",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424022426748080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

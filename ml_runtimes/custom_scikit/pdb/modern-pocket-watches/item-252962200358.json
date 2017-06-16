@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "68.41"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Smart.Deal Skeleton Pocket Watch Special 12-little-window Case Design Men Black Mechanical With Chain Box Features: 1.Classic style pocket watch is the best gift for your love, seniority or yourself 2.100% brand new with excellent workmanship 3.Elegant design with precise mechanical movement 4.Skeleton dial shows exquisite movement and structure within the watch 5.With Removable chain 6.Nice addition to a formal or casual dressing or colleting 7.Color may appear as exactly as in real life due to variations between the computer monitors and nacked eye color difference. ? Thoughful Gift Pocket Watch - Unique 12 Little Windows Hollow Case Design Can See The Time Easily Without Opening The Cover - Nicely Packing With Gift Box, Matching Chain, Clearing Cloth & Manual?s Instuctions - 17 jewel Mechanical movement - Half Hunter Case Men Skeleton Mechanical Black Roman Numerals 12-hour Dial Chain Pendant Pocket Watches? Every One Thinks It Must Be An Expensive Watch. Shhh. It Will Be Our Secret - Antique Men Pocket Watch Half Hunter Hand Wind Skeleton Mechanical Black Case Analog Roman Numerals? Must-be Choice - All-match Fashion Design, A Conversation Piece, A Compliments Receiver - It Really Hits The Spot - Retro Half Hunter Roman Numbers Analog Wind Up Mens Skeleton Mechanical Black Pendant Pocket Watches? Brttery Needless - Hand-wind Mechanical Movement, Take Batteries Away, Wind Up Before Every Usage, Tightening A Walk For 24 Hours - Vintage Half Hunter Men Hand Wind Pocket Watches Skeleton Mechanical Black Roman Numerals Pendant Chain? Good Quality - 100% Brand New, Exquise Workmanship, Good Touch Feeling - Steampunk Engrave Hollow Case Wind Up Skeleton Mechanical Men Analog Chain Pendant Pocket Watches",
+  "StartTime": "2017-05-28T15:17:29.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDU2MQ==/z/wMUAAOSwYvFZKun8/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDU0NA==/z/Yf8AAOSwurZZKun9/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/k14AAOSwK6RZKun-/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MDoAAOSwEHpZKun~/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/H2QAAOSwsXFZKuoA/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NzEwWDUwMA==/z/YkIAAOSwurZZKuoB/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/SQ0AAOSwKytZKuoC/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTAwWDU2MQ==/z/R3YAAOSwfRdZKuoD/$_12.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Smart.Deal",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "loyalty6331",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6363",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529622003588080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T15:17:29.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "68.41"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "20% restocking fee may apply",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple locations",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Smart.Deal Skeleton Pocket Watch Special 12-little-window Case Design Men Black",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Smart-Deal-Skeleton-Pocket-Watch-Special-12-little-window-Case-Design-Men-Black-/252962200358",
+  "Storefront": {
+    "StoreName": "loyalty6331",
+    "StoreURL": "http://stores.ebay.com/id=864737355"
+  },
+  "ItemID": "252962200358",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT20H42M30S"
+}

@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4249.92",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "South Australia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:36:10.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "5700.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-10T08:36:10.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694748551",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Girard Perregaux",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury/Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "1970's",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "5700.0",
+    "_currencyID": "AUD"
+  },
+  "ConditionDescription": "Great condition, in working order, all intact, no visible scratches. one of a kind",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Girard-Perregaux-18ct-Gold-Two-Tone-Diamond-Womens-Wristwatch-Original-/272694748551",
+  "Title": "Vintage Girard Perregaux 18ct Gold Two Tone Diamond Womens Wristwatch Original",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726947485518080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "5352",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT17H6M54S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUyNFgxMjg4/z/aSAAAOSwSypY-Bo2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc1WDE2MDA=/z/bckAAOSwE0JY-Bo1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzOVgxNjAw/z/VjYAAOSwIWVY-Bo2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA1WDE2MDA=/z/aPMAAOSwSypY-Bo0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTI0/z/oDYAAOSwvihY-Bo2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg3NTI=/z/aVwAAOSwRUhY-Bo0/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Once owned by the late Mrs Ron Burton, wife of the esteemed winemaker of Chateau Rosevale. A Barossa Valley (South Australia) winery that operated in the 1960's & 70's, it was also known for producing wine for the likes of Chateau Marbay & other wineries presently operating at the time. Own a piece of local history being offered for greatly less than currently valued. (Price includes EBay fees) A perfect gift for that special one or a astute collector who appreciates fine things. Pictures show not only the watch but the valuation papers that give a full description of the piece. Case is not original, but a substitute is used to keep the watch safe. If extra insurance is to be required, please let me know in advance.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "168",
+    "UserID": "bentleybeercans14",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

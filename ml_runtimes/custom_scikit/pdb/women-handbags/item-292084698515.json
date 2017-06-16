@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzA1/z/FO8AAOSwpkFY70fR/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mellow-World-Fashion-Daffodil-Carry-On-Rolling-Upright-Suitcase-Red-One-Size-/292084698515",
+  "ConvertedCurrentPrice": {
+    "value": "185.57",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! This durable rolling suitcase carry-on will get you around town in style. Whether you're making the daily commute or heading out of town, this rolling tote bag has a locking handle and rolling wheels for easy maneuverability through any airport or train station. The large main compartment offers storage for your laptop as well as files, documents, or personal items and has an interior zippered pocket to keep your small items in place. - ID tag - Padded laptop compartment - Fully lined interior - 16x8x17 Mellow World Fashion Daffodil Carry-On Rolling Upright Suitcase, Red, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "185.57",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "148",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Mellow World Fashion Daffodil Carry-On Rolling Upright Suitcase, Red, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T09:41:31.000Z",
+  "HitCount": "65",
+  "TimeLeft": "P9DT18H33M41S",
+  "EndTime": "2017-06-12T09:41:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "700604348910"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0700604348910"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Mellow World"
+      },
+      {
+        "Name": "MPN",
+        "Value": "HB1230"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "7.65 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 18 x W 15.8 x H 8 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "HB1230-Red"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084698515",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2920846985158080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

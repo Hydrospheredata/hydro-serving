@@ -1,0 +1,125 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3917866618918080_2.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MjcyWDk2MA==/z/WsgAAOSwPh5ZKEAH/$_12.PNG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Action-Messenger-Tactical-Bag-MultiCam-Sports-Fan-Messenger-Bag-New-/391786661891",
+  "ConvertedCurrentPrice": {
+    "value": "158.07",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This product is no longer available",
+  "Title": "Action Messenger Tactical Bag MultiCam Sports Fan Messenger Bag, New",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "158.07",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Crosby, Texas",
+  "Seller": {
+    "FeedbackScore": "1983",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "simple_dealz"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77532",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-17T16:43:44.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P14DT1H41M2S",
+  "EndTime": "2017-06-16T16:43:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Action"
+      },
+      {
+        "Name": "Manufacturer Part Number",
+        "Value": "TB-MSG-CD-34//DA"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5908218710252"
+      },
+      {
+        "Name": "EAN",
+        "Value": "5908218710252"
+      },
+      {
+        "Name": "Item Weight",
+        "Value": "0.03 pounds"
+      },
+      {
+        "Name": "Product Dimensions",
+        "Value": "13.8 x 5.1 x 10.2 inches"
+      },
+      {
+        "Name": "Product Group",
+        "Value": "Sports Fan Messenger Bags"
+      },
+      {
+        "Name": "Category Group",
+        "Value": "Messenger Bags"
+      },
+      {
+        "Name": "Color",
+        "Value": "MultiCam"
+      },
+      {
+        "Name": "Department",
+        "Value": "Unisex"
+      },
+      {
+        "Name": "Brand Name",
+        "Value": "Direct Action"
+      },
+      {
+        "Name": "Manufactured By",
+        "Value": "Direct Action"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391786661891",
+  "Storefront": {
+    "StoreName": "simple_dealz_usa",
+    "StoreURL": "http://stores.ebay.com/id=1104462205"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B01CPUIY6E",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

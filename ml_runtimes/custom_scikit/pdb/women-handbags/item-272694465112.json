@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "TimeLeft": "P27DT11H33M19S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Pre-owned, almost in new conditions, minor unnoticeable wear and tear on the outside. Inside almost brand new, in perfectly clean condition.",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/l~YAAOSw~y9ZLhaI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zkgAAOSwPh5ZLhaP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CSkAAOSw8HBZLhaX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/27IAAOSwX61ZLhae/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kensington-LM650-15-Inch-Laptop-Tote-Black-K62614WW-/272694465112",
+  "ConvertedCurrentPrice": {
+    "value": "66.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Great Black Preowned laptop tote, almost in new conditions, minor unnoticeable wear and tear on the outside. Holds a 15.6inch laptop comfortably.",
+  "Title": "Kensington LM650 15-Inch Laptop Tote, Black K62614WW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "66.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "San Mateo, California",
+  "Seller": {
+    "FeedbackScore": "9",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "andreinat52"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94403",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T02:22:55.000Z",
+  "HitCount": "16",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-30T02:22:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kensington"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Type",
+        "Value": "Totes"
+      },
+      {
+        "Name": "Size",
+        "Value": "15\""
+      },
+      {
+        "Name": "UPC",
+        "Value": "809185797992"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272694465112",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726944651128080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

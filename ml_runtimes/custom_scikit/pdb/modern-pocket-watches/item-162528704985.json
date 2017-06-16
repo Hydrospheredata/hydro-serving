@@ -1,0 +1,169 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "37.98"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Our Xalvador line of Pocket watches under our private brand \"ShoppeWatch\" make superb birthday or Christmas gifts, in addition to great doctor and nurse gifts. They are also ideal for corporate gifts or for the retirement of a long time employee. Here is an example of a pocket watch in a vintage design for anyone that wants the classic look and practicality of a quality quartz movement pocket watch. - Celtic Pocket Watch with Medical Symbols Motif - Xalvador by ShoppeWatch Gift Box - Metal Chain Length 368mm (14.5 inches) - Japanese Quartz Movement - Reloj de bolsillo m\u00c3\u00a9dico Shoppewatch Pocket Watch Doctor Medical Symbol with Chain Quartz Steampunk PW-95",
+  "StartTime": "2017-05-25T15:21:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ4OVgxNTAw/z/mRIAAOSwuMZZJvaO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2N1gxNTAw/z/QXQAAOSwlMFZJvaO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3MFgxNTAw/z/Gu0AAOSwhvFZJvaO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxN1gxNTAw/z/DtgAAOSwcB5ZJvaP/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "700254592343",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0700254592343",
+        "Name": "EAN"
+      },
+      {
+        "Value": "ShoppeWatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PWQWH95",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.35 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.6 x W 4.4 x H 2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "31",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625287049858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T15:21:46.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "37.98"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Shoppewatch Pocket Watch Doctor Medical Symbol with Chain Quartz Steampunk PW-95",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Shoppewatch-Pocket-Watch-Doctor-Medical-Symbol-Chain-Quartz-Steampunk-PW-95-/162528704985",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528704985",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H45M13S"
+}

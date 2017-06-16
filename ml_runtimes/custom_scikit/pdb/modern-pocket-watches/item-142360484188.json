@@ -1,0 +1,104 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "23.41"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": "30 days return. We are more than happy to help so please message if there are any issues.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/7zgAAOSwkShY~hkI/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/j78AAOSwmCVY~hkN/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/E2oAAOSwzqFY~hkS/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/o7kAAOSw5UZY~hkV/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/yjoAAOSwJ4hY~hkb/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/3mcAAOSwvihY~hkf/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/aJkAAOSwIWVY~hkj/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/fnAAAOSwvKtY~hkp/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/~vIAAOSwN6JY~hkt/$_12.PNG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SIBOSUN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "FA-HBQ030",
+        "Name": "MPN"
+      },
+      {
+        "Value": "703290407978",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0703290407978",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "champions_usa_stores",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "10869",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "StartTime": "2017-04-24T15:26:38.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423604841888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T15:26:38.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "23.41"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Miami, FL",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Antique Doctor Who Bronze Case Quartz White Dial Chain Men Pocket Watch Dr. Who",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Doctor-Bronze-Case-Quartz-White-Dial-Chain-Men-Pocket-Watch-Dr-/142360484188",
+  "Storefront": {
+    "StoreName": "champions_stores",
+    "StoreURL": "http://stores.ebay.com/id=1318086249"
+  },
+  "ItemID": "142360484188",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT20H40M21S"
+}

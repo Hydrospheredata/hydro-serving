@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/7YUAAOSwZKBZLaGe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/UPwAAOSwi7RZJyUB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/yQEAAOSw8lpZJyUG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/eCEAAOSwX9FZJyUI/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DXC4374-Celebrity-Style-New-Design-Genuine-Italian-Leather-Hand-Bag-Blue-/282493712661",
+  "ConvertedCurrentPrice": {
+    "value": "102.75",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Medium Size Beautiful Style Leather Ladies Hand BagComes With A Certificate of Authenticity From The ManufacturerDavgeoxtremeclothes.com",
+  "Title": "DXC4374 Celebrity Style New Design Genuine Italian Leather Hand Bag - Blue",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "102.75",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "jorgbodde0"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77084",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T18:42:43.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P22DT2H33M3S",
+  "EndTime": "2017-06-24T18:42:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Features",
+        "Value": "Water Resistant"
+      },
+      {
+        "Name": "Style",
+        "Value": "Cosmetic Bags"
+      },
+      {
+        "Name": "Brand",
+        "Value": "X-Clothes"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282493712661",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824937126618080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

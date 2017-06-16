@@ -1,0 +1,88 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625358947878080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T11:48:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T11:48:47.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Gently used.will send extra links,water resistant,stainless steel,original price $650.00",
+  "BuyItNowPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535894787",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Movado Bold",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Movado Women Bold All Gold Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Movado-Women-Bold-All-Gold-Watch-/162535894787",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "1",
+  "PostalCode": "11414",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Howard Beach, New York",
+  "TimeLeft": "P9DT20H30M29S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/nNQAAOSwImRYm0fD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/FR4AAOSwA3dYm0fF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/YrwAAOSwTglYm0fG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/ngwAAOSwImRYm0fI/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "978",
+    "UserID": "mutterdina",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

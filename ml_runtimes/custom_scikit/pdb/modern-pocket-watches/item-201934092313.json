@@ -1,0 +1,91 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "Near perfect Pocket Watch Antimagnetic F27",
+  "PostalCode": "89130",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Practically perfect pocket watch. Can be a necklace or pocket or hang from anything. Wind up. Works fine. Keeps reasonable time. Shiny silver metallic, no scratches on face or body.",
+  "StartTime": "2017-05-23T20:05:36.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTg2WDk4Mg==/z/uB8AAOSwax5YzYcM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4OTk=/z/SQsAAOSwdGFYzYis/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/sMMAAOSw4YdYzYcQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5NVg4MTA=/z/cN4AAOSwhQhYzYjO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/~3YAAOSw4CFYzYjj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3NVg2OTM=/z/2c0AAOSwXYtYzYcK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM3NFg5MDA=/z/7JUAAOSwWxNYzYkN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/Gw0AAOSwXYtYzYks/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "smilevicki",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "535",
+    "PositiveFeedbackPercent": "96.7"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019340923138080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemID": "201934092313",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-02T20:05:36.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Near-perfect-Pocket-Watch-Antimagnetic-F27-/201934092313",
+  "ConditionDescription": "Perfect!",
+  "BuyItNowAvailable": "true",
+  "Location": "Las Vegas, Nevada",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT1H27M43S"
+}

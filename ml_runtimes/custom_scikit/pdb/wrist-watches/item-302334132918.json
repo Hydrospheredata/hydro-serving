@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hammond, Indiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:45:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=527741509",
+    "StoreName": "scottve33"
+  },
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:45:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334132918",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wittnauer",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Pretty Ladies Whittnauer Vintage 10 K White Gold Plated Wind Up Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pretty-Ladies-Whittnauer-Vintage-10-K-White-Gold-Plated-Wind-Up-Watch-/302334132918",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023341329188080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "46324",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H13M57S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY1WDE2MDA=/z/yaAAAOSw--1Wrw2c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQzWDE2MDA=/z/AAsAAOSw5dNWrw2X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc0WDE2MDA=/z/tTEAAOSwnLdWrw2Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg4WDE2MDA=/z/AGgAAOSw5dNWrw2e/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI0WDEzNzA=/z/s1AAAOSwFMZWrw2h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tdAAAOSwnLdWrw2l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1N1gxNjAw/z/tfYAAOSwnLdWrw2n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ARYAAOSw5dNWrw2r/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Pretty Ladies Whittnauer Vintage 10 K White Gold Plated Wind Up WatchThe watch is working and keeping good time. It was wound and rand for over 24 hours accurate +- 1 minute.The band is expandable The watch measures about 17 mm across",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "13487",
+    "UserID": "scottve33",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

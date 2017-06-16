@@ -1,0 +1,144 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "29.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921354962768080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T10:50:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:50:47.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "New, never worn. Works perfectly. Brand new SONY battery just installed. This watch lists on the Timex website for $44.00. Enjoy the comfort and reliability for which Timex watches are known with the Timex Easy Reader. It is called the Easy Reader for good reason. It features large, bold Arabic numerals, and an Indiglo light for nighttime viewing. The black numerals stand out prominently against the white background of the face. It also features a date counter that shows the day of the week as well as the day of the month. The expansion band makes it easy to put on with one hand, and it requires no size adjustments. Both the band and the casing are brushed stainless steel. FEATURES:*Indiglo night-light*Displays day of the week and date of the month*Stainless steel expansion band*Water resistant to 30 meters*Analog display with large numerals and electroluminescent technology PayPal only and I can only ship once a week, on Saturdays. Thank you for looking and have a blessed day!",
+  "BuyItNowPrice": {
+    "value": "29.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135496276",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Backlight",
+          "Date Indicator",
+          "Day Indicator",
+          "Large Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "30 Metres / 3 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Stretch Bracelet",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex Men's Easy Reader Watch Gold-Tone Stainless Steel Expansion Band",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Mens-Easy-Reader-Watch-Gold-Tone-Stainless-Steel-Expansion-Band-/292135496276",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "HitCount": "5",
+  "PostalCode": "78741",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Austin, Texas",
+  "TimeLeft": "P4DT19H29M6S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/vR4AAOSwvihZARRo/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/Y5IAAOSwSypZARSH/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/Qz8AAOSwtZJZARSO/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/AyQAAOSw3ZRZARR4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/C9oAAOSwBOtZARSd/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/w6IAAOSwvihZARSk/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/pe4AAOSwWWxZARS~/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1363",
+    "UserID": "debredfish",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

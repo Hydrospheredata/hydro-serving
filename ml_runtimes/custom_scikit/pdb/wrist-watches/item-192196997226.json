@@ -1,0 +1,191 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "HongKong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:33:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1201108501",
+    "StoreName": "Galaxytops"
+  },
+  "CurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:33:21.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "LBB60708727PK",
+  "Description": null,
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "TR",
+    "CN",
+    "PK",
+    "LK",
+    "HR",
+    "GG",
+    "JE",
+    "LI",
+    "LT",
+    "MC",
+    "ME",
+    "SJ",
+    "VA",
+    "DM",
+    "HK",
+    "ID",
+    "MO",
+    "TW",
+    "BO",
+    "CL",
+    "FK",
+    "GY",
+    "SR",
+    "PO Box"
+  ],
+  "ItemID": "192196997226",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "e_coming",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "LYU4612261691905XC",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Rhinestone,12-Hour Dial,Acrylic Crystal",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Braided Band",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Teen,Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Braided Band ,Rhinestone , Vogue Watches",
+        "Name": "Tags"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Dial Window Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Dial Material"
+      },
+      {
+        "Value": "36cm/ 21.66\"(approx)",
+        "Name": "Total length"
+      },
+      {
+        "Value": "2Cm/8\"(approx)",
+        "Name": "Belt Width"
+      },
+      {
+        "Value": "3.2x3.2cm/0.99\"x0.99\"(approx)",
+        "Name": "Watch case Size"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "HighBidder": {
+    "FeedbackScore": "115",
+    "UserID": "s***a",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackPrivate": "false"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vogue-Womens-Lady-Braided-Band-Rhinestone-Leather-Analog-Quartz-Wrist-Watch-3-/192196997226",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "1",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921969972268080_1.jpg",
+  "HitCount": "6",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H7M5S",
+  "Title": "Vogue Women's Lady Braided Band Rhinestone Leather Analog Quartz Wrist Watch #3",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY0WDc2NA==/z/q9wAAOSw7s5XhLed/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDc2NA==/z/5msAAOSwyDxXhLeh/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.06",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "237987",
+    "UserID": "e_coming",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

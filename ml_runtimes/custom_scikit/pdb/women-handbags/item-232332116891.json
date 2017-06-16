@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTY3WDQ4Ng==/z/4-AAAOSw7GRZFODK/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTQ5WDQ1OA==/z/ZAIAAOSw0hlZFODR/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDkwWDU0NQ==/z/KrMAAOSwxu5ZFODd/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Commuter-Tote-CUBAN-TILES-/232332116891",
+  "ConvertedCurrentPrice": {
+    "value": "68.6",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "Vera Bradley Commuter Tote CUBAN TILES",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "68.6",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Pocatello, Idaho",
+  "Seller": {
+    "FeedbackScore": "3359",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mainsthandbags"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "83201",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T22:10:43.000Z",
+  "HitCount": "36",
+  "TimeLeft": "P8DT7H6M29S",
+  "EndTime": "2017-06-10T22:10:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003429600"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232332116891",
+  "Storefront": {
+    "StoreName": "Main Street Handbags",
+    "StoreURL": "http://stores.ebay.com/id=183076616"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323321168918080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

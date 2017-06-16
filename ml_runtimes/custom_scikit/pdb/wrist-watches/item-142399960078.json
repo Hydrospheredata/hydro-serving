@@ -1,0 +1,222 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.59",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hollis, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:53:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "10",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1364385418",
+    "StoreName": "auto-hcs"
+  },
+  "CurrentPrice": {
+    "value": "12.59",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:53:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "828517US1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "BA",
+    "CY",
+    "EE",
+    "GI",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "PO Box"
+  ],
+  "ItemID": "142399960078",
+  "HandlingTime": "2",
+  "Description": ">>Description Feature: Product Details Condition: 100% New Cool army style design; Multifunctional sports digital watch for men; Big LCD screen display; High quality Japanese movement; Digital hour/minute/second/day/month/week; Time, calendar, alarm clock, stopwatch and LED backlight; Soft rubber strap, comfortable to wear; 10M water resistant (but don't press any button underwater) Band Length: 24cm, Width: 2.2cm Case Diameter: 4.5cm, Thickness: 1.4cm Package including\uff1a 1 x Watch >>Payment We only accept payment through Paypal. If you don't have Paypal account, please register at www.paypal.com. Payment must be received within 7 days after auctions ended. Unpaid dispute will be filed to eBay for the non payable bidders. >>Shipping 1. WORLDWIDE SHIPPING. 2. Orders processed within 24-48 hours of payment verification. 3. We only ship to confirmed PAYPAL addresses. Your PAYPAL address MUST MATCH your Shipping address. 4. If you have not received your shipment within 30 days from payment, please contact us. We will track the shipment and get back to you as soon as possible with a reply. Our goal is customer satisfaction! 5. Due to stock status and time differences, we will choose to ship your item from our first available warehouse for fast delivery. >>Return 1. Our warranty does not extend to any products that are physically damaged or that are not under normal operating conditions as a result of misuse or improper installation on the buyer/user's part. 2. Defective products must be returned within 30 days from the RMA issuing date. For all return products customers MUST contact us for the returning address.In all cases, buyers pay shipping fees at their own cost to return products for exchange or refund. We will be responsible for the postage of replacements. Refund will be made upon receipt of the returned item.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Men-LED-Digital-Date-Alarm-Waterproof-Sports-Army-Quartz-Watch-Military-US-STOCK-/142399960078?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "12.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "828517.01US1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "color"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "value": "12.59",
+          "_currencyID": "USD"
+        },
+        "SKU": "828517.02US1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Grey",
+            "Name": "color"
+          }
+        },
+        "Quantity": "5"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Green",
+          "Grey",
+          "Red"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/yGAAAOSwdGFY2L1c/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Zb0AAOSw32lY2L16/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/UtoAAOSwCU1Y2L2G/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "color"
+    }
+  },
+  "HitCount": "3",
+  "PostalCode": "11423",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H25M17S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/e7wAAOSw4CFY2L1R/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/G7wAAOSwuxFY2L1G/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/SvsAAOSwCU1Y2L06/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/gvIAAOSwTM5Y2L0v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/XOoAAOSw32lY2L0g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/RM4AAOSwCU1Y2L0F/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/JxAAAOSwc-tY2L0N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/LrkAAOSwax5Y2Lzx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wR0AAOSwol5Y2Lz8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/V18AAOSw32lY2Lzm/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Men LED Digital Date Alarm Waterproof Sports Army Quartz Watch Military US STOCK",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "FeedbackScore": "3073",
+    "UserID": "auto-hcs",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

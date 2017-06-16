@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDMyOQ==/z/fZkAAOSwiDFYLUCW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMwMQ==/z/lVoAAOSwImRYLUCW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDE1MA==/z/N-MAAOSwiONYLUCW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjQwWDUwMA==/z/HDoAAOSwux5YLUCW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjYxWDUwMA==/z/ilMAAOSwHMJYLUCW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMyOA==/z/tDUAAOSwo4pYLUCX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDI1OA==/z/lVQAAOSwImRYLUCW/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Large-Stroll-Around-Baby-Shoulder-Bag-Blue-Bandana-One-Size-/272452669994",
+  "ConvertedCurrentPrice": {
+    "value": "133.47",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Diaper Bags (Diaper Tote Bags): Vera Bradley Large Stroll Around Baby Bag (Blue Bandana) - Pockets: 7 interior slip, 2 exterior;Includes Changing pad and removable stroller straps Vera Bradley Large Stroll Around Baby Shoulder Bag, Blue Bandana, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "133.47",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "24687",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "cometstarshop2013"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Large Stroll Around Baby Shoulder Bag, Blue Bandana, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2016-11-17T05:30:59.000Z",
+  "HitCount": "125",
+  "TimeLeft": "P12DT13H56M56S",
+  "EndTime": "2017-06-15T05:30:59.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003311899"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003311899"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272452669994",
+  "Storefront": {
+    "StoreName": "Comet Star Shop",
+    "StoreURL": "http://stores.ebay.com/id=1046630441"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2724526699948080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

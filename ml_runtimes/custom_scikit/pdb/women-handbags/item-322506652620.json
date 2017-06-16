@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1MlgxNjAw/z/IUUAAOSwmgJY5ZVh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LnAAAOSwpkFY5ZRv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDM3/z/tGsAAOSwB-1Y5ZRs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI1NFgxNjAw/z/Ue4AAOSwpP9Y5ZR1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lIgAAOSwc-tY5ZR4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM4OVgxNjAw/z/qiYAAOSwDmBY5ZSI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIyMVgxNjAw/z/M6UAAOSw3utY5ZSB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NYYAAOSw03lY5ZZR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zBQAAOSww3tY5ZYi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZEUAAOSw4CFY5ZYl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0NVgxNjAw/z/diQAAOSwVctY5ZVm/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-BETSEY-JOHNSON-Travel-Bag-Large-Weekender-Black-Quilted-w-Shoulder-Strap-/322506652620",
+  "ConvertedCurrentPrice": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Welcome To DeborahsThings! Thank You For Stopping By...We Appreciate It! NEW! BETSEY JOHNSON LARGE WEEKENDER TRAVEL BAG BLACK QUILTED WITH REMOVABLE SHOULDER STRAP Width 18\"Height 12\"Depth 8\" Inventory M-1 Smoke/Pet Free Environment Please Feel Free To Message Us With Any Questions If You Notice A Flaw That We Did Not Mention Or Overlooked Please Contact Us First Before Leaving Negative Feedback. We Are Only Human And May Make A Mistake Once In Awhile. Please Take Into Consideration That All Clothing Items May Vary In Fit Depending On Brand, Use And Prior Customization. We Recommend That Our Customers Check Specific Measurements To Guarantee A Proper Fitting.",
+  "Title": "NEW! BETSEY JOHNSON Travel Bag/Large Weekender Black Quilted w/ Shoulder Strap",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "94.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Maricopa, Arizona",
+  "Seller": {
+    "FeedbackScore": "138",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "deborahsthings"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85138",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-06T03:46:38.000Z",
+  "HitCount": "44",
+  "TimeLeft": "P2DT10H55M57S",
+  "EndTime": "2017-06-05T03:46:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Hearts"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Weekender Travel Bag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Overnight Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322506652620",
+  "Storefront": {
+    "StoreName": "deborahsthings",
+    "StoreURL": "http://stores.ebay.com/id=339288645"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "RETURNS ONLY ACCEPTED IF ITEM IS UNUSED AND ORIGINAL TAGS INTACT.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225066526208080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,215 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Catwalk-Collection-Leather-Handbag-Claudia-Delivery-Free-/192144372644?var=",
+  "ConvertedCurrentPrice": {
+    "value": "123.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Style: Claudia. This is a stunning handbag featuring chunky antique brass metal fittings and solid studs; a cool designer touch which gives the bag a fashionable appeal that simply exudes street cred. The leather is milled to give a natural texture with a soft matte finish to the surface and a supple, slouchy accent. Please remember that as leather is a natural product, the intensity of the colour will vary slightly from hide to hide during the dyeing process, making each handbag totally unique. Elegantly rolled double handles allow the bag to be comfortably held in the hand or hooked over the lower arm. The bag opens wide for easy access and there are plenty of compartments and pockets to organise contents, including a secure central pocket for valuables. This is a mid to big bag with good capacity; can hold notepads and diaries up to A5 size. The base is flat.",
+  "Title": "Catwalk Collection Leather Handbag - Claudia. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "123.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0063/036/062/181440598/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0063/036/063/181425500/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0063/036/064/181427728/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Tan",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0063/036/065/181435030/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0063/036/066/181439712/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:63036062:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:63036063:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "167.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:63036064:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:63036065:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Tan"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:63036066:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Brown"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Grey",
+          "Black",
+          "Red",
+          "Tan",
+          "Brown"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-30T22:45:50.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P26DT6H28M10S",
+  "EndTime": "2017-06-28T22:45:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Catwalk Collection Handbags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "705910646"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144372644",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:63036061:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

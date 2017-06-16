@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/BEYAAOSww3tY5Rgl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/w3cAAOSw03lY5Rgr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/eOUAAOSwuLZY5Rgy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/iIsAAOSwAANY5Rg5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cw8AAOSwc-tY5Rg~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/fdUAAOSwuLZY5RhG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ajsAAOSwA29Y5RhN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/9UAAAOSwDmBY5RhW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/NLUAAOSwhQhY5Rhg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rbIAAOSwTM5Y5Rhl/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Patricia-Nash-European-Countryside-Aberdeen-Black-Leather-MSRP-199-00-NWT-/201944454713",
+  "ConvertedCurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Patricia NashEuropean CountrysideABERDEENMSRP 199.00NEW WITH TAGS Comes with Dust BagBlack LeatherLOOK AT ALL PHOTOS!Ask for more if needed!THANKS FOR LOOKING!I ship FAST & FREE!Good Luck&HAPPY EBAY!",
+  "Title": "Patricia Nash European Countryside Aberdeen Black Leather MSRP $199.00 NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Waterboro, Maine",
+  "Seller": {
+    "FeedbackScore": "242",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "reazee_0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "04087",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:13:35.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT23H5M42S",
+  "EndTime": "2017-06-09T13:13:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "European Countryside"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Patricia Nash"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9.5 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "Adjustable Backpack Straps"
+      },
+      {
+        "Name": "Closure",
+        "Value": [
+          "Drawstring",
+          "Magnetic Snap"
+        ]
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944454713",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019444547138080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

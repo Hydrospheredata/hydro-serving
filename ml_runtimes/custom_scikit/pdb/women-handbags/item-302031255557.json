@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/0uAAAOSwdzVXoWzq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwNFgxMDAw/z/GtMAAOSwnQhXoWzu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/0xsAAOSwA3tXoWzy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/BRgAAOSwbsBXoWz1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/vZAAAOSwtnpXoWz3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/vc4AAOSwtnpXoWz6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/1CUAAOSwdzVXoWz9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNTk5/z/HCcAAOSwnQhXoW0A/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/HEYAAOSwnQhXoW0B/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Petunia-Pickle-Bottom-Boxy-Diaper-Backpack-Flowering-Firenze-189-stains-/302031255557",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Categories Other Auto Parts Sporting Goods Electronics Clothing HANDBAGS & PURSES Shoes Men's Clothing Women's Clothing Payment Please pay within 48 hours. Shipping Will usually ship within 1 business day of receiving cleared payment. Return Policy Please email with any issues. Location Las Vegas, NV Visit our store! \u00a9 SIN CITY SHOP _gsrx_vers_773 (GS 7.0.2 (773))",
+  "ExcludeShipToLocation": "BR",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Las Vegas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "7294",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "oldboy8888"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Petunia Pickle Bottom 'Boxy Diaper Backpack - Flowering in Firenze $189 -stains",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2016-08-03T04:03:16.000Z",
+  "HitCount": "436",
+  "TimeLeft": "P26DT12H26M52S",
+  "EndTime": "2017-06-29T04:03:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Petunia Pickle Bottom"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Other",
+        "Value": "E12.7"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302031255557",
+  "Storefront": {
+    "StoreName": "SIN CITY SHOP",
+    "StoreURL": "http://stores.ebay.com/id=22078309"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3020312555578080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

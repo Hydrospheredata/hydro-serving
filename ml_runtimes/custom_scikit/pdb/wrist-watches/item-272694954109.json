@@ -1,0 +1,66 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "73.81",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Willunga, SA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:22:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-10T11:22:57.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694954109",
+  "HandlingTime": "2",
+  "Description": "On offer is a brand new genuine Taurus Workmans watch. Taurus Watches are built tough, to take anything that is thrown their way. Designed in Australia, built from quality materials, and combined with a 2 year warranty, you can buy with confidence. This watch features easy to read white dial with Orange batons. Features include:Strong marine grade 316L Stainless Steel caseHeavy duty fitted rubber bandScratch proof sapphire mineral glassMiyota (Citizen) Quartz Movement for reliabilityEasy to read dial100m Water ResistanceScrew back case39mm case diameter, 11mm case thicknessUnique Display Box2 year warranty",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Taurus-316L-Stainless-Steel-Tough-Work-Workmans-Watch-NEW-/272694954109",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726949541098080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "5172",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H3M8S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxMzUx/z/AuwAAOSw-jhUFTr5/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTI3NlgxNjAw/z/atcAAOSwRLZUFTsX/$_1.JPG?set_id=8800005007F",
+    "http://i.ebayimg.com/00/s/MTAzM1gxNTk5/z/VXwAAOSw0vBUcVwA/$_1.JPG?set_id=8800005007F"
+  ],
+  "Title": "Mens Taurus 316L Stainless Steel Tough Work Workmans Watch NEW",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "275",
+    "UserID": "gastraders",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

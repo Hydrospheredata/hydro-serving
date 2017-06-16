@@ -1,0 +1,84 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GR",
+  "Location": "Piraeus, default",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:46:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "4",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1214202057",
+    "StoreName": "Retromaniax-Shop"
+  },
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:46:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vintage NIKKO Alarm Calculator",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Vintage NIKKO Alarm Calculator",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012667980",
+  "HandlingTime": "2",
+  "Description": "DESCRIPTION Up for sale a Vintage NIKKO Alarm Calculator aka Casio Watch 70s New Old Stock NOT WORKING!! For more details,please look at the pictures above. ShippingI ship everyday (except Saturday and Sunday). Feedback Don't forget to leave positive feedback after recieving your item and all is 100% ok.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-NIKKO-Alarm-Calculator-aka-Casio-Watch-70s-New-Old-Stock-NOT-WORKING-/263012667980",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630126679808080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H17M32S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/DC8AAOSwOyJX8WYl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/fQEAAOSwYIxX8WYx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/NUQAAOSwNRdX8WYr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/pssAAOSwI2xX8WYz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/~04AAOSw8gVX8WY3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/mzQAAOSwLF1X8WY4/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Vintage NIKKO Alarm Calculator aka Casio Watch 70s New Old Stock NOT WORKING!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "230",
+    "UserID": "geor-gior",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

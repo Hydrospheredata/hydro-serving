@@ -1,0 +1,62 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "46350",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This is new and in great condition. It has a real standing liberty half dollar from 1943 on the front and an eagle on the back.",
+  "StartTime": "2017-05-09T00:07:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-aIAAOSwN6JY~QnG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7OsAAOSwVm5Y~QnM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WnwAAOSwWWxY~QnU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kpUAAOSwJ4hY~QnY/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "laporterats-9",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "21",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224861585948080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T00:07:52.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Walking-liberty-pocket-watch-1943-/122486158594",
+  "Location": "La Porte, Indiana",
+  "Title": "Walking liberty pocket watch 1943",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "122486158594",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT5H24M37S"
+}

@@ -1,0 +1,77 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "2474",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "EligibleForPickupDropOff": "true",
+  "Description": "Communist Metal Pocket Watch Bronze CCCP USSR Russian.",
+  "StartTime": "2017-05-09T16:16:41.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RYMAAOSw5cNYP68G/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.17"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "AU",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CCCP",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Casing"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "theeuroaussie",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "287",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "86",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323291623838080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T16:16:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "19.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Communist-Metal-Pocket-Watch-Bronze-CCCP-USSR-Russian-/232329162383",
+  "Location": "Kyogle, NSW",
+  "Title": "Communist Metal Pocket Watch Bronze CCCP USSR Russian",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "232329162383",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT21H33M49S"
+}

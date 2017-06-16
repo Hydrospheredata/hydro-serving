@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDIyWDY0MA==/z/elsAAOSwCU1Yr6Y4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/4m4AAOSwSlBYr6Y3/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDExWDY0MA==/z/SYQAAOSwWxNYr6Y3/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/kQcAAOSwdGFYr6Y4/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/8e0AAOSwTuJYr6aa/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Terrida-Red-leather-Italian-designer-travel-bag-/112419107831",
+  "ConvertedCurrentPrice": {
+    "value": "73.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a beautiful mans or ladies red leather travel/organizer bag. Vegetable dyed leather. It is lined. \u00a0Two side compartments. \u00a0It measures appx. 7\"tall x11\"longx6\"deep at the bottom. This bag retails for $162.00.There is a dark spot on the back of the bag but it is a natural leather coloration.",
+  "Title": "Terrida Red leather Italian designer travel bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "73.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Norman, Oklahoma",
+  "Seller": {
+    "FeedbackScore": "161",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "otrek"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "73026",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T14:01:18.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P21DT23H1M21S",
+  "EndTime": "2017-06-24T14:01:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Terrida"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112419107831",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124191078318080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjQ5/z/j2YAAOSwNuxXXwuT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2OTU=/z/uJUAAOSwjXRXXwuL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY5WDE1MDA=/z/b7EAAOSwMNxXXwuN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5OFgxNTAw/z/D9QAAOSwepJXXwuQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Core-Pretty-Elizababy-Shoulder-Diaper-Bag-Cement-/272662002521",
+  "ConvertedCurrentPrice": {
+    "value": "248.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "With an included changing pad, 4 handy exterior pockets, and easy-to-clean, logo-quilted fabric, this Marc by Marc Jacobs baby bag is a chic parent's dream. Detachable shoulder strap and sturdy double handles. Zip closure opens to a logo-lined interior with a zip pocket and 4 patch pockets.Marc Jacobs was born in New York City in 1963. A graduate of the Parsons School of Design, Marc Jacobs' original collections were based on simple concepts: a love for fashion and a commitment to quality. Those same principles remain the cornerstones of Marc Jacobs products today. Marc Jacobs' collections now include women's and men's clothing, shoes, fragrance, eyewear, watches, and home accessories.100% NylonImported100% Nylon liningZipper closure20\" shoulder drop14\" high15.5\" wideOversized shoulder bag featuring metallic logo plaque and allover tonal letter stitchingDual top handles and removable/adjustable cross-body strap",
+  "Title": "Marc By Marc Jacobs Core Pretty Elizababy Shoulder Diaper Bag - Cement",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "248.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Wayne, New Jersey",
+  "Seller": {
+    "FeedbackScore": "239",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "naboolou"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07470",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T20:47:00.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P4DT5H20M4S",
+  "EndTime": "2017-06-06T20:47:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272662002521",
+  "Storefront": {
+    "StoreName": "The Digital Cantina",
+    "StoreURL": "http://stores.ebay.com/id=34905868"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726620025218080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

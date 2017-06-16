@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "92201",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Silver color pocket watch in great condition. Needs battery. Has been in original box for over 10 years. Plastic cover remains on the glass cover of watch. NO SCRATCHES!! Watch includes original tin, special features manual and original tag. Bought from JCPenny in 1999",
+  "StartTime": "2017-05-15T04:04:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/vvAAAOSw9OFZGSiz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/xwwAAOSwdjNZGSi2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/xxQAAOSwdjNZGSi3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/kR8AAOSwZ4dZGSi5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/C2AAAOSwIaFZGSi6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/QiEAAOSww5hZGSi8/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.85"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Relic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sportsfan176",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "105",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321924711188080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T04:04:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.85"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/relic-pocket-watch-silver-original-box-great-shape-/132192471118",
+  "Location": "Indio, California",
+  "Title": "relic pocket watch silver original box great shape",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "132192471118",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT9H23M57S"
+}

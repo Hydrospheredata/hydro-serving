@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/gwkAAOSwZJBX~uDV/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0N0AAOSw8gVX~uC0/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/X5oAAOSwYIxX~uAQ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/V0QAAOSwpLNX~t~z/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/8egAAOSwNRdX~uBi/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/9ckAAOSwzaJX~uAx/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/ID0AAOSw-CpX~uCK/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/dmUAAOSwmLlX~t-U/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NINE-WEST-MAKE-CONNECTION-LARGE-BLACK-SHOULDER-BAG-SILVER-HARDWARE-NWT-89-/322540226775",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NINE WEST ~ \"MAKE A CONNECTION\" BLACK FAUX LEATHER SHOULDER BAG W/ SILVER HARDWARE ~ NWT $89.00 Generous Size Bag With Large Lined Interior has plenty of interior pockets and Magnetic Closure. *** ALWAYS FREE SHIPPING *** Visit My eBay Store: Painted Lady Eclectic Emporium Be sure to add me to your favorites list!",
+  "Title": "NINE WEST \"MAKE A CONNECTION\" LARGE BLACK SHOULDER BAG SILVER HARDWARE ~ NWT $89",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Sarasota, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1405",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "paintedladyemporium"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34233",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:58:22.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT23H53M54S",
+  "EndTime": "2017-07-02T13:58:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Nine West"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "16\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8.5\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322540226775",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Painted Lady Eclectic Emporium",
+    "StoreURL": "http://stores.ebay.com/id=754056791"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225402267758080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

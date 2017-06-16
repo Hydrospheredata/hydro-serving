@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/tSEAAOSwH09ZHIF~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UTIAAOSw3gJZHIGC/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Twizzler-Weekender-Duffel-Bag-/222514627553",
+  "ConvertedCurrentPrice": {
+    "value": "52.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Twizzler Weekender Duffel Bag Product Details color: Pink model: 69550 Made from rugged, water-resistant 600-denier polyester Detailed with an adjustable, removable shoulder strap and padded handles Sized to fit in an overhead bin when used as a carry-on Available in lots of fun patterns Match with other accessories of the same pattern Great to personalize with monogramming",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "2426",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "rjkselections"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Twizzler Weekender Duffel Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-17T16:59:49.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225146275538080_1.jpg",
+  "TimeLeft": "P14DT15M55S",
+  "EndTime": "2017-06-16T16:59:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "69550"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Wildkin"
+      },
+      {
+        "Name": "UPC",
+        "Value": "097277695503"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0097277695503"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222514627553",
+  "Storefront": {
+    "StoreName": "RJK Selections",
+    "StoreURL": "http://stores.ebay.com/id=902770867"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "45412257",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/BMYAAOSwPCVX3x5k/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/OZgAAOSwNRdX3x51/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/gjsAAOSwAuZX3x5-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CELINE-BRIEFCASE-MUSTARD-LEATHER-NEW-/122512377063",
+  "ConvertedCurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "AUTHENTIC CELINE, PARIS BRIEFCASE, MUSTARD, SIZE 5 HIGH, OPEN 10 WIDE; PURCHASED IN CELINE PARIS, NEVER USED; SHIPPING $ 12 IN USA;",
+  "Title": "CELINE BRIEFCASE, MUSTARD , LEATHER, NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Miami Beach, Florida",
+  "Seller": {
+    "FeedbackScore": "117",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "montecarlocouture"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33154",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-23T16:32:45.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P20DT1H31M50S",
+  "EndTime": "2017-06-22T16:32:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "CELINE"
+      },
+      {
+        "Name": "Color",
+        "Value": "MUSTARD"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122512377063",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225123770638080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

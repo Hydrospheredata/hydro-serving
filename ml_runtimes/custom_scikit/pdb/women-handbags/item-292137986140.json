@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMjE2/z/VO4AAOSww5hZIQ4A/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc2WDExNTg=/z/dV8AAOSwblZZIRa-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExNFgxMTQ3/z/8e8AAOSwlndZIRbt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY5WDE0NDA=/z/kgsAAOSwcB5ZIRbX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzYz/z/JrIAAOSwH09ZIRcj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxMjAw/z/guQAAOSw~y9ZIRdc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMTUz/z/AeEAAOSwlMFZIRdu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc0WDE0NDA=/z/B~AAAOSw5cRZIQ3t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gmQAAOSwjqVZIReJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LCgAAOSwIaFZIReb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~JYAAOSw-K9ZIRes/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/BOUAAOSwlMFZIRfF/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dooney-Bourke-K8405754-Handbag-Purse-/292137986140",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Dooney Bourke K8405754 Handbag Purse in good condition has wear as shown in pictures such as stains inside happy bidding everyone and good luck.",
+  "Title": "Dooney Bourke K8405754 Handbag Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Jacksonville, Florida",
+  "Seller": {
+    "FeedbackScore": "32",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "longsilver1913"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32277",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:56:40.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT22H47M7S",
+  "EndTime": "2017-07-02T12:56:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Dooney & Bourke"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "tan and brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "leather and fabric"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137986140",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921379861408080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

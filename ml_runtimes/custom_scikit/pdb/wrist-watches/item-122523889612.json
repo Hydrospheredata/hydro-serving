@@ -1,0 +1,61 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Marietta, Georgia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-30T20:40:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-29T20:40:48.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122523889612",
+  "HandlingTime": "2",
+  "Description": "Baribault Swiss watch complete with box and instruction manual with genuine alligator skin band. Made with Swiss parts, assembled in New Jersey",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Baribault-Jewelry-Gold-Watch-1993-/122523889612",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225238896128080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "30068",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT5H11M49S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/l5EAAOSw~y9ZBkqA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/SasAAOSww9xZBko-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/1J4AAOSwcgNZBko9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/G60AAOSwdjNZBkqB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/VK4AAOSww9xZBkqE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Kc8AAOSwnONZBkqG/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "Baribault Jewelry Gold Watch 1993",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "sportsgameseller",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

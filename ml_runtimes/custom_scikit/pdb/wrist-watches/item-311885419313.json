@@ -1,0 +1,146 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Carlsbad, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:38:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:38:44.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "311885419313",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "KSW1045",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Two Tone",
+        "Name": "Strap Color"
+      },
+      {
+        "Value": "8",
+        "Name": "Case Thickness"
+      },
+      {
+        "Value": "Push Button Hidden",
+        "Name": "Clasp Type"
+      },
+      {
+        "Value": "Kate Spade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "796483223806",
+        "Name": "UPC"
+      },
+      {
+        "Value": "KSW1045",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "34",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Kate Spade",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Dial Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Type"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Kate-Spade-New-York-Gramercy-Two-Tone-Ladies-Watch-KSW1045-/311885419313",
+  "Title": "NEW! Kate Spade New York Gramercy Two-Tone Ladies Watch KSW1045",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118854193138080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "92011",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H31M41S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4FQAAOSwtGlZLtVA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iycAAOSwKytZLtVV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-~AAAOSwAPVZLtVl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1FIAAOSwxu5ZLtUs/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Stainless steel case.Two-tone stainless steel bracelet.Silver dial.Quartz movement.Water resistant 30 meters.Case 34mm.",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackScore": "843",
+    "UserID": "misidolphinfanatic",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

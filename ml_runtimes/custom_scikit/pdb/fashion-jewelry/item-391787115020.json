@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "Description": "Unless otherwise stated, you may return your purchase, in the same condition as received, within 30 days of receipt for a refund less shipping charges and a 15% restocking fee subtracted from your refund. If the item is not as described, we will waive the restocking fee.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P11DT6H13M5S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Pre-owned in very good condition.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "113557TPATZ",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "391787115020",
+  "ConvertedCurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-17T22:25:49.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mexican-Sterling-Silver-Warrior-Arm-Band-/391787115020",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-16T22:25:49.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Arm",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Mexican Sterling Silver Warrior Arm Band",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Anderson, Indiana",
+  "Description": "This is a pre-owned Mexican Sterling Silver Warrior Arm Band. It is a heavy sterling silver band that weighs a half pound (7.89 ounces or 223.8 grams), is 3.5\" wide and adjustable. It features a fearsome ancient warrior's face and several totems stamped into the banding. Free Priority Mail Shipping to anywhere in the United States. No International Shipping. Free Local Pick-Up at our location. SKU: 113557TPATZ Get Images that Make Supersized Seem Small.Auctiva's Listing Templates improve your auctions in minutes. Attention Sellers - Get Templates Image Hosting, Scheduling at Auctiva.com.",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3917871150208080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jfrube2",
+    "FeedbackScore": "4028",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Allan&#39;s Jewelry And More",
+    "StoreURL": "http://stores.ebay.com/id=1506162"
+  },
+  "Quantity": "1",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "HitCount": "26",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/9uMAAOSwN6JY9T5E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/GssAAOSwRUhY9T5G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/3KgAAOSwJ4hY9T5E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/pVIAAOSw5UZY9T5E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/Cs8AAOSw53NY9T5E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/TRAAAOSwmCVY9T5E/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "PostalCode": "46016"
+}

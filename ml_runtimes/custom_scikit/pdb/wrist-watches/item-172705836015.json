@@ -1,0 +1,86 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Grandview, Missouri",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:00:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1587968501",
+    "StoreName": "Funnyshop86"
+  },
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:00:55.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705836015",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "AIMANT",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GLY-150SS-1S",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "AIMANT Men's Lyon Silver with Silver Stainless Steel Bracelet Watch GLY-150SS...",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AIMANT-Mens-Lyon-Silver-Silver-Stainless-Steel-Bracelet-Watch-GLY-150SS-/172705836015",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727058360158080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "64030",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H45M47S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/YrkAAOSwBt5ZLr6K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/wXIAAOSw8HBZLr6K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/lioAAOSw0hlZLr6J/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/MdMAAOSwX61ZLr6J/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "AIMANT Mens Lyon Silver with Silver Stainless Steel Bracelet Watch GLY-150SS-1S Description This family\u2019s design represents the city of Lyon with precision. A city with a blend of quintessential French cuisine, historical architecture, and an industry rich in technology, research and innovation, beckoning us to appreciate every detail. Features: MOVEMENT: Japanese Quartz Chronograph with Date and Analog Display Silver Stainless Steel Bracelet CASE: 52.5MM Made of Stainless Steel WATER RESISTANCE: 10 ATM / 100 M AIMANT 3 Year Warranty Product Details: Product Dimensions: 3.9 x 3.9 x 3.7 inches Shipping Information: View shipping rates and policies Brand, Seller, or Collection Name: AIMANT Part Number: GLY-150SS-1S Display Type: Analog Case material: Stainless Steel Case diameter: 5.3 centimeters Band Material: Stainless Steel Band Color: Silver Dial color: Black Bezel material: Stainless Steel Special features: Chronograph with Date Movement\ufeff: Japanese quartz Water resistant depth: 100 Meters Handling We will ship all orders within 3 business days of payment. Delivery We do not ship outside of the Continental US. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "13",
+    "UserID": "jonnyevansstore",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

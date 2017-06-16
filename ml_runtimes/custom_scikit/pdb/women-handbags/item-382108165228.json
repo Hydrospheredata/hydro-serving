@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzg3WDUyMg==/z/3HQAAOSwaEhZLa9W/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzM0WDUyMQ==/z/~t0AAOSwH09ZLa78/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU1WDkwMA==/z/w5AAAOSw8HBZLa-4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/B8sAAOSwPh5ZLa-B/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM1NlgxNDE1/z/8a8AAOSwR29ZLa~Z/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-BABY-DIAPER-BAG-MIDNIGHT-BLUES-NWT-/382108165228",
+  "ConvertedCurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY BABY DIAPER BAG MIDNIGHT BLUES (WITH SOLID NAVY LINING) NWT Vera's durable Baby Bag is made of soft quilted fabric. The fully zippered top closure secures an interior with two open slip pockets. It is lined in an easy to clean solid fabric. The front features a full length zip pocket, and an open slip pocket on each end for bottles and other necessities. The long straps have a drop of 12 inches. A removable, washable blue quilted changing pad measures 24 inches (L) x 16 inches (W). Vera's baby bag is lightweight, easily maintained and can be laundered. Just remove the sturdy bottom insert first. It measures 16\" (L) x 11\" (H) x 5.5\" (W).",
+  "Title": "VERA BRADLEY / BABY DIAPER BAG / MIDNIGHT BLUES / NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Mary Esther, Florida",
+  "Seller": {
+    "FeedbackScore": "1796",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jay.88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32569",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T17:53:09.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P27DT2H32M39S",
+  "EndTime": "2017-06-29T17:53:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382108165228",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821081652288080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

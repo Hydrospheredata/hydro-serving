@@ -1,0 +1,62 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "180.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GR",
+  "Location": "halandri",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:24:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "180.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:24:03.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Welder",
+      "Name": "Brand"
+    }
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966991548",
+  "HandlingTime": "1",
+  "Description": "For sale a welder K51 watch used in very good condition no damages at all it is very nice watch but is little big for my wrist.Needs new battery. Specs: Case:50mmMovement:swiss ronda quartzLug size:26mmWeight:185gr No papers and box included. 100% original",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Welder-K51-watch-/252966991548",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529669915488080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H15M25S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ul4AAOSwIaFZLtHH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VCQAAOSwlndZLtG9/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Welder K51 watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "114",
+    "UserID": "george23hh",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

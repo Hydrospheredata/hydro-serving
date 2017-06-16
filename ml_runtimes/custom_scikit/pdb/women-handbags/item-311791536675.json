@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3117915366758080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDE4WDUwMA==/z/CDUAAOSw9GhYj6-u/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Janetbasket-Eco-Bag-18x10x12-Vintage-Messenger-Bag-New-/311791536675",
+  "ConvertedCurrentPrice": {
+    "value": "1137.4",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Janetbasket Eco Bag-18x10x12 Vintage Click Thumbnails to Enlarge J Basket brings this Vivid Allon Eco Bag which is a multi purpose nylon insulated carry bag. Has a creative print design and measures 18x10x12\"H.Tote Bag Shipping International Orders: Please allow an additional 3-5 business days handling time. We ship via the quickest, most economical method - usually UPS, FedEx, or USPS. We ship from multiple warehouses and will always ship from the closest warehouse to your location. We cannot guarantee ground shipping times, however most orders arrive in 3 business days once shipped. Payment Yozos gladly accepts PayPal, American Express, Discover, MasterCard, and Visa through eBay's safe and secure checkout. We do not accepts checks, cash, or any payments outside of PayPal. Returns Unused and uninstalled items may be returned within 30 days of purchase. Your return must be in new and unused condition. All returns must include original packaging, with all hardware and accessories. Orders returned outside of policy may be refused or subject to a 15% re-stock fee. Customers are responsible for return shipping costs. Damage claims must be made within 3 business days of delivery. After this time period, we cannot accept a damaged return. Damaged items will only be exchanged once we receive the damaged item back. For warranty questions please call 281-836-3229 or contact us through ebay. Contact Us FAQs HOW TO RETURN Contact us to obtain a Return Authorization number. Please include your return reason in detail. We will respond with a return authorization and return address, typically within 1 business day.",
+  "Title": "Janetbasket Eco Bag-18x10x12 Vintage Messenger Bag, New",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1137.4",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Crosby, Texas",
+  "Seller": {
+    "FeedbackScore": "122344",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "RedShooting",
+    "UserID": "yozos"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77532",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-01-30T21:27:13.000Z",
+  "HitCount": "30",
+  "TimeLeft": "P27DT6H15M53S",
+  "EndTime": "2017-06-29T21:27:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Janetbasket"
+      },
+      {
+        "Name": "Manufacturer Part Number",
+        "Value": "EB027"
+      },
+      {
+        "Name": "UPC",
+        "Value": "841627005579"
+      },
+      {
+        "Name": "EAN",
+        "Value": "841627005579"
+      },
+      {
+        "Name": "Item Weight",
+        "Value": "0 pounds"
+      },
+      {
+        "Name": "Product Dimensions",
+        "Value": "0 x 0 x 0 inches"
+      },
+      {
+        "Name": "Category Group",
+        "Value": "Messenger Bags"
+      },
+      {
+        "Name": "Brand Group",
+        "Value": "Janetbasket"
+      },
+      {
+        "Name": "ManufactuRed By",
+        "Value": "Janetbasket"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "311791536675",
+  "Storefront": {
+    "StoreName": "yozos",
+    "StoreURL": "http://stores.ebay.com/id=173323504"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00P9ENC0C",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

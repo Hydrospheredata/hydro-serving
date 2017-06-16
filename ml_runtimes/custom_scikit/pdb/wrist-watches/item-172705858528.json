@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Boynton Beach, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:13:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1187214304",
+    "StoreName": "D and E A to Z"
+  },
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:13:14.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705858528",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Joan Rivers",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Joan Rivers Classics Women's Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Joan-Rivers-Classics-Womens-Watch-/172705858528",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727058585288080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33472",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H59M27S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg5NjA=/z/Ps0AAOSwyjBW7urs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg2NzM=/z/rncAAOSwAuNW7ur4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUyOVg2OTc=/z/joEAAOSwu1VW7usE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/jFcAAOSw2ENW7usb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5MVg2NzE=/z/jxQAAOSwoudW7uso/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYxWDk1OQ==/z/0YgAAOSwwpdW7us1/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Decent condition. Watch is not working but probably just needs a new battery. Front reads Joan Rivers Classics. Watch has wear and scratches and needs cleaning.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "643",
+    "UserID": "mustangford2008",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

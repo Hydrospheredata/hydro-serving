@@ -1,0 +1,114 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.0"
+  },
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "7.0"
+  },
+  "HandlingTime": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NzE=/z/DNoAAOSwCQZZHCTp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4ODE=/z/gwYAAOSwaeRZHCVA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5N1g5NzU=/z/0b0AAOSwX9FZHCVh/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "Quantity": "1",
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "lorijean_61",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1129",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-26T01:57:35.000Z",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "7.0"
+  },
+  "Title": "Pocket Watch Route 66 with Case",
+  "ItemID": "263004025280",
+  "PaymentMethods": "PayPal",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Route-66-Case-/263004025280",
+  "Country": "US",
+  "PostalCode": "16506",
+  "ConditionDescription": "Looks unused, needs Battery",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Route 66 Pocket Watch, Nice condition with plastic still on face. Case has belt loop and has crease wear from opening and closing also some marks from sitting around. Watch needs a battery but looks unused. Very nice.",
+  "HitCount": "17",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "4.0"
+  },
+  "PrimaryCategoryID": "3938",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630040252808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-05T01:57:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Erie, Pennsylvania",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.0"
+  },
+  "TimeLeft": "P4DT7H21M28S"
+}

@@ -1,0 +1,119 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "76.0"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~EgAAOSwYvFZJ2s9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZrsAAOSwKytZJ2s~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pPkAAOSwblZZJ2tC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zV4AAOSwcB5ZJ2tF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BgIAAOSwPh5ZJ2tH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bHkAAOSwZ4dZJ2tJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JrAAAOSwGJlZJ2tM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cYQAAOSw-K9ZJ2tO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oLkAAOSwDiBZJ2tQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BncAAOSwPh5ZJ2tS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EIYAAOSwR29ZJ264/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "makaila714",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1379",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-25T23:52:34.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "w***a",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3804",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "Chinese",
+  "Title": "Vintage Men's Omega 1660163 17 Jewels Wristwatch parts or repair",
+  "Storefront": {
+    "StoreName": "makaila714",
+    "StoreURL": "http://stores.ebay.com/id=1140334982"
+  },
+  "ItemID": "112419680975",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Mens-Omega-1660163-17-Jewels-Wristwatch-parts-repair-/112419680975",
+  "QuantitySold": "0",
+  "PostalCode": "19608",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Men's Omega 1660163 17 Jewels Wristwatch parts or repair. It was a watch given to a employee at Kaiser Aluminum & Chemical Corporation for 25 years which is inscribed on back on watch. Watch is running, watch band is sturdy on one side as seen in last photo, not sure on clasp of band looks like its broken, and missing its crown so selling it AS IS for parts or repair. It has 17 Jewels and model # 1660163. It does show wear/scratches to metal and glass as seen in photos. Gladly ask any questions! Gladly will combine shipping just let me know you are and can as long as next listing is within 5 days thanks!! Payment due within 2 days of listing end.",
+  "HitCount": "506",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "77.0"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "OMEGA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124196809758080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "23",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-01T23:52:34.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Reading, Pennsylvania",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "76.0"
+  },
+  "TimeLeft": "P1DT3H37M55S"
+}

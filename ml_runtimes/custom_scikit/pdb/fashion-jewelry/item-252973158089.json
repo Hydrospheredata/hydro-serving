@@ -1,0 +1,150 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P1DT13H10M25S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CN",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "56.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252973158089",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kirks-Folly-Sea-Fairy-Mermaid-Fantasy-Pin-Brooch-/252973158089",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "56.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T02:09:06.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-07T02:09:06.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Coloured",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Synthetic Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Lab-Created/Cultured",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Fairytale & Fantasy",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "Kirks Folly Sea Fairy Mermaid Fantasy Pin Brooch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "THIS SEA FAIRY PIN FROME THE KIRKS FAIRY COLLECTION FEATURES A GOLDEN FINISH MERMAID WITH WINGS IN COLORS OF GREEN, PURPLE AND BLUE. HER TAIL AND BIKINI TOP ARE A WHITE FROSTED ENAMEL. THE BOTTOM OF THE TAIL IS IN THE SAME COLORS AS HER WINGS. SHE HOLDS A WAND IN ONE HAND AND CHARMS IN THE OTHER WHICH INCLUDE A SEA HORSE, STARFISH, DOLPHIN, SHELL AND FACETED CRYSTALS. MEASURES 3-1/2\"L X 2\"L. WILL BE SHIPPED IN A PLAIN GOLD JEWELRY BOX.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529731580898080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "goldengoose87",
+    "FeedbackScore": "885",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Willingboro, New Jersey",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kCIAAOSwKytZM2lc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IVkAAOSw-3FZM2l0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/epQAAOSwYvFZM2mR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/a7oAAOSwfRdZM2mq/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "08046"
+}

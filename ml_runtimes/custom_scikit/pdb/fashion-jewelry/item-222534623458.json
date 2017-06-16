@@ -1,0 +1,103 @@
+{
+  "HandlingTime": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "222534623458",
+  "TimeLeft": "P6DT29M10S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-04T12:32:14.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PostalCode": "11771",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Hand Made Sapphire Blue Swarovski 32\" Beaded Necklace & Bracelet Set",
+  "AutoPay": "true",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T12:32:14.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swarovski",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Yellow Gold Filled",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Beads",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Crystal Bead",
+        "Name": "Material"
+      },
+      {
+        "Value": "Crystal AB",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Aurora Borealis",
+        "Name": "Main Stone Treatment"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hand-Made-Sapphire-Blue-Swarovski-32-Beaded-Necklace-Bracelet-Set-/222534623458",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Oyster Bay, New York",
+  "Description": "Handmade & Brand New Dazzling Swarovski Beaded Necklace Sapphire Blue with matching Stretch Bracelet. An absolutely stunning and beautiful piece of jewelry to brighten up any outfit.Total length is 32\" but can be doubled up and worn as a 16\" necklace as well. Simply beautiful either way . Style: Beaded Necklace & BraceletCustom MadeLength: 32\" or Doubled Up as 16\"Bead Size: 6 mm & 10 mm & RoundelsClosures: Sterling Silver Lobster ClaspMain Stone: Swarovski Crystals all Aurora Borealis (AB)Bracelet: Stretch. Matching beads. One size fits all. All of these Swarovski Beads have their special AB finish - Aurora Borealis. It's known as the \"Northern Lights\" when the night sky dances with a variety of colors. Just stunning to see how light reflects off of it .... just imagine the compliments you will get while wearing it . Gift Boxes for Necklaces and Bracelets are included . Please check out my other FAB items \u2026. thanks!! Other Colors available on my site ... Final Sale/No Returns / Free Shipping",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225346234588080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "myvintagecottage4u",
+    "FeedbackScore": "19",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/a3sAAOSw44BYcWeV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NlgxMzQ0/z/JyUAAOSwImRYcWfL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4OFg3NzI=/z/xGUAAOSw-0xYcWfk/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  }
+}

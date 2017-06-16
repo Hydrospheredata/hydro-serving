@@ -1,0 +1,115 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Saint Petersburg, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:25:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T14:25:05.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334446710",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Longines",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "used watch light scratches and wear on the finish see pics",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Longines-Watch-classic-gold-Tone-quartz-sapphire-glass-swiss-made-L4-636-2-/302334446710",
+  "Title": "Longines Watch classic gold Tone quartz sapphire glass swiss made L4.636.2",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023344467108080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33710",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H16M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzA4WDczMg==/z/5PcAAOSwJH1ZLs22/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODcyWDkxMg==/z/IvUAAOSw5cRZLs3z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTY0WDE0OTI=/z/86kAAOSwX61ZLs48/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3NlgxNDI4/z/Ti0AAOSw-K9ZLs7c/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc2WDE1ODA=/z/Z9AAAOSw1WJZLs8d/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzMyWDE1ODA=/z/YcMAAOSw9OFZLs9g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTQ0WDE1ODg=/z/8bcAAOSwCQZZLs-h/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RuAAAOSw5cRZLs--/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "up for sale is a Longines Watch classic gold Tone quartz sapphire glass swiss made L4.636.2 FRESH BATTERY RUNS GREAT Gold Electroplated 10-LL used watch light scratches and wear on the finish see pics",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2498",
+    "UserID": "corbie565",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

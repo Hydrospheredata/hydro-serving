@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzI2WDUwMA==/z/i34AAOSw2gxYyMnS/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Letter-Size-Envelope-Black-One-Size-/401291415272",
+  "ConvertedCurrentPrice": {
+    "value": "56.92",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Front Open Pocket - Wristlet Strap - Briefcase David King & Co. Letter Size Envelope, Black, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "56.92",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "57031",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "alosh12"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Letter Size Envelope, Black, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-03-15T04:57:51.000Z",
+  "HitCount": "41",
+  "TimeLeft": "P10DT13H48M28S",
+  "EndTime": "2017-06-13T04:57:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "844739014569"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844739014569"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "101-B"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Department",
+        "Value": "luggage"
+      },
+      {
+        "Name": "Weight",
+        "Value": "0.5 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 13.9 x W 11 x H 1.6 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "David King & Co."
+      },
+      {
+        "Name": "Model",
+        "Value": "101B"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401291415272",
+  "Storefront": {
+    "StoreName": "geffen.200851",
+    "StoreURL": "http://stores.ebay.com/id=864275326"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/4012914152728080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

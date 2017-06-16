@@ -1,0 +1,69 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "417.98",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Milton Keynes",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:06:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "325.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:06:49.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334196192",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Men's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage seiko chronograph speed timer gents mens automatic watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-seiko-chronograph-speed-timer-gents-mens-automatic-watch-/302334196192",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023341961928080_1.jpg",
+  "HitCount": "56",
+  "PostalCode": "mk22lt",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H38M38S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI2N1g4MTA=/z/-jIAAOSwCU1YqGrJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/rGoAAOSw32lYqGrX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg0WDgxMA==/z/o-0AAOSwOgdYqGru/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/6g0AAOSwWxNYqGr8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/RcMAAOSwtfhYqGsN/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage Rare Seiko speed timer Chronograph gents automatic watch Dial is in mint condition Case size is approximately 40mm. The movement is mechanical automatic Overall condition of watch is mint condition and runs well. Please see the pictures .",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "853",
+    "UserID": "hauk270",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

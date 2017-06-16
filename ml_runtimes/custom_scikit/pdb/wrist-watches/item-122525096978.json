@@ -1,0 +1,230 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "43.55",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "92858309",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bensalem, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:30:53.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=29140120",
+    "StoreName": "Mrs Shoppe"
+  },
+  "CurrentPrice": {
+    "value": "43.55",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:30:53.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "T5K198",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BZ",
+    "CR",
+    "DO",
+    "SV",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "NI",
+    "PA",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "PH",
+    "VN",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "GL",
+    "MX",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "ItemID": "122525096978",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Timex Ironman Triathlon",
+        "Name": "Model"
+      },
+      {
+        "Value": "18mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Wrap-Around Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "T5K1989J",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Fabric",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Seconds Hand",
+          "Alarm",
+          "Day & Date",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Digital Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "753048310487",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex T5K198, Men's Ironman 30-Lap Wrapstrap Watch, Shock, Indiglo, T5K1989J",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-T5K198-Mens-Ironman-30-Lap-Wrapstrap-Watch-Shock-Indiglo-T5K1989J-/122525096978",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225250969788080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "19020",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H14M35S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTI3/z/Ee0AAOSwzOxUYkGZ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDUx/z/DDEAAOSwHJhXM4Ss/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Timex T5K198Daily, Weekday or Weekend Alarm with Five-Minute BackupTwo Time ZonesOn-Screen Prompts Make Setting EasyForward or Backward Setting24-Hour TimeMonth, Day and Date DisplayAttachment Color: BlackAttachment Material: NylonAttachment Type: WrapstrapBattery Type: CR2016Case Color: Silver-ToneCase Height: 14.64 mmCase Lug Width: 18mmCase Material: ResinCase Shape: RoundCase Size: Full-SizeCase Width: 42 mmCrystal/Lens: Mineral GlassDial Markings: DigitalTop Ring Color: BlackTop Ring Material: ResinWarranty: 1 Year Limited (U.S. Only)Watch Movement: DigitalWater Resist: 200 metersUSA Retail MSRP of $67.00 Brand new in Timex box with 1 year USA Timex Manufacturer's Warranty. Shipping USA-Free for first class mail shipping. Priority mail is $7.50.Canada-$9.50 first class mailAll other Foreign Countries-$13.50 first class mail Combined Shipping Instructions To get the correct amount of shipping for combining multiple different items from my EBAY store, the buyer must add all items into the buyer's \"cart\" first. Then request a total from the seller via the cart system. This process does not work using an \"App\". Must be in regular EBAY site. Corrected combined invoices occurs at various times throughout the day-excluding weekends. Typically 1-12 hours after the request is done. Once you receive the corrected invoice, please pay via PAYPAL. Payment Method Paypal is the preferred method of payment. Customs and Duties All international custom fees and duties are the responsibility of the buyer for any items purchased from the Mrsshoppe EBAY store. The shipping fee which is paid for the buyer is for the shipping charges to the international destination and is not for any import duties that may be charged additionally by the buyer's country.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "32472",
+    "UserID": "mrsshoppe",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)"
+  }
+}

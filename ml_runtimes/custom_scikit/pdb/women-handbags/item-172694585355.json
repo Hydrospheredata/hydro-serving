@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/pckAAOSwax5Yrs7J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/bE4AAOSw32lYrs5m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMyNVg5MDA=/z/H6oAAOSwCU1Yrs51/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/CHQAAOSwTuJYrs6B/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/jSIAAOSwWxNYrs6U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/rNAAAOSwtfhYrs6y/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-NWT-Michael-Kors-Large-Embossed-Leather-Tote-Walnut-Dillon-398-/172694585355",
+  "ConvertedCurrentPrice": {
+    "value": "219.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new Authentic Michael Kors Large Embossed Leather Tote Material: leather Measurement : approximately 13\"W \u00d712\"H\u00d75\"D Comes with long shoulder strap The pictures are from the actual item you will receive.",
+  "Title": "Authentic NWT Michael Kors  Large Embossed Leather Tote Walnut Dillon $398",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "219.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Brownsville, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "118",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "becool1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "15417",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T15:09:39.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P21DT21H28M4S",
+  "EndTime": "2017-06-24T15:09:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "MichaelKors"
+      },
+      {
+        "Name": "Material",
+        "Value": "leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Walnut"
+      },
+      {
+        "Name": "Gender",
+        "Value": "Female"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Animal Skin Texture"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172694585355",
+  "Storefront": {
+    "StoreName": "abzbargains16",
+    "StoreURL": "http://stores.ebay.com/id=1132836884"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726945853558080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

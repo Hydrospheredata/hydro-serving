@@ -1,0 +1,134 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H53M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "191.38",
+    "_currencyID": "USD"
+  },
+  "SKU": "A000036-shoul-A-181",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322543297668",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/natural-Brazil-Venus-crystal-Bracelet-Man-High-end-grace-fashion-Ornaments-/322543297668",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "191.38",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:30:10.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:30:10.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stretchable",
+        "Name": "Features"
+      },
+      {
+        "Value": "8.5",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "natural Brazil Venus crystal Bracelet Man High-end grace fashion Ornaments",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225432976688080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "2014bestbird",
+    "FeedbackScore": "8672",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Beauty_User",
+    "StoreURL": "http://stores.ebay.com/id=1271974606"
+  },
+  "Quantity": "1",
+  "Location": "Lianyungang",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/PWwAAOSwaeRZNRaW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2ZcAAOSwurZZNRaW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/v-0AAOSw-3FZNRaW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/G1IAAOSw3gJZNRaW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3bMAAOSwAPVZNRaW/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

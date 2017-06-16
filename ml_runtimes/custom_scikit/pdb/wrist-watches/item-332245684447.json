@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Huntington Station, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:11:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:11:54.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245684447",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Citizen Eco-Drive EG3174-53D Pearl Dial Plated Stainless Steel Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Citizen-Eco-Drive-EG3174-53D-Pearl-Dial-Plated-Stainless-Steel-Quartz-Watch-/332245684447",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322456844478080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "11746",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H54M49S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDc0Ng==/z/KBgAAOSw5cNYL8vc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY1WDUwMA==/z/1tQAAOSwj85YL8wh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDc0OQ==/z/x4UAAOSwA3dYL8v0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDYwNA==/z/yfMAAOSwA3dYL8wE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjY4WDc0OQ==/z/Gc0AAOSwiONYL8wU/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "A brand new authentic citizen women watch diamond bezel with 34 diamonds with box and instructions manual.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "118",
+    "UserID": "aaa301",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

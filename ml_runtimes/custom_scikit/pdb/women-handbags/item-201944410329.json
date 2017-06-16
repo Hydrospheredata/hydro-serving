@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjQ4WDExNTE=/z/us8AAOSw7ehXQ491/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE1Mlg2NDg=/z/6toAAOSwH6lXQ4~T/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE1Mlg2NDg=/z/lcQAAOSwR5dXQ4~m/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ4WDExNTI=/z/g5cAAOSwNsdXQ4~5/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ4WDExNTI=/z/4PMAAOSwMN9XQ5AG/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ4WDExNTI=/z/9hsAAOSw6btXQ5Ae/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ4WDExNTI=/z/5BUAAOSwMN9XQ5Au/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ4WDExNTI=/z/pJAAAOSwneRXQ5BC/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Furla-handbags-/201944410329",
+  "ConvertedCurrentPrice": {
+    "value": "168.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This beautiful bag is perfect for the summer plenty of room for just about anything plenty of pockets inside gold feet at the bottom gold style emblem and zipper closure comes with dust bag check out pictures comes from a very clean and smoke free store Payment should be made within 2 days or purchase will be canceled and the item will be re listed",
+  "Title": "Furla handbags",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "168.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Revere, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "215",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mac123452013"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02151",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:03:14.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT21H50M",
+  "EndTime": "2017-06-09T12:03:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Furla"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "18\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944410329",
+  "Storefront": {
+    "StoreName": "Caroles Designer Closet",
+    "StoreURL": "http://stores.ebay.com/id=1163873131"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Returnable within 14 days of delivery please read description and pay close attention to pictures of used items if you decide that the item is not what you wanted please message me to resolve issue before returning items",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019444103298080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,133 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT21H44M33S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "67.72",
+    "_currencyID": "USD"
+  },
+  "SKU": "A000036-shoul-A-179",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222535495570",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/natural-crystal-Inclusion-Mineral-body-Bracelet-12-mm-High-end-grace-fashion-/222535495570",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "67.72",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:25:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T07:25:09.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stretchable",
+        "Name": "Features"
+      },
+      {
+        "Value": "8",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "natural crystal Inclusion Mineral body Bracelet 12 mm High-end grace fashion",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225354955708080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "2014bestbird",
+    "FeedbackScore": "8672",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Beauty_User",
+    "StoreURL": "http://stores.ebay.com/id=1271974606"
+  },
+  "Quantity": "1",
+  "Location": "Lianyungang",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3EQAAOSwhvFZNQdZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/d~8AAOSwblZZNQdZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/~WUAAOSwH09ZNQdZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/veoAAOSwYvFZNQdZ/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

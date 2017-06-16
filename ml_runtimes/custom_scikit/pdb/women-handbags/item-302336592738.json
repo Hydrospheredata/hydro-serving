@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTkzWDEyMDA=/z/QHIAAOSww9xZMJBU/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAzWDc2OA==/z/9VkAAOSwIQdZMJBr/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nKEAAOSwK6RZMJA8/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wbAAAOSwAPVZMJAL/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MA0AAOSwIaFZMJBy/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4NFgxNjAw/z/-dUAAOSwH09ZMJCO/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5M1gxNDM3/z/-oYAAOSwH09ZMJCb/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Purple-Leather-Handbag-Gold-Zipper-and-Accents-Gently-used-Once-/302336592738",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic Coach bag embossed with the Coach C set off by fashionable gold zipper and accents. Original Coach bag tag in gold finishes off this roomy handbag. Two outside pockets to stash your favorite lipstick or a tissue. Three compartments with tons of room for all of your everyday - or night - needs. This gorgeous bag is stylish enough for day or evening and convenient for the office, meetings or running errands. I only carried this beauty one time to an interview with my portfolio containing my resume tucked right inside - I got the job!!",
+  "Title": "COACH - Purple Leather Handbag with Gold Zipper and Accents Gently used Once",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Rineyville, Kentucky",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "lrgtoyou-4"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "40162",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T22:22:54.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT7H56M56S",
+  "EndTime": "2017-07-01T22:22:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302336592738",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023365927388080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

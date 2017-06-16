@@ -1,0 +1,138 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AE",
+  "Location": "Dubai",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:16:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1445564616",
+    "StoreName": "Deals Guru 1"
+  },
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:16:50.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Suunto",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Altimeter",
+          "Barometer",
+          "Compass"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Copper",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "49.1mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Finland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "SS021213000",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "AR",
+    "IL",
+    "RU",
+    "GR",
+    "PT"
+  ],
+  "ItemID": "162535865439",
+  "HandlingTime": "1",
+  "Description": "REF SS021213000 SUUNTO ESSENTIAL COPPER A TRIBUTE TO SUUNTO\u2019S ADVENTURE HERITAGE COMBINING ICONIC SUUNTO OUTDOOR WATCH FEATURES WITH PREMIUM MATERIALS. HAND BUILT IN FINLAND. THE HERITAGE OF ADVENTURE Every great adventure starts from within. From a drive to seek out new places and discover new experiences to summiting the highest peaks in the world, your passion is our inspiration. Hand built in Finland by the pioneer of outdoor precision instruments, the Suunto Essential honors our adventure heritage. The Suunto Essential Copper combines a rugged look with a stylish, vegetable-tanned premium Italian leather strap, gentle to your skin and the environment. PRODUCT HIGHLIGHTS Stainless Steel, Sapphire Crystal GlassMade in FinlandAltimeterBarometerCompassDual timeSunrise / sunsetTemperatureStorm alarmWater resistance to 30 m / 100 ft*Depth meter for snorkeling*User-replaceable batteryMultilingual menu (EN, FR, DE, ES) *NOTE. Some strap materials will degrade with prolonged contact to water.CONDITIONS:Will be shipped by courier. DHL.Comes with original papers and package.Business days from Sunday to Thursday.All import duties and customs clearance charges are the responsibility of the buyer if there is any.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SUUNTO-ESSENTIAL-COPPER-MENS-WATCH-LEATHER-BRACELET-SS021213000-/162535865439",
+  "NewBestOffer": "false",
+  "SKU": "SS021213000",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625358654398080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H56M29S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3ODc=/z/1ZwAAOSwxKtYA36c/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/9ucAAOSw-CpX~K6o/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/HRcAAOSwCGVX~K6i/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/spcAAOSw4shX~K6k/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/HckAAOSwCGVX~K6m/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/HmwAAOSwCGVX~K6p/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "SUUNTO ESSENTIAL COPPER MEN'S WATCH LEATHER BRACELET - SS021213000",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "381",
+    "UserID": "dealsguru1",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

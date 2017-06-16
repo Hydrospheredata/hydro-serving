@@ -1,0 +1,67 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "92707",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Gold Quartz American Eagle Hunting Pocket Watch In New Condition. The size of the watch is 16. It features a highly ornate gold finished catch case with an American eagle in the center with thirteen stars above and a set of oak leaf's below. It has an ornate bow and stem. The dial has an antique gold finished American eagle on it with a set of oak leaf's below with black Roman numbers and black finished hands. Attached is a gold finished pocket watch chain. The pocket watch is in new condition and comes with the original box.",
+  "StartTime": "2017-05-30T17:30:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTQ5/z/4u0AAOSwImRYkMzG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzY1/z/cpIAAOSwjDZYkMzP/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "ssgtusmarine1983",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1860",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322101810498080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T17:30:27.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GOLD-QUARTZ-AMERICAN-EAGLE-HUNTING-POCKET-WATCH-NEW-CONDITION-/132210181049",
+  "Location": "Santa Ana, California",
+  "Title": "GOLD QUARTZ AMERICAN EAGLE HUNTING POCKET WATCH IN NEW CONDITION",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "132210181049",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT22H56M41S"
+}

@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/QYYAAOSwNnRYmeYX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY2WDcyMA==/z/P1oAAOSwLEtYmeYW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/P4gAAOSwLEtYmeYX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDcyMA==/z/QXQAAOSwNnRYmeYW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/oWcAAOSwUKxYmeYY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDU0NA==/z/BLUAAOSw241YmeYW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/QiAAAOSwImRYmeYX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU5WDk1OQ==/z/QaAAAOSwNnRYmeYY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/aYwAAOSwTglYmeYZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-TADEN-AVENUE-BLACK-DIAPER-BAG-/172667272030",
+  "ConvertedCurrentPrice": {
+    "value": "179.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Detail Track Page Views WithAuctiva's FREE Counter",
+  "Title": "KATE SPADE TADEN AVENUE BLACK DIAPER BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Ferndale, Michigan",
+  "Seller": {
+    "FeedbackScore": "1557",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "etrend.inc"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48220",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T13:11:44.000Z",
+  "HitCount": "22",
+  "TimeLeft": "P5DT21H45M4S",
+  "EndTime": "2017-06-08T13:11:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172667272030",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726672720308080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

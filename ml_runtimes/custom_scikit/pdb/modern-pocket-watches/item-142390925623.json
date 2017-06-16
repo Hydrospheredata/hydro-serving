@@ -1,0 +1,111 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Mudder Black Vintage Stainless Steel Quartz Pocket Watch with Chain Belt (H21)",
+  "PostalCode": "46226",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Mudder Black Vintage Stainless Steel Quartz Pocket Watch with Chain Belt Item is new in an open box. \u00a0Box has slight wear from previous shipping. \u00a0Contents present and unharmed. Terms of Sale Listing is for item and/or accessories shown in photos only. Please review photos for complete condition. We ship and answer questions Mon-Fri 8-6 We stand behind our products and would be happy to assist you if you experience an issue. Please contact us first. We ship to your confirmed PayPal address only using FedEx or USPS. Items over $200 require signature upon delivery. Thank you for your time! Only ships within the Continental United States with one business day handling time. This is how I inventory items. (H21, NC) I-108 2/9/17 (B)",
+  "StartTime": "2017-05-22T16:17:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFg5NTM=/z/-UwAAOSwx6pYnOM9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/s8oAAOSwWxNYnOM1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DZ8AAOSwr~lYnOM4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mnMAAOSw4A5YnOM6/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.49"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mudder",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mudder- Goussets- 01",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Product Dimensions: 3.6 x 3.6 x 2.4 inches",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "erikdeals",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "56402",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423909256238080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T16:17:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.49"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Any returns accepted on defective items and items described incorrectly.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mudder-Black-Vintage-Stainless-Steel-Quartz-Pocket-Watch-Chain-Belt-H21-/142390925623",
+  "ConditionDescription": "Open Box Item",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Indianapolis, Indiana",
+  "Storefront": {
+    "StoreName": "erikdeals",
+    "StoreURL": "http://stores.ebay.com/id=129709463"
+  },
+  "ItemID": "142390925623",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT21H39M4S"
+}

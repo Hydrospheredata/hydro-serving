@@ -1,0 +1,391 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.28",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:00:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "7",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1476797492",
+    "StoreName": "juneau2016"
+  },
+  "CurrentPrice": {
+    "value": "2.28",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:00:51.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "juneau2016us",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "15mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "YE",
+    "CN",
+    "CK",
+    "MH",
+    "SB",
+    "AW",
+    "MQ",
+    "AN",
+    "KN",
+    "HK",
+    "MO",
+    "TH",
+    "AR",
+    "BO"
+  ],
+  "ItemID": "282502345357",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Quartz-Dual-Scale-Analog-Round-Dial-Faux-Leather-Band-Wrist-Watch-Delight-/282502345357?var=",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382318_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382314_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382316_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Grey",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382317_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382313_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382312_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.28",
+          "_currencyID": "USD"
+        },
+        "SKU": "U382315_juneau2016us_SX",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White",
+          "Red",
+          "Brown",
+          "Grey",
+          "Blue",
+          "Pink"
+        ],
+        "Name": "Band Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/21.jpg"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/18.jpg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/19.jpg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/24.jpg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/23.jpg"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/20.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://www.newclickhere.com/images//17/05/v/19851/22.jpg"
+        }
+      ],
+      "VariationSpecificName": "Band Color"
+    }
+  },
+  "HitCount": "1",
+  "PostalCode": "518000",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H45M43S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Yo0AAOSwBt5ZLr6I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Un8AAOSwIaFZLr6I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/HrcAAOSwYlRZLr6J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/-7QAAOSwhvFZLr6I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/kukAAOSwaEhZLr6I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/dh8AAOSwDiBZLr6J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/PY0AAOSwR29ZLr6I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/PZQAAOSwR29ZLr6J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/FlUAAOSwY3BZLr6J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/HrEAAOSwYlRZLr6I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/RBwAAOSwlMFZLr6J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/UQEAAOSw~FJZLr6I/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Women Quartz Dual-Scale Analog Round Dial Faux Leather Band Wrist Watch Delight",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "3169",
+    "UserID": "juneau2016",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

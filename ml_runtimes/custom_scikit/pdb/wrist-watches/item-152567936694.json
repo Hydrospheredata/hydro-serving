@@ -1,0 +1,110 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "57.9",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "PT",
+  "Location": "Lisbon",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:36:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "57.9",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:36:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Boccia",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Date"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567936694",
+  "HandlingTime": "4",
+  "Description": "Diameter: 39 mm; Case: titanium; Strap: leather. Water Resistant to 5 bar. Solid titanium. Recyclable. Non-allergic. Very friendly to the skin. This watch has a Hard Mineral Crystal and a Japanese Quartz Movement, the best Quartz Movement in the watch industry! This watch shows a white face with blue hour, minutes and silver seconds hands, blue markers. Shown with a black leather strap. All titanium components of Boccia Watches are made of pure titanium, including the crowns, buttons of chronographs, link bracelets, flex bands, and buckles of leather straps. Titanium is strong, very light, corrosion resistant, and friendly to the skin. All Boccia Watches carry a two years warranty. BOCCIA watches are sold all over the world at Fine Jewelry, Gift and Department stores. The colors you see are only a reference. They may differ a little, depending on your browser and/or your screen resolution.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Boccia Titanium Blue hands Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Boccia-Titanium-Blue-hands-Watch-/152567936694",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525679366948080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H29M8S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDk2/z/vkgAAOSwo0JWHkdn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMjM3/z/mHcAAOSwhcJWHkdw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzQ5/z/md8AAOSwAYtWHkd-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNTEz/z/HeUAAOSwwbdWHkd2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYzWDExOTg=/z/7AMAAOSwA4dWHkd6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMzk0/z/vuEAAOSwo0JWHkds/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "57.9",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "458",
+    "UserID": "ventilzone",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

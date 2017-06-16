@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/QyUAAOSw3gJZGdjc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cCkAAOSwH09ZGdjg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-m8AAOSw~y9ZGdji/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/World-Traveler-17-Inch-Laptop-Computer-Case-Black-Trim-Zebra-One-Size-/302317880273",
+  "ConvertedCurrentPrice": {
+    "value": "62.33",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "World Traveler 17 Inch Laptop Computer Case Product Details Color: Black Trim Zebra Size: One Size Brand: World Traveler MPN: 812010-163 Product Dimensions: 17 x 6 x 13.5 inches Shipping Weight: 3.1 pounds Origin: China Item model number: 812010-163 100% Polyester Imported 13.5\" high 6\" wide 600D heavy duty polyester, lightweight body construction, dual gusset design Attach a strap, silver pewter zipper pullers, adjustable & removable shoulder strap Accessory pockets, back compartment with fan file and a spacious top-zip main compartment 17 inch laptop pocket: 16.5 x 2.5 x 12.5 17 x 6 x 13.5 This world traveler 17 inch laptop case makes your commute a breeze. A convenient detachable and adjustable shoulder strap offers instant versatility, while the carefully lined interior keeps your computer safe and secure.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "62.33",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "5242",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Green",
+    "UserID": "1.ruti.3"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "World Traveler 17 Inch Laptop Computer Case Black Trim Zebra One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-15T16:35:47.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023178802738080_1.jpg",
+  "TimeLeft": "P12DT1H32M34S",
+  "EndTime": "2017-06-14T16:35:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "812010-163"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black Trim Zebra"
+      },
+      {
+        "Name": "Brand",
+        "Value": "World Traveler"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302317880273",
+  "Storefront": {
+    "StoreName": "1.ruti.3",
+    "StoreURL": "http://stores.ebay.com/id=1458179834"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00VWKTYY0",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "339.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brunswick, Ohio",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:17:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "339.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:17:23.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334291525",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hamilton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Hamilton vintage watch 10K Rolled Gold Plated;mechanical movement",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hamilton-vintage-watch-10K-Rolled-Gold-Plated-mechanical-movement-/302334291525",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023342915258080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "44212",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H57M24S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/sr8AAOSwImRYj9iK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDMyWDgwNg==/z/ElMAAOSwIQdZIyqr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/EQ4AAOSw241Yj9if/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/lYAAAOSwA3dYj9il/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/WK0AAOSw9GhYj9ih/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/ae8AAOSw44BYj9io/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/WDsAAOSw9GhYj9ia/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM3WDgwNg==/z/lK0AAOSwA3dYj9id/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDgwNg==/z/6wcAAOSwUKxYj9iq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQwWDgwNg==/z/8aAAAOSwTglYj9it/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODYyWDgwNg==/z/bO8AAOSw44BYj9jR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc4WDgwNg==/z/-vEAAOSwTglYj9k1/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Normal 0 false false false EN-US JA X-NONE I'm not responsible for any damages to the items or lost of it during the shipping. I always do my best to package the item very carefully. I could provide insurance upon request for an extra cost; please let me know if you need it. Also you agree with the fact that I'm not accepting any returns back under any circumstances. I\u2019m not a watchmaker so I don't know if the watch needs any repairs or not. For me, if the watch is ticking and keeping a good time it means is working properly, therefore the watch is sold as is. Also I tried to describe the watch the best I could to my knowledge. As with all vintage pieces accuracy and functionality cannot be guaranteed. If you decide to buy the item, that means that you read, understood and agree with all of the above, including the shipping costs.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "98",
+    "UserID": "oabrutus",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

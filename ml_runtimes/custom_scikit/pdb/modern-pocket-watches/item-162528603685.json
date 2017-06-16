@@ -1,0 +1,161 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.96"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This highly polished silver-tone open face ultra thin pocket watch is the perfect addition to anyone's timepiece collection. Features include a black railroad style dial with white numbers, detailed minute track and antique style hands. The precision Japanese quartz movement never needs winding so you will always be on time. Also included is a 14 inch deluxe curb link chain with belt clip attachment. This beautiful pocket watch will arrive in an attractive velour burgundy gift pouch then boxed in gift packaging that does not need wrapping. As always, operating instructions and our hassle free lifetime limited warranty are enclosed. It's Gotham time.. - Classic open face silver-tone men's pocket watch with ultra thin polished brass case suitable for engraving - Black railroad style dial with white 12 and red 24 hour markers - Precision Japanese analog quartz movement - Includes matching 14\" curb pocket watch chain with spring ring attachment - Arrives with deluxe draw string pouch and gift box, operating instructions and lifetime limited warranty card Gotham Mens Silver-Tone Ultra Thin Railroad Open Face Quartz Pocket Watch #",
+  "StartTime": "2017-05-25T13:17:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjkw/z/yPsAAOSwGJlZJtlh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4MDM=/z/YMIAAOSwDiBZJtlh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzg4/z/XZEAAOSw8HBZJtlh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNVgxNTAw/z/IwgAAOSwn-tZJtlh/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gotham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GWC15027SBKA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "L 4 x W 4 x H 1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "26",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625286036858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T13:17:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "65.96"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gotham Mens Silver-Tone Ultra Thin Railroad Open Face Quartz Pocket Watch #",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gotham-Mens-Silver-Tone-Ultra-Thin-Railroad-Open-Face-Quartz-Pocket-Watch-/162528603685",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528603685",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT18H40M18S"
+}

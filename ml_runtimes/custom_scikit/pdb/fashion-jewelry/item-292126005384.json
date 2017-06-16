@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT21H15M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "TM550",
+  "ItemID": "292126005384",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Plated-Jewelry-Designer-Fashion-Wedding-Indian-Maangtikka-TM550-/292126005384",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T08:48:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T08:48:01.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold,Silver",
+        "Name": "Colors"
+      },
+      {
+        "Value": "Maangtikka",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Unsigned",
+        "Name": "Signed?"
+      },
+      {
+        "Value": "India",
+        "Name": "Country of Origin"
+      },
+      {
+        "Value": "Traditsiya",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mixed Metal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "H- 220mm, W- 335mm",
+        "Name": "Maangtikka Size"
+      },
+      {
+        "Value": "Diamante",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Gold Plated Jewelry Designer Fashion Wedding Indian Maangtikka TM550",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Click here to view more Maang Tikkas",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921260053848080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "traditsiyafashions",
+    "FeedbackScore": "255",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "traditsiyafashions",
+    "StoreURL": "http://stores.ebay.com/id=1291262804"
+  },
+  "Quantity": "1",
+  "Location": "MUMBAI, MAHARASHTRA",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMz/z/U1AAAOSwxu5ZIqXF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMz/z/L8AAAOSws5pZIqXF/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "400008"
+}

@@ -1,0 +1,159 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.97",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:26:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=421634829",
+    "StoreName": "OKaystores"
+  },
+  "CurrentPrice": {
+    "value": "17.97",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T08:26:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Taylor Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "PE",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "JO",
+    "KW",
+    "TR",
+    "AM",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN"
+  ],
+  "ItemID": "391800330367",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Echo Series Taylor Cole Elegant Lady Women Stainless Steel Quartz Watch Bracelet",
+  "NewBestOffer": "false",
+  "SKU": "TC071",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Echo-Series-Taylor-Cole-Elegant-Lady-Women-Stainless-Steel-Quartz-Watch-Bracelet-/391800330367",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3918003303678080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT16H56M30S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ip0AAOSwZ4dZJ-b9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNlgxMDAw/z/pJAAAOSwPh5ZIqk5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyOFgxMDAw/z/uUgAAOSww9xZIqk5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU3WDEwMDA=/z/TyQAAOSws5pZIqk6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU5WDEwMDA=/z/NkEAAOSw-K9ZIqk6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM4WDEwMDA=/z/WSgAAOSwCQZZIqk5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE5WDEwMDA=/z/EkAAAOSwK6RZIqk7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDg3WDEwMDA=/z/Am0AAOSwlndZIqk6/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "17.97",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "137718",
+    "UserID": "red-plus",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault. We will replace the defective item at no extra cost. Please return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim Any items returned to us in working order will be sent back at the buyers cost."
+  }
+}

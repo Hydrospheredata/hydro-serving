@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "Description": "Return policy is a 10 % restocking fee. Item has to be returned in the same condition as shipped.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P15DT21H15M33S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "The cuff is pre-owned and never worn.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252952041925",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-22T12:21:08.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Robert-Lee-Morris-Studio-Sterling-Silver-7-Row-Hammered-Slinky-Cuff-/252952041925",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-21T12:21:08.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris Studio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Current",
+        "Name": "Time Period"
+      }
+    ]
+  },
+  "Title": "Robert Lee Morris Studio Sterling Silver 7 Row Hammered Slinky Cuff",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "New York, New York",
+  "Description": "This auction is for a Robert Lee Morris Studio 7 row hammered slinky cuff . Simple and chic highly polished cuff is made from sterling silver 925 and weighs 22.3 grams. It measures 1\" wide at it's widest and is 6-1/2\" long from one end of the cuff to the other and 7-3/4\" including the opening. It can be made wider by opening the sterling bands. The inside is stamped 925. Guaranteed authentic. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529520419258080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "23",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eHgAAMXQUmFSkTG-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HVQAAOxypNtSkTHH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jJ8AAOxy4t1SkTHA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/14YAAOxyRNJSkTHA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JywAAMXQWzNSkTHH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/d9wAAMXQUmFSkTG1/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "10012"
+}

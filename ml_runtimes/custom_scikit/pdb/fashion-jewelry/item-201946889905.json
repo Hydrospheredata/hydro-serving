@@ -1,0 +1,153 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Seller",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT22H47M25S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Factory Outlet Direct Supply A brand-new, unused, and unworn item (including handmade items) in the original packaging",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.96",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "201946889905",
+  "ConvertedCurrentPrice": {
+    "value": "31.96",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T11:59:07.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SALE-75-OFF-AMETHYST-Adjustable-925-Sterling-Silver-Open-Ring-Size-8-9-AA240-/201946889905",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T11:59:07.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermosa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Solitaire",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Gemstone",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Amethyst",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Color"
+      },
+      {
+        "Value": "8",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Bleaching",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SALE 75% OFF AMETHYST Adjustable .925 Sterling Silver Open Ring Size 8 9# AA240",
+  "ExcludeShipToLocation": [
+    "IN",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AT",
+    "DE",
+    "IT",
+    "CH"
+  ],
+  "Location": "SZ & HK",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019468899058080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.0",
+    "UserID": "lightinthebox2011",
+    "FeedbackScore": "50856",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "Hermosa No.1",
+    "StoreURL": "http://stores.ebay.com/id=1042635246"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/5fUAAOSwA29Y5ivI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/r8IAAOSwU8hY5ivI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/kqwAAOSwDmBY5ivI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dJIAAOSwB-1Y5ivI/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings"
+}

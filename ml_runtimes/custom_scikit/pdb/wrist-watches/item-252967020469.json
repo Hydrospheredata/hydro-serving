@@ -1,0 +1,304 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:49:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=859697118",
+    "StoreName": "925 Jewelry Store"
+  },
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:49:04.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Anne Klein",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Water Resistant up to 100 m",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Red",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "35MM(1.4\")",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "29MM(1.1\")",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "AK 10/8503",
+        "Name": "Model"
+      },
+      {
+        "Value": "AK 10/8503",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Shipping For Each Additional Item Is Free",
+        "Name": "COMBINED SHIPPING"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "GL",
+    "PM",
+    "IQ",
+    "LB",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "MK",
+    "MD",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "AI",
+    "BS",
+    "VG",
+    "HT",
+    "AN",
+    "PR",
+    "VC",
+    "VI",
+    "LA",
+    "VN",
+    "AR",
+    "FK",
+    "GY",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "HandlingTime": "1",
+  "Description": "Item Details Shipping Payment Returns Jewelry Care Guide Item Details: ANNE KLEIN woman's AK 10/8503 watch in a box Watch description BRAND NAME: Anne Klein GENDER: Women MODEL: AK 10/8503 CONDITION: New BAND COLOR: Red BAND MATERIAL: Leather BAND LENGTH: Women-standard LUG WIDTH: 29MM(1.1\") CASE SIZE: 35MM(1.4\") CASE THICKNESS: 6MM(0.3\") DIAL COLOR: White DISPLAY: Analog MOVEMENT: Quartz battery CLASP TYPE: Tang-type buckle(belt clasp) This watch will be shipped in original ANNE KLEIN box with instructions manual. Shipping: Most orders are shipped within one business day with standard shipping and tracking number. Tracking information will be automatically uploaded as soon as the item has been shipped. If you need your item even faster, we also offer 2-day and 1-day shipping options. Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses. We do not ship to AK, HI, PO boxes or APO addresses. Payment: Payment should be sent within 7 days after the end of the auction. A payment is considered \"cleared\" after the money from the buyer has been deposited into the seller\u2019s account. If the buyer pays by PayPal, the payment may clear immediately. However, in categories where permitted, other methods of payment may take several days. New York residents are required to pay 8.875% sales tax. Returns: If you are not fully satisfied with our product, send it back within 30 days of item being received and we will gladly provide you with a refund. Item must be returned in the same condition as received. Do not worn. With all the tags and papers. Buyer is responsible for return shipping with a tracking number. Don\u2019t forget to insert your Ebay ID and item number. Thank You. Jewelry Care Guide: Remove jewelry during tasks \u2013 When performing manual tasks, remove your jewelry to prevent physical damage or exposure to chemicals or cleaning fluids. Some tasks that should be avoided when wearing jewelry include kitchen work, gardening, cleaning the house and other common tasks. Put jewelry on after applying makeup \u2013 Cosmetics, hairspray, perfumes and lotion can contain chemicals that can often damage jewelry. Putting jewelry on after applying these materials will limit exposure to jewelry and any potential damage. Don't wear jewelry in swimming pools and spas \u2013 Chlorinated water can react with the metals found in jewelry causing color changes and even structural damage. As a result it's a good idea to remove jewelry before entering the pool or spa. Contact sports and jewelry don't mix \u2013 Hard blows during sports can damage jewelry not to mention the people involved. All jewelry should be removed before play begins. Remove your jewelry before bathing - Remove all jewelry before showering or cleaning. Soap can cause a film to form, making it appear dull and dingy. By preventing the formation of this film you immediately reduce the occasions of servicing. Use jewelry polishing cloths for best results - Polish silver or gold with a jewelry polishing cloth for best results. Use of tissue or paper towels can cause scratches because of fibers in these products. Clean jewelry with care - Cleaning your own jewelry regularly can keep it looking good, but be careful. You can either purchase commercial cleaners from a jeweler or make a cleaning a solution yourself. Rubbing alcohol can work wonders, but bleach can literally destroy jewelry so avoid it at all costs. Use warm water to clean jewelry - Using warm water is the best bet when cleaning your own jewelry. How water can cause reaction with the cleaning fluids resulting in discoloration and Sterling Silver is especially susceptible to this problem. Should this occur, this problem can be remedied by buffing and the application of a tarnish remover. Avoid cleaning damaged jewelry - Never clean any jewelry that is damaged, cracked or broken, since the additional handling is likely to exacerbate or worsen the problem. If you find that a piece of jewelry is damaged, it should be set aside for repair as soon as possible.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ANNE KLEIN  woman's AK 10/8503 watch in a box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ANNE-KLEIN-womans-AK-10-8503-watch-box-/252967020469",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529670204698080_1.jpg",
+  "ItemID": "252967020469",
+  "PostalCode": "11218",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H43M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8iAAAOSwNyFWgYyB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqR,!ooE9kcqW+RiBP6NwRfCG!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqN,!oME-9KudKPuBP6NwV1mYw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqN,!iME+QnilTbZBP6NwL(cEQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqV,!nME-0ovm90lBP6NwlFf7g~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqR,!ioE-w!y!T--BP6NwgHUTw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$T2eC16V,!wsE9suw)po6BP6Nw,5Dh!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/QN8AAOxy9tpR7tgk/$(KGrHqR,!r!FHmp6C5PoBR7tgjVTsw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-loAAOxybetR7tgt/$T2eC16Z,!)8E9s4l8BDPBR7tgs6YEw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/TAkAAOxys4RR7tgx/$(KGrHqN,!o0FHiwcFTZYBR7tgw2SNw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/44EAAOxy-gBR7tg0/$(KGrHqJ,!oQFHdsH2!NNBR7tg0bn-!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/zpIAAMXQE9hR7tg4/$T2eC16R,!)QE9s3HE3OnBR7tg4RGdw~~60_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "2348",
+    "UserID": "bridalsilver",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If you are not fully satisfied with my product, send it back within 30 days of item being received,please, and I will gladly provide you with a refund. Buyer is responsible for return shipping. Item must be returned in the same condition as received, not worn with all tags and papers. Don\u2019t forget to insert your Ebay ID and item number,please. Thank You."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P9DT16H38M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543088694",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VICTORIA-WIECK-BEVERLY-HILLS-3-INTERCHANGEABLE-WATCH-SET-FABULOUS-/322543088694",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:38:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T02:38:05.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "7\"L Plus additional 1/2\" Extender",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Victoria Wieck",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "Crystals",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "\"VICTORIA WIECK OF BEVERLY HILLS\" 3 INTERCHANGEABLE WATCH SET FABULOUS!!",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "\"VICTORIA WIECK OF BEVERLY HILLS\" 3 INTERCHANGEABLE WATCH SETFABULOUS!!! NEEDS A NEW BATTERY-Watch was new and I never wore so the battery is dead. Thus the price of $45.00 Victoria Wieck creates elegant timepieces affordably priced that combine classic style elements, precision movements and beautiful stones such as Swarovski Crystals which are in this watch. 3 looks in one with the interchangeable bands. - Silvertone- Swarovski Crystals - (3) Interchangeable Bands, (3) Genuine Leather- Bands are Pink Patent, Blue Patent, Beige Patent- Adjustable to Fit 6-1/2\" Wrist Up To 8-1/2\"- Band width 5/8\"W- Face measures 34mm Diameter- Japanese Quartz Movement- Stainless Steel Back- B5626 Unique and limited, it is an exceptional piece you won't find anywhere else!",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225430886948080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "paula-youn",
+    "FeedbackScore": "456",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Indianapolis, Indiana",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/h9UAAOSwxu5ZNMHk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/RL0AAOSwX9FZNMH6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/QAwAAOSws5pZNMIX/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "46268"
+}

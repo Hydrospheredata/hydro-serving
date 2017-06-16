@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H52M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.19",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282510341586",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lauren-Ralph-Lauren-Half-Moon-Turquoise-Semi-Precious-Beaded-Toggle-Bracelet-/282510341586",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.19",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:29:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:29:29.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lauren Ralph Lauren",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Beaded",
+        "Name": "Style"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "730588603385",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Lauren Ralph Lauren 'Half Moon' Turquoise Semi Precious Beaded Toggle Bracelet",
+  "ExcludeShipToLocation": "Africa",
+  "BidCount": "0",
+  "Description": "Lauren Ralph Lauren Semi Precious Beaded Toggle Bracelet(100% Guaranteed Authentic. Purchased from US Ralph Lauren Store) Product DetailsGold ToneMix of Semi Precious and Man Made Stones and BeadsReconstituted Turquoise, Calcite, Zinc Casting and GlassToggle Closure with \"RLL\" Hallmarked BarApprox. 7.5\" LStyle LB3984 Return PolicyWe guarantee your total satisfaction and offer a 14-days hassle free return policy. If your purchased item doesn't fit your needs, we will issue you a full refund. We just ask you to cover the return shipping. Any returns must be in the condition you received them in with the original box or packaging, and manufacturer tags. S&H is non-refundable unless we made a error on our listing. ShippingAll shipments are processed within 1-2 business day of receiving cleared payment. We ship either USPS Priority Mail or USPS First Class within continental USA. International BuyerImport duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying. Contact UsPlease contact us through the ebay message system if you should have any questions or concerns regarding items you are interested in or have purchased from us. We strive to provide 5-star customer service. If you need help or there\u2019s anything we can do to improve, we welcome you to contact us!",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825103415868080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "UserID": "thesavvyseller-us",
+    "FeedbackScore": "947",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "brandnameclothingsus",
+    "StoreURL": "http://stores.ebay.com/id=1085896615"
+  },
+  "Quantity": "1",
+  "Location": "Virginia Beach, Virginia",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyMFgxMTIw/z/wE4AAOSwd0BVyXzr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzOVgxNDM4/z/4DEAAOSwu4BVyXzh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNlgxMjM2/z/5sUAAOSwT6pVyXzm/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "23464"
+}

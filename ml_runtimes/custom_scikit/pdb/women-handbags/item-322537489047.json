@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/790AAOSwjL5ZBrA8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Ed8AAOSwnONZBrBK/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-VERA-BRADLEY-Campus-Backpack-Fuchsia-NEW-/322537489047",
+  "ConvertedCurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Quilted Fuscia Campus BackpackNew With Tags Large main compartmentContains ID window, Pencil support and Slip PocketExterior Zippered Storage CompartmentContains 2 Slot Pockets, 2 Pencil Supports Exterior Zippered PocketPadded Adjustable Shoulder Straps2 Plastic Lined Side Elastic Pockets - Coke Can sizedEar Bug Cord HoleApproximately 12\" X 16\" X 6.5\" Larger and Roomier than Vera's Laptop Backpack",
+  "Title": "NWT VERA BRADLEY Campus Backpack in Fuchsia NEW!!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Saint Louis, Missouri",
+  "Seller": {
+    "FeedbackScore": "1029",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "dhanson58"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "63141",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-05-31T13:14:13.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P27DT22H26M37S",
+  "EndTime": "2017-06-30T13:14:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Material",
+        "Value": "100% Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003291184"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322537489047",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225374890478080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

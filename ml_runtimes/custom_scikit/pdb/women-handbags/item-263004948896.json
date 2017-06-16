@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/csYAAOSwt5hYi-tX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/PdEAAOSw2xRYi-tf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/STwAAOSw9GhYi-tk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/zGsAAOSwA3dYi-tp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/SmkAAOSw9GhYi-tv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/dlkAAOSwo4pYi-t1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/dTYAAOSwt5hYi-t7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/1cAAAOSwnHZYi-uC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/eGkAAOSwo4pYi-uH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/IngAAOSw241Yi-uO/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ELLIOTT-LUCCA-BLUE-LEATHER-LARGE-WEEKENDER-NWOT-/263004948896",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "THIS IS A NEW BAG BUT HAS A SMALL DENT IN LEATHER I PICTURED BUT ITS SO SMALL I DONT THINK IT PICTURED SO U CAN SEE ITS ON BOTTOM. PAYPAL ONLY DUE AT TIME OF PURCHASE. QUESTIONS PLEASE ASK FOR THERE ARE NO REFUNDS. CHECKOUT ALL MY BAGS! MEASURES17 X 14 X 8",
+  "Title": "ELLIOTT LUCCA BLUE LEATHER LARGE WEEKENDER NWOT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Toledo, Ohio",
+  "Seller": {
+    "FeedbackScore": "516",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "wmkerekes"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "43609",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-26T14:28:36.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P2DT20H47M42S",
+  "EndTime": "2017-06-05T14:28:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "LEATHER"
+      },
+      {
+        "Name": "Brand",
+        "Value": "ELLIOTT LUCCA"
+      },
+      {
+        "Name": "Style",
+        "Value": "WEEKENDER"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263004948896",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630049488968080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DLwAAOSw44BYgFES/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/O-0AAOSwImRYgFCw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OwMAAOSwImRYgFCe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yFcAAOSw241YgFEf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P9IAAOSwNnRYgFKj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wbQAAOSw241YgFCz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NKsAAOSwA3dYgFDB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nhcAAOSwZQRYgFLS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QhIAAOSwNnRYgFK8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JyIAAOSwnHZYgFCY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DqIAAOSw-0xYgFNC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/s~sAAOSw5cNYgFN5/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DVF-Diane-Von-Furstenberg-Mini-440-Chain-Crossbody-Handbag-Black-and-Copper-/302337598201",
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "DVF Copper/Black/Brown 440 Mini Leather Handbag Pewter chain strap allows for purse to be worn as crossbody or shoulder bag Concealed magnetic closureOne zip pocket inside Back slip exterior pocketBlack interior lining Includes DVF dust bagBag has been used and has visible signs of wear (scratches on leather) particularly around magnetic closure (covered by leather flap), please refer to pictures. Price tags remain attached Retail Price: $350",
+  "Title": "DVF Diane Von Furstenberg Mini 440 Chain Crossbody Handbag- Black and Copper",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Saint Louis, Missouri",
+  "Seller": {
+    "FeedbackScore": "399",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "rroycer"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "63105",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:10:15.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT23H2M3S",
+  "EndTime": "2017-07-02T13:10:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Diane von Furstenberg"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "Mini"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "7.5\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337598201",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023375982018080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA0M1g5MDA=/z/yVYAAOSw44BYZbmV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwNFg5MDA=/z/Fd0AAOSwA3dYZbnF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTU3WDgxMA==/z/QYoAAOSwa~BYZboH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/QsMAAOSw241YZbok/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/XYcAAOSwImRYZbpe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODI0WDg5OQ==/z/IqMAAOSwEzxYZbqf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/PWYAAOSwZQRYZbs4/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-Authentic-Super-Model-Medium-Nylon-Sachel-Large-Leopard-/332248573055",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gorgeous Victoria's Secret Bag",
+  "Title": "Victoria's Secret Authentic Super Model Medium Nylon Sachel With Large Leopard",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Hagerstown, Maryland",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "534",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "grande-anse*boutique*"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "21742",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T12:03:54.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT21H50M43S",
+  "EndTime": "2017-07-02T12:03:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria Secrets"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Color",
+        "Value": "Leopard Print"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "16\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "5 to 15\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium/ Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332248573055",
+  "Storefront": {
+    "StoreName": "kareny5377",
+    "StoreURL": "http://stores.ebay.com/id=608936706"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322485730558080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

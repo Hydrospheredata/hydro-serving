@@ -1,0 +1,126 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjM5/z/mwAAAOSw4CFY3wjx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5ODM=/z/LiQAAOSwCU1Y3wjx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg0Nzg=/z/~SYAAOSwDmBY3wjx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg0WDE1MDA=/z/LjYAAOSwCU1Y3wjx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ3WDE1MDA=/z/XhEAAOSwuxFY3wjx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MTM=/z/rccAAOSww3tY3wjx/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Jacobs-Womens-Trooper-Babybag-Black-/292073041586",
+  "ConvertedCurrentPrice": {
+    "value": "430.29",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Marc Jacobs trooper babybag made from 100 percent nylon with zipper closure. - Marc jacobs trooper babybag Marc Jacobs Women's Trooper Babybag, Black",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "430.29",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "11616",
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "thetoptens"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Marc Jacobs Women's Trooper Babybag, Black",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-01T01:57:01.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P27DT10H27M42S",
+  "EndTime": "2017-06-30T01:57:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "889732920585"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0889732920585"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3.15 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 20.9 x W 12.6 x H 6.5 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "M0011058"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292073041586",
+  "Storefront": {
+    "StoreName": "thetoptens",
+    "StoreURL": "http://stores.ebay.com/id=1345108464"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920730415868080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

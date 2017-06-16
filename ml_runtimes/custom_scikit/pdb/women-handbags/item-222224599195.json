@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU3MVgxNjAw/z/6KUAAOSw0UdXt8FA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTY3WDEwMDA=/z/inIAAOSwHoFXt8Fc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~kIAAOSwV0RXt8E9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6PUAAOSw0UdXt8FD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/04gAAOSw9NdXt8FG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzk4WDEwMDA=/z/wR0AAOSwaB5Xt8FI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY3WDEwMDA=/z/1CYAAOSw9NdXt8FM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ACoAAOSwV0RXt8FO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/t4QAAOSwdzVXt8FS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzU1WDEwMDA=/z/F2wAAOSw-itXt8FW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6x4AAOSw0UdXt8FZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Blake-Avenue-Daveney-Laptop-Shoulder-Bag-Handbag-Briefcase-Black-/222224599195",
+  "ConvertedCurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "8",
+  "NewBestOffer": "false",
+  "Description": "FREE SHIPPING FOR SELECTED ORDERS HASSLE-FREE RETURNS MENU Abercrombie & Fitch Hollister Shoes Tommy Hilfiger Ralph Lauren Coach Tory Burch Chanel Michael Kors Kate Spade Other",
+  "Title": "Kate Spade Blake Avenue Daveney Laptop Shoulder Bag Handbag Briefcase in Black",
+  "ExcludeShipToLocation": [
+    "MX",
+    "AF",
+    "SA",
+    "CL",
+    "IQ",
+    "SK",
+    "BY",
+    "MD",
+    "SI",
+    "PT",
+    "PY",
+    "UY",
+    "BO",
+    "CO",
+    "KW",
+    "AZ",
+    "CZ",
+    "AE",
+    "AR",
+    "AL",
+    "EC",
+    "RO",
+    "PK",
+    "AM",
+    "UA",
+    "PE"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Englewood, New Jersey",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "10843",
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "nycholic"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07631",
+  "GlobalShipping": "false",
+  "Quantity": "10",
+  "StartTime": "2016-08-20T02:38:41.000Z",
+  "HitCount": "3865",
+  "TimeLeft": "P13DT11H24M25S",
+  "EndTime": "2017-06-16T02:38:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689908915"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222224599195",
+  "PrimaryCategoryID": "169293",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "In the Place To Be",
+    "StoreURL": "http://stores.ebay.com/id=1047313539"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2222245991958080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

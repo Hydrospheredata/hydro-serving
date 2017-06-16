@@ -1,0 +1,85 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P20DT10H11M10S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Hair & Head Jewellery",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "41.0",
+    "_currencyID": "CAD"
+  },
+  "ItemID": "152562331699",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SALE-Pansy-Hair-Pin-Handmade-Yellow-Orange-Flower-Resin-Kanzashi-Clip-Summer-/152562331699",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "30.34",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T21:38:50.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "RU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T21:38:50.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hair Pin",
+        "Name": "Style"
+      },
+      {
+        "Value": "Flower",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Orange",
+        "Name": "Color"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "SALE! Pansy Hair Pin Handmade Yellow Orange Flower Resin Kanzashi Clip Summer",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Hot Summer Sale! Pansy HairpinLarge hair pin with tender pansy flower and a small bud surrounded with fresh green leaves.The flower is decorated with drops of dew. Amazingly shimmers in the light.This flower with bud and leaves hair stick is absolutely unique.It could be be perfect for a gift for your true love, or present to your long time friend. The flower is attached to bronze pin - 3 1/4 inch (8.5 cm) long.The flower with pin is 5 inch (13 cm) long. The flower size is 2 x 3 inch (5 x 8 cm).The item is very light and durable. It does not break if it falls. The hair clip is made of copper wire and synthetic resin, with black pin. This Hair Pin will be a real eye catcher, graceful and exotic. Ready to ship.Please note that I tried to represent the color as best as I could, but the color of hair pin may appear slightly different from what you see on your display.Packaging Your purchased item comes in a beautiful box with ribbon - ideal for a present.Shipping Economy and Express international shipping available - please check shipping details. Any questions please contact me.Treatment rulesThe item is quite solid however it can be damaged under strong pressure or near fire or heat. If the petals get bended you can accurately bend them back. Please keep away from hair sprays.In order the item does not get dusty please keep it in the original box. Your can clean dust with soft tissue or shake off with soft brush.The item is washable. Please use warm soapy water and clean water after that. Please avoid acids and solvents. Dry it at usual room temperature. Never use dryer and do not heat the item. Please see my other beautiful handmade jewelry",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525623316998080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "fairy.meadow",
+    "FeedbackScore": "168",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Saint-Petersburg, default",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxNVgxNjAw/z/mVUAAOSwHptY~mlk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gwEAAOSwN6JY~mlu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc5/z/yVoAAOSwBOtY~mlq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4OFgxNjAw/z/csoAAOSwB09YSxKi/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

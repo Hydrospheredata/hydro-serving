@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTUwWDc4NQ==/z/oUcAAOSwWWxY-9p1/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/TqYAAOSwN6JY-9p2/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDc4NA==/z/qwsAAOSwHHFY-9p3/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTQ0WDc4Nw==/z/NwYAAOSwJ4hY-9p4/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/qJ0AAOSw53NY-9p5/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDc4NQ==/z/TAsAAOSwSypY-9p6/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/dWUAAOSwvKtY-9p7/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/TGIAAOSwSypY-9p8/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/5hsAAOSwzqFY-9p9/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/Bc8AAOSwkShY-9p-/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/7mgAAOSwE0JY-9p~/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTQ0WDgwMA==/z/bRQAAOSwtZJY-9p~/$_12.JPG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Motorcycle-Sissy-Bar-Bag-Trunk-Bag-Travel-Bag-Rain-Cover-/232310564486",
+  "ConvertedCurrentPrice": {
+    "value": "85.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Motorcycle Sissy Bar Bag / Trunk Bag This amazing motorcycle sissy bar bag comes with reflective stripe on the top of the bag. The bag is made out of durable material and it is fine quality pvc. Bag comes with rain cover included in the price. 0: Dimensions: 12 x 21 x 12.5 1: Material made to last 2: Reflective stripe on top of bag 3: Comes with rain cover 4: Shipping weight 21 pounds 5: Fine Quality PVC",
+  "Title": "Motorcycle Sissy Bar Bag / Trunk Bag Travel Bag With Rain Cover",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "85.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "Independence, Kentucky",
+  "Seller": {
+    "FeedbackScore": "374",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "rcw60"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "41051",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-22T22:34:42.000Z",
+  "HitCount": "18",
+  "TimeLeft": "P19DT5H33M31S",
+  "EndTime": "2017-06-21T22:34:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Motorcycle"
+      },
+      {
+        "Name": "MPN",
+        "Value": "SB84"
+      },
+      {
+        "Name": "Model",
+        "Value": "SB84"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232310564486",
+  "Storefront": {
+    "StoreName": "Worleybird+Sales",
+    "StoreURL": "http://stores.ebay.com/id=59192886"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323105644868080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

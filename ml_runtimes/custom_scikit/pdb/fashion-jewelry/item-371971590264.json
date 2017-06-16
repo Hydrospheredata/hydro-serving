@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P1DT14H1M40S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "AUD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "95.3",
+    "UserID": "worldmarket2011",
+    "FeedbackScore": "3374",
+    "FeedbackRatingStar": "Red"
+  },
+  "ItemID": "371971590264",
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "296.76",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T02:11:41.000Z",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Circular-Bead-S-6-7-430-180MM-White-925-Silver-Natural-Freshwater-Pearl-NeckLace-/371971590264",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T02:11:41.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "925 Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Circular Bead S 6-7*430*180MM White 925 Silver Natural Freshwater Pearl NeckLace",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Stanmore, New South Wales",
+  "Description": "<div style=\"text-align:center\"><img src=\"http://ti2.auctiva.com/sw/java.gif\" border=\"0\"><br><table align=\"center\"><tr><td><a style=\"text-decoration:none\" href=\"http://store.auctiva.com/worldmarket2011\"><img src=\"http://ti2.auctiva.com/sw/browse2.gif\" border=\"0\"></a></td><td height=\"21px\" valign=\"middle\" align=\"center\"><font face=\"arial\" size=\"2\"><b><a href=\"http://store.auctiva.com/worldmarket2011\">worldmarket2011</a> Store</b></font></td></tr></table></div> <img src=\"http://ti2.auctiva.com/web/aswCredit.gif\" border=\"0\"><br><a href=\"http://www.auctiva.com/?how=scLnk0\" target=\"_blank\"><img src=\"http://ti2.auctiva.com/images/sc1line0.gif\" border=\"0\"></a> Name: Natural Freshwater Pearl NeckLace Size: 6-7 MM *Necklace L430MM Bracelet L180MM Material:925 Silver Color\uff1aWhite Pearl Shape: Circular Button Type: Plum Blossom Button Product Contains:Necklace,Bracelet Pearl Level:AAA Style: Fashion Normal 0 7.8 \u78c5 0 2 false false false MicrosoftInternetExplorer4 http://stores.ebay.com.au/OnlineMarket2012/Jewelry-/_i.html?_fsub=3680161012&_sid=1055421842&_trksid=p4634.c0.m322 Track Page Views WithAuctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3719715902648080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "Storefront": {
+    "StoreName": "OnlineMarket2012",
+    "StoreURL": "http://stores.ebay.com/id=1055421842"
+  },
+  "Quantity": "3",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDY1WDc1MA==/$(KGrHqZHJDoFCjyicZ-)BQvb(drroQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUwWDc1MA==/$(KGrHqFHJEwFClg36mmTBQvb(d3qcw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDU1WDc1MA==/$T2eC16FHJGIE9nnWpreoBQvb(e2OSQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM5WDc1MA==/$T2eC16NHJIYE9qUcM8dHBQvbYG6s9!~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "2048"
+}

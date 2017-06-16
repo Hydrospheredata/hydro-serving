@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/OcMAAOSw53NY-PTE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/nl0AAOSwJ4hY-PTY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/31MAAOSwzqFY-PTo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwOA==/z/2GwAAOSwSypY-PUV/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Duffle-Bag-Tango-Red-Quilted-Leather-Sycamore-NWT-Lists-500-/172686221425",
+  "ConvertedCurrentPrice": {
+    "value": "308.75",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Lightweight full-grain leather.Exterior features a slip pocket on the end and a zip pocket on the front.Inside features one zip and two slip pockets.Zip closure. DimensionsDuffel: 22\" w x 11 \u00bd\" h x 11 \u00bd\" d with 15\" strap drop; Luggage Tag: 2 \u00be\" w x 4 \u00bd\" hNo Shipping or Email Response April 25th through May 2ndNo Shipping or Email Response April 25th through May 2nd",
+  "Title": "Vera Bradley Duffle Bag Tango Red Quilted Leather Sycamore NWT Lists $500",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "308.75",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "West Bloomfield, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2002",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "ponytailjj"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48324",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-20T21:13:06.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P17DT4H31M30S",
+  "EndTime": "2017-06-19T21:13:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel / Carry-On Duffel"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172686221425",
+  "PrimaryCategoryID": "169296",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "ponytailjj",
+    "StoreURL": "http://stores.ebay.com/id=141835503"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726862214258080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,90 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.99"
+  },
+  "QuantitySold": "0",
+  "Title": "Swiss Army Pocket Watch by Victorinox w/ Chain in original box & manual",
+  "PostalCode": "08904",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Victorinox Swiss Army Pocket Watch w/ chain & pouch Never used...needs new battery. In original box with owner's manual. Near mint condition. NO INTERNATIONAL SHIPPING!!!",
+  "StartTime": "2017-05-31T01:02:31.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/EgYAAOSwxu5ZIICP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDI4/z/l78AAOSwYlRZIICz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMjA5/z/TJEAAOSws5pZIIDF/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Swiss Army",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "netboy4747",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "36",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529660875748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T01:02:31.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "89.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swiss-Army-Pocket-Watch-Victorinox-w-Chain-original-box-manual-/252966087574",
+  "ConditionDescription": "New in Box. Never used, just needs a new battery.",
+  "Location": "Highland Park, New Jersey",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252966087574",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT6H28M58S"
+}

@@ -1,0 +1,116 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "None",
+    "UserID": "c***_",
+    "FeedbackScore": "1"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525370020398080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTM4WDEwMDA=/z/Ah4AAOSwt0FZC8Xv/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzUxWDEwMDA=/z/e6YAAOSwjqVZC8Xz/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTI3MVgxMDAw/z/qLAAAOSw42dZC8X4/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NTA3WDEwMDA=/z/YO4AAOSwT-FZC8X7/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NDM0WDEwMDA=/z/fFEAAOSwjqVZC8X-/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NTU1WDEwMDA=/z/88kAAOSwrhBZC8YA/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MjI=/z/nVwAAOSw7GRZC8YE/$_3.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Merryl-Waist-bag-One-Size-/152537002039",
+  "ConvertedCurrentPrice": {
+    "value": "67.52",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Kipling Merryl Waist bag, One Size Product Features 100% Nylon Imported Pockets: 1 exterior, 4 ID windows Product Description What's more convenient than a convertible bag this one easily switches from your shoulder to wear around your Waist.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.52",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "New Jersey",
+  "Seller": {
+    "FeedbackScore": "2300",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "thomasgraciemusic"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kipling Merryl Waist bag, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-05T00:23:33.000Z",
+  "HitCount": "55",
+  "TimeLeft": "P1DT7H23M13S",
+  "EndTime": "2017-06-04T00:23:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0882256002782"
+      },
+      {
+        "Name": "UPC",
+        "Value": "882256002782"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152537002039",
+  "Storefront": {
+    "StoreName": "Thomas Gracie Music",
+    "StoreURL": "http://stores.ebay.com/id=140562892"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B002AGQT16",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

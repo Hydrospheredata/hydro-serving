@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.1",
+    "_currencyID": "USD"
+  },
+  "Site": "Canada",
+  "Country": "CA",
+  "Location": "beaconsfield, QC",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:55:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1087673928",
+    "StoreName": "BEACONSFIELD-ELECTRONICS"
+  },
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "CAD"
+  },
+  "EndTime": "2017-06-30T06:55:31.000Z",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "162535605609",
+  "HandlingTime": "1",
+  "Description": "Hello Ebay, Up for sale is a BIRKS AUTOMATIC JUMP HOUR WATCH~UNIQUE~COLLECTABLE~UNIT 4 Unique looking watch, keeps great time. Nice quality build. Crown is missing, strap is not original, has been replaced, and may have to be sized. Unit has scratches, used condition. Please note* will have to set watch upon arrival and wear it, it's a automatic watch. Price reflects condition. Free fast shipping!",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BIRKS-AUTOMATIC-JUMP-HOUR-WATCH-UNIQUE-COLLECTABLE-UNIT-4-/162535605609",
+  "ConditionDescription": "FREE SHIP!",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625356056098080_1.jpg",
+  "HitCount": "22",
+  "PostalCode": "h9w5k6",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H21M51S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/twkAAOSwblZZLmg1/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1t4AAOSwIaFZLmg4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LmYAAOSwfRdZLmg8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hAAAAOSwjqVZLmhB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZS0AAOSwBt5ZLmhG/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hJoAAOSwq1JZLmhJ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU4NlgxNjAw/z/ZkEAAOSwBt5ZLmhd/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTM5WDE2MDA=/z/gkkAAOSwJH1ZLmhe/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "BIRKS AUTOMATIC JUMP HOUR WATCH~UNIQUE~COLLECTABLE~UNIT 4",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3572",
+    "UserID": "beaconsfield-electronics",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "DE",
+    "IS",
+    "IT",
+    "AR",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "CA",
+    "GL",
+    "PM",
+    "IL",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.82"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4894462167496",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462167496",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462167496",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-03-17T23:10:12.000Z",
+  "PictureURL": [
+    "http://luckyretail.com/Uploadfile/20161211/019886/019886.JPG",
+    "http://luckyretail.com/Uploadfile/20161211/019886/019886-1.JPG",
+    "http://luckyretail.com/Uploadfile/20161211/019886/019886-2.JPG",
+    "http://luckyretail.com/Uploadfile/20161211/019886/019886-3.JPG"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "200",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKAD-I019886",
+  "HitCount": "24",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T23:10:12.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "112338603621",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you are not satisfied as you received the item, please return it within 30 days for a replacement or money back. Please contact me before you return it. 2.All returned items MUST BE in the original packaging with all components and accessories included,And you MUST provide us the return shipping information (The shipment or the tracking number). 3.Return shipping fee is to be paid by the buyers.We will not be responsible for any custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.82"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hongkong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Red Quartz Movement Nurse Brooch Fob Tunic Pocket Pendant Watch U6L5",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Red-Quartz-Movement-Nurse-Brooch-Fob-Tunic-Pocket-Pendant-Watch-U6L5-/112338603621",
+  "Storefront": {
+    "StoreName": "andwind",
+    "StoreURL": "http://stores.ebay.com/id=1377689682"
+  },
+  "Seller": {
+    "UserID": "andwind",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "25354",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT4H20M8S"
+}

@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/cawAAOSw-K9ZMU26/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc3/z/O9gAAOSwIQdZMU2U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc3/z/KYoAAOSwhvFZMU2W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc3/z/yTAAAOSwCQZZMU2Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc3/z/R2UAAOSwBt5ZMU2c/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc3/z/-UgAAOSw42JZMU2g/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3N1gxNjAw/z/wpUAAOSwurZZMU2y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjc3/z/j7gAAOSwsXFZMU2n/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Soft-Leather-Tote-Ivory-/332248554816",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New Without Tag Kate Spade Soft Leather tote in IvoryExcellent condition- no visible signs of wear and tearThree interior pockets attached in the bag100% leather18k gold plated hardware for the kate spade logoComes from a smoke free household Please feel free to ask me any more questions you may have!",
+  "Title": "Kate Spade Soft Leather Tote in Ivory",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Atlanta, Georgia",
+  "Seller": {
+    "FeedbackScore": "17",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "soyu_us2015"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30329",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:39:16.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P4DT21H18M57S",
+  "EndTime": "2017-06-07T11:39:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Pebbled Cowhide leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Color",
+        "Value": "Ivory"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332248554816",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322485548168080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,152 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "NEVADA",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:13:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:13:24.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "SDF648839519166DF",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Ceramic Crystal"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "10mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "20mm to 29mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Fashion & casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "272694665071",
+  "HandlingTime": "1",
+  "Description": "Feature: 100% brand new and high quality Item Type:Wrist watches Housing material:pottery Dial window material:Glass Display Material:pottery Depth Resistance to water:Not to waterproof Movement:Quartz Dial diameter:3.5 cm Bracelet width:20mm to 29mm clasp:Locks for Bracelets Genre:Women Style:Fashion and Casual Condition:New with label display:analogical Case Format:round Band material:Stainless steel Bracelet length:20 cm Case Thickness:10mm item type:wristwatches style:fashion & casual Dial display:analog movement:quartz Dial window Material type:glass Case shape:round Band With:20mm to 29mm Package Content 1X WatchOn May-31-17 at 00:24:16 PDT, seller added the following information:",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Luxury-Women-Watches-Rhinestone-Ceramic-Crystal-Quartz-Lady-Dress-WristWatch-USA-/272694665071",
+  "NewBestOffer": "false",
+  "SKU": "I01WDD60225281_2934",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726946650718080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H40M29S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/USUAAOSwIQdZLmyk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU3WDY1NQ==/z/8bgAAOSwblZZLmys/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjkzWDY5Mw==/z/KEkAAOSw7GRZLmyn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI1WDYyNQ==/z/M0QAAOSwi7RZLmyp/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Luxury Women Watches Rhinestone Ceramic Crystal Quartz Lady Dress WristWatch USA",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "647",
+    "UserID": "vdian",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

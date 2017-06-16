@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/OagAAOSwol5Yz55W/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RgwAAOSwTM5Yz55e/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/jDYAAOSwuxFYz55k/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kikis-Delivery-Service-Black-Cat-Durable-Canvas-Travel-Duffel-Bag-Ourdoor-/262902536140",
+  "ConvertedCurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "AU"
+  ],
+  "Location": "FJ",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2694",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "fancyluckyjane"
+  },
+  "PrimaryCategoryID": "42526",
+  "Country": "CN",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kiki's Delivery Service Black Cat Durable Canvas Travel Duffel Bag Ourdoor",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-03-20T09:19:27.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P15DT15H24M13S",
+  "EndTime": "2017-06-18T09:19:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "fancyluckyjane"
+      },
+      {
+        "Name": "Style",
+        "Value": "Modern"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "574518803779"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262902536140",
+  "Storefront": {
+    "StoreName": "fancyluckyjane",
+    "StoreURL": "http://stores.ebay.com/id=1255800385"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629025361408080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,99 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:08:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:08:03.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245631887",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Michele",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MWW12D000004",
+        "Name": "Model"
+      },
+      {
+        "Value": "MWW12D000004",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Michele Women's MWW12D000004 'Jelly Bean' Chronograph Blue Silicone Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Michele-Womens-MWW12D000004-Jelly-Bean-Chronograph-Blue-Silicone-Watch-/332245631887",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322456318878080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H47M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTUxOVg4OTg=/z/5w4AAOSwTM5Yti44/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand: Michele Model number: MWW12D000004 Gender: Women's Series: Tahitian Jelly Bean Display Type: Chronograph Subdials: Three - 60 second, 30 minute and date Case Shape: Round Case Material: Stainless steel Case Diameter: 36 millimeters Case Thickness: 11 millimeters Dial Color: Silver Dial Hands: Silver Dial Markers: Silver Arabic numerals Band Material: Silicone Band Length: 9 inches Band Width: 20 millimeters Band Color: Blue Clasp: Buckle Crystal: Sapphire Bezel: Stainless steel Special features: Chronograph Movement: Quartz Water resistant depth: 5 ATM/50 meters/165 feet Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

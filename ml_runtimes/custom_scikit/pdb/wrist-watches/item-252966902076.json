@@ -1,0 +1,136 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "249.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Miami, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:02:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "249.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:02:49.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966902076",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "23647",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Day & Date",
+          "Chronograph",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Swiss Movement ISA 8172A Quartz Chronograph",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Abalone Dial",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "47mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Subaqua Noma I Limited Edition",
+        "Name": "Model"
+      },
+      {
+        "Value": "Push button dual deployant",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Reserve 47mm LE Subaqua Noma I Swiss Quartz Abalone Dial SS Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Reserve-47mm-LE-Subaqua-Noma-Swiss-Quartz-Abalone-Dial-SS-Watch-/252966902076",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529669020768080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "33186",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H47M50S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA5N1g5MDA=/z/risAAOSwUKxYf5Ws/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Invicta Reserve 47mm Subaqua Noma I Limited Edition, xxx/999 Quartz Abalone Dial Watch Details Movement: 47mm: Swiss Movement ISA 8172A Quartz Movement Country of Origin: Switzerland Thickness: 47mm: 19mm Bezel: Unidirectional Rotating Crystal: Flame Fusion Crown: Screw down with function pushers Subdials: 47mm: 2:00 - Perpetual Seconds, 6:00 - Day of the week and 10:00 - 30-minute Bracelet: Stainless Steel Bracelet Measurements: 47mm: 8\" L x 28mm W Clasp: Push button dual deployant Weight: 47mm: 10 oz Additional Information: Watch comes packaged in an Invicta watch box with instruction manual and warranty informationSorry No International shipping.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "227",
+    "UserID": "sorencio2012",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

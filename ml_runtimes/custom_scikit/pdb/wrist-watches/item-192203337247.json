@@ -1,0 +1,251 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.65",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "guangdong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:14:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "9",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1458170369",
+    "StoreName": "bobo19850620dy-0"
+  },
+  "CurrentPrice": {
+    "value": "17.65",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:14:54.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "WHQL010/170531",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "PF",
+    "NC",
+    "TV",
+    "WF",
+    "WS",
+    "AG",
+    "KN",
+    "LC",
+    "VI",
+    "HK",
+    "LA",
+    "MO",
+    "BR",
+    "BF",
+    "CV",
+    "CF",
+    "CG",
+    "RE",
+    "IQ",
+    "AF",
+    "AZ",
+    "CN"
+  ],
+  "ItemID": "192203337247",
+  "HandlingTime": "2",
+  "Description": "Store category Sign Up Now ! You may also like Mens Double Movements Leather Quartz Wrist Watch For Men Boyfriend Husband Gift Product Description BrandOULMMPNDoes Not ApplyMaterialAlloyCountry/Region of ManufactureChinaGenderMaleWatch ShapeRoundWeight104.00 gDiameter4.9CM\u00d74.9CMLength of Belt25.5CMWidth of Belt20-29MMThickness7.8MMFeaturesMulti-time zone,Double watch movementMovementQuartz",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Double-Movements-Leather-Quartz-Wrist-Watch-Men-Boyfriend-Husband-Gift-/192203337247?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "OULM",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Male",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "104.00 g",
+        "Name": "Weight"
+      },
+      {
+        "Value": "4.9CM\u00d74.9CM",
+        "Name": "Diameter"
+      },
+      {
+        "Value": "25.5CM",
+        "Name": "Length of Belt"
+      },
+      {
+        "Value": "20-29MM",
+        "Name": "Width of Belt"
+      },
+      {
+        "Value": "7.8MM",
+        "Name": "Thickness"
+      },
+      {
+        "Value": [
+          "Multi-time zone",
+          "Double watch movement"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "17.65",
+          "_currencyID": "USD"
+        },
+        "SKU": "WHQL010-1",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown index dial",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "17.65",
+          "_currencyID": "USD"
+        },
+        "SKU": "WHQL010-2",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black index dial",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "17.65",
+          "_currencyID": "USD"
+        },
+        "SKU": "WHQL010-3",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White index dial",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Brown index dial",
+          "Black index dial",
+          "White index dial"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown index dial",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/107f4bc5-86c1-47c0-a4a9-f7aa25a16432.jpg",
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/97746255-216c-405d-854c-148ad3146f0b.jpg",
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/c856b92f-1696-485d-a878-abc85a8020be.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Black index dial",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/6c1f76ba-82c2-4973-ac6e-b30488c07315.jpg",
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/3b71b110-0353-4d35-83e5-90b4b1ad08cb.jpg",
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/16029773-514d-4f7e-888f-0eb7bdafc59e.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White index dial",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/a8211958-9157-41f9-b8dd-11bb36080e2f.jpg",
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/d989fdce-d7c5-4646-aee2-e374b80f7095.jpg",
+            "https://image.pushauction.com/0/0/1f765415-bb15-457d-b3ac-a95668744f4b/972bf714-4bdc-4854-a657-b688c7710f43.jpg"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H1M45S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/N08AAOSwq1JZLsHU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/JeQAAOSwKytZLsHU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/USAAAOSwZKBZLsHV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/WvMAAOSwJH1ZLsHV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/bNEAAOSwblZZLsHW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/7X8AAOSww9xZLsHV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/V14AAOSwYlRZLsHV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/dwcAAOSwPh5ZLsHV/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Mens Double Movements Leather Quartz Wrist Watch For Men Boyfriend Husband Gift",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "662",
+    "UserID": "bobo19850620dy-0",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please notice, we are not responsible for the return shipping fee unless it's caused by the following issues:\n1) We sent the wrong item.\n2) The item is found to be broken once it arrives and unpacked.\n3) Other reasons caused by our mistake."
+  }
+}

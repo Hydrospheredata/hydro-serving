@@ -1,0 +1,178 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.03",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Manchester, Greater Manchester",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:27:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1209092367",
+    "StoreName": "fonezone52uk"
+  },
+  "CurrentPrice": {
+    "value": "10.13",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:27:36.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599864592",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "REFLEX",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "TALK01",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Water Resistant",
+          "Talking"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "43mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "TALK01",
+        "Name": "Model"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Reflex Talking Watch TALK 01 - Brand New",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Reflex-Talking-Watch-TALK-01-Brand-New-/182599864592",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825998645928080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "m8 8fq",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H51S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM4MA==/z/xfcAAOSw2gxYrB5m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4MA==/z/8-cAAOSwfVpYrB5x/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "REFLEX TALK 01 WRISTWATCH This Reflex Talking Watch is ideal for blind and partially sighted people. It speaks the time at the touch of a button, has a switchable hourly announcement, snooze function and an alarm mode that can be set to various alarm sounds.Brand NameReflexModel numberReflex Talk01Part NumberTALK01Model Year2011Item ShapeRoundDisplay Type\ufeffDigitalClasp Type\ufeffBuckleCase MaterialPlasticCase Diameter\ufeff42 millimetresCase Thickness\ufeff14Band MaterialPlasticBand Width22 millimetresBand ColourBlack",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "867",
+    "UserID": "fonezone-52-uk",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Item should be returned in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

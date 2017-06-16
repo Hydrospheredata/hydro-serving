@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Palm City, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:24:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:24:22.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536060263",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Anne Klein",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Stainless Steel Anne Klein Analog Quartz Watch & Band Extender Model 10/1378TTDI",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stainless-Steel-Anne-Klein-Analog-Quartz-Watch-Band-Extender-Model-10-1378TTDI-/162536060263",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625360602638080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "34990",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H15M44S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTgwWDY0MA==/z/sN8AAOSw8HBZEdnr/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTcyWDY0MA==/z/sIcAAOSw-K9ZEdn3/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQxNg==/z/s1gAAOSwDiBZEdoA/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjMwWDY0MA==/z/jG8AAOSw8lpZEdoK/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDYxNg==/z/hS4AAOSw9OFZEdob/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTQ2WDY0MA==/z/12wAAOSw3gJZEdon/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Lightly worn, this watch is in very good condition. One side of each band has a small scratch from use, but it's barely noticeable. The watch comes with an band extender in case you need it to be longer. Without the extension it measures 1.57 inches in diameter (39.98 mm) and with the extension it measures 1.8 inches (45.74 mm). NEEDS A BATTERY Specifics: Brand Anne KleinWatch Series Anne Klein WomenModel number 10-1378TTDIBand Color SilverBand Material Stainless SteelBand Width 39.98 mm without extension, 45.74 with extensionDial Color Silver Display Type AnalogItem Shape SquareCrystal Standard watch crystalMovement Type Quartz PAYMENT: Payment is due immediately after the auction ends. If you need more time please let me know via email. All payments are accepted through Paypal. SHIPPING: Item will be shipped through USPS First Class Mail anywhere in the US or Canada. No other international shipping! RETURNS: I want you to be satisfied with your purchase. If for whatever reason you're not satisfied, you may return the item within 14 days of the purchase date for a full refund. The returned item must be in the same condition it was in when it left the seller. The buyer is responsible for the return shipping costs. Thank you for visiting!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1518",
+    "UserID": "sctrinityproducts",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

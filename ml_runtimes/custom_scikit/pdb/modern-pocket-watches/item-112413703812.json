@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "50010",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Comes with new battery, mild signs of wear, some light scratches on back. Please view pictures to judge condition. Works great",
+  "StartTime": "2017-05-20T12:15:38.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzA3WDcyNg==/z/NNwAAOSwWxNYyrTV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/HjQAAOSwuLZYyrTK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/sFsAAOSw4CFYyrTM/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/qLsAAOSw4A5YyrTQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/jncAAOSwuxFYyrTS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/wS0AAOSwzgBYyrTU/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Al Agnew",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "funkyroost",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "199",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124137038128080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-19T12:15:38.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Al-Agnew-Quartz-Pocket-Watch-Wolf-Case-And-Dial-Chain-Analog-/112413703812",
+  "Location": "Ames, Iowa",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Al Agnew Quartz Pocket Watch With Wolf On Case And Dial Chain Analog",
+  "Storefront": {
+    "StoreName": "FUNky Roost",
+    "StoreURL": "http://stores.ebay.com/id=1456835785"
+  },
+  "ItemID": "112413703812",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P18DT17H36M50S"
+}

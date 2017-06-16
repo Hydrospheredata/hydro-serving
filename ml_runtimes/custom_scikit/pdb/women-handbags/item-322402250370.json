@@ -1,0 +1,108 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CTMAAOSw-0xYiPRs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wwcAAOSwLEtYiPRs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/hlAAAOSw2xRYiPRs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3pwAAOSwNnRYiPRs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/n7MAAOSw9GhYiPRq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/w0EAAOSwLEtYiPRt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/n7sAAOSw9GhYiPRr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~k4AAOSw4DJYiPRq/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Clark-Mayfield-Morrison-Leather-Laptop-Handbag-18-4-Black-/322402250370",
+  "ConvertedCurrentPrice": {
+    "value": "244.18",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The Morrison is a present-day urbanite who still pioneers with creative west coast style. Industrial metal ware and sensible top-stitching paired with luxurious leather tackle all types of conditions, meetings, and personalities. Hold tight to your 18.4 laptop in padded comfort with the adjustable, removable shoulder strap or the stylish, sturdy handles. Tuck away provisions in generous pockets - Fits up to 18.4\" laptops - Soft Top Grain Leather - Durable nylon lining - Easily accessible zippered top - Comfortable cotton-webbed tote straps Clark & Mayfield Morrison Leather Laptop Handbag 18.4\" Black",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "244.18",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "10169",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "molan31"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Clark & Mayfield Morrison Leather Laptop Handbag 18.4\" Black",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-01-25T18:54:31.000Z",
+  "HitCount": "36",
+  "TimeLeft": "P22DT3H42M59S",
+  "EndTime": "2017-06-24T18:54:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "723175988835"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0723175988835"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clark & Mayfield"
+      },
+      {
+        "Name": "MPN",
+        "Value": "MOR18-01"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322402250370",
+  "Storefront": {
+    "StoreName": "molan31",
+    "StoreURL": "http://stores.ebay.com/id=1200104229"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3224022503708080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

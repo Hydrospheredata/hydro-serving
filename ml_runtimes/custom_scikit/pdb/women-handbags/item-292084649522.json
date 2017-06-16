@@ -1,0 +1,126 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM1N1gxNTAw/z/evoAAOSwU8hY7zUw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTAx/z/cLAAAOSwTM5Y7zUu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3MTQ=/z/CeoAAOSwmgJY7zUx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODExWDE1MDA=/z/Hp8AAOSwpP9Y7zUv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMyWDE1MDA=/z/NPQAAOSw03lY7zUy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MTk=/z/cCYAAOSwAANY7zUx/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Foley-Corinna-Expandable-Snake-Print-Weekender-Bag-Blush-Snake-Nylon-Black-/292084649522",
+  "ConvertedCurrentPrice": {
+    "value": "321.81",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The Foley + Corinna large weekender is the perfect carryall getaway bag. With an expandable zipper feature, you can make this bag even bigger for all those essentials you picked up on that weekend away. - Foley + corinna signature lining - Gold-tone hardware - Expandable - Removable shoulder strap Foley + Corinna Expandable Snake Print Weekender Bag, Blush Snake Nylon/Black",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "321.81",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "149",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "42526",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Foley + Corinna Expandable Snake Print Weekender Bag, Blush Snake Nylon/Black",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T08:19:47.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P9DT14H26M43S",
+  "EndTime": "2017-06-12T08:19:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "844267086250"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844267086250"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Foley + Corinna"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blush Snake Nylon/Black Trim"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.65 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 21.5 x W 15.3 x H 3.7 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "FC161907"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084649522",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920846495228080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

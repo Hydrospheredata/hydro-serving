@@ -1,0 +1,166 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/H0gAAOSwIaFZKYyC/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Ivory-Leather-Khaki-Fabric-Briefcase-Computer-Compartment-/122518605613",
+  "ConvertedCurrentPrice": {
+    "value": "144.94",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Ivory Leather & Khaki Fabric Briefcase with Padded Computer Compartment and Shoulder Strap.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "144.94",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Lakewood, NJ",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "3592",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "diversedesign-123"
+  },
+  "PrimaryCategoryID": "169293",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "New Ivory Leather & Khaki Fabric Briefcase, Computer Compartment",
+  "GlobalShipping": "true",
+  "Quantity": "6",
+  "StartTime": "2017-05-27T14:26:07.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225186056138080_1.jpg",
+  "TimeLeft": "P23DT23H27M25S",
+  "EndTime": "2017-06-26T14:26:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Bey Berk"
+      },
+      {
+        "Name": "Color",
+        "Value": "Ivory"
+      },
+      {
+        "Name": "Material",
+        "Value": "Genuine Leather"
+      },
+      {
+        "Name": "Height",
+        "Value": "12"
+      },
+      {
+        "Name": "Length",
+        "Value": "15.5"
+      },
+      {
+        "Name": "Width",
+        "Value": "4"
+      },
+      {
+        "Name": "MPN",
+        "Value": "BB901IVR"
+      },
+      {
+        "Name": "Product Condition",
+        "Value": "Item is Brand new from an authorized dealer"
+      },
+      {
+        "Name": "UPC",
+        "Value": "797140529019"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122518605613",
+  "Storefront": {
+    "StoreName": "Diverse Design 123",
+    "StoreURL": "http://stores.ebay.com/id=1448502119"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "BB901IVR BeyBerk",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

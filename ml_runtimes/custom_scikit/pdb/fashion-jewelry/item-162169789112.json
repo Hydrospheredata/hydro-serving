@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P5DT19H16M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "267.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162169789112",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Glasses-Chain-Heart-Gold-Nickel-Free-Original-Resin-Blue-Pink-ni-gh-14b-/162169789112",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "267.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-08-15T06:25:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T06:25:38.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tamarusan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper and Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "ni-gh-14b",
+        "Name": "Product number"
+      }
+    ]
+  },
+  "Title": "Glasses Chain Heart Gold Nickel Free Original Resin Blue Pink ni-gh-14b",
+  "ExcludeShipToLocation": "JP",
+  "BidCount": "0",
+  "Description": "It is a eyeglass chain that uses a resin parts,from the \"Rainbow Series (light blue)\". It was a combination of freshwater pearl and gold chain of pink and purple to match the hue of the resin. Rubber parts can be removed. Left and right of the decoration is different asymmetrical design. It is recommended for a unique accent not only hang the glasses. You can use it as a necklace by connecting the fastener. The metal parts are the nickel-free, it is recommended for those allergic to metal. Imported The main parts:epoxy resin, metal: 24k gold plating copper and brass, rubber length 2.5cm, width 1.3cm(charm), length 69cm nickel free Because the company's stock is also serves as a real stores and its Web site other sites, there is also a case of sold out by the time difference. The other at the Ginza store, we offer a large number commodity. Handmade. Made in Japan. Because it is cut into random part of the picture, it will be a shade different point by point. The actual pictures may differ slightly from the photo shown. The jewel stone parts are made with acrylic resin. International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1621697891128080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tamarusan",
+    "FeedbackScore": "7",
+    "FeedbackRatingStar": "None"
+  },
+  "Storefront": {
+    "StoreName": "tamarusan",
+    "StoreURL": "http://stores.ebay.com/id=1206526448"
+  },
+  "Quantity": "1",
+  "Location": "Tokyo",
+  "HitCount": "101",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/KI8AAOSwMtxXsV-H/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/zJUAAOSwHoFXsV-x/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XBwAAOSwaB5XsV~P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/aAsAAOSwZVlXsV~q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ISUAAOSw6n5XsWAJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/a08AAOSwdzVXsWAa/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

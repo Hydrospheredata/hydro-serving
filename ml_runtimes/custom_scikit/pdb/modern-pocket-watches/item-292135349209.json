@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "46324",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Nice Al Agnew Eagle Hunter Case Pocket Watch Flying & FaceThe watch is working well with a fresh battery. It measures about 47 mm across",
+  "StartTime": "2017-05-31T07:45:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nFwAAOSwKfVXKTDN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ua0AAOSwiYFXKTDR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DlcAAOSw~oFXKTDp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nG8AAOSwRH5XKTDn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nLMAAOSwRH5XKTDr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TOIAAOSw1DtXKTEv/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "al agnew",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "scottve33",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13487",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921353492098080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-30T07:45:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nice-Al-Agnew-Eagle-Hunter-Case-Pocket-Watch-Flying-/292135349209",
+  "Location": "Hammond, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Nice Al Agnew Eagle Hunter Case Pocket Watch Flying",
+  "Storefront": {
+    "StoreName": "scottve33",
+    "StoreURL": "http://stores.ebay.com/id=527741509"
+  },
+  "ItemID": "292135349209",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT13H12M38S"
+}

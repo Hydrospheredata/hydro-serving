@@ -1,0 +1,103 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Vintage Admiral \"Jewel \" Swiss Pocket Watch 15 Jewels 44 mm Diamter",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-19T15:30:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDk5/z/0NYAAOSwDiBZHw7b/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTM0/z/iDAAAOSw3gJZHw7n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~pMAAOSwcB5ZHw7w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk0/z/TWoAAOSwCQZZHw7-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk1/z/u94AAOSwlY1ZHw8J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk3/z/5KkAAOSwBt5ZHw8R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTkz/z/pb4AAOSwfpVZHw8b/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTcy/z/X4wAAOSw42dZHw8m/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5NVgxNjAw/z/wTwAAOSw~FJZHw8x/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ5NlgxNjAw/z/p6IAAOSwfpVZHw86/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5N1gxNjAw/z/TA4AAOSwsXFZHw9E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDgz/z/OpMAAOSwH09ZHw9O/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "130.69"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Admiral",
+        "Name": "Brand"
+      },
+      {
+        "Value": "15 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "SKU": "F109 $95",
+  "HitCount": "41",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619843677348080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-18T15:30:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "175.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Admiral-Jewel-Swiss-Pocket-Watch-15-Jewels-44-mm-Diamter-/361984367734",
+  "ConditionDescription": "See Photos. Watch in great working order",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "361984367734",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P17DT20H51M15S"
+}

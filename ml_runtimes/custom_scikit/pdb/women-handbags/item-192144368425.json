@@ -1,0 +1,261 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Picard-Womens-Really-Shoulder-Best-Price-/192144368425?var=",
+  "ConvertedCurrentPrice": {
+    "value": "164.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Brand: Picard Series: Really Dimension (LxWxH): 28cm x 8cm x 25cm Bag Type: shoulder bag Weight in kg: 0.75kg Capacity in Litre ca.: 0-10 Material: Leather Features: inside pocket(s), exterior pocket(s), adjustable strap, lining",
+  "Title": "Picard Womens Really Shoulder. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "164.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "002 weiss",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0064/956/492/186239008/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "054 creme",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0064/956/493/186245047/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "- 023 ozean",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0064/956/494/186248525/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "ozean",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0064/956/495/186234421/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "schwarz",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0064/956/496/186228991/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Wei\u00c3\u0083\u00c2\u009f",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0064/956/497/186235583/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "creme",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0064/956/498/186250333/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "164.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956492:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "002 weiss"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "164.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956493:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "054 creme"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "164.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956494:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "- 023 ozean"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "172.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956495:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "ozean"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "231.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956496:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "schwarz"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "172.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956497:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Wei\u00c3\u0083\u00c2\u009f"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "172.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:64956498:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "creme"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "002 weiss",
+          "054 creme",
+          "- 023 ozean",
+          "ozean",
+          "schwarz",
+          "Wei\u00c3\u0083\u00c2\u009f",
+          "creme"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-30T22:45:07.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P26DT6H27M19S",
+  "EndTime": "2017-06-28T22:45:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Picard"
+      },
+      {
+        "Name": "MPN",
+        "Value": "8207"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144368425",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:64956491:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

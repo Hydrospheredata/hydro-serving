@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Ringgold, Georgia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T02:38:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T02:38:31.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524278064",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Bulova Diamond",
+        "Name": "Model"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Bulova Men's 98D122 Diamond Analog Display Japanese Quartz Two Tone Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bulova-Mens-98D122-Diamond-Analog-Display-Japanese-Quartz-Two-Tone-Watch-/122524278064",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225242780648080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "30736",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT11H31M32S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODE5WDE1MDA=/z/Nj0AAOSwi7RZLisC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/ngQAAOSwfRdZLisC/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NjY=/z/O4YAAOSwaEhZLisD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg4WDg4OA==/z/yzMAAOSwxu5ZLisC/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Stainless steel bracelet with gold-tone accents. Deployment clasp closure. Round case, gold-tone bezel. Gold and white-tone three hand analog display with quartz movement. Black diamond with diamond hour markers, date window, and Bulova\u00ae detailing. Water resistant up to 100 meters. Made in Japan Brand, Seller, or Collection Name Bulova Model number 98D122 Part Number 98D122 Item Shape Round Dial window material type Mineral Display Type Analog Clasp deployant-clasp Case material Stainless steel Case diameter 11 millimeters Case Thickness 42 millimeters Band Material Stainless steel Band length Men's Standard Band width 22 millimeters Band Color Two Tone Dial color Black",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "larandbrando-0",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

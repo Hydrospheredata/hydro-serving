@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT19H1M",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "199.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "371972770881",
+  "ConvertedCurrentPrice": {
+    "value": "199.95",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T09:46:14.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Judith-Ripka-Key-My-Heart-Rolo-Chain-Link-Necklace-Charm-Sterling-Silver-Box-/371972770881",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:46:14.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Judith Ripka",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "cz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Sterling Silver 925",
+        "Name": "Material"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Judith Ripka Key To My Heart Rolo Chain Link Necklace Charm Sterling Silver Box",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Columbus, Ohio",
+  "Description": "Judith Ripka KEY TO MY HEART Necklace Sterling Silver 925 Stamped Judith Ripka CZ 925 Thailand Measures 18\u201d in length Rolo Link CZ Key CharmHeart Link has CZ's in the centerKey Charm is removable and you can attach it to any link Excellent condition Judith Ripka Boxes are included along with pouch Thanks for looking!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719727708818080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mlm210",
+    "FeedbackScore": "5322",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "mlm210",
+    "StoreURL": "http://stores.ebay.com/id=68883968"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g3YAAOSwEgVWSRzv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4YwAAOSwT4lWSRzz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/h5MAAOSwLzdWSRz3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z30AAOSwZVhWSRz7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/St0AAOSwZVhWSRt4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk0WDE1OTU=/z/grIAAOSwkZhWSR3r/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "43213"
+}

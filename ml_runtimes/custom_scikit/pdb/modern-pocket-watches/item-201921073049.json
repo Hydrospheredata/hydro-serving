@@ -1,0 +1,92 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "11377",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "shamrockgift",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "257",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "This beautiful vintage-style handmade pocket watch is a sophisticated gift for anyone who loves Ireland. Featuring a beautiful shamrock trinity design and 14\" pocket chain, this watch is a perfect blend of old and new. Pewter never dates, so this watch is truly timeless. mullingar Pewter continues an Irish pewter tradition that's over 800 years old, and each piece is still made with the same meticulous methods today by Irish men and women specially trained in the old casting methods, meticulous assembly, and delicate hand finishing. New With Tags. Top Irish Seller 100% Customer Satisfaction. Ships From USA, Fast Shipping, Easy Returns. Pewter 4 3/4\" Diameter 14\" Chain Gift Box Included Made in Ireland by Mullingar Pewter",
+  "StartTime": "2017-05-10T19:31:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dTMAAOSwcB5ZE2qL/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ireland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Mullingar Pewter",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "5390587010888",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "SKU": "P246 Sham Trinity",
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019210730498080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-09T19:31:14.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mullingar-Pewter-Pocket-Watch-Shamrock-Trinity-/201921073049",
+  "Location": "Woodside, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Mullingar Pewter Pocket Watch Shamrock Trinity",
+  "Storefront": {
+    "StoreName": "shamrockgift",
+    "StoreURL": "http://stores.ebay.com/id=1539282357"
+  },
+  "ItemID": "201921073049",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT48M38S"
+}

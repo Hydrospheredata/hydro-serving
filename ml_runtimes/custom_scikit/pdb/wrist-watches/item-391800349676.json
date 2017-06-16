@@ -1,0 +1,180 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.98",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:03:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=421634829",
+    "StoreName": "OKaystores"
+  },
+  "CurrentPrice": {
+    "value": "20.98",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:03:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Shark",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "Alarm",
+          "Day & Date"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "IQ",
+    "JO",
+    "KW",
+    "TR",
+    "AM",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "PE",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM"
+  ],
+  "ItemID": "391800349676",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Goblin Shark Luxury Mens Digital LED Date Silicone Quartz Army Sport Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "SH168",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Goblin-Shark-Luxury-Mens-Digital-LED-Date-Silicone-Quartz-Army-Sport-Wrist-Watch-/391800349676",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3918003496768080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT17H35M23S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/yN0AAOSwaEhZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg0WDEwMDA=/z/N5UAAOSwX9FZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTYyWDEwMDA=/z/izYAAOSwZKBZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMwWDEwMDA=/z/o64AAOSwGJlZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTgyWDEwMDA=/z/DmEAAOSwsXFZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1NVgxMDAw/z/VdIAAOSwEHpZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY1WDEwMDA=/z/AugAAOSwY3BZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk3WDEwMDA=/z/FKgAAOSw0hlZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjczWDEwMDA=/z/nRkAAOSw1WJZLnjV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzN1gxMDAw/z/iGMAAOSw9OFZLnjV/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "20.98",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "137718",
+    "UserID": "red-plus",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please contact us through ebay message if you have any problems, including shipping and satisfaction, with the transaction. We will give you feedback as soon as possible. We can offer replacement or refund as long as we know your confirmation.\nFor returning items due to satisfaction, the buyer is responsible for shipping.\nYour communication is the most important to us.\nThank you."
+  }
+}

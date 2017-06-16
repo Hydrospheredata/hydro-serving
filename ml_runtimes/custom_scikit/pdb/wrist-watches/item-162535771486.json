@@ -1,0 +1,138 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Clarence, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:38:20.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:38:20.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535771486",
+  "HandlingTime": "5",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": "F3134891",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "stainless steel backing",
+        "Name": "buckle clasp"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New in Tin Pink Panther Analog Watch Avon Crystals Genuine Leather Pink Croco",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Tin-Pink-Panther-Analog-Watch-Avon-Crystals-Genuine-Leather-Pink-Croco-/162535771486",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625357714868080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "14031",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H12M31S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1M1gxNjAw/z/~koAAOSw8oFX0YKo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/dEwAAOSwvzRX0YW9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2MVgxNjAw/z/weoAAOSwgmJX0YcQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY5WDE2MDA=/z/z-QAAOSwvzRX0Yfg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2NFgxNjAw/z/7cAAAOSwFe5X0Yum/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~WgAAOSw8oFX0Yx1/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "No Reserve Auction New in Tin Pink Panther Analog Watch Avon Crystals Genuine Leather Pink Croco \u2022 Stainless steel back \u2022 3ATM (30m - 100ft) water resistant \u2022 Japan Quartz movement \u2022 (6) crystals embellished on the face \u2022 Adjustable pink genuine leather upper strap / vinyl lining with buckle clasp \u2022 Measures 9\" long and 1-1/2\" wide at widest point \u2022 Nickel free BUY IT NOW OR SUBMIT BEST OFFER / WILL NOT BE RELISTED Seller ONLY ships once a week email me PRIOR to bidding if you have a time limit set shipping and handling fees Please ask all question before bidding ALL SALES FINAL",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5208",
+    "UserID": "ingwell",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-plain-bags-women-bags-and-practical-Brand-New-/192148498388?var=",
+  "ConvertedCurrentPrice": {
+    "value": "99.08",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size: miniApplication object: suitable for youthStyle: clutch bagPackage: armTexture: canvasClosure: zipperInternal structure: document bagLuggage bag type: dig kitsPattern: original designThere is no sandwich:Bags of hardness: softCondition: brand newApplication scenario: leisureShape: cross the square",
+  "Title": "Original plain bags women bags and practical. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.08",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Huang Ka",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/851/771/311565920/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue-purple",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/851/772/313125070/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "99.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851771:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Huang Ka"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "99.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851772:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Blue-purple"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Huang Ka",
+          "Blue-purple"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-04T15:54:23.000Z",
+  "HitCount": "1",
+  "TimeLeft": "PT23H37M28S",
+  "EndTime": "2017-06-03T15:54:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DADAO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "392059186"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192148498388",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139851770:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

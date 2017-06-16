@@ -1,0 +1,95 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "NWT Guess Rose Gold Plated Clear Stone Ladies Wristwatch w/ Date Window 9-F5230 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-15T13:09:36.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY1WDEyODA=/z/Y0IAAOSwAPVZEiSE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4MDE=/z/T74AAOSwq1JZEiSE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA1WDEyODA=/z/2EAAAOSwxu5ZEiSE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgwWDEyODA=/z/HqwAAOSwYvFZEiSE/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "69.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Guess",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60400",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "37",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917842158418080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-14T13:09:36.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "69.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Guess-Rose-Gold-Plated-Clear-Stone-Ladies-Wristwatch-w-Date-Window-9-F5230-/391784215841",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "NWT Guess Rose Gold Plated Clear Stone Ladies Wristwatch w/ Date Window 9-F5230",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "391784215841",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P13DT19H24M53S"
+}

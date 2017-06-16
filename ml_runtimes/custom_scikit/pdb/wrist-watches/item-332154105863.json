@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Day-Date II 218349 218239 Black Concentric circle 18KW #A21 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T06:27:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/JeoAAOSwsW9Yx402/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/yN4AAOSw4A5Yx403/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/6jcAAOSwax5Yx402/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/JekAAOSwsW9Yx402/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/b~0AAOSwuxFYx402/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/w0MAAOSwTM5Yx402/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/FZYAAOSwWxNYx402/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "660.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "President II",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "130",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3321541058638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T06:27:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "660.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Day-Date-II-218349-218239-Black-Concentric-circle-18KW-A21-/332154105863",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Day-Date II 218349 218239 Black Concentric circle 18KW #A21",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "332154105863",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT9H57M46S"
+}

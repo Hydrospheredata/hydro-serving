@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "149.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pittsburgh, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:32:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "149.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T09:32:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535765783",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vincero",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vincero Chrono S Black/Silver Dial Men's Watch with Mocha Croc Leather Strap New",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vincero-Chrono-S-Black-Silver-Dial-Mens-Watch-Mocha-Croc-Leather-Strap-New-/162535765783",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625357657838080_1.jpg",
+  "HitCount": "14",
+  "PostalCode": "15224",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT18H6M17S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QVcAAOSw8HBZLorP/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GsQAAOSwH09ZLorX/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P88AAOSwEHpZLor1/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q6MAAOSww5hZLosL/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QcwAAOSwEHpZLosj/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tt8AAOSw-3FZLos6/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDcyMA==/z/5mgAAOSw42JZLouq/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDcxOA==/z/mVIAAOSwurZZLouv/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "I have for sale an absolutely brand new in the box Vincero Chrono S Black/Silver Dial Men's Watch with a beautiful Mocha Brown Croc Leather Strap. This is an exquisite chronograph watch with a great masculine look. It is also pretty versatile and can be dressed up with a suit or dressed down casually with just a t-shirt and jeans. Vincero is a new watch company offering super high levels of quality at a reasonable cost and has been getting rave reviews everywhere. This is an extra watch that I purchased from Vincero but I never ended up using. It is absolutely brand new in the box and has never been worn or used. Looks really great in person. Comes in the original presentation case with the instruction manual. Specs316L Surgical Grade Stainless SteelCitizen Miyota Quartz MovementSapphire Coated Mineral Crystal Glass (Scratch Resistant)5 ATM Water ResistantLuminous Hands (visible at night)Genuine Italian Leather Watch Band (22 mm width) DimensionsCasing: 43mm in DiameterThickness: 10.5 mm (top of bezel to bottom of case-back) Free USPS 2-Day Shipping is included! I will only ship this within the USA.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "585",
+    "UserID": "lifebeginsat30",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

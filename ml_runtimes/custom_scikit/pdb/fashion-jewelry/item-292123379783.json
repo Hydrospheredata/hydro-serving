@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P13DT8H5M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "77.97",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292123379783",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWOT-CHARLES-ALBERT-STERLING-SILVER-BEZEL-SET-PENDANTS-LOT-2-/292123379783",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "77.97",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T23:13:42.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T23:13:42.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "CHARLES ALBERT",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Moldavite",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Gems & Stones",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "NWOT - CHARLES ALBERT - STERLING SILVER BEZEL-SET PENDANTS (LOT OF 2)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWOT - CHARLES ALBERT - STERLING SILVER BEZEL-SET (HEART AND RECTANGLE) PENDANTS (LOT OF 2) Lot of two (2) authentic Charles Albert Sterling Silver Bezel-Set Pendants from my personal collection are up for consideration Featured material of the first pendant (heart) appears to be Turquoise of an unknown variety Featured material of the second pendant (rectangle) appears to be Moldavite These items were purchased NWOT then never worn but may show faint signs of mild patina due to storage only Please consult the photograph(s) for the approximate size of these items --- any coins shown are for display purposes only THESE ITEMS WILL BE SHIPPED WITHIN ONE (1) BUSINESS DAY OF RECEIVING PAYMENT THANK YOU SO MUCH AND ENJOY !!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921233797838080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "boazian",
+    "FeedbackScore": "14",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Bel Air, Maryland",
+  "HitCount": "21",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDc0OQ==/z/JPsAAOSwTM5YzvGP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDczMQ==/z/IcgAAOSwWxNYzvGc/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "21014"
+}

@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT22H21M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "40.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "382116132293",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stunning-Body-Piercing-Screw-Nose-stud-22g-Solid-Real-14k-Yellow-Gold-Medusa-/382116132293",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "40.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T13:50:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T13:50:05.000Z",
+  "PrimaryCategoryID": "32050",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "screw",
+        "Name": "Type"
+      },
+      {
+        "Value": "Nose",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "karizma jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "no",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "floral",
+        "Name": "Closure Style"
+      },
+      {
+        "Value": "gold",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "22g",
+        "Name": "Gauge (Thickness)"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Stunning Body Piercing Screw Nose stud 22g Solid Real 14k Yellow Gold Medusa",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Metal: Solid 14k Yellow Gold Weight: 0.270 Gram Dimension: 7.2mm , (Piercing Thickness 22 Gauge) Style: Screw Origin: India",
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821161322938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "karizmajewels",
+    "FeedbackScore": "9057",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "karizmajewels",
+    "StoreURL": "http://stores.ebay.com/id=179629606"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/dUcAAOSw5cNYiIWw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyMFgxMDIw/z/ZksAAOSw2xRYiIWy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1NFgxMDQ0/z/ujsAAOSwopRYiIW4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzc5/z/Z~4AAOSw2xRYiIXD/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "144003"
+}

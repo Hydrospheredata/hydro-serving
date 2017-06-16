@@ -1,0 +1,132 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "220.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GB",
+  "Location": "Warrington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:21:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=56192411",
+    "StoreName": "Designer Men"
+  },
+  "CurrentPrice": {
+    "value": "220.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:21:08.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silver Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "MK8270",
+        "Name": "Style Name"
+      },
+      {
+        "Value": "Dean",
+        "Name": "Wash Code"
+      },
+      {
+        "Value": "Battery",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver Stainless Steel",
+        "Name": "Casing"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Model"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Watchband"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4053858684362",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "We Ship Worldwide ebay ID: Designermen JEANS JACKETS SWEATERS T-SHIRTS SUNGLASSES & ACCESSORIES Find it --> New Michael Kors MK8270 Mens Dean Silver Watch RRP: \u00a3 Price: \u00a3220.99 If your waist or leg size are not available in a drop down menu please check item specifics for the only available size Description Payment Shipping Returns Leg Fit: Trouser Style: Black Face Movement: Quartz Movement Comes With Smart Brown Display Case with Inner Cushion & User Manual 1 Year Warranty Water Resistant to 50 Metres Payment Shipping Returns \u00a0 About UsTerms & ConditionsShippingReturnsContact UsCopyright \u00a9 2013 Designer Men. All Rights Reserved. Website Designed by Weblegs.co.uk",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Michael-Kors-MK8270-Mens-Dean-Silver-Watch-/401338189985",
+  "NewBestOffer": "false",
+  "SKU": "MK8270",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013381899858080_1.jpg",
+  "ItemID": "401338189985",
+  "PostalCode": "WA3 6PL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H53M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/-wUAAOSwDiBZLosG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/vCcAAOSwblZZLosG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/QH8AAOSwEHpZLosH/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "New Michael Kors MK8270 Mens Dean Silver Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16947",
+    "UserID": "designermen",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

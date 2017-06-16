@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AR",
+  "TimeLeft": "P29DT21H51M40S",
+  "Location": "Capital Federal, Buenos Aires",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:06:23.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090425867",
+    "StoreName": "BSASCLOCK"
+  },
+  "SecondaryCategoryID": "57720",
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:23.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MARC NICOLET",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ItemID": "162535979972",
+  "HandlingTime": "5",
+  "Description": "MARC NICOLET WATCH CO MOVEMENT WRISTWATCH - 19MM DIAMETER - FOR REPAIR OR PARTS - MOVEMENT COMPELTE - MADE SWISS - SEVENTEEN 17 JEWELS - MAQUINA DE RELOJ DE PULSERA MARC NICOLET WATCH CO - 19MM DE DIAMETRO - PARA REPARAR O PARTES - MAQUINA COMPLETA - MADE SWISS - SEVENTEEN 17 JEWELS - L306 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-NICOLET-WATCH-CO-MOVEMENT-WRISTWATCH-19MM-DIAMETER-REPAIR-PARTS-/162535979972",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625359799728080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTEyWDc5Ng==/z/Q~QAAOSwZkJUURdy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDg0Nw==/z/MOYAAOSwU9xUURds/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg5WDg2Nw==/z/YNsAAOSwy4hUURdu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzAyWDg5Ng==/z/MY8AAOSwU9xUURdx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI4WDgyOA==/z/J5MAAOSwR0JUURd0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQ5WDEwMjQ=/z/BlgAAOSwajVUURd2/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "MARC NICOLET WATCH CO MOVEMENT WRISTWATCH - 19MM DIAMETER -  FOR REPAIR OR PARTS",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "620",
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "BN",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "GF",
+    "MX",
+    "PM",
+    "CM",
+    "SL",
+    "IQ",
+    "JO",
+    "YE",
+    "AF",
+    "CN",
+    "TM",
+    "AU",
+    "KI",
+    "BA",
+    "DE",
+    "GI",
+    "IT",
+    "GB",
+    "BS",
+    "LC"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "85225",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Double Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton",
+          "12-Hour Dial",
+          "Large Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Anchor",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": [
+          "Silver",
+          "Black",
+          "Bronze"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "PACIFISTOR",
+        "Name": "Model"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "16",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Payment Terms We accept PayPal payment only. We do not offer combine shipping discount. Our P&P rates includes the postage, packing materials, processing and administrative costs. Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Shipping Terms We ship your orders within 1 business day (Excluding holidays)\u00a0after the payment is cleared. Estimated Delivery Time:A) United States: 3-7 business days B) Canada: 9-15 business days C) Other Countries: 14-35 business days inkfrog terapeak inkFrog Analytics On May-18-17 at 01:28:38 PDT, seller added the following information:",
+  "StartTime": "2017-05-18T08:17:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/49YAAOSww9xZK4Uv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg5WDkzMA==/z/3HYAAOSwi7RZK4Uv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA2WDkzMA==/z/jUgAAOSwfpVZK4Uw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzI2WDkzMA==/z/jU0AAOSwfpVZK4Uw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDkzMA==/z/4EYAAOSwYvFZK4Ux/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg5WDkzMA==/z/--QAAOSwuMZZK4Uy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDkzMA==/z/UlQAAOSwEHpZK4Uy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM3WDkzMA==/z/LgsAAOSwGJlZK4Uz/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.32"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Storefront": {
+    "StoreName": "infantry watch",
+    "StoreURL": "http://stores.ebay.com/id=1011738844"
+  },
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "j-pro-shop",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "26947",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "49",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T08:17:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.32"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "60 Days",
+    "RestockingFeeValue": "20%"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Bronze",
+          "Silver"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/plsAAOSwJ4hY-CNf/$_10.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Bronze",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/VsQAAOSwvihY-CNf/$_10.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/TlMAAOSwBOtY-CNf/$_10.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "19.32"
+        },
+        "SKU": "PX-012-B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "5"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "19.32"
+        },
+        "SKU": "PX-012-BRZ",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Bronze",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "20"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "19.32"
+        },
+        "SKU": "PX-012-S",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "20"
+      }
+    ]
+  },
+  "Location": "Chandler, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Quantity": "45",
+  "Title": "PACIFISTOR Mechanical Skeleton Pocket Watch Retro Vintage Steampunk Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PACIFISTOR-Mechanical-Skeleton-Pocket-Watch-Retro-Vintage-Steampunk-Chain-/391787613467?var=",
+  "SKU": "PX-012",
+  "ItemID": "391787613467",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT13H38M21S"
+}

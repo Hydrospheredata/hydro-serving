@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2OVgxNjAw/z/QUYAAOSwH09ZHRbs/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjk2/z/bjQAAOSwuMZZHRbv/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-2014-Limited-Edition-Black-Friday-Tote-Heavenly-Escape-/332225532938",
+  "ConvertedCurrentPrice": {
+    "value": "50.69",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victoria's Secret 2014 Limited Edition Black Friday Tote with Heavenly Escape Trio Description Material: Black canvas with pink sequin stripes. Lined: Nylon. Large Front Black VS logo. Top zip closure with silver tone VS logo pull. Features Tote includes 3 must-have beauty items - DREAM ANGELS HEAVENLY ESCAPE trio setAngel Touch Lotion - 1 fl ozHEAVENLY Eau De Parfum - 0.9 fl ozAngel Wash - 1 fl ozLarge: 19.5\"L x 14\"H x 5\"W Product Details Shipping Weight: 1.2 poundsUPC: 667536650231 Shipping & Handling Most orders are shipped within one business day with standard shipping and tracking number. Tracking information will be automatically uploaded as soon as the item has been shipped. Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses. We do not ship to AK, HI, PO boxes, or APO addresses. Sales Tax We have order fulfillment centers throughout the US. We are required to charge sales tax in the following states: AlabamaArkansasArizonaCaliforniaColoradoConnecticutDist. of ColumbiaFloridaGeorgiaIowaIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMichiganMinnesotaMissouriMississippiNorth CarolinaNorth DakotaNebraskaNew JerseyNevadaNew YorkOhioOklahomaPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVermontWashingtonWisconsinWest VirginiaWyoming Return Policy All items qualify for returns within 30 days of receipt. Buyer is responsible for return shipping on any item that is not damaged.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "50.69",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple Locations, USA",
+  "Seller": {
+    "FeedbackScore": "8500",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "Green",
+    "UserID": "warehousedeals365"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Victoria's Secret 2014 Limited Edition Black Friday Tote with Heavenly Escape...",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-18T03:37:21.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322255329388080_1.jpg",
+  "TimeLeft": "P14DT10H53M44S",
+  "EndTime": "2017-06-17T03:37:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "NA"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "UPC",
+        "Value": "667536650231"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0667536650231"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332225532938",
+  "Storefront": {
+    "StoreName": "ITWirelessStore",
+    "StoreURL": "http://stores.ebay.com/id=1165817310"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), 15% restock will be changed for all returns.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00QMGJ0FC",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

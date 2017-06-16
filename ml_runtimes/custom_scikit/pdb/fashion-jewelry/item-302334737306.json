@@ -1,0 +1,112 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "MinimumToBid": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "302334737306",
+  "TimeLeft": "P2DT6H7M38S",
+  "ListingStatus": "Active",
+  "Title": "LOT of 14 Assorted Ladies Glamour Fashion Rings Sizes from 6 to 10",
+  "ConditionDescription": "Pre-owned normal wear. Please view all images as they are an important part of the description. Also READ the description below for measurements, condition, etc.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-31T20:39:04.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T20:39:04.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multiple Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LOT-14-Assorted-Ladies-Glamour-Fashion-Rings-Sizes-6-10-/302334737306",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Cherry Hill, New Jersey",
+  "Description": "Mixed lot of 14 Woman's fashion rings. Great for flea markets! Back Row: Left to Right: Silver Tone with mother of pearl & black enamel. Size 6 Silver Tone with marcasites and pale golden dots. Size 7 Silver Tone with white man made cats eye. Size 9-1/4 Silver Tone with pale yellow glass & crystal accents. Size 7 Middle Row: Left to Right: Silver Tone with pear shape cabochon of pink cz with smaller round pink cz accents. Size 10 Silver tone with pear cut blue cz and clear cz accents (some yellowed). Size 9 Silver Tone with golden rope framing cluster of cubic zirconias on the square top. Size 7 Silver Tone with genuine rise quartz cabochon. Size 9-3/4 Two tone Rolling triple band ring. Size 6 Front Row: Left to Right: Silver Tone with oval peach cz and cz accents. Size 10 Silver Tone with oval pink cz and cz accents. Size 10 Gold tone with pear shape blue cz and clear cz accents. Size 7-3/4 Two tone with oval peach cz and ribbed shank. Size 7 Silver tone heart shape with pave set clear cubic zirconias. Size 8 Pre-owned with normal wear. May need polishing and or cleaning. Please view all images as they are an important part of the description. Also READ the description below for measurements, condition, etc. I do not clean jewelry before listings, so the new owner may chose to polish their new item when they receive it. Please note that I have taken many photos (enlarged to show details, see more photos above!) so please take your time and view them all. Due to monitor/screen color variations, actual colors may vary from those displayed. Please click on images to enlarge them. (It will open a new page) New Jersey residents will pay 7% sales tax or provide re-sale tax id. We do not ship outside of the United States of America, sorry.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023347373068080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "8thstsinaijewelry",
+    "FeedbackScore": "13817",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "8th_St_Sinai_Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=11410249"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-5kAAOSwlMFZG18H/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE1NVgxNDYw/z/FUEAAOSwIaFZG18M/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzOVgxNTg5/z/pAkAAOSwPh5ZG17z/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "08003"
+}

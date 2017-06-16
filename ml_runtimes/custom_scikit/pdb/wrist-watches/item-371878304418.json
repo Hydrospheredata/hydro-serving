@@ -1,0 +1,97 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "NWT Vince Camuto Chronograph Silicon Rose GP Wristwatch VC1019BLRG ~ 2-H6045 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-02-27T11:27:36.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI0WDEyODA=/z/fG0AAOSw3v5Yof7d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDU4/z/wDIAAOSw4CFYof7f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc2WDEyODA=/z/JhwAAOSwtfhYof7g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ4WDEyODA=/z/0wIAAOSw2gxYof7h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5OTU=/z/BS4AAOSwWxNYof7j/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMjU5/z/tucAAOSwOgdYof7k/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "119.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Vince Camuto",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "31",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3718783044188080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-27T11:27:36.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "119.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Vince-Camuto-Chronograph-Silicon-Rose-GP-Wristwatch-VC1019BLRG-2-H6045-/371878304418",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "NWT Vince Camuto Chronograph Silicon Rose GP Wristwatch VC1019BLRG ~ 2-H6045",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "371878304418",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P26DT17H32M2S"
+}

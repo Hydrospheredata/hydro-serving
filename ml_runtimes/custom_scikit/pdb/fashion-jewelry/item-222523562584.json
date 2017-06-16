@@ -1,0 +1,80 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P18DT16H6M55S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "44.22",
+    "_currencyID": "USD"
+  },
+  "SKU": "27579397",
+  "ItemID": "222523562584",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Rhodium-Plated-White-Cubic-Zirconia-Studded-Dual-Line-Toe-Ring-/222523562584",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "44.22",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T05:47:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T05:47:01.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Rhodium Plated White Cubic Zirconia Studded Dual Line Toe Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Pave set white tone cubic zirconia accents highlight the elegance and timeless beauty of this dual line open toe ring. Made of sterling silver with rhodium plating.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225235625848080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "shamelstore",
+    "FeedbackScore": "141",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "shamelstore",
+    "StoreURL": "http://stores.ebay.com/id=1419650174"
+  },
+  "Quantity": "1",
+  "Location": "84043",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WXcAAOSwuMZZC4VT/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

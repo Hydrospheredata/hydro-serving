@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "40.0",
+    "_currencyID": "GBP"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182606475700",
+  "TimeLeft": "P4DT5H13M6S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Brooches & Pins",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "GB",
+    "US",
+    "CA",
+    "IE",
+    "AU",
+    "DE",
+    "FR"
+  ],
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lea-Stein-Ric-Terroir-/182606475700",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "51.53",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T18:05:04.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Used",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T18:05:04.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lea Stein",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Terracotta",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Laminated Cellulose  Acetate",
+        "Name": "Material"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Lea Stein Ric The Terroir",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Lea Stein Ric the Terrior pearly terracotta colour with black collar having gold coloured spots and black ears, nose and eye. Very rich colour. V-shaped Lea Stein fastener pin on back. Unusual colour. Lovely condition. Approx measurements 9cm x 5.5cm.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826064757008080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vi46nt50ag2",
+    "FeedbackScore": "421",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Nr. Wolverhampton,, West Midlands",
+  "HitCount": "8",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/h~IAAOSwtGlZNEON/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6x4AAOSwZ4dZNEOY/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "WV6 7AD"
+}

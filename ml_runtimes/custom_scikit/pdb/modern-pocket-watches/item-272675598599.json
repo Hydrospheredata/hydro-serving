@@ -1,0 +1,96 @@
+{
+  "QuantitySold": "0",
+  "Title": "Antique pocket watch with locomotive USSR. CHEAP!",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "70.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "The diameter of 50 mm. Watch is mechanical. Made in the USSR. Needs to be cleaned. Watch working. Original guaranteed. Cm clock status in photos.",
+  "StartTime": "2017-05-17T20:14:59.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM1NFgxNjAw/z/l34AAOSw241YVXcF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTgy/z/dFwAAOSwux5YVXcP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxMVgxNjAw/z/NfMAAOSwEzxYVXcI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwNFgxNjAw/z/c~cAAOSwux5YVXcM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwNlgxNjAw/z/UzQAAOSw44BYVXcy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgyWDE2MDA=/z/T-sAAOSwJ7RYVXcO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ0WDE2MDA=/z/UD4AAOSw44BYVXcX/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "RU",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1950-1959",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "molniya",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "\u041c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f (\u0440\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u043c\u043e\u0442\u043a\u0430)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "18",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "5 cm",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "fotoaleks-7",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "20",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726755985998080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T20:14:59.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "70.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ConditionDescription": "The diameter of 50 mm. Watch is mechanical. Made in the USSR. Needs to be cleaned. Watch working. Original guaranteed. Cm clock status in photos.",
+  "Location": "Kirensk, \u0418\u0440\u043a\u0443\u0442\u0441\u043a\u0430\u044f \u043e\u0431\u043b",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-pocket-watch-locomotive-USSR-CHEAP-/272675598599",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "272675598599",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT1H35M26S"
+}

@@ -1,0 +1,114 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "34.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "222535346975",
+  "TimeLeft": "P9DT15H20M46S",
+  "ListingStatus": "Active",
+  "Title": "Twisted Multi Row Crossover Wire Cuff Bracelet Silver, Copper, Brass BRAND NEW",
+  "ConditionDescription": "Brand new, never worn",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "34.95",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T03:04:12.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T03:04:12.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver, Copper, Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver, Copper, Brass",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gold & Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Silver, Copper, Brass",
+        "Name": "Material"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Twisted-Multi-Row-Crossover-Wire-Cuff-Bracelet-Silver-Copper-Brass-BRAND-NEW-/222535346975",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Silver Spring, Maryland",
+  "Description": "Twisted Multi Row Crossover Wire Cuff Bracelet Silver- Copper-Brass BRAND NEW This multi-colored with varied metals jump out at first glance! Alternating and overlapping silver, copper and brass rows give a stylish and distinct look that goes with any wardrobe. The attractive style is highlighted with silver posts and beautifully compliment any additional jewelry. Questions are welcome anytime. PayPal only and no returns. Thank you for looking! ***VERY IMPORTANT*** This cuff has a very small inside circumference of 5\". Please be sure your wrist will accommodate this item. Two sets of independent crisscrossing rows Three different genuine metals .925 Silver alternating with Copper & Brass No claspSnug slip-on fitOutside circumference measures approximately 6\" Inside circumference measures approximately 5\" from inside post to inside post Please visit my store for more jewelry and many other items by clicking Here",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225353469758080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "c-c2971",
+    "FeedbackScore": "227",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "DVDs Books Electronics Collectibles",
+    "StoreURL": "http://stores.ebay.com/id=1377044754"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1MlgxNDU3/z/aHwAAOSw9IpXy4X1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/D2QAAOSwFe5Xy4XT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTcxWDE2MDA=/z/uB4AAOSwGtRXy4WK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODU3WDE2MDA=/z/QqAAAOSwFV9Xy4WQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzMlgxMzE5/z/tSEAAOSwOdpXy4Xp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTU0/z/GpkAAOSw-kdXy4ZG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzM1gxMzc2/z/Q1AAAOSwFV9Xy4Wd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQzNVgxNjAw/z/EJAAAOSw-kdXy4Wn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE0MFgxMjU3/z/Zv8AAOSw9IpXy4Xd/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "20916"
+}

@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/nX8AAOSwRUhY-WIm/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/shEAAOSw3ZRY-WIn/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/xYEAAOSwJ4hY-WIo/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTQ0WDgwMA==/z/LU0AAOSwE0JY-WIp/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTQ1WDgwMA==/z/M8gAAOSwIWVY-WIq/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/ZPoAAOSwBOtY-WIr/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTQ0WDgwMA==/z/13kAAOSwHptY-WIs/$_12.JPG",
+    "http://i.ebayimg.com/00/s/NTUwWDgwMA==/z/6IIAAOSwuspY-WIt/$_12.JPG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Universal-Fitting-PVC-Motorcycle-Saddlebag-/232308650748",
+  "ConvertedCurrentPrice": {
+    "value": "142.21",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "PVC Motorcycle Saddlebag This motorcycle saddlebag features heavy duty quick release, and it is 100% water resistant. The 4 tie down ribbons on each side allow for extra security of the studded saddlebag. The bad holds its shape and it is UV protected. 0: Dimensions - 15.25' x 7.25' x 10' 1: Zip off bag with heavy duty Velcro Cover and Lock 2: Universal Fitting 3: Includes a Hard Sheet Inside the box with 4 Pockets 4: Heavy Duty Quick Release 5: 100% Waterproof 6: 4 Tie-Down ribbons on each side for Extra Security Fit 7: UV Protected and will Not Turn white in Extreme Heat 8: Bag Holds its Shape 9: Life Time Warranty 10: Not a cooler bag. Not intended to use with water & ice 11: Shipping weight 21.5 pds",
+  "Title": "Universal Fitting PVC Motorcycle Saddlebag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "142.21",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169298",
+  "Location": "Independence, Kentucky",
+  "Seller": {
+    "FeedbackScore": "374",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "rcw60"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "41051",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-21T01:36:47.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P17DT8H35M18S",
+  "EndTime": "2017-06-20T01:36:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Universal"
+      },
+      {
+        "Name": "MPN",
+        "Value": "SD4079-PV"
+      },
+      {
+        "Name": "Model",
+        "Value": "SD4079-PV"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232308650748",
+  "Storefront": {
+    "StoreName": "Worleybird+Sales",
+    "StoreURL": "http://stores.ebay.com/id=59192886"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2323086507488080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

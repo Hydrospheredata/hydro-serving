@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225380020458080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzk2WDEwMDA=/z/cj0AAOSwtnpXo1ad/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTE4WDEwMDA=/z/SXwAAOSw3xJXo1aL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFg0NTY=/z/QCoAAOSwbsBXo1aO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODUyWDEwMDA=/z/HLgAAOSwIgNXo1aQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/HO8AAOSwIgNXo1aS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg4WDEwMDA=/z/d9AAAOSwqfNXo1aT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/GnMAAOSwZVlXo1aX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzU5WDk5NQ==/z/QMoAAOSwt7ZXo1aZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/QboAAOSwt7ZXo1ae/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Full-Grain-Leather-Briefcase-Attache-Brown-Calfskin-Leather-142181BROWN-/322538002045",
+  "ConvertedCurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This leather briefcase is made in Italy by Floto with full grain vegetable tanned Brown calfskin leather. Very important -- this leather briefcase has a solid brass precision luxury lock -- to operate this lock please see the last image - many customers do not understand how to open this bag when they receive it. Features:12\" h x 5 \" w x 16\" lItalian Polished Calfskin LeatherDetachable Shoulder Strap (42-48\")Brass HardwareBack Pocket - 15\" x 9.5\"Leather Zip Pouch - 8 \" x 7\"Front Gusset Pocket - 9\" x 12.5\"Weight 2.5 Pounds Google Floto leather bags online for more product information, styles, and colors.",
+  "Title": "Full Grain Leather Briefcase / Attache in Brown Calfskin Leather (142181BROWN)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "3246",
+    "PositiveFeedbackPercent": "94.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "flotostore"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU",
+    "ZA",
+    "NZ"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10014",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T21:23:45.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P8DT6H29M32S",
+  "EndTime": "2017-06-10T21:23:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Floto"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Full Grain Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322538002045",
+  "Storefront": {
+    "StoreName": "Floto Leather Bags",
+    "StoreURL": "http://stores.ebay.com/id=9052005"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "We refund the high bid - $10 : the $10 covers our eBay selling fees. Unfortunately eBay does not reimburse sellers their listing fees for returns which is why most auctions are final - we accept returns minus the listing fee.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "142181BROWN",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

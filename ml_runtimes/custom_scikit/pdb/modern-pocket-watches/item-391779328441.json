@@ -1,0 +1,99 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "94565",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "this is a brand new pocket watch by Westminster my husband got as a gift a few years back but its been sitting in the giftbox ever since (he doesnt use watches) From the Wildlife collection with original papers I am not sure if the battery is working as it has been sitting awhile",
+  "StartTime": "2017-05-09T16:46:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PxAAAOSwCGVX8qXy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i3kAAOSwmLlX8qX1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WrYAAOSwNRdX8qX4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KzUAAOSwYIxX8qX7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K3YAAOSwYIxX8qX9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GnYAAOSw8w1X8qYA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G~EAAOSwzaJX8qYD/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Westminster",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "silver",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "womensandjuniorsclothingetc",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "15496",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917793284418080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T16:46:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "No refund on intimates.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Westminster-Quartz-Pocket-Watch-w-Deer-Case-Brand-new-/391779328441",
+  "Location": "Pittsburg, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Westminster Quartz Pocket Watch w/Deer On Case ~ Brand new",
+  "Storefront": {
+    "StoreName": "auctionsbyangela",
+    "StoreURL": "http://stores.ebay.com/id=2241835"
+  },
+  "ItemID": "391779328441",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT22H3M49S"
+}

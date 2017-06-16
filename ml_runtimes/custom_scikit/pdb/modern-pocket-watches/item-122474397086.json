@@ -1,0 +1,68 @@
+{
+  "QuantitySold": "0",
+  "Title": "Kansas City Railroad Pocket Watch",
+  "PostalCode": "48101",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Kansas City Railroad Pocket Watch from the American Historic Society. New in box never used. 1 3/4\" round.",
+  "StartTime": "2017-05-02T00:02:55.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/j-EAAOSw~y9ZB8uX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/QtwAAOSwCQZZB8ub/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Dn0AAOSwrhBZB8uj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/ks0AAOSw~y9ZB8up/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "joecee50",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "217",
+    "PositiveFeedbackPercent": "0.0"
+  },
+  "HitCount": "25",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224743970868080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-01T00:02:55.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "16.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Return Policy: 14 day Money Back Guarantee, Buyer pays for return shipping",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kansas-City-Railroad-Pocket-Watch-/122474397086",
+  "ConditionDescription": "New",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Allen Park, Michigan",
+  "Storefront": {
+    "StoreName": "Gypsi Joe s Treasure Trove",
+    "StoreURL": "http://stores.ebay.com/id=479847600"
+  },
+  "ItemID": "122474397086",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT5H17M26S"
+}

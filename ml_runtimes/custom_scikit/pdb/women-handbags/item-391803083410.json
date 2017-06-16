@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/EcwAAOSwtGlZCd8f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/rYsAAOSwnONZCd8x/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/OJoAAOSwhvFZCd9G/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/tS4AAOSwcgNZCd9W/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/6mgAAOSwjqVZCd9t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/3lUAAOSwX61ZCd9-/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/STUART-WEITZMAN-BLACK-LEATHER-SHOULDER-BAG-PURSE-NWT-NEW-/391803083410",
+  "ConvertedCurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "brand new black leather purse. 100% authentic it has gold tone Hardware with one interior zipper pocket and a large slit pocket with animal print fabric inside very elegant bag in great condition never use",
+  "Title": "STUART WEITZMAN BLACK LEATHER SHOULDER BAG PURSE NWT NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Clarksville, Tennessee",
+  "Seller": {
+    "FeedbackScore": "2262",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "milkshake5150"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37043",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:51:03.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT23H46M1S",
+  "EndTime": "2017-07-02T13:51:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Stuart Weitzman"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "13\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "14\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391803083410",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Will accept refund if item is not represented correctly in the auction",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3918030834108080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

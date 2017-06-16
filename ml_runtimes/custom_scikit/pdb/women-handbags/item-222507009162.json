@@ -1,0 +1,78 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg5WDU4Ng==/z/wzkAAOSwH09ZE499/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg5WDU0NA==/z/erwAAOSwblZZE499/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg5WDQ1OA==/z/SxoAAOSwhvFZE499/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Bumble-Collection-Bow-Sequin-Tote-Diaper-Bag-/222507009162",
+  "ConvertedCurrentPrice": {
+    "value": "57.36",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a Brand New Diaper Bag. The sequins are in a Gold Accent color, very cute. Item Description: *Reinforced sequin embellishment *Top zipper closure *Padded short strap *Built-in stroller straps *Dual exterior side pockets *Changing pad included *Multiple pockets *Water and stain resistant *English linen exterior *Eco-friendly faux leather trim *100% Polyester interior *Comfortable shoulder straps *2 dual exterior pockets *2 interior flat pockets Dimensions: 21\"W x 13.5\"H x 5\"L",
+  "Title": "NEW Bumble Collection* Bow Sequin Tote* Diaper Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.36",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Santee, California",
+  "Seller": {
+    "FeedbackScore": "20",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "thisandthatseller2008"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92071",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T22:17:50.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P7DT6H51M42S",
+  "EndTime": "2017-06-09T22:17:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "The Bumble Collection"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "English Linen Exterior"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222507009162",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225070091628080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

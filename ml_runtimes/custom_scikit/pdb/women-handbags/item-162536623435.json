@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eK0AAOSwnONZB7oE/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VpsAAOSwhvFZB7oG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/k~oAAOSwt0FZB7oJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/J8cAAOSww9xZB7oL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NmAAAOSwrhBZB7oN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V~cAAOSwhvFZB7oP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/OEsAAOSw42dZB7oR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/uJoAAOSwlndZB7oT/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Coach-Handbag-/162536623435",
+  "ConvertedCurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a beautiful Coach Bag. It is in excellent condition. Does not look used. No. M0768-11798 It is straw with natural leather trim. 11\"H 13\"W Handle 9\" Faux buckle with magnetic closure. Leather flower & Coach embroidered underneath. One side of bag has a zipper compartment. The other side has 2 slip pockets.",
+  "Title": "Authentic Coach Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "250.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Little Falls, New Jersey",
+  "Seller": {
+    "FeedbackScore": "89",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "onofrioc2012"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07424",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T23:09:11.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P5DT7H20M53S",
+  "EndTime": "2017-06-07T23:09:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Type",
+        "Value": "Strap/Handle"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Straw"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162536623435",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625366234358080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

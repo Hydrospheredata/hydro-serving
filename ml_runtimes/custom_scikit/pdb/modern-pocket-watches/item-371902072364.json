@@ -1,0 +1,75 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "Limited Edition Lionel Pocket Watch 2000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Limited Edition Lionel Pocket Watch 2000 Description Unused watch, will need a new battery, but has only been removed from the box to photograph. In perfect condition. Check out the photos! Payment Payment due within 7 days of auction close. Paypal only. Shipping All items will be shipped securely, usually within 24 hours. Large items may take longer. Combined shipping is available. A combined invoice will be sent at auction close. Please wait until invoice has bee received before making payment.",
+  "StartTime": "2017-03-25T00:59:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0~IAAOSwol5Y1cDo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8MwAAOSwB-1Y1cDo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qjUAAOSwmgJY1cDo/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "4d-collectibles",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4903",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3719020723648080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T00:59:14.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "z636011490918282028-635984766201406138",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Beavercreek",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Limited-Edition-Lionel-Pocket-Watch-2000-/371902072364",
+  "Storefront": {
+    "StoreName": "4d-collectibles",
+    "StoreURL": "http://stores.ebay.com/id=1095917959"
+  },
+  "ItemID": "371902072364",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT6H9M42S"
+}

@@ -1,0 +1,91 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "440.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "440.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694667030",
+  "HandlingTime": "1",
+  "Description": "Rado Starliner Daymaster Automatic Black & White Swiss Automatic Description: up for sale is a collectors Rado in great condition.this watch is working and had been serviced late 2015 Manufacturer: Rado Movement: Automatic Case Metal: Stainless steel Size: without the crown: 38.5mmwith the crown: 40.5mmlug to lug: 42.7mm Circa: 1960s Band: Leather About me:Lifelong watch collector with a passion for vintage watches. Collects, repairs and restores classic watches.This watch comes out of my Private collection.Shipping WorldWide.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Elegant Rado Starliner Daymaster Automatic Black & White Swiss Automatic 1960s",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elegant-Rado-Starliner-Daymaster-Automatic-Black-White-Swiss-Automatic-1960s-/272694667030",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726946670308080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODI4WDczNg==/z/vrgAAOSwIgNXqwgw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDc5Mg==/z/qIQAAOSwgZ1XqwhE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/WnAAAOSwRoxXmnO3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg4WDg4NA==/z/bf4AAOSw6n5Xqwhf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/4AEAAOSwuAVWzFnX/$_57.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "440.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

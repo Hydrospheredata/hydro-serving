@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "90.01",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "BURY ST EDMUNDS, Suffolk",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:52:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck",
+    "PaymentSeeDescription"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=213079470",
+    "StoreName": "myretrowatches"
+  },
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:52:15.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "RU",
+    "IL"
+  ],
+  "ItemID": "132211082145",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Revue",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Satin Chrome Plated Metal",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "1970s",
+        "Name": "Age"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Vulcain Revue Mechanical Ladies Bracelet Watch NOS 1970s New Old Stock",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Vulcain-Revue-Mechanical-Ladies-Bracelet-Watch-NOS-1970s-New-Old-Stock-/132211082145",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322110821458080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "IP31 2DX",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H46M47S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/sB8AAOSwAPlXgiOn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xQ4AAOSwRgJXgiOd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/9I8AAOSwanRXgiOf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xeoAAOSwRgJXgiOl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/YDoAAOSwv9FXgiO2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/XvwAAOSwv9FXgiOq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/b6AAAOSw7XZXgiO6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/C3AAAOSwyKxXgiOx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/C3QAAOSwYSlXgiOT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/CuMAAOSwddNXgiOZ/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Untitled Document",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "12972",
+    "UserID": "myretrowatches",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

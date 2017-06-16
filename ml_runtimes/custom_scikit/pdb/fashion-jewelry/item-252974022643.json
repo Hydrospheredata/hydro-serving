@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT11H42M48S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.7",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252974022643",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Necklace-and-bracelet-Lee-Sands-pale-pink-simulated-pearls-36-and-7-/252974022643",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.7",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T23:30:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T23:30:45.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lee Sands",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Simulated pearls",
+        "Name": "Material"
+      },
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "Necklace and bracelet, Lee Sands pale pink simulated pearls, 36\" and 7\"",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Purchased 12 years or more ago. Does not appear to have been worn",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529740226438080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "c-c-mcque",
+    "FeedbackScore": "295",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Wallingford, Connecticut",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V20AAOSw4YdYyqTq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qMcAAOSw32lYyqTf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/C1EAAOSwdGFYyqTS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/u5kAAOSwuLZYyqYv/$_1.PNG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "06492"
+}

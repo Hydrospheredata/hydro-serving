@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDU2NQ==/z/Tb0AAOSw-0xYVXFl/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Q0UAAOSwA3dYVXCP/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RPQAAOSwA3dYVXCZ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qWEAAOSwux5YVW~s/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z4kAAOSwo4pYVXCm/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CVUAAOSwnHZYVXC0/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/avAAAOSwJ7RYVXDQ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EtgAAOSwImRYVXC8/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DBkAAOSwnHZYVXDD/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9HkAAOSw2xRYVXDI/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z~IAAOSwa~BYVXAM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/HbYAAOSwGJlZIRkw/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-BVLGARI-KARUNG-NAPPA-WATERFALL-SERPENTI-TOTE-BAG-MEDIUM-RETAIL-4550-/252969819509",
+  "ConvertedCurrentPrice": {
+    "value": "3600.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW BVLGARI/BULGARI WATERFALL GREEN / WHITE MAGNOLIA KARUNG / NAPPA MEDIUM SERPENTI TOTE BAG SNAKESKIN AND LEATHER TOTE BAG The Serpenti Tote features snake handles made in enamel on a palladium plated or brass light gold plated body, depending on the material of the bag. Same with the Serpenti Flap, it also comes with a snake charm as seen on the zipper pull of the bag. It includes an adjustable shoulder strap and two zipped compartments. The bag is spacious with various internal pockets. 12\u201d x 10.2\u201d x 5.5\u201d RETAIL $4550 RARE!",
+  "Title": "NWT BVLGARI KARUNG/NAPPA WATERFALL SERPENTI TOTE BAG IN MEDIUM RETAIL $4550",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "3600.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Hoboken, New Jersey",
+  "Seller": {
+    "FeedbackScore": "303",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "tiger5404"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07030",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T02:50:28.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT12H40M44S",
+  "EndTime": "2017-07-02T02:50:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "bulgari/bvlgari"
+      },
+      {
+        "Name": "Style",
+        "Value": "shoulder bag/ top handle bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Snakeskin/Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "green / white"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10.2\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.5\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252969819509",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529698195098080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

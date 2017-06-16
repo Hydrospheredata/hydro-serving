@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P13DT6H21M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "46.86",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142388348392",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SILPADA-925-Sterling-Silver-3-Necklace-Extender-N2714-NIB-/142388348392",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.86",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T21:29:41.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T21:29:41.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces Extender",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "3 inches",
+        "Name": "Length"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SILPADA .925 Sterling Silver 3\" Necklace Extender N2714 NIB",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "0 false 18 pt 18 pt 0 0 false false false Go to my store found_treasuresjj where you can view my complete list of Silpada jewelry and sign up for my NEWSLETTER to see my newest listings and sales.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423883483928080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "found_treasuresjj",
+    "FeedbackScore": "385",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "found_treasuresjj",
+    "StoreURL": "http://stores.ebay.com/id=650869551"
+  },
+  "Quantity": "1",
+  "Location": "Columbus, New Jersey",
+  "HitCount": "16",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTg1/z/zQcAAOSwn7JYFmem/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1fcAAOSwn7JYFmfr/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/T3wAAOSwo4pYFmcs/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UNkAAOSw5cNYFmdj/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "08022"
+}

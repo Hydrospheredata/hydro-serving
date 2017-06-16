@@ -1,0 +1,64 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "46835",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Offered is an antique Elgin 3/0 size 7 jewel gold filled pendant watch for restoration parts or repurposing. The movement does run a bit when the balance is manually engaged. Payment thru paypal and buyer pays $4 for USA shipping with delivery confirmation or $14 for international airmail shipment. Florida buyers pay 7% sales tax. I do combine multiple purchases to save you money on shipping.\u00a0 Thanks and good luck!",
+  "StartTime": "2017-05-31T00:45:08.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTQwMFgxNDI5/z/vPsAAOSwjL5ZH1WB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI2NFgxMzkx/z/tQUAAOSwhvFZH1WD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/yocAAOSw-3FZH1WY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA1NVgxNTA0/z/o7UAAOSw~FJZH1WZ/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "tiqman",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16959",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423996768268080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-30T00:45:08.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ANTIQUE-ELGIN-3-0S-7J-GOLD-FILLED-PENDANT-WATCH-/142399676826",
+  "Location": "Fort Wayne, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ANTIQUE ELGIN 3/0S 7J GOLD FILLED PENDANT WATCH",
+  "Storefront": {
+    "StoreName": "Tiqman&#39;s Trinkets",
+    "StoreURL": "http://stores.ebay.com/id=135091"
+  },
+  "ItemID": "142399676826",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT6H11M22S"
+}

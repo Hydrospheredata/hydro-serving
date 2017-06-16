@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg5NTc=/z/To8AAOSww5hZFqS1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5NTg=/z/s1gAAOSwH09ZFqS8/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/baggu-backpack-leather-mint-green-nwt-/352073353618",
+  "ConvertedCurrentPrice": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Baggu Leather backpack Mint green New with tags Retails $280",
+  "ConvertedBuyItNowPrice": {
+    "value": "225.0",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Seattle, Washington",
+  "Seller": {
+    "FeedbackScore": "1121",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "monkeytrash32"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "165.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "98109",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T17:35:44.000Z",
+  "HitCount": "21",
+  "TimeLeft": "P4DT2H44M24S",
+  "EndTime": "2017-06-06T17:35:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Green"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "baggu"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "352073353618",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Title": "baggu backpack leather mint green nwt",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520733536188080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

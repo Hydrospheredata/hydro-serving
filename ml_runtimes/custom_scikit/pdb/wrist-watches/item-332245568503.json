@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "144.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:42:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "144.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:42:36.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245568503",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New MICHAEL KORS MK6245 Kinley Pave Glitz Swarovski Brown Sable Ion-Plated Watch",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-MICHAEL-KORS-MK6245-Kinley-Pave-Glitz-Swarovski-Brown-Sable-Ion-Plated-Watch-/332245568503",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322455685038080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H16M51S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE3Nlg2NTg=/z/xC0AAOSwo4pYfEqR/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Description: \u2028 In a completely unique gleaming sable finish, this exquisite piece from the Michael Kors Kinley collection is a must-have. \u2028 Sable ion-plated stainless steel bracelet. \u2028 Round case, 43mm. \u2028 Brown pav\u00e9 dial with two brown hands and Michael Kors logo. \u2028Box not included Quartz movement. \u2028 Water resistant to 50 meters. \u2028 Imported.",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

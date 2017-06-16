@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Morden",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:18:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T10:18:14.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "311885267976",
+  "HandlingTime": "3",
+  "Description": "THIS VINTAGE TIMEX, IS SMALL IN SIZE, MEASUREMENTS,30MM APPROX.WIDTH.THE WATCH PLEXI NEEDS REPLACING, EASY \\& NOT DEAR.THE BLACK DIAL, HAS A 24 DIAL.WITH RED CENTER SECONDS HAND.THERE ARE NUMBERS AT 6 OCLOCK ON THE DIAL,23/72/ 24 73.THIS WATCH IS SOLD AS SPARES/ REPAIR.PLEASE SEE ALL PHOTOS.THIS WATCH WILL I FEEL BE A WORTHWHILE PROJECT.HAPPY TO ANSWER ANY QUESTIONS.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE TMEX WATCH.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-TMEX-WATCH-/311885267976",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118852679768080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "sm46jg",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H54M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/VfIAAOSw5cRZLpY-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/4fMAAOSwEHpZLpZS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/jN4AAOSw42dZLpZh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/CdgAAOSwfRdZLpZv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/65kAAOSw0hlZLpZ5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/wO8AAOSwcB5ZLpaD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/SzsAAOSwCQZZLpaQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/f4IAAOSwblZZLpab/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/GqYAAOSwX9FZLpar/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/yEsAAOSwDiBZLpa2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/o6MAAOSw~FJZLpbB/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "2102",
+    "UserID": "the-good-buy",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwNFgxMzc2/z/DhoAAOSw9IpXxGxR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwNFgxNDEw/z/Ej4AAOSwMgdXxGxW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4N1gxMzY1/z/3dcAAOSwdIFXxGxc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM4NlgxNDI1/z/rGEAAOSwFe5XxGxi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CYkAAOSw5ClXxGxs/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kai-Wayuu-mochila-bag-/122529436756",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Hand wash, cold water, do not bleach, lay flat for drying.",
+  "Title": "\"Ka'i\" Wayuu mochila bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Orlando, Florida",
+  "Seller": {
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "wayuuhandsbags"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32822",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:54:20.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT21H40M35S",
+  "EndTime": "2017-07-02T11:54:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "\"Handmade\""
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Colombia"
+      },
+      {
+        "Name": "colors",
+        "Value": "Vibrant yellow, fucsia, purple and light blue"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.5 Inches aprox"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "8.5 Inches aprox"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "36 Inches aprox"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122529436756",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All our Mochila Bags are shipped from United States to any country after your payment is succesfully accepted.\u00a0\n\nFree shipping within the United States with\u00a0USPS priority mail\u00a0which generally takes 1-3 business days to arrive.\u00a0\u00a0\n\nInternational shipping: We ship your packages with USPS which generally takes 10-15 business days to arrIve and with International\u00a0economy shipping may take up to 4 weeks.\u00a0\n\n\u00a0Wayuu Hands wants client satisfaction.\u00a0If we make a mistake packing your order, or if the description is materially different than the item you receive, please contact us and we will fix the problem at no additional cost to you.\u00a0We will accept returns only for faulty or damaged items. Please be sure about the item before purchase. We do not accept any returns if you have changed your mind.\n\nWe will issue a refund for what you paid for the item minus shipping fees and a 10% restocking fees. This fee wont be cashed\u00a0if you are returning an item that was received damaged or defective.\n\nYour mochila bag could have\u00a0colors slightly different than what you were expecting, this does not qualify as defective, as many different factors affect how the colors shows.",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225294367568080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

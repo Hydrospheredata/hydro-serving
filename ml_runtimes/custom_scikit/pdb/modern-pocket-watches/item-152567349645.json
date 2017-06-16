@@ -1,0 +1,154 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "HandlingTime": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BDoAAOSw8HBZE4sr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/80IAAOSwAPVZE4sy/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1750",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "Storefront": {
+    "StoreName": "joemess1",
+    "StoreURL": "http://stores.ebay.com/id=3220302"
+  },
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "joemess1",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1960",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-31T02:03:08.000Z",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "NewBestOffer": "false",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "Title": "Xanadu Quartz Compass Clip On Watch - NOS",
+  "Quantity": "1",
+  "ItemID": "152567349645",
+  "PaymentMethods": "PayPal",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Xanadu-Quartz-Compass-Clip-Watch-NOS-/152567349645",
+  "Country": "US",
+  "PostalCode": "07726",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "New with defects",
+  "Description": "Xanadu Quartz Compass Clip On Watch - This is new old stock - Watch and compass are working fine. Has a light (not working), may need a new battery. Some minor scratches (see picture). Stainless Steel Back.",
+  "HitCount": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Charity": {
+    "DonationPercent": "20.0",
+    "CharityID": "88203",
+    "CharityNumber": "75809",
+    "LogoURL": "http://i.ebayimg.com/images/g/2Z4AAOSwdGxXImrM/s-l1600.jpg",
+    "Status": "Valid",
+    "Mission": "Hope and Heroes funds the life-saving work on childhood cancer and blood disorders at Columbia University Medical Center, including cutting-edge research, support for families, and care that always puts children first.",
+    "CharityName": "Hope & Heroes"
+  },
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "PrimaryCategoryID": "3938",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Compass",
+        "Name": "Features"
+      },
+      {
+        "Value": "Xanadu",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525673496458080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-10T02:03:08.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Englishtown, New Jersey",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "TimeLeft": "P9DT7H29M55S"
+}

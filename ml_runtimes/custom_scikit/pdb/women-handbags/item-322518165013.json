@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTM2WDEwMjQ=/z/Z~kAAOSw-vlVhyrq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwM1gxNjAw/z/3ZwAAOSwgQ9VhzdC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/VuAAAOSwPcVVhzdQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzMFgxNjAw/z/yx4AAOSwyQtVhzdV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P~EAAOSw9N1VhzdG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk0/z/QCkAAOSw9N1VhzdL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/amEAAOSw~gRVhzda/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExNlgxNjAw/z/aooAAOSw~gRVhzde/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OgUAAOSwjVVVhzdj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5MTQ=/z/Pf8AAOSwMmBVhyrt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/hDcAAOSwDNdVhyrr/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-495-Coach-Signature-Multifunction-Diaper-Laptop-Baby-Bag-Brown-Black-F35414-/322518165013",
+  "ConvertedCurrentPrice": {
+    "value": "289.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT $495 Coach Signature Multifunction Diaper Laptop Baby Bag in Brown Black F35414 Signature coated canvas with leather trim Inside zip and multifunction pockets Zip top closure, fabric lining Outside open pockets Baby changing pad included Handles with 9.5\" drop Removable strap for shoulder or crossbody wear 17\" L x 11.75\" H x 7\" W 100% Authentic Coach - new with tag Comes with Coach care card Payment is due within 2 days after end of sale.Item will be packaged and shipped within 1 business day after receiving cleared payment. Tracking number will be provided. International Buyers - Please note:Any import duties/taxes incurred (charged by your country if any) are the buyer's responsibility. Thanks for looking! View more great items",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "289.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Sunnyvale, California",
+  "Seller": {
+    "FeedbackScore": "348",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "time2goal"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94087",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-15T22:53:34.000Z",
+  "Title": "NWT $495 Coach Signature Multifunction Diaper Laptop Baby Bag Brown Black F35414",
+  "TimeLeft": "P12DT7H28M34S",
+  "EndTime": "2017-06-14T22:53:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Coated Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown/Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322518165013",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All items must be returned in the NEW condition with all original packaging including attached tag, box, and/or bag within 14 days of delivery.  \n\n*Refund will be equal to the total purchase price LESS 10% restocking fee and original shipping.*\n \nPlease allow 3-5 business days for your return to be processed upon arrival.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225181650138080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

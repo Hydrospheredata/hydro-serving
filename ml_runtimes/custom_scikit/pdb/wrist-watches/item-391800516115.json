@@ -1,0 +1,136 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Cambridge",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:15:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T13:15:46.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Wrap-Around Strap",
+        "Name": "Strap Type"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "391800516115",
+  "HandlingTime": "1",
+  "Description": "Brushed steel/silver coloured watch Needs new battery Please check out my other items. I offer combined postage for multiple purchases, so if you buy more than one item, make sure to request total or wait for my invoice before you check out. For security reasons, I can only offer signed for / tracked delivery. If you wish to negotiate a different delivery type, please let me know before you check out and pay, but please note I will not be able to refund untracked items that may become lost. I strive to provide the best service possible and I hope you are happy with your purchase. However, I understand that problems sometimes do arise; if that is the case, please get in touch with me before you leave feedback to allow me to rectify the issue",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Brushed Steel/silver Coloured Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brushed-Steel-silver-Coloured-Watch-/391800516115",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3918005161158080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H2M34S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/-gcAAOSwlY1ZLsFF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/ZPoAAOSwblZZLsFH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/HygAAOSwZ4dZLsFI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/eKYAAOSwxu5ZLsFJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/bNcAAOSwGJlZLsFL/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "2.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "1727",
+    "UserID": "ashmacbash",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1280.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Meguro, Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:15:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1280.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:15:51.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BALL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942512348",
+  "HandlingTime": "3",
+  "Description": "Band color: silver typeCase shape: round (circle)Dial color: white seriesDial: analogBand Type: Metal BandMovement: Automatic windingCalendar function available 1 year warranty by J_Watch_Shop. Ship from Japan by japan Post EMS, and it will take 4-7 days for you to receive it.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BALL-Watch-Mens-Engineer-2-NM1020C-S4J-WH-/201942512348",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019425123488080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H2M30S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/1g0AAOSwSlBY2OXN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/9oEAAOSwhQhY2OXR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/WmMAAOSw4A5Y2OXU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/gGMAAOSw4CFY2OXY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/gcwAAOSwdGFY2OXb/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "BALL Watch Mens Engineer 2 NM1020C-S4J-WH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "time_japan",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We receive returns if items are in the same condition as received and include all documentation, packaging and any other addition originally shipped."
+  }
+}

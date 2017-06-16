@@ -1,0 +1,187 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "47.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "North Weymouth, Massachusetts",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:03:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=724405085",
+    "StoreName": "Rich Uncle&#39;s Attic"
+  },
+  "CurrentPrice": {
+    "value": "47.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:03:15.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "SHARP NEW MENS TIMEX VINTAGE MILITARY AVIATOR TYPE CHRONOGRAPH WATCH",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "SG",
+    "TW",
+    "TH",
+    "VN",
+    "MX",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "KI",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "GG",
+    "HU",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA"
+  ],
+  "ItemID": "382108933448",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Light",
+          "INDIGLO",
+          "Water Resistant",
+          "Date",
+          "Easy To Read",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Fabric",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "2000-Now",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SHARP NEW MENS TIMEX VINTAGE MILITARY AVIATOR TYPE CHRONOGRAPH WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SHARP-NEW-MENS-TIMEX-VINTAGE-MILITARY-AVIATOR-TYPE-CHRONOGRAPH-WATCH-/382108933448",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821089334488080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "02191",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT16H32M17S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQ3WDEyODA=/z/MYcAAOSwEetV804L/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ3WDEyODA=/z/MYcAAOSwEetV804L/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "47.5",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5652",
+    "UserID": "twinboom781",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

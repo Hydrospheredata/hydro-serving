@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1RUAAOSwlMFZIdd~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OUoAAOSwBt5ZIdcZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7NYAAOSwH09ZIdcd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qbIAAOSwDiBZIdci/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vsgAAOSw8HBZIdeE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-QsAAOSw42dZIdeI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MNwAAOSw5cRZIdct/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6zQAAOSwaEhZIdcx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7fYAAOSwH09ZIdc1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9hMAAOSw42dZIdc5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tI4AAOSwX9FZIdc9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Gl4AAOSws5pZIddB/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Large-Leather-Black-Shoulder-Bag-/222532633347",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Large handbag with silver hardware. Outside has one large pocket, inside has two smaller and one large zipped pocket. The bag is in very good condition, no scratches, etc. The only thing is that the strap, right about where you'd hold it on the top has damage to it (see last picture), that is hard to see, and doesn't really hinder wearing the bag in any way. The bag is overall clean.",
+  "Title": "Coach Large Leather Black Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Huntley, Illinois",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "208",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "burzapawe"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "60142",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:05:17.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P9DT22H56M35S",
+  "EndTime": "2017-06-12T13:05:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15.5in"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12in"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "Width: 2.7in"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "10in"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532633347",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225326333478080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

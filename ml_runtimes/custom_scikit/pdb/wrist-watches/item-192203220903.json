@@ -1,0 +1,247 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:34:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "10.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:34:06.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "2061434",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Relogio Feminino Woman Watches 2016 Brand Luxury Watch PU Leather Bracelet $10.77 Item Type: Quartz Wristwatches Case Shape: Round Style: Dress Model Number: GG7828 Feature: Repeater,Multiple Time Zone Gender: Women Band Material Type: PU Band Width: 6 mm Case Material: Alloy Boxes & Cases Material: No package Movement: Quartz Clasp Type: Hidden Clasp Brand Name: malloom Water Resistance Depth: No waterproof Dial Diameter: 22 mm Band Length: 56 cm Dial Window Material Type: Hardlex Case Thickness: 5 mm Watch: Women Watches Watch Women: Watches Ladies Watch: Women Watch Clock: Woman Watch Watches Women Fashion Watch 2016: Woman Watches Wristwatch: Womens Watches Wrist Watches For Women: relogio feminino reloj mujer: montre femme Wristwatches: Quartz Watch Watch Woman: Watches Woman \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Relogio-Feminino-Woman-Watches-2016-Brand-Luxury-Watch-PU-Leather-Bracelet-/192203220903?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "10.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2061434-red",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2061434-red",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Red",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "10.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2061434-blue",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2061434-blue",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Blue",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "10.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2061434-black",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2061434-black",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Black",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "10.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2061434-brown",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2061434-brown",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Brown",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "10.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2061434-pink",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2061434-pink",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Pink",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "2061434-black",
+            "2061434-blue",
+            "2061434-brown",
+            "2061434-pink",
+            "2061434-red"
+          ],
+          "Name": "MPN"
+        },
+        {
+          "Value": [
+            "Black",
+            "Blue",
+            "Brown",
+            "Pink",
+            "Red"
+          ],
+          "Name": "Color"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-137480125.jpg?v=1487797021"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-137480120.jpg?v=1487797021"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-137480118.jpg?v=1487797021"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-137480122.jpg?v=1487797021"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-137480124.jpg?v=1487797021"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "ItemID": "192203220903",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H11M5S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/I1sAAOSw7GRZLpwh/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Relogio Feminino Woman Watches 2016 Brand Luxury Watch PU Leather Bracelet",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

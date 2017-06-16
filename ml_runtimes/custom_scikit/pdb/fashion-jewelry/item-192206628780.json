@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "Description": "Only if item is not as described",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "192206628780",
+  "TimeLeft": "P8DT7H5M44S",
+  "ListingStatus": "Active",
+  "Title": "Kirks Folly Fairy Riding Dragon FlyWith Crystal And Enamel Wings Silver Tone",
+  "ConditionDescription": "Excellent Condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-03T20:08:18.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-13T20:08:18.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kirks Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Silver Tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kirks-Folly-Fairy-Riding-Dragon-FlyWith-Crystal-And-Enamel-Wings-Silver-Tone-/192206628780",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "South River, New Jersey",
+  "Description": "What a lovely Kirks Folly brooch with the fairy sitting on the back of a dragonfly that had wings with two rolls of crystal down all four wings. She is sitting pretty with her wings blending into the back ground. She was holding a silver rope with beads on it and a silver flower. The dragonfly has royal blue eyes. Thank you for your interest ! Please review the photo carefully and feel free to contact me with any questions as the pictures are part of the description. Please note that I have described the item to the best of my ability and all measurements are approximate. I accept PayPal only and at this time am only shipping to the United States. NO INTERNATIONALS without emailing first . Import duties, taxes and charges are not included in the item price or shipping charges. Please read shipping instructions before bidding as international will ship global. If you want to ship first class please email me first before bidding. These charges are the buyer's responsibility. Payment is due within 3 days of winning bid! I will be more than happy to combine shipping when multiple bids are won, please contact me if you need this service. I SHIP ONLY USPS FLAT RATE PRIORITY MAIL. I am very proud of my 100% EBAY rating and appreciate your feedback. If for any reason you have a problem please contact me before leaving feedback. I will be sure to leave positive feedback for you too\u2026Happy Shopping! Please keep in mind that vintage items are used and sometimes show classic wear. I do not clean any item I leave that to the buyer.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922066287808080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "valentina1251",
+    "FeedbackScore": "2431",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "valentina1251",
+    "StoreURL": "http://stores.ebay.com/id=305410124"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "10",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/l7gAAOSwaB5XkBgT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OvYAAOSw0fhXkBhT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ndsAAOSwaB5XkBhF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nmoAAOSw-FZXkBh8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cesAAOSwZVlXkBiO/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "08882"
+}

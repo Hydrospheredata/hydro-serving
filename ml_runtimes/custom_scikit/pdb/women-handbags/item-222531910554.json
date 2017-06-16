@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg3MjA=/z/vuwAAOSwIaFZMIge/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFg3MjA=/z/1m0AAOSwlndZMIge/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFg3MjA=/z/1B8AAOSwaeRZMIge/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Yves-Saint-Laurent-white-leather-purse-/222531910554",
+  "ConvertedCurrentPrice": {
+    "value": "1000.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Bought in February, barely used so it is new condition with it's storage bag, I also have receipt where it was purchased at Nordstrom I cannot return since it is past 60 days,",
+  "Title": "Yves Saint Laurent (white leather purse)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1000.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Dallas, Texas",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "pambrigitte_4"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "1000.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "75229",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T21:39:03.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P6DT7H10M33S",
+  "EndTime": "2017-06-08T21:39:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Yves Saint Laurent"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "White"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222531910554",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225319105548080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

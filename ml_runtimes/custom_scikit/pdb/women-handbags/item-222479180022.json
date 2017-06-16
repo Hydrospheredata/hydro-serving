@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDY1/z/DVkAAOSwVm5Y9ZL-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI2NlgxNTAw/z/gkcAAOSwIWVY9ZL-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/n58AAOSw5UZY9ZL-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQ0WDE0OTg=/z/n7oAAOSw5UZY9ZL-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-3pc-Downtown-Diaper-Bag-Baby-Shoulder-Handbag-/222479180022",
+  "ConvertedCurrentPrice": {
+    "value": "183.61",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The ultimate Betsey Baby bag! Features an abundance of pockets inside & out, an insulated bottle compartment, matching changing pad and pacifier holder. This diaper bag has a place for everything a mom needs a day out with the lil one. - Baby diaper tote bag in leopard print and quilted black synthetic leather. - Matching changing pad. Character penguin pacifier holder. Exterior features two front slip pockets, side slip pockets & back slip pocket. Insulated top zip bottle compartment. Top zip pocket for easy access to phone or keys. - Top handles. Adjustable crossbody stap. Side stroller straps. - Top zip main compartment. Lined. Interior with zip pocket & 4 slip pockets. Width: - 17\" Depth: 6\" Height: 11\" Betsey Johnson 3pc Downtown Diaper Bag Baby Shoulder Handbag",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "183.61",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "585",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "2.tzvishai2"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Betsey Johnson 3pc Downtown Diaper Bag Baby Shoulder Handbag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-18T04:15:53.000Z",
+  "HitCount": "313",
+  "TimeLeft": "P14DT12H47M15S",
+  "EndTime": "2017-06-17T04:15:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "889487143321"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0889487143321"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Baby Product"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17 x W 13 x H 6 inches"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222479180022",
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2224791800228080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

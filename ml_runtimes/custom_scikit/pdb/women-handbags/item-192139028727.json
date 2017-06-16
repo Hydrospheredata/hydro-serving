@@ -1,0 +1,171 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "BestOfferEnabled": "false",
+  "TimeLeft": "P20DT2H52S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kadell-Women-Leather-Handbags-Tote-Purse-Fashion-Shoulder-Bags-ladies-Busine-/192139028727?var=",
+  "ConvertedCurrentPrice": {
+    "value": "98.57",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Colours for selection: Black, Dark Blue, Red Material: PU Leather Lining: Polyester Dimensions: 30 x 13 x 28 cm/ 11.81 x 5.11 x 11.02 inch Shoulder strap height: 21 cm/ 8.26 inch Product Features: -This modern handbags is made of PU leather material,it is easy to wipe clean and long lasting.Double flat shoulder handles structured shape adds this bag a stylish appearance. -Classic & simple tote design,compact and lightweight is a timeless choice for day-to-night sophistication. -Bright colour for selection,it can match various styles of dresses and shoes. Perfect for using in shopping, travelling, camping, Business,Meeting or any other daily occasions. -Large roomy open compartment provides ample storage with quick and easy access for all of your lasting.Douh as umbrella, books, mobile, wallet and other items can be placed. Package Included: 1 x Leather Tote Bag Notice: - Due to different producing batches, product details might be a little different. If you minding the difference, please buy it carefully. - Please allow 1-3 CM differs due to manual measurement. - Due to the different display and different light, the picture may not reflect the actual colour of the item. Thanks for your understanding.",
+  "Title": "Kadell Women Leather Handbags Tote Purse Fashion Shoulder Bags for ladies Busine",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "98.57",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Dark Blue",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/851/017/312232561/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/851/018/311712933/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/851/019/312225304/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "99.09",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851017:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "98.57",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851018:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "99.24",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139851019:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Dark Blue",
+          "Red",
+          "Black"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-24T18:22:28.000Z",
+  "HitCount": "3",
+  "QuantityThreshold": "10",
+  "EndTime": "2017-06-22T18:22:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kadell"
+      },
+      {
+        "Name": "MPN",
+        "Value": "216067890"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139028727",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "12",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "25:139851016:US",
+  "HandlingTime": "10",
+  "QuantityAvailableHint": "MoreThan"
+}

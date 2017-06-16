@@ -1,0 +1,141 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "38829",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Possibly vintage, Remington ChromGlo battery operated men's pocket watch. It takes three batteries, of which it is in need of. The case is worn, but it doesn't have to be in it. Item sold as is.",
+  "StartTime": "2017-05-27T16:30:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg3Njg=/z/sxcAAOSwfRdZKajA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU0N1g2OTI=/z/SncAAOSwIQdZKajN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3N1g4MzE=/z/lkoAAOSwrhBZKajX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5NVg5MDI=/z/6rYAAOSw8HBZKaji/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM3WDEwMjU=/z/TSkAAOSwZKBZKajq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0OVgxMTky/z/HlkAAOSww5hZKaj2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MVg4MTY=/z/ktYAAOSwX9FZKaj~/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Remington",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "oncetreasureddpj",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "581",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225323223998080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T16:30:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VTG-REMINGTON-CHROMGLO-BATTERY-OPERATED-POCKET-WATCH-NEEDS-BATTERIES-/322532322399",
+  "Location": "Booneville, Mississippi",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "VTG REMINGTON CHROMGLO BATTERY OPERATED POCKET WATCH NEEDS BATTERIES",
+  "Storefront": {
+    "StoreName": "oncetreasureddpj",
+    "StoreURL": "http://stores.ebay.com/id=1077098676"
+  },
+  "ItemID": "322532322399",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT21H55M8S"
+}

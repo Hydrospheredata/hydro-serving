@@ -1,0 +1,121 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT2H21M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "103.5",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "282474781619",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/10k-Gold-white-Topaz-Hearts-Adjustable-Toe-Ring-/282474781619",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "103.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-12T16:04:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T16:04:59.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Topaz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Topaz",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "RO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold Solid",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "10k Gold",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "10k Gold,white Topaz Hearts Adjustable Toe Ring",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "White topaz,10k yellow gols adjustable toe ring,features two hearts holding oval shape white topaz approx,.50ctTW. Comfort fit,adjustable weigh1.gr. Gift box included.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824747816198080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "perfectsense",
+    "FeedbackScore": "734",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Perfect Sense",
+    "StoreURL": "http://stores.ebay.com/id=34482318"
+  },
+  "Quantity": "1",
+  "Location": "Southampton, Pennsylvania",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/ClcAAOSw42dZFdBY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/Xh0AAOSwYlRZFdBW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/TxUAAOSwi7RZFdBa/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "18966"
+}

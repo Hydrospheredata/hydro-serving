@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZUkAAOSw2xRYbGsz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MBsAAOSwA3dYbGsx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sWMAAOSwo4pYbGs4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2E0AAOSwt5hYbGs-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3egAAOSwopRYbGtF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1vAAAOSwEzxYbGtI/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Commuter-Tote-Black-NWT-Retail-128-/232324857218",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT black Vera Bradley commuter tote.\u00a0 Retail $128\u00a0 Lots of pockets & padded divide to protect your laptop! 13x18 with 12\" handles",
+  "Title": "Vera Bradley Commuter Tote Black (NWT, Retail $128)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Bryan, Ohio",
+  "Seller": {
+    "FeedbackScore": "287",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "skydancer27"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "43506",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-06T00:03:07.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P2DT8H57M2S",
+  "EndTime": "2017-06-05T00:03:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232324857218",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323248572188080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

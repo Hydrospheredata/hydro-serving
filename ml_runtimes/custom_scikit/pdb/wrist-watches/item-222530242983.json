@@ -1,0 +1,75 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "1200.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225302429838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:43:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T13:43:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "BuyItNowPrice": {
+    "value": "1200.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530242983",
+  "HandlingTime": "2",
+  "Description": "Manufacturer:\u00a0Tonino LamborghiniModel Name:\u00a0Spyder Chronograph 1500Model Number:\u00a01503Gender:\u00a0MensMovement Details:\u00a0Swiss Quartz ChronoCase:\u00a062mm with crown x 51.5mm without lugs stainless steel w/ PVD coatingBracelet:\u00a0Black CrocoDial:\u00a0BlackCrystal:\u00a0SapphireWater Resistance:\u00a0100mCondition:\u00a0Brand New In Box, Unworn",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Lamborghini watch Big Jumbo Spyder 1503",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lamborghini-watch-Big-Jumbo-Spyder-1503-/222530242983",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "HitCount": "3",
+  "PostalCode": "92620",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Irvine, California",
+  "TimeLeft": "P9DT22H32M2S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/f2wAAOSwmCVY-bxV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNDQw/z/G10AAOSwE0JY-bxw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzOVgxMDgw/z/dJQAAOSwWWxY-byD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/-9oAAOSwJ4hY-byY/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "42",
+    "UserID": "dr.inventory",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

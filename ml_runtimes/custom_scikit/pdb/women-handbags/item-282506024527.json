@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTUxMVg4NDk=/z/baIAAOSwX61ZCUGB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HZ8AAOSwjL5ZCUGK/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kOsAAOSwuMZZCUF8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bS8AAOSwX61ZCUF9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1IsAAOSwhvFZCUF~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2~wAAOSww9xZCUGD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTE2WDE1NDQ=/z/W4gAAOSw42dZCUGS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/L7MAAOSwR29ZCUGI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/srQAAOSwrhBZBsyc/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Prada-Pink-Saffiano-Leather-Wallet-Chain-Handbag-/282506024527",
+  "ConvertedCurrentPrice": {
+    "value": "340.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "\u2022Still in good condition, corner shows worn. \u2022 It comes in bag itself, no dust bag or authentic card.\u2022 No returns accepted, serious buyers only.",
+  "Title": "Authentic Prada Pink Saffiano Leather Wallet On Chain Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "340.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Los Angeles, California",
+  "Seller": {
+    "FeedbackScore": "477",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "ynm1224"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90039",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:37:09.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P29DT22H26M20S",
+  "EndTime": "2017-07-02T12:37:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "PRADA"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger & Cross Body"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282506024527",
+  "Storefront": {
+    "StoreName": "You\u2661Me Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1162620583"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825060245278080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

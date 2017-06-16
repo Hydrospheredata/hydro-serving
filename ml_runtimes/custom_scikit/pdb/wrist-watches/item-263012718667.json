@@ -1,0 +1,354 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/eksAAOSw-K9ZLpCS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Aj0AAOSwCQZZLpCT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/kDkAAOSwi7RZLpCT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/wX8AAOSwPh5ZLpCS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/K4gAAOSwIaFZLpCS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/BzsAAOSwYlRZLpCT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/AksAAOSwCQZZLpCV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/oBEAAOSwY3BZLpCT/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:44:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "18",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:44:46.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "263012718667",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Waterproof-Silicone-Band-Wristwatch-Quartz-Analog-Sport-Candy-Color-Watch-Unisex-/263012718667?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Miler",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "082-YW01815",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "4.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01815B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01815W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01815P",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01815M",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Rose Red",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01815R",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01815G",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White",
+          "Pink",
+          "Rose Red",
+          "Red",
+          "Green"
+        ],
+        "Name": "Band Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/03a2301b-a558-47b1-b47d-6f84a44680c7.JPG"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/5a256f11-4b43-4404-a2c6-436d5430494b.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/69f8be01-9939-4034-9eeb-ae70a06ae166.JPG"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/b4a82e76-9a06-4a3a-a439-01c7744b6b8f.JPG"
+        },
+        {
+          "VariationSpecificValue": "Rose Red",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/b711ccad-0e0c-43a2-8ec6-e53bbaf549ba.JPG"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/f67371f6-9183-405b-86a4-62378c2e12bf.JPG"
+        }
+      ],
+      "VariationSpecificName": "Band Color"
+    }
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H19M15S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Waterproof Silicone Band Wristwatch Quartz Analog Sport Candy Color Watch Unisex",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We provide 12 months warranty for all items we sold,we are not responsible for shipping cost(sending back and resending),man-made fault and damage do not include in warranty! \n We accept 30 days return for any faulty items ,buyer need to return the defective item for the replacement or full refund at his own cost. It may take up to 5 business days to process your return after we receive the defective product. Make sure to contact us for any problems for we have one of the best aftersales service offered to you on ebay."
+  }
+}

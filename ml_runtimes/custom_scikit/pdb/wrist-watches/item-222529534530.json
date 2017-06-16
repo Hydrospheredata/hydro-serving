@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "23.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CA",
+  "Location": "Etobicoke, Ontario",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-30T20:08:47.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "23.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-04T20:08:47.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222529534530",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "23.0",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "\u201citem has logo on face and on back\u201d",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jewelry-Wholesale-Wristwatch-Women-m-k-Quarz-Stainless-Steel-Watch-/222529534530",
+  "Title": "Jewelry Wholesale Wristwatch Women m /// k Quarz Stainless Steel Watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225295345308080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "M8W 4Y4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT4H37M57S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/RJMAAOSw3gJZLdDB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/3DIAAOSwurZZLdDD/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Gold-Green stainless steel WatchRound , 36mmQuartz movementStrap length: 23.5mm",
+  "Seller": {
+    "PositiveFeedbackPercent": "60.0",
+    "FeedbackScore": "1",
+    "UserID": "charleski_0",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

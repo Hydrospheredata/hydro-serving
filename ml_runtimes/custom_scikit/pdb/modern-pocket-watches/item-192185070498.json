@@ -1,0 +1,95 @@
+{
+  "QuantitySold": "0",
+  "Title": "New Quartz Going Places  Pocket Watch",
+  "PostalCode": "62417",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "New Quartz Going Places Pocket Watch Track Page Views With Auctiva's FREE Counter Save time & money with FREE Auctiva Image Hosting.Create listings that get noticed! with Auctiva's 1,800+ Templates.",
+  "StartTime": "2017-05-12T11:38:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzUyWDUwMA==/z/EZ0AAOSwzaJX7UxA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzg5WDUwMA==/z/i-sAAOSwLnBX7UxB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzg5WDUwMA==/z/EisAAOSwzaJX7UxD/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "112.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial, Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "White, Yellow Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jamestrading",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "15050",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921850704988080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-11T11:38:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "112.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "We refund purchase price only. No postage. We will refund Your money oe sens another item.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Quartz-Going-Places-Pocket-Watch-/192185070498",
+  "ConditionDescription": "This watch is new",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Bridgeport, Illinois",
+  "Storefront": {
+    "StoreName": "JamesTrading",
+    "StoreURL": "http://stores.ebay.com/id=1586142"
+  },
+  "ItemID": "192185070498",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT16H56M21S"
+}

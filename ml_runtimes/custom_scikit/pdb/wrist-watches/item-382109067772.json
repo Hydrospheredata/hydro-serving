@@ -1,0 +1,278 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.97",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:18:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "12.97",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:18:13.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Black",
+          "Brown"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ItemID": "382109067772",
+  "HandlingTime": "0",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stylish-Three-Pointers-Quartz-Watches-Wedding-Jewelry-Gifts-Business-Wristwatch-/382109067772?var=",
+  "ConditionDescription": "Note:It is water resistant,can't be used in diving swimming shower etc.",
+  "NewBestOffer": "false",
+  "SKU": "082-YW01771",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "12.97",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01771B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "12.97",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01771W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/7f8786e6-9de2-428d-85ec-b7976ac51e9a.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/6b9a858d-49d8-4197-b77d-86eec5467c27.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/ffa9a9a0-ba23-4627-ad90-86b4ca01338b.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/223ebd71-1ec8-4e2a-9ffa-eb5c85bbbe1b.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/48d1b2dc-4733-4a17-bee9-3d1370e14caf.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/adfe62e4-0a0d-455c-8b6c-a29c12dabc8a.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2fa5ad8e-4d53-4439-8441-fdb2593cba38.jpg"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/97bf6e35-b9a7-43f4-ac06-cde58d4d2c8c.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/f0a3f675-831e-439e-9c76-12a346068a58.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/b262bbd7-797d-4986-a8c6-3c5a0bdcfbde.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/d8318f62-953e-4c4f-8836-4646f173ae25.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/812bc7b8-8bbe-47bc-9ab0-8a177d00c47f.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/f3a9ff33-7310-4792-b191-32fe0e2504f7.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/c24820c6-5f51-4b3b-afb8-bb777d6690cc.jpg"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H54M32S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/1h0AAOSwn-tZLphr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/MPkAAOSw~y9ZLphp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/kZAAAOSw9OFZLphq/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Stylish Three Pointers Quartz Watches Wedding Jewelry Gifts Business Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

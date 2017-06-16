@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/lxIAAOSwQYZWv2sp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjA3/z/-z8AAOSwPc9Wv2tp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/nTcAAOSwzgRWv2t-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/HYIAAOSwx-9Wv2uV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwN1gxNjAw/z/CzkAAOSwKtVWv2vL/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-MESSENGER-BAG-JAVA-BLUE-PREOWN-U-S-A-/351653387981",
+  "ConvertedCurrentPrice": {
+    "value": "57.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY MESSENGER PRE OWNED EUC \"JAVA BLUE\" PATTERN MEASUREMENTS : 15\" WIDE; 11 1/2\"; 4\" DEPTH; 14\" PLUS ADJUSTABLE DOUBLE DROP CANVAS STRAP DESCRIPTION: DOUBLE EXTERIOR SLIP IN POCKETS IN FRONT UNDER THE FLAP; WHITE CARDS SHOW SEPARATION TWO EXTERIOR END SLIP IN POCKETS; FULL LENGTH ZIPPERED EXTERIOR POCKET IN BACK; STURDY REMOVABLE BOTTOM; HAS SNAP CLOSURES UNDER THE FLAP COVER. SMOKE FREE FAST SHIP THANKS FOR LOOKING PLEASE CHECK OUT MY OTHER AUCTIONS FOR MORE VERA BRADLEY ITEMS",
+  "Title": "VERA BRADLEY   MESSENGER BAG  \"JAVA BLUE\"   PREOWN  U.S.A..",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Fort Wayne, Indiana",
+  "Seller": {
+    "FeedbackScore": "2355",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pickard1940yahoo"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46805",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-02-13T17:46:39.000Z",
+  "HitCount": "208",
+  "TimeLeft": "P5DT2H29M45S",
+  "EndTime": "2017-06-07T17:46:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "VERA BRADLEY"
+      },
+      {
+        "Name": "Style",
+        "Value": "MESSENGER"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "COTTON W/CANVAS STRAP"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "351653387981",
+  "Storefront": {
+    "StoreName": "pattys picks",
+    "StoreURL": "http://stores.ebay.com/id=96370368"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3516533879818080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

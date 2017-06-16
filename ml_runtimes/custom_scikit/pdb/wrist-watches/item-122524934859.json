@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CY",
+  "Location": "Larnaca",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:19:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T11:19:45.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ladies",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Sekonda",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524934859",
+  "HandlingTime": "2",
+  "Description": "On offer is this lovely vintage Pre-owned Sekonda ladies hand winding watch with 17 jewels, made in the Slava factory, USSR. With it\u2019s original gold tone metal strap. The watch has some light marks to glass and case, and the gold tone bracelet has faded somewhat in conjunction with it\u2019s age / use. Watch works fine. Probably dated around early 1970\u2019s or thereabouts. Please use pictures as condition reference. No box or tags. If you need more pictures or info, please ask. THERE ARE NO RETURNS ON THESE ITEMS SO PLEASE BE SURE BEFORE BUYING. ITEMS SENT BY AIR WITH CYPRUS REGISTERED MAIL WITH TRACKING NUMBER AND ARE SIGNED FOR ON DELIVERY.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Sekonda 17 Jewels Slava Factory USSR Pre-owned Working",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Sekonda-17-Jewels-Slava-Factory-USSR-Pre-owned-Working-/122524934859",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225249348598080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT19H59M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/NVcAAOSwY3BZLqWA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/nEIAAOSwIaFZLqWW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/1yIAAOSwR29ZLqWG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/WzUAAOSw5cRZLqWJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/RncAAOSwfpVZLqWN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/Nl8AAOSwY3BZLqWQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/NrEAAOSwY3BZLqWU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/hLsAAOSw1WJZLqWa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/6QkAAOSwcB5ZLqWD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/0FkAAOSwaEhZLqWd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/iUgAAOSwblZZLqWh/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "105",
+    "UserID": "michaels-allkindsofeverything",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

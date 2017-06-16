@@ -1,0 +1,136 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "12",
+  "PostalCode": "11234",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "QuantityAvailableHint": "Limited",
+  "Description": "See our other items",
+  "StartTime": "2017-03-07T22:39:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/oSkAAOSwXYtYvzU2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~IEAAOSwdGFYvzU2/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "100",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "F50FOBK",
+        "Name": "Model"
+      },
+      {
+        "Value": "F50FOBK",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Field & Stream",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": [
+          "Bottle opener",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "40",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shnoopcom",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "46140",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "830",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118181004098080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T22:39:54.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ConditionDisplayName": "New with tags",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Field-Stream-Adventurer-Mens-Black-Nylon-Strap-Hook-Pocket-Bottle-Opener-Watch-/311818100409",
+  "Location": "Brooklyn, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Field & Stream Adventurer Mens Black Nylon Strap Hook Pocket Bottle Opener Watch",
+  "Storefront": {
+    "StoreName": "The Shnoop Store",
+    "StoreURL": "http://stores.ebay.com/id=408811640"
+  },
+  "ItemID": "311818100409",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT3H48M14S"
+}

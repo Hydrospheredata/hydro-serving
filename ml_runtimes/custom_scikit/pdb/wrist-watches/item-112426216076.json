@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "37.05",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GB",
+  "Location": "London",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:39:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "37.05",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:39:59.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "US-5024693130917",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426216076",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lipsy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "LP392",
+        "Name": "MPN"
+      },
+      {
+        "Value": "5024693130917",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Lipsy Ladies Rose Gold Tone Bracelet Watch With Grey Dial (UK IMPORT)  WATCH NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lipsy-Ladies-Rose-Gold-Tone-Bracelet-Watch-Grey-Dial-UK-IMPORT-WATCH-NEW-/112426216076",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124262160768080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "NW10 7TR",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H33M",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5ODI=/z/oQEAAOSwK6RZLtXC/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Further DetailsTitle: Lipsy Ladies Rose Gold Tone Bracelet Watch With Grey DialCatalogue Number: LP392Format: WATCHCondition: New Missing Information? Please contact us if any details are missing and where possible we will add the information to our listing.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "305324",
+    "UserID": "rarewaves",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We accept returns if all products are in their original condition and unopened, please return your item within 14 days from the day you received it."
+  }
+}

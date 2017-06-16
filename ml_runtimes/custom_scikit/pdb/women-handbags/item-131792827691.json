@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P17DT5H39M36S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Very Good Condition",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1317928276918080_5.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/4lMAAOSw4CFY3oM6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/CgMAAOSwTM5Y3oM9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/sFUAAOSwuLZY3oM-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/D88AAOSwc-tY3oNB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/46IAAOSw4CFY3oND/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/zMgAAOSwB-1Y3oNF/$_12.JPG?set_id=880000500F"
+  ],
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "1100.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Chanel Camel Quilted Leather Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1100.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "lavieconsignmentboutique"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10014",
+  "GlobalShipping": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chanel-Camel-Quilted-Leather-Bag-/131792827691",
+  "StartTime": "2016-04-25T20:55:51.000Z",
+  "Title": "Chanel Camel Quilted Leather Bag",
+  "SecondaryCategoryIDPath": "11450:169291:163570",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Chanel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Camel"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "131792827691",
+  "Storefront": {
+    "StoreName": "La Vie Consignment Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1446499088"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "Quantity": "1",
+  "SecondaryCategoryID": "163570",
+  "EndTime": "2017-06-19T20:55:51.000Z",
+  "Country": "US",
+  "SKU": "6343140-N-C",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

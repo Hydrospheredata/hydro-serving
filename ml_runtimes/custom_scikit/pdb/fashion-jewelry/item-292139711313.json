@@ -1,0 +1,192 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "292139711313",
+  "PrimaryCategoryID": "67681",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:499",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "UA",
+    "VA"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921397113138080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "besparkledagain",
+    "FeedbackScore": "50187",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "Storefront": {
+    "StoreName": "besparkledagain",
+    "StoreURL": "http://stores.ebay.com/id=36769189"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/LXQAAOSwyjBW6Dir/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Ew4AAOSwvgdW6Dis/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "TimeLeft": "P3DT12H1M34S",
+  "StartTime": "2017-06-04T02:48:26.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "499",
+  "HitCount": "3",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-Purple-Amethyst-Clear-CZ-Multi-Band-Ring-Size-6-/292139711313",
+  "EndTime": "2017-06-09T02:48:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Band",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "6",
+        "Name": "Ring Size"
+      }
+    ]
+  },
+  "Title": "Sterling Silver Purple Amethyst Clear CZ Multi Band Ring Size 6",
+  "Location": "Mayfield, Kentucky",
+  "Description": "Track Page Views With Auctiva's FREE Counter Save time & money with FREE Auctiva Image Hosting.",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "Quantity": "1",
+  "PostalCode": "42066"
+}

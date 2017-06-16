@@ -1,0 +1,99 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_15",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "15%",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT8H17M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162541652860",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/stainless-steel-X-O-Necklace-Bracelet-Set-Ladies-XOXO-white-/162541652860",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T20:09:11.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T20:09:11.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "xoxo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "stainless steel",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "no sotne",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "white",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "stainless steel  X & O Necklace & Bracelet Set For Ladies XOXO in white",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "stainless steel xo style necklace and bracelet set in white Beautiful design all across matching the necklace and bracelet great gift can be used every day or for special occasions the necklace is 18 \" and the bracelet is 7.5 \" long original price $199 price to sell $39.99 All our items come gift box for you or a loved one! Thank you for viewing! Please view our other great items at bottom prices. Do not hesitate to email us with any further requests or questions or call us at 1718-895-9095",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625416528608080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "goldmind14",
+    "FeedbackScore": "89",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Storefront": {
+    "StoreName": "goldmind14",
+    "StoreURL": "http://stores.ebay.com/id=1276794996"
+  },
+  "Quantity": "2",
+  "Location": "Brooklyn, New York",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTI1WDE2MDA=/z/mP0AAOSwv~xXDXM8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAzNVgxNTk5/z/F5EAAOSw7KJXDXNC/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "11210"
+}

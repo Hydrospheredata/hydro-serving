@@ -1,0 +1,163 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/vQUAAOSwCypWoVTU/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/8v8AAOSwFqJWoVTc/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/K3cAAOSwqrtWoVTe/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/-9QAAOSw0QFXBqT7/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/KVYAAOSwq19XBqUB/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDcx/z/nJgAAOSw44BYMzHV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/dO0AAOSwA3dYMzHF/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Matt-Nat-Hobo-Libre-Dwell-collection-/201944377117?var=",
+  "ConvertedCurrentPrice": {
+    "value": "73.42",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "MATT & NATLIBREDwell collection Hobo shoulder bag that can be worn crossbody when the strap is extended. Top zipper closure. Interior: zipper pocket, smartphone pocket, logo-embossed dwell tag. 100% recycled nylon lining. Dimensions: 11\" x 15\" x 1.5\" Shoulder drop: 11\" or 21\" (fully extended) MSRP$130.00 S&H FREE Expedited CanadaS&H Expedited USA $20.00 NEW WITH TAGSNO RETURNS",
+  "Title": "Matt & Nat Hobo Libre Dwell collection",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "CAD"
+  },
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "Location": "Ontario",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "355",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "treehouze"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "K0J 1C0",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Cocoa",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/55AAAOSwHMJYMzIl/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/1fQAAOSwB09YMzIK/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "99.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Gravel"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "99.0",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Cocoa"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Gravel",
+          "Cocoa",
+          "Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-06-02T11:18:13.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT20H56M6S",
+  "EndTime": "2017-06-09T11:18:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Matt & Nat"
+      },
+      {
+        "Name": "Style",
+        "Value": "Hobo"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Canada"
+      }
+    ]
+  },
+  "Site": "Canada",
+  "ItemID": "201944377117",
+  "Storefront": {
+    "StoreName": "The Treehouze",
+    "StoreURL": "http://stores.ebay.com/id=277058894"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "SKU": "Libre",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

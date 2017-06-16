@@ -1,0 +1,164 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns accepted in original condition with all tags attached. Return Shipping paid by Buyer. Returns must be made within 5 days after receiving.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P27DT12H4M44S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "2003110",
+  "ItemID": "332249195998",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anklet-Payal-3110-Golden-Anklet-Bolywood-Designer-Payal-Shieno-Sarees-/332249195998?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T21:23:47.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-02T21:23:47.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Pattern",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "#3108",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTA1MFgxNjAw/z/VdAAAOSwhQhY3Y-J/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/ODYyWDE2MDA=/z/WBsAAOSwhQhY3Y-X/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "#3110",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTI4OVgxNjAw/z/tV8AAOSwA29Y3ZDl/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMDc3/z/YqIAAOSww3tY3ZD3/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxNDAw/z/nkMAAOSwuxFY3ZEI/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTI2MFgxNjAw/z/QP4AAOSwuLZY3ZEZ/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "#3108",
+          "#3110"
+        ],
+        "Name": "Pattern"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "3108",
+        "StartPrice": {
+          "value": "55.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#3108",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "3110",
+        "StartPrice": {
+          "value": "75.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#3110",
+            "Name": "Pattern"
+          }
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "shieno",
+        "Name": "Brand"
+      },
+      {
+        "Value": "10",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "Anklet Payal 3110 Golden Anklet Bolywood Designer Payal Shieno Sarees",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Anklets Payal#3108 Pair of Gold tone Payal encrusted with Red and Green Rhinestones. Straight Length 10\" #3110 Pair of Gold tone Payal encrusted with Red and Green color Meenakari, Zircon Crystals, Red and Green Seed Beads dangling. Straight Length 10\"All sizes are approx. from half to an inch more or less than the given measurement.Actual color may vary from the pictures slightly due to digital images. Stock # 003108 & 3110",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "shieno",
+    "FeedbackScore": "722",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Flora",
+    "StoreURL": "http://stores.ebay.com/id=122022136"
+  },
+  "Quantity": "2",
+  "Location": "Pleasanton, California",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDAw/z/QosAAOSw4CFY3ZE5/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "94566"
+}

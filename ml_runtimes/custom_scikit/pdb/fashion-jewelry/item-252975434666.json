@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT23H9M56S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "69.95",
+    "_currencyID": "CAD"
+  },
+  "ItemID": "252975434666",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-silver-ring-crystals-and-sapphire-centre-stones-size-5-0-flower-/252975434666",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "51.76",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:20:25.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T12:20:25.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cluster",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Sapphire",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "5",
+        "Name": "Ring Size"
+      }
+    ]
+  },
+  "Title": "Sterling silver ring with crystals and sapphire centre stones size 5.0 flower",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "A pretty silver ring with crystals and a blue center stone which I think is a sapphire. Size 5. Very pretty and resembling a flower, and because it is made of 925 sterling silver, will take a lot of wear too. Please pay by Paypal within 48 hours of your purchase and I will ship the next business day. Also, visit my store, and if you want another item, I will be happy to combine shipping where possible. I can ship overseas, so just email me to obtain a quote for the shipping cost. #SAS7465js1",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529754346668080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "83.3",
+    "UserID": "coolvintage2011",
+    "FeedbackScore": "96",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "Notre-Dame-de-l'Ile-Perrot, Quebec",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ftMAAOSwDuJW02r-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZF0AAOSwezVW0Mgf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jKgAAOSwezVW02sg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yzoAAOSwzgRW02tF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/o-QAAOSwKtVW02vG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3EIAAOSwzgRW02vh/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "J7V 5V6"
+}

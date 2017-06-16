@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P11DT21H48M24S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Excellent Condition.  No signs of wear inside or out.  Long shoulder strap is included as well.",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/m-8AAOSwPh5ZGT48/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Vj0AAOSwhvFZGT4~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pMUAAOSw42dZGT5D/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/KLAAAOSwlndZGT5H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/PmkAAOSw~y9ZGT5N/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lKsAAOSwYvFZGT5Q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pWcAAOSw42dZGT5T/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VICTORIAS-SECRET-Silver-Glitter-Weekender-Sparkle-Travel-Tote-Duffle-Bag-/152549412697",
+  "ConvertedCurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victoria's Secret Large Silver Duffel Bag. Width 25\"Height 13\"Depth 7\" PLEASE READ THE FOLLOWING ~All Items are shipped via Canada Post. ~All items are shipped with tracking NO exceptions. ~Items ARE coming from Canada so please allow up to two full weeks for delivery. ~I do my very best to ship within 48 hours of receipt of payment however if you pay on Friday your package will not go out until Monday as the mail does not run on the weekends in Canada. ~I request that payment be made within 48 hours of the listing's end. ~I will combine shipping at actual cost. Do not pay until you have made all of your purchases then send me a message to let me know you are ready to check out and I will adjust the shipping accordingly.",
+  "Title": "VICTORIA'S SECRET ~ Silver Glitter Weekender ~ Sparkle Travel Tote Duffle Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Prince George, British Columbia",
+  "Seller": {
+    "FeedbackScore": "97",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "northern*restyle"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "V2N 6E2",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-15T14:33:33.000Z",
+  "HitCount": "18",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-14T14:33:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffle Bags"
+      },
+      {
+        "Name": "Color",
+        "Value": "Silver"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152549412697",
+  "Storefront": {
+    "StoreName": "shop*hipchey",
+    "StoreURL": "http://stores.ebay.com/id=1027057117"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525494126978080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

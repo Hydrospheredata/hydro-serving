@@ -1,0 +1,161 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "PT15H3M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "31.14",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162533942387",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925-Sterling-Silver-EyeGlasses-Holder-Brown-Leather-2-Easy-On-Off-Clasps-21-/162533942387",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.14",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T02:04:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-06T02:04:09.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Love Rocks 2016",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Shiny Silver & Brown Leather",
+        "Name": "Color"
+      },
+      {
+        "Value": "Brown Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "2 Large Sterling Silver Lobster Swivel Clasps",
+        "Name": "Easy to Put On and Take Off"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "925 Sterling Silver EyeGlasses Holder Brown Leather 2 Easy On/Off Clasps 21\"",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This handy glasses holder is 100% 925 Sterling Silver and genuine brown leather. Easy on and off with 2 large swiveling 925 Sterling Silver lobster clasps. The leather is approximately 3.5mm thick, and 21 1/2 inches from clasp to clasp. The glasses holder adds approximately 1 1/2 inches to the length. Also comes in black leather. Makes a great gift!",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625339423878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "cjandb12345",
+    "FeedbackScore": "931",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "LoveRocks2016",
+    "StoreURL": "http://stores.ebay.com/id=1052655348"
+  },
+  "Quantity": "1",
+  "Location": "Beverly Hills, California",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTUz/z/IvIAAOSwbsBXoTeA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjY1/z/lX4AAOSwdzVXoTeM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3MlgxMTU2/z/Qf4AAOSwyLlXoTeZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "90210"
+}

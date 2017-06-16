@@ -1,0 +1,130 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "New without tags",
+  "Description": "SHIPPINGI will inform you as soon as your item ships and provide you with tracking information. Why does it take 3-4 weeks? Because we order single pieces as needed direct from an overseas manufacturer, which keeps costs lower for you! If you need your item faster, just contact me and I can arrange for expedited shipping for about $20.ORDER ISSUES AND FEEDBACKIf you have any questions or concerns, rest assured that I always respond within 24 hours, usually less. In the event of a problem with your order, please contact me so that we can resolve the issue together. I love making my customers happy!RETURNS/REFUNDSI accept returns to my personal address so long as they are sent within two weeks of receipt and are in pristine condition on arrival. Get in touch if your item is not as described and I will provide you with my address. You pay the cost of shipping. Intimates such as corsets may not be returned unless they are in the original packaging (unworn). Keep in mind that items are photographed in a flattering way, and your order may arrive wrinkled. Colors, too, may vary according to lighting, your computer screen, etc.ABOUT USWe've served hundreds of satisfied customers across 5 stores and boast a current 4-star rating for service and product quality. Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-03T17:54:47.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc4WDU2Nw==/z/t~IAAOSwCfdXo6xP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc4WDU2Nw==/z/dmgAAOSwimdXo6xR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc4WDU2Nw==/z/NUMAAOSwqfNXo6xT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc4WDU2Nw==/z/uMwAAOSwCfdXo6xV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc4WDU2Nw==/z/n6gAAOSwdzVXo6xZ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Arabic Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shoppandorascloset",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "182",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "16",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T17:54:47.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      }
+    },
+    "Variation": {
+      "StartPrice": {
+        "_currencyID": "USD",
+        "value": "15.95"
+      },
+      "SKU": "sku-auc-0",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "Stainless Steel",
+          "Name": "Material"
+        }
+      },
+      "Quantity": "1"
+    }
+  },
+  "Location": "Guangzhou, China",
+  "Title": "Black Engraved Men's Pop Open Quartz Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Black-Engraved-Mens-Pop-Open-Quartz-Pocket-Watch-/282458817049?var=",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "282458817049",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT23H10M2S"
+}

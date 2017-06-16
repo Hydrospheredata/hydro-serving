@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT6H41M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "262969132671",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cream-and-Gold-Pearl-Bra-Choker-Necklace-Swimsuit-Cover-Up-Body-Jewely-342376-/262969132671",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-05T22:08:15.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T22:08:15.000Z",
+  "PrimaryCategoryID": "98526",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cream",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Beatnix Fashions",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cream",
+        "Name": "Main Stone Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Cream and Gold Pearl Bra Choker Necklace Swimsuit Cover Up Body Jewely 342376",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Style No : [342376] PN6012-G-CRMColor : Cream, GoldTheme : Pearl Choker Size : 1.5\" H, 13\" + 7\" LWaist Size : 33\" + 7\" WFaux Pearl Body Chain Bra Choker Necklace",
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629691326718080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "beachislandtrends",
+    "FeedbackScore": "16",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "6",
+  "Location": "Gulf Breeze, Florida",
+  "HitCount": "69",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/pukAAOSwrhBZDPe0/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "32563"
+}

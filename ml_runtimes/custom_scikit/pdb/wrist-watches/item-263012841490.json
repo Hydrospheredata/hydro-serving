@@ -1,0 +1,67 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GR",
+  "Location": "Piraeus, default",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:53:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1214202057",
+    "StoreName": "Retromaniax-Shop"
+  },
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:53:49.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012841490",
+  "HandlingTime": "2",
+  "Description": "DESCRIPTION Up for sale an Angus & Coote Quartz WatchIt is tested and it is working. For more details,please look at the pictures above. ShippingI ship everyday (except Saturday and Sunday). Feedback Don't forget to leave positive feedback after recieving your item and all is 100% ok",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Angus & Coote Quartz Watch",
+  "ConditionDescription": "It is tested and it is working.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Angus-Coote-Quartz-Watch-/263012841490",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630128414908080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H35M50S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/U90AAOSw5cNYWAk2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/C1gAAOSw44BYWAk7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/UJEAAOSw6DtYWAlA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/4HoAAOSwnHZYWAlC/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "230",
+    "UserID": "geor-gior",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

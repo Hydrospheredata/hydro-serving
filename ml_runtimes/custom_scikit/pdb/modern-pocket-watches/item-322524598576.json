@@ -1,0 +1,63 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "70506",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Mount Royal M3500 preowned watch. In original box. Well loved. In good condition. Needs new battery.",
+  "StartTime": "2017-05-21T23:34:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wCUAAOSwIWVY-paC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1f0AAOSwvihY-paD/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "40.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Mount Royal",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "jborgeron",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "195",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225245985768080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T23:34:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "40.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mount-Royal-Watch-/322524598576",
+  "Location": "Lafayette, Louisiana",
+  "Title": "Mount Royal Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322524598576",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT4H56M1S"
+}

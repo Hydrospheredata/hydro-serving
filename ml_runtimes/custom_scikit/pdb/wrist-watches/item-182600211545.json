@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "36.71",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "United States",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:14:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1093051772",
+    "StoreName": "chess0385"
+  },
+  "CurrentPrice": {
+    "value": "36.71",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:14:58.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9177",
+        "Name": "MPN"
+      },
+      {
+        "Value": "961613273987",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600211545",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Invicta-Womens-9177-Pro-Diver-Collection-Silver-Tone-Watch-/182600211545",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826002115458080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H5M9S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0oQAAOSw0hlZLs~g/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/rksAAOSww5hZLs~g/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ3WDUwMA==/z/SRMAAOSwi7RZLs~h/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "New Invicta Women's 9177 Pro Diver Collection Silver-Tone Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "143",
+    "UserID": "chess0385",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

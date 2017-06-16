@@ -1,0 +1,113 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/yesAAOSwCQZZBgL0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/yhQAAOSwCQZZBgL1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/P-IAAOSw~y9ZBgL3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/QDEAAOSw~y9ZBgL4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/1-MAAOSwcgNZBgL5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/rQ0AAOSwjqVZBgL6/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-AUTHENTIC-ZOE-BLACK-LEATHER-HOBO-SHOULDER-BAG-PURSE-F-12671-/162538724060",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "A beautiful Authentic Coach Shoulder Bag in Great condition Very nice strong Soft Buttery Leather. Great Handle in the Shorter side which is comfortable and stylish on the Shoulder. Only a minor wear on the the handle on its edges see photos Very clean Purse inside and out and tons of space inside the bag. Great Smooth Leather. Polished Silver Hardware. Magenta Satin Lining inside. May see tiny minor fade scratch on leather if any from the use. Coach Logo in front and also Creed inside. Coach Hangtag. Top Zipper Pull with Leather Pull.",
+  "Title": "COACH AUTHENTIC ZOE BLACK LEATHER HOBO SHOULDER BAG PURSE, F-12671",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Fort Mill, South Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2103",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "daisey29715"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "29715",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:14:10.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT22H1M47S",
+  "EndTime": "2017-07-02T12:14:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Hobo"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "11"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162538724060",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625387240608080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

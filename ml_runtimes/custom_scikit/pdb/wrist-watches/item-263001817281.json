@@ -1,0 +1,143 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "KR"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1064.0"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/bSgAAOSwDiBZJb8E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/r7MAAOSwaeRZJb8E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/emIAAOSwcB5ZJb8E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/dF4AAOSwZ4dZJb8F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDg1MA==/z/gCgAAOSw5cRZJb8F/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "3",
+  "Country": "US",
+  "Seller": {
+    "UserID": "vividlily",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "11225",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-24T17:12:34.000Z",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Seller",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "This Benrus 1940s  Swiss Watch is verified 100% Authentic. Has Been Restored and Timed, It has been verified authentic by a master watchmaker It works precisely and is ready to be worn and enjoyed. Satisfaction guaranteed. Bernus watch with Manual Hand Winding movement, 28mm Gold Plated and Stainless Steel case, Acrylic crystal, Universal Vintage expandable Speidel bracelet",
+  "Title": "Benrus 1940s Swiss Made Gold Plated Mens Manual Luxury Vintage Dress Watch V11",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "263001817281",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Benrus-1940s-Swiss-Made-Gold-Plated-Mens-Manual-Luxury-Vintage-Dress-Watch-V11-/263001817281",
+  "Storefront": {
+    "StoreName": "ViViDLiLY",
+    "StoreURL": "http://stores.ebay.com/id=1014410423"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "90014",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This Benrus 1940s Swiss Watch is verified 100% Authentic. Has Been Restored and Timed, It has been verified authentic by a master watchmaker It works precisely and is ready to be worn and enjoyed. Satisfaction guaranteed. Bernus watch with Manual Hand Winding movement, 28mm Gold Plated and Stainless Steel case, Acrylic crystal, Universal Vintage expandable Speidel bracelet Track Page Views WithAuctiva's FREE Counter",
+  "HitCount": "90",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "31387",
+  "SKU": "V11",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Benrus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "1940-1949",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": [
+          "Gold Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Gold Plated",
+          "Stainless Steel"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "28mm x 39mm x 9mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Benrus",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630018172818080_1.jpg",
+  "BestOfferEnabled": "true",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-23T17:12:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Los Angeles, California",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1064.0"
+  },
+  "TimeLeft": "P22DT23H32M36S"
+}

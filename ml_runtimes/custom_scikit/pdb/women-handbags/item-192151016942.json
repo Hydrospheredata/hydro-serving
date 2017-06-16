@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921510169428080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg4NDY=/z/jG8AAOSwAANY5zBO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NDY=/z/CwcAAOSwhQhY5zBO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NDY=/z/OXMAAOSwc-tY5zBP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NDY=/z/k3AAAOSwpkFY5zBR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NDY=/z/kGYAAOSwU8hY5zBO/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RHEA-MESSENGER-BAG-ZIP-XS-BLOSSOM-MICHAEL-KORS-Free-Delivery-/192151016942",
+  "ConvertedCurrentPrice": {
+    "value": "443.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "RHEA MESSENGER BAG ZIP XS BLOSSOM MICHAEL KORS by Michael Kors Ships from UK Supplier Other information: 30T6GEZB1L-656 Related Searches: Michael Kors Bags, Backpack Handbag Bags Dimensions: 22.9 x 25.4 x 10.2 centimeters Weight: 0.61 kg",
+  "Title": "RHEA MESSENGER BAG ZIP XS BLOSSOM MICHAEL KORS. Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "443.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-07T06:22:14.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P3DT14H6M22S",
+  "EndTime": "2017-06-06T06:22:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "MPN",
+        "Value": "757351410"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192151016942",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:108313723:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

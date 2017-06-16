@@ -1,0 +1,135 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyMlgxNTAw/z/h8AAAOSwWxNYyMeh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ3NVgxNTAw/z/m1MAAOSw4A5YyMeg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MDI=/z/xE8AAOSwXYtYyMeg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUxWDE1MDA=/z/Vs8AAOSwSlBYyMeg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDE1MDA=/z/2RYAAOSw4YdYyMeg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1NzE=/z/mz4AAOSw4A5YyMeg/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Triple-Gusset-Drop-Handle-Black-One-Size-/401291412881",
+  "ConvertedCurrentPrice": {
+    "value": "104.08",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Vacquetta leather construction - Triple Gusset with 3 main sections - Drop handle - 2 open and 1 zippered pockets - Organizer - Adjustable and removeable strap David King & Co. Triple Gusset Drop Handle, Black, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "104.08",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "57031",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "alosh12"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Triple Gusset Drop Handle, Black, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-03-15T04:48:28.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P10DT13H38M52S",
+  "EndTime": "2017-06-13T04:48:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "844739015092"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844739015092"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "134B"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.5 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 21 x W 12.3 x H 3.1 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "David King & Co."
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "SKU",
+        "Value": "DVDK169"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401291412881",
+  "Storefront": {
+    "StoreName": "geffen.200851",
+    "StoreURL": "http://stores.ebay.com/id=864275326"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4012914128818080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

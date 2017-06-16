@@ -1,0 +1,240 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BA",
+    "GI",
+    "GG",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "AE",
+    "YE"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.27"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "shoptohome2015",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2191",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Details Item Shape: Rectangle shape Dial Window Material Glass Display Analogue Movement Quartz Case Material Metal Case Diameter 25*40 millimeters(L*H) /0.98*1.56inch \u3000 Case Thickness 7 millimeters (0.27inch) \u3000 Band Material Metal Chain Length 390 millimeters(15.2inch) Dial Color Beige Case Color Bronze Special Features Dual Time Zone Display; Arabic &Roman numerals Watch Weight 29g Gift Box No Package One pocket watch with free chainOn Mar-27-17 at 01:43:16 PDT, seller added the following information:",
+  "StartTime": "2017-05-26T09:52:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/JGEAAOSwdGFYwkzp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/wlkAAOSw32lYwkzv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/nNgAAOSwCU1Ywkz0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/BocAAOSwuxFYwkz4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDMzWDY1MA==/z/fvEAAOSwol5Ywkz8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/wLEAAOSw4CFYwk0D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTQzWDY1MA==/z/K54AAOSwB-1Ywk0G/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "HighBidder": {
+    "UserID": "r***b",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1243",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "HK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": [
+          "Dual Time Zone",
+          "Easy To Read",
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "W013",
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921979070328080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "2.52"
+  },
+  "BidCount": "4",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.27"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-05T09:52:37.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Bronze-Quartz-Pocket-Watch-Dual-Time-Zone-Necklace-Pendant-Birthday-Gifts-/192197907032",
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Retro Bronze Quartz Pocket Watch Dual Time Zone Necklace Pendant Birthday Gifts",
+  "Storefront": {
+    "StoreName": "shoptohome2015",
+    "StoreURL": "http://stores.ebay.com/id=1394269082"
+  },
+  "ItemID": "192197907032",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT15H16M13S"
+}

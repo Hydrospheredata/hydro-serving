@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/YJAAAOSwaEhZMJec/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/~EgAAOSwK6RZMJee/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-KATE-SPADE-Adaira-Baby-Diaper-Bag-Tote-Changing-Pad-NWT-298-/152569797156",
+  "ConvertedCurrentPrice": {
+    "value": "154.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW WITH TAGS",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "154.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "DOLLY LAND",
+  "Seller": {
+    "FeedbackScore": "1004",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "vernepping0323"
+  },
+  "PrimaryCategoryID": "169295",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "NEW KATE SPADE Adaira Baby Diaper Bag Tote + Changing Pad NWT$298",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T22:40:32.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT7H21M8S",
+  "EndTime": "2017-07-01T22:40:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/White"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152569797156",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525697971568080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

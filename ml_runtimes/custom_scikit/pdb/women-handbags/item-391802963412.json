@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg5OTA=/z/kiMAAOSwlMFZMVyG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU0WDEyODA=/z/kEMAAOSwcgNZMVyG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQwWDEyODA=/z/3psAAOSw0hlZMVyF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg0WDEyODA=/z/otMAAOSwjqVZMVyG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMwWDEyODA=/z/LfwAAOSwcB5ZMVyG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg1WDEyODA=/z/7NcAAOSwi7RZMVyH/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NANCY-BACICH-METAL-MESH-CROCHET-TRIMMED-EVENING-BAG-/391802963412",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NANCY BACICH METAL MESH CROCHET TRIMMED EVENING BAG Click images to enlarge Description STUNNING NANCY BACICH VINTAGE GUNMETAL TONE METAL MESH BAG WITH GRAY FLORAL CROCHET TRIM, CROCHET DRAWSTRING HANDLE, BRONZE METALLIC SATIN LINING & TOP TRIM.\u00a0 THE BAG MEASURES APPROX. 5\" H X 5.25\" W X 3/4\" D. IN VERY GOOD CONDITION WITH NO VISIBLE SIGNS OF WEAR. Pictures sell! Auctiva Offers Free Image Hosting and Editing.250+ Listing Templates! Auctiva gets you noticed! The complete eBay Selling Solution. Track Page Views WithAuctiva's FREE Counter",
+  "Title": "NANCY BACICH METAL MESH CROCHET TRIMMED EVENING BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Dallas, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "4538",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "cynthiasclosets"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "75230",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:39:30.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P29DT22H28M58S",
+  "EndTime": "2017-07-02T12:39:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "NANCY BACICH"
+      },
+      {
+        "Name": "Style",
+        "Value": "Evening Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "METAL & CROCHET"
+      },
+      {
+        "Name": "Color",
+        "Value": "GUNMETAL"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Drawstring"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": ".75\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "5.25\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "7.5\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391802963412",
+  "Storefront": {
+    "StoreName": "cynthiasclosets",
+    "StoreURL": "http://stores.ebay.com/id=1029811296"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "NO RETURNS ON INTERNATIONAL PURCHASES.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3918029634128080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

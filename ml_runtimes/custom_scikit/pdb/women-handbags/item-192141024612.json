@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921410246128080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/PPgAAOSwuxFY2J89/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/Gx0AAOSwsW9Y2J89/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Grey-Vintage-Birds-Floral-Canvas-Rucksack-Fashion-Backpack-Brand-New-/192141024612",
+  "ConvertedCurrentPrice": {
+    "value": "50.92",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Beautiful Vintage Birds Floral Canvas Rucksack Fashion Handbag. High quality Canvas material. Has two matching adjustable shoulder straps, and a small top handle. Features zip closure, a large zipped front compartment and an inner pocket. Stylish and perfect for the office, school or casual everyday use. Size Approx. 30(W) X 40(L) X 23(D) CM",
+  "Title": "Grey Vintage Birds Floral Canvas Rucksack Fashion Backpack. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "50.92",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-27T05:12:18.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P22DT12H52M6S",
+  "EndTime": "2017-06-25T05:12:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "The Olive House Scarves"
+      },
+      {
+        "Name": "MPN",
+        "Value": "652605555"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141024612",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:68419546:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

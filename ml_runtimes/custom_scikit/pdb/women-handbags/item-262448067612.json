@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/qGcAAOSwgQ9Vq3c3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/MOYAAOSw~gRVq3c-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/MroAAOSwyQtVq3dG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/7jsAAOSwPcVVq3dL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/V2MAAOSwjVVVq3dR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/NEgAAOSwyQtVq3dW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/MuYAAOSw~gRVq3da/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fendi-Black-Tan-Monogram-Print-Laptop-Briefcase-Shoulder-Bag-/262448067612",
+  "ConvertedCurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fendi Black/Tan Monogram Print Laptop Briefcase Shoulder Bag Shoulder strap 3 pockets with card holdersRemovable shoulder strapApproximate measurementsHeight with strap 32\" Height without strap 12\" Width 17-18\" Width at base 4\"#1186975NO RETURNS",
+  "Title": "Fendi Black/Tan Monogram Print Laptop Briefcase Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Naples, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "7097",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Green",
+    "UserID": "truefashionistasresale"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34109",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2016-05-21T16:38:27.000Z",
+  "HitCount": "713",
+  "TimeLeft": "P13DT1H22M26S",
+  "EndTime": "2017-06-15T16:38:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Fendi"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262448067612",
+  "Storefront": {
+    "StoreName": "True Fashionistas Designer Resale",
+    "StoreURL": "http://stores.ebay.com/id=1128403253"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2624480676128080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

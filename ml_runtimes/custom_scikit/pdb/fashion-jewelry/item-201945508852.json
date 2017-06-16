@@ -1,0 +1,136 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "44.99",
+    "_currencyID": "GBP"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "201945508852",
+  "TimeLeft": "P5DT6H35M45S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Brooches & Pins",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "BR",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "SA",
+    "ZA",
+    "AE",
+    "UA",
+    "CL"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "GBP"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LEAF-BROOCH-STERLING-SILVER-CUBIC-ZIRCONIA-ENAMEL-/201945508852",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "57.96",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T19:38:21.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-10T19:38:21.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Douglas Pell",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United Kingdom",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "LEAF BROOCH | STERLING SILVER CUBIC ZIRCONIA & ENAMEL",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "LEAF BROOCH | STERLING SILVER CUBIC ZIRCONIA & ENAMEL A cascade of gorgeousness. Pink enamelled leaves and glittering cubic zirconia beautifully interwoven in sterling silver to create a stunning brooch. Femininity at its very best. Features: \u25cf Handmade \u25cf Gift boxed \u25cf Material: sterling silver \u25cf Stone: cubic zirconia \u25cf Length: 4.5cm \u25cf Width: 3cm \u25cf Weight: 6.9g Payment methods I accept payments through Pay Pal Payment is expected within three (3) days from the end of the auction. Ship-to locations If you are an international bidder please make sure you have the ability to pay in British pounds as I do not accept any other currency. I am happy to sell outside of the UK. Please contact me to enquire about delivery costs before placing your bids. Postage & packaging Goods are dispatched by using a secure tracked & Trace, Signed service so that you can follow your order, and as such require a signature upon receipt. Sorry, I cannot allow for local Collection. If you decide to buy multiple items I will combine postage. I only ship to confirm pay pal shipping address. The cost of delivery to or from a customer is non refundable. On receipt of item(s), will the winner please leave feedback as soon as possible, thereby confirming receipt of goods? Due to a large number of people not leaving feedback, I now only leave feedback when it has been left for me. By bidding on this item, you agree to these Terms and Conditions. Customer service & return policy Shop with Confidence. My Return Policy is probably the simplest in the World! If you\u2019re not satisfied with your purchase, I will refund your money back! That\u2019s a promise",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019455088528080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "barry-6067",
+    "FeedbackScore": "533",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "London",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/iFUAAOSw~ZdVfUzx/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "E6 2DF"
+}

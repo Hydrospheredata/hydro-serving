@@ -1,0 +1,63 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "95206",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Not tested as is",
+  "StartTime": "2017-03-17T23:07:56.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~M0AAOSw4YdYzGvv/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Mr0AAOSw4A5YzGv8/$_32.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Remington",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "jessirichardso5",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "12",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "62",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3321576048688080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-15T23:07:56.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/remington-38-104-watch-/332157604868",
+  "Location": "Stockton, California",
+  "Title": "remington 38-104 watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "332157604868",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT4H17M45S"
+}

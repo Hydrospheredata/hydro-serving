@@ -1,0 +1,178 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6166.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Hertfordshire",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:05:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=132952595",
+    "StoreName": "Xupesdotcom"
+  },
+  "CurrentPrice": {
+    "value": "4795.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:05:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "W3447",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355194314",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "116400",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Milgauss",
+        "Name": "Model"
+      },
+      {
+        "Value": "116400",
+        "Name": "Model No"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "9 - Excellent condition",
+        "Name": "Item Condition*"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Diameter"
+      },
+      {
+        "Value": "Black Baton",
+        "Name": "Dial"
+      },
+      {
+        "Value": "Stainless Steel Oyster",
+        "Name": "Bracelet"
+      },
+      {
+        "Value": "Stainless Steel Oyster",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Adjustable up to 18cm",
+        "Name": "Strap Length"
+      },
+      {
+        "Value": "At Case - 19mm/At Buckle - 15mm",
+        "Name": "Strap Width"
+      },
+      {
+        "Value": "Stainless Steel Deployment",
+        "Name": "Buckle"
+      },
+      {
+        "Value": "Sapphire Crystal",
+        "Name": "Glass"
+      },
+      {
+        "Value": "To Manufacturers Specifications",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "30th November 2009",
+        "Name": "Age"
+      },
+      {
+        "Value": "2009",
+        "Name": "Year Manufactured"
+      },
+      {
+        "Value": "Box & Guarantee",
+        "Name": "Box & Papers"
+      },
+      {
+        "Value": "24 months Xupes warranty \u2013 please... See full description below.",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "W3447",
+        "Name": "Ref No."
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rolex Milgauss Stainless Steel Watch 116400 40mm - RRP \u00a36050 - W3447",
+  "ConditionDescription": "9/10 - Excellent condition. This item is 100% authentic and accompanied by Box & Guarantee. 24 months Xupes warranty \u2013 please note this does not include accidental damage or negligence.  Water resistance is only guaranteed in line with manufacturer's warranty.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rolex-Milgauss-Stainless-Steel-Watch-116400-40mm-RRP-6050-W3447-/232355194314",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323551943148080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "CM231JG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H47M44S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/HpEAAOSwcgNZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/FtgAAOSww9xZB1XC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/TkMAAOSwjL5ZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/BwAAAOSwlndZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/JT4AAOSw-3FZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/JUEAAOSw-3FZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDQ1MA==/z/flYAAOSwX61ZB1XC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/w34AAOSw~y9ZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDEyMDA=/z/FwUAAOSww9xZB1XD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/BesAAOSwrhBZB1XD/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Please call 01279 461696 or Email info@xupes.com Open Mon-Fri 9.30am-6pm, Sat 10am-4pm, Sun By Appointment Xupes - Luxury Watches, Fine Art, Photography and Antiques Online Sophistication Watches Jewellery Handbags & Accessories Antiques & Art Watches CatalogueMilgauss 40mm Stainless Steel 116400 - \u00a34,795Scroll Down for more large images below text Details Buy it Now\u00a34,795RRP\u00a36,050Item Condition*9 - Excellent conditionMovementAutomaticCaseStainless SteelCase Diameter40mmDialBlack BatonBraceletStainless Steel OysterStrap LengthAdjustable up to 18cmStrap WidthAt Case - 19mm/At Buckle - 15mmBuckleStainless Steel DeploymentGlassSapphire CrystalWater ResistanceTo Manufacturers SpecificationsGenderGentsAge30th November 2009Box & PapersBox & GuaranteeWarranty24 months Xupes warranty \u2013 please note this does not include accidental damage or negligence. Water resistance is only guaranteed in line with manufacturer's warranty.Model No.116400Serial Number.M21****Ref No.W3447 This is a pre-owned Rolex Milgauss gents 116400 watch. 40mm case size in stainless steel, black baton dial on a stainless steel oyster bracelet, powered by an automatic movement. This Rolex is in excellent condition complete with box & guarantee dated 30th November 2009. The case bears the serial number M21****. Our Xupes reference is W3447 should you need to quote this. Shipping Note - Please be aware that if an item is being shipped outside of the EU any customs, handling or brokerage charges will be the buyers responsibility. Should an item be returned these cannot be refunded and must be reclaimed from your local customs office. We cannot and will not declare items below the sale value.XUPES GUARANTEE This second hand Rolex watch has been fully inspected in house. All previously used watches are checked by our master watchmakers, this ensures they are serviced and polished when necessary with the utmost care and attention to detail. All our watches come with the Xupes comprehensive warranty scheme, this item is covered by the 24 months Xupes warranty \u2013 please note this does not include accidental damage or negligence. Water resistance is only guaranteed in line with manufacturer's warranty. We also run a strict history and authenticity check of every watch as part of our Xupes Promise.* We rate the condition of all items on a scale out of 10. If we mark a watch as 10/10 this means the watch is in unworn condition complete with all manuals, box, and manufacturers warranty (details of which will be specified in the description). For older watches we may choose to mark them as 10/10 if they are in immaculate condition. If a watch is marked as 9/10 this generally means the box and papers have been misplaced or the watch may be a little below the 'immaculate' standard. 'Unworn' applies to a item that was recently purchased new and has not been worn. If an item of Jewellery is marked as 10/10, this means it is in immaculate condition and 'as good as new'. Terms & Delivery Valuation All our watches now also come with a Valuation Certificate for insurance purposes. We also can supply additional warranty should this be required Xupes Payment Terms Please note that we will only accept paypal under certain conditions (Please email me for details). Otherwise we will accept personal cheque, Postal Order, Bank Transfer or Cash on collection (preferred). We will ship worldwide however the costs vary between countries so please email us for a quote. Shipping We use various methods of delivery, some of which are offered completely free if products are purchased as advertised. Watches & Jewellery Shipping For watches & jewellery we offer delivery either by Courier with UPS or through the Royal Mail Special Delivery service dependent on weight and size. Delivery Service Price Royal Mail Special Delivery by 1pm or UPS next day Within the UK FREE Royal Mail International Signed for/UPS Worldwide shipping outside the UK \u00a395.00 The above free shipping services are included with all watches & jewellery. Allocation to UPS, Royal Mail Special Delivery, & Royal Mail International signed for is dependent on the level of insurance required, weight, and size of the package and will be confirmed with tracking details upon order completion. Goods of value over certain levels may require specialist shipping with increased insurance. Under these circumstances we may use other couriers and may require additional details for shipment. We can also facilitate same day and Saturday delivery at additional cost. Please ask at the time of ordering. Art & Antiques Shipping For art & antiques we offer delivery either by Courier with UPS or through the Royal Mail Special Delivery service dependent on weight and size the same as for our Watches & Jewellery. Allocation to UPS, Royal Mail Special Delivery, & Royal Mail International signed for is dependent on the level of insurance required, weight, and size of the package and will be confirmed with tracking details upon order completion. Goods of value over certain levels may require specialist shipping with increased insurance. Under these circumstances we may use other couriers and may require additional details for shipment. We can also facilitate same day and Saturday delivery at additional cost. Please ask at the time of ordering. Insurance All items are sent fully insured. Local Taxes All items are inclusive of all local taxes but may be subject to additional charges for importation and taxes local to the client. While we are not liable for these additional charges we do encourage clients to research these prior to purchasing items from us. We will make a full value disclosure, where required, on all items sent overseas and this is required to ensure proper insurance cover in sending valuable items. Delivery Times Art & Antiques will be dispatched within 2 working days of cleared payment. Watches & Jewellery will be dispatched the same day payment clears providing this is before 3pm. Guarantee & Returns Policy In compliance with distance selling regulations we offer all clients the opportunity to return items within 30 days of receipt. A full refund of the purchase price, excluding delivery costs, will be provided upon the safe receipt of items in the same condition as supplied. The liability for any damage incurred during transit will remain with the sender and all items dispatched by us will be sent fully insured. We recommend that similar insurance be placed on items when returning them to us. All returns must be communicated with a returns reference obtained and attached prior to an item being sent back. Notes We are in no way affiliated with any of the brands we sell. This is a private sale. This watch is guaranteed 100% authentic as are all items we sell. Please see our feedback. Please take a moment to view our other items. Please do not waste other bidders and our time - Please only bid if you truly intend to pay for the watch. About Xupes Xupes is a web based company dealing in fine watches, jewellery, art and antiques and associated luxury goods. The company was established in 2009 and bases its trading on strict policies of absolute honesty, integrity and professionalism. We consider you, the client, as paramount to the success of our business. We aim to deliver a personal service to make you comfortable in your new purchase offering luxury products at some of the most reasonable prices on the web. All our products are fully backed by our guarantees giving you total piece of mind. The Company combines considerable expertise and knowledge in the watch, jewellery, art and antiques fields and aims to offer rare and interesting items which not only compliment each other but appeal to the discerning buyer. We also have exclusive access to one of the most exciting photographic archives accumulated over the past 65 years. Xupes Limited is a registered company in England & Wales registration no. 07010901. VAT No: 120661158. Xupes Limited is not associated with any of the brands listed. Watches We sell only branded watches. All are provided with a minimum 12 month warranty (unless otherwise stated) from Xupes Ltd. The watch movement is covered under this warranty however this does not apply to any inappropriate damage caused by mistreatment of your watch. The warranty does not cover damage to bracelets, cases, crystals/glasses, or damage arising from use in water. We do not cover accidental damage or loss. Our Xupes warranty is not transferable. We provide every watch sold with a free replacement valuation, which can be used for insurance purposes. In addition clients receive a statutory 7 day money back guarantee on all watches, which we deliver via the mail providing they are returned to us in their original condition. All returns must be agreed with Xupes beforehand. Jewellery We sell fine jewellery and work with specialist suppliers to bring you honest and accurate descriptions. We maintain a full photographic record of all pieces sold. We are unable to accept returns where items have been specifically modified or made for a client and encourage our clients to physically view and try items prior to purchase. We can however modify items (such as resizing rings) although there may be a small charge. Returns of items sent by mail will be accepted for the statutory 7 day period after delivery. However any tampering or alteration will invalidate this guarantee. All returns must be agreed with Xupes beforehand. Art, Antiques & Photography All art, antiques and photography are sold as described and are also fully guaranteed to be as described. In the unlikely event of an error in the description we will accept the return for a full refund of the costs. We pride ourselves in our honesty and integrity and again offer a statutory 7 day money back guarantee on all items, which are sent via the mail providing that these are returned to us in their original condition. All returns must be agreed with Xupes beforehand.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1255",
+    "UserID": "xupesboutique",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "In compliance with distance selling regulations we offer all clients the opportunity to return items within 30 days of receipt. A full refund of the purchase price, excluding delivery costs, will be provided upon the safe receipt of items in the same condition as supplied. The liability for any damage incurred during transit will remain with the sender and all items dispatched by us will be sent fully insured. We recommend that similar insurance be placed on items when returning them to us. All returns must be communicated with a returns reference obtained and attached prior to an item being sent back.  All returns must be communicated with a returns reference obtained and attached prior to an item being sent back.  We also specially order watches from our suppliers but in the event of a cancellation more than 24 hours following placing the order we reserve the right to charge \u00a3250. This administration charge will be deducted from your deposit. If you have any questions with regard to this at the time of your order please email or call us to discuss.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

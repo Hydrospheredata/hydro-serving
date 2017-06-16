@@ -1,0 +1,124 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8wwAAOSwuxFY3Ifx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wYAAAOSw2gxY3Ifw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9UQAAOSwol5Y3Ify/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/AFEAAOSwB-1Y3Ify/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Olympia-Hopkins-18-Inch-Backpack-Wine-One-Size-/262915759012",
+  "ConvertedCurrentPrice": {
+    "value": "63.88",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Constructed of authentic water resistant high-density 1680d. Ballistic polyester. Padded laptop compartment. Ergonomically designed s-curved padded shoulder straps with air flow. - Padded laptop compartment with internal deluxe organizer - Magnetic strap closure with buckle strap - Ergonomically designed s-curved padded shoulder straps with air flow - Convenient side and top handle - 5.5x12x18 Olympia Hopkins 18 Inch Backpack, Wine, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "63.88",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14086",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "easybuying2005"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Olympia Hopkins 18 Inch Backpack, Wine, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-30T04:22:05.000Z",
+  "HitCount": "44",
+  "TimeLeft": "P25DT13H13M31S",
+  "EndTime": "2017-06-28T04:22:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "034828500602"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0034828500602"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Olympia"
+      },
+      {
+        "Name": "MPN",
+        "Value": "BP-5006"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Wine"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.35 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 20 x W 15 x H 2 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Olympia Luggage"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262915759012",
+  "Storefront": {
+    "StoreName": "easybuying2005",
+    "StoreURL": "http://stores.ebay.com/id=1186614849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629157590128080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

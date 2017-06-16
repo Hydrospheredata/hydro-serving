@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQ3WDc0OA==/z/EscAAOSw7KJXDn0g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM3WDY2NQ==/z/z9AAAOSw3mpXDn0k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MlsAAOSwv~xXDn0n/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Pottery-Barn-Kids-Natural-Black-Stripe-FILLMORE-Diaper-Bag-Tote-/371654939174",
+  "ConvertedCurrentPrice": {
+    "value": "78.81",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "ANOTHER TRENDY SOUTHERN FIND... BROUGHT TO YOU BY TRENDY SOUTHERN FINDS!!! Pottery Barn Kids Diaper Bag Fillmore in Natural/Black Stripe New with Tags. This chic diaper bag is designed for the on-the-go parent. Sturdy, fashionable and outfitted with numerous pockets and straps, it's prepared for whatever awaits. 15.50\" wide x 5.75\" deep x 15\" highExterior made of a cotton and jute blend; interior is lined with nylon.Removable and adjustable leather shoulder strap and durable canvas handles.Features exterior front and back pockets the full width of the bag, magnetic closures, exterior side bottle pockets and bottom feet to keep the bag clean.Two double, elastic interior pockets keep the bag nicely organized",
+  "Title": "NWT Pottery Barn Kids Natural/Black Stripe FILLMORE Diaper Bag Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.81",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Boiling Springs, South Carolina",
+  "Seller": {
+    "FeedbackScore": "12535",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "trendfind"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "29316",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-06-13T18:23:10.000Z",
+  "HitCount": "631",
+  "TimeLeft": "P6DT2H46M2S",
+  "EndTime": "2017-06-08T18:23:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton Blend"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Pottery Barn Kids"
+      },
+      {
+        "Name": "Color",
+        "Value": "Natural/Black"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371654939174",
+  "Storefront": {
+    "StoreName": "Trendy Southern Finds",
+    "StoreURL": "http://stores.ebay.com/id=38992176"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3716549391748080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

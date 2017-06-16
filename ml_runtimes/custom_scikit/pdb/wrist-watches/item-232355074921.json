@@ -1,0 +1,203 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "96.46",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Mitcham",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:02:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:02:27.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355074921",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nautica",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": [
+          "Rose Gold",
+          "Silver"
+        ],
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "43mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "22mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "CASUAL / SMART",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "A19618G",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Strap Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NAUTICA A19618G GENTS CHRONOGRAPH WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NAUTICA-A19618G-GENTS-CHRONOGRAPH-WATCH-/232355074921",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323550749218080_2.jpg",
+  "HitCount": "5",
+  "PostalCode": "CR43FS",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H34M30S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM0MVg4MTA=/z/IUEAAOSwhvFZLp2h/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxNFg5MDA=/z/vnUAAOSwfpVZLp25/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzM1g4MTA=/z/6yQAAOSwYlRZLp3E/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDM2MA==/z/7r8AAOSwAPVZLY1i/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "A BRAND NEW UNUSED NAUTICA CHRONOGRAPH WATCH WITH TAG BUT NON-NAUTICA BOX. ORIGINAL RRP \u00a3240.00. A BARGAIN FOR A REAL QUALITY WATCH. OPEN TO REASONABLE OFFERS.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "136",
+    "UserID": "leb_guy2010",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

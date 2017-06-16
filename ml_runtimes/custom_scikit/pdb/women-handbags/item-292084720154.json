@@ -1,0 +1,127 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzY1/z/N1MAAOSwc-tY74Pv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDEy/z/NRcAAOSwnF9Y74QN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1MDY=/z/xOsAAOSwpkFY74Pv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM1WDE1MDA=/z/-fEAAOSwrddY74Pw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2MlgxNTAw/z/nRIAAOSwhQhY74Px/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDg1/z/oJkAAOSwmgJY74Pv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MTk=/z/L5cAAOSwnF9Y74Pw/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Jacobs-Womens-Nylon-Knot-Baby-Bag-Plum-/292084720154",
+  "ConvertedCurrentPrice": {
+    "value": "251.03",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Marc Jacobs nylon knot baby bag made from 100 percent nylon with zipper closure. - Pockets: 1 interior slip, 1 interior zip, 3 exterior Marc Jacobs Womens Nylon Knot Baby Bag, Plum",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "251.03",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "148",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Marc Jacobs Womens Nylon Knot Baby Bag, Plum",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T10:08:05.000Z",
+  "HitCount": "124",
+  "TimeLeft": "P9DT18H39M20S",
+  "EndTime": "2017-06-12T10:08:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "889732921346"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0889732921346"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc Jacobs"
+      },
+      {
+        "Name": "MPN",
+        "Value": "M0011199-535"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Plum"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.4 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 19.8 x W 14.3 x H 3.2 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "M0011199"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084720154",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2920847201548080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

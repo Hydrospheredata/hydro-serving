@@ -1,0 +1,119 @@
+{
+  "ExcludeShipToLocation": [
+    "AM",
+    "CN",
+    "AT",
+    "DE",
+    "IE",
+    "MD",
+    "GB",
+    "HK"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "love_castle",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "113788",
+    "PositiveFeedbackPercent": "97.9"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "love_castle store Bronze Mens Mechanical Analog Hand Winding Pocket Watch Main Features: 1. Brand new with mechanical movement 2. Luminous dial type for dark area 3.Classical antique skeleton back case design 4. 100% Brand new with high quality 5. Luminous dial displayed time with black number hands 6. It is opened with a push button located at the top of the watch Specification: Type: mechanical Display: analog Case material: Stainless Steel Case Diameter(cm): 4.5 Case thickness(cm): 1.5 Chain material: Stainless Steel Chain color: bronze Chain length(cm): 31 Components : 1x pocket watch 1x chain Paypal is the only method of payment. No other payment methods will be accepted. If you don't have Paypal account, please sign up and learn more about paypal. Payment must be fulfilled within 7 days since auction's ending. We will ship your order within 48 hours after receiving your verified payment (Excluding Weekends and Public Holidays) This product will be shipped from Hong Kong. Returns for exchange are permitted and must be initiated by the buyer within the following periods: 1.Defective/ Wrong Items 2.If you would like to return your product(s) for repair / replacement / refund, please kindly contact our customer service representatives via email. 3.Buyers are responsible for the returning shipping costs under any circumstances All contacts should be made via ebay message service or email .",
+  "StartTime": "2017-05-26T06:12:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/5AcAAOSw5cNYk0Bp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/fO8AAOSwNSxVgC4k/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/QckAAOSw3xJVgC44/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/VqQAAOSwpDdVgC5M/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/auoAAOSw~OdVgC5l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/QIUAAOSw2VJVgC59/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Xc8AAOSwpDdVgC6O/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "HK",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SOKI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "705554734417",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "W135",
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4013345484308080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T06:12:56.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Luminous Face with Skeleton Case Mens Mechanical Hand Winding Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Luminous-Face-Skeleton-Case-Mens-Mechanical-Hand-Winding-Pocket-Watch-/401334548430",
+  "Storefront": {
+    "StoreName": "love_in_castle",
+    "StoreURL": "http://stores.ebay.com/id=721931594"
+  },
+  "ItemID": "401334548430",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT11H36M42S"
+}

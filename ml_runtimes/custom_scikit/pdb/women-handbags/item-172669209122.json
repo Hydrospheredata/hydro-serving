@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9r8AAOSwDiBZE3ak/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OiMAAOSwIaFZE3ag/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XM8AAOSwdjNZE3am/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9~oAAOSwlMFZE3ai/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-MARC-JACOBS-Pretty-Nylon-13-Laptop-Commuter-Case-/172669209122",
+  "ConvertedCurrentPrice": {
+    "value": "76.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Black, pink and white Pretty Nylon 13\" Laptop Commuter Case by Marc by Marc Jacobs. Tote your laptop in style with this logo-stitched laptop case. It features double handles, a front logo plaque and an exterior velcro pocket. The zip-around closure opens to a faux fur lining. Width: 13.5\", Height: 10.5\"Condition: Pre-owned excellentAll images are images of actual bag for sale.",
+  "Title": "MARC BY MARC JACOBS Pretty Nylon 13'' Laptop Commuter Case",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "76.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Saint-Laurent, Quebec",
+  "Seller": {
+    "FeedbackScore": "107",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "insidesabrinascloset"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "H4T1Z6",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T20:24:34.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P7DT5H19M50S",
+  "EndTime": "2017-06-09T20:24:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172669209122",
+  "Storefront": {
+    "StoreName": "insidesabrinascloset",
+    "StoreURL": "http://stores.ebay.com/id=1179840634"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726692091228080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

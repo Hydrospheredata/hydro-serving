@@ -1,0 +1,153 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT23H17M26S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "A brand-new, unused, and unworn item",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "192208280129",
+  "ConvertedCurrentPrice": {
+    "value": "34.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T11:31:51.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Angel-Wings-Pendant-Made-Swarovski-Crystal-Necklace-Jewelry-Winx-Chain-/192208280129",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T11:31:51.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Style"
+      },
+      {
+        "Value": "Fairytale & Fantasy",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "16.5 - 18.5 inches  /  42 - 47 cm chain",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Necklace",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Angel Wings Pendant Made With Swarovski Crystal Necklace Jewelry Winx Chain",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "MX",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "BG",
+    "CZ",
+    "PL",
+    "SK",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "SG",
+    "TH",
+    "VN"
+  ],
+  "Location": "Arlington Heights, Illinois",
+  "Description": "Angel Wings Pendant Made With Swarovski Crystal Necklace Jewelry Winx Chain Dimension: 1.2 x 0.7 inch / 30 x 19 mm with adjustable 16.5 - 18.5 inches / 42 - 47 cm chain lobster clasp necklace Condition: A brand-new, unused, and unworn item Jewelry box included, ready for gift giving! Perfect Birthday, Christmas, Valentines day and anniversary gift for your loved ones, or a gift for yourself!. This elegant high quality necklace is awesome for any occasion or everyday wear and also great value for money. A high polish finish completes this great look. This necklace will make a wonderful gift for your loved ones, or a gift for yourself! Please drop us a message if you have any inquiry. We will try our best to help you out! Your Best Value For Beautiful High Quality Jewelry! SHIPPING DOMESTIC - FREE INTERNATIONAL $7.95 first item and $1.95 for each additional Items are measured entirely include the bail, earrings include the hooks, the bracelets and necklaces to its last link. Positive feedback is greatly appreciated. If you are unhappy for any reason please do not leave negative or neutral feedback and allow us the opportunity resolve all issues. We are very fair and easy to deal with. The crystals of this finished product are being manufactured by D. Swarovski & Co. \u201cSwarovski\u201d is registered trademark of Swarovski AG, but there is no relationship between any Swarovski company and the manufacturer of this product. PAYMENT Payment should be made within seven days since the winning of the first item. RETURNS If you are not 100% happy with the item you received, you can return it in original packaging and condition within 30 days of receiving your package.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922082801298080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellatrixjewelry",
+    "FeedbackScore": "4530",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "BELLATRIX JEWELRY",
+    "StoreURL": "http://stores.ebay.com/id=224470813"
+  },
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTU4WDY1MA==/z/H0oAAOSwAYtWKYG~/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "PostalCode": "60004"
+}

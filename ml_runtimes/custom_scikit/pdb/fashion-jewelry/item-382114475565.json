@@ -1,0 +1,170 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "382114475565",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryID": "50692",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AZ",
+    "RU",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "GR",
+    "IT",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "RS",
+    "UA",
+    "KH",
+    "LA",
+    "VN"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821144755658080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "farmdirectpearl",
+    "FeedbackScore": "14723",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Farm Direct Pearl",
+    "StoreURL": "http://stores.ebay.com/id=188199002"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk2WDgwMA==/z/264AAOSwaEhZM46r/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "SKU": "006S100WHT16RRN2",
+  "StartTime": "2017-06-04T04:38:01.000Z",
+  "ConditionDescription": "brand new items without price tag",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "JP",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "-1",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/16-2pc-Set-Genuine-AAA-ROUND-9-10mm-White-Pearl-Necklace-Cultured-Freshwater-/382114475565",
+  "EndTime": "2017-06-11T04:38:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "FDP",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Platinum Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pearl, Cultured Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Freshwater",
+        "Name": "Pearl Type"
+      },
+      {
+        "Value": "Pearl Necklace Set",
+        "Name": "Name"
+      },
+      {
+        "Value": "Necklace Earrings",
+        "Name": "Set Type"
+      },
+      {
+        "Value": "Choker",
+        "Name": "Necklace Style"
+      },
+      {
+        "Value": "16 inch",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "White",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "16\" 2pc Set Genuine AAA ROUND 9-10mm White Pearl Necklace Cultured Freshwater",
+  "TimeLeft": "P5DT16H30M22S",
+  "Location": "San Jose, California",
+  "Description": "Welcome to Farm Direct Pearl (Lowest Priced Quality Pearls from Pearl Farm) Track Page Views With Auctiva's FREE Counter",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "Quantity": "1",
+  "PostalCode": "95129"
+}

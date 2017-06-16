@@ -1,0 +1,268 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/XqAAAOSwhvFZER-5/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/uV0AAOSwPh5ZER-6/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/g3sAAOSwX9FZER-4/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/tRkAAOSwaeRZER-2/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/BfIAAOSwH09ZER-4/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/0iAAAOSwcgNZER-3/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/ccAAAOSw8HBZER-7/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/UBQAAOSwGJlZER-8/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/g5YAAOSw3gJZER-7/$_12.JPG"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:09:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1500",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1122499091",
+    "StoreName": "love-shopping2013"
+  },
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:09:06.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BY",
+    "BA",
+    "HR",
+    "CY",
+    "CZ",
+    "FI",
+    "IS",
+    "LV",
+    "LT",
+    "ME",
+    "NO",
+    "RO",
+    "SI",
+    "SE",
+    "CH",
+    "UA",
+    "HN",
+    "PR",
+    "BN",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "PE",
+    "UY",
+    "MX",
+    "BH",
+    "IL",
+    "JO",
+    "KW",
+    "AZ",
+    "CN",
+    "GE",
+    "JP",
+    "MV",
+    "PF",
+    "PO Box"
+  ],
+  "ItemID": "222529966856",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Faux-leather-Cares-Numbers-Women-Mens-Wrist-Watches-Funny-Comment-LS-/222529966856?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "ALLOY",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "White,",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White,",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Faux Leather,",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Beige,Black,White,",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "37mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "V-SH-JY-202@#LS@ZB510@WZBG",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "0.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "V-SH-JY-202-BK",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "500"
+      },
+      {
+        "StartPrice": {
+          "value": "0.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "V-SH-JY-202-WT",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "500"
+      },
+      {
+        "StartPrice": {
+          "value": "0.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "V-SH-JY-202-BG",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Beige",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "500"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White",
+          "Beige"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/4JUAAOSwcaFZESF5/$_12.JPG"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/w38AAOSwaeRZESF6/$_12.JPG"
+        },
+        {
+          "VariationSpecificValue": "Beige",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/XlUAAOSwsXFZESF4/$_12.JPG"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H35M55S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Faux leather Who Cares Numbers Women Men's Wrist Watches Funny Comment LS",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "82997",
+    "UserID": "love-shopping2013",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

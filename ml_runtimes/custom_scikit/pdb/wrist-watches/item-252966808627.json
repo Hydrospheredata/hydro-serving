@@ -1,0 +1,78 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Troutdale, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:21:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1235707415",
+    "StoreName": "Treasure Next Door"
+  },
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:21:59.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966808627",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Sheffield",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Very Rare vintage Sheffield Swiss Peek A Boo Watch estate find",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Very-Rare-vintage-Sheffield-Swiss-Peek-Boo-Watch-estate-find-/252966808627",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529668086278080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "24378",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H2M",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1Nlg1OTg=/z/vwYAAOSwE0JY9jRV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/lxAAAOSwJ4hY9jRq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyN1g4OTk=/z/W2IAAOSwtZJY9jSB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg1WDgxMA==/z/gDEAAOSw3ZRY9jSY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/Dv0AAOSwBOtY9jS1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyN1g5MDA=/z/lbQAAOSwIWVY9jTm/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Beautiful rare old watch bracelet. Watch does work but is missing the crystal. The peek a boo bracelet band is hinged and works well but is missing some of the small faux pearls. Still a magnificent old wearable piece! will be posting several jewelry items and miscellaneous items from the exquisite estate.\u00a0\u00a0 Please use the pictures as part of the description.\u00a0\u00a0 None of my items are cleaned, buffed, polished or altered in any way. This is left to the buyer.\u00a0\u00a0 With vintage, antique or other pre-owned items, please expect there to be wear or tarnish present. It's very rare to find a perfect piece when dealing with pre-owned. Please use the zoom feature to fully inspect the item (s) you will be receiving.\u00a0\u00a0 If you are not satisfied, please contact me prior to leaving negative feedback to see if we can resolve the issue.\u00a0\u00a0 Positive feedback is always given after positive feedback is received.\u00a0\u00a0 I combine shipping on multiple orders. Please request or wait for an invoice prior to paying. In most cases I'm able to save the buyer a significant amount when combining orders. There may only be a few cases that I will not be able to save you money.\u00a0\u00a0 Items ship day after payment is received and sometimes same day.\u00a0\u00a0 Please feel free to ask questions, and be sure to follow me as new items are posted every week.\u00a0\u00a0 If you're a VA resident a 5.3% sales tax will be applied",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "2140",
+    "UserID": "treasure-next-door",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

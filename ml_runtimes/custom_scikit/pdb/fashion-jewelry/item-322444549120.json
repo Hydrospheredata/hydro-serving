@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H10M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "54.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322444549120",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Black-Baron-Technicians-Wingstrap-Alchemy-Gothic-/322444549120",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "54.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-07T07:19:02.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T07:19:02.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Alchemy Gothic",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "The Black Baron Technician's Wingstrap by Alchemy Gothic",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "From the fearless pioneer of struts & wires aerial daring-do, a badge of honour and technical ability; a rare and wondrous bestowal from the famed hero of early, roaring skies.This brown leather strap features an ornately cast two-tone pewter wing. The leather strap is sold as one size, with three different adjustable size options.Approx. Size:Width: 2.48 x Height: 0.98 x Depth: 0.39Materials:Genunine Leather with Multi-toned Fine English Pewter.",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3224445491208080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "gothicempire",
+    "FeedbackScore": "491",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "GothicEmpire",
+    "StoreURL": "http://stores.ebay.com/id=44229695"
+  },
+  "Quantity": "1",
+  "Location": "Glendale, Arizona",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/afYAAOSwol5Yvl5e/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/0MMAAOSwWxNYvl5h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/woMAAOSw32lYvl5m/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dRAAAOSwuxFYvl5w/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/2kEAAOSwTuJYvl5-/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "85304"
+}

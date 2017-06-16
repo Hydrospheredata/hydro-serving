@@ -1,0 +1,220 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT3H18M11S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "CSBLINGSHOP",
+    "StoreURL": "http://stores.ebay.com/id=332410189"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "14",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "291990518782",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925-STERLING-SILVER-W-ROSE-GOLD-PLATED-PLAIN-CUSTOM-FIT-REAL-GRILLZ-/291990518782?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-01-03T19:19:37.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T19:19:37.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "6 PCS TOP OR BOTTOM",
+          "8PCS TOP OR BOTTOM",
+          "10PCS TOP OR BOTTOM",
+          "16PCS 8TOP AND 8BOTTOM",
+          "12PCS 6 TOP AND 6 BOTTOM",
+          "20 PCS 10TOP AND 10BOTTOM"
+        ],
+        "Name": "POSITION"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6 PCS TOP OR BOTTOM",
+            "Name": "POSITION"
+          }
+        },
+        "StartPrice": {
+          "value": "95.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "5"
+        },
+        "Quantity": "201"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "8PCS TOP OR BOTTOM",
+            "Name": "POSITION"
+          }
+        },
+        "StartPrice": {
+          "value": "110.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "6"
+        },
+        "Quantity": "205"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "10PCS TOP OR BOTTOM",
+            "Name": "POSITION"
+          }
+        },
+        "StartPrice": {
+          "value": "150.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "Quantity": "202"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "16PCS 8TOP AND 8BOTTOM",
+            "Name": "POSITION"
+          }
+        },
+        "StartPrice": {
+          "value": "200.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "Quantity": "205"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "12PCS 6 TOP AND 6 BOTTOM",
+            "Name": "POSITION"
+          }
+        },
+        "StartPrice": {
+          "value": "180.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "Quantity": "204"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "20 PCS 10TOP AND 10BOTTOM",
+            "Name": "POSITION"
+          }
+        },
+        "StartPrice": {
+          "value": "290.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "205"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SILVER",
+        "Name": "Metal"
+      },
+      {
+        "Value": "SILVER",
+        "Name": "Material"
+      },
+      {
+        "Value": "ROSE GOLD",
+        "Name": "Color"
+      },
+      {
+        "Value": "925 STERLING SILVER",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "925 STERLING SILVER W/ ROSE GOLD PLATED PLAIN CUSTOM FIT REAL GRILLZ",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SOLID STERLING SILVER W/ROSE GOLD PLATED PLAIN GRILLZ CUSTOM FIT REAL STERLING SILVER .925 GRILLZ WITH ROSE GOLD PLATED ONLY COVER STRAIT FRONT 6 8 10 PIECES OF TEETH.WE DON'T MAKE SINGLE CAPS.PLEASE DO NOT ASK ABOUT 2PC GRILLZ OR SINGLE CAPS. THIS IS NOT A ONE SIZE FIT GRILLZ.THIS IS A REAL GRILLZ THAT FIT ONLY YOUR TEETH.PLEASE CHECK OUR EXCELLENT FEEDBACK! IF YOU WANT TO GET DIFFERENT DESIGN GRILLZPLEASE SEND US MESSAGE WE WILL GIVE YOU QUOTE. ONCE YOU PLACE ORDER WE WILL SEND YOU MOLDING KIT FIRST, IMPRINT YOUR TEETH THEN SEND US BACK YOUR MOLD AND WE WILL SHIP YOUR CUSTOMIZE GRILLZ IN 1~2 BUSINESS DAY. 925 STERLING SILVER (REAL SILVER) WITH ROSE GOLD PLATED 2~6 GRAMS OF SILVER. (DEPENDS ON YOUR TEETH SIZE) 100% HAND MADE JOB FREE MOLDING KITS WITH INSTRUCTIONS DISCLAIMER: This removable tooth jewelry is intended for temporary cosmetic use only and should be removed prior to eating, drinking, sleeping, or any other activity that may result in the jewelry being dislodged from the tooth and posing a choking hazard. Csblingshop hereby disclaims any and all liability from injuries resulting from the improper use of this product. RETURN All grillz are custom made to order. There are No Refunds. We try our best to make the grillz true to size, so if for any reasons you have issues, please contact us first. Generally if the mold wont work, we will let you know before we get started to reach a solution. We have put together very detailed instructions on making a mold, and ask that you read carefully and are patient when making the mold. If your mold will not work, you are responsible for purchasing another mold kit.",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "UserID": "cssean",
+    "FeedbackScore": "6128",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "1222",
+  "Location": "Houston, Texas",
+  "HitCount": "2056",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDk2MQ==/z/AbwAAOSw5cNYa~hy/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MQ==/z/~l0AAOSwa~BYa~h3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MQ==/z/EOcAAOSw2xRYa~h6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MQ==/z/8v0AAOSw-0xYa~h-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MQ==/z/GIwAAOSwjDZYa~iB/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "77060"
+}

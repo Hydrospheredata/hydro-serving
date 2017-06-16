@@ -1,0 +1,107 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Birks Ellis Pocket Watch \"Cavendish\" (Longines, Swiss Mvnt) S/N 5498059 Ca. 1935",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-29T23:59:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU2N1gxNjAw/z/KAIAAOSwjqVZBTDF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3OVgxNjAw/z/eXIAAOSw42JZBTDO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5N1gxNjAw/z/Xs0AAOSwrhBZBTDX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1MVgxNjAw/z/mjUAAOSww5NZBTDh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUyMFgxNjAw/z/e7kAAOSw42JZBTDo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc3/z/6-UAAOSwjL5ZBTDy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3OVgxNjAw/z/sFEAAOSwlndZBTD5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxNjAw/z/nSAAAOSww5NZBTED/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2NVgxNjAw/z/7fMAAOSwjL5ZBTEM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2MlgxNjAw/z/xtAAAOSw7GRZBTEW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU2NFgxNjAw/z/AA8AAOSw42dZBTEf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3MVgxNjAw/z/3h4AAOSwtGlZBTEq/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "170.79"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1930-1939",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Birks Ellis, Longines",
+        "Name": "Brand"
+      },
+      {
+        "Value": "5498059",
+        "Name": "Serial Number"
+      }
+    ]
+  },
+  "SKU": "F109 $140",
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619939214748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T23:59:13.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "229.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Birks-Ellis-Pocket-Watch-Cavendish-Longines-Swiss-Mvnt-S-N-5498059-Ca-1935-/361993921474",
+  "ConditionDescription": "See Photos. Watch in great working order",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "361993921474",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT5H25M8S"
+}

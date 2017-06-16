@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2824549114978080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg4MzY=/z/n~8AAOSwnONZBqp9/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NjI=/z/o0UAAOSwT-FZBqqB/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTUwMFg1MzI=/z/a1IAAOSwcgNZBqqE/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzE3WDEwMDA=/z/jJAAAOSwX61ZBqqI/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NjIzWDEwMDA=/z/bXUAAOSwuMZZBqqL/$_3.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OGIO-International-Hamptons-Tote-/282454911497",
+  "ConvertedCurrentPrice": {
+    "value": "60.21",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "OGIO International Hamptons Tote Product Features Canvas Imported Fully padded fleece lined laptop compartment with elastic closure fits most 15\" laptops Padded tablet pocket Fully padded base protects laptop Two interior elastic side pockets for cord and water bottle storage Zippered interior valuables pocket. Shoulder strap length: 24\". Product Description Shipping Policies Free 2-4 business day shipping with 1 business day processing eBay's arrival estimate is based on average ship times & not a guarantee Please make sure you want the item, we are unable to support cancellations Buyer is responsible for address entered, we do not support address changes. Buyer is responsible for all applicable local & state laws regarding purchase Return Policy Returns must be NEW & UNUSED condition with all parts & original packaging Please message us for the required RMA to return an item Return shipment for defective items is paid for by us! We do not stock parts. All returns require returning the entire item Perishable items are guaranteed to be in date or full refund Customer Service Please allow us to resolve any issues before leaving feedback. We will resolve any issue! Please allow up to 24 hours for a response!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.21",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "4",
+    "PositiveFeedbackPercent": "71.4",
+    "FeedbackRatingStar": "None",
+    "UserID": "ex-lover_store"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "OGIO International Hamptons Tote",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-01T03:25:00.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P27DT12H18M6S",
+  "EndTime": "2017-06-30T03:25:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "OGIO"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "OGIO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "30344665"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0031652208629"
+      },
+      {
+        "Name": "UPC",
+        "Value": "031652208629"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282454911497",
+  "Storefront": {
+    "StoreName": "ex-lover_store",
+    "StoreURL": "http://stores.ebay.com/id=1381784598"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00QIC2PB6",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

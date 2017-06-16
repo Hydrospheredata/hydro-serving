@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTM4WDcxNw==/z/uk4AAOSw2GlXFUS8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM4WDcxNw==/z/ungAAOSw2GlXFUS9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM4WDcxNw==/z/-2EAAOSwq7dXFUS-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM4WDcxNw==/z/CJcAAOSwE3BXFUTA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM4WDcxNw==/z/sJMAAOSwubRXFUTB/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-Pouch-Purse-Case-Secret-Garden-Embroidered-Butterfly-Retail150-00-/162537753478",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "~Brighton Pouch Purse Case \"Secret Garden\" Embroidered Butterfly Retail150.00!~ Track Page Views WithAuctiva's FREE Counter",
+  "Title": "~Brighton Pouch Purse Case \"Secret Garden\" Embroidered Butterfly Retail150.00!~",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "AU"
+  ],
+  "Location": "Bellflower, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "3644",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "silverlininggems"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "90706",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T19:45:48.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P2DT4H2M20S",
+  "EndTime": "2017-06-04T19:45:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Brighton"
+      },
+      {
+        "Name": "Material",
+        "Value": "leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Strap/Handle"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162537753478",
+  "PrimaryCategoryID": "163570",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Silver Lining Gems",
+    "StoreURL": "http://stores.ebay.com/id=211593414"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625377534788080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

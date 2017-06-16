@@ -1,0 +1,125 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wildkin-Horses-Pink-Bogo-Backpack-Lunch-Bag-One-Size-Delivery-Free-/192143747480?var=",
+  "ConvertedCurrentPrice": {
+    "value": "52.21",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: You no longer need to carry your lunch box and backpack separately. Our backpack includes a detachable, insulated lunchbox of the same pattern as the backpack.",
+  "Title": "Wildkin Horses in Pink Bogo Backpack with Lunch Bag, One Size. Delivery is Free",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.21",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "One Color",
+        "PictureURL": [
+          "http://rcdn-1.fishpond.co.nz/0045/367/269/98908457/original.jpeg",
+          "http://rcdn-4.fishpond.co.nz/0045/367/269/98908459/original.jpeg"
+        ]
+      },
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": {
+      "Quantity": "4",
+      "StartPrice": {
+        "value": "52.21",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:45367269:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour",
+          "Value": "One Color"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": "One Color"
+      }
+    }
+  },
+  "StartTime": "2017-03-30T03:38:41.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P25DT11H20M28S",
+  "EndTime": "2017-06-28T03:38:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "US Handbags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "66020"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143747480",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "25:63691762:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,166 @@
+{
+  "ExcludeShipToLocation": [
+    "AT",
+    "BA",
+    "CY",
+    "DE",
+    "IT",
+    "SJ",
+    "AG",
+    "AW",
+    "DO",
+    "MQ",
+    "VC",
+    "TC",
+    "HK",
+    "MO",
+    "SG",
+    "TW",
+    "BO",
+    "BR",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PM",
+    "LY",
+    "MU",
+    "IQ",
+    "LB",
+    "TR",
+    "AF",
+    "AZ",
+    "CN",
+    "LK",
+    "FJ",
+    "NC",
+    "PG",
+    "WF"
+  ],
+  "QuantitySold": "1",
+  "PostalCode": "510470",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "kikohouse",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13218",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product Features: Transparent Skeleton Half Hunter Design Movement: Hand Winding Mechanical Diameter: About 4.7 cm Thickness: About 1.5 cm Total Length of Chain: About 30cm Package Content: 1 x Pocket Watch 1 x Chain",
+  "StartTime": "2017-03-12T23:29:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6ikAAOSwhQhYxdmx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/rQEAAOSwzgBYxdm0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/bCcAAOSwCU1Yxdm3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/78oAAOSw4A5Yxdm7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/rqIAAOSwzgBYxdnA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/yyMAAOSwOgdYxdnD/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.63"
+  },
+  "HighBidder": {
+    "UserID": "d***d",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1769",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "SKU": "[P2054C]EBKIKOH",
+  "HitCount": "146",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2528104102338080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.63"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-10T23:29:09.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Black-Flower-Hollow-Roman-Numerals-Hand-Winding-Mechanical-Pocket-Watch-Chain-/252810410233",
+  "Location": "Guangzhou",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Black Flower Hollow Roman Numerals Hand Winding Mechanical Pocket Watch Chain",
+  "Storefront": {
+    "StoreName": "kikohouse",
+    "StoreURL": "http://stores.ebay.com/id=1237031647"
+  },
+  "ItemID": "252810410233",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT4H38M15S"
+}

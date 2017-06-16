@@ -1,0 +1,115 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.29"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SG12UUBA3639478",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "GTIN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-24T06:13:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY1WDY2NQ==/z/3uQAAOSwH09ZJSSd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY4WDY2OA==/z/8ZEAAOSwYvFZJSSe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY4WDY2OA==/z/LsIAAOSwZ4dZJSSf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDY2NQ==/z/WsIAAOSws5pZJSSg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY4WDY2OA==/z/hxcAAOSwjqVZJSSh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDY2NQ==/z/MJgAAOSwcgNZJSSi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDY2NQ==/z/rKwAAOSwcB5ZJSSj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY1WDY2NQ==/z/mR8AAOSwKytZJSSk/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "30",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_ZG566800",
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225132736478080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T06:13:57.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122513273647",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.29"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Quartz Pocket Watch Antique Ball Football Pendent Necklace Gift BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Quartz-Pocket-Watch-Antique-Ball-Football-Pendent-Necklace-Gift-BA-/122513273647",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130025",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT11H36M18S"
+}

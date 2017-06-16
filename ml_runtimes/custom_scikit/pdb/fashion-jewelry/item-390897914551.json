@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P7DT20H36M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "2",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "31.05",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ItemID": "390897914551",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Filagree-NON-Pierce-Body-Accessory-Dress-UP-Female-Hand-Designed-Jewelry-/390897914551",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.05",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2014-07-29T12:59:18.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-13T12:59:18.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "beautifulstuff",
+        "Name": "Brand"
+      },
+      {
+        "Value": "silver plate",
+        "Name": "Metal"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "rhinestone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Filagree NON Pierce Body Accessory Dress UP Female Hand Designed Jewelry",
+  "ExcludeShipToLocation": [
+    "HK",
+    "CN"
+  ],
+  "BidCount": "0",
+  "Description": "Designed to fit on the lower bodyNo pierce no pain.Comfortable, features filigree tops and unique rhinestones as a charming effect. Use your imagination and wear this beautiful hand designed body adornment below the waist.Check out my other items! On Jul-29-14 at 07:18:27 PDT, seller added the following information: Every buyer gets a MyStoreRewards invitation for cash back Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3908979145518080_3.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "beautiflstuff",
+    "FeedbackScore": "21868",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "BEAUTIFLSTUFF Sexy Hot Body Chains",
+    "StoreURL": "http://stores.ebay.com/id=87170296"
+  },
+  "Quantity": "12",
+  "Location": "Boynton Beach, Florida",
+  "HitCount": "963",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMTUy/z/KqkAAOSwVFlT31kd/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33435"
+}

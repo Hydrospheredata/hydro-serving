@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT18H29M38S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "handmade unique new",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282510205635",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/set-natural-red-leathe-rose-flower-necklace-bracelet-and-earrings-/282510205635",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T06:11:17.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "LT",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T06:11:17.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Red, black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Lithuania",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "set of natural red leathe rose flower necklace, bracelet and earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "It's absolutely handmade beautiful and unique leather jewelery set.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825102056358080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "radvile1rose",
+    "FeedbackScore": "448",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "KRETINGA, default",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ1N1gxNTk5/z/xGoAAOSw2gxYo~M0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM0WDE2MDA=/z/wLUAAOSw2gxYo~Mc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ4WDE2MDA=/z/Q0EAAOSwr~lYo~NL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDU3/z/wYcAAOSw2gxYo~Mh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI5NVgxNjAw/z/P-kAAOSwr~lYo~Mm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjcx/z/R4IAAOSwfVpYo~Mr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxM1gxNjAw/z/OE0AAOSw32lYo~Mv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjA4/z/~TUAAOSw4A5Yo~M5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/2ssAAOSwdGFYo~M~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4M1gxNjAw/z/gVwAAOSw~AVYo~ND/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc1WDE2MDA=/z/AX4AAOSwtfhYo~NQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcwWDE2MDA=/z/~oEAAOSw4A5Yo~NH/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets"
+}

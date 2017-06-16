@@ -1,0 +1,136 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P23DT3H20M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.89",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "zzmy",
+    "FeedbackScore": "10236",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ItemID": "162533556896",
+  "SecondaryCategoryID": "165893",
+  "ConvertedCurrentPrice": {
+    "value": "39.89",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "SecondaryCategoryIDPath": "281:48579:500:165890:165893",
+  "BidCount": "0",
+  "StartTime": "2017-05-29T18:19:11.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chicos-Two-Toen-Coin-Style-Necklace-Chain-/162533556896",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-28T18:19:11.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chico's",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "n/a",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Fashion Jewelry",
+        "Name": "Category"
+      },
+      {
+        "Value": "Necklaces",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "2x29\" metal bronze silver Chico's",
+        "Name": "size color material hallmark"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Chicos Two Toen Coin Style Necklace Chain",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "San Francisco, California",
+  "Description": "Vintage multi strand coin style two tone necklace strand by Chico's, 2\" drop, up to 29\" wearable length, very good, gift boxed",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625335568968080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Vintage & Antique Jewelry:Costume:Designer, Signed:Necklaces & Pendants",
+  "Storefront": {
+    "StoreName": "zzmy vintage collectibles jewelry",
+    "StoreURL": "http://stores.ebay.com/id=79018594"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDM0/z/LVcAAOSwGvhUKkPB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQz/z/NdEAAOSwRLZUKkPH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgz/z/K9IAAOSwnDZUKkPL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ZEwAAOSwDk5UKkPP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDE1/z/LhUAAOSwGvhUKkPT/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "94123"
+}

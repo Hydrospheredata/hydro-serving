@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P14DT35M11S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "y***.",
+    "FeedbackScore": "245",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.84",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ItemID": "390902492531",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rainbow-Dangle-Body-Clips-Gold-gp-Beaded-Dangle-Puff-Heart-CUTE-/390902492531",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "44.84",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2014-08-04T16:57:52.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T16:57:52.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Rainbow Dangle Body Clips Gold gp Beaded Dangle with Puff Heart CUTE",
+  "ExcludeShipToLocation": [
+    "HK",
+    "CN"
+  ],
+  "BidCount": "0",
+  "Description": "Click Here. Double your traffic. Get Vendio Gallery - Now FREE! Rainbow Dangle Body Clips Gold gp Beaded Dangle with Puff Heart CUTE Track Page Views With Auctiva's FREE Counter On Aug-04-14 at 17:21:56 PDT, seller added the following information: Every buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3909024925318080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "beautiflstuff",
+    "FeedbackScore": "21868",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "BEAUTIFLSTUFF Sexy Hot Body Chains",
+    "StoreURL": "http://stores.ebay.com/id=87170296"
+  },
+  "Quantity": "8",
+  "HandlingTime": "5",
+  "Location": "Boynton Beach, Florida",
+  "HitCount": "753",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjU4WDYwMA==/z/ficAAOSwnDZT37uI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjU4WDYwMA==/z/HBAAAOSwVFlT37uK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDYwMA==/z/MkYAAOSwq7JT37uM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/sMEAAOSwRLZT37uN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDYwMA==/z/ku4AAOSwGvhT37uP/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33435"
+}

@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT5H45M19S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "44.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272695737429",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kameleon-Authentic-Mother-Pearl-Silver-Ring-KR025-Size-9-New-Orig-99-/272695737429",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "44.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T20:36:27.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T20:36:27.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kameleon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "Kameleon Authentic Mother of Pearl Silver Ring (KR025) Size 9 *New* Orig $99",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Sterling Silver ring with mother of pearl around the jewelpop area *JewelPop (Center Stone) not included* Materials: Sterling silver **BRAND NEW** direct from Retail Inventory",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726957374298080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "msuolson",
+    "FeedbackScore": "128",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Batavia, New York",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/CaoAAOSw-3FZLyia/$_32.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "14020"
+}

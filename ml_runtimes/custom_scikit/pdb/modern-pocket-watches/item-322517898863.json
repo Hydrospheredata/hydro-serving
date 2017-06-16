@@ -1,0 +1,139 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "46385",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is a super nice Majestime pocket watch. Gold in color and fully functional with a good clasp. Shows very well for the age with no dents. Buyer pays shipping. Paypal only.",
+  "StartTime": "2017-05-15T17:51:30.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODUyWDExMTI=/z/I0QAAOSwYvFZGenG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODg0WDgyNA==/z/bzQAAOSwsXFZGemL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/42sAAOSw42dZGek-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7rAAAOSwn-tZGelQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "37.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MAJESTIME",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "4rightprice",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3100",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "69",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225178988638080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T17:51:30.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "37.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Majestime-17-Jewels-Wind-Up-Pocket-Watch-Working-/322517898863",
+  "Location": "Valparaiso, Indiana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Majestime 17 Jewels Wind Up Pocket Watch - Working",
+  "Storefront": {
+    "StoreName": "4rightprice",
+    "StoreURL": "http://stores.ebay.com/id=1354165"
+  },
+  "ItemID": "322517898863",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT23H11M5S"
+}

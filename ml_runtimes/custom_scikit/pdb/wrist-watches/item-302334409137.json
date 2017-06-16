@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "Orekhovo-Zuevo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:51:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:51:11.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334409137",
+  "HandlingTime": "30",
+  "Description": "I will sell absolutely new watch, the mechanic with the autosubplant, water protection of 200 m, the size of 47 mm and thickness of 15 mm, with a clockwork head of 52 mm, large hours, but sit on a hand perfectly. Gilyoshirovanny dial, date. A belt synthetics from above and skin inside, there is no box.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/INVICTA-Corduba-/302334409137",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023344091378080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H40M29S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/oZYAAOSw03lY5lmu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/gWoAAOSw3utY5lmx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/71YAAOSwpkFY5lnC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/gn4AAOSw3utY5lm2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qAkAAOSwA29Y5lnB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FngAAOSw~CFY5lnI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qJMAAOSw03lY5lnY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qW0AAOSw03lY5lnd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rLQAAOSw03lY5lnw/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "INVICTA Corduba",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "264",
+    "UserID": "lucky_boy.lesha",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

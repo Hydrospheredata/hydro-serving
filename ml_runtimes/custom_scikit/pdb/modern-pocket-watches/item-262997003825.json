@@ -1,0 +1,115 @@
+{
+  "ExcludeShipToLocation": [
+    "Asia",
+    "Middle East",
+    "Southeast Asia"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "85032",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Rare Find, New Old Stock, LIMITED PRODUCTION Disney Store Exclusive Pocket Watch featuring \"MICKEY MOUSE\". Antique Finish Case & Chain, Open Skeleton Face Featuring Mickey Mouse, Black Roman Numeral Markers & Hands, Includes Chain, Leather Carrying Case Beautifully Embossed with Mickey Mouse Head, New Battery Will Be Installed Prior to Shipping, Original Box & Papers, Runs Perfect. Photos are of actual product listed. All Sales Final on Watches. Most of Our Items are One of a Kinds... When it's Gone it's Gone.",
+  "StartTime": "2017-05-21T19:05:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM5MFgxNjAw/z/r8oAAOSwQJhUgeHr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YdMAAOSwg3FUgeHd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OfYAAOSwiCRUgeHX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3OFgxNjAw/z/XEkAAOSwAL9UgeHu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU5OVgxNDAw/z/r1EAAOSwQJhUgeHm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ1OVgxNjAw/z/cMcAAOSwj0NUgeHh/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "250.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Retro (1983-2000)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Disney ~ Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain",
+          "Roman Numerals",
+          "Skeleton"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Animated",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "myfamilysgaragesale",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2394",
+    "PositiveFeedbackPercent": "99.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629970038258080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T19:05:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "250.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Buyer Pays Return Shipping, 15% Restocking Fee Will Be Deducted From Return Amount.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Disney-Store-Open-Skeleton-Mickey-Mouse-Pocket-Watch-Leather-Pouch-/262997003825",
+  "Location": "Phoenix, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fossil Disney Store Open Skeleton Mickey Mouse Pocket Watch with Leather Pouch",
+  "Storefront": {
+    "StoreName": "myfamilysgaragesale",
+    "StoreURL": "http://stores.ebay.com/id=1154930664"
+  },
+  "ItemID": "262997003825",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT26M59S"
+}

@@ -1,0 +1,261 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Womens-Gabbie-Cross-Body-Bag-Delivery-Free-/192150036073?var=",
+  "ConvertedCurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kipling Women's Gabbie Cross-Body Bag Ships from Local Supplier Related Searches: Cross-Body Bag Bags, Cross-Body Bag",
+  "Title": "Kipling Women's Gabbie Cross-Body Bag. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Blue (Dazz True Blue)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0116/360/988/252699195/7.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue (Pastel Blue C)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0140/793/996/316514450/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey (Dazz Grey)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/793/997/316608792/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Multicolour (Small Flower)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/793/998/316657825/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Mehrfarbig (Monkey Novelty)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/793/999/316565968/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown (Soft Earthy C)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0136/981/714/300646014/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Mehrfarbig (Soft Dot)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0140/794/000/316608162/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "146.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:116360988:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Blue (Dazz True Blue)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "82.16",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793996:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Blue (Pastel Blue C)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "123.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793997:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Grey (Dazz Grey)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "90.22",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793998:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Multicolour (Small Flower)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "122.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793999:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Mehrfarbig (Monkey Novelty)"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:136981714:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Brown (Soft Earthy C)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "117.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140794000:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Mehrfarbig (Soft Dot)"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Blue (Dazz True Blue)",
+          "Blue (Pastel Blue C)",
+          "Grey (Dazz Grey)",
+          "Multicolour (Small Flower)",
+          "Mehrfarbig (Monkey Novelty)",
+          "Brown (Soft Earthy C)",
+          "Mehrfarbig (Soft Dot)"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-06T05:25:42.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P2DT13H9M14S",
+  "EndTime": "2017-06-05T05:25:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "177520787"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192150036073",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "6",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:140793995:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

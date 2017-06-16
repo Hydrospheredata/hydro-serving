@@ -1,0 +1,134 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Southeast Asia",
+    "MX",
+    "BH",
+    "IQ",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "CN",
+    "PK"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33434",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This auction is for a real nice EAGLE Pocket Watch with Fob Chain OR necklace chain. New, no tags. Beautiful copper tone case with \"EAGLE\" on the front. Measures apx. 1 7/8\" in diameter. Embossed back case. Full Hunter closing. Push top to open. Comes with fob chain. If you would prefer matching apx. 33\" necklace chain instead of fob, please message me or leave note at check-out and I will send that instead. Quartz Movement. Great gift idea! Please message me if you have any questions. View more great items",
+  "StartTime": "2017-05-14T03:08:53.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTAwWDM3NQ==/z/-cIAAOSwOVpXU74C/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/vLcAAOSwnNBXU74P/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDM3NQ==/z/w8gAAOSwqBJXU74c/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDM3NQ==/z/-1wAAOSwOVpXU74o/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDM3NQ==/z/~wkAAOSwtJZXU747/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Stainless & Plated Metal",
+          "Copper"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sweetpeadiscountdeals",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2579",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "43",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525478151528080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-13T03:08:53.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-EAGLE-Copper-Pocket-Watch-Fob-Chain-Necklace-chain-/152547815152",
+  "Location": "Boca Raton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Antique EAGLE Copper Pocket Watch with Fob Chain or Necklace chain",
+  "Storefront": {
+    "StoreName": "Sweetpea&#39;s Deals",
+    "StoreURL": "http://stores.ebay.com/id=39635712"
+  },
+  "ItemID": "152547815152",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT8H28M18S"
+}

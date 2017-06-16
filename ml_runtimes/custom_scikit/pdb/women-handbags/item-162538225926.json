@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/IjUAAOSwjDZYk94d/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2N1g3NDg=/z/EAEAAOSw9GhYk9Xe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA3Nlg3Mzc=/z/LNoAAOSw-0xYk9X1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/pkIAAOSw5cNYk94m/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/4FgAAOSwNnRYk9-~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/RP4AAOSwnHZYk94j/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/qyoAAOSw4DJYk94p/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ogsAAOSwTglYk946/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/npYAAOSwopRYk94t/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-4-PC-PROVENCAL-LOT-DIAPER-BAG-BOTTLE-HOLDER-CROSSBODY-DRAWSTRING-/162538225926",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Yellow Provencal lot of 4 items! 1 Large diaper bag 1 Zip Bottle Carrier 1 Drawstring ditty lined bag 1 Small crossbody bag All Items are in good pre-owned condition. None of the items have any rips or tears. They all have been used so please do not expect perfect items. They are however in great condition with minor spots here and there. Check all pictures and zoom in and out for more details",
+  "Title": "VERA BRADLEY 4 PC. PROVENCAL LOT DIAPER BAG BOTTLE HOLDER CROSSBODY DRAWSTRING",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Norman, Oklahoma",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "331",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "iz2late2xcape"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "73072",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T03:32:27.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT12H13M36S",
+  "EndTime": "2017-07-02T03:32:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162538225926",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625382259268080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

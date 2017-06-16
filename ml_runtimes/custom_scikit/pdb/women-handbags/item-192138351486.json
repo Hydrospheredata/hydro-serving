@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LEABAGS-Baltimore-genuine-buffalo-leather-handbag-vintage-style-Nutmeg-Del-/192138351486?var=",
+  "ConvertedCurrentPrice": {
+    "value": "297.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: LEABAGS Baltimore Genuine Bafflo Leather Womens Top-Handle Bag in Vintage Style - Muskat LEABAGS has that distinct vintage style that you were looking for. The oiled buffalo leather will wear over time which will give every bag that vintage character and their unique patina. The pull up leather allows scratches to be rubbed out easily with your thumb. All our bags are 100% handmade from only the best materials. Product Description Brand: LEABAGS Measurement (LxHxB): 15 x 30cm x 10cm Fabric: Classy buffalo leather which gets its unique and special vintage look through its oiled surface. Lining: Classy, high quality manufactured Olive green green inner fabric matching the vintage look. Shoulder strap: Adjustable & detachable, one size fits all. Inside: - Main compartment with zip closure - Inner pockets for phone, wallet and pens - Zipped inner pocket - 3 compartments within the main compartment - Zip pocket on the back - Shoulder strap Our Service Promise: Our mission is to exceed your expectations and inspire you with the high quality of our products. We place great value on your satisfaction with our services. Therefore we always strive for the best possible Customer Care. We love to be of assistance to you! LEABAGS Avocado Lotion Premium leather care: We have developed this avocado oil- based lotion keeping in mind the special properties and needs of LEABAGS leather. Order it now to take advantage of our special discount!",
+  "Title": "LEABAGS Baltimore genuine buffalo leather handbag in vintage style - Nutmeg. Del",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "297.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Nutmeg",
+        "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/717/489/311481857/original.jpeg"
+      },
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": {
+      "Quantity": "2",
+      "StartPrice": {
+        "value": "297.0",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:139717489:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour Name",
+          "Value": "Nutmeg"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": "Nutmeg"
+      }
+    }
+  },
+  "StartTime": "2017-03-23T21:48:56.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P19DT5H26M45S",
+  "EndTime": "2017-06-21T21:48:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LEABAGS"
+      },
+      {
+        "Name": "MPN",
+        "Value": "287808658"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138351486",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139717488:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,161 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/f2wAAOSwEHpZJyr-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q8gAAOSw5cRZJysH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R6UAAOSwY3BZJysR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/gLIAAOSwEHpZJysc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4JgAAOSw-3FZJysn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RbgAAOSwK6RZJysy/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLE-HAAN-Beet-Color-Leather-NWT-Laptop-Shoulder-Bag-/222524162849",
+  "ConvertedCurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Cole Haan laptop bag Beet color optical weave fine quality leather Removable shoulder strap, 19\" drop Half zip-around closure Two inside open pockets Beige lining 14\"L x 11\"H x 1.5\"W New: With Tag",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "BH",
+    "IQ",
+    "LB",
+    "YE",
+    "AF",
+    "BD",
+    "IN",
+    "PK",
+    "BN",
+    "KH",
+    "ID"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO"
+  ],
+  "Location": "East coast",
+  "Seller": {
+    "FeedbackScore": "1006",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "boutiquehut"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "COLE HAAN Beet Color Leather NWT Laptop Shoulder Bag",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T19:09:54.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P22DT4H10M16S",
+  "EndTime": "2017-06-24T19:09:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Cole Haan"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Dark Red"
+      },
+      {
+        "Name": "UPC",
+        "Value": "682942893041"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222524162849",
+  "Storefront": {
+    "StoreName": "BoutiqueHut",
+    "StoreURL": "http://stores.ebay.com/id=702502093"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225241628498080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

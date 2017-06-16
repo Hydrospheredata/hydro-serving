@@ -1,0 +1,238 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Xuna-Womens-Bag-Shoulder-Bag-made-soft-synthetic-leather-shoulder-strap-/192138331083?var=",
+  "ConvertedCurrentPrice": {
+    "value": "79.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Xuna Women's Bag Shoulder Bag made of soft synthetic leather with shoulder strap (39 x 34 x 15 cm), Colour:Blue (Light Blue) by Xuna Ships from Local Supplier Related Searches: Shoulder Bag Bags, Xuna Shoulder Bag, Xuna Bags Dimensions: 33.0 x 14.0 x 34.0 centimetres Weight: 0.7 kg",
+  "Title": "Xuna Women's Bag Shoulder Bag made of soft synthetic leather with shoulder strap",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.95",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Pink (Old Rose)",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/850/845/311809079/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue (Light Blue)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/850/846/312222204/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Beige (Cream)",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/850/847/312987161/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/850/848/311660390/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Green (Applegreen)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/850/849/312949216/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/850/850/311610116/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "79.95",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850845:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Pink (Old Rose)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "79.95",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850846:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Blue (Light Blue)"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "127.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850847:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Beige (Cream)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "101.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850848:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "79.95",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850849:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Green (Applegreen)"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "79.95",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139850850:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Brown"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Pink (Old Rose)",
+          "Blue (Light Blue)",
+          "Beige (Cream)",
+          "Black",
+          "Green (Applegreen)",
+          "Brown"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-23T21:46:19.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P19DT5H23M59S",
+  "EndTime": "2017-06-21T21:46:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Xuna"
+      },
+      {
+        "Name": "MPN",
+        "Value": "987680784"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138331083",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139850844:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

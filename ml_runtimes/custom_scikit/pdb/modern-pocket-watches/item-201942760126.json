@@ -1,0 +1,80 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "61018",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "2 Pocket watches-1 quartz Black and 1 Bronze Tone Hand wind, 2 inches Diameter Hardlex crystal",
+  "StartTime": "2017-05-31T17:35:07.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bkkAAOSwK6RZLv5-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/we0AAOSw7GRZLv6J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gCQAAOSwblZZLv6U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YpwAAOSws5pZLv6e/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.35"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "hometownsales11",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3487",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019427601268080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T17:35:07.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.35"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2-Pocket-watches-1-quartz-Black-and-1-Bronze-Tone-Hand-wind-2-inches-Diameter-/201942760126",
+  "Location": "Dakota, Illinois",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "2 Pocket watches-1 quartz Black and 1 Bronze Tone Hand wind, 2 inches Diameter",
+  "Storefront": {
+    "StoreName": "hometownsales11",
+    "StoreURL": "http://stores.ebay.com/id=1080307253"
+  },
+  "ItemID": "201942760126",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT23H1M55S"
+}

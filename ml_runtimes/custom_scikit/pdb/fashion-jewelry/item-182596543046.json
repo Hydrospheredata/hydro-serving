@@ -1,0 +1,76 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P22DT9H24M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182596543046",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/solid-12-Teeth-Silver-YELLOW-GOLD-Deep-Cut-CUSTOM-FIT-REAL-GRILLZ-/182596543046",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T01:16:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T01:16:57.000Z",
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "GOLD",
+        "Name": "Color"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "CS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "solid  12 Teeth Silver/YELLOW GOLD Deep Cut CUSTOM FIT REAL GRILLZ",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "solid 12 Teeth 10K YELLOW GOLD Deep Cut CUSTOM FIT REAL GRILLZ. Condition is New without tags. Shipped with USPS First Class Package.",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825965430468080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "latoyifurma-0",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Louisville, Kentucky",
+  "HitCount": "35",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/2b0AAOSwurZZK3We/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "40245"
+}

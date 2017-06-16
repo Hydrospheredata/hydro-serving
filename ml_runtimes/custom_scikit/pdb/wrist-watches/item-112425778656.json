@@ -1,0 +1,131 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "56.34",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Mainland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:19:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "5",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1290695259",
+    "StoreName": "karnkabin"
+  },
+  "CurrentPrice": {
+    "value": "56.34",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:19:17.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "A540",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "45mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "25mm",
+        "Name": "Lug Width"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425778656",
+  "HandlingTime": "4",
+  "Description": "LUXURY WHITE CLASSIC EDITION CALENDAR AUTO MECHANICAL BLACK LEATHER BAND GIFT Specification:\u00b7 CONDITION : NEW MATERIAL : STAINLESS STEELC COLOR : WHITE - BLACK TYPE : LUXURY\u00b7 Payment I accept ONLY PayPal for payment. Shipping Free Shipping Worldwide. The package will be shipped directly from China with tracking number and it will take about 15-30 business days.Your item will be shipped within 2 business days after payment clearing. Return policy 100% Satisfaction Guarantee: Returns accepted If product not as described, please contact us for a return instruction within 14 days for a refund. Return shipping cost will be paid by seller. Contact usPlease contact us by ebay message only.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LUXURY-WHITE-CLASSIC-EDITION-CALENDAR-AUTO-MECHANICAL-BLACK-LEATHER-BAND-GIFT-/112425778656",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124257786568080_1.jpg",
+  "HitCount": "6",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H51M51S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY0WDEwMDA=/z/PS4AAOSwKytZLolq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY0WDEwMDA=/z/LGkAAOSwEHpZLomH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjgyWDEwMDA=/z/iY0AAOSw9OFZLolv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTE0WDEwMDA=/z/Z1wAAOSwZ4dZLol9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTExWDUwOA==/z/vsMAAOSw~FJZLomB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMg==/z/OL0AAOSwfRdZLopU/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "LUXURY WHITE CLASSIC EDITION CALENDAR AUTO MECHANICAL BLACK LEATHER BAND GIFT",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "100",
+    "UserID": "karnkabin",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

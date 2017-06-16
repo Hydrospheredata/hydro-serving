@@ -1,0 +1,121 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "180.05",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "manchester, Greater Manchester",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:31:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "140.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T12:31:02.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705780243",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rado",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "140.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rado-ladies-watch-/172705780243",
+  "Title": "Rado ladies watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727057802438080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "M16 8BL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT21H14M41S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA4WDUwMA==/z/znQAAOSw~FJZLrao/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUxWDUxNA==/z/GBwAAOSw0hlZLraq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTMyWDU1OQ==/z/57oAAOSwAPVZLrat/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA1WDYxNg==/z/WSAAAOSwtGlZLraw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEwWDYwMw==/z/0qMAAOSwrhBZLray/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "A Beautiful Ladies Rado Watch in the classic Champagne face and black bezel, the watch has a gold plated strap . This watch would grace any ladies wrist",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "326",
+    "UserID": "bassman2912",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "30004",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Bombay Melody Medal Pocket Watch - Plays \"Hail To The Chief.\" Closed face has Presidential seal. Case has diameter of 2\". The ribbon is red & navy blue and measures 4 1/4\" x 2 1/2\". When opened, it plays Hail To The Chief.\" Mint & unused in original box with instruction sheet and all original protective stickers. Japan movement. Batteries included in watch. If you have any questions please feel free to ask! Thanks for looking!",
+  "StartTime": "2017-05-23T21:14:35.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MVgxMTkz/z/t8YAAOSwdGFY1Wrw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE2WDE1NDg=/z/Fx0AAOSwB-1Y1WrS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/330AAOSwTM5Y1Wq-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3uwAAOSwTM5Y1Wq6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DiIAAOSwuxFY1Wqs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pwkAAOSwzgBY1Wqv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GjUAAOSw2gxY1WrB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "31.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bombay Company",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Melody",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold Tone Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "1861099",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "lbkey9092",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "794",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "25",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019341511978080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T21:14:35.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "31.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Item must be in same new condition that is was received with all original protective stickers not removed or altered.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BOMBAY-HAIL-CHIEF-MELODY-METAL-POCKET-WATCH-/201934151197",
+  "Location": "Alpharetta, Georgia",
+  "Title": "BOMBAY HAIL TO THE CHIEF MELODY METAL POCKET WATCH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "201934151197",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT2H36M42S"
+}

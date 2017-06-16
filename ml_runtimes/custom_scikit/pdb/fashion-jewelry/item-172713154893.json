@@ -1,0 +1,175 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT3H31M1S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Previously Loved And In Good Condition: Free From Odors, Pet Hair, Stains, Flaws",
+  "DiscountPriceInfo": {
+    "SoldOneBay": "false",
+    "SoldOffeBay": "false",
+    "OriginalRetailPrice": {
+      "value": "110.49",
+      "_currencyID": "USD"
+    },
+    "PricingTreatment": "STP"
+  },
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "85.09",
+    "_currencyID": "USD"
+  },
+  "SKU": "203-693787-0-FixedPriceItem",
+  "ItemID": "172713154893",
+  "QuantitySold": "0",
+  "TopRatedListing": "true",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "85.09",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T16:24:12.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BELAIS-Vintage-18-K-White-Gold-Art-Deco-Clear-Stone-Accented-Stick-Pin-B3691-/172713154893",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-04T16:24:12.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Belais",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "18k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "N/A",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "BELAIS Vintage 18 K White Gold Art Deco Clear Stone Accented Stick Pin B3691",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "BELAIS Vintage 18 K White Gold Art Deco Clear Stone Accented Stick Pin B3691 Details Designer: Belais Condition: Vintage Previously Loved And In Good Condition: Free From Odors, Pet Hair, Stains, Flaws Material: 18 K White Gold And Clear Stones Size: 2.5 In Description: This Stunning Vintage Stick Pin Is Great For Any Special Occasion cl3465 Payment Payment is expected within 24 hours of close of purchasing the item. Please note that Illinois residents are subject to Illinois state sales tax and will be included on the invoice. Shipping We ship via USPS and Fedex with delivery confirmation. If the item is over $250.00 we will ship via signature confirmation and the package will be insured. Our items are sent out through a third party company named ShipBob, a company based out of Chicago. Return Policies We gladly except returns within 30 days from receipt of your ShopMelee purchase(s). No item can be returned without our return tag still attached in its original position. Since ShopMelee customers are responsible for returns, we kindly ask that you to insure your package for the items value or provide tracking information. We also charge a 20% restocking fee for any purchase(s) returned. Thank you! Sell With Shop Melee Shop Melee strives for five stars across the board. If for any reason you are not satisfied please contact us. We take consignments from people all over the United States. If you are interested in selling with Shop Melee, please go to our Contact page and send us an E-mail. We will contact you back and send you a FedEx label so that you can send us your items to be sold. Powered by iVendere.com. All rights reserved.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727131548938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "shopmeleeinc",
+    "FeedbackScore": "42678",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "Shop Melee",
+    "StoreURL": "http://stores.ebay.com/id=19967903"
+  },
+  "Location": "Willowbrook, Illinois",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg3ODE=/z/qa8AAOSw-K9ZNDQx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTAw/z/9ugAAOSwfpVZNDQx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTA5/z/NVYAAOSw42dZNDQx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAxWDE2MDA=/z/qqcAAOSw42JZNDQy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzk0WDE2MDA=/z/NVQAAOSw42dZNDQx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQyWDE2MDA=/z/bDgAAOSwi7RZNDQx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTY0/z/6CMAAOSwYvFZNDQx/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "60527"
+}

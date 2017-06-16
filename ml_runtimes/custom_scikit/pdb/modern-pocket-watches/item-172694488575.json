@@ -1,0 +1,170 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Item Shape \u00ef\u00bcsRound Display Type \u00ef\u00bcs Analog Case diameter \u00ef\u00bcs 4.5 centimeters Case Thickness \u00ef\u00bcs 1centimeters Chain Material \u00ef\u00bcs Metal Chain Chain length \u00ef\u00bcs about 80centimeters Item weight \u00ef\u00bcs 0.055kg Movement\u00ef\u00bb\u00bf \u00ef\u00bcs Quartz - Large pocket watch ,Case diameter 4.5 CM - A perfect present for friends,families, lovers - With necklace chain, can be a necklace,also a watch - Steampunk style ,quartz movement - Nice for collection Doctor Who Bronze Golden Dial Vintage Mens Womens Quartz Pocket Watch Necklace",
+  "StartTime": "2017-05-25T13:53:38.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3KkAAOSwCQZZJuHs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Mr4AAOSwAPVZJuHu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/rMYAAOSwn-tZJuHr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/GI0AAOSw8lpZJuHr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZO0AAOSwPh5ZJuHs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/TJYAAOSwIaFZJuHs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/xqAAAOSwY3BZJuHr/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "9620203582854",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Eastpartner",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Eastpartner",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5.7 x W 3 x H 0.9 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "greysharky",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16122",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726944885758080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T13:53:38.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.18"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Doctor Who Bronze Golden Dial Vintage Mens Womens Quartz Pocket Watch Necklace",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Doctor-Bronze-Golden-Dial-Vintage-Mens-Womens-Quartz-Pocket-Watch-Necklace-/172694488575",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "ItemID": "172694488575",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT19H16M46S"
+}

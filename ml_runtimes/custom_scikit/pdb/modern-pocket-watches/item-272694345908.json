@@ -1,0 +1,137 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "33334",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "maxmawi",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7040",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-30T23:35:38.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/bA8AAOxy3yNTjQMK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/WkcAAMXQuCdTjQMO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/Y8sAAMXQ3kNTjQMN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/XoEAAMXQ1ZhTjQMU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/e~4AAOxyrrpTjQMP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/bIUAAOxy3yNTjQMQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/XnQAAMXQ1ZhTjQMT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/yCoAAOxyaURTjQMT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/yGkAAOxyaURTjQMX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzkwWDUyMg==/z/EGoAAOSwPe1UBPK5/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Telebrands",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Material"
+      },
+      {
+        "Value": "S3613",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Not Apply",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": "097298023231",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "Does not apply",
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726943459088080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T23:35:38.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "4.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-watch-Kansas-City-Railroad-26-chain-and-FOB-included-Sealed-Telebrands-/272694345908",
+  "Location": "Fort Lauderdale, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Pocket watch Kansas City Railroad 26\" chain and FOB included Sealed Telebrands",
+  "Storefront": {
+    "StoreName": "maxmawi",
+    "StoreURL": "http://stores.ebay.com/id=215737641"
+  },
+  "ItemID": "272694345908",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT5H2M5S"
+}

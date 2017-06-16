@@ -1,0 +1,170 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H45M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "46.03",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272702626099",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Turquoise-Open-Cuff-Bracelet-/272702626099",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "46.03",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:39:03.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T03:39:03.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "796483324947",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0796483324947",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "JF02641791",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "1 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5 x W 4 x H 1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Fossil Turquoise Open Cuff Bracelet",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Add some sensational style with this Fossil\u00c2\u00ae accessory. Open bracelet with crystals at each end. Rose gold-tone finish. Adjustable length. Slip on. Imported. - 1.97\" x 2.4\" Inner Diameter - No - Shape up your wristwear-this open cuff in reconstituted turquoise, rose gold-tone steel and crystals adds a bright and earthy touch to any outfit. Fossil Turquoise Open Cuff Bracelet",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2727026260998080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "intuii",
+    "FeedbackScore": "10697",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "intuii",
+    "StoreURL": "http://stores.ebay.com/id=1018845053"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDI5WDE1MDA=/z/DsoAAOSwH09ZNNJb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwNFgxNTAw/z/xWoAAOSwZ4dZNNJb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI0MFgxNTAw/z/vewAAOSws5pZNNJb/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

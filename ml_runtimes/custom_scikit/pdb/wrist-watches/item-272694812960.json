@@ -1,0 +1,163 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.69",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/WmsAAOSwi7RZLo1s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/zDsAAOSw9OFZLo1v/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~GYAAOSwJH1ZLo1x/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/uM4AAOSwurZZLo12/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/95wAAOSwIaFZLo14/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/sYAAAOSwq1JZLo18/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/s6QAAOSwaeRZLo2A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/eT0AAOSwK6RZLo2P/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/J2cAAOSwDiBZLo2Z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/46AAAOSw1WJZLo2f/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6jgAAOSwblZZLo2m/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/iPQAAOSwKytZLo2q/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:34:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "60",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1462019903",
+    "StoreName": "Csforcecn"
+  },
+  "CurrentPrice": {
+    "value": "11.69",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:34:48.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694812960",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Sport-Multifunctional-LED-Watch-Tactical-Digital-Wristwatch-Khaki-Grey-/272694812960?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Skmei",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "BK0472",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "11.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "24555",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Khaki",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "30"
+      },
+      {
+        "StartPrice": {
+          "value": "11.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "24556",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Grey",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "30"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Khaki",
+          "Grey"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Khaki",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/UXAAAOSwH09ZLo3y/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/jX0AAOSwKytZLo37/$_1.JPG?set_id=880000500F"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H8M32S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Mens Sport Multifunctional LED Watch Tactical Digital Wristwatch Khaki/Grey",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "586",
+    "UserID": "csforcecn",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263010596417",
+  "TimeLeft": "PT12H13M50S",
+  "ListingStatus": "Active",
+  "Title": "UNSORTED MIXIED VINTAGE ESTATE RHINESTONE MIXED VARIOUS 16 LBS JEWELRY LOT #15",
+  "ConditionDescription": "NOTE: This is being sold as a \"craft/scrap\" lot. There may be dirt, tarnish, rust, missing stones, missing earring mates, broken chains, missing pin backs, non working watches and all other disclaimers",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-05-30T02:52:08.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-06T02:52:08.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Multi",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNSORTED-MIXIED-VINTAGE-ESTATE-RHINESTONE-MIXED-VARIOUS-16-LBS-JEWELRY-LOT-15-/263010596417",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Miami, Florida",
+  "Description": "THIS LISTING IS FOR: Unsorted Mixed Vintage Estate Rhinestone Mixed Various Broken Jewelry Lot 16 LBS - Lot #15 SPECIFIC ITEM FLAWS / DAMAGES: Many Mixed Jewelry are in good conditions\u2026 Others jewelry are for repair, Fractured, broken or incomplete\u2026\u2026 Additional Information: NOTE Please refer to the photos for more details\u2026 We will ship the item the same day of purchase.100% Smoke Free Environment Please bid with confidence, as I do not buy or Sell anything not Authentic! Thanks for looking, Good luck and happy bidding!!!!",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630105964178080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "pupy201010",
+    "FeedbackScore": "157",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "29",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jmUAAOSw-3FZI5z0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LW8AAOSwAPVZI50B/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nSgAAOSwlMFZI50G/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "33175"
+}

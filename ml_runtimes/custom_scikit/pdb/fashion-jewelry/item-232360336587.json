@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P9DT9H35M2S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "good condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232360336587",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Auth-Chanel-Vintage-Turquoise-Gold-Oval-Shape-Pin-Brooch-97P-/232360336587",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T22:23:49.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T22:23:49.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chanel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold & Turquoise",
+        "Name": "Color"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Gold & Turquoise",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "France",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Auth Chanel Vintage Turquoise & Gold Oval Shape Pin Brooch(97P)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "-Auth Chanel Vintage Turquoise & Gold Oval Shape Pin Brooch(97P)- CONDITION: Good Condition(very light scratches & flaws by using)Hallmark on the back Comes with Gift Box SIZE : w41.5mm(most wide) x h54mm(including bottom CC) PAYMENT : PayPal Only Shipping: USPS Priority Mail w/ Signature Conf. in US Only($10.00) International: USPS Int'l Priority Mail Express ($65.00 : 7~10 business days) DUTY & TAX ARE NOT INCLUDED ALL PHOTOS ARE ACTUAL ITEM'S PHOTOS ALL SALES ARE FINAL & SOLD AS IS 100% AUTHENTIC OR MONEY BACK GUARANTEE No Return Please. Any Question, Pls. email before any action. THANK YOU !^^",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323603365878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "goodvintageusa",
+    "FeedbackScore": "885",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "goodvintageusa",
+    "StoreURL": "http://stores.ebay.com/id=1032351795"
+  },
+  "Quantity": "1",
+  "Location": "Las Vegas, NV",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/SjwAAOSwopRYl~L0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/jokAAOSw4A5YoTLb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/pf4AAOSwtfhYoTLo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lckAAOSwax5YoTLx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/XuIAAOSw241Yl~Mb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/4JkAAOSwiDFYRIsP/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches"
+}

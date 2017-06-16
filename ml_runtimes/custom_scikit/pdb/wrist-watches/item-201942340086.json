@@ -1,0 +1,87 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.62",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bel Air, Maryland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:47:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=18614244",
+    "StoreName": "Thinker&#39;s Man Cave"
+  },
+  "CurrentPrice": {
+    "value": "9.62",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:47:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Valdawn",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "10",
+  "Description": "ThinkersManCave Welcome to ThinkersManCave. Check out my ever growing store !! Valdawn Ladies watch. I think this might be a Precious moments thing but not sure. New battery. Works fine. No significant scratches on the crystal. I'll answer any questions to the best of my ability. Shipping: I will not raise prices to offer free shipping. That being said, I only charge you what they charge me!! No extra handling charges. Best of luck. Any questions, feel free to e-mail. Payment: All payments due no later than 5 days after close of auction. Never a reserve on any of my auctions. Refunds cheerfully given with no questions asked if you are not satisfied with your purchase. I will refund item cost, and shipping. No need to rely on Buyer Protection although you are certainly eligible for it. Froo www.froo.com | Froo Cross Sell, Free Cross Sell, Cross promote, eBay Marketing, eBay listing Apps, eBay Apps, eBay Application",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Valdawn-Watch-hugs-And-Butterfly-Kisses-2001-PMI-Mod-0236-/201942340086",
+  "ConditionDescription": "Used but not abused",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019423400868080_1.jpg",
+  "ItemID": "201942340086",
+  "PostalCode": "21015",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H25M56S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTI0OVgxNDY4/z/5dMAAOSwjqVZCMXN/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzAz/z/FtMAAOSwt0FZCMXQ/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTQ0OVgxNjAw/z/HrIAAOSwtGlZCMXV/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTAyN1gxNTk5/z/sJAAAOSwCQZZCMXY/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Ladies Valdawn Watch hugs And Butterfly Kisses 2001 PMI Mod 0236",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "2907",
+    "UserID": "thinkersmancave",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

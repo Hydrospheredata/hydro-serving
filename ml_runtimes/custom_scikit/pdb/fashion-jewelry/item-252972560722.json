@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT59M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "595.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252972560722",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1996-1-Kind-Signed-Robert-Lee-Morris-Turquoise-Brass-Cocoa-Shell-Necklace-/252972560722",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "595.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T15:46:40.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-03T15:46:40.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise, Cocoa Beads",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Necklaces",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Signed?"
+      }
+    ]
+  },
+  "Title": "1996 1 of Kind Signed Robert Lee Morris Turquoise, Brass, Cocoa Shell Necklace",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a magnificent vintage Robert Lee Morris necklace that he designed in the 1996. It is a one of a kind piece. The necklace is made from large brass bead, turquoise beads and turquoise and cocoa shell spacers. The necklace is adjustable and measures 26-28\" in length and has a hook closure It is a great collector's piece. The hook is hand signed Robert Lee Morris '96. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529725607228080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7GoAAOSwzOxUYhVg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjYw/z/4dIAAOSwkZ9UYhVm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dgEAAOSw54xUYhVr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1N1gxNjAw/z/RmsAAOSwGWNUYhVy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTc3/z/9~QAAOSwLa9UYhV4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTYw/z/RqkAAOSwBP9UYhV9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzMlgxNjAw/z/xnYAAOSw~1FUYhWD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzOVgxNjAw/z/-pMAAOSwLa9UYhWM/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "10012"
+}

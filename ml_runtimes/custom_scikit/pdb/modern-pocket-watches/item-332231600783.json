@@ -1,0 +1,161 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "CA",
+    "IL",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "RU",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.98"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "190268572941",
+        "Name": "UPC"
+      },
+      {
+        "Value": "190268572941",
+        "Name": "EAN"
+      },
+      {
+        "Value": "190268572941",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-22T21:01:11.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/OHwAAOSw42dZI1GT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMVgxMTAw/z/0GMAAOSw~FJZI1GU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMVgxMTAw/z/wrIAAOSwblZZI1GV/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "600",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKCP-I075472",
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322316007838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T21:01:11.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "332231600783",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you reviced the item, please return it within 30days for a replacement or money back. Please contact me before you return it.2.All returned items MUST BE in the original packaging with all components and accessories included.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.98"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Quartz Pocket Watch, Analog, Bronze Box, with Dragon series WPK062 E9U7",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Quartz-Pocket-Watch-Analog-Bronze-Box-Dragon-series-WPK062-E9U7-/332231600783",
+  "Storefront": {
+    "StoreName": "cpthreego",
+    "StoreURL": "http://stores.ebay.com/id=1406158736"
+  },
+  "Seller": {
+    "UserID": "cpthreego",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "40194",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT2H22M59S"
+}

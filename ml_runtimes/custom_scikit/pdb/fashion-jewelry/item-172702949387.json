@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be in the same conditions that they received unless something was damaged in transit. Customers must contact me within 3 days of receipt prior to returning items and are responsible for properly packaging them.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P3DT13H42M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172702949387",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BROOCH-ROSE-HAND-MADE-DESIGNER-FABRICS-ONE-KIND-ACCESSORY-/172702949387",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T03:42:07.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T03:42:07.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Designer Italian and French Fabrics",
+        "Name": "Material"
+      },
+      {
+        "Value": "Stylized flower, a rose",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "BROOCH -  A ROSE HAND MADE WITH DESIGNER FABRICS, ONE OF KIND ACCESSORY",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "FLOWER BROOCH - MADE WITH DESIGNER ITALIAN AND FRENCH FABRICS, ONE OF A KIND - A LOVELY ACCESSORY This flower, a rose, (part of a small collection) is hand made in Canada from designer Italian and French fabrics, each flower has been uniquely designed, and is one of a kind. Each flower is multi textured with as many as 7-12 different types of fabric, colours, textures like silk, linen, cotton, wool, organza etc.. The petals have been stiffened with organic ingredients, cut and curled by hand to resemble roses petals. Made in a smoke and pet free environment. Because of the multiple fabrics/colours used the flowers offer interest and flexibility in matching with a variety of outfits from casual to formal wear. A brass pin is pinned to the back of each flower, this is done in the Italian tradition for couture flowers, and is to allow for your best placement for the pin, to enhance and enrich the look of a dress, top, jacket lapel, hat, belt, day and evening dresses, purses, bridesmaids dresses etc... If a traditional pin closing is desired I can easily attach one to the flower upon request prior to shipment. These unique flowers are gift packaged in a transparent square box. They make a lovely gift. Dimensions: - Box: 3.50 x 3.50 x 3.50 inches (9 x 9 x 9cm) Weight: 1.2 onces (33 grams) - Flower Size: Approximately 4.5 inches (10-12 cm) Weight: 0.4 onces (11-15 grams) -Shipped from Ontario - Canada, Worldwide - Orders for multiple flowers will receive a discount on shipments costs. - Item(s) will be shipped within 2 business days of receipt of payment. If you have additional questions feel free to contact me. - Please note that International customers are responsible for all duty, tax & brokerage fees that may be due upon delivery. Please view my other eBay postings. Thank you for looking",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727029493878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mtan-01",
+    "FeedbackScore": "1",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Newmarket, Ontario",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDYxNA==/z/EYoAAOSwrddY7qsx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM5WDY0MA==/z/s5MAAOSwc49Y7qsz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM5WDY0MA==/z/HZoAAOSwmgJY7qs1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/RhUAAOSwU8hY7qs3/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "L3X 1M5"
+}

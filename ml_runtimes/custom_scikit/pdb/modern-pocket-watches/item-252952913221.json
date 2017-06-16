@@ -1,0 +1,66 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "40257",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Dial Display: Analog Dial Diameter: 4.0 cm Band Material : Leather Movement: Quartz Band Width: 1.9 cm Band Length: 34 cm Package Including: 1 piece watch",
+  "StartTime": "2017-05-23T01:13:46.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwN1g4MTA=/z/bBkAAOSwurZZI4xp/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Unbranded",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "bhunt1949",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "223",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529529132218080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T01:13:46.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "If item is damaged due to shipping send back entire order for a refund.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pretty-Face-Watch-Lips-and-Eyelashes-/252952913221",
+  "Location": "Louisville, Kentucky",
+  "Title": "Pretty Face on Watch With Lips and Eyelashes",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252952913221",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT6H35M41S"
+}

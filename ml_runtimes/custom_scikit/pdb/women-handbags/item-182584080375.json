@@ -1,0 +1,163 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg5Njg=/z/cBYAAOSwlMFZH9ov/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NzA=/z/6l8AAOSwcB5ZH9ov/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Backpack-Tan-One-Size-/182584080375",
+  "ConvertedCurrentPrice": {
+    "value": "81.24",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "David King Co. Backpack, Tan, One Size Product Details Product Dimensions: 10.5 x 4 x 13.5 inches Shipping Weight: 3 pounds Origin: Colombia Item model number: 324T Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Leather 13.5\" high 10.5\" wide Front zip section around section has organizer with credit card slots and pen slots Main compartment has center zip divider section Inside zip pocket Adjustable shoulder strap Return All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), item must be in original condition with original packaging. Return shipping to be paid by buyer. 15% Restocking fee may apply. Shipping Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses. All orders are usually shipped within one business day. Your order will be shipped out via one of our participating partners, which include UPS, USPS, FedEx, DHL, among others. We also ship globally through eBay's GSP program. Please ensure the item meets your countries standards!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "81.24",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14873",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "shoemaven26"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King Co. Backpack, Tan, One Size",
+  "GlobalShipping": "true",
+  "Quantity": "3",
+  "StartTime": "2017-05-20T05:54:58.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825840803758080_1.jpg",
+  "TimeLeft": "P16DT14H53M15S",
+  "EndTime": "2017-06-19T05:54:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Tan"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "324T"
+      },
+      {
+        "Name": "UPC",
+        "Value": "844739017232"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844739017232"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182584080375",
+  "Storefront": {
+    "StoreName": "affordable_auctionz",
+    "StoreURL": "http://stores.ebay.com/id=235320973"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 15%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "15%",
+    "RestockingFeeValueOption": "Percent_15",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B002OBT4VO",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

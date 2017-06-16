@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921417451518080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/sPEAAOSwsW9Y2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/aDQAAOSwXYtY2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/580AAOSw32lY2ap3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/NEQAAOSwdGFY2ap4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/aEEAAOSwXYtY2ap3/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/81stgeneration-Genuine-Leather-Satchel-Messenger-Shoulder-Briefcase-Vintage-Lapt-/192141745151",
+  "ConvertedCurrentPrice": {
+    "value": "148.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Vintage crossover bright brown goat leather bag with flapover and buckle closure and leather handle at the top. One external pocket at the front with buckle closure. Three inner compartments and 2 zipped pockets. The leather strap is adjustable with buckle closure. Height 28cm. Width 36cm. Depth 12cm. Strap length 140cm. Weight 800g. The leather is naturally tanned without using chemicals so the bags feature variations in the tone and texture in the leather, making each bag unique. This bag is sutable for carrying ipad or laptop, day at school, work or college.",
+  "Title": "81stgeneration Genuine Leather Satchel Messenger Shoulder Briefcase Vintage Lapt",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "148.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-28T00:12:30.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P23DT7H53M2S",
+  "EndTime": "2017-06-26T00:12:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "81stgeneration"
+      },
+      {
+        "Name": "MPN",
+        "Value": "769661894"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141745151",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57682473:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

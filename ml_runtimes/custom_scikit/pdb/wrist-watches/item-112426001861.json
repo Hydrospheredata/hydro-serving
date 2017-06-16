@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wilson, Louisiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:02:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "12.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:02:44.000Z",
+  "ShipToLocations": [
+    "US",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "RU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426001861",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Stainless steel back",
+          "Easy To Read"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "LADIES  SILVER TONE CUFF FASHION WATCH",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LADIES-SILVER-TONE-CUFF-FASHION-WATCH-/112426001861",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124260018618080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "70789",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H45M16S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQ0WDkwMA==/z/LGYAAOSw-kdXye1s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc1WDkwMA==/z/EWsAAOSwi0RXye2G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQzWDkwMA==/z/6H0AAOSwknJXye2h/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "LADIES SILVER TONE CUFF FASHION WATCH This is a classic Cuff Watch by Wilson Leather It is pre owned but in very good condition. It has a silver tone bezel and a black leather band.PayPal is the preferred method of payment. Shipping is for the USA only",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "927",
+    "UserID": "jimf37",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

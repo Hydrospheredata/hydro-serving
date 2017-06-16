@@ -1,0 +1,121 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDE4/z/u2oAAOSwPh5ZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDI5/z/sr0AAOSw-K9ZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDk2/z/I0oAAOSwDiBZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzNVgxNTAw/z/hB8AAOSw3gJZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3NDM=/z/PmgAAOSwlMFZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4N1gxNTAw/z/l6sAAOSwcgNZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1NjM=/z/Ty0AAOSw~y9ZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY1WDE1MDA=/z/QGcAAOSwX9FZIhC9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/k-gAAOSw9OFZIhC-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Big-Handbag-Shop-Womens-Trendy-Designer-Boutique-Faux-Leather-Large-Button-Bag-/172687849069",
+  "ConvertedCurrentPrice": {
+    "value": "54.74",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Large wood button detail shoulder bag with excellent stitching detail and a contrasting dark brown trim). Height 10\", Width 13\", Depth 6.5\"; Strap Drop 9\" Approximate unpacked weight 500 grams * Colours might appear different due to monitor variations * Ships from UK - Large wood button detail to front with loop over fastening and top zip opening to the main body. - Excellent stitching detail around the body and straps of the bag with contrasting dark brown trim). - Height 10\", Width 13\", Depth 6.5\"; Strap Drop 9\"; Weight 500 grams - One back zip pocket, internal zip pocket and side pouch for phone and keys. - Lightweight bag with twin shoulder straps. Big Handbag Shop Womens Trendy Designer Boutique Faux Leather Large Button Bag",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.74",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "441",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "potatobugshop"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Big Handbag Shop Womens Trendy Designer Boutique Faux Leather Large Button Bag",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-21T22:12:10.000Z",
+  "HitCount": "823",
+  "TimeLeft": "P18DT6H1M18S",
+  "EndTime": "2017-06-20T22:12:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5055536516933"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Big Handbag Shop"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "Color",
+        "Value": "Deep Pink"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.06 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 12.6 x W 11.1 x H 3.15 inches"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172687849069",
+  "Storefront": {
+    "StoreName": "potatobugshop",
+    "StoreURL": "http://stores.ebay.com/id=1578782503"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726878490698080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,133 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "38.57",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Andover, Hampshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:40:38.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:40:38.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "371967920301",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Accurist",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Colour"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Accurist Chronograph MB651  CALOS60 Fully Working Midnight Blue Dial",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Accurist-Chronograph-MB651-CALOS60-Fully-Working-Midnight-Blue-Dial-/371967920301",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719679203018080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "SP10 1BE",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H18M8S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/VQcAAOSwdGFY339e/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/JT8AAOSww3tY34AX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/wcAAAOSwB-1Y34Ae/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjE2WDUxOA==/z/lIYAAOSwTM5Y34Ar/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTUzWDUyMA==/z/EN8AAOSwXYtY34Ay/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Lovely accurist Watch Slight scratch marks on the strap as expected however the Watch face is not marked at all Probably only used a handful of times Fully working",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackScore": "2735",
+    "UserID": "cashbrokersandover",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "* We offer a 14 day peace of mind guarantee for all of our sales. In the unlikely event an item has a fault that has not been listed in the item description we will issue a refund or replacement item. Any faults must be reported to us within 14 days of you receiving the item and the item must be returned within 21 days.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

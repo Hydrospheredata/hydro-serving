@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2UMAAOSw~AVYpaPD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VpMAAOSwCU1YpaPF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1QwAAOSw2gxYpaPH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1V8AAOSw2gxYpaPI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3AgAAOSw~AVYpaPV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Fy8AAOSw4A5YpaPe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TMQAAOSwx6pYpaPO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RWoAAOSwB-1YpaPQ/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Multi-Stripe-East-West-Beach-Tote-/122529631578",
+  "ConvertedCurrentPrice": {
+    "value": "82.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Sharp Coach beach summer bag. In great pre-owned condition, from non-smoking home. Please review all photos.",
+  "Title": "Coach Multi Stripe East West Beach Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "82.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Land O' Lakes, Florida",
+  "Seller": {
+    "FeedbackScore": "3773",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "kmdruns"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34637",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:58:15.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT23H53M55S",
+  "EndTime": "2017-07-02T13:58:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.5"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "9"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122529631578",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225296315788080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

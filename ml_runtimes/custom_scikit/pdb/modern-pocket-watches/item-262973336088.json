@@ -1,0 +1,74 @@
+{
+  "ExcludeShipToLocation": "APO/FPO",
+  "QuantitySold": "0",
+  "PostalCode": "85331",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "NO SIGNS OF USE,GLASS CLEAN,AND CLEAR,BRUSHED FINISH,LIKE NEW CONDITION,BOX HAS A LITTLE WARE ON CORNER,SHOWN IN PHOTO,NEW BATTERY,KEEPS GOOD TIME,RESPONDING TO ALL INQUIRES",
+  "StartTime": "2017-05-08T04:13:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIyMFgxNjAw/z/QZUAAOSwA3dYmJW3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eJUAAOSw44BYmJW1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMzOFgxNjAw/z/eYQAAOSw44BYmJW5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE1OFgxNjAw/z/ElMAAOSw5cNYmJW-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxOFgxNjAw/z/iQgAAOSwjDZYmJXI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxMFgxNjAw/z/qi8AAOSwNnRYmJXA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzM1gxNjAw/z/E~4AAOSw5cNYmJXC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/X4MAAOSw-0xYmJXG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI5MVgxNjAw/z/49oAAOSwopRYmJXO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4xgAAOSwopRYmJXL/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "jomclain2011",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "890",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629733360888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T04:13:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JAMES-MICHAEL-BILL-POCKET-BILL-FOLD-WATCH-/262973336088",
+  "Location": "Cave Creek, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "JAMES MICHAEL BILL POCKET BILL FOLD WATCH",
+  "Storefront": {
+    "StoreName": "jomclain2011",
+    "StoreURL": "http://stores.ebay.com/id=1091137179"
+  },
+  "ItemID": "262973336088",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT9H29M58S"
+}

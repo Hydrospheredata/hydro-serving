@@ -1,0 +1,166 @@
+{
+  "HandlingTime": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "189.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172704432021",
+  "TimeLeft": "P1DT5H10M32S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-05-30T19:45:56.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "PostalCode": "03038",
+  "ConvertedCurrentPrice": {
+    "value": "189.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "~COLLECTION OF JAY KING STERLING SILVER NECKLACE JEWELRY  LOT 4 Retired Pieces~",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-06T19:45:56.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DTR 925 JAY KING",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "TURQUOISE  LAPIS  ONYX",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal"
+      },
+      {
+        "Value": "TURQUOISE   AMETHYST ONYX",
+        "Name": "Color"
+      },
+      {
+        "Value": "STONE",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "DONT KNOW",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Onyx",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLLECTION-JAY-KING-STERLING-SILVER-NECKLACE-JEWELRY-LOT-4-Retired-Pieces-/172704432021",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Derry, New Hampshire",
+  "Description": "~COLLECTION OF JAY KING STERLING SILVER NECKLACE JEWELRY LOT 4 Retired Pieces~ Beautiful retired pieces in gently preowned condition. May need some cleaning or tarnish removal but they are just beautiful.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727044320218080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "thehighfashionlady",
+    "FeedbackScore": "629",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "248.99",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "248.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "19",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5ODY=/z/y7AAAOSwH09ZFF~O/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MDQ=/z/KZoAAOSww5hZFF~U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8H4AAOSwcaFZFF~H/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg3MTk=/z/7xMAAOSwi7RZFF~2/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "CurrentPrice": {
+    "value": "189.99",
+    "_currencyID": "USD"
+  }
+}

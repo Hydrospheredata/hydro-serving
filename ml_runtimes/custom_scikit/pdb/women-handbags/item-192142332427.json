@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Laura-Moretti-Braided-leather-bag-SHOULDER-BAG-style-Free-Delivery-/192142332427?var=",
+  "ConvertedCurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Detachable shoulder strap. Shoulder strap 117 cm. Adjustable shoulder strap. Top zipper closure. Two inside compartments. Strap drop 45 cm.",
+  "Title": "Laura Moretti - Braided leather bag (SHOULDER BAG style). Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Red",
+        "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/928/108/312085662/original.jpeg"
+      },
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": {
+      "Quantity": "2",
+      "StartPrice": {
+        "value": "169.0",
+        "_currencyID": "USD"
+      },
+      "SKU": "25:139928108:US",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Colour Name",
+          "Value": "Red"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": "Red"
+      }
+    }
+  },
+  "StartTime": "2017-03-28T12:47:48.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P23DT20H28M41S",
+  "EndTime": "2017-06-26T12:47:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Laura Moretti"
+      },
+      {
+        "Name": "MPN",
+        "Value": "894943961"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142332427",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139928107:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

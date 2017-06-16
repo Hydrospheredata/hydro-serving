@@ -1,0 +1,81 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Kiryat Motzkin, Haifa",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:48:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:48:25.000Z",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705921149",
+  "HandlingTime": "3",
+  "Description": "My eBay Product Title Item DescriptionSpeciafictation Item Type: Wrist Watch Manufacture Place: China(Mainland) Dial Window Material Type: Glass Movement: Mechanical Case Shape: Round Dial Diameter: 4.0cm Band Length: App 23cm Band width: App 2cm Band Material Type: Faux Leather Color: Gold Notice 1.The picture is only for reference,please consider carefully before purchase. 2.Some product has new logo,old product has not new logo,please consider carefully before purchase. Payment 1) We accept payment via Paypal only. 2) If you have any other question , please send us a note when you do the payment. Shipping 1) We only ship to Paypal confirmed address. Please make sure your shipping address is updated. 2) Usually, the item will be arrived in 10-15 days, maybe its can take max 30 days. 3) Shipping and packaging fee includes postage, package material, warehouse cost and other distribution cost 4) Buyers are responsible for the shipping fee of the return item to us. Refunds & Returns Returns:Faulty Goods: All goods are sold as new unless otherwise stated on the individual listing. Any item found to be faulty or damaged when received must be retuned to us within 30 days of receipt, please contact us through eBay communications so that we can arrange to collect and replace your faulty item as quickly as possible. Wrong Item Delivered: If we deliver the wrong item, please contact us within 14 days of receipt and we will arrange to collect and replace your item as quickly as possible. Change of Mind: If you simply change your mind and want to return the goods for exchange or refund, you must return the goods to us within 30 days of receipt. The goods must be returned to us intact and in a saleable condition. You must return the goods at your own cost. If you are returning the goods for refund, we will refund the full cost that you paid for the goods including any delivery charges, but we willnot refund the cost of returning the goods to us. Feedback",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Tone-Skeleton-Leather-Mechanical-Men-Hand-Wind-Wrist-Fashion-Watch-Vintage-/172705921149",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727059211498080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H37M15S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/RXgAAOSwiONYPdes/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/i8oAAOSwEzxYPdev/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/o4UAAOSwHMJYPdex/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/jGwAAOSwEzxYPdez/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/e8MAAOSwo4pYPde1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/jPMAAOSwa~BYPde4/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Gold Tone Skeleton Leather Mechanical Men Hand Wind Wrist Fashion Watch Vintage",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "262",
+    "UserID": "gu.gu03",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

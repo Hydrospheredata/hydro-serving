@@ -1,0 +1,114 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1MFgxMTIz/z/9C4AAOSw~FJZHnsh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI1N1gxMjAw/z/TY0AAOSwPh5ZHnsw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI2OVgxMTg3/z/ciMAAOSw1WJZHntm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMTEy/z/O14AAOSwX61ZHnt2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcxWDE0Nzk=/z/snoAAOSwuMZZHnuI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkzWDE1Njg=/z/9-UAAOSwGJlZHntT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcxWDE1MDI=/z/UlgAAOSwK6RZHntA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI0WDE0NDA=/z/Na8AAOSwaEhZHnu5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQwWDE0NDA=/z/bsEAAOSw1WJZHnsV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNjAw/z/DKAAAOSwDiBZHnvJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BrwAAOSwfRdZHnri/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GDsAAOSwfRdZHnxr/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-B-8080-Leather-Red-Flap-Zipped-Purse-/292137992166",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors B-8080 Leather Red Flap Zipped Purse has wear such as marks and stains happy bidding everyone and good luck.",
+  "Title": "Michael Kors B-8080 Leather Red Flap Zipped Purse",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Jacksonville, Florida",
+  "Seller": {
+    "FeedbackScore": "32",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "longsilver1913"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32277",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:02:16.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P29DT22H53M15S",
+  "EndTime": "2017-07-02T13:02:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Flap"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Solid"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Indonesia"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137992166",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921379921668080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

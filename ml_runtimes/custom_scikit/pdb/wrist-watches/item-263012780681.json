@@ -1,0 +1,435 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.74",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/BXcAAOSw9OFZLp99/$_12.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:48:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "21",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "4.74",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:48:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "PO Box"
+  ],
+  "ItemID": "263012780681",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Metal-Band-Round-Colorful-Dial-Analog-Watch-Men-Women-Quartz-Wristwatch-/263012780681?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Fashion&Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sport Wrist Watch",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "082-YW01710",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710G",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710L",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Blue",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710P",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710Y",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "4.74",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01710R",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Green",
+          "Blue",
+          "Pink",
+          "White",
+          "Yellow",
+          "Black",
+          "Red"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/assAAOSwhvFZKrxd/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Z9sAAOSwhvFZKrwU/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/s~EAAOSwjL5ZB0Yn/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/2kQAAOSwfpVZLp-A/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6MYAAOSwZ4dZKrv7/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/QgsAAOSwdjNZB0Yn/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ybUAAOSwYlRZKrvu/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-JEAAOSwq1JZKrvv/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HEcAAOSwi7RZKrv9/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/vOkAAOSwaEhZKrv9/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dGAAAOSw7GRZB0Yp/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-V0AAOSwONBZB0Yr/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ndYAAOSwX61ZB0Yp/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/GycAAOSwhvFZKuXQ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qzsAAOSwYlRZKuXD/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/5fEAAOSwnONZB0Yu/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/zbYAAOSww9xZB0Yf/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/iaMAAOSwcgNZKyuL/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/sjEAAOSwDiBZKrv2/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/NzAAAOSwcgNZB0Zd/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dHkAAOSww5NZB0Yh/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/s7cAAOSwjL5ZB0Yk/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/z~IAAOSwuMZZB0Ym/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/iEMAAOSwjqVZB0Yl/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/lOwAAOSwcgNZKrxe/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nsEAAOSwX61ZB0Yt/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/YxMAAOSw~y9ZKrwW/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~jEAAOSw~y9ZB0Yf/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/gzgAAOSwBt5ZKrv8/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/l7sAAOSwYvFZKrv9/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/vUsAAOSwlY1ZKrv0/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/dTYAAOSw7GRZB0Yw/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/AFgAAOSwaeRZKrvy/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/BiEAAOSwJH1ZKrv7/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/SqsAAOSwblZZKrxb/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/xf4AAOSw42dZB0Yq/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0JgAAOSwuMZZB0Ys/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/h9QAAOSwjqVZB0Yi/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/tZgAAOSwjL5ZB0Y5/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/3XYAAOSwGJlZKrv2/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/OUgAAOSw-3FZB0Zt/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/8d0AAOSwY3BZKrv6/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PostalCode": "518000",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H26M48S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Fashion Metal Band Round Colorful Dial Analog Watch Men Women Quartz Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

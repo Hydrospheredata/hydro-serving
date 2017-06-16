@@ -1,0 +1,93 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "E9G 1N9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This watch would fit nicely in a pocket or a purse as well as serving as an attractive clip on. It is approximately 1.20 inches in diameter. It is battery operated and is running strong. Normal 0 false false false EN-US X-NONE X-NONE 99.9 % of my items reach their destination through regular mail, but I cannot be totally responsible for items that may get lost . If you wish to pay Canada Post for a tracking number please let me know and I will add $9 to the listed cost of shipping in Canada and $16 to the listed USA costs. Checkout my other items. I update frequently. Thanks!",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/n-oAAOSw4T5XHW8l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GUYAAOSwLnlWppnO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjUx/z/sv8AAOSwQSBXHW8x/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.42"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "gdanny2",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1173",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-24T19:24:40.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921963143468080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T19:24:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bluebird-Clip-Pocket-Watch-MONTRE-Oiseau-Bleu-/192196314346",
+  "Location": "New Brunswick",
+  "Title": "Bluebird Clip On Pocket Watch MONTRE Oiseau Bleu",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "192196314346",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT47M12S"
+}

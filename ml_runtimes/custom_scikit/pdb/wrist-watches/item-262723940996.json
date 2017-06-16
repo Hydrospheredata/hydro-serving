@@ -1,0 +1,418 @@
+{
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "HandlingTime": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dsUAAOSw8-tWaYj1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI2NFgxMDAw/z/YKcAAOSw7FRWaYjp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YtAAAOSwI3RW~OGL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/WeAAAOSwI3RW~OEa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/0EwAAOSwnipWaYjv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/qD8AAOSwAKxWaYkY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Z3oAAOSw7FRWaYkb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/v0EAAOSwbdpWaYkf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dPwAAOSwYIxX-xHv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FFcAAOSw8w1X-xHx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY2WDEwMDA=/z/OUYAAOSwLF1X-xHz/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Storefront": {
+    "StoreName": "GBI Watch",
+    "StoreURL": "http://stores.ebay.com/id=1260844452"
+  },
+  "QuantitySold": "0",
+  "Seller": {
+    "UserID": "market8004",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "789",
+    "PositiveFeedbackPercent": "96.0"
+  },
+  "StartTime": "2016-11-18T07:30:07.000Z",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "FixedPriceItem",
+  "PrimaryCategoryID": "31387",
+  "Title": "Megir Men's Business Silicone Waterproof Date Quartz Stopwatch Wrist Watches",
+  "Quantity": "18",
+  "ItemID": "262723940996",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "CN",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MEGIR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "MEGIR new fashion watches",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date Indicator",
+          "Day Indicator",
+          "Luminous Hands",
+          "Date",
+          "Easy To Read"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": [
+          "Black",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silicone////////////////Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Black",
+          "Brown"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "24mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "new fashion",
+        "Name": "Model"
+      },
+      {
+        "Value": "new arrived",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "we provide the tracking no to u",
+        "Name": "about shipping"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "men watch",
+        "Name": "Number of Jewels"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Watch Brand:Megir Men WristwatchesWatch Style: Watch MenWristwatches Size:(Approximate)-Dial Diameter*Thickness:48mm*18mm-Band Width* Length: 25mm*27cmWristwatch Features:-Water resistant (not for shower/diving/swimming)- Auto Date,Chronograph-Great gift for you, your lover or friends-Fashionable, charming for all occasions-Low in price, High in quality-Promptly dispatch,100% Brand new",
+  "HitCount": "220",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold + Black face+ brown belt",
+          "Gold + Black face+ Black Belt",
+          "Silver + white face+ rose gold word+brown belt",
+          "Silver + white face+rose gold word+ Black Belt",
+          "Silver + white face+ brown belt",
+          "Silver+ white face+ Black Belt",
+          "Silver + Black face+ brown belt",
+          "Silver + Black face+ Black Belt",
+          "Black+ Black face+ Black Belt"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold + Black face+ brown belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/0EwAAOSwnipWaYjv/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Gold + Black face+ Black Belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dsUAAOSw8-tWaYj1/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver + white face+ rose gold word+brown belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTQyMVgxMDAw/z/C2EAAOSwp5JWaYk2/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver + white face+rose gold word+ Black Belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTI2M1gxMDAw/z/2DUAAOSwnipWaYk6/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver + white face+ brown belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qFEAAOSwNRdX-xH2/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver+ white face+ Black Belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/01wAAOSwnipWaYkK/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver + Black face+ brown belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/zcAAAOSwv-NWaYkx/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Silver + Black face+ Black Belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/qwkAAOSwAKxWaYkv/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Black+ Black face+ Black Belt",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6z8AAOSwwE5WaYkp/$_12.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1418010111",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold + Black face+ brown belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1418010101",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold + Black face+ Black Belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1402012011",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver + white face+ rose gold word+brown belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1402012001",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver + white face+rose gold word+ Black Belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1402010211",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver + white face+ brown belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1402010201",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver+ white face+ Black Belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1402010111",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver + Black face+ brown belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1402010101",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver + Black face+ Black Belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "25.99"
+        },
+        "SKU": "MGE1401010101",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black+ Black face+ Black Belt",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "SKU": "MGE14",
+  "SecondaryCategoryID": "166739",
+  "QuantityAvailableHint": "MoreThan",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-16T07:30:07.000Z",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Megir-Mens-Business-Silicone-Waterproof-Date-Quartz-Stopwatch-Wrist-Watches-/262723940996?var=",
+  "Location": "Hongkong",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "TimeLeft": "P15DT13H31M4S"
+}

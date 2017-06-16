@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Refund payment, if retuned within 14 days in the same condition, less shipping.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P28DT9H6M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "311888212921",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AMMOLITE-LAPEL-HAT-STICK-PIN-/311888212921",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T22:07:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T22:07:52.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Ammolite",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Ammolite",
+        "Name": "Material"
+      },
+      {
+        "Value": "Natural",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Protective Resin Coating",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Multi-Colored",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "AMMOLITE  LAPEL/HAT STICK PIN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful Ammolite Lapel/Hat Stick Pin This beautiful Ammolite Gemstone is set on a Gold Colored Finish Pin. Each Ammolite Gemstone is unique in color and design. The exotic rarity of this Gemstone would make a spectacular addition to any jewelry collection The dimensions of this gemstone are 10mm x 7mm. The Lapel Stick pin is 68mm long. Photography can not capture the full range of the iridescent color of this gemstone. We do not photo enhance our Ammolite Gemstones, each photo is taken in daylight and/or under lights. This stone has a protective coating. The white spot is a reflextion of light. We have an unconditional MONEY BACK GUARANTEE for our products. If you are not satisfied with your purchase, send it back in the same condition within seven days and we will refund your payment,less shipping. We Ship Worldwide INTERNATIONAL FLATE RATE ECONOMY SHIPPING $11.00, EXPEDITED IS $75.00 (5 TO 6 BUSINESS DAY DELIVERY) FOR MOST INTERNATIONAL SHIPPING SHIPPING WITHIN CANADA WITH TRACKING NUMBER AND INSURANCE IS $17.00, ECONOMY SHIPPING $3.00 DIFFERENT SHIPPING METHODS ARE AVAILABLE UPON REQUEST.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118882129218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "luxury-gems",
+    "FeedbackScore": "2736",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "AMMOLITE LUXURY GEMS",
+    "StoreURL": "http://stores.ebay.com/id=754852059"
+  },
+  "Location": "Lethbridge, Alberta",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE4M1gxMTcy/z/oZUAAOSw5VFWHAFm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwNVgxMTM1/z/EhQAAOSw5ZBWHAFp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3NVgxMTY4/z/4yUAAOSwwbdWHAFw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE4N1gxMDg0/z/rZAAAOSwl9BWHAFt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg3WDE2MDA=/z/28oAAOSwhcJWHAF2/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "T1K 6X5"
+}

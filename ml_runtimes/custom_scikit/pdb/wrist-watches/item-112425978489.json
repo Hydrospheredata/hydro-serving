@@ -1,0 +1,119 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "59.16",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "BURY ST EDMUNDS, Suffolk",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:46:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck",
+    "PaymentSeeDescription"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=213079470",
+    "StoreName": "myretrowatches"
+  },
+  "CurrentPrice": {
+    "value": "46.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:46:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "IL",
+    "RU"
+  ],
+  "ItemID": "112425978489",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ricoh",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel & Gold Plate",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Retro Ricoh Crystal Automatic Gents Watch Circa 1970S NOS Never Worn",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Retro-Ricoh-Crystal-Automatic-Gents-Watch-Circa-1970S-NOS-Never-Worn-/112425978489",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124259784898080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "IP31 2DX",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H28M37S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/bM8AAOSwuLZY2Q2w/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/we8AAOSw2gxY2Q2Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODgzWDE2MDA=/z/w0sAAOSw2gxY2Q2k/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/5pkAAOSwdGFY2Q2p/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk2WDE2MDA=/z/FGIAAOSwzgBY2Q2m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/FRgAAOSwzgBY2Q2r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/R0gAAOSwax5Y2Q2W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/urgAAOSwuxFY2Q2t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/5Q0AAOSwdGFY2Q2c/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/cCAAAOSwCU1Y2Q2i/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Untitled Document",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "12972",
+    "UserID": "myretrowatches",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

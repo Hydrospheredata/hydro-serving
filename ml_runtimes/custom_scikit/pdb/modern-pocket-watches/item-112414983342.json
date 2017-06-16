@@ -1,0 +1,173 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Father's Day GIFT Retro Quartz Pocket Watch Japan Movement Dad Bronze Jewelry Products Description: Good workmanship. Elegant design with precise quartz movement. Dial color in white with Arabic numerals in black. The back case is smooth without any engravings. Removable silvery chain with a clip at the end. Retro watch case brings you back to your memory in youth. Perfect addition to a formal or casual dressing or collecting. Daily water resistance (not for showering and swimming)Take Attention: Once you receive the quartz watch: Press the crown at the top of the watch, the front plate will open. Setting time: Pull the crown away from the base of the watch and turn the crown clockwise until reaching the exact time.Product Details:100% Brand New and High Quality! Precision Japanese quartz movement. High quality alloy case and chain. Case Diameter:1.81 inches(46mm); Chain Length:14 inches(365mm).",
+  "StartTime": "2017-05-21T21:12:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/VA0AAOSwBt5ZIf7C/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/I18AAOSwq1JZIf6z/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/2P0AAOSwblZZIf61/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/U24AAOSwBt5ZIf63/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/asYAAOSw1WJZIf65/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/tJUAAOSwxu5ZIf67/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Wc4AAOSwYlRZIf6-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/eg8AAOSwDiBZIf7A/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/I3AAAOSw42JZIf7U/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/iygAAOSw42dZIf7W/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~DQAAOSwZ4dZIf7Y/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/J8gAAOSwurZZIf7a/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "High Quality Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "Brand"
+      },
+      {
+        "Value": "659642",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Workmanship",
+          "with Belt Clip Chain",
+          "Japanese Quartz Movement",
+          "Daily water resistance"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "White",
+        "Name": "Dial color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "approx 4.6",
+        "Name": "Case diameter(cm)"
+      },
+      {
+        "Value": "approx 37.5",
+        "Name": "Chain length(cm)"
+      },
+      {
+        "Value": "approx 0.5",
+        "Name": "Chain width(cm)"
+      },
+      {
+        "Value": "approx 1.0",
+        "Name": "Case thickness(cm)"
+      },
+      {
+        "Value": "approx 69",
+        "Name": "Watch weigt(g)"
+      },
+      {
+        "Value": "Retro Quartz Pocket Watch",
+        "Name": "Type"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Father's Day, Birthdays, Daily",
+        "Name": "Perfect for"
+      },
+      {
+        "Value": "691017659642",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "icfuture",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "234",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124149833428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T21:12:37.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Father's Day GIFT Retro Quartz Pocket Watch Japan Movement Dad Bronze Jewelry",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fathers-Day-GIFT-Retro-Quartz-Pocket-Watch-Japan-Movement-Dad-Bronze-Jewelry-/112414983342",
+  "Storefront": {
+    "StoreName": "julvelyul Store",
+    "StoreURL": "http://stores.ebay.com/id=1286108575"
+  },
+  "ItemID": "112414983342",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT2H33M49S"
+}

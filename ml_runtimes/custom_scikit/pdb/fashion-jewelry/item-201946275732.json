@@ -1,0 +1,148 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "201946275732",
+  "TimeLeft": "P6DT6H34M8S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-Legendary-Fashion-Designer-ELSA-SCHIAPARELLI-Gloves-Pin-Jewelry-Brooch-/201946275732",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T19:24:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-11T19:24:56.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Eel Pop",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Cartoon, TV & Movie Characters",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Iron",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "Title": "RARE Legendary Fashion Designer ELSA SCHIAPARELLI Gloves Pin Jewelry Brooch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Legendary Fashion Designer Elsa Schiaparelli This Limited Edition Tribute Pin features Schiaparelli's iconic fashion gloves Pin measures approx 1.5 inches Enamel with rubber backing / Gold ruffle has glitter detail",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019462757328080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hollywoodpackrat",
+    "FeedbackScore": "1197",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Los Angeles, California",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc1WDU0MA==/z/Q~8AAOSwcaFZG7ya/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTY5WDU3MA==/z/TkUAAOSww5hZG7xa/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "90043"
+}

@@ -1,0 +1,66 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "02188",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "POCKET WATCHSILVER TONEONLY MARKING ON FACE OF WATCH - PARMEXOVER IS ENGRAVED WITH FISHING THEME ON ONESIDE AND FLORAL ON THE BACKDOES NOT WORK / MISSING GLASS FACE",
+  "StartTime": "2017-04-24T23:02:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTk2WDU5Ng==/z/5xMAAOSw4CFYzT28/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEyN1gxNjAw/z/fHsAAOSwo4pYj61N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/vWoAAOSw4DJYj61n/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "7180worth",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6566",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "22",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1624895334988080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-23T23:02:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 7 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/POCKET-WATCH-PARMEX-SILVER-TONE-W-CHAIN-FISHING-THEME-/162489533498",
+  "Location": "Weymouth, Massachusetts",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "POCKET WATCH PARMEX SILVER TONE W/CHAIN - FISHING THEME",
+  "Storefront": {
+    "StoreName": "GOTTA HAVE IT SHOP",
+    "StoreURL": "http://stores.ebay.com/id=219733044"
+  },
+  "ItemID": "162489533498",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT4H16M8S"
+}

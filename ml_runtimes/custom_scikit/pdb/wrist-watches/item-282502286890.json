@@ -1,0 +1,78 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825022868908080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T12:01:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:01:58.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Set of 2 vintage watches in great condition. Both are Bulova and working. Very pretty",
+  "BuyItNowPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502286890",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Women's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "vintage ladies watches",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/vintage-ladies-watches-/282502286890",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "1",
+  "PostalCode": "49419",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Hamilton, Michigan",
+  "TimeLeft": "P6DT20H44M5S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/90gAAOSwsW9Y3syF/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/-RsAAOSwsW9Y3syR/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/UbgAAOSwol5Y3sye/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzY0WDEwMjQ=/z/4mUAAOSwhQhY3sy1/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "135",
+    "UserID": "mistymaedoodle",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

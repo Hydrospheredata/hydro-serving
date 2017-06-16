@@ -1,0 +1,103 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023344091368080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:51:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowAvailable": "true",
+  "EndTime": "2017-06-05T13:51:11.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "I will bring to your attention a rarity of Orient Ha(Hight Ace), hours in an excellent state, the automatic mechanism, the screwing-up clockwork head, glass in perfect tune were made since 1973.",
+  "BuyItNowPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334409136",
+  "HandlingTime": "30",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Orient",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "RARE Orient HA automatic watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-Orient-HA-automatic-watch-/302334409136",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "2",
+  "Location": "Orekhovo-Zuevo, Moscow region",
+  "TimeLeft": "P4DT22H40M29S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/x7IAAOSwxKtX~hUH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ty4AAOSw-CpX~hUR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iEsAAOSwNRdX~hUY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/upkAAOSw-CpX~hUe/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "264",
+    "UserID": "lucky_boy.lesha",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

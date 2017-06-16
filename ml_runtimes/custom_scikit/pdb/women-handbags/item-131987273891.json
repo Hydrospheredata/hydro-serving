@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTE3WDQwNw==/z/lIEAAOSwCGVYBotK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/M7MAAOSw8gVYBosT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/Hx8AAOSw8w1YBosW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/iycAAOSwLF1YBosY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/LgYAAOSwZJBYBosR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTEwWDUxMA==/z/H14AAOSw8w1YBosX/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Piel-Leather-Ladies-Buckle-Business-Tote-Bag-Genuine-Leather-Black-SALE-/131987273891",
+  "ConvertedCurrentPrice": {
+    "value": "164.8",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Piel Leather Ladies Buckle Business Tote Magnetic snap opens to two main compartments divided by a large zip-pocket. Front compartment features a full organizer and interior zip-pocket in the rear compartment. Front open pocket and long adjustable straps. * Made of Full-Grain Cowhide Leather * Handmade in Colombia, S.A * Strap drop 13\" * Measures 17\" x 11\" x 4\" MSRP $411.99",
+  "Title": "Piel Leather Ladies Buckle Business Tote Bag, Genuine Leather in Black (SALE!)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "164.8",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Lafayette, New Jersey",
+  "Seller": {
+    "FeedbackScore": "1430",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "nansfabbags"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07848",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-10-30T13:50:24.000Z",
+  "HitCount": "88",
+  "TimeLeft": "P24DT22H37M",
+  "EndTime": "2017-06-27T13:50:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Piel Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Colombia"
+      },
+      {
+        "Name": "SKU",
+        "Value": "2742"
+      },
+      {
+        "Name": "UPC",
+        "Value": "721502274224"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "131987273891",
+  "Storefront": {
+    "StoreName": "Nancy&#39;s Fab Bags",
+    "StoreURL": "http://stores.ebay.com/id=56759671"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "You must return an item in the same condition as it was received. You must also include, in the same condition as it was received:\nAll packaging such as boxes, bags, and tags\nAccessories such as cords and remotes\nCertificates, manuals, and warranty cards \n\"Free gifts\" or bonus items\nAll items included in a bundle",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1319872738918080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

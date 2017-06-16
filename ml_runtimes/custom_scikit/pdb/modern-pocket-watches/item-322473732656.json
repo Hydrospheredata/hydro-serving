@@ -1,0 +1,93 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Irish Celtic Ireland Pocket Watch by Mullingar Pewter",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "64.5"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Irish Celtic Ireland Pocket Watch by Mullingar Pewter Features: Beautiful Handmade exquisite vintage style pocket watch with engraved Ireland design.Pewter never wears and is a superb display piece. Made in Ireland by Mullingar Pewter by a skilled craftsperson.This beautiful watch measures approx 1 & 3/4\" in diameter with a 14\" chain - Presented in a Gift Box.Presented in a Gift Box, a perfect gift for any occasion or why not just treat yourself.Designed in Ireland and delivered from Ireland to the US within 6-9 Days plus free Irish gift with every purchase. Product Details: Product Dimensions: 5.9 x 5.3 x 3 inchesShipping Weight: 5.6 ouncesOrigin: Imported (Ireland) Description A beautiful vintage style hand-made pocket watch with engraved Ireland design. This classic pocket watch is Quartz and measures 1 3/4 in diameter with a 14\" pocket watch chain length. Pewter never dates and is a superb display piece. Handcrafted in Ireland by a skilled craftsperson Mullingar Pewter. Mullingar Pewter, based in County Westmeath, Ireland, has always applied the highest standards of design and craftsmanship to produce pewter gifts of the highest quality, continuing a tradition dating back some 800 years. Each piece is still made in the traditional way in a crafts workshop by Irish men and women, specially trained in the old casting methods, meticulous assembly and delicate hand finishing. These skills take years to acquire and each piece of pewter bears the company touchmark which his a guarantee in itself. Handling We will ship all orders within 2 business days of payment. Delivery We DO NOT SHIP TO PO Boxes or Mail Forwarding Addresses. We only ship to Paypal Verified addresses. Return Policy All items that qualify for returns must be within 14 days of receipt. Buyer is responsible for return shipping on any item that is not damaged, as well as a 15% restocking fee. No exchanges permitted. All returns must be done through EBAY and processed with an RMA number to be issued refund. Upon receiving RMA, buyer has 7 days to have item shipped back. Item must be in original condition and packaging. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sa0AAOSwAANY4-Tw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gFkAAOSw3utY4-Ty/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/sfkAAOSwAANY4-Tz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ZpIAAOSwmgJY4-T2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Rh0AAOSw4CFY4-T3/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "The Irish Store - Irish Gifts from Ireland",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NA",
+        "Name": "UPC"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ccs-craigw",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9274",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "StartTime": "2017-04-04T18:20:52.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3224737326568080_2.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T18:20:52.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "64.5"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.  All returns will be charged a 15% restocking fee.",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B00BTH3EOM",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Irish-Celtic-Ireland-Pocket-Watch-Mullingar-Pewter-/322473732656",
+  "Storefront": {
+    "StoreName": "RivalTech",
+    "StoreURL": "http://stores.ebay.com/id=776355051"
+  },
+  "ItemID": "322473732656",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT23H32M35S"
+}

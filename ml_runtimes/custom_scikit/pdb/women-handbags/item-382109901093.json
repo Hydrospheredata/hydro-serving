@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjA5WDQ0MA==/z/iasAAOSwcgNZLzbI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk5WDUwOA==/z/yKsAAOSw1WJZLzbw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAxWDIyNA==/z/kP0AAOSwxu5ZLzcQ/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-STROLL-AROUND-BABY-DIAPER-BAG-VERA-VERA-PINK-NWT-/382109901093",
+  "ConvertedCurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "VERA BRADLEY STROLL AROUND BABY DIAPER BAG VERA VERA PINK NWT Removable stroller straps attach bag to stroller handles. Exterior pockets include two slip pockets, a zip pocket. Front compartment contains changing pad & two mesh pockets. Changing pad unsnaps from front compartment. Interior features laminated fabric & five mesh pockets. Zip closure. Dimensions\u00a016 \u00bd\"W x 12\"H x 5 \u00bd\"D Changing pad 23 \u00be\" x 15 \u00be\" 15\" strap drop 12\" stroller straps Machine wash cold, gentle cycle, line dry",
+  "Title": "VERA BRADLEY / STROLL AROUND BABY DIAPER BAG / VERA VERA PINK / NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.9",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Mary Esther, Florida",
+  "Seller": {
+    "FeedbackScore": "1796",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "jay.88"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32569",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T21:39:38.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P28DT6H19M41S",
+  "EndTime": "2017-06-30T21:39:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Diaper Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382109901093",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821099010938080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT12H10M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371958025449",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-Jewelry-SUPER-SETS-SNAKE-RING-AND-EARRINGS-NWT-/371958025449",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T03:15:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T03:15:51.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Betsey Johnson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "jewelry base metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hobo",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "Betsey Johnson Jewelry SUPER SETS SNAKE RING AND EARRINGS NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Betsey Johnson Jewelry SUPER SETS SNAKE RING AND EARRINGS Crystal snakes evoke a glamorous edge with this gorgeous erring and ring set. Matching has never looked better than with pave crystals adorning sweet snake studs and a stretch ring. Hematite tone snake wrap ring Set includes stretch ring and pair of stud earrings Stretch ring Post back studs Mixed metal plating Metal/glass/elastic Ring Vertical Length 1\" Ring Shank Width: 8mm Stud Length: 0.5\" Stud Width:0.3\"k Limited Edition Thank you for looking at our listing Your product is guaranteed new and authentic! We Ship SAME DAY with US Postal Service Guaranteed Delivery! Contact us with any questions! Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719580254498080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bellabacciaccessories",
+    "FeedbackScore": "3395",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Bellabacciaccessories",
+    "StoreURL": "http://stores.ebay.com/id=598323925"
+  },
+  "Quantity": "2",
+  "Location": "Costa Mesa, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA1WDEwMDA=/z/znEAAOSwjqVZIlfp/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92627"
+}

@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "334.37",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Sutton Coldfield",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:48:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=60521639",
+    "StoreName": "darrin1471"
+  },
+  "CurrentPrice": {
+    "value": "259.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T09:48:26.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012456998",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MKT5011",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "4053858712485",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors Access Touch Screen Black Dylan Smartwatch MKT5011 CR075 CC-15",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Access-Touch-Screen-Black-Dylan-Smartwatch-MKT5011-CR075-CC-15-/263012456998",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630124569988080_1.jpg",
+  "HitCount": "18",
+  "PostalCode": "B735SP",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H23M1S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzA4WDk2NA==/z/mikAAOSw-3FZDDrF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Y8gAAOSwjqVZDDo5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMjgw/z/3qgAAOSwONBZDDqI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwOFgxMzg4/z/dDgAAOSwjqVZDDqw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE2NFgxMDky/z/UFIAAOSwlndZDDqd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQ1Nw==/z/OzIAAOSwhvFZDDoI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDE1NzM=/z/PrAAAOSwX61ZDDoJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDg5MA==/z/O5EAAOSwhvFZDDoK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMzNw==/z/cXoAAOSw42dZDDoM/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Michael Kors Access Touch Screen Black Dylan Smartwatch MKT5011 BRAND NEW & SEALED Technology meets style with our Michael Kors Access Collection. Fully personalize your watch by selecting or customizing the watch face of your choice and changing out the straps to match your activity or look.Stay connected with display notifications including texts, calls, emails, and keep track of your fitness goals by tracking your steps, distance, and calories.With countless options, your watch face and strap adapt to any and all occasions on your calendar.Powered by Android Wear. Compatible with iPhone and Android devices.Technology meets jet-set style with the men's Michael Kors Access Dylan black IP display smartwatch. Powered by Android Wear, this smartwatch connects with your favorite apps and is compatible with Apple and Android smartphones. With built-in fitness tracking through Google Fit, you can view calories burned, steps and distance traveled. Receive notifications, such as calls and alerts, at a glance as well. Fully personalize your watch by selecting or customizing the watch face of your choice and changing out the straps to match your activity or look.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "56111",
+    "UserID": "darrin1471",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

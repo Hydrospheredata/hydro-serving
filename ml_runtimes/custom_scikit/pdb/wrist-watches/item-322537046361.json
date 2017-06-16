@@ -1,0 +1,123 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3950.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Culver City, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T03:23:18.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=6178195",
+    "StoreName": "loving-lifes-watches"
+  },
+  "CurrentPrice": {
+    "value": "3950.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T03:23:18.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "16570-WHT-BLKRBR",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537046361",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "24-Hour",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Pilot/Aviator",
+        "Name": "Style"
+      },
+      {
+        "Value": "Explorer",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rolex Stainless Steel Explorer II 16570, White Dial on a Rubber Strap",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rolex-Stainless-Steel-Explorer-II-16570-White-Dial-Rubber-Strap-/322537046361",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225370463618080_1.jpg",
+  "HitCount": "10",
+  "PostalCode": "90232",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT12H10M47S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/cPcAAOSwUKxYj~MB/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Loving Lifes Watches Brand Rolex Model Explorer II - 16570 Materials Stainless Steel & Rubber Case Rolex Stainless Steel 40mm Case Dial Rolex White Dial Bezel Rolex Stainless Steel 24 Hour Bezel Bracelet Generic Black Rubber Strap Movement Rolex Automatic Box & Papers Generic Wooden Box/Certified Appraisal (No Rolex Papers) Condition MINT- Fully Polished and Time Adjusted to New condition Warranty Two Years AuthenticityPlease refer to all of our feedback. We only sell Original Authentic Items. -- If it is not 100% as described -- Please return it for a full refund, no questions asked!!! -- ShippingAll of our items are shipped within (3-4 BUSINESS DAYS) from the date payment is received. We appreciate your patience, as this processing time is necessary in order to guarantee each item is sold as described in the description. This time allows us to perform one final examination as well as a 24-48 hour time test for accuracy. If there happens to be any issues this allows us a chance to have any adjustments or services performed to the watch prior to being shipped out. Loving Life's Watches is only open M-F. All of Our Items are shipped via USPS/UPS/FEDEX depending on the value of the item purchased. All payments received via Paypal must be shipped to the confirmed Paypal address. ReturnsLoving Life's Watches offer's a 100% satisfaction guarantee. Returns are accepted in the original condition within 14 days from the day you receive the item for a refund.Please note that we cannot accept returns on item(s) that have been damaged, and not returned in the same condition as received.Please contact us immediately via eBay member-to-member communication for any RETURN/REFUND. Buyer is responsible for all shipping and insurance fees associated with the return.HoursOur business hours are Monday-Friday 10:00 AM - 6:00 PM (Appointments Only) Contact UsIf you have any questions please feel free to Leave your Contact Information and one of our Sales Representatives Will Contact You Immediately!!DisclaimerPlease note that adding custom parts to some of brands will result in the manufacturer refusing service and/or maintenance. Loving Life's Watches is not an authorized dealer of any of the watch brands we carry. All brand names and trademarks are the property of their respective owners and used for identification purposes only. This allows us to sell luxury items at discounted prices. Loving Life's Watches is not affiliated with any website that sells fake or replica items.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1121",
+    "UserID": "loving-lifes-watches",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

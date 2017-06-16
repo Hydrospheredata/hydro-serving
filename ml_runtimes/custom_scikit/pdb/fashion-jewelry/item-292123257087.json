@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P13DT10H3M34S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "69.67",
+    "_currencyID": "USD"
+  },
+  "SKU": "B00JLOITHW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292123257087",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ReadeREST-Shark-Tank-Product-6-Pack-Stainless-Steel-Eyeglass-Holders-/292123257087",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "69.67",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-19T21:05:28.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T21:05:28.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "ReadeREST",
+        "Name": "Brand"
+      },
+      {
+        "Value": "818833010451",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0818833010451",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "ReadeREST Shark Tank Product 6-Pack Stainless Steel Eyeglass Holders",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "ReadeREST Shark Tank Product, 6-Pack Stainless Steel Eyeglass Holders Product Details Product Dimensions: 4.5 x 3.8 x 6.8 inches Item Weight: 3.2 ounces Shipping Weight: 3.2 ounces Manufacturer: ReadeREST A set of six ReadeREST eyeglass holders, as seen on Shark Tank Unlimited Lifetime Guarantee - MADE IN THE USA Made in America, ReadeREST Eyeglass holders are designed to conveniently store your glasses, making it easy to keep up with them ReadeREST eyeglass holders are a great accessory for readers and their glasses, runners and their headpones and more ReadeREST eliminates the need for lanyars, croakies and other eyeglass holders ReadeREST is the high tech magnetic eyeglass holder featured as a Shark Tank product that keeps eyewear safe when it is not in use. No more dropping or losing glasses. The powerful magnet-to-magnet contact doesn't poke holes in your clothing and is the perfect solution to always having your readers handy. No more croakies, lanyards or other eyeglass holders needed with the power of ReadeREST.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921232570878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "leitmotiv1903",
+    "FeedbackScore": "8056",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "VibeEasyShopping",
+    "StoreURL": "http://stores.ebay.com/id=526732909"
+  },
+  "Location": "US",
+  "Quantity": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/hdYAAOSwcaFZH14G/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/UhkAAOSwIaFZH14J/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/xUUAAOSwlMFZH14M/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/C2kAAOSw~FJZH14P/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/IlgAAOSwjqVZH14T/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/NCQAAOSwn-tZH14W/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

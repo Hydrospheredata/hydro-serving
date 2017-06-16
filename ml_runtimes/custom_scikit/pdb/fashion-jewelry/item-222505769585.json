@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P3DT6H23M33S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222505769585",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-Gold-Plated-CZ-Cluster-Custom-Cz-Top-Bottom-GRILLZ-Mouth-Teeth-Grills-Set-/222505769585",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-09T22:18:37.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T22:18:37.000Z",
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jewel Town\u00a9",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Teeth",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14K Gold Plated CZ Cluster Custom Cz Top Bottom GRILLZ Mouth Teeth Grills Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Mens 14k Gold Plated Hip Hop GrillzFree Shipping To All United States W/ Tracking Confirmations To Ensure Delivery!! Grillz SpecificationsMetal Type: Brass (14k Gold Top & Bottom)These Grillz Are Designed For Top & Bottom Teeth.Grillz Come With 1 Silicone Bar That Will Be Used To Mold To the Grill.Instructions Are Included!! Easy Fit Guaranteed!OVER 50 AUTHENTIC CUBIC ZIRCONIA CZ'S!! **DON'T SETTLE FOR A CHEAP SET OF SIMPLE METAL GRILLZ THAT STINK!!** Here you will receive a nice set of Top & Bottom grillz made from the finestbrass metal and plated with the highest 14k Gold Plating available in the market.Our images don't lie.. You will receive exactly what you see **HIGH QUALITY** GRILLZAnd If you are not satisfied we offer full refunds NO QUESTIONS ASKED GUARANTEED!! One Size Fits (MOST) Will Fit 98% Of The People. Our Costumer Service Team Are Available From Mon-Fri9am - 4:30pm Pacific Standard Time. Please Feel Free To Contact Us At Any Time We Are Here To Help.",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225057695858080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "UserID": "jeweltown101",
+    "FeedbackScore": "2232",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Jewel-Town-101",
+    "StoreURL": "http://stores.ebay.com/id=1400156151"
+  },
+  "Subtitle": "Free High Quality Adjustable Silicone Fixing Bars!!!!",
+  "Quantity": "5",
+  "Location": "Los Angeles, California",
+  "HitCount": "72",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUxMlgxNTEy/z/6HcAAOSwjL5ZEj37/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxMlgxNTEy/z/h2UAAOSwIaFZEj4M/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxMlgxNTEy/z/NP0AAOSwK6RZEj4d/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxMlgxNTEy/z/KqYAAOSwcaFZEj4x/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "90013"
+}

@@ -1,0 +1,123 @@
+{
+  "HandlingTime": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "168.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172702548180",
+  "TimeLeft": "P3DT6H42M36S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PostalCode": "77853",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "168.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T21:39:57.000Z",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Silpada Sterling Silver \"Talk of the Town\"  Bracelet  B1702 Retailed $269",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T21:39:57.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "no stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": ".925, Sterling",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Sterling-Silver-Talk-Town-Bracelet-B1702-Retailed-269-/172702548180",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Dime Box, Texas",
+  "Description": "Silpada \"Talk of the Town\" Bracelet Beautiful new bracelet used for display only retailed for $269 in Silpada 2014 catalog page 91G Adjusts 7 1/4 to 8 1/4 inches Lobster clasp \"Be the talk of the town in this intricate Sterling Silver Bracelet with an adjustable lobster clasp.\"",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727025481808080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "his_new_bride",
+    "FeedbackScore": "443",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "224.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "224.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "5",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/Njg0WDU4NQ==/z/9i0AAOSww3tY6lRJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTQ4WDY0OQ==/z/wUEAAOSwuLZY6lRg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/kv4AAOSwAANY6lP0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/zBUAAOSwnF9Y6lP3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/s3AAAOSwuLZY6lP6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/95oAAOSwmgJY6lQo/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/aCEAAOSwpkFY6lQt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/1L0AAOSwnF9Y6lQy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/GIMAAOSwB-1Y6lQH/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "CurrentPrice": {
+    "value": "168.0",
+    "_currencyID": "USD"
+  }
+}

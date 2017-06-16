@@ -1,0 +1,121 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "19040",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New with tags",
+  "Description": "US and Canada I need money NOW to meet bill payments!!!! Franklin Mint in conjunction with Knightstone Collections sponsored a series of 8 Boris Vallejo artist inspired pocket watches in the late 1990's. Each had a dragons head above the crown with a different colored jewel on the closed hunter case. Inside on the watch face depicted a different 'mistress of fire' portrait.At this BIN auction is the first watch in the series. Has sat unused since original purchase. All paperwork and box are present. See pictures. Original price per watch was about $80. Needs a fresh battery to work. Price of shipping includes insurance and signature confirmation. Canada, you'll receive a Custom ID#. 14 day return. Email me before returning. You pay return ship costs. Make sure item is returned in same condition sent. That includes the original box and papers. My note: REduced from $52.99 on 12/19/16. Reduced from $47.99 on 1/1/17. Reduced from $43.99 on 1/8/17. Reduced from $42 on 2/2/17.",
+  "StartTime": "2017-05-05T12:25:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/SZUAAOSwojRYSsbQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/1MIAAOSwux5YSsb3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/DkYAAOSwcUBYSscb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjI2WDY1Mw==/z/A3oAAOSw2xRYSsdX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/ZT4AAOSwojRYSseC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/JPQAAOSwcUBYSseW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/mpUAAOSwo4pYSsfl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/d5YAAOSwA3dYSsgE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY2WDEyODg=/z/HXwAAOSw2xRYSsgb/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "38.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Franklin Mint",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Acrylic Crystal",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "trader55chris",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "368",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525375999198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T12:25:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "38.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Franklin-Mint-Boris-Vallejo-Mistress-Fire-Red-Jewel-Pocket-Watch-w-box-paper-/152537599919",
+  "Location": "Hatboro, Pennsylvania",
+  "Title": "Franklin Mint Boris Vallejo Mistress of Fire Red Jewel Pocket Watch w/box, paper",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152537599919",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT17H41M28S"
+}

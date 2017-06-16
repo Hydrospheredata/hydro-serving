@@ -1,0 +1,81 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H32M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172714479273",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SKAGEN-SILVER-TONE-29-STATION-NECKLACE-BNIB-ORG-100-JNS0001-/172714479273",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T10:51:39.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T10:51:39.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "skagen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "29",
+        "Name": "Length (inches)"
+      }
+    ]
+  },
+  "Title": "SKAGEN  SILVER TONE 29\" STATION NECKLACE  BNIB ORG.$100-JNS0001",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "****Clearing Out Sale**** Beautiful SKAGEN SilverTone Station Necklace - 29 inches Long Brand New in Box & with TAGS Stainless Steel - Hypo Allergenic - Nickel Safe The Silver stations are being protected with blue plastic as shown in the pics. Originally purchased in Saks - originally $100 - Makes a beautiful gift!!",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727144792738080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "puchunuk",
+    "FeedbackScore": "1027",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "Fort Lauderdale, Florida",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/UdoAAOSwTuJYuZWt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/ifoAAOSwOgdYuZWv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/Rm8AAOSwWxNYuZWx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/n0AAAOSw4A5YuZWz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/xukAAOSwTM5YuZW1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc1WDU3NQ==/z/92AAAOSw~AVYuZZY/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33327"
+}

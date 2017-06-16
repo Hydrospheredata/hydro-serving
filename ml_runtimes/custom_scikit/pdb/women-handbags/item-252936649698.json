@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTE1WDE2MDA=/z/E6oAAOSwpLNX7~bH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/IsMAAOSw8w1X7~bT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzM1gxNjAw/z/FugAAOSwpLNX7~bd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjI4WDE2MDA=/z/5SQAAOSw8gVX7~b3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODUzWDE2MDA=/z/oDQAAOSwOyJX7~cS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4Njg=/z/7HAAAOSw8gVX7~co/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM4WDE2MDA=/z/ar0AAOSwzaJX7~cd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM5MlgxNjAw/z/ZPQAAOSwzaJX7~bu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/51cAAOSw8gVX7~cG/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Prada-Vela-Nylon-Blue-Cosmetic-Toiletry-Case-NWT-/252936649698",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "96 Normal 0 false false false EN-US X-NONE X-NONE Prada Vela Nylon Blue Cosmetic Toiletry Case NWT Dimensions: 6 in Height, 8 in Length, 3 in Deep *Vela cosmetic bag in Royal *Made in Italy *Zipper closure *Inner zipper pocket *Silver tone hardware *Comes with Prada Authenticity Certificate Card *Measurements are for reference only and are approximate *Item color may vary depending on your monitor",
+  "Title": "Prada Vela Nylon Blue Cosmetic Toiletry Case NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "82",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "mel_h_36"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10069",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T16:06:55.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P9DT23H55M33S",
+  "EndTime": "2017-06-12T16:06:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Prada"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Cosmetic Bags"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252936649698",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529366496988080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Elmhurst, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:08:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=760499948",
+    "StoreName": "ocean872"
+  },
+  "CurrentPrice": {
+    "value": "12.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:08:37.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400121932",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Techno King",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Iced Out Bling Bling Rubber Band Techno King Men's Watch Red Item 3263",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Iced-Out-Bling-Bling-Rubber-Band-Techno-King-Mens-Watch-Red-Item-3263-/142400121932",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424001219328080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "11373",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H51M18S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ4WDEwMDA=/z/DegAAOSwo6lWF5R7/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "Condition: New. Diameter of case: 2.1\". Length of band: 10\". Fits wrist size 7\" to 9\". Quartz movement. Silvertone metal case with 180 pieces of red stones on the bezel. Red rubber band. $2 off shipping on each additional watch. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "15092",
+    "UserID": "ocean872",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Get a full refund if you are not satisfied with the purchase."
+  }
+}

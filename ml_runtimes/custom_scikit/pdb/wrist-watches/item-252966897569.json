@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Longwood, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:58:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T12:58:05.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "DO",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966897569",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko Watch Company",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Silicone/Rubber",
+          "Black Rubber"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko 7T62-0KN0  SRH006 SRH013 SNAE17  Black Rubber Watch Band/Strap P#4LJ7MB",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-7T62-0KN0-SRH006-SRH013-SNAE17-Black-Rubber-Watch-Band-Strap-P-4LJ7MB-/252966897569",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529668975698080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "32779",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT21H42M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTAwWDEzNDc=/z/gFsAAOSw1WJZGmh2/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Brand New seiko watch band still in wrapper.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "57",
+    "UserID": "alexace8205",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

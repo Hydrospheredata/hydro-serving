@@ -1,0 +1,137 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "teddington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:56:48.000Z",
+  "PrimaryCategoryID": "31387",
+  "Charity": {
+    "CharityNumber": "30059",
+    "Status": "Valid",
+    "CharityID": "35269",
+    "CharityName": "fara enterprises",
+    "DonationPercent": "100.0",
+    "LogoURL": "http://i.ebayimg.com/00/s/MTQyWDM5NQ==/z/8TsAAOSwdGFYvSXf/$_1.PNG?set_id=8800005007",
+    "Mission": "FARA Foundation have been actively working to alleviate suffering of vulnerable children and young people in Romania for the last 25 years. www.faracharity.org"
+  },
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=889091297",
+    "StoreName": "fara shop online"
+  },
+  "CurrentPrice": {
+    "value": "11.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T14:56:48.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Titanium",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Tissot PR50",
+        "Name": "Model"
+      },
+      {
+        "Value": "Titanium",
+        "Name": "Strap Material"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530296800",
+  "HandlingTime": "2",
+  "Description": "bn",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Tissot Pr 50 Titanium",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tissot-Pr-50-Titanium-/222530296800",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225302968008080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H51M38S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/oTQAAOSwH09ZLtls/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAzWDYyNw==/z/EZ8AAOSwblZZLtl9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDUyNw==/z/EIkAAOSwblZZLtlu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/NwkAAOSw~FJZLtlv/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "11.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "324",
+    "UserID": "lovefarashop",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

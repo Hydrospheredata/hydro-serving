@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTc1WDU3NQ==/z/CHIAAOSwR29ZMT7n/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-F58287-Signature-Sierra-Satchel-Dome-Bag-Handbag-Light-Khaki-Blush-NWT-/162538655469",
+  "ConvertedCurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Coach F58287 Signature Sierra Satchel Dome Bag Handbag Light Khaki Blush BRAND NEW STILL IN PACKAGING SIGNATURE JACQUARDINSIDE ZIP MULTIFUNCTION POCKETSZIP TOP CLOSURE FABRIC LININGSEE ABOVE FOR SIZING IN ITEM DETAILS SEE MATCHING ZIP WALLET IN OTHER LISTING ITEM WILL SHIP OUT ON MONDAY JUNE 5TH",
+  "Title": "Coach F58287 Signature Sierra Satchel Dome Bag Handbag Light Khaki Blush NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "145.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Huntley, Illinois",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2324",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "luvmagickingdom71"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60142",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:52:58.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT20H28M49S",
+  "EndTime": "2017-07-02T10:52:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.75\""
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Light Khaki / Blush"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "4.25\" Handles- 21.5\" Adjustable Strap"
+      },
+      {
+        "Name": "Material",
+        "Value": "CANVAS"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Coach Signature"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162538655469",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625386554698080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

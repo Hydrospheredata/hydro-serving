@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT8H27M5S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent -  See photos and description",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282509661890",
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T20:19:21.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Sarah-Coventry-Brooch-Earring-Pin-Set-Robin-s-Egg-Pearl-RARE-FIND-/282509661890",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T20:19:21.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sarah Coventry",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Natural & Faux Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue, White, Gold",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Vintage Sarah Coventry Brooch Earring Pin Set \u2013 Robin\u2019s Egg & Pearl \u2013 RARE FIND",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Westerville, Ohio",
+  "Description": "We combine shipping. What makes this set a rare find is having the stick pin included. I\u2019ve yet to find another set with all of these pieces in such excellent condition. Maker: Sarah CoventryYear(s): 1960\u2019sColor: Gold w/ Robin\u2019s Egg blue, whiteDimensions: Brooch 3\u201d / Earrings 1 1/8\u201d / Stick pin 3 \u00bc\u201d NOTE: These items are used/vintage and should be cleaned before use. Please click on the photos to see the details and let me know if you have any questions. Thanks for looking! And now for the boring bits... PAYMENT: - I accept PayPal only. - Payment is expected within twenty-four hours from the end of the auction. - Auction price does not include shipping charges. - If you plan on purchasing more than one item, please let me know after you make your first purchase. Failure to do so will result in a non-payment notification from eBay and can impact your reputation. SHIPPING: - I *only* ship Priority Mail for fragile items such as glass. After the latest postage increase, Priority Mail is almost always the least expensive way to ship. Also, USPS includes free insurance up to $100.00 which protects both of us from damaged items. - I try to be accurate when calculating postage but sometimes the eBay calculator is incorrect, especially when using Parcel Select. If the postage amount is lower than the amount I've stated above by 1.00 or more, I will issue an adjustment. - I combine shipping when applicable. RETURNS: - I accept returns unless noted otherwise. - I no longer accept returns on jewelry lots and I will take as close-up photos as I can along with detailed information in the description. - At my discretion, I may request photographs of the damage prior to starting the return process. - In the case of returns, all items must be returned in the same condition as it was mailed out - no exceptions. MISC: - All items come from a smoke-free home. - I do my best to describe the condition of items accurately and all items are sold AS IS. - Unless noted, I do not clean soft goods (linens, clothing, fabric etc) prior to sale. I do note the condition in the description (stains etc) and include photos of any defects. - I have been selling online since 1999 and I strive for 100% customer satisfaction. If you have any questions please don\u2019t hesitate to contact me.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825096618908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "the*booknook",
+    "FeedbackScore": "2662",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Minnies-Market dot com",
+    "StoreURL": "http://stores.ebay.com/id=6752818"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/wL4AAOSwMsVXjPZO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/PcUAAOSwtnpXjPZc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/duoAAOSwdzVXjPZs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ovoAAOSwsTxXjPZ5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/pgUAAOSwbsBXjPZ9/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "43086"
+}

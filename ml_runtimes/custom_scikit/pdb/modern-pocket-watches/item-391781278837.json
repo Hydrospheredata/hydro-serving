@@ -1,0 +1,80 @@
+{
+  "QuantitySold": "0",
+  "Title": "Pocket Watch American Historical Society with Chain and New Battery",
+  "PostalCode": "23321",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "American Historical Society Quartz Pocket Watch with Chain and New Battery works good",
+  "StartTime": "2017-05-11T22:35:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IAgAAOSw~bFWOL5a/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZVgAAOSwQoFWOL5g/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PnoAAOSw14xWOL7K/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pwgAAOSwI-BWOL7R/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QwUAAOSwYHxWOL7b/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": [
+        "12-Hour Dial",
+        "Roman Numerals"
+      ],
+      "Name": "Features"
+    }
+  },
+  "Seller": {
+    "UserID": "ronald04926efc",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1459",
+    "PositiveFeedbackPercent": "96.2"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917812788378080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-10T22:35:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-American-Historical-Society-Chain-and-New-Battery-/391781278837",
+  "ConditionDescription": "new battery no silver dollar included",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Chesapeake, Virginia",
+  "Storefront": {
+    "StoreName": "ronald04926efc",
+    "StoreURL": "http://stores.ebay.com/id=25830387"
+  },
+  "ItemID": "391781278837",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P10DT3H53M19S"
+}

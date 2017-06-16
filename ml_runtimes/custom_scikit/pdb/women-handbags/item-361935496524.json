@@ -1,0 +1,132 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3619354965248080_2.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwMFg3NjI=/z/00MAAOSwhQhY1a24/$_10.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMFg3NjI=/z/HdEAAOSwSlBY1a27/$_10.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwMFg3NjI=/z/FLgAAOSwXYtY1a2-/$_10.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Schuhtzengel-Bag-TORINA-II-Cracked-Grey-/361935496524",
+  "ConvertedCurrentPrice": {
+    "value": "197.68",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Please be aware that due customs regulations shipping can take longer than expected. Schuhtzengel Bag - TORINA II - Cracked Grey The description of this item has been automatically translated. If you have any questions, please feel free to contact us. Schuhtzengel Bag - TORINA II - Cracked Grey 159,90 EUR Manufacturer: Schuhtzengel Item No.: Schuhtzengel296 - Schu (h) tzengel bag- Model: TORINA II-Color: Cracked grey- Material: 100% Leather- Dimensions: approx 41 x 34 x 6 cm (WxHxD)-StyleNr.: 63303L - High quality leather- Vintage Leather- Zipper- Patch pockets- Big metal buttons- Super processing- Trendy bag label from Germany Ladies Shoes Gentlemen Accessories Brands Fashioncode.de Low meadow str. 28 78050 Villingen-Schwenningen free hotline: + 49 (0) 800 778 779 9 for eBay shop powered by plentyMarkets E-commerce as I want it. Marke Schuhtzengel Au\u00dfenmaterial Leder Amazon Abteilung Damen Farbe Grau EAN 4260248438256 Geschlecht Women",
+  "ExcludeShipToLocation": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB",
+    "CA",
+    "IL"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "197.68",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "Location": "Villingen-Schwenningen",
+  "Seller": {
+    "FeedbackScore": "14324",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "fashioncode_de"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Schuhtzengel Bag - TORINA II - Cracked Grey",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-23T21:02:33.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P19DT4H40M13S",
+  "EndTime": "2017-06-21T21:02:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Amazon Department",
+        "Value": "Ladies"
+      },
+      {
+        "Name": "Gender",
+        "Value": "Women"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Guardian Angel"
+      },
+      {
+        "Name": "EAN",
+        "Value": "4260248438256"
+      },
+      {
+        "Name": "Exterior Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Main Colour",
+        "Value": "Grey"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "361935496524",
+  "Storefront": {
+    "StoreName": "fashioncode_shop",
+    "StoreURL": "http://stores.ebay.com/id=179842185"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Is there a purchase return guarantee?\r\n\r\nIf, for some reason, you are not satisfied with the product you ordered, you can send it back to us. Of course we would undertake the shipping cost in the case that it is the consequence of a mistake on our side. \t\r\n\r\nIs it possible to swap the product? \r\nWe will send you another product as soon as we receive the returned package.\r\nWe cover the postage cost of the second product in the case that it is due to a mistake on our side. If you change your mind about the product and return it to us, you will be asked to contribute to the product shipping costs. \t\t\t\t\t\t\t\t\r\n\r\nConditions of the returned product:\r\nPlease note that in order to receive a full refund of the product price, or an exchange of equal value, we will ask you to return the product in the same conditions as when we sent it to you.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "DE",
+  "SKU": "#MLID#2511",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

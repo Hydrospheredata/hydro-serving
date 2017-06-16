@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N6cAAOSwU8hY5Vdb/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MFoAAOSwuLZY5VdJ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q9sAAOSwpP9Y5VdQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRICS-WOMANS-HANDBAG-BROWN-/152570437014",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BEAUTIFUL BRIC'S WOMAN'S HANDBAG BROWN WITH STRAPS LIKE NEW - NEVER USED(APPROXIMATELY 15 INCHES IN LENGTH AND 10 INCHES IN HEIGHT) (COMES FROM SMOKE-FREE AND PET-FREE HOME)",
+  "Title": "BRIC'S WOMAN'S HANDBAG - BROWN",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Englishtown, New Jersey",
+  "Seller": {
+    "FeedbackScore": "166",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "pasquaj"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "07726",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:07:05.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P6DT19H40M24S",
+  "EndTime": "2017-06-09T10:07:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Bric's"
+      },
+      {
+        "Name": "Style",
+        "Value": "Bucket Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15 inches"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152570437014",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525704370148080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

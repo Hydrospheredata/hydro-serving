@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "39.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "San Clemente, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:29:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "39.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:29:50.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "391800619371",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "FOSSIL STAINLESS WOMANS LADIES WATCH 13418600 DATE AND TIME",
+  "ConditionDescription": "GENTLY WORN NO SCRATCHES OR DAMAGE",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FOSSIL-STAINLESS-WOMANS-LADIES-WATCH-13418600-DATE-AND-TIME-/391800619371",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3918006193718080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "92672",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H21M36S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EcQAAOSwJ4hY-UcN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzOFgxNjAw/z/2CsAAOSwBOtY-UcY/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "WORKING LADIES WOMANS WOMENS STAINLESS FOSSIL WRISTWATCH. NEW IN 2016, BARELY WORN. FITS WRIST SIZE 6.5\" NO SIGN OF SCRATCHES, NORMAL LIGHT WEAR. LIGHT WEIGHT AND COMFORTABLE, EASY TO READ. NO BOX, NO EXTRA LINKS. PAID $150. NEW ALL QUESTIONS ANSWERED PROMPTLY. SHIPPED QUICKLY AND SAFELY. PAY PAL PAYMENT ONLY. GOOD LUCK AND CHECK OUR OTHER AUCTIONS FOR MORE JEWELRY AND VINTAGE ITEMS.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "800",
+    "UserID": "oc-antiques",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "ITEM CAN BE RETURNED IF THERE IS AN ERROR IN LISTING DESCRIPTION."
+  }
+}

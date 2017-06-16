@@ -1,0 +1,251 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:3937:3940",
+  "HandlingTime": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VRYAAOSw0hlZI6Zr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ApwAAOSw~FJZI6Z-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Wd8AAOSwIQdZI6aV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hdYAAOSwAPVZI6ao/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "junque1",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3317",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-28T23:10:37.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "7***0",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "505",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "Chinese",
+  "Title": "Vintage ladies Hamilton gold filled 17J pocket watch, wrist watch with band",
+  "ItemID": "262999085360",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Antique",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-ladies-Hamilton-gold-filled-17J-pocket-watch-wrist-watch-band-/262999085360",
+  "QuantitySold": "0",
+  "PostalCode": "73120",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "An estate sale find, a vintage ladies size wristwatch in the shape of a pocket watch. The back is hinged and opens like a pocket watch to reveal a fancy embossed inside with Hamilton Watch Co., Lancaster, Pa. guaranteed 25 years. The movement winds, and runs just fine, but due to a long shelf life probably needs a good cleaning, and adjusting to keep accurate time. It is 17J, with a serial #2004288. There is wear to the gold plating on the front of the case, and it is 1\" in diameter. The problem with the watch is, the minute hand, and crystal are missing. It comes with a gold filled metal, and cord bracelet that is in very good condition. Winning bidder to pay fixed shipping of $ 4.50. Paypal preferred. No international sales.",
+  "HitCount": "122",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "10.49"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "3940",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hamilton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "cord",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "1 inch",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "bracelet cord strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "white",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "9116055",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Water Resistance"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629990853608080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "1",
+  "EndTime": "2017-06-04T23:10:37.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "Location": "Oklahoma City, Oklahoma",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "TimeLeft": "P4DT4H57M31S"
+}

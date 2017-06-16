@@ -1,0 +1,73 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "60045",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Full Hunter Pocket Watch with Railroad DesignWhite Dial with Arabic NumeralsShoppeWatch Brand with Gift BoxMetal Chain Length 365mm (14 inches)",
+  "StartTime": "2017-05-14T23:42:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jMYAAOSwBt5ZGOs3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/acYAAOSwdjNZGOs5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-3AAAOSww9xZGOtD/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ShoppeWatch",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mavw1234",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "140",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726748898178080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-13T23:42:39.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ShoppeWatch-Pocket-Watch-Chain-Railroad-Embossed-Arabic-Numerals-Full-Hu-/172674889817",
+  "Location": "Lake Forest, Illinois",
+  "Title": "ShoppeWatch Pocket Watch with Chain Railroad Embossed Arabic Numerals Full Hu...",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "172674889817",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P13DT5H1M55S"
+}

@@ -1,0 +1,119 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "314.09"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Matching curb chain. Skeleton dial. Roman numerals. Satin brushed double cover case. 17 jewel mechanical movement. Comes with deluxe gift box. 14k gold plated. 2.13 in. Dia. - 14k gold-plated satin brushed 54mm double cover case with a matching curb chain - Skeleton dial with roman numerals - 17 jewel mechanical movement - Deluxe gift box Charles-Hubert, Paris 3780-G Gold-Plated Mechanical Pocket Watch",
+  "StartTime": "2017-03-06T13:39:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMwNlgxNTAw/z/gNEAAOSw~AVYvWaT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzI4/z/wcoAAOSwSlBYvWaV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7R0AAOSwol5YvWaS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4OTY=/z/wgUAAOSw4A5YvWaS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI3OVgxNTAw/z/GlsAAOSwOgdYvWaS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDE1MDA=/z/2cUAAOSwTuJYvWaS/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "848870003727",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0848870003727",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Charles-Hubert, Paris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3780-G",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.5 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.9 x W 4.4 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "42",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2725794578168080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T13:39:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "314.09"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Charles-Hubert, Paris 3780-G Gold-Plated Mechanical Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Paris-3780-G-Gold-Plated-Mechanical-Pocket-Watch-/272579457816",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579457816",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT18H47M23S"
+}

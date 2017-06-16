@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P2DT7H29M6S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "AUD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "96.6",
+    "UserID": "powersell2008",
+    "FeedbackScore": "8907",
+    "FeedbackRatingStar": "Green"
+  },
+  "ItemID": "172713441817",
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "66.19",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T19:22:54.000Z",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/8-8-5MM-Shiny-Bowknot-Silver-White-Circular-Natural-Freshwater-Pearl-Earrings-/172713441817",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T19:22:54.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Natural Freshwater Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "8-8.5MM Shiny Bowknot Silver+White Circular Natural Freshwater Pearl Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Sydney, NSW",
+  "Description": "powersell2008 Store Pearl Dimension\uff1a8-8.5MM Material: Natural Freshwater Pearl+Silver Color\uff1aWhite Pearl Shape:circular Pearl Luster\uff1aBright Light Some of the item needs to be custom made and will take few days, we will be contacting you if this happened Normal 0 7.8 \u78c5 0 2 false false false MicrosoftInternetExplorer4 Track Page Views WithAuctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727134418178080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "Storefront": {
+    "StoreName": "OutdoorAddiction2008",
+    "StoreURL": "http://stores.ebay.com/id=527583602"
+  },
+  "Quantity": "5",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgxWDk1OQ==/z/46oAAMXQ2dBSHY30/$(KGrHqMOKooFIM4k2M6PBSHY30boTw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc1WDc3OQ==/z/NAMAAMXQaZxSHY36/$T2eC16hHJHMFH!0UWCUrBSHY36QVVg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA4WDk1NQ==/z/KhcAAOxy2E1SHY37/$(KGrHqZHJEUFH9FCZoE7BSHY37bsHg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njc2WDY3Nw==/z/GFQAAOxye9lSHY3-/$(KGrHqVHJF!FIHrwgPM,BSHY39qyD!~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:45:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1008762708",
+    "StoreName": "memorialwatch"
+  },
+  "CurrentPrice": {
+    "value": "195.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:45:31.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "814XSBXC1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Skagen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "768680139228",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4051432764677",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": "Skagen Ceramic Women's Quartz Watch 814XSBXC1 Product Details Product Dimensions: 3.9 x 3.1 x 3 inches Shipping Weight: 7.2 ounces Item model number: 814XSBXC1 Brand, Seller, or Collection Name: Skagen Model number: 814XSBXC1 Part Number: 814XSBXC1 Item Shape: rectangle Dial window material type\ufeff: Mineral Display Type: Analog Clasp: Fold-Over Clasp with Double Push-Button Safety\ufeff Case material: Ceramic Case diameter: 21 millimeters Case Thickness: 12 millimeters Band Material: Ceramic Band length: 7 inches Band width: 13 Band Color: Black Dial color: Black Bezel material: Ceramic Special features: measures-seconds Item weight: 2.08 Ounces Movement\ufeff: Swiss quartz Water resistant depth: 30 Meters Quartz Movement 30 Meters / 100 Feet / 3 ATM Water Resistant 21mm Case Diameter Mineral Crystal Skagen, Ceramic, Women's Watch, Ceramic Case, Ceramic Bracelet, Quartz (Battery-Powered), 814XSBXC1",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skagen-Ceramic-Womens-Quartz-Watch-814XSBXC1-SHIPSFREE-/162536081487",
+  "NewBestOffer": "false",
+  "SKU": "814XSBXC1",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625360814878080_1.jpg",
+  "ItemID": "162536081487",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H38M59S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/GyQAAOSww9xZLtcJ/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Skagen Ceramic Women's Quartz Watch 814XSBXC1 SHIPSFREE",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "5774",
+    "UserID": "finejewelryandwatches",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

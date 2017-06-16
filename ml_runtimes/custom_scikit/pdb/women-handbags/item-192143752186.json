@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921437521868080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg5NjY=/z/6yIAAOSwol5Y3H6F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/gRkAAOSw4CFY3H6F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/w7sAAOSwDmBY3H6F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/-PgAAOSwuLZY3H6F/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Guess-Purse-Handbag-Kym-Black-Delivery-Free-/192143752186",
+  "ConvertedCurrentPrice": {
+    "value": "193.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Women's Guess Purse Handbag Kym Black by GUESS Ships from UK Supplier Related Searches: Guess Handbags, Guess Handbags Bags, Guess Dimensions: 20.32 x 10.16 x 5.08 centimeters Weight: 0.86 kg",
+  "Title": "Women's Guess Purse Handbag Kym Black. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "193.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-30T03:41:47.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P25DT11H23M47S",
+  "EndTime": "2017-06-28T03:41:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "0847251016974"
+      },
+      {
+        "Name": "UPC",
+        "Value": "0847251016974"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "GUESS"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143752186",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:32799684:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

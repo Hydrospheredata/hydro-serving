@@ -1,0 +1,111 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P12DT20H25M54S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Seperwar Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=807112285"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.38",
+    "_currencyID": "USD"
+  },
+  "SKU": "SE-2160621R",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "371955249911",
+  "ConvertedCurrentPrice": {
+    "value": "39.38",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-19T07:59:20.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hair-Jewelry-Classic-Rhinestone-Crystals-Big-Bridal-Wedding-Hair-Comb-2160621R-/371955249911",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-18T07:59:20.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hair Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "SEP",
+        "Name": "Brand"
+      },
+      {
+        "Value": "742790065288",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Hair Jewelry Classic Rhinestone Crystals Big Bridal Wedding Hair Comb 2160621R",
+  "ExcludeShipToLocation": "Africa",
+  "Location": "GD",
+  "Description": "DescriptionThis is a beautiful Flower Headband for women, It made with a lot of high quality crystals Rhinestone in metal setting,Very suitable for women wear to take part in wedding party or daily pageant.MaterialsCopper,CrystalsMetalRhodium PlatedColorClearPlease be reminded that due lighting effects, monitor's brightness/contrast settings etc, there could be some slight differences in the colour tone of the website's photo and the actual item.Measures L 24cm X W 10cm(9.45inches x 4inches) ConditionBrand NewNoteA beautiful gift box included, ready for Gift",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719552499118080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "UserID": "seperwar",
+    "FeedbackScore": "40530",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "99",
+  "PaymentMethods": "PayPal",
+  "HitCount": "14",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6vYAAOSw3gJZHqXn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/w7AAAOSww9xZHqXs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/610AAOSwIQdZHqX1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQ0WDg0NA==/z/I2YAAOSwGJlZHqXz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/fGoAAOSwlndZHqX7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~MsAAOSwfpVZHqYB/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "510640"
+}

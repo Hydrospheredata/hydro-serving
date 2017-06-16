@@ -1,0 +1,78 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT18H33M50S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543145183",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Crystal-Link-Bracelet-NEW-B3417-Silver-Swarovski-Crystals-/322543145183",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:24:54.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T04:24:54.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver/Brass",
+        "Name": "Color"
+      },
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "Silpada Crystal Link Bracelet- NEW B3417, Silver Swarovski Crystals",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "- Great everyday bracelet! - .925 Sterling Silvet, Swarovski Crystals, Brass. Adjusts 7-8\" - Stamped with Silpada Logo - Will ship in a Gift Box - Please check photos carefully as I do not accept returns. - I don't represent Silpada; therefore, Silpada guarantee does not apply. - I only accept prompt PayPal Payment. - Item will be shipped within approximately 3 business day from the day payment is received. I only ship to addresses in the United States. Thank you for shopping with me! Please check out my other items! I strive for positive feedback and leave feedback for purchasers as well. Happy shopping!",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225431451838080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tigersfan1981",
+    "FeedbackScore": "201",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Gulfport, Mississippi",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/fK4AAOSwIaFZNNvy/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P7YAAOSw~FJZNNvz/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aSsAAOSwH09ZNNvx/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "39503"
+}

@@ -1,0 +1,132 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "259.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GB",
+  "Location": "Warrington",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:04:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=56192411",
+    "StoreName": "Designer Men"
+  },
+  "CurrentPrice": {
+    "value": "259.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:04:21.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Diesel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fixed Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "DZ7359",
+        "Name": "Style Name"
+      },
+      {
+        "Value": "Machinus",
+        "Name": "Wash Code"
+      },
+      {
+        "Value": "Battery",
+        "Name": "Type"
+      },
+      {
+        "Value": "Fixed Stainless Steel",
+        "Name": "Casing"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Model"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4053858561205",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "We Ship Worldwide ebay ID: Designermen JEANS JACKETS SWEATERS T-SHIRTS SUNGLASSES & ACCESSORIES Find it --> New Diesel DZ7359 Machinus Chronograph Four Time Zone Brown Leather Strap Watch RRP: \u00a3 Price: \u00a3259.99 If your waist or leg size are not available in a drop down menu please check item specifics for the only available size Description Payment Shipping Returns Leg Fit: Trouser Style: Case Diameter = 55mm Movement: Analogue Quartz Four Time Zone Display Water Resistant to 100m 1 Year Warranty Payment Shipping Returns \u00a0 About UsTerms & ConditionsShippingReturnsContact UsCopyright \u00a9 2013 Designer Men. All Rights Reserved. Website Designed by Weblegs.co.uk",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Diesel-DZ7359-Machinus-Chronograph-Four-Time-Zone-Brown-Leather-Strap-Watch-/361995116275",
+  "NewBestOffer": "false",
+  "SKU": "DZ7359",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619951162758080_1.jpg",
+  "ItemID": "361995116275",
+  "PostalCode": "WA3 6PL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H36M21S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODUzWDY0MA==/z/gHkAAOSw-3FZLocX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/4-gAAOSwhvFZLocZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/SIMAAOSwq1JZLocY/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "New Diesel DZ7359 Machinus Chronograph Four Time Zone Brown Leather Strap Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16947",
+    "UserID": "designermen",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

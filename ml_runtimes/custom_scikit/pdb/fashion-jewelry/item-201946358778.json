@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT8H36M40S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201946358778",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GLYNNETH-B-tassel-necklace-statement-piece-NEW-NEVER-WORN-List-Price-275-/201946358778",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "69.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T21:05:17.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T21:05:17.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Glynneth B",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Tassel",
+        "Name": "Style"
+      },
+      {
+        "Value": "28",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Mixed metals/rhinestones",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "GLYNNETH B tassel necklace statement piece NEW NEVER WORN List Price $275",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "One-of-a-kind popular tassel necklace by Glynneth B. 28 inch chain plu 9 inch hanging pendant and tassel. Bought at Bleu boutique in Beverly Hills CA. Picked out by a personal shopper but never worn. Asking 25% obo.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019463587788080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "cocmv-va-jj8qo8ky",
+    "FeedbackScore": "1",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Cincinnati, Ohio",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY1/z/FvwAAOSw7GRZNHG7/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/5yAAAOSwBt5ZNHHG/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/UNUAAOSw9OFZNHHN/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/z/1LYAAOSws5pZNHHS/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "45248"
+}

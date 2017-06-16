@@ -1,0 +1,118 @@
+{
+  "ReturnPolicy": {
+    "Description": "Item must be returned in as-shipped condition from seller.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "282500662319",
+  "PrimaryCategoryID": "140944",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "ConvertedCurrentPrice": {
+    "value": "37.95",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:10970",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825006623198080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jjantique",
+    "FeedbackScore": "2830",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "jjantique",
+    "StoreURL": "http://stores.ebay.com/id=6572258"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2OFgxNjAw/z/nX0AAOSwLnBX7~y6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxMlgxNjAw/z/nNUAAOSw4shX7~y9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0M1gxNjAw/z/axkAAOSwmfhX7~zA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2N1gxNjAw/z/ZfMAAOSwzaJX7~zC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwNVgxNjAw/z/OJ4AAOSwTA9X7~zF/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "TimeLeft": "P23DT22H23M45S",
+  "StartTime": "2017-05-30T13:01:06.000Z",
+  "ConditionDescription": "Excellent Used condition",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "37.95",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "10970",
+  "HitCount": "6",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "2",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Graziano-Jeweled-Charm-Bracelet-Cameo-Pearls-Crown-Stars-Gems-Bee-Insect-Gold-/282500662319",
+  "EndTime": "2017-06-29T13:01:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cameo Pearls Crown Stars",
+        "Name": "Graziano Jeweled Charm Gold Bracelet"
+      },
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "Graziano",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Traditional",
+        "Name": "Style"
+      },
+      {
+        "Value": "Jeweled Cameo Pearls",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Faux Gems",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Graziano Jeweled Charm Bracelet Cameo Pearls Crown Stars Gems Bee Insect Gold",
+  "Location": "Bedford, Texas",
+  "Description": "Graziano Jeweled Charm Bracelet Cameo Pearls Crown Stars Gems Bee Insect Gold Track Page Views With Auctiva's FREE Counter",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "1",
+  "PostalCode": "76021"
+}

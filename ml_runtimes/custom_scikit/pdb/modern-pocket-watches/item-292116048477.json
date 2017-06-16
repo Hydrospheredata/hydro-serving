@@ -1,0 +1,123 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.77"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! SEWOR Vintage Bronze Flower Mens Pocket Watch Luminous Case Mechanical hand wind - SEWOR 17 Jewel Mechanical Hand-wind Movement. Unique Skeleton Classical Dial with Roman Numerals. - Smoonth Back Case Allow Engraving. For safety.The Front Face is made of Acrylic instead of Glass.Color:Bronze. - Comes with a high quality 7mm width Cowboy Chain,Chain Length:365mm. case diameter:47mm. Nice addition to a formal or casual dressing or colleting. - 100% Brand New with excellent workmanship, Precise golden mechanical movement. No need to use battery, Twisting the top button on the spin by clockwise about 15-20 arounds, Tightening a walk for 24 hours, Please wind up the watch before every usage and keep away from magnet to avoid making it stop working. - PERFECT CHOICE - Come in with Good Quality Brand SEWOR Leather Gift Box. Perfect gift for your love and family and yourself. Best Valentine day Gift, Superb Christmas Gift, Birthday Gift, Wedding Gift etc. For the working environment which is not allowed to wear wrist watch, like chef or nurse. SEWOR Vintage Bronze Flower Mens Pocket Watch Luminous Case Mechanical hand wind",
+  "StartTime": "2017-05-13T15:04:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JoYAAOSwaeRZFyCF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/yWQAAOSwblZZFyCF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc1/z/09UAAOSwDiBZFyCG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/80wAAOSwX61ZFyCG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4OTU=/z/Ki8AAOSw-K9ZFyCF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/TKkAAOSwX9FZFyCF/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "701142330351",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0701142330351",
+        "Name": "EAN"
+      },
+      {
+        "Value": "SEWOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "C131",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Color"
+      },
+      {
+        "Value": "mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.44 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.8 x W 3.8 x H 1.9 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "DESHENG",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "lotoonsca1",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3284",
+    "PositiveFeedbackPercent": "98.2"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921160484778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T15:04:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.77"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SEWOR Vintage Bronze Flower Mens Pocket Watch Luminous Case Mechanical hand wind",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEWOR-Vintage-Bronze-Flower-Mens-Pocket-Watch-Luminous-Case-Mechanical-hand-wind-/292116048477",
+  "Storefront": {
+    "StoreName": "lotoonsca1",
+    "StoreURL": "http://stores.ebay.com/id=1186421247"
+  },
+  "ItemID": "292116048477",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT20H23M22S"
+}

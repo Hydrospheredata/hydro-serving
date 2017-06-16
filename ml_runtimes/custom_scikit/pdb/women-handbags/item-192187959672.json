@@ -1,0 +1,128 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "TimeLeft": "P12DT2H3M3S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "good condition",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzNVg5NDg=/z/M4kAAOSwxu5ZGgYQ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI2NFg5NDg=/z/iKcAAOSwhvFZGgYZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Longchamp-Paris-Le-Pliage-Medium-Bag-Tote-Brown-/192187959672",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "good condition measures 15\" wide 10 high",
+  "Title": "Longchamp Paris Le Pliage Medium Bag Tote Brown",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Old Lyme, Connecticut",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "218",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mountarcher"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "06371",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-15T19:49:05.000Z",
+  "HitCount": "26",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-14T19:49:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Longchamp"
+      },
+      {
+        "Name": "Style",
+        "Value": "tote"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Color",
+        "Value": "brown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192187959672",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921879596728080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

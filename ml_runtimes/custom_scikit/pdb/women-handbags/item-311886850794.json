@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3118868507948080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/UeUAAOxyVLNTAmEQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/AuwAAOxyni9TAmEX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDcyNQ==/z/qrEAAOxywh1TAmET/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rEwAAOxywh1TAmEh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~o0AAOxyJX1TAmEb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/xwYAAMXQVT9TAmEg/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anuschka-Leather-HandPainted-Travel-1-2-Straps-Sling-Backpack-Dancing-Peacock-/311886850794",
+  "ConvertedCurrentPrice": {
+    "value": "222.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Your browser does not support JavaScript. To view this page, enable JavaScript if it is disabled or upgrade your browser.",
+  "Title": "Anuschka Leather HandPainted Travel 1 or 2 Straps Sling Backpack Dancing Peacock",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "222.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Temecula, California",
+  "Seller": {
+    "FeedbackScore": "26857",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "otssfllc"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92591",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-06-02T05:36:27.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT15H3M20S",
+  "EndTime": "2017-06-07T05:36:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Anuschka"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "0701748707922"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "311886850794",
+  "Storefront": {
+    "StoreName": "Silver Fever Handbags and Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=843486734"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Item must ship in the same condition, withing 14 days from arrivals",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "6894,487DNP",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "true"
+}

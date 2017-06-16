@@ -1,0 +1,69 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.95"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "28638",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "REMINGTON POCKET WATCH WITH DEER AND DOG ON FRONT. IT IS QUARTZA ZARAMAMADE IN HONG KONG. HAS RED FLOWER ON FACE OF WATCH.",
+  "StartTime": "2017-05-30T18:26:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/7K0AAOSwhvFZCJL4/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/pu8AAOSw~y9ZCJMC/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/JuwAAOSwCQZZCJMK/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/p0YAAOSwlndZCJMT/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/87gAAOSwhvFZCJMV/$_57.PNG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "ginger9078",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1513",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.7"
+  },
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019414812778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T18:26:06.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REMINGTON-POCKET-WATCH-DEER-AND-DOG-FRONT-HONG-KONG-/201941481277",
+  "Location": "Hudson, North Carolina",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "REMINGTON POCKET WATCH WITH DEER AND DOG ON FRONT HONG KONG",
+  "Storefront": {
+    "StoreName": "ginger9078",
+    "StoreURL": "http://stores.ebay.com/id=191286154"
+  },
+  "ItemID": "201941481277",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT23H52M26S"
+}

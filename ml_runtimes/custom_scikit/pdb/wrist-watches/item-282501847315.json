@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "hong kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:26:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:26:19.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "BOS",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282501847315",
+  "HandlingTime": "2",
+  "Description": "Press to translate Listing Translator by Hindi Portuguese Thai Korean French Chinese Spanish Arabic Japanese German Russian Italian Main Features: \u2022 Automatic mechanical watch, self-winding, doesn't need battery, environmentally friendly \u2022 A mini window to show date and day, you can know daily date and day \u2022 Generous round dial with diamond scales, elegant and fashion, designed for men \u2022 Hollow-out transparent back case, let you see the complex structure of the watch \u2022 Sapphire mirror watch window, fashion and unique with high quality \u2022 Cutting and polishing craft, make the side of watch case full of streamlined feeling \u2022 Stainless steel band and watch case, show luxury and glorious charm, sturdy in structure and uneasy to scrape, not easy to rust \u2022 Butterfly clasp, easy to wear and takeSpecificationGeneralBrand: BOS Watches categories: Male table Watch style: Fashion Style elements: Big dial,Stainless Steel Watch color: White and Gold, Black and Gold, Silver and White, Silver and BlackDialMovement type: Automatic mechanical watch Shape of the dial: Round Display type: Analog Case material: Stainless SteelBandBand material: Stainless Steel Clasp type: Butterfly claspFunctionSpecial features: Date,DayWeight and SizeThe dial thickness: 1.1 cm / 0.43 inches The dial diameter: 4.1 cm / 1.61 inches The band width: 2.0 cm / 0.79 inches Product weight: 0.1380 kg Package weight: 0.1680 kg Product size (L x W x H): 22.00 x 4.30 x 1.10 cm / 8.66 x 1.69 x 0.43 inches Package size (L x W x H): 23.00 x 5.30 x 2.10 cm / 9.06 x 2.09 x 0.83 inches",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BOS-9012G-Automatic-Mechanical-Watch-Date-Day-Display-Diamond-Scale-Men-/282501847315",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2825018473158080_1.jpg",
+  "HitCount": "51",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H53M51S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTM3WDcwMA==/z/ohkAAOSwK6RZLm8Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFg5ODA=/z/LGIAAOSw-K9ZLm7T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFg5NDg=/z/jNcAAOSwPh5ZLm7K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFg5ODA=/z/BzYAAOSwn-tZLm7N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODM2WDEyMDg=/z/qJoAAOSwjL5ZLm7W/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "BOS 9012G Automatic Mechanical Watch Date Day Display Diamond Scale for Men",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "9",
+    "UserID": "elines_store",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

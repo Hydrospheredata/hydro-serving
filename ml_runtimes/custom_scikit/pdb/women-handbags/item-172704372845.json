@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Carried only once , great condition .. Very clean pics doesn't do it justice. Thanks for looking.",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Tote-/172704372845",
+  "BuyItNowPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "TimeLeft": "P4DT3H10M51S",
+  "ConvertedBuyItNowPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Maryville, Tennessee",
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "37804",
+  "StartTime": "2017-05-30T19:05:24.000Z",
+  "HitCount": "4",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "tote"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Patent Leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Shopper or tote"
+      }
+    ]
+  },
+  "ListingType": "Chinese",
+  "BidCount": "0",
+  "EndTime": "2017-06-06T19:05:24.000Z",
+  "Title": "Michael Kors Tote",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727043728458080_1.jpg",
+  "Site": "US",
+  "BestOfferEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "ConditionID": "3000",
+  "Country": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tkAAAOSwYlRZLbxZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cigAAOSw9OFZLbxv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-K4AAOSwAPVZLbyY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~24AAOSwPh5ZLbyB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PWUAAOSwYvFZLbys/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PsEAAOSwYvFZLbzD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nPgAAOSwuMZZLbzh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/szsAAOSwaeRZLb0H/$_57.JPG?set_id=8800005007"
+  ],
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "AutoPay": "false",
+  "NewBestOffer": "false",
+  "Description": "Preowned great tote ,carried only once. looks new!!",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Seller": {
+    "FeedbackScore": "277",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "ibesancy"
+  },
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "ItemID": "172704372845",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "HandlingTime": "4"
+}

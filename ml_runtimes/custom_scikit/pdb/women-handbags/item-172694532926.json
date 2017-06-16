@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/jecAAOSwK6RZJujs/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hXoAAOSwKytZJujv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/N14AAOSw3gJZJujy/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/World-Traveler-Evolution-15-6-Inch-Laptop-Backpack-Black-One-Size-/172694532926",
+  "ConvertedCurrentPrice": {
+    "value": "74.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "World Traveler Evolution 15.6 Inch Laptop Backpack A striking mix of style, great design, and top quality materials are displayed on this world traveler laptop/notebook computer backpack - you'll love it Product Features Polyester Imported Nylon lining Zipper closure 35\" shoulder drop 17.5\" high 13.5\" wide Jacquard nylon and 600D polyester Zipper and open pockets to accommodate a PDA, calculator, pens and keys Fits most laptops up to 15.6 inch 13.5 x 7 x 17 Removable strap drop: 0 inches;Pockets: .7 interior slip, .1 interior zip, .5 exterior, .0 ID windows, .0 card slots and .! Shipping: Shipping is complimentary within the lower 48 US States. We Do Not Ship to PO/APO Boxes, HI or Alaska We Do Not Ship Outside of the Continental US All items ship within 24-72 hours of Payment For large items that require Freight shipping a valid phone number is required to call and schedule your delivery Terms of Sale and Feedback: Feedback is extremely important to us and eBay If you are satisfied with our transaction, please take a moment to leave Positive Feedback. YOUR Satisfaction is our #1 Priority! If there are any issues, PLEASE contact us BEFORE leaving a neutral or negative rating so that we may resolve any concerns. We PROMISE we can make you happy if you give us a fair chance. Returns / Concerns: All items qualify for returns within 14 - 30 days of receipt. Buyer is responsible for return shipping on any item that is not damaged Please be sure this is an item you want before making your purchase. Customer Satisfaction is our TOP priority! All items are IN STOCK at time of listing. Inventory on eBay changes constantly and it is impossible to maintain a perfectly accurate count of all items. Please do not penalize us if we have to issue you a refund! Thank You For Your Business!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "74.49",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "6044",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Green",
+    "UserID": "luxurydiscountwarehouse"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "World Traveler Evolution 15.6 Inch Laptop Backpack Black One Size",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-25T14:23:48.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1726945329268080_1.jpg",
+  "TimeLeft": "P21DT23H23M54S",
+  "EndTime": "2017-06-24T14:23:48.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "G0163-B"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "World Traveler"
+      },
+      {
+        "Name": "UPC",
+        "Value": "813976029483"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0813976029483"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172694532926",
+  "Storefront": {
+    "StoreName": "luxurydiscountwarehouse",
+    "StoreURL": "http://stores.ebay.com/id=1332268768"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00VWL5GPU",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

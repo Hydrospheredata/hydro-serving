@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AE",
+  "Location": "Dubai",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:17:45.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1445564616",
+    "StoreName": "Deals Guru 1"
+  },
+  "CurrentPrice": {
+    "value": "399.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:17:45.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Suunto",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Altimeter",
+          "Barometer",
+          "Compass"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Finland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "49.1mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "SS021214000",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "RU",
+    "GR",
+    "PT",
+    "AR",
+    "IL"
+  ],
+  "ItemID": "162535866090",
+  "HandlingTime": "1",
+  "Description": "SUUNTO ESSENTIAL GOLD A TRIBUTE TO SUUNTO\u2019S ADVENTURE HERITAGE COMBINING ICONIC SUUNTO OUTDOOR WATCH FEATURES WITH PREMIUM MATERIALS. HAND BUILT IN FINLAND.THE HERITAGE OF ADVENTURE Every great adventure starts from within. From a drive to seek out new places and discover new experiences to summiting the highest peaks in the world, your passion is our inspiration. Hand built in Finland by the pioneer of outdoor precision instruments, the Suunto Essential honors our adventure heritage. The Suunto Essential Gold delivers refined sophistication with its light gold colored case and graceful genuine leather strap fitted especially for women. PRODUCT HIGHLIGHTS Stainless Steel, Sapphire Crystal GlassM AltimeterBarometerCompassDual timeSunrise / sunsetTemperatureStorm alarmWater resistance to 30 m / 100 ft*Depth meter for snorkeling*User-replaceable batteryMultilingual menu (EN, FR, DE, ES)ade in Finland CONDITIONS:Will be shipped by courier. DHL.Comes with original papers and package.Business days from Sunday to Thursday.All import duties and customs clearance charges are the responsibility of the buyer if there is any.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SUUNTO-ESSENTIAL-GOLD-MENS-WATCH-LEATHER-STRAP-SS021214000-/162535866090",
+  "NewBestOffer": "false",
+  "SKU": "SS021214000",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625358660908080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H57M46S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjAwWDYwMA==/z/rSsAAOSwzaJYA39C/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7k8AAOSwNRdX~L5P/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/xCUAAOSwzaJX~L5S/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTcw/z/92wAAOSwKfVXEAQG/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQxOFgxNjAw/z/QGsAAOSwpoJXEAQK/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTI0/z/FGUAAOSw7KJXEAQR/$_57.JPG?set_id=880000500F"
+  ],
+  "Title": "SUUNTO ESSENTIAL GOLD MEN'S WATCH WITH LEATHER STRAP - SS021214000",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "381",
+    "UserID": "dealsguru1",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2990.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Meguro, Tokyo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:30:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2990.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:30:31.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "OMEGA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942529393",
+  "HandlingTime": "3",
+  "Description": "Waterproof 300M with screw type knob. Clear hour and hand markers are placed in a stylish layout. Its authentic and artistic design goes beyond being just a simple watch. The OMEGA exclusive collection appeals to those who wear as well as those who view this fine watch. The new model has a clear blue dial instead of the wave pattern. The ceramic bezel also provides excellent durability. An advanced Seamaster Professional. [Specifications] Case Material: Stainless steel Belt Material: Stainless steel Dial Color: Blue Movement: Self-winding Case Size: apprx. 41 mm (the stem not included) Waterproof: 300 m Glass: Sapphire Glass Date Display Reverse Turn Bezel Weight: 177 g Accessories: Clear Box, International Warranty 1 year warranty by Time Japan. Ship from Japan by japan Post EMS, and it will take 4-7 days for you to receive it.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Mens-212-30-41-20-03-001-Seamaster-Diver-300m-Co-Axial-Automatic-/201942529393",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019425293938080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H18M38S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/1nkAAOSwPh5ZJU-H/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GcAAAOSwlndZJU-K/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/dXAAAOSwEHpZJU-N/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/t0AAAOSwBt5ZJU-Q/$_1.GIF?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/dbIAAOSwEHpZJU-T/$_1.GIF?set_id=8800005007"
+  ],
+  "Title": "Omega Men's 212.30.41.20.03.001 Seamaster Diver 300m Co-Axial Automatic",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11",
+    "UserID": "time_japan",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We receive returns if items are in the same condition as received and include all documentation, packaging and any other addition originally shipped."
+  }
+}

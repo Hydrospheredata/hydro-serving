@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529636094518080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzU1WDEwMDA=/z/TKIAAOSwX9FZLBOi/$_57.PNG",
+    "http://i.ebayimg.com/00/s/NzU1WDEwMDA=/z/l~gAAOSwYlRZLBON/$_57.PNG",
+    "http://i.ebayimg.com/00/s/NzM5WDEwMDA=/z/te4AAOSwq1JZLBOR/$_57.PNG",
+    "http://i.ebayimg.com/00/s/NzUzWDEwMDA=/z/mFAAAOSwYlRZLBOV/$_57.PNG",
+    "http://i.ebayimg.com/00/s/MTI0M1gxMDAw/z/HA8AAOSwurZZLBOb/$_57.PNG",
+    "http://i.ebayimg.com/00/s/Nzg1WDEwMDA=/z/8QsAAOSwlMFZLBOf/$_57.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Muiska-Luis-Leather-Carry-Weekender-Duffle-Full-Grain-Genuine-Cowhide-New-/252963609451",
+  "ConvertedCurrentPrice": {
+    "value": "376.42",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Muiska Luis Leather Carry On Weekender Duffle Full Grain Genuine Cowhide New Product Features Leather Made from Full grain genuine cowhide leather, Fully Lined, Antique Brass Hardware Single Compartment Roomy front pocket, Zippered pocket on the back Heavy-duty all-leather strap 19\" (L) x 12\" (H) x 8\" (W) Product Description Weekend traveler - the perfect getaway bag. Carry your luggage in the beautiful Luis - Carry On Weekender Duffle that is thick and durable but at the same time surprisingly lightweight. Buy it Now.. Special Savings FREE SHIPPING....and Great Customer Service,too! Thank You For Your Business!",
+  "Title": "Muiska Luis Leather Carry On Weekender Duffle Full Grain Genuine Cowhide New",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "IL",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "376.42",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Jersey City, New Jersey",
+  "Seller": {
+    "FeedbackScore": "2618",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "global-cart"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07306",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-29T12:27:16.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P25DT18H48M59S",
+  "EndTime": "2017-06-28T12:27:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Muiska"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Muiska"
+      },
+      {
+        "Name": "MPN",
+        "Value": "M-1328SL"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0019372956792"
+      },
+      {
+        "Name": "UPC",
+        "Value": "019372956792"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252963609451",
+  "Storefront": {
+    "StoreName": "szdealz",
+    "StoreURL": "http://stores.ebay.com/id=1447902362"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00KTIIEUG",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "WE SHIP WORLDWIDE",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:39:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1286649675",
+    "StoreName": "fabulous-collectibles"
+  },
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:39:14.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Dabs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "324",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Graphic Art",
+        "Name": "Features"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599818460",
+  "HandlingTime": "1",
+  "Description": "PRODUCT DESCRIPTION 30 mm, large chromed brass case. Quartz movement. Excellent new unused condition. Black rubberized croc-print waterproof bracelet. Basic black presentation box. Each piece is an handmade artisanale watch. Minor differences may exist with regard to final case and bracelet designs. FAST DELIVERY & SECURE PAYMENTS Free worldwide economy shipping. For extra fast 2-5 days DHL option, please choose expedited option or send us a message for an expedited shipping quote to your country. Pay safely with Paypal. For some large packages to countries such as Canada, some European, Asian and S. American countries, a local customs fee may apply upon delivery. EASY UNCOMPLICATED RETURNS Benefit from our no-questions-asked easy return policy. If you do not like it for any reason, or if it is not delivered in the condition you expect due to transit issues, you can simply return it to our wordlwide fulfilment centre in India and you will be refunded less a 20 percent restocking charge. Buyer is responsible for return shipping cost by any trackable delivery service.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MAD-HATTER-CLASSIC-ORIGINAL-LEWIS-CARROLL-ALICE-WONDERLAND-WRIST-WATCH-/182599818460",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825998184608080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H10M4S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODM4WDgwMA==/z/PcMAAOSw~FJZLoEw/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "THE MAD HATTER. CLASSIC ORIGINAL LEWIS CARROLL ALICE IN WONDERLAND WRIST WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "34",
+    "UserID": "inner-peace-2015",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_20",
+    "RestockingFeeValue": "20%",
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

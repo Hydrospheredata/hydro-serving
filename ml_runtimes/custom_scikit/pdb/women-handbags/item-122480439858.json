@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224804398588080_1.jpg",
+  "PictureURL": [
+    "https://images-na.ssl-images-amazon.com/images/I/41HsuTERpxL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/510VIrXnLbL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41ZWAuTlaYL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/4180rrD%2BO"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCKC-96656-McKleinUSA-AVON-96656-Red-Leather-Ladies-Briefcase-/122480439858",
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKleinUSA AVON 96656 Red Leather Ladies Briefcase Main compartment provides storage space for files.*Padded compartment protects laptops up to 15.4-Inch*Interior organizer for pens, business cards, keys, cell phones, and notepads.*Small front flap pocket with turn lock.*Exterior front and back pocket for files.*Leather shoulder straps*Protective feet keeps case from falling over. Small front flap pocket with turn lock. Exterior front and back pocket for files. Main compartment provides storage space for files. Padded compartment protects laptops up to 15.4. Interior organizer for pens, business cards, keys, cell phones, and notepads. Padded compartment protects laptops up to 15.4. Leather shoulder straps. Orange, green, blue, and pink cases are trimmed in sand. Protective feet keeps case from falling over. Color : Red Size : 17\"x5\"x12.75\" Features :Main compartment provides storage space for files.Padded compartment protects laptops up to 15.4-InchInterior organizer for pens, business cards, keys, cell phones, and notepads.Small front flap pocket with turn lock.Exterior front and back pocket for files.Leather shoulder strapsProtective feet keeps case from falling over.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "1533",
+    "PositiveFeedbackPercent": "96.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "virventurein"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCKC-96656-McKleinUSA AVON 96656 Red Leather Ladies Briefcase",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-05-05T08:11:06.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P1DT17H4M41S",
+  "EndTime": "2017-06-04T08:11:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "642154966568"
+      },
+      {
+        "Name": "Model",
+        "Value": "96656"
+      },
+      {
+        "Name": "MPN",
+        "Value": "96656"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein Company"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122480439858",
+  "Storefront": {
+    "StoreName": "virventurein",
+    "StoreURL": "http://stores.ebay.com/id=1409776454"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "MCKC-96656",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "true"
+}

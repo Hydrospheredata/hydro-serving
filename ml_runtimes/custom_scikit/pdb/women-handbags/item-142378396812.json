@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P6DT9H13M56S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Excellent used condition. no changing pad included",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM3NA==/z/C3EAAOSwc49Y6W-H/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM3NA==/z/NNQAAOSww3tY6W-N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM3NA==/z/J6wAAOSwTM5Y6W-S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM3NA==/z/tncAAOSwhQhY6W-t/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Signature-Stripe-Multifunction-Tote-Diaper-Baby-Bag-EUC-F13803-Brown-RARE-/142378396812",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "In excellent used condition. See pictures for condition of bag.",
+  "Title": "Coach Signature Stripe Multifunction Tote Diaper Baby Bag EUC F13803 Brown RARE",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Beaumont, Texas",
+  "Seller": {
+    "FeedbackScore": "63",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "apine03"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77706",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T00:40:18.000Z",
+  "HitCount": "193",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-09T00:40:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Signature Fabric"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "UPC",
+        "Value": "na"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142378396812",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423783968128080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

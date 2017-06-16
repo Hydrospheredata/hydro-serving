@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/AO8AAOSw~y9ZLiTy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/428AAOSw-3FZLiTz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/iFsAAOSw8lpZLiT2/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Wristlet-Hand-Bag-Navy-Blue-/322537012124",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand. Michael Kors Leather. Large wristlet band navy blue. Very cute .brand new with tag..top zipper with side zipper also.",
+  "Title": "Michael Kors Wristlet Hand Bag. Navy Blue .",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "FeedbackScore": "2",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "juatell61"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60632",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-31T02:30:38.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P27DT10H38M22S",
+  "EndTime": "2017-06-30T02:30:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Wristlet Large Hand Bag"
+      },
+      {
+        "Name": "Type",
+        "Value": "Wristlet /navy Blue"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Vietnam"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322537012124",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225370121248080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

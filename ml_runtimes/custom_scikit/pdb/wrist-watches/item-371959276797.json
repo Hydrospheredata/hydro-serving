@@ -1,0 +1,108 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Joe Rodeo 1.25ctw Genuine Diamond Stainless Steel Valerie Wristwatch ~ CS-5333 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-23T11:17:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzA2WDEyODA=/z/K8sAAOSw-3FZHKgu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4MjA=/z/DgoAAOSwX61ZHKgu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/jK8AAOSwlMFZHKgu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ4WDEyODA=/z/Hd0AAOSwi7RZHKgu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY0WDEyODA=/z/p4IAAOSw8lpZHKgu/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "299.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Joe Rodeo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz / Chronograph",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date",
+          "Water Resistant",
+          "Diamond Bezel"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60400",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "78",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719592767978080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-22T11:17:42.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "299.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Joe-Rodeo-1-25ctw-Genuine-Diamond-Stainless-Steel-Valerie-Wristwatch-CS-5333-/371959276797",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Joe Rodeo 1.25ctw Genuine Diamond Stainless Steel Valerie Wristwatch ~ CS-5333",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "371959276797",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P21DT17H36M30S"
+}

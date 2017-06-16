@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQyWDcwNg==/z/x88AAOSwurZZKz5T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTYy/z/MHIAAOSwDiBZKz5T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTE0/z/hM8AAOSwtGlZKz5T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4NDk=/z/Em4AAOSwPh5ZKz5T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg1ODc=/z/UGgAAOSwZ4dZKz5T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg3Njk=/z/MGwAAOSwDiBZKz5T/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-MARC-JACOBS-ELIZA-BABY-DIAPER-BAG-W-PAD-BLUE-DEPTHS-M0005547-NWT-348-/332241349513",
+  "ConvertedCurrentPrice": {
+    "value": "244.44",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT $348 MARC BY MARC JACOBS ELIZA BABY DIAPER BAG WITH CHANGING PAD BLUE DEPTHS STYLE: M0005547 Track Page Views With Auctiva's FREE Counter",
+  "Title": "MARC BY MARC JACOBS ELIZA BABY DIAPER BAG W/PAD BLUE DEPTHS M0005547 NWT $348",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "GL",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "244.44",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fresh Meadows, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "14896",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "socher36"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11365",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T21:17:05.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P25DT5H55M45S",
+  "EndTime": "2017-06-27T21:17:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MARC BY MARC JACOBS ELIZA BABY BAG",
+        "Value": "NWT $348"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MARC BY MARC JACOBS"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Shade",
+        "Value": "BLUE DEPTHS MULTI"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "UPC",
+        "Value": "888877254319"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332241349513",
+  "Storefront": {
+    "StoreName": "LOVE TO SHOP WITH US",
+    "StoreURL": "http://stores.ebay.com/id=126780486"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322413495138080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

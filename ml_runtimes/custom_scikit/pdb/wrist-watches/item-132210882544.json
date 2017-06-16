@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Greendale, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:35:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=179584701",
+    "StoreName": "tvtrends"
+  },
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:35:40.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210882544",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "NYLON",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "IDEA VILLAGE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Military",
+        "Name": "Style"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "glow in the dark",
+        "Name": "Display"
+      },
+      {
+        "Value": "precision",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Green",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Nylon",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "754502031146",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "AMERICAN AVIATOR WATCH AS SEEN ON TV NYLON",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AMERICAN-AVIATOR-WATCH-SEEN-TV-NYLON-/132210882544",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322108825448080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "53129",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H12M53S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/urMAAOSwCQZZA1OB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/kOQAAOSwrhBZA1Ou/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Features Precision movement Large, easy to read face Glow in the dark numbers Scratch & water resistant Breathable nylon band Certificate of Authenticity This Certificate of Authenticity guarantees that you American Aviator Watch is an authentic collectible. Please retain this Certificate of Authenticity as proof of your ownership. Product Features Modern version of a timeless classicLaser etched & individually numberedAs seen on TVScratch & water resistantPowered by innovationCertified authentic",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "1690",
+    "UserID": "j9421m",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

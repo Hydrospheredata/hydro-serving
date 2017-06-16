@@ -1,0 +1,71 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "9.65",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630129870458080_1.jpg",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:19:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "9.65",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:19:52.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "BuyItNowPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012987045",
+  "HandlingTime": "3",
+  "Description": "This is a beautiful brand new gift box, all tags and paperwork authentic Coach watch. Give a beautiful and elegant gift for your high school or college graduate.Classic style that lasts a lifetime.Please call or text jenny9403123344",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Coach Watch, graduation gift, jewelry, classic style, elegant, gift box and tags",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Watch-graduation-gift-jewelry-classic-style-elegant-gift-box-and-tags-/263012987045",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "3",
+  "PostalCode": "76209",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Denton, Texas",
+  "TimeLeft": "P6DT23H10M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/l8YAAOSw3gJZLs~s/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DKoAAOSwlY1ZLs~r/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/62oAAOSwH09ZLs~s/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "9.65",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "6",
+    "UserID": "burdgjenn",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

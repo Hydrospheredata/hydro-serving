@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT23H44M15S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "2379-7970-38",
+  "ItemID": "232360780051",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-HERMES-Cloisonne-Bangle-Bracelet-Email-PM-Black-and-Gold-Tone-HW-/232360780051",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:18:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:18:56.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "HERMES",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Cloisonne",
+        "Name": "Material"
+      },
+      {
+        "Value": "Austria",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      }
+    ]
+  },
+  "Title": "AUTHENTIC HERMES Cloisonne Bangle Bracelet \"Email PM\" Black and Gold Tone HW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "\u7121\u984c\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8 Item No. 2379-7970-38 Name HERMES Email PM Model No. - Color Black / Gold Material Cloisonne Size (Approx) Circumfrence:19.5cm / 7.7in W:1cm / 0.4in Additional Items Box Item Rank Used A rank Condition Descriptions -Stains, scratches and dullness Has a feel of previous usage but is without any severe damage. Please feel free to contact us concerning this item, we welcome all questions and look forward to hearing from you. All our items are also available for purchase on other various shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-60084 TEL:+81-78-242-1248 FAX:+81-78-242-0628",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323607800518080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "reference-shop",
+    "FeedbackScore": "1834",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "reference-shop",
+    "StoreURL": "http://stores.ebay.com/id=1082920074"
+  },
+  "Quantity": "1",
+  "Location": "Chuoku Kobeshi, Hyogo",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzgwWDU1MA==/z/XQgAAOSwq5lTqQJz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDYwMA==/z/Ri0AAOSw-nZTqQJ0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDAwWDYwMA==/z/wWQAAOSwVupTqQJ0/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000"
+}

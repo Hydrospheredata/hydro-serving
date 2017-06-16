@@ -1,0 +1,129 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "a***e",
+    "FeedbackScore": "38"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/JVUAAOSwOgdYuUkY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8g4AAOSwTuJYuUkX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/cloAAOSwhlZYuUkW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/1JcAAOSwB-1YuUkY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/9fwAAOSw2gxYuUkX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/B-0AAOSw~AVYuUkY/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CiPU-Baby-Diaper-Bag-14-Compartments-3-Bag-Accessories-including-Pouch-/232259147913",
+  "ConvertedCurrentPrice": {
+    "value": "173.78",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "PayPal is our preferred method of payments it's the quickest, easiest and most secure way to pay for your goods or services online. PayPal offers buyer and seller protection should there be a problem. If you do not have a PayPal account, to get started and buy your first item with us is very easy. Simply click on the 'Buy It Now' button and follow the eBay checkout steps. Select PayPal as the payment method you then will be given the chance to enter your card details in to PayPal's secure checkout in order to pay for your order. Once the payment has been made, you will then be given the opportunity to make your own PayPal account to make paying for your items in the future very easy. Should there be a problem with payment please do let us know.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "173.78",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "36752",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "flower1000"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "CiPU Baby Diaper Bag with 14 Compartments & 3 Bag Accessories including Pouch -",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-03T10:44:35.000Z",
+  "HitCount": "165",
+  "TimeLeft": "P28DT19H13M46S",
+  "EndTime": "2017-07-01T10:44:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "4712883131509"
+      },
+      {
+        "Name": "Brand",
+        "Value": "CiPU"
+      },
+      {
+        "Name": "MPN",
+        "Value": "CPBB-83-M2"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Baby Product"
+      },
+      {
+        "Name": "Color",
+        "Value": "British Grey"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.65 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 15.4 x W 12.8 x H 3.3 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "CiPU Creative Co., Ltd."
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232259147913",
+  "Storefront": {
+    "StoreName": "flower1000",
+    "StoreURL": "http://stores.ebay.com/id=1008235809"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2322591479138080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

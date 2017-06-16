@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Used",
+  "TimeLeft": "P29DT3H27M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Brooches & Pins",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "GB",
+    "US",
+    "CA",
+    "IE",
+    "AU",
+    "FR"
+  ],
+  "CurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "182606363731",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lea-Stein-Tortoise-Brooch-pin-/182606363731",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "66.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T16:20:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "true",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T16:20:33.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Coloured",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Laminated Cellulose Acetate",
+        "Name": "Material"
+      },
+      {
+        "Value": "Lea Stein",
+        "Name": "Brand"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Lea Stein Tortoise Brooch/pin",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful Lea Stein Tortoise Brooch/pin in a very pretty Liberty print and tortoiseshell effect. V-shaped Lea Stein pin fastening on back. Very unusual. Bought as New, but I have not worn the Brooch. Lovely condition. Approx measurements 8cm x 5cm.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826063637318080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "vi46nt50ag2",
+    "FeedbackScore": "421",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Nr. Wolverhampton,, West Midlands",
+  "HitCount": "15",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7WcAAOSwblZZNCs5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g3AAAOSwfpVZNCtd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/VOwAAOSw42JZNCvN/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "WV6 7AD"
+}

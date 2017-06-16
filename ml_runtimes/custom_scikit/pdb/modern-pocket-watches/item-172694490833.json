@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.06"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Precision Japanes quartz movement. This is a vintage look watch on a long necklace. It's a great gift for yourself or a friend. - with Gift Box - Case Diameter: 3.0 Centimeters, Metal Chain Length: 78 Centimeters. - Very Vintage Look, Lots Details at The Back of The Watch. - Push The Stem to Open The Top, Pull Out The Stem to Adjust Time. - Can Be Worn As a Necklace Watch. Christmas Cat Silver Pendant Quartz Pocket Watch with Necklace Chain with Gift",
+  "StartTime": "2017-05-25T13:56:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/VS0AAOSwIaFZJuKQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/zEoAAOSwcB5ZJuKQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/q5oAAOSw42JZJuKR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MGoAAOSwlMFZJuKQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/cQ8AAOSwaEhZJuKQ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "647369717240",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0647369717240",
+        "Name": "EAN"
+      },
+      {
+        "Value": "RUHE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "L05-R-055",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.13 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 8.66 x W 7.09 x H 1.18 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "greysharky",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16122",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726944908338080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T13:56:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.06"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Christmas Cat Silver Pendant Quartz Pocket Watch with Necklace Chain with Gift",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Christmas-Cat-Silver-Pendant-Quartz-Pocket-Watch-Necklace-Chain-Gift-/172694490833",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "ItemID": "172694490833",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT19H19M41S"
+}

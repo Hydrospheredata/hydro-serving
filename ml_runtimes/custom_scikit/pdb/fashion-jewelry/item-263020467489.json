@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT15H51M39S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "CAD"
+  },
+  "ItemID": "263020467489",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-JUICY-COUTURE-Limited-Edition-WWF-TURTLE-Charm-Pendant-Necklace-Gold-Plated-/263020467489",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "66.59",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:08:39.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T02:08:39.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "necklace/pendant",
+        "Name": "Type"
+      },
+      {
+        "Value": "Juicy Couture",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      }
+    ]
+  },
+  "Title": "RARE JUICY COUTURE Limited Edition WWF TURTLE Charm Pendant Necklace Gold Plated",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "WWF Juicy Couture Turtle NecklaceComes with dustbag and WWF Juicy Couture BoxGet a little wild for a wonderful cause. Our limited edition Turtle Necklace makes a perfectly fierce gift. Juicy Couture is proud to support WWF and its global conservation efforts. Imported.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630204674898080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jprojectrunway",
+    "FeedbackScore": "253",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Timmins, Ontario",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzA3WDczNQ==/z/rLcAAOSwhvFZGeXe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/C44AAOSw42JZGcQD/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/tw0AAOSwTM5Y1rty/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/~34AAOSw7GRZGcP7/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/5RwAAOSwfpVZGcP9/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/OOsAAOSwaeRZGcP~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/kFkAAOSwCQZZGcQB/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDk1WDUwMg==/z/NgkAAOSwhQhY1rtx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/xC8AAOSw5cRZGcQH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/-j8AAOSwKytZGcQ6/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/BjIAAOSwZKBZGcQ7/$_57.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "P4R1N4"
+}

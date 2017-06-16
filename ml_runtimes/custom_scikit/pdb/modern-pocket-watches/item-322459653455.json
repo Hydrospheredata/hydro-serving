@@ -1,0 +1,310 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "EE",
+    "GI",
+    "GG",
+    "JE",
+    "LV",
+    "LT",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "IL",
+    "JO",
+    "LB",
+    "OM",
+    "QA",
+    "YE"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "P170-T10",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "35 CM Fob Pocket Chain Included",
+          "Roman Numbers Dial",
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Japan Quartz Movement",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver color Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New without tags",
+  "Description": "My ProfileCheck out my other listingsView More... Copyright \u00a9 2015 watchvshop",
+  "StartTime": "2017-03-22T05:43:47.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8SsAAOSwYmZXJEGg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM2WDkzNg==/z/WocAAOSwY3RXJEG1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM2WDkzNg==/z/lj8AAOSw~oFXJEG3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lEIAAOSw~oFXJEGS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/L88AAOSwKfVXJEGd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/4MoAAOSw3mpXJEGm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/8IQAAOSwYmZXJEGV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM2WDkzNg==/z/WhsAAOSwY3RXJEGu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyMFgxMjIw/z/2UcAAOSwaG9XJEGY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTM2WDkzNg==/z/35gAAOSw9~RXJEGw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/8bwAAOSwYmZXJEGq/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "17",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "P144-145-T8",
+  "HitCount": "81",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-20T05:43:47.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "322459653455",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "* All returned items must be not yet be used\n\n* All returns must include : -\n   (1) all original items at undamaged condition\n   (2) all original packaging includng manuals\n\n* Buyers are responsible for returning cost",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.99"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Dial A",
+          "Dial B",
+          "Dial C"
+        ],
+        "Name": "Dial Printing"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Dial Printing",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Dial A",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~okAAOSwiYFXJEKT/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Dial B",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8PYAAOSw3mpXJEKx/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Dial C",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/mxkAAOSwE6VXJELO/$_1.JPG?set_id=880000500F"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "10.99"
+        },
+        "Quantity": "2",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Dial A",
+            "Name": "Dial Printing"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "10.99"
+        },
+        "Quantity": "11",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Dial B",
+            "Name": "Dial Printing"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "10.99"
+        },
+        "Quantity": "4",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Dial C",
+            "Name": "Dial Printing"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Silver Quartz Pocket Watch Antique Vintage Men Fashion with Chain Box NEW P170",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silver-Quartz-Pocket-Watch-Antique-Vintage-Men-Fashion-Chain-Box-NEW-P170-/322459653455?var=",
+  "Storefront": {
+    "StoreName": "watchvshop",
+    "StoreURL": "http://stores.ebay.com/id=1300571716"
+  },
+  "Seller": {
+    "UserID": "watchvshop",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "807",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT10H53M56S"
+}

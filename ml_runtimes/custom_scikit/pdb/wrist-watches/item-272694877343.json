@@ -1,0 +1,117 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "327.49",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:22:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1265711344",
+    "StoreName": "navi-th-store"
+  },
+  "CurrentPrice": {
+    "value": "327.49",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:22:07.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B007SO3SGO",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "272694877343",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "AlchemyofEngland",
+        "Name": "Brand"
+      },
+      {
+        "Value": "AW15",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "AW15",
+        "Name": "MPN"
+      },
+      {
+        "Value": "see website",
+        "Name": "Size"
+      },
+      {
+        "Value": "664427027806",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Headwear",
+        "Name": "Category"
+      },
+      {
+        "Value": "0664427027806",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "EER Steam-Powered Entropy Calibrator Alchemy Gothic NEW!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EER-Steam-Powered-Entropy-Calibrator-Alchemy-Gothic-NEW-/272694877343",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726948773438080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H58M44S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/HBoAAOSw0hlZLpkS/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "EER Steam-Powered Entropy Calibrator Alchemy Gothic Product Gallery Ship out within 1 business day! Free expedited shipping!! When you purchase through our store, We will preparing and shipment within 1-24 hours, The order will delivered to you within 2-4 business day!! Product Description Measuring the decay of time using Carnots second law of thermo dynamics. With 35mm dia. quartz movement and unique, 'Galvanic Scale' watch face. With magnetic-fastening hatch one-size adjustable. Features Best for Steam Punk, Gothic, Cyber Punk and Punk fashionsmade in englandOne SizeNo Expedite and Second Day Shipping Available. dimensions: 0.05x0.07x0.09 inch. Specifications Manufacturer : Alchemy Gothic Model : AW15 UPC : 664427027806 Band : AlchemyofEngland Thank you for your business, your trust and your confidence. It is our pleasure to work with our customers Payment Policy We accept Paypal, Bank transfer, Cash on delivery an Credit Card. Shipping Policy We ship only to the lower 48 states within the United States. We do not ship to Alaska, Hawaii, Puerto Rico, APO addresses or any other US territory. Ship out within 1 business day free expedited shipping. When you purchase through our store, We will preparing and shipment within 1-24 hours, The order will delivered to you within 2-4 business day. We send: Feedback Customer satisfaction is very important to us. If you have any problem with your order, please contact us and we will do our best to make you satisfied. Return Policy Unused and uninstalled items may be returned within 30 days of purchase. Your return must be in new and unused condition. All returns must include original packaging, with all hardware and accessories. Orders returned outside of policy may be refused or subject to a 15% re-stock fee. Customers are responsible for return shipping costs. Damage claims must be made within 3 business days of delivery. After this time period, we cannot accept a damaged return. Damaged items will only be exchanged once we receive the damaged item back.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "2378",
+    "UserID": "psk-direct",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

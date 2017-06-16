@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE3NlgxNjAw/z/jdUAAOSwNRdX3mw~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ5MlgxNjAw/z/GMkAAOSwAuZX3mw~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDU1/z/jZcAAOSwOyJX3mw-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI3WDE2MDA=/z/gNUAAOSwmLlX3mw~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTE2WDE2MDA=/z/41MAAOSwLnBX3mw~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/jcYAAOSwOyJX3mw~/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashionable-Diaper-Bags-Simply-Chic-Smart-And-Functional-Baby-Purse-/222253779808",
+  "ConvertedCurrentPrice": {
+    "value": "116.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fashionable Diaper Bags Diaper Bag Baby Diaper Bags Baby Bags Baby Changing Bags Product Details Fashionable like a purse with all the same functionality of a diaper bag (4) exterior pockets including a zipped \"mommy\" pocket for cellphone or keys Includes Teflon treated outer fabric and Agion antimicrobial protected lining Comes with a matching memory foam changing pad Comes with a 90-day limited warranty against manufacturing defects The Ju-Ju-Be HoboBe Purse Diaper Bag is chic, smart and functional with added innovation and versatility. Packs up great for baby, the HoboBe Diaper Bag looks like a fashionable purse but has all the same features as an ordinary diaper bag. When you're ready, take out the included memory foam changing pad for a full-fledged purse. How's that for flexible and fun? Be yourself and more with the HoboBe. The inner lining is protected with Agion natural antimicrobial treatment, which inhibits and reduces the growth of odor-causing bacteria, mold and mildew. The outer fabric is treated with Teflon fabric protector so you can repel stains and keep your Hobo Be clean. The front \"mommy\" zippered pocket is large enough for smartphones, wallets, keys and other personal items. The main zipper pocket is large enough for diapers, wipes, soft toys and other items for quick trips. The back pocket is perfect for magazines or books. (2) bottle pockets are located on either side of the bag and insulated to keep your items hot or cold. The Dancing Dahlias print is a vibrant multicolored floral pattern on a black fabric, with a bright pink lining and silver colored metal hardware. The adjustable memory foam shoulder strap has textured fabric underneath to prevent the bag from sliding off your shoulder. This bag is machine washable and measures 13.5-inches by 9.5-inches by 5.5-inches in size. The Ju-Ju-Be HoboBe Purse Diaper Bag comes with a 90-day limited warranty that protects against manufacturing defects. Founded in 2005, Ju-Ju-Be is a Southern California company that fuses science, style, and attitude to create diaper bags, purses and other accessories that are both fashionable and fun. Ju-Ju-Be assimilated the most advanced technology possible to create a stylish and intelligent product line that's unrivaled in the industry.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "116.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "21",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "topdealstore"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Fashionable Diaper Bags / Simply Chic Smart And Functional Baby Purse",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-09-18T10:28:17.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2222537798088080_1.jpg",
+  "TimeLeft": "P12DT18H52M54S",
+  "EndTime": "2017-06-15T10:28:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "12HB01ADDA"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ju-Ju-Be"
+      },
+      {
+        "Name": "UPC",
+        "Value": "840227104415"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0840227104415"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222253779808",
+  "Storefront": {
+    "StoreName": "Daily Top Deal",
+    "StoreURL": "http://stores.ebay.com/id=1446389036"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B0146KQV3Y",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT11H5M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA"
+  ],
+  "CurrentPrice": {
+    "value": "114.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192197653376",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nina-Ricci-Rhodium-Plated-Necklace-Bracelet-Set-Swarovski-Crystals-/192197653376",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "114.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T02:07:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T02:07:20.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nina Ricci",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry Set",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lead & Nickel FREE",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Nina Ricci Rhodium Plated Necklace & Bracelet Set with Swarovski Crystals",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nina Ricci Rhodium Plated Necklace & Bracelet Set with Swarovski Crystals. Necklace is 16-17\" length and bracelet is 7 1/2\". Manufacturing Standards:Made in Canada. Lead & Nickel Free.All crystals are Swarovski crystals Each crystal is hand set in Canada.Nina Ricci Plating Standards: Each item is plated three times to make Nina Ricci jewellery one of the highest quality fashion lines in the world. This world class plating process allows Nina Ricci jewellery to maintain its lustre throughout the years. Gold Plated items are 22kt gold and plated three times to ensure longevity and create resistance to scratches and fading.Silver items are Rhodium plated. Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. Maintenance:To maintain your jewellery always avoid water, soap, spraying perfumes or working with chemical products while wearing your jewellery.Be gentle to your jewellery and in return it will give you many years of joy.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921976533768080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "Quantity": "1",
+  "Location": "Toronto, Ontario",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/E4UAAOSwax5Y2HL7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/96oAAOSwhQhY2HL9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/N4AAAOSw4CFY2HMA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/B-4AAOSwsW9Y2HMC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/j3AAAOSw4A5Y2HMF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OC0AAOSwSlBY2HMH/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4R1C8"
+}

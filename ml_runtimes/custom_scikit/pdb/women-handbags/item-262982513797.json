@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTU2WDEyODA=/z/D~kAAOSwDiBZFlyX/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dooney-Bourke-Sony-Canvas-Leather-Laptop-Tote-Handbag-Exclusive-Rare-200-/262982513797",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Dooney & Bourke Sony Canvas & Leather Laptop Tote Handbag Exclusive Rare $200 Dooney & Bourke Sony Laptop Tote Bag Exclusive to SonyStyle, handbag designer Dooney & Bourke has released this fashionable yet functional laptop tote bag. The Dooney & Bourke Canvas Tote Bag with Sky Blue accents ($200) was specially designed with the Sky Blue VAIO FJ Series notebook in mind but is compatible with any notebook up to 14.1 inches. Pictures sell! Auctiva Free Image Hosting.Show off your items with Auctiva's Listing Templates Auctiva, THE simple solution for eBay sellers.",
+  "Title": "Dooney & Bourke Sony Canvas & Leather Laptop Tote Handbag Exclusive Rare $200",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "San Bernardino, California",
+  "Seller": {
+    "FeedbackScore": "933",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "purgideath13"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92407",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T01:08:36.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P9DT10H4M40S",
+  "EndTime": "2017-06-12T01:08:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Dooney & Bourke"
+      },
+      {
+        "Name": "Color",
+        "Value": "Browns"
+      },
+      {
+        "Name": "Shade",
+        "Value": "Cream"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas/Leather"
+      },
+      {
+        "Name": "Country of Manufacture",
+        "Value": "United States"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262982513797",
+  "Storefront": {
+    "StoreName": "Commercial Babylon",
+    "StoreURL": "http://stores.ebay.com/id=41214055"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629825137978080_1.jpg",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

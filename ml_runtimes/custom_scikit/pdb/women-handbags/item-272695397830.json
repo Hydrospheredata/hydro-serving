@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726953978308080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/nRkAAOSwopRYjsEA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/lHMAAOSw-0xYjsEF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/nY8AAOSwNnRYjsEH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/SoQAAOSwImRYjsEJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/mSgAAOSwLEtYjsEL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxOFg4NjA=/z/F98AAOSw5cNYjsEN/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MICHAEL-Michael-Kors-Jet-Set-Large-Leather-Backpack-Cinder-/272695397830",
+  "ConvertedCurrentPrice": {
+    "value": "298.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gleaming logo hardware and rich pebbled leather add to the downtown-chic appeal of a classic compact backpack. Top zip-around closure. Adjustable shoulder straps. Exterior zip pocket. Interior wall and slip pockets. Logo-jacquard lining. Leather. Interior wall and slip pockets Logo-jacquard lining Adjustable shoulder straps Exterior zip pocket 11\"W x 15\"H x 5\"D Additional Details ------------------------------ Brand: Michael Kors Color: Cinder Department: womens Size: Large EAN: 0190049730065 This item is posted and managed courtesy of Bonanza.com",
+  "Title": "MICHAEL Michael Kors Jet Set Large Leather Backpack (Cinder)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "298.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Wayne, New Jersey",
+  "Seller": {
+    "FeedbackScore": "239",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "naboolou"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07470",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-31T16:29:45.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P28DT1H42M37S",
+  "EndTime": "2017-06-30T16:29:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049730065"
+      },
+      {
+        "Name": "brand",
+        "Value": "MICHAEL Michael Kors"
+      },
+      {
+        "Name": "size",
+        "Value": "Large"
+      },
+      {
+        "Name": "ean",
+        "Value": "0190049730065"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272695397830",
+  "Storefront": {
+    "StoreName": "The Digital Cantina",
+    "StoreURL": "http://stores.ebay.com/id=34905868"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Partial refund available within 30 days Buyer pays return shipping.\nInitial shipping costs and 15% restocking fee apply.\nRestocking fees up to 50% will be deducted on items that are not returned new, unused with original packaging and tags attached.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "4C-6YI8-HJTW",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

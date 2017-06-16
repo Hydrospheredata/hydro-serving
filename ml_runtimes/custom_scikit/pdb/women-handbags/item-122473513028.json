@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzA3/z/u4YAAOSww9xZB0XK/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjQ2/z/oXAAAOSwrhBZB0XO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjEx/z/ok8AAOSwrhBZB0XS/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Carhartt-Womens-East-West-Tote-Carhartt-Brown-One-Size-East-West-/122473513028",
+  "ConvertedCurrentPrice": {
+    "value": "58.62",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "If you are not 100% satisfied with your purchase, you can return the product for a full refund within 14 days from the date of purchase. All returns must be in the same condition you received it and in the original packaging and return postage is the responsibility of the buyer. All returns are subject to a minimum 15% restocking fee In the event you receive damaged or defective merchandise, we will replace the item as long as it is reported to us within 7 days of receipt of the merchandise. Exchanges are subject to availability. All items are IN STOCK at the time of listing. Please do not penalize us if we must issue you a refund. Free ShippingHigh Quality100% Genuine",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "58.62",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "10154",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "premierlifestyles"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Carhartt Women's East West Tote Carhartt Brown One Size East/West",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-05-01T14:27:33.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1224735130288080_1.jpg",
+  "TimeLeft": "P27DT21H34M30S",
+  "EndTime": "2017-06-30T14:27:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "13102102"
+      },
+      {
+        "Name": "Color",
+        "Value": "Carhartt Brown"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Carhartt"
+      },
+      {
+        "Name": "UPC",
+        "Value": "819062011165"
+      },
+      {
+        "Name": "Style",
+        "Value": "East/West"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122473513028",
+  "Storefront": {
+    "StoreName": "premierlifestyles",
+    "StoreURL": "http://stores.ebay.com/id=1314154021"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00GC4MGK0",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

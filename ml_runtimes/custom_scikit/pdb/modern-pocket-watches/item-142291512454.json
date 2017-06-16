@@ -1,0 +1,114 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "GG",
+    "IE",
+    "JE",
+    "PR",
+    "HK",
+    "MO",
+    "TW",
+    "YE",
+    "CN"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "518000",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "easytrade2099",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "243254",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "96.2"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Store Categories Store home Health & Beauty Baby Business & Industrial Computers & Networking Home & Garden RC Helicopter & Accessories Sporting Goods Toy & Video Games Cameras & Photo Jewellery & Watches Cell Phones Accessories Musical Instruments Gear Pet Supplies Clothing,Shoes & Accessories eBay Motors Other Double-side Eiffel Tower Vintage Style Bronze Steampunk Quartz Necklace Pendant Chain Clock Pocket Watch 100% Brand New. Chain Material: Bronze copper steel Case Material: Bronze copper tone metal Case Diameter: app 2.5cm Case Thickness: app 8mm Chain Length: 39.5cm Style: Double-side double-side Pull and Rotating the button on the top to adjust time Press the button on the top to open the cover Note: Due to the difference between different monitors, the picture may not reflect the actual color of the item. We guarantee the style is the same as shown in the pictures. Thank you! Package Content: 1 x Pocket Watch Visit Our eBay Store! On Feb-24-17 at 17:24:28 PST, seller added the following information:",
+  "StartTime": "2017-02-25T01:20:31.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIwWDcyMA==/z/7~AAAOSwdGFYsNvW/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/cuYAAOSwSlBYsNvX/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/Fk0AAOSw3v5YsNvZ/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/qTcAAOSw4A5YsNva/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDU4NQ==/z/QIAAAOSwB-1YsNvc/$_12.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.44"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "713179047706",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "SKU": "CN01+19316:ESY1",
+  "HitCount": "177",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1422915124548080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T01:20:31.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.44"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "30 days money back! Refund will be given as:Money Back or exchange(buyer's choice).Please write the order number\uff08Contact Seller)on the package in order to get your refund quickly.Buy with confidence!",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hot-Sell-New-Eiffel-Tower-Antique-Bronze-Quartz-Necklace-Chain-Pocket-Watch-ESY1-/142291512454",
+  "Location": "Shenzhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Hot Sell New Eiffel Tower Antique Bronze Quartz Necklace Chain Pocket Watch ESY1",
+  "Storefront": {
+    "StoreName": "easytrade2099",
+    "StoreURL": "http://stores.ebay.com/id=1122340577"
+  },
+  "ItemID": "142291512454",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT6H26M38S"
+}

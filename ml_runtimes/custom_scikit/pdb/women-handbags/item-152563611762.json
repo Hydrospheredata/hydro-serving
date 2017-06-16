@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P24DT12H39M18S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "129.36",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525636117628080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ZBwAAOSwR29ZCgNL/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wicker-Park-28-Luggage-Red-Heritage-Travelware-Heritage-Wicker-Park-Lu-/152563611762",
+  "ConvertedCurrentPrice": {
+    "value": "100.28",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Wicker Park 28\" Luggage Red, by Heritage Travelware, (Heritage \"Wicker Park\" Lu) Heritage Travelware 882704 Satisfaction GuaranteedGreat ValueWicker Park 28\" Luggage RedHeritage Travelware Heritage \"Wicker Park\" Luggage Collection. 28\" 600D Polyester Expandable 4-Wheel Upright Luggage With Two Exterior Accessory Pockets Expands An Additional 1.5\" Inches For Greater Carrying Capacity Lightweight Construction 4-Wheel Spinners Allows Smooth 360 Degree Rotation 600D Polyester And Dobby Exterior With Fully Lined Interior Dual Front Exterior Zipper Pockets Provide Additional Carrying Capacity Main Compartment Includes Garment Restraints, A Zipper Pocket, And Large Mesh Zipper Pocket Inside The Front Lid Flexible Top And Side Handles For Easy Lifting Convenient Molded Grab Handle Featured On Bottom Of Bag Rear Exterior Includes An I.D. Holder Retractable Locking Handle System Item Length: 12 ItemWidth: 12 ItemHeight: 12 ItemWeight: 12 PackageLength: N/A PackageWidth: N/A PackageHeight: N/A PackageWeight:",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "100.28",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "4 Locations nationwide",
+  "Seller": {
+    "FeedbackScore": "114758",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "RedShooting",
+    "UserID": "promax_supply"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Wicker Park 28\" Luggage Red, by Heritage Travelware, (Heritage \"Wicker Park\" Lu)",
+  "GlobalShipping": "false",
+  "Quantity": "7",
+  "StartTime": "2017-05-28T03:37:32.000Z",
+  "HitCount": "4",
+  "Subtitle": "New in Package, Satisfaction Guaranteed",
+  "EndTime": "2017-06-27T03:37:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Manufacturer Part Number",
+        "Value": "882704"
+      },
+      {
+        "Name": "MPN",
+        "Value": "882704"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Heritage Travelware"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Heritage Travelware"
+      },
+      {
+        "Name": "UPC",
+        "Value": "023572499072"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152563611762",
+  "Storefront": {
+    "StoreName": "ProMax Supply",
+    "StoreURL": "http://stores.ebay.com/id=1130314362"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "DH-882704",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

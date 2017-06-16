@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/Nzc5WDY5OA==/z/TD0AAOSwzqFY9CmC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTE4WDY3MQ==/z/qDIAAOSwvihY9C1c/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/kt8AAOSw53NY9CVF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODM1WDYzNw==/z/JDgAAOSwBOtY9Cle/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTEwWDU4MA==/z/T6kAAOSwHHFY9Ck0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/UNIAAOSwSypY9CVB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DxYAAOSwVm5Y9CXl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDU4OA==/z/0r8AAOSwmCVY9Cjf/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/RBMAAOSwWWxY9ChT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTM3WDU4Nw==/z/eAYAAOSwJ4hY9CsA/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wilsons-Leather-Laptop-Tote-/262998103095",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Beautiful emerald green tote lined with snakeskin print. Inside it has three pockets including One zippered pocket and magnetic closings. One outside pocket. It has a removable 15\" laptop sleeve. Also comes with a luggage tag. Sturdy stitching. 16\" length, 12 1/2\" high, 5\" depth",
+  "Title": "Wilsons Leather Laptop Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Overland Park, Kansas",
+  "Seller": {
+    "FeedbackScore": "4",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "jeaorpi_0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "66214",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-22T12:25:25.000Z",
+  "HitCount": "20",
+  "TimeLeft": "P18DT21H24M19S",
+  "EndTime": "2017-06-21T12:25:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Emerald Green"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Wilsons Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262998103095",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2629981030958080_1.jpg",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "true"
+}

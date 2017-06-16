@@ -1,0 +1,111 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Haifa, default",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:49:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T11:49:29.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Tissot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "30mm x 24mm x 8mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "21007",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694981986",
+  "HandlingTime": "3",
+  "Description": "You are bidding on this Vintage Tissot Women's Wrist Watch. Watch is in working condition. Hand wind. Silvertone Mesh Band.Swiss made. Good condition for age. \u201cPlease see the photos\u201d",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Tissot Women's Wristwatch  - Works",
+  "ConditionDescription": "working order.Please see photos for confirmation of condition.There are scratches.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Tissot-Womens-Wristwatch-Works-/272694981986",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726949819868080_1.jpg",
+  "HitCount": "6",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H31M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/sv4AAOSww9xZLqsj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/gR0AAOSwlY1ZLqsW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/s0wAAOSww9xZLqso/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pSQAAOSwZ4dZLqr~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/bPsAAOSw8HBZLqsG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hrkAAOSwX9FZLqsM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/S9wAAOSwuMZZLqr6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/KdUAAOSwrhBZLqsR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/55cAAOSw1WJZLqsd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/P8oAAOSwcgNZLqrz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/HQgAAOSw~y9ZLqro/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/SUYAAOSwsXFZLqrt/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "1.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "1268",
+    "UserID": "davidtvaledavid",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded."
+  }
+}

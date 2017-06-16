@@ -1,0 +1,60 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91740",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Beautiful brand new with tags ladies pocket watch necklace 28 inches in length with limited life time warranty",
+  "StartTime": "2017-05-30T20:45:27.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KXYAAOSw4UtWTnvL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/XjEAAOSwLzdWTnvC/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/eZoAAOSwFGNWTnvF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KUkAAOSw4UtWTnvI/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/KbsAAOSw4UtWTnvO/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "52.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "moda.design",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "52",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825991097248080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T20:45:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "52.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charles-Hubert-Ladies-Pocket-Watch-Necklace-/182599109724",
+  "Location": "Glendora, California",
+  "Title": "Charles Hubert Ladies Pocket Watch Necklace",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182599109724",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT2H11M54S"
+}

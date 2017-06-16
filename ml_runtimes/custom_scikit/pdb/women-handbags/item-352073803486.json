@@ -1,0 +1,130 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/in8AAOSwnHZYSHeu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ivcAAOSwJ7RYSHeU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ESYAAOSwtpZYSHeY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fP0AAOSwux5YSHec/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/t5sAAOSwEzxYSHe6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kUAAAOSwJ7RYSHe2/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Campus-Backpack-Alpine-Check-Blue-14457-392-/352073803486",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Campus Backpack Alpine Check Blue check backpack 12\" W x 16\" H x 6 \u00bd\" D with 2 \u00be\" handle drop and 28 \u00bd\" adjustable shoulder straps Features a front zip pocket with wide trim detail, a second pocket with zip closure and interior organization pocketsBack panel and straps have foam paddingSide pockets, great for holding a water bottleIncludes a specially designed grommet (with a headphone cord opening) for an mp3 playerMain compartment features two slip pockets, two pen slips and an ID window From a smoke free and pet free home Washington state residents add state sales tax. The sample shown is representative of the fabric. I have several of these bags and the pattern placement varies depending on the cut of the fabric when they are made. They are all beautiful and colorful. If fabric placement is important you may want to consider seeing them in person before purchasing this color",
+  "Title": "Vera Bradley Campus Backpack Alpine Check Blue 14457-392",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Bellingham, Washington",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "21303",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "golfingaddict"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "98229",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-05-31T02:57:07.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P27DT12H7M45S",
+  "EndTime": "2017-06-30T02:57:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "fabric"
+      },
+      {
+        "Name": "Country//Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "size",
+        "Value": "12\" W x 16\" H x 6 \u00bd\" D"
+      },
+      {
+        "Name": "color name",
+        "Value": "Alpine Check"
+      },
+      {
+        "Name": "style number",
+        "Value": "14457-392"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003329009"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "352073803486",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Golfingaddict",
+    "StoreURL": "http://stores.ebay.com/id=1372650"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520738034868080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

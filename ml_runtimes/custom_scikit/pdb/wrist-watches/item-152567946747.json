@@ -1,0 +1,149 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "gillingham, Kent",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:45:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1304858988",
+    "StoreName": "Lil eddies phonecases and gifts"
+  },
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:45:16.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "152567946747",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bronze",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "15mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "2mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "UNIQUE Ladies Bronze Diamante Quartz WATCH, BRONZE strap UK SELLER",
+  "ConditionDescription": "New with tag",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNIQUE-Ladies-Bronze-Diamante-Quartz-WATCH-BRONZE-strap-UK-SELLER-/152567946747",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525679467478080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "Me89rd",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H38M44S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU4NVg5MjI=/z/S14AAOSwaEhZLtaN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg2NzM=/z/pe0AAOSwZ4dZLtaW/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Ladies square Diamante Small Bronze watch A fashionable strong Silver watch suitable for all occasions, guaranteed to make you stand out from the crowd! New without tags Visit My eBay Shop: Lil eddies phonecases and gifts",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "2718",
+    "UserID": "davi-guich",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

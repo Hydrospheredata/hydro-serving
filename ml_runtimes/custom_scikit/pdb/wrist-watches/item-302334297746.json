@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "472.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Kudamatsu-shi,",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:26:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "472.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T11:26:54.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SBDN028",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "4954628438515",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334297746",
+  "HandlingTime": "2",
+  "Description": "NEW Seiko PROSPEX LOWERCASE Solar Diver 200m Men's Watch SBDN028 JAPAN IMPORT \udbc0\udc04DESCRIPTION\udbc0\udc05 Condition of Item:New\udbc0\udc01 Model: SBDN028 \udbc0\udc02Please feel free to contact us if you have any question. \udbc0\udc04SHIPPING\udbc0\udc05 Free shipping! We will ship to world wide by EMS(Insured, Trackable, Including handling cost.) EMS (takes10~20 days, includes with insurance & a tracking number). EMS (Express Mail Service) is international mailing service by Japan Post Office. We will ship your item within 3-5 business days, after your payment. We can ship ONLY to your Paypal address. \udbc0\udc04PAYMENT\udbc0\udc05 We accept PayPal only. Please make a payment within 3 days after send my invoice. \udbc0\udc04INTERNATIONAL BUYERS - PLEASE NOTE\udbc0\udc05 Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer\u2019s responsibility. Please check with your country\u2019s customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \"gifts\" - US and International government regulations prohibit such behavior.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko PROSPEX LOWERCASE Solar Diver 200m Men's Watch SBDN028 JAPAN IMPORT NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-PROSPEX-LOWERCASE-Solar-Diver-200m-Mens-Watch-SBDN028-JAPAN-IMPORT-NEW-/302334297746",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023342977468080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H7M2S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg5Mjk=/z/uJ0AAOSwhvFZLqgB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDI4/z/fgYAAOSwaeRZLqgI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4OFgxNTAw/z/U4UAAOSwi7RZLqgR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgxWDE1MDA=/z/Gx8AAOSwCQZZLqgW/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "472.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4",
+    "UserID": "nod-keii",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

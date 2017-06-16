@@ -1,0 +1,267 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P1DT15H44M26S",
+  "ConditionDisplayName": "New without tags",
+  "ConditionDescription": "New without tags: A brand-new, unused, and unworn item.",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFg4MDE=/z/CqoAAOSwZQxW4qsa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFg3Njk=/z/-IUAAOSwoBtW4qs0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA3M1gxMjAw/z/DsUAAOSwZQxW4qs5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFg5OTk=/z/jcsAAOSwZ8ZW4qtH/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/McKlein-Womens-Avon-Padded-Laptop-Sleeve-Leather-Briefcase-Shoulder-Bag-9665-/331800033537?var=",
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Check Special Offers / Discounted Items / Event Sale & Other Promotions from GotApparel: Offers & Promotions \u00a0 If you have any queries regarding anything feel free to contact us. Toll Free Phone: 1-866-847-8678 Phone: (562) 404-4571 More Items!View more great items Powered by Frooition.com Frooition www.frooition.com | No-js Template | eBay design, eBay store design, eBay shop design, eBay template design, eBay listing design (ver:froo_no_js) This listing is currently undergoing maintenance, we apologise for any inconvenience caused.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "90670",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "66365",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "global_apparel"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "McKlein Women's Avon Padded Laptop Sleeve Leather Briefcase Shoulder Bag. 9665",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Aqua Blue",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFg4MTI=/z/S48AAOSwu1VW4qr9/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFg4NjY=/z/owAAAOSwAuNW4qsD/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFg4MjU=/z/I5wAAOSwoudW4qsH/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFg4MDE=/z/OpcAAOSwxp9W4qsL/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFg4Mzg=/z/2xUAAOSwh-1W4qsP/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFg4NzA=/z/XykAAOSwwpdW4qsU/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "185",
+        "StartPrice": {
+          "value": "160.12",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939825-9665",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Aqua Blue"
+          }
+        }
+      },
+      {
+        "Quantity": "82",
+        "StartPrice": {
+          "value": "160.01",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939823-9665",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "260",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939822-9665",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Green"
+          }
+        }
+      },
+      {
+        "Quantity": "218",
+        "StartPrice": {
+          "value": "160.03",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939821-9665",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Orange"
+          }
+        }
+      },
+      {
+        "Quantity": "185",
+        "StartPrice": {
+          "value": "160.01",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939826-9665",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "40",
+        "StartPrice": {
+          "value": "160.01",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939824-9665",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Red"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Aqua Blue",
+          "Black",
+          "Green",
+          "Orange",
+          "Pink",
+          "Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2016-03-11T07:01:12.000Z",
+  "HitCount": "913",
+  "ConditionID": "1500",
+  "EndTime": "2017-06-04T07:01:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "17\" x 5\" x 12.75\""
+      },
+      {
+        "Name": "Gender",
+        "Value": "Women"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Pocket",
+        "Value": "Yes"
+      },
+      {
+        "Name": "Occasion",
+        "Value": "Casual"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3.1 (lbs)"
+      },
+      {
+        "Name": "MPN",
+        "Value": "9665"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "331800033537",
+  "Storefront": {
+    "StoreName": "GotApparel",
+    "StoreURL": "http://stores.ebay.com/id=563445466"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "970",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Customer satisfaction is our foremost priority, for which we try our level best to deliver satisfactory products. In case of returns, we offer hassle free returns. We will exchange or refund products within 14 days after purchasing. We do not charge any fee on returns, we simply ask you to place another order and return the unwanted one separately. Get in touch with us and we will be happy to return or exchange your items within 14 days.",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "McKlein-9665-eByprnt",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

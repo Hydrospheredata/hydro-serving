@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921394626228080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-1.fishpond.co.nz/0057/134/934/175885309/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0057/134/934/175885336/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0057/134/934/175885366/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0057/134/934/175885390/7.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0057/134/934/175885413/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HiveBag-Womens-Shoulder-Bag-PINK-28x15x4-Huge-Saving-/192139462622",
+  "ConvertedCurrentPrice": {
+    "value": "219.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "HiveBag Women's Shoulder Bag PINK 28x15x4 by HiveBag Ships from UK Supplier Other information: 4251002901024 Related Searches: Hobo Bags, HiveBag Bags, HiveBag Hobo Dimensions: 28 x 4 x 15 centimeters Weight: 0.52 kg",
+  "Title": "HiveBag Women's Shoulder Bag PINK 28x15x4. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "219.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-25T07:37:07.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P20DT15H15M59S",
+  "EndTime": "2017-06-23T07:37:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "HiveBag"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4251002901024"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139462622",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57134934:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

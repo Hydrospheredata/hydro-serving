@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/r0oAAOSwX9FZLbTt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/6TkAAOSwi7RZLbTw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/choAAOSwK6RZLbTy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/5KcAAOSw~y9ZLbT0/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/FzwAAOSwGJlZLbT2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/hiAAAOSwxu5ZLbT4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/moAAAOSwblZZLbT5/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Laptop-Backpack-Padded-Compartment-Blanco-Bouquet-/172704312935",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Up for bid , new with tags Vera Bradley very hard to find blanco bouquet laptop backpack . Description: - Black and white printed fabric with updated solid black logo printed interior lining - Features a front zip pocket with two open slip pockets, and a second pocket with zip closure - Large padded main compartment holds up to 15\" laptop (hint: measure your laptop screen diagonally) - Dual adjustable padded shoulder straps and top handle for ease in carrying - Measures approximately 12 inches (W) x 16 inches (H) x 6 inches (D) with a top handle and 28\" adjustable shoulder straps Thank you for looking!!",
+  "Title": "Vera Bradley Laptop Backpack Padded Compartment Blanco Bouquet",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Suwanee, Georgia",
+  "Seller": {
+    "FeedbackScore": "585",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "abbyd1224"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30024",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-30T18:13:43.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P27DT3H22M29S",
+  "EndTime": "2017-06-29T18:13:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003421154"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003421154"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Electronics"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blanco Bouquet with Black Interior"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.25 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17.99 x W 15 x H 3.11 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "14417-G07"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "PC Accessory"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172704312935",
+  "Storefront": {
+    "StoreName": "abbyd1224",
+    "StoreURL": "http://stores.ebay.com/id=1118302834"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727043129358080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

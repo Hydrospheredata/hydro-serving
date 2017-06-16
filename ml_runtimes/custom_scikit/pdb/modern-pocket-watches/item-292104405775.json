@@ -1,0 +1,97 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "60142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Milan pocket watch with silvertone chain. Measures 1\u00be\" in diameter. Features silvertone case with goldtone hunter and dogs motif. Face of watch is goldtone. Analog numbers and date indicator. Quartz accuracy. New in box. Comes with instructions. Works fine. Please see photos and consider them part of the description. FOR COMBINED SHIPMENTS...please request an invoice for your total combined shipping charges PRIOR TO PAYING.",
+  "StartTime": "2017-05-02T23:06:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/GoQAAOSwx6pYnTY1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lp4AAOSw3v5YnTYx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Rw0AAOSw32lYnTY7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qR4AAOSwfVpYnTZB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Milan",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Date Indicator",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "gertschoice",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3276",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "69",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921044057758080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T23:06:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Refunds will be issued unless the listing details state that there are no refunds for that particular listing.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MILAN-Pocket-Watch-w-Chain-HUNTER-BIRD-DOGS-Silver-Gold-Color-QUARTZ-Works-NIB-/292104405775",
+  "Location": "Huntley, Illinois",
+  "Title": "MILAN Pocket Watch w Chain HUNTER & BIRD DOGS Silver/Gold Color QUARTZ Works NIB",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "292104405775",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT4H21M13S"
+}

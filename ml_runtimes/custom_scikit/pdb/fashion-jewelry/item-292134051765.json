@@ -1,0 +1,116 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P23DT15H54M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "442.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "10022682",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "292134051765",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHANEL-COCO-mark-Ribbon-Headband-/292134051765",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "442.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T03:18:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T03:18:57.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Headband",
+        "Name": "Style"
+      },
+      {
+        "Value": "Black x Clear",
+        "Name": "Color"
+      },
+      {
+        "Value": "Chemical fiber x Vinyl",
+        "Name": "Material"
+      },
+      {
+        "Value": "CHANEL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "W5.12 x H5.71, Ribbon motif: W6.69 x H1.77",
+        "Name": "Size (inches)"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "CHANEL COCO-mark Ribbon Headband",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "TD",
+    "LR",
+    "LY",
+    "SL",
+    "SO",
+    "LB",
+    "YE",
+    "MH",
+    "FM",
+    "UA",
+    "BO"
+  ],
+  "BidCount": "0",
+  "Description": "CHANEL COCO-mark Ribbon Headband CHANEL COCO-mark Ribbon Headband Condition Rank : undefined BrandCHANELStyleHeadbandColorBlack x ClearMaterialChemical fiber x VinylSize (inches)W5.12 x H5.71, Ribbon motif: W6.69 x H1.77 Comes withBox * Plate on the body.RemarksPlease note: Slight scratches and looseness on stiches which fasten ribbon Please Note Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying. Customs fees are normally charged by the shipping company or collected when you pick the item up. These fees are not additional shipping charges. We won't under-value merchandise or mark the item as a gift on customs forms. Doing that is against U.S. and international laws. We only ship to PayPal registered address. Please contact us if you reside in countries in which we do not specify shipping service and cost. Please be aware that delivery could be delayed depending on customs inspection, in case of natural disasters, and other reasons such as postal strikes. About Payment, Shipping, Return Payment We only Accept PayPal. The item will be shipped within 3 business day after the payment is received. If payment can't be confirmed within 4 days after the checkout, a reminder will be sent to you. Shipping We only ship to PayPal registered address. Service: EMS Tracking URL: Japan Post ClickHere Return Policy We accept the returns. After receiving the item, contact seller within 14 days. Please see more details on Shipping and payments tab. About Authenticity All our items are 100% authentic. We are officially registered as legal business and we have to comply with all rules and\u00e3\u20ac\u20acregulations including tax requirements from the Japanese government. About Us If you have any problem or concerns, please contact us before you open case or leave feedback. Your satisfaction is important to us. Our attention is focused on the fine details of quality preowned luxury brand with safe, prompt delivery to Our Customers worldwide.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921340517658080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "96.7",
+    "UserID": "brandeal-tokyo",
+    "FeedbackScore": "29",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "brandeal-tokyo",
+    "StoreURL": "http://stores.ebay.com/id=1375941747"
+  },
+  "Quantity": "1",
+  "Location": "Tokyo, Japan",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_1.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_2.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_3.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_4.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_5.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_6.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_7.jpg",
+    "http://image.rakuten.co.jp/auc-brandeal/cabinet/160519/s489383592_8.jpg"
+  ],
+  "ConditionID": "3000"
+}

@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "TimeLeft": "P22DT9H43M56S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Like new!",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2uMAAOSww9xZJ39o/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yuYAAOSwhvFZJ39q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/b1MAAOSws5pZJ39t/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ifMAAOSwY3BZJ39v/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pRUAAOSwR29ZJ39x/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pSwAAOSwR29ZJ39z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OAsAAOSw~y9ZJ391/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/70AAAOSwK6RZJ393/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WyYAAOSw3gJZJ395/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/O84AAOSw5cRZJ397/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MlQAAOSwn-tZJ39-/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/345-Rebecca-Minkoff-Marissa-Baby-Bag-Pink-Orange-Coated-Canvas-Diaper-Handbag-/112419745926",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Very pretty pink and coral print diaper bag by Rebecca Minkoff. Brown leather trim. Two shoulder straps with 10 inch drop or use removable black canvas, adjustable cross body strap. Lots off inner and outer pockets! Inside is fully lined.",
+  "Title": "$345 Rebecca Minkoff Marissa Baby Bag Pink Orange Coated Canvas Diaper Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Denver, Colorado",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "123",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "whitnehane8"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "80203",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-26T01:06:21.000Z",
+  "HitCount": "23",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-25T01:06:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Coated Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Rebecca Minkoff"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Type",
+        "Value": "Diaper Bag"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112419745926",
+  "Storefront": {
+    "StoreName": "whitnehane8",
+    "StoreURL": "http://stores.ebay.com/id=1550108222"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124197459268080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

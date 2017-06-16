@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjE5WDY0MA==/z/vzoAAOSwzaJX61Wg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjMyWDY0MA==/z/S7AAAOSwAuZX61Wi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjMxWDY0MA==/z/lUMAAOSwOyJX61Wl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjI0WDY0MA==/z/vGwAAOSwTA9X61Wk/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Blue-leather-handbag-/252970625252",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Electric Blue Marc by Marc Jacobs handbag 14\" w 6\" d with original dust bag",
+  "Title": "Marc by Marc Jacobs Blue leather handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "135",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "celeste5555"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "10009",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:06:34.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT21H53M40S",
+  "EndTime": "2017-06-09T12:06:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "8\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970625252",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529706252528080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

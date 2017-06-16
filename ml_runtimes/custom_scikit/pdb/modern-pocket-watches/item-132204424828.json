@@ -1,0 +1,92 @@
+{
+  "ExcludeShipToLocation": [
+    "RU",
+    "UA"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": null,
+  "StartTime": "2017-05-25T17:22:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQy/z/z2YAAOSwFV9XyYfW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQxNlgxNjAw/z/Vh0AAOSw-kdXyYfP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI0NlgxNjAw/z/r84AAOSwGtRXyYfd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM1NlgxNjAw/z/sWgAAOSwFe5XyYfl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM2MFgxNjAw/z/2~UAAOSwgmJXyYfu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM3OVgxNjAw/z/r7YAAOSwdIFXyYf3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tycAAOSwFe5XyYf~/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rebbit2011",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "489",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322044248288080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T17:22:37.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Europe",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "USSR Russian Pocket Watch Zaria Zarja  #762S",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/USSR-Russian-Pocket-Watch-Zaria-Zarja-762S-/132204424828",
+  "Storefront": {
+    "StoreName": "rabbit2011store",
+    "StoreURL": "http://stores.ebay.com/id=1019571024"
+  },
+  "ItemID": "132204424828",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT22H46M2S"
+}

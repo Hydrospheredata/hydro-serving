@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM4NA==/z/bi8AAOSw5cNYQFZ9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4NA==/z/TwUAAOSw4GVYQFZ~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4NA==/z/a-UAAOSwA3dYQFaB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4NA==/z/cCwAAOSwB09YQFaC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4NA==/z/b7EAAOSw5cNYQFaE/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-Madison-Ave-2-Park-Avenue-Exotic-Cheri-Deep-Caramel-Brand-New-/371969829101",
+  "ConvertedCurrentPrice": {
+    "value": "429.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade Madison Ave. 2 Park Avenue Exotic Cheri Deep Carmel The Madison Ave. 2 Park Avenue Exotic Cheri Bag from Kate Spade New York showcases exotic crocodile embossed leather and a signature bow detail closure. This bag is elegant and sophisticated. 7.5''h x 10''w x 3''d. Drop length: 9-16'' adjustable strap. Italian croc embossed leather with matching trim. 14-karat light gold plated hardware. Custom woven metallic jacquard with spades and dots lining. Over the shoulder bag with an adjustable strap; flap with turn lock closure. Interior zip compartment with 3 slide pockets. Kate Spade New York embossed signature on closure. Dust bag included. style # pxru4919 Designer Color: Deep Caramel. Color: Brown. All of my items come from a smoke-free home.",
+  "Title": "Kate Spade Madison Ave 2 Park Avenue Exotic Cheri Deep Caramel Brand New",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "429.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Bayville, New Jersey",
+  "Seller": {
+    "FeedbackScore": "10351",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "dlw62554"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08721",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-06-02T11:10:40.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT20H47M48S",
+  "EndTime": "2017-07-02T11:10:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Italian Croc Leather"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7.5\""
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "10\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "9\"-16\" adjustable strap"
+      },
+      {
+        "Name": "Color",
+        "Value": "Deep Caramel"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371969829101",
+  "Storefront": {
+    "StoreName": "Deb&#39;s Web Shop",
+    "StoreURL": "http://stores.ebay.com/id=46713915"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "If there is a significant error in the item description, the items may be returned and the purchase price will be refunded. Returns for any other reason will have purchase price refunded - minus shipping and a 15% restocking fee. Items must be returned within 7 days, unused in original package and in original condition as received (no pet hair or smoke odors). Return shipping is at the buyers expense. Once I examine the returned items and they meet the above conditions you will receive your refund as stated.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719698291018080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

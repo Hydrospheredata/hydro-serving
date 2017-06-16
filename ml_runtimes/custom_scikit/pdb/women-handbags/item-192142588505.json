@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921425885058080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/PJwAAOSwzgBY2raD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/TIEAAOSwWxNY2raC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/QGAAAOSwSlBY2raD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEwMFgxMTAw/z/URoAAOSwXYtY2raD/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/kilofly-Ballerina-Ballet-Dance-Tutu-Shoulder-Bag-Small-Cosmetic-Kit-Pouch-Set-/192142588505",
+  "ConvertedCurrentPrice": {
+    "value": "53.51",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Make your girl an all out dancing diva with this kilofly Ballerina Ballet Dance Tutu Shoulder Bag + Small Cosmetic Pouch Set. This kilofly Ballerina Ballet Dance Tutu Bag comes with an adjustable shoulder strap that lets her choose whether to use it as a crossbody or shoulder bag. The bag has 2 interior pockets and a main zipper closure. It can hold your ballerina's valuable items like wallets, makeup kit, school things, extra clothes or water bottles for trainings and recitals. It's also a great use for their dance practises or girl sleepovers. Moreover, this set includes an equally convenient pouch that does not only keep your girl's cosmetics, but as well as other small personal items like their phone, hygiene kit, and other accessories. The makeup pouch is attached with a pocket-sized mirror for further convenience and ready use. kilofly Ballerina Ballet Dance Tutu Bag: 27 x 17 x 17 cm / 11 x 6.7 x 6.7 inch (L x W x H) Small Cosmetic Pouch: 20 x 2 x 12 cm / 8 x 1 x 5 inch (L x W x H) NOTE: Due to differences between monitor displays, actual colour may vary slightly from images. kilofly is a trademark exclusively licenced and distributed by kilofly Group. All rights reserved.",
+  "Title": "kilofly Ballerina Ballet Dance Tutu Shoulder Bag + Small Cosmetic Kit Pouch Set.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "53.51",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-28T19:16:09.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P24DT2H57M16S",
+  "EndTime": "2017-06-26T19:16:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kilofly"
+      },
+      {
+        "Name": "MPN",
+        "Value": "859659536"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142588505",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:109453108:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

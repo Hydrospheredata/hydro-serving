@@ -1,0 +1,140 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "92395",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New in its original tin. It still has the protective plastic on it. It is running and keeping time. Please feel free to ask questions. All items are sold as is as found. Thanks for looking.",
+  "StartTime": "2017-05-18T10:39:19.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5MVg4MTA=/z/j4YAAOSwv-NWV0Zc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwN1g4NzU=/z/hJMAAOSwgyxWV0Zu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/XvsAAOSwxN5WV0aD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/jgMAAOSwgyxWV0ab/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "al agnew",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "massmatter",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "826",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225207265808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T10:39:19.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Majestic-flight-pocket-watch-AL-Agnew-exclusive-edition-new-/322520726580",
+  "Location": "Victorville, California",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Majestic flight pocket watch AL Agnew exclusive edition new",
+  "Storefront": {
+    "StoreName": "massmatter-vintage-deals",
+    "StoreURL": "http://stores.ebay.com/id=31359115"
+  },
+  "ItemID": "322520726580",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT16H9S"
+}

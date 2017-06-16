@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7Y8AAOSwX61ZKhtC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/H0kAAOSwH09ZKhtg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/POMAAOSwAPVZKhtP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/XD0AAOSw8HBZKhtw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/kv8AAOSwX9FZKht2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/-L4AAOSwlY1ZKhua/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/-HsAAOSwlY1ZKhuT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/APcAAOSwYlRZKhuG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/WkMAAOSwn-tZKht-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/8L0AAOSwY3BZKhtH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/H1QAAOSwaEhZKhup/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hoist-Away-Tote-Bag-Vintage-80s-Recycled-West-Wight-Potter-19-Sail-Spinnaker-/382104013372",
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "One Of A Kind Hoist Away Recycled Sail/Spinnaker Stowaway Tote Bag. Sail cloth tote with spinnaker drawstring top. Individually crafted in USA. Original sail legacy sewn inside bag. This sail came from a 1988 West Wight Potter-19 from Wellfleet on Cape Cod. Bag was created within last 6 years. Please scroll across all 11 photos for detailed description. Smoke free home. Returns accepted. Thanks much.",
+  "Title": "Hoist Away Tote Bag Vintage 80's Recycled West Wight Potter-19 Sail & Spinnaker",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Chelmsford, Massachusetts",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "9015",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "captaintwinkiemom"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "01824",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T01:10:42.000Z",
+  "HitCount": "29",
+  "TimeLeft": "P24DT7H31M2S",
+  "EndTime": "2017-06-27T01:10:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Hoist Away Bags"
+      },
+      {
+        "Name": "Material",
+        "Value": "Sail Cloth"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382104013372",
+  "PrimaryCategoryID": "42526",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Remains of the Day Vintage and Now",
+    "StoreURL": "http://stores.ebay.com/id=81983029"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Item returned in original condition with tags, and/or, security loops intact.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821040133728080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

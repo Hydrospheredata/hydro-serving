@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc5/z/cjMAAOSwfRdZLgxO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk3/z/ACAAAOSwEHpZMK~Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjgw/z/~3YAAOSwJH1ZLgw8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzM1g5NTM=/z/0CoAAOSwcgNZLgxu/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/new-Kate-Spade-new-york-rambling-roses-coin-purse-Novelty-Item-128-/112425414639",
+  "ConvertedCurrentPrice": {
+    "value": "104.96",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "rambling roses coin purse$128.00 in bloom: this gorgeous rose-shaped coin purse is the perfect place to stash your spare change.MATERIALsmooth cow leather with matching trimbookstripe print on poly twill14-karat gold plated hardwareFEATUREScoin purse with zip around closurestyle # pwru5617DETAILS3.9 x 3.9 x 1.2GUARANTEED AUTHENTIC KATE SPADE SMOKE & PET FREE HOME **TRUSTED EXPERIENCED SELLER** BUY WITH CONFIDENCE! I VALUE YOUR BUSINESS AS EVIDENCED WITH MY OUTSTANDING SELLER RATING. FEEL FREE TO EMAIL ME WITH QUESTIONS. PAYMENT IS EXPECTED WITHIN 48 HOURS. INTERNATIONAL PURCHASES SHIP USING INSURABLE AND TRACEABLE MAIL ONLY!SHIPPING CHARGES WILL INCLUDE HANDLING AND INSURANCE. I AM SORRY THAT I CAN NOT MARK ITEMS SENT OVERSEAS AS \"GIFTS\". THE FULL PURCHASE PRICE WILL BE DECLARED ON THE EXPORT DOCUMENTATION. IMPORT DUTIES, TAXES, AND CHARGES ARE NOT INCLUDED IN THE ITEM PRICE OR SHIPPING COST. THESE CHARGES ARE THE BUYER'S RESPONSIBILITY.PLEASE CHECK WITH YOUR COUNTRY'S CUSTOMS OFFICE TO DETERMINE WHAT THESE ADDITIONAL COSTS WILL BE PRIOR TO BIDDING OR BUYING. PLEASE CHECK OUT MY OTHER ITEMS!THANKS FOR LOOKING!",
+  "Title": "\ud83c\udf39new Kate Spade new york rambling roses coin purse\ud83c\udf39 Novelty Item $128",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "104.96",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Rocky Mount, North Carolina",
+  "Seller": {
+    "FeedbackScore": "507",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "educator407"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27801",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-05-31T00:21:19.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P27DT8H28M5S",
+  "EndTime": "2017-06-30T00:21:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Coin Purse"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112425414639",
+  "Storefront": {
+    "StoreName": "DISCOUNTED by DESIGN",
+    "StoreURL": "http://stores.ebay.com/id=71853700"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124254146398080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

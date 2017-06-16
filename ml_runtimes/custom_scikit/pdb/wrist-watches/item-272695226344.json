@@ -1,0 +1,114 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "77.83",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:15:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1489042427",
+    "StoreName": "bankniwa_shop24"
+  },
+  "CurrentPrice": {
+    "value": "77.83",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:15:14.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B004FGFB2W",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "272695226344",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "90242-002",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "90242-002",
+        "Name": "MPN"
+      },
+      {
+        "Value": "722631079827",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Silver/Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Wrist Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0722631079827",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "I By Invicta Men's 90242-002 Stainless Steel Watch with Black Leather Band",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-90242-002-Stainless-Steel-Watch-Black-Leather-Band-/272695226344",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726952263448080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H5M19S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/n10AAOSwOgdYwSDo/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/WvgAAOSwB-1YwSDp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/BxAAAOSw4CFYwSDr/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "BBB_SHOP 24 Best Quality / Best Service / Best Price I By Invicta Men's 90242-002 Stainless Steel Watch with Black Leather Band Gallery Product Description Features Round watch featuring Roman numeral hour markers, date window, and chronograph functions with 60-second, 60-minute, and 24-hour subdialsWater resistant to 50 m ( 165 ft)stainless steel 44 mm case and mineral dial windowCroc-embossed leather band with buckle closure and onion-shape crownJapanese quartz movement with analog display Invicta 90242-002 Silver/Black dimensions: 5.91x5.91x5.91 inch. 722631079827 0722631079827 90242-002 Contact Please contact us by ebay message only. Payment Policy We accept Paypal, Bank transfer, Cash on delivery an Credit Card. Shipping Policy We send: Shipping Handling in USA. The package will be shipped directly from USA with tracking number, and it will take about 05-15 business days. Return Policy 100% Satisfaction Guarantee: If you are not satisfied with the product you purchased for any reason, please contact us for a return instruction within 30 days for a refund. Shipping Handling costs are not refundable. Return shipping cost will be paid by buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "458",
+    "UserID": "bbb_shop24",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Not description"
+  }
+}

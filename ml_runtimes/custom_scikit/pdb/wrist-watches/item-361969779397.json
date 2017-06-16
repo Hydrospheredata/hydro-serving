@@ -1,0 +1,355 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Southeast Asia",
+    "IL",
+    "CN",
+    "DE",
+    "IT"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.89"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:180246",
+  "HandlingTime": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/twsAAOxyfS1RzVb0/$T2eC16hHJHEFFmTbvO6cBRzVbzyv5!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/C-gAAOSwVFlUGnPG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/7VEAAOSwPe1UGnPI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/aTcAAOSw-jhUGnPJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/s0IAAOSwd4tUGnPL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AsAAAOSw7NNUGnPN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3PwAAOSwRLZUGnPP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/j3MAAOSwxH1UGnPQ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Storefront": {
+    "StoreName": "China-Best-Boutique",
+    "StoreURL": "http://stores.ebay.com/id=1112380754"
+  },
+  "QuantitySold": "1",
+  "Seller": {
+    "UserID": "joypockets4u",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "25913",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "StartTime": "2017-05-04T15:08:39.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "k***y",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "272",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "FixedPriceItem",
+  "PrimaryCategoryID": "31387",
+  "Title": "Fashion New Cross Hollow Lovers Quartz Wrist Watch Mens Women Dress Sport Watch",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "361969779397",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Other Watch Parts & Tools",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "HK",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's Men's Lover's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "HitCount": "63",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black (Men's)",
+          "Red (Men's)",
+          "Brown (Men's)",
+          "White (Women's)",
+          "White\uff08Men's)",
+          "Red (Women's)",
+          "Black (Women's)",
+          "Brown (Women's)"
+        ],
+        "Name": "Band Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Band Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black (Men's)",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/~XIAAOSwPe1UFn5q/$_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GlAAAOSwVFlUFn5r/$_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/NFgAAOSwRLZUFn5r/$_1.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Black (Women's)",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/tPUAAOSwd4tUFn-E/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Brown (Men's)",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/N4UAAOSwRLZUFn6u/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Brown (Women's)",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/s4cAAOSwd4tUFn9l/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Red (Men's)",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/WPEAAOSwGvhUFn6P/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Red (Women's)",
+          "PictureURL": "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8j4AAOSw-jhUFn8b/$_1.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "White (Women's)",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/OqkAAOSwRLZUFn74/$_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8ucAAOSwQItUFn75/$_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/yz0AAOSwfcVUFn76/$_1.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White\uff08Men's)",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/YO0AAOSwGvhUFn9B/$_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/SPcAAOSwnDZUFn9D/$_1.JPG?set_id=880000500F"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9737",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White\uff08Men's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9738",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White (Women's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9739",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black (Men's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9740",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black (Women's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9741",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red (Men's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9742",
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red (Women's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9743",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown (Men's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "3.89"
+        },
+        "SKU": "9744",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown (Women's)",
+            "Name": "Band Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ]
+  },
+  "SKU": "9737-9744",
+  "SecondaryCategoryID": "180246",
+  "QuantityAvailableHint": "MoreThan",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-03T15:08:39.000Z",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-New-Cross-Hollow-Lovers-Quartz-Wrist-Watch-Mens-Women-Dress-Sport-Watch-/361969779397?var=",
+  "Location": "Hong Kong",
+  "Quantity": "24",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.89"
+  },
+  "TimeLeft": "P2DT17H58M27S"
+}

@@ -1,0 +1,140 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:45:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=133996032",
+    "StoreName": "Diamond Root"
+  },
+  "CurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:45:35.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "W-14015d6",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ItemID": "192203415263",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "KC1683",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "KC1683",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "020571071919",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "PRE-OWNED $135 Kenneth Cole York Men's Stainless Steel Watch KC1683 RIPPED STRAP",
+  "ConditionDescription": "PRE-OWNED watch - WITH ripped strap on one side, connecting to the case.  The watch has been worn for approximately one year and has some signs of wear indicating normal use. The watch comes in an original box.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PRE-OWNED-135-Kenneth-Cole-York-Mens-Stainless-Steel-Watch-KC1683-RIPPED-STRAP-/192203415263",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922034152638080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "11229",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H39M3S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTc2WDk0MA==/z/5pwAAOSwFqJWr7C4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4Njc=/z/2j8AAOSwa-dWr7C8/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "PRE-OWNED watch - With ripped strap on one side, connecting to the case. The watch has been worn for approximately one year and has some signs of wear indicating normal use. The watch comes in an original box. Dependable Digital-Quartz Analog-Quartz movementSolid stainless steel round caseDual time Japanese analog 2-hand movementsDurable polyurethane strapWater resistant to 99 feet (30 M)",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "24855",
+    "UserID": "diamondroot",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "30 -day return for exchange or refund, depending on the customer preference.  Shipping and handling fees are not refundable."
+  }
+}

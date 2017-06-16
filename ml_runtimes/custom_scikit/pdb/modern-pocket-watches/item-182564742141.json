@@ -1,0 +1,240 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.25"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "CHOICE GOLD COLOR SMOOTH COMBINATION NECKLACE/KEYRING OR POCKET/KEYRING WATCH. COMES WITH AN ATTACHED SWIVEL LOBSTER CLASP CONNECTED TO WATCH WITH A DOUBLE SPLIT RING. AT LEAST A 24\" STEEL BALL CHAIN OR A 14\" POCKET CHAIN AND AN EXTRA BATTERY (IN CASE INSTALLED BATTERY ARRIVES DEAD).",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/-5kAAOSwT6pV1Qee/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "14",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "fatfinggers",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2424",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-07T22:39:15.000Z",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T22:39:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.25"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "5 day return on watches not working properly. This gives plenty of time to make sure that the watch is working correctly. If there is a problem that arises after 5 days, then the watch was mishandled and you broke it. No returns after the fifth day. Watches are delicate and they will break or stop working if not properly taken care of.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "w/ ball chain",
+          "w/ pocket chain",
+          "stripe/w pocket chain",
+          "shield/pocket chain",
+          "black/w pocket chain"
+        ],
+        "Name": "Material"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Material",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "w/ ball chain",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTU5OVg4OTk=/z/rFgAAOSwPcVV1Qf4/$_57.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTYwMFg5ODk=/z/dt0AAOSwu4BV1Qf9/$_57.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "w/ pocket chain",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjc0/z/XsgAAOSwyQtV1QgX/$_57.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/MTYwMFg5ODk=/z/JlUAAOSwMmBV1Qgb/$_57.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "stripe/w pocket chain",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTU1MlgxNTgy/z/HIAAAOSwal5YJRab/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTMyMVg5NjU=/z/L-QAAOSwcLxYJRag/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTQyM1g5ODc=/z/Tr0AAOSwXyVYJRao/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTUyNFgxMDk4/z/OKAAAOSwB09YJRat/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "shield/pocket chain",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTU0/z/WtwAAOSwA3dYl7W1/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTQw/z/y4kAAOSwjDZYl7W5/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjM3/z/zBUAAOSwjDZYl7W9/$_57.JPG?set_id=8800005007"
+          ]
+        },
+        {
+          "VariationSpecificValue": "black/w pocket chain",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/MTYwMFgxMTY3/z/9R0AAOSw2xRYl8Aa/$_57.JPG?set_id=8800005007",
+            "http://i.ebayimg.com/00/s/MTYwMFgxMjc5/z/V2UAAOSwNnRYl8CB/$_57.JPG?set_id=8800005007"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.25"
+        },
+        "Quantity": "4",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "w/ ball chain",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.75"
+        },
+        "Quantity": "5",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "w/ pocket chain",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "0",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "stripe/w pocket chain",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "4",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "shield/pocket chain",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "8.95"
+        },
+        "Quantity": "1",
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "black/w pocket chain",
+            "Name": "Material"
+          }
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ]
+  },
+  "Location": "OH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CHOICE BIG GOLD COLOR  2-IN-1 NECKLACE/KEYRING-KEYRING/POCKET WATCH USA SELLER",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHOICE-BIG-GOLD-COLOR-2-IN-1-NECKLACE-KEYRING-KEYRING-POCKET-WATCH-USA-SELLER-/182564742141?var=",
+  "Storefront": {
+    "StoreName": "coins&amp;watches",
+    "StoreURL": "http://stores.ebay.com/id=1057570148"
+  },
+  "ItemID": "182564742141",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT3H55M51S"
+}

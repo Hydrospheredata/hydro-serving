@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921394560578080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/PmUAAOSwdGFY1h3V/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/9ncAAOSwCU1Y1h3V/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/AIQAAOSwTM5Y1h3V/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/9JsAAOSwXYtY1h3V/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/QpwAAOSwDKtY1h3U/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gorjuss-Wallet-Little-Song-Best-Price-/192139456057",
+  "ConvertedCurrentPrice": {
+    "value": "64.97",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Gorjuss Small Wallet - Little Song Collect and store your change in our Gorjuss Small Wallet, featuring the captivating 'Little Song' artwork. With plenty of compartments, one of which can be securely fastened with a coordinating zip, it is both pretty and practical! Material: Leather-effect PU throughout Approx. Size: 9 cm wide and x 14 cm high and 2 cm thick.",
+  "Title": "Gorjuss Wallet - Little Song. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.97",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-25T07:35:41.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P20DT15H14M26S",
+  "EndTime": "2017-06-23T07:35:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "ukgiftstoreonline"
+      },
+      {
+        "Name": "MPN",
+        "Value": "712155591592"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139456057",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:66548049:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

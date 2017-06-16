@@ -1,0 +1,92 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "21851",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "RECENT ESTATE SALE - SOLD AS FOUND CONFEDERATE TREASURE SET - KNIFE & POCKET WATCH BOTH PIECES LOOK LIKE THEY HAVE NEVER BBEEN OUT OF THE CASE THE WATCH WILL NEED A NEW BATTERY NO INTERNATIONAL SHIPPING THANK YOU FOR LOOKING",
+  "StartTime": "2017-05-29T15:33:05.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kP0AAOSwKytZFjQX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ugIAAOSw42JZFjOX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ulIAAOSw42JZFjOg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Oy4AAOSwIaFZFjPe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HOAAAOSwcgNZFjPw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/epAAAOSw~y9ZFjQM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LloAAOSwH09ZFjQP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TzEAAOSw42dZFjQV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/D9UAAOSw-3FZFjP9/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "vette768980f1g",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "865",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727018971408080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T15:33:05.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CONFEDERATE-TREASURE-SET-KNIFE-POCKET-WATCH-/172701897140",
+  "Location": "Pocomoke City, Maryland",
+  "Title": "CONFEDERATE TREASURE SET - KNIFE & POCKET WATCH",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "172701897140",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT20H58M37S"
+}

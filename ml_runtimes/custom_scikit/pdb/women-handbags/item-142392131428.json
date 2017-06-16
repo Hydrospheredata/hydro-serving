@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/efwAAOSwMtxXv5mJ/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7dEAAOSwdzVXv5mN/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/1GoAAOSwZVlXv5mU/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7wYAAOSwdzVXv5mV/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LULULEMON-exclusive-seawheeze-speed-shorts-chevron-tdcv-black-size-8-nwt-/142392131428",
+  "ConvertedCurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "txzj pxzj34199 txzj40 txzj56 txzj64",
+  "Title": "LULULEMON exclusive seawheeze speed shorts in chevron tdcv/black size 8 nwt",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Salt Spring Island, British Columbia",
+  "Seller": {
+    "FeedbackScore": "685",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkhibiscus12"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "v8k 1p4",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T00:02:36.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P20DT7H23M44S",
+  "EndTime": "2017-06-23T00:02:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "shorts"
+      },
+      {
+        "Name": "Size Type",
+        "Value": "REG"
+      },
+      {
+        "Name": "Size (Women's)",
+        "Value": "8"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142392131428",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423921314288080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

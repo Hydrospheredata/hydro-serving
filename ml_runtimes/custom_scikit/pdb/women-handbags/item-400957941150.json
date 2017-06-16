@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/XEgAAOSwHnFVpe-d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/XJwAAOSwHnFVpe-i/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/gaoAAOSwDNdVpe-m/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/WfoAAOSwT6pVpe-q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/6VEAAOSwMmBVpe-u/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/gGkAAOSw9N1Vpe-y/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Xb4AAOSwHnFVpe-2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/cSgAAOSwPcVVpe-6/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Liz-Claiborne-Brown-Alligator-Faux-Skin-Briefcase-Satchel-Purse-Bag-Free-Ship-/400957941150",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for Shopping Carolyn\u2019s Treasures Please ask as many questions as you like. In an effort to Help Conserve our Planet and keep the Cost of Shipping down, we often use recycled packing material. If for any reason you have concerns with your Purchase Please contact us so that we can keep our Customers Satisfaction at 100%. It is very important to us to maintain our 5 Star and Top Seller Ratings along with Our Customers being Happy with their experience with us. ~Have a Blessed day and don\u2019t forget to check out our other items~ Happy Omni Shopping",
+  "Title": "Liz Claiborne Brown Alligator Faux Skin Briefcase Satchel Purse Bag Free Ship",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Magnolia, Texas",
+  "Seller": {
+    "FeedbackScore": "1582",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "carolyn3284"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77355",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2015-07-15T05:38:08.000Z",
+  "HitCount": "486",
+  "TimeLeft": "P1DT14H19M28S",
+  "EndTime": "2017-06-04T05:38:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Liz Claiborne"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase Satchel Purse"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Crocodile/Alligator"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689240367"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "400957941150",
+  "Storefront": {
+    "StoreName": "Carolyn s Treasures",
+    "StoreURL": "http://stores.ebay.com/id=184547218"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4009579411508080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

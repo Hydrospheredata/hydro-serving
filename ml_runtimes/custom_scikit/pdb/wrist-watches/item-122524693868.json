@@ -1,0 +1,99 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.74",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Mascot, NSW",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:56:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-07T08:56:05.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524693868",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Certina",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Genuine",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "AUD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Certina-Swiss-Made-Quartz-watch-/122524693868",
+  "Title": "Certina Swiss Made Quartz watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225246938688080_1.jpg",
+  "HitCount": "9",
+  "PostalCode": "2020",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H27M47S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FqkAAOSwcdRY8weS/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AWEAAOSwWkJY8wYL/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FVAAAOSwvihY8wgI/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QEgAAOSwSypY8waJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zdoAAOSwJ4hY8whP/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/w0MAAOSwBOtY8wh6/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/soYAAOSwzqFY8wcO/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Case Material: Stainless Steel Case Diameter approximatly : 36.68 x 31.95 x 6.48 mm. Dial Good some marks Glass GoodDial very Good Glass some scratch, Date. Genuine Band and Crowmsealing as not working for spear or repair, Bottom Battery connection broken sealing as Not waking and Spear. please look carefully the photos as a main description. If you have any questions or offers please let me know! If you like to know about please feel free to contact me for info (+614 11032283).Postage Discount for more then one items",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "288",
+    "UserID": "coins-and-notes",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

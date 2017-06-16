@@ -1,0 +1,158 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTkwWDU0NA==/z/UQoAAOSww5NZAq8X/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTUyWDQ4Ng==/z/UJ8AAOSww9xZAq8d/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTE4WDU5NA==/z/8zYAAOSwcgNZAq8i/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bag-Laptop-Buxton-Leather-15-6-Inch-Computer-Case-Tote-Black-Shoulder-Travel-New-/112387421131",
+  "ConvertedCurrentPrice": {
+    "value": "55.33",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "ITEM DESCRIPTIONThe gorgeous black tote is crafted of a soft pebble grain and features top handles for convenience. The sleek bag is perfect for transporting your laptop in a safe, unobtrusive way.Laptop and Tablet Compartment Size: 15 - 16.9 InchesType: BusinessProduct Features: LinedMaterial: Synthetic LeatherPattern: SolidFeature: Adjustable StrapExact Color: BlackColor: Black OSTK- 18370417 All items are backed by our industry-leading30-day Money Back Guarantee. If there is an issue with your order, please contact us immediately - we will either send a replacementor issue a full refund. If you wish to returnan item, you MUST contact us for an RMA. Items returned by another method without an RMA will be refused, and no refund issued.For defective returns, we cover return shipping and will send you a pre-paid Label. Non-defectivereturns are subject to a 20% restocking fee (min. $10), with no shipping refunded.Item must be in same unopened or unused conditionas sold.",
+  "Title": "Bag Laptop Buxton Leather 15.6-Inch Computer Case Tote Black Shoulder Travel New",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.33",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Oxnard, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "98",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "fpsgoods1"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "93036",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-04-28T02:58:44.000Z",
+  "HitCount": "62",
+  "TimeLeft": "P24DT11H51M45S",
+  "EndTime": "2017-06-27T02:58:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Buxton"
+      },
+      {
+        "Name": "Material",
+        "Value": "Synthetic Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112387421131",
+  "Storefront": {
+    "StoreName": "fpsgoods1",
+    "StoreURL": "http://stores.ebay.com/id=1372375160"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1123874211318080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

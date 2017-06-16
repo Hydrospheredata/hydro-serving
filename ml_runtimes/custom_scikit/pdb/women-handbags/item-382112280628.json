@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ucoAAOSwhQhY4S0p/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yEkAAOSwuLZY4S0s/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nr4AAOSww3tY4S0x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oSgAAOSwol5Y4S0v/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IYoAAOSwc-tY4S0z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NrYAAOSwB-1Y4Tbw/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HfIAAOSwSlBY4S03/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/op0AAOSwol5Y4S01/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mUMAAOSwA29Y4Tbe/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H54AAOSwc-tY4S0r/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIzN1g4MTY=/z/a70AAOSwXYtY4S2T/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Rhea-Zip-Medium-Backpack-Celadon-Azure-Leather-Womens-NWT-/382112280628",
+  "ConvertedCurrentPrice": {
+    "value": "200.05",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors Rhea Zip Medium Backpack Celadon/Azure Leather Women's NWT Authentic",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "200.05",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "KY",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1120",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "luckydog190"
+  },
+  "PrimaryCategoryID": "63852",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Michael Kors Rhea Zip Medium Backpack Celadon/Azure Leather Women's NWT",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:48:56.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT23H43M35S",
+  "EndTime": "2017-07-02T13:48:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack Style"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049143346"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382112280628",
+  "Storefront": {
+    "StoreName": "luckydog190",
+    "StoreURL": "http://stores.ebay.com/id=25268475"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821122806288080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "895.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Manhattan Beach, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:36:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=10247500",
+    "StoreName": "d.hall.time"
+  },
+  "CurrentPrice": {
+    "value": "895.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:36:07.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524592240",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Accutron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Electronic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "41 x 42.50 mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Astronaut II",
+        "Name": "Model"
+      },
+      {
+        "Value": "20 mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Accutron Astronaut II GMT Wristwatch",
+  "ConditionDescription": "Serviced One Year Warraty",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Accutron-Astronaut-II-GMT-Wristwatch-/122524592240",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225245922408080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "90266",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H3M55S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQwWDg0OA==/z/Sn8AAOSwsW9Y3Hc8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODkyWDg2OA==/z/O9wAAOSww3tY3HdW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzY0WDcxNg==/z/OcoAAOSwTM5Y3Hde/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzE2WDg2OA==/z/dhcAAOSwA29Y3Hd2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njk2WDg2NA==/z/PEcAAOSwSlBY3HeH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc5WDc3Mw==/z/GLsAAOSwuLZY3HeY/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Vintage Accutron * Astronaut II * GMT * Beautiful Large Stanless Steel Case * Fantastic Original Dial * Beautiful Bezel * One Year Warranty Brand/Manufacturer: Accutron Model: Astronaut II Ref./Serial/Year: 1971 Case: S.Steel 41 x 42.50 mm Bezel: N/A Band: New Horreen Leather Dial: 100% Original. Great patina \"Beautiful\" Movement: Serviced and running perfect in every way. One Year Warranty Return Policy: All item descriptions and pictures are accurate and of the actual watch you are bidding on. One Year Mechanical Warranty only on watches with warranty in the description Warranty includes: watch keeps time to manufacturer standards, mainspring, gaskets and case structure, and all parts are original and/or as described above. Warranty dose not include: crystal, crown, chrono pushers or damage by misuse (water damage, dropped, etc.) Watches marked As-is, cannot be returned. Important: Bidders with no rating please contact us to validate your bid. International Shipments go out via, USPS, UPS, or FedEx, international Priority. Shipments are sent Monday through Friday. \u201cInternational Buyers \u2013 Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer\u2019s responsibility. Please check with your country\u2019s customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick them item up \u2013 do not confuse them for additional shipping charges.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "880",
+    "UserID": "hallandladdco",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

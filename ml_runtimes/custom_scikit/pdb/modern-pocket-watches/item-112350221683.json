@@ -1,0 +1,374 @@
+{
+  "ExcludeShipToLocation": [
+    "CK",
+    "SB",
+    "AW",
+    "MQ",
+    "AN",
+    "KN",
+    "HK",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "BM",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "YE",
+    "AF",
+    "AM",
+    "CN",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "PostalCode": "518000",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "bodhi1999szus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "Hearts Pendant",
+          "Nurse Fob",
+          "Brooch Pocket Watch",
+          "Bright Color"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Nurse Watch",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "QuantitySold": "0",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-03-28T06:13:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/bI4AAOSwzgBY2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/rcsAAOSwax5Y2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2ZwAAOSwCU1Y2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VA0AAOSwhQhY2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/O0IAAOSwB-1Y2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/05cAAOSwsW9Y2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/rZcAAOSw32lY2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/rdkAAOSwax5Y2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/VAwAAOSwhQhY2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/z0QAAOSwuxFY2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AsQAAOSwmgJY2f7~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/AsgAAOSwmgJY2f7~/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.75"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "70",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "Seller": {
+    "UserID": "bodhi1999sz",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "28273",
+    "PositiveFeedbackPercent": "98.9"
+  },
+  "HitCount": "53",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T06:13:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.75"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "White",
+          "Red",
+          "Yellow",
+          "Purple",
+          "Green",
+          "Pink",
+          "Sky Blue"
+        ],
+        "Name": "Colour"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificName": "Colour",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/9.jpg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/11.jpg"
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/10.jpg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/12.jpg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/15.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/14.jpg"
+        },
+        {
+          "VariationSpecificValue": "Sky Blue",
+          "PictureURL": "http://www.vintagechenty.com/images/16/07/v/15620/13.jpg"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.75"
+        },
+        "SKU": "U789763_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Sky Blue",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.75"
+        },
+        "SKU": "U789760_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.76"
+        },
+        "SKU": "U789759_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Green",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.75"
+        },
+        "SKU": "U789761_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Purple",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.76"
+        },
+        "SKU": "U789764_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.75"
+        },
+        "SKU": "U789762_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Red",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "1.75"
+        },
+        "SKU": "U789765_bodhi1999szus_S873",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Colour"
+          }
+        },
+        "Quantity": "10"
+      }
+    ]
+  },
+  "Location": "Shenzhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Women Lady Cute Love Heart Quartz Clip-on Fob Brooch Nurse Pocket Watch Funny",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Lady-Cute-Love-Heart-Quartz-Clip-on-Fob-Brooch-Nurse-Pocket-Watch-Funny-/112350221683?var=",
+  "Storefront": {
+    "StoreName": "bodhi1999sz",
+    "StoreURL": "http://stores.ebay.com/id=1379766302"
+  },
+  "ItemID": "112350221683",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT11H24M8S"
+}

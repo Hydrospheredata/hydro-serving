@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P1DT4H37M24S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CbMAAOSw8HBZEg6K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/e7MAAOSwCQZZEg6N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/o-oAAOSwYvFZEg6S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YCkAAOSwlY1ZEg6u/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/zfMAAOSwcgNZEg64/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eNEAAOSwZKBZEg6b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CrkAAOSw8HBZEg6Z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YAkAAOSwtGlZEg7C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hwcAAOSwGJlZEg6f/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Signature-Brown-X-Large-Travel-Duffle-Bag-458-/112418396453",
+  "ConvertedCurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This MICHAEL Michael Kors Large Travel Duffel is made of Signature PVC,Leather trim and Gold hardware. A leather luggage tag hangs from the front strap and there are protective metal feet.The Duffle has double rolled leather handles, a removable, adjustable fabric shoulder strap,A top zip closure, and five interior pockets.Color name: BrownMeasurements: 22.75 inches wide x 14.5 inches high x 9.5 inches deepHandle drop = 5 inches and 16 to 28 inchesType: Fashion, Basic, LightweightProduct Features: Lined, Water RepellentMaterial: Polypropylene, LeatherPattern: SignatureInterior Pocket: 5Feature: Adjustable Strap",
+  "Title": "Michael Kors Signature Brown X-Large Travel Duffle Bag - $458",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "249.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "West Islip, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1621",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "designerbagsandaccessories"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11795",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "US"
+  ],
+  "StartTime": "2017-05-24T21:15:42.000Z",
+  "HitCount": "32",
+  "SecondaryCategoryIDPath": "11450:169291:63852",
+  "EndTime": "2017-06-03T21:15:42.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel Duffle"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112418396453",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "Quantity": "1",
+  "SecondaryCategoryID": "63852",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Item must have original tag attached and be unused",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124183964538080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

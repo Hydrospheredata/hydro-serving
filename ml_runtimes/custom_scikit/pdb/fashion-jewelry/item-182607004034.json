@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT14H17M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "182607004034",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pandora-Charms-and-misc-10k-White-Gold-925-Silver-Jewelry-/182607004034",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T00:39:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "LotSize": "11",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T00:39:24.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Pandora Charms and misc. 10k White Gold & .925 Silver Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Pandora .925 Silver latch leather bracelet: $20 Pandora .925 Silver Clock charm: $28 Pandora .925 Silver \"J\" charm: $20 Pandora .925 Silver Sun charm: $30 Pandora .925 Silver Circle of hearts: $60 Cubic Zirconia .925 Silver ring: $20 10k White Gold Journey Necklace with matching ring: $70 ***Collection also includes the heart charm, frog charm, three loop .925 Silver ear ring, and a solid band ring (metal unknown, I could not make out what the stamp inside says). Willing to sell the entire collection for $160. The journey ring and the solid band range from sizes 4-5. The Cubic Zirconia ring is around a size 7. I do not guarantee these sizes, as I am going off what my wife says they are and trying them on her fingers. I did verify the .925 stamp on all Silver items with a magnifying glass and there is a 10K stamp on the Journey necklace chain.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826070040348080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "musicklaw",
+    "FeedbackScore": "13",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Charlotte, North Carolina",
+  "HitCount": "15",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/T44AAOSwYlRZNJsG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/KyAAAOSwxu5ZNJsA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/6LwAAOSwcgNZNJr6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/EoUAAOSwq1JZNJrw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/N-oAAOSw42dZNJrj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/C04AAOSwPh5ZNJrd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/HgYAAOSwX61ZNJq8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/HqIAAOSwX61ZNJrW/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "28270"
+}

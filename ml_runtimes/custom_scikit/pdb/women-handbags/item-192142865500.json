@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1921428655008080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0125/714/917/263156134/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0125/714/917/263156135/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dancing-Days-Banned-Clutch-Black-Vintage-50s-Sparkly-Bag-Brand-New-/192142865500",
+  "ConvertedCurrentPrice": {
+    "value": "64.48",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Banned Clutch Bag",
+  "Title": "Dancing Days by Banned Clutch Black Vintage 50s Sparkly Bag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.48",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-29T01:57:37.000Z",
+  "HitCount": "40",
+  "TimeLeft": "P24DT9H38M55S",
+  "EndTime": "2017-06-27T01:57:37.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Banned Apparel"
+      },
+      {
+        "Name": "MPN",
+        "Value": "896822724"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142865500",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:125714917:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/VugAAOSwrhBZDy5E/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/W3kAAOSwrhBZDy5e/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/PHoAAOSw~y9ZDy6P/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/gUkAAOSwuMZZDy6p/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWOT-New-Lilly-Pulitzer-Luggage-Bag-/132190220981",
+  "ConvertedCurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is new without tagsExtra size",
+  "Title": "NWOT New Lilly Pulitzer Luggage   Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Pittsburgh, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "13",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "volodymynepochato-0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "15217",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-12T21:25:49.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P9DT5H14M24S",
+  "EndTime": "2017-06-11T21:25:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lilly Pulitzer"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Style",
+        "Value": "luggege"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Floral"
+      },
+      {
+        "Name": "Features",
+        "Value": "Zipper"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132190220981",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1321902209818080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

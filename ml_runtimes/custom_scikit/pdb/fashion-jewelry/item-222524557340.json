@@ -1,0 +1,80 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P21DT16H18M26S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "emmanuekais-0",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/African-Contemporary-Necklace-and-Bracelets-/222524557340",
+  "QuantitySoldByPickupInStore": "0",
+  "HitCount": "3",
+  "ItemID": "222524557340",
+  "PaymentMethods": "PayPal",
+  "HandlingTime": "3",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T07:00:01.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Necklace",
+        "Name": "Type"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Mixed Colours",
+        "Name": "Color"
+      },
+      {
+        "Value": "Beads",
+        "Name": "Material"
+      },
+      {
+        "Value": "Tanzania, United Republic of",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "African Contemporary Necklace and Bracelets",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "African Contemporary Necklace and Bracelets. Condition is New without tags. Shipped with USPS First Class Package.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "StartTime": "2017-05-28T07:00:01.000Z",
+  "Location": "Birmingham, Alabama",
+  "Quantity": "1",
+  "ConditionID": "1500",
+  "PostalCode": "35209"
+}

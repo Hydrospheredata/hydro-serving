@@ -1,0 +1,135 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:30:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1179400065",
+    "StoreName": "masamall.store"
+  },
+  "CurrentPrice": {
+    "value": "2.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:30:40.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "HK",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "CO",
+    "EC",
+    "PE",
+    "ZM",
+    "TR",
+    "AM",
+    "CN",
+    "GB",
+    "GT"
+  ],
+  "ItemID": "201942396469",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Fashion Womens Watch Stainless Steel Analog Quartz Wrist Watch for Women White",
+  "NewBestOffer": "false",
+  "SKU": "MS.T652-105-80-1",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Womens-Watch-Stainless-Steel-Analog-Quartz-Wrist-Watch-Women-White-/201942396469",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019423964698080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H11M16S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/b3EAAOSwAuNW2a18/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/zLAAAOSwvgdW2a1~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/QLYAAOSwv9hW2a2C/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/fUcAAOSwr7ZW2a2G/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/SMsAAOSwu1VW2a2I/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njg1WDkwMA==/z/SSkAAOSwu1VW2a2L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk4WDkwMA==/z/4koAAOSwwpdW2a2O/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "2.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.8",
+    "FeedbackScore": "25649",
+    "UserID": "masamall",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "1. If you want to return items, do not send back by yourself without contact us.All losses shall be the responsibility of the buyer.Returned items must provide effective tracking number, so that we can as soon as possible after receiving a refund or replacement.2. If you are not satisfied with your purchase, our team will try their best to resolve any issues.3. According to the return of product damage judgment(Man-made or quality).Our return policy is for exchange or money back. You can exchange for the same or different item in similar price.4.You must return items in new or unused condition with all original materials included with the shipment. Buyers are responsible for the shipping cost for return items."
+  }
+}

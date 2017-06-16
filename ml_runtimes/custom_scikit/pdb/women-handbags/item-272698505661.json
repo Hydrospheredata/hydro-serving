@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODMxWDczMg==/z/fFYAAOSwJb9Wq-Es/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODU1WDc1MA==/z/J7UAAOSwoydWq-E3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjcxWDg2OQ==/z/fnEAAOSwJb9Wq-E~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjY3WDkzMg==/z/VRwAAOSwKtlWq-FH/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTIxWDcwNA==/z/W2gAAOSwFqJWq-FP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODM5WDc1MA==/z/ncMAAOSw5dNWq-FX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODY3WDcxNg==/z/V9wAAOSwKtlWq-Fd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/VqAAAOSwFqJWq-Ee/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/WWsAAOSwKtlWq-Fs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/gAcAAOSwFMZWq-Fu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/VVYAAOSwzhVWq-Em/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzIxWDU2Mg==/z/N5wAAOSwGotWq-F0/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BETSEY-JOHNSON-Tote-Bow-Baby-DIAPER-Bag-Striped-/272698505661",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New",
+  "Title": "BETSEY JOHNSON Tote Bow Baby DIAPER  Bag Striped",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Port Orange, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2294",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "whatchaallwant-us"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32127",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:27:27.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P9DT20H8M29S",
+  "EndTime": "2017-06-12T11:27:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon & PVC"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson"
+      },
+      {
+        "Name": "Color",
+        "Value": "Fushia / Black"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272698505661",
+  "Storefront": {
+    "StoreName": "whatchaallwant33",
+    "StoreURL": "http://stores.ebay.com/id=1177176725"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726985056618080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

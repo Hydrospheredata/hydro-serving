@@ -1,0 +1,119 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "64.83",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:57:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1489042427",
+    "StoreName": "bankniwa_shop24"
+  },
+  "CurrentPrice": {
+    "value": "64.83",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:57:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B0058ZZRPU",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "272695276464",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1429",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "1429",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Standard",
+        "Name": "Size"
+      },
+      {
+        "Value": "843836014298",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Wrist Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0701170834043",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Men's 1429 \"II Collection\" 18k Rose Gold-Plated Stainless Steel and",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-1429-II-Collection-18k-Rose-Gold-Plated-Stainless-Steel-and-/272695276464",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726952764648080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "10001",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H52M6S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ3NVgxMDAw/z/GnkAAOSwTA9X34o3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/aloAAOSwLF1X34o4/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzE2WDEwMDA=/z/u9YAAOSw8w1X34o5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQxMlgxMDAw/z/dVQAAOSwOyJX34o7/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "BBB_SHOP 24 Best Quality / Best Service / Best Price Invicta Men's 1429 \"II Collection\" 18k Rose Gold-Plated Stainless Steel and Black Leather Watch Gallery Product Description Features Water resistant to 330 feet (100 M): suitable for snorkeling, as well as swimming, but not divingFunctions include luminescence, stopwatch, and three chronograph sub-dialsWith a bold black dial dressed in rich rose gold and set on a meticulously stitched leather band, this timepiece from the Invicta II collection is sure to make a powerful statement on the wrist.Construction features protective Flame Fusion mineral crystal dial window, brushed and polished 18k rose gold-plated stainless steel case, black leather strap, and black dial with rose gold-tone handsJapanese Quartz movement with analog display Invicta 1429 Black dimensions: 0.59x0.59x0.59 inch. 843836014298 0701170834043 1429 Contact Please contact us by ebay message only. Payment Policy We accept Paypal, Bank transfer, Cash on delivery an Credit Card. Shipping Policy We send: Shipping Handling in USA. The package will be shipped directly from USA with tracking number, and it will take about 05-15 business days. Return Policy 100% Satisfaction Guarantee: If you are not satisfied with the product you purchased for any reason, please contact us for a return instruction within 30 days for a refund. Shipping Handling costs are not refundable. Return shipping cost will be paid by buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "458",
+    "UserID": "bbb_shop24",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Not description"
+  }
+}

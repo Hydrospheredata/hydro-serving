@@ -1,0 +1,97 @@
+{
+  "HandlingTime": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "33.0",
+    "_currencyID": "CAD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "142403817209",
+  "TimeLeft": "P5DT6H57M19S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-03T19:59:53.000Z",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Pins & Brooches",
+  "QuantitySold": "0",
+  "Site": "Canada",
+  "ShipToLocations": [
+    "CA",
+    "Europe",
+    "US",
+    "AU",
+    "JP"
+  ],
+  "PostalCode": "H3Z 1N2",
+  "ConvertedCurrentPrice": {
+    "value": "24.42",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "VINTAGE BEAUTIFUL UNUSUAL BROOCHES SET OF 3 BASKET HORSE & BIRD",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T19:59:53.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "VARIOUS",
+        "Name": "Color"
+      },
+      {
+        "Value": "METAL",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "HORSE BIRD BASKET",
+        "Name": "THEME"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-BEAUTIFUL-UNUSUAL-BROOCHES-SET-3-BASKET-HORSE-BIRD-/142403817209",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Westmount, Quebec",
+  "Description": "HERE WE HAVE A NEAT LOT OF 3 BROOCHES WITH LOVELY COLOURS, THE BASKET AND BIRD ARE MADE OF TIN AND THE HORSE IS MADE OF A HEAVIER METAL. THE BIRD HAS WEAR AS CAN BE SEEN IN THE PHOTO. THE TWO OTHERS ARE IN GRAT CONDITION. NICE COLLECTIBLES.YOU DON'T HAVE TO WAIT UNTIL THE LISTING ENDS ... \"BUY IT NOW\" AND IT'S YOURS!",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424038172098080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bordercollie33",
+    "FeedbackScore": "1035",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "31.82",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "43.0",
+    "_currencyID": "CAD"
+  },
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUyN1gxNTAw/z/1~oAAOSwnHZYcrN-/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "CurrentPrice": {
+    "value": "33.0",
+    "_currencyID": "CAD"
+  }
+}

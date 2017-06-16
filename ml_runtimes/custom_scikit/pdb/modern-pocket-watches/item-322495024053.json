@@ -1,0 +1,245 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "SG",
+    "TW",
+    "TH",
+    "VN",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TM",
+    "UZ"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.6"
+  },
+  "HandlingTime": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjU3WDUwMA==/z/TzwAAOSwrhBZCs~8/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/7GcAAOSw42dZCs~~/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/O0oAAOSw7GRZCtAD/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/7QQAAOSwjL5ZCtAH/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/md8AAOSww9xZCtAK/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/PMwAAOSwnONZCtAN/$_12.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/PUAAAOSwnONZCtAS/$_12.JPG?set_id=8800005007"
+  ],
+  "Site": "Australia",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "Quantity": "31",
+  "QuantitySold": "1",
+  "Seller": {
+    "UserID": "absoluteprincess",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3898",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "StartTime": "2017-04-26T03:03:24.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "h***i",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "156",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "FixedPriceItem",
+  "PrimaryCategoryID": "3938",
+  "Title": "Albert Pocket Watch CHAIN FOB Watch Chain Gold Silver Black - FREE POSTAGE !!!",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322495024053",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Albert-Pocket-Watch-CHAIN-FOB-Watch-Chain-Gold-Silver-Black-FREE-POSTAGE-/322495024053?var=",
+  "Storefront": {
+    "StoreName": "Kids Watches Pocket Watches Toys",
+    "StoreURL": "http://stores.ebay.com/id=227901885"
+  },
+  "Country": "AU",
+  "PostalCode": "2795",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "Manufacturer Part Number"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Impulse Pocket Watches",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Albert Pocket Watch CHAIN FOB Watch Chain Gold Silver Black - FREE POSTAGE !!! Impulse Pocket Watches Product details Albert Pocket Watch Chains - Double Breasted Length of Chains from Clip to Center Button Pin: 30cm each Length from Button Pin to outer ring: 3cm Length of Button Pin: 1.8cm Albert Pocket Watch Chains available in Single and Double Albert Chains. Available in Gold Silver and Gun Metal Colours Specifications SKU PWAlbertChainDouble Brand Impulse Pocket Watches \u00a9 2017 Absolute Watches",
+  "HitCount": "126",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "Double Albert Pocket Watch Chain - Gold",
+            "Double Albert Pocket Watch Chain - Gun Metal",
+            "Double Albert Pocket Watch Chain - Silver"
+          ],
+          "Name": "Select Colour Of Double Albert Pocket Watch Chain"
+        },
+        {
+          "Value": [
+            "Double Albert Pocket Watch Chain - Gold",
+            "Double Albert Pocket Watch Chain - Gun Metal",
+            "Double Albert Pocket Watch Chain - Silver"
+          ],
+          "Name": "Select Colour - Albert Single Pocket Watch Chain"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificName": "Select Colour Of Double Albert Pocket Watch Chain",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Double Albert Pocket Watch Chain - Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/PacAAOSwnONZCtAW/$_12.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Double Albert Pocket Watch Chain - Gun Metal",
+          "PictureURL": "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/VK8AAOSwrhBZCtAa/$_12.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Double Albert Pocket Watch Chain - Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/PjAAAOSwnONZCtAd/$_12.JPG?set_id=8800005007"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "24.95"
+        },
+        "SKU": "AlbertDoubleSilver",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Double Albert Pocket Watch Chain - Silver",
+              "Name": "Select Colour - Albert Single Pocket Watch Chain"
+            },
+            {
+              "Value": "Double Albert Pocket Watch Chain - Silver",
+              "Name": "Select Colour Of Double Albert Pocket Watch Chain"
+            }
+          ]
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "24.95"
+        },
+        "SKU": "AlbertDoubleGold",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Double Albert Pocket Watch Chain - Gold",
+              "Name": "Select Colour - Albert Single Pocket Watch Chain"
+            },
+            {
+              "Value": "Double Albert Pocket Watch Chain - Gold",
+              "Name": "Select Colour Of Double Albert Pocket Watch Chain"
+            }
+          ]
+        },
+        "Quantity": "10"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "AUD",
+          "value": "24.95"
+        },
+        "SKU": "AlbertDoubleGun",
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Double Albert Pocket Watch Chain - Gun Metal",
+              "Name": "Select Colour - Albert Single Pocket Watch Chain"
+            },
+            {
+              "Value": "Double Albert Pocket Watch Chain - Gun Metal",
+              "Name": "Select Colour Of Double Albert Pocket Watch Chain"
+            }
+          ]
+        },
+        "Quantity": "11"
+      }
+    ]
+  },
+  "SKU": "PWAlbertChainDouble",
+  "QuantityAvailableHint": "MoreThan",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-25T03:03:24.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "KELSO",
+  "CurrentPrice": {
+    "_currencyID": "AUD",
+    "value": "24.95"
+  },
+  "TimeLeft": "P24DT8H17M10S"
+}

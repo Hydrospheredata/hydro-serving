@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-2.fishpond.co.nz/0122/506/442/259247510/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gusti-Leder-Studio-Genuine-Leather-Shopper-Ladies-Tote-Shoulder-Handbag-Everyday-/192139037985",
+  "ConvertedCurrentPrice": {
+    "value": "184.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Gusti Leder Studio Genuine Leather Shopper Ladies Tote Shoulder Handbag Everyday Smart Stylish Vintage Accessory Wine Red 2H56-29-3 by Gusti Leder studio Ships from UK Supplier Other information: 2H56-29-3 Related Searches: Gusti Leder Studio Women', Gusti Leder Studio Bags, Bowling Bag Bags Dimensions: 39.0 x 28.5 x 10.0 centimetres Weight: 0.74 kg",
+  "Title": "Gusti Leder Studio Genuine Leather Shopper Ladies Tote Shoulder Handbag Everyday",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "184.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-24T18:23:03.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P20DT2H1M32S",
+  "EndTime": "2017-06-22T18:23:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Gusti Leder studio"
+      },
+      {
+        "Name": "MPN",
+        "Value": "328151047"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139037985",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:122506442:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

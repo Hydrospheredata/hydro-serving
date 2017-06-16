@@ -1,0 +1,194 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1794.11",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Gatwick",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:32:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "CCAccepted"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=86158534",
+    "StoreName": "watchdealers"
+  },
+  "CurrentPrice": {
+    "value": "1395.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:32:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "EE",
+    "HU",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "MK",
+    "MD",
+    "ME",
+    "PL",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "PO Box"
+  ],
+  "ItemID": "182600229137",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TAG Heuer",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Luxury: Dress Sports",
+        "Name": "Style"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Rubber",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "2017",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Unworn 2017 men's Tag Heuer F1 Black Steel ref WAZ2112 box & card - UK SELLER",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Unworn-2017-mens-Tag-Heuer-F1-Black-Steel-ref-WAZ2112-box-card-UK-SELLER-/182600229137",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826002291378080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "RH6 0PA",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H25M7S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY5WDgwMA==/z/4G0AAOSwTuJYpWeD/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzMxWDgwMA==/z/SAEAAOSwax5YpWbK/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njc4WDgwMA==/z/2~8AAOSwWxNYpWbf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njc5WDgwMA==/z/50kAAOSwWxNYpWcS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUzWDgwMA==/z/0CMAAOSwTuJYpWcp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Njk3WDgwMA==/z/5JEAAOSwB-1YpWb5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQ3WDgwMA==/z/YS0AAOSwCU1YpWc-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDgwMA==/z/uG0AAOSw2gxYpWdV/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzIwWDgwMA==/z/3FUAAOSwTuJYpWdr/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQ3WDgwMA==/z/x-oAAOSw2gxYpWeW/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTcwWDgwMA==/z/Fh0AAOSw4A5YpWem/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzI1WDgwMA==/z/DOcAAOSwWxNYpWe4/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Watches, Jewellery, Diamonds, Trade & Public Supplied Customer Care 01342 317536 07710 444459 Shop homeJoin mailing listAbout usShippingAdd to favouritesTerms & conditions Shop Categoriesfeatured items Unworn 2017 men's Tag Heuer F1 Black Steel ref WAZ2112 box & card Ask A Question Watch This Item Tell A Friend See Our Feedback Price \u00a3 1,395.00 BUY NOW Make Offer Reasons to choose us Money back guaranteeFree world wide shippingTrading on Ebay since 2003Business established 1975Trade and public servedWorld wide reputationBest after sales servicePassionate about watchesLong term Ebay feedbackProven historyPayPal acceptedPersonal viewing welcome Item description and images of actual object for sale are below Unworn 2017 Tag Heuer Formula 1 (41mm) Caliber 5 automatic reference WAZ2112.FT8023 In a 41mm Black Steel & Titanium case and Rubber strap. This beautiful watch has a Black dial and is a very stylish accessory for gentleman for any occasion. This watch comes with a Tag Heuer International Warranty and all original box, papers and accessories from February 15th 2017. Seven day money back guarantee but watch must remain unworn. List price \u00a31,675 Overseas buyers please contact me before purchasing as the weight of this box means a small extra charge for delivery. FREE shipping within the United Kingdom... Please take time to review my sales history and feedback for your complete confidence and safety. Thank you for looking, Paul.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2464",
+    "UserID": "watchdealers",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

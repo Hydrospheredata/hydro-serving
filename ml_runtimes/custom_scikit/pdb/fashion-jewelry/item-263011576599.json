@@ -1,0 +1,120 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "91.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263011576599",
+  "PrimaryCategoryID": "63852",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "ConvertedCurrentPrice": {
+    "value": "91.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:10970",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ConvertedBuyItNowPrice": {
+    "value": "139.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630115765998080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "k8tlenjams",
+    "FeedbackScore": "715",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/uOcAAOSwfRdZJSUU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/ByMAAOSwi7RZIkx4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjgyWDQ1MA==/z/tw0AAOSwPh5ZIkyF/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "TimeLeft": "P1DT2H32M34S",
+  "StartTime": "2017-05-30T17:09:30.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "91.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "10970",
+  "HitCount": "56",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "value": "139.99",
+    "_currencyID": "USD"
+  },
+  "HandlingTime": "1",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Stella-Dot-Colorful-Taj-Clutch-100-Authentic-and-SOLD-OUT-NOW-/263011576599",
+  "EndTime": "2017-06-06T17:09:30.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stella and Dot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Clutch",
+        "Name": "Style"
+      },
+      {
+        "Value": "8 1/4\"",
+        "Name": "Bag Height"
+      },
+      {
+        "Value": "12 1/2\"",
+        "Name": "Bag Length"
+      },
+      {
+        "Value": "Multi-Colored",
+        "Name": "Pattern"
+      },
+      {
+        "Value": "Magnetic Snap",
+        "Name": "Closure"
+      }
+    ]
+  },
+  "Title": "NEW Stella & Dot Colorful Taj Clutch 100% Authentic and SOLD OUT NOW",
+  "Location": "California",
+  "Description": "This boho inspired, fringe trimmed clutch is the ultimate Summer statement. Hand woven in India. Measurements: 8 1/4\" Height x 12 1/2\" LengthExterior: Multi-colored cotton handloom fabricInterior: 1 large open pocket with 6 credit card slotsLining: PolyesterHardware: Gold magnetic snap closure 100% Authentic Stella and Dot This Taj Clutch sold out in record time and is back ordered until mid - July!! You can have it now!!!",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1"
+}

@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:36:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:36:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245807574",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Emporio Armani",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Emporio Armani Women's AR0644 Charcoal Grey Dial Black Leather Watch",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Emporio-Armani-Womens-AR0644-Charcoal-Grey-Dial-Black-Leather-Watch-/332245807574",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322458075748080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H28M58S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODk4WDUwOA==/z/CbkAAOSwSlBYtkQZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODk3WDg5OA==/z/Su8AAOSwOgdYr3lX/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Emporio Armani is famed for its high octane designs, but if you can\u2019t stretch to the frocks, its hugely popular watch collections should be your next port of call. We love the simple look of this bracelet watch.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 The stylish\u00a0design exudes elegance while the small round face with leather strap adds to the brand\u2019s signature glamour. \u00a0 \u00a0 \u00a0 \u00a0 ABOUT ME \u00a0 \u00a0 \u00a0 \u00a0 Model: AR0644 Warranty: 2 Years International Case: Stainless Steel Strap: Leather Case Width: About 35mm Fastening: Buckle Movement: Quartz Gender: Ladies Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

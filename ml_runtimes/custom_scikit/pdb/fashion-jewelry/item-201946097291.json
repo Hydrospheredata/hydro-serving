@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT3H46M36S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent condition! Lightly used after storage.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201946097291",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/authenic-CHRISTIAN-DIOR-earring-clips-and-two-pendants-the-set-3-units-/201946097291",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T15:44:52.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "RU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T15:44:52.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Christian Dior",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pearl imitation",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "authenic CHRISTIAN DIOR earring clips and two pendants (the set 3 units)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "CHRISTIAN DIOR set includes earring clips and 2 pendants. 3 units. 1-st pendant - DIOR. Length of pendant's chain is 435 mm (or 17.4 inches) 2-nd pendant - D'Orlan (Canada). Length of pendant's chain is 440 mm (or 17.6 inches). The both pendants have artificial pearl and diamond imitation. Exellent condition. Lightly used after storage.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019460972918080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "avlasim2010",
+    "FeedbackScore": "97",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "Kurgan, Kurganskaya oblast",
+  "HitCount": "9",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc2/z/D7MAAOSwBt5ZNCrD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/8iUAAOSwDiBZNCrE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/UOUAAOSwAPVZNCrG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/SiAAAOSwPh5ZNCrG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/k3oAAOSwtGlZNCrI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/2EMAAOSwi7RZNCrK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/wqgAAOSw~y9ZNCrQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/ElkAAOSw-K9ZNCrQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/1o4AAOSwCQZZNCrU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/k~0AAOSwtGlZNCrV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/Ld4AAOSwKytZNCrW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/oT4AAOSwlMFZNCrZ/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets"
+}

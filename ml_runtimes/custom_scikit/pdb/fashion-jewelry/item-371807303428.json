@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P28DT15H3M11S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "BR",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "87.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371807303428",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Harley-Davidson-Womens-Studded-Rhinestones-Woven-Leather-Wrist-Cuff-SZ-M-L-/371807303428",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "87.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-12-06T05:14:15.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T05:14:15.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Harley-Daivdson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Studded with Rhinestones",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Studded with Rhinestones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Harley-Davidson\u00ae Womens Studded with Rhinestones Woven Leather Wrist Cuff SZ~M/L",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HDWCU10777 - Harley-Davidson\u00ae Womens Jade Interwoven with Rhinestones Black Leather Wrist Cuff by LODIS size m/L \u2022 Polished nickel finish hardware \u2022 Interwoven leather with rhinestones \u2022Very Secure Magnetic ClosureJust beautiful & sexy perfect gift for any one special in your life Officially Licensed Harley-Davidson\u00ae Product by Lodis Accessories, Inc.",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3718073034288080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tcs7273",
+    "FeedbackScore": "1252",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "SANDY&#39;SGREATLOOKSFORLESS",
+    "StoreURL": "http://stores.ebay.com/id=201920187"
+  },
+  "Quantity": "4",
+  "Location": "Bloomington, California",
+  "HitCount": "118",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjMyWDY0MA==/z/p-oAAOSw4GVYRkna/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE4WDYwNw==/z/jwQAAOSw5cNYRknd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjE1WDYyNQ==/z/84YAAOSwA3dYRkne/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgzWDYwNw==/z/MFwAAOSwB09YRknZ/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92316"
+}

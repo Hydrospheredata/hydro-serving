@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/Vf0AAOSwoMZXETw9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/6c4AAOSw7KJXETxC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/o1YAAOSwKmlXETxJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GUESS-Travel-Thurston-Deluxe-Shopper-Tote-/182595880478",
+  "ConvertedCurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "GUESS Travel Thurston Deluxe Shopper Tote \u2022 4G Printed Saffiano Pvc \u2022 Vachetta PU trim and shiny silver hardware \u2022 Top carry handles with wrap \u2022 Rear Add-a-Bag sleeve that slips over extended luggage handles for hands free mobility \u2022 Detachable ID tags \u2022 Fully lined interior with GUESS printed logo \u2022 Interior features padded laptop compartment and tablet sleeve Dimensions 18.0\" x 7.0\" x 14.0\"",
+  "Title": "GUESS Travel Thurston Deluxe Shopper Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Coram, New York",
+  "Seller": {
+    "FeedbackScore": "815",
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "dawayoutz"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11727",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-28T15:42:16.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P5DT44M23S",
+  "EndTime": "2017-06-07T15:42:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Guess"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shopper Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "885935852159"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182595880478",
+  "Storefront": {
+    "StoreName": "dawayoutz",
+    "StoreURL": "http://stores.ebay.com/id=40076213"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825958804788080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

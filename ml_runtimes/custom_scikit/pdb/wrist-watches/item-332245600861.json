@@ -1,0 +1,90 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "54.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:29:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "54.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:29:44.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245600861",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "DKNY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "DKNY 3-Hand Chronograph with Date Women's watch #NY8581",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DKNY-3-Hand-Chronograph-Date-Womens-watch-NY8581-/332245600861",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322456008618080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H6M46S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODYwWDUwMA==/z/lEEAAOSwCU1Y2yH9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjkzWDUwMA==/z/W3cAAOSwuLZY2yIF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzUwWDUwMA==/z/XPUAAOSwuLZY2yIQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTM1WDU5MQ==/z/M9UAAOSw2gxY2yIp/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Product Dimensions3.7 x 3.7 x 3.4 inches Item Weight1 pounds Shipping Weight9.6 ounces Departmentwomens ManufacturerDKNY ASINB007I80MVY Manufacturer referenceNY8581 Best Sellers Rank6101283 Date first available at Amazon.comSeptember 22, 2012 Product specifications Watch Information Brand, Seller, or Collection NameDKNY Model numberNY8581 Part NumberNY8581 Item ShapeRound Dial window material typeMineral Crystal Display TypeAnalog ClaspBuckle Case materialSilver Tone Stainless Steel Case diameter42 Band MaterialSilicone Band lengthWomen's Standard Band width11 Band ColorBrown Dial colorSilver Tone Bezel materialSilver Tone Stainless Steel Bezel functionStationary CalendarDate Special featuresChronograph Function, Measures Seconds Item weight16 Ounces MovementQuartz Water resistant depth50 Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

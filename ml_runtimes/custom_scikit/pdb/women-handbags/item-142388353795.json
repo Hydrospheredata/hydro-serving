@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTU1WDY0Mg==/z/kGEAAOSwMNxXarWB/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDMyWDUwMA==/z/ktYAAOSwMNxXarWO/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LULULEMON-WUNDER-UNDER-CROPS-BLACK-DENIM-SIZE-10-/142388353795",
+  "ConvertedCurrentPrice": {
+    "value": "101.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": null,
+  "Title": "LULULEMON WUNDER UNDER CROPS IN BLACK DENIM SIZE 10",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "101.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Salt Spring Island, British Columbia",
+  "Seller": {
+    "FeedbackScore": "685",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "pinkhibiscus12"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "v8k 1p4",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-19T21:38:44.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P16DT4H56M33S",
+  "EndTime": "2017-06-18T21:38:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lululemon"
+      },
+      {
+        "Name": "Style",
+        "Value": "crops"
+      },
+      {
+        "Name": "Size Type",
+        "Value": "REG"
+      },
+      {
+        "Name": "Size (Women's)",
+        "Value": "10"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142388353795",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423883537958080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

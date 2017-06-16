@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3223548781648080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/hpYAAOSwcUBYSwLC/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kalencom-Elite-Baby-Diaper-Bag-Pizzazz-Amber-Color-Pizzazz-Amber-Model-2975-/322354878164",
+  "ConvertedCurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "THE-FASHION-SCOOP Kalencom Elite Baby Diaper Bag, Pizzazz Amber Color, Pizzazz Amber Model, 2975 Click Below Images to Enlarge PRODUCT DESCRIPTION A magnetic clip keeps the top flap closed. Water repellant exterior and interior easily wipes clean. Roomy interior with\u00c2\u00a0pockets. Adjustable shoulder strap. Attached stroller straps. 2 outside pockets. Matching thinsulate insulated bottle bag. Coordinating zippered pouch. Large fold-out padded changing pad. Kalencom Diaper Bags are AZO free. We use no phthalates/DEHP, or DBP in our PVC. </",
+  "Title": "Kalencom Elite Baby Diaper Bag, Pizzazz Amber Color, Pizzazz Amber Model, 2975",
+  "ExcludeShipToLocation": "Alaska/Hawaii",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "98.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Avondale Estates, Georgia",
+  "Seller": {
+    "FeedbackScore": "823",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "the-fashion-scoop"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30002",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-12-09T19:15:16.000Z",
+  "HitCount": "60",
+  "TimeLeft": "P5DT3H41M31S",
+  "EndTime": "2017-06-07T19:15:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kalencom"
+      },
+      {
+        "Name": "MPN",
+        "Value": "ERZB-70940224"
+      },
+      {
+        "Name": "UPC",
+        "Value": "088161750705"
+      },
+      {
+        "Name": "Site Price",
+        "Value": "98.00"
+      },
+      {
+        "Name": "List Price",
+        "Value": "98.00"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322354878164",
+  "Storefront": {
+    "StoreName": "the-fashion-scoop",
+    "StoreURL": "http://stores.ebay.com/id=1389056348"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "BH-2975-AMBER",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

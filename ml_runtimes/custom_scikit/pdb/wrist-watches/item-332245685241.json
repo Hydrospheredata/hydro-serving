@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1995.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:13:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=98147286",
+    "StoreName": "Genuine Watches"
+  },
+  "CurrentPrice": {
+    "value": "1995.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:13:15.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245685241",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Movado",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "0606816",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Swiss Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "0606816",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "$1,995.00",
+        "Name": "Retail"
+      },
+      {
+        "Value": "Movado",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "*BRAND NEW* Movado Women's Analog Gold-Tone Watch 0606816",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-Movado-Womens-Analog-Gold-Tone-Watch-0606816-/332245685241",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322456852418080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "11209",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H56M4S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDU4MA==/z/nKEAAOSwuzRXe4ab/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Product Features:28mm case diameterSwiss quartz movement30 meters water resistanceSapphire crystalTHIS BRAND NEW Movado WATCH COMES WITH THE Movado FACTORY WARRANTY AND THE ORIGINAL Movado WATCH BOX. \"WE ARE AN AUTHORIZED MOVADO DEALER. ALL OUR MOVADO WATCHES ARE 100% AUTHENTIC WITH THEIR TAGS AND SEALING ON THEM.\" ***30 Days Return Policy w/ No Restocking Fee*** ***FREE SHIPPING to all the states*** Important Points To Know About GENUINE_WATCHES:All our brand name watches are brand new, 100% authentic.We are an authorized dealer for all the brands we are marketing. Therefore, all the stamped warranty cards by our company are valid in USA and all over the world.Sold items come with their original boxes, original factory warranty cards, original tags and sealing on them.Sold items ship the latest within 3 business days after the payment gets cleared. We offer free USPS Parcel Post which takes about 5-7 business days after shipment. We also offer USPS Priority Mailing (2-3 business days) and USPS Express Mailing (1 business day) for a small additional charge.Do not hesitate to contact us with any inquiries. We answer all the emails within 24 hours.Returns can be made within 30 days after receiving the item. After inspecting the item, 100% full payment will be refunded to buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4175",
+    "UserID": "genuine_watches",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

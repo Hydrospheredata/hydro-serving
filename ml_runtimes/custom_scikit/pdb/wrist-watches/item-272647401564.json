@@ -1,0 +1,274 @@
+{
+  "ExcludeShipToLocation": [
+    "CN",
+    "DE",
+    "IT",
+    "HK",
+    "MO",
+    "TW",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "joystone4u",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "28077",
+    "PositiveFeedbackPercent": "98.4"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:180246",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-04-28T22:17:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/TFkAAOSwGotWj~xZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/LTsAAOxyKsZRzUWO/$(KGrHqYOKo8FGsqeq!4lBRzUWObNR!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jgwAAOSwYIhWj~xO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/6TYAAOSwaA5Wj~xS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jxEAAOSwYIhWj~xW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Ql4AAOSwZG9Wj~xb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/fokAAOSwKtlWj~yG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/040AAOSwoydWj~yI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODgwWDg4MA==/z/vr0AAOSwa-dWj~yN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/v1QAAOSwFqJWj~yQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8YAAAOSwT~9Wj~yS/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "4",
+  "SecondaryCategoryID": "180246",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "PU",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion/Cool",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "China",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "D",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "SKU": "9626-9847",
+  "HitCount": "57",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T22:17:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "Country": "HK",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "Black (Cool)",
+            "White (Concise)"
+          ],
+          "Name": "Dial Color Choose"
+        },
+        {
+          "Value": "3 Dials Movement",
+          "Name": "Feature"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificName": "Dial Color Choose",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "White (Concise)",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0HoAAOxyrUZRzUYc/$(KGrHqNHJCUFGmtkfJbvBRzUYcdNrw~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/IJAAAOxy9bxRzUYc/$T2eC16NHJIkE9qU3jc)0BRzUYb0nQw~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0H4AAOxyrUZRzUYd/$(KGrHqR,!n4FGvGwh0iCBRzUYdW8F!~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2CMAAMXQzopRzUYd/$(KGrHqN,!p8FG5ys)(l6BRzUYdl+yw~~60_1.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Black (Cool)",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/vxsAAMXQO21RzUXW/$T2eC16dHJGQFFhwB4fJKBRzU(WgBng~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/12kAAMXQzopRzUXT/$(KGrHqNHJE!FGv1CVnp1BRzU(S3Tmw~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/FI0AAOxyOeBRzUXR/$(KGrHqR,!ngFBg15gO,hBRzU(RJq7g~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Qa0AAOxycSdRzUXS/$T2eC16hHJHsFGl,Ve6FvBRzU(R8qf!~~60_1.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3LIAAMXQQQZRzUXV/$T2eC16F,!)0E9s37FbYKBRzU(U0Y+Q~~60_1.JPG?set_id=880000500F"
+          ]
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "9.99"
+        },
+        "SKU": "9626",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "Black (Cool)",
+              "Name": "Dial Color Choose"
+            },
+            {
+              "Value": "3 Dials Movement",
+              "Name": "Feature"
+            }
+          ]
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "_currencyID": "USD",
+          "value": "9.99"
+        },
+        "SKU": "9847",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "White (Concise)",
+              "Name": "Dial Color Choose"
+            },
+            {
+              "Value": "3 Dials Movement",
+              "Name": "Feature"
+            }
+          ]
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "V6 Brand Top 3 Movement Design Casual Sports Quartz Men's Wrist Watch Relojes",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/V6-Brand-Top-3-Movement-Design-Casual-Sports-Quartz-Mens-Wrist-Watch-Relojes-/272647401564?var=",
+  "Storefront": {
+    "StoreName": "happy-deal-store",
+    "StoreURL": "http://stores.ebay.com/id=1112382357"
+  },
+  "ItemID": "272647401564",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Other Watch Parts & Tools",
+  "TimeLeft": "P27DT1H4M36S"
+}

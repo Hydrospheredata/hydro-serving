@@ -1,0 +1,261 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "PT8H44M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "322507596466",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bamboo-Wooden-Watches-Men-Women-Wood-Quartz-Watch-Silicone-Strap-Band-New-2017-/322507596466?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-06T22:49:23.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-05T22:49:23.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Watch Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Extra Black Band",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1wUAAOSwhvFZDlIJ/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Extra White Band",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/SE4AAOSwBt5ZDlIM/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Extra Orange Band",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/kYsAAOSw42dZDlIV/$_57.JPG?set_id=8800005007"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Extra Black Band",
+          "Extra White Band",
+          "Extra Orange Band"
+        ],
+        "Name": "Watch Color"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Extra Black Band",
+            "Name": "Watch Color"
+          }
+        },
+        "StartPrice": {
+          "value": "31.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Extra White Band",
+            "Name": "Watch Color"
+          }
+        },
+        "StartPrice": {
+          "value": "31.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Extra Orange Band",
+            "Name": "Watch Color"
+          }
+        },
+        "StartPrice": {
+          "value": "31.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bamboo",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Fashion & Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Buckle",
+        "Name": "Clasp Type"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "25cm",
+        "Name": "Band Length"
+      },
+      {
+        "Value": "Silicone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Bamboo Wooden China",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Wood + Silicone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "None",
+        "Name": "Feature"
+      },
+      {
+        "Value": "Silicone",
+        "Name": "Band Material Type"
+      },
+      {
+        "Value": "No waterproof",
+        "Name": "Water Resistance Depth"
+      },
+      {
+        "Value": "Men",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "BOBO BIRD",
+        "Name": "Brand Name"
+      },
+      {
+        "Value": "Quartz Wristwatches",
+        "Name": "Item Type"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Dial Diameter"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Round",
+        "Name": "Case Shape"
+      },
+      {
+        "Value": "Paper",
+        "Name": "Boxes & Cases Material"
+      },
+      {
+        "Value": "Wood + Silicone",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "AS a photo",
+        "Name": "Color"
+      },
+      {
+        "Value": "other",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "fashion",
+        "Name": "Theme"
+      },
+      {
+        "Value": "other",
+        "Name": "Main Stone Treatment"
+      }
+    ]
+  },
+  "Title": "Bamboo Wooden Watches Men Women Wood Quartz Watch Silicone Strap Band New 2017",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Oceania",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "You will get a extra band as gift. Please choose when you order!1. Fashion design wood watch2. Unique design, fashion people's favourite3. Made by 100% natural wood, take care of your healthy be-well Eco-Friendly watches4. Protect your watch from water5. Accept OEM your logo Note: Due to 100% natural wooden, there maybe some spots of the wood, but not a quality problem. Color of the pictures may be a little differ from watches you get because of the 100% natural material. Package:1 X watch1 X box1X extra bandIf you have any questions, you could contact us at any time About Payments:We accept PayPal only. We only ship item to your PayPal verified address. About Shipment:Most times you will receive your order within 15-35 business days after we transfer your package (some countries like Russia, Brazil, or some other countries may take up to 60 days or longer for delivery). Customs duty is obligation and liability of a citizen in your country, so buyer should be responsible for any tax and custom duty incurred. Please contact us before ordering to confirm that we are able to ship item to your address. About Feedback:We greatly appreciate your POSITIVE feedback. Our aim is to provide Top Level Customer Service, so we will try our best to solve any problem! Enjoy shopping!",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "summertime197907",
+    "FeedbackScore": "115",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "3",
+  "Location": "Hong Kong",
+  "HitCount": "28",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/js0AAOSw42dZDlHy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/1G8AAOSwhvFZDlH0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/wscAAOSwnONZDlH2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/1vkAAOSww9xZDlH6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/P5oAAOSwR29ZDlH7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/~0wAAOSwONBZDlH-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ttsAAOSwrhBZDlH~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/kLEAAOSw42dZDlIK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ifkAAOSwK6RZDlIR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/RJkAAOSw-3FZDlIX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/kfUAAOSw42dZDlIc/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MkEAAOSwAPVZDlJT/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

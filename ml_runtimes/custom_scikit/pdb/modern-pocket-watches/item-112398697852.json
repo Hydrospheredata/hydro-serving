@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "84043",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Brand New Q Collection Genuine Cats Eye Men's Pocket WatchBrand New Watch - Old Stock14\" ChainApproximately 2\" in diameterOld Stock - Needs New BatteryHingedQ Collection BrandQuartzChina MovementGenuine Cats Eye Casing Numeric Numbers DisplayComes in Gold Jewelry Box",
+  "StartTime": "2017-05-07T03:33:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMTMy/z/PpMAAOSw-0xYR153/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg4MTA=/z/QvIAAOSwImRYR15z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFg5NjU=/z/PvEAAOSw-0xYR156/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMDU1/z/PLQAAOSw2xRYR158/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Q Collection",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "a_plus_stuff-4-sale",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "65",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "20",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1123986978528080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-06T03:33:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Q-Collection-Genuine-Cats-Eye-Hinged-Pocket-Watch-China-Movement-NIB-/112398697852",
+  "Location": "Lehi, Utah",
+  "Title": "Q Collection Genuine Cats Eye Hinged Pocket Watch China Movement **NIB**",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "112398697852",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT8H49M45S"
+}

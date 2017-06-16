@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jadeemporium",
+    "FeedbackScore": "26577",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P17DT2H54M36S",
+  "ListingStatus": "Active",
+  "ConditionID": "1500",
+  "ConditionDescription": "BRAND NEW",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "75.6",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302118116516",
+  "SecondaryCategoryID": "110399",
+  "ConvertedCurrentPrice": {
+    "value": "75.6",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "SecondaryCategoryIDPath": "281:10968:15124:110399",
+  "BidCount": "0",
+  "StartTime": "2016-10-25T16:47:56.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Solid-14k-Yellow-Gold-Dolphin-CZ-Toe-Ring-/302118116516",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-22T16:47:56.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Solid 14k Yellow Gold Dolphin CZ Toe Ring",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Honolulu, Hawaii",
+  "Description": "DESCRIPTION: This is a solid 14k yellow gold dolphin with 2 CZ toe ring. Ring band measures about 1 to 2mm. Toe ring weighs about 1.2 to 1.3 grams. Item(s) enlarged to show detail. Merchandise is brand new.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3021181165168080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "Storefront": {
+    "StoreName": "Jade Emporium",
+    "StoreURL": "http://stores.ebay.com/id=68057968"
+  },
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$T2eC16V,!zEE9s3!Y(10BQo!DR)Myw~~60_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqN,!pcFB(jUE6VBBQo!DeCYLg~~60_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings"
+}

@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529684193388080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzk1WDM5NQ==/z/e98AAOSwfRdZL9qY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzk1WDM5NQ==/z/SVoAAOSwcgNZL9qY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzk1WDM5NQ==/z/qp8AAOSwX61ZL9qY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzk1WDM5NQ==/z/ugoAAOSwi7RZL9qY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzk1WDM5NQ==/z/AnQAAOSwJH1ZL9qY/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BergHOFF-Trolley-Bags-Assorted-Big-Cart-Vibe-Bags-Set-4-/252968419338",
+  "ConvertedCurrentPrice": {
+    "value": "149.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Make shopping easy with BergHOFF Trolley Bags. These handy bags easily attach to your shopping cart to make sorting easy. Simply place your items in the corresponding, color-coded bag and you re good to go. Use the BergHOFF Trolley Bags Express Vibe Bags for easy shopping experiences *Set of 4 | Color coded design helps you know where all of your groceries should go *Attaches to your shopping cart for easy use *Polyester construction | Imported *Measures 25.59 L x 11.02 W x 21.65 H SKU:EDIB01N5KASN8 Features Model:N/A Item Weight:N/ASize:N/AItem Dimensions:N/A UPC:686906663015</p",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "149.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "67",
+    "PositiveFeedbackPercent": "94.7",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "ergode2016"
+  },
+  "PrimaryCategoryID": "169302",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "BergHOFF Trolley Bags Assorted Big Cart Vibe Bags | Set of 4",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T09:12:52.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P28DT15H57M8S",
+  "EndTime": "2017-07-01T09:12:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Berghoff"
+      },
+      {
+        "Name": "SKU",
+        "Value": "EDIB01N5KASN8"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "686906663015"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252968419338",
+  "Storefront": {
+    "StoreName": "ergode2016",
+    "StoreURL": "http://stores.ebay.com/id=1488101724"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Any item returned to us without RMA will be refused and returned to sender. Be sure to properly package your return (double box) to avoid damage. We DO NOT accept any product that is returned incomplete or in a less than brand new condition as described above. Customers are responsible for shipping and insuring their package, at full value. Shipping must be with a reputable carrier with an on-line tracking system. Packages lost, stolen or damaged during a return to us are the responsibility of the customer. All items returned for repair will be returned to the customer at the customer's expense. Shipping charges will apply. - Please do not request an RMA# for defective merchandise, if you have not 'bench tested' the unit and are sure the defect is associated with the unit itself. Upon receipt, our technical staff will attempt to duplicate the defect you are describing**. In addition, when exchanging an item, the return shipping must be prepaid by the customer. If the item is being returned for reasons such as Buyer\u2019s Remorse, Accidental Order, Cancellation after ship out (and/or after processed), no longer needed/wanted, etc. Outbound shipping which may have been free originally will be deducted as we pay for shipment while shipping the products to our customers. Please note that there is a restocking fee of 20% Refunds: All returns for refund are subject to a minimum 20% restocking fee. Shipping and handling charges are NOT refundable. Please allow up to 2 weeks for your refund to be processed. All refunds will be issued in the same manner that payment was received.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "EDIB01N5KASN8",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

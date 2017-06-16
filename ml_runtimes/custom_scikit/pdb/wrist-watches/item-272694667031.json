@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6850.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Tel Aviv",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:16:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=931611423",
+    "StoreName": "vtg-watches"
+  },
+  "CurrentPrice": {
+    "value": "6850.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:16:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694667031",
+  "HandlingTime": "1",
+  "Description": "Rolex Submariner 300m 16613Oyster 18K Solid Gold/SS Two Tone Chronometer About meLifelong watch collector with a passion for vintage watches. Collects, repairs and restores classic watches.This watch comes out of my Private collection. Description Up for sale is a magnificent Rolex Submariner two tone watch made out of 18K solid gold and stainless steel.this watch does show some wear but the overall condition is fantastic. this watch was fully serviced in march 2016. comes with original box. Manufacturer: Rolex Movement: Automatic Case Metal: Two tone - 18K Yellow Gold/SS Band: Original Rolex Shipping WorldWide.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rolex Submariner 16613 300m Submariner Oyster Mens Chronometer 18K Watch + Box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rolex-Submariner-16613-300m-Submariner-Oyster-Mens-Chronometer-18K-Watch-Box-/272694667031",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726946670318080_1.jpg",
+  "HitCount": "10",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT15H44M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5akAAOSw44BYSVeg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ1MFgxNjAw/z/F~wAAOSw5cNYSVen/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/FewAAOSw5cNYSVeZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/-U4AAOSwo4pYSVec/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/oDwAAOSwa~BYSVej/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzOFgxNjAw/z/oR8AAOSwa~BYSVeq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1OVgxNjAw/z/PjIAAOSwEzxYSVet/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/~WgAAOSwo4pYSVe3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/57QAAOSw44BYSVez/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/u6kAAOSwA3dYSVe7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/VT0AAOSwtpZYSVfB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4MVgxNjAw/z/P5IAAOSwB09YSVfH/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "6850.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.0",
+    "FeedbackScore": "526",
+    "UserID": "vtg-watches",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns are accepted if item is not working or not as described"
+  }
+}

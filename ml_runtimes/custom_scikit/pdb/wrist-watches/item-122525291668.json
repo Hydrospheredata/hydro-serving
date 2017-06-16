@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Peachtree City, Georgia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:13:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=95582730",
+    "StoreName": "Collectibles books and more"
+  },
+  "CurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:13:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "Jacques Prevard Watch Here is an elegant-looking gold-tone Jacques Prevard Ladies Wristwatch, Model 4-843901 (movement made in Japan for Citizen) with gold-tone metallic bracelet. Oval case measures about 13 x 17mm, and watch and bracelet about 7 inches. Watch was tested with a spare battery, which is not included, and works very well. Crystal has a couple of hard to see scratches (please scroll down for additional photos) Shipped same or next business day; Combined purchases shipped at exect cost.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122525291668",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jacques Prevard (Citizen)",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "13 x 16mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "4-843901",
+        "Name": "Model"
+      },
+      {
+        "Value": "652297",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Elegant CITIZEN JACQUES PREVARD LADIES WRISTWATCH, Model 4-843901",
+  "ConditionDescription": "Please scroll down for complete description. Watch works well and looks good",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elegant-CITIZEN-JACQUES-PREVARD-LADIES-WRISTWATCH-Model-4-843901-/122525291668",
+  "ListingType": "Chinese",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225252916688080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "30269",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H4M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AYQAAOSw42JZLstE/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4VgAAOSwX61ZLszH/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MrEAAOSw9OFZLsz2/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KpUAAOSwY3BZLs0x/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NPEAAOSwblZZLs1o/$_1.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3874",
+    "UserID": "edge1944",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

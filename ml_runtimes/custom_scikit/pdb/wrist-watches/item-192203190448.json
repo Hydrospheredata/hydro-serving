@@ -1,0 +1,114 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "28.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Horicon, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:29:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173392934",
+    "StoreName": "A-2-Z Limitless"
+  },
+  "CurrentPrice": {
+    "value": "28.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:29:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "192203190448",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Armitron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NEW Armitron Mens Black Ion-Plated Stainless-Steel Dress Watch$94.00 20/4872T1",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Armitron-Mens-Black-Ion-Plated-Stainless-Steel-Dress-Watch-94-00-20-4872T1-/192203190448",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922031904488080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "53032",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H2M56S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY0/z/ZPUAAOSwcu5UOyk1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY0/z/E4sAAOSwDN1UOyk7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/ZccAAOSwcu5UOyk~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/lp8AAOSwr81UOylC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/BHoAAOSwAHZUOylG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/AkcAAOSwU9xUOylJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/AscAAOSwU9xUOylP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY0/z/Z5kAAOSwcu5UOylU/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Mns Rnd Black IP Bracelet Black Dial Day/Date Product Features: 42 mm BLACK IP cushion shaped case with round dial Black dial with silver-tone Arabic 3, 6, 9 & 12 and luminous filled round markers at all other hours Day and date function window at 3 oclock position luminous filled silver-tone hour, minute and second hands Adjustable link Black IP bracelet with double push button fold over clasp Water-resistant to 50 M (165 feet) Dimensions (in): 2.90 X 3.80 X 3.20",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2858",
+    "UserID": "taczann",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

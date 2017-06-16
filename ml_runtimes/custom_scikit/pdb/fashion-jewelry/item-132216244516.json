@@ -1,0 +1,173 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT19H46M48S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent previously owned as shown.  Please read description!",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "132216244516",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T05:34:16.000Z",
+  "Site": "US",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TARINA-TARANTINO-Iconic-Celebrity-Swarovski-Crystal-Skull-Skull-Stretch-Bracelet-/132216244516",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T05:34:16.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tarina Tarantino",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Stretch Bracelet",
+        "Name": "Style"
+      },
+      {
+        "Value": "Blue/Grey",
+        "Name": "Color"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Material"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Crystal / Rhinestone",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "TARINA TARANTINO Iconic Celebrity Swarovski Crystal Skull Skull Stretch Bracelet",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "KH",
+    "ID",
+    "LA",
+    "TH",
+    "VN",
+    "BM",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "CY",
+    "GI",
+    "GR",
+    "GG",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "UA"
+  ],
+  "Location": "Mission Viejo, California",
+  "Description": "This is a highly collectible stretch bracelet in skull design with Swarovski crystal rhinestones and beads by Tarina Tarantino. The bracelet is 1 inch (2.5 cm) wide. Each Rectangular link is 2.5 cm tall by 1.8 cm wide. There are a total of 8 skull beads with blue crystal beads in between. Since it is a stretch bracelet and it will fit most wrists. It weighs 32.4 grams. It is in excellent previously owned condition as shown. * * * Non-smoking environment! * * * Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322162445168080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "oldunusualthings",
+    "FeedbackScore": "10734",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "oldunusualthings",
+    "StoreURL": "http://stores.ebay.com/id=10764601"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzI4WDEwMDA=/z/nXkAAOSw8oFXzfUr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzM1WDEwMDA=/z/UNcAAOSwFV9XzfUq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/qdgAAOSwvzRXzfUo/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "PostalCode": "92691"
+}

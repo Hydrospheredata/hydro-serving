@@ -1,0 +1,128 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "167.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Gainesville, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:54:29.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "167.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:54:29.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536092503",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Coach",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Rose Gold",
+          "Silver"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "37mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "885997207263",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "\"NEW\" COACH WOMEN'S MADDY ROSE GOLD SILVER TWO TONE BRACELET WATCH 37MM W6183",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-COACH-WOMENS-MADDY-ROSE-GOLD-SILVER-TWO-TONE-BRACELET-WATCH-37MM-W6183-/162536092503",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625360925038080_2.jpg",
+  "HitCount": "4",
+  "PostalCode": "20155",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H48M49S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Zx4AAOSwaEhZLtgg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K88AAOSwAPVZLtgi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oUIAAOSwfRdZLtgk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EOwAAOSwlMFZLtgl/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "COACH WOMEN'S MADDY ROSE GOLD SILVER TWO TONE BRACELET WATCH 37MM W6183Retail Price $275.00 $167.77Style #:W6183 (14502660)DetailsRose gold tone and stainless steel case and bracelet Approx. case diameter: 37mm Crystals from Swarovski Quartz movement Mineral crystal Deployment closure Water-resistant to 99 feet ***PLEASE READ*** Return Policy and Warranty \u2022 20% restocking fee will be charged \u2022 Item must be unworn/unused \u2022 Item must be returned with original tags and box \u2022 Item must be returned within 14 days \u2022 Non-Factory Warranty and Non-Seller Warranty Item comes with its original tags and box. This watch is 100% authentic and is beautiful. The item will be shipped within 2 business days after receiving full payment. Thank you ;)))",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "150",
+    "UserID": "fashionboutique_2013",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

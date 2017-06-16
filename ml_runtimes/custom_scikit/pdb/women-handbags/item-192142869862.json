@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921428698628080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-1.fishpond.co.nz/0066/143/931/189237097/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0066/143/931/189237098/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0066/143/931/189237099/original.jpeg",
+    "http://rcdn-3.fishpond.co.nz/0066/143/931/189237100/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mojo-Unisex-adults-Cockpit-Backpack-One-Size-Best-Price-/192142869862",
+  "ConvertedCurrentPrice": {
+    "value": "73.7",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Made from high quality durable materials, this official brand product has been tried and tested to ensure its up to scratch. Ideal as a gift or to treat someone special in your life.",
+  "Title": "Mojo Unisex-adult's Cockpit Backpack - One Size. Best Price",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "73.7",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-29T01:58:03.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P24DT9H39M34S",
+  "EndTime": "2017-06-27T01:58:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Mojo Backpacks"
+      },
+      {
+        "Name": "MPN",
+        "Value": "101949"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142869862",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:66143931:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

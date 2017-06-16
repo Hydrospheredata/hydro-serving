@@ -1,0 +1,84 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "160.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "LONGINES WRISTWATCH LADY MANUAL WINDING 19MM DIAMETER \u00a0WORKING SWISS \u00a0\u00a0\u00a0 RELOJ DE PULSERA LONONGES DE DAMA A CUERDA MANUAL 19MM DIAMETRO FUNCIONANDO SWISS\u00a0 P253 E Y M\u00a0 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "StartTime": "2017-04-06T22:31:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/Ju8AAOSwhQhY5sCk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/6l4AAOSw4CFY5sC6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/NkAAAOSwAANY5sDE/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/JlMAAOSwAANY5sBv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/w3oAAOSwmgJY5sDT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/utIAAOSwuLZY5sDj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/PsUAAOSw03lY5sCB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Longines",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "620",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "82",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525008832698080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-05T22:31:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "160.0"
+  },
+  "BidCount": "0",
+  "Country": "AR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Capital Federal, Buenos Aires",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "LONGINES WRISTWATCH LADY MANUAL WINDING 19MM WORKING SWISS",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LONGINES-WRISTWATCH-LADY-MANUAL-WINDING-19MM-WORKING-SWISS-/152500883269",
+  "Storefront": {
+    "StoreName": "BSASCLOCK",
+    "StoreURL": "http://stores.ebay.com/id=1090425867"
+  },
+  "ItemID": "152500883269",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P4DT23H53M36S"
+}

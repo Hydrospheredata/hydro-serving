@@ -1,0 +1,118 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "35802",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This United States Air Force Pocket Watch has a Bronze Finish with Shield and Eagle and Stars Emblem on the Full Hunter Face. It has The Dial has Arabic 24 Hour with a Battery operated Quartz Movement for Greater Accuracy and comes with a Spare Battery. The Back has an Intricate Engraved Design. It comes with a Matching Chain that is approx. 80 cm Long and allows it to be worn around the Neck.",
+  "StartTime": "2017-05-28T06:10:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzcz/z/aCgAAOSwVL1V-5wv/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc3WDg5Ng==/z/Yq4AAOSwuTxV-5w5/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxN1gxNjAw/z/BB8AAOSw37tV-5w4/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4NlgxNTI4/z/Y6UAAOSwuTxV-5xH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4OVgxNjAw/z/osEAAOSwHjNV-5wp/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjU3/z/D2EAAOSwWnFV-5w0/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI5NFgxNjAw/z/1-AAAOSwsB9V-5xA/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTMz/z/SvUAAOSwQPlV-5wj/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "24-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "USAF",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country Made"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "westhunt.256",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "882",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "3",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225331361048080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T06:10:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNITED-STATES-AIR-FORCE-POCKET-WATCH-REMOVABLE-MATCHING-CHAIN-BRONZE-/322533136104",
+  "Location": "Huntsville, Alabama",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "UNITED STATES AIR FORCE POCKET WATCH WITH REMOVABLE MATCHING CHAIN, BRONZE",
+  "Storefront": {
+    "StoreName": "westhunt.256",
+    "StoreURL": "http://stores.ebay.com/id=804416801"
+  },
+  "ItemID": "322533136104",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT11H34M58S"
+}

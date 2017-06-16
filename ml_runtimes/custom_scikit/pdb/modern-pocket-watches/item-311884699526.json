@@ -1,0 +1,94 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "53586",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "It is in good working condition but does have a crack in the crystal. It measures 2\" across and was made in the USA. I can combine shipping. Buyer pays shipping of 4.00 in the US.",
+  "StartTime": "2017-05-30T15:38:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9QUAAOSwhvFZLZGV/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Qg0AAOSwDiBZLZGb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7HQAAOSwZKBZLZGg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SwoAAOSwBt5ZLZGm/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Pocket Ben",
+        "Name": "Model"
+      },
+      {
+        "Value": "Westclox",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "maxste",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "13917",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3118846995268080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T15:38:00.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "5.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Westclox-Scotty-Pocket-Watch-/311884699526",
+  "Location": "Shullsburg, Wisconsin",
+  "Title": "Vintage Westclox Scotty Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "311884699526",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT21H4M6S"
+}

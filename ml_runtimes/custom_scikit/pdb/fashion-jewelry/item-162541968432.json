@@ -1,0 +1,83 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT16H29M39S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "69.97",
+    "_currencyID": "CAD"
+  },
+  "ItemID": "162541968432",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sterling-Silver-925-Cuff-Bracelet-Cubic-Zirconia-CZ-Glass-Floating-Stones-/162541968432",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "51.77",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:29:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T02:29:55.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "Sterling Silver 925 Cuff Bracelet Cubic Zirconia CZ Glass Floating Stones",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Sterling Silver 925 Cuff Bracelet Cubic Zirconia CZ Glass Floating Stones Main Stone: Cubic Zirconia Stone Color: White Grey Velvet Pouch Included Pictures may be enlarged to show more detail to the product. Please do not hesitate to contact me for additional information. No returns are accepted. **Free Shipping** Thank you for shopping at Preciousforbeauty2015",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625419684328080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "preciousforbeauty2015",
+    "FeedbackScore": "12",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "preciousforbeauty",
+    "StoreURL": "http://stores.ebay.com/id=1399402977"
+  },
+  "Quantity": "1",
+  "Location": "Montreal, Quebec",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1MFgxNjAw/z/t2oAAOSw65FXqoEy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/svgAAOSwIgNXqn4n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMTA0/z/ikoAAOSwgZ1Xqn5G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gRMAAOSwgZ1Xqn3c/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "H3B1A7"
+}

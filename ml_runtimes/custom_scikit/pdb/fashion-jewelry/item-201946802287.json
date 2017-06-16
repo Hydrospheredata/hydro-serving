@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT22H3M19S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent condition! Lightly used after storage.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201946802287",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CHRISTIAN-DIOR-earring-clips-and-brooch-bonus-bracelet-Mario-Valentino-/201946802287",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:42:25.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "RU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:42:25.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Christian Dior",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "CHRISTIAN DIOR earring clips and brooch (bonus bracelet Mario Valentino)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "CHRISTIAN DIOR set includes earring clips, brooch and bracelet. 3 units. The bracelet is brand Mario Valentino (Italy). Length of bracelet is 180 mm (or 7.2 inches). The DIOR things are in exellent condition. Lightly used after storage. The bracelet is in good condition with some attritions. In authentic box.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019468022878080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "avlasim2010",
+    "FeedbackScore": "97",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "Location": "Kurgan, Kurganskaya oblast",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI0MFgxNjAw/z/9QoAAOSwcgNZNSXf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/vjUAAOSwEHpZNSXh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/6lsAAOSww5hZNSXi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/qB4AAOSwurZZNSXn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/ABEAAOSwblZZNSXp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/6McAAOSwlY1ZNSXo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/TgEAAOSwPh5ZNSXt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/QCcAAOSwjL5ZNSXu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/xxcAAOSwKytZNSXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/1EIAAOSwBt5ZNSXz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/9yEAAOSw8HBZNSX1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA1OVgxNjAw/z/r~oAAOSwIaFZNSZc/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets"
+}

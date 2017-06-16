@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P20DT9H4M19S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192198546570",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nina-Ricci-Rhodium-Plated-Pierced-Earrings-Swarovski-Crystals-Pearl-/192198546570",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-27T00:05:49.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-26T00:05:49.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nina Ricci",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Imitation Pearl",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lead and Nickel FREE",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "Nina Ricci Rhodium Plated Pierced Earrings with Swarovski Crystals & Pearl",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nina Ricci Rhodium Plated Pierced Earrings with Swarovski Crystals & Pearl.Manufacturing Standards: -Made in Canada. -Lead & Nickel Free. -All crystals are Swarovski crystals. Each crystal is hand set. Nina Ricci Plating Standards:Each item is plated three times to make Nina Ricci jewellery one of the highest quality fashion lines in the world. This world class plating process allows Nina Ricci jewellery to maintain its lustre throughout the years. -Gold Plated items are 22kt gold. -Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. To maintain your jewellery always avoid spraying perfumes or working with chemical products while wearing your jewellery. Multiple Purchases: For buyers wishing to make multiple purchases I will charge an additional $1.00 in shipping for every item after the 1st purchase. Shipping Details: -All items are carefully packaged to ensure safe delivery of items. -Shipping times may vary according to location and method of shipment selected. -Buyers outside of Canada may select International Air (45 day delay tracking) OR Xpresspost (immediate tracking + signature). -Seller is not responsible for shipping delays once package has transferred to postal carriers. Add me to your Favorites list!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921985465708080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "24",
+  "Location": "Toronto, Ontario",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F6AAAOSwj85YOlCU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jiQAAOSw44BYOlCR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7BYAAOSwEzxYOlCW/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4R1C8"
+}

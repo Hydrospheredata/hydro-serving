@@ -1,0 +1,70 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "83835",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Watch running on new battery and I do not know what the other cases are for. One with keys in it. JB",
+  "StartTime": "2017-05-22T00:21:57.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/eEkAAOSwSlBYy~wW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/L8oAAOSwuxFYy~w2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/em0AAOSwzgBYy~xB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "dartss12",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "403",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625244746448080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T00:21:57.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1-Quartz-Pocket-Watch-And-2-Cases-/162524474644",
+  "Location": "Hayden, Idaho",
+  "Title": "1- Quartz Pocket Watch And 2  Cases",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "162524474644",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT5H43M21S"
+}

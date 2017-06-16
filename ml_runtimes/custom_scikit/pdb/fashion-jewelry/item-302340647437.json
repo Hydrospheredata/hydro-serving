@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P9DT21H28M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "302340647437",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-Gold-Set-3-Sterling-Silver-Bezel-Set-Stack-Eternity-Rings-sz9-/302340647437",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T10:43:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T10:43:44.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "9",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 sterling silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14K Gold Set of 3 Sterling Silver Bezel Set Stack Eternity Rings. sz9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Eternally gorgeous. Stacked with style. These elegant Bezel set 14K gold over sterling silver rings , traditional straight stack rings. Wear one, two, or all three at once. And be prepared for compliments. Includes three rings Solid .925 Sterling silver Includes one 14K yellow gold over sterling silver , one 14K rose gold over sterling silver and one White gold over sterling silver Prong-set simulated diamonds in eternity style sizes 9 appox. width of 3 rings: 1/4\" Stamped : .925",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023406474378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "jewelrycorp",
+    "FeedbackScore": "26770",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "A Designer Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=91977549"
+  },
+  "Location": "New York, New York",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzEyWDUwMg==/z/20oAAOxyrxZRzhGY/$(KGrHqJ,!lwFHDHVGt)bBRzhGY,D7w~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzcxWDUwMg==/z/tcMAAOxyhodRzhGa/$T2eC16dHJG!FFm1ltomkBRzhGZrn4w~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10002"
+}

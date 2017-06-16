@@ -1,0 +1,85 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3120.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Japan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T06:54:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1164248126",
+    "StoreName": "kyoto-japan_shop"
+  },
+  "CurrentPrice": {
+    "value": "3120.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T06:54:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BELL & ROSS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "BR02-20-S",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "JP",
+  "ItemID": "182599684896",
+  "HandlingTime": "5",
+  "Description": "Description 1600998 Bell & Ross Marine automatic Men's unknown used about A BR02-20-S SS (PVD) Black Dial case diameter: 44mm thickness: 17mm gross weight: 162.8g self-winding Date inner rotating bezel (reverse rotation prevention) in the outer-box (damage there) instruction manual rubber belt & SS genuine products band rank (PVD) made buckle both: B arm around: is the thread wound about by 19cm position until a feeling of use. - Bell & Ross Divers Payment We only accept PayPal payments. Please pay within 5 days after auction is finished. Shipping Free Shipping Worldwide!! Shipping Duration Shipping Method Asia North America Central America Middle East AU, NZ Europe Russia South America Africa EMS 3 - 6 days 4 - 6 days 3 - 5 days 4 - 6 days Traceable & Insurance by Japan Post Terms of Sale Money back guarantee within 14 days if returned by customer. About Us Ordering More than 1 item?? We can Combine your Shipping, and Save your Money!! If you can't find the items you're looking for in our store, please feel free to contact us!! We will confirm if the item is in stock and we will let you know as soon as possible. I am looking forward to do business with you!! Thank you for your visiting our store!! International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BELL-ROSS-BR02-20-S-Carbon-Pro-Marine-Diver-Automatic-Black-Watch-Used-Rare-/182599684896",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825996848968080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT15H21M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDc1NA==/z/oJIAAOSwWxNY0gEg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDQ4Mg==/z/q6EAAOSwsW9Y0gEh/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "BELL&ROSS BR02-20-S Carbon Pro Marine Diver Automatic Black Watch Used Rare",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "318",
+    "UserID": "kyoto-japan_shop",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "QuantityThreshold": "10",
+  "Location": "San Francisco, CA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:05:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "100",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=126391015",
+    "StoreName": "HIGHEND-JEWELS"
+  },
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:05:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/VYUAAOSwfRdZLms-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/Fk0AAOSwlMFZLms-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/utwAAOSwEHpZLms-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/ry4AAOSwfpVZLms-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/wggAAOSwurZZLms-/$_12.JPG?set_id=880000500F"
+  ],
+  "HandlingTime": "1",
+  "Description": "Silver Presidential 41MM Big Face Iced Out Watch for Men or Women This incredible watch is JewelryFresh exclusive custom made piece. Looks like a $30,000 time piece. It is fully covered in over 17 carats of genuine Czech crystals. The entire dial, bezel, case and band is iced. The dial features fancy baguette cut stones as well. The watch is made out of alloy metal and features a mineral glass. Inside it is powered by a Japanese Quartz movement for reliable timekeeping. Order yours today! Czech Crystal Alloy Metal (Rhodium Plated) 41mm Wide. 8.5 inches Long 110g Weight Japanese Quartz Movement\u00a0 Top Quality Hip Hop Jewelry High End Jewels is an Authorized reseller of authentic JewelryFresh brand products. We have been selling on eBay for over 15 years with thousands of happy customers. Jewelry Fresh manufactures the highest quality hip hop jewelry at affordable prices. These items look and feel exactly like real diamond jewelry at affordable prices.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silver-Presidential-41MM-Big-Face-Iced-Out-Watch-Men-Women-/322537197440",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "CW15R",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225371974408080_1.jpg",
+  "ItemID": "322537197440",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H32M17S",
+  "ConditionID": "1000",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Silver Presidential 41MM Big Face Iced Out Watch for Men or Women",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "7267",
+    "UserID": "highend-jewels",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Items may be returned within 14 days of the item's initial arrival date. Items must be in new and unworn condition."
+  }
+}

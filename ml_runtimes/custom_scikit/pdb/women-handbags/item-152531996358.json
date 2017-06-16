@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/cScAAOSwT-FZBwS2/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OpenBox-Ban-do-Getaway-Vacation-Duffle-Bag-/152531996358",
+  "ConvertedCurrentPrice": {
+    "value": "58.89",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "If you have any queries, please contact us via ebay. We usually respond within 24 hours on weekdays. 100%GenuinePremiumQualityFreeShipping",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "58.89",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "134912",
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackRatingStar": "RedShooting",
+    "UserID": "no_sales_tax"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "OpenBox Ban.do The Getaway Vacation Duffle Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-01T09:49:38.000Z",
+  "HitCount": "34",
+  "TimeLeft": "P27DT16H56M38S",
+  "EndTime": "2017-06-30T09:49:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "825466937192"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0825466937192"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bando"
+      },
+      {
+        "Name": "MPN",
+        "Value": "825466937192"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Sports"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 22.52 x W 12.01 x H 1.81 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Beauty Industry Group DBA Beauty Depot"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152531996358",
+  "Storefront": {
+    "StoreName": "Sale Freaks",
+    "StoreURL": "http://stores.ebay.com/id=346782462"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525319963588080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

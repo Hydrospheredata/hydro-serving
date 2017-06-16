@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "87.98",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Sydney, New South Wales",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:52:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=141304071",
+    "StoreName": "BRAND UNITY"
+  },
+  "CurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-03T11:52:06.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210929660",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Mimco",
+        "Name": "Brand"
+      },
+      {
+        "Value": "60177716",
+        "Name": "MPN"
+      },
+      {
+        "Value": "9337902924549",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mimco VISTA  Silver Timepeace Watch Jewellery BNWT",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mimco-VISTA-Silver-Timepeace-Watch-Jewellery-BNWT-/132210929660",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322109296608080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "1445",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT20H34M4S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/d9AAAOSw1DtXGJWI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eE4AAOSwubRXGJWC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/HiEAAOSwiYFXGJV9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/z9UAAOSwKfVXGJWN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-IwAAOSw-YBXGJcx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JpEAAOSwJSJXGJc2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ghMAAOSwYmZXGJc7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UOYAAOSwiYFXGJdB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-7MAAOSw-YBXGJdH/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "My Feedback: My Auctions: Add me to your Favorites: Questions? Easy to watch the precious time Corporate or Creative watch in elegant modern style Arrow shape rose gold band with oval shape face full rose gold colour Dimension 2 cm diameter face 1.22 cm band Colour Silver Great Gift Idea Brand New with Tags Comes in Mimco Watch Box RRP $199 We are happy to accept direct deposit to bank account or paypal. Most Credit Cards, Master Cards, Visa Cards, Amex Cards could be paid via Paypal even buyer does not have an established Paypal account. Payment must be made within 3 days unless there was a prior arrangement; however we are so reasonable and eager to help Free or combined postage for 2nd & 3rd items. Good will be dispatched as soon as payment clears and will be received in 3 to 4 business days, however it will depend on regional area and state of the buyer, as seller is in NSW state. We use registered post and insurance will be covered for damage and lost in transit All sales are final and return can be accepted for faulty, however only accept as unworn or unused item, as brand new with tags and used item could not be accepted after it had been used for any reason or any duration and faulty is come after the usage and we are unable to accept the return. Postage will not be refunded for the change of mind, for example postage $15 will not be refunded for the this item. My Feedback: My Auctions: Add me to your Favorites: Questions?",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7567",
+    "UserID": "brandunity123",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "All sales are final and return can be accepted for faulty, however only accept as unworn or unused item, as brand new with tags and used item could not be accepted after it had been used for any reason or any duration and faulty is come after the usage and we are unable to accept the return. Postage will not be refunded for the change of mind, for example postage $15 will not be refunded for the this item."
+  }
+}

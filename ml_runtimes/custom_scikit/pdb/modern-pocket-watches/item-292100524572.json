@@ -1,0 +1,157 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "59801",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "gearshopusa",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1330",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.8"
+  },
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Robert Fulton Steamboat Commemorative Pocket Watch Japanese Movement White face with black finish numbers. Silver finish embossed cast metal case with image of a steamboat on front with commemoration to Robert Fulton on the back. Silver finish metal chain. Pocket watch features: second hand, Japanese quartz movement, and gift box.You may be interested in our other eBay listings. Powered by SixBit's eCommerce Solution",
+  "StartTime": "2017-04-29T06:13:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODU3WDEwMjQ=/z/PVYAAOSwONBZBC57/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5Nlg4Mzk=/z/MJ0AAOSw-3FZBC51/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzYxWDEyODA=/z/lj8AAOSwcgNZBC55/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODg4WDEzODI=/z/PCAAAOSw7GRZBC5-/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODE3WDExMDg=/z/VysAAOSwT-FZBC6B/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5OFg3MjA=/z/yVsAAOSwhvFZBC6D/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNFg4MTA=/z/S18AAOSwrhBZBC6G/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Croton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Japanese movement",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "I1705",
+  "HitCount": "41",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921005245728080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T06:13:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Robert-Fulton-Steamboat-Commemorative-Pocket-Watch-Japanese-Movement-/292100524572",
+  "Location": "Missoula, Montana",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Robert Fulton Steamboat Commemorative Pocket Watch Japanese Movement",
+  "Storefront": {
+    "StoreName": "Gear Shop USA",
+    "StoreURL": "http://stores.ebay.com/id=25903359"
+  },
+  "ItemID": "292100524572",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT11H27M46S"
+}

@@ -1,0 +1,86 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1825993652108080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T01:08:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T01:08:11.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Mens wrist watch",
+  "BuyItNowPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599365210",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Red",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Red",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Red",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "red ape wrist watch for me",
+  "ConditionDescription": "never wore",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/red-ape-wrist-watch-me-/182599365210",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "HitCount": "3",
+  "PostalCode": "30165",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Rome, Georgia",
+  "TimeLeft": "P6DT9H53M47S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIzM1g5MDA=/z/emQAAOSww5hZLhdG/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "10.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1",
+    "UserID": "donnamiller75",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

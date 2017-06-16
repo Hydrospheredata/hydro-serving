@@ -1,0 +1,139 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "yiwu",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:36:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1016298884",
+    "StoreName": "Kor-Fashion Mall"
+  },
+  "CurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:36:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "2.cm/0.9\"",
+        "Name": "Dial Diameter"
+      },
+      {
+        "Value": "22cm/8.6\"",
+        "Name": "Length"
+      },
+      {
+        "Value": "RED",
+        "Name": "Shell Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "NO",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "BA",
+    "IE",
+    "GB",
+    "MX",
+    "TZ",
+    "JO",
+    "YE",
+    "AM",
+    "CN",
+    "GE",
+    "IN",
+    "MN",
+    "PK",
+    "UZ"
+  ],
+  "ItemID": "201942172862",
+  "HandlingTime": "2",
+  "Description": "Best Sellers Women's Lovely Shell Beads Bracelet Wristwatch Gift Quartz Wrist Watch Product Show Pictures Description Women's Lovely Shell Beads Bracelet Wristwatch Gift Quartz Wrist Watch COLOR: RED Item #: SB010046 Feature: 100% Brand NewThis is a lovely watch- better look, better performance. Fits for women. Material: AlloyNot only a bracelet, but also a watch. Color: As the picture Dial Diameter: 2.cm/0.9\"Length: 22cm/8.6\" Package Include : 1x Watch Shipping Detail Please note we will ship from China by Airmail which takes 25-35 days to arrive ---To United States : normally takes 15-30 days by epacket ---To EU ,CA and other place in the world: normally takes 20-45 days by Airmail Please contact us if you not got the package in 35 days Customs & Duties All the destination country local tax is the buyer responsibility. All the items will a \"GIFT\" description and a Low value for faster custom process.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Women's Shell Bracelet Antique Vintage Wristwatch XMAS Gift Quartz Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "SB010046-HONG",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Shell-Bracelet-Antique-Vintage-Wristwatch-XMAS-Gift-Quartz-Wrist-Watch-/201942172862",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019421728628080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT16H4M34S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/OdIAAOSwurZZJj-d/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/v3YAAOSw~FJZJj-Z/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.4",
+    "FeedbackScore": "18595",
+    "UserID": "honestsellers0001",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

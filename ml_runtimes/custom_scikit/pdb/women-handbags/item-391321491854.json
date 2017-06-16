@@ -1,0 +1,490 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "a***a",
+    "FeedbackScore": "585"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "BestOfferEnabled": "false",
+  "TimeLeft": "P5DT7H33M6S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/DFIAAOSw5cNYk5JC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/gPUAAOSw2xRYk5JC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/XBoAAOSw44BYk5JC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/gPIAAOSw2xRYk5JC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/Ug0AAOSwNnRYk5JC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/kDUAAOSwImRYk5JC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XJoAAOSw44BYk5JG/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/McKlein-USA-GLEN-ELLYN-W-series-Wheeled-Ladies-15-4-Briefcase-Business-Bag-/391321491854?var=",
+  "ConvertedCurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store McKlein USA GLEN ELLYN W series Wheeled Ladies' 15.4\" Briefcase, Business Bag Patented 2-in-1 Detachable Wheel and Handle System. Quick access front pocket is secured with a key lock. Interior organizer with storage space for media devices, business cards, key holder and pens. Double compartment divided by secured zipper pocket for important documents. Removable high-density laptop sleeve that protects laptops up to 15.4&rdquo; in size. Smart Attachment Strap allows transport on extended handles of other rolling cases and luggage. Bonus! Protective Weatherproof Cover. Black case is trimmed in black. Red case is trimmed in red. Orange, green, blue, sand and pink cases are trimmed in sand.Material: Italian LeatherSize with frame: 19.5\" x 9\" x 15\"Size without frame: 16.75\" x 7\" x 13.75\"Laptop interior dimensions: 14\" x 1.5\" x 10\"Fits most laptops up to: 15.4\"Hand strap drop length: 4\"Shoulder strap drop length: 16-19.5\"Telescopic handle: 40\" Weight with frame: 8.8 lb Weight without frame: 4.4 lb PAYMENTS We accept PayPal and all major credit cards. If you are having difficulties with paying by credit card please contacts us. Only California buyers will pay the CA state sales tax. SHIPPING Our orders are processed and shipped within 1-3 business days of receipt of payment. Shipping transit times may take additional 3-6 business days, depending on your location and the location of our manufacturer. Saturday, Sunday and national holidays are not business days and are not included in our estimated shipping and handling time. The total time to receive the ordered item will be 6-8 business days from the date of purchase. Regular ground free shipping is applicable to the continental 48 United States only. Please contact us for a shipping quote if there is no shipping rate posted for your location or country. We are currently only able to ship to the select international locations. After your item ships, you will receive a shipping notification with the tracking number, which you can use to obtain information on your order details at any time. RETURNS If you are not satisfied with your purchase, you may return it in unused, ORIGINAL CONDITION for any reason within 30 days of receipt for an exchange or a refund. If your delivery address is a non-US address and you would like to return your item, it is your responsibility to pay return shipping to the correct US address. Be sure to pack your item securely to prevent damage in transit. Damaged items will not be accepted for return. Merchandise must be returned via a carrier where a tracking number is required, such as, UPS, Fedex, or USPS.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box",
+    "IN",
+    "NP",
+    "MV",
+    "AZ",
+    "GE",
+    "AM",
+    "BD",
+    "KG",
+    "TM",
+    "KZ",
+    "AF",
+    "BT",
+    "PK",
+    "MN",
+    "UZ",
+    "TJ",
+    "LK",
+    "VU",
+    "KI",
+    "WF",
+    "AS",
+    "PF",
+    "NC",
+    "PG",
+    "CK",
+    "MH",
+    "NU",
+    "SB",
+    "TO",
+    "GU",
+    "FM",
+    "FJ",
+    "NR",
+    "PW",
+    "WS",
+    "TV",
+    "MC",
+    "BA",
+    "SM",
+    "MK",
+    "MD",
+    "JE",
+    "VA",
+    "LU",
+    "ME",
+    "AD",
+    "SJ",
+    "RS",
+    "IS",
+    "AL",
+    "LI",
+    "GI",
+    "GG",
+    "BY",
+    "KY",
+    "AW",
+    "SV",
+    "BB",
+    "BZ",
+    "VG",
+    "TC",
+    "DM",
+    "PR",
+    "VC",
+    "AG",
+    "AI",
+    "AN",
+    "MS",
+    "HT",
+    "NI",
+    "GP",
+    "GD",
+    "KN",
+    "BS",
+    "MQ",
+    "VI",
+    "LC",
+    "DO",
+    "MO",
+    "BN",
+    "VN",
+    "KH",
+    "LA",
+    "PE",
+    "FK",
+    "AR",
+    "EC",
+    "GY",
+    "UY",
+    "PY",
+    "BO",
+    "SR",
+    "GF",
+    "VE",
+    "BM",
+    "GL",
+    "PM",
+    "LR",
+    "TG",
+    "ZW",
+    "TN",
+    "NE",
+    "BI",
+    "LS",
+    "KE",
+    "ZM",
+    "EG",
+    "SL",
+    "TD",
+    "SZ",
+    "GM",
+    "BF",
+    "NA",
+    "TZ",
+    "UG",
+    "SC",
+    "CF",
+    "AO",
+    "ML",
+    "GA",
+    "MZ",
+    "SO",
+    "ET",
+    "CD",
+    "YT",
+    "SH",
+    "CI",
+    "GW",
+    "DZ",
+    "MA",
+    "KM",
+    "MU",
+    "EH",
+    "CV",
+    "RW",
+    "BJ",
+    "GN",
+    "RE",
+    "ER",
+    "MR",
+    "DJ",
+    "SN",
+    "CM",
+    "MW",
+    "CG",
+    "LY",
+    "GH",
+    "GQ",
+    "BW",
+    "MG",
+    "NG",
+    "OM",
+    "LB",
+    "TR",
+    "IQ",
+    "JO",
+    "YE"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "210.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "FeedbackScore": "3204",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "powerboxusa"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60639",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/9/4/94360-1_1_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://d3d71ba2asa5oz.cloudfront.net/12022863/images/94361-1.jpg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/9/4/94365-1_1_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/9/4/94366-1_4.jpg"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/9/4/94368-1_1_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/9/4/94369-1_1_2.jpg"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "210.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "94366",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "210.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "94365",
+        "SellingStatus": {
+          "QuantitySold": "1",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "210.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "94361",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Green"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "210.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "94360",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Orange"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "210.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "94369",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "210.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "94368",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Blue"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Blue",
+          "Green",
+          "Orange",
+          "Pink",
+          "Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2015-11-15T22:51:01.000Z",
+  "Title": "McKlein USA GLEN ELLYN W series Wheeled Ladies' 15.4\" Briefcase, Business Bag",
+  "QuantityThreshold": "10",
+  "EndTime": "2017-06-07T22:51:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "McKlein USA"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase/Attache"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "18 x 14.5 x 9"
+      },
+      {
+        "Name": "Target Gender",
+        "Value": "female"
+      },
+      {
+        "Name": "To Fit",
+        "Value": "15.4\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391321491854",
+  "Storefront": {
+    "StoreName": "PowerBox",
+    "StoreURL": "http://stores.ebay.com/id=677674035"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "16",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "9436 Mc",
+  "HandlingTime": "1",
+  "QuantityAvailableHint": "MoreThan"
+}

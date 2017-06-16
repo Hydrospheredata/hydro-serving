@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT14H2M45S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Image is part of description",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "37.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543059000",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Blue-Glass-Scarab-Necklace-and-Matching-Pierced-Earrings-Set-New-Box-/322543059000",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "37.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T01:48:13.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T01:48:13.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Blue Glass Scarab Necklace and Matching Pierced Earrings Set-New in Box",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Up for sale is a new in the box blue glass scarab necklace and earrings set. Unsigned. Gold tone chain measuring 24 inches long with a ring type closure. The earrings are pierced posts earrings with a dangling scarab Add me to your favorite sellers !Check out my other items! Track Page Views WithAuctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225430590008080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "georges-jewelry-emporium-llc",
+    "FeedbackScore": "3940",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Harry&#39;s Jewelry Store And More",
+    "StoreURL": "http://stores.ebay.com/id=1100865594"
+  },
+  "Quantity": "1",
+  "Location": "Preston, Maryland",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTgwWDkwOA==/z/lOAAAOSwr~lYrd3N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTgwWDk3Mg==/z/caoAAOSwCU1Yrd3h/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTY4WDc4MA==/z/jhoAAOSwWxNYrd3r/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzgwWDY2NA==/z/mZEAAOSwr~lYrd3w/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTk2WDU5Ng==/z/ZvMAAOSwOgdYrd31/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTk2WDU5Ng==/z/z5kAAOSw32lYrd38/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA4WDY4NA==/z/vlUAAOSw4A5Yrd4J/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "21655"
+}

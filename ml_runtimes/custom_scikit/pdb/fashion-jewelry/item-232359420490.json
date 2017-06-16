@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P8DT11H24M24S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "good condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232359420490",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Auth-Chanel-Vintage-Small-Gold-Crystal-Round-w-CC-Accent-Pin-Brooch-/232359420490",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T00:24:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T00:24:44.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chanel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "France",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Auth Chanel Vintage Small Gold & Crystal Round w/ CC Accent Pin Brooch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "-Auth Chanel Vintage Small Gold & Crystal Round w/ CC Accent Pin Brooch- CONDITION: Good Condition(light scratches by using)Originally, No hallmark on the item Comes w/ Gift Box SIZE : Crystal Round Diameter - 9mmTotal Height(from end to end) - 58mm PAYMENT : PayPal Only FREE SHIPPING : USPS First Class Mail w/ tracking # in US OnlyInternational: USPS Int'l First Class Registered Mail ($30.00: 10~15 business days) DUTY & TAX ARE NOT INCLUDED ALL PHOTOS ARE ACTUAL ITEM'S PHOTOS ALL SALES ARE FINAL & SOLD AS IS 100% AUTHENTIC OR MONEY BACK GUARANTEE No Return Please. Any Question, Pls. email before any action. THANK YOU !^^",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323594204908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "goodvintageusa",
+    "FeedbackScore": "885",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "goodvintageusa",
+    "StoreURL": "http://stores.ebay.com/id=1032351795"
+  },
+  "Quantity": "1",
+  "Location": "Las Vegas, NV",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/8BcAAOSwzgBYzJvy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ZlUAAOSw4CFYzJv8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/YeYAAOSwdGFYzJwR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/dtwAAOSwuxFYzJwb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/9CQAAOSwzgBYzJwl/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches"
+}

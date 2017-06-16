@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAxWDY1NQ==/z/MikAAOSwjqVZLx32/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc2WDQ4MQ==/z/mxMAAOSw3gJZLx34/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc5WDQ4OA==/z/vFYAAOSww9xZLx36/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ3WDY3NQ==/z/RYoAAOSwX9FZLx39/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODU0WDU4Ng==/z/KdgAAOSwPh5ZLx3~/$_57.PNG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-DAYCATION-SERENA-BABY-Diaper-BAG-CARRIED-AWAY-HOT-AIR-BALLOON-NWT-/182600606718",
+  "ConvertedCurrentPrice": {
+    "value": "158.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "DETAILS SIZE 12.9''h x 15.6''w x 5.9''d drop length: 22.8\" strap length: 45.7\" MATERIAL printed coated poplin custom wipeable lining 14-karat light gold plated hardware DETAILS baby bag with adjustable shoulder or cross body strap strap adjusts to fit on back of stroller front slide pockets, center dividing zipper pocket, double slide bottle pockets, interior zipper pocket and storage slot for changing pad wipeable changing pad with velcro strap for easy storage included",
+  "Title": "KATE SPADE DAYCATION SERENA BABY Diaper BAG CARRIED AWAY HOT AIR BALLOON NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "158.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Ellicott City, Maryland",
+  "Seller": {
+    "FeedbackScore": "16801",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "blueamy1970"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "21042",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T19:50:43.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P5DT4H30M55S",
+  "EndTime": "2017-06-07T19:50:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Grainy Vinyl"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "navy blue"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689867700"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182600606718",
+  "Storefront": {
+    "StoreName": "aisle*of*style",
+    "StoreURL": "http://stores.ebay.com/id=118752842"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826006067188080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

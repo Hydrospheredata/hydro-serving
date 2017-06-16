@@ -1,0 +1,100 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "27587",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "You are bidding on a 1990's Nike pocket watch. It has retro numbered dial. The chain attached to the watch is all original with new battery and it works. The belt attaching genuine leather case/holder is also all original and the snap works. I try to describe the item the best that I can and provide plenty of pictures to help determine the condition. Please look at all of the pictures and ask any questions prior to bidding Thanks and good luck",
+  "StartTime": "2017-04-01T19:34:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pqQAAOSwjDZYmRQd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DtYAAOSwA3dYmRQa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q2sAAOSw-0xYmRQg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qlYAAOSwnHZYmRQj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AY8AAOSw4DJYmRQl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~UEAAOSwopRYmRQp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ap4AAOSw4DJYmRQs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iZEAAOSwNnRYmRQv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A2MAAOSw4DJYmRQy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/laYAAOSwLEtYmRQ0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~4wAAOSwopRYmRQ3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r4wAAOSw-0xYmRQ7/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "USA",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Retro (1983-2000)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Nike",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "69gt-500",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2871",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "104",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629195114168080_2.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-05-31T19:34:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nike-Vintage-Pocket-Watch-Original-Chain-And-Genuine-Leather-Holder-90S-/262919511416",
+  "Location": "Wake Forest, North Carolina",
+  "Title": "Nike Vintage Pocket Watch With Original Chain And Genuine Leather Holder 90S",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "262919511416",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT45M16S"
+}

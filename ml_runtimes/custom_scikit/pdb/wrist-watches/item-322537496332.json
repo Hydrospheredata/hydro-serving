@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Washington, District Of Columbia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:22:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "24.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:22:44.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537496332",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Armitron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Nice! TAZ VINTAGE ARMITRON TAZMANIAN DEVIL MUSICAL WATCH LOONEY TUNES WORKS!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nice-TAZ-VINTAGE-ARMITRON-TAZMANIAN-DEVIL-MUSICAL-WATCH-LOONEY-TUNES-WORKS-/322537496332",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225374963328080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "20036",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H10M21S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/3oEAAOSwZ4dZLq7U/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/oA8AAOSwcB5ZLq7i/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/RLkAAOSw3gJZLq7t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/dh0AAOSwaEhZLq74/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/4YMAAOSwZ4dZLq8G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2NVgxMDI0/z/10gAAOSwKytZLq8T/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "This is a vintage 1994 Looney Tunes Armitron Collectibles watch with Taz the Tazmanian devil. The watch has the original case and it's been sitting in a closet for about 25 years. Probably worn for less that 6 months back in the 90s. The watch has a leather band - some signs of aging - but still In good condition. See photos for details. Watch plays music!!! The hands aren't moving though so it will need a new battery. Aside from that it's an awesome super rare watch!! I hope some looney tunes lover can bid and give it a new home!",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackScore": "171",
+    "UserID": "keriak",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

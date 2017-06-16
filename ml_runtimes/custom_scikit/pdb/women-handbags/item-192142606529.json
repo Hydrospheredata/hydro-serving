@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921426065298080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg4MDY=/z/aMcAAOSwSlBY2rdV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4MDY=/z/fmoAAOSwuxFY2rdV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4MDY=/z/QLcAAOSwsW9Y2rdV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4MDY=/z/QOkAAOSwsW9Y2rdW/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Soft-Black-Genuine-Italian-Leather-Handbag-Shoulder-Bag-Brand-New-/192142606529",
+  "ConvertedCurrentPrice": {
+    "value": "99.36",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Soft Black Genuine Italian Leather Handbag or Shoulder Bag by Kimandjo Ships from UK Supplier Related Searches: Italian Leather Handbags Bags, Soft Leather Handbags Bags, Leather Handbag Bags Dimensions: 46.4 x 34.2 x 5 centimeters Weight: 1 kg",
+  "Title": "Soft Black Genuine Italian Leather Handbag or Shoulder Bag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.36",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T19:19:35.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P24DT3H51S",
+  "EndTime": "2017-06-26T19:19:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kimandjo"
+      },
+      {
+        "Name": "MPN",
+        "Value": "876134828"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142606529",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57515126:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

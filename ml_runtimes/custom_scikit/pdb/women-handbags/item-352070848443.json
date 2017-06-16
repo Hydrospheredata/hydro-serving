@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520708484438080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM0Nw==/z/f5cAAOSwn-tZKdBu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM0Nw==/z/25YAAOSwcB5ZKdBu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDI5NA==/z/WtgAAOSw1WJZKdBu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDEzMg==/z/BWUAAOSw9OFZKdBu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjE4WDUwMA==/z/UY8AAOSwxu5ZKdBu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzQ3WDUwMA==/z/uf4AAOSw42JZKdBv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM4MA==/z/uqgAAOSwAPVZKdBu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDIzNw==/z/-R4AAOSw7GRZKdBv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDM0Nw==/z/mg4AAOSwsXFZKdBv/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Classic-Medium-Travel-Tote-Food-Talk-/352070848443",
+  "ConvertedCurrentPrice": {
+    "value": "99.79",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store!Pockets: 1 interior zip, 3 exterior;Includes additional bagLeSportsac Classic Medium Travel Tote, Food Talk",
+  "ExcludeShipToLocation": [
+    "PR",
+    "VI"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.79",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1081",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "notrover"
+  },
+  "PrimaryCategoryID": "169302",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Classic Medium Travel Tote, Food Talk",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-27T19:15:57.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P24DT1H52M30S",
+  "EndTime": "2017-06-26T19:15:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883681011271"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0883681011271"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "352070848443",
+  "Storefront": {
+    "StoreName": "Arik_the_great",
+    "StoreURL": "http://stores.ebay.com/id=203323573"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "STT_B01M6WOAC9",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

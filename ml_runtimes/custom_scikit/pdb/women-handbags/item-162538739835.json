@@ -1,0 +1,119 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTc2WDQzMA==/z/V8sAAOSw5ZBWHAUF/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDQzMA==/z/eVEAAOSwwbdWHAUH/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDQzMA==/z/8awAAOSwAYtWHAUI/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc2WDQzMA==/z/eMwAAOSwwbdWHAUE/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Deux-Lux-NWT-Large-Glossy-Gold-Evening-Clutch-Zip-Close-Handbag-/162538739835",
+  "ConvertedCurrentPrice": {
+    "value": "52.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "3J17-205 Deux Lux glossy gold evening clutch new with tags! Features;- glossy synthetic shell with textile lining- zipper closure- one inner slip pocket- dust bag Item Dimensions: height 8\", width 12\", depth 0.25\"",
+  "Title": "Deux Lux - NWT - Large - Glossy Gold Evening Clutch - Zip Close Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Downingtown, Pennsylvania",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "9417",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Green",
+    "UserID": "bestdressedexpress"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "19335",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T12:33:25.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P9DT22H22M19S",
+  "EndTime": "2017-06-12T12:33:25.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Deux Lux"
+      },
+      {
+        "Name": "Style",
+        "Value": "Clutch"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Color",
+        "Value": "Bronze Gold"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "0.25"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162538739835",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Best Dressed Connection",
+    "StoreURL": "http://stores.ebay.com/id=1010331639"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625387398358080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

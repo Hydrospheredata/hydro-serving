@@ -1,0 +1,98 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "159.34",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:03:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1299123054",
+    "StoreName": "dungonemes"
+  },
+  "CurrentPrice": {
+    "value": "159.34",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:03:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "B00MPMITJU",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ItemID": "302334193244",
+  "HandlingTime": "1",
+  "Description": "Stuhrling Original Women's 431.05 Vogue Swiss Quartz Rose Tone Brown Watch Product Features 16k gold-layered watch featuring Swarovski crystal-set bezel, grey dial with leaf-shape hands, and croco-embossed leather band Swiss quartz movement with analog display Protective Krysterna crystal dial window Features buckle closure, alternating Swarovski crystal and Roman numeral hour markers, and jeweled crown Water-resistant to 50 m (165 feet) Product Description With dedication to the heritage of watchmaking, St&#xFC;hrling Original timepieces appeal to the most discriminating taste at reasonable prices. Through meticulous labor and rigorous testing, the vision of the St&#xFC;hrling Original timepiece is brought to life inside our workshops, where &#x201C;Quality is never an accident; it is always the result of intelligent effort.&#x201D; Assembling a St&#xFC;hrling Original mechanical automatic movement comprises no less than 30 checkpoints, spread throughout the assembly process. The movement must meet more than 7 criteria, including a mean variation in rate which is the highest standard in its class in the industry. St&#xFC;hrling Original remains committed to its mission of preserving high manufacturing standards on all of their fine timepieces. Each and every model conveys an inimitable story with extraordinary style. Aesthetically chic with a hint of sass, the Vogue 431 aims to please. It's the attraction that enters the room and subtly demands a glance - even a few disguised stares. Averting your eyes would seem more like an immorality than a common decency. But inherently, it craves that kind of reaction - and deservedly so.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stuhrling-Original-Womens-431-05-Vogue-Swiss-Quartz-Rose-Tone-Brown-Watch-/302334193244",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stuhrling Original",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stuhrling Original",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "431.05",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0847988051699",
+        "Name": "EAN"
+      },
+      {
+        "Value": "847988051699",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H35M27S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg4NzE=/z/fC8AAOSwGJlZLobQ/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTQ3WDUwMA==/z/CHQAAOSwtGlZLobR/$_12.PNG",
+    "http://i.ebayimg.com/00/s/MTE1MFgxMDAw/z/mUcAAOSwcB5ZLobW/$_3.PNG"
+  ],
+  "Title": "Stuhrling Original Women's 431.05 Vogue Swiss Quartz Rose Tone Brown Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "229",
+    "UserID": "e-novo-trading",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

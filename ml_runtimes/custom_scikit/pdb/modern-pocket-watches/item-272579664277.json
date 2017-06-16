@@ -1,0 +1,170 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.45"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! \"Features: Good workmanship Elegant design with precise quartz movement Dial color in white with arabic numerals in black The back case are smooth without any engravings Removable silvery chain with a clip at the end Retro watch case brings you back to your memory in youth Perfect addition to a formal or casual dressing or collecting Daily water resistance(not for showering and swimming) Case Material: Alloy Chain Material: Alloy Size/Measurements: Case diameter(cm): approx 4.6 Chain length(cm): approx 37.5 Chain width(cm): approx 0.5 Case thickness(cm): approx 1.0 Watch weigt(g): approx 69 Package included: 1* pocket watch 1* watch chain 1* Gift box Please Take Attention: Once you receive the quartz watch: Press the crown at the top of watch, the front plate will open. Setting time: Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. \" - Imported - Precision Japanes quartz movement - High quality alloy case and chain. - Metal Chain Length 320mm ,Dial Diameter 48 mm. - 12 months International Guarantee with Official Box Vintage Quartz Pocket Watch,SwitchMe Classic Black Roman Number Japan Movement",
+  "StartTime": "2017-03-06T17:24:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/HXMAAOSwXYtYvZs7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/poMAAOSw4A5YvZs8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7~QAAOSw2gxYvZs7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/st4AAOSwfVpYvZs7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/yKoAAOSwCU1YvZs8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Q70AAOSw~AVYvZs7/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "611714969905",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0611714969905",
+        "Name": "EAN"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SwitchMe",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.1 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.3 x W 2.9 x H 1.5 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "39",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2725796642778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:24:08.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.45"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Quartz Pocket Watch,SwitchMe Classic Black Roman Number Japan Movement",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Quartz-Pocket-Watch-SwitchMe-Classic-Black-Roman-Number-Japan-Movement-/272579664277",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579664277",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H32M17S"
+}

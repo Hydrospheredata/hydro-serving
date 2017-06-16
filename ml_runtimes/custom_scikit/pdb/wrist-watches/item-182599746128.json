@@ -1,0 +1,133 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "9450.0",
+    "_currencyID": "USD"
+  },
+  "Country": "US",
+  "Location": "Boston, Massachusetts",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T07:30:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "7250.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T07:30:56.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "BuyItNowPrice": {
+    "value": "9450.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "18",
+  "TimeLeft": "P6DT15H58M25S",
+  "MinimumToBid": {
+    "value": "7250.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "02109",
+  "ConvertedCurrentPrice": {
+    "value": "7250.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1825997461288080_1.jpg",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=52986363",
+    "StoreName": "Only the Est"
+  },
+  "BuyItNowAvailable": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jaeger-LeCoultre",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Jaeger-LeCoultre Reverso",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "HandlingTime": "2",
+  "Description": "Excellent condition, original owner. Band is original. Minor wear consistent with wearing a couple of times a month over last 2 years. Amazing watch.",
+  "QuantitySold": "0",
+  "Title": "Jaeger LeCoultre Reverso - Grand Reverso Calendar",
+  "ConditionDescription": "Excellent used condition - see pictures",
+  "BidCount": "0",
+  "ItemID": "182599746128",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/HpIAAOSwt0FZAp0D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/hZ0AAOSwX61ZApz6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/vMQAAOSw42JZApz9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI0OFgxNjAw/z/Fr8AAOSwT-FZAp0R/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/vqMAAOSw42JZAp0N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NVgxNjAw/z/r1UAAOSw7GRZAp0X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTc0WDE1OTk=/z/S1AAAOSw42dZAp7W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTg3/z/7Z4AAOSw-3FZAp0V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ3N1gxNjAw/z/LMEAAOSwrhBZAp0j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDAz/z/I78AAOSwrhBZApz~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/EYEAAOSwtGlZAp0h/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/BeYAAOSwcgNZAp0G/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jaeger-LeCoultre-Reverso-Grand-Reverso-Calendar-/182599746128",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "420",
+    "UserID": "bosco1839",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

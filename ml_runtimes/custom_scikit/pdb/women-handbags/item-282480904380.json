@@ -1,0 +1,78 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "TimeLeft": "P12DT22H45M47S",
+  "ConditionDisplayName": "New without tags",
+  "ConditionDescription": "brand new never used",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTE4WDEwMjI=/z/MF4AAOSwuxFYzA3f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTE4WDEwMjE=/z/MlwAAOSwzgBYzA32/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Neiman-Marcus-extra-large-clutch-set-2-/282480904380",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Bran new never used Neiman Marcus sold as. A pair. One in black and one in Brown/Beige. The black one has an intricate woven pattern. The beige won also has pattern. Perfect for day or night. Sold as lot at bargain price.",
+  "Title": "Neiman Marcus extra large clutch set 2",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Columbus, Indiana",
+  "Seller": {
+    "FeedbackScore": "12",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "omamarchan_0"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "47201",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-16T16:31:31.000Z",
+  "HitCount": "10",
+  "ConditionID": "1500",
+  "EndTime": "2017-06-15T16:31:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Neiman Marcus"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "clutch"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282480904380",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824809043808080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

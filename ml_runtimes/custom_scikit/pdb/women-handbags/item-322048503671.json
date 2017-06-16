@@ -1,0 +1,405 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/cEoAAOSwr7ZW8X~c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/rp8AAOSwoudW8X~c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/JGMAAOSwpIdW8X~f/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Top-Zip-Womens-Hobo-Bag-/322048503671?var=",
+  "ConvertedCurrentPrice": {
+    "value": "67.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Our eBay Store David King Top Zip Women's Hobo Bag Keep your everyday essentials stylishly stowed in the David King & Co. Top Zip Hobo With Front Open pocket. This soft, smooth, supple, and luxurious full-grain Vacquetta cowhide leather bag features a simple, bohemian-inspired, slouchy-chic design, and it's available in several colors. It has a top zip closure, and it opens to reveal a spacious, lined interior with a zippered backwall compartment for keeping valuables safe and secure, plus plenty of room for your daily necessities. An open front pocket provides additional storage space, and the David King & Co. Top Zip Hobo With Front Open pocket comes with an adjustable shoulder strap for carrying versatility. Top zippered main section Open front pocket Inside zippered security pocket Adjustable shoulder strap Dimensions: 11\" x 10\" x 4\"Weight: 2 lbsMaterial: Full grain vacquetta cowhideWarranty: One year against manufacturer defectsLinear Inches: 25\" PAYMENTS We accept PayPal and all major credit cards. If you are having difficulties with paying by credit card please contacts us. Only California buyers will pay the CA state sales tax. SHIPPING Our orders are processed and shipped within 1-3 business days of receipt of payment. Shipping transit times may take additional 3-6 business days, depending on your location and the location of our manufacturer. Saturday, Sunday and national holidays are not business days and are not included in our estimated shipping and handling time. The total time to receive the ordered item will be 6-8 business days from the date of purchase. Regular ground free shipping is applicable to the continental 48 United States only. Please contact us for a shipping quote if there is no shipping rate posted for your location or country. We are currently only able to ship to the select international locations. After your item ships, you will receive a shipping notification with the tracking number, which you can use to obtain information on your order details at any time. RETURNS If you are not satisfied with your purchase, you may return it in unused, ORIGINAL CONDITION for any reason within 30 days of receipt for an exchange or a refund. If your delivery address is a non-US address and you would like to return your item, it is your responsibility to pay return shipping to the correct US address. Be sure to pack your item securely to prevent damage in transit. Damaged items will not be accepted for return. Merchandise must be returned via a carrier where a tracking number is required, such as, UPS, Fedex, or USPS.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box",
+    "AM",
+    "BD",
+    "KZ",
+    "AF",
+    "KG",
+    "BT",
+    "TM",
+    "MN",
+    "PK",
+    "IN",
+    "UZ",
+    "AZ",
+    "TJ",
+    "LK",
+    "MV",
+    "GE",
+    "NP",
+    "VU",
+    "GU",
+    "WF",
+    "FJ",
+    "MH",
+    "NC",
+    "PG",
+    "NU",
+    "SB",
+    "TO",
+    "FM",
+    "NR",
+    "KI",
+    "AS",
+    "PF",
+    "CK",
+    "PW",
+    "WS",
+    "TV",
+    "MC",
+    "SM",
+    "MK",
+    "MD",
+    "JE",
+    "VA",
+    "LU",
+    "AD",
+    "ME",
+    "IS",
+    "AL",
+    "SJ",
+    "GI",
+    "RS",
+    "LI",
+    "GG",
+    "BY",
+    "BA",
+    "DM",
+    "AG",
+    "AI",
+    "HT",
+    "TC",
+    "GP",
+    "GD",
+    "PR",
+    "VC",
+    "AN",
+    "MS",
+    "NI",
+    "BS",
+    "KN",
+    "KY",
+    "MQ",
+    "AW",
+    "VI",
+    "BB",
+    "BZ",
+    "LC",
+    "VG",
+    "VN",
+    "LA",
+    "BN",
+    "KH",
+    "MO",
+    "PE",
+    "GY",
+    "BO",
+    "GF",
+    "UY",
+    "PY",
+    "FK",
+    "SR",
+    "AR",
+    "VE",
+    "EC",
+    "BM",
+    "PM",
+    "GL",
+    "BI",
+    "TG",
+    "ZW",
+    "KE",
+    "TN",
+    "EG",
+    "TD",
+    "NE",
+    "LS",
+    "GM",
+    "BF",
+    "ZM",
+    "SL",
+    "SZ",
+    "CF",
+    "AO",
+    "GA",
+    "NA",
+    "TZ",
+    "UG",
+    "ET",
+    "SC",
+    "CD",
+    "ML",
+    "CI",
+    "GW",
+    "SO",
+    "DZ",
+    "MZ",
+    "YT",
+    "KM",
+    "SH",
+    "CV",
+    "BJ",
+    "GN",
+    "MA",
+    "MU",
+    "EH",
+    "ER",
+    "RW",
+    "DJ",
+    "CM",
+    "CG",
+    "RE",
+    "MR",
+    "GH",
+    "GQ",
+    "SN",
+    "MW",
+    "BW",
+    "LY",
+    "MG",
+    "NG",
+    "LR",
+    "OM",
+    "LB",
+    "TR",
+    "YE",
+    "IQ",
+    "JO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "Boston, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "3204",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "powerboxusa"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02111",
+  "GlobalShipping": "true",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/1/0/1034b_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "Cafe",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/1/0/1034c_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "Tan",
+          "PictureURL": "http://www.gotbriefcases.com/media/catalog/product/1/0/1034t.jpg"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "67.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "1034B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "67.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "1034C",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Cafe"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "67.99",
+          "_currencyID": "USD"
+        },
+        "SKU": "1034T",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Tan"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Cafe",
+          "Tan"
+        ]
+      }
+    }
+  },
+  "StartTime": "2016-03-22T17:24:40.000Z",
+  "Title": "David King Top Zip Women's Hobo Bag",
+  "TimeLeft": "P13DT2H8M9S",
+  "EndTime": "2017-06-15T17:24:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "Style",
+        "Value": "Messenger/Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Size",
+        "Value": "11 x 10 x 4"
+      },
+      {
+        "Name": "Target Gender",
+        "Value": "womens"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322048503671",
+  "Storefront": {
+    "StoreName": "PowerBox",
+    "StoreURL": "http://stores.ebay.com/id=677674035"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "6",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "1034",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

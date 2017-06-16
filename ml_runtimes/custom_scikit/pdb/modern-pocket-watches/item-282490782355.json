@@ -1,0 +1,191 @@
+{
+  "ExcludeShipToLocation": [
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "GI",
+    "GG",
+    "IS",
+    "JE",
+    "LI",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "VA"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "44236",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "UNIFIED PRECIOUS METALS INC.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "6053",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "6053",
+        "Name": "Model"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color USA"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "056132060535",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "DiscountPriceInfo": {
+    "SoldOneBay": "true",
+    "SoldOffeBay": "false",
+    "OriginalRetailPrice": {
+      "_currencyID": "USD",
+      "value": "54.94"
+    },
+    "PricingTreatment": "STP"
+  },
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "QuantityAvailableHint": "Limited",
+  "Description": "Buffalo Nickel Pocket Watch - Authentic Coin - COA Included Click Thumbnails to Enlarge Product Description This pocket watch features a lid that showcases the front and back of an authentic Buffalo Nickel from the first half of the 1900s. Certificate of authenticity included. Base metal with quality quartz movement. 1\"x 2 1/8\" watch is on a 14\" link chain with oversized spring-ring clasp. Features an authentic US Buffalo Nickel from the first half of the 1900s Lid showcases the front and back of the coin Great gift for coin collectors Certificate of authenticity included 1 1/2\" x 2 1/8\" watch is on a 14 1/4\" link chain with oversized spring-ring clasp Please note that combined shipping is not applicable to International Orders due to import duty restrictions. We want you to be completely satisfied with your purchase. If you experience a problem, please contact us first before leaving feedback so that we can make it right for you. CLICK HERE TO SEE MORE GREAT ITEMS LIKE THIS Payment Terms We only accept payment via US PayPal accounts. PayPal allows you to pay using a major credit card or direct transfer from your checking account. Shipping Terms $1.00 shipping for each additional eligible item you buy from universaldirectbrands. The shipping carrier is chosen based on the dimensions of the item and ship-to location. We use various USPS and UPS shipping methods. If you receive a tracking number noted as USPS, please track through fedex.com as they are the initial carrier. Return Policy Most items may be returned for exchange or refund at any time. See packing list for details. As you would expect, personal care items, intimates and footwear must be returned in original unworn condition, within 60 days. Please try on your footwear inside on a carpeted surface before wearing outdoors. Personalized items cannot be cancelled or returned. However, if your personalized item arrives damaged we will gladly send you a replacement. About Us We've come a long way from a screen-printing business started in 1983! Besides t-shirts and sweats, we offer tops, tunics, shoes, boots, fashion jewelry and therapeutic hosiery. We also carry hot signed books, home decor, and hilarious novelties. Contact Us Click here to contact us or call our customer service at 1.800.669.5225. Featured Items",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/teYAAOSwK6RZJIbJ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.35"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ConditionDisplayName": "New with tags",
+  "SKU": "CT9282",
+  "StartTime": "2017-05-23T19:00:21.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824907823558080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T19:00:21.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "282490782355",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "44.35"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Buffalo-Nickel-Pocket-Watch-Authentic-Coin-COA-Included-Full-Hunter-Closure-/282490782355",
+  "Location": "Hudson, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Buffalo Nickel Pocket Watch - Authentic Coin - COA Included -Full Hunter Closure",
+  "Storefront": {
+    "StoreName": "UniversalDirectBrands",
+    "StoreURL": "http://stores.ebay.com/id=1197333276"
+  },
+  "Seller": {
+    "UserID": "universaldirectbrands",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "30354",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT22M33S"
+}

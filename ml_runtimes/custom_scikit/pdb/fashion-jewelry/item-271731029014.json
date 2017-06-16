@@ -1,0 +1,130 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P17DT9H34M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "271731029014",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Floral-Ribbon-Design-Pin-Silver-Pink-Clear-Aurora-Borealis-CZs-FAC-Rhodium-NWT-/271731029014",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2015-01-05T01:56:31.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-23T01:56:31.000Z",
+  "PrimaryCategoryID": "110399",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fifth Avenue Collection",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Metal"
+      },
+      {
+        "Value": "10k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "Pin",
+        "Name": "Type"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Floral Ribbon Design Pin Silver Pink Clear Aurora Borealis CZs FAC Rhodium NWT",
+  "ExcludeShipToLocation": [
+    "RU",
+    "BY",
+    "MD",
+    "UA",
+    "VE",
+    "AO",
+    "CD",
+    "CG",
+    "CI",
+    "LR",
+    "NG",
+    "SL",
+    "SO",
+    "AF",
+    "AM",
+    "AZ",
+    "GE",
+    "KZ",
+    "KG",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "BidCount": "0",
+  "Description": "<div style=\"text-align: center;\"><img border=\"0\" src=\"http://ti2.auctiva.com/sw/java.gif\"><br><table align=\"center\"><tbody><tr><td><a style=\"text-decoration: none;\" href=\"http://store.auctiva.com/AGreatFind\"><img border=\"0\" src=\"http://ti2.auctiva.com/sw/browse1.gif\"></a></td><td height=\"23\" vAlign=\"middle\" align=\"center\"><font size=\"2\" face=\"arial\"><b><a href=\"http://store.auctiva.com/AGreatFind\">AGreatFind</a> Store</b></font></td></tr></tbody></table></div> <img border=\"0\" src=\"http://ti2.auctiva.com/web/aswCredit.gif\"><br><a href=\"http://www.auctiva.com/?how=scLnk2\" target=\"_blank\"><img border=\"0\" src=\"http://ti2.auctiva.com/images/sc1line2.gif\"></a> FAC Silver Floral Ribbon Design Pin Aurora Borealis CZs <div style=\"text-align: center;\"><a style=\"text-decoration: none;\" href=\"http://mostpopular.sellathon.com/?id=AC865236\"><img border=\"0\" src=\"http://www.sellathon.com/Resources/Images/countercredit.gif\"></a></div>",
+  "PrimaryCategoryIDPath": "281:10968:15124:110399",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2717310290148080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kathystreasurechest",
+    "FeedbackScore": "682",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "Kathys Treasure Chest",
+    "StoreURL": "http://stores.ebay.com/id=109585628"
+  },
+  "Quantity": "1",
+  "Location": "Auburn, Washington",
+  "HitCount": "337",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NVgxNjAw/$(KGrHqZHJEMFChWKQ8ZKBQq(yCz9wg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "98002"
+}

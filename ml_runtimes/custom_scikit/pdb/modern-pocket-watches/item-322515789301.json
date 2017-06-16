@@ -1,0 +1,79 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "27265",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "BRAND NEW WITH TAGS BULOVA CRONOGRAPH POCKET WACTH 56MM. COMES WITH ORIGINAL BOX AND MANUAL-BROWN LEATHER BELT STRAP. MSRP $699.00",
+  "StartTime": "2017-05-13T20:09:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oG8AAOSwTuJYoLVw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oosAAOSw3v5YoLVY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oTsAAOSw2gxYoLWw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-AMAAOSwOgdYoLW-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CfwAAOSw32lYoLXL/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "219.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bulova",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "forward-thinkin",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "784",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "42",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225157893018080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-12T20:09:56.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "219.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BULOVA-POCKET-WATCH-96B249-MSRP-699-00-/322515789301",
+  "Location": "High Point, North Carolina",
+  "Title": "BULOVA POCKET WATCH 96B249 MSRP $699.00",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322515789301",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT1H29M18S"
+}

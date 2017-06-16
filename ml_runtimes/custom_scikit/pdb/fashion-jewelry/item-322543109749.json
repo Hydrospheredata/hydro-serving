@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "77.75",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "322543109749",
+  "TimeLeft": "P4DT17H4M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "Americas",
+    "Europe"
+  ],
+  "CurrentPrice": {
+    "value": "76.75",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pandora-Bracelet-15-Charms-and-Pandora-Box-925-Ale-some-retired-7-5-19-/322543109749",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "76.75",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:17:41.000Z",
+  "PaymentMethods": "PayPal",
+  "HighBidder": {
+    "UserID": "0***3",
+    "FeedbackScore": "822",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Purple"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T03:17:41.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "19 cm / 7.5 in",
+        "Name": "Bracelet Size"
+      },
+      {
+        "Value": "Sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Box",
+        "Name": "Clasp Type"
+      }
+    ]
+  },
+  "Title": "Pandora Bracelet With 15 Charms and Pandora Box 925 Ale some retired 7.5/19",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "4",
+  "Description": "Pandora bracelet with charms. All stamped ALE 925 except dog house.(retired)Kiss Me I'm Irish, Green Clover Murano GlassSeashellLove You (Pink enamel) VinoRed Lady BugsPurple Bubbles (Glass)Zinnia Amethyst Clip (2)Doghouse, red enamel (do not see 925 ALE stamp--believe it wore off side due to rubbing against other charm, but since it's not present, cannot prove without doubt that charm is authentic)GirlBoy (current)Fascinating Purple Murano Glass (2) (slight wear present on these) Language of LoveSoccer Ball Black Enamel In Pandora box, which is a bit worn. Bracelet shows few signs of wear except as noted above.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225431097498080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "palmetto_moon",
+    "FeedbackScore": "389",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "HandlingTime": "2",
+  "Location": "Petersburg, Virginia",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQzOFgxNjAw/z/j48AAOSw-K9ZNLlr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/UQcAAOSwY3BZNMsG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-vEAAOSwR29ZNLmg/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "23805"
+}

@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/qXQAAOSw~y9ZFLy5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/U7gAAOSwi7RZFLze/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/KKEAAOSwAPVZFL0u/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/cngAAOSwxu5ZFL1U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/K2gAAOSwY3BZFL12/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/abAAAOSw5cRZFL2V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/9IQAAOSw8HBZFL45/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/kkEAAOSwK6RZFL6a/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-VERA-BRADLEY-BACKPACK-PIXIE-BLOOMS-/112404110654",
+  "ConvertedCurrentPrice": {
+    "value": "56.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley - Backpack- Pixie Blooms. New with tags. Never used.Measures approx : 12\"W x 14 1/2\"H x 5 1/2\"D with 31\" adjustable shoulder straps.The main compartment has one zipper/pocket inside.In front there are 3 more pockets. Side pockets are large enough for water bottles. There is another zipper/pocket in the back.This is an authentic Vera Bradley item, but I am not an authorized Vera Bradley representative, retailer, distributor or affiliation with Vera Bradley or its representatives in any way, not is this auction endorsed or authorized by Vera Bradley.",
+  "Title": "NEW VERA BRADLEY BACKPACK - PIXIE BLOOMS",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "56.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Miami, Florida",
+  "Seller": {
+    "FeedbackScore": "31",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "carlosale13"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33129",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T19:44:57.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P8DT1H57M13S",
+  "EndTime": "2017-06-10T19:44:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Pixie Blooms"
+      },
+      {
+        "Name": "Material",
+        "Value": "Quilted Cotton"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112404110654",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124041106548080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

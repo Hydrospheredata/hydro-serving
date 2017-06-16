@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/uFQAAOSwX9FZGcdp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/HSIAAOSwhvFZGcdu/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Giraffe-Weekender-Duffel-Giraffe-/302317822485",
+  "ConvertedCurrentPrice": {
+    "value": "55.32",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Giraffe Weekender Duffel Product Details Color: Giraffe Brand: Wildkin MPN: 69260 Product Dimensions: 22 x 12 x 12 inches Item Weight: 1.8 pounds Shipping Weight: 1.8 pounds Domestic Shipping: Item can be shipped within U.S. Origin: China Item model number: 69260 Manufacturer recommended age: 5 years and up 600 Denier Polyester Made from rugged, water-resistant 600-denier polyester Detailed with an adjustable, removable shoulder strap and padded handles Sized to fit in an overhead bin when used as a carry-on Available in lots of fun patterns Match with other accessories of the same pattern Color:Giraffe Our Weekender duffel bag has great features such as spacious side and front pockets for quick reach to accessories, and a super-roomy interior. From the Manufacturer Our Weekender duffel bag has great features such as spacious side and front pockets for quick reach to accessories, and a super-roomy interior.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.32",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "5243",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Green",
+    "UserID": "1.ruti.3"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Giraffe Weekender Duffel Giraffe",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-15T15:21:19.000Z",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023178224858080_1.jpg",
+  "TimeLeft": "P11DT22H36M4S",
+  "EndTime": "2017-06-14T15:21:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "69260"
+      },
+      {
+        "Name": "Color",
+        "Value": "Giraffe"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Wildkin"
+      },
+      {
+        "Name": "UPC",
+        "Value": "097277692601"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302317822485",
+  "Storefront": {
+    "StoreName": "1.ruti.3",
+    "StoreURL": "http://stores.ebay.com/id=1458179834"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00ABB3QCM",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

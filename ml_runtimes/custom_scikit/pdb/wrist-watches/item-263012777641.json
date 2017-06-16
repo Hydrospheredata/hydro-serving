@@ -1,0 +1,333 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.35",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:44:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "10",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1112246019",
+    "StoreName": "ActModz"
+  },
+  "CurrentPrice": {
+    "value": "10.35",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:44:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "082-YW01728",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ItemID": "263012777641",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-Three-Pointer-Calendar-Watches-Unisex-Business-Cloth-Dress-Wristwatches-/263012777641?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion&Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sport Wrist Watch",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "10.35",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01728B",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "10.35",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01728Y",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "10.35",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01728X",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "10.35",
+          "_currencyID": "USD"
+        },
+        "SKU": "082-YW01728W",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "Yellow",
+          "Brown",
+          "White"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/42e80868-8238-49d0-97c6-fbcdd62c7758.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/3d20e3d1-d042-4c39-9b1e-e12b3817091a.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/145d75d5-695f-4834-9f52-329c90239ba2.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/da1cf94f-0e98-4f81-b6dc-f2eb607f8055.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/88b00596-7118-47f8-9021-697e277c2c75.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/a8f2d784-970c-40ae-929f-3984a9fa9f0b.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/7f4bc8cc-a03d-469e-ad67-56c3c004224c.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/816af466-b273-445b-b256-acb95b72d89b.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/858e3f7e-6a63-4c8f-af0b-02f781e228dc.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2875de95-25a2-4c71-a5d9-b0989deeaa14.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/2e6ecc71-7365-4b12-9bcf-987a350a683e.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/7289c475-decb-40dc-bb6d-912f064108e0.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/5bb11a51-a753-401f-9cef-267b3299d55b.jpg",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/3a5f210b-10b6-444f-be12-5eb1b12a3980.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/ebd14377-ac9d-4935-805a-b4c6e0547574.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/dd828ee3-0876-4c57-9e34-df0e33bc608b.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/8892762c-8750-403f-9e92-19d59d8cea40.JPG"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": [
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/32aa36b6-bd22-4eb3-afbf-21feb2681f66.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/6b5f8c7d-9d4b-4848-8faa-83b6e36ae80a.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/5975b20e-09cf-4e2c-88e2-2c1898aa6b16.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/06ee0f3b-551b-4cf9-8888-40d0ccb2cf77.JPG",
+            "https://image.pushauction.com/0/0/969ad60e-3302-471a-ab56-33db1d608fdd/ca7bb325-82ed-4e6e-9fa7-a94db8f9f642.JPG"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "1",
+  "PostalCode": "518000",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H21M55S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qhYAAOSwCQZZLp6A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/iPMAAOSwcgNZLp6A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/S98AAOSwAPVZLp6A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/DjEAAOSwblZZLp6B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IDMAAOSwIaFZLp6B/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Leather Three Pointer Calendar Watches Unisex Business Cloth Dress Wristwatches",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "53803",
+    "UserID": "actmodz",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

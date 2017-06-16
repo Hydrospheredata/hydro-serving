@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921386002028080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/6p0AAOSwsW9Y1KOe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/6rIAAOSwsW9Y1KOf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5fMAAOSwSlBY1KOe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/2asAAOSwol5Y1KOf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/6qAAAOSwsW9Y1KOf/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Herschel-Settlement-Liberty-London-Backpack-Blue-Shipping-Free-/192138600202",
+  "ConvertedCurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Model Name: Settlement Liberty of London CollectionModel Number: 10005-00997Dimensions: ca.30x44x13 cm (WxHxD)Weight: 540gUpper: 100% polyethyleneManufacturer colour name: Navy / Volanism PrintcharacteristicsCapacity: 23 litersClosure: ZipperShoulder strap: padded and adjustable about 46-84 cm in lengthExterior: Zippered front pocketInside: padded laptop compartment, key clip, main compartment with cotton liningExtras: wrist strap, padded back panelAll bags are delivered without content",
+  "Title": "Herschel Settlement Liberty London Backpack Blue. Shipping is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-24T04:42:01.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P19DT12H20M7S",
+  "EndTime": "2017-06-22T04:42:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Herschel"
+      },
+      {
+        "Name": "MPN",
+        "Value": "296491250"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138600202",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:127431020:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Item must be returned in as-shipped condition from seller.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "jjantique",
+    "FeedbackScore": "2830",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "282493582240",
+  "TimeLeft": "P19DT2H18M2S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Very good vintage condition",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.95",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryID": "10970",
+  "ConvertedCurrentPrice": {
+    "value": "55.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:10970",
+  "BidCount": "0",
+  "StartTime": "2017-05-25T17:02:13.000Z",
+  "HandlingTime": "2",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Graziano-Bib-Collar-Chain-Mesh-Pearls-Crystals-Necklace-Earrings-Set-/282493582240",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T17:02:13.000Z",
+  "PrimaryCategoryID": "165896",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silvertone",
+        "Name": "Graziano Bib Collar Chain Mesh & Pearls"
+      },
+      {
+        "Value": "Graziano",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Faux Pearls & Crystal Beads",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Graziano Bib Collar Chain Mesh & Pearls & Crystals Necklace & Earrings Set",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "Location": "Bedford, Texas",
+  "Description": "Graziano Bib Collar Chain Mesh & Pearls & Crystals Necklace & Earrings Set Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:48579:500:165890:165896",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824935822408080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "Storefront": {
+    "StoreName": "jjantique",
+    "StoreURL": "http://stores.ebay.com/id=6572258"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMTg3/z/D0wAAOSwepZXSfsm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMzA3/z/f5UAAOSwR5dXSfso/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzMwWDc5Mg==/z/iYUAAOSw7ehXSfsp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMzMVgxNjAw/z/wyYAAOSwn8FXSfsr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxNjAw/z/cFIAAOSwoJZXSfst/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE3NVgxNjAw/z/rS0AAOSwa81XSfsw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ipMAAOSw7ehXSfsz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxNVgxNjAw/z/ETQAAOSwepZXSfs2/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Vintage & Antique Jewelry:Costume:Designer, Signed:Sets",
+  "PostalCode": "76021"
+}

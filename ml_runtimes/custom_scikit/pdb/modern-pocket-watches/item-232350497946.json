@@ -1,0 +1,95 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "Title": "American Flag Pocket Watch",
+  "PostalCode": "63366",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "American Flag Pocket WatchNew in box. Never used. May need a new battery.Thanks! Please view ALL pictures as part of the description and condition. View my other items and if you find something else you like, I can combine shipping.",
+  "StartTime": "2017-05-27T01:24:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RNcAAOSw8gVX-YrC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hIoAAOSw8w1X-YrG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XGsAAOSwzaJX-YrK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1hcAAOSw4shX-YrP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ScsAAOSwpLNX-YrT/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "suite100",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "756",
+    "PositiveFeedbackPercent": "97.9"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323504979468080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T01:24:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/American-Flag-Pocket-Watch-/232350497946",
+  "ConditionDescription": "Never used. May need a new battery.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "O'Fallon, Missouri",
+  "Storefront": {
+    "StoreName": "suite100",
+    "StoreURL": "http://stores.ebay.com/id=259696746"
+  },
+  "ItemID": "232350497946",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT6H48M15S"
+}

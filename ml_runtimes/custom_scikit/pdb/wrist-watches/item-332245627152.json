@@ -1,0 +1,128 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "93.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "219408686",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:03:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "93.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:03:22.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245627152",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gold / Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "34mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MJ1409",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "796483218093",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Marc by Marc Jacobs Original MJ1409 Dotty Women's Black Leather Strap Watch",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Marc-Marc-Jacobs-Original-MJ1409-Dotty-Womens-Black-Leather-Strap-Watch-/332245627152",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322456271528080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H42M19S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTE4WDUwMA==/z/N7EAAOSwB-1Y19nO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ4Nlg4OTg=/z/NlQAAOSw4CFY19nY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTE4WDUwMA==/z/RzkAAOSw4A5Y19nb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODgyWDc0Mw==/z/jx8AAOSwzgBY19nk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ3MVg4OTg=/z/O9EAAOSwB-1Y19ns/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Features and Functions: Case thickness 12 mm Case diameter 34 mm Analog-quartz Movement Case Diameter: 34mm Water Resistant To 165 Feet Description: A sophisticated Marc by Marc Jacobs watch with a matte leather band. Logo lettering accents the faded dial. Adjustable length and buckle closure. Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

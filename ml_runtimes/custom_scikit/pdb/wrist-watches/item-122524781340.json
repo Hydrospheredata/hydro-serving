@@ -1,0 +1,155 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T10:08:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:08:02.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "BuyItNowPrice": {
+    "value": "0.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "1",
+  "TimeLeft": "P4DT18H43M22S",
+  "MinimumToBid": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225247813408080_1.jpg",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1125377545",
+    "StoreName": "what-is-fashion"
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Teen",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "V-SH-JY-017@#BXFM",
+  "ExcludeShipToLocation": [
+    "JO",
+    "KW",
+    "CN",
+    "JP",
+    "PF",
+    "AT",
+    "DE",
+    "CH",
+    "HN",
+    "PR",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BO",
+    "EC",
+    "MX",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": null,
+  "QuantitySold": "0",
+  "Title": "Silicone Jelly Rubber Band Anion Unisex Digital Sport Wrist Watch 13 Colors PW",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "BidCount": "0",
+  "ItemID": "122524781340",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/FswAAOSwKytZLpXp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/mhIAAOSwxu5ZLpXu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/c60AAOSwblZZLpXx/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/PFsAAOSwZ4dZLpX0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/jKQAAOSwjL5ZLpX3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/PLQAAOSwZ4dZLpX6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/X1YAAOSwZKBZLpX9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMlgxMDAy/z/jjIAAOSwIaFZLpYA/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silicone-Jelly-Rubber-Band-Anion-Unisex-Digital-Sport-Wrist-Watch-13-Colors-PW-/122524781340",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "38781",
+    "UserID": "what-is-fashion",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true"
+}

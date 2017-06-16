@@ -1,0 +1,57 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "41017",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Cloisonn\u00e9 2004 pocket watch collectible ornament",
+  "StartTime": "2017-05-06T21:05:55.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kfgAAOSw44BYM6rg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/f~AAAOSwcLxYM6rq/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "hd1945fh-3",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "31",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1224828361708080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T21:05:55.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cloisonne-2004-pocket-watch-collectible-ornament-/122482836170",
+  "Location": "Fort Mitchell, Kentucky",
+  "Title": "Cloisonne 2004 pocket watch collectible ornament",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "122482836170",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT2H22M9S"
+}

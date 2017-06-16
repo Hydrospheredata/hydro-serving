@@ -1,0 +1,57 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91361",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Preowned. Has black strap with a silver tone buckle. The rim and where the metal where the straps are attached show signs of wear and discoloration. This will need new batteries.",
+  "StartTime": "2017-05-29T03:27:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU3Mlg5Njg=/z/t-EAAOSwaB5Xt7Ts/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/uUMAAOSwaB5Xt7T-/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "lostincaribe",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "303",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525648250198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T03:27:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/United-States-America-Twenty-Watch-Japan-Movement-Taiwan-Dial-/152564825019",
+  "Location": "Westlake Village, California",
+  "Title": "United States of America Twenty Watch Japan Movement Taiwan Dial",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152564825019",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT8H52M35S"
+}

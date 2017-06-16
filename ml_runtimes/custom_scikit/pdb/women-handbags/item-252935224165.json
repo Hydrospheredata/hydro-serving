@@ -1,0 +1,79 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/lVcAAOSw3gJZFhb3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/3~8AAOSwGJlZFhcF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/TNUAAOSww9xZFhcT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/wqcAAOSwhvFZFhcj/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-BRIGHTON-Leather-Briefcase-Croc-Embossed-Leather-Rare-Nice-/252935224165",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Beautiful Vintage Brighton Briefcase. Beautifully worn! Roomy interior. Exterior flap for credit/business cards, ID, money, etc. Nice Bag!",
+  "Title": "Vintage BRIGHTON Leather Briefcase ~ Croc Embossed Leather ~ Rare ~ Nice",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Kenbridge, Virginia",
+  "Seller": {
+    "FeedbackScore": "106",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "wmlca"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "23944",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-12T20:15:11.000Z",
+  "HitCount": "38",
+  "TimeLeft": "P9DT5H11M2S",
+  "EndTime": "2017-06-11T20:15:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Brighton"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Dark Brown"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase, Atache Case"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252935224165",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529352241658080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

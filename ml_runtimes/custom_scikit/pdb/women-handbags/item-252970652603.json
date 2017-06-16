@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/Wi8AAOSw9GhYintk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/SXMAAOSw-0xYintq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/RogAAOSw4DJYintm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/R7gAAOSwopRYinto/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/z-wAAOSwUKxYints/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Moschino-Back-Pack-/252970652603",
+  "ConvertedCurrentPrice": {
+    "value": "355.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Moschino bright red and gold",
+  "Title": "Moschino Back Pack",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "355.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Atlanta, Georgia",
+  "Seller": {
+    "FeedbackScore": "19",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "beastbuys17"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "355.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "30327",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:23:52.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P6DT21H51M39S",
+  "EndTime": "2017-06-09T12:23:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Moschino"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970652603",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529706526038080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

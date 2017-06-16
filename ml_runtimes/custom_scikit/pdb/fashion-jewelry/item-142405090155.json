@@ -1,0 +1,161 @@
+{
+  "HandlingTime": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "45.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "142405090155",
+  "TimeLeft": "P6DT16H21M27S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-05T02:22:08.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "PostalCode": "93001",
+  "ConvertedCurrentPrice": {
+    "value": "45.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "NWT Tory Burch Pierced T Thin Gold Tone Bangle Bracelet w/ pouch $95",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-12T02:22:08.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tory Burch",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2 3/8\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "metal",
+        "Name": "Material"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Tory-Burch-Pierced-T-Thin-Gold-Tone-Bangle-Bracelet-w-pouch-95-/142405090155",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Ventura, California",
+  "Description": "NWT retail $95 comes with bag / gift recipes no box",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424050901558080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "skyoceanrblue2012",
+    "FeedbackScore": "436",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQ3WDU2OQ==/z/NJQAAOSwzgBY4Yia/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MU0AAOSwzgBY4YiF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/viQAAOSwU8hY4YiG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/yaMAAOSwdGFY4YiI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/uBMAAOSwXYtY4YiE/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "CurrentPrice": {
+    "value": "45.95",
+    "_currencyID": "USD"
+  }
+}

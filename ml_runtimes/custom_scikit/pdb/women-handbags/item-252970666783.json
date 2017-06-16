@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjgzWDYyNg==/z/3hIAAOSwDk5UApJm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/RtkAAOSwZjJU2qfG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/ro4AAOSwstxU2qfJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/L3MAAOSwPhdU2qfL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/dlQAAOSwBLlU2qfN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/yqYAAOSwEeFU2qfQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/MAQAAOSwPhdU2qfT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/r4IAAOSwstxU2qfW/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antonio-Melani-Scarlet-Satchel-Retail-Price-229-00-/252970666783",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "From Antonio Melani, the Scarlet satchel features: \u2022leather with fabric lining \u2022 center top zip closure \u20222 slip pockets and zip pocket inside \u2022front flap pocket with magnetic snap closure and back slip pocket with magnetic closure outside \u2022 double handles \u2022 approximately 11(L)x6.5(D)\",9.5\" approx handle drop \u2022 comes with the sack \u2022imported PROS Attractive Easy access Enough compartments Good strap length Great color High quality BEST USES Date Night/Night out Office Shopping",
+  "Title": "Antonio Melani Scarlet Satchel Retail Price $229.00",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Boise, Idaho",
+  "Seller": {
+    "FeedbackScore": "222",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "che_fowler"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "83709",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:33:40.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P9DT22H22M44S",
+  "EndTime": "2017-06-12T12:33:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Strap Drop",
+        "Value": "9.5 \""
+      },
+      {
+        "Name": "Brand",
+        "Value": "Antonio Melani"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11x(L)x8(H)"
+      },
+      {
+        "Name": "Color",
+        "Value": "Saddle/Cognac"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "6.5(D)"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970666783",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529706667838080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

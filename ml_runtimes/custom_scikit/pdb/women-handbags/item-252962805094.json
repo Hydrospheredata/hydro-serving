@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "TimeLeft": "P25DT7H40M17S",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionDescription": "Excellent",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sj8AAOSwONBZAoSX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aLkAAOSwjqVZAoSe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zNcAAOSwX61ZAoSh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aXgAAOSwjqVZAoSk/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAHMIN-Medium-Arno-Tote-Glossy-Yellow-MSRP-245-/252962805094",
+  "ConvertedCurrentPrice": {
+    "value": "129.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Beautiful bag in excellent condition. Please note there are ink marks inside. Dust cover included.",
+  "Title": "BRAHMIN Medium Arno Tote Glossy Yellow  MSRP $245",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "129.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Eveleth, Minnesota",
+  "Seller": {
+    "FeedbackScore": "525",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "conrtek2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "55734",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T00:13:22.000Z",
+  "HitCount": "8",
+  "ConditionID": "3000",
+  "EndTime": "2017-06-28T00:13:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "BRAHMIN"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "SHOULDER BAG/TOTE"
+      },
+      {
+        "Name": "Color",
+        "Value": "SOL GLOSSY ARNO YELLOW"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "17\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "Handle 9.5\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252962805094",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529628050948080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

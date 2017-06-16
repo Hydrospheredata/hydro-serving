@@ -1,0 +1,162 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "17.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:21:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=659724323",
+    "StoreName": "dailyetrade"
+  },
+  "CurrentPrice": {
+    "value": "17.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:21:35.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "SHARK",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Alarm",
+          "Chronograph",
+          "Day & Date"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silicone/Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "KW",
+    "TR",
+    "YE",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AU",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "VE"
+  ],
+  "ItemID": "142400014926",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SHARK Fashion Mens Rubber LCD Digital Date Day Quartz Military Sport Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "SH041",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SHARK-Fashion-Mens-Rubber-LCD-Digital-Date-Day-Quartz-Military-Sport-Wrist-Watch-/142400014926",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424000149268080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H58M12S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GdoAAOSwY3BZFDqa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/SsgAAOSwi7RZEolB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzg0WDEwMDA=/z/9iwAAOSwBt5ZIHKG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2OFgxMDAw/z/afIAAOSwcgNZH6rV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5OTc=/z/A14AAOSwjqVZH6rW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExMlgxMDAw/z/DV4AAOSwaEhZH6rU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyMFgxMDAw/z/1CMAAOSwfRdZH6rU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwNVgxMDAw/z/xHEAAOSw42JZH6rV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM0NFgxMDAw/z/JQwAAOSwH09ZH6rV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzExWDEwMDA=/z/zGQAAOSwcaFZH6rU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzMVgxMDAw/z/f00AAOSwlY1ZH6rV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjczWDEwMDA=/z/SlAAAOSwX9FZIHKG/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "17.95",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "84789",
+    "UserID": "dailyetrade",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault.\nWe will replace the defective item at no extra cost. \nPlease return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim\nAny items returned to us in working order will be sent back at the buyers cost."
+  }
+}

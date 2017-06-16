@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "958.1",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "Location": "Greensborough, VIC",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:45:02.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1285.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-10T07:45:02.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966593279",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "TUDOR",
+      "Name": "Brand"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Tudor watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Tudor-watch-/252966593279",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-Owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529665932798080_1.jpg",
+  "HitCount": "43",
+  "PostalCode": "3088",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT16H13M12S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wq4AAOSwuMZZIUMW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/GzUAAOSwX9FZIUMS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/izUAAOSwn-tZIUMZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ep4AAOSwIaFZIUMd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MhwAAOSw8lpZIUMg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/s7kAAOSwurZZIUMj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WZMAAOSwjL5ZIUMm/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KhoAAOSwcgNZIUMq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/C~kAAOSwfRdZIUMu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3uYAAOSwblZZIUM0/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Tudor Men's watch vintage 1960-70 all original. Purchased in Melbourne by reputable vintage Watch dealer off Collins St. Face quality very good pearl silver colour and in excellent condition. I wore every day. Automatic self winding, with date window which China is harder to find. Small chip in Watch glass.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "105",
+    "UserID": "brideshead30",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "91.63"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "color"
+      },
+      {
+        "Value": "MARATHON",
+        "Name": "manufacturer"
+      },
+      {
+        "Value": "Marathon",
+        "Name": "brand"
+      },
+      {
+        "Value": "ST211003",
+        "Name": "mpn"
+      },
+      {
+        "Value": "0063442900017",
+        "Name": "ean"
+      },
+      {
+        "Value": "063442900017",
+        "Name": "upc"
+      },
+      {
+        "Value": "US Free Shipping",
+        "Name": "Shipping"
+      },
+      {
+        "Value": "No Tax",
+        "Name": "Tax"
+      },
+      {
+        "Value": "analog",
+        "Name": "display"
+      },
+      {
+        "Value": "063442900017",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0063442900017",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "true",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Marathon ST211003 Stopwatch Single Action Mechanical Windup Analog Stop Watch Product Features: EASY TO USE- One button function- starts, stops and returns to zero by consecutive crown depressions.JEWEL- Rugged 15 jewel lever movement.DURABLE- Dust, water, shock and corrosion resistant.Anti-magnetic and shock protectedGift box included. Made and manufactured in Switzerland Product Description SINGLE ACTION MECHANICAL STOPWATCH 0 to 30 minutes (30 minute register) 1/5 second and 1/100 minute divisions start, stops, and returns to zero by consecutive crown depressions. Rugged 15 jewel lever movement. Anti-magnetic and shock protected. Case is nickel - chrome plated. This stop watch is great for industrial timing as the dial allows the user to record in 1/5 second intervals or 1/100 minute intervals. 30 minute register of 1 minute division value 1/5 second and 1/100 minute divisions (2 scales) Starts, stops, and returns to zero by consecutive crown depressions Rugged 15 jewel lever movement Anti-magnetic and shock protected Case is nickel - chrome plated Additional information Manufacturer: MARATHONShipping Weight (pound) : 0.2 Shipping Dimensions: Width: 6.30 Length: 9.00 Height: 1.20 Shipping Payment Returns & Refunds Our Service Profile Shipping In order to best serve our customers across the entire US, we use a wide variety of shipping services.eBay only allows us to display three shipping options in the shipping menu above, so please note that a different shipping method might be used depending on your location; however, we will of course make sure your package arrives within the stated delivery time.All of our items are shipped from our warehouses in the US. Our handling time is 2 business days, and with free shipping the shipping time is 3-4 business days.In most cases however we manage to ship much faster: don\u2019t be surprised if the mailman delivers your package within just a few days! Payment We accept PayPal and all major credit/debit cards. Once checkout is complete is you will have the option to select payment method. 30-Day Return Policy After delivery of the package you have 30 days to inspect and check the item. If there is any problem we will gladly accept the return. Please note that after 30 days we can no longer accept returns, and unfortunately cannot make exceptions. However, if the item came with a warranty then the manufacturer should be able to honor this warranty. Items can be returned for refunds only. If you would like an exchange then please use the refund to place the order again. When returning a package it needs to be returned in its original packaging, including all accessories, manuals, etc. If any of these are found to be missing, a restock fee will be applied. So make sure not to throw anything away before you know the item arrived in good condition! Once your returned item is delivered back to us, please allow several business days for us to process your return and refund. Satisfaction Guarantee Happy customers are our first priority. Fortunately we manage to make almost all of our customers happy customers. However, erring is only human, and a problem can always arise. When this happens, please contact us as soon as possible, and we will do whatever it takes to make things right! Since we will always try to fix whatever problem occurs, we would also appreciate it if you don\u2019t leave a negative feedback before giving us a chance to solve your problem. Profile Our eBay store is a small family-run business, where we still put our customers first. We are always looking for the best suppliers, in order to provide our customers with the highest quality items and best deals to be found on the internet. As much as our customers love our items and service, we\u2019re always open to suggestions on how to improve things: if there\u2019s something you think we could be doing better, then don\u2019t hesitate to let us know.",
+  "StartTime": "2017-05-22T05:02:04.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/tckAAOSww9xZInDO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/oNYAAOSwYvFZInDQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/oNoAAOSwYvFZInDR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/mQYAAOSw0hlZInDR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/en0AAOSwIQdZInDQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/180AAOSwCQZZInDQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/amIAAOSw8lpZInDO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE3WDUyNQ==/z/6I8AAOSwaeRZInDR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/FTkAAOSwuMZZInDR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/6HUAAOSwaeRZInDO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/cMAAAOSwrhBZInDR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI1WDUyNQ==/z/~yEAAOSwIaFZInDQ/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "12",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "$$$D22:L5DR\\[",
+  "HitCount": "32",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3820948647858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-21T05:02:04.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "382094864785",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "91.63"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "USA",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ST211003 Stopwatch Single Action Mechanical Windup Analog Stop Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ST211003-Stopwatch-Single-Action-Mechanical-Windup-Analog-Stop-Watch-/382094864785",
+  "Storefront": {
+    "StoreName": "green-brands",
+    "StoreURL": "http://stores.ebay.com/id=1017960233"
+  },
+  "Seller": {
+    "UserID": "green-brands",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "43928",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P20DT10H23M37S"
+}

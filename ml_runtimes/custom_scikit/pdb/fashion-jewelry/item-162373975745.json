@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT13H11M6S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Eyeglass Chains & Holders",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "141.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162373975745",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Glasses-Chain-Heart-Handmade-Purple-Women-Men-cp-gh-21pp-/162373975745",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "141.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-01-28T00:17:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T00:17:29.000Z",
+  "PrimaryCategoryID": "164461",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tamarusan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Copper and Brass",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Lapis Lazuli",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Color"
+      },
+      {
+        "Value": "Epoxy resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "cp-gh-21pp",
+        "Name": "Product number"
+      }
+    ]
+  },
+  "Title": "Glasses Chain Heart Handmade Purple For Women For Men cp-gh-21pp",
+  "ExcludeShipToLocation": "JP",
+  "BidCount": "0",
+  "Description": "The eyeglass chain that uses a resin parts of \"carpet series (purple)\". This is a asymmetrical design. It is recommended to the unique accent of glasses. The metal parts are the nickel-free, it is recommended for those allergic to metal. Imported The main parts:epoxy resin, metal: plated copper and brass, rubber, length and width 1.5cm lenghth 64cm nickel free Handmade. Made in Japan. Because it is cut into random part of the picture, it will be a shade different point by point. The actual pictures may differ slightly from the photo shown. The jewel stone parts are made with acrylic resin. International Buyers \u2013 Please Note: Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.",
+  "PrimaryCategoryIDPath": "281:10968:164461",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1623739757458080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "tamarusan",
+    "FeedbackScore": "7",
+    "FeedbackRatingStar": "None"
+  },
+  "Storefront": {
+    "StoreName": "tamarusan",
+    "StoreURL": "http://stores.ebay.com/id=1206526448"
+  },
+  "Quantity": "1",
+  "Location": "Tokyo",
+  "HitCount": "36",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/f-AAAOSwUKxYi-I~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/WE8AAOSwo4pYi-JN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/tagAAOSwA3dYi-JZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/PhQAAOSw-0xYi-Jh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/PxYAAOSw-0xYi-Jr/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

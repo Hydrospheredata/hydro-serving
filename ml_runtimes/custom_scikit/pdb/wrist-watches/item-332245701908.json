@@ -1,0 +1,101 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "1110.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322457019088080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T12:36:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:36:59.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "This is a previously owned watch. It needs to be repaired before you can wear it. I am not a watch repair person but from what I see the little bars that old the one side to the other are missing so the watch is not joined. I have also not priced it to repair I just reduced the value of the watch for sale here and will leave that up to the buyer to replace. The watch likely needs a new battery. It is not running and I don't have a replacement battery to test. I want you to understand the issues before you bid on it. If it is just a battery and replacement joint it should be a relatively cheap fix that will add hundreds in value to the watch.",
+  "BuyItNowPrice": {
+    "value": "1110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245701908",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "20mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Cartier Tank",
+        "Name": "Model"
+      },
+      {
+        "Value": "Cartier",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "20mm",
+        "Name": "Lug Width"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Cartier Stainless Steel 20mm Small Tank Francaise",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cartier-Stainless-Steel-20mm-Small-Tank-Francaise-/332245701908",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "5",
+  "PostalCode": "19008",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Broomall, Pennsylvania",
+  "TimeLeft": "P4DT21H21M10S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTEzNlg2NDA=/z/~KcAAOSw~y9ZJXhP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/R7MAAOSwhvFZJXhR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2uoAAOSww5hZJXhU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/tRYAAOSw-K9ZJXhW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/R8UAAOSwi7RZJXhX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/plwAAOSwjqVZJXhZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/taoAAOSw9OFZJXhb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Q4kAAOSwX9FZJXhc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Q64AAOSwX9FZJXhe/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "850.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "69",
+    "UserID": "tsmanager",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

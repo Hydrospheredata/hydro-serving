@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "54.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:26:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "54.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:26:24.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Slava",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600156990",
+  "HandlingTime": "4",
+  "Description": "Watch Slava QUARTZ of the late 70's in the body-bracelet \"Tank\", serviceable, in excellent condition, on the go.ALL IN ONE step motor and Day/Date calendar of instant actionOriginal cut glass.Beautiful stylish vintage watch of the bygone era of the USSR",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Soviet-vintage-watch-SLAVA-quartz-movement-unique-specimen-/182600156990",
+  "ConditionDescription": "good condition",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826001569908080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H14M27S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J2AAAOSwdGFY312o/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NO0AAOSwmgJY312k/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QmAAAOSwzgBY312v/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QuYAAOSwzgBY3120/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UTMAAOSwc-tY3124/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Soviet vintage watch SLAVA quartz movement. A unique specimen.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "21",
+    "UserID": "golikov_5",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921425849238080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Vp8AAOSwax5Y2rZV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/R-oAAOSwXYtY2rZV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/IBoAAOSwdGFY2rZV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/yd4AAOSwc-tY2rZW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3Mzk=/z/8hYAAOSw4CFY2rZU/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BARON-MALTZAHN-White-Mens-top-handle-bag-Doctors-bag-VON-OSSIETZKY-antique-/192142584923",
+  "ConvertedCurrentPrice": {
+    "value": "339.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: White Doctor bag VON OSSIETZKY made of fine antique-leather - a leather bag for life The eye-catcher. External dimensions (LxWxH): 41x14x18 internal dimensions 36x13x15 two inside pockets, each with: 33x3x11",
+  "Title": "BARON of MALTZAHN White Men's top-handle bag - Doctors bag VON OSSIETZKY antique",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "339.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-28T19:15:26.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P24DT2H56M35S",
+  "EndTime": "2017-06-26T19:15:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Baron of Maltzahn"
+      },
+      {
+        "Name": "MPN",
+        "Value": "836334211"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142584923",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139717419:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

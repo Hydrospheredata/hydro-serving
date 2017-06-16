@@ -1,0 +1,73 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "83835",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Watch running on new battery and watch case is about 1 13/16 wide. And chain is about 31\" long. 4",
+  "StartTime": "2017-05-07T18:15:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yacAAOSwq1JZD2Ps/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iegAAOSwtGlZD2P0/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dkwein1954",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2366",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "15",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1423758863528080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-06T18:15:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pocket-Watch-Chain-Fax-Wild-Cat-Dial-Analog-Flowers-Back-/142375886352",
+  "Location": "Hayden, Idaho",
+  "Title": "Pocket Watch With Chain ( Fax Wild Cat Dial ) Analog Flowers On Back",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "142375886352",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT23H31M50S"
+}

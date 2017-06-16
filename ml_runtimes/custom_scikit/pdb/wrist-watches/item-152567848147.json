@@ -1,0 +1,85 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AR",
+  "TimeLeft": "P29DT21H51M42S",
+  "Location": "Capital Federal, Buenos Aires",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:06:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1090425867",
+    "StoreName": "BSASCLOCK"
+  },
+  "SecondaryCategoryID": "57720",
+  "CurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:06:25.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EDMA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "ItemID": "152567848147",
+  "HandlingTime": "5",
+  "Description": "EDMA - \u00a0GIRARD PERREGUAX CASE \u00a0WRISTWATCH - CENTRAL SECONDS - WORKING - 30MM DIAMETER - MANUAL WINDING - \u00a0SWISS - LETHER STRAP RELOJ DE PULSERA EDMA CAJA GIRARD PERREGUAX - SEGUNDERO CENTRAL - FUNCIONANDO - 30MM DIAMETRO - A CUERDA MANUAL - SWISS -CORREA DE CUERO L820 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GIRARD-PERREGUAX-WRISTWATCH-EDMA-CENTRAL-SECONDS-WORKING-30MM-SWISS-/152567848147",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525678481478080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA0NVgxMTA4/z/jb4AAOSw9mFWNPzn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxNVg5Njk=/z/ghkAAOSwhcJWNPz4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk3WDc5NA==/z/Fj4AAOSw14xWNPzp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PYIAAOSw5ZBWNP13/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc0WDg1NA==/z/-WcAAOSw~bFWNPz0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1g4NDM=/z/LqQAAOSwo0JWNPzs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTg1WDc4Mw==/z/96gAAOSw5VFWNPzv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzc0WDExNzQ=/z/9~MAAOSw5VFWNPzy/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "GIRARD PERREGUAX WRISTWATCH - EDMA - CENTRAL SECONDS - WORKING - 30MM - SWISS",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "620",
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

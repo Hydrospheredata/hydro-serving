@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT13H4M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263020380290",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/STUNNING-ALI-KHAN-AK-SIMULATED-PEARL-FACETED-AB-CRYSTAL-BROOCH-RV-79-95-NWT-/263020380290",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T00:50:42.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T00:50:42.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "ALI KHAN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "MULTI",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "STUNNING ALI KHAN AK SIMULATED PEARL FACETED AB CRYSTAL BROOCH RV $79.95 NWT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "STUNNING ALI KHAN AK SIMULATED PEARL FACETED AB CRYSTAL BROOCH RV $79.95 NWTTHIS IS SO BEAUTIFUL IN MADE SO UNIQUELY THIS IS BEAUTIFUL MEASURES APPROX 3X3BIG BOLD AND STUNNING",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630203802908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "lostkitten32",
+    "FeedbackScore": "6864",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "lostkitten32",
+    "StoreURL": "http://stores.ebay.com/id=1034006676"
+  },
+  "Quantity": "1",
+  "Location": "Bedias, Texas",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1NlgxMTAw/z/NXcAAOSwls5Y6Uyy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eGsAAOSwnF9Y6Uye/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KR8AAOSw~CFY6Uza/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTI0WDEwNDg=/z/864AAOSwpkFY6UyG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F-0AAOSw~CFY6UxP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GL8AAOSw~CFY6UxY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7uUAAOSwuLZY6Uxh/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "77831"
+}

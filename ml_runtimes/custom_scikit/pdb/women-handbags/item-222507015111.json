@@ -1,0 +1,77 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg5WDU4OQ==/z/OOEAAOSwlMFZE5Jo/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg5WDU0NA==/z/WqoAAOSw8HBZE5Jt/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Bumble-Collection-Diaper-Bag-Je-Ta-Aime-Sequin-Bag-Tote-/222507015111",
+  "ConvertedCurrentPrice": {
+    "value": "55.24",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a Brand New Diaper Bag The Sequin embellishments are Gold Item Description: Reinforced sequin embellishment Top zipper enclosure Padded short strap Dual exterior side pockets Changing Pad included Multiple pockets Water and Stain Resistant English Linen exterior 100% Polyester interior Eco-Friendly faux leather trim Comfortable shoulder straps 2 dual exterior pockets 2 interior flat pockets Dimensions: 21\"W x 13.5\"H x 5\"L",
+  "Title": "NEW Bumble Collection Diaper Bag* Je Ta Aime Sequin Bag Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.24",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Santee, California",
+  "Seller": {
+    "FeedbackScore": "20",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "thisandthatseller2008"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92071",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-10T22:27:36.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P7DT7H1M21S",
+  "EndTime": "2017-06-09T22:27:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "The Bumble collection"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222507015111",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225070151118080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

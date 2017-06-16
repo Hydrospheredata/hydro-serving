@@ -1,0 +1,132 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Southeast Asia",
+    "MX",
+    "BH",
+    "IQ",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "CN",
+    "PK"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33434",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:48579:48581:52592:113468",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This auction is for a real nice Bronze HORSE Pendant Pocket Watch Necklace. New, no tags. Beautiful bronze case with 3 \"HORSES\" on the front. Measures apx. 1\" in diameter. Embossed back case. Full Hunter closing. Push top to open. Chain is apx. 32\" in length. Quartz Movement. Great gift idea! Please message me if you have any questions. View more great items",
+  "StartTime": "2017-05-13T16:25:13.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTE0N1gxMDQy/z/3gIAAOSwubRXJUEr/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEwMlg5MDM=/z/5eMAAOSwY3RXJUFG/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNlg5NDU=/z/K2gAAOSwaG9XJUFi/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAyNFg4Mjk=/z/ClsAAOSwKfVXJURY/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "6",
+  "SecondaryCategoryID": "113468",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Stainless & Plated MEtal",
+          "Bronze"
+        ],
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sweetpeadiscountdeals",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2579",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625148033928080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T16:25:13.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LADIES-Antiqued-Bronze-HORSE-Pocket-Watch-Pendant-Necklace-/162514803392",
+  "Location": "Boca Raton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "LADIES Antiqued Bronze HORSE Pocket Watch Pendant Necklace",
+  "Storefront": {
+    "StoreName": "Sweetpea&#39;s Deals",
+    "StoreURL": "http://stores.ebay.com/id=39635712"
+  },
+  "ItemID": "162514803392",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Vintage & Antique Jewelry:New, Vintage Reproductions:Costume:Necklaces & Pendants",
+  "TimeLeft": "P11DT21H43M58S"
+}

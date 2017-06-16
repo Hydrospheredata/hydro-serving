@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lboAAOSw42JZGnml/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/0-IAAOSww5hZGnmr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/ad0AAOSwZKBZGnmu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/Kc0AAOSwdjNZGnmx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/BbYAAOSwlMFZGnm1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/~FoAAOSwAPVZGnm5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/zCMAAOSww9xZGnm9/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/uW0AAOSwcaFZGnnB/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2-PC-Vera-Bradley-Lg-Diaper-Bag-And-Wallet-Zip-Around-EUC-Used-Once-/332222702760",
+  "ConvertedCurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Busted them like once maybe twice husband said I need a more neutral bag so selling to buy others this is basically new",
+  "Title": "2 PC Vera Bradley Lg Diaper Bag And Wallet Zip Around EUC Used Once",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Seguin, Texas",
+  "Seller": {
+    "FeedbackScore": "324",
+    "PositiveFeedbackPercent": "97.3",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "texasgirlash"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78155",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-16T04:05:13.000Z",
+  "HitCount": "28",
+  "TimeLeft": "P12DT12H40M12S",
+  "EndTime": "2017-06-15T04:05:13.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Baby Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332222702760",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322227027608080_2.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

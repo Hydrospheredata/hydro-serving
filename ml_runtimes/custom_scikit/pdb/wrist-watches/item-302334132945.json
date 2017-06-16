@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hammond, Indiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:45:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=527741509",
+    "StoreName": "scottve33"
+  },
+  "CurrentPrice": {
+    "value": "8.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:45:57.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334132945",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Pretty Ladies Two Tone Wrangler Water Resistant Bracelet Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pretty-Ladies-Two-Tone-Wrangler-Water-Resistant-Bracelet-Watch-/302334132945",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023341329458080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "46324",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H14M7S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM1MlgxMTk1/z/zt8AAOxy6-tSBW3d/$T2eC16N,!zUE9s389zVZBSBW3c3Mvw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIxN1gxNjAw/z/4LQAAOxy5QtSBW3g/$T2eC16RHJF8FFp4QqYyGBSBW3glTkg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwMFgxMTk3/z/0UUAAOxyPc5SBW3e/$T2eC16N,!)sE9swmYk2HBSBW3dk,-Q~~60_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Pretty Ladies Two Tone Wrangler Water Resistant Bracelet Watch The watch is working well with a fresh battery The band will fit up to a 7 \u00be\u201d wrist Stainless steel back",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackScore": "13487",
+    "UserID": "scottve33",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

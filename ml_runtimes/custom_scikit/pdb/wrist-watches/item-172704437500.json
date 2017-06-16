@@ -1,0 +1,137 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "650.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727044375008080_2.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-30T19:52:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-06T19:52:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Authentic Michele Deco Diamond Chronograph Swiss Movement-Water Resistant with Stainless Steel Band, also will come with a Grey Leather Band. Watch will be polished and buffed before shipping out.",
+  "BuyItNowPrice": {
+    "value": "650.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172704437500",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michele",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3071016",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stopwatch",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Prestige",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "099945435732",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ProductID": {
+    "value": "177562769",
+    "_type": "Reference"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michele Deco Diamond MW06A01A1025 Wrist Watch for Women w/Grey Leather Band",
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michele-Deco-Diamond-MW06A01A1025-Wrist-Watch-Women-w-Grey-Leather-Band-/172704437500",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "HitCount": "17",
+  "PostalCode": "08857",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Old Bridge, New Jersey",
+  "TimeLeft": "P6DT4H20M58S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bXYAAOSwsXFZLdBK/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/s60AAOSws5pZLdBD/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oP4AAOSwfRdZLdBO/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YF0AAOSwjqVZLdBT/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HXsAAOSwJH1ZLdBY/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "christindesimon_1",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

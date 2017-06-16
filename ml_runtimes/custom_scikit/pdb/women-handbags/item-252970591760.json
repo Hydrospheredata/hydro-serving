@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hVIAAOSwUKxYeo6E/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/wOsAAOSwA3dYeo6C/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/2YkAAOSw44BYeo6H/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/wfwAAOSwA3dYeo6J/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-RARE-VERA-BRADLEY-DOUBLE-TAKE-TOTE-BITTERSWEET-/252970591760",
+  "ConvertedCurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT LIMITED EDITION!\u00a0 This rare, hard-to-find east/west tote is shown in retired color Bittersweet with \"trick-the-eye\" scarf detail on the front.\u00a0 It is made of Pebbled PVC for durability and easy cleaning.\u00a0 Your valuables are protected by the top zip closure and can be organized using the one large zippered and three smaller slip pockets inside the tote.\u00a0 Comes from pet-free, smoke-free home and guaranteed authentic from my personal collection.\u00a0 No returns so please ask questions or request additional information.",
+  "Title": "NWT RARE VERA BRADLEY DOUBLE-TAKE TOTE IN BITTERSWEET",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Olathe, Kansas",
+  "Seller": {
+    "FeedbackScore": "285",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "gal1415"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "66062",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:39:15.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P4DT21H18M56S",
+  "EndTime": "2017-06-07T11:39:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black/White/Magenta"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "21\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "14\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "11\" Double Strap"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970591760",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529705917608080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg2ODI=/z/4C8AAOSw4UtWTUhu/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Signature-Stripe-Satchel-Bag-black-gray-purse-F24364-P800-/371489682773",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Title": "Coach Signature Stripe Satchel Bag black gray purse F24364 (P800)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas"
+  ],
+  "Location": "Lorton, Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "22405",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "ltc_988"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "22079",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2015-11-19T03:54:10.000Z",
+  "HitCount": "1927",
+  "TimeLeft": "P8DT12H15M39S",
+  "EndTime": "2017-06-11T03:54:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "26353"
+      },
+      {
+        "Name": "Brand",
+        "Value": "coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "pink red"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371489682773",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "designerforless988",
+    "StoreURL": "http://stores.ebay.com/id=505164898"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3714896827738080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

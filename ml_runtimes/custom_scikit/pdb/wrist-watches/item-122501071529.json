@@ -1,0 +1,72 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "15",
+  "ConditionDisplayName": "New with tags",
+  "Description": "PARTE ORIGINAL OMEGA. N\u00daMERO 1243 DE CAL. 865 CUATRO RUEDAS NOS",
+  "StartTime": "2017-05-17T13:09:47.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/O08AAOSwTuJYoRK7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/onQAAOSwfVpYoRMM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/iPMAAOSw32lYoRN0/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "3",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "OMEGA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sudclock01",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "70",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225010715298080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-16T13:09:47.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "35.0"
+  },
+  "BidCount": "0",
+  "Country": "AR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Capital Federal, default",
+  "Title": "ORIGINAL OMEGA CAL. 865 FOUR WHEEL PART. NUMBER 1243 . N.O.S.",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ORIGINAL-OMEGA-CAL-865-FOUR-WHEEL-PART-NUMBER-1243-N-O-S-/122501071529",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "122501071529",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P15DT14H42M57S"
+}

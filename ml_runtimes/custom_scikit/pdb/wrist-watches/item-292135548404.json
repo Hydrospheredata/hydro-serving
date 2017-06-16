@@ -1,0 +1,124 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "269.0",
+    "_currencyID": "USD"
+  },
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "GlobalShipping": "true",
+  "StartTime": "2017-05-31T11:16:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "148.88",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:16:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "BuyItNowPrice": {
+    "value": "269.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "2",
+  "TimeLeft": "P6DT19H56M17S",
+  "MinimumToBid": {
+    "value": "148.88",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "11229",
+  "ConvertedCurrentPrice": {
+    "value": "148.88",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921355484048080_1.jpg",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=295995069",
+    "StoreName": "perlinaj"
+  },
+  "BuyItNowAvailable": "true",
+  "SKU": "ritmo",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ritmo Mundo",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Date",
+          "Water Resistant",
+          "Chronograph"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Type"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "HandlingTime": "2",
+  "Description": "Age: Modern (2000-present) Gender: Women's, Men's Movement: Swiss Movement Style: Luxury: Sport Styles Display: Analog Features: Alarm, Chronograph, Date, Day & Date, Water Resistant over 100 m Model: Ritmo Fun Series Leather strap Country of Manufacture: Italy Quartz, Special Edition Entourage !NO REFURN WILL BE GRANTED ON THIS ITEM, store (merchandise) credit only in case of timely return",
+  "QuantitySold": "0",
+  "Title": "Ritmo Mundo Palazzo Fun gold leather strap white face gold bezel watch $350",
+  "BidCount": "0",
+  "ItemID": "292135548404",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqZHJEkFDHvis5+1BQ2m+GFrv!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$T2eC16dHJHoE9n3KgIUcBQ2m+Mno9Q~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI2WDE2MDA=/$(KGrHqFHJE!FDN-BzkNVBQ2m+OVYOQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$T2eC16NHJF0E9nmFQiegBQ2m+O3r)Q~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$T2eC16VHJHoE9n3Ke5nWBQ2m+Tgkwg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqZHJEMFDR1V92YdBQ2m+TsBPQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODA5WDE1OTU=/$T2eC16JHJGIE9nnWphchBQ2m+WPzc!~~60_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ritmo-Mundo-Palazzo-Fun-gold-leather-strap-white-face-gold-bezel-watch-350-/292135548404",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "484",
+    "UserID": "perlinaj",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

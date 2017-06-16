@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921398988278080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/l5YAAOSw32lY1taB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/-PUAAOSwax5Y1taA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/hokAAOSwhQhY1taC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/uxgAAOSwXYtY1taA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzM0WDUwMA==/z/8w4AAOSwzgBY1tZ~/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1x-Traveller-Backpacks-2-Pocket-Olive-Stripe-Two-InternalPockets-Free-/192139898827",
+  "ConvertedCurrentPrice": {
+    "value": "55.03",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: You can never go wrong with this backpack it is great for everyone...Backpacks very comfy and its good enough to carry all the school supplies. It can also be fashionable accessory to everyday use so if your looking for a cute backpack then this is the one. Bag Measurements: Height: 34cm Width: 32cm Depth: 10cm Inside Pocket: Width:32cm Depth: 12cm External Pockets: Width: 12cm Depth:13cm Handle Strap: Width: 12cm Height: 7cm Shoulder Strap: Length: 70cm Weight: 270g",
+  "Title": "1x Traveller Backpacks - 2 Pocket Olive Stripe With Two InternalPockets. Free De",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.03",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-25T20:43:38.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P21DT4H22M38S",
+  "EndTime": "2017-06-23T20:43:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ancient Wisdom"
+      },
+      {
+        "Name": "MPN",
+        "Value": "457849620"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139898827",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:127125590:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,77 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/d38AAOSwEzxYafbE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/YyYAAOSwnHZYafbI/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Shower-Vines-large-Duffle-Bag-New-/152542138801",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "For sale : NEW Vera Bradley large Duffle Bag.....\" Shower Vines \"..... Note : this item comes from home FREE of cigarette smoke, Pet odor and Fragrance.. Note: we ship only to lower 48..... NOTE >>> I have listed 3 pcs of this pattern...all new.",
+  "Title": "Vera Bradley     \"Shower  Vines \" large Duffle Bag,  New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Galax, Virginia",
+  "Seller": {
+    "FeedbackScore": "1860",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "6255dina"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "24333",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T03:27:10.000Z",
+  "HitCount": "43",
+  "TimeLeft": "P5DT10H38M27S",
+  "EndTime": "2017-06-08T03:27:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton blend"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffle"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "152542138801",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525421388018080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

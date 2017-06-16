@@ -1,0 +1,115 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P26DT12H27M22S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "41.86",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "172708736811",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hair-Comb-Hair-Accessory-Ginkgo-Handmade-USA-Oberon-Design-/172708736811",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "41.86",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-01T23:48:18.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-01T23:48:18.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "819686012340",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0819686012340",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Oberon Design",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PB56",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Misc.",
+        "Name": "Binding"
+      },
+      {
+        "Value": "0.02 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.7 x W 3.5 x H 0.3 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "1",
+        "Name": "NumberOfItems"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "ProductGroup"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Hair Comb | Hair Accessory | Ginkgo | Handmade in the USA by Oberon Design",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Our hair combs are for those with thicker hair or upswept hairstyles. Both offer a very secure fit and will stay in your hair for hours without any adjustment. For those who love beautiful, classic hair ornaments our variety of hair clips and barrettes and combs provide style and quality. About The Image Our Ginkgo Comb was created to reflect the Art Nouveau aesthetic and those artisans love of the elegant ginkgo motif. - Britannia Metal Hand cast at Oberon Design in Santa Rosa CA. - Lead free, food grade Britannia metal - Lightweight and Durable - Dimensions: 5.75\" x 1.75\" Weright: 2 Oz. - Comb Prongs are 4.5\" long Hair Comb | Hair Accessory | Ginkgo | Handmade in the USA by Oberon Design",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727087368118080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "UserID": "abood.av",
+    "FeedbackScore": "19716",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "abood.avSTORE",
+    "StoreURL": "http://stores.ebay.com/id=1400291383"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg1MjM=/z/D5IAAOSwDiBZMKfF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAxWDE1MDA=/z/dDoAAOSwjL5ZMKfH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4MDI=/z/dk0AAOSwblZZMKfH/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

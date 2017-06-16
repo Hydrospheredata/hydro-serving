@@ -1,0 +1,105 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "You are bidding on a MENS CROTON COMMEMORATIVE POCKET WATCH. ---------------------- LAST IN STOCK! This pocket watch is brand new in presentation box with papers. It celebrates the first revolver that was patented by Samuel Colt in 1836. The front of the pocket watch has a portrait of Samuel Colt on horseback with an overlapped image of a Colt cap and ball revolver. Features metal case and chain with Japanese Croton quartz movement. Terrific-looking timepiece! Shipping is $5.00 which includes delivery confirmation. Check out my other auctions for more items. Thanks for stopping by!",
+  "StartTime": "2017-05-26T21:46:24.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA4WDgyNg==/z/16EAAOSw7W5XNmf~/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjA2WDc3Nw==/z/nZ4AAOSwdV1XNmgF/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/R6QAAOSwRjNXNmgW/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Croton",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "THE FIRST REVOLVER 1836",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "medievilmoatmaster",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "9267",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118820508568080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T21:46:24.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Thanks for Looking!",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "RELIANCE By CROTON COMMEMORATION OF THE SAMUEL COLT REVOLVER POCKET WATCH",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RELIANCE-CROTON-COMMEMORATION-SAMUEL-COLT-REVOLVER-POCKET-WATCH-/311882050856",
+  "Storefront": {
+    "StoreName": "Mind Over Music",
+    "StoreURL": "http://stores.ebay.com/id=13332049"
+  },
+  "ItemID": "311882050856",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT3H10M39S"
+}

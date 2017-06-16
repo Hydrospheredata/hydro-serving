@@ -1,0 +1,157 @@
+{
+  "QuantitySold": "0",
+  "Title": "Mercedes 1903 silver pocket watch",
+  "PostalCode": "77726",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Silver tone pop open watch.",
+  "StartTime": "2017-05-03T01:35:44.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTc1WDEwNjg=/z/hB0AAOSwIgNXmsug/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFgxMDY4/z/iQ0AAOSwIgNXmsvi/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MVgxMDY4/z/EFgAAOSwqfNXmswS/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mercedes-Benz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nitascrochet",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "113",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "69",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625010133998080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-02T01:35:44.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mercedes-1903-silver-pocket-watch-/162501013399",
+  "ConditionDescription": "good",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Beaumont, Texas",
+  "Storefront": {
+    "StoreName": "NITA&#39;S CROCHET",
+    "StoreURL": "http://stores.ebay.com/id=105783102"
+  },
+  "ItemID": "162501013399",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT6H50M49S"
+}

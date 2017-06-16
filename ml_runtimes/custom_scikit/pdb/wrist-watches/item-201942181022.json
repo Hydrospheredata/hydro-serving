@@ -1,0 +1,315 @@
+{
+  "Country": "AU",
+  "Location": "Strawberry Hills",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:48:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "329.95",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-30T07:48:11.000Z",
+  "ShipToLocations": [
+    "AU",
+    "Americas",
+    "Asia",
+    "NZ"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "SNAB89P1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Alarm",
+          "Chronograph",
+          "Day Indicator",
+          "Tachymeter"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Titanium",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Seiko Core",
+        "Name": "Model"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Casing"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Type"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "4954628096272",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "3",
+  "TimeLeft": "P29DT16H16M34S",
+  "PostalCode": "2012",
+  "ConvertedCurrentPrice": {
+    "value": "246.01",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019421810228080_1.jpg",
+  "NewBestOffer": "false",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1151710349",
+    "StoreName": "xTrend World"
+  },
+  "SKU": "SNAB89P1",
+  "ExcludeShipToLocation": [
+    "South America",
+    "KH",
+    "ID",
+    "LA",
+    "MY",
+    "PH",
+    "TH",
+    "VN",
+    "MX",
+    "PM",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PF",
+    "KI",
+    "MH",
+    "PG",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "BY",
+    "BA",
+    "BG",
+    "CY",
+    "CZ",
+    "EE",
+    "GI",
+    "HU",
+    "MD",
+    "ME",
+    "RO",
+    "RS",
+    "SK",
+    "SI",
+    "UA",
+    "BZ",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "VC",
+    "TT",
+    "TC"
+  ],
+  "HandlingTime": "1",
+  "Description": "Seiko SNAB89P1Brand NameSeikoModel NumberSNAB89P1Model NameAlarm ChronographGenderMen'sFeaturesMovementQuartz Battery (7T62)Dial TypeAnalogFace ColourBlackBand ColourSilverWater Resistance100mCase DetailsMaterialStainless SteelSize42mmThickness10mmBezelFixedCrownNon ScrewdownDial WindowHardlexShapeRoundFinishBrushed Band DetailsMaterialTitaniumTypeBraceletWidth20mmClaspFoldover with push buttonFinishBrushedInclusionsPrinted Instructions, Warranty Manual & Card with Serial Number, Authentic Seiko Gift Box (gift box may vary from image shown) Important Information For Buyers of This Watch This watch is an authentic, brand new, unworn and unused with original packaging and tags and serial numbers, unless otherwise stated. The watch has been originally stocked and sourced from an authorised Seiko distributor Please refer to the description and inclusions section of the item listing for detailed information about the condition, inclusions and packaging and serial numbers. A 30 Day return policy applies to this item and returns are subject to a standard restocking fee. All watches are in working order and will be checked again prior to shipment. Due to the age of this item, the warranty will not apply to the movement, battery or capacitor (whichever is applicable) and the warranty will not apply if the watch is subject to water ingress. The warranty on watches does not cover normal wear and tear and/or damage due to incorrect use and/or articles with limited resistance, such as the case, glass, or band or battery. The warranty only covers the item, not the packaging, case, etc.. The buyer is to pay shipping costs for return or forwarding of items under warranty or return. Do not return your items to the manufacturer for warranty claims unless instructed to do so. Any items returned to us for warranty claims are subject to assessment. If the manufacturer deems the item requires repair as a result of incorrect use or normal wear and tear, a quote will be provided for the repair and return of the item and the item and will be returned once this amount has been paid. Some warranty claims can take over 90 days.",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-SNAB89-P1-Titanium-Black-Dial-Chronograph-Mens-Quartz-Watch-/201942181022",
+  "BidCount": "0",
+  "ItemID": "201942181022",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/aZwAAOSwxu5ZJDyk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/KVAAAOSwurZZJDyr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/PNgAAOSwY3BZJDyw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/po8AAOSwrhBZJDy1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/dhMAAOSwuMZZJDy5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/dIcAAOSwuMZZJDyb/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Seiko SNAB89 P1 Titanium Black Dial Chronograph Men's Quartz Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "19535",
+    "UserID": "healthandstyle",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns and exchanges will only be accepted if goods are returned unopened, unworn, undamaged and unused in their original sealed box.  A $50.00 re-stocking fee will apply to all returns and exchanges. Note that an additional $20.00 fee will apply to re-send any items where the incorrect address has been provided or for uncollected items, refused delivery and for items which are returned by the post office.\n\n\nWarranty\nAll watches and suglasses purchased come with a 12 month warranty. Please contact us prior to arranging the item's return.\n\nThe warranty on sunglasses does not cover normal wear and tear and/or damage due to incorrect use. Warranty does not cover lens damage.\n\nThe warranty on watches does not cover normal wear and tear and/or damage due to incorrect use and/or articles with limited resistance, such as the case, glass, or band or battery.  The warranty only covers the item, not the packaging, case, etc...\n\nThe buyer is to pay shipping costs for return or forwarding of items under warranty. Do not return your items to the manufacturer for warranty claims unless instructed to do so.\n\nAny items returned to us for warranty claims are subject to the manufacturer's assessment. If the manufacturer deems the item requires repair as a result of incorrect use or normal wear and tear, a quote will be provided for the repair and return of the item and the item and will be returned once this amount has been paid.  Some warranty claims can take over 90 days."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H53M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "47.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "172714326469",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rachel-Zoe-bracelet-Cuff-14k-Gold-Plated-Crystals-Pave-Belt-Good-Gift-NEW-95-/172714326469",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "47.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:30:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:30:24.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rachel Zoe",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "656514517741",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Rachel Zoe bracelet Cuff 14k Gold Plated & Crystals Pave Belt Good Gift NEW$95",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Rachel Zoe bracelet 14k Gold Plated & Crystals Pave Belt Good Gift NEW$95 Very good gift!\u00a0 Fast shipping! Always pack very carefully in box!\u00a0 100% Authentic!!! From Nordstrom rack !\u00a0 Thank you!",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727143264698080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "UserID": "delgaanzhe",
+    "FeedbackScore": "761",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "delgaanzhe",
+    "StoreURL": "http://stores.ebay.com/id=1253023003"
+  },
+  "Quantity": "1",
+  "Location": "Fountain Valley, California",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1nAAAOSwopRYhbJz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QBUAAOSwNnRYhbJi/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~FcAAOSw2xRYhbJr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QK8AAOSwNnRYhbJt/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/etQAAOSwLEtYhbJu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EhEAAOSwUKxYhbJw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ewQAAOSwLEtYhbJx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SAUAAOSwnHZYhbJ1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZuQAAOSwA3dYhbJ2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EEMAAOSwZQRYhbJ4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ErUAAOSwUKxYhbJ6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EG4AAOSwZQRYhbJ7/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "92708"
+}

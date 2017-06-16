@@ -1,0 +1,183 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charmoni-Mens-Shoulder-Bag-Free-Shipping-/192142867517?var=",
+  "ConvertedCurrentPrice": {
+    "value": "55.97",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Charmoni Men's Shoulder Bag by Charmoni Ships from Local Supplier Other information: Badre Related Searches: Charmoni Bags, Shoulder Bag Bags, Charmoni Shoulder Bag",
+  "Title": "Charmoni Men's Shoulder Bag. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.97",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "One Size",
+        "PictureURL": "http://rcdn-3.fishpond.co.nz/0115/261/178/251946798/7.jpeg"
+      },
+      "VariationSpecificName": "Size"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "55.97",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:114161612:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Black - Black"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "40.67",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:114161613:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Green - Khaki"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "40.67",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:115261178:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Beige - Beige"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "Size",
+          "Value": "One Size"
+        },
+        {
+          "Name": "Colour",
+          "Value": [
+            "Black - Black",
+            "Green - Khaki",
+            "Beige - Beige"
+          ]
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-03-29T01:57:47.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P24DT9H39M8S",
+  "EndTime": "2017-06-27T01:57:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Charmoni"
+      },
+      {
+        "Name": "MPN",
+        "Value": "359002358"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142867517",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:114161611:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

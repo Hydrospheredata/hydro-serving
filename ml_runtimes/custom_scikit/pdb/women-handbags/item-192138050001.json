@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0109/493/246/246468084/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0109/493/246/246468085/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0109/493/246/246468086/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0109/493/246/246468087/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0109/493/246/246468088/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SIX-Large-tote-shoulder-bag-cognac-brown-tassel-decorative-stitching-/192138050001",
+  "ConvertedCurrentPrice": {
+    "value": "103.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Shopping in style - for many women handbags just can't be big enough, but at the same time they need to look natural and not beat-up while also being something you can carry around by hand. This tote has a spacious interior with plenty of room for all kinds of items that you might need every day. At the same time it can also still be carried over the shoulder and still looks great with its cognac-coloured faux leather, playful tassel, and carefully implemented decorative stitching. Dimensions: approx. 35.5 x 33 x 12 cm (WxHxD)",
+  "Title": "SIX Large tote shoulder bag in cognac brown with tassel & decorative stitching (",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "103.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-23T14:53:34.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P18DT22H31M",
+  "EndTime": "2017-06-21T14:53:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "SIX"
+      },
+      {
+        "Name": "MPN",
+        "Value": "210694697"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138050001",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:109493246:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

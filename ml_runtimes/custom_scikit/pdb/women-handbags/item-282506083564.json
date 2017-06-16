@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4NFgxNjAw/z/OQoAAOSwJH1ZMWZf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjgz/z/zjsAAOSwYvFZMWZK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQxMFgxNjAw/z/jgcAAOSwAPVZMWZR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDk2/z/D-AAAOSwcgNZMWZV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5Njg=/z/YDoAAOSwrhBZMWZZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzNFgxNjAw/z/sTQAAOSw~FJZMWZm/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-Bag-Gold-Waist-Bag-Shoulder-Bag-Crazy-Horse-Steel-Mastery-/282506083564",
+  "ConvertedCurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Big leather bag for big treasure hunters:)This model will be excellent accessory for your medieval armor. Bag has sizes which will be good for phone, purse, iPad, keys and of course for gold.Descriptions of the bag: decorated by metal ringsuniversal beltedges are sewn by leather cord Bag is \u0441ompletely from leather called \u201cCrazy Horse\u201d.All seams, waxing, manufacture and painting are handmade.Size: 30 \u0445 27 cmThis product is still to be handcrafted and you may customize it selecting its properties.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "220.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Kyiv",
+  "Seller": {
+    "FeedbackScore": "123",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "armoryworld"
+  },
+  "PrimaryCategoryID": "63852",
+  "Country": "UA",
+  "ListingType": "FixedPriceItem",
+  "Title": "Leather Bag of Gold Waist Bag Shoulder Bag Crazy Horse by Steel Mastery",
+  "GlobalShipping": "false",
+  "Quantity": "10",
+  "StartTime": "2017-06-02T13:26:20.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT23H19M33S",
+  "EndTime": "2017-07-02T13:26:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Steel Mastery"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Ukraine"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282506083564",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "If you received your product and you don't like it for ANY reason, within 14 days after its receipt send it back to us and you'll get 100% refund. You need to enclose the postal slip which certifies the date when you received it and a copy of the postal receipt which certifies the date when you sent it back to us. You need to pay the shipping cost. The item must not be damaged or wear any tracks of use. The refund is made upon our receipt of the item.\n\nIf through our fault the product does not correspond to your order, we will sort it out asap at our expense.  We will replace the bad item with a good one or refund to you its full price if:\n\n- you received a wrong item\n- item you received is defective\n\nIn order to raise a claim, first you need to send us high quality photos of the bad item, showing the problem. Then you should send the item back to us, we make the refund or correct/replace it and send it back to you (everything at our cost).\n\nIf you received an item which was evidently damaged during the transportation, please immediately raise a claim to the post service which delivered it.",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2825060835648080_1.jpg",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

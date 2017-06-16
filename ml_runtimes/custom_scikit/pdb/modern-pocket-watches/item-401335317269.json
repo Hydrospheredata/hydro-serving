@@ -1,0 +1,123 @@
+{
+  "ExcludeShipToLocation": [
+    "AU",
+    "AT",
+    "FR",
+    "DE",
+    "IT",
+    "ES",
+    "CH",
+    "GB",
+    "CN"
+  ],
+  "QuantitySold": "0",
+  "Title": "Cool Mens Quartz Pocket Watch Mask Enamel Half Hunter Analog Necklace Chain GIFT",
+  "PostalCode": "02171",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bestseller2046",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "67419",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-05-27T03:21:58.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/QEYAAOSwOgdYv3g9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/hVwAAOSw2gxYv3g9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jhYAAOSwXYtYv3g8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/56oAAOSw32lYv3g9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/c9MAAOSwdGFYv3g8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/hVYAAOSw2gxYv3g9/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      }
+    ]
+  },
+  "SKU": "a42407",
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013353172698080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T03:21:58.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "3.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cool-Mens-Quartz-Pocket-Watch-Mask-Enamel-Half-Hunter-Analog-Necklace-Chain-GIFT-/401335317269",
+  "ConditionDescription": "100% Brand New! Ship from US! High Quality!",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Quincy, Massachusetts",
+  "Storefront": {
+    "StoreName": "Bestseller2046 Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1101311632"
+  },
+  "ItemID": "401335317269",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT8H46M29S"
+}

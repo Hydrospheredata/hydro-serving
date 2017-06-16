@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921417361748080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/fr8AAOSwWxNY2anX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MnIAAOSwax5Y2anX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/n8MAAOSw4CFY2anX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/jIkAAOSwTM5Y2anX/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fritzi-aus-Preusen-Nana-bag-Vintage-Lavender-violet-Brand-New-/192141736174",
+  "ConvertedCurrentPrice": {
+    "value": "75.48",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Gorgeous clutch or Cross-Body-bag. Women's shoulder bag made of synthetic leather with vintage finish. Detail: brand patch on front, exterior features zippered back pocket, top zippered closure, magnetic closure, additional carrying strap. Beautiful vintage look ,more colours available. Red lining. Size 25 x 17 x 4 cm (W x H x D) . You can wear it as a clutch or as a cross-body bag.",
+  "Title": "Fritzi aus Preu\u00dfen Nana bag Vintage Lavender (violet). Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.48",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-28T00:09:50.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P23DT7H50M26S",
+  "EndTime": "2017-06-26T00:09:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Fritzi aus Preu\u00dfen"
+      },
+      {
+        "Name": "MPN",
+        "Value": "747016159"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141736174",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139853181:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

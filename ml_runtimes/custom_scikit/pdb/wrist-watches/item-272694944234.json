@@ -1,0 +1,357 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Fort Lauderdale, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:15:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1182311138",
+    "StoreName": "Ravine&#39;s Nest"
+  },
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:15:41.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box",
+    "RU",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "GI",
+    "IS",
+    "LI",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "BN",
+    "KH",
+    "LA",
+    "MO",
+    "VN",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "KE",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MA",
+    "MZ",
+    "NA",
+    "NE",
+    "NG",
+    "RE",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "BM",
+    "GL",
+    "PM",
+    "IQ",
+    "JO",
+    "LB",
+    "OM",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS"
+  ],
+  "ItemID": "272694944234",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Accutime",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Child",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": [
+          "Rubber",
+          "black bullet style"
+        ],
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Cartoon/Idol",
+        "Name": "Style"
+      },
+      {
+        "Value": "Teenage Mutant Ninja Turtles",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "metal",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Multi-color",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Green",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Child",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "None",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Nickelodeon Teenage Mutant Ninja Turtles Child's Analog Child Watch NEW",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nickelodeon-Teenage-Mutant-Ninja-Turtles-Childs-Analog-Child-Watch-NEW-/272694944234",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726949442348080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33328",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H55M20S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SU8AAOSwSHZWgLrb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ROcAAOSwo3pWgLrh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/flsAAOSwhkRWgLrk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Lh8AAOSw1S9WgLrq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RXcAAOSwSdZWgLrs/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Guaranteed in stock and ships within 1 business day, most times same day! Item is Brand New and is in Excellent condition. Please check photographs for specifics. We strive for complete customer satisfaction so please ask any questions before purchasing. Shipping charges apply to Domestic (US) shipping only. Additional charges apply, through Ebay, for International Shipping. Please review our feedback and see we offer Lighting fast shipping, Exceptional customer service, Competitive pricing and Outstanding Packaging. ***Item is Brand New and comes in a Cool TMNT Gift Box. The Box and Watch are in Excellent Condition*** Item shows image of all the Ninja TurtlesPerfect for Any Child. Product Description; **ACCUTIME** Nickelodeon Teenage Mutant Ninja Turtle Child's Black & Green WRISTWATCH. Item has a green rubber band and black bullet accents to add that special awesome touch. Features all Teenage Mutant Ninja Turtles on a bold multi-colored dial. BRAND NEW IN THE PACKAGE! Features: Band is green with black bullet accents and is approx. 1/2 inch wide. The second hand is green. The minute and hour hands are silver & white. Watch is perfect for any occasion. A Must own for any TMNT or Collector. Perfect gift for any child who is a lover of the Teenage Mutant Ninja Turtles Series. THIS WATCH FEATURES: Luminous hour hands with a sweeping second hand Mineral crystal face offers scratch resistance All the Teenage Mutant Ninja Turtles decorate the dial Quartz movement keeps the hands ticking Battery operated Manufacturer's warranty Dial window material type: Mineral Band length: Child unisex Dial color: multi color Bezel material: Metal Bezel Function: stationary Movement: analog-quartz Please Note: If you wish to return this item for any reason, it MUST be in its Original Sale Condition and be Unopened.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1478",
+    "UserID": "spravine",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

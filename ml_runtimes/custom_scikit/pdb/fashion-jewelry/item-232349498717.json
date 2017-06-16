@@ -1,0 +1,77 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT11H57M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "108.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "232349498717",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-Versailles-Jupiter-Necklace-Gold-Stone-/232349498717",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "108.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T02:59:22.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T02:59:22.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Goldstone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton Versailles Jupiter Necklace in Gold/Stone",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Selling merchandise due to boutique closing. Inscription on back: \"Boundless Love\"Pendant: Removable",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323494987178080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "gaski.krist",
+    "FeedbackScore": "366",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Smyrna, Georgia",
+  "HitCount": "19",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg1WDU4OQ==/z/pU8AAOSwu1VW4FIc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg1WDU4OQ==/z/zJAAAOSwh-1W4FIb/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "30080"
+}

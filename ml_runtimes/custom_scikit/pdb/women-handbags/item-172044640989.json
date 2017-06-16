@@ -1,0 +1,161 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "t***n",
+    "FeedbackScore": "65"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQwOQ==/z/cBgAAOSwYlJW2LCi/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Travelpro-Maxlite-4-Bifold-Garment-Sleeve-Black-One-Size-/172044640989",
+  "ConvertedCurrentPrice": {
+    "value": "87.22",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Travel ultra light and assured with Maxlite 4. This extensive collection features 11 singularly lightweight and durable Spinners and Rollaboards with the look and quality of much more expensive luggage. The BIFOLD GARMENT SLEEVE Features: Water repellent coating, inside and out. Adjustable and padded shoulder strap. Exterior pocket and padded carry-handle. - Water repellent coating, inside and out - Adjustable and padded shoulder strap - Exterior pocket and padded carry-handle - Limited lifetime warranty - 22x20x7 - Product Dimensions: 22 x 20 x 7 inches Travelpro Maxlite 4 Bifold Garment Sleeve, Black, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "87.22",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "US",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "16175",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "greysharky"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "CN",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Travelpro Maxlite 4 Bifold Garment Sleeve, Black, One Size",
+  "GlobalShipping": "true",
+  "Quantity": "3",
+  "StartTime": "2015-12-29T09:23:44.000Z",
+  "HitCount": "205",
+  "TimeLeft": "P18DT18H6M17S",
+  "EndTime": "2017-06-21T09:23:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "051243068876"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0051243068876"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Travelpro"
+      },
+      {
+        "Name": "MPN",
+        "Value": "401150401"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172044640989",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1720446409898080_3.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

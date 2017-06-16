@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "7.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Boynton Beach, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:12:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1187214304",
+    "StoreName": "D and E A to Z"
+  },
+  "CurrentPrice": {
+    "value": "7.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:12:09.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705855843",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex Indiglo Women's Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Indiglo-Womens-Watch-/172705855843",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727058558438080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "33472",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H58M22S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MjE=/z/J2MAAOSwFnFV9D1b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg1OTc=/z/FZgAAOSwyvBV9D1k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/FqcAAOSwyvBV9D1u/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTY1WDg2NA==/z/bvMAAOSwQTVV9D15/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Decent condition. Watch is not working but probably just needs a new battery. Front reads Timex Indiglo, quartz. Watch has some wear.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "643",
+    "UserID": "mustangford2008",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

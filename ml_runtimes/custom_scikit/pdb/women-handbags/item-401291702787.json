@@ -1,0 +1,132 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/TvYAAOSw4A5YyY-G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/3Y0AAOSwYXVYyY-G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7LAAAOSwol5YyY-G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/nxYAAOSwCU1YyY-G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~OkAAOSwuxFYyY-G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/rXQAAOSw4CFYyY-G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1hQAAOSwOgdYyY-L/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Clark-Mayfield-Sellwood-Metro-Laptop-Handbag-15-6-Navy-Blue-/401291702787",
+  "ConvertedCurrentPrice": {
+    "value": "104.26",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The Sellwood Metro 15.6 exudes constant style and meticulous order with room for your laptop, lipstick and board room report. - Fits up to 15.6\" laptops - Generously padded built-in laptop sleeve - Comfortable wide shoulder straps - Easily accessible zippered top - Inside pockets for wallet, pens and peripherals Clark & Mayfield Sellwood Metro Laptop Handbag 15.6\" Navy Blue",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "104.26",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "57031",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "alosh12"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Clark & Mayfield Sellwood Metro Laptop Handbag 15.6\" Navy Blue",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-03-15T19:01:23.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P11DT3H51M47S",
+  "EndTime": "2017-06-13T19:01:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "723175988804"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0723175988804"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clark & Mayfield"
+      },
+      {
+        "Name": "MPN",
+        "Value": "SW15-28"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Electronics"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Navy Blue"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3.5 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 17 x W 14.5 x H 7 inches"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "PC Accessory"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401291702787",
+  "Storefront": {
+    "StoreName": "geffen.200851",
+    "StoreURL": "http://stores.ebay.com/id=864275326"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/4012917027878080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

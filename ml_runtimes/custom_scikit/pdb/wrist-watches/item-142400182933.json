@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.87",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Riverview, Michigan",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:26:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "9.87",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:26:13.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ExcludeShipToLocation": [
+    "IQ",
+    "LB",
+    "TR",
+    "YE"
+  ],
+  "ItemID": "142400182933",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rocawear",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "RMST5102",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "RMST5102",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "9.87",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "Not working Parts only. Broken bands",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RocaWear-Blue-Mens-Analog-RMST5102-Leather-Band-Watch-Parts-Not-Working-/142400182933",
+  "QuantitySoldByPickupInStore": "0",
+  "Title": "RocaWear Blue Mens Analog RMST5102 Leather Band Watch Parts Not Working",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424001829338080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "48193",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H14M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/5NQAAOSwYvFZKCuz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/orIAAOSw42dZKCu2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/2-EAAOSwsXFZKCu5/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Authentic RocaWear Mens Analog watch , good for parts or repair only. Item sold as-is.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1843",
+    "UserID": "discountstorereturns",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

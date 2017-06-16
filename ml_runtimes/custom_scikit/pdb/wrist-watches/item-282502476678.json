@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "449.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Oakdale, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:53:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "449.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T14:53:08.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502476678",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EBEL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "449.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EBEL-MENS-STAINLESS-1911-WATCH-/282502476678",
+  "Title": "EBEL MENS STAINLESS 1911 WATCH",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2825024766788080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "11769",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H47M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/~X0AAOSwxu5ZKF-L/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/9MYAAOSwjL5ZKF-Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/4XQAAOSw5cRZKF-b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/avQAAOSwcgNZKF~T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/0pIAAOSw~y9ZKF~c/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/wVsAAOSwlY1ZKF~~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/tKwAAOSwYlRZKGAj/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/3pQAAOSww5hZKGAo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NFgxNjAw/z/m28AAOSwBt5ZKGA~/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "EBEL MENS STAINLESS 1911 WATCH BATTERY OPERATED WATCH / HAS SOME LIGHT SCRATCHES ON BAND I TRIED TO PICTURE BEST I COULD BUT STILL LOOKS GOOD JUST NORMAL EVERYTHING WEAR AND TEAR",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "271",
+    "UserID": "parlay2169",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

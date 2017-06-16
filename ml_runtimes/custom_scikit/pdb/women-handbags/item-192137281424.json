@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-3.fishpond.co.nz/0124/752/455/261749142/7.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0124/752/455/261749143/7.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0124/752/455/261749144/7.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Leather-Clutch-Lucca-Red-Crocodile-print-Italian-design-Brand-New-/192137281424",
+  "ConvertedCurrentPrice": {
+    "value": "66.08",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Exclusive Italian leather clutch with crocodile print. The clutch is made of high quality Italian calf leather with an adjustable shoulder strap, so the bag can be worn as a shoulder bag or cross-body. The front of the clutch has a trendy crocodile print and the back is made of soft Italian calf leather. There are many colours to choose from; black, light grey, dark grey, beige, brown, dark blue, white, yellow, red, green, cognac and fuchsia pink. Outer Material",
+  "Title": "Leather Clutch Lucca Red with Crocodile print, Italian design. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "66.08",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-22T18:29:53.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P18DT2H6M7S",
+  "EndTime": "2017-06-20T18:29:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Carelli Italia"
+      },
+      {
+        "Name": "MPN",
+        "Value": "138664614"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137281424",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:124752455:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

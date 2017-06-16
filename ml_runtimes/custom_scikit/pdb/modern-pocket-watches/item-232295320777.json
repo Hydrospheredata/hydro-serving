@@ -1,0 +1,162 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "AD",
+    "BA",
+    "CY",
+    "EE",
+    "GI",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.18"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-04-07T07:59:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/VnoAAOSw03lY50a9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/xVMAAOSw3utY50aY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/iJoAAOSwuLZY50aB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/fmwAAOSww3tY50aR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/NrwAAOSwDmBY50Zg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/S7YAAOSw03lY50Z2/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/WeQAAOSwB-1Y50Zc/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "4",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "34",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "1FR3JX3KB1GW9",
+  "HitCount": "84",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2322953207778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T07:59:00.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "232295320777",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.18"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ShenZhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Fisheye Style White Steel Retro Quartz Necklace Chain Belt Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Fisheye-Style-White-Steel-Retro-Quartz-Necklace-Chain-Belt-Pocket-Watch-/232295320777",
+  "Storefront": {
+    "StoreName": "HCS-Autohome",
+    "StoreURL": "http://stores.ebay.com/id=1365524706"
+  },
+  "Seller": {
+    "UserID": "auto_home",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8893",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT13H10M52S"
+}

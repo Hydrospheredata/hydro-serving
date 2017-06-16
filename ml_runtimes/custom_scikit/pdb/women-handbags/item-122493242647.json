@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1224932426478080_1.jpg",
+  "PictureURL": [
+    "https://images-na.ssl-images-amazon.com/images/I/51udEhvWtjL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51KLrRupewL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51FB29VI9KL.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51asDoXUo8L"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MCKC-15475-McKleinUSA-BRIDGEPORT-15475-Black-Leather-Large-Laptop-Brief-/122493242647",
+  "ConvertedCurrentPrice": {
+    "value": "109.43",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKleinUSA BRIDGEPORT 15475 Black Leather Large Laptop Brief Pebble Grain Calfskin Leather*Front zipper pocket holds small accessories.*Main compartment also features a built-in padded laptop sleeve that fits and protects most laptops up to 17\" in screen size. Black Leather Large Laptop Brief. Pebble Grain Calfskin Leather. Front zipper pocket holds small accessories. Color : Black Size : One Size Features :Pebble Grain Calfskin LeatherFront zipper pocket holds small accessories.Main compartment also features a built-in padded laptop sleeve that fits and protects most laptops up to 17\" in screen size.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.43",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "1533",
+    "PositiveFeedbackPercent": "96.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "virventurein"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "MCKC-15475-McKleinUSA BRIDGEPORT 15475 Black Leather Large Laptop Brief",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-05-12T19:22:14.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P9DT4H18M21S",
+  "EndTime": "2017-06-11T19:22:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "642154154750"
+      },
+      {
+        "Name": "Model",
+        "Value": "15475"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15475"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein Company"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122493242647",
+  "Storefront": {
+    "StoreName": "virventurein",
+    "StoreURL": "http://stores.ebay.com/id=1409776454"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "MCKC-15475",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "true"
+}

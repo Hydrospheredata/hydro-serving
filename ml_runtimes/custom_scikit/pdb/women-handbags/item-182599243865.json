@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/yEIAAOSw-itXvHr5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/PQYAAOSw0UdXvHr7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/IEMAAOSwHoFXvHr8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MEMAAOSwZVlXvHr-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/rYgAAOSwU-pXvHsB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/MPMAAOSwZVlXvHsC/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Louis-Vuitton-Bag-Charm-Gold-White-S2737-/182599243865",
+  "ConvertedCurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Used but not damaged , new 620 without tax",
+  "Title": "Authentic  Louis Vuitton Bag Charm Gold/White #S2737",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "425.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "San Francisco, California",
+  "Seller": {
+    "FeedbackScore": "1389",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "yousmarthere"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94118",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T22:49:11.000Z",
+  "HitCount": "0",
+  "TimeLeft": "P27DT6H55M42S",
+  "EndTime": "2017-06-29T22:49:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Louis Vuitton"
+      },
+      {
+        "Name": "Material",
+        "Value": "Gold/White"
+      },
+      {
+        "Name": "Type",
+        "Value": "Bag Charm"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "France"
+      },
+      {
+        "Name": "Rank",
+        "Value": "BC"
+      },
+      {
+        "Name": "Size(cm)",
+        "Value": "Length 12.5cm(Approx)"
+      },
+      {
+        "Name": "Size(inch)",
+        "Value": "Length 4.9\u201d(Approx)"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182599243865",
+  "Storefront": {
+    "StoreName": "YESyouWIN",
+    "StoreURL": "http://stores.ebay.com/id=1026230828"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825992438658080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

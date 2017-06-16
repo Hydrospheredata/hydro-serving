@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921441224138080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODUwWDE1MDA=/z/RxsAAOSwCU1Y3S9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEyWDE1MDA=/z/JO0AAOSwsW9Y3S9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzU4WDE1MDA=/z/JNsAAOSwsW9Y3S9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkwWDE1MDA=/z/JcUAAOSwA29Y3S9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDcz/z/wjIAAOSwol5Y3S9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MzI=/z/JbAAAOSwA29Y3S9c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg0NTE=/z/DGwAAOSwDmBY3S9b/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Womens-Multiple-K139-Shoulder-Bag-Huge-Saving-/192144122413",
+  "ConvertedCurrentPrice": {
+    "value": "88.33",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Kipling multiple waist bag convertible to shoulder bag",
+  "Title": "Kipling Womens Multiple K139 Shoulder Bag. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "88.33",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-30T16:16:22.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P25DT23H58M34S",
+  "EndTime": "2017-06-28T16:16:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "5415280288928"
+      },
+      {
+        "Name": "UPC",
+        "Value": "5415280288928"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144122413",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:71016918:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

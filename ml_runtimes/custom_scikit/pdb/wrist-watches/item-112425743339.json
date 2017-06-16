@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2879.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pahoa, Hawaii",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:56:08.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "2879.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T08:56:08.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425743339",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "1625",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "36mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens 14KT/SS Rolex Oyster Perpetual Datejust Thunderbird! Reference 1625! NICE!",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-14KT-SS-Rolex-Oyster-Perpetual-Datejust-Thunderbird-Reference-1625-NICE-/112425743339",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124257433398080_1.jpg",
+  "HitCount": "15",
+  "PostalCode": "96778",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT17H27M50S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/OJgAAOSwCU1Yvz9h/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/2-QAAOSw2gxYvz9q/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Ks8AAOSwWxNYs7dh/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Hg8AAOSwtfhYs7dM/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/fYoAAOSwTuJYs7ed/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/fqIAAOSw32lYortw/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/rsEAAOSwOgdYors8/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/2X0AAOSw241YmYD7/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Up for sale is my mens Rolex Oyster Perpetual Datejust Thunderbird model 1625. It is running strong and keeping excellent time. However the date change happens about 11:50 and not 12am. This in no way affects the function of the timepiece as it always keeps time, runs strong, and the date always changes as it should after 24 hours. Also the gold rotating bezel doesn't turn. This timepiece is 36mm and houses the Rolex Caliber 1570 automatic movement. It is a nice timepiece that has flaws on the case, crystal, and caseback. The dial has some flaws as well, but this timepiece is all original. The pictures does no justice for this timepiece as it looks better in person. The serial number dates it to 1978. It still looks amazing for its age. It is not perfect, but original. The listing includes just the watch, no boxes or papers. It is fitted with its original Rolex 14kt gold and stainless steel jubilee band 62523 H14 that will fit up to a 7 3/4 inch wrist.. No International Bidders. USA Paypal Verified and Paypal Confirmed Addresses Only. Thanks",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "438",
+    "UserID": "anela819",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

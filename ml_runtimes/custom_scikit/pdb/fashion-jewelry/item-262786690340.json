@@ -1,0 +1,91 @@
+{
+  "ReturnPolicy": {
+    "Description": "Returns are accepted within 30 days with the buyer being responsible for all return shipping cost. The original cost of the item will be refunded less the shipping cost. Item must have all tags attached, be in original or unworn condition, and all package contents must be returned. A 15% restocking fee applies to items returned that are as described.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P24DT8H47M24S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "62.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "262786690340",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-125-MICHAEL-KORS-Pink-White-Leather-Gold-Rhinestone-Snap-Bracelet-/262786690340",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "62.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-12-31T22:57:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T22:57:38.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NWT $125 MICHAEL KORS Pink White Leather Gold Rhinestone Snap Bracelet",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWT $125 MICHAEL KORS Pink White Leather Gold Rhinestone Snap Bracelet Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2627866903408080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "klsluvstoshop",
+    "FeedbackScore": "1002",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "KLS&#39;S BLING",
+    "StoreURL": "http://stores.ebay.com/id=93439487"
+  },
+  "Quantity": "1",
+  "Location": "Cordova, Tennessee",
+  "HitCount": "52",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDEyODA=/z/y4cAAOSwA3dYaDfb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMTU2/z/5b8AAOSw5cNYaDfc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc2WDEyODA=/z/y8cAAOSwA3dYaDfe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4Njk=/z/DYEAAOSwo4pYaDff/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDM2WDEyODA=/z/DZwAAOSwo4pYaDfg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1g2NjI=/z/sRMAAOSwZQRYaDfh/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "38016"
+}

@@ -1,0 +1,100 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT15H29M55S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "42.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142405151972",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Joan-Rivers-Lily-Brooch-Pin-Gunmetal-Gold-Green-Champagne-Stones-3-1-2-/142405151972",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "42.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:12:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T04:12:09.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gunmetal",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Joan Rivers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Golds, Greens, Yellows, Champagne Stones",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Flowers & Plants",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Joan Rivers Lily Brooch Pin Gunmetal Gold Green Champagne Stones 3 1/2\"",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful flower Brooch. It looks like a lily to me, but I am not a plant expert by any means. The stones are Citrine and green, champagne and yellow. Large at 3 1/2\" long by 2 3/4\" wide at widest. NO RETURNS PLEASE NOTE: I am helping a parent with Alzheimer's. I try to ship the same day payment is received, but occasionally there may be a day delay, with notice, if an \"emergency\" arises. I ask for your understanding when this happens. I have retired and am selling most of my personal jewelry and accessories. Please check back often as I have a lot, and I am slow. Thanks I Combine Shipping. Consider photos part of description. Colors may show differently on different monitors. All Measurements Are As Close As I Can Get. All items marked with invisible ink. Signature required on $125.00 items. Please forgive my wrinkled, age spotted hands...hahahaha Please, all questions thru the items on EBay, as I don't check the email account. I am sorry to say, that because so many people have purchased my items, and not paid, that I now require immediate payment.\u00a0 If you need more time, please\u00a0let me know.\u00a0\u00a0I promise that I'm not hard to deal with.\u00a0\u00a0I am sorry for the inconvenience, especially to all my regulars.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424051519728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mcneals",
+    "FeedbackScore": "7916",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Mcneals",
+    "StoreURL": "http://stores.ebay.com/id=24589787"
+  },
+  "Quantity": "1",
+  "Location": "Wabash, Indiana",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExNFgxMTEz/z/amgAAOSwVm5Y~6uc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/qfsAAOSw5UZY~6uL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/5KcAAOSwvKtY~6uN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OFgxMTM5/z/rDAAAOSwkShY~6ut/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/fE8AAOSwHptY~6uS/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "46992"
+}

@@ -1,0 +1,610 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.05",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA1MFgxMDUw/z/3KkAAOSw5cRZLn8n/$_1.JPG?set_id=880000500F"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "SZ",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:30:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "18",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1115879377",
+    "StoreName": "shoppingfreely"
+  },
+  "CurrentPrice": {
+    "value": "1.05",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:30:28.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Central America and Caribbean",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "EE",
+    "GI",
+    "GG",
+    "IS",
+    "IE",
+    "JE",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW"
+  ],
+  "ItemID": "201942228615",
+  "HandlingTime": "10",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Women-Girls-Roman-Numeral-Dail-Faux-Leather-Strap-Watch-Simple-Wrist-Watch-New-/201942228615?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Easy To Read",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "YES",
+        "Name": "Fast Fulfillment"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "FW0937",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "1.05",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW014006",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#140-White",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.29",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0388101",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#388-1",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.09",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN0193001",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#193-Black",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023609",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-1",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023610",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-2",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.09",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN0193002",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#193-White",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.29",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0388102",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#388-2",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.29",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0388103",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#388-3",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.09",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN0193208",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#193-Brown",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023611",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-3",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023612",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-4",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.29",
+          "_currencyID": "USD"
+        },
+        "SKU": "FW0388104",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#388-4",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023614",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-5",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023615",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-6",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023616",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-7",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023618",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-9",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023619",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-10",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "2.69",
+          "_currencyID": "USD"
+        },
+        "SKU": "EN023622",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "#236-11",
+            "Name": "\u3010Color\u3011"
+          }
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "#140-White",
+          "#388-1",
+          "#193-Black",
+          "#236-1",
+          "#236-2",
+          "#193-White",
+          "#388-2",
+          "#388-3",
+          "#193-Brown",
+          "#236-3",
+          "#236-4",
+          "#388-4",
+          "#236-5",
+          "#236-6",
+          "#236-7",
+          "#236-9",
+          "#236-10",
+          "#236-11"
+        ],
+        "Name": "\u3010Color\u3011"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "#140-White",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0140/FW014006.jpg"
+        },
+        {
+          "VariationSpecificValue": "#388-1",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0388/FW0388101.jpg"
+        },
+        {
+          "VariationSpecificValue": "#193-Black",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0193/EN0193001.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-1",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023609.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-2",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023610.jpg"
+        },
+        {
+          "VariationSpecificValue": "#193-White",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0193/EN0193002.jpg"
+        },
+        {
+          "VariationSpecificValue": "#388-2",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0388/FW0388102.jpg"
+        },
+        {
+          "VariationSpecificValue": "#388-3",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0388/FW0388103.jpg"
+        },
+        {
+          "VariationSpecificValue": "#193-Brown",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0193/EN0193208.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-3",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023611.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-4",
+          "PictureURL": "http://m1.image009.com/productimage/EN023612.jpg"
+        },
+        {
+          "VariationSpecificValue": "#388-4",
+          "PictureURL": "http://m1.image009.com/productimage/F/FW/FW0388/FW0388104.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-5",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023614.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-6",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023615.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-7",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023616.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-9",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023618.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-10",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023619.jpg"
+        },
+        {
+          "VariationSpecificValue": "#236-11",
+          "PictureURL": "http://m1.image009.com/productimage/E/EN/EN0236/EN023622.jpg"
+        }
+      ],
+      "VariationSpecificName": "\u3010Color\u3011"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H1M",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Women Girls Roman Numeral Dail Faux Leather Strap Watch Simple Wrist Watch New",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.9",
+    "FeedbackScore": "94710",
+    "UserID": "shoppingfreely",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Restocking fees: No"
+  }
+}

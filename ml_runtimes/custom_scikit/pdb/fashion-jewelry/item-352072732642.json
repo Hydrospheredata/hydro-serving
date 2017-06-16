@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P23DT13H3M4S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "All new with the exception of a few pieces All prestine",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "118.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "352072732642",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Huge-Lot-Jewelry-Sterling-Silver-Cubic-Zirconium-etc-New-Vintage-/352072732642",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "118.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T03:40:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T03:40:59.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Material"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Simulated",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Routinely Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Onyx",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Necklaces, Rings, Ear Rings, Bracelets",
+        "Name": "Type"
+      },
+      {
+        "Value": "Opal",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Huge Lot Of Jewelry, Sterling Silver, Cubic Zirconium,etc. New & Vintage",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Cookie lee, Lia Sophia, Avon, and a few Vintage pieces. This lot retailed over $450.00 Please see pics, any questions? Email me. Thank you",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520727326428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "debrav7338",
+    "FeedbackScore": "1068",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "debrav7338",
+    "StoreURL": "http://stores.ebay.com/id=361463582"
+  },
+  "Quantity": "1",
+  "Location": "Sacramento, California",
+  "HitCount": "15",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/Y2MAAOSw4YdY0x77/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/jXUAAOSw4A5Y0x8H/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/X5IAAOSwol5Y0x78/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/MwwAAOSwdGFY0x8B/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/jVIAAOSw4A5Y0x8F/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/1bwAAOSwOgdY0x79/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/OQAAAOSw2gxY0x7-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/L-EAAOSwuxFY0x7~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/H5YAAOSwB-1Y0x8B/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/MEcAAOSwuxFY0x8D/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/1joAAOSwOgdY0x8E/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/ZQkAAOSw4YdY0x8I/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "95841"
+}

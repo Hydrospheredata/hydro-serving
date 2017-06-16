@@ -1,0 +1,60 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "91302",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-29T17:28:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/HGkAAOSw42dZLFpT/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "go-n-go-n-gawn",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1605",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "44",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520723742878080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T17:28:49.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "29.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BULOVA-17-JEWELS-14K-GOLD-FILLED-POCKET-WATCH-BULOVA-WATCH-CO-17AE-RUNNING-/352072374287",
+  "Location": "Calabasas, California",
+  "Title": "BULOVA 17 JEWELS 14K GOLD FILLED POCKET WATCH ~ BULOVA WATCH CO. 17AE ~ RUNNING",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "352072374287",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT22H54M24S"
+}

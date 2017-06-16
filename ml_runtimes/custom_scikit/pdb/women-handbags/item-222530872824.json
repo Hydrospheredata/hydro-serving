@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/aBkAAOSw8lpZL38O/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/eZYAAOSwGJlZL38R/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UGgAAOSwK6RZL38T/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7MAAAOSw-3FZL38W/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UIcAAOSwK6RZL38Y/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Clark-Mayfield-Morrison-Leather-Tablet-Crossbody-Blue-/222530872824",
+  "ConvertedCurrentPrice": {
+    "value": "61.6",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Clark & Mayfield Morrison Leather Tablet Crossbody Product Features Top Grain Leather Fits iPads/Tablets/E-readers Soft, top-grain leather Comfortable, adjustable cotton-webbed straps Well-padded tablet section Front purse pocket for phone and boarding pass Product Specifications Product Dimensions: 3 x 11.5 x 10.5 inches Shipping Weight: 2 pounds Item model number: MORRCR-28 Why you Should Buy from Us? We are a Trusted Seller with Great Feedback Quick Shipping and Tracking BIG Discounts Excellent Returns Policy The BEST Customer Service Shipping & Returns We Ship Worldwide! 14 Day Money Back Return Policy Items Ship within 24-72 Hours Get Your Purchase FAST! Product Description The Morrison Leather Crossbody is a modern day satchel with bold leather, a wide comfortable shoulder strap, industrial hardware, and a sensible zippered closure for safekeeping your favorite tablet or Chromebook. Thank You For Your Business!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "61.6",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1599",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "bigchoice_75"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Clark & Mayfield Morrison Leather Tablet Crossbody Blue",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T02:42:35.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225308728248080_1.jpg",
+  "TimeLeft": "P28DT11H48M47S",
+  "EndTime": "2017-07-01T02:42:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "MORRCR-28"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clark & Mayfield"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222530872824",
+  "Storefront": {
+    "StoreName": "bigchoice_75",
+    "StoreURL": "http://stores.ebay.com/id=102328095"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. Restocking fee of 20% at our discretion.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B014MBIYVO",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

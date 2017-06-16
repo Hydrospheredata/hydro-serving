@@ -1,0 +1,123 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT13H31M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "43.74",
+    "_currencyID": "USD"
+  },
+  "SKU": "10k-ckw12",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "122248144258",
+  "ConvertedCurrentPrice": {
+    "value": "43.74",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2016-11-30T03:22:53.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/10K-White-Gold-Plain-High-Polish-Adjustable-Toe-Ring-/122248144258",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T03:22:53.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Suzy Silver",
+        "Name": "Brand"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "10k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "10k gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "10K White Gold Plain High Polish Adjustable Toe Ring",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "MX",
+    "PM",
+    "GB",
+    "KH",
+    "LA",
+    "PH",
+    "TH",
+    "VN"
+  ],
+  "Location": "New York, New York",
+  "Description": "10K White Gold Plain High Polish Adjustable Toe Ring 10K White Gold Plain High Polish Adjustable Toe Ring . Stunning Look. These are appropriate for women of all ages. Size:One size fits all. Retail Prize:$96.00 Properly Stamped and Marked PICTURE SLIGHTLY ENLARGED TO SHOW DETAILS PROPERLY STAMPED & MARKED 10K eBay STORE ABOUT US CONTACT US ALL ITEMS We offer Free Shipping for US orders. Orders are shipped within 1-3 business days of receiving payment. We accept all major credit cards processed through PayPal. International buyers are responsible for customs duty. 100% satisfaction guarantee \u2013 Return for any reason within 30 days to receive a full refund. Monday to Friday 9AM \u2013 4PM ET Design by Sally Milo - MiloDesign Powered by SixBit's eCommerce Solution",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1222481442588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "suzysilver1",
+    "FeedbackScore": "18327",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "suzysilver1",
+    "StoreURL": "http://stores.ebay.com/id=920784567"
+  },
+  "Quantity": "4",
+  "PaymentMethods": "PayPal",
+  "HitCount": "110",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAzNlgxMDQ4/z/02gAAOSwBLlVcLpa/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "10036"
+}

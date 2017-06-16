@@ -1,0 +1,61 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "01862",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Nice",
+  "StartTime": "2017-05-30T12:18:08.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDkwNw==/z/Q38AAOSwBt5ZLWKI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/fugAAOSwX9FZLWKo/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "donah0880",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "307",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625344481868080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T12:18:08.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KANSAS-CITY-RAILROAD-POCKET-WATCH-26-chain-FOB-QUARTZ-movement-jesse-james-/162534448186",
+  "Location": "North Billerica, Massachusetts",
+  "Title": "KANSAS CITY RAILROAD POCKET WATCH 26\"chain + FOB. QUARTZ movement, jesse james",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "162534448186",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT17H44M19S"
+}

@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mCIAAOSwt0FZBAeS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/n2QAAOSww9xZBAeu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UGEAAOSwT-FZBAfR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nUEAAOSwt0FZBAfX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YJsAAOSw~y9ZBAfk/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Coach-Purple-Leather-Fabric-Logo-Duffle-Bag-Travel-Used-/263010579129",
+  "ConvertedCurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Coach duffle bag in good condition. Color is light purple. Bag has usual wear. Has some stains on bottom side on outside which may be cleaned. Has stain as well on inside of bag. No tears or rips. All zippers work. Bag dimensions are 26\"x 12\" x 12\". Strap is in good condition. Ships out fast. Any other questions about condition feel free to ask. Very flexible on price with this item.",
+  "Title": "Coach Purple Leather Fabric Logo Duffle Bag Travel Used",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "129.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Tampa, Florida",
+  "Seller": {
+    "FeedbackScore": "207",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "garagesellz"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33606",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T02:30:46.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P26DT9H59M38S",
+  "EndTime": "2017-06-29T02:30:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Fabric and Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffle"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263010579129",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630105791298080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

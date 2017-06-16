@@ -1,0 +1,2130 @@
+{
+  "ReturnPolicy": {
+    "Description": "For all returns, buyers must contact us and follow our return process steps before sending back the item to us. - Items sent back without authorisation will not be processed - Must contact us via our email and describe reason within 30 days of items arrival - The item need to be arrived back here in new, unopened and re-saleable condition. - All accessories/parts must remain in their original packaging - Shipping and handling fees will not be refunded. - Buyer will be responsible for charges where applicable when returning items to us for exchange. - Faulty or Damaged Items will be exchanged if buyers reports the problems within 30 days of item arrival. Please contact us first to obtain return address &return process steps, thanks",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172714047573",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Piercing Jewelry",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "TopRatedListing": "true",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryID": "32050",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:15124:32050",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "ms.piercing",
+    "FeedbackScore": "9798",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "MsPiercing Store",
+    "StoreURL": "http://stores.ebay.com/id=110351783"
+  },
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wGIAAOSwopRYZdiq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wGUAAOSwopRYZdiq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/FeEAAOSwEzxYZdiq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Pj0AAOSw44BYZdip/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/T1wAAOSw-0xYZdip/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/4DYAAOSwjDZYZdiq/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "SKU": "pr_item_15619",
+  "StartTime": "2017-06-05T04:33:09.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "JP",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "1",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-Gold-internally-threaded-labret-Aquamarine-/172714047573?var=",
+  "EndTime": "2017-07-05T04:33:09.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Made From",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "14K white gold",
+          "PictureURL": "http://www.mspiercing.com/admin/SkuImages/196247_1.jpg"
+        },
+        {
+          "VariationSpecificValue": "14K yellow gold",
+          "PictureURL": "http://www.mspiercing.com/admin/SkuImages/196238_1.jpg"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "14 (1.6mm)",
+            "16 (1.2mm)"
+          ],
+          "Name": "Gauge (Thickness)"
+        },
+        {
+          "Value": [
+            "14K white gold",
+            "14K yellow gold"
+          ],
+          "Name": "Made From"
+        },
+        {
+          "Value": [
+            "1/4\" (6mm)",
+            "5/16\" (8mm)",
+            "3/8\" (10mm)",
+            "7/16\" (11mm)",
+            "1/2\" (13mm)"
+          ],
+          "Name": "Length"
+        },
+        {
+          "Value": [
+            "Small - 1.5mm",
+            "Standard - 2mm",
+            "Large - 3mm"
+          ],
+          "Name": "Gem Size"
+        }
+      ]
+    },
+    "Variation": [
+      {
+        "SKU": "pr_sku_196247",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199683",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199512",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196246",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199682",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199511",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196248",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199684",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199513",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196249",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199685",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199514",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196250",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199686",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199515",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196238",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199692",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199503",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196237",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199691",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199502",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196239",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199693",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199504",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196240",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199694",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199505",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196241",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199695",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199506",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "14 (1.6mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196242",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199678",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199507",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196045",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199387",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199398",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196243",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199679",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199508",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196244",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199680",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199509",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196245",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199681",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199510",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K white gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196233",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199687",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199498",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/4\" (6mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196042",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199367",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199346",
+        "StartPrice": {
+          "value": "50.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "5/16\" (8mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196234",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199688",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199499",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "3/8\" (10mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196235",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199689",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199500",
+        "StartPrice": {
+          "value": "54.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "7/16\" (11mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_196236",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Small - 1.5mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199690",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Standard - 2mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      },
+      {
+        "SKU": "pr_sku_199501",
+        "StartPrice": {
+          "value": "56.99",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "16 (1.2mm)",
+              "Name": "Gauge (Thickness)"
+            },
+            {
+              "Value": "14K yellow gold",
+              "Name": "Made From"
+            },
+            {
+              "Value": "1/2\" (13mm)",
+              "Name": "Length"
+            },
+            {
+              "Value": "Large - 3mm",
+              "Name": "Gem Size"
+            }
+          ]
+        },
+        "Quantity": "40"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MsPiercing",
+        "Name": "Brand"
+      },
+      {
+        "Value": "labret",
+        "Name": "Type"
+      },
+      {
+        "Value": "priced and sold individually",
+        "Name": "Option"
+      },
+      {
+        "Value": "Made In USA",
+        "Name": "Option 1"
+      },
+      {
+        "Value": "Customization available, contact us.",
+        "Name": "Option 2"
+      },
+      {
+        "Value": "Prongs",
+        "Name": "Setting Type"
+      },
+      {
+        "Value": "synthetic",
+        "Name": "Stone Creation Method"
+      },
+      {
+        "Value": "Internally Threaded",
+        "Name": "Threading Type"
+      },
+      {
+        "Value": "Prong Set",
+        "Name": "Gem Setting"
+      },
+      {
+        "Value": "Synthetic",
+        "Name": "Gem Creation"
+      },
+      {
+        "Value": "Round",
+        "Name": "Gem Shape"
+      },
+      {
+        "Value": "Aqua",
+        "Name": "Gem Color"
+      }
+    ]
+  },
+  "Title": "14K Gold internally threaded labret with Aquamarine",
+  "TimeLeft": "P29DT12H58M32S",
+  "Location": "West Berlin, New Jersey",
+  "Description": "14K Gold internally threaded labret with AquamarineCondition: NewShipping: Same day from NJ, USA (3 pm est cut-of time)Type: labretGauge (Thickness): OptionalMade From: OptionalLength: OptionalOption : priced and sold individuallyOption 1: Made In USAOption 2: Customization available, contact us.Setting Type: ProngsGem Size: OptionalStone Creation Method: syntheticThreading Type: Internally ThreadedGem Setting: Prong SetGem Creation: SyntheticGem Shape: RoundGem Color: Aqua",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "2400",
+  "PostalCode": "08091"
+}

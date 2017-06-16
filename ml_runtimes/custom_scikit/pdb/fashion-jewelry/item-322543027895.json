@@ -1,0 +1,281 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "322543027895",
+  "PrimaryCategoryID": "98526",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "ConvertedCurrentPrice": {
+    "value": "39.98",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:155101",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NU",
+    "PW",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "VN",
+    "BO",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "leobluestyles",
+    "FeedbackScore": "2738",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Blings like a diamond",
+    "StoreURL": "http://stores.ebay.com/id=1092875849"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTI1/z/Vt0AAOSwo0JWFuSK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg1MDY=/z/HVEAAOSw~bFWFuSL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDc1/z/rKkAAOSw9mFWFuSN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyN1gxNjAw/z/rNQAAOSw9mFWFuSP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDk0/z/PhcAAOSwhcJWFuSR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk2/z/qawAAOSwtlhWFuST/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI5OVgxNjAw/z/0ZoAAOSwA4dWFuSV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5ODY=/z/oSEAAOSwAYtWFuSX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjA0/z/oV4AAOSwAYtWFuSa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDU2/z/oZEAAOSwAYtWFuSc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WGAAAOSwo0JWFuSf/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "TimeLeft": "P29DT9H54M2S",
+  "StartTime": "2017-06-05T01:04:38.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.98",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "155101",
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Petite-925-Sterling-Silver-V-neck-Body-Chain-Style-Neckalce-/322543027895?var=",
+  "EndTime": "2017-07-05T01:04:38.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Size",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Petite 30-32"
+        },
+        {
+          "VariationSpecificValue": "Sml 32-34"
+        },
+        {
+          "VariationSpecificValue": "M- 34-26"
+        },
+        {
+          "VariationSpecificValue": "L-36-38"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Petite 30-32",
+          "Sml 32-34",
+          "M- 34-26",
+          "L-36-38"
+        ],
+        "Name": "Size"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Petite 30-32",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "39.98",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "2"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Sml 32-34",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "41.98",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "2"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "M- 34-26",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "45.98",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "L-36-38",
+            "Name": "Size"
+          }
+        },
+        "StartPrice": {
+          "value": "49.98",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "8"
+      }
+    ]
+  },
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": [
+          "Neck Portion 18+2 inch extension=20 inches",
+          "Mid section from neck portion is 10 inches",
+          "Choose waist size at check out.",
+          "Universal"
+        ],
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Jewelry By Gower",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": ".925 Sterling silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Please read description under item details :-)",
+        "Name": "Help Choosing the right size"
+      }
+    ]
+  },
+  "Title": "NEW Petite 925 Sterling Silver V-neck Body Chain Style Neckalce",
+  "Location": "Webster, Massachusetts",
+  "Description": "PLEASE READ SHIPPING DETAILS AND DESCRIPTION BEFORE PURCHASING. THANK YOU. :-) NEW Hot style Bikini Crossover Body Belly Harness Chain, Similar to those worn by celebs in Hollywood. Can be worn under a suite, bikini, or club wear. Very stylish and very versatile. Details:THIS IS THE THINNEST STYLE CURB CHAIN WE CARRY. LIGHT WEIGHT, DELICATE, YOU WILL HARDLY NOTICE IT ON. High quality sterling silver curb chain. Lead/nickle free. Will not tarnish, fade or turn your skin green. The chain is high quality. Assembled in CANADA and all materials are purchased from the USA. Measurements: For all chains the Upper portion from neck to above the navel is:NECK Portion is 18 inches with a 2 inch extension making the total neck 20 inches. The portion to the chain that runs from the neck to the waist is 10 inches. Lower portion around the waist comes in Petite,Small, medium and large and XL Petite/Small - Fits 30 to 32 inch waist.Small - Fits 32 to 34 inch waist.Medium - Fits 34 to 36 inch waist. Large - Fits 36 to 38 inch waist Total lengths available. If you are tall or have a curvy voluptuous figure you might want to purchase one of the larger waist sizes. For taller girls it will hang lower towards the mid section. Remember to add a inch for wiggle room. CHECK OUT MY OTHER LISTINGS! ALSO AVAILABLE IN DIFFERENT SILVER STYLE CHAINS AND OTHER STYLES OF GOLD CHAINS!FOR ALL INTERNATIONAL ORDERS INCLUDING THE USAEstimated delivery time depends on the country and how fast that country clears your parcel through customs. Can take up to 21 business days or longer. We ship out your order the following business day after receiving cleared payment. Also please note that we are closed on Sat and Sun. So if you pay for your item on sat or sun it will not go out until monday morning. Please factor that into the estimated delivery time.Payment:We accept all major credit cards and debit cards through PAYPAL.FeedbackWe maintain high standards of excellence and strive for 100% customer satisfaction! Feedback is very important to us. If you are not happy for any reason please contact us immediately BEFORE you give us neutral or negative feedback, so that we can satisfactorily address your concerns. At the end of the day it is very important to us that you are a happy satisfied customer.If for any reason you are unhappy with your purchase please contact us. You can always return the item and exchange it or request a refund.Return Policy: All returns accepted within 30 days after receiving the item.Refund given as Money Back.Return shipping will be paid by the buyer.",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "13",
+  "PostalCode": "01570"
+}

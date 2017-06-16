@@ -1,0 +1,239 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.85",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "322000",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:45:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1402059670",
+    "StoreName": "toplovedongqi2"
+  },
+  "CurrentPrice": {
+    "value": "1.85",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:45:06.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "P154@#2893551",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "DE",
+    "IE",
+    "IT",
+    "CH",
+    "GB",
+    "HK",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "CN"
+  ],
+  "ItemID": "332245454696",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Women-Butterfly-Flower-Round-Dial-Alloy-Roman-Analog-Quartz-Wristwatch-/332245454696?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "3.9cm/1.54''",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Women",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Fashion & Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "1.85",
+          "_currencyID": "USD"
+        },
+        "SKU": "P154_1@#S2893551",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "1.85",
+          "_currencyID": "USD"
+        },
+        "SKU": "P154_2@#S2893551",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Rose Gold",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "StartPrice": {
+          "value": "1.85",
+          "_currencyID": "USD"
+        },
+        "SKU": "P154_3@#S2893551",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Silver",
+            "Name": "Colors"
+          }
+        },
+        "Quantity": "2"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold",
+          "Rose Gold",
+          "Silver"
+        ],
+        "Name": "Colors"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/n~YAAOSwxu5ZLnR9/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Rose Gold",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/lrgAAOSw3gJZLnR5/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Silver",
+          "PictureURL": "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/YFgAAOSwblZZLnR4/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Colors"
+    }
+  },
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H13M7S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/8PYAAOSwKytZLnRU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/9LUAAOSwhvFZLnRZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/rdwAAOSwi7RZLnRm/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/9MMAAOSwhvFZLnRa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/YpsAAOSwuMZZLnRg/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/8uQAAOSwKytZLnRx/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/YuUAAOSwuMZZLnRn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/UREAAOSwZKBZLnRz/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Fashion Women Butterfly Flower Round Dial Alloy Roman Analog Quartz Wristwatch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "525",
+    "UserID": "toplovedongqi2",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

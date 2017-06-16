@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/3H0AAOSwc-tY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTA1WDUwNQ==/z/36oAAOSw03lY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyM1gxMjgw/z/wW0AAOSwTM5Y8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/a5gAAOSwls5Y8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/xEYAAOSwU8hY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/2fMAAOSwZeVY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/WucAAOSwmgJY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/WuIAAOSwmgJY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/368AAOSw03lY8AhZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMjgw/z/3IQAAOSwc-tY8AhZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KIPLING-NEW-BABY-Nursery-Diaper-Bag-Changing-Mat-Hydrangea-/282432746615",
+  "ConvertedCurrentPrice": {
+    "value": "99.98",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "Title": "KIPLING NEW BABY Nursery / Diaper Bag with Changing Mat Hydrangea",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.98",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Round Rock, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "8856",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "sozoangela"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "78665",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-13T23:23:02.000Z",
+  "HitCount": "368",
+  "TimeLeft": "P10DT7H54M6S",
+  "EndTime": "2017-06-12T23:23:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Length",
+        "Value": "16.25\""
+      },
+      {
+        "Name": "Height",
+        "Value": "12.25\""
+      },
+      {
+        "Name": "Width",
+        "Value": "7.25\""
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Color",
+        "Value": "Hydrangea"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Baby Bag/Shoulder"
+      },
+      {
+        "Name": "UPC",
+        "Value": "882256245356"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282432746615",
+  "Storefront": {
+    "StoreName": "Angela&#39;s Emporium",
+    "StoreURL": "http://stores.ebay.com/id=1006363913"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "10%",
+    "RestockingFeeValueOption": "Percent_10",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2824327466158080_1.jpg",
+  "HandlingTime": "15",
+  "BestOfferEnabled": "false"
+}

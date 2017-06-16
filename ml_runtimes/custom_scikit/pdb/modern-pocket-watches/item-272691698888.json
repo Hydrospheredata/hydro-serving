@@ -1,0 +1,106 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Vintage Ingraham \"Vice Roy\" Pocket Watch (Toronto, Canada) 48 mm Diameter",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item Ships To Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-29T05:27:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDgz/z/yVUAAOSw3xJXoBc4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM0NVgxMzQx/z/th4AAOSwRoxXoBc6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTg1/z/ft4AAOSwZVlXoBdA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTkw/z/B8UAAOSwtnpXoBdD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MlgxMTMy/z/EzQAAOSwhOdXoBdF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1NFgxNjAw/z/v-EAAOSwTZ1XoBdN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyMFgxMjM0/z/t~8AAOSwRoxXoBdP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM5NVgxMzI1/z/CWYAAOSwtnpXoBdR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMyMFgxMzQy/z/cc8AAOSwyLlXoBdW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc5/z/uV8AAOSwRoxXoBde/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxNlgxMzY3/z/zOYAAOSw3xJXoBdh/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "29.7"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ingraham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "F106 $25",
+  "HitCount": "5",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726916988888080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T05:27:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "39.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Ingraham-Vice-Roy-Pocket-Watch-Toronto-Canada-48-mm-Diameter-/272691698888",
+  "ConditionDescription": "Shows Age On Face But Works Well and Is In Graet Condition",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "272691698888",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT10H52M50S"
+}

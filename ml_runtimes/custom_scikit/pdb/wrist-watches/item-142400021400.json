@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "379.4",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Grangemouth",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:32:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "PaymentSeeDescription"
+  ],
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=369243231",
+    "StoreName": "Dart Silver Ltd"
+  },
+  "CurrentPrice": {
+    "value": "295.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:32:16.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "BR",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "IT",
+    "LA",
+    "MO"
+  ],
+  "ItemID": "142400021400",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Tissot",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Tissot Wristwatch, Gents, Manual Wind, Gold Plated",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tissot-Wristwatch-Gents-Manual-Wind-Gold-Plated-/142400021400",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1424000214008080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "fk3 8pa",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H9M22S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qHMAAMXQxU9R86g5/$T2eC16d,!zcE9s4g3hi,BR86g4(!Rg~~60_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Toggle navigation Menu Home About Us View Feedback Description Summary Tissot Wristwatch, Gents, Manual Wind, Gold Plated Main Description REF:60E Wonderful clean condition pre-owned gents manual wind Tissot wristwatch with original case. Gold plated case with stainless steel back. In perfect working order and keeping perfect time. The strap is a recent replacement and not the original Tissot one. This is a watch we do not have the tools for to enable us to open to show the movement. Excluding the crown it measures approx 33mm across its facia. a few very very minor scuffs to the glass but otherwise a super clean fully working example which is ready to wear. Dart Silver Ltd website available to view on request. Check out our other items! Be sure to add us to your favourites list! Additional Information Founded in 2006, Dart Silver Ltd has many years of experience in the antique silver sector, and provides a large selection of silverware to clients throughout the world. The company is based in Grangemouth near Falkirk in Scotland,UK. Dart Silver Ltd are one of Scotland's leading online antique silver specialists with regular customers from all over the world. There is always a good selection of Scottish Provincial silver as well as a varied selection of goods from antique to modern, with prices from a few pounds to a little bit more. Dart Silver Ltd has an expanding customer base, located throughout the world, including many regular and loyal customers. The company is managed by Colin Stoddart who has been working in the Antiques trade for many years. Colin is keen and passionate about all aspects of silver so you're always assured of a friendly and professional approach 01324 217855 enquires@dartsilverltd.co.uk",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5616",
+    "UserID": "dart.silver.limited",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

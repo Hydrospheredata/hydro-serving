@@ -1,0 +1,127 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFg5Njg=/z/qBoAAOSww3tY70mz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg5MDU=/z/rgwAAOSwc49Y70mz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg1MjI=/z/NZoAAOSwU8hY70mz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzczWDE1MDA=/z/ffsAAOSwpkFY70m0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAxM1gxNTAw/z/CjsAAOSwpP9Y70m0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTUz/z/GZ0AAOSwTM5Y70m0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3Njc=/z/GdEAAOSwTM5Y70m1/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Womens-Large-Stroll-Around-Baby-Bag-Kiev-Paisley-/292084686909",
+  "ConvertedCurrentPrice": {
+    "value": "139.27",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Everyone sparkles a little brighter at the holidays! This holiday inspired product is perfect for gift giving. Stocking-stuffer or under the tree ready. We have the holiday spirit ready for your loved ones. - Pockets: 7 interior slip, 4 exterior;Includes changing pad Vera Bradley Womens Large Stroll Around Baby Bag, Kiev Paisley",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "139.27",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "148",
+    "PositiveFeedbackPercent": "98.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "thatlllhappen"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Womens Large Stroll Around Baby Bag, Kiev Paisley",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-13T09:24:10.000Z",
+  "HitCount": "89",
+  "TimeLeft": "P9DT17H55M19S",
+  "EndTime": "2017-06-12T09:24:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "886003409114"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0886003409114"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "15665-646"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Kiev Paisley"
+      },
+      {
+        "Name": "Department",
+        "Value": "womens"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.3 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 22.4 x W 14.6 x H 1.3 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "15665-1"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "Shoes"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292084686909",
+  "Storefront": {
+    "StoreName": "thatllhappen",
+    "StoreURL": "http://stores.ebay.com/id=1263378643"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2920846869098080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

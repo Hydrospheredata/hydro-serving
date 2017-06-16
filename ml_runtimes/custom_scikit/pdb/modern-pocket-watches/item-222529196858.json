@@ -1,0 +1,92 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "01571",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "VERY NICE VINTAGE ''JIMMY FUND'', POCKET/BELT WATCH IN FINE NEW UNUSED CONDITION (NEW OLD STOCK)MADE IN HONG KONGCOMES WITH ORIGINAL CASE & INSTRUCTIONSWORKS FINENEW BATTERY INSTALLEDHAS BEEN IN COLD DRY STORAGE FOR MANY YEARS",
+  "StartTime": "2017-05-30T14:00:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W4kAAOSwfVpYsNP~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/q84AAOSwOgdYsNQD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/rCkAAOSwOgdYsNQI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Gi0AAOSw2gxYsNQK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5OFgxNjAw/z/N9oAAOSwSlBYsNQX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PQ4AAOSwSlBYsNQr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PuwAAOSwSlBYsNQ0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bqoAAOSw3v5YsNQ7/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chrome",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "mouska38",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "575",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "97.8"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225291968588080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-09T14:00:20.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-1980s-Health-Disease-Awareness-Belt-Pocket-Watch-Jimmy-Fund-New-/222529196858",
+  "Location": "Dudley, Massachusetts",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage 1980s Health & Disease Awareness Belt/Pocket Watch Jimmy Fund New",
+  "Storefront": {
+    "StoreName": "mouska&#39;s treasures",
+    "StoreURL": "http://stores.ebay.com/id=62103215"
+  },
+  "ItemID": "222529196858",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P8DT19H26M17S"
+}

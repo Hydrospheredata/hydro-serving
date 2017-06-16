@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "580.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Hyogo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:11:54.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1082920074",
+    "StoreName": "reference-shop"
+  },
+  "CurrentPrice": {
+    "value": "580.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:11:54.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BRERA OROLOGI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Wristwatch",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355202574",
+  "HandlingTime": "3",
+  "Description": "\u25b6ITEM NO. 114031-12471-1 \u25b6NAME BRERA OROLOGI 48 Super Sportivo Wristwatch \u25b6MODEL NO. BRSSC4917 \u25b6COLORBlue x Silver Dial: White \u25b6MATERIAL Stainless Steel / Rubber \u25b6APPROX SIZE Case:W1.9 x H2.1inch Band Length:8.7inch \u25b6Gender Men's \u25b6SpecMovement:Quartz \u25b6ADDITIONAL ITEMS Box, Authenticity Card, Instruction Manual \u25b6ITEM RANK Used A Rank \u25b6CONDITION DETAILSSome small peeling on the blue paint on the case. Some scuffing and scratches on the metal and rubber. All our items are also available for purchase on other varaious shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-0084 TEL:+81-78-242-1248 FAX:+81-78-242-0628",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-BRERA-OROLOGI-SUPER-SPORTIVO-48-Mens-Wristwatch-Blue-Silver-BRSSC4917-/232355202574",
+  "ConditionDescription": "Very Good : Used with minor stains and/or scratches. 114031-12471-1",
+  "NewBestOffer": "false",
+  "SKU": "114031-12471-1",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323552025748080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H54M43S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/6nIAAOSwzgBY43Sk/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/GZIAAOSwol5Y43So/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/uBYAAOSwc-tY43St/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nSoAAOSwU8hY43Sy/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/vEwAAOSwpkFY43S2/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/1foAAOSwB-1Y43S6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/oI4AAOSwU8hY43S~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ofIAAOSwU8hY43TD/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "AUTHENTIC BRERA OROLOGI SUPER SPORTIVO 48 Men's Wristwatch Blue/Silver BRSSC4917",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "1830",
+    "UserID": "reference-shop",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "30084",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Ladies Eastern Star Masonic Wrist Watch Stainless steel case with gold color bezel Watch face has Eastern Star artwork Two tone (gold/silver) finish metal band with metal clasp Comes packed in hard shell gift box with Eastern Star artwork on inside of lid Complete with instructions and 1 year manufacturer's warranty. It Also Makes A Great Gift California Residents 9% Sales Tax will be charged at checkout. No Sales Tax will be charged on shipping costs if any. Shipping We ship to the lower 48 states, excluding Hawaii and Alaska. No International Shipping. Also we do not ship to P.O. Boxes or APO's. These items are shipped from our warehouse - Allow for 24-48 hours to ship. Once item has shipped you will be provided with a tracking number. Shipping may vary UPS, USPS. Items in Stock We strive to keep items in stock, but on rare occasions an item may sell out. Typically that item is back in stock within 1-4 days. At such time you will receive a notice from us and you may elect to have shipped once item is back in stock or an immediate refund. Returns Merchandise must be returned within 14 days of receipt of your shipment and in the same condition it was shipped. In order to return an item you must contact us for a return authorization to ensure that your item is exchanged or refunded in a timely manner. Once we have received your request you will be emailed with instructions for a proper return. If you are returning a item for anything other than a shipping error or defect, than buyer will be responsible for return shipping costs. Thank You For Looking CD140",
+  "StartTime": "2017-05-05T17:54:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/AM4AAMXQRPRTIiGM/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "4",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Metal Clasp",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Electronic Battery Powered",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rustic-dragon-multimedia",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "422",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1321820754398080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:54:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EASTERN-STAR-MASONIC-LADIES-Writst-Watch-Stainless-Steel-Case-lluminati-New-/132182075439",
+  "Location": "Tucker, Georgia",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "EASTERN  STAR MASONIC LADIES  Writst Watch Stainless Steel Case lluminati New",
+  "Storefront": {
+    "StoreName": "rustic-dragon-multimedia",
+    "StoreURL": "http://stores.ebay.com/id=1054500826"
+  },
+  "ItemID": "132182075439",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT23H10M7S"
+}

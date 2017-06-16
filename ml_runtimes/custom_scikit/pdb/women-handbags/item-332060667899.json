@@ -1,0 +1,111 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg4NzQ=/z/RgwAAOSw44BYTp9F/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg2Nzg=/z/Bt0AAOSwux5YTp9H/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/RmEAAOSw44BYTp9J/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjExWDEyODA=/z/ECcAAOSwnHZYTp9L/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jIAAAOSwWxNYnNtN/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-MARC-JACOBS-PRETTY-NYLON-ELIZ-A-BABY-DIAPER-BAG-BLACK-MULTI-NWT-298-/332060667899",
+  "ConvertedCurrentPrice": {
+    "value": "198.88",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT $298MARC BY MARC JACOBS PRETTY NYLON ELIZ-A-BABY DIAPER BAGWITH CHANGING PAD BLACK MULTI WITH CREAM DOTS Track Page Views With Auctiva's FREE Counter",
+  "Title": "MARC BY MARC JACOBS PRETTY NYLON ELIZ-A-BABY DIAPER BAG BLACK MULTI NWT $298",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "GL",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "198.88",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fresh Meadows, New York",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "14896",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "socher36"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11365",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-12-12T12:59:57.000Z",
+  "HitCount": "456",
+  "TimeLeft": "P7DT21H26M21S",
+  "EndTime": "2017-06-10T12:59:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MBMJ ELIZA BABY DIAPER BAG",
+        "Value": "NWT $298"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MARC BY MARC JACOBS"
+      },
+      {
+        "Name": "Color",
+        "Value": "BLACK MULTI (002)"
+      },
+      {
+        "Name": "Material",
+        "Value": "POLYESTER"
+      },
+      {
+        "Name": "Style",
+        "Value": "M0009434-002"
+      },
+      {
+        "Name": "UPC",
+        "Value": "889732778254"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "332060667899",
+  "Storefront": {
+    "StoreName": "LOVE TO SHOP WITH US",
+    "StoreURL": "http://stores.ebay.com/id=126780486"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3320606678998080_3.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

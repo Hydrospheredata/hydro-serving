@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Burlington, Kentucky",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:47:31.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "600.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:47:31.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135445761",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage ladies Omega gold and diamond watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-ladies-Omega-gold-and-diamond-watch-/292135445761",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921354457618080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "41005",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H22M",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PKwAAOSw6n5Xwa4q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZYIAAOSwaB5Xwa43/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/iUUAAOSwawpXwa47/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yjEAAOSwFc5Xwa4~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dVUAAOSw0UdXwa5E/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Vintage ladies Omega gold and diamond watch, 6 diamonds on each side of the watch face (total 12 diamonds), wind up mechanism and new black cord band w/ safety chain. Crystal has beveled design around the outer edges. Winds and sets time easily...in good working condition. Omega logo on watch face and winding stem. Very understated and classy watch. Non-smoking home. No international sales. Insurance will be included in the shipping cost.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "739",
+    "UserID": "ky_needlecrafter",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

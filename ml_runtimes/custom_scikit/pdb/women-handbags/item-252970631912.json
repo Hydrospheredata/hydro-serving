@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjI2WDY0MA==/z/yMwAAOSwNRdX61Q4/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjMzWDY0MA==/z/xcQAAOSwmfhX61Q5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjIyWDY0MA==/z/pv8AAOSw8gVX61Q6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjE4WDY0MA==/z/lDcAAOSwTA9X61Q7/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dolce-Gabbana-Red-Patent-Leather-Handbag-/252970631912",
+  "ConvertedCurrentPrice": {
+    "value": "799.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Dolce & Gabbana Red Patent Leather Handbag 12\" w 7\" h 7\" d Slightly used with original tags, receipt and dust bag",
+  "Title": "Dolce & Gabbana Red Patent Leather Handbag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "799.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "135",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "celeste5555"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "799.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "10009",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:10:20.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P6DT21H57M43S",
+  "EndTime": "2017-06-09T12:10:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Material",
+        "Value": "Patent Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Dolce&Gabbana"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7\""
+      },
+      {
+        "Name": "Style",
+        "Value": "Doctor"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7\""
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970631912",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529706319128080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

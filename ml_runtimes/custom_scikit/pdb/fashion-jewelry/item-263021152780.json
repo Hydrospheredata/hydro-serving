@@ -1,0 +1,111 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT23H39M2S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263021152780",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DOUBLE-COLORS-HANDMADE-RUBY-TOPAZ-925-STERLING-SILVER-RING-SIZE-7-/263021152780",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T12:47:10.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T12:47:10.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Ring Harness",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Ruby",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "7",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "DOUBLE COLORS HANDMADE RUBY TOPAZ .925 STERLING SILVER RING SIZE 7",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Material is .925 Sterling Silver. The stones are RUBY, TOPAZ.This Ring is 7,28 grams. Head size is 0,70\". Ring Size is 7All our silver items have the 925 stamp.***All our items are made in EUROPE with high quality workmanship*** Visit our other auctions for great deals",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630211527808080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "baharluxury",
+    "FeedbackScore": "510",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "baharluxury",
+    "StoreURL": "http://stores.ebay.com/id=1169861099"
+  },
+  "Quantity": "1",
+  "Location": "Los Angeles, California",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODc1WDkwMA==/z/34sAAOSwB-1Y6TIK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODcxWDkwMA==/z/kloAAOSw03lY6TIW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODI3WDkwMA==/z/gwwAAOSww3tY6TIg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjI5WDU1MA==/z/vesAAOSwpkFY6TIv/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "90034"
+}

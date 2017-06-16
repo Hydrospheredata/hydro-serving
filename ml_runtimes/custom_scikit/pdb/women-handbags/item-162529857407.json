@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ5NFgxNTAw/z/znAAAOSwIaFZKDcN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIzWDE1MDA=/z/QREAAOSwurZZKDcM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMyM1gxNTAw/z/hHoAAOSw-3FZKDcN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDIy/z/IbIAAOSwlMFZKDcN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4M1gxNTAw/z/KwoAAOSwX9FZKDcN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5MVgxNTAw/z/2uoAAOSwxu5ZKDcN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMzWDE1MDA=/z/0GEAAOSwX61ZKDcM/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nicole-Miller-Sharon-City-Duffel-Bags-Fastest-Shipper-Ebay-/162529857407",
+  "ConvertedCurrentPrice": {
+    "value": "73.04",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Nicole Miller Sharon City Duffel Bags Fastest Shipper On Ebay Product Details Product Dimensions: 21 x 12 x 10 inches Shipping Weight: 3.4 pounds Item model number: N3543 Pebble-grain duffle bag with loop handles Signature animal-print interior Detachable, adjustable shoulder straps Gold hardware Dimensions: 21\u201dx10\u201dx12\u201d These stylish carry-alls make weekend travel stylish with a pebble-grain exterior, signature-print lining, and detachable shoulder straps",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "73.04",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1214",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mr.alston"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Nicole Miller Sharon City Duffel Bags Fastest Shipper On Ebay",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-26T14:09:20.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625298574078080_1.jpg",
+  "TimeLeft": "P22DT21H32M51S",
+  "EndTime": "2017-06-25T14:09:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Cream"
+      },
+      {
+        "Name": "Brand",
+        "Value": "N/A"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "162529857407",
+  "Storefront": {
+    "StoreName": "Mr Instant Films",
+    "StoreURL": "http://stores.ebay.com/id=555901352"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B0106LWPR8",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

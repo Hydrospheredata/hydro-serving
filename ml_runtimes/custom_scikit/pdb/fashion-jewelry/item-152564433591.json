@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P22DT4H18M9S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "48.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152564433591",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Vintage-Sterling-Silver-Black-Chalcedony-Filigree-Ring-SZ-9-R1410-/152564433591",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "48.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T19:18:09.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T19:18:09.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ring",
+        "Name": "Type"
+      },
+      {
+        "Value": "sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Chalcedony",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Black Chalcedony",
+        "Name": "Material"
+      },
+      {
+        "Value": ".925, Sterling",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Silpada Vintage Sterling Silver Black Chalcedony Filigree Ring SZ 9 - R1410",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Silpada Catalog description: \"Faceted Black Chalcedony sparks mystery atop an embellished Sterling Silver Ring.\" A vintage Silpada piece. Excellent preowned condition with normal wear to band. Stone in excellent condition. Lovely detailing on the band. A beautiful ring! Size 9. Smoke free home. Please email me any questions. Thank you!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525644335918080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "UserID": "jazzmazz",
+    "FeedbackScore": "739",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Carlisle, Pennsylvania",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwM1gxMjgx/z/lvcAAOSwHMJYHeD8/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE1ODk=/z/AzgAAOSwA3dYDTHw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODQyWDE2MDA=/z/ImYAAOSwImRYDTHc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE1OTk=/z/ooUAAOSwm0JYDTGy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/jrQAAOSwal5YDTID/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE1ODU=/z/kWQAAOSwal5YDTIU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE1ODM=/z/zZEAAOSwx2dYDTIj/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE1NjI=/z/WkQAAOSwB09YDTI-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE0NDA=/z/-sIAAOSwUEVYDTJQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzcxWDE1NzI=/z/NyoAAOSwImRYDTJp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE1MzM=/z/iskAAOSwXeJYDTKE/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "17015"
+}

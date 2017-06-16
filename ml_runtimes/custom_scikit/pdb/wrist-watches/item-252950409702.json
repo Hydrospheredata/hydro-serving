@@ -1,0 +1,84 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "899.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:10324",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "REPLACEMENT CASEBACK for VALJOUX 72 (722, 727, 730, etc) HIGHEST RATE AFTERMARKET PART for ROLEX DAYTONA 6239 OTHER PARTS, AVAILABLE ON REQUEST AT EXTRA COST FOR ANY QUESTION, PLEASE SHOT ME AN EMAIL I SPEAK ENGLISH, FRENCH AND ITALIAN;PARLO INGLESE, FRANCESE E ITALIANO;JE PARLE ANGLAIS, FRANCAIS ET ITALIEN.",
+  "StartTime": "2017-05-21T13:21:29.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwN1gxMDI0/z/ARAAAOSwImRYDkHP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5NDQ=/z/viQAAOSwHMJYDkHR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg5MTI=/z/33cAAOSwn7JYDkHL/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "10324",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Valjoux 72",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Daytona",
+        "Name": "Model"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Italy",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rigattiere_1",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "399",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "153",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529504097028080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T13:21:29.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "899.0"
+  },
+  "BidCount": "0",
+  "Country": "IT",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Pavia",
+  "Title": "Caseback Replacement for Valjoux 72 722 727 Rolex Daytona 6239",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Caseback-Replacement-Valjoux-72-722-727-Rolex-Daytona-6239-/252950409702",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "252950409702",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Other Watch Parts",
+  "TimeLeft": "P19DT14H24M5S"
+}

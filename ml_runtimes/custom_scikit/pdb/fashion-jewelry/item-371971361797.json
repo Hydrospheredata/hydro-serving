@@ -1,0 +1,89 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_10",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "10%",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT6H1M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371971361797",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ALICE-SEELY-2000-Urban-Fetish-Pewter-Black-Pin-SISTERS-1-25-x-1-5-/371971361797",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T19:04:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T19:04:36.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alice Seely",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pewter",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Pink",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "ALICE SEELY 2000 Urban Fetish Pewter Black Pin SISTERS 1.25\" x 1.5\"",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "From Favorite, Alice Seely, this FABULOUS pin features pewter relief with black silhouettes of two women. Signed Alice Seely from 2000. 1.25\" wide and 1.5\" tall. I do accept consignments if you live in the DC / Maryland area. My promise to you is to ship within one day, leave feedback as soon as I've received payment and to resolve any issues you may have with any of my items. I've been selling on ebay since 1999; check my feedback and bid with confidence! I ship same/next day from my NO SMOKING home. I do ship internationally, please ask for a Priority Mail ONLY quote. Canadian Buyers please ask for First Class quote. Shipping includes delivery confirmation and may include insurance. All my items are 100% authentic! Contact me within 3 days of delivery for returns. I do not pay for initial or return postage on returns unless there is an error in the listing.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719713617978080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dogsrus3",
+    "FeedbackScore": "10912",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "dogsrus3",
+    "StoreURL": "http://stores.ebay.com/id=7228245"
+  },
+  "Quantity": "1",
+  "Location": "Silver Spring, Maryland",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxN1gxMDAx/z/s0EAAOxyOMdS9pZ~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYyWDgwNg==/z/-JgAAOxyOlhS9pZ7/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "20901"
+}

@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "38583",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "This is a brand new ManChDa classical mechanical skeleton hand winding pocket watch. Checked for proper operation.",
+  "StartTime": "2017-05-30T14:07:06.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyMlgxNTI5/z/~fcAAOSwKytZLXtF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3N1gxMjQ2/z/fpwAAOSwlndZLXtX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3NFgxMDk4/z/g5MAAOSwH09ZLXtn/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyN1gxMDkw/z/1rMAAOSw8lpZLXun/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTgyWDEwMTM=/z/fM8AAOSwlndZLXss/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ManChDa",
+        "Name": "Brand"
+      },
+      {
+        "Value": "ManChDa",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0750810762130",
+        "Name": "EAN"
+      },
+      {
+        "Value": "750810762130",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nocashdeal",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "278",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825986408438080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T14:07:06.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ManChDa-Classical-Mechanical-Skeleton-Big-Size-Hand-Winding-Pocket-Watch-/182598640843",
+  "Location": "Sparta, Tennessee",
+  "Title": "ManChDa Classical Mechanical Skeleton Big Size Hand Winding Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182598640843",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT19H33M3S"
+}

@@ -1,0 +1,112 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "252975341807",
+  "TimeLeft": "P6DT22H40M39S",
+  "ListingStatus": "Active",
+  "Title": "Fashion Jewelry 12.5-13.5 mm white Pearl Necklace earring Set + Box",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T10:59:12.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T10:59:12.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "18\u201d",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Jewelry-12-5-13-5-mm-white-Pearl-Necklace-earring-Set-Box-/252975341807",
+  "ExcludeShipToLocation": [
+    "HK",
+    "IL",
+    "CN",
+    "IN",
+    "AT",
+    "DE",
+    "CH"
+  ],
+  "Location": "beijing",
+  "Description": "Description * Condition: New * Size(Approx): 12.5-13.5mm * Length(Approx):18\u201c * Quantity: * (Color may very slightly due to the color calibration of each individual monitor,You will receive a similar item.)\u3001 \u25c6Payment\u25c6 \u2606We accept PAYPAL only. \u2606We ship to PayPal address?only Please make sure your address in PayPal is matched with your shipping address before you paybr \u25c6Shipping handling\u25c6 \u2606We will ship out the item within 48 hours after receiving the payment. \u2606The item will be sent by International AirMail which takes 10 - 25 working days to arrive. \u25c6Return\u25c6 \u2606We offer 100% satisfaction guarantee on items. . If you are not? 100% satisfied with your purchase, Please return the unworn item within 30 days and we will gladly exchange, or you can get wholly refund. \u25c6Contact us\u25c6 \u2606If you have any questions ,please contact us! On Feb-26-17 at 02:39:07 PST, seller added the following information:On Mar-05-17 at 02:46:10 PST, seller added the following information:On Mar-12-17 at 03:52:08 PDT, seller added the following information:On Mar-12-17 at 03:52:09 PDT, seller added the following information:On Mar-19-17 at 03:55:07 PDT, seller added the following information:On Mar-26-17 at 04:03:07 PDT, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529753418078080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "UserID": "chshd18",
+    "FeedbackScore": "34575",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "chshd18",
+    "StoreURL": "http://stores.ebay.com/id=1023386346"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODEwWDgwMA==/z/ylkAAOSwxp9W6RyN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTA0WDcwMA==/z/1a8AAOSwoBtW6RyS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDk5OA==/z/4vwAAOSwmmxW6Ryb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDgwMA==/z/zBMAAOSwxp9W6Ryg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTA0WDcwMA==/z/ZCIAAOSwZ8ZW6Ryg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk4WDk5OA==/z/9L4AAOSwv9hW6Ryq/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

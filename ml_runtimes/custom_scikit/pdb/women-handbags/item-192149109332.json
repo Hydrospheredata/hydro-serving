@@ -1,0 +1,169 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Boston-bag-leather-handbag-shoulder-bag-handbag-Delivery-Free-/192149109332?var=",
+  "ConvertedCurrentPrice": {
+    "value": "316.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Size: smallStyle name: Boston bagApplication object: suitable for youthStyle: CrossbodyBackpack: single shoulder slung portableTexture: cowhideLeather material: cow split leatherCarrying part type: softClosure: zipperInternal structure: zipper pouch for cell phone Pocket ID walletLuggage bag types: open bagPopular elements: threadPattern: solid colourColour: grey MICA graphite black and wine redThere is no sandwich: noneLuggage hardness: hardFoldable: noCondition: brand newApplication scenario: leisureShape: otherShoulder strap styles: singleLining material: polyester",
+  "Title": "New Boston bag leather handbag shoulder bag handbag. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "316.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Wine Red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/852/220/311623027/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Graphite black",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/852/221/312021146/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "MICA ash",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/852/222/312949274/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852220:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Wine Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852221:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Graphite black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "316.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139852222:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "MICA ash"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Wine Red",
+          "Graphite black",
+          "MICA ash"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-05T10:35:18.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P1DT18H18M37S",
+  "EndTime": "2017-06-04T10:35:18.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "DADAO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "132512580"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192149109332",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139852219:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

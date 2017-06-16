@@ -1,0 +1,118 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Gary, Indiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:34:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "15.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:34:27.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162536006339",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ASANTI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Acrylic Crystal"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "30 m (3 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "HEART",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "FAUX LEATHER",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "ASANTI WATCH WITH HEART SHAPE FACE CHARM",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ASANTI-WATCH-HEART-SHAPE-FACE-CHARM-/162536006339",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625360063398080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "46407",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H22M40S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/00kAAOSwanRXgnYG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/4CwAAOSwv9FXgnYQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/90IAAOSwGXtXgnYY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/k8IAAOSw0kNXgnYi/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "The standout styling of this women's watch begins with the distinctive heart face that's nestled within a textured, leather bracelet band. A sunray finish adds interest to the dial, which features heat shape face that is easy easy-read. Brand: Faux Leather band that snaps over the wrist. Quartz Water Resistance: 30m Case Width: 19mm Case Thickness",
+  "Seller": {
+    "PositiveFeedbackPercent": "95.3",
+    "FeedbackScore": "58",
+    "UserID": "asantiplatform-7",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

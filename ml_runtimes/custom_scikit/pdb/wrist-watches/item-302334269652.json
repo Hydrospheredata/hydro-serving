@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "147.9",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:54:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:54:42.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08131119",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "MX",
+    "KZ",
+    "BY"
+  ],
+  "ItemID": "302334269652",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rotary",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Ladies",
+        "Name": "Gender"
+      },
+      {
+        "Value": "LB02570/01",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "White Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Silver Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "27mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "5037678034629",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Rotary crystal slim stainless steel bracelet watch LB02570/01",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Rotary-crystal-slim-stainless-steel-bracelet-watch-LB02570-01-/302334269652",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023342696528080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H33M12S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/c~UAAOSwEHpZLqD0/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Ladies Rotary crystal slim stainless steel bracelet watch LB02570/01 RRP \u00a3165.00 Now \u00a3115.00 Description This slim ladies Rotary watch LB02570/01 is a classic and stylish design that can be worn for any occasion. It comes with a lifetime Rotary warranty, ensuring that this timeless design can be worn for many years to come. The round white dial of this ladies Rotary watch LB02570/01 is very clear and easy to read with silver coloured batons and hands, and just the Rotary logo in black. The face is protected by a mineral glass lens and surrounded by a sparkling, crystal-set bezel. The case is stainless steel and measures approximately 27mm wide including the crown. The traditional brick link bracelet is also stainless steel and secures with a push-button folding deployment clasp clasp. The silver coloured bracelet of this Rotary watch LB02570/01 is quite slim, measuring 12mm wide. Chapelle Jewellery are authorised Rotary stockists and all of our Rotary watches, including this LB02570/01 model, are supplied in official packaging with Rotary's lifetime guarantee, which can be kept validated by three year services. This watch has been rated waterproof according to Rotary's 'Dolphin Standard'. Chapelle Reference: 08131119 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "112431595692",
+  "TimeLeft": "P4DT10H22M37S",
+  "ListingStatus": "Active",
+  "Title": "CUTE  TIBETAN SILVER 32 PCS SUMMER SALE WHOLESALE EARRINGS LOT   VM0284",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "SKU": "VM0284",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T00:36:39.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T00:36:39.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "As Picture",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Tibetan Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "173",
+        "Name": "Weight"
+      },
+      {
+        "Value": "N/A",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "0",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CUTE-TIBETAN-SILVER-32-PCS-SUMMER-SALE-WHOLESALE-EARRINGS-LOT-VM0284-/112431595692",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "India/Jaipur",
+  "Description": "Get the Best Wholesale Deal from Original_Nepali",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124315956928080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "original_nepali",
+    "FeedbackScore": "39",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/cWAAAOSwaeRZIMpU/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

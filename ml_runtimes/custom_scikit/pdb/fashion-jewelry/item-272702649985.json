@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT16H31M48S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272702649985",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FIERCE-DRAG-QUEEN-CZ-SILVER-AQUA-NECKLACE-EARRINGS-PAGEANT-STAGE-75-/272702649985",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T04:14:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T04:14:29.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Aqua",
+        "Name": "Color"
+      },
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "High Grade Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "CZ",
+        "Name": "Material"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "CZ",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "CZ",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "FIERCE DRAG QUEEN CZ SILVER AQUA NECKLACE EARRINGS PAGEANT STAGE WAS $75",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~ Fierce Silver Aqua CZ Necklace Set ~~SALE~20% off~Can You Find This many Cz's For This Price Anywhere...Necklace 18\" Drop 4\" Lobster Clasp Post Earrings 5\" Long x 2\"Wide Rubber Backs Handmaid Handset Top Cut Cz'sAbsolutely Blinding Under The Spotlight Ultra Ultra Posh Glamorous Flaming GorgeousAvailable In Silver, Pink, Aqua, Black/Silver, Green, Orange, BlueMore Pic's Coming",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2727026499858080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dragqueenjewelry_0",
+    "FeedbackScore": "25",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "Iced Out Fashion Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1562152849"
+  },
+  "Quantity": "1",
+  "Location": "San Antonio, Texas",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/nH4AAOSwB-1Y1xga/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kSYAAOSwTM5Y1xgq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/PXcAAOSwzgBY1xg5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/fQoAAOSwax5Y1xhJ/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "78217"
+}

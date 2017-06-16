@@ -1,0 +1,94 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Red",
+    "UserID": "t***d",
+    "FeedbackScore": "1004"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzkwWDYxOQ==/z/E2EAAOSwHgVW8FWz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg0WDU5NA==/z/biQAAOSwMORW8FXD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg3WDYyNg==/z/DKYAAOSw2ENW8FXH/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-Bondi-Road-Harmony-Baby-Diaper-Bag-Striped-Navy-Cream-wkru2575-NWT-/132057764426",
+  "ConvertedCurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Bag Details: \u2022 12.5''h x 14.8''w x 7.0''d \u2022 9.75\" drop length \u2022 pebbled grainy vinyl with natural leather trim \u2022 14-karat light gold plated hardware \u2022 wipeable, durable nylon lining \u2022 style # wkru2575 \u2022 over the shoulder baby bag with open top \u2022 double slide pockets, zipper pocket and changing pad slide pocket \u2022 comes with changing pad and stroller straps",
+  "Title": "KATE SPADE Bondi Road Harmony Baby Diaper Bag Striped Navy/Cream wkru2575 NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Greensboro, North Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "359",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "wendyseyboth"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27408",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-01-07T19:02:58.000Z",
+  "HitCount": "248",
+  "TimeLeft": "P4DT3H30M15S",
+  "EndTime": "2017-06-06T19:02:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Vinyl"
+      },
+      {
+        "Name": "Style",
+        "Value": "Babybag Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689764610"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132057764426",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Must be in same NWT condition.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1320577644268080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

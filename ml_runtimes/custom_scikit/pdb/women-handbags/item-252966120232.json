@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/C7oAAOSwjL5ZLh4A/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zmYAAOSwblZZLh4F/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Q-wAAOSwEHpZLh4J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/lpcAAOSwjqVZLh4n/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kBcAAOSwsXFZLh4S/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UcQAAOSwrhBZLh4W/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Vk0AAOSwlMFZLh4a/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SHINOLA-Detroit-Oversized-Deep-Chocolate-Brown-Leather-Tote-Purse-New-w-Tags-/252966120232",
+  "ConvertedCurrentPrice": {
+    "value": "389.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "You are bidding on (1) NEW Shinola Deep Brown Large Leather Tote Bag Has handles and detachable shoulder strap. Zipper pocket on one side.Interior pockets on both sides. This was a store display model and is new with tags. Bag may have light scuffs from store display but nothing noticeable. Perfect for carrying almost everything you own! Retail Price is $995! Get it here for much less! Shipping is $10.95 in US. Thanks for Looking!!",
+  "Title": "SHINOLA Detroit Oversized Deep Chocolate Brown Leather Tote Purse - New w/ Tags",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "389.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Chicago, Illinois",
+  "Seller": {
+    "FeedbackScore": "446",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "gold_coast_outlet"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60622",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T01:41:08.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P2DT9H11M31S",
+  "EndTime": "2017-06-05T01:41:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "shinola"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Style",
+        "Value": "large tote"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252966120232",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Returns only accepted if item is not as described.  Will not exchange if wrong size.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529661202328080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

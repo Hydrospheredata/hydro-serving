@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182603344026",
+  "TimeLeft": "P4DT1H20M9S",
+  "ListingStatus": "Active",
+  "Title": "MAUI DIVERS 14k Yellow Gold Adjustable Butterfly Toe Ring New in Box",
+  "ConditionDescription": "BRAND NEW IN BOX AS PICTURED- NEVER WORN",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "74.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-02T14:54:53.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T14:54:53.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "MAUI DIVERS JEWELRY",
+        "Name": "Brand"
+      },
+      {
+        "Value": "14K GOLD",
+        "Name": "Base Metal"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MAUI-DIVERS-14k-Yellow-Gold-Adjustable-Butterfly-Toe-Ring-New-Box-/182603344026",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Sugar Grove, Illinois",
+  "Description": "PURCHASED IN HAWAII...14K BUTTERFLY ADJUSTABLE TOE RINGNEW IN BOX NEVER WORN",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826033440268080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "luvtofly56",
+    "FeedbackScore": "416",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qQ4AAOSww9xZD5Rp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDQyWDU1Ng==/z/OGoAAOSwH09ZD53N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIzNVgxMTg2/z/JAcAAOSw-3FZD5Sg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjMyWDY1NA==/z/bpgAAOSwX9FZD5TB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vIQAAOSwn-tZD5Tg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTA1WDkzNg==/z/KHMAAOSw-K9ZD5UY/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "60554"
+}

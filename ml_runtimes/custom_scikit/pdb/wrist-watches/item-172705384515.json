@@ -1,0 +1,101 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9770.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Kyoto Japan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:16:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1164248126",
+    "StoreName": "kyoto-japan_shop"
+  },
+  "CurrentPrice": {
+    "value": "9770.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T07:16:51.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "BREGUET",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "ST3860/92/9W6",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Luxury:Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Transatlantique",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "JP",
+  "ItemID": "172705384515",
+  "HandlingTime": "5",
+  "Description": "Description Case Size 39.5mm Arm around 18.5cm Payment We only accept PayPal payments. Please pay within 5 days after auction is finished. Shipping Shipping Cost ShippingMethodAsiaNorth AmericaCentral AmericaMiddle EastAU, NZEuropeRussiaSouth AmericaAfrica EMSUSD 14USD 18USD 22USD 28 Shipping Duration Shipping Method Asia North America Central America Middle East AU, NZ Europe Russia South America Africa EMS 3 - 6 days 4 - 6 days 3 - 5 days 4 - 6 days Traceable & Insurance by Japan Post Terms of Sale Money back guarantee within 14 days if returned by customer. About Us Ordering More than 1 item?? We can Combine your Shipping, and Save your Money!! If you can't find the items you're looking for in our store, please feel free to contact us!! We will confirm if the item is in stock and we will let you know as soon as possible. I am looking forward to do business with you!! Thank you for your visiting our store!! International Buyers - Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BREGUET-Transatlantique-Agenda-Type-XX-Ref-3860-92-9W6-Automatic-Watch-Used-Rare-/172705384515",
+  "NewBestOffer": "false",
+  "SKU": "7masakiya:10005192",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727053845158080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT15H44M4S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc5WDYzOQ==/z/zc0AAOSwcUBYR3oT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc5WDYzOQ==/z/YbwAAOSw-0xYR3oV/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc5WDYzOQ==/z/9v4AAOSwnHZYR3oX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc5WDYzOQ==/z/~ysAAOSwa~BYR3oY/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDc5WDYzOQ==/z/UQcAAOSw44BYR3oa/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "BREGUET Transatlantique Agenda Type XX Ref 3860 92 9W6 Automatic Watch Used Rare",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "318",
+    "UserID": "kyoto-japan_shop",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

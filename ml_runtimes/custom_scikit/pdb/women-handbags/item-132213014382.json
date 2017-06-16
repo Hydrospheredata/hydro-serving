@@ -1,0 +1,123 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA3M1gxMTYx/z/UkQAAOSwB-1Y0dGg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUxOFgxMDA3/z/rpQAAOSw32lY0dFs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAxNlgxMDYw/z/~LwAAOSwdGFY0dHb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/9GQAAOSwB-1Y0sY9/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/ZF8AAOSwWxNY0sY-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/YPkAAOSwCU1Y0sZA/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Haley-Large-Satchel-Pebble-Leather-Dark-Khaki-NWT-448-/132213014382",
+  "ConvertedCurrentPrice": {
+    "value": "191.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Michael Kors Large Haley Satchel Pebble Leather Dark Khaki NWT $448 + tax No everyday handbag is smarter than the Haley. This satchel is luxurious in its look and feel, with a roomy interior, clean lines and sharp front pocket highlighted by gilded hardware. Carry it by its top handles or let it swing from your shoulder for an unfailingly pulled-together effect. Soft Pebbled Leather Gold-Tone Hardware Interior Middle Zip Section; 1 Large Slip Pocket 1st Interior Side Section; 2 Slips Pockets, 1 Zip pocket 2nd Interior Side Section; 2 Slip pockets Exterior; 1 Large Pocket with Closure 13.25\"W X 9.25\"H X 5.25\"D Handle 4.25\" Adjustable Strap: 18.5\"-20.5\" Lining: 100% Polyester",
+  "Title": "Michael Kors Haley Large Satchel Pebble Leather Dark Khaki NWT $448",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "191.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Winter Haven, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "256",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "grace.and.bella"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33884",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:55:17.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P9DT20H31M21S",
+  "EndTime": "2017-06-12T10:55:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Bag Depth",
+        "Value": "5.25"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "adjustable"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13.25"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.25"
+      },
+      {
+        "Name": "Size",
+        "Value": [
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Dark Khaki Beige"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Michael Kors"
+      },
+      {
+        "Name": "UPC",
+        "Value": "190049722435"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132213014382",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322130143828080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

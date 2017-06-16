@@ -1,0 +1,84 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Used",
+  "TimeLeft": "P29DT3H23M50S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "In excellent vintage  condition see description.",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "232360018946",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Hutschereuther-Porcelain-Brooch-Pin-/232360018946",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "70.85",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T16:16:55.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T16:16:55.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Porcelain",
+        "Name": "Material"
+      },
+      {
+        "Value": "Hutschenreuther",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "Vintage Hutschereuther Porcelain Brooch Pin",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This wonderful glided vintage brooch pin is as light as it is unique. Made by the Bavarian company Hutschenreuther \"Mark of the Lion\" made from porcelain with blue enamel in the centre and a gold egde at the top with a white raised edge at the botom a brooch hard to find. The brooch measures approx 2 inches in length by just under 2 inches across it is marked on the unglazed back with the lion logo \"1814\" Hutschenreuther and Germany ART. In excellent condition with no chips, cracks, crazing or repairs. Please look closely at the pictures as they form part of the description. Please note the box is for display only. The brooch will be will be boxed and gift wrapped and will be sent First class signed for.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323600189468080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "treasure-1_5",
+    "FeedbackScore": "163",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Edenbridge",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/RyMAAOSwB09YHNJd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMwNVgxNTg2/z/S2oAAOSwB09YHNJ9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/bcwAAOSwA3dYHNKV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/bwwAAOSwnbZYHNKu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ONMAAOSw5cNYHNLG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/dYAAAOSwnbZYHNLb/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Brooches & Pins",
+  "PostalCode": "TN8 7JT"
+}

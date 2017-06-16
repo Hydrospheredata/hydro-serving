@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Liebeskind-Berlin-Womens-Fujif7-Toredo-Handbag-Shipping-Included-/192139030191?var=",
+  "ConvertedCurrentPrice": {
+    "value": "264.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Fabric: 100% Cow Leather Contrasting lining Stamped front Zip closure",
+  "Title": "Liebeskind Berlin Women's Fujif7 Toredo Handbag. Shipping Included",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "264.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Schwarz (nairobi Black)",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/853/799/311710074/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grau (elephant Grey)",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/853/800/314623366/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "333.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139853799:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Schwarz (nairobi Black)"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "264.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139853800:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grau (elephant Grey)"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Schwarz (nairobi Black)",
+          "Grau (elephant Grey)"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-24T18:22:33.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P20DT2H1M10S",
+  "EndTime": "2017-06-22T18:22:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "846492550"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139030191",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139853798:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

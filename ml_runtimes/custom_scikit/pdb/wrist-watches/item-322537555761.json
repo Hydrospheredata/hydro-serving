@@ -1,0 +1,138 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "McCordsville, Indiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:25:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1560474942",
+    "StoreName": "GreenLit Deals"
+  },
+  "CurrentPrice": {
+    "value": "2.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:25:46.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537555761",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Vivani",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": [
+          "Silver",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Hook & Loop",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "teen or adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vivani Ladies Wrist Watch Very Nice. Needs new battery. Beautiful Blue",
+  "ConditionDescription": "just removed plastic as shown in pict. nds battery",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vivani-Ladies-Wrist-Watch-Very-Nice-Needs-new-battery-Beautiful-Blue-/322537555761",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225375557618080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "46055",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H17M12S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/gtUAAOSwOgdYzrkR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4N1g4MTA=/z/Ge4AAOSwol5Yzrl3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/OfwAAOSwB-1Yzrkf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/MjUAAOSwuLZYzrkz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MVg4MTA=/z/RvkAAOSwYXVYzrk~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/SZQAAOSwYXVYzrlW/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Really pretty watch NWOT see all pictures! As pictured! No wear or scratches in New condition just needs battery replaced. Thanks for viewing! Be sure to check out variety of my other watches listed in different styles! Thanks!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "230",
+    "UserID": "heathegillaspi0",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

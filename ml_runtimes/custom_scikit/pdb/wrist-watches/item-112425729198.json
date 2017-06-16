@@ -1,0 +1,69 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "499.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Europa",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:43:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "499.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:43:19.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425729198",
+  "HandlingTime": "3",
+  "Description": "THIS IS ORIGINAL VINTAGE CERTINA AUTOMATIC 288 YELLOW GOLD PLATED MEN'S WRIST WATCH SWISS MADE.IT IS IN PERFECT WORKING CONDITION !!! IF you have any questions,feel free to ask me.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-CERTINA-AUTOMATIC-288-YELLOW-GOLD-PLATED-MENS-WRIST-WATCH-SWISS-/112425729198",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124257291988080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H14M26S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2xIAAOSwfpVZLoCt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WwoAAOSw-K9ZLoC5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/omMAAOSw8HBZLoC8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Z1kAAOSwAPVZLoDx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pIEAAOSw8HBZLoDf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/X5kAAOSw-K9ZLoD3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M20AAOSwcB5ZLoEH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/IZAAAOSwGJlZLoET/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8NEAAOSw7GRZLoEj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pK0AAOSwfRdZLoEn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wDsAAOSwlY1ZLoE~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/I20AAOSwblZZLoFS/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "VINTAGE CERTINA AUTOMATIC 288 YELLOW GOLD PLATED MEN'S WRIST WATCH SWISS",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "38",
+    "UserID": "queenmimoza",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

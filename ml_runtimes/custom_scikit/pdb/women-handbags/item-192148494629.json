@@ -1,0 +1,284 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ANNE-Womens-PU-Handbag-Top-handle-Shoulder-Bag-Cross-body-Bags-Shipping-Fre-/192148494629?var=",
+  "ConvertedCurrentPrice": {
+    "value": "52.84",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Features : - Material: select high-quality PU leather, waterproof,tear-resistant; delicate hardwares, fashionable, beautiful and practical; - Approximate Measurement: Length :27cm, Height: 23cm,Bottom Width:16cm,Handle height:10cm. - Have ajustable removable shoulder straps. - Capacity: spacious for Purse,Cell Phone,Cosmetics,Charger,sunglasses, iPad.and any other small necessities, - Occasions:Style:top-handle bags, cross-body bags, shoulder bags and some others for a variety of uses, you can use it for travelling/shopping, at a party/school or in a gym/office. Note: Some bags may come with a faint smell that is not the leather, this will be either due to the tanning of the leather, or glue,for bags that are glued and stitched, this is normal and will wear off quickly. Manual measuring size,please allow 1-3 cm error. ANNE focus on bags of research and development, production and brand marketing, for global customers with high quality and cost-effective products. If for any reason you are not happy with any product by ANNE\u00ae,please do not hesitate to contact us and we will do our best to solve your problem quickly and efficiently!",
+  "Title": "ANNE Women's PU Handbag Top-handle Shoulder Bag Cross-body Bags. Shipping is Fre",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "52.84",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/854/224/311633585/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/854/225/311594357/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Sky blue",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/854/226/311609466/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Taro purple",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/854/227/313082113/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Wine red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/854/228/311984565/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/854/229/312019477/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/854/230/312176492/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Rubber powder",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/854/231/311566597/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "52.84",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854224:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Pink"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854225:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Purple"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "53.05",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854226:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Sky blue"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "52.84",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854227:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Taro purple"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "50.71",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854228:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Wine red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "52.76",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854229:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.02",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854230:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "51.02",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854231:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Rubber powder"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Pink",
+          "Purple",
+          "Sky blue",
+          "Taro purple",
+          "Wine red",
+          "Black",
+          "Red",
+          "Rubber powder"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-04T15:52:55.000Z",
+  "HitCount": "4",
+  "TimeLeft": "PT23H36M",
+  "EndTime": "2017-06-03T15:52:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Anne"
+      },
+      {
+        "Name": "MPN",
+        "Value": "551285332"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192148494629",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139854223:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

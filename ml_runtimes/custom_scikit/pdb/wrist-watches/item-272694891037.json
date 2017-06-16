@@ -1,0 +1,270 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "169804733",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hampton, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:31:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "4",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=4525989",
+    "StoreName": "JagrFanNJ Collectibles and Watches"
+  },
+  "CurrentPrice": {
+    "value": "88.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:31:19.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "EF527D-1AV",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "GB",
+    "BZ",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "NI",
+    "PA",
+    "BN",
+    "KH",
+    "LA",
+    "PH",
+    "VN",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "ItemID": "272694891037",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "45.5mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Edifice",
+        "Name": "Model"
+      },
+      {
+        "Value": "EF527D-1AV",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "508911561431",
+          "079767927295"
+        ],
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "079767927295",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio Edifice Stainless Steel Chronograph Watch, 100 Meter WR,  EF527D-1AV",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-Edifice-Stainless-Steel-Chronograph-Watch-100-Meter-WR-EF527D-1AV-/272694891037",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726948910378080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "08827",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H8M18S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQ3Mw==/z/4ygAAOSwNSxU3S40/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Casio EF527D-1AVBrand new Casio\"Edifice\" stainless steel watch. Manufacturers suggested retail of $175.00. Comfort, style and intelligence all come together in the Edifice EF527D-1AV. Smaller rounded band segments allow its solid stainless steel band to hug the wrist with more comfort while a knurled bezel, precision dial indexes and mineral glass give the timepiece a stylish, technical look. Inside, a 1/20th Chronograph and rotating Slide Rule allow for precision measurement and calculations such as time, speed, fuel consumption and more.100M Water Resistant1/20 second chronographMeasuring capacity: 11:59\u201959.95\u201dMeasuring mode: Elapsed timeSlide rule functionDate DisplayMineral GlassScrew Lock CrownScrew Lock BackSolid Stainless Steel BandDouble-lock, 1-press, 3-fold buckleAccuracy: +/-20 seconds per month (with no signal calibration)Battery: SR927WApprox. battery life: 2 yearsModule: 4369Size of case / total weightEF527D 51.0 x 45.5 x 11.4mm / 157g All Casio Watches I sell are procured directly from the manufacturer in original Casio packaging and comes with the full USA manufacturer's 1-Year Warranty.For overseas shipments outside of Canada and USA, box is optional-depends on the amount of shipping you choose and pay for when paying via PAYPAL. This option is provided to help buyers save on shipping expenses in foreign destinations. Details are below. ShippingUnited States-(Including all FPO/APO addresses) Shipping within the United States is \"free\" via first class mail or $7.50 via United States Postal Service, Priority mail. Each additional watch is $1.75 via priority mail.Canada-First class mail \"with\" the Casio box is $13.50. Each additional watch is extra $3.00.Standard Shipping with \"No\" Casio box is $9.25. Each additional watch is extra $3.00 with this choice of shipping. ***This choice will include the watch and instruction booklet/warranty-No Casio box-in a padded mailer.***Overseas-First class mail \"with\" the Casio box is $19.25. Each additional watch is extra $3.00.Standard Shipping with \"No\" Casio box is $13.25. Each additional watch is extra $3.00 with this choice of shipping. ***This choice will include the watch and instruction booklet/warranty-No Casio box-in a padded mailer.******Combined Shipping Instructions*** To get the correct amount of shipping for combining multiple different items from my Ebay store, the buyer must add all items into the buyer's \"cart first. Then request a total from the seller from the cart. Corrected combined invoices occurs at various times throughout the day-excluding weekends. Typically 1-12 hours after the \"buy it now\" actions. After corrected invoice is received, please pay via PAYPAL. Payment OptionsI accept PAYPAL only at this time for all customers-USA and overseas. ***I do not accept bank or wire transfers under any circumstances.***Duties/Customs/TaxesThe seller is not responsible for any duties/customs charges/taxes levied by any foreign country-this is the buyer's responsibility as a resident of said foreign country. The seller is not responsible for any duties/customs charges in foreign countries. If there are any special instructions the buyer requests on the customs forms for their shipment, it must be requested via a note to the seller on the PAYPAL payment at time of purchase. We will attempt to accommodate your requests within legal means. I have sold over 450,000 items on Ebay since 1999. Items are usually shipped within 1 \"business\" day from date of payment for USA shipments. Canada and overseas is usually 1-2 business days after date of payment.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "240284",
+    "UserID": "jagrfannj",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTIwWDk4Mw==/z/-BsAAOSwcB5ZGewI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTc4WDE2MDA=/z/Eg0AAOSw0hlZGewS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/SvsAAOSwaeRZGewZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Shoulder-Crossbody-Carry-Travel-Bag-HB6654-Brooke-Sea-Foam-Green-New-Tag-/391784429509",
+  "ConvertedCurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kipling - Make Happy - small travel bag. Brooke - Sea Foam Green Can be worn as a handbag, shoulder bag or crossbody bag. The bag has 3 major zippered compartments. Size: 12.25\" x 7.5\" x 7.25\" New with tags and green monkey.",
+  "Title": "Kipling Shoulder Crossbody Carry Travel Bag HB6654 Brooke Sea Foam Green New Tag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "75.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Las Vegas, Nevada",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1923",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "golddusti"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "89138",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-15T18:05:58.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P12DT19M43S",
+  "EndTime": "2017-06-14T18:05:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Style",
+        "Value": "Crossbody"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Material",
+        "Value": "Synthetic"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391784429509",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Buyer satisfaction is important to us. Returns must be retuned within 14 days of receipt of item. Please contact me immediately with any problems regarding the purchase. Reminder: return shipping is to be paid by the Buyer. Refund will be via Pay Pal when item is received in the original condition.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917844295098080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "263015746372",
+  "TimeLeft": "P6DT11H26M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-HEIDI-DAUS-FACETED-BURGUNDY-GLASS-BEAD-ADJUSTABLE-TOGGLE-BRACELET-/263015746372",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T02:15:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T02:15:58.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TOGGLE  ADJUSTABLE BRACELET",
+        "Name": "Type"
+      },
+      {
+        "Value": "Red",
+        "Name": "Color"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Material"
+      },
+      {
+        "Value": "Fashion Jewelry",
+        "Name": "Category"
+      },
+      {
+        "Value": "LADIES",
+        "Name": "Gender"
+      },
+      {
+        "Value": "HEIDI DAUS",
+        "Name": "Designer"
+      },
+      {
+        "Value": "YES",
+        "Name": "Signed?"
+      }
+    ]
+  },
+  "Title": "NEW, HEIDI DAUS FACETED BURGUNDY GLASS BEAD ADJUSTABLE TOGGLE BRACELET",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "LOVELY HEIDI DAUS FACETED BURGUNDY GLASS BEAD ADJUSTABLE TOGGLE BRACELET NEW! THIS BRACELET FEATURES INDIVIDUALLY KNOTTED ROUND GLASS BURGUNDY BEADS WITH 3 TIERED END CAPS LINED WITH PAVE CRYSTALS OF OLIVINE, AMETHYST, AND LIGHT SMOKED TOPAZ THIS BRACELET MEASURES APPROXIMATELY 8 1/2\" IN LENGTH x 3/8\" IN WIDTH AND WILL FIT A WRIST FROM 7 1/4\" TO 8 1/2\" DEPENDING ON WHICH O-RING YOU USE TO PUT THE TOGGLE CLOSURE THROUGH THIS BRACELET IS NEW, IS MARKED HEIDI DAUS AND COMES IN ITS ORIGINAL BOX AND IS NEW!! Please feel to contact me with any questions prior to bidding. All sales are final. Item will be carefully packed and shipped via USPS for $7.95 which includes tracking upon receipt of payment. I accept paypal as method of payment. Payment is due within 5 days after auction ends. Item comes from smoke free and pet free home. Thanks for looking and have a great day!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630157463728080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dakotajay",
+    "FeedbackScore": "1059",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "1",
+  "Location": "NEW YORK STATE",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqZ,!l!E+re1LHhYBQRVc)bD8!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqR,!igF!V)4dbOMBQRVdEd(yg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

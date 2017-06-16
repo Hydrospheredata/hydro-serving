@@ -1,0 +1,172 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.57"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Item Characters: 1.\u00c2\u00a1\u00c2\u00b1Dragon series\u00c2\u00a1\u00c2\u00b1 pocket watch 2. Asian Style Chinese Symbolic Pattern. 3. Retro design for the ones who love the old age fashion. 4. Removable chain with a hook at the end. Item Specification : (Approx) Watch Case Diameter: 5.0cm. Watch Case thickness: 1.0cm.(cover included) Case Material: Copper Chain Length: 36cm. (hook included) Chain Material: Alloy Package Contents: - 1 piece of pocket Watch with chain - Located in USA,fast delivery,free shipping - Precise Mechanical Movement with removable chain - Classic watch, vintage watch, business watch, dress watch - Perfect gift for father or boyfriend - All items go with 12 months warranty MIX & ROCK Chinese Style Dragon Pattern Engraving Bronze Quartz Pocket Watch",
+  "StartTime": "2017-05-25T14:42:03.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/1t4AAOSww9xZJu0-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/N~cAAOSwrhBZJu0-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTU5/z/PLgAAOSwZKBZJu0~/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "703327957681",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0703327957681",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Canaloha",
+        "Name": "Brand"
+      },
+      {
+        "Value": "CAN_WPK062_ALOHAUS",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.25 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6.2 x W 4.8 x H 1.2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "MIX&ROCK",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625286654628080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:42:03.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "25.57"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "MIX & ROCK Chinese Style Dragon Pattern Engraving Bronze Quartz Pocket Watch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MIX-ROCK-Chinese-Style-Dragon-Pattern-Engraving-Bronze-Quartz-Pocket-Watch-/162528665462",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528665462",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H5M17S"
+}

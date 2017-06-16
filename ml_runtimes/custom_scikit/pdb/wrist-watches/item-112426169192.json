@@ -1,0 +1,133 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "214.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Otisville, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:03:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "214.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:03:12.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426169192",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Luminox",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Diver",
+        "Name": "Style"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Date Indicator",
+          "Luminous Hands",
+          "Rotating Bezel",
+          "Sapphire Crystal",
+          "Screwdown Crown",
+          "Swiss Made",
+          "12-Hour Dial"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "200 m (20 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "200 Metres / 20 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Bracelet/Link Band",
+        "Name": "Band Type"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "LUMINOX - DIVER PROFESSIONAL",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LUMINOX-DIVER-PROFESSIONAL-/112426169192",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124261691928080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "10963",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H52M39S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTU1MFg5MDc=/z/xgUAAOSwK6RZIPrB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTM0/z/xDgAAOSwY3BZIPrD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTAzNFgxMzA4/z/PvkAAOSw8HBZIPrN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z7wAAOSwlY1ZIPrR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIyMlgxMzk2/z/~LQAAOSwYvFZIPrV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA0MlgxNDI2/z/ircAAOSw1WJZIPrX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODU4WDE2MDA=/z/F6MAAOSwhvFZIPrF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzU4WDE2MDA=/z/crsAAOSwjL5ZIPrG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIyNFg3NzQ=/z/dsEAAOSwKytZIPrP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTY4/z/xOUAAOSwY3BZIPrT/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Luminox Diver Professional Series 8000. 3-H. MBM Stainless Steel Swiss made - Quartz Water resistant - 200 meters Sapphire crystal Screw down crown Dimensions: Case - 44 mm wide / 12.6 mm height Band - 20 mm Total weight - 167.6 grams No scratches on crystal or case Watch is preowned but just short of excellent condition due to wear marks on safety clasp, unknown when last battery replacement Watch is hefty as is professional dive watch Insurance is included in shipping for protection of buyer/seller against loss/damage",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "132",
+    "UserID": "65hausman",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:06:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "4",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "12.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:06:40.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "2126281",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Unsex Silicone 2016 New Casual Fashion Sport Watch For Men Kids Electronic $12.77 Item Type: Digital Wristwatches Case Material: Rubber Brand Name: ZS ZHISHANG Dial Window Material Type: Plastic Water Resistance Depth: No waterproof Movement: Digital Dial Diameter: 35 mm Clasp Type: Buckle Boxes & Cases Material: Paper Gender: Women Style: Sport Feature: Shock Resistant Band Material Type: Silicone Case Shape: Round Band Length: 22.5 cm Band Width: 18 mm Case Thickness: 8.8 mm Model Number: Wristwatches Item Type: Wristwatches Band Width: 1.8CM Luxury Whatch: Quartz Wristwatch Women Lot Lovers Watch: Korean Mini Watch Water Resistance Depth: 0 m Sport Type: Fitness Dial Material Type: Rubber Condition: New with tags Dial Display: Digital \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Unsex-Silicone-2016-New-Casual-Fashion-Sport-Watch-Men-Kids-Electronic-/192203241475?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "12.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2126281-green",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2126281-green",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Green",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "12.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2126281-white",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2126281-white",
+              "Name": "MPN"
+            },
+            {
+              "Value": "White",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "12.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2126281-blue",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2126281-blue",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Blue",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "12.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "2126281-orange",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "2126281-orange",
+              "Name": "MPN"
+            },
+            {
+              "Value": "Orange",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "2126281-blue",
+            "2126281-green",
+            "2126281-orange",
+            "2126281-white"
+          ],
+          "Name": "MPN"
+        },
+        {
+          "Value": [
+            "Blue",
+            "Green",
+            "Orange",
+            "White"
+          ],
+          "Name": "Color"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-101063816.jpg?v=1481579905"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-101063813.jpg?v=1481579905"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-101063814.jpg?v=1481579905"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-101063815.jpg?v=1481579905"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "ItemID": "192203241475",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H45M29S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAzWDgwMw==/z/vRwAAOSwR29ZLqPC/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Unsex Silicone 2016 New Casual Fashion Sport Watch For Men Kids Electronic",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

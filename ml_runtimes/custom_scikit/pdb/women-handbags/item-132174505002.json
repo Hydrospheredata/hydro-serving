@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzMzWDY2OQ==/z/7DUAAOSwuMZZAms3/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg4WDUyMg==/z/~HYAAOSww9xZAmtI/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-Signature-Baby-Diaper-Bag-Multifunction-Laptop-Tote-Brown-Black-F35414-NWT-/132174505002",
+  "ConvertedCurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Signature coated canvasAdjustable strap for shoulder or crossbody wearInside - 2 Large Zip Pocket, 2 Large Slip Pockets, 2 Bottle Holder Pockets Outside - 1 Slip Pocket and 2 Side Bottle PocketsChanging Pad",
+  "Title": "COACH Signature Baby Diaper Bag Multifunction Laptop Tote Brown Black F35414 NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Greensboro, North Carolina",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "359",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "wendyseyboth"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27408",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-28T20:01:28.000Z",
+  "HitCount": "367",
+  "TimeLeft": "P25DT4H33M37S",
+  "EndTime": "2017-06-27T20:01:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Style",
+        "Value": "Diaper Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Unknown"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11.25"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.25"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "17"
+      },
+      {
+        "Name": "Size",
+        "Value": "Extra Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "888067764659"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132174505002",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321745050028080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

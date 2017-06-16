@@ -1,0 +1,116 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Spring Hill, Florida",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:36:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=526100714",
+    "StoreName": "SizzlinWatches"
+  },
+  "CurrentPrice": {
+    "value": "179.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T11:36:42.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942400765",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ticino",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Diver",
+          "Water Resistant",
+          "Date"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Type"
+      },
+      {
+        "Value": "Factory Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Custom 40mm Stainless Steel Submariner Diver Watch Miyota 9015 movement",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Custom-40mm-Stainless-Steel-Submariner-Diver-Watch-Miyota-9015-movement-/201942400765",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019424007658080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "34608",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H17M48S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDM3Ng==/z/7REAAOSw7ThUfuN-/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "You are viewing a... Custom 40mm Stainless Steel Sub Diver Watch WATCH FEATURES Custom-built Pro Diver Watch Case: 40mm solid 316L stainless steel with screw-down crown and case back Case Height:13mm Bracelet: Solid 316L stainless steel, new oyster bracelet with fold buckle and GlideLock fine adjustment clasp. Brushed outer link, polished center links., featuring a divers extension Glass: Genuine sapphire crystal 2.1mm thick with inner AR coating Dial: Sterile black with C1 luminous material date at the 3 position Hands: Silver superlume C1 luminous material Bezel: Unidirectional luminous ceramic scratch proof bezel Automatic Miyota 9015 24 jewels, high beat rate 28,800 bph. The movement hacks and can be hand wound. Made In Japan Water Resistance: 15atm/500ft. 100 percent tested WE ARE PAYPAL VERIFIED | HAPPY SHOPPING !!!",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.5",
+    "FeedbackScore": "2940",
+    "UserID": "sizzlinwatches",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "A FOURTEEN (14) DAY FULL MONEY BACK GUARANTEE IS IN EFFECT FROM THE DATE YOU RECEIVED YOUR ORDER MINUS SHIPPING AND HANDLING COSTS. PLEASE DO NOT SEND THE ITEM(S) BACK IF THE ITEM(S) HAS/HAVE BEEN ALTERED IN ANY WAY OR WORN. \n\nIMPORTANT: WE ARE NOT RESPONSIBLE FOR YOUR RETURN PACKAGES DEEMED LOST IN THE MAIL. WE SEND OUR PACKAGES TO YOU WITH A TRACKING NUMBER AND YOU SHOULD AS WELL TO INSURE RECEIPT OF RETURN."
+  }
+}

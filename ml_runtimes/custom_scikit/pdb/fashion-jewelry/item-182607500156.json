@@ -1,0 +1,143 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT20H24M49S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "BR",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "CurrentPrice": {
+    "value": "34.99",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "182607500156",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Solitaire-single-stone-pendant-necklace-free-delivery-/182607500156",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "45.08",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:54:26.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "false",
+  "Country": "GB",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T08:54:26.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Dubaigems",
+        "Name": "Brand"
+      },
+      {
+        "Value": "silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Clear",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Round",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Title": "Solitaire single stone pendant & necklace free delivery",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Single stone necklace Classic & timeless design Won't go out of fashion Features Clear stone secure set in 4 claw pendant On silver chain Delicate and unquestionably stylish design Simply elegant Thank you for choosing Dubaigems Please email us for any further assistance one of our friendly team of experts will be happy to help you",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1826075001568080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dubaigems-uk",
+    "FeedbackScore": "1484",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "DubaiGems",
+    "StoreURL": "http://stores.ebay.com/id=1386417139"
+  },
+  "Quantity": "1",
+  "Location": "Leicester",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/krEAAOSwA3dYRYpe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDY1WDUwOA==/z/Zz4AAOSwcUBYRYqc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgzWDgxMA==/z/pt8AAOSwB09YRYqz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1MFg4MTA=/z/RloAAOSwux5YRYpM/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "LE2 0PF"
+}

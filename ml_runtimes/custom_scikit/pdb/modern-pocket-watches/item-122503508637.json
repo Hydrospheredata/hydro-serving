@@ -1,0 +1,121 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.33"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Menu Other Items Feedbacks About Us Add To Favorites --> --> Key Chain for Dad - Fathers Day Gift - Black Silver - #1 Dad Key Chain for Dad - Fathers Day Gift - Black Leatherette with Silver Engraving - #1 Dad Item Specification Sturdy handles leave ample room for convenient hanging when not in use. --> -->--> Video-->Dimensions Shipping Returns Additional Info --> Product Dimensions: Length: Nonein, Width: Nonein, Height: Nonein, Weight: None pounds Package Dimensions: Length: 4.5in, Width: 2in, Height: 0.5in, Weight: None pounds Fast shipping is very important for us. Our standard shipping service is FREE. Your order will be shipped within 2-3 business days upon full payment received. Your order will be delivered within 2-3 business days after the handling time. We are shipping only to USA. We only ship to the confirmed Paypal address. We reserve the right to cancel any order for any reason at any time. We are not responsible for undeliverable addresses. We offer a 30 day return policy from checkout winning date. An RMA number is required for all returns. Message us for return instructions. Items returned without a RMA number will not be processed. Items defective upon receipt must be packaged in their retail packaging as if new and returned with a detailed description of the problem. Return shipping fees are not refundable. We reserve the right to decline any returns if the above guidelines are not followed. All of our items, unless otherwise stated, will only run on 120 volts. Please check to make sure your country complies with these specifications. If you have a problem or question regarding your transaction please before leaving any type of feedback. We will work with you to resolve any problem you may have.",
+  "StartTime": "2017-05-18T22:34:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI1MFgxMjUw/z/LUYAAOSw1WJZHiFJ/$_3.JPG"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "Model"
+      },
+      {
+        "Value": "Joyful Moose",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "No Tax",
+        "Name": "Tax"
+      },
+      {
+        "Value": "Free Shipping",
+        "Name": "Shipping"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "tamaarbi-0",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "301",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225035086378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T22:34:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.33"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "San Jose, CA",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Key Chain for Dad - Father's Day Gift - Black Silver - #1 Dad",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Key-Chain-Dad-Fathers-Day-Gift-Black-Silver-1-Dad-/122503508637",
+  "Storefront": {
+    "StoreName": "tamaarbi-0",
+    "StoreURL": "http://stores.ebay.com/id=1526227590"
+  },
+  "ItemID": "122503508637",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P17DT3H55M"
+}

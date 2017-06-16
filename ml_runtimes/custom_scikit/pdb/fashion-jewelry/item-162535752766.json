@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "return will be accepted only if the product in original condition",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P1DT23H51M21S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "37.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "SJWA13",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162535752766",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MY-DT-Lifestyle-Silver-Anklets-Womens-SJWA13-/162535752766",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "37.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T09:17:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T09:17:24.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "My DT Lifestyle",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SILVER",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "9",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Female",
+        "Name": "Gender"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "MY DT Lifestyle Silver Anklets For Womens  (SJWA13)",
+  "ExcludeShipToLocation": "PK",
+  "BidCount": "0",
+  "Description": "If you're looking for gorgeous ankle bracelets for women to complete your wardrobe, this Sterling Silver Anklet Set is an exquisite choice. With this set, you get not just one, but two stunning ankle bracelets for women that are perfect for any occasion. Our ankle bracelets for women are finished with a lock closure that keeps each anklet perfectly secure when you're out and about. This is an ideal and memorable gift for women",
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625357527668080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "mydtgemstone",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDQ4/z/mzYAAOSwZ4dZJUZc/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "302012"
+}

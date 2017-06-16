@@ -1,0 +1,123 @@
+{
+  "ExcludeShipToLocation": [
+    "AU",
+    "AT",
+    "FR",
+    "DE",
+    "IT",
+    "ES",
+    "CH",
+    "GB",
+    "CN"
+  ],
+  "QuantitySold": "0",
+  "Title": "Fashion Quartz Sheet Music Butterfly Numerals Pocket Watch Women Ladies Necklace",
+  "PostalCode": "02171",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bestseller2046",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "67419",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-05-27T02:55:31.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/7I0AAOSwB-1Yv3IA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/uVMAAOSw2gxYv3IB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/J0YAAOSw4A5Yv3IA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/LZEAAOSw32lYv3IB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMzWDUwMA==/z/J0MAAOSw4A5Yv3IA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/09EAAOSwXYtYv3IB/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded/Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Half Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Arabic Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "a42408",
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921310789678080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T02:55:31.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Restocking fees: No",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Quartz-Sheet-Music-Butterfly-Numerals-Pocket-Watch-Women-Ladies-Necklace-/292131078967",
+  "ConditionDescription": "100% Brand New! Ship from US! High Quality!",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Quincy, Massachusetts",
+  "Storefront": {
+    "StoreName": "Bestseller2046 Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1101311632"
+  },
+  "ItemID": "292131078967",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT8H19M55S"
+}

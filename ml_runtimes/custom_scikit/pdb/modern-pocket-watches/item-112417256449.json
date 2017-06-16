@@ -1,0 +1,71 @@
+{
+  "QuantitySold": "0",
+  "Title": "Eagle Pocket Watch",
+  "PostalCode": "74044",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Eagle Pocket watch. Never used. Needs a new battery",
+  "StartTime": "2017-05-23T21:16:55.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/w4sAAOSw0hlZJKZg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/42oAAOSw8lpZJKZk/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "jessic_223",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "3",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "9",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124172564498080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemID": "112417256449",
+  "ConvertedBuyItNowPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-02T21:16:55.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Eagle-Pocket-Watch-/112417256449",
+  "ConditionDescription": "Never used. Needs a new battery.",
+  "BuyItNowAvailable": "true",
+  "Location": "Mannford, Oklahoma",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT2H39M16S"
+}

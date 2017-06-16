@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA1MFgxNjAw/z/GAcAAOSwFV9Xy2OO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEyM1gxNjAw/z/RugAAOSwgmJXy2On/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/VYgAAOSwFe5Xy2Ok/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTMw/z/RxEAAOSwgmJXy2Oq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GfcAAOSwFV9Xy2Ou/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6pQAAOSw8oFXy2Ow/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEyNFgxNjAw/z/wnQAAOSw-kdXy2Oy/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTc1WDE2MDA=/z/B-cAAOSwMgdXy2O0/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Java-Blue-Laptop-Portfolio-Case-Retired-Pattern-/263013940546",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Retired Vera Bradley Pattern \"Java Blue\" hard laptop case. In good used condition Measures 11\" X 15\" Has slight staining on handles",
+  "Title": "Vera Bradley \"Java Blue\" Laptop Portfolio Case ( Retired Pattern)",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Shreveport, Louisiana",
+  "Seller": {
+    "FeedbackScore": "542",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "redskins.1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "71115",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T02:45:38.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P28DT11H51M49S",
+  "EndTime": "2017-07-01T02:45:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "263013940546",
+  "Storefront": {
+    "StoreName": "Marcel s6",
+    "StoreURL": "http://stores.ebay.com/id=1151384397"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Sold as is items returns not accepted",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630139405468080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT23H44M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "330.0",
+    "_currencyID": "USD"
+  },
+  "SKU": "2379-6783-71",
+  "ItemID": "332252001699",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-HERMES-Feu-Caleche-Bangle-Ivory-Silver-/332252001699",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "330.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:18:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T09:18:45.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hermes",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Ivory/Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "AUTHENTIC HERMES Feu Caleche Bangle Ivory/Silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "\u7121\u984c\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8 Item No. 2379-6783-71 Name Hermres Feu Caleche Bangle Model Serial - Color Ivory Material Metal Size (Approx) Inside Diameter: 6.2cm / 2.5in Width: 1cm / 0.4in Additional Items Box Item Rank Used BC Rank Comments -Stains -Scratches -Dullness -Hit marks -Peeling -Dents This item has a feel of previous usage. Please feel free to contact us concerning this item, we welcome all questions and look forward to hearing from you. The items that we have here is also being put up for sale on other shopping sites. We do our best to keep our customers updated to the availability of each item, but because of time-lags there are times when we are not able to update as soon as an item is sold. Concerning those cases we would like to ask our customers for their understanding. The items we have on sale, unless Brand-new are pre-owned items. Each used item is different in the quality as it comes in, so we would also like to ask for your forgiveness & understanding if we ever accidentally miss a flaw in an item. We welcome calls or mails whenever you have a question concerning our products. REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-0084 TEL:+81-78-242-1248 FAX:+81-78-242-0628",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322520016998080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "reference-shop",
+    "FeedbackScore": "1834",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "reference-shop",
+    "StoreURL": "http://stores.ebay.com/id=1082920074"
+  },
+  "Quantity": "1",
+  "Location": "Chuoku Kobeshi, Hyogo",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MzgzWDU0OA==/z/9~kAAOxy4dNSz2Ig/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/R7gAAOxyOlhSz2Ih/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDYwMA==/z/tzkAAMXQVT9Sz2Ig/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000"
+}

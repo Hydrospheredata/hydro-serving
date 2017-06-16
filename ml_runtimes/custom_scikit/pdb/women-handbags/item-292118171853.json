@@ -1,0 +1,96 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYyWDIxNg==/z/FOcAAOSww9xZFw8i/$_57.PNG?set_id=8800004005",
+    "https://i.ebayimg.com/00/s/MTEyWDE5Ng==/z/KdAAAOSwZKBZFw-Q/$_57.GIF?set_id=8800004005"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BaileyWorks-Whalemouth-Duffel-Medium-Forest-Camo-/292118171853",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "A zipper one and a half times as long as the bag gives you access to every square inch of its interior. It features sturdy CORDURA\u2122 fabric. The seatbelt web strap with a heavy duty Rock Lockster buckle eliminates D-rings and swivels. When the strap is buckled and tightened it also acts as a second layer of closure.",
+  "Title": "BaileyWorks Whalemouth Duffel, Medium, Forest Camo",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Newmarket, New Hampshire",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "baileyworks"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "03857",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-15T13:03:47.000Z",
+  "HitCount": "38",
+  "TimeLeft": "P11DT20H18M48S",
+  "EndTime": "2017-06-14T13:03:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "BaileyWorks"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffel Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Forest Camo"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cordura"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292118171853",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921181718538080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

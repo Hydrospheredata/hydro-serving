@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzEzWDYyMw==/z/JN0AAOSwLN5Wh1rp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODI1WDYwNA==/z/KOMAAOSwT~9Wh1ru/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Nzk1WDYzNQ==/z/H98AAOSwGotWh1rv/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODQ0WDYyOQ==/z/-4MAAOSwX~dWh1rx/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/alsAAOSwaA5Wh1rz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JWcAAOSwLN5Wh1r2/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brahmin-Mirage-Collection-Faye-Satchel-455-00-/252970663909",
+  "ConvertedCurrentPrice": {
+    "value": "280.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "From the Mirage collection by Brahmin, the Faye Satchel Features: \u2022 Pleated Leather \u2022 Top zipper closure \u2022 traditional chamois lining \u2022 zip pocket, jewelry pocket, 2 organizer \u00a0 \u00a0 Pockets, pen pocket and clip inside \u2022 exterior back side in pocket \u2022 footed bottom \u2022 removable adjustable strap \u2022 approx, 13.25 x 6x9.5\", 5\" handle drop; 22.5\" strap drop\u00a0 \u2022 imported.",
+  "Title": "Brahmin Mirage Collection Faye Satchel $455.00",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "280.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Boise, Idaho",
+  "Seller": {
+    "FeedbackScore": "222",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "che_fowler"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "83709",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:31:40.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P9DT22H20M31S",
+  "EndTime": "2017-06-12T12:31:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Brahmin"
+      },
+      {
+        "Name": "Color",
+        "Value": "Taupe"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "22.5 Strap Drop"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970663909",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529706639098080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

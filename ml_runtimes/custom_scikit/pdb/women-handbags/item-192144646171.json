@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921446461718080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/HBEAAOSw4CFY3eUv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CY0AAOSwXYtY3eUw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/NPsAAOSwzgBY3eUv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEyNVgxNTAw/z/gvsAAOSwDmBY3eUv/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hand-Briefcase-Multiple-Compartments-Shoulder-Bag-Street-Atlanta-Shoulder-B-/192144646171",
+  "ConvertedCurrentPrice": {
+    "value": "51.48",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Shoulder bag by Jennifer Jones made from high-quality, soft faux leather- Trendy used finish: Leather effect- Compartment is skin with zip top closure- Four external pockets, 2\u00a0with a zip fastening, each a with magnetic closure and press stud- 2\u00a0additional zip pockets at the rear Features:Outer Material: High Weriges imitation leather in used lookInner Material: Textile LiningClasp Type: Main compartment with zip Interior:Zip up one compartment at aTwo open pockets for mobiles phones, keys etc. Exterior features:Dimensions: (W x H x D): 28\u00a0x 29\u00a0x 8.5\u00a0cm, with carrying straps + 70\u00a0cm Features:- Bag Street Logo embossed on front- Long shoulder strap (can be used over thick jackets be carried horizontally.",
+  "Title": "Hand Briefcase with Multiple Compartments Shoulder Bag Street Atlanta Shoulder B",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.48",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-31T05:10:38.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P26DT12H53M16S",
+  "EndTime": "2017-06-29T05:10:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bag Street"
+      },
+      {
+        "Name": "MPN",
+        "Value": "099827317"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144646171",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139850800:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,91 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "72715",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "An elegant and dressy man's watch and pocket watch set with a black display dial showcased with gold-tone markers and hour/minute hands, all in a gold-tone casing. The matching monogrammed DAD pocket watch makes this a wonderful gift for father on his special day. Product SpecificationsProduct Overview:Gender:blaMensDisplay:AnalogNumeric Display:MarkersType:DressyPower Source:Watch Power Source:Quartz (battery)Strap or Band:Band Style:StrapClosure:BuckleBand Color:BlackBand Material:BrassFeatures:Features:No special featuresItem Type:Set Items:Watches",
+  "StartTime": "2017-05-29T15:59:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/MXcAAOSwAPVZLEAF/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "62095",
+        "Name": "Model"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Structure",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "rowenasstudio.76",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529638569098080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T15:59:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Watch-and-Pocket-Watch-Set-/252963856909",
+  "Location": "Bella Vista, Arkansas",
+  "Title": "Men's Watch and Pocket Watch Set",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252963856909",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT21H25M9S"
+}

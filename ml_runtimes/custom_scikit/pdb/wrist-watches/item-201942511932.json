@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "33.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bayside, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:15:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1285672976",
+    "StoreName": "paulacruiser"
+  },
+  "CurrentPrice": {
+    "value": "33.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T13:15:43.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Seiko 7N32-0AM0 Pearl Face & Diamond Accent Women's Wrist Watch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942511932",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Velatura",
+        "Name": "Model"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Seiko 7N32-0AM0 Pearl Face & Diamond Accent Women's Wrist Watch",
+  "ConditionDescription": "In perfect condition but NEEDS A BATTERY",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Seiko-7N32-0AM0-Pearl-Face-Diamond-Accent-Womens-Wrist-Watch-/201942511932",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019425119328080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "11360",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT22H2M22S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTMxMlg3NTc=/z/FsMAAOSwT-FZCKsp/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4y0AAOSwlndZCKsk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/j7cAAOSwnONZCKs1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qrkAAOSwt0FZCKs0/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTA0WDUwMA==/z/X3kAAOSw~y9ZCKtc/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "33.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "243",
+    "UserID": "paulacruiser",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

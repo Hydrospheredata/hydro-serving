@@ -1,0 +1,62 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "43338",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Excellent condition. See pics. Thanks for looking. FAST SHIPPING!!!Sorry, but I do not ship internationally.",
+  "StartTime": "2017-05-21T16:07:37.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDcyMA==/z/QvEAAOSwIWVY-ibm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDcyMA==/z/TC0AAOSw3ZRY-ibo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDcyMA==/z/PS8AAOSwWWxY-ibp/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.5"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "dawizards",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1222",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1321997084868080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-20T16:07:37.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "13.5"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Dickies-Gold-tone-ornate-quartz-Mens-pocket-watch-/132199708486",
+  "Location": "Mount Gilead, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Dickies Gold tone ornate quartz Mens pocket watch",
+  "Storefront": {
+    "StoreName": "dawizards",
+    "StoreURL": "http://stores.ebay.com/id=42199981"
+  },
+  "ItemID": "132199708486",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P19DT21H28M58S"
+}

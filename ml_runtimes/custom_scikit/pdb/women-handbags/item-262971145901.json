@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTMyWDQ1Mw==/z/6hcAAOSwuxFYv11x/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI5WDQ2Mg==/z/NhcAAOSw2gxYv113/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMwWDQ2MQ==/z/96sAAOSwCU1Yv115/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI4WDQ1NQ==/z/8IcAAOSwax5Yv118/$_1.PNG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/krwAAOSw~AVYv12d/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/78sAAOSwuxFYv12g/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-KATE-SPADE-GINGHAM-GRAINY-VINYL-MEDIUM-HARMONY-french-navy-cream-/262971145901",
+  "ConvertedCurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "SIZE \u2022 12.5''h x 13.3''w x 6.6''d \u2022 drop length: 9'' MATERIAL \u2022 grainy vinyl with split cowhide trim \u2022 unlined \u2022 14-karat light gold plated hardware DETAILS \u2022 tote with open top \u2022 interior zipper pocket and single slide pocket gold printed kate spade new york signature on license plate FREE SHIPPING WITHIN THE U.S. ONLY.Any questions,pls feel free to contact me.",
+  "Title": "NWT KATE SPADE GINGHAM GRAINY VINYL MEDIUM HARMONY  french navy/cream",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "229.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Annapolis, Maryland",
+  "Seller": {
+    "FeedbackScore": "36",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "ajbg1208"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "21409",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-07T01:29:06.000Z",
+  "HitCount": "14",
+  "TimeLeft": "P3DT10H2M16S",
+  "EndTime": "2017-06-06T01:29:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Vinyl"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Color",
+        "Value": "NAVY CREAM"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262971145901",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2629711459018080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

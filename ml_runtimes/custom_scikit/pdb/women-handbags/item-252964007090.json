@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE1WDUwMQ==/z/UjYAAOSwcUBYEZeE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzM2WDU4NQ==/z/ujYAAOSw5cNYErtz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY4WDY0MA==/z/JRYAAOSwn7JYErty/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-Daycation-Serena-Pink-Painterly-Owl-BABY-BAG-NWT-278-/252964007090",
+  "ConvertedCurrentPrice": {
+    "value": "144.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "DETAILSSIZE12.9''h x 15.6''w x 5.9''dMATERIALprinted coated poplincustom wipeable lining14-karat light gold plated hardwarestyle # wkru1561 DETAILSbaby bag with adjustable shoulder or cross body strapstrap adjusts to fit on back of strollerfront slide pockets, center dividing zipper pocket, double slide bottle pockets, interior zipper pocket and storage slot for changing pad authenticity guaranteed! smoke free home be aware that all computer monitors may slightly differ on color please feel free to ask any questions about item. international buyers responsible for any duties/customs fees. if you choose first class international instead of Priority, tracking may be unavailable",
+  "Title": "KATE SPADE Daycation Serena Pink Painterly Owl BABY BAG,  NWT $278",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "144.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "Location": "Suffolk, Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "740",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "liz_n_lin"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "23434",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T17:55:27.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P26DT2H34M13S",
+  "EndTime": "2017-06-28T17:55:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Serena Daycation"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Print",
+        "Value": "Painterly Owl"
+      },
+      {
+        "Name": "Material",
+        "Value": "Coated Poplin"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252964007090",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "liz_n_lin",
+    "StoreURL": "http://stores.ebay.com/id=871659393"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Must be returned in original unused condition with tags and factory wrap intact.\nRestocking fee applies.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529640070908080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

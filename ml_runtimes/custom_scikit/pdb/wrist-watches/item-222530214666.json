@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Longmont, Colorado",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:11:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=14967885",
+    "StoreName": "Casa Solana"
+  },
+  "CurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:11:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "RU",
+  "ItemID": "222530214666",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Womens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Guess",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Old Womens 1995 Guess Watch Japan Movement with Case - needs battery",
+  "ConditionDescription": "Used. Scratch marks on face, needs new battery. Priced to sell.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Old-Womens-1995-Guess-Watch-Japan-Movement-Case-needs-battery-/222530214666",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225302146668080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "80503",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H57M49S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5MVgxNjAw/z/yGsAAOSwfRdZHKV0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qLAAAOSw8HBZHKV4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDA1/z/htQAAOSw8lpZHKV8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTEzWDE2MDA=/z/uTQAAOSw42dZHKWA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1NlgxNTk5/z/N6gAAOSw-K9ZHKWE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ry0AAOSwX9FZHKWI/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Welcome to our Auction! Old Womens 1995 Guess Watch Japan Movement with Case - needs battery. Used. Scratch marks on face, needs new battery. Priced to sell. Make sure to check out our store for other great buys, never know what you'll find! PAYMENTSPayments are due within 48 Hours of the auction end date, please note if payment is not received in that time period the eBay UPI assistant will automatically kick in. If you have any special needs or requests make sure to ask ahead of time to confirm we can help you. We cannot hold items if your on vacation. Paypal is the main form of payment. Please feel free to ask if you have inquiries about other payment. SHIPPING Local Shipping via USPS or Fedex. International shipping via USPS 1st Class or Priority. We pack well and ship fast, there are no handling charges, just quick safe shipment with tracking. RETURNS You are important to us and we value your business and input. Please contact us immediately if you have any problems with your purchase to see if we can work it out. If you decide to return the item please use the Managed Returns Process to print out a label and send the package back to us. Everything is automated and tracked with notifications at each step to make it trouble free. NEED HELP?Please contact us with any questions you may have about an item, a payment method, or other needs. If you do not receive an instant response don't worry, we'll get back to you soon as we log in and see your request. Thank you and happy ebaying!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11637",
+    "UserID": "casa-solana",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

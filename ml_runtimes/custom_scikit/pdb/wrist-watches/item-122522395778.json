@@ -1,0 +1,79 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "94404",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:3937:3940",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Elgin 39.8MM 12S 15J Fancy Dial Pendantset Nickle Open Face Movement No Reserve. Cream colored fancy singlesunk dial with gold numerals and gold trim and no chips or hairlines. Nice nickle movement but not running has broken staff. Powered by eBay Turbo ListerThe free listing tool. List your items fast and easy and manage your active items.",
+  "StartTime": "2017-05-30T00:09:11.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/Hr8AAOSwGJlZLLgh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/KOgAAOSwaEhZLLgi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/z78AAOSw42JZLLgi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ZyoAAOSwjqVZLLgj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/xU0AAOSw~y9ZLLgk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/uDoAAOSwPh5ZLLgl/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "0.99"
+  },
+  "HighBidder": {
+    "UserID": "t***a",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1057",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "3940",
+  "Seller": {
+    "UserID": "geno",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8945",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "20",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225223957788080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "1.04"
+  },
+  "BidCount": "1",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-06T00:09:11.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elgin-39-8MM-12S-15J-Fancy-Dial-Pendantset-Nickle-Open-Face-Movement-No-Reserve-/122522395778",
+  "Location": "San Mateo, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Elgin 39.8MM 12S 15J  Fancy Dial Pendantset Nickle Open Face Movement No Reserve",
+  "Storefront": {
+    "StoreName": "geno",
+    "StoreURL": "http://stores.ebay.com/id=706101"
+  },
+  "ItemID": "122522395778",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Antique",
+  "TimeLeft": "P5DT6H2S"
+}

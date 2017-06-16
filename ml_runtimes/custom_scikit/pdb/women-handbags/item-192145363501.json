@@ -1,0 +1,192 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gracery-Women-Totes-Fashion-Designer-Polyester-Extra-Large-Shoulder-Bags-Fre-/192145363501?var=",
+  "ConvertedCurrentPrice": {
+    "value": "106.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: This trendy La Gracery tote will be the Key Item in your wardrobe for every season!Why us \u2022Light weight: carry it for work, travel, school or leisure with no burdons \u2022Large capacity: fits up to your iPads,Mac book, laptops,A4 files, books, cosmetics,charger, water bottle, umbrella and even some clothes \u2022Less pockets,more convenient:1 main compartment, 1 interior zip pocket and 2 slip pockets make you organised.Measurements: Bottom Width: 31cm Depth: 30cm Height: 42cm Handle Drop: 26cm Weight: 0.3kgAt VEASTI\uff0cwe belive in our product,that's why we back all our customers with easy-to-reach support and 12 months warranty.",
+  "Title": "La Gracery Women Totes Fashion Designer Polyester Extra Large Shoulder Bags. Fre",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "106.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/927/232/311629733/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Gray",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/927/233/312174706/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/927/234/311788788/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Wine Red",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0139/927/235/311554968/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "106.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139927232:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "32.25",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139927233:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Gray"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "32.25",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139927234:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "32.25",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139927235:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour",
+            "Value": "Wine Red"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour",
+        "Value": [
+          "Black",
+          "Gray",
+          "Red",
+          "Wine Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-04-01T00:21:41.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P27DT8H4M29S",
+  "EndTime": "2017-06-30T00:21:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "La gracery"
+      },
+      {
+        "Name": "MPN",
+        "Value": "304812865"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192145363501",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:139927231:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

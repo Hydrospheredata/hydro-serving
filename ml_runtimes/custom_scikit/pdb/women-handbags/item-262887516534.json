@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2628875165348080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/hJIAAOSw4CFYwUd9/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Yoshida-Bag-PORTER-PORTER-GIRL-BOYFRIEND-TOTE-TOTE-BAG-L-739-08513-Blue-New-/262887516534",
+  "ConvertedCurrentPrice": {
+    "value": "180.11",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Yoshida Bag PORTER PORTER GIRL BOYFRIEND TOTE TOTE BAG (L) 739-08513 MATERIAL Outside: Cotton canvas (surface: light water repellent finish\uff09( back: PVC finish, embossing) 100% genuine item Made in Japan Worldwide Shipping EMS (Insurance/ tracking number) The arrival of the item is 1-2 Weeks on average. It is the shipment method that the EMS is safe, and is fast.I will combine shipping I can wait for payment for 10 days after you purchased the first item. Please save a shipment cost. Check out my other items! Be sure to add me to your favorites list! Thank you!",
+  "Title": "Yoshida Bag PORTER PORTER GIRL BOYFRIEND TOTE TOTE BAG (L) 739-08513 Blue New",
+  "ExcludeShipToLocation": "JP",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "180.11",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "japan",
+  "Seller": {
+    "FeedbackScore": "300",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "linecon"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "8612104",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-09T12:15:58.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P4DT18H20M7S",
+  "EndTime": "2017-06-07T12:15:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "TOTE BAG"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Yoshida Bag / PORTER"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Japan"
+      },
+      {
+        "Name": "Size (mm)",
+        "Value": "W400/H320/D150"
+      },
+      {
+        "Name": "Weight",
+        "Value": "675g"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262887516534",
+  "Storefront": {
+    "StoreName": "linecon",
+    "StoreURL": "http://stores.ebay.com/id=1148645145"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Restocking fees: No",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "JP",
+  "SKU": "739-08513",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "true"
+}

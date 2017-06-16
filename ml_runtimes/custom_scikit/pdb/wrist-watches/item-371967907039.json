@@ -1,0 +1,342 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.39",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shenzhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:17:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "9",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1225891381",
+    "StoreName": "awardeal"
+  },
+  "CurrentPrice": {
+    "value": "11.39",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:17:39.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-hour Dial",
+          "Easy To Read",
+          "Water Resistant"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Not applicable",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Oceania",
+    "AF",
+    "AM",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "DE",
+    "GI",
+    "GG",
+    "IT",
+    "JE",
+    "LI",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "SM",
+    "RS",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "PR",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "SA",
+    "TR",
+    "AE",
+    "YE",
+    "PO Box"
+  ],
+  "ItemID": "371967907039",
+  "HandlingTime": "3",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Stylish-Yellow-Face-Three-Pointers-Man-Business-Wedding-Party-Watch-Jewelry-Gift-/371967907039?var=",
+  "ConditionDescription": "Note:It is water resistant,can't be used in diving swimming shower etc.",
+  "NewBestOffer": "false",
+  "SKU": "081-YW01788",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "11.39",
+          "_currencyID": "USD"
+        },
+        "SKU": "081-YW01788Y",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Yellow",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "11.39",
+          "_currencyID": "USD"
+        },
+        "SKU": "081-YW01788S",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Grey",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      },
+      {
+        "StartPrice": {
+          "value": "11.39",
+          "_currencyID": "USD"
+        },
+        "SKU": "081-YW01788X",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Brown",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "3"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Yellow",
+          "Grey",
+          "Brown"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Brown",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Yg4AAOSwJH1ZKEwt/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/l9oAAOSw42dZHqBt/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ejwAAOSw8lpZKEw5/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/EFIAAOSwY3BZKExD/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IoEAAOSwjL5ZKEwv/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/O7wAAOSwBt5ZHqBq/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/SWgAAOSwAPVZKExK/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/F1kAAOSw44BYH~98/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0XUAAOSwB09YH~9z/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/iioAAOSw5cNYH~9v/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/CZgAAOSwnbZYH~92/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/TyMAAOSwx2dYH~94/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0ykAAOSwal5YH~-A/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0q0AAOSwB09YH~-D/$_12.JPG?set_id=880000500F"
+          ]
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": [
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/kwAAAOSwux5YT8jd/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/w0QAAOSw5cNYRXQP/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Vy0AAOSw-0xYT8jM/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/id8AAOSwImRYRXQp/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/qf8AAOSwEzxYT8jJ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/jcsAAOSwImRYRXRJ/$_12.JPG?set_id=880000500F",
+            "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/W4IAAOSwA3dYRXQL/$_12.JPG?set_id=880000500F"
+          ]
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H53M52S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/y4UAAOSw3gJZLphA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Vy0AAOSw-0xYT8jM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ejwAAOSw8lpZKEw5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/iioAAOSw5cNYH~9v/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0ykAAOSwal5YH~-A/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/jcsAAOSwImRYRXRJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/O7wAAOSwBt5ZHqBq/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "Stylish Yellow Face Three Pointers Man Business Wedding Party Watch Jewelry Gift",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackScore": "27634",
+    "UserID": "awardeal",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

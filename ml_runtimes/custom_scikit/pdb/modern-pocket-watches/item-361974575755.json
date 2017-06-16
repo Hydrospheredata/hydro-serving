@@ -1,0 +1,80 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "43522",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Works and keeps time. Comes with scuffs,scratches and surface wear. See pictures for measurements. What you see is what you get. Needs cleaned and polished. I didn't clean it because I didn't want to damage it. Please see pictures and you be the judge on details and conditions.",
+  "StartTime": "2017-05-08T18:24:07.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/cxwAAOSwONBZELeZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/~50AAOSwCQZZELek/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "muddy_river_fine_art_and_antiques",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7199",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3619745757558080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T18:24:07.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WORKS-VINTAGE-BULLS-EYE-SILVER-TONE-POCKET-WATCH-/361974575755",
+  "Location": "Grand Rapids, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "WORKS!! VINTAGE BULL'S EYE SILVER TONE POCKET WATCH",
+  "Storefront": {
+    "StoreName": "muddy_river_fine_art_and_antiques",
+    "StoreURL": "http://stores.ebay.com/id=787839526"
+  },
+  "ItemID": "361974575755",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT23H41M4S"
+}

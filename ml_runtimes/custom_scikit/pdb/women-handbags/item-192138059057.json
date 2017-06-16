@@ -1,0 +1,158 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Charmoni-Womens-Backpack-Handbag-Brand-New-/192138059057?var=",
+  "ConvertedCurrentPrice": {
+    "value": "166.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Charmoni Women's Backpack Handbag by Charmoni Ships from Local Supplier Other information: Arras Related Searches: Charmoni Backpack Handbag, Charmoni Bags, Backpack Handbag Bags",
+  "Title": "Charmoni Women's Backpack Handbag. Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "166.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "One Size",
+        "PictureURL": "http://rcdn-3.fishpond.co.nz/0114/162/581/250408349/7.jpeg"
+      },
+      "VariationSpecificName": "Size"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "166.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:114162580:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Brown - Brown"
+            }
+          ]
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "136.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:114162581:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Name": "Size",
+              "Value": "One Size"
+            },
+            {
+              "Name": "Colour",
+              "Value": "Black - Black"
+            }
+          ]
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Name": "Size",
+          "Value": "One Size"
+        },
+        {
+          "Name": "Colour",
+          "Value": [
+            "Brown - Brown",
+            "Black - Black"
+          ]
+        }
+      ]
+    }
+  },
+  "StartTime": "2017-03-23T14:55:38.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P18DT22H33M10S",
+  "EndTime": "2017-06-21T14:55:38.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Charmoni"
+      },
+      {
+        "Name": "MPN",
+        "Value": "028173845"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138059057",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:114162579:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

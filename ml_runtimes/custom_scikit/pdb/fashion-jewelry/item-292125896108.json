@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "Description": "Once the item is return to the seller give about 2-4 business days to receive a full refund.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "Quantity": "1",
+  "TimeLeft": "P15DT16H19M59S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Handcrafted",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292125896108",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-22T06:21:31.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cancer-Awareness-Ovarian-/292125896108",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T06:21:31.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cancer Awareness",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Teal",
+        "Name": "Color"
+      },
+      {
+        "Value": "Acrylic",
+        "Name": "Material"
+      },
+      {
+        "Value": "silver",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Cancer Awareness Ovarian",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Newport Beach, California",
+  "Description": "\"I am with you always\" Bracelet 16mm round cabochon with 6mm mesh bead and 6mm silver beadsStainless steel twisted braceletRhinestone curved connector charm with 4mm round silver beads8mm teal round beads with heart shape charm pendant Pendant charm - Mom- Aunt- Sister- Grandma *Size*Average 7.5 inches and Wide 8.5 inches",
+  "Charity": {
+    "CharityName": "St. Jude Children's Research Hospital",
+    "CharityID": "3828",
+    "Mission": "St. Jude Children's Research Hospital is leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases.  Our mission is clear: Finding cures. Saving children. Families never receive a bill from St. Jude for treatment, travel, housing or food - because all family should worry about is helping their child live. Please help St. Jude continue its mission by donating today.",
+    "Status": "Valid",
+    "CharityNumber": "2739",
+    "DonationPercent": "10.0",
+    "LogoURL": "http://i.ebayimg.com/00/s/MzY1WDM5MA==/z/AVwAAOSwNnRYkvWD/$_1.PNG?set_id=8800005007"
+  },
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921258961088080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "blissful_theory",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "PaymentMethods": "PayPal",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTI1/z/3JgAAOSw3gJZInpa/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "PostalCode": "92660"
+}

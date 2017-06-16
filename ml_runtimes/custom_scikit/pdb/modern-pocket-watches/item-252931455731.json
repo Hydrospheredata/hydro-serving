@@ -1,0 +1,62 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "37415",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This is a Vintage Collectible Mickey Mouse Verichron quartz rotating dial watch, it isn't running, I don't know how to get the back off to check Battery so it's not running, comes with case but plastic insert is dirty, this is a great rare piece, shipping is priority mail, payment is PayPal, please feel free to email me.",
+  "StartTime": "2017-05-11T00:06:50.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njk1WDcyNg==/z/7QgAAOSwZ4dZE6nf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQzWDcwNg==/z/I6AAAOSw42dZE6nh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjYzWDUwMA==/z/B54AAOSwZKBZE6nh/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "125.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "collectorscorner65",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "732",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529314557318080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-10T00:06:50.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "125.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COLLECTIBLE-MICKEY-MOUSE-VERICHRON-QUARTZ-ROTATING-DIAL-POCKET-WATCH-NICE-/252931455731",
+  "Location": "Chattanooga, Tennessee",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "*COLLECTIBLE MICKEY MOUSE VERICHRON QUARTZ ROTATING DIAL POCKET WATCH  - NICE!!*",
+  "Storefront": {
+    "StoreName": "collectorscorner65",
+    "StoreURL": "http://stores.ebay.com/id=129899277"
+  },
+  "ItemID": "252931455731",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT5H24M30S"
+}

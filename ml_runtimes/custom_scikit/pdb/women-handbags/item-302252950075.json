@@ -1,0 +1,126 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDkwWDUwMA==/z/lhoAAOSwOgdYyNpX/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Single-Gusset-Drop-Handle-Tan-One-Size-/302252950075",
+  "ConvertedCurrentPrice": {
+    "value": "112.2",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Retractable Handle - 3 Divided sections - Open and zippered pockets - Integrated organizer - Adjustable and removable strap David King & Co. Single Gusset Drop Handle, Tan, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "112.2",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "57031",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "alosh12"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Single Gusset Drop Handle, Tan, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-03-15T06:08:22.000Z",
+  "HitCount": "72",
+  "TimeLeft": "P10DT14H58M58S",
+  "EndTime": "2017-06-13T06:08:22.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "844739015504"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844739015504"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "154T"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Tan"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 16.5 x W 11.2 x H 2 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "David King & Co."
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302252950075",
+  "Storefront": {
+    "StoreName": "geffen.200851",
+    "StoreURL": "http://stores.ebay.com/id=864275326"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3022529500758080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

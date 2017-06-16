@@ -1,0 +1,110 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT2H8M19S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "38.89",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222523867093",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EVER-FAITH-Womens-Austrian-Crystal-8-Inch-Elegant-Flower-Wedding-Hair-Side-Comb-/222523867093",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "38.89",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T13:37:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T13:37:01.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EVER FAITH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "N08063-1",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.3 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5.98 x W 3.58 x H 1.61 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "EVER FAITH Women's Austrian Crystal 8 Inch Elegant Flower Wedding Hair Side Comb",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Classic, glamorous and spectacular design will make you an instant centre of attraction. - [!]EVER FAITH is a US registered trademark and Ever Faith Jewelry(former name: Kiss Bling) is its only owner. We will pursue legal action against trademark infringement in case of UNAUTHORIZED sale or resale. - Looks elegant set in vintage hair style, like side chignon and French pleat. Can also be positioned at the side of the head. - Length: 21.3cm(8.4\"), Width: 5.5cm(2.2\"), Weight: 79g. - Intended Use: Wedding/Anniversary/Mothers-day/Valentines-day/Birthday/Party/Prom/Casual Wear. - Wrapping: Come with some spare crystals, and a gift box or favor bag (depend on product size). If you need assistance please contact us. EVER FAITH Women's Austrian Crystal 8 Inch Elegant Flower Wedding Hair Side Comb",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225238670938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "2.tzvishai2",
+    "FeedbackScore": "607",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "14",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/beIAAOSwjL5ZJt4A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/qDcAAOSww5hZJt4A/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/s1IAAOSwaeRZJt4B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/AnAAAOSwAPVZJt4B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gYIAAOSw~FJZJt4B/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/cMAAAOSwfpVZJt4B/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

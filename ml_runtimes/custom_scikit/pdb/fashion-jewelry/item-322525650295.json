@@ -1,0 +1,146 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P16DT7H29M48S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Brand New, Handmade and Never Worn",
+  "QuantitySold": "0",
+  "HandlingTime": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "92.75",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322525650295",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14K-Yellow-Gold-Adjustable-Toe-Ring-Beautiful-Triple-Butterfly-/322525650295",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "92.75",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T21:10:39.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-21T21:10:39.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Toe",
+        "Name": "Style"
+      },
+      {
+        "Value": "Pierceon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "14 Karat Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "24 Karat Fine Gold",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14K Yellow Gold Adjustable Toe Ring with Beautiful Triple Butterfly",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "14K Yellow Gold Adjustable Toe Ring with Beautiful Triple Butterfly, Design and Hand Crafted by Our Master Jeweler with 45 years Experience. Adjustable for your convenience. This Toe Ring can be Purchase in 14K White Gold also.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225256502958080_2.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "marciano1954",
+    "FeedbackScore": "137",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "marciano1954",
+    "StoreURL": "http://stores.ebay.com/id=1142940979"
+  },
+  "Quantity": "1",
+  "Location": "Pompano Beach, Florida",
+  "HitCount": "25",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDAwWDY3Ng==/z/87cAAOSwblZZJua6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjU5WDM2OQ==/z/ZXwAAOSw9OFZJuZ2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQ4WDExMTI=/z/d8MAAOSwAPVZJucy/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "33065"
+}

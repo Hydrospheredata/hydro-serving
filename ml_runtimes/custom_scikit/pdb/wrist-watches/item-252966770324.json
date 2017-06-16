@@ -1,0 +1,334 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2.04",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/MIMAAOSwn-tZLpzw/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/j2kAAOSwK6RZLpz0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/NU4AAOSwaEhZLpz8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/F4sAAOSwtGlZLp0B/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/svkAAOSw-3FZLp0L/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/PioAAOSwIQdZLp0W/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/W2sAAOSw0hlZLp0h/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/GYIAAOSwtGlZLp0p/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/upYAAOSwPh5ZLp0w/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/oTkAAOSwjqVZLp05/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/OKYAAOSwAPVZLp0-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/iA0AAOSwuMZZLp1D/$_1.JPG?set_id=8800005007"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:40:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "500",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1290046256",
+    "StoreName": "bigfashionmarket"
+  },
+  "CurrentPrice": {
+    "value": "2.04",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:40:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "VN",
+    "BO",
+    "EC",
+    "PY",
+    "PE",
+    "VE",
+    "BM",
+    "CA",
+    "GL",
+    "DZ",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GW",
+    "LS",
+    "LR",
+    "LY",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MZ",
+    "NA",
+    "NG",
+    "RW",
+    "SH",
+    "SN",
+    "SC",
+    "SL",
+    "SO",
+    "SZ",
+    "TG",
+    "TN",
+    "UG",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "IL",
+    "KW",
+    "LB",
+    "YE",
+    "AM",
+    "BD",
+    "CN",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "TM",
+    "UZ",
+    "FJ",
+    "PF",
+    "GU",
+    "NC",
+    "PW",
+    "PG",
+    "VU",
+    "AD",
+    "AT",
+    "BA",
+    "DE",
+    "GI",
+    "JE",
+    "LU",
+    "ME",
+    "SM",
+    "SJ",
+    "CH",
+    "VA",
+    "AG",
+    "AW",
+    "BB",
+    "DM",
+    "DO",
+    "SV",
+    "GP",
+    "GT",
+    "HN",
+    "MQ",
+    "AN",
+    "PA",
+    "PR",
+    "LC",
+    "VC",
+    "TT",
+    "PO Box"
+  ],
+  "ItemID": "252966770324",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Business-Sports-Wristwatch-Women-Quartz-Casual-PU-Leather-Band-Vogue-Watch-/252966770324?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "4SH9LN6KG7QN1",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "2.04",
+          "_currencyID": "USD"
+        },
+        "SKU": "4XH9UE6AJ7FC1ZA.01",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Black",
+            "Name": "color"
+          }
+        },
+        "Quantity": "100"
+      },
+      {
+        "StartPrice": {
+          "value": "2.04",
+          "_currencyID": "USD"
+        },
+        "SKU": "4UZ9DT6RZ7FX1CA.02",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "White",
+            "Name": "color"
+          }
+        },
+        "Quantity": "100"
+      },
+      {
+        "StartPrice": {
+          "value": "2.04",
+          "_currencyID": "USD"
+        },
+        "SKU": "4FZ9SJ6RE7VW1LA.03",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Coffee",
+            "Name": "color"
+          }
+        },
+        "Quantity": "100"
+      },
+      {
+        "StartPrice": {
+          "value": "2.04",
+          "_currencyID": "USD"
+        },
+        "SKU": "4BX9CP6SN7ML1HX.04",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Pink",
+            "Name": "color"
+          }
+        },
+        "Quantity": "100"
+      },
+      {
+        "StartPrice": {
+          "value": "2.04",
+          "_currencyID": "USD"
+        },
+        "SKU": "4DG9RR6ZX7BZ1EL.05",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Mint Green",
+            "Name": "color"
+          }
+        },
+        "Quantity": "100"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Black",
+          "White",
+          "Coffee",
+          "Pink",
+          "Mint Green"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/kXYAAOSwlY1ZLp1Q/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/IS8AAOSw8lpZLp2i/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Coffee",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/i70AAOSwfRdZLp1q/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/PkQAAOSwAPVZLp2S/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Mint Green",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Fp8AAOSw~FJZLp2F/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "color"
+    }
+  },
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H18M22S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Business Sports Wristwatch Women Quartz Casual PU Leather Band  Vogue  Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "120773",
+    "UserID": "bigfashionmarket",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

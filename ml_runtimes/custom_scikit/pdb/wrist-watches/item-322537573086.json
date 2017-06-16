@@ -1,0 +1,275 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.88",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Indian Trail, North Carolina",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:46:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=541767715",
+    "StoreName": "General Ghoul&#39;s Emporium"
+  },
+  "CurrentPrice": {
+    "value": "9.88",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:46:52.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "ID",
+    "LA",
+    "MO",
+    "PH",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "CK",
+    "FJ",
+    "PF",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BA",
+    "BG",
+    "CY",
+    "CZ",
+    "GI",
+    "GR",
+    "GG",
+    "IS",
+    "IE",
+    "IT",
+    "JE",
+    "LI",
+    "LU",
+    "MK",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SI",
+    "SJ",
+    "SE",
+    "UA",
+    "VA",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC"
+  ],
+  "ItemID": "322537573086",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MZ Berger & Co.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "555907916",
+        "Name": "MPN"
+      },
+      {
+        "Value": "LCD",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Plastic",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Vinyl",
+        "Name": "Band Material"
+      },
+      {
+        "Value": [
+          "Gray",
+          "Multi-Color"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Child",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Genghoul",
+        "Name": "Seller"
+      },
+      {
+        "Value": "049353969893",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Secret Life of Pets LCD Animation Watch New in Package",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Secret-Life-Pets-LCD-Animation-Watch-New-Package-/322537573086",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225375730868080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "28079",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H40M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ubIAAOSwX61ZB0ad/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ5WDU0OQ==/z/GV8AAOSw~y9ZB0aS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ5WDU0OQ==/z/3HkAAOSwuMZZB0ae/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Secret Life of Pets LCD Animation Watch New in Package Kids can tell the time and track moving images of their favorite characters with the Secret Life of Pets LCD animation watch. This unique time piece has an LCD dial which also features 3 different moving character images. Secret Life of Pets fans will love all the printed graphics around the watch bezel as well as the printed adjustable strap. *Printed Graphics *LCD Watch Module * Moving Image Module * 1-year warranty *Plastic adjustable buckle strap *Includes 189 battery.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "12654",
+    "UserID": "genghoul",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "I will provide a refund if you are not satisfied with your purchase AND there was an error or problem with the listing. Item must be in original condition as you got it. If you open it, you keep it. I will ONLY refund the final auction price. I WILL NOT refund any shipping money paid to and from. The buyer is responsible for return shipping cost."
+  }
+}

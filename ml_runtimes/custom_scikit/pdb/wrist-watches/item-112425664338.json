@@ -1,0 +1,60 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bronx, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:09:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "350.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:09:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425664338",
+  "HandlingTime": "0",
+  "Description": "AUTHENTIC Audemars Piguet ROYAL OAK OFFSHORE WHITE\u00a0 FOR LADIES WATCH\u00a0 BAND 24mm/18mm LENGTH 122mm/ 67mm SORRY NOT INTERNATIONAL SHIPPING",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUDEMARS-PIGUET-LADY-ROYAL-OAK-OFFSHORE-/112425664338",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124256643388080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "10460",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT15H36M5S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0pEAAOSwQYZW0bY~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uVMAAOSwPc9W0bY3/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0gIAAOSwQYZW0bY5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kDoAAOSwuAVW0bY8/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jxkAAOSwll1W0bZB/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "AUDEMARS PIGUET  LADY  ROYAL OAK OFFSHORE",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "301",
+    "UserID": "cesar8265",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

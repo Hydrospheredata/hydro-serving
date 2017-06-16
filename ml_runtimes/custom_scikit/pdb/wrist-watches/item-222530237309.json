@@ -1,0 +1,124 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "7.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cecil, Wisconsin",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:35:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=297267945",
+    "StoreName": "polerbare"
+  },
+  "CurrentPrice": {
+    "value": "7.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:35:09.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "222530237309",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jaclyn Smith",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": [
+          "Gold",
+          "Silver"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Pearl Latching Strap",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Jaclyn Smith Silver Toned Quartz Wrist Watch with Pearl Latch Band.",
+  "ConditionDescription": "Very nice.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jaclyn-Smith-Silver-Toned-Quartz-Wrist-Watch-Pearl-Latch-Band-/222530237309",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225302373098080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "54111",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT22H23M25S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg2NDk=/z/q7AAAOSwZKBZGHtP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIyNFgxNjAw/z/s3AAAOSwxu5ZGHtd/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Selling this nice pre owned Jaclyn Smith Silver toned Quartz wrist watch with Pearl Latch band suitable for about 2 3/4\" wide wrist .The watch looks good and keeps great time.Shows some light wear from use.You will receive the watch pictured.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3440",
+    "UserID": "polerbare",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Contact us through ebay message system only.Returns accepted if item is not as described."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT9H57M17S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192200426572",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DOrlan-Gold-Plated-Clip-on-Earrings-Swarovski-Crystals-Sandstones-/192200426572",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T00:56:42.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T00:56:42.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "D'Orlan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lead and Nickel FREE",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "D'Orlan Gold Plated Clip-on Earrings with Swarovski Crystals & Sandstones",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "D'Orlan Gold Plated Clip-on Earrings with Swarovski Crystals & Sandstones. Manufacturing Standards: Made in Canada. Lead & Nickel Free.All crystals are Swarovski crystals. Each crystal is hand set.D'Orlan Plating Standards:Gold Plated items are 22kt gold. Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. To maintain your jewellery always avoid spraying perfumes or working with chemical products while wearing your jewellery. Multiple Purchases: For buyers wishing to make multiple purchases I will charge an additional $1.00 in shipping for every item after the 1st purchase.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922004265728080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "Quantity": "1",
+  "Location": "Toronto, Ontario",
+  "HitCount": "12",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uEIAAOSwdGFY3FdW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jdEAAOSwA29Y3Fdc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/75gAAOSwB-1Y3Fdg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ou0AAOSwzgBY3Fdj/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4P2J1"
+}

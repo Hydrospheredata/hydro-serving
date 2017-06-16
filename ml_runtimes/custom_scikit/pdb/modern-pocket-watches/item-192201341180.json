@@ -1,0 +1,80 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "11362",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "New",
+  "StartTime": "2017-05-29T19:00:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Oq8AAOSw-K9ZLG-Z/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "As Seen on TV ( Tele Brands)",
+        "Name": "Brand"
+      },
+      {
+        "Value": "7189-6",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Butterfly Hinge",
+        "Name": "Closure"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "lisahaya1",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "5393",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1922013411808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T19:00:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KANSAS-CITY-RAILROAD-POCKET-WATCH-SEEN-TV-BRAND-NEW-/192201341180",
+  "Location": "Little Neck, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "KANSAS CITY RAILROAD POCKET WATCH   AS SEEN ON TV! BRAND NEW!!!!",
+  "Storefront": {
+    "StoreName": "lisahaya1",
+    "StoreURL": "http://stores.ebay.com/id=68147443"
+  },
+  "ItemID": "192201341180",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT25M48S"
+}

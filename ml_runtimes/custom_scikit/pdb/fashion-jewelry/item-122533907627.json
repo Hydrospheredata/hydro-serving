@@ -1,0 +1,118 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P4DT23H53M",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent Vintage Shape",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "89.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "122533907627",
+  "ConvertedCurrentPrice": {
+    "value": "89.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T13:00:12.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NB02-Sterling-Silver-Diamond-Sapphire-Size-7-Ring-1-8g-1-8-Band-FREE-SHPG-/122533907627",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T13:00:12.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CNA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Vintage",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Sapphire and Diamond",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "7",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Blue Sapphire",
+        "Name": "Color"
+      },
+      {
+        "Value": "Diamond",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Round Brilliant Sapphire",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Hallmarked \"Vintage Sterling\" Crown Logo",
+        "Name": "Theme"
+      }
+    ]
+  },
+  "Title": "NB02 Sterling Silver Diamond Sapphire Size 7 Ring 1.8g 1/8\" Band  ++FREE SHPG",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Watseka, Illinois",
+  "Description": "NB02 Sterling Silver Diamond Sapphire Size 7 Ring 1.8g 1/8\" Band ++FREE SHPG Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225339076278080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "143pryscilla",
+    "FeedbackScore": "3402",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Pryscilla&#39;s Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=534094300"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE1WDEyODA=/z/6hUAAOSwblZZEzlf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/rwEAAOSwlMFZEzle/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/qtIAAOSw9OFZEzlf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTcxWDEyODA=/z/rwMAAOSwlMFZEzlf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/qQ4AAOSwuMZZEzlf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/YvQAAOSw~y9ZEzlf/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "PostalCode": "60970"
+}

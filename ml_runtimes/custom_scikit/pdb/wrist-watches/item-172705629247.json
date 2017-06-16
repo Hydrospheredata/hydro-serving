@@ -1,0 +1,109 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "223.68",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "167.76",
+    "_currencyID": "USD"
+  },
+  "Site": "Australia",
+  "Country": "AU",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727056292478080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T10:48:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "225.0",
+    "_currencyID": "AUD"
+  },
+  "EndTime": "2017-06-05T10:48:03.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "Homage to 44mm Panerai Marina Militare. Sterile, unbranded black dial, gold hands, both with Superluminova C3 lume, which is highly legible all night. Sapphire crystal with Colorless AR coating Brushed case, polished bezel. See-through case back. Leather strap with brushed pre-V buckle. Asian Unitas 6497 hand-wound mechanical movement, 17 jewels, power reserve 48\u00a0hours. These are a great movement. I've had several and still have one. They're robust and accurate. Displays\u00a0hours, minutes and seconds. Design 1:1 to PAM111, 316L steel case, 44mm not measuring crown guard. Thick Crown Guard, Flat and long pin, lever with roller. 15mm thick. Rated 100m water resistant by the manufacturer, but I can't guarantee that. I have swum with another if these that I have no problems. Please see photos and ask questions before bidding. Free postage in Australia. Overseas postage at cost.",
+  "BuyItNowPrice": {
+    "value": "300.0",
+    "_currencyID": "AUD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705629247",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sapphire Crystal",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "24mm",
+        "Name": "Lug Width"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Pam Marina militare homage watch, sapphire, superluminova C3, 6497 manual wind",
+  "ConditionDescription": "New, never worn. Plastic protection still fitted.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pam-Marina-militare-homage-watch-sapphire-superluminova-C3-6497-manual-wind-/172705629247",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "HitCount": "11",
+  "PostalCode": "2582",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Yass, NSW",
+  "TimeLeft": "P4DT19H26M17S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNDQw/z/RBIAAOSwsXFZGtfW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE1Mlg2OTE=/z/TZgAAOSwn-tZGtEO/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA4MVgxNDQw/z/yY4AAOSwDiBZGtgJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/XYoAAOSwZ4dZGtge/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/BBUAAOSwK6RZGtgz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/zZsAAOSwDiBZGthB/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFg4MzA=/z/brsAAOSw~y9ZGtha/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ0MFgxMDc5/z/2zsAAOSwcgNZHBdG/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "225.0",
+    "_currencyID": "AUD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1553",
+    "UserID": "figjam43",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

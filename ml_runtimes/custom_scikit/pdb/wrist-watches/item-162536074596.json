@@ -1,0 +1,96 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "205.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:39:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1008762708",
+    "StoreName": "memorialwatch"
+  },
+  "CurrentPrice": {
+    "value": "205.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:39:19.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "808XLDLD",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Skagen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "768680161540",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0768680161540",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": "Skagen Men's 808XLDLD Stainless Steel Brown Dial Watch Product Details Product Dimensions: 3.6 x 3.5 x 2.2 inches Shipping Weight: 6.4 ounces Item model number: 808XLDLD Batteries: 1 Nonstandard Battery batteries required. (included) Domestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues. International Shipping: This item is not eligible for international shipping. Learn More Brand, Seller, or Collection Name: Skagen Model number: 808XLDLD Part Number: 808XLDLD Item Shape: Round Dial window material type\ufeff: Anti reflective sapphire Display Type: Analog Clasp: Buckle Case material: Stainless steel Case diameter: 39 millimeters Case Thickness: 7 millimeters Band Material: Pig skin leather Band length: Men's Standard Band width: 22 millimeters Band Color: Brown Dial color: Brown Bezel material: Stainless steel Bezel function\ufeff: Stationary Special features: Brown Leather Band Item weight: 5.28 Ounces Movement\ufeff: Quartz Water resistant depth: 99 Feet Quartz movement Case diameter: 39 mm Casual watch Sapphire crystal Water resistant to 99 feet (30 M): withstands rain and splashes of water, but not showering or submersion For the boardroom or classroom, a watch with all the right answers, conveys a message of quality and craftsmanship. From its 2-Hand with sub dial Swiss Made Movement to shiny, brushed, brown steel case, sapphire crystal and brown, sandblasted dial this timepiece has it all. Down to the smooth brown leather strap that merges its wearer with sophisticated style. null The Skagen brand takes its name from the fishing village of Skagen, Denmark. In keeping with a European design aesthetic, Skagen watches for men and women are sleek, elegant, and modest timepieces boasting quiet precision. Skagen\u2019s signature watch style includes a smooth mesh band and simple dial with subtle indices. While keeping true to its minimalist heritage, Skagen continually remains on the forefront, using modern watch materials and movements. Skagen watch collections today may feature carbon fiber textured dials and titanium or ceramic bands. With a modern or classic Skagen watch, you can be sure your look will withstand the test of time. See all Product description",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skagen-Mens-808XLDLD-Stainless-Steel-Brown-Dial-Watch-SHIPSFREE-/162536074596",
+  "NewBestOffer": "false",
+  "SKU": "808XLDLD",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625360745968080_1.jpg",
+  "ItemID": "162536074596",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H32M20S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/0GgAAOSw9OFZLtWS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDE2MDA=/z/mSsAAOSwaeRZLtWV/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Skagen Men's 808XLDLD Stainless Steel Brown Dial Watch SHIPSFREE",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "5774",
+    "UserID": "finejewelryandwatches",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

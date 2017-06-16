@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Wooster, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:32:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=626447",
+    "StoreName": "wesaveyou$wholesale"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T14:32:51.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "SKU": "a-37-4watch7",
+  "Description": "a-37-4watch7 You are bidding on WELLINGTON Men's WN511-095 Darfield Analog-Quartz Watch Item is lightly used in good working condition. PAYMENT:We accept payment by PAYPAL ONLY! We utilize EBAY\u2019s UPI which files unpaid item claims. You have up to 10 days to send payment before EBAY takes action.SHIPPING:We CANNOT ship to PO BOXES, APO or FPO. CURRENTLY WE DO NOT SELL OR SHIP OUTSIDE THE 48 CONTINENTAL STATESRETURNS/ SHIPPING DAMAGES: If your item is damaged, you must contact us by EBAY messages or our customer service line 330-262-8063. Please allow adequate time for us to file an insurance claim with the shipper.Our items are sold AS-IS, and we only allow returns if one of the following has happened: The item was damaged in shipping, you were shipped the wrong item, or the item was described as working and it is not on arrival. Please TEST YOUR ITEM when you get it. We will not honor any claim of DOA or PROBLEMS if not reported to us within 3 business days (weekends are not business days) WE DO RECORD THE SERIAL NUMBER OF ALL ITEMS BEFORE SHIPPING, AND WILL VERIFY UPON RETURN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942574648",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wellington",
+        "Name": "Brand"
+      },
+      {
+        "Value": "wn511-095",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "WELLINGTON Men's WN511-095 Darfield Analog-Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WELLINGTON-Mens-WN511-095-Darfield-Analog-Quartz-Watch-/201942574648",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019425746488080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "44691",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT23H25M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lHkAAOSwuMZZLtPX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kRwAAOSw5cRZLtPb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4r4AAOSw8lpZLtPf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BJ0AAOSwBt5ZLtPi/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "9.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackScore": "141727",
+    "UserID": "wesaveyou$",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

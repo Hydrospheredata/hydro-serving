@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726941028488080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDEwMDA=/z/XAwAAOSwcB5ZLc~m/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SailorBags-204-R-Newport-X-Large-Tote-Bag-White-and-Red-New-/272694102848",
+  "ConvertedCurrentPrice": {
+    "value": "76.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "SailorBags #204-R Newport X-Large Tote Bag - White and Red - New! A really big bag made to hold just about everything! Great for keeping the whole family's clothes and towels dry on the boat or at the beach!18\" x 19\" x 9\" Item is Brand New, Factory Sealed, First Quality. We are a Full-Line Authorized Retail Store A family-owned \"Brick & Mortar\" store for OVER 100 YEARS! Customer Service is our #1 Goal! Check our Feedback! We have a HUGE inventory of Quality Toys in-stock, including rare and hard-to-find items, at the best prices around! BUY WITH CONFIDENCE! We have 100% POSITIVE FEEDBACK! SHIPPING: **WE COMBINE SHIPPING!** Please use BUY IT NOW & Request a Revised Invoice so we can combine Shipping Charges and get you the Best Deal! TAXES: Michigan residents pay 6% sales tax - Residents of other states are tax-exempt. International customers are responsible for all taxes and duties. Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying. RETURNS: We will accept returns in factory-sealed condition within 14 days of your receipt of item. Shipping charges are non-refundable. 20% restocking fee may apply. Multi-channel listing, inventory, and order management - Sell Everywhere",
+  "Title": "SailorBags #204-R Newport X-Large Tote Bag - White and Red - New!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "RU",
+    "BA",
+    "HR",
+    "RO",
+    "RS",
+    "SK",
+    "SI",
+    "UA",
+    "AR",
+    "IL",
+    "KZ"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "76.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Frankfort, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "32086",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "cornertoystore"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "49635",
+  "GlobalShipping": "false",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "StartTime": "2017-05-30T20:02:43.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P27DT3H32M30S",
+  "EndTime": "2017-06-29T20:02:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Sailor Bag"
+      },
+      {
+        "Name": "Shipping Location",
+        "Value": "United States"
+      },
+      {
+        "Name": "MPN",
+        "Value": "204-R"
+      },
+      {
+        "Name": "UPC",
+        "Value": "856505002052"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272694102848",
+  "Storefront": {
+    "StoreName": "THE CORNER TOY STORE",
+    "StoreURL": "http://stores.ebay.com/id=241150836"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept returns within 30 days of purchase.  Item must be returned within 30 days in new, factory-sealed, sale-able condition.  Shipping charges are non-refundable.  20% re-stocking fee may apply.  Please contact us with any questions, or if you'd like to return an item.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "204-R",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

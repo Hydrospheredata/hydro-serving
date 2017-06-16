@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjYzWDc5OQ==/z/YVUAAOSwTuJYxH6E/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE5WDEyODA=/z/v8kAAOSwhQhYxH6a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzkzWDEwMjQ=/z/exEAAOSwWxNYxH7Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgyWDc1OQ==/z/72oAAOSwdGFYxH7m/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE5WDEyMzE=/z/dtYAAOSwuxFYxH8H/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Miche-Shell-Rare-Heather-/252970377548",
+  "ConvertedCurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Miche Demi Style Heather Bag Shell. Shell only. Heather is a retired shell and is a rare to find. New, without tags. Never used. Completely clean in and out. It does not have its original plastic retail packaging and has been stored without it.",
+  "Title": "Miche Shell*Rare*Heather",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "70.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Spokane, Washington",
+  "Seller": {
+    "FeedbackScore": "229",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mzsmokey420"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "99202",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T08:55:53.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT18H24M39S",
+  "EndTime": "2017-07-02T08:55:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Miche"
+      },
+      {
+        "Name": "Style",
+        "Value": "Demi"
+      },
+      {
+        "Name": "Color",
+        "Value": "Heather"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Geometric"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970377548",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529703775488080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

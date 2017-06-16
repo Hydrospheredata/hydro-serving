@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT10H17M11S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201939365993",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DOrlan-Gold-Plated-Bird-Brooch-Swarovski-Crystals-and-Blue-Green-Enamel-/201939365993",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-29T01:16:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T01:16:33.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "D'Orlan",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Brooch",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lead and Nickel FREE",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "D'Orlan Gold Plated Bird Brooch with Swarovski Crystals and Blue & Green Enamel",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "D'Orlan Gold Plated Bird Brooch with Swarovski Crystals and Blue & Green Enamel. Manufacturing Standards: Made in Canada. Lead & Nickel Free.All crystals are Swarovski crystals. Each crystal is hand set.D'Orlan Plating Standards:Gold Plated items are 22kt gold. Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. To maintain your jewellery always avoid spraying perfumes or working with chemical products while wearing your jewellery. Multiple Purchases: For buyers wishing to make multiple purchases I will charge an additional $1.00 in shipping for every item after the 1st purchase.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019393659938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "48",
+  "Location": "Toronto, Ontario",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LlwAAOSwSlBY3Fve/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AWwAAOSwol5Y3Fvg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LwUAAOSwSlBY3Fvj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1FYAAOSwmgJY3Fvn/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4P2J1"
+}

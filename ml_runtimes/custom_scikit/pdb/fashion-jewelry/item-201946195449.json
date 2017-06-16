@@ -1,0 +1,119 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT5H55M15S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "All 3 pieces are in excellent condition with no noticeable signs of wear",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "201946195449",
+  "ConvertedCurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T17:50:49.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-Palm-Desert-Necklace-Bracelet-Earrings-3-piece-set-/201946195449",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T17:50:49.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver/white",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Jewelry Set",
+        "Name": "Type"
+      },
+      {
+        "Value": "silver/white",
+        "Name": "Color"
+      },
+      {
+        "Value": "mixed metals",
+        "Name": "Material"
+      },
+      {
+        "Value": "Taiwan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Swarovski crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Brighton \"Palm Desert\"  Necklace Bracelet & Earrings - 3 piece set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Saint Petersburg, Florida",
+  "Description": "Brighton \"Palm Desert\" White Enamel and embedded swarovski crystals becomes the perfect accent for that special day or night, the set includes: Necklace (JN4122-retail $64.) 16-18\" with lobster claw closure. Pendant drops 2 1/2\" and is 2 1/4\" wide. Bracelet (JB2322-retail $ 58.) 7-7.5 with fold over snap closure. Bracelet is 1 7/8\" wide. Post Dangle Earrings (JE3322-Retail 42.) 1 1/8\" drop and 5/8\" wide. All of the 3 pieces are in excellent condition with no signs of wear, all silver is bright and shiny any dark marks or odd coloring is caused by reflections. I do not break up my sets for the sale of individual items. All of my listings are priced at my low. Items used to display the jewelry are not included with this sale. !!ALL AUCTIONS MUST BE PAID IN FULL IN FIVE DAYS OR EBAY WILL BE NOTIFIED AND ITEM WILL BE RELISTED. I do provide delivery confirmation to track all sales. Sets must be returned with all original pieces, and full refund will be given. Under no circumstances can a set be broken up, I do not issue partial refunds.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019461954498080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "joyce12030",
+    "FeedbackScore": "10956",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "joycesjewels",
+    "StoreURL": "http://stores.ebay.com/id=122013944"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "4",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMzEx/z/dnoAAOSw32lYvLfm/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwNFgxNjAw/z/swUAAOSwSlBYvLfs/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNDgw/z/ggMAAOSwhlZYvLfx/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTQ0M1gxNjAw/z/Ju0AAOSw~AVYvLf2/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTMyWDE2MDA=/z/k4cAAOSwXYtYvLf5/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NjI5WDE2MDA=/z/tOwAAOSwTM5YvLf-/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTYyWDE2MDA=/z/a-cAAOSwWxNYvLgS/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "33707"
+}

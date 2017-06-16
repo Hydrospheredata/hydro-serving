@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Washington, District Of Columbia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:00:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "55.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T14:00:39.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "112426166923",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kate Spade New York",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Kate Spade New York",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0796483274631",
+        "Name": "EAN"
+      },
+      {
+        "Value": "796483274631",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mother Of Pearl",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Tan/luggage",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "Gemmed",
+          "Mineral Crystal"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Kate Spade New York Women's Metro Zodiac Scorpio Leather Watch",
+  "ConditionDescription": "Shows signs of being worn previously. No scratches on the crystal that I can see however I'm not saying there are none.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-New-York-Womens-Metro-Zodiac-Scorpio-Leather-Watch-/112426166923",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1124261669238080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "20019",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT22H50M9S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODU3WDY5Mw==/z/45IAAOSwtGlZB3Tp/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTI5Nlg1MDE=/z/oA0AAOSwt0FZB3St/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTMyMFg1MDE=/z/zhoAAOSw42dZB3S5/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Njc4WDExMjk=/z/2WwAAOSwlndZB3TR/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6PsAAOSww9xZB3Sl/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzU5WDE0NDQ=/z/aX4AAOSw~y9ZB3Td/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDY2MQ==/z/tqEAAOSwhvFZB3Up/$_57.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDczNg==/z/CusAAOSww9xZB3U3/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "Preowned (1owner) Kate Spade Zodiac Metro watch. The zodiac sign is Scorpio (October 23-November 21). Worn a few times and no longer need. Still keeps great time, however I don't know when you will need a new battery. My loss could be your gain. There are signs of use but nothing that a new band can't fix. I think the wear on the current band adds to its character. Can be sent in its original box if requested. Sold strictly as is no returns or buyers remorse. Any item sold this weekend will ship out on Tuesday morning due to the Memorial Day Holiday Weekend.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "503",
+    "UserID": "19sixty8",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

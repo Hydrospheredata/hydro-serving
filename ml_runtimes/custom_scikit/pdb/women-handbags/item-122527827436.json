@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTc0WDgxMA==/z/MIwAAOSwfpVZMFV-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Kf8AAOSw-K9ZMFV6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MFIAAOSwfpVZMFV7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/7bAAAOSwEHpZMFV8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTA2/z/wskAAOSwIaFZMFU3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxM1gxNTk5/z/cVMAAOSw0hlZMFU5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTIw/z/6Z0AAOSwEHpZMFU9/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-VERA-BRADLEY-BLUSH-PINK-CAMPUS-BACKPACK-15713-376-/122527827436",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tags. Smoke free home. Usually ships in one business day. Exterior has two front zip pockets and two side pockets. Large front zip pocket features three slip pockets, four pen pockets and an ID window. Inside features two mesh slip pockets. Separate zippered laptop compartment. Trolley sleeve on quilted back panel. Zip closure.Dimensions 12\" w x 16\" h x 7 \u00bd\" d with 2 \u00be\" handle drop and 32\" adjustable straps",
+  "Title": "NEW VERA BRADLEY BLUSH PINK CAMPUS BACKPACK 15713-376",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Orem, Utah",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "2837",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "shopshelle"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "84058",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T18:00:04.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P29DT3H23M34S",
+  "EndTime": "2017-07-01T18:00:04.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "PINK"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003353233"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122527827436",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "michellesut",
+    "StoreURL": "http://stores.ebay.com/id=13041240"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225278274368080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

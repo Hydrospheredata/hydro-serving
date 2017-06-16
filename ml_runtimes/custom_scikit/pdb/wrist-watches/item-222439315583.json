@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Datejust II 116333 Champagne Luminous Stick Dial 2Tone #A23 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T06:34:56.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/XS8AAOSw32lYx48T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/fMwAAOSw2gxYx48T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/UtQAAOSwsW9Yx48T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/kcoAAOSwOddYx48T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/fXIAAOSw4YdYx48T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjgxWDEyODA=/z/m70AAOSwuxFYx48T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDEy/z/mAcAAOSwXYtYx48T/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rolex Datejust II",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "87",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2224393155838080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T06:34:56.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Datejust-II-116333-Champagne-Luminous-Stick-Dial-2Tone-A23-/222439315583",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Datejust II 116333 Champagne Luminous Stick Dial 2Tone #A23",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "222439315583",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT10H5M38S"
+}

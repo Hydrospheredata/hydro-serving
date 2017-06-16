@@ -1,0 +1,70 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "07642",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Fortrone Horse Design Pocket Watch",
+  "StartTime": "2017-05-04T16:29:01.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XaoAAOSwA3dYErEY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2QkAAOSwnbZYErEb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5hQAAOSwcLxYErEf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lPYAAOSw5cNYErEl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CDQAAOSwn7JYErEp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/98YAAOSwMVdYErEu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/GQoAAOSw44BYErE1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2S4AAOSwnbZYErEd/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "fantasticnadia2012",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2259",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1123958513148080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-03T16:29:01.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Fortrone-Horse-Design-Pocket-Watch-/112395851314",
+  "Location": "Hillsdale, New Jersey",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Fortrone Horse Design Pocket Watch",
+  "Storefront": {
+    "StoreName": "fantasticnadia2012",
+    "StoreURL": "http://stores.ebay.com/id=1120896449"
+  },
+  "ItemID": "112395851314",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT21H44M30S"
+}

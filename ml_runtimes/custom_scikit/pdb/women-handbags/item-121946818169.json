@@ -1,0 +1,76 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/oREAAOSw-jhULEOW/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-Vera-Bradley-Baby-Bag-Summer-Cottage-NEW-TAG-w-Diaper-Changing-Pad-/121946818169",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "5",
+  "NewBestOffer": "false",
+  "Description": "NEW Vera Bradley Baby Bag in Summer Cottage NEW WITH TAG w Diaper Changing Pad Track Page Views With Auctiva's FREE Counter",
+  "Title": "NEW Vera Bradley Baby Bag in Summer Cottage NEW WITH TAG w Diaper Changing Pad",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Kokomo, Indiana",
+  "Seller": {
+    "FeedbackScore": "2162",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "dealstograbforu"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46901",
+  "GlobalShipping": "false",
+  "Quantity": "9",
+  "StartTime": "2016-04-05T22:29:17.000Z",
+  "HitCount": "572",
+  "TimeLeft": "P27DT6H51M29S",
+  "EndTime": "2017-06-29T22:29:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does Not Apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "121946818169",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1219468181698080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

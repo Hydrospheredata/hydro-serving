@@ -1,0 +1,89 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "319.98",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Okayama, Japan",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:53:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1201888469",
+    "StoreName": "ANDG JAPAN"
+  },
+  "CurrentPrice": {
+    "value": "319.98",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:53:14.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "G-Shock",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "Europe",
+  "ItemID": "112425989316",
+  "HandlingTime": "1",
+  "Description": "Welcome to my eBay store G-SHOCK BAPE A BATHING APE collaboration Limited DW-5600 Camo 2016 Japan Rare Product Details G-SHOCK BAPE A BATHING APE collaboration Limited DW-5600 Camo 2016 Japan Rare Never used. G-SHOCK x BAPE A BATHING APE collaboration Released date: Feb 2016 Payment We only accept payment via PayPal. Shipping Free shipping to worldwide (Exclude Europa) by Airmail. Shipping Asia North America Central America Oceania South America Africa Air mail with insurance tracking number 5 - 8 days US$ 0 6 - 12 days US$ 0 8 - 14 days US$ 0 We ship within one business day after payment has received. Return Policy Returns are accepted ONLY if the item was not the item described. International Buyers \u2013 Please Note Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying. We do not mark merchandise values below value or mark items as \u201cgifts\u201d ,US and International government regulations prohibit such behavior.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/G-SHOCK-BAPE-BATHING-APE-collaboration-Limited-DW-5600-Camo-2016-Japan-Rare-/112425989316",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124259893168080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H35M8S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODMzWDEwMDA=/z/yQkAAOSwjL5ZLq1z/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODMzWDEwMDA=/z/RxcAAOSwAPVZLq11/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODM0WDEwMDA=/z/adsAAOSwn-tZLq12/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODMzWDEwMDA=/z/tBwAAOSwK6RZLq14/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODMzWDEwMDA=/z/sNYAAOSwX9FZLq15/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODMzWDEwMDA=/z/C6IAAOSw1WJZLq17/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "G-SHOCK BAPE A BATHING APE collaboration Limited DW-5600 Camo 2016 Japan Rare",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "507",
+    "UserID": "japan2worldwide",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "56438",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Beautiful looking watch, but I assume it needs a battery and I wouldnt know how to replace one. Missing the tiny ring near the winder that allows for a chain to be hooked up. Let the picts be your guide. ALL OF MY ITEMS COME WITH A SATISFACTION GUARANTEE. NEGATIVE AND NEUTRAL FEEDBACK CAN BE AVOIDED. SIMPLY COMMUNICATE WITH ME IF YOU FEEL YOUR PURCHASE WAS NOT AS STATED. Check out my ebay store Bottom Buck Bargains! Different items added all the time!",
+  "StartTime": "2017-04-15T21:25:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3MQAAOSw7U5Y8o88/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/znQAAOSwtZJY8o9J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/rHMAAOSwBOtY8o9Y/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Armitron",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "Easy To Read",
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "browerville",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "18643",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "139",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2920870010358080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-14T21:25:28.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FT1-Armitron-Quartz-Pocket-Watch-dog-duck-hunting-engraved-scene-2-dia-/292087001035",
+  "Location": "Browerville, Minnesota",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "FT1 Armitron Quartz Pocket Watch dog duck hunting engraved scene 2\" dia",
+  "Storefront": {
+    "StoreName": "Bottom Buck Bargains",
+    "StoreURL": "http://stores.ebay.com/id=31657589"
+  },
+  "ItemID": "292087001035",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "TimeLeft": "P14DT2H38M16S"
+}

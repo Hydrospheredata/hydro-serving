@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT17H54M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "110.5",
+    "_currencyID": "USD"
+  },
+  "ItemID": "332240193426",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Crystal-Frontlet-Forehead-Head-Chain-Wedding-Bridal-Jewelry-Drape-Headpiece-/332240193426",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "110.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T05:21:16.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T05:21:16.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Hair Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bridal/Wedding",
+        "Name": "Theme"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Wedding",
+        "Name": "Occasion"
+      }
+    ]
+  },
+  "Title": "Crystal Frontlet Forehead Head Chain Wedding Bridal Jewelry Drape Headpiece",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "The Aya Halo hair chain is a made with stunning crystal rhinestones on a silver base. This piece is handmade and designed to create a elegant bohemian look. The back of the piece has drapes which fall elegantly on the back of the head and front of the headpiece comes together to decorate the forehead. This piece can also be positioned above the forehead on the hair. This piece is hand made so please allow adequate time for creation and feel free to message me if you need the piece sooner. IMPORTANT: Please leave a message when purchasing under \"Notes\" and state you head circumference in so that I can make the proper size headpiece for you. Also, let me know the length of you hair so I can make the layers proper for your hair. Thank you for your interest. -Semira M.",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322401934268080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "semiraodzic",
+    "FeedbackScore": "16",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "FloatersBoutique",
+    "StoreURL": "http://stores.ebay.com/id=405753696"
+  },
+  "Quantity": "5",
+  "Location": "Skokie, Illinois",
+  "HitCount": "23",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg2WDU3MA==/z/KyYAAOSww5hZKl3j/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzgwWDU3MA==/z/SX4AAOSw~y9ZKl2~/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzgwWDU3MA==/z/eaUAAOSwfpVZKl3C/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU1WDU3MA==/z/K2YAAOSwblZZKl3E/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU1WDU3MA==/z/5DYAAOSwGJlZKl3J/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "60076"
+}

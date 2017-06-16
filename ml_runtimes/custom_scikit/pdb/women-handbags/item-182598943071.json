@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI0NlgxMTky/z/nk4AAOSw3gJZLbbU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/iCcAAOSw8lpZLba-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/PnkAAOSwZKBZLbbA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/TF8AAOSw5cRZLbbD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/PcoAAOSwjqVZLbbF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/27UAAOSww9xZLbbI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/OFYAAOSw1WJZLbbL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/dXsAAOSwcB5ZLbbN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/Tu0AAOSwR29ZLbbQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTk0/z/GsMAAOSwjL5ZLbbS/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Vera-Bradley-Large-Campus-Backpack-BLANCO-BOUQUET-/182598943071",
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tag Vera Bradley Large Campus Backpack in BLANCO BOUQUET Measurements for campus backpack: 12\" x 16\" x 6 \u00bd\" with 2 \u00be\" handle drop and 28 \u00bd\" adjustable shoulder straps. For the student with a serious workload, this campus backpack bag holds it all. Helpful front, side and interior pockets, and padded straps make this study buddy ideal. Details for campus backpack: Features a front zip pocket with wide trim detail, a second pocket with zip closure and interior organization pocketsBack panel and straps have foam paddingSide pockets, great for holding a water bottle, inside compartment features two slip pockets, two pen slip All Items from smoke free & pet free home. Thank you for looking!!",
+  "Title": "NWT Vera Bradley Large Campus Backpack BLANCO BOUQUET",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Suwanee, Georgia",
+  "Seller": {
+    "FeedbackScore": "585",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "abbyd1224"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30024",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-30T18:18:21.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P27DT3H27M32S",
+  "EndTime": "2017-06-29T18:18:21.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Blanco Bouquet"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182598943071",
+  "Storefront": {
+    "StoreName": "abbyd1224",
+    "StoreURL": "http://stores.ebay.com/id=1118302834"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825989430718080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,59 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Bristow, Oklahoma",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:31:35.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:31:35.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074132528",
+  "HandlingTime": "1",
+  "Description": "Tavan Nautical Watch. In good working order with new battery. Nautical symbols with goldtone hands. Crystal circle the face. Face of watch is Mother of Pearl. Very pretty. Very unique. Red band with gold buckle. No scratches on crystal cover. I have more watches and other jewelry listed. If you purchase more than one piece of jewelry, pay full price for first shipping and $1.00 shipping for each additional jewelry purchased. Please ask any questions before bidding. Thank you for looking.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tavan-Nautical-Watch-Crystals-Red-Band-Mother-Pearl-Face-/352074132528",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520741325288080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "74010",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H15M17S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/NYkAAOSw2xRYSLlh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zW0AAOSwImRYSLl~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HmMAAOSwB09YSLmX/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Tavan Nautical Watch Crystals, Red Band, Mother of Pearl Face",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1350",
+    "UserID": "pinkadeline",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

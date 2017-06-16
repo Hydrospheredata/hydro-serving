@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "Description": "Via Ebay return procedure ONLY",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P21DT17H3M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Mixed Lots",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "GBP"
+  },
+  "ItemID": "292132137736",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MASSIVE-Job-Lot-Assorted-Pilgrim-Danish-Design-Jewellery-BNWT-FREE-UK-P-P-/292132137736",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "206.12",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T07:44:43.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "UK",
+  "AutoPay": "true",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T07:44:43.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Assorted",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Assorted",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Assorted",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Mixed Lot",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pilgrim Danish Design",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "MASSIVE! Job Lot Of Assorted Pilgrim Danish Design Jewellery (BNWT)  FREE UK P&P",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a MASSIVE! & highly collectable job lot of 43 pieces of assorted Pilgrim Danish Design jewellery.38 of the pieces come Brand New With Tags....5 pieces are Brand New Without Tags.The large & heavy lot consists of 12 x bracelets, 15 x necklaces, 7 x rings, 4 x pairs of earrings, 4 x zip charms & 1 x handbag charm.PLUS....7 x brand new & unused black Pilgrim organza bags & 4 x silver & gold base metal Pilgrim point of sale display signs.***All pieces included makes a grand total of 54 items*** This item will be dispatched within 3 days of receipt/clearance of payment.SHIPPING COSTS ARE AS FOLLOWS:-UK - FREE 2ND CLASS SIGNED FOR (PAYPAL, PERSONAL CHEQUES OR POSTAL ORDERS ONLY) EUROPE - \u00a317.50 INTERNATIONAL SIGNED FOR (PAYPAL ONLY) REST OF THE WORLD - \u00a324.50 INTERNATIONAL SIGNED FOR (PAYPAL ONLY)***PAYMENT TO BE MADE WITHIN FIVE DAYS OF FIRST AUCTION WON.....WE ALWAYS COMBINE SHIPPING COSTS FOR MULTIPLE PURCHASES PAID FOR ON ONE INVOICE*** ***WE ALWAYS TRY TO BE FAIR WITH OUR POST & PACKAGING RATES.....IN THE EVENT OF OUR OVER-ESTIMATING WILDLY, A PARTIAL REFUND WILL ALWAYS BE GIVEN***Thanks for looking and Happy Bidding!! Don't forget to check out our store! Be sure to add us to your favourites list!",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921321377368080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "guccigirl0709",
+    "FeedbackScore": "13830",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "gemz&amp;jewelz66",
+    "StoreURL": "http://stores.ebay.com/id=411879619"
+  },
+  "Location": "Stoke-on-Trent",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzkz/z/7OkAAOSwcB5ZKn9a/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxMzI5/z/Q~gAAOSw~y9ZKn9j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwNVgxNjAw/z/dcEAAOSwtGlZKn9x/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjU4/z/J9YAAOSwIaFZKn9~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3N1gxNjAw/z/KroAAOSw42JZKn-Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/5C4AAOSwxu5ZKn-c/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "ST9 9LB"
+}

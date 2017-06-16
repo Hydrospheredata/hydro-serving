@@ -1,0 +1,109 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "7***r",
+    "FeedbackScore": "429"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/qTwAAOSw-YBXGSjF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/O6IAAOSwYudXGSlW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTEwWDUwMA==/z/fIAAAOSw3mpXGSlU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/hEQAAOSwkEVXGSlb/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Samsonite-10392-Spinner-Mobile-Office-Wheeled-Briefcase-Black-/262399092710",
+  "ConvertedCurrentPrice": {
+    "value": "89.49",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Samsonite 10392 Spinner Mobile Office Wheeled Briefcase (Black) With the ease of movement the 4 spinner wheels allow and the well organized interior for your business essentials, the Samsonite Spinner Mobile Office makes the perfect business partner. Store your laptop in the padded computer section and keep your accessories organized with the multiple pockets and compartments. 1680D ballistic nylon with EVA foam backing4 spinner wheels for ease of mobilityLocking push button retractable handlesmart sleeve on back to secure over handles of luggagePadded top carry handleContrasting colored liningFront zippered pocket with organizer panel, key fob, zippered mesh pocket and slip pocketSmall front zippered pocketFront compartment features large gusseted pocket with two slip pocketsBack compartment features a padded laptop compartment and accordion style file pocketsLaptop compartment fits most 15.4\" laptops. Laptop compartment dimensions: 14.75\" x 12.5\" x 2\"Hidden ID tag on backWeight: 8 lbs, 9 ozExterior Dimensions: 17\" x 14.5\" x 9\"",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.49",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "United States",
+  "Seller": {
+    "FeedbackScore": "4151",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "quicksilver-trading"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Samsonite 10392 Spinner Mobile Office Wheeled Briefcase Black",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2016-04-21T19:34:12.000Z",
+  "HitCount": "458",
+  "TimeLeft": "P13DT4H17M34S",
+  "EndTime": "2017-06-15T19:34:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Samsonite"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "MPN",
+        "Value": "10392"
+      },
+      {
+        "Name": "UPC",
+        "Value": "043202177514"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262399092710",
+  "Storefront": {
+    "StoreName": "quicksilver-trading",
+    "StoreURL": "http://stores.ebay.com/id=705004230"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2623990927108080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

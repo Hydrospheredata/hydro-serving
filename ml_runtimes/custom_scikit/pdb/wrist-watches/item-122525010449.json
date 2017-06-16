@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "New York, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:01:38.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.95",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:01:38.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122525010449",
+  "HandlingTime": "15",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Casio Databank",
+        "Name": "Model"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "50 Metres / 5 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Casio Men's AW-80-1A2VCF Databank Analog/Digital Display Quartz Black Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Casio-Mens-AW-80-1A2VCF-Databank-Analog-Digital-Display-Quartz-Black-Watch-/122525010449",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225250104498080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "10075",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H43M54S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODc5WDQ4Ng==/z/HewAAOSwol5Y1Dwz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/ueQAAOSwWxNY1DxJ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/OA8AAOSw4CFY1Dw2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/uHUAAOSwWxNY1DxA/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk5/z/mTEAAOSwDKtY1DxD/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "\u2022 Round watch with world map at dial featuring time in 30 cities, LED light, two daily alarms, 24-hour countdown timer, 24-hour 1/100 second stop watch, 30 telephone number memory, and 12/24-hour formats \u2022 40 mm stainless steel case with mineral dial window \u2022 Quartz movement with analog and digital displays for dual time zone tracking. Ten-year battery \u2022 Resin band with buckle closure \u2022 Water resistant to 50 m (165 ft): In general, suitable for short periods of recreational swimming, but not diving or snorkeling",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "514",
+    "UserID": "travelbug2016",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

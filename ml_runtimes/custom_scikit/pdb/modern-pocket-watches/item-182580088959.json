@@ -1,0 +1,147 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "01863",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "BR> Swiss Made EST Pocket Watch 1 & 7/8\" outside diameter This is part of an estate sale. It is pre-owned. It looks unused. The cover is engraved base metal. It may be brass. The leather strap on it is of no value and will not be included. I wound it up. It kept good time for 18 hours. I probably could have wound it more, but did not want to risk it. If you purchase multiple items, wait for me to adjust the shipping cost before paying. Fine Print: If you have any questions about the item(s) on auction please contact me before the close of the auction. I will try to answer questions to the best of my ability. Shipping costs are the actual cost of shipping, packing materials, a padded envelope/box and dropping it off at the post office.",
+  "StartTime": "2017-05-17T23:39:42.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQzNFgxNjAw/z/sPQAAOSwT-FZCmAx/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "EST",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "j_fountas",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1487",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "72",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825800889598080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-16T23:39:42.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swiss-Made-EST-ES-17-Jewel-Brass-Pocket-Watch-Rabbit-Hunter-two-Dogs-Full-/182580088959",
+  "Location": "North Chelmsford, Massachusetts",
+  "Title": "Swiss Made EST ES+ 17 Jewel Brass Pocket Watch Rabbit Hunter & two Dogs Full",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "182580088959",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P16DT5H3S"
+}

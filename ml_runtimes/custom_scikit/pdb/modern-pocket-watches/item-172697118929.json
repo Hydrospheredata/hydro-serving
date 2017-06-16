@@ -1,0 +1,114 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "98023",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Christine Alexander Collectible Silver Pocket Watch Lovely Black Gift Box NewAwesome Gift for yourself or a loved one Women's High Quality Christine Alexander Pocket Watchwith Bezel Function StationaryRound Stainless Steel Silver Quartz Movement Dial Display Analog12\" Link Silver Chain Christine Alexander is no longer making any Pocket Watches- Store is Now Closed! Comes from Non-smoking & Pet-free homeThank you for stopping by",
+  "StartTime": "2017-05-27T03:16:39.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/UDEAAOSw-itXwRQX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kDEAAOSwgZ1XwRQB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OE4AAOSwMtxXwRQI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k1EAAOSwgZ1XwRQs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wXAAAOSw9NdXwRRR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-akAAOSwawpXwRRY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OzYAAOSwdzVXwRSR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~rcAAOSwIgNXwRhw/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Christine Alexandre",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver Stainless Steel",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "chocolate752011",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7770",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726971189298080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T03:16:39.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "22.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "22.95"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Christine-Alexander-Collectible-Silver-Stainless-Steel-Pocket-Watch-Gift-Box-/172697118929",
+  "Location": "Federal Way, Washington",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Christine Alexander Collectible Silver Stainless Steel Pocket Watch Gift Box",
+  "Storefront": {
+    "StoreName": "chocolate752011",
+    "StoreURL": "http://stores.ebay.com/id=1080820602"
+  },
+  "ItemID": "172697118929",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT8H41M2S"
+}

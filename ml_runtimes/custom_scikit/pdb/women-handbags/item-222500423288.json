@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQwMFgxNDAw/z/7HoAAOSwal5YLavl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQwMFgxNDAw/z/f4sAAOSw5cNYLavp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQwMFgxNDAw/z/-JsAAOSw44BYLavy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQwMFgxNDAw/z/u4oAAOSwImRYLav3/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Terrida-Pasha-office-bag-Black-PA1109-/222500423288",
+  "ConvertedCurrentPrice": {
+    "value": "451.72",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Genuine leatherDimensions: 16 x 3 x 11.8 inches (41 x 8 x 30 cm)Collection: Pash\u00e0 (womens)1 zippered pocketMade in Italy by artisans Made in Italy by artisans Dimensions: 16 x 3 x 11.8 inches Article in genuine leather completely handmadeOUTSIDE: Office bag with shoulder belt + 1 opened pocket + in the back of the bag between the handles you can enter the newspaper.INSIDE: 1 zippered pocket",
+  "Title": "Terrida Pash\u00e0 office bag, Black - PA1109",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "451.72",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Malintrada",
+  "Seller": {
+    "FeedbackScore": "34",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "fendess"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "IT",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "31045",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-05T13:07:56.000Z",
+  "HitCount": "24",
+  "TimeLeft": "P1DT20H16M28S",
+  "EndTime": "2017-06-04T13:07:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Terrida"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222500423288",
+  "Storefront": {
+    "StoreName": "Fendess",
+    "StoreURL": "http://stores.ebay.com/id=1225719973"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225004232888080_1.jpg",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

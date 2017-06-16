@@ -1,0 +1,81 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT12H51M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192204810963",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Hair-Comb-Crown-Shape-Acrylic-Antique-Gold-Hair-Accessory-/192204810963",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T00:12:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T00:12:32.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Crown",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Emerald (Imitation)",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Emerald",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Hair Comb",
+        "Name": "Style"
+      },
+      {
+        "Value": "Green",
+        "Name": "Color"
+      }
+    ]
+  },
+  "Title": "Vintage Hair Comb Crown Shape Acrylic Antique Gold Hair Accessory",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Vintage Hair Comb Crown Shape Acrylic Antique Gold Hair Accessory Material Acrylic Metal type Tin Alloy Size 7.5*6.0 cm",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922048109638080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kaklisideifzad_0",
+    "FeedbackScore": "21",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Concord, California",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwNFgxMTI1/z/60kAAOSwCU1Y4ZKe/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4MFgxMTE2/z/eeAAAOSwc-tY4ZKj/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "94518"
+}

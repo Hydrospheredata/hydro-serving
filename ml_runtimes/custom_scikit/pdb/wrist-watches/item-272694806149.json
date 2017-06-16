@@ -1,0 +1,82 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "LAHARPUR, UTTAR PRADESH",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:25:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "20.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:25:40.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694806149",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "White",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Seiko 5",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "20.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-SEIKO-5-DATE-AUTOMATIC-MENS-WRIST-WATCH-WHITE-COLOR-DIAL-/272694806149",
+  "Title": "VINTAGE SEIKO 5 DATE AUTOMATIC MEN'S WRIST WATCH WHITE COLOR DIAL",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726948061498080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "261135",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT17H58M38S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/WIMAAOSwblZZJyQz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/8oEAAOSwKytZJyQ~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/jfgAAOSwxu5ZJyRL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/uqsAAOSwn-tZJyRX/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "VINTAGE SEIKO 5 DATE AUTOMATIC MEN'S WRIST WATCH WHITE COLOR DIAL",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1",
+    "UserID": "moonwatches9",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

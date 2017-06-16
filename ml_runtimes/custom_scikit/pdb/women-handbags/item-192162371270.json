@@ -1,0 +1,99 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0mcAAOSwHptY9mX~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/dQwAAOSwIWVY9mYB/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BikAAOSwWWxY9mYE/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7o0AAOSwuspY9mYI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/CdwAAOSw5UZY9mYL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jQAAAOSw7U5Y9mYO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eWkAAOSwIWVY9mYQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nyIAAOSwVm5Y9mYT/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-JACOBS-NYLON-BIKER-BABY-DIAPER-BAG-CHANGING-PAD-NWT-295-Pink-/192162371270",
+  "ConvertedCurrentPrice": {
+    "value": "134.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new with changing pad",
+  "Title": "MARC JACOBS NYLON BIKER BABY DIAPER BAG WITH CHANGING PAD NWT $295 Pink",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "134.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Buffalo Grove, Illinois",
+  "Seller": {
+    "FeedbackScore": "849",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "upscaleresalebyme"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "60089",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-18T19:18:41.000Z",
+  "HitCount": "72",
+  "TimeLeft": "P15DT3H50M5S",
+  "EndTime": "2017-06-17T19:18:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MARC JACOBS NYLON BIKER BABY BAG",
+        "Value": "NWT $295"
+      },
+      {
+        "Name": "Brand",
+        "Value": "MARC JACOBS"
+      },
+      {
+        "Name": "Color",
+        "Value": "PINK FLEUR (683)"
+      },
+      {
+        "Name": "Shade",
+        "Value": "PINK FLEUR"
+      },
+      {
+        "Name": "Material",
+        "Value": "POLYESTER"
+      },
+      {
+        "Name": "Style",
+        "Value": "NYLON BIKER BABY BAG M0008297-683"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192162371270",
+  "Storefront": {
+    "StoreName": "upscaleresalebyme",
+    "StoreURL": "http://stores.ebay.com/id=202643064"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921623712708080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

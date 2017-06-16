@@ -1,0 +1,110 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.25"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "SG12UUBA3709465",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-23T06:26:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/G34AAOSwtGlZI9YK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/xdQAAOSwjL5ZI9YN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/ThYAAOSwY3BZI9YP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/dGUAAOSwsXFZI9YR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/SvMAAOSwAPVZI9YS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/4~AAAOSwi7RZI9YV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/Sx8AAOSwAPVZI9YX/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "100",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_ZG669600",
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225114245808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T06:26:32.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122511424580",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.25"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Web Flower Hollow Pocket Watch Retro Bronze Chain Pendant Necklace BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Web-Flower-Hollow-Pocket-Watch-Retro-Bronze-Chain-Pendant-Necklace-BA-/122511424580",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130026",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT11H48M28S"
+}

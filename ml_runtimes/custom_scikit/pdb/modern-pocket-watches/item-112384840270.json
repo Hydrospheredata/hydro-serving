@@ -1,0 +1,92 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "Title": "Women's Vintage Elegant Ceramics Flowers Quartz Pocket Watch With 80cm Chain",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.31"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Women's Vintage Elegant Ceramics Flowers Quartz Pocket Watch With 80cm Chain Product Details Product Dimensions: 4.3 x 3 x 0.9 inches Shipping Weight: 2.4 ounces Dial Diameter: 4.6 cm ; Dial thickness:1.4cm Material: Alloy Movement: Quartz ; Chain length: 80cm Full Hunter Pocket Watch with Blossom flower Design Discover the OurJewellery Collection of jewelry. The selection of high-quality jewelry featured in the OurJewellery Collection offers Great values at affordable Price, they mainly made of high quality Stainless Steel, Tungsten, Silver and Leather. Find a special gift for a loved one or a beautiful piece that complements your personal style with jewelry from the OurJewellery Collection.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1nMAAOSwzqFZAB2I/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/a-EAAOSwIWVZAB2L/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/j34AAOSwRUhZAB2N/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/kfUAAOSw7U5ZAB2Q/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "5",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "OurJewellery",
+        "Name": "Brand"
+      },
+      {
+        "Value": "889119881652",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0889119881652",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "living_goods",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "11730",
+    "PositiveFeedbackPercent": "99.3"
+  },
+  "StartTime": "2017-04-26T04:09:54.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1123848402708080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T04:09:54.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.31"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "SKU": "B01HWSPYXU",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Vintage-Elegant-Ceramics-Flowers-Quartz-Pocket-Watch-80cm-Chain-/112384840270",
+  "Storefront": {
+    "StoreName": "living_goods",
+    "StoreURL": "http://stores.ebay.com/id=1423545442"
+  },
+  "ItemID": "112384840270",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P24DT9H23M25S"
+}

@@ -1,0 +1,113 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P28DT2H40M55S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "A brand-new, unused, unworn and undamaged item presented in a lovely heart shape box.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.9",
+    "_currencyID": "USD"
+  },
+  "ItemID": "263018367221",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/9ct-Solid-Yellow-GOLD-Footprints-Toe-Ring-/263018367221?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "59.9",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T16:13:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "BR",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T16:13:59.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": "9k Gold",
+        "Name": "Metal Purity"
+      }
+    },
+    "Variation": {
+      "SKU": "sku-auc-0",
+      "StartPrice": {
+        "value": "59.9",
+        "_currencyID": "USD"
+      },
+      "SellingStatus": {
+        "QuantitySoldByPickupInStore": "0",
+        "QuantitySold": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Value": "9k Gold",
+          "Name": "Metal Purity"
+        }
+      },
+      "Quantity": "1"
+    }
+  },
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Handmade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "9k Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Brazil",
+        "Name": "Country//Region of Manufacture"
+      },
+      {
+        "Value": "Brazil",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "9ct Solid Yellow GOLD Footprints Toe Ring",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "9ct Solid Yellow GOLD Footprints Toe Ring Description:Condition: Brand newGold content: Genuine 9k Yellow GoldMaterial: 9K Solid Yellow Gold Hallmark: 9ctFinish: Hand PolishedWidth: 3.0mm (approx).Weight: 1.7 grams approximately Payment: Shipping:FREE Shipping! USA: FREE Registered Post including FULL insurance cover. Delivery: 15 to 30 working days. International Postage: FREE by Air Mail including insurance cover. Delivery: 15 to 30 working days.Important:All items are insured and are sent via registered mail Items are shipped after your payment has cleared to our account DestinationShipping CostInsurancePostage TypeUSAFREEFULLSent via registered Mail Delivery within 15 - 30 working daysInternationalFREEFULLSent via registered Mail Delivery within 15 - 30 working daysInsurance for items over $100FREECombined ShippingFREE &amp;amp;amp;amp;amp;lt;div style=\"text-align:center\"&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;a style=\"text-decoration:none\" href=\"http://mostpopular.sellathon.com/?id=AC1365599\"&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;img src=\"http://www.sellathon.com/Resources/Images/countercredit.gif\" border=\"0\"&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;gt; On Nov-11-16 at 10:31:14 PST, seller added the following information: On Dec-11-16 at 10:40:06 PST, seller added the following information: On Jan-10-17 at 10:46:07 PST, seller added the following information: On Feb-09-17 at 11:19:15 PST, seller added the following information: On Mar-05-17 at 07:22:10 PST, seller added the following information:",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "lumajewelers",
+    "FeedbackScore": "182",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "Luma Jewelers",
+    "StoreURL": "http://stores.ebay.com/id=1268317248"
+  },
+  "Quantity": "1",
+  "Location": "Factory Direct",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODA5WDEwNjI=/z/KYAAAOSwuLZY1hfM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/kwgAAOSwDKtY1hee/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/TC8AAOSw32lY1hej/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings"
+}

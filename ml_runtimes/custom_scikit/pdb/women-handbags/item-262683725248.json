@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzQ4WDk1MQ==/z/MPoAAOSw4shX9XrU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/E6kAAOSwzaJX9Xra/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/JhcAAOSwLnBX9Xqj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/HloAAOSw-CpX9Xqk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/i-YAAOSw8w1X9Xql/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/J2kAAOSw-CpX9Xrt/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzgyWDcxNA==/z/TJ4AAOSwal5YCTIk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/jHkAAOSw8w1X9Xqr/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/~zwAAOSwOyJX9Xqs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/MpoAAOSw4shX9Xrk/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/OM0AAOSwYIxX9Xrz/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/F58AAOSwzaJX9Xr7/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gina-B-International-Green-Leather-Luca-Bella-Laptop-Diaper-Bag-/262683725248",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "L-18\"XH-12\"XD-5\",strap drop-7/ 42. Bag in great pre- owned condition,show light use signs, clean interior and from a smoke free home .",
+  "Title": "Gina B International Green Leather \"Luca Bella\" Laptop /Diaper Bag.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Dumfries, Virginia",
+  "Seller": {
+    "FeedbackScore": "735",
+    "PositiveFeedbackPercent": "97.2",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "jayjayhouseoffashion"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "22026",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-10-20T21:10:27.000Z",
+  "HitCount": "64",
+  "TimeLeft": "P15DT5H57M6S",
+  "EndTime": "2017-06-17T21:10:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Gina B International"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262683725248",
+  "Storefront": {
+    "StoreName": "jayjayhouseoffashion",
+    "StoreURL": "http://stores.ebay.com/id=1177138661"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2626837252488080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

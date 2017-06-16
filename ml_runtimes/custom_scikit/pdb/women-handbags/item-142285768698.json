@@ -1,0 +1,125 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "Storefront": {
+    "StoreName": "Scrunchies by Sherry",
+    "StoreURL": "http://stores.ebay.com/id=23205803"
+  },
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UjYAAOSw4CFYqyNk/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Laptop-Sleeve-Case-Fits-most-13-Laptops-/142285768698?var=",
+  "ConvertedCurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Laptop Sleeve Choose your print from drop down box above Any bag can be a laptop bag when you place your laptop into this padded sleeve and hit the road. Whether it's for work or for fun, your laptop will look stylish in this pretty protector. Padded with lightweight, protective foam Accommodates most 13\" laptops (measure your screen diagonally) If this does not fit, do say it was not described since this will not fit all laptops Double-zip L-closure Dimensions 14\u201d w x 10 \u00be\u201d h x 1\u201d d Machine wash cool, gentle cycle Do not bleach Line dry New with tags Thanks for visiting, please come again!!!!",
+  "Title": "Vera Bradley Laptop Sleeve Case Fits most 13\" Laptops",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.95",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Largo, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "12693",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "scrunchiesbysherry"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33773",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": {
+        "VariationSpecificValue": "Blush Pink",
+        "PictureURL": "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/VGMAAOSw4CFYqyNw/$_57.JPG?set_id=8800005007"
+      },
+      "VariationSpecificName": "Color"
+    },
+    "Variation": {
+      "Quantity": "3",
+      "StartPrice": {
+        "value": "59.95",
+        "_currencyID": "USD"
+      },
+      "SKU": "15703-376",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Color",
+          "Value": "Blush Pink"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": "Blush Pink"
+      }
+    }
+  },
+  "StartTime": "2017-02-20T17:22:41.000Z",
+  "HitCount": "185",
+  "TimeLeft": "P18DT2H12M4S",
+  "EndTime": "2017-06-20T17:22:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Sleeve"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Size",
+        "Value": "14\u201d w x 10 \u00be\u201d h x 1\u201d d"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142285768698",
+  "PrimaryCategoryID": "169293",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "3",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "AZ Laptop Sleeve $13.30 Back Wall R Shelf 5",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

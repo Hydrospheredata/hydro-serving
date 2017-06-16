@@ -1,0 +1,57 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "28630",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "I have a Antique Russia Silver BOLHEVIK Quartz Pocket Watch & Money Clip This is a Silver Plated Quartz Watch with a white face and vintage Soviet Pattern Design and money clip... The Watch measures 2 inches round, the Pocket watch chain is 14 Inches... comes in foil gift box...",
+  "StartTime": "2017-05-25T14:52:54.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTM5/z/DqgAAOSwZVlXs7jM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTA3/z/D-AAAOSwZVlXs7jb/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "oldtimeytreasuresforyou",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "276",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019358114738080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:52:54.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Russia-BOLHEVIK-Silver-Quarts-Pocket-Watch-and-Money-Clip-Set-/201935811473",
+  "Location": "Granite Falls, North Carolina",
+  "Title": "Russia BOLHEVIK Silver Quarts  Pocket Watch and Money Clip Set",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "201935811473",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H16M10S"
+}

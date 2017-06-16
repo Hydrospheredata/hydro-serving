@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P2DT14H32M8S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543076071",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NEW-JMA-Stainless-Steel-SILVER-TONE-BLUE-ELEPHANT-Omega-Necklace-Earrings-Set-/322543076071",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "199.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:16:51.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T02:16:51.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "jma",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "NEW JMA Stainless Steel SILVER TONE BLUE ELEPHANT Omega Necklace Earrings Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Track Page Views With Auctiva's FREE Counter On Jun-22-15 at 13:14:48 PDT, seller added the following information: Every buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225430760718080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "designeritemsandmore",
+    "FeedbackScore": "4544",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Designer Items and More",
+    "StoreURL": "http://stores.ebay.com/id=77272525"
+  },
+  "Quantity": "1",
+  "Location": "Santa Monica, California",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/l1sAAOSw-vlViEmM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/6-0AAOSwyQtViEmN/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/rPoAAOSw~gRViEmO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/9QUAAOSw9N1ViEmP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/rWYAAOSw~gRViEmR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/vrkAAOSwT6pViEmS/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/c4AAAOSwu4BViEmT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7I8AAOSwyQtViEmU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/rfcAAOSw~gRViEmV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/dAoAAOSwu4BViEmW/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "90401"
+}

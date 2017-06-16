@@ -1,0 +1,69 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "68310",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-05-30T01:01:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/A9oAAOSwMgdXxfm4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/OkAAAOSw5ClXxfm5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/3gQAAOSw-kdXxfm7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzIwWDEyODA=/z/BCQAAOSwMgdXxfm8/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "kellyjo6",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "5418",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525660233448080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-29T01:01:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Auction price refunded upon receipt of item and only if item was not as described. We do not refund shipping charges.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cedar-Creek-Quartz-POCKET-WATCH-Chain-AMERICAN-EAGLE-Brass-Finish-/152566023344",
+  "Location": "Beatrice, Nebraska",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Cedar Creek Quartz POCKET WATCH with Chain AMERICAN EAGLE Brass Finish",
+  "Storefront": {
+    "StoreName": "Complete eSales",
+    "StoreURL": "http://stores.ebay.com/id=6676572"
+  },
+  "ItemID": "152566023344",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P28DT6H26M59S"
+}

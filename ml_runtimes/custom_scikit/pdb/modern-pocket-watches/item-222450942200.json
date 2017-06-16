@@ -1,0 +1,116 @@
+{
+  "ExcludeShipToLocation": [
+    "CN",
+    "AT",
+    "BE",
+    "FR",
+    "DE",
+    "CH"
+  ],
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "SecondaryCategoryIDPath": "281:14324:10329",
+  "HandlingTime": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/61EAAOSwTZ1XmXH1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODM3WDEyMDA=/z/Dn8AAOSwENxXmXHq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc0WDEyMDA=/z/nFkAAOSwqfNXmXHL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODU2WDEyMDA=/z/KyUAAOSwIgNXmXHb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/wUkAAOSwARZXmXH-/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "Quantity": "3",
+  "Country": "US",
+  "Seller": {
+    "UserID": "bestseller2046watch",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1274",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "StartTime": "2017-03-25T02:30:03.000Z",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "AutoPay": "false",
+  "HighBidder": {
+    "UserID": "s***0",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1136",
+    "FeedbackPrivate": "false"
+  },
+  "ListingType": "FixedPriceItem",
+  "ConditionDescription": "100% brand new+a gift bag",
+  "Title": "Retro Bronze Hollow Heart Locket Quartz Pocket Watch Pendant Necklace Chain Gift",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222450942200",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Necklace Watches",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Bronze-Hollow-Heart-Locket-Quartz-Pocket-Watch-Pendant-Necklace-Chain-Gift-/222450942200",
+  "Storefront": {
+    "StoreName": "Watches Jewelry Store",
+    "StoreURL": "http://stores.ebay.com/id=1499064193"
+  },
+  "QuantitySold": "1",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "Subtitle": "Fast Free shipping,Gift for Her,Mother's Day,a Gift bag",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "HitCount": "110",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryID": "3938",
+  "SKU": "a41352",
+  "SecondaryCategoryID": "10329",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2224509422008080_1.jpg",
+  "BestOfferEnabled": "true",
+  "BidCount": "0",
+  "TopRatedListing": "true",
+  "EndTime": "2017-06-23T02:30:03.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Quincy, Massachusetts",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "TimeLeft": "P22DT10H37M17S"
+}

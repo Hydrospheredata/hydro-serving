@@ -1,0 +1,82 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "78599",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Awesome pocket fossil watch. Press button and it opens. Gold tone numbers on face. Minor wear, no chain included. Excellent time keeping and fresh battery.\u00a0 U.S. SHIPPING ONLY",
+  "StartTime": "2017-05-28T05:36:28.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzI5WDc0NQ==/z/mfAAAOSwcB5ZKmCw/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjYyWDc0NQ==/z/fPQAAOSwY3BZKmCx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjIyWDczOQ==/z/K7IAAOSwZ4dZKmCx/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "oscar3667",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "262",
+    "PositiveFeedbackPercent": "95.8"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2921320691928080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T05:36:28.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "19.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Pocket-Watch-Silver-Tone-Quarts-/292132069192",
+  "Location": "Weslaco, Texas",
+  "Title": "Fossil Pocket Watch Silver Tone Quarts",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "292132069192",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT11H1M32S"
+}

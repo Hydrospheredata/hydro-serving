@@ -1,0 +1,86 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTExNVg4MzY=/z/OYoAAOSwR29ZEshk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExNVg4MzY=/z/zwcAAOSwBt5ZEshp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExNVg4MzY=/z/-88AAOSw9OFZEsht/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExNVg4MzY=/z/aTAAAOSwX61ZEshx/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Chanel-Double-Zip-Blue-Caviar-Handle-bag-7-inches-/252969756473",
+  "ConvertedCurrentPrice": {
+    "value": "492.5",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "size: L 7\" * H 3.75\" * D 1.1\" (inches) Caviar leather blue; Detachable Chain shoulder strap.",
+  "Title": "New-Chanel-Double-Zip-Blue-Caviar-Handle-bag 7 inches.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "492.5",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Fairburn, Georgia",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "juliebrenna0"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "30213",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T02:07:34.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P9DT11H54M45S",
+  "EndTime": "2017-06-12T02:07:34.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "CHANEL"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252969756473",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2529697564738080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

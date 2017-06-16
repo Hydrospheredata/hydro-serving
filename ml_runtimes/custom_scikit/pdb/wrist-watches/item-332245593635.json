@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "369.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "SA",
+  "Location": "Riyadh",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:17:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "369.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:17:32.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "100 Metres / 10 ATM",
+        "Name": "Water Resistance"
+      },
+      {
+        "Value": "Swaziland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Certina DS Podium",
+        "Name": "Model"
+      },
+      {
+        "Value": "Certina",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245593635",
+  "HandlingTime": "3",
+  "Description": "Brand:CertinaCollection:DS Podium Big SizeCase width:40 mmCase depth:9,2 mmGender:MensCase Material:Stainless steelDial:BlackStrap/Bracelet:Leather strapWater resistant:10 barMovement:QuartzCaliberETA 955.112Glass:Sapphire crystalClasp type:Butterfly claspDate:Yes",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Certina-DS-Podium-Big-Size-C001-610-16-057-00-Watch-Men-/332245593635",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322455936358080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H53M48S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTMxWDgwMA==/z/3WgAAOSwDiBZLpfo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/oNMAAOSw42dZLpe8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/ptEAAOSww9xZLpfL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/NWEAAOSww5hZLpeq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/QFoAAOSwYvFZLpew/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Certina DS Podium Big Size C001.610.16.057.00 Watch for Men",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "94",
+    "UserID": "distinguished.collector",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be returned intact (same as received)\nBuyer should pay for the return shipping fees"
+  }
+}

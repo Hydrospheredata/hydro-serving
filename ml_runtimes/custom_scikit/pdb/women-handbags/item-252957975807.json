@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/AvQAAOSwaB5Xl4u9/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/nD8AAOSwZVlXl4vA/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/nLIAAOSwZVlXl4vD/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/FDIAAOSwbsBXl4vE/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/JFIAAOSweXhXl4vI/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/JJ4AAOSweXhXl4vK/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/9o4AAOSwENxXl4vM/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/diMAAOSwdzVXl4vQ/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LESPORTSAC-Small-Edie-Backpack-Tropical-Voyage-9808-P618-MRSP-100-/252957975807",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is a small size backpack come with drawstring closure and front flap with magnetic closure. On the side come with zipper open and closure. It has a small front pocket with zipper and inside with zipper pocket too. Check photos for the styles.",
+  "Title": "LESPORTSAC Small Edie Backpack Tropical Voyage 9808  P618 MRSP $100",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1318",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "hlam8982"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77072",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T21:41:27.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P22DT3H59M56S",
+  "EndTime": "2017-06-24T21:41:27.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Cambodia"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883681875088"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252957975807",
+  "Storefront": {
+    "StoreName": "hlam8982",
+    "StoreURL": "http://stores.ebay.com/id=1164183026"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529579758078080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

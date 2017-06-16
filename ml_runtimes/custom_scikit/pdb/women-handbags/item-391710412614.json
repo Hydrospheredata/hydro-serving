@@ -1,0 +1,87 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3917104126148080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/nzgAAOSwWxNYq8W0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/DN8AAOSwtfhYq8W~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTc2WDU3Ng==/z/iEwAAOSw1DtXKt3D/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Stroll-Around-Baby-Bag-Beautiful-Katalina-Pink-Diamond-NWT-/391710412614",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Stroll Around Baby Bag. This wonderful baby bag is what you need to keep all baby's necessities neatly organized. Details15\" strap drop 12\" removable stroller straps to attach bag to stroller handlesExterior pocket include two slip pockets, and a front compartment containing the changing pad and two mesh pocketsChanging pad unsnaps from front compartment for launderingInterior features laminated fabric for cleaning, and five mesh pocketsZip-top closure Care Tips Machine wash cold gentle cycle. Use only non-chlorine bleach as needed, line dry. Dimensions 16 \u00bd\" W x 12\" H x 5 \u00bd\" D with 15\" strap drop, 12\" removable stroller straps Disclaimer:We are not an authorized Vera Bradley representative, distributor or retailer, and are not in anyway affiliated with Vera Bradley, or its products. \"BUT WE DO GUARANTEE the quality of all our products.",
+  "Title": "Vera Bradley Stroll Around Baby Bag Beautiful \"Katalina Pink Diamond\"  NWT!",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "FeedbackScore": "1267",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pearljade_29"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77044",
+  "GlobalShipping": "true",
+  "Quantity": "8",
+  "StartTime": "2017-02-21T04:45:32.000Z",
+  "HitCount": "53",
+  "TimeLeft": "P18DT13H14M10S",
+  "EndTime": "2017-06-21T04:45:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Stroll Around Baby Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Purple"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003317082"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "391710412614",
+  "Storefront": {
+    "StoreName": "Kenyalang_871",
+    "StoreURL": "http://stores.ebay.com/id=123482802"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "In order to qualify for this refund, items must be returned in the exact same condition in which they were received (that includes maintaining the manufacturer\u2019s seal if one exists) within fourteen (14) days of receipt or the transaction must be cancelled before the item is shipped. Buyer is responsible for any additional shipping expenses to return the unwanted item including fully insured for return. In cased return item damage during the process return seller will not be responsible.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "14871-331",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

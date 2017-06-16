@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P28DT20H26M31S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "62.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272701493198",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DRAG-QUEEN-CRYSTAL-GOLD-NECKLACE-CLIP-EARRINGS-5-L-PAGEANT-STAGE-SET-BRIDAL-/272701493198",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "62.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T08:31:41.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T08:31:41.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Rhodium",
+        "Name": "Material"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "DRAG QUEEN CRYSTAL GOLD NECKLACE CLIP EARRINGS (5\"L) PAGEANT STAGE SET BRIDAL",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "~ GOLD CLEAR CRYSTAL NECKLACE CLIP EARRINGS ~ Necklace 18\" + Ext. Lobster Clasp Drop 7\" Long Clip On Earrings 5\" Long With Rubber Backs For Hypoallergenic, Comfort Glamorous Spot Light Radiant Ready Must Ship Priority Med Box ($13.00) Due To Size Sophia Collection",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2727014931988080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "dragqueenjewelry_0",
+    "FeedbackScore": "25",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "Iced Out Fashion Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=1562152849"
+  },
+  "Quantity": "1",
+  "Location": "San Antonio, Texas",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg3NTk=/z/w5UAAOSwnONZC1kq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTE4/z/koYAAOSwlndZC1lH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5OVg3NTA=/z/9YcAAOSwhvFZC1lR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NDk=/z/NpkAAOSwjqVZC1lb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NTI=/z/WJkAAOSwT-FZC1ls/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDI0/z/IEUAAOSwnONZC103/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "78217"
+}

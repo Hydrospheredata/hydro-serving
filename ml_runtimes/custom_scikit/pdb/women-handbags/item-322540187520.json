@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk5WDE1OTk=/z/eDgAAOSwcaFZHcUa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE1OTk=/z/mqUAAOSwq1JZHcUk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE1OTk=/z/J8AAAOSwBt5ZHcUt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE1OTk=/z/0QsAAOSwaeRZHcQv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE1OTk=/z/LIsAAOSwZKBZHcQy/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/COACH-13826-Poppy-Signature-OP-Art-Glam-Bag-Tote-Purse-black-/322540187520",
+  "ConvertedCurrentPrice": {
+    "value": "57.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "POPPY OP ART GLAM BAG. This bag has no fading the color is Black with the op art \"C\" in VERY BLACK. This Coach bag is in excellent used condition. It is a large bag, and measure approximately 15 inches across. It is trimmed in metallic Black patent leather, with silver HARDWARE. SILVER METALLIC POPPY PATCH... 2 exterior zippered compartments on front of bag.Interior is a gorgeous RED SATEEN lining that is in pristine condition. Inside is 2 open pockets and a large zip close to keep separate articles. Also a built in Key Holder. 2 Original HANGTAGS.",
+  "Title": "COACH #13826 Poppy Signature OP Art Glam Bag Tote Purse - black",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "57.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Kitty Hawk, North Carolina",
+  "Seller": {
+    "FeedbackScore": "341",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "outerbankstreasure"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "MinimumToBid": {
+    "value": "57.0",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "27949",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:23:58.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P2DT23H17M4S",
+  "EndTime": "2017-06-05T13:23:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322540187520",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225401875208080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

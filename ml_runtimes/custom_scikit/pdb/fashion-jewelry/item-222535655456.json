@@ -1,0 +1,95 @@
+{
+  "HandlingTime": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "222535655456",
+  "TimeLeft": "P9DT23H7M1S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-05T11:22:43.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PostalCode": "44056",
+  "ConvertedCurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Brighton silver 42 inch Necklace with various beads (includes jewelry pouch)",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T11:22:43.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Statement",
+        "Name": "Style"
+      },
+      {
+        "Value": "sil",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-silver-42-inch-Necklace-various-beads-includes-jewelry-pouch-/222535655456",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Macedonia, Ohio",
+  "Description": "This auction is for a used, but in very good shape, jewelry item. Item specifics are below: Brand: Brighton (includes jewelry pouch)Color: Silver and various beadsNecklace hangs about 21 inches Please view my other items and I will be happy to combine shipping. If you purchase the product and not satisfied with the product upon delivery, I am happy to exchange the product for the amount paid. All items come from a smoke-free home. All items will be shipped via USPS with delivery confirmation. I accept Paypal only Thank you for viewing this item and please contact me with any questions",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225356554568080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "e_brown2",
+    "FeedbackScore": "424",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "60.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "4",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/V-cAAOSwwbdWL-oB/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/lvMAAOSw~bFWL-oI/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/i64AAOSw9mFWL-oQ/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/mOQAAOSw~bFWL-oW/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "CurrentPrice": {
+    "value": "35.0",
+    "_currencyID": "USD"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "ReturnPolicy": {
+    "Description": "30 Days No Hassle Returns",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 days",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272678487340",
+  "Quantity": "5",
+  "TimeLeft": "P13DT2H50M59S",
+  "ListingStatus": "Active",
+  "Title": "Official Gold Plated Beauty & The Beast Enchanted Rose Ring from Disney Couture",
+  "PrimaryCategoryName": "Jewellery & Watches:Costume Jewellery:Other Costume Jewellery",
+  "QuantitySold": "1",
+  "Site": "UK",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "PaymentAllowedSite": [
+    "Netherlands",
+    "Switzerland",
+    "Singapore",
+    "Belgium_French",
+    "Poland",
+    "Belgium_Dutch"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "GBP"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "46.36",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-05-19T17:59:47.000Z",
+  "HighBidder": {
+    "UserID": "4***1",
+    "FeedbackScore": "74",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Blue"
+  },
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "GB",
+  "PrimaryCategoryID": "499",
+  "EndTime": "2017-06-18T17:59:47.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "S",
+          "M",
+          "L"
+        ],
+        "Name": "Size"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "22961-1",
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "1"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "S",
+            "Name": "Size"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "22961-2",
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "M",
+            "Name": "Size"
+          }
+        },
+        "Quantity": "2"
+      },
+      {
+        "SKU": "22961-3",
+        "StartPrice": {
+          "value": "35.99",
+          "_currencyID": "GBP"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "L",
+            "Name": "Size"
+          }
+        },
+        "Quantity": "2"
+      }
+    ]
+  },
+  "AvailableForPickupDropOff": "true",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Disney Couture",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Metallics",
+        "Name": "Main Colour"
+      },
+      {
+        "Value": "Ladies Beauty and the Beast",
+        "Name": "Shop Category"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Official-Gold-Plated-Beauty-Beast-Enchanted-Rose-Ring-Disney-Couture-/272678487340?var=",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Bristol, UK",
+  "Description": "100% Officially Licensed Approved Merchandise Order before 3pm weekdays for same day despatch - Hassle free returns - Established 2004 Gold Plated Beauty & The Beast Enchanted Rose Ring from Disney Couture Mens T-Shirts Ladies T-Shirts Kids T-Shirts Other Featuring the Enchanted Rose from the classic Disney Beauty & The Beast movie, this special ring will melt the heart of any fan. More info: - Gold Plated Beauty & The Beast Enchanted Rose Ring from Disney Couture - 14kt gold-plated and enamel ring with red rose detail. - Available in three sizes (details below) - Presented in a Disney Couture branded pouch - 100% official merchandise Small = US size 6 (equivalent to size L) Medium = US size 7 (equivalent to size N) Large = US size 8 (equivalent to size P) Style ref: DYR0202 NB: We are unable to ship this item to Australia, New Zealand, US and Japan. Officially Licensed Merchandise You are buying from an official manufacturer of merchandise. TruffleShuffle only sells great quality cotton t-shirts with long lasting screenprinted graphics. Beware of cheap, counterfeit iron-on transfer t-shirts available on eBay.",
+  "GlobalShipping": "false",
+  "NewBestOffer": "false",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "UserID": "truffleshuffletshirts",
+    "FeedbackScore": "23435",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "TruffleShuffleCom",
+    "StoreURL": "http://stores.ebay.com/id=1026202376"
+  },
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "HandlingTime": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "80",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjYxWDYxNw==/z/BSsAAOSw42dZHzKW/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,73 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "27320",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "This watch runs but I don't know if it is accurate. Face of watch has \"JAPAN MOVT\" on it. There are two nicks on the back cover. It will ship with a plastic tab on top that will need to be removed to operate. Chain is approximately 1' long not including clasps. Please contact with any questions because I do not accept returns. I use recycled/repurposed shipping materials whenever possible. Smoke-free home.",
+  "StartTime": "2017-05-31T14:59:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/p9cAAOSwrhBZLtfv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/JrEAAOSwIaFZLtgJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/EOYAAOSwlMFZLtgl/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "tabbycattabby",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "215",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023344725248080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T14:59:44.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Costume-Pocket-Watch-Commemorative-Eagle-/302334472524",
+  "Location": "Reidsville, North Carolina",
+  "Title": "Costume Pocket Watch Commemorative Eagle",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302334472524",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT20H26M17S"
+}

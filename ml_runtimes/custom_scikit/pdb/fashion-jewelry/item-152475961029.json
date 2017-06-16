@@ -1,0 +1,109 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P10DT7H3M55S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "56.99",
+    "_currencyID": "USD"
+  },
+  "SKU": "D3075",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "152475961029",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/14k-Yellow-Rose-Gold-Flower-Toe-Ring-/152475961029",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "56.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-03-17T20:52:13.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-15T20:52:13.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Metal"
+      },
+      {
+        "Value": "14k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": ".77 Grams",
+        "Name": "Weight"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "14k Yellow & Rose Gold  Flower Toe Ring",
+  "ExcludeShipToLocation": [
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "TR",
+    "AE",
+    "YE"
+  ],
+  "BidCount": "0",
+  "Description": "14k Yellow Gold Plain High Polished Adjustable Toe Ring' data-content=\" Research closed items like this Research sellers who sold items like this Search eBay for current listings like this \" data-original-title=\"\">14k Yellow Gold Flower Toe Ring 14K Yellow& Rose Gold .77 grams 4mm wide with 7mm Flower Matte and Polished Rose Gold Flower design Adjustable Photo enlarged to show detail Questions? *Contact us at BocaGold for any questions regarding this auction. 1-561-368-3173. Please ask all questions before bidding. Payment: We accept Mastercard, Visa, Discover & American Express. PayPal - for Secure online transactions Shipping: FREE Ground Shipping. $1 each additional item after 3 We ship Worldwide.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1524759610298080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "bocagold",
+    "FeedbackScore": "10321",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "bocagold",
+    "StoreURL": "http://stores.ebay.com/id=23078602"
+  },
+  "Quantity": "2",
+  "Location": "Boca Raton, Florida",
+  "HitCount": "15",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/~YkAAOSwSlBYzEx5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMwMFgxMzAw/z/Cz0AAOSw2gxYzEx6/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "33433"
+}

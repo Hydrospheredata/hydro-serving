@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P6DT17H38M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292140699690",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/handmade-dried-flower-bangle-Real-flower-Bangle-gift-her-/292140699690",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T03:33:02.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T03:33:02.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Resin",
+        "Name": "Material"
+      },
+      {
+        "Value": "Size: Inner Dia. 54 MM,58 MM,60 MM,62 MM for selec",
+        "Name": "Length (inches)"
+      }
+    ]
+  },
+  "Title": "handmade dried flower bangle,Real flower Bangle,gift for her",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Item: Real Dried Flower Resin Bracelet Item No.: DFB001 Condition: Brand New Material: Resin + Real Dried Flower Size: Inner Dia. 54 MM,58 MM,60 MM,62 MM for selection Thickness: 20 MM width *8.6 MM height Weight: about 15 g Color: yellow flower Package: one bracelet one paper box packing",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921406996908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "jietinwe_0",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "Location": "Yiwu, \u6d59\u6c5f\u7701",
+  "HitCount": "6",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IQMAAOSwYlRZNMv~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/WwIAAOSwZKBZNMv3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/B6YAAOSwAPVZNMv5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/BwcAAOSwjL5ZNMv8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/A7UAAOSwq1JZNMv1/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500"
+}

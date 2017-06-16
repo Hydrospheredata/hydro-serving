@@ -1,0 +1,143 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "17325",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "GEORGE WASHINGTON 1ST PRESIDENT 1789-1797 POCKET WATCH NEW",
+  "StartTime": "2017-05-30T15:32:53.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/vOkAAOSwxcRW9cHe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/B4sAAOSwoudW9cHc/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "19.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DAI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "jdggettysburg",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "12025",
+    "PositiveFeedbackPercent": "99.8"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225292702858080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T15:32:53.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "19.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/GEORGE-WASHINGTON-1ST-PRESIDENT-1789-1797-POCKET-WATCH-NEW-/222529270285",
+  "Location": "Gettysburg, Pennsylvania",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "GEORGE WASHINGTON 1ST PRESIDENT 1789-1797 POCKET WATCH NEW",
+  "Storefront": {
+    "StoreName": "Gettysburg Civil War Store",
+    "StoreURL": "http://stores.ebay.com/id=716590136"
+  },
+  "ItemID": "222529270285",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT20H58M59S"
+}

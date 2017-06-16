@@ -1,0 +1,337 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "13.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:58:28.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "8",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "13.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:58:28.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "1597274",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Paradise 2016 Hot Boy Girl Alarm Date Digital Multifunction Sport LED Light $13.77 Item Type: Quartz Wristwatches Case Material: Plastic Brand Name: Hcandice Dial Window Material Type: Glass Water Resistance Depth: No waterproof Movement: Quartz Dial Diameter: 44 mm Clasp Type: Buckle Boxes & Cases Material: No package Gender: Children Style: Sport Feature: None Band Material Type: Silicone Case Shape: Round Band Length: 23.3 cm Band Width: 17 mm Case Thickness: 14 mm Model Number: PWM Item Type: Wristwatches Sport Type: Hiking Dial Material Type: Acrylic Condition: New without tags Dial Display: Digital \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Paradise-2016-Hot-Boy-Girl-Alarm-Date-Digital-Multifunction-Sport-LED-Light-/192203236499?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "13.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-c",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-c",
+              "Name": "MPN"
+            },
+            {
+              "Value": "C",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "13.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-h",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-h",
+              "Name": "MPN"
+            },
+            {
+              "Value": "H",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-a",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-a",
+              "Name": "MPN"
+            },
+            {
+              "Value": "A",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-b",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-b",
+              "Name": "MPN"
+            },
+            {
+              "Value": "B",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-d",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-d",
+              "Name": "MPN"
+            },
+            {
+              "Value": "D",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-e",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-e",
+              "Name": "MPN"
+            },
+            {
+              "Value": "E",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-f",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-f",
+              "Name": "MPN"
+            },
+            {
+              "Value": "F",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1597274-g",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1597274-g",
+              "Name": "MPN"
+            },
+            {
+              "Value": "G",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "1597274-a",
+            "1597274-b",
+            "1597274-c",
+            "1597274-d",
+            "1597274-e",
+            "1597274-f",
+            "1597274-g",
+            "1597274-h"
+          ],
+          "Name": "MPN"
+        },
+        {
+          "Value": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "Name": "Color"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "C",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792381.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "H",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792392.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "A",
+          "PictureURL": "https://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792377.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "B",
+          "PictureURL": "https://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792379.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "D",
+          "PictureURL": "https://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792383.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "E",
+          "PictureURL": "https://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792385.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "F",
+          "PictureURL": "https://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792387.jpg?v=1481521031"
+        },
+        {
+          "VariationSpecificValue": "G",
+          "PictureURL": "https://cdn.shopify.com/s/files/1/1459/0556/products/product-image-105792389.jpg?v=1481521031"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "ItemID": "192203236499",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H37M14S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/0k0AAOSwjqVZLqHX/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Paradise 2016 Hot Boy Girl Alarm Date Digital Multifunction Sport LED Light",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

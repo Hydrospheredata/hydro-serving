@@ -1,0 +1,175 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.94"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Jechin Watch: Classic Business Casual Dress Watch Design. Combines quality, leading edge fashion, and value. - Quartz Movement - Full Hunter Flip Case-Double Sided Polishing- Smooth - Vintage Pocket Watch with a Stainless Steel Chain Length:14 inche (37.5cm) - Exquisite Pocket Watch for Men and Women, Presented In a Beautiful Jechin Gift Box - Travel time accuracy of the implementation of industry standards,stable performance,zero error,long life, strong and reliable Jechin Classic Smooth Stainless Steel Case White Arabic Numbers Modern Pocket",
+  "StartTime": "2017-05-25T14:28:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ebUAAOSwxu5ZJuoP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDgx/z/MbUAAOSwX9FZJuoP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/UrEAAOSwjqVZJuoP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0MFgxNTAw/z/J6AAAOSwn-tZJuoO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9isAAOSws5pZJuoP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ4NVgxNTAw/z/D~EAAOSww5hZJuoP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMVgxNTAw/z/lC4AAOSw~y9ZJuoP/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "5060237140417",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Jechin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Js-cl11-b",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.1 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.46 x W 3.07 x H 1.1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "greysharky",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "16122",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "22",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1726945386048080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:28:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.94"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Jechin Classic Smooth Stainless Steel Case White Arabic Numbers Modern Pocket",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Jechin-Classic-Smooth-Stainless-Steel-Case-White-Arabic-Numbers-Modern-Pocket-/172694538604",
+  "Storefront": {
+    "StoreName": "greysharky",
+    "StoreURL": "http://stores.ebay.com/id=117487273"
+  },
+  "ItemID": "172694538604",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT19H51M37S"
+}

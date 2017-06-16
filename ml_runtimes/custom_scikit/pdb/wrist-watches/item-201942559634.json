@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Jackson, Missouri",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:09:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=72629058",
+    "StoreName": "Recapture Time"
+  },
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T14:09:24.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Up for sale is this vintage Waltham 17 Jewels women's wristwatch movement as found in an watchmakers estate. The watch is marked as followed Waltham Watch Co.17 Jewels All over all the watch is in unknown condition and will be sold as is for parts or repair only. Please check my other auctions too for more great Items. If you have any questions feel free to send me an E-Mail and I will try to answer them as best as i can.",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942559634",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Waltham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE WALTHAM 17 JEWELS  WOMEN'S WRISTWATCH MOVEMENT - 2 FIX -",
+  "ConditionDescription": "Not running sold as is for parts or repair only",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-WALTHAM-17-JEWELS-WOMENS-WRISTWATCH-MOVEMENT-2-FIX-/201942559634",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019425596348080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "63755",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT22H59M20S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njc0WDU5NA==/z/6SgAAOxycgVTi~EJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQ5WDU1Nw==/z/xKQAAMXQuCdTi~EL/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "4.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "13438",
+    "UserID": "recapturetime",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

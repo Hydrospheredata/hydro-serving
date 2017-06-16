@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1290.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JO",
+  "Location": "amman, jordan",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:34:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "1290.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:34:36.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "FREDERIQUE CONSTANT",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "41mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "HEART BEAT",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122525203512",
+  "HandlingTime": "3",
+  "Description": "FREDERIQUE CONSTANT HEART BEAT STAINLESS STEEL CASE 41MM CASE SIZE INCLUDING THE CROWN AUTOMATIC MOVEMENT DAY DATE ORIGINAL BUCKLE AND BAND IN WORKING ORDER =============== ALL SALES ARE FINAL, PLEASE NO RETURN ACCEPTED",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FREDERIQUE-CONSTANT-HEART-BEAT-DAY-DATE-AUTOMATIC-MENS-WATCH-/122525203512",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225252035128080_1.jpg",
+  "HitCount": "4",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H22M57S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDIy/z/iGQAAOSw3v5Ynjyc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQwWDE2MDA=/z/-UoAAOSwdGFYnjxt/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8yAAAOSwB-1Ynjxx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yqMAAOSw4CFYnjx2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/JMkAAOSwr~lYnjx6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/Kz8AAOSwfVpYnjx-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/K9UAAOSwfVpYnjyD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eiUAAOSw2gxYnjyI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/CXwAAOSwTuJYnjyO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/~ZAAAOSw32lYnjyS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~ZUAAOSwdGFYnjyX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ5WDE2MDA=/z/C8EAAOSwTuJYnjyg/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "FREDERIQUE CONSTANT HEART BEAT DAY DATE AUTOMATIC MENS WATCH",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "111",
+    "UserID": "mix-stuff",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

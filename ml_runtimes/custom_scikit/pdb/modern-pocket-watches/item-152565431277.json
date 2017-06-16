@@ -1,0 +1,82 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33853",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "In good pre-owned condition.",
+  "StartTime": "2017-05-29T15:17:40.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WZUAAOSwKtVWzneI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SZYAAOSwPc9WzneN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aXYAAOSwKtVWznh1/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Open Face",
+      "Name": "Closure"
+    }
+  },
+  "Seller": {
+    "UserID": "sarahg1606",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1499",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525654312778080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T15:17:40.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Milan-Open-Face-Quartz-Gold-Tone-Pocket-Watch-Working-/152565431277",
+  "Location": "Lake Wales, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Milan Open Face Quartz Gold Tone Pocket Watch - Working",
+  "Storefront": {
+    "StoreName": "Harpending Corners",
+    "StoreURL": "http://stores.ebay.com/id=101843332"
+  },
+  "ItemID": "152565431277",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT20H43M15S"
+}

@@ -1,0 +1,261 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Italian-Smooth-Shiny-Leather-Classic-Style-Tote-Grab-Bag-Shoulder-Bag-Huge-S-/192137531597?var=",
+  "ConvertedCurrentPrice": {
+    "value": "81.36",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Real Italian Leather Made in Florence. APPROXIMATE DIMENSIONS: (Witdth, Height, Depth) 32cm x 22cm x 9cm Closure: Zip Classic Italian Design Bag with Double Zipper Handle to Bag Drop of 20cm",
+  "Title": "Italian Smooth Shiny Leather Classic Style Tote Grab Bag or Shoulder Bag. Huge S",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "81.36",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Light Coffee",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0138/757/354/306387533/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0138/757/355/306384905/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0138/757/356/306378070/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Tan and Black",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0138/757/357/306376742/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Dark Taupe",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0138/757/358/306382249/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "White",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0138/757/359/306379334/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Purple",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0138/757/360/306378176/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "81.36",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757354:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Light Coffee"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "81.36",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757355:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "81.36",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757356:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "81.36",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757357:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Tan and Black"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "83.16",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757358:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Dark Taupe"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "81.36",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757359:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "White"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "81.36",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:138757360:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Purple"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Light Coffee",
+          "Grey",
+          "Black",
+          "Tan and Black",
+          "Dark Taupe",
+          "White",
+          "Purple"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-23T01:25:08.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P18DT9H1M51S",
+  "EndTime": "2017-06-21T01:25:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Benagio"
+      },
+      {
+        "Name": "MPN",
+        "Value": "218195135"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137531597",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:138757353:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

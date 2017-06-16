@@ -1,0 +1,153 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "244.36",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Barking, Essex",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:52:59.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "190.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-05T09:52:59.000Z",
+  "ShipToLocations": [
+    "GB",
+    "US",
+    "CA",
+    "IE",
+    "DE",
+    "FR",
+    "IT",
+    "ES",
+    "RU",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "GR",
+    "HU",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694834365",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TW Steel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Ceramic",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "CE1036",
+        "Name": "Model"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Watchband"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "190.0",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-TW-Steel-CE1036-White-Leather-50mm-Gold-Date-Watch-/272694834365",
+  "Title": "BRAND NEW TW Steel CE1036 White Leather 50mm Gold Date Watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2726948343658080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "ig110pz",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H27M48S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/8mAAAOSwll1WzcEc/$_57.JPG?set_id=880000500F"
+  ],
+  "Description": "The is a beautiful beautiful TW STEEL CE1036 50mm, Brand New and Boxed. White Leather. It looks even more beautiful when you see it. Absolutely fab watch. RRP: 455 ... grab it now!!! Have a blessed day. *NOT AN OFFICIAL TW STEEL RETAILER",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2606",
+    "UserID": "folarin76",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

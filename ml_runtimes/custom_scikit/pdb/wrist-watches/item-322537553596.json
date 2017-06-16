@@ -1,0 +1,91 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "White Plains, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:23:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "80.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:23:03.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537553596",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Q Designs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Q Designs NY - QBracelet - iPhone Charging Bracelet - Matte Black - Size M - PO",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Q-Designs-NY-QBracelet-iPhone-Charging-Bracelet-Matte-Black-Size-M-PO-/322537553596",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225375535968080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "10605",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H14M29S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5DQAAOSw-K9ZJZUa/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MXsAAOSwn-tZJZUO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OEcAAOSwX9FZJZUW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FFsAAOSwurZZJZUb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oDgAAOSwlY1ZJZUQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8AMAAOSwPh5ZJZUY/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nmAAAOSwH09ZJZUU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jPYAAOSwtGlZJZUS/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Q Designs NY - QBracelet - iPhone Charging Bracelet - Matte Black - Size M - Pre-Owned --- Up for sale is a lightly used (worn about 4/5 times), Q Designs NY QBracelet in Matte Black, in size Medium! Great little piece of wearable tech!(I just hate wearing stuff on my wrist - not a watch person) Charges iPhone 5,6,7 - Anything with lighting connector! Powers on, holds a charge and works!(See photos) Size Medium - MenInner circumference: 7.12 in (182mm) / Width: 0.72 in (18.4mm) / Depth: 0.31 inches (8mm) / Weight: 2.46 ounces (95 grams) --- From Manufacturer: The QBracelet connects to your iPhone via a built-in Apple Lightning connector and provides up to an extra 50% charge, all while weighing less than most watches. Built-in rechargeable lithium-ion batteryRecharging via USB port to computer system /USB power adapter.Available with Apple Lightning ConnectorBattery Capacity: 1,000mAhDischarge Rate: 1AThe QBracelet can charge a smartphone: approx. 50%*Time to charge smartphone: approx. 40-55 minutes*Time to charge the QBracelet: approx. 120 minutes*Testing based on iPhone 5. Results vary depending on phone model and usage. --- For more information, visit manufacturer website: https://www.qdesigns.co/ Original retail $150 --- I ship USPS priority only. To your door in 3 Days. --- Thanks for viewing!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "57",
+    "UserID": "thunderousdesperado",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

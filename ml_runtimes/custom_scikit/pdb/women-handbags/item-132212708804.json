@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/50MAAOSwImRYIoY5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/83EAAOSwHMJYIoY6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/-HQAAOSwXeJYIoZe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7VgAAOSw4GVYIoWW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LpgAAOSwx2dYIoVK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qO4AAOSwcUBYIoVR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PUwAAOSwKOJYIoVZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CsEAAOSw44BYIoVj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/PpIAAOSwKOJYIoVr/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Lucky-Brand-Grenada-Washed-Linen-Drawstring-Backpack-Red-Pomegranate-/132212708804",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Up for auction is a great bag. This is the Lucky Brand Grenada Washed Linen Drawstring Backpack. This color is pomegranate. The great features include: Drawstring closure. Adjustable shoulder straps. Signature logo embossed detail. Flat base to provide upright structure. Lined interior. Interior back-wall zip pocket. Two interior slip pockets Measurements: Bottom Width: 11 in Depth: 4 1 2 in Height: 14 in Strap Length: 36 in Strap Drop: 15 in Please see my other auctions for a wide variety of great items",
+  "Title": "NWT Lucky Brand Grenada Washed Linen Drawstring Backpack Red Pomegranate",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169292",
+  "Location": "Abingdon, Maryland",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1813",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "zaneygabe"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "21009",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T02:53:08.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P9DT12H19M16S",
+  "EndTime": "2017-06-12T02:53:08.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Lucky Brand"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red Pomegranate"
+      },
+      {
+        "Name": "Material",
+        "Value": "Washed Linen"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132212708804",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322127088048080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

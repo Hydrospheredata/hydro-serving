@@ -1,0 +1,242 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "HK",
+    "MO",
+    "MY",
+    "TW",
+    "AO",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CV",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "DJ",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GH",
+    "LS",
+    "LR",
+    "MW",
+    "ML",
+    "MZ",
+    "RE",
+    "RW",
+    "SC",
+    "SL",
+    "SO",
+    "TN",
+    "EH",
+    "ZW",
+    "BH",
+    "IL",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "BE",
+    "BG",
+    "HR",
+    "GI",
+    "GG",
+    "IT",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SJ",
+    "AI",
+    "BS",
+    "BZ",
+    "DM",
+    "DO",
+    "SV",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "NI",
+    "PA",
+    "KN",
+    "VC",
+    "TT",
+    "TC",
+    "VI"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.74"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "joystone4u",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "28077",
+    "PositiveFeedbackPercent": "98.4"
+  },
+  "SecondaryCategoryIDPath": "11450:4250:1060",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-03-25T00:32:32.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/awgAAOSwKfVXKKVT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/wL8AAOSw9ZdXKKVn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/bK0AAOSwRH5XKKV8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/bRoAAOSwRH5XKKWC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/e6sAAOSwubRXKKWO/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/gU4AAOSw1DtXKKWc/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "SecondaryCategoryID": "1060",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Full\u00a0Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "1.2",
+        "Name": "Case Thickness Approx (cm)"
+      },
+      {
+        "Value": "4.5",
+        "Name": "Case Diameter Approx (cm)"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "antique",
+        "Name": "Style"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "12-hour Dial\uff0cIncludes Chain\uff0cRoman Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "0.3",
+        "Name": "Band Width Approx (cm)"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "40",
+        "Name": "Chain Length Approx (cm)"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "4936",
+  "HitCount": "51",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423240897388080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-23T00:32:32.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.74"
+  },
+  "BidCount": "0",
+  "Country": "HK",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Luxury Hollow Carved Design Men Women Quartz Pocket Watch Vintage Fob Relojes",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Luxury-Hollow-Carved-Design-Men-Women-Quartz-Pocket-Watch-Vintage-Fob-Relojes-/142324089738",
+  "Storefront": {
+    "StoreName": "happy-deal-store",
+    "StoreURL": "http://stores.ebay.com/id=1112382357"
+  },
+  "ItemID": "142324089738",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Men's Accessories:Other Men's Accessories",
+  "TimeLeft": "P22DT5H42M49S"
+}

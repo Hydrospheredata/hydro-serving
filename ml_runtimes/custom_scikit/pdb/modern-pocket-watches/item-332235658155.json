@@ -1,0 +1,102 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Hanhart 3 pushers stopwatch . Running. 55.00mm without pushers. Thickness 19mm. Sold as is! Pictures are my main item description so, careful look the pictures. Returns will not be accepted for defects visible in the pictures. If there are any! Please pay attention on item description wrote above! If you have any other question or want more scans please contact me before you bid! See SUPERSIZE SCANS above! S&H INSTRUCTIONS. I'm shipping WORLDWIDE! The items will get shipped by Registered mail with no addition to the shipping cost. Shipping charges for registered mail delivery: Romania - 5.00 USD EU - 9.00 USD Worldwide - 9.00 USD I'm not responssible for lost in mail or damage of the item. PAYMENT INSTRUCTIONS. Please wait for my invoice before you pay in order to avoid paying more or less than necessary! Payment must be received within 2 days from the Invoice date.Items will get shipped within 3 working days after receiving cleared payment. Payment accepted through PayPal or direct Bank transfer.",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/RMsAAOSwLF1X9TFF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/QLcAAOSw4shX9TFM/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/hsgAAOSwYIxX9TE-/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/Y7gAAOSw8gVX9TFT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/R~kAAOSwLF1X9TFc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/SQgAAOSwLF1X9TFj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/O2EAAOSwNRdX9TFp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/RbIAAOSw4shX9TFw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/S9AAAOSwLF1X9TF3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "LU",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hanhart",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "Lap Counter",
+          "Acrylic Crystal",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Germany",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "locksr71",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3673",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "StartTime": "2017-05-25T15:44:33.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322356581558080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-04T15:44:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "oesling",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Hanhart 3 pushers stopwatch",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hanhart-3-pushers-stopwatch-/332235658155",
+  "Storefront": {
+    "StoreName": "locksr71",
+    "StoreURL": "http://stores.ebay.com/id=970992006"
+  },
+  "ItemID": "332235658155",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT21H7M58S"
+}

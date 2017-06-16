@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zkcAAOSwopRYkjML/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WqMAAOSwLEtYkjMN/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8TwAAOSw-0xYkjMP/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cFgAAOSwA3dYkjMR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W2oAAOSwLEtYkjMT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W58AAOSwLEtYkjMV/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TOMMY-HILFIGER-VINTAGE-DUFFLE-BAG-/142371754683",
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "100% AUTHENTIC WITH TAGS",
+  "Title": "TOMMY HILFIGER VINTAGE DUFFLE BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Tampa, Florida",
+  "Seller": {
+    "FeedbackScore": "274",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "dibfashions"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33647",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-04T02:04:33.000Z",
+  "HitCount": "29",
+  "TimeLeft": "PT9H12M3S",
+  "EndTime": "2017-06-03T02:04:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Duffle/Gym Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tommy Hilfiger"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "142371754683",
+  "Storefront": {
+    "StoreName": "dibfashions",
+    "StoreURL": "http://stores.ebay.com/id=1192914291"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1423717546838080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921401531588080_1.jpg",
+  "PictureURL": [
+    "http://rcdn-2.fishpond.co.nz/0137/453/346/302288059/original.jpeg",
+    "http://rcdn-1.fishpond.co.nz/0137/453/346/302288060/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0137/453/346/302288061/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0137/453/346/302288062/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0137/453/346/302288063/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0137/453/346/302288064/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Real-Leather-Cross-Body-Bag-Grab-Handle-Tablet-Phone-Pouch-HOL754-Black-Fr-/192140153158",
+  "ConvertedCurrentPrice": {
+    "value": "67.85",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: A fantastic multi pocket organiser bag, made from soft sheep nappa leather. This bag features an adjustable/ detachable shoulder strap, three front organiser pockets, back zip pocket and a zip top compartment with an inner zip pocket. Measurements - L:30, H:26, W:10 cm",
+  "Title": "Mens Real Leather Cross Body Bag Grab Handle Tablet Phone Pouch HOL754 Black. Fr",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.85",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "4",
+  "StartTime": "2017-03-26T03:09:47.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P21DT10H48M54S",
+  "EndTime": "2017-06-24T03:09:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "House Of Leather"
+      },
+      {
+        "Name": "MPN",
+        "Value": "499082681"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192140153158",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:137453346:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

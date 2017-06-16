@@ -1,0 +1,115 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/9cAAAOSwWkJY9OJN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/k9cAAOSwSypY9OJN/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victorias-Secret-PINK-Tote-Bag-Palm-Tree-Print-Lettering-One-Size-/182534030877",
+  "ConvertedCurrentPrice": {
+    "value": "80.82",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Victoria's Secret PINK Tote Bag Palm Tree Print Lettering (One Size) - Victoria's Secret PINK Tote Bag Palm Tree Print Lettering (One Size) - Perfect for the Beach! - Medium Gym Bag - Exclusive merchandise from PINK - 100% Satisfaction Guarantee Victoria's Secret PINK Tote Bag Palm Tree Print Lettering One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "80.82",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "3261",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Red",
+    "UserID": "newyorkever"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Victoria's Secret PINK Tote Bag Palm Tree Print Lettering One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T15:41:29.000Z",
+  "HitCount": "94",
+  "TimeLeft": "P13DT22H46M40S",
+  "EndTime": "2017-06-16T15:41:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "767824316570"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0767824316570"
+      },
+      {
+        "Name": "Brand",
+        "Value": "BagsbySpursgrl"
+      },
+      {
+        "Name": "MPN",
+        "Value": "LYSB01JAHHFLU-OFFSUPPLIES"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Electronics"
+      },
+      {
+        "Name": "Color",
+        "Value": "black, brown, tan, white, silver, nude,"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 3 x W 3 x H 3 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "70426"
+      },
+      {
+        "Name": "ProductGroup",
+        "Value": "PC Accessory"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182534030877",
+  "Storefront": {
+    "StoreName": "newyorkever",
+    "StoreURL": "http://stores.ebay.com/id=1119508216"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "qw",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825340308778080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

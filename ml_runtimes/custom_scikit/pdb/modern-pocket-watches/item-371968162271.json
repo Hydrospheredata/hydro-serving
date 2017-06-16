@@ -1,0 +1,130 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "98321",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Nice vintage Levi Clip on Watch and compass. Has new battery and keeps good time. Belt clip on style. Very good condition.",
+  "StartTime": "2017-05-31T16:54:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg3MzQ=/z/As4AAOSwIQdZJR8U/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTI5/z/u3gAAOSwYvFZJR8b/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5OTQ=/z/XukAAOSwaEhZJR8i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg2NTA=/z/SvQAAOSwX9FZJR8o/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQyOFgxNjAw/z/q7oAAOSwH09ZJR8x/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "8.99"
+  },
+  "HighBidder": {
+    "UserID": "_***s",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "1",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "LEVI",
+        "Name": "Brand"
+      },
+      {
+        "Value": "POCKETWATCH CLIPON",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "POCKET / BELT WATCH",
+        "Name": "Model"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "alfvesta",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3828",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719681622718080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.49"
+  },
+  "BidCount": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "EndTime": "2017-06-07T16:54:25.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LEVI-STRAUSS-CO-Clip-Watch-compass-/371968162271",
+  "Location": "Buckley, Washington",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "LEVI STRAUSS & CO. Clip on Watch & compass.",
+  "Storefront": {
+    "StoreName": "SMB GENERAL STORE",
+    "StoreURL": "http://stores.ebay.com/id=746040"
+  },
+  "ItemID": "371968162271",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT22H21M13S"
+}

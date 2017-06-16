@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "36.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "UA",
+  "Location": "Cherkasi region",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T09:28:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1361415551",
+    "StoreName": "Welcome to USSR"
+  },
+  "CurrentPrice": {
+    "value": "36.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:28:41.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wostok",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Komandirskie",
+        "Name": "Model"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425792734",
+  "HandlingTime": "4",
+  "Description": "When you purchase 3 or more lots one categories-free shipping! RARE! Vintage Soviet WOSTOKI suggest to your attention Watch WOSTOK! The clock in perfect working condition. ShippingEurope: 7-14 business days Canada: 10-20 business days USA: 10-20 business days Australia and everywhere else: 15-30 business days",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SOVIET-WATCH-WOSTOK-USSR-WATCH-ARTEL-/112425792734",
+  "ConditionDescription": "Watch is in great condition",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124257927348080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H1M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/C8MAAOSw0gdXTFl~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/1l4AAOSw6btXTFmF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/DtoAAOSwepZXTFmL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/~PIAAOSwY0lXTFmS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/UxkAAOSw3ihXTFmY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/WDYAAOSwdsFXTFmd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/EhAAAOSw0gdXTFmj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA0WDE2MDA=/z/7DIAAOSwR5dXTFmp/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "SOVIET WATCH WOSTOK USSR WATCH ARTEL \u0410\u0420\u0422\u0415\u041a",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "189",
+    "UserID": "shop-back-in-the-ussr",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

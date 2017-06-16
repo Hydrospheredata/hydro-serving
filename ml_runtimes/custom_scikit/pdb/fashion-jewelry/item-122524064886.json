@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P1DT13H46M34S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Anklets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "53.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "122524064886",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pure-925-Solid-Sterling-Silver-Beautiful-Anklet-Payal-10-50-S1176-/122524064886",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "53.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T23:13:33.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-06T23:13:33.000Z",
+  "PrimaryCategoryID": "43205",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "10.50",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "23.900",
+        "Name": "Weight (in grams)"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Pure 925 Solid Sterling Silver Beautiful Anklet / Payal 10.50 \" - S1176",
+  "ExcludeShipToLocation": [
+    "AF",
+    "PK",
+    "AR",
+    "IQ"
+  ],
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:43205",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1225240648868080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "kanhajewelsindia",
+    "FeedbackScore": "384",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "kanhajewelsindia",
+    "StoreURL": "http://stores.ebay.com/id=1412413139"
+  },
+  "Quantity": "1",
+  "Location": "Delhi, DELHI",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTM1WDE2MDA=/z/cI4AAOSwKtVWxGrP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY0WDE1MDA=/z/WJ0AAOSwuAVWxGra/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzgwWDE0MDA=/z/6OQAAOSwWTRWxGrl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg5WDE1MDA=/z/sg0AAOSwG-1WxGrL/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "110085"
+}

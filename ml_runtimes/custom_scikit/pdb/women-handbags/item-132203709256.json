@@ -1,0 +1,547 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP"
+  },
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/15-6-in-Ladies-Briefcase-Orange-ID-715739-/132203709256?var=",
+  "QuantitySold": "0",
+  "TimeLeft": "P21DT10H12M1S",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box",
+    "GI",
+    "RS",
+    "LI",
+    "GG",
+    "BY",
+    "BA",
+    "MC",
+    "SM",
+    "MK",
+    "MD",
+    "JE",
+    "VA",
+    "LU",
+    "AD",
+    "ME",
+    "SJ",
+    "IS",
+    "AL",
+    "AG",
+    "AI",
+    "HT",
+    "TC",
+    "PR",
+    "VC",
+    "GP",
+    "GD",
+    "AN",
+    "MS",
+    "NI",
+    "BS",
+    "KN",
+    "KY",
+    "MQ",
+    "VI",
+    "AW",
+    "LC",
+    "BB",
+    "BZ",
+    "VG",
+    "DM",
+    "LA",
+    "KH",
+    "BN",
+    "MO",
+    "VN",
+    "BO",
+    "GF",
+    "PY",
+    "UY",
+    "SR",
+    "FK",
+    "VE",
+    "AR",
+    "EC",
+    "PE",
+    "GY",
+    "PM",
+    "BM",
+    "GL",
+    "MA",
+    "MU",
+    "EH",
+    "RW",
+    "ER",
+    "DJ",
+    "CM",
+    "CG",
+    "RE",
+    "GH",
+    "MR",
+    "SN",
+    "GQ",
+    "MW",
+    "BW",
+    "LY",
+    "NG",
+    "MG",
+    "LR",
+    "BI",
+    "TG",
+    "ZW",
+    "KE",
+    "TN",
+    "EG",
+    "TD",
+    "NE",
+    "LS",
+    "GM",
+    "BF",
+    "SL",
+    "ZM",
+    "SZ",
+    "CF",
+    "AO",
+    "NA",
+    "GA",
+    "TZ",
+    "SC",
+    "UG",
+    "ET",
+    "CD",
+    "ML",
+    "CI",
+    "SO",
+    "GW",
+    "MZ",
+    "DZ",
+    "YT",
+    "SH",
+    "KM",
+    "CV",
+    "GN",
+    "BJ",
+    "YE",
+    "IQ",
+    "JO",
+    "OM",
+    "LB",
+    "TR",
+    "AM",
+    "BD",
+    "KZ",
+    "AF",
+    "KG",
+    "BT",
+    "TM",
+    "PK",
+    "MN",
+    "IN",
+    "UZ",
+    "TJ",
+    "AZ",
+    "LK",
+    "NP",
+    "GE",
+    "MV",
+    "SB",
+    "TO",
+    "FM",
+    "NR",
+    "KI",
+    "AS",
+    "PF",
+    "CK",
+    "PW",
+    "WS",
+    "TV",
+    "VU",
+    "GU",
+    "WF",
+    "FJ",
+    "NC",
+    "PG",
+    "NU",
+    "MH"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Chicago, Illinois",
+  "QuantitySoldByPickupInStore": "0",
+  "PostalCode": "60639",
+  "StartTime": "2017-05-25T01:12:01.000Z",
+  "HitCount": "8",
+  "QuantityThreshold": "10",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "McKlein USA"
+      },
+      {
+        "Name": "MPN",
+        "Value": "96565"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Briefcase Type",
+        "Value": "Laptop Compatible"
+      },
+      {
+        "Name": "Fits Computer Size",
+        "Value": "15 Inch"
+      },
+      {
+        "Name": "Width (Inches)",
+        "Value": "5.25"
+      },
+      {
+        "Name": "Length (Inches)",
+        "Value": "16.5"
+      },
+      {
+        "Name": "Height (Inches)",
+        "Value": "11.5"
+      },
+      {
+        "Name": "AC Voltage",
+        "Value": "Not Powered"
+      }
+    ]
+  },
+  "ListingType": "FixedPriceItem",
+  "BidCount": "0",
+  "EndTime": "2017-06-24T01:12:01.000Z",
+  "Title": "15.6 in. Ladies Briefcase in Orange [ID 715739]",
+  "SKU": "204671",
+  "Site": "US",
+  "BestOfferEnabled": "false",
+  "ConditionID": "1000",
+  "Country": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzU3WDUxMw==/z/nIUAAOSwurZZJi9k/$_1.JPG?set_id=880000500F"
+  ],
+  "Storefront": {
+    "StoreName": "ShopLadder",
+    "StoreURL": "http://stores.ebay.com/id=1101082279"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "160.0",
+    "_currencyID": "USD"
+  },
+  "AutoPay": "false",
+  "NewBestOffer": "false",
+  "Description": "Have Questions? Contact Us 15.6 in. Ladies Briefcase in Orange [ID 715739] Item #: 204671 FREE SHIPPING! Includes tablet pocket Built in compartment Laptop protection and table pocket Front pocket with a magnetic snap holds small accessories Double shoulder strap Two side pockets for small miscellaneous items Back pocket for accessories Main compartment features an interior zipper pocket and an interior organizer for pens, business cards and small devices Limited lifetime warranty Made from top grain leather Made in Thailand Device fit: 15.6 in. Compartment: 15 in. L x 2 in. W x 11 in. H Handle drop length: 12 in. 16.5 in. L x 5.25 in. W x 11.5 in. H (3.1 lbs.) Condition Brand New Brand McKlein USA Processing Time Usually ships in 2-3 business days. Return Policy 30 Day Money Back Guarantee; you pay for shipping: Read the details Shipping Restriction We regret that we cannot ship this product outside the United States, nor to Hawaii, Alaska, or Puerto Rico. Manufacturer SKU 96565 AC Voltage Not Powered Briefcase Type Laptop Compatible &#8226 Womens Color/Finish Black &#8226 Red &#8226 Blue &#8226 Green &#8226 Orange &#8226 Pink Fits Computer Size 15 Inch Height (Inches) 11.5 Length (Inches) 16.5 Material Leather Width (Inches) 5.25 Product Warranty Manufacturer's warranties ranging from 1-year to limited lifetime are provided. If you have specific questions about this product\u2019s guarantee, please contact our Customer Service department.",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "23727",
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "shopladder"
+  },
+  "GlobalShipping": "true",
+  "Quantity": "18",
+  "ItemID": "132203709256",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://www.shopladder.com/prodimages-cdls/options/277000/O276319-W1000-H1000-MW500-MH500-V3-R3-B276319.jpg"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://www.shopladder.com/prodimages-cdls/options/277000/O276320-W1000-H1000-MW500-MH500-V3-R3-B276320.jpg"
+        },
+        {
+          "VariationSpecificValue": "Green",
+          "PictureURL": "http://www.shopladder.com/prodimages-cdls/options/277000/O276321-W1000-H1000-MW500-MH500-V3-R3-B276321.jpg"
+        },
+        {
+          "VariationSpecificValue": "Orange",
+          "PictureURL": "http://www.shopladder.com/prodimages-cdls/options/277000/O276322-W1000-H1000-MW500-MH500-V3-R3-B276322.jpg"
+        },
+        {
+          "VariationSpecificValue": "Pink",
+          "PictureURL": "http://www.shopladder.com/prodimages-cdls/options/277000/O276323-W1000-H1000-MW500-MH500-V3-R3-B276323.jpg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://www.shopladder.com/prodimages-cdls/options/277000/O276324-W1000-H1000-MW500-MH500-V3-R3-B276324.jpg"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        },
+        "DiscountPriceInfo": {
+          "PricingTreatment": "STP",
+          "OriginalRetailPrice": {
+            "value": "320.0",
+            "_currencyID": "USD"
+          },
+          "SoldOffeBay": "false",
+          "SoldOneBay": "false"
+        },
+        "SKU": "204671-OG-69058-O-276319",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Blue"
+          }
+        },
+        "DiscountPriceInfo": {
+          "PricingTreatment": "STP",
+          "OriginalRetailPrice": {
+            "value": "320.0",
+            "_currencyID": "USD"
+          },
+          "SoldOffeBay": "false",
+          "SoldOneBay": "false"
+        },
+        "SKU": "204671-OG-69058-O-276320",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Green"
+          }
+        },
+        "DiscountPriceInfo": {
+          "PricingTreatment": "STP",
+          "OriginalRetailPrice": {
+            "value": "320.0",
+            "_currencyID": "USD"
+          },
+          "SoldOffeBay": "false",
+          "SoldOneBay": "false"
+        },
+        "SKU": "204671-OG-69058-O-276321",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Orange"
+          }
+        },
+        "DiscountPriceInfo": {
+          "PricingTreatment": "STP",
+          "OriginalRetailPrice": {
+            "value": "320.0",
+            "_currencyID": "USD"
+          },
+          "SoldOffeBay": "false",
+          "SoldOneBay": "false"
+        },
+        "SKU": "204671-OG-69058-O-276322",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Pink"
+          }
+        },
+        "DiscountPriceInfo": {
+          "PricingTreatment": "STP",
+          "OriginalRetailPrice": {
+            "value": "320.0",
+            "_currencyID": "USD"
+          },
+          "SoldOffeBay": "false",
+          "SoldOneBay": "false"
+        },
+        "SKU": "204671-OG-69058-O-276323",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "160.0",
+          "_currencyID": "USD"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Red"
+          }
+        },
+        "DiscountPriceInfo": {
+          "PricingTreatment": "STP",
+          "OriginalRetailPrice": {
+            "value": "320.0",
+            "_currencyID": "USD"
+          },
+          "SoldOffeBay": "false",
+          "SoldOneBay": "false"
+        },
+        "SKU": "204671-OG-69058-O-276324",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Blue",
+          "Green",
+          "Orange",
+          "Pink",
+          "Red"
+        ]
+      }
+    }
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "If you are unsatisfied with something you bought from us, you may send it back, usually within 30 days of receipt, and we shall be happy to credit, exchange, or refund the purchase price of that item, less any shipping or handling costs, except for products that were assembled or modified, made to order, or excluded for return by the manufacturer. When shipping is included in the product price, such as those marked \"Free Shipping\", actual shipping costs would be deducted from your refund. Also, some of our products carry a restocking fee which would be deducted from your refund. Please contact us if you need more information about shipping, restocking and exclusions on any products you are considering purchasing. \n\nYou can cancel your order prior to production, if being made to order, or if a stocked item, before it has shipped. If you refuse delivery after shipping, please keep in mind that your purchase will then be subject to this Return Policy and specific Manufacturer rules (see the Product Page or call us for details). \n\nReturning a Purchase \n\u2022 Please contact us and include your original order number, what product(s) you are returning, and your name. We will give you an \"RA Number,\" a return address, and other relevant information. Returns that have not been first authorized cannot be accepted. \n\u2022 Wrap the package carefully. All returned products must be in their original condition and packaging. \n\u2022 Return the product using your preferred shipping method directly to the distribution center address we provide. Returns sent to our administrative offices cannot be accepted. \n\u2022 It is important that we know when your return is expected. Please save your return tracking number, and email it to us. We need this in case there are any issues during transit. \n\u2022 Please do not request a chargeback of your purchase from your credit card company while waiting for us to completely process your request. Refund processing involves several steps, some that we cannot control, so please be patient while awaiting the credit for the original purchase to appear the card you used. \n\u2022 Please Note: Other than a return or exchange due to an error on our part, we cannot refund shipping and handling charges. \n\u2022 All returned products must be in their original condition and packaging. Unfortunately, if products have been assembled or modified, we cannot take them as returns. Also, restocking or repacking fees are charged by some manufacturers and warehouses to cover labor, paperwork and shipping carton replacement. Finally, certain products cannot be returned because our suppliers cannot take them back, such as those customized to your specifications.\n\nIf you have any questions about whether a product can be returned, please contact us before ordering.\n\nDamage & Missing Parts\nThrough many years of experience, we have learned to package our products to withstand damage during shipping, avoid selling items easily damaged during shipping, and discontinue suppliers whose damage rate is too high. If something arrives from us that looks damaged, or if parts are missing, please notify us right away. We will work to help you get needed replacements as quickly as possible at no extra charge. \n\nSuspected or Actual Damage If Shipped by Truck Freight or White Glove \n\u2022 Write \"Package Damaged\" when you sign for delivery even if it appears only slightly damaged. If the package appears significantly damaged, you may refuse delivery. Once we receive back that damaged package, we will send a new one. Please notify us if you refuse delivery, so we can anticipate that return. \n\u2022 If our product is assembled for you, make sure you closely inspect the product for any damage BEFORE boxes are discarded and before the delivery people leave. Again, if there is a problem, write it down before the delivery crew leaves. \n\u2022 If you accepted a package and then discover parts are missing or damaged, do not discard the packaging. Please contact us right away and we will ship you the replacement parts at no extra charge. Most carriers only let us file freight claims within 48 hours of delivery, so do not delay. If we cannot replace parts, we can have the carrier pick up the item and we will send a replacement once we have it back. Again, all returned products should be in the original packaging.\n\nIf you decide you do not want parts or a replacement unit, the product can be returned under our Return Policy. If a product arrives damaged, or we made an error, and it cannot be remedied with replacement parts or a complete replacement, we will pay to return the item to us. \n\nIn the case of a manufacturer's defect, we can replace the defective part, or if needed, the entire unit. We stand 100% behind our products and the manufacturers who produce them, and we will make every effort to resolve any problems.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "HandlingTime": "5",
+  "QuantityAvailableHint": "MoreThan"
+}

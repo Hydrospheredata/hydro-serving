@@ -1,0 +1,114 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jW4AAOSwPc9WylBe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YkwAAOSwe7BWylBk/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/new-tags-Dooney-Bourke-Green-Canvas-Purse-matching-wristlett-/172709553278",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "this is brand new and the wristlet can be used as a change purse",
+  "Title": "new with tags Dooney & Bourke Green Canvas Purse with matching wristlett",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Stoneham, Massachusetts",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "597",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "funwithleelee"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02180",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:43:35.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT22H33M11S",
+  "EndTime": "2017-07-02T12:43:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Dooney & Bourke"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas w/leather trim"
+      },
+      {
+        "Name": "Color",
+        "Value": "Greens"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "11"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "4.5"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "15"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "7"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "UPC",
+        "Value": "does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172709553278",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "funwithleelee",
+    "StoreURL": "http://stores.ebay.com/id=1449867662"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727095532788080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "true"
+}

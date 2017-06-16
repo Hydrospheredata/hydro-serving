@@ -1,0 +1,88 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "LAHARPUR, UTTAR PRADESH",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:33:03.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T09:33:03.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272694811584",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "8200",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "GOLDEN",
+        "Name": "Case Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-CITIZEN-DAY-DATE-AUTOMATIC-MENS-WRIST-WATCH-GOLDEN-COLOR-DIAL-/272694811584",
+  "Title": "VINTAGE CITIZEN DAY-DATE AUTOMATIC MEN'S WRIST WATCH GOLDEN COLOR DIAL",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726948115848080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "261135",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT18H6M39S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/h2IAAOSwZKBZJdmB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/HfUAAOSwurZZJdmN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/24YAAOSwIQdZJdmT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/9IQAAOSw8lpZJdmZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/1HkAAOSwX61ZJdmv/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/1KgAAOSwX61ZJdm2/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "VINTAGE CITIZEN DAY-DATE AUTOMATIC MEN'S WRIST WATCH GOLDEN COLOR DIAL",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1",
+    "UserID": "moonwatches9",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

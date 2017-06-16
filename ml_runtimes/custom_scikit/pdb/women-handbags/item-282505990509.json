@@ -1,0 +1,122 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H0MAAOSw7NNT8Q0A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/H5UAAOSwRLZT8Qz~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eWEAAOSwxCxT8Q0A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eYUAAOSwxCxT8Q0C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MXgAAOSwVFlT8Qz9/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/m3QAAOSwxH1T8Q0C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iv4AAOSwd4tT8Q0C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LsYAAOSwEK9T8Q0E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LtwAAOSwEK9T8Q0E/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LtQAAOSwEK9T8Q0E/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rebecca-Minkoff-NWT-NEW-165-Purse-Bag-Travel-Tote-Studded-Black-Purple-Trim-/282505990509",
+  "ConvertedCurrentPrice": {
+    "value": "107.4",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Rebecca Minkoff purse, brand new with the original tags attached.Retails for $165, the style is \"Travel Tote with Studs\".Black nylon body with hot purple leather trim.Soft shell body, with plumped comfortable leather straps.Leather trim and leather details.Interior features one leather zip wall pocket.The front is studded, the back has gorgeous detailing and \"Rebecca Minkoff\" logo. Measures: 12\" tall, 7\" wide and 13\" long, with 10\" drop straps.",
+  "Title": "Rebecca Minkoff NWT NEW $165 Purse Bag Travel Tote Studded Black Purple Trim",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "107.4",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hudson, New Hampshire",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1955",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "eugefunk"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "03051",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:05:19.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P29DT21H52M25S",
+  "EndTime": "2017-07-02T12:05:19.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Rebecca Minkoff"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon with Leather Trim"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black and Purple Trim"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "10.5"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not Apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282505990509",
+  "PrimaryCategoryID": "63852",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "eugefunk",
+    "StoreURL": "http://stores.ebay.com/id=12695768"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825059905098080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,135 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Shelton, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:19:32.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=51242427",
+    "StoreName": "Lisa&#39;sDiscountFashion"
+  },
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:19:32.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012986691",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kenneth Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Type"
+      },
+      {
+        "Value": "Round",
+        "Name": "Case Shape"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "UNLISTED by Kenneth Cole Quad Dial Rubber Silicon Tread Watch NIB Pink Black",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/UNLISTED-Kenneth-Cole-Quad-Dial-Rubber-Silicon-Tread-Watch-NIB-Pink-Black-/263012986691",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630129866918080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "06484",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H10M25S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI1MFgxMDAw/z/GRkAAOSw5cNYR2ZW/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nX8AAOSwux5YSFGm/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LSoAAOSw-0xYSFGb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/L6QAAOSw-0xYSFGu/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Real men wear pink, so reach for this sharp sports watch featuring a tire tread band and buckle closure over a colorful enamel casing. Bezel includes large monotone numerals. Interior dials show the pace of the half-hour, hour and military time. Import.Face width 45mmFace depth 14mmBand width 21mmStainless steel backBuckle closurePLEASE NOTE: the manufacturer refers to the color as pink, but it has a good deal of copper to the color and doesn't really read as 'pink' to me...Please see the close up photo and decide for yourself.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "3431",
+    "UserID": "emptyemmascloset",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_10",
+    "RestockingFeeValue": "10%",
+    "Description": "Restocking fee: 10%",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1190.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Los Angeles, California",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:01:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1014410423",
+    "StoreName": "ViViDLiLY"
+  },
+  "CurrentPrice": {
+    "value": "1190.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:01:17.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "1105",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "KR"
+  ],
+  "ItemID": "263012904468",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Mechanical: Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Luxury: Dress Styles",
+        "Name": "Style"
+      },
+      {
+        "Value": "Omega Constellation",
+        "Name": "Model"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel Omega Case",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "New Leather band",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "33mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Date Indicator",
+        "Name": "Features"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Omega Constellation Men's Vintage Swiss Automatic Date Blue Dial Watch 1968 1105",
+  "ConditionDescription": "This Omega Watch is verified 100% Authentic. Has Been Restored and Timed, and Confirmed Working Precisely and In Excellent\u00a0Condition. No Damage No Scratches Clean crystal and clean movement keeps great time. Beautiful retro style vintage Swiss Omega Constellation ready to be worn and enjoyed for generations to come. Comes on a new leather band and a stainless steel Omega buckle",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-Constellation-Mens-Vintage-Swiss-Automatic-Date-Blue-Dial-Watch-1968-1105-/263012904468",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630129044688080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "90014",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H46M18S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDUwWDUwMA==/z/808AAOSwCQZZBzBL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDg1WDUwMA==/z/DG0AAOSw7GRZBzBL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzk5WDUwMA==/z/atEAAOSwrhBZBzBL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzY5WDUwMA==/z/fhAAAOSww9xZBzBL/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "This Omega Watch is verified 100% Authentic. Has Been Restored and Timed, and Confirmed Working Precisely and In Excellent Condition. No Damage No Scratches Clean crystal and clean movement keeps great time. Beautiful retro style vintage Swiss Omega Constellation ready to be worn and enjoyed for generations to come. Comes on a new leather band and a stainless steel Omega buckle Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11224",
+    "UserID": "vividlily",
+    "FeedbackRatingStar": "YellowShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

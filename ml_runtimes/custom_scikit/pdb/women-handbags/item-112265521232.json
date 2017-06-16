@@ -1,0 +1,98 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "m***r",
+    "FeedbackScore": "623"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eGMAAOSwnHZYdjbW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P18AAOSwImRYdjba/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bT8AAOSwt5hYdjbQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/O7YAAOSw241Ydjbd/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nRAAAOSwjDZYdjbh/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EzUAAOSwopRYdjbl/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PdgAAOSw241Ydjbp/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tumi-Sinclair-Patricia-Tote-New-w-Tags-79323D5-Black-Briefcase-/112265521232",
+  "ConvertedCurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Tumi Sinclair Patricia Tote New with tags. Black. Retails for $399. Simple. Elegantly detailed. Sinclair is a modern collection of thoughtfully designed professional totes, briefs and carry-alls for women. Each piece is exquisitely executed in textured coated canvas and highlighted with leather trim. This tote keeps you and your business essentials well-organized. EXTERIOR FEATURES:Expandable ZippersTriple zip compartment1 magnetic snap pocket1 open pocketHidden cellphone pocket INTERIOR FEATURES: Quilted 12\" laptop/tablet sleeve1 jewelry pocket1 open pocket2 Zipped pockets2 media pockets1 snap compartment Primary Material: Textured Coated Canvas Dimensions H: 10.5 in W: 12 in D: 7 in",
+  "Title": "Tumi Sinclair Patricia Tote New w/Tags 79323D5 Black Briefcase",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "299.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Toronto, Ontario",
+  "Seller": {
+    "FeedbackScore": "186",
+    "PositiveFeedbackPercent": "98.2",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "waker"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "Asia",
+    "CA",
+    "MX",
+    "BR",
+    "AU"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "M5A 3R3",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-01-11T13:45:23.000Z",
+  "HitCount": "852",
+  "TimeLeft": "P7DT22H33M26S",
+  "EndTime": "2017-06-10T13:45:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tumi"
+      },
+      {
+        "Name": "Style",
+        "Value": "Business Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "UPC",
+        "Value": "742315279633"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112265521232",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1122655212328080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

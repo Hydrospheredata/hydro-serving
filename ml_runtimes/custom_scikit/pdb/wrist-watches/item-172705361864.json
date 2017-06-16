@@ -1,0 +1,72 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "48.87",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Birmingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T06:57:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "38.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T06:57:21.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705361864",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Men's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Rotary 18 ct Rose Gold Plated Swiss Gent's Aviator's Style Quartz Chronograph.",
+  "ConditionDescription": "see main listing.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rotary-18-ct-Rose-Gold-Plated-Swiss-Gents-Aviators-Style-Quartz-Chronograph-/172705361864",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727053618648080_1.jpg",
+  "HitCount": "25",
+  "PostalCode": "B461QD",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT15H23M38S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8rUAAOSw3gJZLmeK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/OrYAAOSw42dZLmeU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kjIAAOSwcB5ZLmek/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9LcAAOSw3gJZLme2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ffMAAOSwq1JZLmfC/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "A stunning 18 ct. rose gold plated Rotary Swiss gent's quartz multi dial Aviator's style chronograph watch in good used condition and full working order keeping good time.Some minor marks and slight rubbing to plating consistent with use nothing serious and only mentioned for accuracy.Features:18 ct. rose gold plated stainless steel case with screw down back and matching adjustable braceletBlack dial with white contrasting dials for chrono. functions.Rose gold luminous baton markers and hands.Date at 5 o'clock with quick change.Flawless mineral glass crystalQuality 4 jewel Swiss quartz movement in working order with fully functioning multi dial chronograph.Size: 42 mm. diameter case. A superb Swiss quartz chronograph from a top maker. Full refund if not happy with item, buyer to pay return postage.Payment by paypal only.All items to be paid for within 48 hours.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5110",
+    "UserID": "fohar181",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "Full money back on all returns.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

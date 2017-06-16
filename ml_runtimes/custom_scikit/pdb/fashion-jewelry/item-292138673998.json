@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "292138673998",
+  "PrimaryCategoryID": "98526",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:50637",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Country": "TR",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Body Chains",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedBuyItNowPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "281:10968:15124:98526",
+  "Subtitle": "Vefali dostlara en guzel hediye",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2921386739988080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "carkincarkin",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/xXIAAOSwGJlZJ0jp/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "TimeLeft": "PT9H41M38S",
+  "StartTime": "2017-06-03T00:53:53.000Z",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "50637",
+  "HitCount": "9",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "value": "500.0",
+    "_currencyID": "USD"
+  },
+  "HandlingTime": "10",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pirlanta-kolye-/292138673998",
+  "EndTime": "2017-06-06T00:53:53.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Genital (Female)",
+        "Name": "Body Area"
+      },
+      {
+        "Value": "Pirlanta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pirlanta",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Pirlanta kolye",
+  "Location": "bursa, bursa",
+  "Description": "Vefa'li dostlara en guzel hediye",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1"
+}

@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT10H31M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "Europe"
+  ],
+  "CurrentPrice": {
+    "value": "57.5",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "263018843163",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-Colored-Metal-Medallion-1-1-2-Dia-/263018843163",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "57.5",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T23:31:32.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T23:31:32.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Gold Colored",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Gold Colored Metal Medallion 1 1/2\" Dia.",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "This Medallion in excellent condition,perfect for making into a necklace,bracelet.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2630188431638080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "leegil105",
+    "FeedbackScore": "432",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "ThreeCrownsInteriors",
+    "StoreURL": "http://stores.ebay.com/id=1184226263"
+  },
+  "Quantity": "2",
+  "Location": "Newnan, Georgia",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/U~IAAOSwZQRYbRWp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/0G0AAOSw5cNYbRXb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/ivgAAOSwEzxYbRXy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/xyAAAOSw9GhYbRY2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/5qEAAOSw5cNYbRZZ/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "30263"
+}

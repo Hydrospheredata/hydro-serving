@@ -1,0 +1,113 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.9",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:46:34.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "9.9",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:46:34.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date Indicator"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": [
+    "AR",
+    "BR",
+    "CL",
+    "CO",
+    "MX",
+    "ZA"
+  ],
+  "ItemID": "201942525118",
+  "HandlingTime": "1",
+  "Description": "New Old Stock 45MM FOSSIL Chronograph Date Stainless Steel Quartz Men Watch GUARANTEE AUTHENTIC & FULL REFUND if the watch has any problem or not same as describe Movement : Original quartz movement Case : Stainless steel case Dial : Original dial Band : Original band, fit about 22cm wrist Crown : Original crown Size : 45mm excluding the crown Crystal : Glass top Remark : This watch is running good please see the condition from the pictures Overall in good condition, movement excellent running good. Nothing any damaged. The watch is come from Hong Kong Licence second hand watch shop. 100% guarantee AUTHENTIC Items/goods will be shipped as long as payment is received. All packages will be packed securly and sent out by registered mail. USD$10 shipping fee to worldwide Please contact me if you have any questions.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Old Stock 45MM FOSSIL Chronograph Date Stainless Steel Quartz Men Watch",
+  "ConditionDescription": "no box and manual",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Old-Stock-45MM-FOSSIL-Chronograph-Date-Stainless-Steel-Quartz-Men-Watch-/201942525118",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019425251188080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H40M5S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/EUAAAOSw-0xYdwMI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/kPsAAOSw9GhYdwMM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ElwAAOSwnHZYdwMS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/S5cAAOSwZQRYdwMY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ZogAAOSwo4pYdwMe/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/TOUAAOSwZQRYdwMi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/PXUAAOSwA3dYdwMn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/PeAAAOSwA3dYdwMr/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "9.9",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "118",
+    "UserID": "deejayek",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

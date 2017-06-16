@@ -1,0 +1,143 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT11H30M36S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "LIKE NEW (ITEM AS SEEN IN PHOTOS) Bracelet & Charms Purchased peace by peace at Pandora store",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "489.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "272702351884",
+  "ConvertedCurrentPrice": {
+    "value": "489.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T21:59:36.000Z",
+  "Site": "US",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Pandora-Sterling-Silver-Bracelet-Charms-Murano-Glass-Beads-/272702351884",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T21:59:36.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "19 cm / 7.5 in",
+        "Name": "Bracelet Size"
+      },
+      {
+        "Value": "Authentic",
+        "Name": "Vintage"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Glass & Metal",
+        "Name": "Charm Material"
+      },
+      {
+        "Value": [
+          "Bead",
+          "Spacer"
+        ],
+        "Name": "Charm Type"
+      },
+      {
+        "Value": "Aqua",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Authentic Pandora Sterling Silver Bracelet with Charms & Murano Glass Beads",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "AI",
+    "AG",
+    "AW",
+    "BS",
+    "BB",
+    "BZ",
+    "VG",
+    "KY",
+    "CR",
+    "DM",
+    "DO",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MS",
+    "AN",
+    "NI",
+    "PA",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "TC",
+    "VI"
+  ],
+  "Location": "Fort Lauderdale, Florida",
+  "Description": "Pre-Owned Authentic Pandora Sterling Silver Bracelet with Charms & Murano Glass Beads (ITEM AS SEEN IN PHOTO) List of Beads left to right -- Some Beads are Retired Plane Lock CharmHearts Treasure Chest CharmGrapes / White Wine Charm with Peridot DangleMurano Glass BeadPink CZ Purse Charm / RetiredHigh Heel Dangle CharmHeart SpacerMurano Glass BeadChinese Symbol CharmMurano Glass BeadCelebration Wedding Cake CharmPink Trinity SpacerMurano Glass BeadPrince and the Pea Charm / RetiredMurano Glass BeadPink Trinity SpacerMurano Glass BeadCup Cake CharmMurano Glass BeadPink CZ Easter Egg Charm",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2727023518848080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.9",
+    "UserID": "joenat201314_7",
+    "FeedbackScore": "89",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Blue"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "33",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY1WDE2MDA=/z/8ZAAAOSwIaFZNH6-/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM1N1gxNjAw/z/vLUAAOSw1WJZNH7V/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEyN1gxNjAw/z/DzAAAOSwblZZNH72/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTMwM1gxNjAw/z/jngAAOSwaeRZNH8I/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "PostalCode": "33317"
+}

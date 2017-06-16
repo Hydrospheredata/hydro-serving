@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P22DT20H21M27S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "72.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162532939954",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wedding-Wear-Colored-Stones-Kundan-Gold-Polished-Pearl-Drops-Round-Maang-Tikka-/162532939954",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "72.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-29T07:46:58.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-28T07:46:58.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "maang tikka",
+        "Name": "Style"
+      },
+      {
+        "Value": "kumar jewels",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "multi colored kundan,pearls",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "silver&alloy with gold plating",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "wedding",
+        "Name": "Theme"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Wedding Wear Colored Stones Kundan Gold Polished Pearl Drops Round Maang Tikka",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625329399548080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kumarjewelsamit",
+    "FeedbackScore": "120",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "kumarjewelsamit",
+    "StoreURL": "http://stores.ebay.com/id=1005047448"
+  },
+  "Quantity": "1",
+  "Location": "JALANDHAR, PUNJAB",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/M~gAAOSw241YibIf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mzg1WDgwMA==/z/CagAAOSwNnRYibIi/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "144001"
+}

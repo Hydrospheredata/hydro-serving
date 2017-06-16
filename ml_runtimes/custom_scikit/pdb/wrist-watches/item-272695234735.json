@@ -1,0 +1,110 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "371.25",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Brooklyn, New York",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:24:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=98147286",
+    "StoreName": "Genuine Watches"
+  },
+  "CurrentPrice": {
+    "value": "371.25",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:24:17.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Asia",
+    "AU"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695234735",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "SUP284",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "SUP284",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "$495.00",
+        "Name": "Retail"
+      },
+      {
+        "Value": "029665182180",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Manufacturer"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "*BRAND NEW* Seiko Women's Diamond Accent Two Tone Stainless Steel Watch SUP284",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-Seiko-Womens-Diamond-Accent-Two-Tone-Stainless-Steel-Watch-SUP284-/272695234735",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726952347358080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "11209",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H15M37S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTE1WDkxNQ==/z/UPYAAOSwnNBXVBxU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/r2cAAOSwuMZZEIvo/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "Product Features: Seiko offers a two-toned diamond-accented treasure with this solar timepiece from the Tressia collection.Two-tone stainless steel braceletTonneau case, 22mm, with diamond-accented bezelMother of pearl dial with gold-tone Roman numerals, stick indices, two hands and Seiko logoQuartz movementWater resistant to metersThree-year limited warranty THIS BRAND NEW Seiko WATCH COMES WITH THE Seiko FACTORY WARRANTY AND THE ORIGINAL Seiko WATCH BOX. \"WE ARE AN AUTHORIZED SEIKO DEALER. ALL OUR SEIKO WATCHES ARE 100% AUTHENTIC WITH THEIR TAGS AND SEALING ON THEM.\" ***30 Days Return Policy w/ No Restocking Fee*** ***FREE SHIPPING to all the states*** Important Points To Know About GENUINE_WATCHES:All our brand name watches are brand new, 100% authentic.We are an authorized dealer for all the brands we are marketing. Therefore, all the stamped warranty cards by our company are valid in USA and all over the world.Sold items come with their original boxes, original factory warranty cards, original tags and sealing on them.Sold items ship the latest within 3 business days after the payment gets cleared. We offer free USPS Parcel Post which takes about 5-7 business days after shipment. We also offer USPS Priority Mailing (2-3 business days) and USPS Express Mailing (1 business day) for a small additional charge.Do not hesitate to contact us with any inquiries. We answer all the emails within 24 hours.Returns can be made within 30 days after receiving the item. After inspecting the item, 100% full payment will be refunded to buyer.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4175",
+    "UserID": "genuine_watches",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

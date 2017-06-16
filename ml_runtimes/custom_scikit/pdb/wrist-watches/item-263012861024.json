@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "93.32",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "182734653",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:12:06.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=2984067",
+    "StoreName": "SonShine Gifts"
+  },
+  "CurrentPrice": {
+    "value": "93.32",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:12:06.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "0753759119577",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Garmin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "010-01225-02",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "753759119577",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": "Garmin v\u00edvofit Fitness Band - Purple Product Dimensions: 0.4 x 0.8 x 0.4 inchesItem Weight: 1 ouncesShipping Weight: 4.2 ouncesDomestic Shipping: Item can be shipped within U.S.Item model number: 010-01225-02Batteries: 2 Lithium Metal batteries required. (included) Garmin v\u00edvofit Fitness Band - Purple *** FREE SHIPPING! *** Move Bar - Motivates you to be active throughout the day by displaying a red move bar after one hour of inactivity. Additional segments light up for every 15 minutes of inactivity. Just walk for a couple of minutes to reset.24/7 Wearable - Stylish, comfortable and water resistant wristband that is always on and ready to go.Long battery life - Stays on for more than a year without having to change the battery. Easy-to-read display - View the time of day and your stats right on your wrist.Achieve your goals - Vivofit learns your activity level and assigns a personalized goal each morning. Count calories - Records calories burned throughout the day including base metabolic rate.Monitor your sleep - Set the sleep mode when you go to bed to track the quality of your rest. DETAILS:Product Dimensions: 0.4 x 0.8 x 0.4 inchesItem Weight: 1 ouncesShipping Weight: 4.2 ouncesDomestic Shipping: Item can be shipped within U.S.Item model number: 010-01225-02Batteries: 2 Lithium Metal batteries required. (included) Thank You for your Business!",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Garmin-vvofit-Fitness-Band-Purple-/263012861024",
+  "NewBestOffer": "false",
+  "SKU": "B00HFPOXCO",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2630128610248080_1.jpg",
+  "ItemID": "263012861024",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H55M4S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTE4WDE2MDA=/z/iyEAAOSwxu5ZLrLt/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NDQ=/z/vtoAAOSws5pZLrLw/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDc=/z/i44AAOSwxu5ZLrLz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTEyWDE2MDA=/z/vzAAAOSws5pZLrL3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5Njg=/z/-goAAOSw8HBZLrL6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MzM=/z/h8kAAOSwIaFZLrL9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/iWYAAOSw~FJZLrMB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/IHoAAOSwK6RZLrMF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/v~oAAOSws5pZLrMI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/C7gAAOSwfRdZLrML/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjAyWDE2MDA=/z/iasAAOSwIaFZLrMQ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/bQEAAOSww5hZLrMU/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Garmin vvofit Fitness Band - Purple",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "3684",
+    "UserID": "sonshinegifts",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.A restocking fee may be applied on case by case basis."
+  }
+}

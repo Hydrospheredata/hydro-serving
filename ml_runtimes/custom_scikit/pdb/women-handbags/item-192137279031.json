@@ -1,0 +1,263 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "BestOfferEnabled": "false",
+  "TimeLeft": "P18DT2H5M29S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CTM-Woman-Handbag-Braided-Pattern-Genuine-Leather-Made-Italy-38x28x10-Cm-/192137279031?var=",
+  "ConvertedCurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Woman handbag in genuine leather, braided geometric pattern, made in Italy, adjustable and removable strap, leather decorations. Central Zip bag's closure, single inner compartment, interior lined in fabric, carry-all and zip pockets. New bag with tag and antidust bag included, to preserve the quality.",
+  "Title": "CTM Woman Handbag, Braided Pattern, Genuine Leather Made in Italy - 38x28x10 Cm.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "118.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Mud",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/854/137/311624200/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/854/138/313124909/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Grey",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0139/854/139/311684122/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Red",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0139/854/140/311594939/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Tan",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/854/141/311906130/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Yellow",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/854/142/311990992/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Blue",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0139/854/143/313064395/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854137:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Mud"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "103.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854138:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854139:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Grey"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854140:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Red"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "103.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854141:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Tan"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854142:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Yellow"
+          }
+        }
+      },
+      {
+        "Quantity": "3",
+        "StartPrice": {
+          "value": "118.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:139854143:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Blue"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Mud",
+          "Black",
+          "Grey",
+          "Red",
+          "Tan",
+          "Yellow",
+          "Blue"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-22T18:29:24.000Z",
+  "HitCount": "2",
+  "QuantityThreshold": "10",
+  "EndTime": "2017-06-20T18:29:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Chicca Borse"
+      },
+      {
+        "Name": "MPN",
+        "Value": "419468681"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192137279031",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "15",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "GB",
+  "SKU": "25:139854136:US",
+  "HandlingTime": "10",
+  "QuantityAvailableHint": "MoreThan"
+}

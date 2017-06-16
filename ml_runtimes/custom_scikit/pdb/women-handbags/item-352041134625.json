@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3520411346258080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzc4WDExMDQ=/z/mfEAAOSwtGlZAfFq/$_3.PNG",
+    "http://i.ebayimg.com/00/s/OTgzWDExNTk=/z/V6kAAOSw7GRZAfFv/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTQ4NlgxMjk0/z/pNsAAOSww9xZAfF2/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzQ4WDEwOTY=/z/T6AAAOSw42JZAfF7/$_3.PNG",
+    "http://i.ebayimg.com/00/s/Njc3WDEwNzc=/z/fRAAAOSwcgNZAfF-/$_3.PNG",
+    "http://i.ebayimg.com/00/s/Nzk0WDExMDk=/z/9NYAAOSwjL5ZAfGC/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTYwMFg5ODI=/z/8G8AAOSw-3FZAfGH/$_3.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Merryl-Waist-bag-One-Size-/352041134625",
+  "ConvertedCurrentPrice": {
+    "value": "72.18",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kipling Merryl Waist bag, One Size Product Features 100% Nylon Imported Pockets: 1 exterior, 4 ID windows Product Description What's more convenient than a convertible bag this one easily switches from your shoulder to wear around your Waist. Shipping & ReturnsMost orders are shipped within one business day with standard shipping and tracking number. Tracking information will be automatically uploaded as soon as the item has been shipped.Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses.We do not ship to AK, HI, PO boxes, or APO addresses And PRif you have any question,please contact us and give us a chance to deal with it.We always believe that good communication can solve all problems.I wish you a happy shopping!",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Oceania",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "72.18",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "15683",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "wetesco"
+  },
+  "PrimaryCategoryID": "169298",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Kipling Merryl Waist bag, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-04-27T13:26:32.000Z",
+  "HitCount": "181",
+  "TimeLeft": "P23DT20H25M31S",
+  "EndTime": "2017-06-26T13:26:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "MPN",
+        "Value": "Does not apply"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0882256002782"
+      },
+      {
+        "Name": "UPC",
+        "Value": "882256002782"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "352041134625",
+  "Storefront": {
+    "StoreName": "wetesco",
+    "StoreURL": "http://stores.ebay.com/id=1103268941"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B002AGQT16",
+  "HandlingTime": "4",
+  "BestOfferEnabled": "false"
+}

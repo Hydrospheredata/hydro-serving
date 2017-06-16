@@ -1,0 +1,135 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Sacramento, California",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:09:51.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1183929580",
+    "StoreName": "restorationgrace"
+  },
+  "CurrentPrice": {
+    "value": "49.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:09:51.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355045261",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Equipe",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "EQUQ207",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Matte",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Rubber",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Equipe Q207 Hub Mens Watch Black",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Equipe-Q207-Hub-Mens-Watch-Black-/232355045261",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2323550452618080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "95864",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H39M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQ3WDY2NQ==/z/O-UAAOSw7FRWaQ-q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUzWDc3Mg==/z/-00AAOSwf-VWaQ7C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUyNlg2ODQ=/z/NbIAAOSw7FRWaQ9U/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU3MFg3MDk=/z/fTsAAOSwNphWaQ8z/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU4OVg3MDM=/z/~VUAAOSwf-VWaQ7u/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "MENS EQUIPE Q207 HUB WATCH PRE-OWNED, EXCELLENT LIKE NEW CONDITION, BATTERY GOOD KEEPS ACCURATE TIME (NO BOX OR PAPERS)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "548",
+    "UserID": "lotsandnots",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

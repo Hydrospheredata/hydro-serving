@@ -1,0 +1,108 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "162542245941",
+  "TimeLeft": "P9DT23H33M",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Blue-Tiger-Eye-8mm-Beads-Bracelet-Zen-Cool-Handmade-Kyoto-Japan-UDA44-/162542245941",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "52.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T09:08:31.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "JP",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T09:08:31.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "KYOTO ASAHIYA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Tigers Eye",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Beaded",
+        "Name": "Style"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "2.17",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Stretchable",
+        "Name": "Features"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Blue Tiger Eye 8mm Beads Bracelet Zen Cool Handmade in Kyoto Japan UDA44",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Item Description Item Name Blue Tiger Eye 8mm Beads Bracelet No. UDA39 Materials Blue Tiger Eye Stone, Silk elastic cord Diameter about 55mm (Stretch) Beads size Head beads : about 10.0mm Main beads : about 8.0mm Condition Brand New Manufacture Handmade in Kyoto, Japan Note In Japan, Buddhists have Juzu (Prayer beads, Rosary). Kyoto is famous as a producing center of Juzu. We learn such tradition and produce Juzu style Bracelets made of healing stones. Please wear Japanese tradition. Are you worried about purchasing original Japanese items from countries other than Japan? If you want to purchase original Japanese goods in a fast, affordable, and safe setting, look no further than our store. Shipping I ship from Japan to Worldwide. This item will be shipped by standard airmail (International ePacket of Japan Post) with tracking service and insurance. Estimated shipping times USA, Canada and Mexico: 1-2 weeks Europe: 1-2 weeks Australia, New Zealand and Oceania: 1-2 weeks Asia Pacific: 1-2 weeks Middle East: Available South America: Available Africa: Available I'll do my best to meet these shipping estimates, but cannot guarantee them. If you have any questions, please feel free to contact me. Payment Paypal Only Please make a payment within 2 weeks after you won or purchased. Other Term International Buyers Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up - do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \"gifts\" - US and International government regulations prohibit such behavior.",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625422459418080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "kyotostyle2014",
+    "FeedbackScore": "213",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "kyotostyle2014",
+    "StoreURL": "http://stores.ebay.com/id=1297343245"
+  },
+  "Quantity": "1",
+  "Location": "Kyoto-shi, Kyoto",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/7qwAAOSwol5Y4vvx/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/GQAAAOSwealY4vvm/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/-KIAAOSw3utY4vvr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/71AAAOSww3tY4vv3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/9lkAAOSw4CFY4vv8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8D4AAOSwol5Y4vwC/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

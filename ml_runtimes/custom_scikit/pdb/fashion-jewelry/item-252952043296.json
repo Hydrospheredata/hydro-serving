@@ -1,0 +1,107 @@
+{
+  "ReturnPolicy": {
+    "Description": "Return policy is a 10 % restocking fee. Item has to be returned in the same condition as shipped.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P15DT21H16M37S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "139.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252952043296",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Robert-Lee-Morris-Studio-Sterling-Silver-Hammered-Cuff-37-8-GW-/252952043296",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "139.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-22T12:22:14.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-06-21T12:22:14.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 Sterling Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Robert Lee Morris",
+        "Name": "Designer"
+      },
+      {
+        "Value": "Cuff",
+        "Name": "Style"
+      },
+      {
+        "Value": "Current",
+        "Name": "Time Period"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Robert Lee Morris Studio Sterling Silver Hammered Cuff 37.8 GW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This auction is for a brand new Robert Lee Morris RLM Studio hammered cuff bracelet. Simple and chic highly polished cuff. It is made from sterling silver 925 and weighs 33.8 grams. It measures 1/2\" wide at it's widest and is 6 1/2\" long. The inside is stamped RLM Studio 925. Guaranteed authentic. Smoke-free home.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529520432968080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "sfm218609eh8",
+    "FeedbackScore": "8040",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "sfm218609eh8",
+    "StoreURL": "http://stores.ebay.com/id=26041509"
+  },
+  "Quantity": "1",
+  "Location": "New York, New York",
+  "HitCount": "15",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqRHJCgFBsRU3DN8BQl)pDd)Pg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$T2eC16RHJGoE9nuQfSSmBQl)pB5STw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$(KGrHqFHJCUFB)ghfEVhBQl)pD2kow~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjEwWDQ1Nw==/$(KGrHqJHJDYFCC5idK9JBQl)pCq(Z!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDI1WDU2Nw==/$T2eC16dHJGQE9noMbUGIBQl)pC0G,w~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/$T2eC16dHJIIE9qTYLh3WBQl)pCbV0w~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "10012"
+}

@@ -1,0 +1,139 @@
+{
+  "ReturnPolicy": {
+    "Description": "Return Policy   All sales are final. Please do not place your order until you are certain of your purchase.   If your item appears defective upon receipt please email us within three days of receiving your order and provide us with the details.   'Buyers Regret' - If a buyer insists on a refund there will be a 15% restocking fee. The item must be in the same condition as when it was received, never worn, returned in the box with the original tags still in place.   The buyer is responsible for return shipping.   Warranty   We are able to offer our customers discounted prices as we are not authorized dealers and are not restricted by the manufacturer guidelines, however that means that we are unable to supply the manufacturer warranty.   We offer a 60 day warranty on all our items. This warranty covers only manufacturer defects such as the watch gaining or losing time.   For any watches over $1,000 we offer an extended warranty of one year.   This warranty does not cover any external or physical damage to the product, damage that occurs from the product being serviced by a 3rd party or water damage.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P20DT7H38M20S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "4",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "123.99",
+    "_currencyID": "USD"
+  },
+  "SKU": "SW5111318",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "302329343799",
+  "ConvertedCurrentPrice": {
+    "value": "123.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-05-26T22:39:58.000Z",
+  "Site": "US",
+  "DiscountPriceInfo": {
+    "SoldOneBay": "false",
+    "SoldOffeBay": "false",
+    "OriginalRetailPrice": {
+      "value": "149.0",
+      "_currencyID": "USD"
+    },
+    "PricingTreatment": "STP"
+  },
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swarovski-Cherie-Long-Pendant-5111318-/302329343799",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T22:39:58.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Swarovski",
+        "Name": "Brand"
+      },
+      {
+        "Value": "SW5111318",
+        "Name": "Model"
+      },
+      {
+        "Value": "5111318",
+        "Name": "MPN"
+      },
+      {
+        "Value": "768549710247",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Swarovski Cherie Long Pendant 5111318",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "BA",
+    "BG",
+    "HR",
+    "LV",
+    "LI",
+    "LT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "VA"
+  ],
+  "Location": "7083",
+  "Description": "A Swarovski rhodium-plated necklace featuring a flower cluster pendant crafted with pink and clear crystals . Approximate size: 16 1/2\".",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3023293437998080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "UserID": "watchvendor",
+    "FeedbackScore": "13625",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "watchvendor",
+    "StoreURL": "http://stores.ebay.com/id=767625912"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "11",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDkwMA==/z/mvEAAOSwaeRZKK7C/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

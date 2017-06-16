@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE4OFgxMDY0/z/EuUAAOSwWWxY~bKb/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Tt8AAOSw5UZY~bJI/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wFIAAOSwBOtY~bKF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NlgxMDE2/z/hacAAOSwzqFY~bLs/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Uv4AAOSwmCVY~bJb/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rare-WHOLE-FOODS-MARKET-E-87th-ST-NYC-Launch-Navy-Canvas-Reusable-Tote-Bag-NEW-/132203835626",
+  "ConvertedCurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Rare WHOLE FOODS MARKET E 87th ST NYC Launch Navy Blue Canvas Reusable Tote Bag Brand new, only available at the launch for the East 87th Street location of WFM in Manhattan Rare, hard to find collectible Stored in a smoke-free home",
+  "Title": "Rare WHOLE FOODS MARKET E 87th ST NYC Launch Navy Canvas Reusable Tote Bag NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169302",
+  "Location": "New York, New York",
+  "Seller": {
+    "FeedbackScore": "49",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "corporatecollectibles"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "ZA",
+    "IE",
+    "MX",
+    "NZ",
+    "SG",
+    "AE",
+    "MY"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "10101",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T05:12:31.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P21DT11H46M43S",
+  "EndTime": "2017-06-24T05:12:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Whole Foods Market"
+      },
+      {
+        "Name": "Style",
+        "Value": "Reusable Shopping Tote Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132203835626",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322038356268080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

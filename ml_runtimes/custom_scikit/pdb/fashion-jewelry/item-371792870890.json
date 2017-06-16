@@ -1,0 +1,87 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P11DT2H51M5S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371792870890",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HDWCU10458-Harley-Davidson-Womens-Crystal-Font-Bling-Harley-Leather-Wrist-Cuff-/371792870890",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2016-11-18T17:02:34.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-16T17:02:34.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Harley-Daivdson",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "HDWCU10458 Harley-Davidson Womens Crystal Font Bling Harley Leather Wrist Cuff",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HDWCU10458 - Harley-Davidson\u00ae Womens Crystal Font Bling Harley Black Leather Wrist Cuff by LODIS *3DY*. \u2022 Harley letters are adjustable\u2022 Belt closure Officially Licensed Harley-Davidson\u00ae Product by Lodis Accessories, Inc.",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3717928708908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "zepka123",
+    "FeedbackScore": "14068",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "ZEPKAHD",
+    "StoreURL": "http://stores.ebay.com/id=35542619"
+  },
+  "Quantity": "1",
+  "Location": "Johnstown, Pennsylvania",
+  "HitCount": "163",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/CukAAOSwo4pYLzPa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEzMVgxMjAw/z/BHcAAOSw5cNYLzPc/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "15904"
+}

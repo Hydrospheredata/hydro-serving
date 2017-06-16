@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4822.88",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "London",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:46:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=144630961",
+    "StoreName": "Belmont Jewellers"
+  },
+  "CurrentPrice": {
+    "value": "3750.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:46:39.000Z",
+  "ShipToLocations": [
+    "Asia",
+    "US",
+    "EuropeanUnion"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400102363",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Audemars Piguet",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "audemars piguet Ladies 18ct Yellow Gold Mechanical Wristwatch",
+  "ConditionDescription": "With original box",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/audemars-piguet-Ladies-18ct-Yellow-Gold-Mechanical-Wristwatch-/142400102363",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1424001023638080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "Wc2a 1qt",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H28M15S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/b7gAAOSwlY1ZLqn1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-8EAAOSw8lpZLqn6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/o6oAAOSw42dZLqoA/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/BOQAAOSww5hZLqoG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7SwAAOSwlMFZLqoL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MWEAAOSwCQZZLqoP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/12YAAOSw1WJZLqoX/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xWwAAOSwYlRZLqoj/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Audermars Piquet Ladies 18ct yellow gold mechanical Wristwatch. Classic ladies Wristwatch with Black Onyx dial, in excellent condition . 28mm across the face and 17cm in length . Weight including movement 71gms. With original box no papers.",
+  "Seller": {
+    "PositiveFeedbackPercent": "94.4",
+    "FeedbackScore": "201",
+    "UserID": "belmontv46",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

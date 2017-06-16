@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fees: No",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P5DT10H55M41S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Excellent condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272701027276",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JOAN-RIVERS-Vintage-Brooch-Pink-Rhinestones-Red-Enamel-Ribbon-BOW-/272701027276",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "39.95",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T23:56:06.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T23:56:06.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Joan Rivers",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Rhinestone",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "JOAN RIVERS Vintage Brooch Pink Rhinestones Red Enamel Ribbon BOW",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "txzj pxzj8447 txzj44 txzj101",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2727010272768080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hautedesertjewels",
+    "FeedbackScore": "3245",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "hautedesertjewels",
+    "StoreURL": "http://stores.ebay.com/id=1232581468"
+  },
+  "Quantity": "1",
+  "Location": "Sun City, Arizona",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODU5WDcwMA==/z/vFcAAOSwJ7RYTvLg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTA5WDcwMA==/z/ddsAAOSwA3dYTvME/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "85351"
+}

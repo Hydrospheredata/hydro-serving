@@ -1,0 +1,109 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "DiscountPriceInfo": {
+    "PricingTreatment": "STP",
+    "OriginalRetailPrice": {
+      "value": "150.0",
+      "_currencyID": "USD"
+    },
+    "SoldOffeBay": "false",
+    "SoldOneBay": "false"
+  },
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1722527272528080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/o9AAAOSwNuxXbadQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Samsonite-Jordyn-Ladies-Laptop-Bag-21-1-4-x-7-1-2-x-12-Nylon-Black-494601041-/172252727252",
+  "ConvertedCurrentPrice": {
+    "value": "135.48",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Samsonite Jordyn Ladies Laptop Bag 21 1/4 x 7 1/2 x 12 Nylon Black 494601041 - Sold as 1 Each Classic look and simply chic! The interior features fully-lined, multi-functional pockets and spacious compartments for complete organization including dedicated pockets that protect and accommodate up to a 15.6\u201d laptop and a tablet. Sold as 1 Each. You may be interested in our other listings on eBay. Shipping IMPORTANT: Please be sure to enter the correct ship-to address as it cannot be changed once the sale is complete. All items are packed with care and shipped within 1 - 3 business days after receipt of cleared payment. MyOfficeInnovations ships to the 48 US Domestic States. Excluded are Alaska, Hawaii, Puerto Rico, APO/FPO, PO Boxes and International locations. Please see our full Store Policy Page Here. Returns We are proud to offer one of the best and most flexible return policies in the office products industry. Government regulations prohibit the return of food and drug products. Sales Tax As our organization has shipping locations in many states and as we ship to all forty-eight (48) contiguous states, we are obligated by each state to collect sales tax and remit to each state. eBay STORE ABOUT US POLICIES SAVE SELLER CONTACT US Ware / Milo Consulting and Design ...your partner in growing your business! All Rights Reserved",
+  "Title": "Samsonite Jordyn Ladies Laptop Bag 21 1/4 x 7 1/2 x 12 Nylon Black 494601041",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "135.48",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Smyrna, Tennessee",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "160899",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "RedShooting",
+    "UserID": "myofficeinnovations"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37167",
+  "GlobalShipping": "false",
+  "Quantity": "18",
+  "StartTime": "2016-06-24T21:33:50.000Z",
+  "HitCount": "165",
+  "TimeLeft": "P17DT6H18M21S",
+  "EndTime": "2017-06-19T21:33:50.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Samsonite"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "SAMSONITE CORP/LUGGAGE DIV"
+      },
+      {
+        "Name": "Manufacturer Part Number",
+        "Value": "SML494601041 494601041"
+      },
+      {
+        "Name": "UPC",
+        "Value": "043202515682"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0043202515682"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172252727252",
+  "Storefront": {
+    "StoreName": "MyOfficeInnovations",
+    "StoreURL": "http://stores.ebay.com/id=1085336589"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Returns Accepted. Government regulations prohibit the return of food and drug products.\n \nPlease open a Return inside of eBay's Return Center and follow the instructions. Once you open the Return, our Customer Service will reply appropriately based on a case-by-case basis. We will provide a Return Authorization for your return as well as a return shipping label if the situation deems it necessary. A return shipping label will only be provided if the return is MyOfficeInnovations' issue.\n \nYou must have a Return Authorization number (RA #) prior to returning goods. Our Customer Service team will issue you the RA # and provide you with a distribution center address where the product is to be returned. PLEASE WRITE THIS RA # ON THE SHIPPING LABEL SO WE CAN ENSURE YOU ARE CREDITED PROPERLY. Shipping charges for delivery and/or return of items will be credited only if we are responsible for the error.\n \nWe are not responsible for items that do not arrive at our warehouse. Therefore, we strongly suggest that you ship your package in a way that allows you to track the shipment and receive proof of delivery.\n \nAll returned products must be in original condition and packaging; otherwise, additional charges may be applied. Unfortunately, we cannot take returns of products that have been assembled or modified. Additionally, certain products cannot be returned because neither we nor our suppliers can take them back. If you have any questions about whether a product can be returned, please call us.\n \nGovernment regulations prohibit the return of food and drug products.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "3132515",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

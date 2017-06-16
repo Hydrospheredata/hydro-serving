@@ -1,0 +1,121 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "160.76",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bath",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:19:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:19:22.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe"
+  ],
+  "SKU": "HATTSILBKBK",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535811053",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brown",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "HATTSILBKBK",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Kennett",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SAVE OVER 50%! CLOSING DOWN! Kennett Men's Hatton Watch RRP \u00a3270",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAVE-OVER-50-CLOSING-DOWN-Kennett-Mens-Hatton-Watch-RRP-270-/162535811053",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625358110538080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "BA2 1PL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H55M45S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2DwAAOSwcUBYGbPk/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Kennett Men's Hatton Watch - James Samson Kennett Men's Hatton Watch Act Fast! Less than 50 products left in our Closing Down Sale! View the complete range. Inspired by the world's most famous jewellery quarter, Hatton Garden. This Men's designer chronograph watch from Kennett is a real statement piece. Comes With 2 year Kennett guarantee, Manual and Kennett presentation box RRP \u00a3270 Features: - Model: HATTSILBKBK - Movement: Miyota OS10 chronograph quartz - Case width: 44mm - Case depth: 12mm - Case Material: Stainless steel - Case Colour: Silver - Strap type: Leather - Strap colour: Black - Clasp type: Buckle - Date: Yes - Chronograph: Yes - Dial Colour: Black - Hands: White / Red - Water resistant: 50 metres About James Samson Based in Bath, James Samson offers a range of Jewellery, Watches, Gifts and Clocks, from over 20 small independent brands. In addition to a small product selection on eBay, our main online store includes brands such as Maserati Time, NONA jewels, Michel Herbelin Watches and more. Payment We only accept payment by PayPal. Postage 95% of orders placed Monday to Friday are dispatched the same day. We offer 3 different postage options and all require a signature: Standard: Free. 3-5 working day tracked courier. Next day: \u00a37 charge. Order by 12pm and receive your order the next day. 48 Hour: \u00a34.50 charge. Order by 12pm and receive your order in 2-3 working. Returns Unsuitable items can be returned up to 14 days after purchased. To return items please email us first. On receipt of items, we will pay any refund(s) due. We regret that we cannot be held responsible for non-delivery of returned goods. Customer Care James Samson cares about you, our customer. We want you to get the item you paid for in a timely manner, receive great service and be satisfied with your purchase. Should you have a question; we are just an email (info@jamessamson.co.uk) or a call (01225 478961) away. We aim to respond to emails within 24 hours. W: www.jamessamson.co.uk | E: info@jamessamson.co.uk | T: 01225 478961",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "63",
+    "UserID": "jamessamsonuk",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

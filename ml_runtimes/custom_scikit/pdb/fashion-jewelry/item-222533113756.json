@@ -1,0 +1,155 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT8H12M7S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "All Sterling Silver Jewelry never worn. Brand new, directly from the Manufacturer. (.925 Fine Silver)",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR"
+  ],
+  "CurrentPrice": {
+    "value": "67.15",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222533113756",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CZ-Sterling-Silver-Cross-2-5-Inches-Tall-925-Pure-Silver-/222533113756",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "67.15",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T22:33:50.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-02T22:33:50.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "My Royal lady",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925 Pure Silver",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Pendant/Charm",
+        "Name": "Type"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "white",
+        "Name": "Color"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "CZ Sterling Silver Cross - 2.5 Inches Tall -  .925 Pure Silver",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "CZ Sterling Silver Cross .925 Pure Silver 2-3 Day Shipping Description of CZ Cross Imported from Thailand Weight: 15.4 grams Height: 2 1/2 inches Width: 1 1/2 inches There are 31.1 grams to the ounce. Quality Sterling Silver Jewelry from around the world. FROM THE MY ROYAL LADY SILVER COLLECTION All USA orders will receive 100% Free Shipping and Handling after payment is received. Our Jewelry is Sterling Silver (not Costume Jewelry/Base metal) and contains 92.5% Pure Silver Content. Your Jewelry will be shipped in padded envelopes or boxes to your Pay-Pal address. 2-3 Day Shipping. Please leave us Feedback and send us your questions or concerns about anything we sell. WE WANT OUR BUYERS TO BE HAPPY!",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225331137568080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "myroyallady",
+    "FeedbackScore": "881",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "myroyalladysilvercollection",
+    "StoreURL": "http://stores.ebay.com/id=1090147402"
+  },
+  "Quantity": "3",
+  "Location": "Neptune, New Jersey",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODgxWDg4MQ==/z/ojYAAOSwdzVXq4qZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODgxWDg4MQ==/z/4kAAAOSwHoFXq4q8/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "07753"
+}

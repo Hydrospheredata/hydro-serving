@@ -1,0 +1,92 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "499.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Kobe",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:26:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=947658429",
+    "StoreName": "happy-from-japan"
+  },
+  "CurrentPrice": {
+    "value": "499.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:26:15.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "CASIO",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210877311",
+  "HandlingTime": "1",
+  "Description": "Description New CASIO G-SHOCK Space Invaders LTD Edition Watch 176902 Condition : New old stock Currently the watches are working but by the time they arrive there its possible the batteries have run out. Shipping EMS with tracking Number: about 5-8days I will send item in 1 to 2 working days after receive your payment Shipping Worldwide Caution : I do not send the item on Sunday and Japanese holiday. I will only ship to the address provided during payment. Payment I accept PayPal for the payment ONLY Please make the payment within 5 days after the end of auction. International Buyers &ndash; Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer&rsquo;s responsibility. Please check with your country&rsquo;s customs office to determine what these additional costs will be prior to bidding/buying. (Other information a seller may wish to include:) These charges are normally collected by the delivering freight (shipping) company or when you pick the item up do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \"gifts\" &ndash; US and International government regulations prohibit such behavior. About Us Welcome to my auction!! My all product are 100% AUTHENTIC Please send a message if there would be any products you want in Japan. I will try to find it for you. Im looking forward to trading with you on ebay. Happy Bidding!!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-CASIO-G-SHOCK-Space-Invaders-LTD-Edition-Watch-mn197-/132210877311",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322108773118080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H2M57S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/uyQAAOSwVm5ZAMcy/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/l8AAAOSwuspZAMc1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/v7YAAOSwN6JZAMc4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/5tQAAOSwSypZAMc7/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/J40AAOSw5UZZAMc~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/6j4AAOSwIWVZAMdC/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/tnsAAOSwvbdZAMdF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/KhUAAOSw5UZZAMdI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjY5WDEwMDA=/z/66oAAOSwIWVZAMdL/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "New CASIO G-SHOCK Space Invaders LTD Edition Watch (mn197)",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "1162",
+    "UserID": "happy-from-japan",
+    "FeedbackRatingStar": "Red",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "We accept returns only if you return merchandise within 14 days of its receipt. Buyer is responsible for shipping cost of returning merchandise. The merchandise must be returned in original packaging."
+  }
+}

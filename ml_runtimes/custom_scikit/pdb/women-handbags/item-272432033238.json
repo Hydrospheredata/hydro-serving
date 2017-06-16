@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Fanny, Waist Packs",
+  "ConditionDisplayName": "New with tags",
+  "LotSize": "24",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169298",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/tdgAAOSwo6lWQtdK/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/bWcAAOSwI~VTyXeO/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/1HYAAOSwuTxV~02H/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FANNY-PACK-24-PCS-59-99-FREE-SHIPPING-/272432033238",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "4",
+  "NewBestOffer": "false",
+  "Description": "BRAND NEW , ASSORTED COLORS 24 PCS FOR ONLY $59.99 FREE SHIPPING",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "NY",
+  "Seller": {
+    "FeedbackScore": "981",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "thecontractorliquidation"
+  },
+  "PrimaryCategoryID": "169298",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "FANNY PACK 24 PCS $59.99 FREE SHIPPING",
+  "GlobalShipping": "false",
+  "Quantity": "8",
+  "StartTime": "2016-10-30T17:28:03.000Z",
+  "HitCount": "321",
+  "TimeLeft": "P25DT22M38S",
+  "EndTime": "2017-06-27T17:28:03.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "my"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272432033238",
+  "Storefront": {
+    "StoreName": "thecontractorliquidation",
+    "StoreURL": "http://stores.ebay.com/id=1040688905"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2724320332388080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

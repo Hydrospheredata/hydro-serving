@@ -1,0 +1,113 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "122533599871",
+  "TimeLeft": "P6DT18H42M28S",
+  "ListingStatus": "Active",
+  "Title": "Love Ring silver Free size Twist new sterling",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "59.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T08:06:00.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "TH",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T08:06:00.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "hand make",
+        "Name": "Brand"
+      },
+      {
+        "Value": "twist",
+        "Name": "Style"
+      },
+      {
+        "Value": "silver 98%",
+        "Name": "Metal"
+      },
+      {
+        "Value": "ring",
+        "Name": "Theme"
+      },
+      {
+        "Value": "silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Thailand",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Love-Ring-silver-Free-size-Twist-new-sterling-/122533599871",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "Oceania",
+    "South America",
+    "RS",
+    "TH",
+    "MX"
+  ],
+  "Location": "bungkhum",
+  "Description": "Love Ring silver Free size Twist new sterling Silver 98% This ring hand make.Product same as picture Normal Silver when used color to be white silver after not use long time will to be back color. after you use it will be white silver again.Thank you.",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225335998718080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "thebangkok",
+    "FeedbackScore": "26",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "thebangkok",
+    "StoreURL": "http://stores.ebay.com/id=1253182849"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg4WDkxOA==/z/cgoAAOSw-3FZNQ9y/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTU2WDEzMjg=/z/2xAAAOSwIQdZNQ1i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTQ3WDEyNjM=/z/K7IAAOSw1WJZNQ1k/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk1WDEyOTY=/z/rGcAAOSw8HBZNQ1o/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODgzWDEwMzI=/z/qyoAAOSwJH1ZNQ1q/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

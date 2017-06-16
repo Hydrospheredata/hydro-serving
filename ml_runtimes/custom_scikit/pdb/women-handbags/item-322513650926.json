@@ -1,0 +1,176 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/BtgAAOSw42dZFQSA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/Ri8AAOSwX61ZFQSB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/RiYAAOSwX61ZFQSA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/j5kAAOSwZKBZFQSB/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mellow-World-Fashion-Rogue-Carry-on-Rolling-Suitcase-Khaki-/322513650926",
+  "ConvertedCurrentPrice": {
+    "value": "207.3",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The mellow world rogue carry-on bag features snake skin embossing with gold plated detail. This carry-on bag is constructed with an adjustable locking handle and smooth rolling wheels for easy mobility and includes a grip handle on the top that makes it easy to lift. The interior is fully lined and includes tie-down straps to hold garments in place as well as a pocket in the lid to hold delicate items, a laptop, or several small accessories. - Zipper closure - Fully lined interior - Adjustable locking handle and smooth rolling wheels - 16x8x17 Mellow World Fashion Rogue Carry-on Rolling Suitcase, Khaki",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "207.3",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "759",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "giftguys"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Mellow World Fashion Rogue Carry-on Rolling Suitcase, Khaki",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-12T00:40:29.000Z",
+  "HitCount": "25",
+  "TimeLeft": "P8DT9H36M8S",
+  "EndTime": "2017-06-11T00:40:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "700604355352"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0700604355352"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Mellow World"
+      },
+      {
+        "Name": "MPN",
+        "Value": "HB15314"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Khaki"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "7.55 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 16 x W 16 x H 9 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "HB15314-Khaki"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322513650926",
+  "Storefront": {
+    "StoreName": "THE GIFT-GUYS",
+    "StoreURL": "http://stores.ebay.com/id=1105227626"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225136509268080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

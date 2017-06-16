@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.42",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Mold",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T10:16:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1205495579",
+    "StoreName": "pipe-smoking-hubby-1951"
+  },
+  "CurrentPrice": {
+    "value": "4.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:16:37.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182599902757",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Does Not Apply",
+      "Name": "MPN"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Ladies Limit Quartz Watch Black Strap New Battery #W48",
+  "ConditionDescription": "Working and keeping correct time new battery fitted.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Limit-Quartz-Watch-Black-Strap-New-Battery-W48-/182599902757",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1825999027578080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "CH7 6JF",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H53M",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/dVkAAOSwx6pYts7k/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/0ZAAAOSw32lYts75/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/23gAAOSwB-1Yts8J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/3ikAAOSwB-1Yts8c/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/fVsAAOSwx6pYts8n/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/pE0AAOSw4A5Yts8y/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/KtcAAOSwWxNYts8~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/p~oAAOSw4A5Yts9L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/FjoAAOSwCU1Yts9b/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/MLoAAOSwWxNYts9n/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "A ladies Limit quartz Wristwatch, with black strap, in working condition, with new battery fitted. An easy to read watch, with benefits from a second hand. #Free 14 day returns. #Free Royal Mail 1st class post. Thank you for looking at my listing.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "1226",
+    "UserID": "the-watch-man-1951",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "14 day refund policy.",
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

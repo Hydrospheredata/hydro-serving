@@ -1,0 +1,100 @@
+{
+  "HighBidder": {
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "1***i",
+    "FeedbackScore": "14"
+  },
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/yx0AAOSwfRdZKyaQ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Large-Duffel-Disney-Magical-Blooms-Fast-Shipping-/401336301261",
+  "ConvertedCurrentPrice": {
+    "value": "68.89",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "1",
+  "NewBestOffer": "false",
+  "Description": "Track Page Views WithAuctiva's FREE Counter",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "68.89",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Clean Home, Smoke & animal free",
+  "Seller": {
+    "FeedbackScore": "4623",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "yangyoung1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Large Duffel in Disney Magical Blooms Fast Shipping!",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-28T19:35:41.000Z",
+  "HitCount": "16",
+  "TimeLeft": "PT3H1M59S",
+  "EndTime": "2017-06-02T19:35:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Strap",
+        "Value": "15"
+      },
+      {
+        "Name": "Length",
+        "Value": "22"
+      },
+      {
+        "Name": "Width",
+        "Value": "11.5"
+      },
+      {
+        "Name": "Height",
+        "Value": "11.5"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pictured"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "401336301261",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013363012618080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

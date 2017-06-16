@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEwNFg3MzY=/z/5TsAAOSwFnFV-w2K/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MjkxWDYyOA==/z/XuoAAOSwFnFV-xEP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjYwWDQ5NQ==/z/pq0AAOSwiLdV-w2N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Njk5WDcyMA==/z/apcAAOSwQPlV-w2J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/P9gAAOSwAuNW6JBD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA3MVgxNjAw/z/29IAAOSwvgdW6JBJ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rubizu-LEnvelope-Leather-Pleated-Diaper-Bag-Camel-Color-/302304496970",
+  "ConvertedCurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "If you want luxury and practicality, this is the one for you. It's stuffed with pockets, an extremely comfortably padded changing mat and all the usuals - but unusually the entire inside of the bag can be removed. This means not only can you use that separately, should you so wish, but that also, once you are done with nappies, you can just shed all the practical elements and have a luxury leather handbag. It works as follows: the pretty turquoise insert pops out completely. The \u2019empty\u2019 bag can be used independently from the interior compartment as it has its own side pockets and is beautiful as is. The interior compartment can be easily organized once out of the bag. Very soon, a laptop insert will be available too which transforms the bag from mummy bag to business bag in a few seconds! 36cm(H) x 18cm(W) x 44cm(L). Also has strap for shoulder or cross over body. MSRP $ 425.00",
+  "Title": "Rubizu L'Envelope Leather Pleated Diaper Bag - Camel Color",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "200.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "San Francisco, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "794",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "knk-maternity"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "ZA",
+    "IE",
+    "MX",
+    "NZ",
+    "SG",
+    "AE",
+    "MY"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "94134",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-03T17:48:47.000Z",
+  "HitCount": "19",
+  "TimeLeft": "PT2H20M59S",
+  "EndTime": "2017-06-02T17:48:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Rubizu"
+      },
+      {
+        "Name": "Color",
+        "Value": "Camel"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302304496970",
+  "Storefront": {
+    "StoreName": "KNK-MATERNITY",
+    "StoreURL": "http://stores.ebay.com/id=58277509"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023044969708080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,101 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5MFgxNjAw/z/bqMAAOSwImRYKJCE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU2N1gxNjAw/z/SsQAAOSwcUBYKJOy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDI3/z/eeAAAOSwux5YKJO4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzk4/z/1~4AAOSwx2dYKJQC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/4SIAAOSwHMJYKJQG/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4NFgxNjAw/z/WFkAAOSwal5YKJQK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzgx/z/lx4AAOSwA3dYKJQN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIxM1gxNjAw/z/WccAAOSwal5YKJQR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTk1/z/~KYAAOSwcLxYKJQV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTEwOFgxMjk2/z/mPAAAOSwA3dYKJQX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU5MFgxNjAw/z/T9cAAOSwHMJYKJZ8/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fendi-Black-Crocodile-Professional-Briefcase-made-Italy-Retail-25-200-/132190285277",
+  "ConvertedCurrentPrice": {
+    "value": "3995.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Styled to amp up your professional style this Handmade Briefcase by Fendi features Crocodile Skin,sides Calf Leather,zipped closure,durable silk type material inside,one zipped pocket with ID serial number and hologram inside and metal Fendi plate outside. This Exquisite Briefcase is meticulous constructed from soft Crocodile skin. The main panels are assembled by hand featuring hand painted seams and two intercciato handles on Fendi engraved hinges. Size: width 15\",hight about 12\",side width about 5\",handle drop 5\". Made in Italy. Retail $25,200.00",
+  "Title": "Fendi Black Crocodile Professional Briefcase made in Italy Retail $25,200",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "3995.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Brooklyn, New York",
+  "Seller": {
+    "FeedbackScore": "696",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "raisa10_1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "11229",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-12T23:02:15.000Z",
+  "HitCount": "50",
+  "TimeLeft": "P9DT7H58M13S",
+  "EndTime": "2017-06-11T23:02:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Crocodile/Alligator"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Fendi"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Italy"
+      },
+      {
+        "Name": "Style",
+        "Value": "Professional Briefcase"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132190285277",
+  "Storefront": {
+    "StoreName": "raisa10_1",
+    "StoreURL": "http://stores.ebay.com/id=287603351"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1321902852778080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

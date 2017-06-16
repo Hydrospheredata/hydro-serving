@@ -1,0 +1,125 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "42.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "172700851870",
+  "PrimaryCategoryID": "499",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "PostalCode": "77853",
+  "ConvertedCurrentPrice": {
+    "value": "42.0",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedBuyItNowPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1727008518708080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "his_new_bride",
+    "FeedbackScore": "443",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/ODc1WDY2OQ==/z/idUAAOSwuMZZCz8Q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODU5WDc0OQ==/z/2c4AAOSw~y9ZCz9K/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/Njk2WDUyNg==/z/BoAAAOSwjqVZCz75/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQ3WDU0Mg==/z/24oAAOSwjL5ZCz7w/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/AVwAAOSwjqVZCz7O/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/5FwAAOSw7GRZCz7P/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTk1WDUxNg==/z/AJsAAOSwR29ZCz7e/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/lg8AAOSwrhBZCz7S/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDQ4MA==/z/dA8AAOSwX61ZCz8u/$_1.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/v~EAAOSw~y9ZCz7U/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "TimeLeft": "P2DT11H19M27S",
+  "StartTime": "2017-05-29T02:18:47.000Z",
+  "ConditionDescription": "Beautiful Turquoise Earrings in Mint condition.",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "42.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "10",
+  "QuantitySoldByPickupInStore": "0",
+  "BuyItNowPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "HandlingTime": "1",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Silpada-Sterling-Silver-Turquoise-Earrings-Retired-W2215-/172700851870",
+  "EndTime": "2017-06-08T02:18:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "French Wire Earrings",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Turquoise",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "See Photos",
+        "Name": "Color"
+      },
+      {
+        "Value": "Sterling Silver, Turquoise, Smoky quartz",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Silpada  Sterling Silver Turquoise Earrings Retired W2215",
+  "Location": "Dime Box, Texas",
+  "Description": "Silpada\u00a0Sterling Silver Retired Turquoise Earrings W2215 Excellent like new condition. All of my pictures are of the earrings that are listed.\u00a0 Featured in the Silpada\u00a02011-12 Catalog on page 28D \"Nuggets of stabilized Turquoise...\" Retailed for $69 plus tax and shipping 2 inches length Will be shipped in a Silpada box\u00a0 e-mail w/questions - sale is final I ship to USA addresses.",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "BuyItNowAvailable": "true",
+  "Quantity": "1"
+}

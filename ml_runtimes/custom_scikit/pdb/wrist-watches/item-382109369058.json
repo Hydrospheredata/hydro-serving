@@ -1,0 +1,109 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:24:05.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=5548222",
+    "StoreName": "watchesbydan"
+  },
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T14:24:05.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "1950-1959",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "South America",
+    "VN",
+    "FR"
+  ],
+  "ItemID": "382109369058",
+  "HandlingTime": "1",
+  "Description": "Item - Vintage Elgin DeLuxe Watch Fancy Case 1950's Case top - 10k gold filledback - 10k gold filled condition - some wear Movement - Elgin hand windjewels - 17model number - 624serial number - V206264running but not timedselling it as is Crystal - cracked Dial - aged Size 39mm long24mm wide not including the crown Payment - Complete payment must be made within two days of the close of the auction. If not paid in time, EBay will be contacted and you will be reported as a non-paying bidder. Payment can be made through PayPal. Please bid only if you intend to purchase this item. ShippingDomestic shipping rates are $7.00 via USPS priority mail. International shipping rates are $55.00 via USPS express mail. Please note the cost of shipping has increased. PayPal requires tracking on all international packages. USPS Express Mail is the only way tracking is available for international shipments. Please wait to pay for items won until I send the invoice. I am sorry but I will no longer be shipping to any address in France or Vietnam. Shipping rates will vary with any changes from the standard shipping such as insurance, air mail, etc. We are not responsible for any delays due to your country's custom offices. Please do not ask us to break any custom laws. I will not risk my business by falsifying any information. Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Please check with your country's customs office to determine what these additional costs will be prior to bidding/buying. These charges are normally collected by the delivering freight (shipping) company or when you pick the item up. Do not confuse them for additional shipping charges. We do not mark merchandise values below value or mark items as \"gifts\" - US and International government regulations prohibit such behavior PA residents will need to pay 6% sales tax or provide PA tax exempt number.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage Elgin DeLuxe Watch Fancy Case 1950's",
+  "NewBestOffer": "false",
+  "SKU": "a276",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Elgin-DeLuxe-Watch-Fancy-Case-1950s-/382109369058",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3821093690588080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H15M33S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/td8AAOSwN6JZASA~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/WQAAAOSwvihZASBD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/nE0AAOSwtZJZASBG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/WbkAAOSwvihZASBI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/esgAAOSwRUhZASBK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/5jgAAOSwIWVZASBO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/PPQAAOSwzqFZASBR/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "14.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "7895",
+    "UserID": "watchesbydan",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please contact me to arrange product return. Item must be returned in same condition as when purchased. There will be a 10% restocking fee on items returned."
+  }
+}

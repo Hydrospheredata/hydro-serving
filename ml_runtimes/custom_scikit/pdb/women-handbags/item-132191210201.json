@@ -1,0 +1,140 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P10DT5H38M51S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "Storefront": {
+    "StoreName": "bagsnfinds",
+    "StoreURL": "http://stores.ebay.com/id=223820741"
+  },
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUxOFgxMzAx/z/RRsAAOSwWxNYx2y1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU1NFgxNDg3/z/q18AAOSwdGFYx2y5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyOFgxNDgy/z/i~4AAOSwsW9Yx2y8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAxNVgxNDY4/z/qLsAAOSwhQhYx2zA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ3NVgxMzYw/z/M24AAOSwTM5Yx2zD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQxNlgxMjA2/z/Xi8AAOSwOgdYx2zF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1OFgxNDIz/z/4xQAAOSwuxFYx2zI/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Crocodile-Embossed-Pattern-Italian-Leather-Briefcase-Laptop-Bag-Man-Bag-1476-/132191210201?var=",
+  "ConvertedCurrentPrice": {
+    "value": "179.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Italian Leather handbags wallets and briefcases you likely won't find anywhere else. *Best Pricing * Super quick shipping *Unmatched Quality *Rare selection Please consider all sales final. Returns are accepted for items accidentally not as described. I will occasionally accept returns on a case by case basis if it's a gift for instance. Items must be returned in new condition with all tags attached and packaging or I cannot accept. Return postage is buyers responsibility. There is a 15% restocking fee for any returns that are not my error. Thank you for understanding.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "179.95",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Sarasota, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "499",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "bagsnfinds"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "New Crocodile Embossed Pattern Italian Leather Briefcase Laptop Bag Man Bag 1476",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Variation": [
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "179.95",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "1",
+        "StartPrice": {
+          "value": "179.95",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "coffee brown"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "coffee brown"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-05-13T20:42:36.000Z",
+  "HitCount": "35",
+  "SecondaryCategoryIDPath": "11450:4250:52357",
+  "EndTime": "2017-06-12T20:42:36.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Italian Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Unbranded"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132191210201",
+  "PrimaryCategoryID": "169293",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Men's Accessories:Backpacks, Bags & Briefcases",
+  "Quantity": "2",
+  "SecondaryCategoryID": "52357",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "Please consider all sales are final. We will accept returns, within 14 days of delivery, for any item that is obviously not as described (for example: we shipped you a red item when you ordered a white item). Please contact us for return instructions within 3 days of receipt.  Buyer pays for return shipping, and 15% restocking fee. If you have any questions, please send us a message and we will respond promptly.  Thank you!",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "CN",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

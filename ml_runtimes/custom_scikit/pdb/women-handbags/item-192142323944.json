@@ -1,0 +1,146 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Micah-Backpack-Black-Black-Brand-New-/192142323944?var=",
+  "ConvertedCurrentPrice": {
+    "value": "126.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Elizea shoulder bag (across body) by Kipling. Plenty of pockets and plenty of practical style make the Elizea the right choice for your all-day adventures. Featuring two front pockets and an additional back pocket for secure storage, you'll keep your essentials safely tucked away and organised. The main compartment has the special pockets you expect, while the modern shape and colours give you the top style you deserve.",
+  "Title": "Kipling - Micah - Backpack - Black - ( Black). Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "126.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "BLACK",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0140/793/951/316658108/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Ink",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0140/793/952/316626525/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "126.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793951:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "BLACK"
+          }
+        }
+      },
+      {
+        "Quantity": "2",
+        "StartPrice": {
+          "value": "202.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:140793952:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Ink"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "BLACK",
+          "Ink"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-28T12:45:49.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P23DT20H26M45S",
+  "EndTime": "2017-06-26T12:45:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "MPN",
+        "Value": "782807697"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142323944",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "2",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:140793950:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

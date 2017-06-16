@@ -1,0 +1,194 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "599.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "48009",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Hamilton 14K solid gold pocket watch with a 19 jewel adjusted movement. This watch was presented to A. Strenk in appreciation of 10 years loyal and faithful service for the Cadillac Motor Car Co. This watch has a good balance staff but is not running at the moment and probably just needs a good cleaning. The watch itself is in great condition with minor scuffs from normal wear and tear.",
+  "StartTime": "2017-05-30T17:05:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzky/z/GY8AAOSw42dZCMX3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzk3/z/UYUAAOSwcgNZCMX6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/V4QAAOSwrhBZCMX8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzM4WDE2MDA=/z/T3YAAOSwlndZCMX9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODgzWDE2MDA=/z/zSgAAOSwR29ZCMX~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzUyWDE2MDA=/z/J1UAAOSww9xZCMYB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU0M1gxNjAw/z/J8oAAOSww9xZCMYD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTM0MVgxNjAw/z/G2AAAOSw42dZCMYF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI2NFgxNjAw/z/g78AAOSw-3FZCMYJ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "599.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "1920-1929",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Hamilton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "19 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "3059295",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "12",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": [
+          "Cream",
+          "White"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "White Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "2",
+        "Name": "Model"
+      },
+      {
+        "Value": "14k gold",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kurtiscorner",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7131",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023335164188080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T17:05:25.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "599.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Hamilton-14K-Solid-Gold-Pocket-Watch-10yr-Cadillac-Motor-Car-Co-Gift-/302333516418",
+  "Location": "Birmingham, Michigan",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Hamilton 14K Solid Gold Pocket Watch 10yr Cadillac Motor Car Co. Gift",
+  "Storefront": {
+    "StoreName": "Birmingham Coin and Jewelry",
+    "StoreURL": "http://stores.ebay.com/id=260695370"
+  },
+  "ItemID": "302333516418",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT22H31M45S"
+}

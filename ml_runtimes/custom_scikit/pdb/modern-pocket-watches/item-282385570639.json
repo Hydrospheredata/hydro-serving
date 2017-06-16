@@ -1,0 +1,172 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.86"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This Bronze Tone Pocket watch under our private brand \"SEWOR\" is a great choice for a birthday, Christmas, wedding or best man gift. It is also ideal as a christening gift. The pocket watch features a skeleton dial with hand wind mechanical movement and is popular as a simulated antique steampunk accessory at cosplay events. - Grim Reaper - japan Quartz Movement - Black Case - Brand SEWOR Leather Gift Box - Chain Length 365mm 14 inches SEWOR Fashion Bronze Quartz Enamel Grim Reaper Pocket Watch + Leather Gift Box",
+  "StartTime": "2017-03-06T15:48:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc1/z/cvAAAOSwB-1YvYTk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wZgAAOSwTuJYvYTk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wX4AAOSwTuJYvYTj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/~ygAAOSwax5YvYTk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/G08AAOSw4CFYvYTj/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "701142330177",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0701142330177",
+        "Name": "EAN"
+      },
+      {
+        "Value": "SEWOR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "C145",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unisex-adult",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.35 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 4.1 x W 3.8 x H 2 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "44",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2823855706398080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T15:48:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "20.86"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "SEWOR Fashion Bronze Quartz Enamel Grim Reaper Pocket Watch + Leather Gift Box",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SEWOR-Fashion-Bronze-Quartz-Enamel-Grim-Reaper-Pocket-Watch-Leather-Gift-Box-/282385570639",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385570639",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT20H56M59S"
+}

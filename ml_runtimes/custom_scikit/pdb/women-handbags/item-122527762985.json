@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0Y8AAOSw7GRZETkF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/yJgAAOSwblZZETkM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/AXYAAOSw8lpZETkS/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/McKlein-USA-Reagan-V-Series-Black-Full-Grain-Cowhide-Leather-Attache-Case-80445-/122527762985",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "McKlein USA Reagan Leather Attache Case 80445: A tough, durable and an exquisite build that comes with multiple organizing pockets which make the full grain cowhide leather bag a preferred choice for business travelers. This Leather Attache Case has the classic design you\u2019ve come to know and love, with the modern amenities you need. This case features a tablet pocket, interior organizer with space for media devices, and adjustable 3 file organizer, all able to be secured with a 3 digit combination lock. Full grain durable napa leather in black completes your formal attire Stylish attached handles provides you a good grip to carry when on the go A 3-digit locking mechanism keeps your documents secure Combination Lock Black Full Grain Cowhide Leather Hand Handle Overall Dimensions: 18\"L x 3.5\"W x 13\"H",
+  "Title": "McKlein USA Reagan V Series Black Full Grain Cowhide Leather Attache Case 80445",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Glen Ridge, New Jersey",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "hereigo1"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "07028",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T17:05:26.000Z",
+  "HitCount": "1",
+  "TimeLeft": "P6DT2H12M2S",
+  "EndTime": "2017-06-08T17:05:26.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein"
+      },
+      {
+        "Name": "Style",
+        "Value": "Attache Case"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Thailand"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122527762985",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225277629858080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,76 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/bZkAAOSwPh5ZGc2j/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-AUTHENTIC-SERIES-COACH-X-DISNEY-HANGTAG-SET-LTD-EDITION-GIFT-BOX-/122522183231",
+  "ConvertedCurrentPrice": {
+    "value": "149.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand New with Tags: coach x Disney Hangtag Set. Details: Smooth leather Set of four",
+  "Title": "*RARE!* AUTHENTIC SERIES COACH X DISNEY HANGTAG SET WITH LTD. EDITION GIFT BOX",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "149.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "DeLand, Florida",
+  "Seller": {
+    "FeedbackScore": "569",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "morgans-mommie"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "32724",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-29T21:30:10.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P3DT5H25M42S",
+  "EndTime": "2017-06-05T21:30:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Tag/Fob"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Vietnam"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122522183231",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225221832318080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

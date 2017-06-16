@@ -1,0 +1,151 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT17H2M1S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "222535344243",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Kate-Spade-Tied-Up-Pave-Hinge-Bangle-Bracelet-Gold-MSRP-88-/222535344243",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "56.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T02:59:18.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T02:59:18.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kate Spade",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Glass",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Hinge Bangle",
+        "Name": "Style"
+      }
+    ]
+  },
+  "Title": "NWT Kate Spade Tied Up Pave Hinge Bangle Bracelet Gold (MSRP$88)",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "ITEM SPECIFICSAuthentic Kate Spade Tied Up Pave Hinge Bangle BraceletShiny 12K gold plated metal with enamel fillGlass Pave stonesHandcrafted hinge bangleInner diameter 2.5\"Weight 23.2gIncludes a Kate Spade signature jewelry dust bagOriginal Retail Price $88+Tax***Also selling matching earrings...please message me if you wish to purchase the set so I can consolidate shipping and give you a discount...Thank You!***Please feel free to message me for inquiries...Thank you! Happy Shopping!",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225353442438080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "bumble_beanns_bargains",
+    "FeedbackScore": "47",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "bumble_beanns_bargains",
+    "StoreURL": "http://stores.ebay.com/id=1494470011"
+  },
+  "Quantity": "1",
+  "Location": "Bothell, Washington",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE1WDQ2Mg==/z/1U4AAOSw3gJZLuKJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjE1WDQ2Mg==/z/1WkAAOSwAPVZLuKL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjE1WDQ2Mg==/z/f8cAAOSwK6RZLuKK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE3NFgxNjAw/z/tBgAAOSwIaFZNMjX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI1NFgxNjAw/z/jZwAAOSwBt5ZNMjV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzgw/z/o3gAAOSw0hlZNMjT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzYw/z/F08AAOSwK6RZNMjP/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "98012"
+}

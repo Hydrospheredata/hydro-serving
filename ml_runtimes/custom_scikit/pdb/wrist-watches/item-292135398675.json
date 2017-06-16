@@ -1,0 +1,116 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "122.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Plainfield, New Jersey",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:44:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "122.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:44:52.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "292135398675",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Swiss Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Gray",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "50mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Invicta Subaqua",
+        "Name": "Model"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Invicta Mens 15797 Subaqua Analog Display Swiss Quartz Grey Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Invicta-Mens-15797-Subaqua-Analog-Display-Swiss-Quartz-Grey-Watch-/292135398675",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921353986758080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "07060",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H16M23S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDQ5WDYwMA==/z/mpkAAOSw4DJYjGUa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/MHYAAOSwNnRYjGZC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTkwWDk4Nw==/z/KCAAAOSw32lYtk9s/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ1WDk5MA==/z/aqAAAOSw~AVYtk9n/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTMxWDk1MA==/z/e1sAAOSwCU1Ytk9q/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Almost Brand new!! Only worn for 25 days few hours daily.Still has its manufacture warranty. Comes with original package and manual.Imported - Swiss Quartz.Stainless steel watch with unidirectional bezel featuring gunmetal-textured dial with chronograph functions and date window at 4 o'clock position50 mm stainless steel case with synthetic-sapphire dial windowSwiss quartz movement with analog displayPolyurethane band with buckle closureWater resistant to 500 m (1640 ft)",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "183",
+    "UserID": "moo14999",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33010",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Smith & Wesson Carabiner Watch - BlackDetailed Product Description: Carabiner Classic, Water Resistant, Japanese Movement, Glowing Hands, LED Light, Black, 40mm Features and Specifications:Glow in the dark hands with a built-in task light to see in the darkIncludes a carabineer to attach to backpacks, belt loops and keychainsWater resistant to resist water, oil and other corrosive materialsBlack watch with Stainless steel backComes with a 1-year limited warranty",
+  "StartTime": "2017-05-29T10:32:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFg2MDg=/z/bK0AAOSwr~lYpbim/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "024718136035",
+      "Name": "UPC"
+    }
+  },
+  "Seller": {
+    "UserID": "tradur-glenn",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "14",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019398146078080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T10:32:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "39.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Most inventory can be returned/refunded along with a re-stocking fee of 15%\n \nReturn requests must be submitted and approved prior to shipment to prevent claim denial and/or logistical complications.\n \n\nNon-Defective Goods:30 Days\nDefective Goods:30 Days\nMis-Shipped Orders:10 Days\nDamage by Shipping Carrier (in transit):48 hours upon delivery",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Smith-Wesson-Carabiner-Watch-Black-/201939814607",
+  "Location": "Hialeah, Florida",
+  "Title": "Smith & Wesson Carabiner Watch - Black",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "201939814607",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT15H57M40S"
+}

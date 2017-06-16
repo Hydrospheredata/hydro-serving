@@ -1,0 +1,193 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P19DT9H57M38S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Other Fashion Jewellery",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia"
+  ],
+  "CurrentPrice": {
+    "value": "44.89",
+    "_currencyID": "CAD"
+  },
+  "SKU": "242461",
+  "ItemID": "311881360669",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TEVISE-Men-Popular-Brand-Watch-Stainless-Steel-Mechanical-Automatic-Wristwatches-/311881360669?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "33.21",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-26T01:00:05.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "true",
+  "Country": "HK",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-25T01:00:05.000Z",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificName": "Color",
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Gold&White",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/-hYAAOSwH09ZJolG/$_12.JPG"
+        },
+        {
+          "VariationSpecificValue": "Gold&&Gold",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/Zs8AAOSwsXFZJolF/$_12.JPG"
+        },
+        {
+          "VariationSpecificValue": "Gold&Black",
+          "PictureURL": "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/hOoAAOSwX61ZJolG/$_12.JPG"
+        }
+      ]
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "Gold&White",
+          "Gold&&Gold",
+          "Gold&Black"
+        ],
+        "Name": "Color"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "242461|01|01||-RT",
+        "StartPrice": {
+          "value": "44.89",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold&White",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "242461|02|01||-RT",
+        "StartPrice": {
+          "value": "44.89",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold&&Gold",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "242461|03|01||-RT",
+        "StartPrice": {
+          "value": "44.89",
+          "_currencyID": "CAD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "Gold&Black",
+            "Name": "Color"
+          }
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Array",
+        "Name": "Features"
+      },
+      {
+        "Value": "Array",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Array",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Array",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Array",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Array",
+        "Name": "Case Material"
+      }
+    ]
+  },
+  "Title": "TEVISE Men Popular Brand Watch Stainless Steel Mechanical Automatic Wristwatches",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.1",
+    "UserID": "ruiertower",
+    "FeedbackScore": "168858",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "Storefront": {
+    "StoreName": "ruiertower",
+    "StoreURL": "http://stores.ebay.com/id=1078348660"
+  },
+  "Quantity": "3",
+  "Location": "HongKong",
+  "HitCount": "39",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/ucgAAOSwPh5ZJomR/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/mjoAAOSwX9FZJomS/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/u1wAAOSwZKBZJomS/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/8oMAAOSwK6RZJomS/$_12.JPG",
+    "https://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/YWYAAOSwBt5ZJomR/$_12.JPG"
+  ],
+  "ConditionID": "1000"
+}

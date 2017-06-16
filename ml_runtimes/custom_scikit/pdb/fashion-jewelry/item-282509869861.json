@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT11H3M59S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "449.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282509869861",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chanel-95A-Gold-Floral-Corsage-Interlocking-CC-Logo-Large-Pin-Brooch-Accessory-/282509869861",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "449.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T23:51:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T23:51:59.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Material"
+      },
+      {
+        "Value": "Chanel",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Flowers & Plants",
+        "Name": "Theme"
+      },
+      {
+        "Value": "France",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Chanel 95A Gold Floral Corsage Interlocking 'CC' Logo Large Pin Brooch Accessory",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Chanel 95A Gold Floral Brooch with Interlocking CC Logo This is an authentic Chanel CC Logo Brooch. Fashion and elegance, featuring the Chanel CC logo in gold, is a perfect add-on to any style. This contemporary and trendy Chanel jewelry is perfect jewelry gift.Condition: Brand NewColor: GoldMaterial: OtherMeasurements: 2.5\" wide and pin closure is 1.75\"*Please Note: This item comes shipped with Signature Request. Please ensure that your shipping address is correct.*",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825098698618080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "carolyns3",
+    "FeedbackScore": "353",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "carolyns3",
+    "StoreURL": "http://stores.ebay.com/id=67740298"
+  },
+  "Quantity": "1",
+  "Location": "Naples, Florida",
+  "HitCount": "5",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTI1NlgxNjAw/z/RxkAAOSwT-FZCP-K/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZtAAAOSw~y9ZCP-G/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTgw/z/CLcAAOSwnONZCP-I/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ2OFgxNjAw/z/ziMAAOSwrhBZCP-U/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTU3OFgxNjAw/z/Q1kAAOSwCQZZCP-O/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUxNlgxNjAw/z/usYAAOSwtGlZCP-R/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODA4WDE2MDA=/z/uiIAAOSwuMZZCP-M/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzIwWDE2MDA=/z/ufQAAOSwX61ZCP-V/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "34102"
+}

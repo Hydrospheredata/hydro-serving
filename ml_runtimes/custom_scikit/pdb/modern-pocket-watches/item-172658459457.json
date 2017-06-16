@@ -1,0 +1,171 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "Southeast Asia",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "JP",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NZ",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "DE",
+    "CH",
+    "AR",
+    "BO",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE",
+    "CA",
+    "IL",
+    "LB",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.88"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "4894462167472",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462167472",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462167472",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Designer/Brand"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-03T16:50:52.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/CHgAAOSw0hlZGqrQ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/JFUAAOSwPh5ZGqrT/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/aC4AAOSwjL5ZGqrW/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "2",
+  "HighBidder": {
+    "UserID": "7***_",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "65",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "400",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKTS-I019884",
+  "HitCount": "32",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726584594578080_2.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ItemID": "172658459457",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "1.88"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you reviced the item, please return it within 30 days for a replacement or money back. Please contact me before you return it.2.All returned items MUST BE in the original packaging with all components and accessories included,And you MUST provide us the return shipping information\uff08The shipment or the tracking number\uff09.3.Return shipping fee is to be paid by the buyers.We will not responsible for any custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-02T16:50:52.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/White-Quartz-Movement-Nurse-Brooch-Fob-Tunic-Pocket-Pendant-Watch-K3A3-/172658459457",
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "White Quartz Movement Nurse Brooch Fob Tunic Pocket Pendant Watch K3A3",
+  "Storefront": {
+    "StoreName": "tianxinshops",
+    "StoreURL": "http://stores.ebay.com/id=1401577662"
+  },
+  "Seller": {
+    "UserID": "tianxinshops",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "30288",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P1DT22H5M57S"
+}

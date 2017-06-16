@@ -1,0 +1,138 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT23H51M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.25",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "122533753637",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ZARA-DROPLET-EARRINGS-100-GENUINE-NEW-TAGS-/122533753637",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.25",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T10:22:47.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "Country": "GB",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T10:22:47.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "DROPLETS",
+        "Name": "Style"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Main Stone Shape"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Color"
+      },
+      {
+        "Value": "ZARA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Screw Back (pierced)",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "Diamante",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "ZARA DROPLET EARRINGS 100% GENUINE NEW WITH TAGS",
+  "ExcludeShipToLocation": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IE",
+    "IT",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "CH",
+    "GB",
+    "CA",
+    "AU"
+  ],
+  "BidCount": "0",
+  "Description": "OtherDRESSESTROUSERSSHOES/BOOTSHANDBAGSSKIRTSTOPSCOATS/JACKETSKNITWEARSHORTSSWIMWEARJUMPSUITSCHILDRENS WEARMENS WEARCLEARANCECHRISTMASDESIGNER WEARACCESSORIES ZARA BRONZE EARRINGS BRAND NEW WITH TAG ZARA BLACK DIAMANTE DROPLET EARRING 100% GENUINE AND AUTHENTIC About usPayment PolicyDelivery infoTerms & ConditionsIt's clothes that make you look and feel amazing therefore we dedicate to ensure the latest looks move from the catwalk to your door in the blink of an eye. Our customers love us for our great going-out looks, amazing shoes and bags, as well as being the perfect place to pick up everything you could need to get a complete head-to-toe look. We value our customers and aim to make you happy. We pride ourselves on our positive relationships with our customers, please read our Feedback for peace of mind. All items are 100% genuine and authentic. We have fabulous new items arriving online every single day to bring new and original fashion to you. Untitled Document",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225337536378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "monica29820012008",
+    "FeedbackScore": "9736",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "KAMSAIMON UK STYLE LTD",
+    "StoreURL": "http://stores.ebay.com/id=748422577"
+  },
+  "Location": "BERKSHIRE",
+  "Quantity": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AsUAAOSwxg5Xzppd/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/g5YAAOSwknJXzppO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XuMAAOSw8oFXzppX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jDYAAOSwGtRXzppI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XTEAAOSw8oFXzppK/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

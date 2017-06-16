@@ -1,0 +1,98 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "06830",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "0",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Condition: NewDial dimension:4.2cm, Chain Length:40cm",
+  "StartTime": "2017-05-24T02:27:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTQyWDEwNzg=/z/87EAAOSwfpVZF4mb/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyMFg5NzY=/z/2tcAAOSwuMZZF4mf/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTk0WDEwMTQ=/z/idsAAOSwsXFZF4mj/$_57.PNG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA0OFg4NTA=/z/fkMAAOSwIQdZF4mm/$_57.PNG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "annabelle.berizzi",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "142",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "7",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529547832968080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T02:27:16.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Batman-Quartz-Pocket-Watch-Black-Chain-Sold-gift-box-/252954783296",
+  "Location": "Greenwich, Connecticut",
+  "Title": "Batman Quartz Pocket Watch With Black Chain Sold with gift box",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252954783296",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT7H49M37S"
+}

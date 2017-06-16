@@ -1,0 +1,93 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P27DT11H41M25S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "57.97",
+    "_currencyID": "USD"
+  },
+  "ItemID": "292138742437",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWOT-UNBRANDED-925-STERLING-SILVER-CIRCULAR-SCROLL-PENDANT-/292138742437",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "57.97",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T02:29:20.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T02:29:20.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded 925",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Gems & Stones",
+        "Name": "Material"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Main Stone Creation"
+      }
+    ]
+  },
+  "Title": "NWOT - UNBRANDED 925 - STERLING SILVER CIRCULAR SCROLL PENDANT",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "NWOT - UNBRANDED 925 - STERLING SILVER CIRCULAR SCROLL PENDANT One (1) authentic but Unbranded 925 Sterling Silver Circular Scroll Pendant from my personal collection is up for consideration My light source has slightly glared the Sterling Silver of the Pendant This item was purchased NWOT then never worn but may show faint signs of mild patina due to storage only Please consult the photograph(s) for the approximate size of this item --- any coins shown are for display purposes only THIS ITEM WILL BE SHIPPED WITHIN ONE (1) BUSINESS DAY OF RECEIVING PAYMENT THANK YOU SO MUCH AND ENJOY !!!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921387424378080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "boazian",
+    "FeedbackScore": "14",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Bel Air, Maryland",
+  "HitCount": "3",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTA2WDUzNQ==/z/U3gAAOSwuLZY4ZQ-/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTAwWDUwNg==/z/K2IAAOSwTM5Y4ZSG/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "21014"
+}

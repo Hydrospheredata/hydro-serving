@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "Percent_20",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "20%",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT14H46M43S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Charm is pre-owned, these are actual real pictures of the charm you will receive. looks brand new, cleaned and polished...",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "33.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132216098634",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-925-Flamingo-Charm-791294CZS-Pandora-Flamingo-Charm-/132216098634",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "33.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T01:06:59.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T01:06:59.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "Pandora",
+        "Name": "Brand"
+      },
+      {
+        "Value": "European",
+        "Name": "Style"
+      },
+      {
+        "Value": "flamingo",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "cz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Dangle",
+        "Name": "Charm Type"
+      }
+    ]
+  },
+  "Title": "Authentic 925 Flamingo Charm  #791294CZS Pandora Flamingo Charm",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Authentic 925 Flamingo Charm #791294CZS Pandora Flamingo Charm Charm is Pre-owned Free Shipping with Tracking Number Comes with Pandora Box",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322160986348080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "mik_cisu5zhk",
+    "FeedbackScore": "722",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "Location": "Swannanoa, North Carolina",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/h9cAAOSwEzxYdEG~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/I8UAAOSw2xRYdEGo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/E1MAAOSwUKxYdEGA/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "PostalCode": "28778"
+}

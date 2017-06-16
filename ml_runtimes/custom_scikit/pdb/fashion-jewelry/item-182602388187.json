@@ -1,0 +1,92 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "36.95",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "182602388187",
+  "TimeLeft": "P1DT9H36M9S",
+  "ListingStatus": "Active",
+  "Title": "Fashion Costume Jewelry Bracelet Lot All Wearable Rhinestone",
+  "ConditionDescription": "Very Good Clean Wearable Condition Please Read Description",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "36.95",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "36.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-02T00:01:56.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T00:01:56.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unknown",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bracelets",
+        "Name": "Type"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Black/Silver Tone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Mixed",
+        "Name": "Material"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Costume-Jewelry-Bracelet-Lot-All-Wearable-Rhinestone-/182602388187",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Cedar City, Utah",
+  "Description": "This is a lot of 30 fashion costume jewelry bracelets. It is a very nice wearable lot. There are bangle, stretch, cuff, stretch and closure bracelets. There is leather, silver tone, beads, rhinestone, there are no missing stones that I can see, but may have a missed a few. The main colors are black and silver tone. They all vary in sizes. All closures are in good working condition. Some pieces are new with tags. Please see all photos and read all details as they are a big part of our condition. We try to describe our items as best we can so if you have any questions, please feel free to contact us before bidding. These are pre owned items and some may show some light signs of age and use and are sold as is. Thank you for looking. SERIOUS BIDDERS ONLY PLEASE. Please note we do not offer International Shipping. Payment is due within 3 days of end of auction.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1826023881878080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "rick4579",
+    "FeedbackScore": "952",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE4OFgxMzA4/z/LJsAAOSw03lY59P0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODgwWDE1ODg=/z/H-wAAOSwDmBY59Qy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/E-EAAOSww3tY59Ru/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/L8UAAOSwDmBY59SJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NT4AAOSwDmBY59So/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/31gAAOSwmgJY59UB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bn8AAOSwls5Y59U5/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "84721"
+}

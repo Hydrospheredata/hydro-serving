@@ -1,0 +1,78 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT7H21M42S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322542738668",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lovely-Carnelian-Necklace-Pendant-Earring-Set-No-Tarnish-Stainless-Steel-/322542738668",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T19:15:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T19:15:38.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Carnelian",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Brown",
+        "Name": "Color"
+      },
+      {
+        "Value": "Carnelian",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "Title": "Lovely Carnelian Necklace Pendant & Earring Set - No Tarnish Stainless Steel",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This lovely pendant and earring set have what appears to be lush carnelian stones. Both pendant and earrings are marked \u201cstainless steel\u201d - no tarnish bails. Pendant has a large bail to fit chains or omegas. Earrings have lever backs.Stones are rich and deep brown. This lovely set is very versatile and wearable with many outfits. Set is in excellent condition and comes in a gift box . Please note: no chain included.Approximate measurements: Pendant - 2.5\u201d Drop x 1.25 Width x .33\u201d DeepEarrings - 2\u201d Drop x .75\u201d Width x .25\u201d Deep",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225427386688080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "averelle",
+    "FeedbackScore": "23",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Phoenix, Arizona",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODc4WDE2MDA=/z/8HwAAOSwLEtYmRc8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY3/z/HZ4AAOSwTglYmRdS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTI4/z/R3oAAOSw44BYmRdn/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "85016"
+}

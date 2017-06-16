@@ -1,0 +1,130 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.86",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Ayrshire ~ Scotland",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:55:39.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "10.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T07:55:39.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "252966602716",
+  "HandlingTime": "3",
+  "Description": "QUALITY GENTS GENEVA ANALOGUE AND DIGITAL WRIST WATCH Needs attention - see condition This quality wristwatch keeps excellent time, the strap is stainless steel coloured link, the face is flouresent with a stainless steel case and keeps good time, it came from a recent house clearance, it looks to have had very little use and probably only used a few times. Please see all photo's as they form a more complete description of sale and form an integral part of this listing.. Approximate Dimensions: Face 28mm diameter.. Item will be posted signed for delivery.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LOVELY-GENTS-GENEVA-ANALOGUE-DIGITAL-VINTAGE-WATCH-NEW-BATTERY-Needs-attention-/252966602716",
+  "ConditionDescription": "Nice condition, one winder button is missing but loose spindle is included, glass is badly scratched.",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529666027168080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H24M20S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9M4AAOSwEzxYWt7j/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gdIAAOSwa~BYWt7n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JTgAAOSwnHZYWt7t/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Ip4AAOSwJ7RYWt7y/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/StEAAOSwhqJYWt74/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JWgAAOSwJ7RYWt8A/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KewAAOSwnHZYWt8H/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KwUAAOSwnHZYWt8N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~X0AAOSwEzxYWt8U/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "LOVELY GENTS GENEVA ANALOGUE DIGITAL VINTAGE WATCH NEW BATTERY Needs attention",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "5892",
+    "UserID": "ayr41",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

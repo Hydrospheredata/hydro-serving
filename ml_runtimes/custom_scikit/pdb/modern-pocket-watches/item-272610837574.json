@@ -1,0 +1,141 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "32312",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Preowned but in like new condition minimal wear (minor scratches on back). New battery. Ticking and keeping time. The band is not leather, instead some type of vinyl materials. Please look at the pictures carefully for details. If you have any questions, please message me.",
+  "StartTime": "2017-03-30T02:08:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4OTk=/z/Go8AAOSwUKxYcX~f/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2OFg4MTA=/z/wj0AAOSwo4pYcYAp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/KioAAOSwUKxYcYBO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/mxkAAOSwZQRYcYCD/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "diamondsalwaystwinkle",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1889",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "37",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726108375748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T02:08:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "10.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "NO RETURNS ACCEPTED ON INTERNATIONAL PURCHASES.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betty-Boop-Watch-/272610837574",
+  "Location": "Tallahassee, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Betty Boop Watch",
+  "Storefront": {
+    "StoreName": "socialpulgera",
+    "StoreURL": "http://stores.ebay.com/id=803028876"
+  },
+  "ItemID": "272610837574",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT7H19M59S"
+}

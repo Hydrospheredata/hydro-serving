@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hartville, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:44:24.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:44:24.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600007098",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Anne Klein",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Japan Movement",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": [
+          "Gold",
+          "Silver"
+        ],
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Any Occasion",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "10-9151",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "15.0",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anne-Klein-Mother-Pearl-Ladies-Watch-/182600007098",
+  "Title": "Anne Klein Mother of Pearl Ladies Watch",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826000070988080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "44632",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H25M50S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTM3MFgxMDI0/z/HAMAAOSwPCVX-r9Y/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM3MFgxMDI0/z/vuoAAOSwNRdX-r9j/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM3MFgxMDI0/z/W~4AAOSwYIxX-r9t/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTM3MFgxMDI0/z/-4sAAOSwzaJX-r93/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Two toned Ann Klein watch. Mother of Pearl face. 15 links in length. Watch is in great working condition.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "112",
+    "UserID": "newtou52",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

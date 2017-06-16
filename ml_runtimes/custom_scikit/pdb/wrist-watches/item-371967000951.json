@@ -1,0 +1,96 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Vintage Penney's Benrus Women's Manual 17 Jewels Wristwatch ~ 5-E4208 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-05-30T11:46:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzU2WDEyODA=/z/wkYAAOSwTM5Y66f5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIyWDEyODA=/z/WvEAAOSwhQhY66f4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTExWDEyODA=/z/LVcAAOSwls5Y66f4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTc5WDEyODA=/z/u7wAAOSw03lY66f5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU3WDEyODA=/z/LpkAAOSww3tY66f4/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Benrus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60400",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719670009518080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-29T11:46:15.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Penneys-Benrus-Womens-Manual-17-Jewels-Wristwatch-5-E4208-/371967000951",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Vintage Penney's Benrus Women's Manual 17 Jewels Wristwatch ~ 5-E4208",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "371967000951",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P28DT18H9M46S"
+}

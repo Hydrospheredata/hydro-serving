@@ -1,0 +1,231 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "4.32",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "HongKong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:34:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1004338309",
+    "StoreName": "jimshop268"
+  },
+  "CurrentPrice": {
+    "value": "4.32",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T08:34:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "20mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Luxury",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Canvas",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "40mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "JM",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "MX",
+    "DZ",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MZ",
+    "NA",
+    "NE",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "CN",
+    "LK",
+    "BA",
+    "HR",
+    "GG",
+    "JE",
+    "LI",
+    "LT",
+    "MC",
+    "ME",
+    "PL",
+    "SJ",
+    "VA",
+    "AI",
+    "CR",
+    "GT",
+    "HK",
+    "ID",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "CL",
+    "FK",
+    "GY",
+    "PE",
+    "SR",
+    "PO Box"
+  ],
+  "ItemID": "391800334849",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Fashion Luxury Mens Analog Sport Steel Case Quartz Leather Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "ZSY5030301C",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Luxury-Mens-Analog-Sport-Steel-Case-Quartz-Leather-Wrist-Watch-/391800334849",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3918003348498080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT17H4M59S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/6MsAAOSwZJBX~sD-/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "4.32",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackScore": "154465",
+    "UserID": "goodshop_268",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please contact us if you are not satisfied with the item after received it, should be return the item back to us for replace/refund. The return shipping is paid by the Buyer. Thanks for your business and understanding.\nHave a nice day.\n\nBest regards,\nCustomer Support"
+  }
+}

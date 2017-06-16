@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "STARA ZAGORA, STARA ZAGORA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:25:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1153597488",
+    "StoreName": "topsecret666"
+  },
+  "CurrentPrice": {
+    "value": "11.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T08:25:30.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Vintage (1971-1983)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "BG",
+  "ItemID": "112425711882",
+  "HandlingTime": "2",
+  "Description": "Check out my other items! OLD SOVIET RUSSIAN HAND MENS WATCH CLOCK WORK BUY THIS Caetano SEE RARE MODEL VERY RARE MODELIn very good condition for their age Buy what you seePICTURES TELLASK IF YOU CAN ANSWER SHIPMENT sent within two working daysFOR EUROPE TRAVEL 14 -22 BUSINESS DAYSUS AND OTHER EUROPEAN COUNTRIES NOT 22-35 WORKING DAYS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OLD-SOVIET-RUSSIAN-HAND-MENS-WATCH-POBEDA-15-jewels-OROLOGIO-RUSSO-10-/112425711882",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1124257118828080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H55M22S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hVMAAOSwDNdVniy8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JasAAOSwyQtVniyv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/i-IAAOSwT6pVniy1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5h4AAOSwu4BVnizC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bHAAAOSwgQ9VnizK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bOcAAOSwgQ9VnizQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/6B4AAOSwu4BVnizW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RRcAAOSw-vlVnizc/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "OLD SOVIET RUSSIAN HAND MENS WATCH POBEDA  -15 jewels  OROLOGIO RUSSO 10",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "266",
+    "UserID": "topsecret666",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

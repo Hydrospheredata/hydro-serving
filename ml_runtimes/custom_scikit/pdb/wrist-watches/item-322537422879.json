@@ -1,0 +1,94 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "115.75",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Sherston",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:50:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "90.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:50:13.000Z",
+  "ShipToLocations": [
+    "US",
+    "EuropeanUnion",
+    "JP",
+    "CA"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "322537422879",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Omega",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Retro Ladies Omega Geneve Megaquartz Cal 1320",
+  "ConditionDescription": "Used ladies watch not working ....",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Retro-Ladies-Omega-Geneve-Megaquartz-Cal-1320-/322537422879",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225374228798080_1.jpg",
+  "HitCount": "17",
+  "PostalCode": "SN160NS",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H31M55S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/VOMAAOSwIQdZLq1N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/90kAAOSwYlRZLq1X/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/zVkAAOSwfpVZLq1l/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/BT8AAOSwhvFZLq1n/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Ladies Omega geneve Megaquartz Goldplated case is good condition, dial has some marks Fitted on what I think is a lizard skin strap, with an Omega goldpated buckle. Not running. The watch is being sold as spares or repairs only",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1594",
+    "UserID": "888kt",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "Please note returns are only accepted for items that are significantly not as described or that have arrived damaged in transit or not working. This does not apply to any item that is listed as, or states in the listing itself that it is broken, faulty, damaged, a project, spares or repairs, for parts etc. Nor any item that may have been tampered with or broken whilst in your possession I will not accept any returns on such items, unless you have, by my error, received a totally different item to the one listed.\nNo returns will be accepted on any item that specifically state no returns within the listing.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

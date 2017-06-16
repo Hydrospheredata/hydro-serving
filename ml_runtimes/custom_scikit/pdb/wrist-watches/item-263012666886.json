@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "3099.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "SG",
+  "Location": "default, default",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T08:45:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=669901837",
+    "StoreName": "purplekittymeow69"
+  },
+  "CurrentPrice": {
+    "value": "3099.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:45:01.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cartier",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unisex",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Cartier Ballon Bleu",
+        "Name": "Model"
+      },
+      {
+        "Value": "36mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": "Africa",
+  "ItemID": "263012666886",
+  "HandlingTime": "1",
+  "Description": "Authentic Cartier Ballon Bleu Midsize 36mm Quartz Watch Case: Stainless steel Band: Original bracelet Movement: Quartz Dial: Original dial Crown: Original crown Case Size: 36mmm(excluding crown) Condition: Watch is running and keep good time. Worldwide Shipping and Handling We'll ship worldwide by Fedex mail with tracking number for secure shipping within three days after payment. ANY INCURRED TAXES AT DESTINATION IS BUYERS RESPONSABILITY. Singapore Shipping Self Collection Payment Paypal Only On Nov-17-16 at 20:56:45 PST, seller added the following information: Not signed crown On May-21-17 at 21:13:10 PDT, seller added the following information: my mistake,original crown",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cartier-Ballon-Bleu-Midsize-36mm-Quartz-Watch-W69011Z4-/263012666886",
+  "ConditionDescription": "original dial,keep good time.",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630126668868080_1.jpg",
+  "HitCount": "14",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H16M14S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rS8AAOSwtGlZLn6s/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XVwAAOSwJH1ZLn7J/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/0XwAAOSwcgNZLn8K/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/iowAAOSw8HBZLn8u/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/y38AAOSwBt5ZLn9H/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/UsQAAOSwfRdZJUXE/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/AtoAAOSwEHpZJUXh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/IFoAAOSwYlRZJUX~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/QxYAAOSww9xZJUYc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/DkMAAOSwjL5ZJUY5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/o5cAAOSw3gJZJUZb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lNwAAOSwhvFZJUZ0/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Cartier Ballon Bleu Midsize 36mm Quartz Watch W69011Z4",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1166",
+    "UserID": "purplekittymeow69",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

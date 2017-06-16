@@ -1,0 +1,125 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "127.32",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Manchester, Greater Manchester",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:59:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:59:43.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "HU",
+    "IE",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "SK",
+    "SI",
+    "SE",
+    "AU",
+    "US",
+    "CA",
+    "NZ",
+    "NO",
+    "MX",
+    "CL"
+  ],
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Middle East",
+    "Southeast Asia",
+    "AL",
+    "BA",
+    "BG",
+    "GR",
+    "IT",
+    "RO"
+  ],
+  "ItemID": "272695140663",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Solar Powered)",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Citizen E820 calibre. Perpetual Calendar, Alarm, Chronograph. Bi-Metal.",
+  "ConditionDescription": "Very good",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-E820-calibre-Perpetual-Calendar-Alarm-Chronograph-Bi-Metal-/272695140663",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726951406638080_1.jpg",
+  "HitCount": "9",
+  "PostalCode": "BL5 3QN",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H44M44S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/vRYAAOSw42dZLr38/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/udEAAOSw7GRZLr4C/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/7y0AAOSwfpVZLr4J/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/SfsAAOSws5pZLr4Q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/iRwAAOSw-3FZLr4X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/6e0AAOSwZ4dZLr4e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/TscAAOSw3gJZLr4k/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Citizen Eco-Drive Perpetual Calendar.E820-S080312 Up for sale is a nice looking Citizen perpetual calendar multi-function.This was close to their top of the line model on release (approx 2012). CASE:Stainless steel with gold detail on the bezel.44mm diameter, 47mm with crown.Mineral glass.Fixed divers style bezel. STRAP:22mm lug width.Original Citizen 22P black leather strap.Correct brushed steel Citizen buckle.I will also include a replacement aftermarket strap. DIAL: Black dial with white and luminous detail.Recessed sub-dials ringed in gold.Luminous hands with gold frames.Luminous hour markers.Date at 4 position. MOVEMENT:Multi-function E820 calibre.Solar powered.Perfect working order. CONDITION:Very good.The case has all original textures (polished sides, brushed front) and shows only minor age related wear.Leather strap shows some wear, hence new none Citizen replacement included.Gold plated sections are perfect.Mineral glass has a couple of micro-scratches (not at all noticeable with the naked eye). Thanks for looking.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "494",
+    "UserID": "courtyardwatches",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

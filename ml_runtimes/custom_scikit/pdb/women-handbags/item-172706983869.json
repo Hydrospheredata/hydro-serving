@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/to0AAOSwzJ5XdIZ6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/G8kAAOSweWVXdIaT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/hWwAAOSwuzRXdIaZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/VQEAAOSwXeJXdIad/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/apoAAOSwgY9XdIai/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victoria-Secret-Pink-Campus-Backpack-Bookbag-Blue-Gray-Marl-/172706983869",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victoria Secret Pink Campus Backpack 2016Please note !! Will be folded for shipping Brand new in VS package with sticker tagI took it out of the package to get better picturesFull SizeColor Dark Blue Light Blue Gray Marl and Black Super cute !!!Check out my other things for combine shipping costI only ship to the lower 48 statesPayment due now with the buy it nowGod bless and thank you",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "West Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "836",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "raptor167"
+  },
+  "PrimaryCategoryID": "169292",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Victoria Secret Pink Campus Backpack Bookbag Blue Gray Marl",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:52:10.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P5DT11H7M44S",
+  "EndTime": "2017-06-08T01:52:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Dark blue light blue gray marl and black"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172706983869",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727069838698080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

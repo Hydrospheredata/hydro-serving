@@ -1,0 +1,158 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3719444471468080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ4NFgxNjAw/z/h2QAAOSw-3FZERA7/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Taormina-21-Leather-Travel-Duffel-Color-Black-/371944447146",
+  "ConvertedCurrentPrice": {
+    "value": "283.93",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Press to translate Listing Translator by Hindi Portuguese Thai Korean French Chainese Spanish Arabic Japanese German Russian Italian",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MO",
+    "MY",
+    "PH",
+    "TW",
+    "TH",
+    "VN",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "GE",
+    "IN",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AL",
+    "AD",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "GR",
+    "GG",
+    "HU",
+    "IT",
+    "LV",
+    "LT",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "UA",
+    "VA"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "283.93",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Pompano Beach, Florida",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "25758",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "grandluxpens"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33062",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T00:41:33.000Z",
+  "Title": "Taormina 21\" Leather Travel Duffel Color: Black",
+  "TimeLeft": "P5DT7H52M19S",
+  "EndTime": "2017-06-08T00:41:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Floto"
+      },
+      {
+        "Name": "MPN",
+        "Value": "150Black"
+      },
+      {
+        "Name": "UPC",
+        "Value": "797734422306"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0797734422306"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "371944447146",
+  "Storefront": {
+    "StoreName": "GrandLuxPens.comm",
+    "StoreURL": "http://stores.ebay.com/id=52510105"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "150BLACK",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,114 @@
+{
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "35802",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "This Classical Old Style Railroad Steam Engine Pocket Watch features a Push Button to Open Full Hunter Front. It has a Battery operated (spare battery included) Quartz Movement for greater accuracy. The Matching Removable Chain has a Pocket/Vest Chain with Clip.",
+  "StartTime": "2017-05-28T06:10:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAxNVgxMDMy/z/1HUAAOSw32lYzkj9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzN1g5NDk=/z/6uwAAOSwuxFYzknn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5OVg5NzU=/z/uvgAAOSwTM5Yzkly/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/y-kAAOSwhQhYzkpJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/i9YAAOSwuLZYzkku/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "24-Hour Dial",
+          "Acrylic Crystal",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Ivory",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "westhunt.256",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "882",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "8",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3225331361078080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T06:10:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OLD-TIME-RAILROAD-POCKET-WATCH-MATCHING-VEST-POCKET-CHAIN-AND-CLIP-/322533136107",
+  "Location": "Huntsville, Alabama",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "OLD TIME RAILROAD POCKET WATCH WITH MATCHING VEST/POCKET CHAIN AND CLIP",
+  "Storefront": {
+    "StoreName": "westhunt.256",
+    "StoreURL": "http://stores.ebay.com/id=804416801"
+  },
+  "ItemID": "322533136107",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT11H35M3S"
+}

@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P22DT3H39M8S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Pristine, gift-giving condition.  FREE POLISHING CLOTH.  Comes in a silver gift box with resealable bag and anti-tarnish paper.  Gift-wrapping available at no extra cost (see description for details).",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "42.26",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142397255682",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SILPADA-Oxidized-925-Sterling-Silver-Hammered-Flower-Earrings-1-1-2-L-W1155-/142397255682",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "42.26",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-28T18:39:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-27T18:39:01.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "French Wire Hook",
+        "Name": "Fastening"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "1 1/2 inches",
+        "Name": "Length"
+      },
+      {
+        "Value": "W1155",
+        "Name": "Silpada Item Number"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "SILPADA Oxidized .925 Sterling Silver Hammered Flower Earrings 1 1/2\" L W1155",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "0 false 18 pt 18 pt 0 0 false false false",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423972556828080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "found_treasuresjj",
+    "FeedbackScore": "385",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "found_treasuresjj",
+    "StoreURL": "http://stores.ebay.com/id=650869551"
+  },
+  "Quantity": "1",
+  "Location": "Columbus, New Jersey",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTg2/z/DQQAAOSwjDZYjNsr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/138AAOSwNnRYjN44/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5OVgxNjAw/z/S78AAOSwA3dYjN5j/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTU3/z/OLEAAOSw2xRYjN6F/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/O0sAAOSwImRYjN62/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5N1gxNjAw/z/mfMAAOSwjDZYjN7i/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "08022"
+}

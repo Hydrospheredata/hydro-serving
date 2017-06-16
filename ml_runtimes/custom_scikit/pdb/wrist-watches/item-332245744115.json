@@ -1,0 +1,100 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:32:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:32:55.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245744115",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Aluminum",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "MARC JACOBS MBM3521 Women's Merlot Aluminum & Rose Gold Tone Henry Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MARC-JACOBS-MBM3521-Womens-Merlot-Aluminum-Rose-Gold-Tone-Henry-Watch-/332245744115",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322457441158080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H21M11S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTAwWDUxMA==/z/lUIAAOSwdGFY2Aqb/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTEwOFg1ODU=/z/JBwAAOSwTM5Y2Aql/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "About this item Features Marc Jacobs MBM3521 Women's Henry Merlot Aluminum Bracelet Chronograph Dial Watch Product information Product Dimensions4.1 x 3 x 1.2 inches Item Weight15.2 ounces Shipping Weight15.2 ounces Departmentwomens ManufacturerMARC JACOBS ASINB005973U9M Manufacturer referenceMBM3521 Best Sellers Rank10682121 Date first available at Amazon.comAugust 15, 2012 Product specifications Watch Information Brand, Seller, or Collection NameMarc by Marc Jacobs Model numberMBM3521 Part NumberMBM3521 Item ShapeRound Dial window material typeMineral Crystal Display TypeAnalog Case materialAluminum Case diameter40 millimeters Band MaterialAluminium Band lengthWomen's Standard Band width24 millimeters Band ColorMerlot Dial colorMerlot Bezel materialAluminum Bezel functionStationary CalendarDate Special featuresChronograph Function, Measures Seconds MovementQuartz Water resistant depth50 Box not included",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

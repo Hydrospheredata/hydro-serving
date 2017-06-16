@@ -1,0 +1,200 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "127.97",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Pembroke Dock",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:36:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "10",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=804245587",
+    "StoreName": "Lloyds Jewellers"
+  },
+  "CurrentPrice": {
+    "value": "99.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:36:27.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "GT",
+    "GH",
+    "RE",
+    "DJ",
+    "PR",
+    "CV",
+    "ML",
+    "GP",
+    "BW",
+    "SL",
+    "KH",
+    "MG",
+    "TJ",
+    "AI",
+    "SH",
+    "GM",
+    "LR",
+    "RW",
+    "SV",
+    "DO",
+    "LK",
+    "LY",
+    "ZW",
+    "GA",
+    "CM",
+    "CF",
+    "LS",
+    "YT",
+    "NG",
+    "MU",
+    "AZ",
+    "GN",
+    "JO",
+    "CI",
+    "TC",
+    "KE",
+    "TD",
+    "TM",
+    "GD",
+    "CR",
+    "GW",
+    "BT",
+    "AM",
+    "ER",
+    "SN",
+    "TG",
+    "UZ",
+    "MA",
+    "YE",
+    "AF",
+    "KZ",
+    "MN",
+    "VC",
+    "BI",
+    "IQ",
+    "GQ",
+    "BH",
+    "MR",
+    "BZ",
+    "DM",
+    "CD",
+    "EH",
+    "CG",
+    "MW",
+    "KM",
+    "NI",
+    "AO",
+    "DZ",
+    "BJ",
+    "TN",
+    "ZM",
+    "UG",
+    "SO",
+    "AG",
+    "SZ",
+    "EG",
+    "MZ",
+    "ET",
+    "LA",
+    "NA",
+    "NE",
+    "TZ",
+    "PA",
+    "BF",
+    "HN",
+    "KG"
+  ],
+  "ItemID": "292135571069",
+  "HandlingTime": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Casio",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Watchband Material"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "EF-527D-1AVEF",
+        "Name": "Model"
+      },
+      {
+        "Value": "EF-527D-1AVEF",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Chronograph",
+          "Date Indicator",
+          "Luminous Dial",
+          "Luminous Hands",
+          "Bezel Slide Rule"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "100 m (10 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "4971850416180",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "CASIO EDIFICE EF-527D-1AVEF Stopwatch 100m WR Mineral Glass 2 Yr Bat RRP \u00a3250.00",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CASIO-EDIFICE-EF-527D-1AVEF-Stopwatch-100m-WR-Mineral-Glass-2-Yr-Bat-RRP-250-00-/292135571069",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921355710698080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "SA72 6BT",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H17M37S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/xZYAAOSwZKBZLqq-/$_1.JPG?set_id=8800005007"
+  ],
+  "Description": "CASIO EDIFICE EF-527D-1AVEF Stopwatch 100m WR Mineral Glass 2 Yr Bat RRP \u00a3250.00 Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "11276",
+    "UserID": "lloydsjewellers1990",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Please see our Returns Policy under Terms of Sale.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

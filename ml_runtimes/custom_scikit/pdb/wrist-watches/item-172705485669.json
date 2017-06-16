@@ -1,0 +1,144 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "167.99",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "70302345",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Hackensack, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:34:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "167.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:34:52.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705485669",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Citizen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Eco-Drive",
+        "Name": "Model"
+      },
+      {
+        "Value": "BJ7000-52E",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Solar Powered)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Sport",
+        "Name": "Style"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Brushed",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "42mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "013205067662",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Citizen Eco-Drive BJ7000-52E Wrist Watch for Men",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Citizen-Eco-Drive-BJ7000-52E-Wrist-Watch-Men-/172705485669",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727054856698080_1.jpg",
+  "HitCount": "7",
+  "PostalCode": "07601",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H5M36S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/n~cAAOSwDiBZIewS/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1iUAAOSwxu5ZIewW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oFgAAOSwDiBZIewZ/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "New In Box, Never opened or used. ImportedStainless steel watch featuring date window at three o\u2019clock position, dual-time display, and pilot's slide rule inner chapter ring operated by crown at 8 o'clock position42 millimeters stainless steel case with mineral dial windowJapanese quartz movement with analog displayAlso features low-charge warning, luminous hands/markers, and Silver-tone band with foldover push-button claspWater resistant to 200 m (660 ft): In general, suitable for professional marine activity and serious surface water sports, but not scuba diving. U.S. Free Shipping on lower 48 states,15% Restocking fee and buyer pays for return shipping.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "20",
+    "UserID": "maspuerade",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

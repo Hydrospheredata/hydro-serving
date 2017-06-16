@@ -1,0 +1,161 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "48126",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Key Chain Pocket Watch Empty Battery Please contact me for applicable discounts for multiple-item purchases.Please allow 7-15 days for item to arrive once payment is made.Local pickup is welcome for this item.All items come from pet-free smoke-free environment.Please email me for any questions.",
+  "StartTime": "2017-02-28T13:56:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/uBQAAOSwOVpXXd7c/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/rQkAAOSwepJXXd7j/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Pocket Watch",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "cutenado333",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1008",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "47",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1123187177038080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T13:56:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Key-Chain-Pocket-Watch-Empty-Battery-/112318717703",
+  "Location": "Dearborn, Michigan",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Key Chain  Pocket Watch Empty Battery",
+  "Storefront": {
+    "StoreName": "cutenado333",
+    "StoreURL": "http://stores.ebay.com/id=1069794641"
+  },
+  "ItemID": "112318717703",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT19H2M49S"
+}

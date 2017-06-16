@@ -1,0 +1,79 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "34653",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Liquidating small watch collection. Most of the watches are in like new condition, however there are a few that need batteries and band replacement. These watches were previously warn and may need to be cleaned as they have been stored for a bit. Please let me know if you have any questions.",
+  "StartTime": "2017-05-04T15:19:09.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/qFoAAOSwFe5XybNp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wI8AAOSw8oFXybO~/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/cioAAOSwOdpXybPH/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kaeleigh13",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "172",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "18",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921775861838080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-03T15:19:09.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Yess-Pocket-Watch-White-Stainless-Steel-Leather-Pouch-Quartz-Battery-/192177586183",
+  "Location": "New Port Richey, Florida",
+  "Title": "Yess Pocket Watch - White & Stainless Steel with Leather Pouch - Quartz Battery",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "192177586183",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P2DT20H34M35S"
+}

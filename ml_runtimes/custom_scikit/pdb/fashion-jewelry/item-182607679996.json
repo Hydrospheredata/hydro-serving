@@ -1,0 +1,430 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P6DT22H41M3S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "1048.6",
+    "_currencyID": "USD"
+  },
+  "SKU": "GPPLQU-46004",
+  "ItemID": "182607679996",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Riyogems-Lemon-Quartz-Gold-Plated-Jewellery-Alligator-Pendants-L-1-5in-Gpplqu-46-/182607679996?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "1048.6",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T10:59:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T10:59:36.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "IN 7",
+          "IN 8",
+          "IN 9",
+          "IN 10",
+          "IN 11",
+          "IN 12",
+          "IN 13",
+          "IN 14",
+          "IN 15",
+          "IN 16",
+          "IN 17",
+          "IN 18",
+          "IN 19",
+          "IN 20",
+          "IN 21",
+          "IN 22"
+        ],
+        "Name": "ringsize"
+      }
+    },
+    "Variation": [
+      {
+        "SKU": "GPRBCH7-8052a",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 7",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052b",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 8",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052c",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 9",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052d",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 10",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052e",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 11",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052f",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 12",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052g",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 13",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052h",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 14",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052i",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 15",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052j",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 16",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052k",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 17",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052l",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 18",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052m",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 19",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052n",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 20",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052o",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 21",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      },
+      {
+        "SKU": "GPRBCH7-8052p",
+        "StartPrice": {
+          "value": "1048.6",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "IN 22",
+            "Name": "ringsize"
+          }
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Copper",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "RiyoGems",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Lemon Quartz",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Copper",
+        "Name": "Material"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Style"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Theme"
+      },
+      {
+        "Value": "India",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "18k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "18 Kt Yellow Gold plating over Copper",
+        "Name": "Plating"
+      },
+      {
+        "Value": "0738144111022",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Riyogems Lemon Quartz Gold Plated Jewellery Alligator Pendants L 1.5in Gpplqu-46",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Search titles & descriptions Lemon Quartz Gold Plated Fashion Gemstone Pendant Item Model No Gemstone Name -Lemon Quartz Metal Name -Gold Plated Over Copper Item Length Ring Size Other Details Gemstone Change Yes it is possible ! please email us Ring Size Change / Altration Yes it is possible ! please email us \u2022 Your full satisfaction is our priority. \u2022 Returns are accepted within 3 days(three Days) of the item\u2019s shipment Received date. \u2022 All items MUST be in their original condition, not worn or altered. \u2022 We do not reimburse the return shipping charges. We do our best to provide a true representation of our products. Sometimes, because of enlarging the photo or because of individual monitor settings, there may be slight variations in colors of any jewelry or gemstone. \u2022 Very rare we discover that an item is damaged and we are unable to ship it. We reserve the right to cancel any order and refund the money paid. \u2022 If for any reason, you are not satisfied, please email us through eBay\u2019s Ask the Seller a Question for a resolution before leaving neutral or negative feedback. \u2022 Most of the items comes with Free Shipping. \u2022 It takes 2-3 week to Items Reach to you. \u2022 Price we quote only include product and its shipping cost. \u2022 We ship to the Items Worldwide . \u2022 All items will be shipped within 3-5 working days after the payments are clearedIf You ike To Make insurance of Items please Ask us in Advance for it as it required Additional Changes. \u2022 International Buyer are responsible for All Import Duty and Tariff (if Payable)For Combined Shipping Fees of multiple Items please ask Us in Advance. \u2022 All Items will Be sent Through International Speed post EMS from IndiaExpress Courier is also possible Charges are Extra please email us. \u2022 You can pay by PayPal . It is The Fastest and Secure method to Pay. It Protect Every one Interest. \u2022 Returns are accepted within 3 days(three Days) of the item\u2019s shipment Received date. \u2022 We check each item before shipping to keep our buyers 100 % Satisfied. \u2022 100% Customer satisfaction is our main Aim. \u2022 All information we provide for our items are true and correct except any typographic errors. \u2022 If item is return We will return you purchase amount less all shipping charges and Paypal/paisapay commission. \u2022 We retain the right to refuse any refund if we feel the return policy is being abused. \u2022 Before returning goods, please contact for right documents to be required for submitted with return cargo. \u2022 Please ask us in detail how to send return shipments. \u2022 Return from outside India must be clearly marked \"Returned Goods\". Country of Origin India. \u2022 Don\u2019t forget to leave positive feedback on your each & every purchase. \u2022 Satisfied customer is our top priority and Customer positive feed back is main essence and back bone for our success. \u2022 We are committed to maintain a high standerd of services to customer. \u2022 If you are Satisfy with your transaction Please Leave us a Best Rating. \u2022 If you are For any Reason are unsatisfied and unhappy let us with the Items please contact us prior before leaving any feedback. \u2022 We will do our best to Make you a happy satisfied long term customer. \u2022 Leading Manufacturer and Exporter and Supplier of 925 Silver Gemstone Jewelry. \u2022 Our Range includes Silver Jewelry ( Silver rings, Silver Earrings, Silver pendant, Silver Bracelet, Silver Necklace ). \u2022 Product Range are from 925 Sterling silver, White gold, Yellow gold Jewelry and Fashion Jewelry. \u2022 Use mainly Real Natural precious and semi precious Gemstones. \u2022 Unique handmade and Handcrafted Artisan Made Jewelry. \u2022 Top Quality Gemstones. \u2022 Offer Best Possible Price and Great Quality. \u2022 All Silver is 925 or Sterling silver. \u2022 A creation of our experience and fabricated by our skilled artisans at our workshop. \u2022 You are welcome to see our Full collection at http://myworld.ebay.com/riyogems/ riyogems gives you a wide range of design and quality We also welcome Bulk and Wholesale order. \u2022 We ship all items with secure International standards Packing Box for international shipments. \u2022 For Valuable Shipments please ask us in Advance for Insurance. \u2022 Garnet , Citrine, Amethyst, Peridot, Iolite, Blue topaz, Quartz, Smoky Quartz, Lemon Quartz, Mystic Quartz. \u2022 Black onyx, Green onyx, Turquoise, Larimer, Tiger Eye, Rainbow moonstone, labradorite , Lapis Lazuli and many more \u2022 You Can Trace your items to your local contry Official post website like USPS.com or here \u2022 http://www.indiapost.gov.in/ \u2022 http://ipsweb.ptcmysore.gov.in/ipswebtracking/ \u2022 Our Ebay Stores WorldWide \u00bb United States \u00bb France \u00bb Canada \u00bb Sweden \u00bb United Kingdom \u00bb Austria \u00bb Switzerland \u00bb Singapore \u00bb Spain \u00bb Philippines \u00bb Poland \u00bb Malaysia \u00bb Netherlands \u00bb HongKong \u00bb Italy \u00bb Australia \u00bb Ireland \u00bb India \u00bb Germany \u00bb Russia Ring Size USA Ring Size UK Ring Size AU Ring Size EU Ring Size SA Ring Size MM US 5 J 1/2 J 1/2 9.25 9 49.3 US 6 L 1/2 L 1/2 11.75 11 52 US 6.5 M 1/2 M 1/2 13.25 13 53 US 7 N 1/2 N 1/2 14.5 14 54.4 US 7.5 O 1/2 O 1/2 15.75 15 55.7 US 8 P 1/2 P 1/2 17 16 57 US 9 R 1/2 R 1/2 19.5 18 59.5 Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items. On Oct-02-13 at 15:21:17 PDT, seller added the following information: &amp;amp;amp;amp;amp;lt;div style=\"text-align:center\"&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;a style=\"text-decoration:none\" href=\"http://mostpopular.sellathon.com/?id=AC1094718\"&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;img src=\"http://www.sellathon.com/Resources/Images/countercredit.gif\" border=\"0\"&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;gt; Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items. Wonder Lister - The Ultimate eBay Listing Tool",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "UserID": "riyogems",
+    "FeedbackScore": "2065",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "riyogems",
+    "StoreURL": "http://stores.ebay.com/id=1047852494"
+  },
+  "Quantity": "16",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODExWDgwMA==/z/ZCEAAOSw~OdVf~M-/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "302001"
+}

@@ -1,0 +1,93 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Hamilton Watch Co. Movement Transport Tin For 16 Size S/N 1716047 Ca. 1919",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-23T02:26:22.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU2OVgxNjAw/z/wDcAAOSwDiBZI5zL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ1OVgxNjAw/z/kcIAAOSwGJlZI5zN/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTkz/z/K0gAAOSwsXFZI5zP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc1/z/ycEAAOSw42dZI5zU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzQ4/z/cpUAAOSwtGlZI5zZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQyNVgxNjAw/z/8-QAAOSwurZZI5zf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUyNFgxNjAw/z/wqQAAOSw-K9ZI5zs/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQzMlgxNjAw/z/kv8AAOSwGJlZI5zz/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "111.38"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "1920-1929",
+      "Name": "Year of Manufacture"
+    }
+  },
+  "SKU": "F109 $100",
+  "HitCount": "34",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3619875443178080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T02:26:22.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "149.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hamilton-Watch-Co-Movement-Transport-Tin-16-Size-S-N-1716047-Ca-1919-/361987544317",
+  "ConditionDescription": "See Photos.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "361987544317",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT7H48M20S"
+}

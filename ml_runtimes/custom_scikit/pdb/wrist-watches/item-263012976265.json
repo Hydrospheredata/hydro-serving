@@ -1,0 +1,128 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.28",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Edgware",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:10:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "14.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T14:10:46.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012976265",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Accurist",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "14.99",
+    "_currencyID": "GBP"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-accurist-watch-/263012976265",
+  "Title": "Mens accurist watch",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630129762658080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "HA8 6DJ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT23H42S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI4MVg5MDA=/z/7~QAAOSwPh5ZEGZL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDA=/z/AaAAAOSwjqVZEGZ4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDkxMQ==/z/HgAAAOSwDiBZEGaZ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NzE=/z/D2AAAOSwtGlZEGa5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg2NDA=/z/w7AAAOSwn-tZEGbb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyM1g5MDA=/z/GuMAAOSwZKBZEGcG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDE=/z/CCoAAOSwaEhZEGcu/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDEwMTc=/z/adQAAOSwY3BZEGdK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA5Nlg4MTA=/z/YEMAAOSwONBZEGds/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEwWDE0NDE=/z/pDkAAOSwR29ZEGeD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/V-EAAOSwfRdZEGek/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Accuriste meantime watch New with box Stainless steel 50m water-resistant Japan movement sx Quartz",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "77",
+    "UserID": "wheatbier",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

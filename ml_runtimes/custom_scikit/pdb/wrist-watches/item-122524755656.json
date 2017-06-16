@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.8",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Denver, Colorado",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:50:33.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "0.8",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:50:33.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "122524755656",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Purple",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Teen",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Purple",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "0.8",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "New Battery works great bieber fans",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Purple-Junior-Teen-Wrist-Watch-bling-bling-/122524755656",
+  "Title": "Purple Junior Teen Wrist Watch bling bling",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225247556568080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "80226",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H25M2S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/kYEAAOSwsXFZLpGI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg2Mzk=/z/rPUAAOSw8HBZLpF2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NDU=/z/Q5cAAOSwlMFZLpGk/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "purple bling stylish watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "156",
+    "UserID": "zoeyportland",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

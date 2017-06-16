@@ -1,0 +1,105 @@
+{
+  "ReturnPolicy": {
+    "Description": "Shipping Charges Received By Seller Will Not Be Refunded to the Buyer.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P26DT20H59M45S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "brand new and unworned.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322540104442",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Indian-Bangle-Emerald-Ruby-Sapphire-Pearl-Kundan-Jade-Handmade-Jewelry-Set-6673-/322540104442",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-02T11:48:57.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-02T11:48:57.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Jewar",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bangles",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Jade",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Indian Bangle Emerald Ruby Sapphire Pearl Kundan Jade Handmade Jewelry Set 6673",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Jewar Mmandi Indian Bangle Emerald Ruby Sapphire Pearl Kundan Jade Handmade Jewelry Set 6673 Payment & Shipping Policy We Accept all Payments By PAYPAL only. We believe in fast and timely shipping handling time is one day For All International & US buyers Shipping is $6.99 for first item - $2.99 for each additional item. We will give you tracking numbers. BUY WITH CONFIDENCE & 100% REFUND POLICY IMPORTANT Positive feedback is greatly appreciated and we will do the same in return. If you are unhappy for any reason, please do not leave Negative or Neutral Feedback and allow us the opportunity to resolve any issue(s). We are very fair and easy to deal with. Thank You! We offer a 100% Satisfaction Guarantee of our exclusive handcrafted studded with top grade gemstones. Good luck and thanks for looking.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225401044428080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "94.7",
+    "UserID": "jewarmandi",
+    "FeedbackScore": "275",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "jewarmandi",
+    "StoreURL": "http://stores.ebay.com/id=1186441435"
+  },
+  "Quantity": "1",
+  "Location": "JAIPUR, RAJASTHAN",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/3ukAAOSw1S9WeQDQ/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "PostalCode": "302003"
+}

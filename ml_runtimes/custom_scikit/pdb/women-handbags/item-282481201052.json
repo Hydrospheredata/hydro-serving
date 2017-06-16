@@ -1,0 +1,84 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LLIAAOSwsXFZG2IV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GCAAAOSwGJlZG2Ib/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Disney-Wheres-Mickey-X-Large-Tote-Bag-Purse-New-W-Tags-/282481201052",
+  "ConvertedCurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Beautiful,\u00a0retired,\u00a0and very hard to findVera Bradley Disney WHERE'S MICKEY large tote bagThis is a great bag in a beautiful pattern with lots of pockets and room for EVERYTHING!Brand new, with tagsIn NEW condition : ) From non-smoking, no pet home\u2028Shipping will be via parcel select or priority mail, as preferred by the buyer.Keep in mind that parcel select can take considerably longer, depending on the distance.International buyers are welcome!Please contact me with any questions or concerns.Thank you for looking!",
+  "Title": "Vera Bradley Disney Where's Mickey X- Large Tote Bag Purse New W/ Tags",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "42526",
+  "Location": "Winter Garden, Florida",
+  "Seller": {
+    "FeedbackScore": "1811",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "michelelr1959"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34787",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-16T20:33:46.000Z",
+  "HitCount": "24",
+  "TimeLeft": "P13DT2H48M13S",
+  "EndTime": "2017-06-15T20:33:46.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Style",
+        "Value": "Large Tote Bag"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282481201052",
+  "Storefront": {
+    "StoreName": "Michelele&#39;s Treasures",
+    "StoreURL": "http://stores.ebay.com/id=410048221"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824812010528080_2.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "55.45"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! This highly polished silver-tone open face ultra thin pocket watch is the perfect addition to anyone's timepiece collection. Features include a rich railroad style green sun ray dial with easy to read white numbers, detailed minute track and antique style hands. The precision Japanese quartz movement never needs winding so you will always be on time. Also included is a 14 inch deluxe curb link chain with belt clip attachment. This beautiful pocket watch will arrive in an attractive velour gift pouch then boxed in gift packaging that does not need wrapping. As always, operating instructions and our hassle free lifetime limited warranty are enclosed. It's Gotham time.. - Classic open face silver-tone pocket watch with ultra thin polished brass case suitable for engraving - Rich green sun-ray railroad style dial with detailed minute track and antique style hands - Precision Japanese analog quartz movement - Includes 14 inch silver-tone curb link chain with belt clip holder attachment - Arrives with deluxe draw string pouch and gift box, operating instructions and lifetime limited warranty card Gotham Men's Silver-Tone Ultra Thin Railroad Open Face Quartz Pocket Watch #",
+  "StartTime": "2017-03-06T15:25:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjkz/z/VI8AAOSwWxNYvX9h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4MDM=/z/6O8AAOSw~AVYvX9h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzg4/z/J2QAAOSwSlBYvX9h/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNFgxNTAw/z/B7sAAOSwTuJYvX9h/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gotham",
+        "Name": "Brand"
+      },
+      {
+        "Value": "GWC15027SG",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 5.3 x W 5 x H 1.3 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "88",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2725795432798080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T15:25:18.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "55.45"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gotham Men's Silver-Tone Ultra Thin Railroad Open Face Quartz Pocket Watch #",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gotham-Mens-Silver-Tone-Ultra-Thin-Railroad-Open-Face-Quartz-Pocket-Watch-/272579543279",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "272579543279",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT20H33M14S"
+}

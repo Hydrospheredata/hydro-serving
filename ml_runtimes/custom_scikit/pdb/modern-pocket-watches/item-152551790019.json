@@ -1,0 +1,57 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "in good working conditionView photosAsk questions",
+  "StartTime": "2017-05-17T14:55:04.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/1kwAAOSwt6ZWVXfX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/E4kAAOSwAKxWVXfi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2M1gxNjAw/z/FPEAAOSwAKxWVXfy/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "RU",
+  "Seller": {
+    "UserID": "olgader",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1284",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "16",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525517900198080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-16T14:55:04.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "30.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Surovikino, Volgograd",
+  "Title": "VINTAGE SOVIET RUSSIAN POCKET WATCH LUCH",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-SOVIET-RUSSIAN-POCKET-WATCH-LUCH-/152551790019",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152551790019",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P15DT20H15M28S"
+}

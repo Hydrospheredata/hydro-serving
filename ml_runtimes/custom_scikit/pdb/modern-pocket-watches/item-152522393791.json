@@ -1,0 +1,165 @@
+{
+  "ExcludeShipToLocation": [
+    "AT",
+    "BE",
+    "CZ",
+    "DK",
+    "FI",
+    "FR",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "SK",
+    "ES",
+    "SE",
+    "CH",
+    "UA",
+    "GB"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.5"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Brand New Pocket Watch Features: Gold tone case and chain White dial Easy to read numbers Mineral crystal Quartz movement Case size 44mm Chain length is 14 3/4 inches Push the button to flip open the cover to tell the time",
+  "StartTime": "2017-04-23T23:51:45.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/hLcAAOSwAuZX6LmO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7rYAAOSwLF1X6LmR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OXIAAOSw8w1X6Lf4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9-EAAOSwCGVX6Lf8/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "all4udeals",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14370",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "124",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525223937918080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T23:51:45.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.5"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Item must be returned in its brand new unused condition with all the original packaging such as box, owner's manual, warranty booklet, and tag. No returns allowed for items that has been worn, used, altered, and damaged.  Shipping charges will not be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "RO",
+    "BG",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "HK",
+    "DE",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "United States",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "EAGLE BIRD Pocket Watch with Chain Clip On Gold Tone Geneva Quartz White Dial",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/EAGLE-BIRD-Pocket-Watch-Chain-Clip-Gold-Tone-Geneva-Quartz-White-Dial-/152522393791",
+  "Storefront": {
+    "StoreName": "all4udeals",
+    "StoreURL": "http://stores.ebay.com/id=47073271"
+  },
+  "ItemID": "152522393791",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P22DT5H5M31S"
+}

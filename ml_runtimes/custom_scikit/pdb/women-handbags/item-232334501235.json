@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/FuMAAOSwA3dYG6kV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/oMMAAOSwnbZYG6kX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/GC4AAOSwA3dYG6ke/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/fEcAAOSw5cNYG6kZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/LccAAOSwImRYG6kc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/8NwAAOSwcLxYG6kg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/GugAAOSwMVdYG6ki/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/G0MAAOSwMVdYG6kl/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/q2MAAOSwXeJYG6km/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/RLEAAOSwB09YG6kp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/rAUAAOSwXeJYG6kr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/gMYAAOSw44BYG6kt/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Auth-Prada-EXTRA-LARGE-Messenger-Bag-Silver-Hardware-MINT-/232334501235",
+  "ConvertedCurrentPrice": {
+    "value": "268.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "GUARANTEED AUTHENTIC Auth Prada EXTRA LARGE Messenger Bag Silver Hardware MINT Bag is extra large IN EXCELLENT CONDITION CLEAN INSIDE AND OUT W: 15 \" H: \" 12 ADJUSTABLE SHOULDER STRAPS",
+  "Title": "Auth Prada EXTRA LARGE Messenger Bag Silver Hardware MINT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "268.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Richmond Hill, Ontario",
+  "Seller": {
+    "FeedbackScore": "555",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "leelee4me"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "Country": "CA",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "L4B3G7",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T20:22:17.000Z",
+  "HitCount": "52",
+  "TimeLeft": "P10DT4H57M5S",
+  "EndTime": "2017-06-12T20:22:17.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "NYLON"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder"
+      },
+      {
+        "Name": "Brand",
+        "Value": "PRADA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Beige"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232334501235",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Please note that there is NO REFUND ON THIS ITEM ON LESS ITEM IS NOT AS DESCRIBED, IF you really must return it a 15%  handling fee will be required, shipping is nonrefundable... you will be responsible for shipping cost to ship back. Item must be shipped back undamaged in package.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323345012358080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

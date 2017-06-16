@@ -1,0 +1,101 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P7DT12H39M17S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Some of the rings need a good polishing ~ otherwise in good condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "381963465891",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-02-13T02:29:09.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "true",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LARGE-COLLECTION-71-SILVER-TOE-RINGS-RESALE-VARIOUS-SIZES-AND-PATTERNS-/381963465891",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-13T02:29:09.000Z",
+  "PrimaryCategoryID": "140010",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver tone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "LARGE COLLECTION OF 71 SILVER TOE RINGS FOR RESALE VARIOUS SIZES AND PATTERNS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Jacksonville, Alabama",
+  "Description": "THIS IS A VERY NICE SET OF 71 SILVER TONED TOE RINGS, VARYING FROM SIZE 1 TO 4 WITH A LOT OF VARYING PATTERNS. THESE TOE RINGS ARE ALL ADJUSTABLE AND ARE GREAT FOR FLEA MARKET SALES OR YARD SALES. THEY HAVE NEVER BEEN USED, BUT WILL NEED SOME POLISHING TO MAKE THEM SHINE. THE METAL IS SILVER TONED, COULD POSSIBLY BE STERLING SILVER, VERY LIGHT WEIGHT AND FLEXIBLE. ALL THE RINGS ARE INSERTED IN SLOTS IN BLACK FOAM-LIKE MATERIAL.",
+  "PrimaryCategoryIDPath": "281:10968:140010",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3819634658918080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.7",
+    "UserID": "dickzmac-old",
+    "FeedbackScore": "2983",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "BooBoo&#39;s Bargain Basement",
+    "StoreURL": "http://stores.ebay.com/id=26709109"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "28",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTY0WDE2MDA=/z/OP8AAOSwe7BWxUAn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/fX4AAOSwDuJWxUAQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/MDgAAOSwB4NWxUAW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/SVEAAOSwKtVWxUAb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/HbAAAOSwQYZWxUAg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/NqAAAOSwuAVWxUAM/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Toe Rings",
+  "PostalCode": "36265"
+}

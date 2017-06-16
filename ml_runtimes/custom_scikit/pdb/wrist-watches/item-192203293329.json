@@ -1,0 +1,277 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "14.77",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Shanghai",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:32:07.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "6",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=131406984",
+    "StoreName": "costbuys"
+  },
+  "CurrentPrice": {
+    "value": "14.77",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:32:07.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "1414403",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "Description": "Our eBay Store About Us Contact Us Add to Favorite Sellers Fantastic C1 2016 Wood Grain Funny Women watch Analog Quartz-watch Wrist Watch $14.77 Item Type: Quartz Wristwatches Case Thickness: 6 mm Case Shape: Round Band Width: 18 mm Band Material Type: Leather Feature: Shock Resistant Gender: Women Style: Fashion & Casual Brand Name: Hcandice Clasp Type: Buckle Case Material: Alloy Boxes & Cases Material: No package Movement: Quartz Band Length: 24.2 cm Water Resistance Depth: No waterproof Model Number: mil ZLY5010510G Dial Diameter: 38 mm Dial Window Material Type: Glass Gender: Unisex Band Length: 24.2 cm Water Resistance Depth: 000 m Band With: 10mm to 19mm width: 18 mm Item Type: Wristwatches Dial Material Type: Stainless Steel dial thinckness: 6 mm Dial Display: Analog Dial Diameter: 38 mm \u00a9 2017 Costbuys. All Rights Reserved.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fantastic-C1-2016-Wood-Grain-Funny-Women-watch-Analog-Quartz-watch-Wrist-Watch-/192203293329?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Generic",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Other",
+        "Name": "Style"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1414403-d",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1414403-d",
+              "Name": "MPN"
+            },
+            {
+              "Value": "D",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1414403-c",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1414403-c",
+              "Name": "MPN"
+            },
+            {
+              "Value": "C",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1414403-b",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1414403-b",
+              "Name": "MPN"
+            },
+            {
+              "Value": "B",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1414403-a",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1414403-a",
+              "Name": "MPN"
+            },
+            {
+              "Value": "A",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1414403-f",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1414403-f",
+              "Name": "MPN"
+            },
+            {
+              "Value": "F",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      },
+      {
+        "StartPrice": {
+          "value": "14.77",
+          "_currencyID": "USD"
+        },
+        "SKU": "1414403-e",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": [
+            {
+              "Value": "1414403-e",
+              "Name": "MPN"
+            },
+            {
+              "Value": "E",
+              "Name": "Color"
+            }
+          ]
+        },
+        "Quantity": "1"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": [
+        {
+          "Value": [
+            "1414403-a",
+            "1414403-b",
+            "1414403-c",
+            "1414403-d",
+            "1414403-e",
+            "1414403-f"
+          ],
+          "Name": "MPN"
+        },
+        {
+          "Value": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "Name": "Color"
+        }
+      ]
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "D",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-114098875.jpg?v=1487795711"
+        },
+        {
+          "VariationSpecificValue": "C",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-114098874.jpg?v=1487795711"
+        },
+        {
+          "VariationSpecificValue": "B",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-114098873.jpg?v=1487795711"
+        },
+        {
+          "VariationSpecificValue": "A",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-114098872.jpg?v=1487795711"
+        },
+        {
+          "VariationSpecificValue": "F",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-114098877.jpg?v=1487795711"
+        },
+        {
+          "VariationSpecificValue": "E",
+          "PictureURL": "http://cdn.shopify.com/s/files/1/1459/0556/products/product-image-114098876.jpg?v=1487795711"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    }
+  },
+  "ItemID": "192203293329",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H15M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/4Y4AAOSwR29ZLrfK/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Fantastic C1 2016 Wood Grain Funny Women watch Analog Quartz-watch Wrist Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "50.0",
+    "FeedbackScore": "28",
+    "UserID": "costbuys",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Item should be unused, in original packing. We will inspect the item before issuing refund."
+  }
+}

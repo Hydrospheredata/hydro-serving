@@ -1,0 +1,97 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "QuantitySold": "0",
+  "Title": "Gruen Precision \"Veri-Thin\" 17 Jewels S/N 4-229138 (To R.T.Bell Kelvinator 1953)",
+  "PostalCode": "L8J1P1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bearneck3000",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7863",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Gruen Precision \"Veri-Thin\" 17 Jewels S/N 4-229138 (To R.T.Bell From Kelvinator Jan. 1953 10 Years Service)Main Frame 44 mm Diameter X 10 mm Thick at Center~ StoneyCreek Coins ~NO GST ! NO HST ! NO TAX ! This Item to Canada & USA OnlyThanks, Bearneck 3000. ~ StoneyCreek Coins ~",
+  "StartTime": "2017-05-26T20:12:16.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ2OFgxNjAw/z/HYAAAOSwB-1YseY6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE2NlgxNjAw/z/xSoAAOSw-RFYseZA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2N1gxNjAw/z/j7sAAOSwOgdYseZG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzMx/z/N2wAAOSwfVpYseZO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQyM1gxNjAw/z/SGYAAOSwXYtYseZT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0NlgxNjAw/z/8h0AAOSwuxFYseZY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNTc1/z/BCcAAOSwax5YseZe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1MFgxNjAw/z/9CEAAOSwuxFYseZn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM2MFgxNjAw/z/OZcAAOSwfVpYseZs/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxNlgxNjAw/z/gdMAAOSwtfhYseZz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM0OFgxNjAw/z/tfAAAOSwhlZYseZ4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQxMFgxNjAw/z/gsgAAOSwtfhYseZ9/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "Canada",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "140.34"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CA",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Gruen",
+      "Name": "Brand"
+    }
+  },
+  "SKU": "F108 $90",
+  "HitCount": "42",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726885067268080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T20:12:16.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "CAD",
+    "value": "188.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "CA",
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gruen-Precision-Veri-Thin-17-Jewels-S-N-4-229138-To-R-T-Bell-Kelvinator-1953-/272688506726",
+  "ConditionDescription": "See Photos. Watch in perfect working order. Small dent in back cover at top.",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Stoney Creek, ON",
+  "Storefront": {
+    "StoreName": "StoneyCreek Coins",
+    "StoreURL": "http://stores.ebay.com/id=219111288"
+  },
+  "ItemID": "272688506726",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P25DT1H36M28S"
+}

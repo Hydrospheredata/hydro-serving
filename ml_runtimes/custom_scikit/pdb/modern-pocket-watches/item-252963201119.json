@@ -1,0 +1,111 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Normal 0 false false false EN-US X-NONE X-NONE Product Features: \u00b7 Watch Movement: Quartz \u00b7 Diameter: About 4.8cm \u00b7 Thickness: About 1.5cm \u00b7 Length of Chain: About 30cm Package Content: \u00b7 1 x Watch \u00b7 1 x Pocket Chain Normal 0 false false false EN-US X-NONE X-NONE",
+  "StartTime": "2017-05-29T05:30:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTIyWDUyNg==/z/U~IAAOSwuMZZK611/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTM0WDUyMA==/z/vm8AAOSwlMFZK618/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDkwWDUzOA==/z/XPIAAOSwYvFZK62C/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTE5WDUzNA==/z/p~QAAOSw3gJZK62I/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAzWDUyMQ==/z/3l4AAOSwxu5ZK62N/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDQ5WDUzNA==/z/y4wAAOSwIQdZK62S/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "CN",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "antique",
+        "Name": "Features"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "7.87 inch x 1.97 inch x 3.94 inch",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "conbays",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "abejanie",
+    "FeedbackRatingStar": "None",
+    "FeedbackScore": "8",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529632011198080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-01T05:30:13.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "5.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "guangzhou",
+  "Title": "Bronze Steampunk Quartz Pocket Watch Carribean Pirate Skull Head",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bronze-Steampunk-Quartz-Pocket-Watch-Carribean-Pirate-Skull-Head-/252963201119",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "252963201119",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT10H55M40S"
+}

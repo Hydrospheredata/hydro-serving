@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/pQQAAOSwCQZZMP9S/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Large-Computer-Flapover-Backpack-Cafe-One-Size-/252970153135",
+  "ConvertedCurrentPrice": {
+    "value": "88.79",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "David King & Co. Large Computer Flapover Backpack Description Features LeatherPadded laptop computer compartmentOrganizerFlap has velcro closureZippered pocketsNylon back to reduce weightTop handle and adjustable strap Product Details Product Dimensions: 5 x 15 x 12 inchesShipping Weight: 2.6 poundsOrigin: ColombiaItem model number: 348CDomestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Shipping & Handling Orders are shipped out within one business day and tracking information will follow shortly thereafter. Addresses must be correct at the time of checkout and we cannot change them after the purchase. Undeliverable or wrong addresses do not fall under our responsibility. We do not ship to AK, HI, PO boxes, or APO addresses. Sales Tax Due to our use of fulfillment centers across the USA we are required to change tax in the following states. AlabamaArkansasArizonaCaliforniaColoradoConnecticutDist. of ColumbiaFloridaGeorgiaIowaIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMichiganMinnesotaMissouriMississippiNorth CarolinaNorth DakotaNebraskaNew JerseyNevadaNew YorkOhioOklahomaPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVermontWashingtonWisconsinWest VirginiaWyoming Return Policy Returns within 14 days are excepted and a 15% restocking fee will be charged.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "88.79",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "4472",
+    "PositiveFeedbackPercent": "93.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "leothellama"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Large Computer Flapover Backpack Cafe One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T06:01:56.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2529701531358080_1.jpg",
+  "TimeLeft": "P29DT15H9M34S",
+  "EndTime": "2017-07-02T06:01:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "348C"
+      },
+      {
+        "Name": "Color",
+        "Value": "Cafe"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "UPC",
+        "Value": "610074793472"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0610074793472"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970153135",
+  "Storefront": {
+    "StoreName": "LeoTheLlama",
+    "StoreURL": "http://stores.ebay.com/id=1165817625"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), 15% restock will be changed for all returns.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B001T4VTQU",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

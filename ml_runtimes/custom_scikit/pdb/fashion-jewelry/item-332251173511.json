@@ -1,0 +1,103 @@
+{
+  "HandlingTime": "3",
+  "ReturnPolicy": {
+    "Description": "Money will be given back through paypal and the buyer must pay for return shipping.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "332251173511",
+  "TimeLeft": "P6DT3H30M13S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "ConditionDescription": "Brand new",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T15:28:32.000Z",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "Cristina Ferrari Vintage Jewelry Set",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IL",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T15:28:32.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Cristina Ferrare",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Cubic Zirconia",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "rainbow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Mixed Metals",
+        "Name": "Metal"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Cristina-Ferrari-Vintage-Jewelry-Set-/332251173511",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Ma'ale Shomron",
+  "Description": "Cristina Ferrare Vintage jewelry set is one of a kind, highly collectible and discontinued. Cristina is a celebrity and she is featured multiple front page magazines like Vogue, Bazaar, Good Housekeeping and more. She has written numerous cookbooks. Set comes in the original box and is brand new. All stones are cubic zirconia. The necklace was inspired by a $50,000 necklace. It has a clip on earring with all the stones matching the necklace.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322511735118080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "editahold0625",
+    "FeedbackScore": "16",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "135.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/9bwAAOSwr~lYrYoT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/Nf8AAOSw3v5YrYoz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/Hi0AAOSwx6pYrYph/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets"
+}

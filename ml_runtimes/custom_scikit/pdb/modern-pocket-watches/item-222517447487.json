@@ -1,0 +1,106 @@
+{
+  "QuantitySold": "0",
+  "Title": "Motorcycle Pocket Watch",
+  "PostalCode": "71341",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Motorcycle Pocket watch.....Quartz battery operated with sweep second hand....12 Hour Numerals......comes with 12\" chain and keeps good time......\"BEST OFFER\" option is available.",
+  "StartTime": "2017-05-20T02:51:43.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/JvoAAOSwfcVUG7zP/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W~UAAOSwVFlUG7zV/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XAcAAOSwVFlUG7zX/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Y8wAAOSwGvhUG7zW/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8cEAAOSwxH1UG7za/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/fmoAAOSwd4tUG7za/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Snap Case",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Bronze",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "softailrider1951",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1251",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "6",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225174474878080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-19T02:51:43.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "12.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Motorcycle-Pocket-Watch-/222517447487",
+  "ConditionDescription": "Motorcycle",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Hessmer, Louisiana",
+  "Storefront": {
+    "StoreName": "softailrider1951",
+    "StoreURL": "http://stores.ebay.com/id=141452105"
+  },
+  "ItemID": "222517447487",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P18DT8H12M33S"
+}

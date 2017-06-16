@@ -1,0 +1,77 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "66.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "BG",
+  "Location": "Stara Zagora, Stara Zagora",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T07:49:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "66.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:49:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Vintage (1920-1970)",
+      "Name": "Age"
+    }
+  },
+  "ExcludeShipToLocation": "BG",
+  "ItemID": "361995078834",
+  "HandlingTime": "2",
+  "Description": "Check out my other items! Works VERY RARE MODEL Clock is an antique. clock works This is an old mechanical watch Buy what you see. pictures speak ASK will respond shipment travels with priority and recommendation shipment travels in Europe 14-22 working days USA 22-35 WORKING DAYS",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Old-VINTAGE-swiss-WATCH-FABRE-LEUBA-GENEVE-GOLD-AU-20-1950-/361995078834",
+  "ConditionDescription": "VERY GOOD CONDITION",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3619950788348080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H17M40S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/64sAAOSw~gRVq6Lh/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/344AAOSwLVZVq6Lb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xkoAAOSwu4BVq6Ln/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EmMAAOSwyQtVq6Lu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MY8AAOSw9N1Vq6Lz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7ekAAOSw~gRVq6L7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N9YAAOSwMmBVq6MA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Co8AAOSwDNdVq6MH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M-oAAOSw9N1Vq6MN/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aIsAAOSwHnFVq6MU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8HsAAOSw~gRVq6MZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/DPAAAOSwDNdVq6Mh/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Old VINTAGE swiss WATCH FABRE- LEUBA GENEVE GOLD AU 20 1950",
+  "Seller": {
+    "PositiveFeedbackPercent": "93.3",
+    "FeedbackScore": "560",
+    "UserID": "ddok75",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

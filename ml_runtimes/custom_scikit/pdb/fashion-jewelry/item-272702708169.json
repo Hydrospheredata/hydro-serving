@@ -1,0 +1,102 @@
+{
+  "ReturnPolicy": {
+    "Description": "The buyer has 7 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT18H51M23S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "10",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "58.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272702708169",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/FINE-PAIR-STERLING-SILVER-HAND-MADE-EARRINGS-SET-4-ROUND-PEARLS-/272702708169",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "58.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T05:42:35.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "IL",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T05:42:35.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "sterling silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Drop/Dangle",
+        "Name": "Style"
+      },
+      {
+        "Value": "Beauty",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Hook",
+        "Name": "Fastening"
+      },
+      {
+        "Value": "Lab-Created/Cultured",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "A FINE PAIR OF STERLING SILVER HAND MADE EARRINGS SET WITH 4 ROUND PEARLS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "HERE OFFERED FOR SALE THIS LOVELY HAND MADE PAIR OF STERLING SILVER EARRINGS SET WITH 4 ROUND PEARLS . DIAMETER OF 2 IS 5 MM AND DIAMETER OF THE OTHER 2, 3MM . EACH EARRING IS 1.2\" (3 CM) LONG AND 0.3\" (0.8 CM) WIDE. WEIGHT IS 5 GRAMS. BUYER WILL PAY $7.00 FOR INSURED REGISTERED AIR-MAIL AND HANDLING. I ACCEPT PAYMENT BY PAYPAL.",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2727027081698080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "coinsforall46",
+    "FeedbackScore": "22",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "RISHON LE ZION, ISRAEL",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzc2WDgwMA==/$(KGrHqR,!jYF!6LF7,vFBQQO)U0n+Q~~60_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTYyWDgwMA==/$T2eC16V,!zoE9s5ne+czBQQO)Yqehg~~60_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTE3WDgwMA==/$T2eC16Z,!)8E9s4l8!kVBQQO)Wj0nw~~60_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/$(KGrHqV,!oMF!Z9krnbTBQQO)b3EZQ~~60_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1500"
+}

@@ -1,0 +1,131 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "89.38",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Nottingham",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:34:19.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1031737959",
+    "StoreName": "chapelle_jewellery"
+  },
+  "CurrentPrice": {
+    "value": "69.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T09:34:19.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe",
+    "Asia",
+    "AU"
+  ],
+  "SKU": "08140962",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Middle East",
+    "MX",
+    "KZ",
+    "BY"
+  ],
+  "ItemID": "302334215904",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rotary",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Gender"
+      },
+      {
+        "Value": "AGS00070/C/05",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Chronograph",
+          "Date",
+          "24 hour",
+          "Stopwatch."
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round Dial",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Blue Dial",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Brown Strap",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "43mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "5037678030799",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Mens Rotary Aquaspeed chronograph blue dial leather watch AGS00070/C/05",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Rotary-Aquaspeed-chronograph-blue-dial-leather-watch-AGS00070-C-05-/302334215904",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023342159048080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "NG4 2YG",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H8M3S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/PoUAAOSwIQdZLo4e/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "chapelle_jewellery Visit our eBay Shop Add us to your Favourites list > Subscribe to our Newsletter > About Chapelle Delivery The Chapelle Guarantee Mens Rotary Aquaspeed chronograph blue dial leather watch AGS00070/C/05 RRP \u00a3139.00 Now \u00a369.50 Description This is a very stylish men's Rotary Aquaspeed watch AGS00070/C/05, perfect for the man about town! The stainless steel case measures approximately 43mm wide including the crown and has a brushed finish. The metallic blue dial adds a touch of colour and matches the the blue dial. There are three sub-dials showing the 24-hour time and chronograph and there is also a date window. The hands and hour markers are white with silver outlines, to match the stainless steel case and buckle. The brown strap is genuine leather with a textured finish and measures approximately 18mm wide. This Rotary Aquaspeed watch AGS00070/C/05 is marked 'water resistant' by Rotary, meaning it is suitable for a wide range of water activities, including swimming and diving. Chapelle Jewellery are authorised Rotary stockists and this men's Rotary Aquaspeed watch AGS00070/C/05 is presented in the official packaging with Rotary's lifetime guarantee, which should be kept validated by three year services. Chapelle Reference: 08140962 Other Brands we stock About Chapelle Chapelle Jewellery is a family run business offering jewellery and watches with discounts of up to 50% off RRP. We purchase at the best possible prices and pass on these savings to our customers. All our items are new and perfect goods; we do not sell seconds or second-hand items. We are authorised stockists of all the brands we sell so you can be confident you're buying from a reputable company. Delivery Orders dispatched within the UK will be sent using Royal Mail Recorded Signed For first class. Orders being sent to international destinations will be sent by Royal Mail International Signed For delivery. Visit our ebay store for our full range >>",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "7685",
+    "UserID": "chapelle_jewellery",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Items must be returned within 30 days unworn in the original packaging.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

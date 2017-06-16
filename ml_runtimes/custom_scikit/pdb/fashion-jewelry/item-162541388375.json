@@ -1,0 +1,134 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P9DT3H52M16S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "49.9",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "162541388375",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Turkish-Ottoman-925-Sterling-Silver-Sapphire-Topaz-Sets-Ring-Size-8-/162541388375",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.9",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T15:50:23.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "TR",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-14T15:50:23.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925 k",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Sapphire",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Blue",
+        "Name": "Color"
+      },
+      {
+        "Value": "Topaz",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "stone",
+        "Name": "Material"
+      },
+      {
+        "Value": "Lab-Created/Cultured",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Not Enhanced",
+        "Name": "Main Stone Treatment"
+      },
+      {
+        "Value": "Turkey",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "925 k",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Turkish Ottoman  925 Sterling Silver Sapphire Topaz Sets Ring Size 8",
+  "ExcludeShipToLocation": [
+    "CL",
+    "PE",
+    "UY",
+    "TR"
+  ],
+  "BidCount": "0",
+  "Description": "Turkish Sapphire Topaz 925 Sterling Silver Sets Ring Size 8 Material is 925 K Sterling Silvern and Bronze. The stones are SAPPHIRE Topaz.Set weight is 24.9 grams RING SIZE NUMBER ( 8 US ) SilverIstanbul promises best service and product quality.*1 Made in Turkey PaymentPayPal and major credit cards are accepted ShippingItem will be shipped in 1 business after payment receivedIt will be shiped with national postal services of your countryTracking number will be suppliedIt takse 8-12 days to UK, 15-20 days to US and all other countries ReturnsReturns are accepted in 14 days for any kind of reason. Contact and FeedbackPlease use Ebay message system for any kind of requestWe can solve your problem without leaving negative feedbackYour satisfaction is our first priority",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1625413883758080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "UserID": "silveristanbul",
+    "FeedbackScore": "1214",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "silveristanbul",
+    "StoreURL": "http://stores.ebay.com/id=1271356158"
+  },
+  "Quantity": "1",
+  "Location": "Istanbul",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ae0AAOSwHoFXvdPe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/JlMAAOSw0UdXvdPj/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/E80AAOSw-itXvdPo/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/BgAAAOSwU-pXvdP0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/9BMAAOSwaB5XvdPV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ZCMAAOSwHoFXvdPF/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ZdYAAOSwHoFXvdPK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/ZKEAAOSw6n5XvdPP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/7p8AAOSwIgNXvdPa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/AVkAAOSwgZ1XvdPr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/5MsAAOSwZVlXvdPw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/7GIAAOSw65FXvdP4/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

@@ -1,0 +1,110 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IN",
+  "Location": "KON, MAHARASHTRA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:36:55.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T09:36:55.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "263012707078",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vintage doxa super commpressor",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Date",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "SWISS",
+        "Name": "Model"
+      },
+      {
+        "Value": "Vintage (1971-1983)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vintage collectible men's wristwatch SWISS MADE  DOXA SUPER AUTOMATIC",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-collectible-mens-wristwatch-SWISS-MADE-DOXA-SUPER-AUTOMATIC-/263012707078",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630127070788080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "400612",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT18H11M6S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/x9QAAOSwQYZWvFSf/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/MYQAAOSwPc9WvFSq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/TFQAAOSwUuFWvFS7/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/rYUAAOSwFNZWvFTL/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/H~cAAOSwe7BWvFTX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/pT8AAOSwzgRWvFTk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/v1MAAOSwG-1WvFTw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/haEAAOSwKtVWvFT8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/lNoAAOSwuAVWvFUJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/Bk0AAOSwezVWvFUV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/l1kAAOSwuAVWvFUg/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "=\"center\" valign=\"top\"> DESCRIPTION RETURN POLICY:- 14 days return policy accepted if any issue occurs with the watch which have a very less chances as we do check our watch thoroughly and strictly, if any problem occurred then the return policy is accepted and replacement will be done PaymentWe accept payment only through PayPal as it is safest mode of payment on eBay. ShippingShipping is free worldwide by Registered Air-Mail with tracking.If you want faster shipping by EMS please add 20US$ in the final price.FedEx/DHL will 40US$ extra.Shipping will be done within 3 days of cleared payment. Terms of SaleRETURN ACCEPTED IF WATCH IS FAULTY WITH IN 14 DAYS AND WILL NEED THE PROOF OF FAULT BEFORE YOU OPEN ANY CASE OR CONTACT EBAYContact UsIf you have any questions if you want to contact us anytime please use eBay's email service & we will revert back to you within 24 hours.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "32",
+    "UserID": "timecreate57",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Return shipping will be paid by Buyer in any condition"
+  }
+}

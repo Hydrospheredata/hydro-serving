@@ -1,0 +1,120 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272703092212",
+  "TimeLeft": "P4DT23H54M57S",
+  "ListingStatus": "Active",
+  "Title": "2.55+ctBLACK COLOR MOISSANITE ROUND CUT .925 SILVER PENDANT",
+  "ConditionDescription": "A Moissanite that is an actual lab created simulated diamond and this is one of the finest diamond alternative products with 10 Times Lower Price on the market to date.",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "39.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T12:05:35.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T12:05:35.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "RINGJEWEL",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pendant",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Moissanite",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Black",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "SILVER",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Moissanite",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Lab-Created/Cultured",
+        "Name": "Main Stone Creation"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2-55-ctBLACK-COLOR-MOISSANITE-ROUND-CUT-925-SILVER-PENDANT-/272703092212",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "PARVAT, GUJARAT",
+  "Description": "Visit My eBay Store",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2727030922128080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "UserID": "jewelrings",
+    "FeedbackScore": "5737",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "jewelrings",
+    "StoreURL": "http://stores.ebay.com/id=1168812888"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4Nzg=/z/DtEAAOSwnDZT-xR8/$_57.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "PostalCode": "395006"
+}

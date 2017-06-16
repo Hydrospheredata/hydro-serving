@@ -1,0 +1,122 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.44",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "London",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:28:40.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T08:28:40.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425714005",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Timex Marathon Digital Gents Watch T5K802",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Timex-Marathon-Digital-Gents-Watch-T5K802-/112425714005",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124257140058080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "E130QP",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H58M48S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MjUxWDIwMQ==/z/7c8AAOSwGJlZLn3s/$_1.JPG?set_id=8800004005",
+    "http://i.ebayimg.com/00/s/MTAyMlgxNTU3/z/S24AAOSww9xZLn4Z/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Timex Marathon Digital Gents Watch T5K802Timex Marathon Digital Gents Watch T5K802 designed for the Sports from the Marathon Range, features a durable resin case, digital dial, Date features, stopwatch, chronograph. INDIGLO\u00ae Night-Light,, black rubber strap and water resistance up to 50 meters. Brand:TimexCase material:ResinCase Colour:BlackGender:Gent'sCase Depth:14 mmCase Width:45 mmStrap:RubberStrap Colour:BlackDial Colour:LCDMovement:Quartz (Battery)Water-resistance:50 MetersFunctions:Chronograph, Alarm, Backlight, Date, INDIGLOModel number:T5K802",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "74",
+    "UserID": "greeneyes073",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

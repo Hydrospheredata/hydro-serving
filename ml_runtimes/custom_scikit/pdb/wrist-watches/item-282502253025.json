@@ -1,0 +1,78 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "10.75",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "4.54",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825022530258080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T11:35:21.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "4.54",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T11:35:21.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "Brand new Skeleton Style Watch",
+  "BuyItNowPrice": {
+    "value": "10.75",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "282502253025",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Skeleton",
+      "Name": "Features"
+    }
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Skeleton Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Skeleton-Watch-/282502253025",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "HitCount": "3",
+  "PostalCode": "27616",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Raleigh, North Carolina",
+  "TimeLeft": "P6DT20H16M4S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VkUAAOSwi7RZLqg4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/i-oAAOSwPh5ZLqg6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pRQAAOSw9OFZLqg-/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ozQAAOSwtGlZLqhB/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "4.54",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4",
+    "UserID": "paquetex",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

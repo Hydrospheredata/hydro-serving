@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/MwMAAOSwZVlXlR6h/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/CU8AAOSwdzVXlR6s/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/VaUAAOSwtnpXlR6x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/a0kAAOSwARZXlR6z/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/JjAAAOSwENxXlR6q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/XMwAAOSwIgNXlR6u/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9z0AAOSwQaJXSnIW/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE0NFgxMjAw/z/-0EAAOSw6btXSnNF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/CvgAAOSwdzVXlR65/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/4F8AAOSwTZ1XlR62/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/9PMAAOSwbsBXlR67/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-COACH-VOYAGE-CANVAS-XL-TOTE-RED-KHAKI-F77125-MSRP-398-NEW-/172670741905",
+  "ConvertedCurrentPrice": {
+    "value": "230.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "\u2728\u2728BNWT\u2728\u2728 Authentic Coach Voyage Canvas XL Draft Tote (F77125). Red/khaki leather trim with silver hardware. Removable & adjustable strap.\u00a0 Measurements: 17\"(w)x14.5\"(H)strap drop 7.5\",long removable strap 26\". This tote is extremely difficult to find!!\u00a0 Can be utilized as a weekend bag, work bag or diaper bag. MSRP: $398 Comes from a smoke and pet free home. Thank you for looking!",
+  "Title": "\ud83d\udcafAUTHENTIC COACH VOYAGE CANVAS XL TOTE - RED/KHAKI (F77125) MSRP: $398 \u2728NEW\u2728",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "230.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Pompano Beach, Florida",
+  "Seller": {
+    "FeedbackScore": "74",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "chandlergiselle"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "33068",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-11T20:07:45.000Z",
+  "HitCount": "19",
+  "TimeLeft": "P8DT4H41M59S",
+  "EndTime": "2017-06-10T20:07:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Coach"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "UPC",
+        "Value": "884830855982"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172670741905",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726707419058080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

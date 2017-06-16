@@ -1,0 +1,116 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P18DT19H35M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Hair & Head Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "47.22",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222523604430",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bridal-Wedding-Prom-Party-Rhodium-Plated-Clear-Austrian-Crystal-Sculptured-/222523604430",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "47.22",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-25T07:04:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-24T07:04:56.000Z",
+  "PrimaryCategoryID": "110620",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "634558778380",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0634558778380",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Avalaya",
+        "Name": "Brand"
+      },
+      {
+        "Value": "HA00494",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Jewelry",
+        "Name": "Binding"
+      },
+      {
+        "Value": "womens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.05 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.7 x W 3.5 x H 1 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Title": "Bridal/ Wedding/ Prom/ Party Rhodium Plated Clear Austrian Crystal Sculptured -",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "BidCount": "0",
+  "Description": "Thank you for visiting our ebay store! Want picture-perfect hair? Slip this beaut comb into the back of your ponytail or use it to hold your hair away from your face. Featuring a silver-tone hair comb with a sculptured rose design, encrusted with clear Austrian crystals. The comb measures 55mm across and is approximately 75mm long. Sparkle away no matter the occasion! - Occasion: bridal, bridesmaid, cocktail party, prom night, summer ball, wedding - Metal Finish: rhodium plated - Gemstone: swarovski crystal - Theme: floral, rose - Collection: floral Bridal/ Wedding/ Prom/ Party Rhodium Plated Clear Austrian Crystal Sculptured -",
+  "PrimaryCategoryIDPath": "281:10968:110620",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225236044308080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.2",
+    "UserID": "2.tzvishai2",
+    "FeedbackScore": "607",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "2.tzvishai2-Store",
+    "StoreURL": "http://stores.ebay.com/id=1478419851"
+  },
+  "Quantity": "1",
+  "Location": "US",
+  "HitCount": "8",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/2UEAAOSwtGlZJoIb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Gu8AAOSw1WJZJoIa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/P2UAAOSw8HBZJoIa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0cYAAOSwAPVZJoIa/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/PyUAAOSww5hZJoIZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/aQQAAOSwfRdZJoIb/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/aPIAAOSwfRdZJoIZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/KBIAAOSwX9FZJoId/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

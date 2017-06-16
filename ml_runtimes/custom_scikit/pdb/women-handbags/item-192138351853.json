@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921383518538080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/lDUAAOSwsW9Y1ELZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/mVYAAOSwXYtY1ELZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/FHMAAOSwCU1Y1ELZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/Un4AAOSwDKtY1ELZ/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Greenland-Nature-Classic-Shoulder-Bag-Leather-30-cm-brown-Free-Delivery-/192138351853",
+  "ConvertedCurrentPrice": {
+    "value": "204.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Brand: Greenland Series: Classic Dimension (LxWxH): 30cm x 7cm x 30cm Weight in kg: 0.2kg Capacity in Litre ca.: 11-20 Material: Leather Additional Features: organiser Features: lining, inside pocket(s), adjustable strap, exterior pocket(s)",
+  "Title": "Greenland Nature Classic Shoulder Bag Leather 30 cm brown. Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "204.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-23T21:49:05.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P19DT5H26M54S",
+  "EndTime": "2017-06-21T21:49:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Greenland"
+      },
+      {
+        "Name": "MPN",
+        "Value": "274538679"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192138351853",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:62702879:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

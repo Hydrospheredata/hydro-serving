@@ -1,0 +1,103 @@
+{
+  "ExcludeShipToLocation": [
+    "AT",
+    "BE",
+    "FR",
+    "DE",
+    "CH",
+    "CN"
+  ],
+  "QuantitySold": "0",
+  "Title": "Fashion Silver Glossy Ball Sphere Quartz Pocket Watch Womens Necklace Chain Gift",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "bestseller2046watch",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1274",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-05-31T02:57:30.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/F2IAAOSwH09ZLjEW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/DBUAAOSwjqVZLjEZ/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "a50276",
+  "HitCount": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225298209928080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T02:57:30.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "7.99"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ConditionDescription": "a good choice for Xmas gift",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Location": "Quincy, Massachusetts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Silver-Glossy-Ball-Sphere-Quartz-Pocket-Watch-Womens-Necklace-Chain-Gift-/222529820992",
+  "Storefront": {
+    "StoreName": "Watches Jewelry Store",
+    "StoreURL": "http://stores.ebay.com/id=1499064193"
+  },
+  "ItemID": "222529820992",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P29DT8H24M4S"
+}

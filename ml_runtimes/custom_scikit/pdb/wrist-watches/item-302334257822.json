@@ -1,0 +1,76 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Cambridge, Ohio",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:33:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T10:33:22.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334257822",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wristology",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "19.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Wristology-Olivia-womens-chunky-blush-gold-boyfriend-watch-/302334257822",
+  "Title": "Wristology Olivia women's chunky blush/gold boyfriend watch!",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023342578228080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "43725",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT19H10M21S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/T3AAAOSw~y9ZLpqv/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Welcome to my auction! You are looking at a gorgeous Wristology Olivia women's chunky gold boyfriend watch! This is my personal watch, and I simply have never worn it. There is no tag attached, but the original bag is included. This watch is in excellent, unused condition. The stopper has been pulled, so the battery life has been preserved. The watch has a blush pink strap and a white face with gold hardware. It si stunning and perfect for any season! Please note that I only accept PayPal as payment, and payment is due within 24 hours of winning the auction. I only ship to the lower 48 states unless prior arrangements have been made for increased shipping costs. I do not accept returns, so please ask any questions prior to bidding. Serious bidders only please. Your item will ship from a very clean, smoke free, puppy friendly home. I ship with insurance. Thanks and have a blessed day!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "648",
+    "UserID": "mousefans3",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

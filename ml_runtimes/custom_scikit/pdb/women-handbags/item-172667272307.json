@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/~JIAAOSw2xRYme1R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/mTsAAOSwTglYme1Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/gQkAAOSw9GhYme1R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/aqwAAOSwNnRYme1Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/C0gAAOSw-0xYme1R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTc0WDcyMA==/z/kRoAAOSw4DJYme1Q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDcyMA==/z/gHAAAOSwLEtYme1R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/RM8AAOSwo4pYme1R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDk2MA==/z/blgAAOSwopRYme1R/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQzWDcyMA==/z/mUkAAOSwTglYme1R/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-LAPTOP-BLAKE-AVENUE-DAVENEY-LAPTOP-BAG-/172667272307",
+  "ConvertedCurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Detail Track Page Views WithAuctiva's FREE Counter",
+  "Title": "KATE SPADE LAPTOP/ BLAKE AVENUE DAVENEY  LAPTOP BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "169.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Ferndale, Michigan",
+  "Seller": {
+    "FeedbackScore": "1557",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "etrend.inc"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48220",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T13:12:07.000Z",
+  "HitCount": "31",
+  "TimeLeft": "P5DT22H7M12S",
+  "EndTime": "2017-06-08T13:12:07.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon/Leather"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172667272307",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726672723078080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,105 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "63.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:04:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "63.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:04:26.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245583200",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Marc by Marc Jacobs",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "MBM3274",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "MBM3274",
+        "Name": "Model"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "BRAND NEW WOMENS MARC by MARC JACOBS (MBM3274) AMY DINKY BLUE DIAL WATCH",
+  "ConditionDescription": "Brand new.. store display .. box. Not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BRAND-NEW-WOMENS-MARC-MARC-JACOBS-MBM3274-AMY-DINKY-BLUE-DIAL-WATCH-/332245583200",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3322455832008080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H39M59S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTE4WDUwMA==/z/T44AAOSwWxNY2AaV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUwMlg4OTg=/z/jCUAAOSwax5Y2Aaj/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "DESCRIPTION: Features: Model number : MBM3274 Stylish Ladies Watch from MARC BY MARC JACOBS. High Quality Stylish Watch from the Cutting Edge Fashion Designers at MARC BY MARC JACOBS ! Box not included Silver tone stainless steel case Silver tone stainless steel bracelet Teal tone dial Crystal accents Dimensions: Face Width 26 mm Bracelet Width 14 mm Bracelet Length: Women's standard Quartz movement Water resistant to 50 meters",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

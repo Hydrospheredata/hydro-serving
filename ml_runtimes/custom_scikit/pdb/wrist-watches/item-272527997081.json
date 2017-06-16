@@ -1,0 +1,144 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "10002",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Product SpecificationsWatch InformationBrand, Seller, or Collection NameInvictaModel number11146Part Number11146Item ShapeRoundDial window material type\ufeffMineralDisplay TypeAnalogClaspDeployment clasp with push-button\ufeffCase materialStainless steelCase diameter5.2 centimetersCase Thickness18 millimetersBand MaterialStainless steelBand lengthMen's StandardBand width26 millimetersBand ColorSilverDial colorBlackBezel materialStainless steelBezel function\ufeffStationaryItem weight16 OuncesMovement\ufeffMechanical hand windWater resistant depth330 Feet 100% Authentic 100% Money Back Guarantee Shipping and Handling:We ship daily from Monday to Friday, except Weekends and Holidays.We usually will ship your item within 1 business days of receiving cleared payment.Please make sure that your shipping address is correct, we only ship to a PayPal confirmed address. Returns and Refunds:For any reason, you are not completely satisfied with your purchase, simply return it back. All Item(s) must be shipped in their original condition within 14 days of delivery with the original box and paperwork from receiving date. Buyer pay returned shipping.We will refund your money back. Credit will be issued in the same form as payment received. We do not refund any shipping expenses. Feedback:We are happy to leave positive feedback for our customers once we received the payment. We would appreciate that once you receive your order, also leave us a positive feedback.",
+  "StartTime": "2017-01-19T18:13:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg4WDYyMA==/z/CBMAAOSw2xRYgQGC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODg4WDg4OA==/z/M14AAOSwUKxYgQGB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/-T8AAOSwImRYgQGA/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "895.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Invicta",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "11146",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Water Resistant",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Gloss",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "11146",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sap217712",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "224",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "340",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2725279970818080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-18T18:13:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "895.95"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Invicta-collector-item-11146-Stainless-Steel-Watch-9995-00-RETAIL-/272527997081",
+  "Location": "New York, New York",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "New Invicta collector item 11146 Stainless Steel Watch $9995.00 RETAIL",
+  "Storefront": {
+    "StoreName": "sap217712",
+    "StoreURL": "http://stores.ebay.com/id=604605438"
+  },
+  "ItemID": "272527997081",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P18DT16M16S"
+}

@@ -1,0 +1,164 @@
+{
+  "ExcludeShipToLocation": [
+    "AT",
+    "BE",
+    "CZ",
+    "DK",
+    "FI",
+    "FR",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "SK",
+    "ES",
+    "SE",
+    "CH",
+    "UA",
+    "GB"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.5"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "10",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Brand New Pocket Watch Features: Silver case and chain Gold tone design White dial Easy to read numbers Mineral crystal Quartz movement Case size 44mm Chain length is 14 3/4 inches Push the button to flip open the cover to tell the time",
+  "StartTime": "2017-04-09T03:38:41.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/O~0AAOSwLF1X6Lvx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/uU8AAOSw8w1X6Lv2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sqYAAOSwmLlX6Lrg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KEwAAOSwmfhX6Lrj/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Geneva",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "all4udeals",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "14370",
+    "PositiveFeedbackPercent": "99.6"
+  },
+  "HitCount": "53",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1423423058828080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-08T03:38:41.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.5"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Item must be returned in its brand new unused condition with all the original packaging such as box, owner's manual, warranty booklet, and tag. No returns allowed for items that has been worn, used, altered, and damaged.  Shipping charges will not be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "RO",
+    "BG",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "CY",
+    "SI",
+    "JP",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "HK",
+    "DE",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "SA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "United States",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "PICKUP TRUCK CAR Pocket Watch with Chain Clip On Gold Silver Geneva Quartz",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PICKUP-TRUCK-CAR-Pocket-Watch-Chain-Clip-Gold-Silver-Geneva-Quartz-/142342305882",
+  "Storefront": {
+    "StoreName": "all4udeals",
+    "StoreURL": "http://stores.ebay.com/id=47073271"
+  },
+  "ItemID": "142342305882",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT8H51M1S"
+}

@@ -1,0 +1,83 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "110.08",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IT",
+  "Location": "CAGLIARI",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:13:58.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1298187107",
+    "StoreName": "gioielleriacampus"
+  },
+  "CurrentPrice": {
+    "value": "110.08",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:13:58.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "MARK MADDOX",
+        "Name": "Brand"
+      },
+      {
+        "Value": "8431283458981",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "8431283458981",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600209597",
+  "HandlingTime": "10",
+  "Description": "Mark Maddox watch mod. Sport HM7006-55 HM7006-55 Soluzione professionale per gestire al meglio la tua azienda, il tuo sito e-commerce ed il tuo negozio e-Bay.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mark-Maddox-watch-mod-Sport-HM7006-55-/182600209597",
+  "NewBestOffer": "false",
+  "SKU": "HM7006-55",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1826002095978080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H4M9S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDMyNw==/z/N0MAAOSww9xZAxSy/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Mark Maddox watch mod. Sport HM7006-55",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackScore": "126",
+    "UserID": "gioielleriacampus",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

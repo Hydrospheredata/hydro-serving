@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. Created automatically by EaSync.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P28DT4H57M59S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Wristbands",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "31.89",
+    "_currencyID": "USD"
+  },
+  "SKU": "B01FYRI924",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "192206591421",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1-Dozen-Multi-Pack-BLANK-Wristbands-Bracelets-Silicone-Rubber-Select-a-/192206591421",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "31.89",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-03T18:56:06.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T18:56:06.000Z",
+  "PrimaryCategoryID": "112603",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "NA",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Red White & Blue Swirl",
+        "Name": "Color"
+      },
+      {
+        "Value": "TheAwristocrat",
+        "Name": "Brand"
+      },
+      {
+        "Value": "NA",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Youth (7\" 180mm)",
+        "Name": "Size"
+      }
+    ]
+  },
+  "Title": "1 Dozen Multi-Pack BLANK Wristbands Bracelets Silicone Rubber - Select from a...",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "BidCount": "0",
+  "Description": "1 Dozen Multi-Pack BLANK Wristbands Bracelets Silicone Rubber - Select from a Variety of Colors Description TheAwristocrat Silicone Rubber Bracelets are produced using only 100% pure silicone that is toxin and latex free, meaning they are high quality, durable, and SAFE for you, your children, and EVERYONE! Select from Adult or Youth sizes and from a FuN variety of colors! Thank YOU and God bless! Features: Patriotic SWIRLED Wristbands - Celebrate Independence Day - Fourth of JulyAlso great for Christmas stocking stuffers, party favors, kids, and children partiesYouth size: 7\" (180mm) circumference and 1/2\" width and 2mm thickMade from 100% Silicone Rubber - Latex and Toxin Free - Hyperallergenic3 Silicon Colors of the US Flag: Red, White, and Blue - Great for July 4th Product Details: Shipping Weight: 4 ounces Handling We will ship all orders within 3 business day of payment. Delivery We Do Not Ship Outside of the Continental US. Return Policy All items qualify for returns within 30 days of receipt. Buyer is responsible for return shipping on any item that is not damaged. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "PrimaryCategoryIDPath": "281:10968:112603",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922065914218080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "xyzcommerce",
+    "FeedbackScore": "49",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "xyzcommerce",
+    "StoreURL": "http://stores.ebay.com/id=458200024"
+  },
+  "Location": "US",
+  "Quantity": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjMyWDE2MDA=/z/l-UAAOSwIQdZMwY8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNjAw/z/t08AAOSwEHpZMwZA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzkxWDE2MDA=/z/ay0AAOSws5pZMwZF/$_1.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

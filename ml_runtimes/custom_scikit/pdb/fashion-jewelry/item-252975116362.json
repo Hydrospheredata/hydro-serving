@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "252975116362",
+  "TimeLeft": "P4DT21H27M13S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PANDORA-Dangle-Charm-My-Beautiful-Wife-heart-Locked-Love-Openwork-hot-/252975116362",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T07:31:24.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-10T07:31:24.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm(s)",
+        "Name": "Type"
+      },
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "PANDORA Dangle Charm My Beautiful Wife heart & Locked Love Openwork hot***",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "PANDORA Dangle Charm My Beautiful Wife Sterling Silver A heart-shaped locket dangles from a sterling silver charm from the PANDORA Mother's Day 2015 collection. Sparkling clear cubic zirconias adorn the charm, while one side of the locket is inscribed with \"Forever and Always,\" and the other with \"My Beautiful Wife. Locked Love Openwork Charm Openwork birthstone heart charm by PANDORA, in sterling silver with gold filigree heart and cut-out details. Celebrate the unifying power of love with this stunning Locked Hearts charm from Pandora, with intricate detailing. Pandora gives you the perfect excuse to treat those loved ones who deserve to be spoil! Gorgeous designs deliver a timeless array of precious pieces which are sure to be loved by everyone. Choose a little something special for all those unforgettable moments which deserve celebrating.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529751163628080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "97.7",
+    "UserID": "vasil19",
+    "FeedbackScore": "123",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Henderson, Nevada",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/k9wAAOSwSypY-VrC/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAzNVg4MTA=/z/kskAAOSwo4pYNO0H/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODMxWDgxMA==/z/yaoAAOSwHMJYNO0W/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTQxWDgxMA==/z/FHQAAOSwal5YNO0o/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/JyYAAOSwHptY-Vrk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/PswAAOSwtZJY-V1Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFgxMDgw/z/Sg0AAOSwWiBY-V1m/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "89014"
+}

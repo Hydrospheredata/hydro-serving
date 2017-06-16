@@ -1,0 +1,77 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "69.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "false",
+  "HandlingTime": "5",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "- WRISTWATCH - 26MM DIAMETER - TIME BELT - WORKING - MANUAL WINDING - SWISS - RELOJ DE PULSERA- A CUERDA MANUAL - 26MM DIAMETRO - SWISS - FUNCIONANDO - A CUERDA MANUAL L303 ANTES DE OFERTAR REVISE ATENTAMENTE LA DESCRIPCION Y LAS FOTOS DEL ARTICULO. ANTE CUALQUIER DUDA O CONSULTA ENVIENOS UN MAIL. BEFORE OFFERING CHECK ATTENTIVLY THE DESCRIPTION AND THE PHOTOS OF THE ARTICLE. BEFORE ANY DOUBT OR CONSULTATION SEND US AN EMAIL FORMA DE PAGO: PAYPAL UNICAMENTE. PAYMENT OPTIONS: ONLY ACCEPT PAYPAL. ENVIO RAPIDO A TODO EL MUNDO POR EMS U$S 35. ENVIO POR CORREO ESTANDAR A TODO EL MUNDO U$S 18. EMS EXPRESS SHIPPING TO WORLDWIDE U$S 35. STANDARD SHIPPING TO WORLDWIDE U$S 18. CLICK HERE...MORE ITEMS FOR SALE // MIRA NUESTRO STOCK",
+  "StartTime": "2017-05-31T13:06:26.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Nzg4WDEyNzE=/z/sGEAAOSw8cNURmJp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjU3WDEwNjM=/z/sPcAAOSw8cNURmJu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODczWDEyMzc=/z/b74AAOSwQJ5URmJ5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzY1WDkyMQ==/z/AgYAAOSwF1dURmKA/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vintage (1920-1970)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "bsasclock",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "620",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1525678481678080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-30T13:06:26.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "69.0"
+  },
+  "BidCount": "0",
+  "Country": "AR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Capital Federal, Buenos Aires",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "ANTIQUE WRISTWATCH - 26MM DIAMETER - TIME BELT - WORKING  -SWISS",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ANTIQUE-WRISTWATCH-26MM-DIAMETER-TIME-BELT-WORKING-SWISS-/152567848167",
+  "Storefront": {
+    "StoreName": "BSASCLOCK",
+    "StoreURL": "http://stores.ebay.com/id=1090425867"
+  },
+  "ItemID": "152567848167",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P29DT14H49M59S"
+}

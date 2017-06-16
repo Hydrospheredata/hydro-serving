@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/o8QAAOSw241Yi6kr/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/pAUAAOSw241Yi6kt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/EiYAAOSwImRYi6kn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/EnAAAOSwImRYi6kp/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-NEW-YORK-BLACK-NYLON-LAPTOP-COMPUTER-CASE-BAG-NEW-/232219758675",
+  "ConvertedCurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "KATE SPADE NEW YORK - 100% AUTHENTIC Laptop Bag Effortlessly store your laptop and tech essentials in this slim, lightly padded bag crafted in sleek nylon and trimmed with crosshatched leather. Carry by the top handles, or use the optional strap for around-town ease.Top zip closureTop carry handles; optional, adjustable strapInterior wall and smartphone pockets; padded laptop compartment Signature liningNylon or polyester with leather trimThis bag is more for a shoulder style carry. This bag was a display, in like new condition Size: 16 \u00be\"W x 12\"H x 3 \u00bd\"DSmallest handle - drop strap is 6\"Largest handle - drop strap is 12\" Retails for $248 FAST SHIPPING",
+  "Title": "KATE SPADE NEW YORK  BLACK NYLON LAPTOP COMPUTER CASE BAG NEW",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "170.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Tucson, Arizona",
+  "Seller": {
+    "FeedbackScore": "6569",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "mydailyobsession"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85704",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-01-27T20:28:16.000Z",
+  "HitCount": "620",
+  "TimeLeft": "P24DT5H16M53S",
+  "EndTime": "2017-06-26T20:28:16.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Brand",
+        "Value": "KATE SPADE"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232219758675",
+  "Storefront": {
+    "StoreName": "MyDailyObsession",
+    "StoreURL": "http://stores.ebay.com/id=59059309"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Less Shipping & Handling. A 20% Restocking fee will apply. Returns must be authorized, contact us by Ebay messages within 2 days of delivery. Item must be returned in the original condition it was sent. Buyer pays all shipping fees.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2322197586758080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,164 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "32807",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "RARE Armitron LED 1970's Steampunk Pocket Watch In Gold Tone Case W Red Face & Chain*** PLEASE READ REGARDING CONDITION *** It doesn't work, but it probably just needs a battery. There's an inscription on the inside that says \"To My Joey Love Dorothy 6-9-79\" Please examine the pictures and ask any questions before buying or making an offer. No returns are accepted for any reason. Ships Fast!",
+  "StartTime": "2017-05-09T13:32:36.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/OmEAAOSwnHZYgkbQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/BT0AAOSw5cNYgkbS/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/UYgAAOSw4DJYgkbX/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/sxIAAOSwjDZYgkbZ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/vjkAAOSwUKxYgkbc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/~zYAAOSw2xRYgkbg/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/1JMAAOSwNnRYgkbj/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "149.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Red",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Armitron",
+        "Name": "Model"
+      },
+      {
+        "Value": "Armitron",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "tim_the_enchanter",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "399",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "102",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023108994778080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-08T13:32:36.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "149.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/RARE-Armitron-LED-1970s-Steampunk-Pocket-Watch-W-Red-Face-Chain-Case-/302310899477",
+  "Location": "Orlando, Florida",
+  "Title": "RARE Armitron LED 1970's Steampunk Pocket Watch W/ Red Face/Chain/Case",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "302310899477",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P7DT18H49M48S"
+}

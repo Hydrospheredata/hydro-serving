@@ -1,0 +1,109 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.75"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      },
+      {
+        "Value": "SG12UUBA3708137",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-05-23T12:49:18.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/XUoAAOSwurZZJC~J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/wQ0AAOSwZ4dZJC~J/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/A7QAAOSwn-tZJC~K/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/RikAAOSwfpVZJC~L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/cXgAAOSwblZZJC~M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTUwWDk1MA==/z/N2UAAOSwYlRZJC~N/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "100",
+  "Country": "US",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "UU_ZG669501",
+  "HitCount": "13",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225119555458080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-22T12:49:18.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "122511955545",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.75"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Cartoon Camera Sweater Chain Watch Pendant Necklace Korean Style BA",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Cartoon-Camera-Sweater-Chain-Watch-Pendant-Necklace-Korean-Style-BA-/122511955545",
+  "Storefront": {
+    "StoreName": "babastoreong",
+    "StoreURL": "http://stores.ebay.com/id=1402847619"
+  },
+  "Seller": {
+    "UserID": "babastoreong",
+    "FeedbackRatingStar": "RedShooting",
+    "FeedbackScore": "130026",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P21DT18H11M35S"
+}

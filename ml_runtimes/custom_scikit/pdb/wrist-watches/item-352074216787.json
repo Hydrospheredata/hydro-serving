@@ -1,0 +1,141 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "25.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:38:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=860593286",
+    "StoreName": "18direct"
+  },
+  "CurrentPrice": {
+    "value": "25.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:38:37.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Taylor Cole",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": "713869456986",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "VN",
+    "AR",
+    "PE",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "YE",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN"
+  ],
+  "ItemID": "352074216787",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Taylor Cole Womens Fashion Crystal Stainless Steel Band Round Dial Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "TC073",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Taylor-Cole-Womens-Fashion-Crystal-Stainless-Steel-Band-Round-Dial-Wrist-Watch-/352074216787",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520742167878080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H31M31S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/y~QAAOSwblZZLtVr/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwNlgxMDAw/z/JaUAAOSw5cRZI6Fs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyOFgxMDAw/z/HNsAAOSwlY1ZI6Fs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU3WDEwMDA=/z/nI8AAOSwYlRZI6Ft/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTU5WDEwMDA=/z/t-IAAOSwGJlZI6Fs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjM4WDEwMDA=/z/Ij4AAOSwIQdZI6Fs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDg3WDEwMDA=/z/daYAAOSwxu5ZI6Fs/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "25.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.8",
+    "FeedbackScore": "50684",
+    "UserID": "18direct",
+    "FeedbackRatingStar": "PurpleShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "If the goods are found to be faulty please return them back to us stating the fault.\nWe will replace the defective item at no extra cost. \nPlease return faulty item within 60 days of receipt, otherwise we may not be able to entertain your claim\nAny items returned to us in working order will be sent back at the buyers cost."
+  }
+}

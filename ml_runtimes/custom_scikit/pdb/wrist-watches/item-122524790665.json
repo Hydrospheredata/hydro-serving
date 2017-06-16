@@ -1,0 +1,95 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.65",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Multiple Locations, USA",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:13:30.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "3",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1093847129",
+    "StoreName": "xA Enterprises"
+  },
+  "CurrentPrice": {
+    "value": "24.65",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:13:30.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "USC80215",
+        "Name": "MPN"
+      },
+      {
+        "Value": "U.S. Polo Assn.",
+        "Name": "Brand"
+      },
+      {
+        "Value": "030506347309",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0030506347309",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "HandlingTime": "1",
+  "Description": "U.S. Polo Assn. Classic Mens USC80215 Gold-Tone Watch Features Round watch featuring logoed white dial with Arabic/stick indices, signature logo above 6 oclock, and luminous hands41 mm gold-tone case with glass dial windowQuartz movement with analog displayAlloy link bracelet with fold-over claspNot water resistant Product Dimensions: 3.0 x 4.3 x 3.5 inches Weight: 0.65 lbs Shipping Most orders are shipped within one business day with standard shipping and tracking number. Tracking information will be automatically uploaded as soon as the item has been shipped. Please make sure to provide the correct shipping address during checkout as the address cannot be changed after checkout. We are not responsible for any incorrect or undeliverable addresses. We do not ship to AK, HI, PO boxes, or APO addresses. Returns You may return most new, unopened items within 30 days of delivery for a full refund. Other returns may incur a 15% restocking fee. Sales Tax We have order fulfillment centers throughout the US. We are required to charge sales tax in the following states: -->",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/U-S-Polo-Assn-Classic-Mens-USC80215-Gold-Tone-Watch-/122524790665",
+  "NewBestOffer": "false",
+  "SKU": "197013",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225247906658080_1.jpg",
+  "ItemID": "122524790665",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H49M30S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/RqkAAOSwX61ZLpdI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/etoAAOSw9OFZLpdI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/MRIAAOSwKytZLpdI/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "U.S. Polo Assn. Classic Men's USC80215 Gold-Tone Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackScore": "981253",
+    "UserID": "xa-electronics",
+    "FeedbackRatingStar": "GreenShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "Percent_15",
+    "RestockingFeeValue": "15%",
+    "Description": "Restocking fee: 15%",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back"
+  }
+}

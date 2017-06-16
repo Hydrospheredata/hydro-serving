@@ -1,0 +1,140 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "12",
+  "PostalCode": "11234",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "QuantityAvailableHint": "Limited",
+  "Description": "See our other items",
+  "StartTime": "2017-03-28T20:26:33.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg4WDYyMA==/z/ydIAAOSwZLhY2sVZ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/DcIAAOSwsW9Y2sVk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/WpkAAOSwax5Y2sVh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/DJsAAOSwsW9Y2sVd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/QYEAAOSwTM5Y2sVX/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "50",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Field & Stream",
+        "Name": "Brand"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "F165FOBW",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "44mm",
+        "Name": "Pocket Watch Size"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Alarm",
+          "Backlight",
+          "Chronograph",
+          "Compass",
+          "Thermometer",
+          "Timer"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "891250001158",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "shnoopcom",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "46140",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "802",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1725987725828080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-26T20:26:33.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "24.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ConditionDisplayName": "New with tags",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Field-Stream-Mens-F165FOBW-Compass-Thermometer-Alarm-Carabiner-Pocket-Watch-/172598772582",
+  "Location": "Brooklyn, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Field & Stream Mens F165FOBW Compass Thermometer Alarm Carabiner Pocket Watch",
+  "Storefront": {
+    "StoreName": "The Shnoop Store",
+    "StoreURL": "http://stores.ebay.com/id=408811640"
+  },
+  "ItemID": "172598772582",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT1H37M51S"
+}

@@ -1,0 +1,96 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or replacement (buyer's choice)"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P23DT23H34M24S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Brand new, perfect condition",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222529205409",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-05-30T14:11:51.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/8-Pc-Oval-Magnetic-Floating-Lockets-NO-chains-LOT-5-silver-3-gold-/222529205409",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-29T14:11:51.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Pendant/Charm",
+        "Name": "Type"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "8 Pc Oval Magnetic Floating Lockets NO chains   LOT 5 silver 3 gold",
+  "ExcludeShipToLocation": [
+    "APO/FPO",
+    "Africa",
+    "Middle East",
+    "PO Box"
+  ],
+  "Location": "Crossville, Tennessee",
+  "Description": "You receive ALL eaght styles shown for ONE low price. Retail on these could be as much as $10-12 each. You get all 8 No chains. NEW STYLE from my previous best seller. This one is Zinc Alloy. It is stunning. Silver colored Oval shaped locket and Gold colored Ovals. This locket is reversible. One side has a beaded look accent and the other side is plain. Locket is 27mm x 30mm with 20mm x 27mm inside. 2 strong magnets keep your charms safe. Please contact me with any questions.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225292054098080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "rnnan1322",
+    "FeedbackScore": "1574",
+    "FeedbackRatingStar": "Red"
+  },
+  "Quantity": "2",
+  "PaymentMethods": "PayPal",
+  "HitCount": "5",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aNMAAOSwUKxYlf7P/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vHYAAOSwnHZYlf7T/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cZQAAOSw4DJYlf7X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7n4AAOSwNnRYlf7b/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "38558"
+}

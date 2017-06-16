@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "7 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P14DT1H30M3S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "New, Never worn, without box, Wedding or Event Accessories",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "41.39",
+    "_currencyID": "CAD"
+  },
+  "ItemID": "252949094074",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rachael-Necklace-Earrings-Set-Signed-Gold-Tone-Faux-Pearls-Costume-Jewelry-/252949094074",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "value": "30.63",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-20T16:37:39.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "Canada",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-19T16:37:39.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rachael",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Jewelry Set",
+        "Name": "Type"
+      },
+      {
+        "Value": "goldtone",
+        "Name": "Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Rachael Necklace Earrings Set Signed Gold Tone Faux Pearls Costume Jewelry",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Beautiful fashion gold tone faux pearl necklace and earring set, with sparkly stones. The closure is signed \"Rachel\". The earrings back is plastic material (see pictures).Please don't hesitate to contact me for any further information!",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529490940748080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "shabychicchic",
+    "FeedbackScore": "13",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Storefront": {
+    "StoreName": "shabychicchic",
+    "StoreURL": "http://stores.ebay.com/id=1562936544"
+  },
+  "Quantity": "1",
+  "Location": "montreal, QC",
+  "HitCount": "5",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NDM4WDU3MA==/z/CUIAAOSwcUBYTBCm/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/0hEAAOSw-0xYUzW8/$_1.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/G5EAAOSw44BYUzW8/$_1.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Other Fashion Jewellery",
+  "PostalCode": "h8r2c7"
+}

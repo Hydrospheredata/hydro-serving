@@ -1,0 +1,88 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/GHsAAOSwDiBZLZ7K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/GTAAAOSwlndZJyea/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/DXC4482-100-Crocodile-Italian-Leather-Hand-bag-Color-Grey-/282493724836",
+  "ConvertedCurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Small Size Beautiful Croc Style Leather Ladies Hand Bag Comes With A Certificate of Authenticity From The ManufacturerDavgeoxtremeclothes.com",
+  "Title": "DXC4482 100 % Crocodile Italian  Leather Hand-bag  - Color Grey",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "95.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Houston, Texas",
+  "Seller": {
+    "FeedbackScore": "0",
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackRatingStar": "None",
+    "UserID": "jorgbodde0"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "77084",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-25T18:51:28.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P22DT2H41M45S",
+  "EndTime": "2017-06-24T18:51:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Features",
+        "Value": "Water Resistant"
+      },
+      {
+        "Name": "Style",
+        "Value": "Cosmetic Bags"
+      },
+      {
+        "Name": "Brand",
+        "Value": "X-Clothes"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Textured"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282493724836",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824937248368080_3.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,99 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "06461",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Brand New Colibri Mens Pocket watch with date window and Chain with knife , Quartz Movement",
+  "StartTime": "2017-05-05T01:31:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XI4AAOSwT~9WkoVP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/siwAAOSwX~dWkoVe/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bAMAAOSwLN5WkoVp/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/oJ4AAOSwKtlWkoV4/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "55.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Colibri",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Includes Chain",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "lena-treas",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "186",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "14",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824612058288080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T01:31:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "55.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Colibri-Pocket-Watch-w-chain-and-knife-Brand-new-/282461205828",
+  "Location": "Milford, Connecticut",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Colibri Pocket Watch  w chain and knife- Brand new",
+  "Storefront": {
+    "StoreName": "lena-treas",
+    "StoreURL": "http://stores.ebay.com/id=1342755504"
+  },
+  "ItemID": "282461205828",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT6H47M3S"
+}

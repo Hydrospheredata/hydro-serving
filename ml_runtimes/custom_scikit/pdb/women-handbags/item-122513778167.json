@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/~LoAAOSw42dZCzT4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/ULMAAOSwuMZZCzQl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/aWUAAOSww9xZCzNC/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/6RIAAOSwhvFZCzMS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/j5UAAOSwCQZZCzK3/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-ELLA-VICKERS-RECYCLED-SAILCLOTH-COLLECTIONS-LARGE-ZIPPER-TOTE-/122513778167",
+  "ConvertedCurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NEW WITH TAGELLA VICKERS SAILCLOTH COLLECTIONLARGE ZIP TOTE - PERFECT FOR A WEEKEND AWAY, BEACH BAG....RED #16 WITH NAVY TRIM - WATERPROOF LINERSIX (6) INSIDE POCKETS - KEY CLIP INSIDENAUTICAL FLAG TAPE ON OUTSIDE POCKET BLACK RECYCLED WEBBING HANDLEDIMENSIONS: 26\" WIDE x 15\" HIGH x 8.5\" DEPTH RETAIL $200",
+  "Title": "NWT - ELLA VICKERS RECYCLED SAILCLOTH COLLECTIONS LARGE ZIPPER TOTE",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "120.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Vineyard Haven, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "1547",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "cher1262"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02568",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T13:54:32.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P20DT21H15M55S",
+  "EndTime": "2017-06-23T13:54:32.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Tote Bag"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "United States"
+      },
+      {
+        "Name": "Material",
+        "Value": "Recycled"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ella Vickers"
+      },
+      {
+        "Name": "Type",
+        "Value": "Totes"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122513778167",
+  "Storefront": {
+    "StoreName": "Vineyard Closet",
+    "StoreURL": "http://stores.ebay.com/id=163768150"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225137781678080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

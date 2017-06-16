@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921423254318080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/tBYAAOSwuLZY2lsi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/TSUAAOSwDKtY2lsi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/ajwAAOSwax5Y2lsi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Qi4AAOSwsW9Y2lsi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/TTMAAOSwDKtY2lsi/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tintamar-And-Out-Handbag-Bag-Organiser-Dark-Blue-White-Brand-New-/192142325431",
+  "ConvertedCurrentPrice": {
+    "value": "78.32",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Tintamar - In And Out Handbag Bag Organiser (Dark Blue/White) by Tintamar Ships from UK Supplier Other information: TIOBBASOUB Related Searches: Top-Handle Bag Bags, Tintamar Top-Handle Bag, Tintamar Bags Weight: 0.22 kg",
+  "Title": "Tintamar - In And Out Handbag Bag Organiser (Dark Blue/White). Brand New",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.32",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-28T12:46:20.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P23DT20H27M16S",
+  "EndTime": "2017-06-26T12:46:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Tintamar"
+      },
+      {
+        "Name": "MPN",
+        "Value": "815376978"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142325431",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:101701013:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

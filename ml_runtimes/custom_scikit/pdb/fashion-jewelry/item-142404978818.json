@@ -1,0 +1,90 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P6DT12H50M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "142404978818",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pandora-Sterling-Silver-925-Barrel-Clasp-Bracelet-7-Charms-and-1-Spacer-Lock-/142404978818",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T23:16:26.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T23:16:26.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Authentic",
+        "Name": "Vintage"
+      }
+    ]
+  },
+  "Title": "Pandora Sterling Silver 925 Barrel Clasp Bracelet 7 Charms and 1 Spacer Lock",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nice Sterling Silver 925 Pandora Barrel Bracelet with 7 Charms and 1 Spacer /Lock. The charms include a sleigh with presents, a present or gift box, an elephant, ballerina slippers, a wooden flower bead, a ghost, and a bead with hearts. The bracelet and charms are pre-owned. As with any pre-owned jewelry, it may have some surface scratches or abrasions and may need some cleaning. It measures approximately 7\" long. I took a picture with a ruler for scale. Please look at all pictures and ask any questions before purchasing. Thank you :)",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424049788188080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "cosmodeb",
+    "FeedbackScore": "340",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Uxbridge, Massachusetts",
+  "HitCount": "7",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTE0WDk3Mw==/z/MxMAAOSwGJlZEjk1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDg0WDE0NTc=/z/Z9QAAOSwtGlZEjir/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDIyWDE1Mjg=/z/9tsAAOSwR29ZEjj6/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzcxWDEwODA=/z/cgUAAOSwaEhZEjl~/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjMyWDY1Mw==/z/QFgAAOSwIaFZEjmg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjQxWDYyOA==/z/XjgAAOSwlndZEjnK/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjUwWDcxMw==/z/X8EAAOSwlndZEjnq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQ1WDgwNg==/z/-gMAAOSwcaFZEjp9/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "01569"
+}

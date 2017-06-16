@@ -1,0 +1,166 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "20.96",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "HK",
+  "Location": "Hong Kong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:26:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=421634829",
+    "StoreName": "OKaystores"
+  },
+  "CurrentPrice": {
+    "value": "20.96",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T14:26:37.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Shark",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      },
+      {
+        "Value": [
+          "Alarm",
+          "Day & Date"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog & Digital",
+        "Name": "Display"
+      },
+      {
+        "Value": "Luxury: Sport Styles",
+        "Name": "Type"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "AD",
+    "DE",
+    "GB",
+    "BB",
+    "DO",
+    "SV",
+    "HN",
+    "JM",
+    "AN",
+    "HK",
+    "MO",
+    "VN",
+    "AR",
+    "PE",
+    "VE",
+    "DZ",
+    "MA",
+    "MZ",
+    "NA",
+    "SL",
+    "TN",
+    "ZM",
+    "IQ",
+    "JO",
+    "KW",
+    "TR",
+    "AM",
+    "CN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM"
+  ],
+  "ItemID": "391800617536",
+  "HandlingTime": "1",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Gulper Shark Fashion Blue Date LED Digital 3D Steel Sport Quartz Men Wrist Watch",
+  "NewBestOffer": "false",
+  "SKU": "SH106",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gulper-Shark-Fashion-Blue-Date-LED-Digital-3D-Steel-Sport-Quartz-Men-Wrist-Watch-/391800617536",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3918006175368080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT23H18M14S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/poMAAOSwK6RZDd1F/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg0WDEwMDA=/z/~wwAAOSwaeRZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ2OFgxMDAw/z/rH4AAOSw5cRZIv2a/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5OTg=/z/~xEAAOSwaeRZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTExMlgxMDAw/z/UXIAAOSwxu5ZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyMFgxMDAw/z/TrAAAOSwlMFZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwNVgxMDAw/z/rkQAAOSwjqVZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM0NFgxMDAw/z/218AAOSwi7RZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA4WDEwMDA=/z/XzYAAOSwKytZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTEzNFgxMDAw/z/27YAAOSwurZZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODc3WDEwMDA=/z/G3oAAOSwfpVZIv2Z/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NjczWDEwMDA=/z/ZmUAAOSwBt5ZIv2Z/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "20.96",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "137718",
+    "UserID": "red-plus",
+    "FeedbackRatingStar": "RedShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please contact us through ebay message if you have any problems, including shipping and satisfaction, with the transaction. We will give you feedback as soon as possible. We can offer replacement or refund as long as we know your confirmation.\nFor returning items due to satisfaction, the buyer is responsible for shipping.\nYour communication is the most important to us.\nThank you."
+  }
+}

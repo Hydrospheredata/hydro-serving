@@ -1,0 +1,91 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921396540498080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTE4/z/v6YAAOSwDKtY1nl6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTIw/z/tqgAAOSwol5Y1nl6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTIw/z/BRIAAOSwuLZY1nl6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTIx/z/npEAAOSwCU1Y1nl6/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brics-X-Travel-Backpack-Dark-Brown-Huge-Saving-/192139654049",
+  "ConvertedCurrentPrice": {
+    "value": "263.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Bric's X-Travel Backpack Dark Brown by Bric's Ships from UK Supplier Other information: BXL33754.297_moro Related Searches: Backpack Handbag Bags, Bric's Bags, Bric's Backpack Handbag Dimensions: 27.0 x 13.0 x 27.0 centimetres Weight: 0.54 kg",
+  "Title": "Bric's X-Travel Backpack Dark Brown. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "263.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-25T14:06:40.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P20DT21H45M32S",
+  "EndTime": "2017-06-23T14:06:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bric's"
+      },
+      {
+        "Name": "MPN",
+        "Value": "432114308"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139654049",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:125713963:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

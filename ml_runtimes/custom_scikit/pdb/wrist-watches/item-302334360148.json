@@ -1,0 +1,117 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "38.57",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "chapel en le frith",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:51:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=173109439",
+    "StoreName": "Rubicon Watches"
+  },
+  "CurrentPrice": {
+    "value": "29.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:51:17.000Z",
+  "ShipToLocations": [
+    "US",
+    "EuropeanUnion",
+    "JP",
+    "CA",
+    "AU",
+    "RU",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "SKU": "LNP RX609AX9",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "302334360148",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Lorus",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analogue",
+        "Name": "Display"
+      },
+      {
+        "Value": "RX609AX9",
+        "Name": "Model"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "LNP RX609AX9 Lorus Gents Leather Strap Calendar Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LNP-RX609AX9-Lorus-Gents-Leather-Strap-Calendar-Watch-/302334360148",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023343601488080_1.jpg",
+  "HitCount": "5",
+  "PostalCode": "SK230PJ",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H35M41S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/VsQAAOSw3gJZLr6g/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Home About Us Guarantee Terms and Conditions View Feedback Our Shop Shop Categories LNP RX609AX9 Lorus Gents Leather Strap Calendar Watch Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "49970",
+    "UserID": "rubicon-watchco",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "Description": "BUY IT NOW SALES. To conform to Distance Selling Regulations Legislation, items bought by buy it now format can be returned up to seven days from the date of receipt. The item must be in the same condition as when received, unaltered & unmarked. THE BUYER IS RESPONSIBLE FOR THE RETURN POSTAGE COSTS. It is the returnee\u2019s responsibility to cover the value of the item until we receive it. AUCTION ITEMS. We will refund all postage costs on faulty items. Any returns require email authorisation.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

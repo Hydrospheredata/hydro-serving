@@ -1,0 +1,97 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT22H43M28S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ItemID": "222535640303",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Chicos-Anatasia-Limited-Edition-bib-necklace-new-tags-stunning-statement-/222535640303",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "50.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T11:01:29.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T11:01:29.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chico's",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Bib",
+        "Name": "Style"
+      },
+      {
+        "Value": "18-22",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "451009003262",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Chico's Anatasia Limited Edition bib necklace new with tags stunning statement",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "BidCount": "0",
+  "Description": "Chive Green Glass beads and gold tone embellishments that shimmer in this light cascading necklace with a veil of sweeping adornments. A limited edition collectible piece. This retails for $129. A gorgeous statement necklace.. Smoke free home. I ship to the continental US only. Payment is expected within 2 days of purchase. If no payment is received in this time period Ebay will be notified for nonpayment and item will be relisted. Please read the descriptions thoroughly and ask any questions to make sure your purchase is what you expect. All sales are final. I am not able to accept any returns for buyer's remorse. I am not a retail store. If you feel that the item has been represented, please contact me first.",
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225356403038080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "UserID": "mizbaby",
+    "FeedbackScore": "9637",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "Miss Moppet&#39;s",
+    "StoreURL": "http://stores.ebay.com/id=5153705"
+  },
+  "Quantity": "2",
+  "Location": "Baroda, Michigan",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/aZQAAOSwuMZZDTbU/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/6t8AAOSwrhBZDTbP/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/Z~AAAOSwuMZZDTa1/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "49101"
+}

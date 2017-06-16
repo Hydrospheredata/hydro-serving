@@ -1,0 +1,82 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTA5NVg2NDU=/z/cV0AAOSwhQhY3Yj2/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODU3WDc0NQ==/z/bQAAAOSwol5Y3Yk5/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzM4WDc0OQ==/z/~f4AAOSwsW9Y3Yku/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTE1WDczMQ==/z/ANAAAOSwsW9Y3YlG/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE1Mlg2NjA=/z/aMIAAOSwmgJY3YkQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTIzNlg1MTA=/z/HM4AAOSwCU1Y3YkF/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTA0WDczMQ==/z/5zIAAOSwc-tY3Ykg/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Carla-Mancini-Honey-Python-Embossed-Leather-Shoulder-Bag-/112428847912",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with tag,this python-embossed shoulder bag features a top fold-over flap with a turn-lock closure, an optional chainlink handle, and a textile interior with a single pocket. There are light surface wear on hardware. Measurements: Length: 10 in. Height: 5 in. Width: 2 in. Handle Drop: 9.5 in. Fabrication: Leather Origin: USA",
+  "Title": "New Carla Mancini Honey Python Embossed Leather Shoulder Bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Kissimmee, Florida",
+  "Seller": {
+    "FeedbackScore": "51",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "1hun2ter"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "34746",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:39:31.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P6DT23H33M28S",
+  "EndTime": "2017-06-09T13:39:31.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Carla Mancini"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Honey"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112428847912",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1124288479128080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

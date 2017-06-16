@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921425853788080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMjc3/z/83wAAOSw4CFY2rZb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMzA0/z/35IAAOSwol5Y2rZb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg3Nzg=/z/s4AAAOSw2gxY2rZa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTkyWDE1MDA=/z/fw8AAOSwB-1Y2rZa/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE0NlgxNTAw/z/yxcAAOSwc-tY2rZb/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg2MzU=/z/82IAAOSw4CFY2rZa/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-Furla-Italian-Crocodile-Design-Candy-Yellow-bag-Made-Italy-Shippi-/192142585378",
+  "ConvertedCurrentPrice": {
+    "value": "370.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: There's a certain mystique attached to an attractive lady like you carrying the fabulous FurlaTM Candy bag. Will you give them a piece of your sophisticated puzzle or remain enigmatic. Either way, you've got the bag in hand everyone desires. Made of irresistibly colourful PVC. Holds your wallet, keys, sunglasses, compact and smartphone.",
+  "Title": "Authentic Furla Italian Crocodile Design Candy Yellow bag; Made in Italy. Shippi",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "370.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T19:15:35.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P24DT2H56M42S",
+  "EndTime": "2017-06-26T19:15:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Bags"
+      },
+      {
+        "Name": "MPN",
+        "Value": "850460009"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192142585378",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:138741970:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

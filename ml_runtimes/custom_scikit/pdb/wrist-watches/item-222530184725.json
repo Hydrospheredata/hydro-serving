@@ -1,0 +1,99 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "21.19",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Phillipsburg, New Jersey",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:34:16.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=3721455",
+    "StoreName": "colesave"
+  },
+  "CurrentPrice": {
+    "value": "21.19",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:34:16.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ItemID": "222530184725",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Watch Unique Gold Leather Band Time",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Watch-Unique-Gold-Leather-Band-Time-/222530184725",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225301847258080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "08865",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H18M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTM3/$(KGrHqR,!loE9H3MylsbBPULpuWYIQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTgz/$(KGrHqF,!lkE9K8O-wq,BPULp+RW(w~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yvUAAOSwuLZY26VR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqN,!rYE88g6WGccBPULpmUBjg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5N1gxNjAw/$(KGrHqV,!oUE8VqItkp3BPULpbfd7g~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqJ,!iwE8MUmb!kUBPULp30efQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/$(KGrHqJ,!pgE8Wq6G6S0BPULpvIOcQ~~60_1.JPG?set_id=880000500F"
+  ],
+  "Description": "<img src=\"http://ti2.auctiva.com/web/aswCredit.gif\" border=\"0\"><br><a href=\"http://www.auctiva.com/?how=scLnk0\" target=\"_blank\"><img src=\"http://ti2.auctiva.com/images/sc1line0.gif\" border=\"0\"></a> FOR YOUR CONSIDERATION***VERY INTERESTING WATCH*** W/ LEATHER BAND*** HARDLY USED/ LIKE NEW. I DID INSTALL A BRAND NEW BATTERY and did scratch the back (see pic) WORKS GREAT, LOOKS GREAT, AND VERY UNIQUE WATCH. QUESTIONS WELCOME. Check out my other items! Be sure to add me to your favorites list! ONE BID CAN WIN IT. CAREFULLY SENT TO YOU & FAST SHIP OUT TOO! Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "4166",
+    "UserID": "colesave",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "BUYER PAYS RETURN SHIPPING COST MUST SHIP BACK\nWITH SAME BOX AND PACKING MATERIAL."
+  }
+}

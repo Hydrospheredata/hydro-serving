@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT20H46M59S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "38.9",
+    "_currencyID": "USD"
+  },
+  "SKU": "TA101",
+  "ItemID": "252975061332",
+  "ConvertedCurrentPrice": {
+    "value": "38.9",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "StartTime": "2017-06-05T06:29:57.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lot-wholesale-Genuine-Baltic-amber-baroque-multi-color-bracelet-5-items-TA101-/252975061332",
+  "Country": "LT",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T06:29:57.000Z",
+  "PrimaryCategoryID": "50637",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Amber",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "7.2 inch / 18.0 cm",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Amber",
+        "Name": "Secondary Stone"
+      },
+      {
+        "Value": "Baroque",
+        "Name": "Main Stone Shape"
+      }
+    ]
+  },
+  "Title": "Lot wholesale Genuine Baltic amber baroque multi color bracelet  5 items TA101",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Taurage, Lithuania",
+  "Description": "5 items. ~ 31.5 grams ~ 1,11 oz Size ~ 7 - 8.5 mm Length - 18.0 cm / 7.2 inchIf you are interested please contact us for more info Normal 0 19 false false false LT X-NONE X-NONE MicrosoftInternetExplorer4 Delivery times AmberXXL is an international shop and we accept all international orders. Delivery times (without the processing time): - Europe: 3 - 6 working days - USA & Canada: 6 - 10 working days, sometimes it takes 20 days - South America: 6 - 12 working days - Asia & Australia: 7 - 14 working days if you buy more than 250 euros, I recommend to send UPS. It is safe and fast. The price can be from 30 to 90 euro",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2529750613328080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "amber-wholesale-amberxxlcom",
+    "FeedbackScore": "180",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Storefront": {
+    "StoreName": "AmberXXL",
+    "StoreURL": "http://stores.ebay.com/id=1065830213"
+  },
+  "Quantity": "3",
+  "PaymentMethods": "PayPal",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4OVgxMzQ1/z/IaUAAOSwJ4hY-yZM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4NVgxNTA1/z/p-MAAOSw53NY-yZT/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

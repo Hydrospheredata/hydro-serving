@@ -1,0 +1,118 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyOVgxNTAw/z/fjEAAOSwkShY9GOU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDA2/z/aN0AAOSwcdRY9GOU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/fioAAOSwkShY9GOU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQzNlgxNTAw/z/u4cAAOSwSypY9GOU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM4NFgxNTAw/z/rtkAAOSwBOtY9GOV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODkyWDE1MDA=/z/l90AAOSwtZJY9GOV/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Huntley-Equestrian-Black-Duffle-Bag-Printed-Fabric-Trim-/292088110244",
+  "ConvertedCurrentPrice": {
+    "value": "134.43",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! The ultimate, luxury Black duffle bag in a basket weave design with an equestrian patterned fabric trimmed along the center. One main compartment. Features include a fully lined interior with a small interior zipper pocket and two opened pockets, steel and brass hardware, and a detachable strap. Equestrian patterned fabric includes bits and bridle leather. This bag is stunning! - Leather handles - Zipper closure - Fully lined interior compartment - Adjustable leather shoulder strap - 22 inches length,, 10 inches width,, 11 inches height Huntley Equestrian Black Duffle Bag with Printed Fabric Trim",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "134.43",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1916",
+    "PositiveFeedbackPercent": "99.1",
+    "FeedbackRatingStar": "Red",
+    "UserID": "pinklynn2000"
+  },
+  "PrimaryCategoryID": "169296",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Huntley Equestrian Black Duffle Bag with Printed Fabric Trim",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-04-17T06:41:20.000Z",
+  "HitCount": "100",
+  "TimeLeft": "P13DT13H46M19S",
+  "EndTime": "2017-06-16T06:41:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "813807020078"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0813807020078"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Huntley Equestrian"
+      },
+      {
+        "Name": "MPN",
+        "Value": "813807020078"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Sports"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Weight",
+        "Value": "2.65 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 22 x W 18 x H 1 inches"
+      },
+      {
+        "Name": "Model",
+        "Value": "02007"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292088110244",
+  "Storefront": {
+    "StoreName": "pinklynn2000",
+    "StoreURL": "http://stores.ebay.com/id=171476849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2920881102448080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

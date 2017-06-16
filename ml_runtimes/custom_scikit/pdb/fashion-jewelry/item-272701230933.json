@@ -1,0 +1,173 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "272701230933",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "PrimaryCategoryID": "50692",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AZ",
+    "RU",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "BY",
+    "BA",
+    "BG",
+    "HR",
+    "GR",
+    "IT",
+    "MK",
+    "MT",
+    "MD",
+    "ME",
+    "RS",
+    "UA",
+    "KH",
+    "LA",
+    "VN"
+  ],
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2727012309338080_1.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "UserID": "farmdirectpearl",
+    "FeedbackScore": "14723",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "Storefront": {
+    "StoreName": "Farm Direct Pearl",
+    "StoreURL": "http://stores.ebay.com/id=188199002"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTU1WDEyNzM=/z/dnsAAOSw42dZM4HJ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTk5WDc5OQ==/z/O7UAAOSwn-tZM4HI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg0WDc3OQ==/z/f60AAOSwKytZM4HI/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "SKU": "021S080WHT36N3",
+  "StartTime": "2017-06-04T03:43:02.000Z",
+  "ConditionDescription": "brand new item without price tag",
+  "QuantitySold": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "1",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/36-Inch-Set-Genuine-7-8mm-White-Pearl-Strand-Necklace-Bracelet-Earring-Cultured-/272701230933",
+  "EndTime": "2017-06-11T03:43:02.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "FDP",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Platinum Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Pearl, Cultured Pearl",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "White",
+        "Name": "Color"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Freshwater",
+        "Name": "Pearl Type"
+      },
+      {
+        "Value": "Pearl Necklace Set",
+        "Name": "Name"
+      },
+      {
+        "Value": "Necklace Bracelet Earrings",
+        "Name": "Set Type"
+      },
+      {
+        "Value": "Strand",
+        "Name": "Necklace Style"
+      },
+      {
+        "Value": "36 inch / 7.5 inch",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "White",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "36\" Inch Set Genuine 7-8mm White Pearl Strand Necklace Bracelet Earring Cultured",
+  "TimeLeft": "P5DT15H34M35S",
+  "Location": "San Jose, California",
+  "Description": "Welcome to Farm Direct Pearl (Lowest Priced Quality Pearls from Pearl Farm) Track Page Views With Auctiva's FREE Counter Powered by SixBit's eCommerce Solution",
+  "ListingType": "Chinese",
+  "NewBestOffer": "false",
+  "Quantity": "1",
+  "PostalCode": "95129"
+}

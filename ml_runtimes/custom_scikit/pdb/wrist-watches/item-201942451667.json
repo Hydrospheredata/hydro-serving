@@ -1,0 +1,80 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Mahopac, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:28:57.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "6.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:28:57.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "201942451667",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Fashion",
+        "Name": "Style"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "\"Who cares I'm already late\" Quartz Watch",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Who-cares-Im-already-late-Quartz-Watch-/201942451667",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019424516678080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "10541",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H12M26S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NzE3WDY3OQ==/z/oqUAAOSwOddYyCRY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzE1WDYyNg==/z/M~0AAOSwhQhYyCRl/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzI5WDYzOA==/z/9z0AAOSwCU1YyCR6/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjM1WDcxMQ==/z/y3oAAOSwax5YyCSE/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "Who Cares I'm Already Late Watch white strap received as gift, New never used, needs new battery. Perfect gift for your friend that is always late!",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "156",
+    "UserID": "erikawithak",
+    "FeedbackRatingStar": "Turquoise",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

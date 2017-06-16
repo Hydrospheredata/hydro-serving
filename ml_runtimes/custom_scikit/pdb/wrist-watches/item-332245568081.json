@@ -1,0 +1,150 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "177780901",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:41:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:41:46.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245568081",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1681877338",
+        "Name": "Catalog"
+      },
+      {
+        "Value": "39mm",
+        "Name": "Diameter"
+      },
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MK5166",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": [
+          "Fashion",
+          "Round"
+        ],
+        "Name": "Style"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "12mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "691464301033",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors Women's Blair Glitz MK5166 Gold Stainless-Steel Quartz Watch New",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Womens-Blair-Glitz-MK5166-Gold-Stainless-Steel-Quartz-Watch-New-/332245568081",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322455680818080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H15M36S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTA3WDUzNA==/z/kJwAAOSwTM5Y2deu/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODk1WDg5OA==/z/l8gAAOSwmgJY2de~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODc5WDU5MA==/z/sJgAAOSw2gxY2dfL/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTYwWDg5OA==/z/yyoAAOSwB-1Y2dfV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTE4WDUwMA==/z/4xkAAOSwuxFY2dfZ/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "NEW AUTHENTIC MICHAEL KORS BLAIR GOLD CHRONOGRAPH WOMEN'S MK5166 WATCH 100 % AUTHENTIC Watch Information Brand, Seller, or Collection NameMichael Kors Model numberMK5166 Part NumberMK5166 Model Year2014 Item ShapeRound Dial window material type\ufeffMineral Display TypeAnalog ClaspFold-Over Clasp with Double Push-Button Safety\ufeff Case materialStainless steel Case diameter39 millimeters Case Thickness12 Band MaterialStainless steel Band lengthWomen's Standard Band width20 millimeters Band ColorGold Dial colorGold Bezel materialFixed Rose Gold-tone set with Crystals Calendar\ufeffDate display at the 6 o'clock position Special featuresLuminous, Chronograph, measures-seconds Item weight5.28 Ounces Movement\ufeffQuartz Water resistant depth50 Meters",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

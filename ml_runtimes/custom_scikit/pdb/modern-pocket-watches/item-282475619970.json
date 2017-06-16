@@ -1,0 +1,190 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "76450",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Watch it pocket watch it is in like new condition everything seems to be in good working conditions. But it will need a battery On May-13-17 at 21:51:38 PDT, seller added the following information:",
+  "StartTime": "2017-05-13T06:02:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2M1g5MDA=/z/bpAAAOSwdjNZFp2M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/tvAAAOSwtGlZFp2v/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/-HcAAOSwi7RZFp3g/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/vEIAAOSw~y9ZFp4q/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/6BYAAOSwIaFZFp7r/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE1OVg5MDA=/z/EWYAAOSwlY1ZFp83/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4MTA=/z/ZuoAAOSwONBZFp9m/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/xiIAAOSw8HBZFqDg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5MDA=/z/ZVcAAOSw8lpZFqEx/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.25"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Watch-It",
+        "Name": "Brand"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Lever",
+        "Name": "Escapement Type"
+      },
+      {
+        "Value": [
+          "Beige",
+          "Brown",
+          "Ivory"
+        ],
+        "Name": "Case Color"
+      },
+      {
+        "Value": [
+          "Beige",
+          "Brown",
+          "Ivory"
+        ],
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "mln# 3220012pc21",
+        "Name": "Model"
+      },
+      {
+        "Value": "21",
+        "Name": "Pocket Watch Size"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "kbgalvan1",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "19",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "19",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2824756199708080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T06:02:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.25"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "For returns must be in same condition as it was when it was shipped",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/TRUCK-Gold-Tone-Watch-It-Pocket-Watch-Japan-Movt-w-Chain-/282475619970",
+  "Location": "Graham, Texas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "TRUCK Gold-Tone Watch-It Pocket Watch Japan Movt w/ Chain",
+  "Storefront": {
+    "StoreName": "kbgalvan1",
+    "StoreURL": "http://stores.ebay.com/id=1612870837"
+  },
+  "ItemID": "282475619970",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P11DT11H20M25S"
+}

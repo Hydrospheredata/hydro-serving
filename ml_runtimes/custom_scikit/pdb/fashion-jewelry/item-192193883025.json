@@ -1,0 +1,103 @@
+{
+  "ReturnPolicy": {
+    "Description": "Items must be returned in original condition with tags.",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P15DT10H45M10S",
+  "ListingStatus": "Active",
+  "Storefront": {
+    "StoreName": "Buried Treasures Fashion Jewellery",
+    "StoreURL": "http://stores.ebay.com/id=168766534"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA"
+  ],
+  "CurrentPrice": {
+    "value": "32.49",
+    "_currencyID": "USD"
+  },
+  "ItemID": "192193883025",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nina-Ricci-Rhodium-Plated-Pendant-Swarovski-Crystals-16-18-length-/192193883025",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "32.49",
+    "_currencyID": "USD"
+  },
+  "QuantityAvailableHint": "MoreThan",
+  "StartTime": "2017-05-22T01:51:01.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CA",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-21T01:51:01.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Nina Ricci",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Necklaces & Pendants",
+        "Name": "Type"
+      },
+      {
+        "Value": "Rhodium Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Swarovski Crystals",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Color"
+      },
+      {
+        "Value": "Canada",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Lead & Nickel FREE",
+        "Name": "Metal Purity"
+      }
+    ]
+  },
+  "Title": "Nina Ricci Rhodium Plated Pendant with Swarovski Crystals - 16-18\" length",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Nina Ricci Rhodium Plated Pendant with Swarovski Crystals - 16-18\" length. Manufacturing Standards:Made in Canada. Lead & Nickel Free.All crystals are Swarovski crystals Each crystal is hand set in Canada. Nina Ricci Plating Standards: Each item is plated three times to make Nina Ricci jewellery one of the highest quality fashion lines in the world. This world class plating process allows Nina Ricci jewellery to maintain its lustre throughout the years. Gold Plated items are 22kt gold and plated three times to ensure longevity and create resistance to scratches and fading.Silver items are Rhodium plated. Rhodium is from the Platinum family of metals. It is stronger than silver, does not tarnish, and is resistant to scratches. Maintenance:To maintain your jewellery always avoid water, soap, spraying perfumes or working with chemical products while wearing your jewellery.Be gentle to your jewellery and in return it will give you many years of joy.",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921938830258080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "michael1339",
+    "FeedbackScore": "485",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "QuantityThreshold": "10",
+  "Quantity": "12",
+  "Location": "Toronto, Ontario",
+  "HitCount": "13",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/r2oAAOSw4A5Y0ymv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kaoAAOSw4YdY0ymy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XbsAAOSwuxFY0yms/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aNUAAOSwol5Y0ym1/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "M4R1C8"
+}

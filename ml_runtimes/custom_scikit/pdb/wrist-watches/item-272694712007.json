@@ -1,0 +1,84 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "24.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "AL",
+  "Location": "Tirana, default",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:10:36.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "24.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:10:36.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "PRIM",
+        "Name": "Brand"
+      },
+      {
+        "Value": "18mm",
+        "Name": "Lug Width"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "ExcludeShipToLocation": "AL",
+  "ItemID": "272694712007",
+  "HandlingTime": "3",
+  "Description": "Vintage PRIM mens watch cal.66.4 17 Jewels,working condition,serviced 17 jewels The watch is recently serviced.please see photos for more detail and if you have any question please contact me I accept payments from paypalBid with confidence Thank you We ship wordwide via registered with tracking number for 9USDFor multiple items you pay only one shipping cost",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-PRIM-mens-watch-cal-66-4-17-Jewels-working-condition-serviced-/272694712007",
+  "ConditionDescription": "working condition and serviced",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2726947120078080_1.jpg",
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT16H39M53S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTI5N1gxMjUw/z/Q3sAAOSwt0FZB6NI/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUxM1gxNjAw/z/Qq4AAOSwjqVZB6NP/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ3MVgxNjAw/z/DWoAAOSww9xZB6NW/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU0MFgxNjAw/z/RSAAAOSwt0FZB6Nc/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQwOFgxNjAw/z/I~4AAOSwX61ZB6Ni/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTE5N1gxNjAw/z/D~oAAOSww9xZB6Np/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUzOVgxNjAw/z/b24AAOSwCQZZB6Nw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTMxMlgxMjE5/z/J-YAAOSwX61ZB6N1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgzNDE=/z/D8sAAOSwuMZZB6N3/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Vintage  PRIM  mens watch  cal.66.4   17 Jewels,working condition,serviced",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "18",
+    "UserID": "rolanazermadh-0",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

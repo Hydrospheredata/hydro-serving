@@ -1,0 +1,148 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P25DT5H45M29S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Grillz, Dental Grills",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "252967569474",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/REAL-10K-SOLID-YELLOW-GOLD-GRILLZ-CUSTOM-FIT-GRILL-YOUR-TEETH-/252967569474?var=",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "130.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-31T21:37:45.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-30T21:37:45.000Z",
+  "Variations": {
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "4 Teeth Top or Bottom",
+          "6 Teeth Top or Bottom",
+          "4 Top & 4 Bottom"
+        ],
+        "Name": "How Many Teeth?"
+      }
+    },
+    "Variation": [
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "4 Teeth Top or Bottom",
+            "Name": "How Many Teeth?"
+          }
+        },
+        "StartPrice": {
+          "value": "130.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "6 Teeth Top or Bottom",
+            "Name": "How Many Teeth?"
+          }
+        },
+        "StartPrice": {
+          "value": "190.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      },
+      {
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "4 Top & 4 Bottom",
+            "Name": "How Many Teeth?"
+          }
+        },
+        "StartPrice": {
+          "value": "255.0",
+          "_currencyID": "USD"
+        },
+        "SellingStatus": {
+          "QuantitySoldByPickupInStore": "0",
+          "QuantitySold": "0"
+        },
+        "Quantity": "1"
+      }
+    ]
+  },
+  "PrimaryCategoryID": "152808",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "I Make Grillz",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold Filled (Solid)",
+        "Name": "Metal"
+      },
+      {
+        "Value": "10K GOLD",
+        "Name": "Material"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Houston",
+        "Name": "City"
+      },
+      {
+        "Value": "United States",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "REAL 10K SOLID YELLOW GOLD GRILLZ CUSTOM FIT GRILL TO YOUR TEETH",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Real 10K GOLD Grillz shipped straight to your door. We are a Houston based company specializing in selling Silver, Gold, Diamond, and Platinum Grillz. You will receive two shipments from us. One shipment to provide you with your mold kit, putty, and instruction sheet on how to do an impression, and then a second shipment including the finished product and a rock impression of your teeth to keep the Grill on when not in use. Grillz will be finished in about 3 days from when we receive your impression. FREE SHIPPING and FREE MOLD KIT included with every order. Each grill is hand made to fit your teeth so you can rest assured that your final product will fit nicely. Call or TEXT our main office at 281-451-7835 we look forward to doing business with you. Come view our work on IG @b_c_creations and @imakegrillz on Instagram.",
+  "PrimaryCategoryIDPath": "281:10968:15124:152808",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "imakegrillz",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "3",
+  "Location": "Houston, Texas",
+  "HitCount": "54",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDc5WDUxMg==/z/C3gAAOSw-3FZLyjO/$_57.PNG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "77036"
+}

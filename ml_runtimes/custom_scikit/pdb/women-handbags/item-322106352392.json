@@ -1,0 +1,157 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3221063523928080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/4g8AAOSwfZhXNJyU/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OGIO-International-Hamptons-Tote-Light-Gray-Felt-/322106352392",
+  "ConvertedCurrentPrice": {
+    "value": "108.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "OGIO International Hamptons Tote Product Details Color: Light Gray Felt Brand: OGIO Shipping Weight: 1 pounds Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More Item model number: 114006.117 Fabric/Nylon Imported Fully padded fleece lined laptop compartment with elastic closure fits most 15\" laptops Padded iPad/tablet/e-reader pocket Three side flap pockets Fully padded base protects laptop Large zippered interior compartment. Shoulder strap length: 24\". Tote your laptop and all of your small essentials in this fashionable and functional tote bag from OGIO. The OGIO Hamptons Laptop Tote features TC poly fabric with button accents down the front, a removable tie around the top and multiple flap pockets on the sides. This tote bag has a secure top zipper closure with a fully padded laptop compartment with a fleece lining, a padded pocket for your tablet, iPad, or eReader and a large interior zippered pocket for valuables. A zip around pocket on the back offers extra storage for your cell phone, pens and other small items while exterior flap pockets provide quick access to the items that you use most often.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "108.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "CH",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CR",
+    "DO",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "2182",
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "e_pier"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "OGIO International Hamptons Tote Light Gray Felt",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2016-05-12T15:09:11.000Z",
+  "HitCount": "229",
+  "TimeLeft": "P3DT23H53M4S",
+  "EndTime": "2017-06-06T15:09:11.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Light Gray Felt"
+      },
+      {
+        "Name": "Brand",
+        "Value": "OGIO"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "MPN",
+        "Value": "does not apply"
+      },
+      {
+        "Name": "UPC",
+        "Value": "does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322106352392",
+  "Storefront": {
+    "StoreName": "overstalked_pier",
+    "StoreURL": "http://stores.ebay.com/id=1259624157"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00HO9KO6A",
+  "HandlingTime": "5",
+  "BestOfferEnabled": "false"
+}

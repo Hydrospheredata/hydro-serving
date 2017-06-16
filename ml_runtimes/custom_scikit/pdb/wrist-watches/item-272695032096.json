@@ -1,0 +1,84 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "2150.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Stratford, Connecticut",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:26:46.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "2150.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T12:26:46.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "272695032096",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "OMEGA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "MinimumToBid": {
+    "value": "2150.0",
+    "_currencyID": "USD"
+  },
+  "ConditionDescription": "Great condition very light signs of wear-  approx date of man. 2002.  100% authentic purchased from authorized omega dealer.  Recently serviced",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Omega-speedmaster-reduced-/272695032096",
+  "Title": "Omega speedmaster reduced",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2726950320968080_1.jpg",
+  "HitCount": "8",
+  "PostalCode": "06614",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H10M11S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aPoAAOSwcB5ZGQ4t/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pwgAAOSwcaFZGQ47/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/OTY4WDE2MDA=/z/io8AAOSwBt5ZGQ4P/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTA4OVgxNjAw/z/UOEAAOSw3gJZGQ4S/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Great condition very light signs of wear- approx date of man. 2002. 100% authentic purchased from authorized omega dealer. Recently serviced.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "59",
+    "UserID": "worldi3",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingType": "Chinese",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

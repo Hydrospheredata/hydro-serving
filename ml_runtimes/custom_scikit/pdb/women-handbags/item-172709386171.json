@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/sV8AAOSw42dZCUWQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZlgAAOSwcgNZCUWU/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Z4EAAOSwjL5ZCUWZ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mXAAAOSw42JZCUWg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YTcAAOSww9xZCUWj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/j~QAAOSwrhBZCUWm/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AzMAAOSwdjNZCUWs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/f9MAAOSw~y9ZCUWw/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Michael-Kors-Jet-Set-Reversible-Tote-Wristlet-Baltic-Blue-MSRP-268-00-/172709386171",
+  "ConvertedCurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "NWT Michael Kors Jet Set Reversible Tote With Wristlet, Baltic Blue MSRP$ 268.00 Beautiful, Brand New & Authentic Michael Kors MSRP: $268.00 Style: 38S6CRVT2B Color: Baltic Blue Michael Kors Logo Charm: Front Of Tote Hardware: Gold Tone Inside Color of Tote: Baby Blue Size: Measurements Approximately Thank You For Looking!!!! Questions Welcomed Have A Great Day!!!! Payment: Paypal Only",
+  "Title": "NWT Michael Kors Jet Set Reversible Tote With Wristlet, Baltic Blue MSRP$ 268.00",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "115.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Winston-Salem, North Carolina",
+  "Seller": {
+    "FeedbackScore": "58",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "derbybelmont"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27127",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T10:12:44.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT19H46M28S",
+  "EndTime": "2017-07-02T10:12:44.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Blue"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "PVC"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.25 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "7.5 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "14 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "7.5 inches"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "MK"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172709386171",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1727093861718080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

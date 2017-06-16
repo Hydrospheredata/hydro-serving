@@ -1,0 +1,126 @@
+{
+  "ExcludeShipToLocation": [
+    "CD",
+    "CG",
+    "ER",
+    "LR",
+    "NG",
+    "SO",
+    "IQ",
+    "YE",
+    "AF",
+    "AZ",
+    "GE",
+    "KZ",
+    "KG",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "UA",
+    "HT",
+    "KH",
+    "ID",
+    "VE"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "98201",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "1998 Collectible Fossil Watch\"The Fossil Express\" Pocket Watch in Lunch BoxWatch product number LE-9492 is 1008 out of 10000 producedNever used & complete as acquired with all original packaging, price tags. This watch comes with a chain and lunch box as well as a small resin figure of a locomotiveWatch movement made in ChinaPlease study photos carefully. We will gladly answer any questions you may have. We appreciate your visit. Check out our other items! Shipping Information This item will be shipped with insurance. We offer combined shipping worldwide. We calculate shipping based on your location and will work with you to find the carrier that you think is best. Please send an email including your postal code if you would like to get specific costs for your area. Let us know before the auction closes if you would prefer other shipping optionsWe are obligated to charge sales tax on purchases within the state of Washington.We welcome any questions or information that you may want to give us on this item. Please send us an email. Let us know if you plan on purchasing more than one item from us so that we can combine shipping and payments. We make every effort to answer your questions promptly. We ship within 1-2 business days after payment is received. Returns are accepted up to 14 days after you receive the item. Buyer pays return shipping cost. Your account will be credited after we have received the item. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "StartTime": "2017-05-20T18:58:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ivQAAOSwuhhXVeyD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzc0/z/i6cAAOSwuhhXVeyK/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTM5OVgxNjAw/z/lU0AAOSwMNxXVeyO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Kj4AAOSwnNBXVeyT/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "74.95"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1990-1999",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Fossil",
+        "Name": "Brand"
+      },
+      {
+        "Value": "LE-9492",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "796483721876",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "msbeltsin",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "3049",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "17",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3719568453378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-19T18:58:20.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "74.95"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "We hope you are happy with your purchase.  If not you may return it. You need to pay the cost of shipping it back to us.  We recommend insurance if the item is fragile.  We cannot refund items if they are not returned.  If the item is lost or broken in shipment, the buyer can make claims with the carrier to receive compensation. We can almost always work out a good solution for both of us if we communicate.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1998-Fossil-Collectors-Club-Express-Locomotive-Pocket-Watch-LE-9492-Ltd-Edtn-/371956845337",
+  "Location": "Everett, Washington",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "1998 Fossil Collectors Club Express Locomotive Pocket Watch + LE-9492 Ltd. Edtn",
+  "Storefront": {
+    "StoreName": "msbeltsin",
+    "StoreURL": "http://stores.ebay.com/id=156920390"
+  },
+  "ItemID": "371956845337",
+  "PaymentMethods": [
+    "PayPal",
+    "CashOnPickup"
+  ],
+  "TimeLeft": "P19DT19M24S"
+}

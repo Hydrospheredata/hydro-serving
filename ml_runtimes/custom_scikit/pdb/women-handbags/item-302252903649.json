@@ -1,0 +1,126 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jvwAAOSwax5YyMgG/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Organizer-Brief-Cafe-One-Size-/302252903649",
+  "ConvertedCurrentPrice": {
+    "value": "76.15",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Leather wrapped handles - U-shaped front pockets - 3 file dividers - 2 Main compartments - Adjustable and removable straps - Organizer David King & Co. Organizer Brief, Cafe, One Size",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "76.15",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "57031",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "alosh12"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Organizer Brief, Cafe, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "5",
+  "StartTime": "2017-03-15T04:50:12.000Z",
+  "HitCount": "23",
+  "TimeLeft": "P10DT13H40M42S",
+  "EndTime": "2017-06-13T04:50:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "844739015467"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0844739015467"
+      },
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "MPN",
+        "Value": "151C"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Cafe"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.8 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 16.4 x W 13.3 x H 3 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "David King & Co."
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302252903649",
+  "Storefront": {
+    "StoreName": "geffen.200851",
+    "StoreURL": "http://stores.ebay.com/id=864275326"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3022529036498080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

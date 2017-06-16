@@ -1,0 +1,127 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDcw/z/2~gAAOSwc-tY21bB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFg4NzQ=/z/pxgAAOSwB-1Y21bB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNDE0/z/xFQAAOSwXYtY21bC/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Claire-Chase-Half-Moon-Folio-Saddle-/262914578638",
+  "ConvertedCurrentPrice": {
+    "value": "95.91",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store! Handcrafted of 100 percentage cowhide leather in our Colombian factory. Holds 8 inch x10 inch tablet - Outside slot for papers. Inside holds 8 inch x10 inch writing tablet - Inside has two slots for papers - Inside has holder for credit cards and license and business cards - Holder for pen and pencil - 9.5x1x12.75 Claire Chase Half Moon Folio, Saddle",
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "95.91",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "14086",
+    "PositiveFeedbackPercent": "98.9",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "easybuying2005"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Claire Chase Half Moon Folio, Saddle",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-03-29T06:39:51.000Z",
+  "HitCount": "16",
+  "TimeLeft": "P24DT15H31M20S",
+  "EndTime": "2017-06-27T06:39:51.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "UPC",
+        "Value": "600004990781"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0400009967005"
+      },
+      {
+        "Name": "Brand",
+        "Value": "ClaireChase"
+      },
+      {
+        "Name": "MPN",
+        "Value": "613-Saddle"
+      },
+      {
+        "Name": "Binding",
+        "Value": "Apparel"
+      },
+      {
+        "Name": "ClothingSize",
+        "Value": "One Size"
+      },
+      {
+        "Name": "Color",
+        "Value": "Saddle"
+      },
+      {
+        "Name": "Department",
+        "Value": "unisex-adult"
+      },
+      {
+        "Name": "Weight",
+        "Value": "1.15 pounds"
+      },
+      {
+        "Name": "Dimensions",
+        "Value": "L 12 x W 11 x H 1 inches"
+      },
+      {
+        "Name": "Label",
+        "Value": "Claire Chase"
+      },
+      {
+        "Name": "NumberOfItems",
+        "Value": "1"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Not Applicable"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262914578638",
+  "Storefront": {
+    "StoreName": "easybuying2005",
+    "StoreURL": "http://stores.ebay.com/id=1186614849"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629145786388080_1.jpg",
+  "HandlingTime": "0",
+  "BestOfferEnabled": "false"
+}

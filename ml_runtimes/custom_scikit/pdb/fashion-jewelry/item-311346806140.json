@@ -1,0 +1,130 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money back or exchange (buyer's choice)"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "311346806140",
+  "PrimaryCategoryID": "50637",
+  "ListingStatus": "Active",
+  "Site": "US",
+  "PostalCode": "90046",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Body Jewelry:Other Body Jewelry",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryIDPath": "281:10968:15124:110399",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "TopRatedListing": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "QuantityThreshold": "10",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Bracelets",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PrimaryCategoryIDPath": "281:10968:50637",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3113468061408080_3.jpg",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "UserID": "alwaystyle4you",
+    "FeedbackScore": "42873",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "TurquoiseShooting"
+  },
+  "Storefront": {
+    "StoreName": "alwaystyle4you",
+    "StoreURL": "http://stores.ebay.com/id=871784803"
+  },
+  "PaymentMethods": "PayPal",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/BUYAAOSwUuFWxQzy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/jPAAAOSwPc9WxQzD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/hEMAAOSwQYZWxQyg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/2t0AAOSwKtVWxQzo/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/nOQAAOSwe7BWxQyx/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/j0EAAOSwll1WxQyk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/kK4AAOSwPc9WxQzt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/j~AAAOSwll1WxQyu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kb4AAOSwuAVWxQy6/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/nSEAAOSwe7BWxQy0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/uXIAAOSwzgRWxQy3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/cPEAAOSwB4NWxQy9/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000",
+  "TimeLeft": "P8DT9H39M19S",
+  "StartTime": "2015-04-26T02:00:54.000Z",
+  "QuantitySold": "1",
+  "HighBidder": {
+    "UserID": "i***b",
+    "FeedbackScore": "193",
+    "FeedbackPrivate": "false",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "SecondaryCategoryID": "110399",
+  "HitCount": "1274",
+  "QuantitySoldByPickupInStore": "0",
+  "QuantityAvailableHint": "MoreThan",
+  "HandlingTime": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Women-Gold-Uniuque-Hand-Chain-M-J-Metal-Glove-Bracelet-Spikes-Rock-Roll-/311346806140",
+  "EndTime": "2017-06-14T02:00:54.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Link & Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "5\"",
+        "Name": "Length (inches)"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Mixed",
+        "Name": "Material"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Women Gold Uniuque Hand Chain M.J. Metal Glove Bracelet Spikes Rock & Roll",
+  "Location": "Los Angeles, California",
+  "Description": "METAL GLOVE BRACELET STYLE : LADY GAGA/ M.J. CONDITION : BRAND NEW COLOR : DARK GOLD METAL CHAINS SIZE: ONE SIZE - ADJUSTABLE RING SIZE: ADJUSTABLE - ELASTIC - ONE SIZE FITS ALL",
+  "ListingType": "FixedPriceItem",
+  "NewBestOffer": "false",
+  "Quantity": "24"
+}

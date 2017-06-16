@@ -1,0 +1,98 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P28DT8H38M28S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "EXCELLENT CONDITION!",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "272700981915",
+  "ConvertedCurrentPrice": {
+    "value": "44.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "BidCount": "0",
+  "StartTime": "2017-06-03T22:56:34.000Z",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lot-3-Tate-MMA-Clip-Earrings-Hammered-Bead-Necklace-Bow-Pin-Pearl-Brooch-/272700981915",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-03T22:56:34.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tate / Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Earrings, Necklace and Pin",
+        "Name": "Type"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Lot of 3 Tate MMA Clip On Earrings, Hammered Bead Necklace, Bow Pin Pearl Brooch",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Yonkers, New York",
+  "Description": "Lot of 3 including:Tate MMA Signed Clip On Earrings measuring 1 1/4\" (diam.) New York-based jewelry label Tate is renowned for its understated yet compelling designs offering up luxury elements in pared-back, modern settings. Hammered Bead Necklace with Large Center Crystal Stone measuring 16 13/16\" (l) Bow Pin with Pearls measuring 2\" (l) Excellent Condition! Normal 0 false false false EN-US X-NONE X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2727009819158080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "UserID": "topdesignerbrandsforless2015",
+    "FeedbackScore": "5285",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Green"
+  },
+  "Storefront": {
+    "StoreName": "TOP DESIGNER BRANDS FOR LESS",
+    "StoreURL": "http://stores.ebay.com/id=23996958"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTU5OVgxNTQ0/z/t6sAAOSwNnRYk4In/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExNFgxNjAw/z/FeIAAOSw9GhYk4IR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDQ1/z/yjQAAOSw241Yk4If/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTcyWDE2MDA=/z/ySgAAOSw241Yk4IX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDM0/z/zMkAAOSw241Yk4Iu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/tMEAAOSwnHZYk4L~/$_57.JPG?set_id=8800005007"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "10710"
+}

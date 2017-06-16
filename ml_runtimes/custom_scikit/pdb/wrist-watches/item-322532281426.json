@@ -1,0 +1,204 @@
+{
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "HandlingTime": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/WyMAAOSwcB5ZKZ85/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/JvUAAOSwjqVZKZ9B/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "plumisleboy1",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "218",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "StartTime": "2017-05-27T15:52:37.000Z",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "NewBestOffer": "false",
+  "AutoPay": "false",
+  "ListingStatus": "Active",
+  "ListingType": "Chinese",
+  "ConditionDescription": "GOOD SHAPE RUNS SLUGGISH, JUST NEEDS CLEANING.",
+  "Title": "MENS 1968 SEIKO CHRONOGRAPH 6139 B MOVEMENT, 17 JEWELS",
+  "Storefront": {
+    "StoreName": "plumisle vintage watch",
+    "StoreURL": "http://stores.ebay.com/id=187358865"
+  },
+  "ItemID": "322532281426",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/MENS-1968-SEIKO-CHRONOGRAPH-6139-B-MOVEMENT-17-JEWELS-/322532281426",
+  "QuantitySold": "0",
+  "PostalCode": "01906",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "Subtitle": "MENS 1968 SEIKO CHRONOGRAPH 6139 B MOVEMENT,17 JEWELS",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "GOOD MOVEMENT, IN GOOD CONDITION. 1969 CHRONOGRAPH, 17 JEWELED MOVEMENT, RUNS SLOW AND NEEDS STEM. NO RESERVE!",
+  "HitCount": "154",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "PrimaryCategoryID": "31387",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "6139B",
+        "Name": "Model"
+      },
+      {
+        "Value": "GOOD",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "1960-1969",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "17 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Japan",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225322814268080_1.jpg",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "EndTime": "2017-06-01T15:52:37.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM",
+    "AG",
+    "AW",
+    "BZ",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "MS",
+    "TC",
+    "BB",
+    "BD",
+    "BM",
+    "BN",
+    "BO",
+    "EC",
+    "EG",
+    "GF",
+    "GG",
+    "GI",
+    "GP",
+    "IS",
+    "JE",
+    "JO",
+    "KH",
+    "KY",
+    "LI",
+    "LK",
+    "LU",
+    "MC",
+    "MO",
+    "MQ",
+    "MV",
+    "NI",
+    "OM",
+    "PK",
+    "PY",
+    "RE"
+  ],
+  "Location": "Saugus, Massachusetts",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "TimeLeft": "PT19H39M39S"
+}

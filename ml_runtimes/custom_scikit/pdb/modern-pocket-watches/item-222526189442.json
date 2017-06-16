@@ -1,0 +1,152 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "11501",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "DESCRIPTION This came from the estate of a retired antique dealer. I don't know how old the watch is .It is in great condition and keeps correct time. It is hand winding Swiss movement and antimagnetic!!! Beautiful pendant!!!!",
+  "StartTime": "2017-05-27T18:58:49.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/c5EAAOSw~AVYqrZq/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1RkAAOSwCU1YqrZs/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1VcAAOSwCU1YqrZu/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Open Face",
+        "Name": "Closure"
+      },
+      {
+        "Value": "12-hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Hand-winding",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country Made"
+      },
+      {
+        "Value": "RAISED CRYSTAL",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "LUCERN",
+        "Name": "Brand"
+      },
+      {
+        "Value": "unKNOWN",
+        "Name": "Age"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "maraki75",
+    "FeedbackRatingStar": "Purple",
+    "FeedbackScore": "553",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225261894428080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T18:58:49.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "49.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/WORKING-VINTAGE-LUCERNE-SWISS-MADE-POCKET-WATCH-GOLD-TONE-Antimagnetic-/222526189442",
+  "Location": "Mineola, New York",
+  "Title": "WORKING VINTAGE LUCERNE SWISS MADE POCKET WATCH GOLD TONE Antimagnetic",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222526189442",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT23M26S"
+}

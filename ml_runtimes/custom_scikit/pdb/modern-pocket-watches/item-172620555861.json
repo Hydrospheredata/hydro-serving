@@ -1,0 +1,161 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "BM",
+    "CA",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "KZ",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AT",
+    "BA",
+    "DE",
+    "ME",
+    "CH",
+    "VA",
+    "AR",
+    "BO",
+    "EC",
+    "FK",
+    "GF",
+    "PY",
+    "PE",
+    "SR",
+    "VE",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.12"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "4894462027400",
+        "Name": "UPC"
+      },
+      {
+        "Value": "4894462027400",
+        "Name": "EAN"
+      },
+      {
+        "Value": "4894462027400",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1000",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": null,
+  "StartTime": "2017-04-11T06:24:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODQwWDg0MA==/z/BRIAAOSwmgJY7HcN/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "QuantitySold": "10",
+  "HighBidder": {
+    "UserID": "b***e",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "143",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "2010",
+  "Country": "HK",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "SZUS-HKLW-I007934",
+  "HitCount": "40",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726205558618080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "ItemID": "172620555861",
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.12"
+  },
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "1.If you have not satisfied as you reviced the item, please return it within 30 days for a replacement or money back. Please contact me before you return it.2.All returned items MUST BE in the original packaging with all components and accessories included,And you MUST provide us the return shipping information\uff08The shipment or the tracking number\uff09.3.Return shipping fee is to be paid by the buyers.We will not responsible for any custom duty or import tax.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "EndTime": "2017-06-10T06:24:44.000Z",
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Bronze-Tone-Metal-Bicycle-Shaped-Pendant-Necklace-Watch-Women-/172620555861",
+  "Location": "Hong Kong",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Bronze Tone Metal Bicycle Shaped Pendant Necklace Watch For Women",
+  "Storefront": {
+    "StoreName": "lucky.warm",
+    "StoreURL": "http://stores.ebay.com/id=1335526814"
+  },
+  "Seller": {
+    "UserID": "lucky.warm",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "71843",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT11H37M12S"
+}

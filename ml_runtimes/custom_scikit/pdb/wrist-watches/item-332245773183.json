@@ -1,0 +1,164 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "108.0",
+    "_currencyID": "USD"
+  },
+  "ProductID": {
+    "value": "219458630",
+    "_type": "Reference"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Richmond, Virginia",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:09:13.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "108.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T14:09:13.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245773183",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Rose Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Mini Blair",
+        "Name": "Model"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "2 Year Warranty",
+        "Name": "Warranty"
+      },
+      {
+        "Value": "MK5613",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Color"
+      },
+      {
+        "Value": "50 m (5 ATM)",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MK5613",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Chronograph",
+        "Name": "Features"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Dress",
+        "Name": "Style"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "33mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "Rose Gold",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "691464875701",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "New Michael Kors Mini Blair Rose Gold Stainless MK5613 Women Glitz Chrono Watch",
+  "ConditionDescription": "Box not included",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Michael-Kors-Mini-Blair-Rose-Gold-Stainless-MK5613-Women-Glitz-Chrono-Watch-/332245773183",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3322457731838080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "23223",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H59M5S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTEwMVg2Mjc=/z/X6gAAOSwuxFYsj0C/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "MICHAEL KORS WATCHES MODEL # MK5613 Box not included WOMEN'S MINI BLAIR ROSE GOLD STAINLESS STEEL WATCH This beautiful new ladies watch is the pinnacle of the fashion-forward style of Michael Kors design and this style is sure to be a conversation piece. The glamorous bezel gives this timepiece just the perfect touch of feminine charm. Watch features a glamorous bezel crystallized with Swarovski elements and a stainless steel case in beautiful rose gold tone. Rose gold tone chronograph dial with stick indices, numerals, three hands, three subdials, and day/date window - all covered by scratch resistant mineral crystal. Crown is engraved with MK logo.",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.3",
+    "FeedbackScore": "116",
+    "UserID": "raghdhussei5",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

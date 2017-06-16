@@ -1,0 +1,78 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "TimeLeft": "P29DT7H21M46S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322542738666",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Beautiful-Opalite-Necklace-Pendant-Earring-Set-No-Tarnish-Stainless-Steel-/322542738666",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "35.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T19:15:38.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "true",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-04T19:15:38.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Opalite",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Opalite",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "Title": "Beautiful Opalite Necklace Pendant & Earring Set - No Tarnish Stainless Steel",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "This beautiful pendant and earring set has opaque opalite stones that reflect multiple colors. Opalite is a trade name for man-made opalized glass stone and various opal simulants. Pendant and earrings are marked \u201cstainless steel\u201d - no tarnish bails. Pendant has a large bail to fit chains or omegas. Earrings have lever backs. Stones reflect various colors within the stone depending on colors around it. This lovelyset is very versatile and wearable with any outfit. Set is in excellent condition and comes in a gift box . Please note: no chain included.Approximate measurements: Pendant - 2.5\u201d Drop x 1.25 Width x .33\u201d DeepEarrings - 2\u201d Drop x .75\u201d Width x .25\u201d Deep",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225427386668080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "averelle",
+    "FeedbackScore": "23",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "Quantity": "1",
+  "Location": "Phoenix, Arizona",
+  "HitCount": "1",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTEwWDE2MDA=/z/4dMAAOSw-0xYmRYQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjk1/z/3wUAAOSwImRYmRYi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMTY3/z/Aw0AAOSwTglYmRZT/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "PostalCode": "85016"
+}

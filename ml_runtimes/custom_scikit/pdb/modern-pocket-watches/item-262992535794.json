@@ -1,0 +1,81 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "11373",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Condition: New. White dial. Quartz movement. $2 off shipping on each additional item. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "StartTime": "2017-05-18T23:15:17.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzQ4WDEwMDA=/z/BJQAAOSwuLZYzr5s/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzQ4WDEwMDA=/z/NLsAAOSwyQtVvIF7/$_57.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ocean872",
+    "FeedbackRatingStar": "YellowShooting",
+    "FeedbackScore": "15092",
+    "PositiveFeedbackPercent": "99.2"
+  },
+  "HitCount": "10",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2629925357948080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-17T23:15:17.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "Get a full refund if you are not satisfied with the purchase.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Orange-Stone-Finger-Ring-Watch-Item-4517-/262992535794",
+  "Location": "Elmhurst, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Orange Stone Finger Ring Watch Item 4517",
+  "Storefront": {
+    "StoreName": "ocean872",
+    "StoreURL": "http://stores.ebay.com/id=760499948"
+  },
+  "ItemID": "262992535794",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P17DT4H35M58S"
+}

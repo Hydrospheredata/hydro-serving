@@ -1,0 +1,183 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.3",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "HongKong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:45:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1053266978",
+    "StoreName": "tonsee_best"
+  },
+  "CurrentPrice": {
+    "value": "0.3",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T11:45:09.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "XYQ60426131BK",
+  "Description": null,
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "GT",
+    "HK",
+    "ID",
+    "MO",
+    "TW",
+    "AR",
+    "BO",
+    "CL",
+    "PE",
+    "DZ",
+    "BJ",
+    "BW",
+    "BF",
+    "BI",
+    "CM",
+    "CF",
+    "TD",
+    "KM",
+    "CD",
+    "CG",
+    "CI",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "LS",
+    "LR",
+    "LY",
+    "MG",
+    "MW",
+    "ML",
+    "MR",
+    "MU",
+    "YT",
+    "MZ",
+    "NA",
+    "NE",
+    "SH",
+    "SN",
+    "SL",
+    "SO",
+    "SZ",
+    "TZ",
+    "TG",
+    "TN",
+    "EH",
+    "ZM",
+    "ZW",
+    "IQ",
+    "YE",
+    "CN",
+    "JP",
+    "LK",
+    "AT",
+    "HR",
+    "GG",
+    "IE",
+    "JE",
+    "LI",
+    "LT",
+    "MC",
+    "ME",
+    "PL",
+    "SJ",
+    "CH",
+    "UA",
+    "GB",
+    "VA",
+    "PO Box"
+  ],
+  "ItemID": "311885308404",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Hong Kong",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "HighBidder": {
+    "FeedbackScore": "1050",
+    "UserID": "e***s",
+    "FeedbackRatingStar": "Red",
+    "FeedbackPrivate": "false"
+  },
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Leather-Band-Watches-Military-Sport-Analog-Quartz-Date-Wrist-Watch1-/311885308404",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "3",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3118853084048080_1.jpg",
+  "HitCount": "8",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT20H26M45S",
+  "Title": "Men's Leather Band Watches Military Sport Analog Quartz Date Wrist Watch1",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjU2WDY1Ng==/z/ohgAAOSw-4BXcSX6/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjUyWDY1Mg==/z/Bh4AAOSwukdXcSX8/$_1.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "0.35",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "143067",
+    "UserID": "tonsee_best",
+    "FeedbackRatingStar": "RedShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Please contact us if you are not satisfied with the item after received it, should be return the item back to us for replace/refund. The return shipping is paid by the Buyer. Thanks for your business and understanding.\nHave a nice day.\n\nBest regards,\nCustomer Support"
+  }
+}

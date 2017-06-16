@@ -1,0 +1,107 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "6.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Madison, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:59:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=286517131",
+    "StoreName": "SWISS WATCHES AND MORE"
+  },
+  "CurrentPrice": {
+    "value": "6.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:59:44.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210992471",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "TIMEX",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MENS",
+        "Name": "Gender"
+      },
+      {
+        "Value": [
+          "VINTAGE TIMEX DIAL",
+          "MARKED ENGLAND",
+          "DATE WINDOW",
+          "1981-34 YEARS OLD"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "ANALOG",
+        "Name": "Display"
+      },
+      {
+        "Value": "TIMEX",
+        "Name": "Style"
+      },
+      {
+        "Value": "MENS DIAL",
+        "Name": "Model"
+      },
+      {
+        "Value": "Vintage (1971-1983)",
+        "Name": "Age"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE TIMEX WATCH DIAL 1981  MENS  MATTED BLACK FINISH  29MM MARKED  ENGLAND",
+  "ConditionDescription": "VINTAGE 1981 TIMEX WATCH DIAL......MATTED BLACK FINISH DATE WINDOW  FREE WW POST..NICE VINTAGE TIMEX DIAL..34 YEARS OLD ..VERY CLEAN DIAL NICE REPLACEMENT DIAL .....RARE MATTED FLAT BLACK FINISH  GOLDTONE NUMBER MARKERS ....SHARP ...MARKED ENGLAND ON THE INSIDE OF THE DIAL .....",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-TIMEX-WATCH-DIAL-1981-MENS-MATTED-BLACK-FINISH-29MM-MARKED-ENGLAND-/132210992471",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1322109924718080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "15663",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H44M45S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/9zEAAOSw3ydVks5F/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/huQAAOSwjVVVks5O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/2-QAAOSwT6pVks5n/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/0H8AAOSwMmBVks5c/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/-u0AAOSwu4BVks5H/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNTk5/z/OdUAAOSw-vlVks53/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": ">SUPER SHARP VINTAGE TIMEX WATCH DIAL 1981 ...34 YEARS OLD ...MATTE FLAT BLACK FINISH GOLDTONE NUMBER MARKERS 29.61 MM ROUND ...MARKED ENGLAND ON THE BACK WHITE LETTERING ON BLACK FINISH....NICE VINTAGE WOULD BE A VERY NICE REPLACEMENT DIAL ....ANY ?PLEASE ASK FREE WORLD WIDE POST ANY ??? PLEASE ASK IF EVER A PROBLEM JUST CONTACT ME...........................................THANK YOU ......I HAVE OTHER VINTAGE TIMEX ITEMS AND DIALS LISTED AND MANY MORE TO LIST",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2666",
+    "UserID": "vinnies2006",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "RETURNED IN THE SAME CONDITION .REFUND WHEN I RECIEVE BACK  THANK YOIU"
+  }
+}

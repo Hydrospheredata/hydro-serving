@@ -1,0 +1,89 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "91731",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:165144",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Original Men's Rolex Datejust Turn-O-Graph 116264 Gloss White Stick Dial SS #A40 Track Page Views With Auctiva's FREE Counter",
+  "StartTime": "2017-03-14T13:51:49.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMy/z/6ZUAAOSwCU1Yx~V4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMy/z/LSYAAOSwzgBYx~V3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/3H4AAOSw32lYx~V3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/3rMAAOSw4YdYx~V3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/WY8AAOSwWxNYx~V3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzA1WDEyODA=/z/glgAAOSwuxFYx~V3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDMy/z/3IYAAOSw32lYx~V3/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "165144",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Turn-O-Graph",
+        "Name": "Model"
+      },
+      {
+        "Value": "Rolex",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "nbk2yoo",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "4732",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "100",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2224396382158080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T13:51:49.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "400.0"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "Please See Description.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Original-Mens-Rolex-Datejust-Turn-O-Graph-116264-Gloss-White-Stick-Dial-SS-A40-/222439638215",
+  "Location": "El Monte, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Original Men's Rolex Datejust Turn-O-Graph 116264 Gloss White Stick Dial SS #A40",
+  "Storefront": {
+    "StoreName": "Watchman Space",
+    "StoreURL": "http://stores.ebay.com/id=188189386"
+  },
+  "ItemID": "222439638215",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Watches for Parts",
+  "TimeLeft": "P11DT17H22M40S"
+}

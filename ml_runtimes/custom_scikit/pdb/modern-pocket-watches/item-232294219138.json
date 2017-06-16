@@ -1,0 +1,162 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "BA",
+    "CY",
+    "EE",
+    "GI",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "PO Box"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.49"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-04-06T02:37:48.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/WIEAAOSwuLZY5an0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/0rIAAOSwTM5Y5an5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/-L8AAOSwmgJY5anU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/5FoAAOSwU8hY5anX/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/bAoAAOSwVctY5anM/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/G68AAOSwA29Y5anR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTg1WDU4NQ==/z/o9oAAOSwc-tY5anJ/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "30",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "1JU3AT0TQ2MJ8",
+  "HitCount": "46",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2322942191388080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T02:37:48.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "232294219138",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "2.49"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ShenZhen",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Antique Big Roman Numeral Gold Face Chain Necklace Pendant Pocket Watch Gifts",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Antique-Big-Roman-Numeral-Gold-Face-Chain-Necklace-Pendant-Pocket-Watch-Gifts-/232294219138",
+  "Storefront": {
+    "StoreName": "HCS-Autohome",
+    "StoreURL": "http://stores.ebay.com/id=1365524706"
+  },
+  "Seller": {
+    "UserID": "auto_home",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8893",
+    "PositiveFeedbackPercent": "98.6"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT7H49M51S"
+}

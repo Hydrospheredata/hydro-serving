@@ -1,0 +1,129 @@
+{
+  "ExcludeShipToLocation": [
+    "IT",
+    "MX",
+    "NG",
+    "SO",
+    "YE"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "85215",
+  "IntegratedMerchantCreditCardEnabled": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "findingking",
+    "FeedbackRatingStar": "GreenShooting",
+    "FeedbackScore": "578608",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "--> FindingKing Ladies Charles Hubert Gold-plated Brass Pendant Watch This is a beautiful new Ladies Charles Hubert Gold-plated Brass Pendant Watch . It is a great gift for yourself or a loved one and makes the perfect addition to any jewelry collection. Style-pendantMetal-brassFinish-polishedGemstone-quartzApproximate weight-0.871 grams This product retails for $249.99 The foregoing appraisal is made and accepted upon the express understanding that no liability or responsibility is incurred by the appraiser giving same. We estimate the value as listed for insurance purposes at the current retail value, excluding Federal and other taxes. In making this appraisal, we do not agree to purchase or replace the articles. All weights and measurements are approximate.",
+  "StartTime": "2017-05-10T00:09:01.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTA2WDkwNg==/z/B5QAAOSw8lpZIRm~/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "9",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Charles Hubert",
+        "Name": "Brand"
+      },
+      {
+        "Value": "XWA2655",
+        "Name": "MPN"
+      },
+      {
+        "Value": "14.5\"",
+        "Name": "Length"
+      },
+      {
+        "Value": "quartz",
+        "Name": "Movement Type"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display Type"
+      },
+      {
+        "Value": "White",
+        "Name": "Dial Color"
+      },
+      {
+        "Value": "polished",
+        "Name": "Finish"
+      },
+      {
+        "Value": "Chain",
+        "Name": "Style"
+      },
+      {
+        "Value": "curb",
+        "Name": "ChainType"
+      },
+      {
+        "Value": "brass",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "QU-XWA2655",
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323296838068080_4.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-09T00:09:01.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "79.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Charles-Hubert-Gold-plated-Brass-Pendant-Watch-/232329683806",
+  "Location": "Mesa, Arizona",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Ladies Charles Hubert Gold-plated Brass Pendant Watch",
+  "Storefront": {
+    "StoreName": "FindingKing",
+    "StoreURL": "http://stores.ebay.com/id=40788427"
+  },
+  "ItemID": "232329683806",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "TimeLeft": "P8DT5H25M58S"
+}

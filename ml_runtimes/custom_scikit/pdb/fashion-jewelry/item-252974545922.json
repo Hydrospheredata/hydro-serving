@@ -1,0 +1,105 @@
+{
+  "HandlingTime": "3",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "252974545922",
+  "TimeLeft": "P6DT12H46M43S",
+  "ListingStatus": "Active",
+  "BuyItNowAvailable": "true",
+  "StartTime": "2017-06-04T23:12:32.000Z",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Charms & Charm Bracelets",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "US"
+  ],
+  "PostalCode": "55414",
+  "ConvertedCurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "BidCount": "0",
+  "PaymentMethods": "PayPal",
+  "Title": "pandora bracelet with charms medium sized. 8 Charms. Perfect condition.",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T23:12:32.000Z",
+  "PrimaryCategoryID": "140944",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Stainless Steel",
+        "Name": "Metal"
+      },
+      {
+        "Value": "PANDORA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Charm Bracelet with Charms",
+        "Name": "Type"
+      },
+      {
+        "Value": "18 cm / 7.1 in",
+        "Name": "Bracelet Size"
+      },
+      {
+        "Value": [
+          "Bead",
+          "Clip"
+        ],
+        "Name": "Charm Type"
+      },
+      {
+        "Value": "Metal",
+        "Name": "Charm Material"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/pandora-bracelet-charms-medium-sized-8-Charms-Perfect-condition-/252974545922",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Minneapolis, Minnesota",
+  "Description": "pandora charms with the bracelet medium sized. 8 Charms. Perfect condition.. Condition is New without tags. Shipped with USPS First Class Package.",
+  "PrimaryCategoryIDPath": "281:10968:140944",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529745459228080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "UserID": "zuniga93",
+    "FeedbackScore": "0",
+    "FeedbackRatingStar": "None"
+  },
+  "Quantity": "1",
+  "ConvertedBuyItNowPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "400.0",
+    "_currencyID": "USD"
+  },
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nNgAAOSw9OFZGn1y/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YLYAAOSw8HBZGn3m/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/X6gAAOSwcB5ZGn6B/$_32.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1500",
+  "CurrentPrice": {
+    "value": "300.0",
+    "_currencyID": "USD"
+  }
+}

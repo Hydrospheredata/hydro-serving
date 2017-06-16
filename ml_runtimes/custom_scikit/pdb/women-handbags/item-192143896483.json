@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921438964838080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/pEUAAOSww3tY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Mzc3WDUwMA==/z/OJwAAOSwSlBY3NXv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/RPwAAOSwzgBY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3MjA=/z/E0gAAOSwmgJY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/nGIAAOSwuxFY3NXw/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/DSgAAOSw2gxY3NXw/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/BELLI-Italian-Handbag-Women-Shoulder-Bag-Backpack-2in1-Genuine-Leather-White-P-/192143896483",
+  "ConvertedCurrentPrice": {
+    "value": "111.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: High quality handbag - shoulderbag - backpack by Belli\u00c3\u0082\u00c2\u00ae made in italy. Available in a lot of colours and embossings in our shop. Beautiful timeless look - high quality genuine leather - can be used as a backpack or shoulder bag. The perfect little companion for every day. - All our leather bags are impregnated as a small service performance for you before shipping fresh. Details of the bag: - Freshly impregnated - 3-divided main compartment with centre zipper compartment - 1 separate pocket for handy - 2 compartments on every side outside - Silver coloured metal parts - With zipper to close - Dimensions approximately: Width: 28 cm Height: 28 cm (without handles) Depth: 8 cm",
+  "Title": "BELLI\u00ae Italian Handbag Women Shoulder Bag Backpack 2in1 Genuine Leather White P",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "111.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "3",
+  "StartTime": "2017-03-30T09:54:47.000Z",
+  "HitCount": "15",
+  "TimeLeft": "P25DT17H36M55S",
+  "EndTime": "2017-06-28T09:54:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "4250615320543"
+      },
+      {
+        "Name": "UPC",
+        "Value": "4250615320543"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Belli"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192143896483",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:66546046:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

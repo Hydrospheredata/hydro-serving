@@ -1,0 +1,94 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "27520",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This listing is for a 1999 Avon Sports Superstars Kids Watch. Mark McGwire. FSC: 22595-7. New in opened container. Comes with Certificate of Authenticity. Pop-It Watch. Please feel free to contact me with any questions.Attention NC buyers: Sorry but we do have to collect 6.75% sales tax on the item and shipping. Brad11/26 A7",
+  "StartTime": "2017-05-28T03:00:12.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nAQAAOSw44BYOy9i/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HwgAAOSwA3dYOy9q/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/jW8AAOSw5cNYOy9t/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sXMAAOSwHMJYOy9x/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/A1AAAOSwImRYOy91/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/WBsAAOSwiONYOy95/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Metal",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Modern",
+        "Name": "Era"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "1979coon",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2425",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225264767418080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-27T03:00:12.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "17.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Sports-Superstar-Kids-Watch-Mark-McGwire-1999-Avon-/222526476741",
+  "Location": "Clayton, North Carolina",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Sports Superstar Kids Watch Mark McGwire 1999 Avon",
+  "Storefront": {
+    "StoreName": "1979coon",
+    "StoreURL": "http://stores.ebay.com/id=715418289"
+  },
+  "ItemID": "222526476741",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P26DT8H24M57S"
+}

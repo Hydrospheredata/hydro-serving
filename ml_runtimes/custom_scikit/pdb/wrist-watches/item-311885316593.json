@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "1.27",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Morpeth",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:02:52.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": [
+    "MOCC",
+    "PayPal",
+    "PersonalCheck"
+  ],
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "0.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-10T12:02:52.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "GUESS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "HandlingTime": "3",
+  "Description": "Guess Wristwatch A really nice Guess wristwatch as pictured.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Guess - Ladies Designer Wristwatch - Purple face with silver strap",
+  "ConditionDescription": "As pictured",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Guess-Ladies-Designer-Wristwatch-Purple-face-silver-strap-/311885316593",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3118853165938080_1.jpg",
+  "ItemID": "311885316593",
+  "PostalCode": "NE65 9RU",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT20H45M28S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODg4WDY3Mg==/z/DNcAAOSwaeRZLrC4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODg4WDgwNA==/z/eJgAAOSwrhBZLrDE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/D7EAAOSwurZZLrBy/$_57.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "0.99",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "1020",
+    "UserID": "storestars",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

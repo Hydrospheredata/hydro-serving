@@ -1,0 +1,112 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Morrisville, Pennsylvania",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:12:15.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=125005960",
+    "StoreName": "morrisvillepawn"
+  },
+  "CurrentPrice": {
+    "value": "99.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T12:12:15.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ItemID": "142400125274",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "MK6313",
+        "Name": "MPN"
+      },
+      {
+        "Value": "796483226104",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Michael Kors MK6313 Ladies Women's Watch",
+  "ConditionDescription": "In excellent condition. Looks like new.  Please review all photos before making your purchase.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-MK6313-Ladies-Womens-Watch-/142400125274",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1424001252748080_1.jpg",
+  "HitCount": "3",
+  "PostalCode": "19067",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT20H55M7S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEyOFg5MTI=/z/l~YAAOSwDiBZLrHX/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dT4AAOSwxu5ZLrGt/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/dWoAAOSwxu5ZLrGw/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RRAAAOSw9OFZLrGz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cEsAAOSw~FJZLrG1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/B2cAAOSwK6RZLrG5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/C60AAOSwi7RZLrG8/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XngAAOSwGJlZLrHA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RlYAAOSw9OFZLrHE/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/awcAAOSwlMFZLrHH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/lxgAAOSwDiBZLrHK/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Michael Kors MK6313 Ladies Women's Watch In excellent condition. Looks like new. Please review all photos before making your purchase. Please ask any questions you have about this item before placing your bid. 20% restocking fee will be applied to returns U.S .shipping only. We ship Monday thru Friday. In most instances we ship within 24 hours of payment.Sorry. No international shipping.If payment is received after 1pm (EST) on Friday we will ship on Monday.Payment must received within 3 days of auction end.Returns are only accepted if an item is not as described. You, the buyer, are responsible for the return shipping. Please let us know asap if there is any problem with the item. We stand behind what we sell and will do whatever we can to make sure you are satisfied with your purchase. For our security, we photograph and record all serial numbers of items shipped. Please contact us through eBay messaging. We try to respond within 24 hours of your question during normal business hours M-F. We do not offer partial refunds. *Please contact us if there is a problem, before leaving feedback. Most problems can be resolved. We pride ourselves on customer service and your complete satisfaction.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackScore": "6095",
+    "UserID": "secondhandauctions411",
+    "FeedbackRatingStar": "Green",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Returns of new items are subject to a 20% restocking fee and buyer is responsible for return shipping. Item must be unopened to receive refund."
+  }
+}

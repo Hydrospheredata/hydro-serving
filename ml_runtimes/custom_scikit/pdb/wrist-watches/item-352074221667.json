@@ -1,0 +1,67 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "51.44",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Swindon",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T14:45:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "AvailableForPickupDropOff": "true",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=52632699",
+    "StoreName": "*sun-light*"
+  },
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-03T14:45:56.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "SKU": "101968",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "352074221667",
+  "HandlingTime": "1",
+  "Description": "Vertex Revue watch movement, all working well, 27mm, calibre Waldenbourg 59. The white mark near the 2 and 3 is sticker residue, so should come off. Keeping good time.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vertex-Revue-watch-movement-all-working-well-27mm-calibre-Waldenbourg-59-/352074221667",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3520742216678080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "SN5 5UY",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P2DT23H39M30S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTMzMVgxNjAw/z/ekcAAOSwAPVZHxFk/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTQ4NVgxNTk5/z/7q8AAOSw~y9ZHxFq/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Vertex Revue watch movement, all working well, 27mm, calibre Waldenbourg 59.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "16811",
+    "UserID": "*sun-light*",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "If you need to return an item, please use the return address on the invoice. Please also send an email through the ebay email system to confirm your intentions.",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

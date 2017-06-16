@@ -1,0 +1,86 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P29DT20H30M7S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Necklaces & Pendants",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "199.89",
+    "_currencyID": "USD"
+  },
+  "ItemID": "322543317164",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Berserk-Beruseruku-Zantetsuken-Pendant-Necklace-Men-Jewelry-925-Silver-/322543317164",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "199.89",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:59:36.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "CN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-07-05T08:59:36.000Z",
+  "PrimaryCategoryID": "155101",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "\"Handmade\"",
+        "Name": "Brand"
+      },
+      {
+        "Value": "925 Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "11cm",
+        "Name": "Size"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "Berserk Beruseruku Zantetsuken Pendant Necklace Men Jewelry 925 Silver Be",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": null,
+  "PrimaryCategoryIDPath": "281:10968:155101",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3225433171648080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.2",
+    "UserID": "cosmile_time",
+    "FeedbackScore": "1674",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "cosmile_time",
+    "StoreURL": "http://stores.ebay.com/id=1155244258"
+  },
+  "Quantity": "2",
+  "Location": "Hong kong",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/qVsAAOSwX9FZNRso/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/PAEAAOSwEHpZNRtB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzkwWDEzMzQ=/z/DoUAAOSwAPVZNRsR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzY4WDc2OA==/z/sHMAAOSwCQZZNRsY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAyNFgxMDA5/z/6CkAAOSw1WJZNRzH/$_57.JPG?set_id=8800005007"
+  ],
+  "ConditionID": "1000"
+}

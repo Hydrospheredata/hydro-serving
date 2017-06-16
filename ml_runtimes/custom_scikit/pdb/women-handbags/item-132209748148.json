@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/UGgAAOSwGtRX01zS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/HGoAAOSwAuZX01ys/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/~YwAAOSwxg5X01zA/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/WTUAAOSwdIFX01zu/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/JN0AAOSwAuZX010D/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/0ToAAOSwMgdX010X/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/eJgAAOSwOdpX010s/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Small-Edie-Backpack-Sailing-Floral-Red-Floral-9808-NWT-/132209748148",
+  "ConvertedCurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with Tag LeSportsac Small Edie Backpack Sailing Floral Red #9808 measures 11\" X 10\" X 5\" Top Flap with magnetic snap close Drawstring close under flap Exterior front zip pocket Side exterior zip for easy access to main compartment Interior zip pocket",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "64.95",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1646",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "readbrit"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Small Edie Backpack Sailing Floral Red Floral #9808 NWT",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T09:24:43.000Z",
+  "HitCount": "9",
+  "TimeLeft": "P26DT18H32M50S",
+  "EndTime": "2017-06-29T09:24:43.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883681958156"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132209748148",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322097481488080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,123 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P29DT20H48M14S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "CN",
+    "SE",
+    "FR",
+    "HK",
+    "ES",
+    "IT",
+    "DE",
+    "RU",
+    "IL",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "MY",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "CurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "371972782003",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-1-carat-solitare-side-stone-sterling-silver-size-7-Diamonique-/371972782003",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "49.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T10:05:37.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "TopRatedListing": "true",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-05T10:05:37.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "QVC",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Solitaire w/ Accent Stones",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "7",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "DIAMONIQUE (qvc)",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "STERLING",
+        "Name": "Material"
+      }
+    ]
+  },
+  "Title": "Ladies 1 carat  solitare with side stone  sterling silver, size 7 Diamonique",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Ladies 1 carat center stone with 3 accent stone each side stone each side, Diamonique (QVC) Sterling Silver, Size 7, purchased 20 years ago. seldom worn Check out my other items! In my store.. Combine and save on shipping..",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3719727820038080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "daleh54",
+    "FeedbackScore": "3199",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "daleh54",
+    "StoreURL": "http://stores.ebay.com/id=36116146"
+  },
+  "Quantity": "1",
+  "Location": "Dixfield, Maine",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ1NFgxNjAw/z/ANIAAOxyzi9ShUKz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDExWDU5Mg==/$(KGrHqFHJCsE9!Z5RTz-BP(U7v8!Bw~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyNVgxNjAw/z/R0IAAOxy3zNShUK7/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "04224"
+}

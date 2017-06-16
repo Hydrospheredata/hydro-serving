@@ -1,0 +1,89 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "Moscow",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:01:42.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-05T13:01:42.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Chistopol USSR",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Backlight"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Gold Plated",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "132210993472",
+  "HandlingTime": "2",
+  "Description": "Old vintage watch from the USSR specially for the Ministry of Defense of the Soviet Army. Registered. Gold-plated. Mechanics. Fully working. After repair. Even works night illumination",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Vtg watch '70 USSR Soviet Army gold-plated me\u0441hanic",
+  "ConditionDescription": "In perfect condition",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vtg-watch-70-USSR-Soviet-Army-gold-plated-me-hanic-/132210993472",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1322109934728080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P4DT21H46M48S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAxWDgxMA==/z/VREAAOSwzqFY~KKq/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTEyWDkwMA==/z/RCMAAOSwVm5Y~KLD/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODY4WDg5OQ==/z/F-0AAOSwSypY~KLV/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "100.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "303",
+    "UserID": "caperang75",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

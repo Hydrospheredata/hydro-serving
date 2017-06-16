@@ -1,0 +1,75 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.14",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "ashford, Kent",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:08:11.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "HighBidder": {
+    "FeedbackScore": "132",
+    "UserID": "z***n",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackPrivate": "false"
+  },
+  "CurrentPrice": {
+    "value": "4.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-07T11:08:11.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Description": "* Quartz Movement. * S/S strap and case new working order black face red numerals recommended selling price \u00a3129.99 boxed",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530130618",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Men's",
+      "Name": "Gender"
+    }
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "A.M. sports watch s/s new black  face red numerals",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/A-M-sports-watch-s-s-new-black-face-red-numerals-/222530130618",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "1",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2225301306188080_2.jpg",
+  "HitCount": "6",
+  "PostalCode": "tn254pf",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT19H47M36S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BKYAAOSwJH1ZLqRU/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "4.2",
+    "_currencyID": "GBP"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "14746",
+    "UserID": "sombral",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

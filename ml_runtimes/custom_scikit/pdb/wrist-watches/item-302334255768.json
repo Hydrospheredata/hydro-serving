@@ -1,0 +1,93 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "Yangzhou",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:29:22.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1099334315",
+    "StoreName": "Shoptogether_1981"
+  },
+  "CurrentPrice": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T10:29:22.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Asia",
+    "FR",
+    "AU"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Asia",
+    "Middle East",
+    "Southeast Asia"
+  ],
+  "ItemID": "302334255768",
+  "HandlingTime": "2",
+  "Description": "Pretty Fashion Design Black Mickey Mouse Quartz Watch Wristwatch-Leather watch Description Weight :0.035kg Color:Black Movement: quartz watch domestic movement; Function: clock / waterproof life / shock / antimagnetic; Table: mineral glass mirror material; Material: PU leather strap Size:Dial diameter:3cm.approx. Thickness:0.9cm.approx. Band Length:24cm.approx. Band width:0.8cm.approx.Note: Specifications for the manual coarse income is not fine may have errors, only for general reference to buy; waterproof refers to splash proof, not washing or immersion, away from the hot water and steam; strap length according to the maximum hand size design and production, generally the wrist diameter are suitable, Payment Payment methods accepted : Paypal only. Delivery details 1. We only ship to your confirmed paypal address. 2. We ship your orders within 1-2 business days after the payment is cleared.Usually it takes 15--30 days to arrive. However, it may take 5--6 weeks during the peak season. If you dont receive your item within 6 weeks ,please feel free to contact us , we will try our best to help you. Terms of sales 1. All our items come with one month warranty. Please feel free to contact us if you are not satisfied with the purchase.2. Customers are responsible for shipping charges on returned items unless something is wrong with quality. It may take up to 3 business days to process your return after we receive your product. About us 1. We are an honest seller on eBay. All our items come from China with high quality and are brand new. 2. Feedback is important to us, please take time to leave a positive feedback if you are satisfied with our producet and service.We guarantee to do the same for you. 3. Please contact us first before giving a non positive feedback. Thank you for giving us a chance to make things right by good communication. Contact us 1.Your satisfaction is our first goal! If for any reason you are not satisfied with your purchase, Please contact us first. We will try best to solve any problem. 2.In order to get a prompt reponse and communication, we recommend you contact us by eBay Message because we live in the different time zones, so maybe I will reply you later. Thank you!",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Pretty Fashion Design Black Mickey Mouse Quartz Watch Wristwatch-Leather watch",
+  "NewBestOffer": "false",
+  "SKU": "09-022",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Pretty-Fashion-Design-Black-Mickey-Mouse-Quartz-Watch-Wristwatch-Leather-watch-/302334255768",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3023342557688080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT19H6M28S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDg0/z/uNAAAOSwoudW-d03/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIyOVgxNjAw/z/LQgAAOSwZtJW-d06/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwNFgxNjAw/z/nLwAAOSwJQdW-d08/$_12.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "0.01",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "97.1",
+    "FeedbackScore": "6169",
+    "UserID": "dongziwinter",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

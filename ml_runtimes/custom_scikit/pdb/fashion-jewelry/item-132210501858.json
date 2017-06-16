@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P4DT8H52M32S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Other Fashion Jewelry",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "ItemID": "132210501858",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SILPADA-Sterling-Silver-Coral-Shell-FIESTA-FUN-Necklace-N1563-96-/132210501858",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "59.99",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-05-30T23:46:08.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T23:46:08.000Z",
+  "PrimaryCategoryID": "499",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Silpada",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": ".925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Aventurine",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Orange/Multi Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "Necklaces",
+        "Name": "Jewelry Type"
+      }
+    ]
+  },
+  "Title": "SILPADA Sterling Silver, Coral, Shell \"FIESTA FUN\" Necklace N1563 $96",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "SILPADA \"Fiesta Fun\" NECKLACE3 Strand Oxidized Sterling Silver, Sponge Coral and Abalone Shell Necklace. 16\" Long with 2\" Extender and a Lobster Clasp. N1563 2013/2014 Catalog Pg. 51-E $96Please visit my store where I have many more authentic designer wallets, purses, and jewelry at great prices. Normal 0 false false false EN-US JA X-NONE",
+  "PrimaryCategoryIDPath": "281:10968:499",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322105018588080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "crackelure",
+    "FeedbackScore": "825",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Purple"
+  },
+  "Storefront": {
+    "StoreName": "crackelure",
+    "StoreURL": "http://stores.ebay.com/id=1151820689"
+  },
+  "Quantity": "1",
+  "Location": "Brookfield, Wisconsin",
+  "HitCount": "3",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4BMAAOSw5VFWPPix/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J~8AAOSw7hRWPPit/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/KbEAAOSw7hRWPPi6/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/7VMAAOSwo0JWPPjB/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "53005"
+}

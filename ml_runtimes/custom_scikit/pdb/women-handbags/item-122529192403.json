@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/h04AAOSww3tY3427/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Cy8AAOSwCU1Y34pz/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nIwAAOSwsW9Y34Zc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/et0AAOSwCU1Y34Zc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/1OYAAOSwol5Y34Zc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nJAAAOSwsW9Y34Zc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/reQAAOSwTM5Y34Zc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eucAAOSwCU1Y34Zc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eyYAAOSwCU1Y34Ze/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4QMAAOSwuxFY34Zd/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ewkAAOSwCU1Y34Zd/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4SgAAOSwuxFY34Ze/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Authentic-LOUIS-VUITTON-Rivoli-MM-Shoulder-Bag-Damier-Canvas-Dust-bag-/122529192403",
+  "ConvertedCurrentPrice": {
+    "value": "1600.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Authentic LOUIS VUITTON Rivoli MM Shoulder Bag Damier Canvas comes with Dust bag, keys,lock and strap. This bowling style tote in the medium size is crafted of Louis Vuitton signature checkered coated canvas. The bag rolled leather top handles with brass links, polished smooth mocha leather extended sides and base, and a top crest of the same leather. A brass padlock hangs from the face and can be used for the zipper with the hanging leather clochette with a key. The zipper opens to a scarlet red microfiber interior for everyday use Gently used so it's in GREAT condition. Smoke-Free home. Bought from the Louis Vuitton Store in San Diego. Has some wear on the inside of the bag in regards to light stains but hardly noticeable, and some scratches on the outside of the bag and the sides of the bag but very minimal.Regular wear and tear on handle straps. Hardware is in very nice and shiny condition. Hardware on the bottom of the bag has minimal scratches. Please message me for more pictures or questions. Paypal payment only.",
+  "Title": "Authentic LOUIS VUITTON Rivoli MM Shoulder Bag Damier Canvas Dust bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "1600.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "San Diego, California",
+  "Seller": {
+    "FeedbackScore": "25",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "cspbbs"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92119",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T09:12:49.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT18H42M58S",
+  "EndTime": "2017-07-02T09:12:49.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Canvas"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LOUIS VUITTON"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Brown"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10.25"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.75"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "13.25"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "4''"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122529192403",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1225291924038080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

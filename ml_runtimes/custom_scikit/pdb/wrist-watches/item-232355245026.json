@@ -1,0 +1,74 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "365.5",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IT",
+  "Location": "Calvera",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:12:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "365.5",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:12:04.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "232355245026",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "36mm",
+        "Name": "Case Size"
+      },
+      {
+        "Value": "18mm",
+        "Name": "Lug Width"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "chronograph vintage, 1970s,electra, valjoux 7734 serviced",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/chronograph-vintage-1970s-electra-valjoux-7734-serviced-/232355245026",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2323552450268080_1.jpg",
+  "HitCount": "9",
+  "PostalCode": "85030",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H58M16S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/HuMAAOSwblZZJLas/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NjA=/z/RngAAOSw~y9ZJLa0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/vL8AAOSwcgNZJLa~/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/YiYAAOSwR29ZJLbH/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/kyMAAOSwq1JZJLbR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/Q9sAAOSwDiBZJLba/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDE2MDA=/z/YuYAAOSwR29ZJLbm/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "1970s vintage chronograph ,ELECTRA with a valjoux 7734 movement , round pushers, screw back case. case 36 mm without crown, the watch and chrono is working great, start stop and back to zero optimal. date at 12 oclock. with special sweepsecond hand. in red and black,odd and even numbers, changing optimal. keeps a excellent time, suitable for everyday wear. the winding is soft, pleasant and comfortable. the dial is really nice and looks better live overall exceptional conditions the watch will not go unnoticed. the watch strap is new . it has just been serviced by a professional watch maker. $ for any extra info or pics please ask. will be shipped from italy by express mail, recorded delivery with tracking.",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "153",
+    "UserID": "francescopotenza",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "MinimumToBid": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "192204186697",
+  "TimeLeft": "P2DT19H8M50S",
+  "ListingStatus": "Active",
+  "Title": "\ud83c\udf3b\ud83c\udf44\ud83c\udf3cNY Collection And Other Mix And Match Costume Jewelry \ud83c\udf3c\ud83c\udf44\ud83c\udf3b",
+  "ConditionDescription": "One set is brand new and has tags!...the other pieces are new without the tags. All Pieces Have Never Been Worn! Cleaning Out Jewelry...Listing Some Pretty Pieces!",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "Europe",
+    "CA",
+    "AU"
+  ],
+  "CurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "40.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-01T09:38:33.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New without tags",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-08T09:38:33.000Z",
+  "PrimaryCategoryID": "10970",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Multi-Color",
+        "Name": "Color"
+      },
+      {
+        "Value": "2 Necklaces 1 Pair Dangle Earrings 1Cuff Bracelet",
+        "Name": "Type"
+      },
+      {
+        "Value": "Unknown",
+        "Name": "Metal"
+      },
+      {
+        "Value": "NY Collection And Others Not Known",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Wood",
+        "Name": "Material"
+      }
+    ]
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NY-Collection-And-Other-Mix-And-Match-Costume-Jewelry-/192204186697",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Thomasville, North Carolina",
+  "Description": "The NY Collection Is Still Sealed! The Others Do Not Have A Name on The Jewelry Pieces. The NY Collection Alone Retailed for $29.95! Since I Am Extremely Picky About What I Purchase...The Other Items Were Not Cheap! Pretty Accessories Can Really Liven Up An Outfit! The NY Collection was Made In The USA. I Cannot Find Any Other Markings On The Other Pieces. These Are So Nice Due To Colors You Can Mix And Match With Other Jewelry You Already Have! Refer To The Pictures as They Are Part of The Description. A Flash May Have Been Used To Show Details. All Measurements are Approximate. Colorful Necklace L 27\". Matching Earrings L 3\". All Brown with Rust Necklace 24\". Inside Bangle Width 8\". If You Decide To Purchase More Than One Set Of Jewelry From A Separate Listing, Message Me To See If I Can Help You Find A Desirable Price. Feel Free To Ask Any Questions Before Bidding. Shipping Costs Listed Are For Inside The States Only. International Bidders Message Me About Shipping Costs. No Refunds or Returns.",
+  "PrimaryCategoryIDPath": "281:10968:10970",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1922041866978080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "janicetheshopper",
+    "FeedbackScore": "399",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/W5UAAOSw-3FZC5DV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jbMAAOSwuMZZC5DY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PJ8AAOSwCQZZC5Da/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ji8AAOSwuMZZC5Dc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/PTEAAOSwCQZZC5De/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XPkAAOSw-3FZC5Dg/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QV0AAOSw7GRZC5Di/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jyYAAOSwuMZZC5Dl/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Mixed Items & Lots",
+  "PostalCode": "27360"
+}

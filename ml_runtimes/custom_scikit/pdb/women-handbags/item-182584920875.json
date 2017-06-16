@@ -1,0 +1,112 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "TimeLeft": "P17DT7H21M54S",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODM4WDc4MA==/z/hWQAAOSwuLZY5Fla/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTI0WDg2MA==/z/VYwAAOSwc-tY5FlY/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDQz/z/lS8AAOSw~CFY5Fld/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/KATE-SPADE-NEW-YORK-CLASSIC-NYLON-15-INCH-DAVENEY-LAPTOP-BAG-/182584920875",
+  "ConvertedCurrentPrice": {
+    "value": "239.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Detail Track Page Views WithAuctiva's FREE Counter",
+  "Title": "KATE SPADE NEW YORK CLASSIC NYLON 15 INCH DAVENEY LAPTOP BAG",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "239.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Ferndale, Michigan",
+  "Seller": {
+    "FeedbackScore": "1557",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "etrend.inc"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48220",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-20T22:23:09.000Z",
+  "HitCount": "37",
+  "SecondaryCategoryIDPath": "11450:169291:169293",
+  "EndTime": "2017-06-19T22:23:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Color",
+        "Value": "Stripe"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "12\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "2\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "16\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "11-22\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182584920875",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "SecondaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "SecondaryCategoryID": "169293",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1825849208758080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

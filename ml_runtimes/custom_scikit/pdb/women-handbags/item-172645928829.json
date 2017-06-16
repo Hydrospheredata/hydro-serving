@@ -1,0 +1,81 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTIyWDUyMg==/z/J8wAAOSwtZJZAMPF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/MLEAAOSwJ4hZAMOR/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Vera-Bradley-Make-Change-Diaper-Bag-Baby-Bag-RIO-Bright-Fun-Print-NWT-/172645928829",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Form meets function in this well designed \"Make a Change\" diaper bag by Vera Bradley. Features include an exterior zip down pocket that reveals a roll out, detachable changing pad and two elastic slip pockets. Duffel styling with an extra roomy interior and six interior pockets, large zippered front pocket and two side bottle pockets. Wipe clean interior. 16 1/2\" w x 12\" h x 5 1/2\" d with a 15\" strap drop. Great bag that can be used for travel when you no longer need a diaper bag!! RIO print. NWT.Please check my other listings for more great VB items.I am not an authorized Vera Bradley representative, retailer, distributor, or affiliated with Vera Bradley or its representatives in any way, nor is this auction endorsed or authorized by Vera Bradley",
+  "Title": "NWT Vera Bradley Make a Change Diaper Bag Baby Bag RIO Bright Fun Print NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "Fort Wayne, Indiana",
+  "Seller": {
+    "FeedbackScore": "1989",
+    "PositiveFeedbackPercent": "98.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "toy_buyer2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46845",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-26T16:00:28.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P23DT32M25S",
+  "EndTime": "2017-06-25T16:00:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Make a Change Baby Bag"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "RIO"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003290903"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172645928829",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1726459288298080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

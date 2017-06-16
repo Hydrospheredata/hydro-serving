@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/VpUAAOSwurZZDiJL/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/uR8AAOSwq1JZDiJR/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/cDUAAOSwAPVZDiJc/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/sTcAAOSww9xZDiJX/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/noYAAOSwKytZDd2u/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LdoAAOSw42JZDd22/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-3UAAOSwBt5ZDd3N/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/myQAAOSww9xZDd3X/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/Ua4AAOSwurZZDd3f/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/rEIAAOSwX61ZDd3o/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/UpUAAOSwurZZDd3y/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-Kate-Spade-Small-Ryan-Tote-Hawthorne-Lane-brpap-ceme-891-MSRP-229-/201944454718",
+  "ConvertedCurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Kate Spade Small Ryan Tote/Shopper PXRU5754 Hawthorne Lane Color: brpap/ceme (891) MSRP $229 NWT Dimensions: 12\"L x 9.5\"H x 5.5\"D Strap Drop: 8\" Features: One large central compartment with a large zippered pocket on one side and a large pocket on the other Please view all photos and Ask any questions you may have! Thank you & Happy eBay!",
+  "Title": "NWT Kate Spade Small Ryan Tote Hawthorne Lane brpap/ceme (891) MSRP $229",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Waterboro, Maine",
+  "Seller": {
+    "FeedbackScore": "242",
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "reazee_0"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "04087",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:13:35.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P6DT23H5M56S",
+  "EndTime": "2017-06-09T13:13:35.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Brand",
+        "Value": "kate spade new york"
+      },
+      {
+        "Name": "Color",
+        "Value": "brpap/ceme"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9.5\""
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5.5\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "8\""
+      },
+      {
+        "Name": "UPC",
+        "Value": "098689921853"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944454718",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019444547188080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

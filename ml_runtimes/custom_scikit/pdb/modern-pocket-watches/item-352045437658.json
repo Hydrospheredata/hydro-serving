@@ -1,0 +1,86 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "72450",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "YR 2000 SILVER EAGLE COMMEMORATIVE LIMITED EDITION WALKING LIBERTY POCKET WATCH .1 oz 925. Pure Fine SilverThis is a very pretty watch, and is in very good working condition.Will be hard to find one in this good of condition. Item# 3387",
+  "StartTime": "2017-05-01T23:41:23.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/vLIAAOxyGwNTD~Bv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/MQMAAOxy4fVTD~CB/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/LNEAAOxy0bRTD~CR/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/LgMAAOxy0bRTD~Ch/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/M-QAAOxy4fVTD~Cv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/nRUAAMXQC-tTD~DA/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/m-cAAOxywh1TD~DT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/j8YAAMXQVT9TD~Dk/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/kfUAAOxy0NtTD~D1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/OmsAAOxy4fVTD~EU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/lMUAAOxy0NtTD~Ei/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "42.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "sammydsimon",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2260",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "12",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3520454376588080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-05-31T23:41:23.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "42.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/2000-silver-eagle-pocket-watch-Item-3387-/352045437658",
+  "Location": "Paragould, Arkansas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "2000 silver eagle pocket watch Item# 3387",
+  "Storefront": {
+    "StoreName": "sammydsimon",
+    "StoreURL": "http://stores.ebay.com/id=94085222"
+  },
+  "ItemID": "352045437658",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT4H55M59S"
+}

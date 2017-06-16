@@ -1,0 +1,82 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "14047",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173696:63200:57720",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Inside of this case measures approximately 20mmStainless steelBeautiful black dial and original hands are all included",
+  "StartTime": "2017-04-04T09:38:34.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzcyWDg5MQ==/z/uHsAAOSwax5Y1auM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODIzWDg5MQ==/z/kHgAAOSw4CFY1auQ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.25"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "57720",
+  "Seller": {
+    "UserID": "ann-tique-watches",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2029",
+    "PositiveFeedbackPercent": "98.0"
+  },
+  "HitCount": "47",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1624576814618080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T09:38:34.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "11.25"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Swiss-Del-Bana-Wristwatch-Case-Dial-/162457681461",
+  "Location": "Derby, New York",
+  "Title": "Swiss Del Bana Wristwatch Case with Dial",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "162457681461",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Parts, Tools & Guides:Parts:Movements",
+  "TimeLeft": "P2DT11H40S"
+}

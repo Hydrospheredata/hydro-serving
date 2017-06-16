@@ -1,0 +1,63 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "10.93",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "newington, Kent",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T14:44:09.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=143669965",
+    "StoreName": "Cosmoanddibs"
+  },
+  "CurrentPrice": {
+    "value": "8.5",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T14:44:09.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "401338309670",
+  "HandlingTime": "1",
+  "Description": "Ladies silver tone metal bracelet with diamontes small strap 5.4 inch Has been tested and has a new battery Stock 278",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ladies-Silver-Tone-Bracelet-Diamante-Face-New-Battery-/401338309670",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Used",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4013383096708080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "ME9 7sj",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT23H37M43S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFg3NDk=/z/4qsAAOSw-K9ZLtW4/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzQ5WDEwMDA=/z/KN4AAOSwBt5ZLtW7/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "Ladies Silver Tone Bracelet Diamant\u00e9 Face   New Battery",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "16531",
+    "UserID": "cosmoanddibs",
+    "FeedbackRatingStar": "YellowShooting"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

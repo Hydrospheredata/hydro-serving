@@ -1,0 +1,145 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/NwIAAOSwdI9Y8fMb/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rAQAAOSwGy5Y8fMf/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/eY4AAOSwc-tY8fMk/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rSYAAOSwGy5Y8fMo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/HA8AAOSw~CFY8fMs/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/XfQAAOSwSypY8fMv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lwcAAOSwnF9Y8fMz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/pCgAAOSwj25Y8fM2/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hello-Kitty-Shoulder-Tote-Bag-Purse-Handbag-Shopping-Pouch-Pochette-Japan-T5529-/252970461354?var=",
+  "ConvertedCurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Welcome to Best Deal Japan Store! \u25a0Condition : Brand New / New Sealed \u25a0Color Variation : Black / Navy \u25a0Size : 12.59\" \u00d7 14.56\" \u00d7 6.69\" (H32cm \u00d7 W37cm \u00d7 D17cm) Handle Height : 7.48\" (19cm) \u25a0Detail: Zippered open, 1 inner pocket \u25a0Material : Synthetic Fabric Shipping \u25a0Please choose shipping method as follows. 1) EMS (about 5-9 days / tracked and insured) \u30fbAsia :$18, USA:$24, Canada/Australia :$24, Europe :$28, Africa :$35 2) e-Packet (about 7-14 days / tracked & insured up to JPY6000) \u30fbAsia :$12, USA:$12, Canada/Australia :$15, Europe :$15, Africa :$22 3) Registered SAL(about 14-30 days / tracked & insured up to JPY6000) \u30fbAsia :$7, USA:$9, Canada/Australia :$9, Europe :$12, Africa :$20 \u25a0We do combined shipment for multiple items purhcase to save postage! * Please Note: Import duties, taxes and charges are not included in the item price or shipping charges. These charges are the buyer's responsibility. Payment Paypal Only. Please make payment within 4 days after the auction closed. About Us I am Japanese and live in Japan. All my products are 100% official product. I never deal fake or bootleg. I always do my best for customer satisfaction. I promise to give you a satisfaction if you buy from me. * Please feel free to ask me your question.",
+  "ExcludeShipToLocation": [
+    "MX",
+    "IL",
+    "CN",
+    "JP"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "japan",
+  "Seller": {
+    "FeedbackScore": "1915",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "sakuraya.japan"
+  },
+  "PrimaryCategoryID": "63852",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Hello Kitty Shoulder Tote Bag Purse Handbag Shopping Pouch Pochette Japan T5529",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/NwIAAOSwdI9Y8fMb/$_12.JPG?set_id=880000500F"
+        },
+        {
+          "VariationSpecificValue": "Navy",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/rAQAAOSwGy5Y8fMf/$_12.JPG?set_id=880000500F"
+        }
+      ],
+      "VariationSpecificName": "color"
+    },
+    "Variation": {
+      "Quantity": "1",
+      "StartPrice": {
+        "value": "78.99",
+        "_currencyID": "USD"
+      },
+      "SKU": "17041519144968",
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "color",
+          "Value": "Black"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "color",
+        "Value": [
+          "Black",
+          "Navy"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-06-02T10:04:29.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P29DT19H37M36S",
+  "EndTime": "2017-07-02T10:04:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Hello Kitty \u00d7 Freak Paradise"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote bag"
+      },
+      {
+        "Name": "Material",
+        "Value": "Synthetic Fabric"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Zip"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Hello Kitty"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252970461354",
+  "Storefront": {
+    "StoreName": "sakuraya777",
+    "StoreURL": "http://stores.ebay.com/id=1066480684"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "We accept return within 30 days from the receipt of the item for refund.\nBuyer has to contact us first before return the item. Unless the item is defective, the buyer is responsible of paying return shipping cost and we refund the cost of item ONLY.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "JP",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

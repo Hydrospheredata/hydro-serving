@@ -1,0 +1,84 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "320.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "JP",
+  "Location": "Hyogo",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:11:50.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1082920074",
+    "StoreName": "reference-shop"
+  },
+  "CurrentPrice": {
+    "value": "320.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:11:50.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Wristwatch",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "332245684365",
+  "HandlingTime": "3",
+  "Description": "\u25b6ITEM NO. 1413500-12471-3 \u25b6NAMESICURA Diver's Wristwatch \u25b6COLOR Silver Dial: Black \u25b6MATERIAL Stainless Steel / Leather Belt \u25b6APPROX SIZE Case:W0.9 x H1.1inch Band Length:5.9inch \u25b6Gender Women's \u25b6SpecMovement:Hand Winding \u25b6ADDITIONAL ITEMS None \u25b6ITEM RANK Used AB Rank \u25b6CONDITION DETAILSScuffing, stains and deterioration on the inside of the glass, dial and hands. Overall scuffing, stains and scratches on the case and leather belt. All our items are also available for purchase on other varaious shopping sites. While we do our best to keep our customers updated regarding the availability of each item there may be times we are not able to do so due to time lag when an item is sold elsewhere. In such cases we ask for your understanding and cooperation. All our items we have on sale, unless described as Brand New, are pre-owned items. We do our best to accurately describe the item condition and all existing damages but due to the nature of internet shopping there may be cases when we are unable to describe each damage in detail. We ask for your understanding in such cases. We welcome calls or mails whenever you have a question concerning our items. REFERENCE Ltd. BRANDSHOP REFERENCE Sannomiya Firstbill 2F 3-2-11 Isobedori Chuoku Kobeshi Hyogoken Japan 651-0084 TEL:+81-78-242-1248 FAX:+81-78-242-0628",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AUTHENTIC-SICURA-Womens-Divers-Wristwatch-Hand-Winding-Silver-/332245684365",
+  "ConditionDescription": "Good : Used with a few stains and/or scratches. 1413500-12471-3",
+  "NewBestOffer": "false",
+  "SKU": "1413500-12471-3",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3322456843658080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H54M32S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/TFcAAOSwLEtYj~a-/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/q8IAAOSw44BYj~bC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Rw8AAOSw-0xYj~bF/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/w7QAAOSwnHZYj~bI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/zVsAAOSwUKxYj~bL/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/ywEAAOSwopRYj~bP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Xm0AAOSwA3dYj~bT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/WK8AAOSwTglYj~bW/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "AUTHENTIC SICURA Women's Diver's Wristwatch Hand-Winding Silver",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackScore": "1830",
+    "UserID": "reference-shop",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

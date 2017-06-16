@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2921344900798080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwM1gxMjk5/z/j8sAAOSwlMFZLXSC/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzIx/z/WcQAAOSwi7RZLXSJ/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTI3N1gxMjM4/z/OogAAOSwZ4dZLXSQ/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTI5M1gxMjQy/z/lDIAAOSwcB5ZLXSW/$_3.PNG",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDMx/z/D1YAAOSwfpVZLXSa/$_3.PNG"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sakroots-Artist-Circle-Flap-Backpack-/292134490079",
+  "ConvertedCurrentPrice": {
+    "value": "124.02",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Sakroots Artist Circle Flap Backpack Product Features Canvas Imported 100% Polyester lining Magnetic Snap closure 16\" shoulder drop 15.5\" high 13.5\" wide Pockets: 2 interior slip, 1 interior zip, 4 exterior Product Description On May-30-17 at 15:52:02 PDT, seller added the following information:",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "124.02",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "United States",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "10332",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "sivan.i"
+  },
+  "PrimaryCategoryID": "169292",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Sakroots Artist Circle Flap Backpack",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-05-30T13:33:15.000Z",
+  "HitCount": "11",
+  "TimeLeft": "P26DT22H41M34S",
+  "EndTime": "2017-06-29T13:33:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Sakroots"
+      },
+      {
+        "Name": "Manufacturer",
+        "Value": "Sakroots"
+      },
+      {
+        "Name": "MPN",
+        "Value": "105804-806"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0711640539057"
+      },
+      {
+        "Name": "UPC",
+        "Value": "711640539057"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292134490079",
+  "Storefront": {
+    "StoreName": "Best Goods Store",
+    "StoreURL": "http://stores.ebay.com/id=995739855"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B017USYQ6S",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

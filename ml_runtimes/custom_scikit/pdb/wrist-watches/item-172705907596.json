@@ -1,0 +1,81 @@
+{
+  "ConvertedBuyItNowPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "ConvertedCurrentPrice": {
+    "value": "65.06",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1727059075968080_1.jpg",
+  "GlobalShipping": "false",
+  "StartTime": "2017-05-31T13:37:44.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BuyItNowAvailable": "true",
+  "CurrentPrice": {
+    "value": "65.06",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-03T13:37:44.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "Description": "BRAND NEW WITH TAGS STILL ATTACHED. BEAUTIFUL GOLD.",
+  "BuyItNowPrice": {
+    "value": "125.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705907596",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michael Kors",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "NWT MICHAEL KORS WATCH GOLD",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-MICHAEL-KORS-WATCH-GOLD-/172705907596",
+  "ListingType": "Chinese",
+  "BestOfferEnabled": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "HitCount": "2",
+  "PostalCode": "02780",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Location": "Taunton, Massachusetts",
+  "TimeLeft": "P2DT22H25M57S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4MA==/z/oAgAAOSwi7RZLscc/$_32.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "65.06",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "0.0",
+    "FeedbackScore": "0",
+    "UserID": "louidasilv59",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

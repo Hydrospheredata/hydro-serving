@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826012200868080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQwMA==/z/f38AAOSw~FJZL7nh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDIyNA==/z/FvUAAOSwurZZL7nh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQ0Ng==/z/mAkAAOSw42JZL7ni/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQ5NA==/z/1jcAAOSwBt5ZL7nh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQwMQ==/z/78wAAOSwPh5ZL7nh/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDQxMA==/z/J7QAAOSwfpVZL7ni/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Sakroots-Womens-Artist-Circle-Flap-Backpack-Navy-Spirit-Desert-/182601220086",
+  "ConvertedCurrentPrice": {
+    "value": "72.01",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Sakroots Women's Artist Circle Flap Backpack, Navy Spirit Desert Pockets: 2 interior slip, 1 interior zip, 4 exterior Drawstring backpack for going out or for school Shipping We offer FREE shipping on all orders! We ship within Three business days of payment, usually sooner. We use a selection of shipping services such as UPS, FedEx, USPS etc. We only ship to the lower 48 states, no APO/FPO addresses or PO Boxes allowed. Please make sure the shipping address is correct when checking out as the address cannot be changed after order is placed. Return You can return a product for up to 30 days from the date you purchased it. Any product you return must be in the same condition you received it and in the original packaging. Please keep the receipt. Payment We accept payment by any of the following methods:PayPalPlease pay as soon as possible after winning an auction, as that will allow us to post your item to you sooner! Feedback Customer satisfaction is very important to us. If you have any problem with your order, please contact us and we will do our best to make you satisfied. Contact Us If you have any queries, please contact us via ebay. We usually respond within 24 hours on weekdays. Please visit our eBay store to check out other items for sale! Thank you for shopping at our store.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "72.01",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Multiple Locations",
+  "Seller": {
+    "FeedbackScore": "65",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "maggiepum17"
+  },
+  "PrimaryCategoryID": "169292",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Sakroots Women's Artist Circle Flap Backpack Navy Spirit Desert",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T06:53:23.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P28DT16H11M58S",
+  "EndTime": "2017-07-01T06:53:23.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "105804-499"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Sakroots"
+      },
+      {
+        "Name": "Model",
+        "Value": "105804-499"
+      },
+      {
+        "Name": "UPC",
+        "Value": "711640544532"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0711640544532"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "182601220086",
+  "Storefront": {
+    "StoreName": "maggiepum17",
+    "StoreURL": "http://stores.ebay.com/id=1609722819"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B01AVMVT60",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,129 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "23.89",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "CN",
+  "Location": "HongKong",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:54:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1146674220",
+    "StoreName": "eiprile"
+  },
+  "CurrentPrice": {
+    "value": "23.89",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-07T08:54:27.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Men",
+        "Name": "Gender"
+      },
+      {
+        "Value": "001",
+        "Name": "Model"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "stylishwatch001",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Fashion & Casual",
+        "Name": "Style"
+      },
+      {
+        "Value": "Stylish Watch China",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Quartz",
+        "Name": "Movement"
+      },
+      {
+        "Value": "GIMTO",
+        "Name": "Brand Name"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "606024506384",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ItemID": "263012676306",
+  "HandlingTime": "3",
+  "Description": "Business Fashion Men Watch Stylish Faux Leather Stainless Steel Wrist Watch New Features:Condition: 100% New and High QualityClasp type: BuckleCase material: Stainless SteelBand Material: LeatherCase Diameter(cm): 4.5 cm approxBand Width(cm): 2.2 cm approxBand length(cm): 24.5 cm approxNet weight: (Steel band)61g approx, (Leather band)62g approx Note:1.The real color of the item may be slightly different from the pictures shown on website due to brightness of your monitor and light brightness 2.Please allow slight deviation for the measurement data. Package include:1 x Wrist Watch",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Business-Fashion-Men-Watch-Stylish-Faux-Leather-Stainless-Steel-Wrist-Watch-New-/263012676306",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2630126763068080_1.jpg",
+  "HitCount": "3",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P6DT17H26M9S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTM4OFgxNDg3/z/5XYAAOSww9xZAmUl/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/e84AAOSwdjNZAmRF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Gz4AAOSw7GRZAmRJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY3WDEwMDA=/z/l3UAAOSw-3FZAmUR/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDE2WDEwMDA=/z/9McAAOSwcgNZAmUS/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDE2WDEwMDA=/z/IVsAAOSwjqVZAmUT/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTI3OVgxMDAw/z/fFoAAOSwT-FZAmUV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQyWDk5Mg==/z/eGwAAOSwX61ZAmW1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODEzWDk5Mg==/z/fVcAAOSwhvFZAmXF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjY3WDEwMDA=/z/5fsAAOSwrhBZAmUb/$_57.JPG?set_id=8800005007"
+  ],
+  "Title": "Business Fashion Men Watch Stylish Faux Leather Stainless Steel Wrist Watch New",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "53",
+    "UserID": "eiprile",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "Before return u should contact seller and we gonna be more than happy to help you out!"
+  }
+}

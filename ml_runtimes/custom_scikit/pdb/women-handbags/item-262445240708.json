@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2624452407088080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDAz/z/GToAAOSwQjZXPiGS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MzQ=/z/ct4AAOSwEOxXPiGS/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg0NDE=/z/nEQAAOSwd2xXPiGT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzM3WDE2MDA=/z/3UQAAOSwq5pXPiGT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODczWDE2MDA=/z/GW8AAOSwQjZXPiGT/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDA1/z/dp4AAOSwrnNXPiGR/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg3ODk=/z/bx8AAOSwbcJXPiGS/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Stroll-Around-Baby-2-Shoulder-Bag-/262445240708",
+  "ConvertedCurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Vera Bradley Stroll Around Baby 2 Shoulder Bag Product Overview Color: Fuchsia These retail for $159 Features: 100% Cotton Imported Fabric lining Zipper closure 15\" shoulder drop 12\" high 16.5\" wide Pockets: 7 interior slip, 4 exterior Made in China Made with JoeLister Quality Products Have peace of mind knowing that your order will arrive original factory sealed packaging. That means that you'll have the full force of the manufacturer's warranty to protect your purchase. Fast and Free Shipping You're already purchasing the item. Why pay additional for shipping, especially slow shipping? We get your order shipped out and delivered to your doorstep as quickly as possible. Commitment We are committed to making sure that you leave this transaction satisfied. That means having access to real people that get your questions and concerns answered quickly. Give us a shot and we will make sure that you will look to us again! inkFrog Analytics",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "2361",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "wantsthat"
+  },
+  "PrimaryCategoryID": "169295",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Vera Bradley Stroll Around Baby 2 Shoulder Bag",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-05-19T20:27:01.000Z",
+  "HitCount": "249",
+  "TimeLeft": "P11DT4H49M40S",
+  "EndTime": "2017-06-13T20:27:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Fuchsia"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "MPN",
+        "Value": "does not apply"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003317969"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262445240708",
+  "Storefront": {
+    "StoreName": "My Warehouse Bargains",
+    "StoreURL": "http://stores.ebay.com/id=5911127"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "1004749672",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

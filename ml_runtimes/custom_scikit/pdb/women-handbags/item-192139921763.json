@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1921399217638080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMTQ0/z/N~IAAOSwc-tY1tcv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg3OTY=/z/FgAAAOSwax5Y1tcu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg4MDk=/z/tXsAAOSw4CFY1tcu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg5NTA=/z/9T4AAOSwmgJY1tcu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg2MzQ=/z/TckAAOSwCU1Y1tcu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDMw/z/9U4AAOSwmgJY1tcu/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFg0NzA=/z/N7sAAOSwc-tY1tcu/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Rowallan-Womens-Brown-Leather-Underarm-Shoulder-cross-body-Bag-Shipping-/192139921763",
+  "ConvertedCurrentPrice": {
+    "value": "104.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Rowallan of Scotland are proud to be Queen's Award winners. With over 50 years' experience they are masters of their trade. Rowallan products are made from carefully selected leathers and they pride themselves on quality through tradition. Key Features: This bag features a choice of two detachable leather shoulder straps, one fastens with two poppers on eash side of the strap and can be used as an underarm bag. The other fastens with a clip and is fully adjustable allowing the bag to be worn in a variety of ways. There are two zipped pockets on the front of the bag along with two open slip pockets. Inside there are two open pouches, two leather pen holders and an inside zipped pocket. There is also a zipped pocket on the back of the bag. The leather is natural and genuine so with use it will develop a natural patina and any marks in the grain are an indication of its uniqueness. This is the beauty of a fine natural leather. Size: Length 30cm x Height 26cm x Width 4cm. Shoulder Strap 1 = Strap Drop: 25cm. Shoulder Strap 2 = Total Length 140cm",
+  "Title": "Rowallan Womens Brown Leather Underarm, Shoulder or cross body Bag. Shipping is",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "104.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-25T20:46:29.000Z",
+  "HitCount": "6",
+  "TimeLeft": "P21DT4H25M31S",
+  "EndTime": "2017-06-23T20:46:29.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Rowallan"
+      },
+      {
+        "Name": "MPN",
+        "Value": "489988250"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192139921763",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:61690425:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

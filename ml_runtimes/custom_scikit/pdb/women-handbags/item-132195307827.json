@@ -1,0 +1,77 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTE1NVgxMTU1/z/r6kAAOSwlMFZHIOj/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/McKlein-USA-LYNDON-96679-Pink-Leather-Ladies-Briefcase-/132195307827",
+  "ConvertedCurrentPrice": {
+    "value": "240.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "************Item will come repackaged************* 12.75\" high4.5\" wideItalian LeatherSmall front pocket with key lock. .Front and back pocket for files.Main compartment divided by secure zipper pocketBuilt-in padded laptop sleeve that fits laptops up to 15.4\u201d. Tubular over the shoulder straps",
+  "Title": "McKlein USA LYNDON 96679 Pink Leather Ladies' Briefcase",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "240.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "San Diego, California",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "110",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "kennyemporium"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92117",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-17T17:10:56.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P14DT2H8M10S",
+  "EndTime": "2017-06-16T17:10:56.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Material",
+        "Value": "Italian Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "McKlein"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132195307827",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1321953078278080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

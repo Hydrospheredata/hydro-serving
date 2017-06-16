@@ -1,0 +1,157 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "77841",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "For sale is a vintage Swiss made pocket watch! It has an Admiral branded dial and is a Hanover movement. One jewel hand winding! The watch doesn't work and is sold for parts or repair. Please see photos for condition and measurements. Message with questions! Check out my other items! :) Texas residents are required by law to pay sales tax. If you have a problem with your purchase, please contact me before opening a case or requesting a return. Thanks!",
+  "StartTime": "2017-05-16T00:18:14.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NjcxWDY0MQ==/z/C4UAAOSwt0FZAq6g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjQzWDU5MA==/z/8FMAAOSwCQZZAq6X/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODAyWDc3Nw==/z/ZTwAAOSw42JZAq6o/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTIxWDEwOTM=/z/gyoAAOSwjqVZAq5~/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODY0WDg3OA==/z/6pEAAOSwhvFZAq51/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzAzWDYxNg==/z/020AAOSwX61ZAq6M/$_12.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Aluminum",
+        "Name": "Material"
+      },
+      {
+        "Value": "Swiss Made",
+        "Name": "Features"
+      },
+      {
+        "Value": "Less than 7 Jewels",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Switzerland",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Lever",
+        "Name": "Escapement Type"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "yadda_yadda_yadda",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8402",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "74",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2019251881038080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-15T00:18:14.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Admiral-Swiss-Made-Hanover-Aluminum-Case-Pocket-Watch-Repair-Parts-/201925188103",
+  "Location": "College Station, Texas",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Vintage Admiral Swiss Made Hanover Aluminum Case Pocket Watch Repair Or Parts",
+  "Storefront": {
+    "StoreName": "Yadda Yadda Yadda-About Nothing",
+    "StoreURL": "http://stores.ebay.com/id=984832138"
+  },
+  "ItemID": "201925188103",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P14DT5H38M6S"
+}

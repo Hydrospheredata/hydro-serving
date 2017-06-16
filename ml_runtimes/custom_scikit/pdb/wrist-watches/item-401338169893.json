@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "IL",
+  "Location": "Hod-HaSharon, Israel",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T08:26:25.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1229225088",
+    "StoreName": "SuperDynamic"
+  },
+  "CurrentPrice": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T08:26:25.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Lucerne",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "BH",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "PK"
+  ],
+  "ItemID": "401338169893",
+  "HandlingTime": "1",
+  "Description": "Hello and Welcome! Description : This Listing is for a Used Lucerne Swiss Vintage Wrist Watch Face measures approximately 2.5cm. Accessories : Accessories not included. Condition : Faulty - Sold AS-IS. No Returns or Guarantee for this item. In poor cosmetic condition. Please check the item's pictures. Shipping: 10$ USD Worldwide by Registered Air Mail. Orders are sent within 1 business day after payment has been received. Shipping usually takes 12 to 21 business days. Please notice there may be some normal delays in customs or post, which are beyond our control. We combine shipping so if you are buying multiple items, please wait for a new total invoice. Israeli buyers \u2013 please notice the shipping cost is the same price as for international buyers, and contain the cost of VAT (We do not charge extra pay for VAT). Returns and Guarantees : We do our best to show and to describe the item's condition. If you are not pleased with your purchase, we will accept returns and offer a full money back refund, if item's condition not as described. Please contact us in any question. Have a nice day! Normal 0 false false false EN-US X-NONE HE",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Lucerne Swiss Vintage Wrist Watch",
+  "ConditionDescription": "Not Working - Sold AS-IS",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Lucerne-Swiss-Vintage-Wrist-Watch-/401338169893",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/4013381698938080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT16H56M15S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNDcy/z/upkAAOSwdjNZGVFU/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V98AAOSwblZZGVF0/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/M2sAAOSwYvFZGVFk/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vqEAAOSwYlRZGVFu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wycAAOSwZ4dZGVFZ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/tOUAAOSw1WJZGVFf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/THEAAOSwIaFZGVFp/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GJEAAOSwK6RZGVF5/$_1.JPG?set_id=8800005007"
+  ],
+  "MinimumToBid": {
+    "value": "8.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "621",
+    "UserID": "superdynamic",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

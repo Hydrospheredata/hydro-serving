@@ -1,0 +1,104 @@
+{
+  "ReturnPolicy": {
+    "Description": "The shipping and handling fee of 5$ is not refundable",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "382115957144",
+  "TimeLeft": "P6DT22H36M3S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Rings",
+  "QuantitySold": "0",
+  "HandlingTime": "5",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/925-Silver-Hebrew-Shema-Israel-Prayer-Ring-Jewish-Israel-/382115957144",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T11:48:13.000Z",
+  "PaymentMethods": [
+    "PayPal",
+    "VisaMC",
+    "Discover",
+    "AmEx"
+  ],
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "IL",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-12T11:48:13.000Z",
+  "PrimaryCategoryID": "67681",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Band",
+        "Name": "Style"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "Size Selectable",
+        "Name": "Ring Size"
+      },
+      {
+        "Value": "Yes",
+        "Name": "Sizable"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "Israel",
+        "Name": "Country of Manufacture"
+      }
+    ]
+  },
+  "Title": "925 Silver Hebrew Shema Israel Prayer Ring Jewish Israel",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Very Unique and Special HandmadeSterling 925 Silver Ring FeaturingOne of the most important Jewish prayers\"Shema Israel\" Prayer in Hebrew \"Hear, O Israel: the Lord is our God, the Lord is one\" Description:Material - Ring and the Hebrew name are made form Sterling 925 SilverSize - Since the ring is made per order - any size can be made. Contact:Have any questions ? - Contact MeFor more beautifull items - Visit My eBay StoreWant to know who am I? - View My About Me page Thank you for your interest!",
+  "PrimaryCategoryIDPath": "281:10968:67681",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3821159571448080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "israeldepot",
+    "FeedbackScore": "7656",
+    "FeedbackRatingStar": "Green"
+  },
+  "Quantity": "1",
+  "Location": "Jerusalem",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTMzWDgwMA==/z/OEwAAOSwpDdVEv7D/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000"
+}

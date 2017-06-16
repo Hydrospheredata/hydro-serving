@@ -1,0 +1,65 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.25"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "53154",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "LEGERE Pocket Watch with wood caseQuartz movementGold color watch and chainOpened box but is new",
+  "StartTime": "2017-05-27T16:21:13.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/Oj0AAOSwa~BYO106/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/96QAAOSwA3dYO10G/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/magAAOSwux5YO10J/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/cYoAAOSwHMJYO10M/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/xzkAAOSwEzxYO10O/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/kbsAAOSwB09YO10t/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.25"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "dtcraftsman",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "128",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225260662318080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T16:21:13.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "6.25"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Legere-Pocket-Watch-/222526066231",
+  "Location": "Oak Creek, Wisconsin",
+  "Title": "Legere Pocket Watch",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "222526066231",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P5DT21H45M44S"
+}

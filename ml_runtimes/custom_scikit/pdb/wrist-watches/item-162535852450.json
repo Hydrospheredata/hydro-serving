@@ -1,0 +1,110 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "GR",
+  "Location": "athens",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:01:27.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-10T11:01:27.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Seiko",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Mechanical (Automatic)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "seiko 6139-7070",
+        "Name": "Model"
+      },
+      {
+        "Value": "471632",
+        "Name": "Serial Number"
+      },
+      {
+        "Value": "1970-1979",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535852450",
+  "HandlingTime": "2",
+  "Description": "ALL THE WATCH IS ORIGINAL PERFECT WORKING CONDITION VERY CLEAR WATCH",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "PERFECT VINTAGE SEIKO 6139-7070 CHRONOGRAPH 1974",
+  "ConditionDescription": "This beautiful Vintage Seiko 6139-7070 Chronograph is a really nice watch, in Excellent used condition and is Completely Original.The watch has been serviced recently and runs well, the Original blue grey coloured dial in excellent used condition. The outer ring is in very nice used condition.The main hour/min hands glow in dark,The Chronograph works and resetting very well. The watch features Seiko's superb date adjustment system and functions correctly. The Crystal is scratch free. The stainless steel case is in excellent used condition. The watch comes on an Original stainless steel Seiko bracelet",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PERFECT-VINTAGE-SEIKO-6139-7070-CHRONOGRAPH-1974-/162535852450",
+  "ListingType": "Chinese",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625358524508080_1.jpg",
+  "HitCount": "30",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P9DT19H40M34S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xmkAAOSwX9FZLqB2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QKQAAOSwIaFZLqCO/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pbIAAOSwcgNZLqCn/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-M4AAOSwq1JZLqC8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/RXcAAOSwlMFZLqDU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nD8AAOSwH09ZLqDr/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/eOwAAOSwaEhZLqEQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/A-AAAOSwurZZLqEr/$_1.JPG?set_id=880000500F"
+  ],
+  "MinimumToBid": {
+    "value": "150.0",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "2",
+    "UserID": "superrazor16",
+    "FeedbackRatingStar": "None"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

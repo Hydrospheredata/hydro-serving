@@ -1,0 +1,104 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/2DwAAOSw2gxYuluT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/k4gAAOSw32lYulug/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4e4AAOSwSlBYulut/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/zIAAAOSwuxFYulu5/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HR0AAOSwB-1YulvG/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nIEAAOSwhlZYulvT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-ocAAOSwTuJYulvi/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aBYAAOSwWxNYulvx/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Tignanello-Leather-Black-brown-strap-tote-Excellent-/292137998669",
+  "ConvertedCurrentPrice": {
+    "value": "51.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Tignanello Leather Black with brown strap, tote. ExcellentPocket one each side.Snap closureInside back zip pocketInside front, two open pocketsInside, divider zip pocket.No rips or tears, like new.Back zip pocket Used a couple of time, in excellent condition.Body 100% genuine leather, trim: man made: lining 100% polyesterSmoke/pet free.No returns/refunds.",
+  "Title": "Tignanello Leather Black with brown strap, tote. Excellent",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Saint Joseph, Missouri",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "395",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "tweet_4"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "64506",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:10:06.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT23H1M54S",
+  "EndTime": "2017-07-02T13:10:06.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Tignanello"
+      },
+      {
+        "Name": "Style",
+        "Value": "Totes & Shoppers"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black with brown straps"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Magnetic Snap"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "9 inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5 1/2 inches"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "little over 10 inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "10 inches"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "292137998669",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921379986698080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

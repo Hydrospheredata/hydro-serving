@@ -1,0 +1,167 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New without tags",
+  "Quantity": "1",
+  "TimeLeft": "P28DT9H2M54S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "FACTORY NEW",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "CurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "282508340893",
+  "ConvertedCurrentPrice": {
+    "value": "39.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "1500",
+  "BidCount": "0",
+  "StartTime": "2017-06-03T22:04:07.000Z",
+  "Site": "US",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Enamel-Crystal-Black-Perching-Green-Parrot-Gold-Tone-Brooch-Pin-Pendant-Bail-/282508340893",
+  "Country": "US",
+  "GlobalShipping": "true",
+  "EndTime": "2017-07-03T22:04:07.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Alelange",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Gold Tone",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Base Metal"
+      },
+      {
+        "Value": "Green Crystal",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Green and Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "New Enamel Crystal Black Perching Green Parrot Gold Tone Brooch Pin Pendant Bail",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Salt Lake City, Utah",
+  "Description": "New Enamel Crystal Black Perching Green Parrot Gold Tone Brooch Pin Pendant Bail 3.5\" x 3/4\"Vibrant Green EnamelGreen Crystals, Black CrystalGold Tone1.375\" pinstem2mm Bail for chainsOn May-14-17 at 15:40:58 PDT, seller added the following information:",
+  "Charity": {
+    "CharityName": "United States Fund for UNICEF",
+    "CharityID": "4332",
+    "Mission": "The U.S. Fund for UNICEF helps save and protect the world's most vulnerable children. Rated one of the best charities to donate to, 90% of every dollar spent goes directly to help children.",
+    "Status": "Valid",
+    "CharityNumber": "1443",
+    "DonationPercent": "10.0",
+    "LogoURL": "http://i.ebayimg.com/00/s/MjU2WDgwMA==/z/iCsAAOSwblZZJ-94/$_1.PNG?set_id=8800005007"
+  },
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2825083408938080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "rainniac",
+    "FeedbackScore": "1382",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "rainniac",
+    "StoreURL": "http://stores.ebay.com/id=277631028"
+  },
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "PaymentMethods": "PayPal",
+  "HitCount": "4",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4NDI=/z/QcQAAOSwXYtYtKFH/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxNDQw/z/RCoAAOSwXYtYtKFf/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "PostalCode": "84120"
+}

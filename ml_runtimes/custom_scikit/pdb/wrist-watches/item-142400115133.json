@@ -1,0 +1,115 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Oceanside, New York",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T12:02:41.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1204979971",
+    "StoreName": "ritzjewelers"
+  },
+  "CurrentPrice": {
+    "value": "30.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T12:02:41.000Z",
+  "ShipToLocations": [
+    "US",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "HK",
+    "DE",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142400115133",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Leather",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Crown Master Heart inside Heart Stainless Steel Ladies Watch with Diamonds",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Crown-Master-Heart-inside-Heart-Stainless-Steel-Ladies-Watch-Diamonds-/142400115133",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1424001151338080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "11572",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H44M54S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDgz/z/42IAAOSwIwhWRmcy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5NDg=/z/uycAAOSweuxWRmcv/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg4NTE=/z/DSQAAOSwiwVWRmcq/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MzM=/z/9YkAAOSwkZhWRmct/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIzNFgxNjAw/z/9sIAAOSwkZhWRmc4/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Crown Master Polished Stainless Steel Women's Watch Heart in Heart Face Design with Diamond Beating and Diamonds. Bezel Set Diamonds on Watch Body Japanese Quartz Movement with a Stainless Steel Case Back Comes with 2 Additional Genuine Leather Bands ATM Water Resistant Won't Last at this Price! Makes a Great Gift! We Offer Free Shipping! Hassle Free Guaranteed 15 Day Return Policy Please Email Us with any questions concerning this item. Thank You Very Much For Looking",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "41",
+    "UserID": "ritzjewelers",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

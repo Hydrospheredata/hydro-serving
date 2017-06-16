@@ -1,0 +1,399 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Douguyan-Beach-Bag-Canvas-Tote-Shoulder-Handbag-252C-Huge-Saving-/192144845809?var=",
+  "ConvertedCurrentPrice": {
+    "value": "81.2",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: A basic canvas beach bag suitable for most of the vacation. Roomy for all your daily essentials. Note: 1. Please allow 1-3 cm error due to manual measurement. 2. Colours will be differ slightly from the picture due to lighting effects.",
+  "Title": "Douguyan Beach Bag Canvas Tote Shoulder Handbag 252C. Huge Saving",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "81.2",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Color B",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0110/635/158/247003939/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color I",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0110/635/159/246990566/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color M",
+          "PictureURL": "http://rcdn-4.fishpond.co.nz/0110/635/160/247002240/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color J",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0110/635/161/246991796/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color C",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0110/635/162/246998973/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color F",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0110/635/163/247005290/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color G",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0110/635/164/247007785/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color D",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0110/635/165/246999171/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color L",
+          "PictureURL": "http://rcdn-2.fishpond.co.nz/0110/635/166/247007385/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color H",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0110/635/167/246991244/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color E",
+          "PictureURL": "http://rcdn-1.fishpond.co.nz/0110/635/168/246994255/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color K",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0110/635/169/247001360/original.jpeg"
+        },
+        {
+          "VariationSpecificValue": "Color A",
+          "PictureURL": "http://rcdn-3.fishpond.co.nz/0110/635/170/247008167/original.jpeg"
+        }
+      ],
+      "VariationSpecificName": "Colour Name"
+    },
+    "Variation": [
+      {
+        "Quantity": "4",
+        "StartPrice": {
+          "value": "81.2",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635158:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color B"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635159:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color I"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635160:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color M"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635161:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color J"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635162:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color C"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635163:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color F"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635164:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color G"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635165:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color D"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635166:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color L"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635167:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color H"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635168:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color E"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635169:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color K"
+          }
+        }
+      },
+      {
+        "Quantity": "0",
+        "StartPrice": {
+          "value": "1000.0",
+          "_currencyID": "USD"
+        },
+        "SKU": "25:110635170:US",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Colour Name",
+            "Value": "Color A"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Colour Name",
+        "Value": [
+          "Color B",
+          "Color I",
+          "Color M",
+          "Color J",
+          "Color C",
+          "Color F",
+          "Color G",
+          "Color D",
+          "Color L",
+          "Color H",
+          "Color E",
+          "Color K",
+          "Color A"
+        ]
+      }
+    }
+  },
+  "StartTime": "2017-03-31T11:29:40.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P26DT19H12M12S",
+  "EndTime": "2017-06-29T11:29:40.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Douguyan"
+      },
+      {
+        "Name": "MPN",
+        "Value": "771502164"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192144845809",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Quantity": "4",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:110635157:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

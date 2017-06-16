@@ -1,0 +1,81 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "179.5"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "94404",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:3937:3940",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Hamilton 39MM 10S 21J 921 Open Face Adj 5 Positions Movement No Reserve. Silver metal dial with applied gold numerals showing some contact marks. Very nice clean and sharp running nickle movement and comeswith stem and crown. Powered by eBay Turbo Lister The free listing tool. List your items fast and easy and manage your active items.",
+  "StartTime": "2017-05-28T20:39:14.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/gAYAAOSwSypY98Uz/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/vCgAAOSwtZJY98U0/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/vD8AAOSwtZJY98U1/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/DYIAAOSwJ4hY98U2/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/O-oAAOSwvihY98U3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/0SwAAOSw5UZY98U3/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/TWEAAOSwmCVY98U4/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/gXwAAOSwSypY98U5/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "179.5"
+  },
+  "HighBidder": {
+    "UserID": "m***j",
+    "FeedbackRatingStar": "Yellow",
+    "FeedbackScore": "34",
+    "FeedbackPrivate": "false"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "3940",
+  "Seller": {
+    "UserID": "geno",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "8945",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "55",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1225204407088080_1.jpg",
+  "BestOfferEnabled": "false",
+  "ListingStatus": "Active",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "182.0"
+  },
+  "BidCount": "15",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "EndTime": "2017-06-04T20:39:14.000Z",
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hamilton-39MM-10S-21J-921-Open-Face-Adj-5-Positions-Movement-No-Reserve-/122520440708",
+  "Location": "San Mateo, California",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Hamilton 39MM 10S 21J 921 Open Face Adj 5 Positions Movement No Reserve",
+  "Storefront": {
+    "StoreName": "geno",
+    "StoreURL": "http://stores.ebay.com/id=706101"
+  },
+  "ItemID": "122520440708",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Antique",
+  "TimeLeft": "P4DT2H25M26S"
+}

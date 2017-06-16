@@ -1,0 +1,75 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "11421",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "4",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Montana Silversmiths Pocket Watch New In Case You are bidding on this New in box Montana Silversmiths pocket watch. The watch has a quartz movement. The battery is still working as of the time I posted this. Care instructions and warranty are in the bottom of the case. I have been downsizing my collectibles and selling everything as it is. If you require additional photos or questions please let me know. Payment and Shipping I accept PayPal only. Payment is due within 7 days of winning auction. If payment is not received, I reserve the right to re-list this item. Shipping rate quoted is for Domestic Bidders in the lower 48 states. There are no returns or refunds for this item. Please don?t hesitate to ask questions and if you need additional pictures I will be happy to provide them. If this item is what you have been looking for and meets your criteria then I wish you the best of luck in your bidding. Thanks and Good Luck.",
+  "StartTime": "2017-05-27T21:48:20.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~yUAAOSw3v5YnjKD/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/53IAAOSwWxNYnjJv/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-0MAAOSwx6pYnjKR/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "Seller": {
+    "UserID": "finn-n-fiona",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "464",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3225326688148080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T21:48:20.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "50.0"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Montana-Silversmiths-Pocket-Watch-New-Case-/322532668814",
+  "Location": "Woodhaven, New York",
+  "Title": "Montana Silversmiths Pocket Watch New In Case",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "322532668814",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT3H13M5S"
+}

@@ -1,0 +1,66 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Boynton Beach, Florida",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T13:14:56.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1187214304",
+    "StoreName": "D and E A to Z"
+  },
+  "CurrentPrice": {
+    "value": "19.0",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:14:56.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "182600146690",
+  "HandlingTime": "2",
+  "Description": "Decent condition. Watch is not working but probably just needs a new battery. Front reads Guess, quartz. Watch has a little wear.",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Guess-Womens-Watch-/182600146690",
+  "NewBestOffer": "false",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1826001466908080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "33472",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT22H1M44S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/hj4AAOSwNphWYibp/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg4NjQ=/z/IDcAAOSwf-VWYib5/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTU1MVg2Mzk=/z/IXoAAOSwf-VWYicG/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg5NjA=/z/NYQAAOSwv-NWYicU/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTQ0MFg3MDM=/z/1lUAAOSw7FRWYich/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2OVg4NjQ=/z/8HYAAOSwp5JWYict/$_12.JPG?set_id=880000500F"
+  ],
+  "Title": "Guess Women's Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "643",
+    "UserID": "mustangford2008",
+    "FeedbackRatingStar": "Purple",
+    "TopRatedSeller": "true"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

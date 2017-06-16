@@ -1,0 +1,170 @@
+{
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Alaska/Hawaii",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.59"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Features: Stainless Steel case and alloy chain Elegant design with precise mechanical movement Skeleton and transparent dial shows exquisite movement and structure within the watch Removable stainless steel chain with a clip at the end Classic series pocket watch is a good present for your love, seniority or yourself Measurements: Case diameter: approx. 4.6 cm Case thickness: approx. 1.5 cm (cover included) Chain length: approx. 37.5 cm (hook included) Watch weight: approx. 76 g Package includes: 1 * Pocket watch 1 * Chain belt 1 * Box Instructions: Once you receive the mechanical watch, open the watch first. Press the crown at the top of watch, the front plate will open. Setting time: pull the crown away from base of the watch and turn the crown clockwise until it reaches the exact time. Winding the watch: push the crown back into place along the base of the watch and winding up the watch clockwise rotation 20 times; Please do not over winding up the watch if you feel the crown is tight. - Vintage pocket watch with a silver tone metal chain - Skeleton dial with silver digital numerals scale - Good present for families or friends - Come with a box Mudder Classic Smooth Surface Silver Mechanical Pocket Watch with Chain",
+  "StartTime": "2017-03-06T17:16:02.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/1IoAAOSwXYtYvZlV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/1GkAAOSwXYtYvZlU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/rgEAAOSw2gxYvZlV/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/j3MAAOSwCU1YvZlU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/fMIAAOSwfVpYvZlU/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMTYw/z/rgcAAOSw2gxYvZlV/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "713072662099",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0713072662099",
+        "Name": "EAN"
+      },
+      {
+        "Value": "Mudder",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Mudder-Mechanical Pocket Watch-01",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.2 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 3.7 x W 3.54 x H 2.28 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "ayelet2105",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7277",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "98.5"
+  },
+  "HitCount": "64",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2823856463668080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-04T17:16:02.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "27.59"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "CN",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "MX",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Mudder Classic Smooth Surface Silver Mechanical Pocket Watch with Chain",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mudder-Classic-Smooth-Surface-Silver-Mechanical-Pocket-Watch-Chain-/282385646366",
+  "Storefront": {
+    "StoreName": "Ayelet2105",
+    "StoreURL": "http://stores.ebay.com/id=1143485829"
+  },
+  "ItemID": "282385646366",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P3DT22H24M12S"
+}

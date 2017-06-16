@@ -1,0 +1,161 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.0"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "98512",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New with tags",
+  "Description": "The case is very highly polished brass, glistens like gold! Matching chain with belt clip. Original deluxe cushioned, gold embossed display box. Skeletal case features front and rear crystals that enable viewing the entire mechanical movement and observation of the the back and forth rotation of the balance wheel. Truly in mint-perfect condition, inside and out.",
+  "StartTime": "2017-05-27T20:53:15.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/LY8AAOSwIgNXmOJM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/HbUAAOSwENxXmOJp/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/CXMAAOSweXhXmOJz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/iW8AAOSwRgJXmOJZ/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.0"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Brass",
+        "Name": "Material"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Roman Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical (Hand-winding)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "morty13",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2052",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625313654248080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-06T20:53:15.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "28.0"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "AU",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "JP",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "FR",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "DE",
+    "AT",
+    "RU",
+    "IL",
+    "MX",
+    "NZ",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "AE",
+    "QA",
+    "KW",
+    "BH",
+    "HR",
+    "MY",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Gold-finish-highly-polished-mech-skeletal-pocket-watch-w-chain-display-box-/162531365424",
+  "Location": "Olympia, Washington",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Gold finish, highly polished mech. skeletal pocket watch w.chain + display box,",
+  "Storefront": {
+    "StoreName": "Precision Time Direct",
+    "StoreURL": "http://stores.ebay.com/id=5925642"
+  },
+  "ItemID": "162531365424",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT2H17M57S"
+}

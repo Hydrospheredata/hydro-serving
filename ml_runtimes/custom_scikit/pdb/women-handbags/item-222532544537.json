@@ -1,0 +1,119 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/zYEAAOSwA3dYQDko/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/xCYAAOSwiDFYQDkq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/fNwAAOSwcUBYQDks/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/6AoAAOSwiONYQDku/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/~~gAAOSwB09YQDky/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Z3AAAOSw2xRYQDkz/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Z84AAOSw2xRYQDk1/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kate-Spade-RIVA-ROAD-SEQUINS-SMALL-SCOTTY-Black-BRAND-NEW-/222532544537",
+  "ConvertedCurrentPrice": {
+    "value": "159.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "KATE SPADE NEW YORK Riva Road Sequins Small Scotty Black Leather upper & strap Sequined body Gold plated hardware & name plate Black bow Inside slip pocket Zip top closure 18\u201d-22\u201d adjustable strap Measures approximately 7\u201d H x 9\u201d W x 3\u201d D Dust bag included Style #WKRU2887 All of my items come from a smoke-free home.Buy With Confidence!",
+  "Title": "Kate Spade RIVA ROAD SEQUINS SMALL SCOTTY Black BRAND NEW",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "159.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Bayville, New Jersey",
+  "Seller": {
+    "FeedbackScore": "10351",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "YellowShooting",
+    "UserID": "dlw62554"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "08721",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:04:00.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P29DT20H40M41S",
+  "EndTime": "2017-07-02T11:04:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kate Spade"
+      },
+      {
+        "Name": "Style",
+        "Value": "crossbody"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather & Sequin"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "18\"-22\" adjustable strap"
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "3\""
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9\""
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "7\""
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "222532544537",
+  "Storefront": {
+    "StoreName": "Deb&#39;s Web Shop",
+    "StoreURL": "http://stores.ebay.com/id=46713915"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "If there is a significant error in the item description, the items may be returned and the purchase price will be refunded. Returns for any other reason will have purchase price refunded - minus shipping and a 15% restocking fee. Items must be returned within 7 days, unused in original package and in original condition as received (no pet hair or smoke odors). Return shipping is at the buyers expense. Once I examine the returned items and they meet the above conditions you will receive your refund as stated.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2225325445378080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

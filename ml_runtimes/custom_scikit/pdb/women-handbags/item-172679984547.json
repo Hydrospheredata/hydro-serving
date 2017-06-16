@@ -1,0 +1,102 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/S1EAAOSw0hlZHImi/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2MFgxMTE2/z/b3IAAOSwGJlZHIrL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cB0AAOSw42dZHIkn/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yeMAAOSwblZZHIlL/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FPkAAOSwZ4dZHIly/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~WMAAOSwn-tZHIm3/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VERA-BRADLEY-11-X-15-LAPTOP-CASE-SLEEVE-PINK-ELEPHANT-QUILTED-SOFT-SIDE-NWT-/172679984547",
+  "ConvertedCurrentPrice": {
+    "value": "51.84",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "BUSINESS BAG OR SMALLER LAPTOP SLEEVE ENVELOPE *PLEASE NOTE SIZEWILL NOT TAKE A RETURN ON THE BASIS THAT YOU FAILED TO MEASURE YOUR LAPTOP!!!PLEASE MEASURE AND BE SURE 11\" x 15\" THIS WAS FROM 1ST RELEASE OF PINK ELEPHANTZIPS CLOSED AND HAS LG ZIPPERED POCKET ON FRONT NWT~~~~~PLEASE CHECK MY LISTINGS FOR MANY MORE VERA ITEMS!~~~~~ I AM NOT ASSOCIATED WITH VERA BRADLEY IN ANY WAY SMOKE FREE- PET FREEI SHIP WITHIN 1 BUSINESS DAY. DELIVERY DATE IS ESTIMATED DEPENDING ON US POSTAL SERVICE, WEATHER, HOLIDAYS ETC",
+  "Title": "VERA BRADLEY 11 X 15 LAPTOP CASE SLEEVE PINK ELEPHANT QUILTED SOFT SIDE NWT",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "51.84",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "Location": "Spencerville, Indiana",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "5934",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Green",
+    "UserID": "23pines"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "46788",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-17T17:39:45.000Z",
+  "HitCount": "17",
+  "TimeLeft": "P14DT2H36M56S",
+  "EndTime": "2017-06-16T17:39:45.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "vera bradley"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "172679984547",
+  "PrimaryCategoryID": "169293",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "23pines in Vera land",
+    "StoreURL": "http://stores.ebay.com/id=126711413"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1726799845478080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

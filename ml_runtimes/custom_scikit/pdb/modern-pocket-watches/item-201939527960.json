@@ -1,0 +1,107 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "10001",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "pacharadee",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "71",
+    "PositiveFeedbackPercent": "98.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "ZIJAE Mens Antique Phoenix and Dragon Roman Number Dial Skeleton Mechanical Pocket Watch Mechanical Hand-Winding Pocket Watch, Display: Analog.Chain Length 14.17 in approx.,Case diameter: 1.77 in approx. Case thickness: 0.59 in Approx.Antique Bronze Case, Black Dial, White Hands, Bronze Chain and Rose Golden Roman Numerals.Alloy Metal Case Chain, With Free Chain Gift Box.100% Brand New and High Quality Phoenix Dragon Pattern Case, Half Hunter. Specification (1 cm10 mm0.394 inch) (approximate) Case diameter: 4.5cm approx. Case thickness: 1.4cm approx. (cover included) Case Material: Alloy Chain Length: 36.6cm approx. (hook included) Chain Material: Alloy Movement: Mechanical Hand Wind Movement Color: Bronze Style: Antique Casual Gender: Men & Women Weight: 60g. Approx. Package Includes: -1 x Watch -1 Free Chain How to use mechanical watch A mechanical watch power by winding spring manually or self-winding (no need battery). 1. When you first wear it, please wind the watch by turning the button on the side of the watch, until it is full. 2. By taking the button out slightly, you can adjust the time, then push back the button. 3. If you leave it still for a long time, please swing it lightly for a few minutes and wind-up by several laps. At this time, it will work normally. 4. If still have any questions, please contact us first. Hints and Tips: . Fully winded, the power reserve of watch can reach 30-36 hours. . If you wear it more than 10 hours per day, extra winding up will not be necessary.",
+  "StartTime": "2017-05-29T04:25:27.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/GEIAAOSwYlRZKh8K/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/6zIAAOSwGJlZKh8L/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/yGwAAOSw42JZKh8M/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jCwAAOSwrhBZKh8N/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "21.11"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "ZIJAE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "PW021",
+        "Name": "MPN"
+      },
+      {
+        "Value": "740030972051",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Pocket Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "0740030972051",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "SKU": "B017I797RO",
+  "HitCount": "4",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2019395279608080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T04:25:27.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "21.11"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "not description",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/ZIJAE-Mens-Antique-Phoenix-and-Dragon-Roman-Number-Dial-Skeleton-Mechanical-/201939527960",
+  "Location": "New York, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "ZIJAE Mens Antique Phoenix and Dragon Roman Number Dial Skeleton Mechanical",
+  "Storefront": {
+    "StoreName": "pacharadee",
+    "StoreURL": "http://stores.ebay.com/id=1444416131"
+  },
+  "ItemID": "201939527960",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT9H50M45S"
+}

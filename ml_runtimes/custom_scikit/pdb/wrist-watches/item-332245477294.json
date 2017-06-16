@@ -1,0 +1,114 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "23.45",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T07:59:49.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=248984846",
+    "StoreName": "Urban 1st shopping"
+  },
+  "CurrentPrice": {
+    "value": "23.45",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T07:59:49.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "SA",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "T2H281",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Black/Silver-Tone/White",
+        "Name": "Color"
+      },
+      {
+        "Value": "Timex",
+        "Name": "Brand"
+      },
+      {
+        "Value": "753048292745",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0753048292745",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "HandlingTime": "3",
+  "Description": "Timex Men's Easy Reader Date Leather Strap Watch Description The direct descendant of our 1960s televised torture test survivors, today's Easy Reader is as durable as it is classically cool. Features: Made in USA or ImportedEasy-to-Read White Dial with Full Arabic NumeralsBlack Genuine Leather StrapPolished Silver-Tone CaseDate WindowIndiglo Light-Up Watch DialWater resistant to 99 feet (30 M) Product Details: Product Dimensions: 3.7 x 2.8 x 2.8 inchesShipping Weight: 4 ouncesOrigin: ChinaItem model number: T2H281Batteries: 1 Lithium Metal batteries required.Domestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn MoreBrand, Seller, or Collection Name: TimexModel number: T2H281Part Number: T2H2819JModel Year: 2009Item Shape: RoundDial window material type\ufeff: MineralDisplay Type: AnalogClasp: BuckleCase material: BrassCase diameter: 35 millimetersCase Thickness: 8 millimetersBand Material: CalfskinBand length: Mens StandardBand width: 17 millimetersBand Color: BlackDial color: WhiteBezel material: BrassBezel function\ufeff: StationaryCalendar\ufeff: DateSpecial features: includes a seconds-hand, Water Resistant, LuminousItem weight: 4 OuncesMovement\ufeff: Analog-QuartzWater resistant depth: 99 Feet Handling I will ship all orders within 3 business day of payment. Delivery Shipping is complimentary within the lower 48 US States. I Do Not Ship Outside of the Continental US. I Do Not Ship to PO/APO Boxes, HI or Alaska. Return Policy All items qualify for returns within 30 days of receipt.Buyer is responsible for return shipping on any item that is not damaged. Returned items must be in their original packaging and in the same condition in which they were received. Feedback I take my reputation seriously, I buy and sell online, so I understand the value of trust. If you are unsatisfied with your order, please contact me and I will work with you to resolve it to your satisfaction.",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Easy-Timex-Reader-Watch-S-Men-Leather-Indiglo-Date-Black-Band-Tone-Strap-/332245477294",
+  "NewBestOffer": "false",
+  "SKU": "B000AYYIYU",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3322454772948080_1.jpg",
+  "ItemID": "332245477294",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT16H28M30S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg4MDk=/z/CIUAAOSw0hlZLnfv/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTA1WDE2MDA=/z/zjQAAOSwxu5ZLnfy/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "Easy Timex Reader Watch S Men Leather Indiglo Date Black Band Tone Strap",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackScore": "541",
+    "UserID": "michal1209",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "For US ONLY - All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.\n\nFor non-US shipping - no returns or refund accepted. \n***Please read carefully before placing your order."
+  }
+}

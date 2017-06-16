@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMzI4/z/w3UAAOSw-0xYb9Tf/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTU0M1gxNjAw/z/ErsAAOSwnHZYb9Ti/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/H0sAAOSwt5hYb9Tm/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/J-World-New-York-Velox-Laptop-Backpack-Indigo-One-Size-/112260699750",
+  "ConvertedCurrentPrice": {
+    "value": "67.26",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "J World New York Velox Laptop Backpack Description J world new york velux backpack has a unique and stylish design. The main compartment is very spacious and there are utility pockets on the side and front to provide extra storage space. The s-shaped shoulder straps align with the shape of its consumer's body, giving comfort when wearing the backpack. The backpack comes with a laptop sleeve Features: 100% PolyesterImported60012.5\" high17.5\" wideS-shaped shoulder strapsLaptop sleeveAir mesh cushioned and PU backFront pocket organizerUtility pockets and sternum strap Product Details: Product Dimensions: 6 x 17.5 x 12.5 inchesShipping Weight: 1.6 poundsItem model number: JWS-108 INDIGODomestic Shipping: Item can be shipped within U.S. International Shipping: This item is not eligible for international shipping. Learn More",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "67.26",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1727",
+    "PositiveFeedbackPercent": "99.9",
+    "FeedbackRatingStar": "Red",
+    "UserID": "melondelight"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "J World New York Velox Laptop Backpack Indigo One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-01-06T17:33:28.000Z",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1122606997508080_1.jpg",
+  "TimeLeft": "P3DT2H21M28S",
+  "EndTime": "2017-06-05T17:33:28.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "NA"
+      },
+      {
+        "Name": "Color",
+        "Value": "Indigo"
+      },
+      {
+        "Name": "Brand",
+        "Value": "J World New York"
+      },
+      {
+        "Name": "UPC",
+        "Value": "NA"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112260699750",
+  "Storefront": {
+    "StoreName": "MelonDelight",
+    "StoreURL": "http://stores.ebay.com/id=88779270"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer. A 10% restocking fee may apply.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "B00EARSSGC",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

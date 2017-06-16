@@ -1,0 +1,85 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P5DT17H44M4S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "QuantitySold": "0",
+  "HandlingTime": "2",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "152572545890",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kirks-Folly-Seaview-Moon-Face-Brooch-Hour-Glass-Fairy-Star-Dangle-Charms-Box-/152572545890",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "85.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T06:40:56.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-11T06:40:56.000Z",
+  "PrimaryCategoryID": "50677",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Kirks Folly",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Yellow Gold Plated",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Animals & Insects",
+        "Name": "Theme"
+      },
+      {
+        "Value": "Yellow",
+        "Name": "Color"
+      },
+      {
+        "Value": "Crystal",
+        "Name": "Main Stone"
+      }
+    ]
+  },
+  "Title": "Kirks Folly Seaview Moon Face Brooch Hour Glass Fairy Star Dangle Charms in Box",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "The words \"Kirks Folly Seaview Moon\" are engraved on the back of the pin too!. She is 3\" wide almost just a tad short of 4\" long including the gorgeous dangles. The beautiful magical hand made in Germany glass Seaview Moon shines brightly, her face surrounded by aurora borealis crystals. Sparkly charms dangle under her smiling face including stars, multi-faceted beads, a fairy and crystals.",
+  "PrimaryCategoryIDPath": "281:10968:50677",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1525725458908080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "hartofthewest2013",
+    "FeedbackScore": "203",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Terrebonne, Oregon",
+  "HitCount": "7",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/dhgAAOSwax5Y0V0l/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/EV4AAOSwuLZY0V0s/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTQ2OVgxMjYy/z/1eIAAOSwuxFY0V0g/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxNTYy/z/~WgAAOSw2gxY0V0x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/XoEAAOSwB-1Y0V02/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/~d8AAOSwOgdY0V07/$_12.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "3000",
+  "PostalCode": "97760"
+}

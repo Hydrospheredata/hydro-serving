@@ -1,0 +1,97 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "84.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Houston, Texas",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T00:07:01.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "84.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T00:07:01.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "142399653321",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Diamond Accent",
+        "Name": "Features"
+      },
+      {
+        "Value": "Black",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "Bangle",
+        "Name": "Band Type"
+      },
+      {
+        "Value": "Enamel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Anne Klein",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "Women's Diamond Accent Black Enamel & Gold-Tone Bangle Bracelet Watch-Anne Klein",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Womens-Diamond-Accent-Black-Enamel-Gold-Tone-Bangle-Bracelet-Watch-Anne-Klein-/142399653321",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1423996533218080_1.jpg",
+  "HitCount": "1",
+  "PostalCode": "77067",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT8H49M36S",
+  "ConditionID": "1500",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTUwMFgxMjI1/z/eEYAAOSw4CFY5TRV/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NTg4WDQ4MQ==/z/otIAAOSwAANY5TRU/$_32.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTUwMFgxMjI1/z/HLcAAOSwVctY5TRV/$_32.JPG?set_id=880000500F"
+  ],
+  "Description": "Women's Diamond Accent Black Enamel & Gold-Tone Bangle Bracelet Watch-Anne Klein Product Details: Goldtone polished bangle with black enamel filling and end adjustable links using a jewelry clasp closure and 1 extenderRound gold-tone case, 30mmBlack dial with diamond accent marker, gold-tone dot indices, three hands and Anne Klein logoQuartz movementWater resistant to 30 meters Photo may have been enlarged and/or enhanced. As different computers display different colors, the color of the actual item may vary slightly from the above images. Box is little damage but item is brand new Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "26",
+    "UserID": "buy-online1",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

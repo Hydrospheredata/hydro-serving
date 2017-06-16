@@ -1,0 +1,85 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/YnoAAOxy1klRdUyO/$T2eC16V,!yME9s5qGsEQBRdUyOb-cQ~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BCMAAOxyPLpRdUyd/$(KGrHqF,!k8FEM42IYkZBRdUydN6Kg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/AMANI-PEACE-HANDMADE-LARGE-HANDBAG-TOTE-/302337483130",
+  "ConvertedCurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "AMANI PEACE HANDICRAFTED 100% COTTON HANDMADE IN KENYA MULTICIOLOR HANDBAG/TOTE. \"SOWING PEACE THROUGH THE EYE OF A NEEDLE\". DOUBLE ZIPPERS, GENTLE WASH. 17\" TALL, 22\" WIDE. FREE EXPEDITED PRIORITY SHIPPING. (PB)",
+  "Title": "AMANI PEACE HANDMADE LARGE HANDBAG/TOTE",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "65.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Winston-Salem, North Carolina",
+  "Seller": {
+    "FeedbackScore": "1407",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "keonas1"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "27106",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T11:40:09.000Z",
+  "HitCount": "3",
+  "TimeLeft": "P29DT21H19M47S",
+  "EndTime": "2017-07-02T11:40:09.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "AMANI PEACE"
+      },
+      {
+        "Name": "Style",
+        "Value": "HANDBAG 2 TOTE"
+      },
+      {
+        "Name": "Material",
+        "Value": "100% COTTON"
+      },
+      {
+        "Name": "Color",
+        "Value": "Multi-Color"
+      },
+      {
+        "Name": "Size",
+        "Value": "Large"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "302337483130",
+  "Storefront": {
+    "StoreName": "keonas1",
+    "StoreURL": "http://stores.ebay.com/id=191525209"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3023374831308080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

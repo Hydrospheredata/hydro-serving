@@ -1,0 +1,98 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/g2wAAOSwol5Y2yku/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/h1gAAOSwCU1Y2ykv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Q~8AAOSwuxFY2ykv/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/5lsAAOSwax5Y2ykx/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1iwAAOSwdGFY2yky/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/bocAAOSwsW9Y2yky/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Clark-Mayfield-Stafford-Vintage-Leather-Laptop-Tote-17-3-Red-/322466552007",
+  "ConvertedCurrentPrice": {
+    "value": "238.63",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Clark & Mayfield Stafford Vintage Leather Laptop Tote 17.3\" Features: Vintage Top Grain Leather13\" high17\" wideFits laptops up to 17.3\"Top Grain Vintage LeatherDurable nylon liningStrap on back to slide over rolling luggageFully zippered top Product Details: Product Dimensions: 5.5 x 17 x 13 inchesShipping Weight: 3.5 poundsItem model number: STVXL04 Description A beautiful vintage leather tote for laptops up to 17.3 Handling We will ship all orders within 2 business days of payment. Delivery We DO NOT SHIP TO PO Boxes or Mail Forwarding Addresses. We only ship to Paypal Verified addresses. Return Policy All items that qualify for returns must be within 14 days of receipt. Buyer is responsible for return shipping on any item that is not damaged, as well as a 15% restocking fee. No exchanges permitted. All returns must be done through EBAY and processed with an RMA number to be issued refund. Upon receiving RMA, buyer has 7 days to have item shipped back. Item must be in original condition and packaging. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "238.63",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "9321",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "Green",
+    "UserID": "ccs-craigw"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Clark & Mayfield Stafford Vintage Leather Laptop Tote 17.3\" Red",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-29T03:12:52.000Z",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3224665520078080_2.jpg",
+  "TimeLeft": "P24DT12H4M20S",
+  "EndTime": "2017-06-27T03:12:52.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "STVXL-04"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Clark & Mayfield"
+      },
+      {
+        "Name": "UPC",
+        "Value": "648260970550"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0852234002745"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322466552007",
+  "Storefront": {
+    "StoreName": "RivalTech",
+    "StoreURL": "http://stores.ebay.com/id=776355051"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "All returns accepted within 14 days after receiving the item, refund given as money back (no exchanges permitted), return shipping to be paid by buyer.  All returns will be charged a 15% restocking fee.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B004C4Z11S",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

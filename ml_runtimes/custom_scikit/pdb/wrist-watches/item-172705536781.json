@@ -1,0 +1,106 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "5.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Allen, Texas",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:40:26.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "5.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:40:26.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "172705536781",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Avon",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Oval",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Mother of Pearl",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Stainless Steel Back",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Black and Antiqued Silvertone",
+        "Name": "Band Color"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE AVON 'GENUINE ONYX BEADED WATCH' MOTHER OF PEARL FACE SECOND HAND QUARTZ",
+  "ConditionDescription": "Good condition.  Watch works great and keeps good time.  The mother of pearl face is lovely and crystal shows no scratches or scuffs.  The black onyx is in good condition, the antiqued silver tone finish shows a little wear on some of the filigree panels.  Clasp holds securely. See photos.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-AVON-GENUINE-ONYX-BEADED-WATCH-MOTHER-PEARL-FACE-SECOND-HAND-QUARTZ-/172705536781",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1727055367818080_1.jpg",
+  "HitCount": "6",
+  "PostalCode": "75013",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT18H14M30S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/52MAAOSwuspY-5-2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5EoAAOSwJ4hY-5-4/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/usQAAOSw3ZRY-5~z/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CccAAOSwWiBY-6AD/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE5NVgxNTk5/z/mncAAOSw5UZY-5~j/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE4M1gxNjAw/z/YaQAAOSwmCVY-6CW/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Vintage AVON 'GENUINE ONYX BEADED WATCH' Watch runs great. It has second hand, quartz movement and stainless steel back. Art Deco inspired design. Pretty mother of pearl oval face set in antiqued silver tone filigree look case with black onyx insets. Band is alternating antiqued silver tone filigree look panels and genuine black onyx beads. Closes with fold over clasp, which closes securely. Watch fits 6-3/4 inch wrist. Sadly, it is not adjustable. Watch works great and keeps good time. The mother of pearl face is lovely and crystal shows no scratches or scuffs. The black onyx is in good condition, the antiqued silver tone finish shows a little wear on some of the filigree panels. See photos. *************************************************** We ship all orders in cardboard box mailers, no plastic or kraft paper bubble mailers. This item ships for only $0.10 when purchased as an additional item. We offer great combined shipping rates and we combine shipping on all items won within a 3 day period from your first won item. All items must be paid on one invoice and ship in same package to qualify for shipping discount.After 4 days, an unpaid item case will automatically be opened for non payment unless you contact us first. Texas Residents pay 8.25% Sales Tax. Shipping to US only. Sorry, no International Shipping.Standard Shipping is USPS 1st Class Mail. USPS Priority Mail is available as an option Lot 7170",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "317",
+    "UserID": "thevintagelot-2",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "Description": "refund on merchandise only; item must be in original, as received condition"
+  }
+}

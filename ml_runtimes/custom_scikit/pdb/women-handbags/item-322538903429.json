@@ -1,0 +1,110 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Reusable Eco Bags",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169302",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTUyWDk0OA==/z/UgAAAOSwYvFZHhm0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjQwWDg0MA==/z/NKMAAOSw9OFZHhmf/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzNlg3ODQ=/z/iAIAAOSw42JZHhmM/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTg4WDEwODA=/z/aLwAAOSw~FJZHhl5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzMlgxNDky/z/xwcAAOSw8lpZHhlh/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA1MlgxMjE2/z/TGkAAOSwfpVZHhlK/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAzNlgxMjQ4/z/tn0AAOSwcaFZHhk0/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTg4WDExMDQ=/z/B-YAAOSwCQZZHhkg/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Michael-Kors-Jet-Set-Medium-Travel-Tote-Leather-Dark-Taupe-278-NWT-/322538903429",
+  "ConvertedCurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "155.99",
+    "_currencyID": "USD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Auction is for a new with tag ($278.00), Michael Kors Jet Set Medium Travel Tote. The color is \"Dark Taupe\". The material is a coated leather. It is about 11 inches in height, about 14 inches in length at the bottom and about 19 inches in length at the top. The depth is about 6 3/4 inches. The inside has a zippered pocket and an open pocket. Our home is smoke free. If you have any questions please ask. I am listing 3 shipping options to save you the most money on shipping.",
+  "ConvertedBuyItNowPrice": {
+    "value": "155.99",
+    "_currencyID": "USD"
+  },
+  "ExcludeShipToLocation": [
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169302",
+  "Location": "Ogden, Utah",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1364",
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackRatingStar": "Red",
+    "UserID": "mystic283"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "119.99",
+    "_currencyID": "USD"
+  },
+  "PostalCode": "84404",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T15:24:14.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P8DT22H8M49S",
+  "EndTime": "2017-06-11T15:24:14.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Michael Kors"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Travel Tote"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322538903429",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Title": "Michael Kors Jet Set Medium Travel Tote ~ Leather ~ Dark Taupe ~ $278 ~ NWT",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225389034298080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

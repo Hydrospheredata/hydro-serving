@@ -1,0 +1,192 @@
+{
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValue": "No",
+    "Refund": "Money Back"
+  },
+  "MinimumToBid": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "99.9",
+    "UserID": "besparkledagain",
+    "FeedbackScore": "50187",
+    "TopRatedSeller": "true",
+    "FeedbackRatingStar": "PurpleShooting"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "382114935053",
+  "TimeLeft": "P4DT1H49M24S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Vintage & Antique Jewelry:Vintage Ethnic/Regional/Tribal:Scandinavian",
+  "QuantitySold": "0",
+  "Site": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "SecondaryCategoryID": "50677",
+  "ConvertedCurrentPrice": {
+    "value": "149.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "SecondaryCategoryIDPath": "281:10968:50677",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T14:43:35.000Z",
+  "HandlingTime": "1",
+  "QuantitySoldByPickupInStore": "0",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vintage-Georg-Jensen-Sterling-Silver-Modernist-Bar-Tie-Clip-75B-/382114935053",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-09T14:43:35.000Z",
+  "PrimaryCategoryID": "52610",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Tie Bar",
+        "Name": "Jewelry Type"
+      },
+      {
+        "Value": "Sterling Silver",
+        "Name": "Metal"
+      },
+      {
+        "Value": "925",
+        "Name": "Metal Purity"
+      },
+      {
+        "Value": "No Stone",
+        "Name": "Main Stone"
+      },
+      {
+        "Value": "Georg Jensen",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Denmark",
+        "Name": "Country/Region of Manufacture"
+      }
+    ]
+  },
+  "Title": "Vintage Georg Jensen Sterling Silver Modernist Bar Tie Clip 75B",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM",
+    "AF",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KZ",
+    "KR",
+    "KG",
+    "MV",
+    "MN",
+    "NP",
+    "PK",
+    "RU",
+    "LK",
+    "TJ",
+    "TM",
+    "UZ",
+    "AS",
+    "CK",
+    "FJ",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AL",
+    "AD",
+    "AT",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "EE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "MK",
+    "MT",
+    "MD",
+    "MC",
+    "ME",
+    "PL",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "ES",
+    "SJ",
+    "UA",
+    "VA"
+  ],
+  "Location": "Wingo, Kentucky",
+  "Description": "Track Page Views With Auctiva's FREE Counter",
+  "PrimaryCategoryIDPath": "281:48579:165133:52610",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3821149350538080_1.jpg",
+  "ListingType": "Chinese",
+  "SecondaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Pins & Brooches",
+  "Storefront": {
+    "StoreName": "besparkledagain",
+    "StoreURL": "http://stores.ebay.com/id=36769189"
+  },
+  "Quantity": "1",
+  "PaymentMethods": "PayPal",
+  "HitCount": "2",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/OQEAAOSwHnFVrD9L/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDc5OQ==/z/Tt4AAOSw3ydVrD9M/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDc5OQ==/z/PLQAAOSwT6pVrD9O/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/h6QAAOSwDNdVrD9P/$_12.JPG?set_id=880000500F"
+  ],
+  "PostalCode": "42088"
+}

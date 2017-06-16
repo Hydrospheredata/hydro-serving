@@ -1,0 +1,168 @@
+{
+  "ExcludeShipToLocation": [
+    "CH",
+    "RE",
+    "FJ",
+    "CL",
+    "PG",
+    "SB",
+    "CN",
+    "MD",
+    "BW",
+    "MH",
+    "NR",
+    "WF",
+    "GM",
+    "SV",
+    "SC",
+    "BO",
+    "GU",
+    "AT",
+    "FM",
+    "LY",
+    "HK",
+    "CM",
+    "TW",
+    "MU",
+    "AZ",
+    "JO",
+    "MO",
+    "TO",
+    "KI",
+    "TM",
+    "NC",
+    "CR",
+    "AM",
+    "GL",
+    "YE",
+    "QA",
+    "VC",
+    "IQ",
+    "BH",
+    "TT",
+    "BZ",
+    "AW",
+    "SJ",
+    "DM",
+    "AS",
+    "PW",
+    "PF",
+    "CK",
+    "BA",
+    "MK",
+    "NI",
+    "KW",
+    "LI",
+    "AO",
+    "BM",
+    "TN",
+    "ZM",
+    "WS",
+    "DE",
+    "TV",
+    "VU",
+    "EG",
+    "MZ",
+    "MC",
+    "GG",
+    "NU",
+    "JE",
+    "VI"
+  ],
+  "QuantityThreshold": "10",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.71"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Bronze Tone",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Zinc Metal Alloy+Alloy",
+        "Name": "Material"
+      },
+      {
+        "Value": "85cm long(33 4/8\")",
+        "Name": "Size"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "GlobalShipping": "false",
+  "ConditionID": "1500",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": null,
+  "StartTime": "2017-03-07T01:08:35.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IdcAAOSw~AVYvgf5/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Xo0AAOSwCU1Yvgf7/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/GrUAAOSwWxNYvggB/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/GGsAAOSw2gxYvggI/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/e-4AAOSw4A5YvggM/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/Z3gAAOSw4CFYvggR/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "QuantitySold": "0",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "50",
+  "Country": "CN",
+  "QuantityAvailableHint": "MoreThan",
+  "SKU": "B26902",
+  "HitCount": "54",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4012868964628080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-05T01:08:35.000Z",
+  "NewBestOffer": "false",
+  "ItemID": "401286896462",
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "4.71"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "ShangHai",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "1 PC Pocket Watches Hollow Flower Carved Flower Bronze Tone 85cm(33 4/8\")long GW",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/1-PC-Pocket-Watches-Hollow-Flower-Carved-Flower-Bronze-Tone-85cm-33-4-8-long-GW-/401286896462",
+  "Storefront": {
+    "StoreName": "gemstone-wholesale2009",
+    "StoreURL": "http://stores.ebay.com/id=1135752526"
+  },
+  "Seller": {
+    "UserID": "gemstone-wholesale2009",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "FeedbackScore": "34172",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P4DT6H16M45S"
+}

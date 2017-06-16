@@ -1,0 +1,93 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1921417411468080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/qZwAAOSwXYtY2azQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/lmsAAOSwax5Y2azQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFgxNTAw/z/-VIAAOSw4CFY2azQ/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTAwWDMyNA==/z/GccAAOSwCU1Y2azP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzMyWDUwMA==/z/KSYAAOSw32lY2azQ/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MjczWDUwMA==/z/dm4AAOSwuLZY2azP/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/HiveBag-Womens-Shoulder-Bag-Orange-Schwarz-19x13x3-Free-Shipping-/192141741146",
+  "ConvertedCurrentPrice": {
+    "value": "76.68",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "HiveBag Women's Shoulder Bag Orange-Schwarz 19x13x3 by HiveBag Ships from UK Supplier Other information: 4251002901246 Related Searches: HiveBag Bags, Hobo Bags, HiveBag Hobo Dimensions: 19 x 13 x 3 centimeters Weight: 0.22 kg",
+  "Title": "HiveBag Women's Shoulder Bag Orange-Schwarz 19x13x3. Free Shipping",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "76.68",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-28T00:12:01.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P23DT7H52M33S",
+  "EndTime": "2017-06-26T00:12:01.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "HiveBag"
+      },
+      {
+        "Name": "MPN",
+        "Value": "4251002901246"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141741146",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:57134930:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

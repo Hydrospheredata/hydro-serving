@@ -1,0 +1,127 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "30.99",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "Elkhart, Indiana",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T11:31:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1425319328",
+    "StoreName": "Replacements by Estate Sellers"
+  },
+  "CurrentPrice": {
+    "value": "30.99",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:31:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112425963113",
+  "HandlingTime": "3",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Elgin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "LADIES",
+        "Name": "Gender"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "DIAMOND QUARTZ",
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Not Water Resistant",
+        "Name": "Water Resistance Rating"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Rectangle",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "GOLD-TONE",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "UNKNOWN",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Yellow Gold",
+        "Name": "Band Color"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Adult",
+        "Name": "Age Group"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "VINTAGE ELGIN LADIE'S GOLD-TONE 6\" WATCH WITH RHINESTONE ACCENTS. (BA169)",
+  "ConditionDescription": "VERY GOOD PRE-OWNED CONDITION. WILL NEED A NEW BATTERY.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VINTAGE-ELGIN-LADIES-GOLD-TONE-6-WATCH-RHINESTONE-ACCENTS-BA169-/112425963113",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "Pre-owned",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124259631138080_1.jpg",
+  "HitCount": "0",
+  "PostalCode": "46517",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H12M19S",
+  "ConditionID": "3000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/N2gAAOSw2GlXIj9s/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~~IAAOSwiYFXIj9q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/y7MAAOSw~oFXIj9o/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "Please read listing in it's entirety before bidding.. Thanks VINTAGE ELGIN LADIE'S GOLD-TONE WATCH WITH RHINESTONE ACCENTS. (BA169) MEASURES: 6\" LONG. NEEDS A NEW BATTERY. Accept payments via PayPal only! SHIPPING VIA USPS - ASK ME ABOUT COMBINED SHIPPING Returns: Unfortunately, due to quite a few issues with buyers not following the rules and the misuse of eBay's buyer protection, we no longer offer returns. The jewelry that is listed are used items and need to be treated as such. Please read the listings fully and ask any questions you might have before bidding. Please contact me with any questions you might have before bidding. Thanks for looking! On Apr-28-16 at 09:05:14 PDT, seller added the following information: Track Page Views WithAuctiva's FREE Counter",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "35",
+    "UserID": "estateseller7759",
+    "FeedbackRatingStar": "Yellow"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "BestOfferEnabled": "true",
+  "ConditionDisplayName": "New with tags",
+  "TimeLeft": "P2DT8H35M45S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Earrings",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "79.0",
+    "_currencyID": "AUD"
+  },
+  "Seller": {
+    "PositiveFeedbackPercent": "96.6",
+    "UserID": "powersell2008",
+    "FeedbackScore": "8907",
+    "FeedbackRatingStar": "Green"
+  },
+  "ItemID": "162541671360",
+  "SecondaryCategoryID": "50692",
+  "ConvertedCurrentPrice": {
+    "value": "58.76",
+    "_currencyID": "USD"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:10968:50692",
+  "BidCount": "0",
+  "StartTime": "2017-06-04T20:27:36.000Z",
+  "Site": "Australia",
+  "AutoPay": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/8-8-5MM-Elegant-Noble-Silver-White-Circular-Natural-Freshwater-Pearl-Earrings-/162541671360",
+  "Country": "AU",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T20:27:36.000Z",
+  "PrimaryCategoryID": "50647",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Natural Freshwater Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "White",
+        "Name": "Colour"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      }
+    ]
+  },
+  "Title": "8-8.5MM Elegant Noble Silver+White Circular Natural Freshwater Pearl Earrings",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "Location": "Sydney, NSW",
+  "Description": "powersell2008 Store Pearl Dimension\uff1a8-8.5MM Material: Natural Freshwater Pearl+Silver Color\uff1aWhite Pearl Shape: circular Pearl Luster\uff1aBright Light Some of the item needs to be custom made and will take few days, we will be contacting you if this happened Normal 0 7.8 \u78c5 0 2 false false false MicrosoftInternetExplorer4 Track Page Views WithAuctiva's FREE CounterEvery buyer gets a MyStoreRewards invitation for cash back",
+  "PrimaryCategoryIDPath": "281:10968:50647",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1625416713608080_1.jpg",
+  "EligibleForPickupDropOff": "true",
+  "ListingType": "FixedPriceItem",
+  "SecondaryCategoryName": "Jewellery & Watches:Fashion Jewellery:Sets",
+  "Storefront": {
+    "StoreName": "OutdoorAddiction2008",
+    "StoreURL": "http://stores.ebay.com/id=527583602"
+  },
+  "Quantity": "5",
+  "PaymentMethods": [
+    "MoneyXferAccepted",
+    "PayPal",
+    "MoneyXferAcceptedInCheckout"
+  ],
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NDExWDc1MA==/z/Pm0AAOxytQxSHEK7/$(KGrHqZHJEEFIBTyImDRBSHEK7gKJg~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MzcxWDk3OQ==/z/gfIAAMXQ6DBSHEK1/$(KGrHqZHJEkFH7odtDNWBSHEK1)ED!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTg0WDk3OQ==/z/tZwAAMXQ83xSHEK~/$T2eC16JHJIcFHO,OW8grBSHEK9idT!~~60_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTI5WDY1MQ==/z/830AAMXQPW5SHEK6/$(KGrHqVHJCkFILEu!D)rBSHEK5yhWg~~60_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "2000"
+}

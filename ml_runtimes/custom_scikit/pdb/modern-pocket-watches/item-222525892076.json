@@ -1,0 +1,71 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "1:966:7282:7284",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "IN VF CONDITION. WORKING. APPROX. 49 MM WIDE. SHIPPING FOR FRANCE IS 4.95 WE DO COMBINED SHIPPING.",
+  "StartTime": "2017-05-27T19:02:20.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/MvcAAOSw3gJZKWua/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/8OcAAOSwuMZZKWul/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/z~EAAOSwEHpZKWus/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "SecondaryCategoryID": "7284",
+  "Seller": {
+    "UserID": "estatesurplus",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2601",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "27",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225258920768080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-03T19:02:20.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "9.99"
+  },
+  "BidCount": "0",
+  "Country": "FR",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "Chinese",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Paris",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "CLYDA POCKET WATCH WORKING",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/CLYDA-POCKET-WATCH-WORKING-/222525892076",
+  "Storefront": {
+    "StoreName": "EUROPA ANTIQUE",
+    "StoreURL": "http://stores.ebay.com/id=697417813"
+  },
+  "ItemID": "222525892076",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Collectibles:Pens & Writing Instruments:Pencils:Mechanical",
+  "TimeLeft": "P3DT27M7S"
+}

@@ -1,0 +1,120 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/l6EAAOSwX61ZBu8I/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/cOEAAOSwjqVZBu8K/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/l-0AAOSwX61ZBu8L/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/aawAAOSw~y9ZBu8M/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/b-cAAOSwrhBZBu8N/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzAwWDcwMA==/z/af4AAOSw~y9ZBu8O/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Vera-Bradley-Lighten-Up-Grande-Laptop-Backpack-Bohemian-Blooms-Repellent-Trolley-/322538167233",
+  "ConvertedCurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This listing is for one Vera Bradley Lighten Up Grande Laptop Backpack in the fabric design Bohemian Blooms. These backpacks were purchased at an authorized Vera retailer, have not been used and retains the original tags. MEASUREMENTS: 12.75\" x 16.5\" x 7\"2.5\" Handle Drop at Top29.5\" Adjustable StrapsMiddle Buckle to Hold Straps Together FEATURES:2 Side Slip Pockets2 Front Zip Pockets2 Pen Slips & Slip Pocket Inside Large Front PocketTrolley SleeveZip Pocket in Middle Compartment Zips ClosedPadded Laptop Compartment Zips ClosedSpaciousMachine Wash Cold Gentle Cycle Line DryWater Repellent Printed Polyester\"Vera brings the best features to all of her backpacks now! Get yours today!\" Payment due on listing end Check out my store & other listings!SMOKE FREE ENVIRONMENTPOSITIVE FEEDBACK AFTER I KNOW YOU ARE PLEASED!",
+  "Title": "Vera Bradley Lighten Up Grande Laptop Backpack Bohemian Blooms Repellent Trolley",
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "BM",
+    "GL",
+    "MX",
+    "PM"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "79.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US",
+    "CA"
+  ],
+  "Location": "Surprise, Arizona",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "3603",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "doxie9pound"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "85379",
+  "GlobalShipping": "true",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T01:19:15.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT10H34M49S",
+  "EndTime": "2017-07-01T01:19:15.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Vera Bradley"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pinks Mauves Tan Cream"
+      },
+      {
+        "Name": "Material",
+        "Value": "Water Repellent Printed Polyester"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "China"
+      },
+      {
+        "Name": "UPC",
+        "Value": "886003411766"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "322538167233",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Cathy&#39;s Purse Closet Plus",
+    "StoreURL": "http://stores.ebay.com/id=88610745"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3225381672338080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

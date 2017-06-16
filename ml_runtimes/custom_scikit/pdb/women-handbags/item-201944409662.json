@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/SZcAAOSwImRYJLOY/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/Hh0AAOSwB09YJLOa/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/LUkAAOSw44BYJLOc/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/gtAAAOSwnbZYJLOd/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/DaQAAOSw5cNYJLOh/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/1JQAAOSw4GVYJLOj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/DrkAAOSw5cNYJLOl/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/rebecca-minkoff-/201944409662",
+  "ConvertedCurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Mini Lexi mini Bucket bag can be worn as a cross body or shoulder bag Pebbled leather tasseled draw string opening beautiful gold tone hardware the interwoven chain strap can be worn doubled both ways is definitely a statement piece one interior pocket also includes dust bag Payment should be made within 2 days or purchase will be canceled and the item will be re listed",
+  "Title": "rebecca minkoff",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "110.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Revere, Massachusetts",
+  "Seller": {
+    "FeedbackScore": "215",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "mac123452013"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "02151",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T12:01:39.000Z",
+  "HitCount": "2",
+  "TimeLeft": "P6DT21H48M31S",
+  "EndTime": "2017-06-09T12:01:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Rebecca Minkoff"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "9\""
+      },
+      {
+        "Name": "Size",
+        "Value": "Small"
+      },
+      {
+        "Name": "Color",
+        "Value": "Peach"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "8\""
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "21\" For Shoulder  12\" Arm"
+      },
+      {
+        "Name": "Style",
+        "Value": "Hobo"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "201944409662",
+  "Storefront": {
+    "StoreName": "Caroles Designer Closet",
+    "StoreURL": "http://stores.ebay.com/id=1163873131"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Returnable within 14 days of delivery please read description and pay close attention to pictures of used items if you decide that the item is not what you wanted please message me to resolve issue before returning items",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2019444096628080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "true"
+}

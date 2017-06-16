@@ -1,0 +1,95 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAyNFg4ODM=/z/SKEAAOSw5cNYM8Ky/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4MTU=/z/t10AAOSwcLxYM8Kz/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg4NTk=/z/EGMAAOSwImRYM8K1/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAyNFg2ODI=/z/HyUAAOSwB09YM8K2/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-w-t-Tag-298-00-Marc-Marc-Jacobs-Nylon-Quartz-Grey-Eliza-Baby-Bag-Tote-/391799224637",
+  "ConvertedCurrentPrice": {
+    "value": "84.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with Tag - $298.00 Marc by Marc Jacobs Nylon Quartz Grey Eliza Baby Bag Tote Track Page Views With Auctiva's FREE Counter",
+  "Title": "New w/t Tag - $298.00 Marc by Marc Jacobs Nylon Quartz Grey Eliza Baby Bag Tote",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "84.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Auburn, Maine",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "48553",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "marl14"
+  },
+  "TopRatedListing": "true",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "04210",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "PaymentAllowedSite": [
+    "Australia"
+  ],
+  "ItemID": "391799224637",
+  "TimeLeft": "P4DT9H40M38S",
+  "EndTime": "2017-06-07T01:00:57.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Tote"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Marc by Marc Jacobs"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883936647934"
+      }
+    ]
+  },
+  "Site": "US",
+  "StartTime": "2017-05-31T01:00:57.000Z",
+  "PrimaryCategoryID": "169295",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "HitCount": "8",
+  "Storefront": {
+    "StoreName": "Marl&#39;s Fashion for Less",
+    "StoreURL": "http://stores.ebay.com/id=5822326"
+  },
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3917992246378080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

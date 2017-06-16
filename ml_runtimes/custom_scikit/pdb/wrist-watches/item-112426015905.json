@@ -1,0 +1,119 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "7.69",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Boston",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T12:14:17.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=179396670",
+    "StoreName": "hild2005"
+  },
+  "CurrentPrice": {
+    "value": "5.98",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T12:14:17.000Z",
+  "ShipToLocations": [
+    "GB",
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "AU",
+    "US",
+    "RU",
+    "CA",
+    "JP",
+    "NZ",
+    "CN",
+    "IL",
+    "HK",
+    "NO",
+    "ID",
+    "MY",
+    "MX",
+    "SG",
+    "KR",
+    "TW",
+    "TH",
+    "CL"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "112426015905",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Quartz (Battery)",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Round",
+        "Name": "Watch Shape"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "eton 2867J Lightweight Wrist Watch with Zebra Face and Black Strap.",
+  "ConditionDescription": "New and unused but does show some blemishes from storage and handling and will also need a new battery. Priced accordingly.",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/eton-2867J-Lightweight-Wrist-Watch-Zebra-Face-and-Black-Strap-/112426015905",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with defects",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1124260159058080_1.jpg",
+  "HitCount": "2",
+  "PostalCode": "PE22 7JL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H56M58S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1750",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjQ1WDcyOQ==/z/OwAAAOSwvgdW2C6V/$_1.JPG?set_id=880000500F"
+  ],
+  "Description": "eton 2867J Lightweight Wrist Watch with Zebra Face and Black Strap. New and unused but does show some blemishes from storage and handling and will also need a new battery. Priced accordingly. NB. Free shipping to UK Mainland addresses only.",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.6",
+    "FeedbackScore": "2125",
+    "UserID": "hild2005",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  }
+}

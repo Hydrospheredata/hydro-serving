@@ -1,0 +1,101 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "34711",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "glw1346",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "6144",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New without tags",
+  "Description": "Click to Enlarge Click to Enlarge Click to Enlarge Click to Enlarge Click to Enlarge Click to Enlarge DESCRIPTION Presented is a Jack Daniels Old No. 7 pocket watch. The case has been coated to protect it from tarnish. I try to be different than other sellers and guarantee that each item isn't a final sale until you say it is. No case ever necessary just return to enclosed address for your money back including return shipping. The difference here is you get your money back at the mall you get a store credit or a no return policy. I value my feedback and I want my buyers treated better than any buyers on ebay. Please read my feedback I've got the best guarantee on ebay. I love ebay and the great honest buyers available I try to work with you whenever possible. I'm very proud of what my buyers say. BY GEORGE I'm open to comments and suggestions from the experts. Please feel free to combine items for shipping. If you have doubts on this item please pass it by as something will come along you are sure of. If after receiving an item you have a question or are leaving less than 5 star feedback contact me before you leave feedback. Only God and Captain Kirk don't make mistakes. I make mistakes but will fix them if given the opportunity. I'm going to say it again I make mistakes but I'll fix them talk to me. Feedback is a tool for us to complement each other when all is done and taken care of. Feedback is not a weapon to punish. If you think it is and negative feedback is ok then please pass me by and look for a flawless seller because I make mistakes. Have a happy life, be blessed, live your dreams, and prosper. george inkfrog terapeak inkFrog Analytics",
+  "StartTime": "2017-05-21T21:32:21.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/UpcAAOSwR29ZIgR~/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTcxWDE0NTY=/z/iDAAAOSwCQZZIgR9/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/FKYAAOSw3gJZIgR9/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2N1gxNjAw/z/IRAAAOSw9OFZIgR~/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/kn4AAOSwYlRZIgSC/$_10.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/mWoAAOSw~FJZIgSG/$_10.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2000-2009",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "JACK DANIELS",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Color"
+      },
+      {
+        "Value": "White",
+        "Name": "Face Color"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "SKU": "inkfrog-822932",
+  "HitCount": "24",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/4013317598748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-05-31T21:32:21.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "89.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Seller",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JACK-DANIELS-OLD-NO-7-WALKING-WISKEY-POCKET-WATCH-/401331759874",
+  "Location": "Clermont, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "JACK DANIELS OLD NO. 7 WALKING WISKEY POCKET WATCH",
+  "Storefront": {
+    "StoreName": "george&#39;s variety store",
+    "StoreURL": "http://stores.ebay.com/id=844357006"
+  },
+  "ItemID": "401331759874",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "PT2H53M42S"
+}

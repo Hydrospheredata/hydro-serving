@@ -1,0 +1,179 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "TimeLeft": "P1DT15H43M52S",
+  "ConditionDisplayName": "New without tags",
+  "ConditionDescription": "New without tags: A brand-new, unused, and unworn item.",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTEzN1gxMjAw/z/v1kAAOSwh-1W4pfN/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFg1Nzc=/z/36YAAOSwyjBW4qW3/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTExMlgxMjAw/z/SI8AAOSwh-1W4qW9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTE1N1gxMjAw/z/0IQAAOSwwpdW4qXD/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Siamod-Womens-Settembre-15-6-Leather-Medium-Padded-Laptop-Briefcase-3552-/262329936323?var=",
+  "ConvertedCurrentPrice": {
+    "value": "175.01",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Check Special Offers / Discounted Items / Event Sale & Other Promotions from GotApparel: Offers & Promotions \u00a0 If you have any queries regarding anything feel free to contact us. Toll Free Phone: 1-866-847-8678 Phone: (562) 404-4571 More Items!View more great items Powered by Frooition.com Frooition www.frooition.com | No-js Template | eBay design, eBay store design, eBay shop design, eBay template design, eBay listing design (ver:froo_no_js) This listing is currently undergoing maintenance, we apologise for any inconvenience caused.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "175.01",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "90670",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "66365",
+    "PositiveFeedbackPercent": "99.2",
+    "FeedbackRatingStar": "PurpleShooting",
+    "UserID": "global_apparel"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Siamod Women's Settembre 15.6\" Leather Medium Padded Laptop Briefcase. 3552",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "Black",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTEzN1gxMjAw/z/69kAAOSwP~tW4pfV/$_57.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "Cherry Red",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTIwMFgxMTgw/z/P28AAOSwxp9W4pfa/$_57.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "Color"
+    },
+    "Variation": [
+      {
+        "Quantity": "143",
+        "StartPrice": {
+          "value": "175.08",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939855-3552",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Black"
+          }
+        }
+      },
+      {
+        "Quantity": "139",
+        "StartPrice": {
+          "value": "175.01",
+          "_currencyID": "USD"
+        },
+        "SKU": "MK-1939856-3552",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Name": "Color",
+            "Value": "Cherry Red"
+          }
+        }
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": [
+          "Black",
+          "Cherry Red"
+        ]
+      }
+    }
+  },
+  "StartTime": "2016-03-11T07:01:00.000Z",
+  "HitCount": "488",
+  "ConditionID": "1500",
+  "EndTime": "2017-06-04T07:01:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Size",
+        "Value": "15\" x 3\" x 11\""
+      },
+      {
+        "Name": "Gender",
+        "Value": "Women"
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Laptop Compartment Size",
+        "Value": "14.5\" x 2\" x 10.5\""
+      },
+      {
+        "Name": "Pocket",
+        "Value": "yes"
+      },
+      {
+        "Name": "Occasion",
+        "Value": "Casual"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Siamod"
+      },
+      {
+        "Name": "Weight",
+        "Value": "3.74 (lbs)"
+      },
+      {
+        "Name": "MPN",
+        "Value": "3552"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262329936323",
+  "Storefront": {
+    "StoreName": "GotApparel",
+    "StoreURL": "http://stores.ebay.com/id=563445466"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "282",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Customer satisfaction is our foremost priority, for which we try our level best to deliver satisfactory products. In case of returns, we offer hassle free returns. We will exchange or refund products within 14 days after purchasing. We do not charge any fee on returns, we simply ask you to place another order and return the unwanted one separately. Get in touch with us and we will be happy to return or exchange your items within 14 days.",
+    "Refund": "Money back or exchange (buyer's choice)",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "Siamod-3552-eByprnt",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

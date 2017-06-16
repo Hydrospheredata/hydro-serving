@@ -1,0 +1,139 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.31",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T13:05:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1522969761",
+    "StoreName": "colors.store654"
+  },
+  "CurrentPrice": {
+    "value": "12.31",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T13:05:43.000Z",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "BG",
+    "LT",
+    "GR",
+    "PT",
+    "JP",
+    "SE",
+    "FR",
+    "HK",
+    "DE",
+    "MX",
+    "SG",
+    "NO",
+    "UA",
+    "BR",
+    "KN",
+    "GG",
+    "JE"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "728290970260",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0728290970260",
+        "Name": "EAN"
+      },
+      {
+        "Value": "LYMFHCH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "AW024",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "Beige",
+        "Name": "Color"
+      },
+      {
+        "Value": "boys",
+        "Name": "Department"
+      },
+      {
+        "Value": "0.15 pounds",
+        "Name": "Weight"
+      },
+      {
+        "Value": "L 6 x W 2.3 x H 0.7 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Bing-Lee",
+        "Name": "Label"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR",
+    "PO Box"
+  ],
+  "ItemID": "192203330471",
+  "HandlingTime": "3",
+  "Description": "Thank you for visiting our ebay store! Imported Canvas Nylon Strap very suitable for summer sport Super Light Luninous Face ,make you so unique when you wear at night Water resistant to 30M: suitable for daily normal waterproof ,but not for swimming Rotary Dial Case ,you can control your own time easilly Watch size (L x W x H) 24 cm x 4 x 1.2 cm - Imported Canvas Nylon Strap very suitable for summer sport - Super Light Luninous Face ,make you so unique when you wear at night - Water resistant to 30M: suitable for daily normal waterproof ,but not for swimming - Rotary Dial Case ,you can control your own time easilly - Watch size (L x W x H) 24 cm x 4 x 1.2 cm Itemstoday Boys And Girls Quartz Swiss Army Canvas Wrist Watch Luminous Dial New",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Itemstoday-Boys-And-Girls-Quartz-Swiss-Army-Canvas-Wrist-Watch-Luminous-Dial-New-/192203330471",
+  "NewBestOffer": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "true",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/1922033304718080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT21H50M49S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/jgUAAOSwIQdZLr-p/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/Ai8AAOSwK6RZLr-q/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/gRoAAOSwAPVZLr-q/$_1.JPG?set_id=880000500F"
+  ],
+  "Title": "Itemstoday Boys And Girls Quartz Swiss Army Canvas Wrist Watch Luminous Dial New",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.4",
+    "FeedbackScore": "733",
+    "UserID": "colors.store654",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

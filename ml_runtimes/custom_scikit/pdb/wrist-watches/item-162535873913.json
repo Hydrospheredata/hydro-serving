@@ -1,0 +1,121 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "225.07",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "Bath",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:25:37.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "CurrentPrice": {
+    "value": "175.0",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T11:25:37.000Z",
+  "ShipToLocations": [
+    "Americas",
+    "Europe"
+  ],
+  "SKU": "19453/14",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "162535873913",
+  "HandlingTime": "1",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Michel Herbelin",
+        "Name": "Brand"
+      },
+      {
+        "Value": "19453/14",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "12-Hour Dial",
+        "Name": "Features"
+      },
+      {
+        "Value": "Polished",
+        "Name": "Case Finish"
+      },
+      {
+        "Value": "Genuine Leather",
+        "Name": "Strap Material"
+      },
+      {
+        "Value": "Black",
+        "Name": "Strap Colour"
+      },
+      {
+        "Value": "Black",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Case Colour"
+      },
+      {
+        "Value": "Dress/Formal",
+        "Name": "Style"
+      },
+      {
+        "Value": "Two-Piece Strap",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "SAVE OVER 50%! CLOSING DOWN! Michel Herbelin Men's Metropole Watch RRP \u00a3375",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/SAVE-OVER-50-CLOSING-DOWN-Michel-Herbelin-Mens-Metropole-Watch-RRP-375-/162535873913",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1625358739138080_1.jpg",
+  "HitCount": "4",
+  "PostalCode": "BA2 1PL",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H5M54S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/bmIAAOSw44BYGcTW/$_57.JPG?set_id=8800005007"
+  ],
+  "Description": "Michel Herbelin Men's Metropole Watch - James Samson Michel Herbelin Men's Metropole Watch Act Fast! Less than 50 products left in our Closing Down Sale! View the complete range. Old world glamour inspired Men's watch from Michel Herbelin. A smart and sophisticated watch for your wrist. Designed in France with a Swiss movement. Comes With: 2 year Michel Herbelin guarantee, Manual and Michel Herbelin presentation box RRP \u00a3375 Features: - Model: 19453/14 - Movement: 10 1/2 ETA F05.111 SS Swiss Quartz - Case width: 32mm - Case depth: 6mm - Case Material: Polished stainless steel - Case Colour: Silver - Strap type: Croco grain leather strap with natural lining - Strap colour: Black - Clasp type: Buckle - Date: Yes - 6 o'clock - Dial Colour: Black - Hands: Silver - Water resistant: 50 metres About James Samson Based in Bath, James Samson offers a range of Jewellery, Watches, Gifts and Clocks, from over 20 small independent brands. In addition to a small product selection on eBay, our main online store includes brands such as Maserati Time, NONA jewels, Michel Herbelin Watches and more. Payment We only accept payment by PayPal. Postage 95% of orders placed Monday to Friday are dispatched the same day. We offer 3 different postage options and all require a signature: Standard: Free. 3-5 working day tracked courier. Next day: \u00a37 charge. Order by 12pm and receive your order the next day. 48 Hour: \u00a34.50 charge. Order by 12pm and receive your order in 2-3 working. Returns Unsuitable items can be returned up to 14 days after purchased. To return items please email us first. On receipt of items, we will pay any refund(s) due. We regret that we cannot be held responsible for non-delivery of returned goods. Customer Care James Samson cares about you, our customer. We want you to get the item you paid for in a timely manner, receive great service and be satisfied with your purchase. Should you have a question; we are just an email (info@jamessamson.co.uk) or a call (01225 478961) away. We aim to respond to emails within 24 hours. W: www.jamessamson.co.uk | E: info@jamessamson.co.uk | T: 01225 478961",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackScore": "63",
+    "UserID": "jamessamsonuk",
+    "FeedbackRatingStar": "Blue"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ReturnsAccepted": "Returns Accepted",
+    "ShippingCostPaidBy": "Buyer"
+  }
+}

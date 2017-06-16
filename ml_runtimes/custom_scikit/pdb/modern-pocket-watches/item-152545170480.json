@@ -1,0 +1,88 @@
+{
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.0"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "\"AGAT\"- mechanical stop watch - 16 jewels. Condition - very good, all is working, Made in USSR 1970-80s. With original case . Thank you for bidding ! Good luck !",
+  "StartTime": "2017-05-11T16:13:10.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NjE2WDcwMA==/z/yPQAAOSwcgNZFI1r/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NjkwWDcwMA==/z/3bgAAOSw9OFZFI1t/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "UA",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "1980-1989",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Agat",
+        "Name": "Brand"
+      },
+      {
+        "Value": "16",
+        "Name": "Number of Jewels"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "alfanomad",
+    "FeedbackRatingStar": "Turquoise",
+    "FeedbackScore": "359",
+    "PositiveFeedbackPercent": "98.7"
+  },
+  "HitCount": "30",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/1525451704808080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-10T16:13:10.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "14.0"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "Description": "The buyer has 14 days to return the item (the buyer pays shipping fees). The item will be refunded.",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Europe",
+  "Title": "Agat Vintage Stop Watch Soviet USSR 16 jewels + case Low price",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Agat-Vintage-Stop-Watch-Soviet-USSR-16-jewels-case-Low-price-/152545170480",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "ItemID": "152545170480",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P9DT21H30M53S"
+}

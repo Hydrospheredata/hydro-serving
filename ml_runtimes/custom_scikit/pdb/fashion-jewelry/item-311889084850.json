@@ -1,0 +1,106 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "60 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "MinimumToBid": {
+    "value": "30.33",
+    "_currencyID": "USD"
+  },
+  "BestOfferEnabled": "false",
+  "ItemID": "311889084850",
+  "TimeLeft": "P9DT20H55M36S",
+  "ListingStatus": "Active",
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "QuantitySold": "0",
+  "HandlingTime": "1",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "CurrentPrice": {
+    "value": "30.33",
+    "_currencyID": "USD"
+  },
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/PARROT-GREEN-KUNDAN-GOLD-TONE-INDIAN-BOLLYWOOD-CHOKER-NECKLACE-JEWELRY-SET-4-PCS-/311889084850",
+  "QuantitySoldByPickupInStore": "0",
+  "ConvertedCurrentPrice": {
+    "value": "30.33",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-05T08:35:10.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "ConditionDisplayName": "New with tags",
+  "Country": "IN",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-15T08:35:10.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "REAL SPARKLE",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Alloy",
+        "Name": "Metal"
+      },
+      {
+        "Value": "Parrot Green",
+        "Name": "Color"
+      },
+      {
+        "Value": "Kundan, Meena, Faux Pearl",
+        "Name": "Material"
+      },
+      {
+        "Value": "India",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Parrot Green",
+        "Name": "Main Color"
+      },
+      {
+        "Value": "India",
+        "Name": "Country of Manufacture"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Title": "PARROT GREEN KUNDAN GOLD TONE INDIAN BOLLYWOOD CHOKER NECKLACE JEWELRY SET 4 PCS",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Normal 0 false false false MicrosoftInternetExplorer4",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/3118890848508080_1.jpg",
+  "ListingType": "Chinese",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "UserID": "real-sparkle",
+    "FeedbackScore": "4875",
+    "FeedbackRatingStar": "Red"
+  },
+  "Storefront": {
+    "StoreName": "Jannat Collection",
+    "StoreURL": "http://stores.ebay.com/id=881651537"
+  },
+  "Quantity": "1",
+  "Location": "DELHI, DELHI",
+  "HitCount": "0",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzcyWDc4OQ==/z/bIsAAOSwNSxVMlor/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg5WDY1Ng==/z/yqYAAOSwymxVMloy/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg5WDQ5NA==/z/ujcAAOSwPgxVMlo8/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/Nzg5WDEyMw==/z/uTUAAOSwPgxVMlo0/$_1.JPG?set_id=880000500F"
+  ],
+  "ConditionID": "1000",
+  "PostalCode": "110062"
+}

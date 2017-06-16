@@ -1,0 +1,107 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTM2WDU0MA==/z/4IUAAOSwMTZWRRlD/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDMzNA==/z/-rcAAOSweuxWRRlH/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NTQwWDMyNA==/z/-a4AAOSwcdBWRRk-/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Elegant-Cork-Briefcase-Bag-SHIPPING-WORLDWIDE-Vegan-Eco-Friendly-Gift-/221939768017?var=",
+  "ConvertedCurrentPrice": {
+    "value": "214.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Fantastic and elegant design of this briefcase in Cork, uncomplicated, youthful, with ample space and many services and features, to let you comfortably carry the items you wish to work, study or travel Cork is a completely environmentally friendly material because it does not cause any damage to the environment and allows easy manipulation to incredible designs like this, and others you can find in our online store.",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "214.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Seia",
+  "Seller": {
+    "FeedbackScore": "13",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "tradeinhousecom"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "Elegant Cork Briefcase / Bag - SHIPPING WORLDWIDE - Vegan Eco-Friendly Gift",
+  "GlobalShipping": "false",
+  "Variations": {
+    "Variation": {
+      "Quantity": "1",
+      "StartPrice": {
+        "value": "214.0",
+        "_currencyID": "USD"
+      },
+      "SellingStatus": {
+        "QuantitySold": "0",
+        "QuantitySoldByPickupInStore": "0"
+      },
+      "VariationSpecifics": {
+        "NameValueList": {
+          "Name": "Color",
+          "Value": "Green"
+        }
+      }
+    },
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Name": "Color",
+        "Value": "Green"
+      }
+    }
+  },
+  "StartTime": "2015-11-12T23:00:41.000Z",
+  "HitCount": "246",
+  "TimeLeft": "P2DT7H42M46S",
+  "EndTime": "2017-06-04T23:00:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "\"Handmade\""
+      },
+      {
+        "Name": "Style",
+        "Value": "Briefcase"
+      },
+      {
+        "Name": "Material",
+        "Value": "Vegan"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "Portugal"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "221939768017",
+  "AutoPay": "false",
+  "BidCount": "0",
+  "Quantity": "1",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money back or replacement (buyer's choice)",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "PT",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

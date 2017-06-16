@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbag Accessories",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:163570",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Mzc1WDUwMA==/z/GuMAAOSwONBZBzYV/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oIoAAOSwnipWW6~W/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/aAAAAOSwv-NWW7Br/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/OqgAAOSwcBhWW6~o/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/158AAOSwgyxWW6~7/$_57.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/B9gAAOSwbdpWW7AV/$_57.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/NWT-FOSSIL-EXPLORER-SUPER-SOFT-LEATHER-CROSS-BODY-HANDBAG-ZB5255-/122525547437",
+  "ConvertedCurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "We have customers in::Argentina, Australia, Austria, Bahama, Barbados, Belarus, Belgium, Bolivia, Brazil, Bulgaria, Canada, Chile, China, Colombia, Cyprus, Costa Rica, Czech Republic, Denmark, Ecuador, Finland, France, Germany, Greece, Greenland, Hungary, Iceland, Ireland, Israel, Italy, Japan, Kyrgyzstan, Latvia, Lithuania, Luxembourg, Malta, Malaysia, Mauritius, Mexico, Moldavia, Mongolia,Netherlands, New Zealand, Nicaragua, Norway, Panama, Peru, Poland, Portugal, Russia, San Salvador, Singapore, Slovakia, Spain, S.Africa, S.Korea, Sri Lanka, Sweden, Switzerland, Taiwan.Turkey, UK, Ukraine, Uruguay NWT FOSSIL EXPLORER SUPER SOFT LEATHER CROSS BODY HANDBAG # ZB5255 FOSSIL Explorer Super Soft Leather Cross Body Handbag - NEW WITH TAGS. See measurements above. It features one main zipper closing compartment with an interior full-width zippered pocket on one side and two open media pockets on the other. Under the zippered pocket is an authentic FOSSIL Creed label fully sewn on. It is fully lined with FOSSIL signature lining and has an inseam label indicating cowhide leather with #ZB5255. On one exterior side is an attached Authentic FOSSIL Plate. There are two zippered pockets on the other side. The leather covered web strap is adjustable by a slip buckle. All hardware is antique brass with FOSSIL stamped on the zipper pulls. !!!!! PLZ check our store for more great items and deals S&H USPS Insurance optional $ 1.50 STAY DRY & WARM",
+  "Title": "NWT FOSSIL EXPLORER SUPER SOFT LEATHER CROSS BODY HANDBAG  #ZB5255",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "109.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "163570",
+  "Location": "Cleveland, Ohio",
+  "Seller": {
+    "FeedbackScore": "3425",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "alsport1971"
+  },
+  "ShipToLocations": [
+    "US",
+    "Europe"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "44124",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-31T16:41:41.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P28DT51M33S",
+  "EndTime": "2017-06-30T16:41:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "FOSSIL"
+      },
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Type",
+        "Value": "Cross body"
+      },
+      {
+        "Name": "UPC",
+        "Value": "723764478617"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "122525547437",
+  "Storefront": {
+    "StoreName": "ADduet4YOU",
+    "StoreURL": "http://stores.ebay.com/id=523745500"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Return by USPS Priority next business day with delivery confirmation.S&H not refundable.We willcharge 20% restocking fee upon return.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1225255474378080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

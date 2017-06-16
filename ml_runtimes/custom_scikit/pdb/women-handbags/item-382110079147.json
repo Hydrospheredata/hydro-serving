@@ -1,0 +1,83 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/nqIAAOSwjDZYfAej/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/7wYAAOSw241YfAez/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODIxWDU1Ng==/z/XAEAAOSwopRYfAeT/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/oDwAAOSwjDZYfAex/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Victoria-Secret-Pink-Campus-Backpack-Bookbag-Neon-Pinkish-Coral-/382110079147",
+  "ConvertedCurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Victoria Secret Pink Campus Backpack Please note !! Will be folded for shipping Brand new with tagsFull SizeColor Neon pinkish coral and Black Super cute !!!Check out my other things for combine shipping costI only ship to the lower 48 statesPayment due now with the buy it nowGod bless and thank you",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "54.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "West Virginia",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "836",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Purple",
+    "UserID": "raptor167"
+  },
+  "PrimaryCategoryID": "169292",
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "Title": "Victoria Secret Pink Campus Backpack Bookbag Neon Pinkish Coral",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-01T01:55:47.000Z",
+  "HitCount": "4",
+  "TimeLeft": "P5DT11H11M28S",
+  "EndTime": "2017-06-08T01:55:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Victoria's Secret"
+      },
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "Neon pink coral and black"
+      },
+      {
+        "Name": "Type",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "382110079147",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/3821100791478080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

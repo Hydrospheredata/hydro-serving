@@ -1,0 +1,124 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "53.9",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "RU",
+  "Location": "Volgograd, default",
+  "BestOfferEnabled": "true",
+  "StartTime": "2017-05-31T11:45:04.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1277271590",
+    "StoreName": "dmit_bakh"
+  },
+  "CurrentPrice": {
+    "value": "53.9",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T11:45:04.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Vostok",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Men's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "150849",
+        "Name": "MPN"
+      },
+      {
+        "Value": [
+          "Diver Watch/Water Resistant over 100 m",
+          "12-Hour Dial",
+          "Arabic Numerals"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Mechanical: Automatic",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Analog",
+        "Name": "Display"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Case Material"
+      },
+      {
+        "Value": "Military",
+        "Name": "Style"
+      },
+      {
+        "Value": "Amphibian",
+        "Name": "Model"
+      },
+      {
+        "Value": "Russian Federation",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Stainless Steel",
+        "Name": "Band Material"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530154388",
+  "HandlingTime": "3",
+  "Description": "No customs fees, one year warranty, instructions in English, safe packing, combined shipping on 2-3 items. Russian military AMPHIBIANdiver 200 m. auto watch Features:- Automatic self-winding movement.- Water resistant up to 200 meters - Shock resistant - Central second hand - Stainless steel bracelet- Graduated rotated bezel - Stainless steel",
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/VOSTOK-WATCH-AMPHIBIAN-MAN-RUSSIAN-Military-AMPHIBIA-AUTO-DIVER-150849-/222530154388",
+  "NewBestOffer": "false",
+  "SKU": "VA150849",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2225301543888080_1.jpg",
+  "HitCount": "1",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT20H26M40S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HrcAAOSw5UZY-w3N/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/xywAAOSwHHFY-w3Q/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/FlAAAOSwN6JY-w3T/$_1.JPG?set_id=8800005007"
+  ],
+  "Title": "VOSTOK WATCH AMPHIBIAN MAN RUSSIAN Military AMPHIBIA AUTO DIVER 150849",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.5",
+    "FeedbackScore": "776",
+    "UserID": "dmit_bakh",
+    "FeedbackRatingStar": "Purple"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ShippingCostPaidBy": "Seller",
+    "ReturnsAccepted": "Returns Accepted",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "RestockingFeeValue": "No",
+    "Description": "Restocking fee: No",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back"
+  }
+}

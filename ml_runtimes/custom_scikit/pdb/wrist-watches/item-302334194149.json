@@ -1,0 +1,103 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "11.71",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "Country": "US",
+  "Location": "US",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T09:04:14.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "1",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1299123054",
+    "StoreName": "dungonemes"
+  },
+  "CurrentPrice": {
+    "value": "11.71",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T09:04:14.000Z",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Hansying",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Hansying",
+        "Name": "Manufacturer"
+      },
+      {
+        "Value": "SB1019G",
+        "Name": "MPN"
+      },
+      {
+        "Value": "0606184906093",
+        "Name": "EAN"
+      },
+      {
+        "Value": "606184906093",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ItemID": "302334194149",
+  "HandlingTime": "1",
+  "Description": "Hansying Wrist Kids Watches Cartoon 3D Truck Design Analog Band 30M Waterproof Product Features Imported Water Resistant to 99 feet: withstands rain and splashes of water, but not suitable for swimming. Japanese quartz movement with analog display high-grade silicon rubber strap environmental protection material Truck second hand design.This is a very cute and useful gift. We are committed to providing the best products and services to our customers. If you have any questions, please contact us in time. We will try our best to make you satisfied. Product Description Cartoon Truck Design Analog, 3D Band Pattern Design,Suitable for all children, comfortable to wear, Precise movement keeps good time,A great gift for your kids,Water Resistant to 99 feet: withstands rain and splashes of water, but not suitable for swimming. Each watch will have an extra battery!! This is a very cute and useful gift. We are committed to providing the best products and services to our customers. If you have any questions, please contact us in time. We will try our best to make you satisfied. Dial Diameter:2.8CM Band Length:20CM Band Width:1.4CM Case Thickness:0.6CM",
+  "AutoPay": "true",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Hansying-Wrist-Kids-Watches-Cartoon-3D-Truck-Design-Analog-Band-30M-Waterproof-/302334194149",
+  "NewBestOffer": "false",
+  "SKU": "B01CVHRIAY",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3023341941498080_1.jpg",
+  "HitCount": "2",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT17H36M3S",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/ODk0WDEwMDA=/z/qVoAAOSwjqVZLob4/$_3.PNG",
+    "http://i.ebayimg.com/00/s/ODU0WDEwMDA=/z/yfcAAOSw-K9ZLob7/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzYxWDEwMDA=/z/meMAAOSwlMFZLob~/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NjgwWDEwMDA=/z/vS0AAOSwDiBZLocB/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzYzWDEwMDA=/z/PQ4AAOSwfpVZLocE/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzE3WDEwMDA=/z/LsEAAOSwrhBZLocJ/$_3.PNG",
+    "http://i.ebayimg.com/00/s/NzI1WDEwMDA=/z/R-0AAOSwq1JZLocN/$_3.PNG"
+  ],
+  "Title": "Hansying Wrist Kids Watches Cartoon 3D Truck Design Analog Band 30M Waterproof",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.0",
+    "FeedbackScore": "229",
+    "UserID": "e-novo-trading",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

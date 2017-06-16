@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/NTQ0WDc0OQ==/z/qCoAAOSwXYtY1pYj/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/gfYAAOSwWxNY1paQ/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/sxwAAOSwXYtY1paR/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/OTk5WDc0OQ==/z/jRIAAOSwdGFY1paT/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NjcwWDc0NQ==/z/g3kAAOSwWxNY1pab/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/GG8AAOSwB-1Y1paV/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/NzQ5WDk5OQ==/z/s58AAOSwXYtY1paX/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Kipling-Azura-Duffle-Bag-Nwt-Msrp-159-00-/232348241695",
+  "ConvertedCurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Made with fun colors and water resistant fabric Kipling bags offer a practical choice for all your adventure needs. NylonRemovable shoulder strapDouble shoulder strapsTwo interior pocketsFluffy monkey keyring22.25\" x 12\" x 12.25\" Comes from a smoke free home. Please message me with any questions. Serious bidders only please! All our product is guaranteed 100% authentic! Payment must be made within 2 days of auction end! An unpaid item case will open if payment is not made within 2 days. Shipment will be made with 1 business day of receiving payment. International buyers!! Please be aware that I am not responsible for any customs fees that may occur, also please do not follow eBays estimated delivery time as I cannot foresee possible delays. Returns accepted within 14 days of receiving the item. Return accepted if item is different from listing or defective. Buyer is responsible for return shipping fees. There will also be a 20% restocking fee. Thank you and happy bidding! Visit our store Tasteful Totes and More for more great product!",
+  "Title": "Kipling Azura Duffle Bag!! Nwt!! Msrp $159.00",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "89.99",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Jeannette, Pennsylvania",
+  "Seller": {
+    "FeedbackScore": "2801",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Red",
+    "UserID": "tastefultotesandmore2014"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "15644",
+  "GlobalShipping": "true",
+  "Quantity": "1",
+  "StartTime": "2017-05-24T23:30:58.000Z",
+  "HitCount": "13",
+  "TimeLeft": "P21DT6H52M49S",
+  "EndTime": "2017-06-23T23:30:58.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Kipling"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "Style",
+        "Value": "Duffle"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "232348241695",
+  "Storefront": {
+    "StoreName": "Tasteful Totes and More",
+    "StoreURL": "http://stores.ebay.com/id=1111005947"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2323482416958080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

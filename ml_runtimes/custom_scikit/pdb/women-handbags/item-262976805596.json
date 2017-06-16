@@ -1,0 +1,94 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Duffel & Gym Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:80600:169296",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/Njg2WDU5MQ==/z/IEsAAOSwN6JY8o9e/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzEzWDU0OA==/z/6qwAAOSwcdRY8o9k/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NDgwWDU4Nw==/z/kfAAAOSwRUhY8o9m/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Nzc1WDYyMA==/z/~PwAAOSwHHFY8o9n/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NzIwWDU3NQ==/z/SnAAAOSw5UZY8o9n/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTgwWDY0MA==/z/6tsAAOSwcdRY8o9o/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/ODc2WDY0MA==/z/kh8AAOSwRUhY8o9q/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Betsey-Johnson-WEEKENDER-Quilted-Daisy-Floral-Duffel-Large-Bag-Tote-NWT-/262976805596",
+  "ConvertedCurrentPrice": {
+    "value": "58.75",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Brand new with tags. Authentic. Fun and girly large Overnighter duffle bag. Twin flat tote handle straps and a shoulder strap. Black faux leather and quilted canvas. Black and white stripes with multi color daisy details. Top zipper closure. Flat base. Fully lined interior. Zip pocket and 4 slip pockets. Shoulder strap is Removeable and adjustable. Size is 17.5\" L x 12.5\" H x 7\" D. I guarantee that all my items are authentic. I can combine shipping if you want more than one of my items",
+  "Title": "Betsey Johnson WEEKENDER Quilted Daisy Floral Duffel Large Bag Tote NWT",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "58.75",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169296",
+  "Location": "Antioch, Tennessee",
+  "Seller": {
+    "FeedbackScore": "1335",
+    "PositiveFeedbackPercent": "99.7",
+    "FeedbackRatingStar": "Red",
+    "UserID": "chri-creg"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "37013",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-09T23:36:47.000Z",
+  "HitCount": "40",
+  "TimeLeft": "P6DT6H48M6S",
+  "EndTime": "2017-06-08T23:36:47.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Betsey Johnson Luv Betsey"
+      },
+      {
+        "Name": "Material",
+        "Value": "Faux Leather & Canvas"
+      },
+      {
+        "Name": "Style",
+        "Value": "Weekender/ Duffel/ Overnighter"
+      },
+      {
+        "Name": "Type",
+        "Value": "Duffle Bags"
+      },
+      {
+        "Name": "Pattern",
+        "Value": "Floral/ Daisy"
+      },
+      {
+        "Name": "UPC",
+        "Value": "Does not apply"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262976805596",
+  "Storefront": {
+    "StoreName": "chri-creg",
+    "StoreURL": "http://stores.ebay.com/id=1387885057"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629768055968080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

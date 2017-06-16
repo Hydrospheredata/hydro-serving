@@ -1,0 +1,105 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/mt8AAOSw241YdMi2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/XOMAAOSwEzxYdMiY/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/YlQAAOSwEzxYdMjF/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/SmEAAOSwZQRYdMjy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/YIcAAOSw2xRYdMko/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/JSYAAOSwo4pYdMjd/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/TnQAAOSwZQRYdMkO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/YnMAAOSw2xRYdMk1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/R5MAAOSw5cNYdMlX/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Peanuts-Snoopy-Toss-Red-Voyager-Backpack-NWT-7839-/132209738014",
+  "ConvertedCurrentPrice": {
+    "value": "139.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with Tags LeSportsac Peanuts Collection Snoopy Toss Red Voyager Backpack #7839 measures 16.5\" X 13.5\" X 5.5\" Drawstring close under push-lock flap One exterior front zip compartment Two side push-lock close pockets One interior zip pocket Four interior slip pockets Adjustable shoulder straps 4\" drop top handle",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "139.99",
+    "_currencyID": "USD"
+  },
+  "TopRatedListing": "true",
+  "Location": "Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1646",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "readbrit"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "LeSportsac Peanuts Snoopy Toss Red Voyager Backpack NWT #7839",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-30T09:12:39.000Z",
+  "HitCount": "12",
+  "TimeLeft": "P26DT18H20M46S",
+  "EndTime": "2017-06-29T09:12:39.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "Color",
+        "Value": "Red"
+      },
+      {
+        "Name": "Material",
+        "Value": "Nylon"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883681981550"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132209738014",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1322097380148080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

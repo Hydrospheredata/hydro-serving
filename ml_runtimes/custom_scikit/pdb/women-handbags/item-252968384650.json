@@ -1,0 +1,103 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2529683846508080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDQwNg==/z/vwoAAOSwK6RZL9No/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDMzOA==/z/rIYAAOSwrhBZL9No/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDIxOA==/z/dBUAAOSwCQZZL9No/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MzQ1WDUwMA==/z/wVoAAOSw3gJZL9No/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/Mjk3WDUwMA==/z/IwUAAOSwlY1ZL9No/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDE4NA==/z/7qoAAOSwDiBZL9No/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/David-King-Co-Large-Male-Bag-Black-One-Size-/252968384650",
+  "ConvertedCurrentPrice": {
+    "value": "96.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Description Large main compartment Shoulder strap length: 48 *Handle has a drop of 2 and a lenngth of 7.5 *Includes one interior back wall zipper pocket *One large exterior pocket *Three small exterior pockets SKU:EDIB0018RRRL4 Features Model:454B Item Weight:0.89 poundsSize:One SizeItem Dimensions:8.5x4x11 inches UPC:609613375484</p",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "96.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "USA",
+  "Seller": {
+    "FeedbackScore": "67",
+    "PositiveFeedbackPercent": "94.7",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "ergode2016"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "David King & Co. Large Male Bag, Black, One Size",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-01T08:42:10.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P28DT17H48M31S",
+  "EndTime": "2017-07-01T08:42:10.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "David King & Co"
+      },
+      {
+        "Name": "SKU",
+        "Value": "EDIB0018RRRL4"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "609613375484"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "252968384650",
+  "Storefront": {
+    "StoreName": "ergode2016",
+    "StoreURL": "http://stores.ebay.com/id=1488101724"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Description": "Any item returned to us without RMA will be refused and returned to sender. Be sure to properly package your return (double box) to avoid damage. We DO NOT accept any product that is returned incomplete or in a less than brand new condition as described above. Customers are responsible for shipping and insuring their package, at full value. Shipping must be with a reputable carrier with an on-line tracking system. Packages lost, stolen or damaged during a return to us are the responsibility of the customer. All items returned for repair will be returned to the customer at the customer's expense. Shipping charges will apply. - Please do not request an RMA# for defective merchandise, if you have not 'bench tested' the unit and are sure the defect is associated with the unit itself. Upon receipt, our technical staff will attempt to duplicate the defect you are describing**. In addition, when exchanging an item, the return shipping must be prepaid by the customer. If the item is being returned for reasons such as Buyer\u2019s Remorse, Accidental Order, Cancellation after ship out (and/or after processed), no longer needed/wanted, etc. Outbound shipping which may have been free originally will be deducted as we pay for shipment while shipping the products to our customers. Please note that there is a restocking fee of 20% Refunds: All returns for refund are subject to a minimum 20% restocking fee. Shipping and handling charges are NOT refundable. Please allow up to 2 weeks for your refund to be processed. All refunds will be issued in the same manner that payment was received.",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "EDIB0018RRRL4",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

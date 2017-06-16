@@ -1,0 +1,90 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/3520708493128080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/3qwAAOSwcB5ZKdCu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/e6oAAOSwYlRZKdCu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDIwOA==/z/c6kAAOSwlY1ZKdCu/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8DkAAOSwIQdZKdCu/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/OGIO-International-Brooklyn-Purse-Wine-/352070849312",
+  "ConvertedCurrentPrice": {
+    "value": "55.89",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Thank you for visiting our ebay store!Fully padded tablet pocket Integrated cross body shoulder strap Hidden zippered pocket under front flap Soft touch satin liner. Non-adjustable shoulder strap: 21 inch Drop (highest top point of the shoulder strap to the top of the bag seam). Shoulder strap length: 42\"OGIO International Brooklyn Purse, Wine",
+  "ExcludeShipToLocation": [
+    "PR",
+    "VI"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.89",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "1081",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Red",
+    "UserID": "notrover"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "OGIO International Brooklyn Purse, Wine",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-27T19:17:00.000Z",
+  "HitCount": "8",
+  "TimeLeft": "P24DT4H18M24S",
+  "EndTime": "2017-06-26T19:17:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "OGIO"
+      },
+      {
+        "Name": "MPN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "031652208216"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0031652208216"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "352070849312",
+  "Storefront": {
+    "StoreName": "Arik_the_great",
+    "StoreURL": "http://stores.ebay.com/id=203323573"
+  },
+  "AutoPay": "false",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "14 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "SKU": "STT_B00SH76WDM",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "false"
+}

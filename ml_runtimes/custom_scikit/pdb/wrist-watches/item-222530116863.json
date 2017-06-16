@@ -1,0 +1,108 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "12.85",
+    "_currencyID": "USD"
+  },
+  "Site": "UK",
+  "Country": "GB",
+  "Location": "GLASGOW, East Dunbartonshire",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:55:12.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "2",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=904535810",
+    "StoreName": "irishdancingmum64"
+  },
+  "CurrentPrice": {
+    "value": "9.99",
+    "_currencyID": "GBP"
+  },
+  "EndTime": "2017-06-30T10:55:12.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "ItemID": "222530116863",
+  "HandlingTime": "2",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Marks & Spencer Limited Edition",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Women's",
+        "Name": "Gender"
+      },
+      {
+        "Value": "T0600065",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Roman Numerals",
+        "Name": "Features"
+      },
+      {
+        "Value": "Square",
+        "Name": "Watch Shape"
+      },
+      {
+        "Value": "Silver",
+        "Name": "Face Colour"
+      },
+      {
+        "Value": "China",
+        "Name": "Country/Region of Manufacture"
+      },
+      {
+        "Value": "Faux Leather",
+        "Name": "Strap Type"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "Title": "M&S Collection Boxed Ladies Watch Square Face Birthday Gift \ud83c\udf81 Bnwt",
+  "NewBestOffer": "false",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/M-S-Collection-Boxed-Ladies-Watch-Square-Face-Birthday-Gift-Bnwt-/222530116863",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New with tags",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2225301168638080_2.jpg",
+  "HitCount": "4",
+  "PostalCode": "G64 3JH",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H33M42S",
+  "EligibleForPickupDropOff": "true",
+  "ConditionID": "1000",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/P3cAAOSwhvFZLp~v/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8E4AAOSwurZZLp~x/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ZYUAAOSwaEhZLp~z/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/YxgAAOSwn-tZLp~1/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/ODUyWDY0MA==/z/YzYAAOSwn-tZLp~3/$_12.JPG?set_id=880000500F"
+  ],
+  "Description": "\u2022 M&S Collection Boxed Ladies Watch \u2022 Bnwt\u2022 Square silver coloured Face \u2022 Roman numerals \u2022 Baby blue strap \u2022 Birthday Gift \ud83c\udf81 Bnwt",
+  "Seller": {
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackScore": "4655",
+    "UserID": "irishdancingmum64",
+    "FeedbackRatingStar": "Red"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 days",
+    "Description": "Within 14 days\nAll labels intact\nHygiene strip intact \nIn clean fresh same condition\nLess my expenses",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

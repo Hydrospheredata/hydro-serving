@@ -1,0 +1,106 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Backpacks & Bookbags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169292",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/7KgAAOSww9xZMLuy/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/J0gAAOSwaeRZMLxJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/hGsAAOSwR29ZMLwO/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/ZnEAAOSwY3BZMLvJ/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/1QYAAOSwn-tZMLvg/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/c6cAAOSw-K9ZMLvq/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/7HkAAOSwX9FZMLv2/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/OTAxWDE2MDA=/z/JIYAAOSwaEhZMLwa/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDE=/z/ex8AAOSwfpVZMLwt/$_57.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LeSportsac-Basic-Backpack-Peanuts-Snoopy-Happiness-Dots-Pouch-NWT-7812-/132212648285",
+  "ConvertedCurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "New with Tag LeSportsac Basic Backpack Peanuts Snoopy Happiness Dots #7812 Zip-around close measures 15\" X 12.5\" X 7.5\" Exterior front zip pocket Adjustable, padded shoulder straps Matching pouch measures 8.75\" x 7\"",
+  "Title": "LeSportsac Basic Backpack Peanuts Snoopy Happiness Dots with Pouch NWT #7812",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "69.99",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Ann Arbor, Michigan",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "1646",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Red",
+    "UserID": "readbrit"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "48104",
+  "GlobalShipping": "false",
+  "Quantity": "2",
+  "StartTime": "2017-06-02T01:20:33.000Z",
+  "HitCount": "10",
+  "TimeLeft": "P29DT10H46M",
+  "EndTime": "2017-07-02T01:20:33.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Style",
+        "Value": "Backpack"
+      },
+      {
+        "Name": "Color",
+        "Value": "White/Red"
+      },
+      {
+        "Name": "Brand",
+        "Value": "LeSportsac"
+      },
+      {
+        "Name": "Material",
+        "Value": "Polyester"
+      },
+      {
+        "Name": "UPC",
+        "Value": "883681981505"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "132212648285",
+  "PrimaryCategoryID": "169292",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1322126482858080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

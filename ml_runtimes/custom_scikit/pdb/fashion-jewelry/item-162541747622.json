@@ -1,0 +1,78 @@
+{
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "BestOfferEnabled": "false",
+  "ConditionDisplayName": "Pre-owned",
+  "TimeLeft": "P2DT9H59M56S",
+  "ListingStatus": "Active",
+  "ConditionDescription": "Like new",
+  "QuantitySold": "0",
+  "HandlingTime": "3",
+  "ShipToLocations": [
+    "US"
+  ],
+  "CurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "ItemID": "162541747622",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Brighton-Sanibel-Necklace-And-Matching-Earrings-Set-/162541747622",
+  "QuantitySoldByPickupInStore": "0",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "value": "50.0",
+    "_currencyID": "USD"
+  },
+  "StartTime": "2017-06-04T21:50:44.000Z",
+  "PaymentMethods": "PayPal",
+  "Site": "US",
+  "AutoPay": "false",
+  "Country": "US",
+  "GlobalShipping": "false",
+  "EndTime": "2017-06-07T21:50:44.000Z",
+  "PrimaryCategoryID": "50692",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Brighton",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Silver And Tortoise",
+        "Name": "Color"
+      },
+      {
+        "Value": "Shell",
+        "Name": "Material"
+      },
+      {
+        "Value": "Pearl (Imitation)",
+        "Name": "Secondary Stone"
+      }
+    ]
+  },
+  "Title": "Brighton Sanibel Necklace And Matching Earrings Set",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "BidCount": "0",
+  "Description": "Selling this pretty matching set of Brighton Sanibel necklace and earrings. I think I wore these a couple of times. Cleaning out jewelry stash! Smoke free and pet free home. Payment is due within 48 hours of winning auction and I only ship within lower 48 US States. Returns not accepted.",
+  "PrimaryCategoryIDPath": "281:10968:50692",
+  "NewBestOffer": "false",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625417476228080_1.jpg",
+  "ListingType": "FixedPriceItem",
+  "Seller": {
+    "PositiveFeedbackPercent": "100.0",
+    "UserID": "km0307",
+    "FeedbackScore": "209",
+    "FeedbackRatingStar": "Turquoise"
+  },
+  "Quantity": "1",
+  "Location": "Alexandria, Virginia",
+  "HitCount": "4",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjA0/z/1z8AAOSwfRdZF1qD/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wy4AAOSw7GRZF1qG/$_12.JPG?set_id=880000500F"
+  ],
+  "PrimaryCategoryName": "Jewelry & Watches:Fashion Jewelry:Jewelry Sets",
+  "PostalCode": "22315"
+}

@@ -1,0 +1,307 @@
+{
+  "ConvertedCurrentPrice": {
+    "value": "9.78",
+    "_currencyID": "USD"
+  },
+  "Site": "US",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/WhwAAOSw8lpZLqEj/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/AUsAAOSwaeRZLqE~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/yAcAAOSwCQZZLqFP/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/0qAAAOSwlY1ZLqFc/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/3-AAAOSws5pZLqFi/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/4zQAAOSwKytZLqFn/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/lZIAAOSwcB5ZLqFw/$_1.JPG?set_id=8800005007"
+  ],
+  "QuantityThreshold": "10",
+  "Location": "ShenZhen",
+  "BestOfferEnabled": "false",
+  "StartTime": "2017-05-31T10:57:43.000Z",
+  "PrimaryCategoryID": "31387",
+  "PaymentMethods": "PayPal",
+  "Quantity": "90",
+  "Storefront": {
+    "StoreURL": "http://stores.ebay.com/id=1365524706",
+    "StoreName": "HCS-Autohome"
+  },
+  "CurrentPrice": {
+    "value": "9.78",
+    "_currencyID": "USD"
+  },
+  "EndTime": "2017-06-30T10:57:43.000Z",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Country": "CN",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Central America and Caribbean",
+    "Middle East",
+    "South America",
+    "AS",
+    "CK",
+    "PF",
+    "GU",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NC",
+    "NU",
+    "PW",
+    "PG",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WF",
+    "WS",
+    "AD",
+    "BA",
+    "CY",
+    "EE",
+    "GI",
+    "JE",
+    "LV",
+    "LI",
+    "LU",
+    "ME",
+    "SM",
+    "RS",
+    "SK",
+    "SI",
+    "SJ",
+    "UA",
+    "VA",
+    "BN",
+    "KH",
+    "HK",
+    "LA",
+    "MO",
+    "TW",
+    "TH",
+    "VN",
+    "BM",
+    "GL",
+    "PM",
+    "AM",
+    "AZ",
+    "BD",
+    "BT",
+    "CN",
+    "GE",
+    "IN",
+    "KR",
+    "KG",
+    "MN",
+    "NP",
+    "PK",
+    "TJ",
+    "TM",
+    "UZ",
+    "PO Box"
+  ],
+  "ItemID": "232355145585",
+  "HandlingTime": "2",
+  "Description": null,
+  "AutoPay": "false",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "QuantitySold": "0",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fashion-Leather-Strap-Lovers-Wristwatch-Men-And-Women-Quartz-Watch-/232355145585?var=",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "NewBestOffer": "false",
+  "SKU": "4GF9SK9HJ0WR7",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "GlobalShipping": "false",
+  "BidCount": "0",
+  "ConditionDisplayName": "New without tags",
+  "Variations": {
+    "Variation": [
+      {
+        "StartPrice": {
+          "value": "9.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4DR9YC9JX0HC7DH.01",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "black men",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "9.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4TQ9ZN9RG0BV7WV.02",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "black women",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "9.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4XY9TX9QB0CJ7VY.03",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "white men",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "9.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4HU9PT9DB0NF7AR.04",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "white women",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "9.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4SU9PS9TH0ST7TF.05",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "coffee men",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      },
+      {
+        "StartPrice": {
+          "value": "9.78",
+          "_currencyID": "USD"
+        },
+        "SKU": "4RE9KJ9UV0GT7JB.06",
+        "SellingStatus": {
+          "QuantitySold": "0",
+          "QuantitySoldByPickupInStore": "0"
+        },
+        "VariationSpecifics": {
+          "NameValueList": {
+            "Value": "coffee women",
+            "Name": "color"
+          }
+        },
+        "Quantity": "15"
+      }
+    ],
+    "VariationSpecificsSet": {
+      "NameValueList": {
+        "Value": [
+          "black men",
+          "black women",
+          "white men",
+          "white women",
+          "coffee men",
+          "coffee women"
+        ],
+        "Name": "color"
+      }
+    },
+    "Pictures": {
+      "VariationSpecificPictureSet": [
+        {
+          "VariationSpecificValue": "black men",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/erUAAOSwAPVZLqF4/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "black women",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/e0cAAOSwDiBZLqF~/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "white men",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/PGMAAOSw1WJZLqGZ/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "white women",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/DtIAAOSwurZZLqGi/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "coffee men",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/otgAAOSw0hlZLqGH/$_1.JPG?set_id=8800005007"
+        },
+        {
+          "VariationSpecificValue": "coffee women",
+          "PictureURL": "http://i.ebayimg.com/00/s/MTAwMVgxMDAx/z/B9gAAOSwPh5ZLqGQ/$_1.JPG?set_id=8800005007"
+        }
+      ],
+      "VariationSpecificName": "color"
+    }
+  },
+  "HitCount": "0",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "TimeLeft": "P29DT19H36M6S",
+  "ConditionID": "1500",
+  "QuantityAvailableHint": "MoreThan",
+  "Title": "Fashion Leather Strap Lovers Wristwatch Men And Women Quartz Watch",
+  "Seller": {
+    "PositiveFeedbackPercent": "98.6",
+    "FeedbackScore": "8888",
+    "UserID": "auto_home",
+    "FeedbackRatingStar": "Green"
+  },
+  "ListingStatus": "Active",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  }
+}

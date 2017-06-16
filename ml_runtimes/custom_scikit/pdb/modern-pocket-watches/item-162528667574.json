@@ -1,0 +1,173 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "APO/FPO",
+    "US Protectorates",
+    "Middle East",
+    "PR"
+  ],
+  "QuantitySold": "0",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.53"
+  },
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "true",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "New with tags",
+  "Description": "Thank you for visiting our ebay store! Product Features: Movement: Automatic Mechanical Case Diameter: About 4.8 cm Thickness: About 1.5 cm Total Length of Chain: About 30 cm Package Content: 1 x Pocket Watch 1 x Pocket Chain How to Use Mechanical Pocket Watch? 1. Setting time\u00ef\u00bcs Pull the crown away from base of the watch and turn the crown clockwise until reaching the exact time. 2. Winding the watch\u00ef\u00bcs Push the crown back into place along the base of the watch and winding up the watch clockwise rotation with 20 times. The power will be fulled. Do this one time each day (before sleeping). Otherwise, it will stop working. Note: Please do not over winding up the watch if you feel the crown is tight.Mens Steampunk Automatic Mechanical Skeleton Hollow Fashion Self Wind Pocket",
+  "StartTime": "2017-05-25T14:43:25.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/QxAAAOSwJH1ZJu2S/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/2qkAAOSww9xZJu2T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/yocAAOSwAPVZJu2T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/rBMAAOSwlndZJu2T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/8nEAAOSwIaFZJu2T/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/1y4AAOSwfRdZJu2U/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/rA8AAOSwcgNZJu2S/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/YVsAAOSwX9FZJu2T/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "611188257386",
+        "Name": "UPC"
+      },
+      {
+        "Value": "0611188257386",
+        "Name": "EAN"
+      },
+      {
+        "Value": "YISUYA",
+        "Name": "Brand"
+      },
+      {
+        "Value": "MLY023",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Watch",
+        "Name": "Binding"
+      },
+      {
+        "Value": "black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Mens",
+        "Name": "Department"
+      },
+      {
+        "Value": "L 5.91 x W 3.54 x H 2.36 inches",
+        "Name": "Dimensions"
+      },
+      {
+        "Value": "Not Applicable",
+        "Name": "ISBN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "dell_0711",
+    "FeedbackRatingStar": "Green",
+    "FeedbackScore": "7450",
+    "PositiveFeedbackPercent": "99.5"
+  },
+  "HitCount": "28",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1625286675748080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-24T14:43:25.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "28.53"
+  },
+  "BidCount": "0",
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "ShippingCostPaidBy": "Buyer",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ReturnsAccepted": "Returns Accepted",
+    "Refund": "Money Back",
+    "ReturnsWithin": "14 Days",
+    "RestockingFeeValue": "No"
+  },
+  "ListingType": "FixedPriceItem",
+  "ShipToLocations": [
+    "US",
+    "CA",
+    "GB",
+    "MX",
+    "DE",
+    "JP",
+    "BR",
+    "FR",
+    "AU",
+    "RU",
+    "DK",
+    "RO",
+    "SK",
+    "BG",
+    "CZ",
+    "FI",
+    "HU",
+    "LV",
+    "LT",
+    "MT",
+    "EE",
+    "GR",
+    "PT",
+    "CY",
+    "SI",
+    "SE",
+    "KR",
+    "ID",
+    "TW",
+    "ZA",
+    "TH",
+    "BE",
+    "HK",
+    "IE",
+    "NL",
+    "PL",
+    "ES",
+    "IT",
+    "AT",
+    "NZ",
+    "PH",
+    "SG",
+    "NO",
+    "UA",
+    "HR",
+    "MY",
+    "CL",
+    "CO",
+    "CR",
+    "PA",
+    "TT",
+    "GT",
+    "SV",
+    "HN",
+    "JM"
+  ],
+  "Location": "US",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Mens Steampunk Automatic Mechanical Skeleton Hollow Fashion Self Wind Pocket",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Mens-Steampunk-Automatic-Mechanical-Skeleton-Hollow-Fashion-Self-Wind-Pocket-/162528667574",
+  "Storefront": {
+    "StoreName": "delldell0711",
+    "StoreURL": "http://stores.ebay.com/id=1403571110"
+  },
+  "ItemID": "162528667574",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P23DT20H6M41S"
+}

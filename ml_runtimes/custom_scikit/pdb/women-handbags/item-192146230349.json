@@ -1,0 +1,92 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1921462303498080_1.jpg",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/7NwAAOSwA29Y4Fje/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/QdYAAOSwuLZY4Fje/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/oXsAAOSwdGFY4Fje/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTA4MFgxMDgw/z/vuoAAOSwDmBY4Fje/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTk5WDE1MDA=/z/h1wAAOSwc-tY4Fje/$_1.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Berlin-laptop-backpack-black-Free-Delivery-/192146230349",
+  "ConvertedCurrentPrice": {
+    "value": "123.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: The Berlin backpack is a unique combination of 2 rPET recycled materials and well-thought out functionality. All pockets are There are 3 hidden pockets on the front, 2 on the side and one main compartment. Registered design\u00c3\u0082\u00c2\u00ae",
+  "Title": "Berlin laptop backpack black. Free Delivery",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "123.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169303",
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-02T01:50:20.000Z",
+  "HitCount": "26",
+  "TimeLeft": "P28DT9H33M8S",
+  "EndTime": "2017-07-01T01:50:20.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "XD Design"
+      },
+      {
+        "Name": "MPN",
+        "Value": "258247954"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192146230349",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:65708511:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

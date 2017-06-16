@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Travel & Shopping Bags:Other Travel & Shopping Bags",
+  "ConditionDisplayName": "New without tags",
+  "ConditionID": "1500",
+  "PrimaryCategoryIDPath": "11450:169291:80600:42526",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NTgwWDU4MA==/z/qpkAAOSwCWFY8PeS/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Anthropologie-Cottage-Rose-Weekender-Jasper-Jeera-/112370609514",
+  "ConvertedCurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "txzj pxzj1232 txzj89",
+  "Title": "Anthropologie Cottage Rose Weekender by Jasper & Jeera",
+  "ExcludeShipToLocation": [
+    "AR",
+    "IT",
+    "MY"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "99.0",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "Location": "Hamden, Connecticut",
+  "Seller": {
+    "TopRatedSeller": "true",
+    "FeedbackScore": "5471",
+    "PositiveFeedbackPercent": "99.8",
+    "FeedbackRatingStar": "Green",
+    "UserID": "lampladi"
+  },
+  "TopRatedListing": "true",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "06518",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-14T16:25:55.000Z",
+  "HitCount": "164",
+  "TimeLeft": "P10DT22H32M51S",
+  "EndTime": "2017-06-13T16:25:55.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Anthropologie"
+      },
+      {
+        "Name": "Material",
+        "Value": "Cotton,Canvas,Leather"
+      },
+      {
+        "Name": "Style",
+        "Value": "Weekender"
+      },
+      {
+        "Name": "Country/Region of Manufacture",
+        "Value": "India"
+      },
+      {
+        "Name": "UPC",
+        "Value": "853742004023"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "112370609514",
+  "PrimaryCategoryID": "42526",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Storefront": {
+    "StoreName": "Murnie&#39;s Plaza",
+    "StoreURL": "http://stores.ebay.com/id=2951560"
+  },
+  "ReturnPolicy": {
+    "Description": "Restocking fee: 20%",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "20%",
+    "RestockingFeeValueOption": "Percent_20",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "Country": "US",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/1123706095148080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

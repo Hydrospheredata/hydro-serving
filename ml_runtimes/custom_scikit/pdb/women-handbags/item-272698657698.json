@@ -1,0 +1,117 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Handbags & Purses",
+  "BuyItNowAvailable": "true",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:63852",
+  "ListingType": "Chinese",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kmkAAOSwvKtY~f3I/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WkQAAOSw53NY~f3P/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SSEAAOSw5UZY~f3Q/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/D~0AAOSwkShY~f3S/$_12.JPG?set_id=880000500F",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NCYAAOSwE0JY~gDD/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Ted-Baker-Satchel-Handbag-Like-new-/272698657698",
+  "ConvertedCurrentPrice": {
+    "value": "111.24",
+    "_currencyID": "USD"
+  },
+  "BuyItNowPrice": {
+    "value": "200.0",
+    "_currencyID": "CAD"
+  },
+  "NewBestOffer": "false",
+  "Description": "Authentic Ted Baker satchel handbag in grey and purple- like new Ted Baker accessories collection, rose gold hardware -Top handle- detachable shoulder strap- internal pockets (1 zip pocket, 2 slot pockets)- external back pocket with back closure - collapsible wings with snap buttons Interior is fully lined with one large interior space Comes with original dust bag and original tags",
+  "ConvertedBuyItNowPrice": {
+    "value": "148.32",
+    "_currencyID": "USD"
+  },
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "150.0",
+    "_currencyID": "CAD"
+  },
+  "PrimaryCategoryID": "63852",
+  "Location": "Richmond Hill, Ontario",
+  "Seller": {
+    "FeedbackScore": "40",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Yellow",
+    "UserID": "ajin.2009"
+  },
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "QuantitySoldByPickupInStore": "0",
+  "MinimumToBid": {
+    "value": "150.0",
+    "_currencyID": "CAD"
+  },
+  "PostalCode": "L4S 2H9",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-06-02T13:10:41.000Z",
+  "HitCount": "7",
+  "TimeLeft": "P6DT23H2M27S",
+  "EndTime": "2017-06-09T13:10:41.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Leather"
+      },
+      {
+        "Name": "Bag Length",
+        "Value": "12-17 Inches"
+      },
+      {
+        "Name": "Closure",
+        "Value": "Flap"
+      },
+      {
+        "Name": "Size",
+        "Value": "Medium"
+      },
+      {
+        "Name": "Style",
+        "Value": "Satchel"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gray"
+      },
+      {
+        "Name": "Bag Height",
+        "Value": "10 Inches"
+      },
+      {
+        "Name": "Strap Drop",
+        "Value": "5 Inches"
+      },
+      {
+        "Name": "Bag Depth",
+        "Value": "5 Inches"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Ted Baker"
+      }
+    ]
+  },
+  "Site": "Canada",
+  "ItemID": "272698657698",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "Title": "Ted Baker Satchel Handbag (Like new)",
+  "QuantitySold": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "Country": "CA",
+  "GalleryURL": "http://thumbs3.ebaystatic.com/pict/2726986576988080_1.jpg",
+  "HandlingTime": "2",
+  "BestOfferEnabled": "false"
+}

@@ -1,0 +1,126 @@
+{
+  "ExcludeShipToLocation": [
+    "Africa",
+    "Southeast Asia",
+    "MX",
+    "BH",
+    "IQ",
+    "KW",
+    "LB",
+    "OM",
+    "QA",
+    "SA",
+    "AE",
+    "YE",
+    "AF",
+    "BD",
+    "CN",
+    "PK"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "33434",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "New without tags",
+  "Description": "This auction is for a real nice Men's DAD Two-Tone Pocket Watch with Fob Chain. New, no tags. Beautiful embossed silver-tone case with gold \"DAD\" on the front. Measures apx. 1 7/8\" in diameter. Embossed silver back. Full Hunter closing. Push top to open. White face with black markers. Comes with fob chain. Quartz Movement. Great gift idea! Please message me if you have any questions. View more great items",
+  "StartTime": "2017-05-13T19:31:31.000Z",
+  "PictureURL": [
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~MsAAOSwB-1Y3DmP/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/X54AAOSwmgJY3Dmh/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/NTAwWDQxMA==/z/vrQAAOSwB-1Yr72w/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NU8AAOSwSlBYr73f/$_57.JPG?set_id=8800005007",
+    "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4ScAAOSwTuJYr74m/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1500",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "3",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "2010-Now",
+        "Name": "Year of Manufacture"
+      },
+      {
+        "Value": "Unbranded",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Does Not Apply",
+        "Name": "MPN"
+      },
+      {
+        "Value": "Stainless & Plated Metal",
+        "Name": "Material"
+      },
+      {
+        "Value": "Full Hunter",
+        "Name": "Closure"
+      },
+      {
+        "Value": [
+          "12-Hour Dial",
+          "Arabic Numerals",
+          "Includes Chain"
+        ],
+        "Name": "Features"
+      },
+      {
+        "Value": "Quartz : Battery",
+        "Name": "Movement"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "UPC"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "sweetpeadiscountdeals",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "2579",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.4"
+  },
+  "HitCount": "40",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/1525475292378080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-12T19:31:31.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "15.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/New-Mens-DAD-Two-Tone-Pocket-Watch-Fob-Chain-/152547529237",
+  "Location": "Boca Raton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "New Men's DAD Two-Tone Pocket Watch & Fob Chain",
+  "Storefront": {
+    "StoreName": "Sweetpea&#39;s Deals",
+    "StoreURL": "http://stores.ebay.com/id=39635712"
+  },
+  "ItemID": "152547529237",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P12DT50M31S"
+}

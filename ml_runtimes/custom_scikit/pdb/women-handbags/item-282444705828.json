@@ -1,0 +1,80 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/8IoAAOSwkShY~UAc/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/D0wAAOSwRUhY~UAm/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/CJcAAOSw3ZRY~UA1/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0QoAAOSwWWxY~UA3/$_32.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/o88AAOSwE0JY~UBC/$_32.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Juicy-Couture-laptop-tablet-bag-/282444705828",
+  "ConvertedCurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "This is lovingly used. No damage, stains and tear. Beautiful and stylish for small laptop or a tablet.",
+  "Title": "Juicy Couture laptop or tablet bag",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "55.0",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169293",
+  "Location": "Minneapolis, Minnesota",
+  "Seller": {
+    "FeedbackScore": "66",
+    "PositiveFeedbackPercent": "100.0",
+    "FeedbackRatingStar": "Blue",
+    "UserID": "jeaneln"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "55449",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-04-24T00:03:24.000Z",
+  "HitCount": "26",
+  "TimeLeft": "P20DT8H56M",
+  "EndTime": "2017-06-23T00:03:24.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Brand",
+        "Value": "Juicy Couture"
+      },
+      {
+        "Name": "Material",
+        "Value": "Metallic"
+      },
+      {
+        "Name": "Color",
+        "Value": "Gold"
+      },
+      {
+        "Name": "Style",
+        "Value": "Laptop Case"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "282444705828",
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2824447058288080_1.jpg",
+  "HandlingTime": "3",
+  "BestOfferEnabled": "true"
+}

@@ -1,0 +1,118 @@
+{
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "Africa",
+    "Asia",
+    "Central America and Caribbean",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania",
+    "Southeast Asia",
+    "South America",
+    "PO Box"
+  ],
+  "QuantitySold": "0",
+  "PostalCode": "10001",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "Seller": {
+    "UserID": "pacharadee",
+    "FeedbackRatingStar": "Blue",
+    "FeedbackScore": "71",
+    "PositiveFeedbackPercent": "98.4"
+  },
+  "GlobalShipping": "false",
+  "HandlingTime": "2",
+  "ConditionDisplayName": "New with tags",
+  "Description": "LYMFHCH Retro mechanical Pocket Watch Skeleton Hand-wind engraved Metal blue black W891B-01 Mechanical hand-wound movementElegant appearance: skeleton design, insight to the movementBeautiful glass back of the watch for view of the movementCompletely skeletonized and engravedWith mens watch chain to attach to your shirt or pants Mechanical hand-wound movement Elegant appearance: skeleton design, insight to the movement Beautiful glass back of the watch for view of the movement Completely skeletonized and engraved With mens watch chain to attach to your shirt or pants",
+  "StartTime": "2017-05-29T04:27:36.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/2fcAAOSwhvFZKUe8/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/fVsAAOSwK6RZKUe9/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Fl4AAOSwjL5ZKUe~/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/EtgAAOSwsXFZKUfA/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Fb4AAOSwaEhZKUfC/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/e4MAAOSwlMFZKUfE/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FgMAAOSwaEhZKUfF/$_1.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "1000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.63"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "LYMFHCH",
+        "Name": "Brand"
+      },
+      {
+        "Value": "CH-020",
+        "Name": "Model Number"
+      },
+      {
+        "Value": "W891B-01",
+        "Name": "MPN"
+      },
+      {
+        "Value": "does not apply",
+        "Name": "UPC"
+      },
+      {
+        "Value": "Black",
+        "Name": "Color"
+      },
+      {
+        "Value": "Pocket Watches",
+        "Name": "Category"
+      },
+      {
+        "Value": "4260321695712",
+        "Name": "EAN"
+      }
+    ]
+  },
+  "SKU": "B0139S4MOY",
+  "HitCount": "1",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2019395293898080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-28T04:27:36.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "18.63"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "Description": "not description",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/LYMFHCH-Retro-mechanical-Pocket-Watch-Skeleton-Hand-wind-engraved-Metal-blue-/201939529389",
+  "Location": "New York, New York",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "LYMFHCH Retro mechanical Pocket Watch Skeleton Hand-wind engraved Metal blue",
+  "Storefront": {
+    "StoreName": "pacharadee",
+    "StoreURL": "http://stores.ebay.com/id=1444416131"
+  },
+  "ItemID": "201939529389",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P27DT9H52M51S"
+}

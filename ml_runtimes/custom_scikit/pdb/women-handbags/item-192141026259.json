@@ -1,0 +1,89 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Mixed Items & Lots",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169303",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://rcdn-4.fishpond.co.nz/0124/792/649/261800921/original.jpeg",
+    "http://rcdn-4.fishpond.co.nz/0124/792/649/261800922/original.jpeg",
+    "http://rcdn-2.fishpond.co.nz/0124/792/649/261800923/original.jpeg"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Nica-Nabi-Mini-Grab-NH6136-Black-Dotty-Delivery-Free-/192141026259",
+  "ConvertedCurrentPrice": {
+    "value": "61.07",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "Product Description: Make the mini Nabi your holiday go-to. Small yet practical, go hands-free exploring during the day and discover those cocktail bars by sunset. DETAILS Triple compartment grab: centram compartment with zip top closure, front and back sections with mag dot closures. Internal zip and slip pockets. Fully lined in Nica branded fabric. DSS of 59-69 cm. Nica branded hardware/Nica TPU branding. Dimensions: H13 x W16 x D9cm. Shoulder Drop 59-69 Material: Body: 100% PU, Lining: 100% Polyester",
+  "Title": "Nica Nabi Mini Grab NH6136 Black Dotty. Delivery is Free",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "61.07",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "Gloucester",
+  "Seller": {
+    "FeedbackScore": "46686",
+    "PositiveFeedbackPercent": "96.6",
+    "FeedbackRatingStar": "TurquoiseShooting",
+    "UserID": "shoppingmadeeasy2"
+  },
+  "PrimaryCategoryID": "169303",
+  "Country": "GB",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "GL1 5SQ",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-03-27T05:13:05.000Z",
+  "HitCount": "5",
+  "TimeLeft": "P22DT12H52M46S",
+  "EndTime": "2017-06-25T05:13:05.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "EAN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "UPC",
+        "Value": "N/A"
+      },
+      {
+        "Name": "ISBN",
+        "Value": "N/A"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Nica"
+      },
+      {
+        "Name": "MPN",
+        "Value": "658570493"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "192141026259",
+  "Storefront": {
+    "StoreName": "shoppingmadeeasy2",
+    "StoreURL": "http://stores.ebay.com/id=1456561641"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "SKU": "25:124792649:US",
+  "HandlingTime": "10",
+  "BestOfferEnabled": "false"
+}

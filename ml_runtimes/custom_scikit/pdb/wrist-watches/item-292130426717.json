@@ -1,0 +1,70 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "bs34hh",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:173695",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Used",
+  "Description": "Genuine Rolex Watch box set for collectors Set comprises of outer green card box and inner green box with watch holder. You will receive exactly as pictured. Some wear but overall very nice order. See pictures for condition or ask. Multiple Rolex watches were supplied with this box set. I am not open to offers, the price is more than fair. Payment is to be made via PayPal only. Feel free to ask questions and I will do my best to answer them. Feedback will be left once feedback received.",
+  "StartTime": "2017-05-26T13:00:11.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8c0AAOSwi7RZKCZ1/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/120AAOSwIaFZKCZ7/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pWkAAOSwH09ZKCaB/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yPkAAOSww5hZKCaK/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "UK",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "128.61"
+  },
+  "PrimaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "173695",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Rolex",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "craigovanbaston",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1015",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "306",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2921304267178080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-25T13:00:11.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "GBP",
+    "value": "100.0"
+  },
+  "BidCount": "0",
+  "Country": "GB",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "14 days",
+    "ShippingCostPaidBy": "Buyer",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Genuine-Rolex-watch-presentation-box-set-collectors-/292130426717",
+  "Location": "Bristol",
+  "Title": "Genuine Rolex watch presentation box set for collectors",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "ItemID": "292130426717",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewellery & Watches:Watches, Parts & Accessories:Boxes, Cases & Watch Winders",
+  "TimeLeft": "P24DT19H44M34S"
+}

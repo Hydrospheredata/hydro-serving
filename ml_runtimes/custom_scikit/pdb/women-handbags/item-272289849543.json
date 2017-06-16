@@ -1,0 +1,97 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Diaper Bags",
+  "ConditionDisplayName": "Pre-owned",
+  "ConditionID": "3000",
+  "PrimaryCategoryIDPath": "11450:169291:169295",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/WNUAAOSwOVpXcpPW/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/AM4AAOSwhOVXcpPF/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/NzE2WDc1MA==/z/BP0AAOSwhOVXcpPg/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTYwWDcwMw==/z/WwMAAOSwOVpXcpPo/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/K3sAAOSwuzRXcpPI/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/AV0AAOSwhOVXcpPJ/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/OTIxWDcxMg==/z/MasAAOSwuzRXcpP2/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/YtsAAOSwZ1BXcpPM/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/JyEAAOSwzJ5XcpPO/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/V~0AAOSwOVpXcpPP/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/hHoAAOSwwo1XcpPV/$_12.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/gOQAAOSwXeJXcpPZ/$_12.JPG?set_id=880000500F"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/JUICY-COUTURE-LARGE-DIAPER-BAG-PINK-GREEN-TRIM-COUTURE-BABY-/272289849543",
+  "ConvertedCurrentPrice": {
+    "value": "134.1",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "JUICY COUTURE LARGE DIAPER BAG PINK / GREEN TRIM\u00a0 COUTURE BABY VELVET (velour) Leather\u00a0 Double handles One pocket on each side\u00a0 Plastic interior lining\u00a0 Guaranteed 100% authentic\u00a0 Good condition",
+  "Title": "JUICY COUTURE LARGE DIAPER BAG PINK / GREEN TRIM  COUTURE BABY",
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "134.1",
+    "_currencyID": "USD"
+  },
+  "PrimaryCategoryID": "169295",
+  "Location": "El Cajon, California",
+  "Seller": {
+    "FeedbackScore": "342",
+    "PositiveFeedbackPercent": "99.4",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "silverstore9251"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Country": "US",
+  "ListingType": "FixedPriceItem",
+  "PostalCode": "92020",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2016-06-28T21:00:00.000Z",
+  "HitCount": "664",
+  "TimeLeft": "P21DT5H23M8S",
+  "EndTime": "2017-06-23T21:00:00.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "Material",
+        "Value": "Velvet"
+      },
+      {
+        "Name": "Style",
+        "Value": "Shoulder Bag"
+      },
+      {
+        "Name": "Color",
+        "Value": "Pink"
+      },
+      {
+        "Name": "Brand",
+        "Value": "Juicy Couture"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "272289849543",
+  "Storefront": {
+    "StoreName": "silverstore9251",
+    "StoreURL": "http://stores.ebay.com/id=1366856485"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "Description": "Restocking fee: No",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "RestockingFeeValue": "No",
+    "RestockingFeeValueOption": "NoRestockingFee",
+    "ShippingCostPaidBy": "Buyer"
+  },
+  "QuantitySoldByPickupInStore": "0",
+  "GalleryURL": "http://thumbs4.ebaystatic.com/pict/2722898495438080_1.jpg",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "true"
+}

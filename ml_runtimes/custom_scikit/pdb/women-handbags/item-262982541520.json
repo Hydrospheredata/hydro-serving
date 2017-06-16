@@ -1,0 +1,100 @@
+{
+  "PrimaryCategoryName": "Clothing, Shoes & Accessories:Women's Handbags & Bags:Briefcases & Laptop Bags",
+  "ConditionDisplayName": "New with tags",
+  "ConditionID": "1000",
+  "PrimaryCategoryIDPath": "11450:169291:169293",
+  "PaymentMethods": "PayPal",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-ooAAOSwfpVZFmPz/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/NaYAAOSwrhBZFmP1/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/wbQAAOSwxu5ZFmP3/$_1.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/SdYAAOSw-K9ZFmP6/$_1.JPG?set_id=8800005007"
+  ],
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/World-Traveler-Fashion-Print-Womens-Rolling-17-Inch-Laptop-Case-One-Size-/262982541520",
+  "ConvertedCurrentPrice": {
+    "value": "78.98",
+    "_currencyID": "USD"
+  },
+  "QuantitySold": "0",
+  "NewBestOffer": "false",
+  "Description": "World Traveler Fashion Print Women's Rolling 17-Inch Laptop Case Description Features: 100% PolyesterImported13.5\" high7\" wide600D heavy duty polyester construction, dual gusset design, lightweight body constructionSpacious top-zip main compartment fully padded, Velcro straps to properly secure laptops and a back compartment with fan fileAdjustable and removable shoulder strap, in-line skate wheels, and a multi-stage telescopic handle17 inch laptop pocket: 12 in h x 3 in w x 16 in l17 x 7 x 13.5 Product Details: Product Dimensions: 17 x 7 x 13.5 inchesShipping Weight: 5.8 poundsOrigin: ChinaItem model number: 812013-165B/W Handling We will ship all orders within 1 business day of payment. Shipping Once we have confirmed that your order was picked up by the shipping carrier, we will update the tracking information through eBay. Please make sure the shipping address is correct when checking out as the address cannot be changed after order is placed. We are unable to ship to Alaska, Hawaii, Puerto Rico, P.O. boxes, APO or FPO addresses. We are not responsible for incorrect address. Return Policy We allow returns that are processed within 30 days of receipt of the merchandise. Open software, music, games, movies, personal hygiene, and any food items products are not eligible for returns. Feedback We take our reputation seriously, we buy and sell online, so we understand the value of trust. If you are unsatisfied with your order, please contact us and we will work with you to resolve it to your satisfaction.",
+  "ExcludeShipToLocation": [
+    "Alaska/Hawaii",
+    "US Protectorates",
+    "APO/FPO",
+    "PO Box"
+  ],
+  "ListingStatus": "Active",
+  "CurrentPrice": {
+    "value": "78.98",
+    "_currencyID": "USD"
+  },
+  "ShipToLocations": [
+    "US"
+  ],
+  "Location": "US",
+  "Seller": {
+    "FeedbackScore": "270",
+    "PositiveFeedbackPercent": "99.3",
+    "FeedbackRatingStar": "Turquoise",
+    "UserID": "directsalebig"
+  },
+  "PrimaryCategoryID": "169293",
+  "QuantitySoldByPickupInStore": "0",
+  "ListingType": "FixedPriceItem",
+  "Title": "World Traveler Fashion Print Women's Rolling 17-Inch Laptop Case One Size",
+  "GlobalShipping": "false",
+  "Quantity": "1",
+  "StartTime": "2017-05-13T01:40:12.000Z",
+  "GalleryURL": "http://thumbs1.ebaystatic.com/pict/2629825415208080_1.jpg",
+  "TimeLeft": "P9DT10H36M13S",
+  "EndTime": "2017-06-12T01:40:12.000Z",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Name": "MPN",
+        "Value": "812013-165B/W"
+      },
+      {
+        "Name": "Color",
+        "Value": "Black White Chevron"
+      },
+      {
+        "Name": "Brand",
+        "Value": "World Traveler"
+      },
+      {
+        "Name": "UPC",
+        "Value": "813976024488"
+      },
+      {
+        "Name": "Size",
+        "Value": "One Size"
+      },
+      {
+        "Name": "EAN",
+        "Value": "0813976024488"
+      }
+    ]
+  },
+  "Site": "US",
+  "ItemID": "262982541520",
+  "Storefront": {
+    "StoreName": "directsalebig",
+    "StoreURL": "http://stores.ebay.com/id=1596804555"
+  },
+  "AutoPay": "true",
+  "BidCount": "0",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "Returns Accepted",
+    "ReturnsWithin": "30 Days",
+    "Description": "All returns accepted within 30 days after receiving the item, refund given as money back (no exchanges permitted)",
+    "Refund": "Money Back",
+    "ShippingCostPaidBy": "Seller"
+  },
+  "Country": "US",
+  "SKU": "B00VWKVC7C",
+  "HandlingTime": "1",
+  "BestOfferEnabled": "false"
+}

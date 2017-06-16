@@ -1,0 +1,86 @@
+{
+  "QuantitySold": "0",
+  "PostalCode": "44142",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "SecondaryCategoryIDPath": "281:14324:166739",
+  "GlobalShipping": "false",
+  "HandlingTime": "1",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Zunammy Black & Red Wristwatch with Black Silicon Strap ~ 10-G9229 Track Page Views WithAuctiva's FREE Counter",
+  "StartTime": "2017-04-10T14:06:00.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/OTE5WDEyODA=/z/0GgAAOSwU8hY4p3k/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODI3WDEyODA=/z/8TwAAOSwhQhY4p3k/$_1.JPG?set_id=880000500F",
+    "http://i.ebayimg.com/00/s/ODEzWDEyODA=/z/EGwAAOSwc-tY4p3k/$_1.JPG?set_id=880000500F"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Wristwatches",
+  "PrimaryCategoryID": "31387",
+  "Quantity": "1",
+  "SecondaryCategoryID": "166739",
+  "ItemSpecifics": {
+    "NameValueList": [
+      {
+        "Value": "Zunammy",
+        "Name": "Brand"
+      },
+      {
+        "Value": "Modern (2000-present)",
+        "Name": "Age"
+      },
+      {
+        "Value": "Does not apply",
+        "Name": "MPN"
+      }
+    ]
+  },
+  "Seller": {
+    "UserID": "qcggoods",
+    "FeedbackRatingStar": "PurpleShooting",
+    "FeedbackScore": "60401",
+    "TopRatedSeller": "true",
+    "PositiveFeedbackPercent": "99.9"
+  },
+  "HitCount": "34",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/3520273093218080_1.jpg",
+  "BestOfferEnabled": "true",
+  "EndTime": "2017-06-09T14:06:00.000Z",
+  "NewBestOffer": "false",
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "6.99"
+  },
+  "BidCount": "0",
+  "Country": "US",
+  "ShipToLocations": [
+    "Worldwide"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "TopRatedListing": "true",
+  "ReturnPolicy": {
+    "ReturnsWithin": "30 Days",
+    "ShippingCostPaidBy": "Buyer",
+    "Refund": "Money Back",
+    "ReturnsAccepted": "Returns Accepted"
+  },
+  "ListingType": "FixedPriceItem",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Zunammy-Black-Red-Wristwatch-Black-Silicon-Strap-10-G9229-/352027309321",
+  "Location": "Brook Park, Ohio",
+  "PrimaryCategoryIDPath": "281:14324:31387",
+  "Title": "Zunammy Black & Red Wristwatch with Black Silicon Strap ~ 10-G9229",
+  "Storefront": {
+    "StoreName": "qcggoods",
+    "StoreURL": "http://stores.ebay.com/id=172650837"
+  },
+  "ItemID": "352027309321",
+  "PaymentMethods": "PayPal",
+  "SecondaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Other Watches",
+  "TimeLeft": "P8DT20H13M20S"
+}

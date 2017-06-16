@@ -1,0 +1,72 @@
+{
+  "CurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.99"
+  },
+  "QuantitySold": "0",
+  "PostalCode": "32570",
+  "IntegratedMerchantCreditCardEnabled": "false",
+  "QuantitySoldByPickupInStore": "0",
+  "GlobalShipping": "false",
+  "HandlingTime": "3",
+  "ConditionDisplayName": "Pre-owned",
+  "Description": "Fossil Star Trek 30th Anniversary Pocket WatchNot Running Needs Battery",
+  "StartTime": "2017-05-31T05:47:44.000Z",
+  "PictureURL": [
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nDwAAOSwbYZXfDb5/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/W-IAAOSwZ1BXfDb9/$_57.JPG?set_id=8800005007",
+    "http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0wwAAOSweWVXfDcA/$_57.JPG?set_id=8800005007"
+  ],
+  "Site": "US",
+  "ConditionID": "3000",
+  "ConvertedCurrentPrice": {
+    "_currencyID": "USD",
+    "value": "99.99"
+  },
+  "PrimaryCategoryName": "Jewelry & Watches:Watches, Parts & Accessories:Pocket Watches:Modern",
+  "PrimaryCategoryID": "3938",
+  "Quantity": "1",
+  "Country": "US",
+  "ItemSpecifics": {
+    "NameValueList": {
+      "Value": "Fossil",
+      "Name": "Brand"
+    }
+  },
+  "Seller": {
+    "UserID": "tizmo1963",
+    "FeedbackRatingStar": "Red",
+    "FeedbackScore": "1517",
+    "PositiveFeedbackPercent": "100.0"
+  },
+  "HitCount": "2",
+  "GalleryURL": "http://thumbs2.ebaystatic.com/pict/2630125106618080_1.jpg",
+  "BestOfferEnabled": "false",
+  "EndTime": "2017-06-07T05:47:44.000Z",
+  "NewBestOffer": "false",
+  "MinimumToBid": {
+    "_currencyID": "USD",
+    "value": "99.99"
+  },
+  "BidCount": "0",
+  "ShipToLocations": [
+    "US"
+  ],
+  "ListingStatus": "Active",
+  "AutoPay": "false",
+  "ReturnPolicy": {
+    "ReturnsAccepted": "ReturnsNotAccepted"
+  },
+  "ListingType": "Chinese",
+  "ViewItemURLForNaturalSearch": "http://www.ebay.com/itm/Fossil-Star-Trek-30th-Anniversary-Pocket-Watch-/263012510661",
+  "Location": "Milton, Florida",
+  "PrimaryCategoryIDPath": "281:14324:3937:3938",
+  "Title": "Fossil Star Trek 30th Anniversary Pocket Watch",
+  "Storefront": {
+    "StoreName": "tizmo1963",
+    "StoreURL": "http://stores.ebay.com/id=312617"
+  },
+  "ItemID": "263012510661",
+  "PaymentMethods": "PayPal",
+  "TimeLeft": "P6DT11H14M28S"
+}
